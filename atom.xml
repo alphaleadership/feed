@@ -44,6 +44,8 @@
     
     <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
+    <category term="addresse postale" scheme="https://feed-blush.vercel.app/tags/addresse-postale/"/>
+    
   </entry>
   
   <entry>
@@ -73,6 +75,8 @@
     <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
     
     <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
+    
+    <category term="addresse postale" scheme="https://feed-blush.vercel.app/tags/addresse-postale/"/>
     
   </entry>
   
@@ -197,30 +201,6 @@
   </entry>
   
   <entry>
-    <title>Fédération Française De Force</title>
-    <link href="https://feed-blush.vercel.app/DVR78J/"/>
-    <id>https://feed-blush.vercel.app/DVR78J/</id>
-    <published>2025-01-13T23:00:00.000Z</published>
-    <updated>2025-01-30T12:10:38.084Z</updated>
-    
-    <content type="html"><![CDATA[<p>64 512 comptes</p>
-    	  <a href="https://bonjourlafuite.eu.org/#Fédération Française de Force-2025-01-14" target="_blank">source</a>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;64 512 comptes&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    <category term="Fédération Française de Force" scheme="https://feed-blush.vercel.app/category/Federation-Francaise-de-Force/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Fédération Française De Roller Skateboard</title>
     <link href="https://feed-blush.vercel.app/3FW98M5/"/>
     <id>https://feed-blush.vercel.app/3FW98M5/</id>
@@ -247,6 +227,30 @@
     <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
     
     <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Fédération Française De Force</title>
+    <link href="https://feed-blush.vercel.app/DVR78J/"/>
+    <id>https://feed-blush.vercel.app/DVR78J/</id>
+    <published>2025-01-13T23:00:00.000Z</published>
+    <updated>2025-01-30T12:10:38.084Z</updated>
+    
+    <content type="html"><![CDATA[<p>64 512 comptes</p>
+    	  <a href="https://bonjourlafuite.eu.org/#Fédération Française de Force-2025-01-14" target="_blank">source</a>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;64 512 comptes&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="Fédération Française de Force" scheme="https://feed-blush.vercel.app/category/Federation-Francaise-de-Force/"/>
+    
     
   </entry>
   
@@ -1014,35 +1018,6 @@
   </entry>
   
   <entry>
-    <title>Free</title>
-    <link href="https://feed-blush.vercel.app/3PHRVQP/"/>
-    <id>https://feed-blush.vercel.app/3PHRVQP/</id>
-    <published>2024-10-24T22:00:00.000Z</published>
-    <updated>2025-01-30T12:10:38.084Z</updated>
-    
-    <content type="html"><![CDATA[<p>nom<br>prénom<br>date de naissance<br>lieu de naissance<br>adresse email<br>adresse postale<br>IBAN<br>identifiant abonné<br>type d’offre souscrite<br>date de souscription<br>abonnement actif ou non</p>
-    	  <a href="https://bonjourlafuite.eu.org/#Free-2024-10-25" target="_blank">source</a>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;nom&lt;br&gt;prénom&lt;br&gt;date de naissance&lt;br&gt;lieu de naissance&lt;br&gt;adresse email&lt;br&gt;adresse postale&lt;br&gt;IBAN&lt;br&gt;identifiant abonné&lt;br&gt;type d’offre</summary>
-      
-    
-    
-    
-    <category term="Free" scheme="https://feed-blush.vercel.app/category/Free/"/>
-    
-    
-    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
-    
-    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
-    
-    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Free Mobile</title>
     <link href="https://feed-blush.vercel.app/1P9KRSR/"/>
     <id>https://feed-blush.vercel.app/1P9KRSR/</id>
@@ -1061,6 +1036,35 @@
     
     
     <category term="Free Mobile" scheme="https://feed-blush.vercel.app/category/Free-Mobile/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Free</title>
+    <link href="https://feed-blush.vercel.app/3PHRVQP/"/>
+    <id>https://feed-blush.vercel.app/3PHRVQP/</id>
+    <published>2024-10-24T22:00:00.000Z</published>
+    <updated>2025-01-30T12:10:38.084Z</updated>
+    
+    <content type="html"><![CDATA[<p>nom<br>prénom<br>date de naissance<br>lieu de naissance<br>adresse email<br>adresse postale<br>IBAN<br>identifiant abonné<br>type d’offre souscrite<br>date de souscription<br>abonnement actif ou non</p>
+    	  <a href="https://bonjourlafuite.eu.org/#Free-2024-10-25" target="_blank">source</a>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;nom&lt;br&gt;prénom&lt;br&gt;date de naissance&lt;br&gt;lieu de naissance&lt;br&gt;adresse email&lt;br&gt;adresse postale&lt;br&gt;IBAN&lt;br&gt;identifiant abonné&lt;br&gt;type d’offre</summary>
+      
+    
+    
+    
+    <category term="Free" scheme="https://feed-blush.vercel.app/category/Free/"/>
     
     
     <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
