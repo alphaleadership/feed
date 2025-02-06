@@ -24,10 +24,6 @@
             
             <tag> prénom </tag>
             
-            <tag> adresse email </tag>
-            
-            <tag> addresse postale </tag>
-            
         </tags>
       
     </entry>
@@ -54,10 +50,6 @@
             <tag> nom </tag>
             
             <tag> prénom </tag>
-            
-            <tag> adresse email </tag>
-            
-            <tag> addresse postale </tag>
             
         </tags>
       
@@ -86,8 +78,6 @@
             
             <tag> prénom </tag>
             
-            <tag> adresse email </tag>
-            
         </tags>
       
     </entry>
@@ -114,8 +104,6 @@
             <tag> nom </tag>
             
             <tag> prénom </tag>
-            
-            <tag> adresse email </tag>
             
         </tags>
       
@@ -144,8 +132,6 @@
             
             <tag> prénom </tag>
             
-            <tag> adresse email </tag>
-            
         </tags>
       
     </entry>
@@ -173,8 +159,6 @@
             
             <tag> prénom </tag>
             
-            <tag> adresse email </tag>
-            
         </tags>
       
     </entry>
@@ -201,8 +185,6 @@
             <tag> nom </tag>
             
             <tag> prénom </tag>
-            
-            <tag> adresse email </tag>
             
         </tags>
       
@@ -532,8 +514,6 @@
             
             <tag> prénom </tag>
             
-            <tag> adresse email </tag>
-            
         </tags>
       
     </entry>
@@ -560,8 +540,6 @@
             <tag> nom </tag>
             
             <tag> prénom </tag>
-            
-            <tag> adresse email </tag>
             
         </tags>
       
@@ -617,8 +595,6 @@
             
             <tag> prénom </tag>
             
-            <tag> adresse email </tag>
-            
         </tags>
       
     </entry>
@@ -645,8 +621,6 @@
             <tag> nom </tag>
             
             <tag> prénom </tag>
-            
-            <tag> adresse email </tag>
             
         </tags>
       
@@ -732,8 +706,6 @@
             
             <tag> prénom </tag>
             
-            <tag> adresse email </tag>
-            
         </tags>
       
     </entry>
@@ -758,8 +730,6 @@
         <tags>
             
             <tag> nom </tag>
-            
-            <tag> adresse email </tag>
             
         </tags>
       
@@ -813,8 +783,6 @@
             
             <tag> nom </tag>
             
-            <tag> adresse email </tag>
-            
         </tags>
       
     </entry>
@@ -841,8 +809,6 @@
             <tag> nom </tag>
             
             <tag> prénom </tag>
-            
-            <tag> adresse email </tag>
             
         </tags>
       
@@ -871,8 +837,6 @@
             
             <tag> prénom </tag>
             
-            <tag> adresse email </tag>
-            
         </tags>
       
     </entry>
@@ -899,37 +863,6 @@
             <tag> nom </tag>
             
             <tag> prénom </tag>
-            
-            <tag> adresse email </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Free Mobile</title>
-      <link href="/1P9KRSR/"/>
-      <url>/1P9KRSR/</url>
-      
-        <content type="html"><![CDATA[<p>nom<br>prénom<br>date de naissance<br>lieu de naissance<br>adresse email<br>adresse postale<br>identifiant abonné<br>type d’offre souscrite<br>date de souscription<br>abonnement actif ou non</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Free Mobile </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> nom </tag>
-            
-            <tag> prénom </tag>
-            
-            <tag> adresse email </tag>
             
         </tags>
       
@@ -958,7 +891,32 @@
             
             <tag> prénom </tag>
             
-            <tag> adresse email </tag>
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Free Mobile</title>
+      <link href="/1P9KRSR/"/>
+      <url>/1P9KRSR/</url>
+      
+        <content type="html"><![CDATA[<p>nom<br>prénom<br>date de naissance<br>lieu de naissance<br>adresse email<br>adresse postale<br>identifiant abonné<br>type d’offre souscrite<br>date de souscription<br>abonnement actif ou non</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Free Mobile </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
             
         </tags>
       
@@ -986,8 +944,6 @@
             <tag> nom </tag>
             
             <tag> prénom </tag>
-            
-            <tag> adresse email </tag>
             
         </tags>
       
@@ -1043,8 +999,6 @@
             
             <tag> prénom </tag>
             
-            <tag> adresse email </tag>
-            
         </tags>
       
     </entry>
@@ -1099,8 +1053,6 @@
             
             <tag> prénom </tag>
             
-            <tag> adresse email </tag>
-            
         </tags>
       
     </entry>
@@ -1127,8 +1079,6 @@
             <tag> nom </tag>
             
             <tag> prénom </tag>
-            
-            <tag> adresse email </tag>
             
         </tags>
       
@@ -1157,8 +1107,6 @@
             
             <tag> prénom </tag>
             
-            <tag> adresse email </tag>
-            
         </tags>
       
     </entry>
@@ -1185,8 +1133,6 @@
             <tag> nom </tag>
             
             <tag> prénom </tag>
-            
-            <tag> adresse email </tag>
             
         </tags>
       
@@ -1215,8 +1161,6 @@
             
             <tag> prénom </tag>
             
-            <tag> adresse email </tag>
-            
         </tags>
       
     </entry>
@@ -1244,8 +1188,6 @@
             
             <tag> prénom </tag>
             
-            <tag> adresse email </tag>
-            
         </tags>
       
     </entry>
@@ -1272,8 +1214,6 @@
             <tag> nom </tag>
             
             <tag> prénom </tag>
-            
-            <tag> adresse email </tag>
             
         </tags>
       
@@ -1353,8 +1293,6 @@
         <tags>
             
             <tag> nom </tag>
-            
-            <tag> adresse email </tag>
             
         </tags>
       
