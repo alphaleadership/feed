@@ -29,7 +29,10 @@ parser.parseURL(rssUrl)
         const config = yaml.load(configContent);
         const buildContent = fs.readFileSync(buildFilePath, 'utf8');
         const build = yaml.load(buildContent);
-        config.category_map=config.category_map.filter((item)=>{return item===item.LowerCase()})
+        config.category_map=config.category_map.filter((item)=>{
+          console.log(item===item.toLowerCase())
+
+          return item===item.toLowerCase()})
         if (!config.category_map) {
           config.category_map = [];
         }if(! config.category_map.includes(Dir.toLowerCase())){
