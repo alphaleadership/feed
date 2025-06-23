@@ -34,7 +34,9 @@ parser.parseURL(rssUrl)
           config.category_map = [];
         }if(! config.category_map.includes(Dir.toLowerCase())){
           console.log(Dir.toLowerCase())
-        config.category_map.push(Dir.toLowerCase());}
+        config.category_map.push(Dir.toLowerCase());
+        config.category_map=config.category_map.filter((item)=>{return item===item.toLowerCase()})
+      }
          if(!fs.existsSync(path.join(PostDir,l(item.link)))){
           fs.mkdirSync(path.join(PostDir,l(item.link)))
         }
@@ -46,7 +48,7 @@ parser.parseURL(rssUrl)
       const postFilePath = path.join(hexoPostDir, postFileName);
         //console.log(item)
       if (!fs.existsSync(postFilePath)) {
-        consolr.log(postTitle)
+        console.log(postTitle)
         const postContentHexo = `---
 title: ${postTitle.replace("#","")}
 date: ${new Date(item.pubDate).getFullYear()}-${new Date(item.pubDate).getMonth()+1}-${new Date(item.pubDate).getDate()}
