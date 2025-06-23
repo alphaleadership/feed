@@ -30,7 +30,7 @@ parser.parseURL(rssUrl)
         const build = yaml.load(buildContent);
         if (!config.category_map) {
           config.category_map = [];
-        }if(! config.category_map.includes(Dir)){
+        }if(! config.category_map.includes(Dir.toLowerCase())){
         config.category_map.push(Dir);}
          if(!fs.existsSync(path.join(PostDir,l(item.link)))){
           fs.mkdirSync(path.join(PostDir,l(item.link)))
@@ -47,7 +47,8 @@ parser.parseURL(rssUrl)
 title: ${postTitle.replace("#","")}
 date: ${new Date(item.pubDate).getFullYear()}-${new Date(item.pubDate).getMonth()+1}-${new Date(item.pubDate).getDate()}
 lien: "${item.link}"
-
+categories:
+  - ${Dir.toLowerCase()}
 ---
 
 ${parsecontent(item.contentSnippet,',',"\n")||"pas d'information actuellement"}
