@@ -2,7 +2,8 @@
 title: lanssi-publie-son-plan-strategique-2025-2027
 date: 2025-3-6
 lien: "https://cyber.gouv.fr/actualites/lanssi-publie-son-plan-strategique-2025-2027"
-
+categories:
+  - lanssi
 ---
 
 L’ANSSI publie son plan stratégique 2025-2027

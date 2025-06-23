@@ -2,7 +2,8 @@
 title: publication-de-la-4e-edition-de-lobservatoire-des-metiers-2025
 date: 2025-6-9
 lien: "https://cyber.gouv.fr/actualites/publication-de-la-4e-edition-de-lobservatoire-des-metiers-2025"
-
+categories:
+  - publication
 ---
 
 Publication de la 4e édition de l’Observatoire des métiers 2025
@@ -75,7 +76,7 @@ Les résultats de l’étude 2025 menée sur le marché du travail des professio
 
 Cette seconde enquête
 réalisée à partir d’un un outil d’agrégation
-a permis de quantifier et d’analyser plus de 23 000 offres offres d’emploi publiées entre juin 2023 et juin 2024
+a permis de quantifier et d’analyser plus de 23 000 offres d’emploi publiées entre juin 2023 et juin 2024
 dans le domaine de la cybersécurité
 en France. L’objectif ? Identifier les grandes tendances du marché
 notamment les types d’offres
@@ -96,6 +97,20 @@ Le niveau de qualification reste élevé avec 40 % des offres qui requièrent un
     
 
   
+
+
+              
+
+
+
+
+
+  
+
+                            
+
+
+                  
 
 
               

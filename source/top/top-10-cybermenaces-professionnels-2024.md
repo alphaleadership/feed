@@ -2,7 +2,8 @@
 title: top-10-cybermenaces-professionnels-2024
 date: 2025-6-2
 lien: "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/top-10-cybermenaces-professionnels-2024"
-
+categories:
+  - top
 ---
 
 Hameçonnage

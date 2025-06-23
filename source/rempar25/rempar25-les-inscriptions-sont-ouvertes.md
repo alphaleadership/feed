@@ -2,7 +2,8 @@
 title: rempar25-les-inscriptions-sont-ouvertes
 date: 2025-3-28
 lien: "https://cyber.gouv.fr/actualites/rempar25-les-inscriptions-sont-ouvertes"
-
+categories:
+  - rempar25
 ---
 
 REMPAR25 : les inscriptions sont ouvertes !
@@ -33,7 +34,7 @@ pour ceux qui en disposent.
 
 Cet exercice de crise de niveau stratégique et opérationnel
 s'adresse à toutes les organisations
-quel que soit leur maturité en gestion de crise cyber
+quelle que soit leur maturité en gestion de crise cyber
 leur taille et leur secteur d'activité. Déployée dans tous les territoires
 cette nouvelle édition offre la possibilité de participer dans toute la France.
 

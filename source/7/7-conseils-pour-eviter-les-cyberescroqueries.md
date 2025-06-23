@@ -1,8 +1,9 @@
 ---
 title: 7-conseils-pour-eviter-les-cyberescroqueries
-date: 2024-12-15
+date: 2025-6-5
 lien: "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/7-conseils-pour-eviter-les-cyberescroqueries"
-
+categories:
+  - 7
 ---
 
 Durant les périodes promotionnelles

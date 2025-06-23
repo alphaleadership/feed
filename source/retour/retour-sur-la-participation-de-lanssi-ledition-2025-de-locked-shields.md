@@ -2,7 +2,8 @@
 title: retour-sur-la-participation-de-lanssi-ledition-2025-de-locked-shields
 date: 2025-5-14
 lien: "https://cyber.gouv.fr/actualites/retour-sur-la-participation-de-lanssi-ledition-2025-de-locked-shields"
-
+categories:
+  - retour
 ---
 
 Retour sur la participation de l’ANSSI à l’édition 2025 de Locked Shields

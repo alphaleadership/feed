@@ -2,7 +2,8 @@
 title: appel-commentaires-sur-le-vote-par-internet-pour-les-elections-non-politiques-clos
 date: 2025-3-10
 lien: "https://cyber.gouv.fr/actualites/appel-commentaires-sur-le-vote-par-internet-pour-les-elections-non-politiques-clos"
-
+categories:
+  - appel
 ---
 
 Appel à commentaires sur le vote par internet pour les élections non politiques [CLOS]

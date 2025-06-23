@@ -2,7 +2,8 @@
 title: le-centre-de-certification-de-lanssi-emet-ses-premiers-certificats-eucc
 date: 2025-4-3
 lien: "https://cyber.gouv.fr/actualites/le-centre-de-certification-de-lanssi-emet-ses-premiers-certificats-eucc"
-
+categories:
+  - le
 ---
 
 Le centre de certification de l’ANSSI émet ses premiers certificats EUCC 

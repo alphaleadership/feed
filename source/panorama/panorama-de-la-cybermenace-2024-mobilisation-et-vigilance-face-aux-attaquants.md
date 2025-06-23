@@ -2,7 +2,8 @@
 title: panorama-de-la-cybermenace-2024-mobilisation-et-vigilance-face-aux-attaquants
 date: 2025-3-11
 lien: "https://cyber.gouv.fr/actualites/panorama-de-la-cybermenace-2024-mobilisation-et-vigilance-face-aux-attaquants"
-
+categories:
+  - panorama
 ---
 
 Panorama de la cybermenace 2024 : mobilisation et vigilance face aux attaquants

@@ -2,7 +2,8 @@
 title: lalgorithme-haetae-laureat-de-la-competition-coreenne-de-cryptographie-post-quantique
 date: 2025-2-6
 lien: "https://cyber.gouv.fr/actualites/lalgorithme-haetae-laureat-de-la-competition-coreenne-de-cryptographie-post-quantique"
-
+categories:
+  - lalgorithme
 ---
 
 L’algorithme HAETAE lauréat de la compétition coréenne de cryptographie post-quantique

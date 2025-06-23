@@ -2,7 +2,8 @@
 title: lanssi-lance-son-offre-de-services-messervicescyber
 date: 2025-4-2
 lien: "https://cyber.gouv.fr/actualites/lanssi-lance-son-offre-de-services-messervicescyber"
-
+categories:
+  - lanssi
 ---
 
 L’ANSSI lance son offre de services : MesServicesCyber 

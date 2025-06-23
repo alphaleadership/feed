@@ -2,7 +2,8 @@
 title: Espace-Recettes.fr Vorwerk-2025-02-06
 date: 2025-2-6
 lien: "https://bonjourlafuite.eu.org/#Espace-Recettes.fr Vorwerk-2025-02-06"
-
+categories:
+  - espace
 ---
 
 nom complet

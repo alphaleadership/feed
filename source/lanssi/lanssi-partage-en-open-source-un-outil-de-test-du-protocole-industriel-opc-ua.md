@@ -2,7 +2,8 @@
 title: lanssi-partage-en-open-source-un-outil-de-test-du-protocole-industriel-opc-ua
 date: 2025-3-20
 lien: "https://cyber.gouv.fr/actualites/lanssi-partage-en-open-source-un-outil-de-test-du-protocole-industriel-opc-ua"
-
+categories:
+  - lanssi
 ---
 
 L’ANSSI partage en open source un outil de test du protocole industriel OPC UA

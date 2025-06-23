@@ -1,8 +1,9 @@
 ---
 title: lettres-d-information
-date: 2025-4-3
+date: 2025-6-5
 lien: "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/lettres-d-information"
-
+categories:
+  - lettres
 ---
 
 Actualités

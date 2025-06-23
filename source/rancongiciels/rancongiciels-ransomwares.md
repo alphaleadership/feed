@@ -2,7 +2,8 @@
 title: rancongiciels-ransomwares
 date: 2025-6-3
 lien: "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/rancongiciels-ransomwares"
-
+categories:
+  - rancongiciels
 ---
 
 Une attaque par rançongiciel vise à bloquer l’accès à un équipement ou un système

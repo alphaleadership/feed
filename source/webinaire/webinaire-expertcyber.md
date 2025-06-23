@@ -2,7 +2,8 @@
 title: webinaire-expertcyber
 date: 2025-6-5
 lien: "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/webinaire-expertcyber"
-
+categories:
+  - webinaire
 ---
 
 Organisé le 3 juin 2025

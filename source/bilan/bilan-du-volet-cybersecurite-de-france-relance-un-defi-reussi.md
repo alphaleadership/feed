@@ -2,7 +2,8 @@
 title: bilan-du-volet-cybersecurite-de-france-relance-un-defi-reussi
 date: 2025-4-28
 lien: "https://cyber.gouv.fr/actualites/bilan-du-volet-cybersecurite-de-france-relance-un-defi-reussi"
-
+categories:
+  - bilan
 ---
 
 Bilan du volet cybersécurité de France Relance : un défi réussi 

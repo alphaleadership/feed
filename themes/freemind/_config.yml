@@ -27,7 +27,10 @@ menu:
     url: archives
     intro: "All the articles."
     icon: "fa fa-archive"
- 
+  - title: catégorie
+    url: category
+    intro: "toute les catégorie "
+    icon: "fa fa-archive"
 
 links:
   - title: code

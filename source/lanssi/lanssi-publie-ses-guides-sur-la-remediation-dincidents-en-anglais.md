@@ -2,7 +2,8 @@
 title: lanssi-publie-ses-guides-sur-la-remediation-dincidents-en-anglais
 date: 2025-4-16
 lien: "https://cyber.gouv.fr/actualites/lanssi-publie-ses-guides-sur-la-remediation-dincidents-en-anglais"
-
+categories:
+  - lanssi
 ---
 
 L’ANSSI publie ses guides sur la remédiation d’incidents en anglais

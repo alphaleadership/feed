@@ -2,7 +2,8 @@
 title: lanssi-vous-donne-rendez-vous-au-forum-incyber-2025
 date: 2025-3-26
 lien: "https://cyber.gouv.fr/actualites/lanssi-vous-donne-rendez-vous-au-forum-incyber-2025"
-
+categories:
+  - lanssi
 ---
 
 L’ANSSI vous donne rendez-vous au Forum InCyber 2025 !

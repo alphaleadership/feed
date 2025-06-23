@@ -2,7 +2,8 @@
 title: le-france-cybersecurity-challenge-sacheve
 date: 2025-4-28
 lien: "https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-sacheve"
-
+categories:
+  - le
 ---
 
 Le France Cybersecurity challenge s'achève
