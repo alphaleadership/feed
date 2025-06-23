@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "npm update &&npm install hexo-generator-search @vercel/analytics @vercel/speed-insights hexo-abbrlink3 && npm update &&npm run clean &&node index  && node indexator&& npm run clean && hexo generate && cp -r source/.well-known/ public/.well-known/ ",
+    "build": "npm update &&npm install hexo-generator-search @vercel/analytics @vercel/speed-insights hexo-abbrlink3 && npm update &&npm run clean &&node index  && node indexator&& npm run clean && hexo generate  ",
     "clean": "hexo clean",
     "deploy": "hexo deploy --config build.yml",
     "server": "hexo server"
