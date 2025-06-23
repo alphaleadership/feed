@@ -28,10 +28,12 @@ parser.parseURL(rssUrl)
         const config = yaml.load(configContent);
         const buildContent = fs.readFileSync(buildFilePath, 'utf8');
         const build = yaml.load(buildContent);
+
         if (!config.category_map) {
           config.category_map = [];
         }if(! config.category_map.includes(Dir.toLowerCase())){
-        config.category_map.push(Dir);}
+          console.log(Dir.toLowerCase())
+        config.category_map.push(Dir.toLowerCase());}
          if(!fs.existsSync(path.join(PostDir,l(item.link)))){
           fs.mkdirSync(path.join(PostDir,l(item.link)))
         }

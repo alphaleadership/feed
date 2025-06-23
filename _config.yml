@@ -6,11 +6,10 @@ author: arbinger
 language: fr
 timezone: ''
 url: https://feed-blush.vercel.app/
-root: https://feed-blush.vercel.app/
 permalink: ':abbrlink/'
 permalink_defaults: null
 category_generator:
-  per_page: 1
+  per_page: 0
   order_by: '-date'
   enable_index_page: true
 tag_generator:
@@ -72,4 +71,129 @@ exclude: null
 ignore: null
 theme: freemind
 category_map:
-  - CVE
+  - cve
+  - publication
+  - retrouvez
+  - webinaire
+  - '7'
+  - lettres
+  - cybermois
+  - rancongiciel
+  - rancongiciels
+  - kaviari
+  - cartier
+  - top
+  - autosur
+  - retour
+  - pulsy
+  - dior
+  - '2024'
+  - syzygy
+  - le
+  - bilan
+  - carrefour mobile
+  - easy cash
+  - indigo
+  - etat
+  - lanssi
+  - hertz
+  - afflelou
+  - harvest
+  - strategie
+  - utwin
+  - csirt
+  - reporterre
+  - rempar25
+  - maif  bpce
+  - rapport
+  - oracle cloud
+  - centrale nantes
+  - cerballiance
+  - cactus
+  - appel
+  - autosur  diagnosur
+  - intersport
+  - éclaireuses et éclaireurs de france
+  - laforêt
+  - panorama
+  - expertcyber
+  - la poste
+  - côté sushi
+  - école nationale de la sécurité
+  - zephir
+  - edf dpih
+  - nord emploi
+  - fédération française de foot
+  - service départemental d'incendie et de secours de la vienne
+  - sommet
+  - sport découverte
+  - mutuelle des motards
+  - chronopost
+  - caisse des dépôts et des consignations
+  - campagne
+  - king jouet
+  - lalgorithme
+  - espace
+  - aides
+  - e.leclerc
+  - fédération française montagne escalade
+  - fédération française de la montagne et de l'escalade
+  - prenezlaconfiance
+  - alertecyber
+  - alerte
+  - fédération française de tir à l'arc
+  - kiabi
+  - fédération française de roller skateboard
+  - fédération française de force
+  - ecti
+  - cogitis
+  - atos
+  - arsoé
+  - volkswagen
+  - peugeot
+  - cyberhaven
+  - wakanim
+  - sport 2000
+  - go sport
+  - electro dépôt
+  - 17cyber
+  - module
+  - lancement
+  - top achat
+  - deloitte
+  - guy demarle
+  - norauto
+  - ze camping
+  - jvs
+  - sfr
+  - banque de france
+  - companie de transport strasbourgeoise
+  - chambres d’agriculture
+  - auchan
+  - mediboard
+  - direct assurance
+  - cp
+  - le point
+  - huttopia
+  - molotov
+  - picard
+  - violation
+  - free mobile
+  - free
+  - ornikar
+  - numeum
+  - culture
+  - action
+  - meilleurtaux
+  - red by sfr
+  - assurance retraite
+  - cybertek
+  - cultura
+  - boulanger
+  - ticketmaster
+  - le slip français
+  - france travail
+  - ldlc
+  - almerys
+  - ' viamedis'
+  - dailymotion
