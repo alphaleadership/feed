@@ -71,3 +71,5 @@ include: null
 exclude: null
 ignore: null
 theme: freemind
+category_map:
+  - CVE
