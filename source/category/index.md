@@ -1,4 +1,4 @@
 ---
 title: about
-layout: category
+layout: categories
 ---
