@@ -29,13 +29,13 @@ parser.parseURL(rssUrl)
         const config = yaml.load(configContent);
         const buildContent = fs.readFileSync(buildFilePath, 'utf8');
         const build = yaml.load(buildContent);
-
+        config.category_map=config.category_map.filter((item)=>{return item===item.toLowerCase()})
         if (!config.category_map) {
           config.category_map = [];
         }if(! config.category_map.includes(Dir.toLowerCase())){
           console.log(Dir.toLowerCase())
         config.category_map.push(Dir.toLowerCase());
-        config.category_map=config.category_map.filter((item)=>{return item===item.toLowerCase()})
+        
       }
          if(!fs.existsSync(path.join(PostDir,l(item.link)))){
           fs.mkdirSync(path.join(PostDir,l(item.link)))
