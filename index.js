@@ -18,7 +18,8 @@ const l=(title)=>{
 }
 parser.parseURL(rssUrl)
   .then(feed => {
-    feed.items.forEach(item => {
+    feed.items.forEach((item,i) => {
+      console.log(i)
       const postTitle = item.link.split('/').pop();
       postTitle.split("-")[0].replace("#",'').split(",").map((Dir)=>{
         const yaml = require('js-yaml');
@@ -45,6 +46,7 @@ parser.parseURL(rssUrl)
       const postFilePath = path.join(hexoPostDir, postFileName);
         //console.log(item)
       if (!fs.existsSync(postFilePath)) {
+        consolr.log(postTitle)
         const postContentHexo = `---
 title: ${postTitle.replace("#","")}
 date: ${new Date(item.pubDate).getFullYear()}-${new Date(item.pubDate).getMonth()+1}-${new Date(item.pubDate).getDate()}
