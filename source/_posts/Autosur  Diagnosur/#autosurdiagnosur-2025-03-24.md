@@ -4,6 +4,7 @@ date: 2025-3-24
 lien: "https://bonjourlafuite.eu.org/#Autosur  Diagnosur-2025-03-24"
 categories:
   - autosur  diagnosur
+  - autosur
 ---
 
 nom

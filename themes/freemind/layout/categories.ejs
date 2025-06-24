@@ -6,7 +6,7 @@
 <div class="categories-wrapper">
   <h2 class="list-header"><%= site.categories.length || 0 %> Categories </h2>
   <ul class="list-group category-wrapper">
-    <% site.categories.filter(item=>item.name.toLowerCase()==item.name).sort((a, b) => a.posts.length - b.posts.length).each(function(category) { %>
+    <% site.categories.filter(item=>item.name.toLowerCase()==item.name).sort((a, b) => a.length - b.length).each(function(category) { %>
       <li class="list-group-item">
         <a class="category" href="<%= url_for(category.path) %>">
           <%= category.name %>
