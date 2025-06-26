@@ -1982,9 +1982,9 @@ type-is@~1.6.18:
     mime-types "~2.1.24"
 
 undici@^7.10.0:
-  version "7.10.0"
-  resolved "https://registry.npmjs.org/undici/-/undici-7.10.0.tgz"
-  integrity sha512-u5otvFBOBZvmdjWLVW+5DAc9Nkq8f24g0O9oY7qw2JVIF1VocIFoyz9JFkuVOS2j41AufeO0xnlweJ2RLT8nGw==
+  version "7.11.0"
+  resolved "https://registry.npmjs.org/undici/-/undici-7.11.0.tgz"
+  integrity sha512-heTSIac3iLhsmZhUCjyS3JQEkZELateufzZuBaVM5RHXdSBMb1LPMQf5x+FH7qjsZYDP0ttAc3nnVpUB+wYbOg==
 
 unpipe@~1.0.0, unpipe@1.0.0:
   version "1.0.0"
