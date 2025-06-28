@@ -407,9 +407,9 @@ css-select@^5.1.0:
     nth-check "^2.1.1"
 
 css-what@^6.1.0:
-  version "6.1.0"
-  resolved "https://registry.npmjs.org/css-what/-/css-what-6.1.0.tgz"
-  integrity sha512-HTUrgRJ7r4dsZKU6GjmpfRK1O76h97Z8MfS1G0FozR+oF2kG6Vfe8JE6zwrkbxigziPHinCJ+gCPjA9EaBDtRw==
+  version "6.2.0"
+  resolved "https://registry.npmjs.org/css-what/-/css-what-6.2.0.tgz"
+  integrity sha512-NSY/JWiKu0Fa0cPpOJ16FuRKu9vf+tHYJiUpaz5+QNIDssAz8yJK+G6PWoeVg/2qcfcTHl6oW0ApFLZw9JWRTw==
 
 cssstyle@^4.1.0:
   version "4.6.0"
