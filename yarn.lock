@@ -396,9 +396,9 @@ crypt@0.0.2:
   integrity sha512-mCxBlsHFYh9C+HVpiEacem8FEBnMXgU9gy4zmNC+SXAZNB/1idgp/aulFJ4FgCi7GPEVbfyng092GqL2k2rmow==
 
 css-select@^5.1.0:
-  version "5.2.0"
-  resolved "https://registry.npmjs.org/css-select/-/css-select-5.2.0.tgz"
-  integrity sha512-nyYonlVcUl2MZCxgz2vdnIiYyS19+/YkN8419EilJuKf0CQpstmooD0heW26aBfQPloHYZXRZJpg9C001npNZA==
+  version "5.2.1"
+  resolved "https://registry.npmjs.org/css-select/-/css-select-5.2.1.tgz"
+  integrity sha512-O5tBe98mNUxm2ovZAqJ6uZqo1qVWrKAMQMf9uTK+M321MKKYX+cOORH3xvu17tYRuRM3mjJclcp/y4PNoI3U/A==
   dependencies:
     boolbase "^1.0.0"
     css-what "^6.1.0"
@@ -407,9 +407,9 @@ css-select@^5.1.0:
     nth-check "^2.1.1"
 
 css-what@^6.1.0:
-  version "6.2.0"
-  resolved "https://registry.npmjs.org/css-what/-/css-what-6.2.0.tgz"
-  integrity sha512-NSY/JWiKu0Fa0cPpOJ16FuRKu9vf+tHYJiUpaz5+QNIDssAz8yJK+G6PWoeVg/2qcfcTHl6oW0ApFLZw9JWRTw==
+  version "6.2.1"
+  resolved "https://registry.npmjs.org/css-what/-/css-what-6.2.1.tgz"
+  integrity sha512-efV3anJ1n8GGohPAXF3IVg0wu0AUyBN9px4Giwy7DeQVzzMmNTdo9TtOCJlyoprjNb6Szb/M1kxP86DNFimPIQ==
 
 cssstyle@^4.1.0:
   version "4.6.0"
@@ -879,9 +879,9 @@ hexo-enhancer@^1.0.10:
     moment-timezone "^0.5.23"
 
 hexo-everyday-calendar@^1.3.12:
-  version "1.3.12"
-  resolved "https://registry.npmjs.org/hexo-everyday-calendar/-/hexo-everyday-calendar-1.3.12.tgz"
-  integrity sha512-eNTSbKtb+pQ+x+0aRGLs11jUCZHOems0/zXDIg9u6yCc8966YxwOvBDglVVx5g1M87CaFsCUGBh6aFbsKjfbHw==
+  version "1.3.13"
+  resolved "https://registry.npmjs.org/hexo-everyday-calendar/-/hexo-everyday-calendar-1.3.13.tgz"
+  integrity sha512-vjT76IYw6/Zfz/NORvyOFN+Cf4CQI0J2BgS3b9AykG9eHnFDco8AwA6uZ+2iuPe4phhiaFbJhRhDLyVzFiHatg==
 
 hexo-front-matter@^1.0.0:
   version "1.0.0"
@@ -1071,7 +1071,7 @@ hexo-util@^3.0.1, hexo-util@^3.1.0, hexo-util@^3.3.0:
     prismjs "^1.29.0"
     strip-indent "^3.0.0"
 
-hexo@^7.0.0, hexo@^7.3.0:
+hexo@^7.3.0:
   version "7.3.0"
   resolved "https://registry.npmjs.org/hexo/-/hexo-7.3.0.tgz"
   integrity sha512-dOe8mzBKrvjubW5oBmyhcnQDpC+M2xmAMLae5K+o+SkHxyvAhShkS2VQZoTsOLIJKY6xilv7dzCjCvE7ol/NHQ==
