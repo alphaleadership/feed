@@ -1,2 +1,2 @@
-/*console.log(hexo)
-hexo.extend.processor.register("preprocessor", (app) => {console.log(app)})*/
+/*//consolelog(hexo)
+hexo.extend.processor.register("preprocessor", (app) => {//consolelog(app)})*/
