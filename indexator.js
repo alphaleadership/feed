@@ -94,4 +94,4 @@ function walkDir(dir) {
     }
 }
 
-walkDir(directoryPath);
+//walkDir(directoryPath);
