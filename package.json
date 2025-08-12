@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "npm install && npm run clean && node index.js && node indexator.js && hexo generate",
+    "build": " node index.js && node indexator.js ",
     "clean": "hexo clean",
     "deploy": "hexo deploy --config build.yml",
     "server": "hexo server"
