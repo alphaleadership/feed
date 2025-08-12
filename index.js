@@ -21,7 +21,7 @@ const l = (title) => {
   if (title.includes("bonjourlafuite")) {
     return "_posts"
   } else {
-    return "../"
+    return "../_posts"
   }
 }
 
