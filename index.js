@@ -57,7 +57,7 @@ parser.parseURL(rssUrl)
         if (!fs.existsSync(postFilePath)) {
           const rawContent = parsecontent(item.contentSnippet, ',', "\n") || "pas d'information actuellement";
           const cleanContent = removeNunjucks(rawContent);
-          const postContentHexo = `--- 
+          const postContentHexo = ` 
 title: ${postTitle.replace("#", "")}
 date: ${new Date(item.pubDate).getFullYear()}-${new Date(item.pubDate).getMonth()+1}-${new Date(item.pubDate).getDate()}
 lien: "${item.link}"
