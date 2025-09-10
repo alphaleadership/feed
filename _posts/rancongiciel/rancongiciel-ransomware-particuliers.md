@@ -1,4 +1,4 @@
---- 
+ 
 title: rancongiciel-ransomware-particuliers
 date: 2025-6-3
 lien: "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/rancongiciel-ransomware-particuliers"

@@ -1,4 +1,4 @@
---- 
+ 
 title: cra-lanssi-encourage-limplication-dorganismes-devaluation-de-la-conformite
 date: 2025-7-24
 lien: "https://cyber.gouv.fr/actualites/cra-lanssi-encourage-limplication-dorganismes-devaluation-de-la-conformite"

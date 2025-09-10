@@ -1,4 +1,4 @@
---- 
+ 
 title: lanssi-publie-son-rapport-dactivite-2024
 date: 2025-4-15
 lien: "https://cyber.gouv.fr/actualites/lanssi-publie-son-rapport-dactivite-2024"

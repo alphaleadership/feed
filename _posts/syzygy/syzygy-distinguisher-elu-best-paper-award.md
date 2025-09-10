@@ -1,4 +1,4 @@
---- 
+ 
 title: syzygy-distinguisher-elu-best-paper-award
 date: 2025-5-5
 lien: "https://cyber.gouv.fr/actualites/syzygy-distinguisher-elu-best-paper-award"

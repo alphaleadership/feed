@@ -1,4 +1,4 @@
---- 
+ 
 title: le-france-cybersecurity-challenge-fcsc-demarre-aujourdhui
 date: 2025-4-21
 lien: "https://cyber.gouv.fr/actualites/le-france-cybersecurity-challenge-fcsc-demarre-aujourdhui"

@@ -1,4 +1,4 @@
---- 
+ 
 title: 2024-violations-donnees-personnelles
 date: 2025-5-6
 lien: "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/2024-violations-donnees-personnelles"

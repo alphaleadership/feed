@@ -1,4 +1,4 @@
---- 
+ 
 title: alertecyber-failles-securite-critiques-microsoft-sharepoint
 date: 2025-7-24
 lien: "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/alertecyber-failles-securite-critiques-microsoft-sharepoint"

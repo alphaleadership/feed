@@ -1,4 +1,4 @@
----
+ 
 title: Hôpital privé de la Loire-2025-06-21
 date: 2025-6-21
 lien: "https://bonjourlafuite.eu.org/#Hôpital privé de la Loire-2025-06-21"
