@@ -54,7 +54,7 @@ parser.parseURL(rssUrl)
         }
       const postFileName = `${postTitle.replace(/ /g, '').replace('\n', '').toLowerCase()}.md`;
       const postFilePath = path.join(hexoPostDir, postFileName);
-        if (!fs.existsSync(postFilePath)) {
+        if (true) {
           const rawContent = parsecontent(item.contentSnippet, ',', "\n") || "pas d'information actuellement";
           const cleanContent = removeNunjucks(rawContent);
           const postContentHexo = ` 
