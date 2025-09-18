@@ -8,5 +8,8 @@ categories:
 
 nom
 prénom
+genre
 adresse postale
 adresse mail
+date et lieu de naissance et de décès
+numéro de téléphone
