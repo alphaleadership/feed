@@ -27,39 +27,40 @@ const l = (title) => {
 
 parser.parseURL(rssUrl).then(feed => {
   feed.items.forEach((item) => {
+    // Extraction entreprise et date depuis le titre
     const postTitle = item.link.split('/').pop();
     const pubDate = new Date(item.pubDate);
     const dateStr = `${pubDate.getFullYear()}-${pubDate.getMonth() + 1}-${pubDate.getDate()}`;
 
-    // entreprise(s) = partie avant le "#"
-    postTitle.split("-")[0].replace("#", '').split(",").map((Dir) => {
+    // Plusieurs entreprises possibles séparées par ","
+    const entreprises = postTitle.split("-")[0].replace("#", '').split(",");
+
+    entreprises.forEach((DirRaw) => {
+      const Dir = DirRaw.trim().toLowerCase();
+
+      // --- Chargement des fichiers de config
       const configFilePath = './_config.yml';
       const buildFilePath = './build.yml';
-      const configContent = fs.readFileSync(configFilePath, 'utf8');
-      const config = yaml.load(configContent);
-      const buildContent = fs.readFileSync(buildFilePath, 'utf8');
-      const build = yaml.load(buildContent);
+      const config = yaml.load(fs.readFileSync(configFilePath, 'utf8'));
+      const build = yaml.load(fs.readFileSync(buildFilePath, 'utf8'));
 
-      // --- Gestion des catégories ---
-      if (!config.category_map) {
-        config.category_map = [];
-      }
-      if (!config.category_map.includes(Dir.toLowerCase())) {
-        config.category_map.push(Dir.toLowerCase());
+      // --- Gestion des catégories
+      if (!config.category_map) config.category_map = [];
+      if (!config.category_map.includes(Dir)) {
+        config.category_map.push(Dir);
       }
 
-      // --- Arborescence ---
+      // --- Arborescence
       const hexoPostDir = path.join(PostDir, l(item.link), Dir);
       if (!fs.existsSync(hexoPostDir)) {
         fs.mkdirSync(hexoPostDir, { recursive: true });
       }
 
-      // --- Nom du fichier avec entreprise#date ---
-      const safeTitle = postTitle.replace(/ /g, '').replace('\n', '').toLowerCase();
-      const postFileName = `${Dir.toLowerCase()}#${dateStr}.md`;
+      // --- Nom fichier entreprise#date.md
+      const postFileName = `${Dir}#${dateStr}.md`;
       const postFilePath = path.join(hexoPostDir, postFileName);
 
-      // --- Génération du contenu ---
+      // --- Contenu du post
       const rawContent = parsecontent(item.contentSnippet, ',', "\n") || "pas d'information actuellement";
       const cleanContent = removeNunjucks(rawContent);
 
@@ -68,13 +69,13 @@ title: ${Dir} fuite du ${dateStr}
 date: ${dateStr}
 lien: "${item.link}"
 categories:
-  - ${Dir.toLowerCase()}
+  - ${Dir}
 ---
 
 ${cleanContent}
 `;
 
-      // --- Mise à jour configs ---
+      // --- Mise à jour config
       let tags = config.tags ? config.tags.split(",") : [];
       config.tags = [...new Set(tags)].join(",");
       build.tags = config.tags;
@@ -82,13 +83,17 @@ ${cleanContent}
       fs.writeFileSync(configFilePath, yaml.dump(config));
       fs.writeFileSync(buildFilePath, yaml.dump(build));
 
-      // --- Création ou mise à jour du fichier ---
+      // --- Création ou mise à jour du fichier
       if (!fs.existsSync(postFilePath)) {
         fs.writeFileSync(postFilePath, postContentHexo);
+        console.log(`✅ Nouveau fichier créé : ${postFileName}`);
       } else {
         const existingContent = fs.readFileSync(postFilePath, 'utf8');
         if (existingContent !== postContentHexo) {
           fs.writeFileSync(postFilePath, postContentHexo);
+          console.log(`✏️ Fichier mis à jour : ${postFileName}`);
+        } else {
+          console.log(`⏩ Fichier inchangé : ${postFileName}`);
         }
       }
     });
