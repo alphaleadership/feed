@@ -1,0 +1,18 @@
+ 
+title: maif  bpce fuite du 2025-3-28
+date: 2025-3-28
+lien: "https://bonjourlafuite.eu.org/#MAIF  BPCE-2025-03-28"
+categories:
+  - maif  bpce
+---
+
+nom
+genre
+date de naissance
+situation matrimoniale et professionnelle
+adresse postale
+adresse email
+numéro de téléphone
+revenus
+patrimoine
+numéro de sociétaire
