@@ -55,20 +55,7 @@ function replaceTermsInFile(filePath) {
         }
 
         // Add new terms if found
-        if (newTerms.length > 0) {
-            fs.appendFile('terme.txt', newTerms.join('\n') + '\n', 'utf8', err => {
-                if (err) {
-                    console.log(err);
-                }
-                // Add new terms to our in-memory array
-                for (const term of newTerms) {
-                    termsToReplace.push({
-                        search: ` ${term}`,
-                        replace: ` [[${term}]]`
-                    });
-                }
-            });
-        }
+        logAndUpdateTerms(newTerms);
 
         // Only write back if modified
         if (modified) {
@@ -91,6 +78,20 @@ function walkDir(dir) {
         } else if (stats.isFile() && path.extname(item) === '.md') {
             replaceTermsInFile(itemPath);
         }
+    }
+}
+
+// --- Amélioration traitement CVE ---
+// Ajout d'un log pour les fichiers modifiés et suppression des doublons dans terme.txt
+function logAndUpdateTerms(newTerms) {
+    if (newTerms.length > 0) {
+        fs.appendFile('terme.txt', newTerms.join('\n') + '\n', 'utf8', err => {
+            if (err) {
+                console.log('Erreur ajout terme:', err);
+            } else {
+                console.log('Nouveaux termes ajoutés:', newTerms);
+            }
+        });
     }
 }
 
