@@ -26,51 +26,56 @@ const l = (title) => {
 };
 
 parser.parseURL(rssUrl).then(feed => {
-  // Regroupement par entreprise et date
-  const postsMap = {};
-  feed.items.forEach((item) => {
-    const postTitle = item.link.split('/').pop();
-    const pubDate = new Date(item.pubDate);
-    const dateStr = `${pubDate.getFullYear()}-${pubDate.getMonth() + 1}-${pubDate.getDate()}`;
-    const entreprises = postTitle.split("-")[0].replace("#", '').split(",");
-    entreprises.forEach((DirRaw) => {
-      const Dir = DirRaw.trim().toLowerCase();
-      const key = `${Dir}#${dateStr}`;
-      if (!postsMap[key]) postsMap[key] = [];
-      postsMap[key].push(item);
-    });
-  });
-
-  // Création des posts Hexo
-  Object.entries(postsMap).forEach(([key, items]) => {
-    const [Dir, dateStr] = key.split('#');
-    const hexoPostDir = path.join(PostDir, l(items[0].link), Dir);
-    if (!fs.existsSync(hexoPostDir)) {
-      fs.mkdirSync(hexoPostDir, { recursive: true });
-    }
-    items.forEach((item, idx) => {
-      // --- Chargement des fichiers de config
-      const configFilePath = './_config.yml';
-      const buildFilePath = './build.yml';
-      const config = yaml.load(fs.readFileSync(configFilePath, 'utf8'));
-      const build = yaml.load(fs.readFileSync(buildFilePath, 'utf8'));
-      if (!config.category_map) config.category_map = [];
-      if (!config.category_map.includes(Dir)) {
-        config.category_map.push(Dir);
+  try {
+    // Regroupement par entreprise et date
+    const postsMap = {};
+    feed.items.forEach((item) => {
+      try {
+        const postTitle = item.link.split('/').pop();
+        const pubDate = new Date(item.pubDate);
+        const dateStr = `${pubDate.getFullYear()}-${pubDate.getMonth() + 1}-${pubDate.getDate()}`;
+        const entreprises = postTitle.split("-")[0].replace("#", '').split(",");
+        entreprises.forEach((DirRaw) => {
+          const Dir = DirRaw.trim().toLowerCase();
+          const key = `${Dir}#${dateStr}`;
+          if (!postsMap[key]) postsMap[key] = [];
+          postsMap[key].push(item);
+        });
+      } catch (itemErr) {
+        console.log('Erreur parsing item:', itemErr.message);
       }
-      let tags = config.tags ? config.tags.split(",") : [];
-      config.tags = [...new Set(tags)].join(",");
-      build.tags = config.tags;
-      fs.writeFileSync(configFilePath, yaml.dump(config));
-      fs.writeFileSync(buildFilePath, yaml.dump(build));
-      // --- Nom fichier : sans index si une seule fuite, avec index sinon
-      const postFileName = items.length === 1 ? `${Dir}#${dateStr}.md` : `${Dir}#${dateStr}#${idx+1}.md`;
-      const postFilePath = path.join(hexoPostDir, postFileName);
-      // --- Contenu du post
-      const rawContent = parsecontent(item.contentSnippet, ',', "\n") || "pas d'information actuellement";
-      const cleanContent = removeNunjucks(rawContent);
-      let autresFuites = items.length > 1 ? '\n\nAutres fuites ce jour :\n' + items.map((it, i) => i !== idx ? `- [${it.link}](${it.link})` : '').filter(Boolean).join('\n') : '';
-      const postContentHexo = ` 
+    });
+    // Création des posts Hexo
+    Object.entries(postsMap).forEach(([key, items]) => {
+      const [Dir, dateStr] = key.split('#');
+      const hexoPostDir = path.join(PostDir, l(items[0].link), Dir);
+      if (!fs.existsSync(hexoPostDir)) {
+        fs.mkdirSync(hexoPostDir, { recursive: true });
+      }
+      items.forEach((item, idx) => {
+        try {
+          // --- Chargement des fichiers de config
+          const configFilePath = './_config.yml';
+          const buildFilePath = './build.yml';
+          const config = yaml.load(fs.readFileSync(configFilePath, 'utf8'));
+          const build = yaml.load(fs.readFileSync(buildFilePath, 'utf8'));
+          if (!config.category_map) config.category_map = [];
+          if (!config.category_map.includes(Dir)) {
+            config.category_map.push(Dir);
+          }
+          let tags = config.tags ? config.tags.split(",") : [];
+          config.tags = [...new Set(tags)].join(",");
+          build.tags = config.tags;
+          fs.writeFileSync(configFilePath, yaml.dump(config));
+          fs.writeFileSync(buildFilePath, yaml.dump(build));
+          // --- Nom fichier : sans index si une seule fuite, avec index sinon
+          const postFileName = items.length === 1 ? `${Dir}#${dateStr}.md` : `${Dir}#${dateStr}#${idx+1}.md`;
+          const postFilePath = path.join(hexoPostDir, postFileName);
+          // --- Contenu du post
+          const rawContent = parsecontent(item.contentSnippet, ',', "\n") || "pas d'information actuellement";
+          const cleanContent = removeNunjucks(rawContent);
+          let autresFuites = items.length > 1 ? '\n\nAutres fuites ce jour :\n' + items.map((it, i) => i !== idx ? `- [${it.link}](${it.link})` : '').filter(Boolean).join('\n') : '';
+          const postContentHexo = ` 
 title: ${Dir} fuite du ${dateStr}
 date: ${dateStr}
 lien: "${item.link}"
@@ -81,21 +86,29 @@ categories:
 ${cleanContent}
 ${autresFuites}
 `;
-      // --- Création ou mise à jour du fichier
-      if (!fs.existsSync(postFilePath)) {
-        fs.writeFileSync(postFilePath, postContentHexo);
-        console.log(`✅ Nouveau fichier créé : ${postFileName}`);
-      } else {
-        const existingContent = fs.readFileSync(postFilePath, 'utf8');
-        if (existingContent !== postContentHexo) {
-          fs.writeFileSync(postFilePath, postContentHexo);
-          console.log(`✏️ Fichier mis à jour : ${postFileName}`);
-        } else {
-          console.log(`⏩ Fichier inchangé : ${postFileName}`);
+          // --- Création ou mise à jour du fichier
+          if (!fs.existsSync(postFilePath)) {
+            fs.writeFileSync(postFilePath, postContentHexo);
+            console.log(`✅ Nouveau fichier créé : ${postFileName}`);
+          } else {
+            const existingContent = fs.readFileSync(postFilePath, 'utf8');
+            if (existingContent !== postContentHexo) {
+              fs.writeFileSync(postFilePath, postContentHexo);
+              console.log(`✏️ Fichier mis à jour : ${postFileName}`);
+            } else {
+              console.log(`⏩ Fichier inchangé : ${postFileName}`);
+            }
+          }
+        } catch (fileErr) {
+          console.log('Erreur création post:', fileErr.message);
         }
-      }
+      });
     });
-  });
+  } catch (feedErr) {
+    console.log('Erreur parsing feed:', feedErr.message);
+  }
+}).catch((err) => {
+  console.log('Erreur récupération RSS:', err.message);
 });
 
 // --- Amélioration affichage moderne ---
