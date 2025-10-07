@@ -63,13 +63,12 @@ parser.parseURL(rssUrl).then(feed => {
       build.tags = config.tags;
       fs.writeFileSync(configFilePath, yaml.dump(config));
       fs.writeFileSync(buildFilePath, yaml.dump(build));
-      // --- Nom fichier entreprise#date#idx.md pour unicité
-      const postFileName = `${Dir}#${dateStr}#${idx+1}.md`;
+      // --- Nom fichier : sans index si une seule fuite, avec index sinon
+      const postFileName = items.length === 1 ? `${Dir}#${dateStr}.md` : `${Dir}#${dateStr}#${idx+1}.md`;
       const postFilePath = path.join(hexoPostDir, postFileName);
       // --- Contenu du post
       const rawContent = parsecontent(item.contentSnippet, ',', "\n") || "pas d'information actuellement";
       const cleanContent = removeNunjucks(rawContent);
-      // Liste des autres fuites du même jour pour cette entreprise
       let autresFuites = items.length > 1 ? '\n\nAutres fuites ce jour :\n' + items.map((it, i) => i !== idx ? `- [${it.link}](${it.link})` : '').filter(Boolean).join('\n') : '';
       const postContentHexo = ` 
 title: ${Dir} fuite du ${dateStr}
