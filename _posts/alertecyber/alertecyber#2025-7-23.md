@@ -9,3 +9,4 @@ categories:
 Failles de sécurité critiques dans Microsoft SharePoint   Date de l’alerte : 23/07/2025     Risques     Espionnage
 vol
 voire destruction de vos données suite à la prise de contrôle à distance de vos équipements concernés.  …
+

@@ -10,3 +10,4 @@ Quelles cybermenaces ont affecté les particuliers en 2024 ? Hameçonnage
 piratage de compte
 arnaque au faux support technique
 violation de données… Découvrez les principales tendances et évolutions ciblant le grand public dans notre dernier rapport d’activité.
+

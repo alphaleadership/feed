@@ -16,3 +16,4 @@ identifiant abonné
 type d’offre souscrite
 date de souscription
 abonnement actif ou non
+

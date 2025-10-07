@@ -10,3 +10,4 @@ données d’identité
 données médicales
 coordonnées de contact
 information de régime de sécurité sociale et de mutuelle
+

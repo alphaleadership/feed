@@ -16,3 +16,4 @@ numéro de téléphone
 revenus
 patrimoine
 numéro de sociétaire
+
