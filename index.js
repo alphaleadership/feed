@@ -27,9 +27,11 @@ const l = (title) => {
 
 parser.parseURL(rssUrl).then(feed => {
   try {
+    // Filtrage des doublons avant toute opération
+    const uniqueItems = filterDisplayItems(feed.items);
     // Regroupement par entreprise et date
     const postsMap = {};
-    feed.items.forEach((item) => {
+    uniqueItems.forEach((item) => {
       try {
         const postTitle = item.link.split('/').pop();
         const pubDate = new Date(item.pubDate);
@@ -136,4 +138,18 @@ function escapeHTML(str) {
   });
 }
 
-// ... Utiliser cette fonction lors de l'affichage des posts ...
+// --- Filtrage des doublons pour l'affichage ---
+function filterDisplayItems(items) {
+  const seen = new Set();
+  return items.filter(item => {
+    const key = (item.guid || item.link || item.title).trim();
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+// ... Utiliser filterDisplayItems avant toute boucle d'affichage ...
+// Par exemple :
+// const uniqueItems = filterDisplayItems(feed.items)
+// uniqueItems.forEach(...)
