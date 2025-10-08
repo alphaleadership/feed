@@ -44,7 +44,7 @@ des Finances et de la Souveraineté industrielle et numérique
 la direction numérique des ministères de l’Aménagement du territoire et de la Transition écologique
 la direction numérique du ministère de l’Agriculture et de la souveraineté alimentaire
 l’Institut national de l’information géographique et forestière
-de mettre en avant six grandes thématiques pour cette édition 2025 :
+de mettre en avant six grandes thématiques pour cette édition 2025 :
 
 
 Identité numérique
@@ -88,7 +88,7 @@ Vendredi 13 juin 2025 - 10h30 et 16h00
 Samedi 14 juin - 10h30
 
 
-La suite Cyber : l’offre de service numérique cyber souverain
+La suite Cyber : l’offre de service numérique cyber souverain
 
 
 Jeudi 12 juin 2025 - 14h00

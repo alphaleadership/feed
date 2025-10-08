@@ -76,9 +76,9 @@ Les résultats de l’étude 2025 menée sur le marché du travail des professio
 
 Cette seconde enquête
 réalisée à partir d’un un outil d’agrégation
-a permis de quantifier et d’analyser plus de 23 000 offres d’emploi publiées entre juin 2023 et juin 2024
+a permis de quantifier et d’analyser plus de 23 000 offres d’emploi publiées entre juin 2023 et juin 2024
 dans le domaine de la cybersécurité
-en France. L’objectif ? Identifier les grandes tendances du marché
+en France. L’objectif ? Identifier les grandes tendances du marché
 notamment les types d’offres
 le niveau de qualifications attendu ou encore la localisation des offres.
 

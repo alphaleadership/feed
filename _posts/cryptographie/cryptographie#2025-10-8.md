@@ -32,7 +32,7 @@ en faveur d’une mobilisation collective pour répondre à un enjeu majeur de l
 Une transition vers la cryptographie post-quantique non-optionnelle
 
 Avec l’arrivée prévisible des ordinateurs quantiques
-les infrastructures numériques reposant sur la cryptographie asymétrique feront face à un effondrement de leur sécurité. À l’heure où la menace d’attaques rétroactives est déjà constituée
+les infrastructures numériques reposant sur la cryptographie asymétrique feront face à un effondrement de leur sécurité. À l’heure où la menace d’attaques rétroactives est déjà constituée
 il apparaît essentiel de se prémunir dès à présent. Pour faire face
 l’ANSSI a lancé ses travaux pour préparer la transition vers la cryptographie post-quantique
 dont la réussite est un enjeu majeur de la prochaine décennie.
@@ -56,12 +56,12 @@ avec qui elle partage l’avancée de ses travaux et collabore dans le cadre de 
 Un accompagnement renforcé de l’écosystème dans la transition vers le post-quantique
 
 Après des premiers travaux sur la migration vers la PQC publiés en 2022 puis enrichis fin 2023
-l’ANSSI poursuit ses travaux en vue d’offrir des orientations réalistes et actionnables de transition post-quantique à travers deux grands axes de travail :
+l’ANSSI poursuit ses travaux en vue d’offrir des orientations réalistes et actionnables de transition post-quantique à travers deux grands axes de travail :
 
 
-Garantir la mise à disposition d’une offre de produits PQC de confiance sur le marché : La transition ne peut se faire sans la disponibilité de produits certifiés/qualifiés par l’ANSSI ;
+Garantir la mise à disposition d’une offre de produits PQC de confiance sur le marché : La transition ne peut se faire sans la disponibilité de produits certifiés/qualifiés par l’ANSSI ;
 
-Accompagner la transition post-quantique des bénéficiaires : L’Agence incite à ce que les cas d'usage identifiés comme critiques dans le travail d’inventaire des organisations publiques et privées
+Accompagner la transition post-quantique des bénéficiaires : L’Agence incite à ce que les cas d'usage identifiés comme critiques dans le travail d’inventaire des organisations publiques et privées
 soient les premiers à être pris en compte. De plus
 les enjeux PQC doivent être pris en compte dans le cycle de renouvellement des systèmes d'information
 afin que la transition soit anticipée et avec des coûts maîtrisés.
