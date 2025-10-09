@@ -6,7 +6,5 @@ categories:
   - oracle cloud
 ---
 
-authentification LDAP
-serveur SSO
-clefs d’authentification
+]]>
 

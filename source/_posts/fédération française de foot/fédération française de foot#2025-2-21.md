@@ -6,14 +6,5 @@ categories:
   - fédération française de foot
 ---
 
-nom
-prénom
-genre
-date et lieu de naissance
-nationalité
-adresse postale
-adresse email
-numéro de téléphone
-photo
-copie du justificatif d’identité
+]]>
 

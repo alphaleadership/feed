@@ -6,5 +6,5 @@ categories:
   - deloitte
 ---
 
-pas d'information actuellement
+]]>
 

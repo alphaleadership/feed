@@ -6,8 +6,5 @@ categories:
   - bouygues telecom
 ---
 
-coordonnées
-données contractuelles
-état civil
-IBAN
+]]>
 

@@ -6,6 +6,5 @@ categories:
   - pandora
 ---
 
-nom
-adresse email
+]]>
 

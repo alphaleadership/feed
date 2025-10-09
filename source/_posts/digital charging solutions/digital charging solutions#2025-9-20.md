@@ -6,6 +6,5 @@ categories:
   - digital charging solutions
 ---
 
-nom
-adresse mail
+]]>
 

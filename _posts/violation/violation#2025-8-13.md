@@ -6,5 +6,5 @@ categories:
   - violation
 ---
 
-L’opérateur de télécommunications Bouygues Telecom a été victime d’une attaque informatique qui a conduit à la violation de données à caractère personnel de certains de ses clients Grand Public dont une partie détenant un numéro SIREN. Il est à noter que les clients de la…
+]]>
 

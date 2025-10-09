@@ -6,8 +6,5 @@ categories:
   - reporterre
 ---
 
-nom
-prénom
-adresse courriel
-adresse postale
+]]>
 

@@ -6,5 +6,5 @@ categories:
   - alertecyber
 ---
 
-Cybermalveillance.gouv.fr déclenche ce jour une nouvelle AlerteCyber concernant deux failles de sécurité critiques dans Microsoft SharePoint. Il est primordial de les corriger le plus rapidement possible en mettant à jour les systèmes concernés pour réduire les risques d’une cyberattaque.
+]]>
 

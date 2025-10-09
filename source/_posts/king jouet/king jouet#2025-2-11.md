@@ -6,9 +6,5 @@ categories:
   - king jouet
 ---
 
-nom
-prénom
-email
-numéro de téléphone
-détail de la commande
+]]>
 

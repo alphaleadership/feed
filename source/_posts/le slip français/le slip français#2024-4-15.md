@@ -6,10 +6,5 @@ categories:
   - le slip français
 ---
 
-nom
-prénom
-téléphones
-adresse postale
-adresse email
-numéros de commandes
+]]>
 

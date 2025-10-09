@@ -6,12 +6,5 @@ categories:
   - fédération française de tir à l'arc
 ---
 
-nom
-prénom
-sexe
-date de naissance
-adresse postale
-téléphone
-adresse email
-photo de profil
+]]>
 

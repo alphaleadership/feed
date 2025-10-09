@@ -6,12 +6,5 @@ categories:
   - cerballiance
 ---
 
-nom
-prénom
-date de naissance
-adresse postale
-numéro de sécurité sociale
-régime de mutuelle
-caisse de mutuelle
-date de fin de droit
+]]>
 

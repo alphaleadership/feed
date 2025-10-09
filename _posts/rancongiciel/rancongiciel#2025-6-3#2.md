@@ -7,7 +7,7 @@ categories:
 ---
 
 Un rançongiciel ou ransomware est un logiciel malveillant ou virus qui bloque l’accès à l’ordinateur ou à ses fichiers et qui réclame à la victime le paiement d’une rançon pour en obtenir de nouveau l’accès. Que faire en cas de ransomware ? Isoler les équipements touchés
-ne pas…
+ne pas…]]>
 
 
 Autres fuites ce jour :

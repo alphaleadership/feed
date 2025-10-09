@@ -6,9 +6,5 @@ categories:
   - chronopost
 ---
 
-nom
-prénom
-numéro de téléphone
-adresse
-signature
+]]>
 

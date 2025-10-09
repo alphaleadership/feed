@@ -6,18 +6,5 @@ categories:
   - école nationale de la sécurité
 ---
 
-civilité
-nom
-prénom
-date de naissance
-adresse
-téléphone
-email
-ville et payes de naissance
-nationalité
-numéro de sécurité sociale
-numéro Pôle Emploi
-numéro carte VTC
-diplôme
-niveau d’étude
+]]>
 

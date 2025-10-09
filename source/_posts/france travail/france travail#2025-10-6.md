@@ -6,11 +6,5 @@ categories:
   - france travail
 ---
 
-nom
-prénom
-identifiant France Travail
-catégorie d’inscription
-adresse mail
-statut RSA
-identifiant CIR
+]]>
 

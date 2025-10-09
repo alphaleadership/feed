@@ -6,15 +6,5 @@ categories:
   - kaviari
 ---
 
-nom
-prénom
-genre
-date de naissance
-adresse mail
-adresse postale
-numéro de téléphone
-identifiant
-mot de passe
-numéro client
-historique des commandes
+]]>
 

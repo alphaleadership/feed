@@ -6,8 +6,5 @@ categories:
   - centrale nantes
 ---
 
-rapports & projets privés
-login et hash des mots de passe utilisateurs
-code sources
-documents administratifs
+]]>
 

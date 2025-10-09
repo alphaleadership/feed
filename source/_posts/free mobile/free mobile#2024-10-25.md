@@ -6,14 +6,5 @@ categories:
   - free mobile
 ---
 
-nom
-prénom
-date de naissance
-lieu de naissance
-adresse email
-adresse postale
-identifiant abonné
-type d’offre souscrite
-date de souscription
-abonnement actif ou non
+]]>
 

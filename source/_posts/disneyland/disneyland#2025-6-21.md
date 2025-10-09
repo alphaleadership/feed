@@ -6,5 +6,5 @@ categories:
   - disneyland
 ---
 
-64Go
+]]>
 

@@ -6,7 +6,5 @@ categories:
   - easy cash
 ---
 
-nom
-prénom
-date de naissance
+]]>
 

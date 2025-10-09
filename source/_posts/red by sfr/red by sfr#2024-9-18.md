@@ -6,13 +6,5 @@ categories:
   - red by sfr
 ---
 
-nom
-prénom
-adresse email
-adresse postale
-numéro de téléphone
-IBAN
-type de forfait
-identifiant de la carte SIM
-identifiant du smartphone
+]]>
 

@@ -6,5 +6,5 @@ categories:
   - cybermois
 ---
 
-pas d'information actuellement
+]]>
 

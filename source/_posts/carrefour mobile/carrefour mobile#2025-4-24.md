@@ -6,9 +6,5 @@ categories:
   - carrefour mobile
 ---
 
-numéro de téléphone
-adresse email
-mot de passe
-adresse
-numéro de passeport
+]]>
 
