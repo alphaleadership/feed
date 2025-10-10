@@ -6,5 +6,5 @@ categories:
   - france link interactive
 ---
 
-]]>
+ransomware
 

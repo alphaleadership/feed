@@ -6,5 +6,10 @@ categories:
   - la poste
 ---
 
-]]>
+nom
+prénom
+email
+adresse postale
+année de naissance
+numéro de téléphone
 

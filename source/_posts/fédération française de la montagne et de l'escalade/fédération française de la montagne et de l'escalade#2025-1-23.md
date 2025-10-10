@@ -6,5 +6,11 @@ categories:
   - fédération française de la montagne et de l'escalade
 ---
 
-]]>
+nom
+prénom
+sexe
+date de naissance
+adresse postale
+téléphone
+adresse email
 

@@ -6,5 +6,11 @@ categories:
   - ze camping
 ---
 
-]]>
+nom
+prénom
+login
+mot de passe hashé
+date de naissance
+téléphone
+adresse postale
 

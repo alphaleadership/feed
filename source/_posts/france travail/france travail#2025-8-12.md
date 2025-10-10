@@ -6,5 +6,9 @@ categories:
   - france travail
 ---
 
-]]>
+nom
+prénom
+adresse email
+numéro de téléphone
+identifiant technique
 

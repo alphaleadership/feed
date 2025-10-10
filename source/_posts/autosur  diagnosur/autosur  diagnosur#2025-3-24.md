@@ -6,5 +6,9 @@ categories:
   - autosur  diagnosur
 ---
 
-]]>
+nom
+prénom
+adresse email et postale
+numéro de téléphone
+place d’immatriculation
 

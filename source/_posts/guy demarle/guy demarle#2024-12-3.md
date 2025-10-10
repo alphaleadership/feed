@@ -6,5 +6,9 @@ categories:
   - guy demarle
 ---
 
-]]>
+nom
+prénom
+adresse postale
+adresse email
+numéro de téléphone
 

@@ -6,5 +6,14 @@ categories:
   - maif  bpce
 ---
 
-]]>
+nom
+genre
+date de naissance
+situation matrimoniale et professionnelle
+adresse postale
+adresse email
+numéro de téléphone
+revenus
+patrimoine
+numéro de sociétaire
 

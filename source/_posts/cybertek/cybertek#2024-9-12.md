@@ -6,5 +6,9 @@ categories:
   - cybertek
 ---
 
-]]>
+nom
+prénom
+adresse email
+adresse postale
+numéro de téléphone
 

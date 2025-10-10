@@ -6,5 +6,9 @@ categories:
   - mutuelle des motards
 ---
 
-]]>
+nom
+prénom
+adresse email
+numéro de téléphone
+code postal
 

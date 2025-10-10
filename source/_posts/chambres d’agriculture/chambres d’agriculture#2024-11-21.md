@@ -6,5 +6,5 @@ categories:
   - chambres d’agriculture
 ---
 
-]]>
+pas d'information actuellement
 

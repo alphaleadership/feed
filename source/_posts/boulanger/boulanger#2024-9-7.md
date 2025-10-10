@@ -6,5 +6,9 @@ categories:
   - boulanger
 ---
 
-]]>
+nom
+prénom
+adresse email
+adresse postale
+numéro de téléphone
 

@@ -6,5 +6,11 @@ categories:
   - france travail
 ---
 
-]]>
+nom
+prénom
+numéro de sécurité sociale
+adresse email
+adresse postale
+numéro de téléphone
+identifiants France Travail
 

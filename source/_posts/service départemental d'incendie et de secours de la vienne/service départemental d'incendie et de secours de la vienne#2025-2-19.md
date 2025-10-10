@@ -6,5 +6,7 @@ categories:
   - service départemental d'incendie et de secours de la vienne
 ---
 
-]]>
+login
+mot de passe hashé
+email
 

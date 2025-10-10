@@ -6,5 +6,9 @@ categories:
   - sport découverte
 ---
 
-]]>
+nom
+prénom
+date de naissance
+numéro de téléphone
+adresse mail
 

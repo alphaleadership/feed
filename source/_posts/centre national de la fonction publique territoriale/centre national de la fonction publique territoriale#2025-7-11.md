@@ -6,5 +6,13 @@ categories:
   - centre national de la fonction publique territoriale
 ---
 
-]]>
+pièce d’identité
+IBAN
+carte vitale
+contrat de travail
+situation administrative
+justificatif de retraite
+attestation sur l’honneur
+diplôme
+CV
 

@@ -6,5 +6,5 @@ categories:
   - direct assurance
 ---
 
-]]>
+pas d'information actuellement
 
