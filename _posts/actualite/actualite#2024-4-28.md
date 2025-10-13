@@ -1,0 +1,17 @@
+ 
+title: actualite fuite du 2024-4-28
+date: 2024-4-28
+lien: "https://www.clubic.com/actualite-528357-millions-de-clients-ticketmaster-pirates-le-geant-mondial-de-la-vente-de-billets-dans-la-tourmente.html"
+categories:
+  - actualite
+---
+
+nom
+prénom
+adresse email
+adresse postale
+numéro de téléphone
+distorique des transactions
+détails des commandes
+informations bancaires (4 derniers numéros de la carte enregistrée et date d’expiration)
+
