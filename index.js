@@ -80,7 +80,7 @@ parser.parseURL(rssUrl).then(feed => {
           const postContentHexo = ` 
 title: ${Dir} fuite du ${dateStr}
 date: ${dateStr}
-lien: "${item.link}"
+lien: "${item.source}"
 categories:
   - ${Dir}
 ---
