@@ -1,7 +1,7 @@
  
 title: france travail fuite du 2025-10-6
 date: 2025-10-6
-lien: "https://bonjourlafuite.eu.org/#France Travail-2025-10-06"
+lien: "undefined"
 categories:
   - france travail
 ---

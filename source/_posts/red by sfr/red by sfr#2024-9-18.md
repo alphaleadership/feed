@@ -1,7 +1,7 @@
  
 title: red by sfr fuite du 2024-9-18
 date: 2024-9-18
-lien: "https://bonjourlafuite.eu.org/#RED by SFR-2024-09-18"
+lien: "undefined"
 categories:
   - red by sfr
 ---
