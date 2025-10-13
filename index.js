@@ -76,6 +76,7 @@ parser.parseURL(rssUrl).then(feed => {
           // --- Contenu du post
           const rawContent = parsecontent(item.contentSnippet, ',', "\n") || "pas d'information actuellement";
           const cleanContent = removeNunjucks(rawContent);
+          console.log(item)
           let autresFuites = items.length > 1 ? '\n\nAutres fuites ce jour :\n' + items.map((it, i) => i !== idx ? `- [${it.link}](${it.link})` : '').filter(Boolean).join('\n') : '';
           const postContentHexo = ` 
 title: ${Dir} fuite du ${dateStr}
