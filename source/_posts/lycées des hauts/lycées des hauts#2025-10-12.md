@@ -1,7 +1,7 @@
  
 title: lycées des hauts fuite du 2025-10-12
 date: 2025-10-12
-lien: "undefined"
+lien: "Sun Oct 12 2025 02:00:00 GMT+0200 (heure d’été d’Europe centrale)"
 categories:
   - lycées des hauts
 ---

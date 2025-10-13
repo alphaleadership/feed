@@ -1,7 +1,7 @@
  
 title: cybertek fuite du 2024-9-12
 date: 2024-9-12
-lien: "undefined"
+lien: "Thu Sep 12 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)"
 categories:
   - cybertek
 ---

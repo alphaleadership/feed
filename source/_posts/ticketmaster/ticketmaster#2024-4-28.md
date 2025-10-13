@@ -1,7 +1,7 @@
  
 title: ticketmaster fuite du 2024-4-28
 date: 2024-4-28
-lien: "undefined"
+lien: "Sun Apr 28 2024 02:00:00 GMT+0200 (heure d’été d’Europe centrale)"
 categories:
   - ticketmaster
 ---

@@ -1,7 +1,7 @@
  
 title: easy cash fuite du 2025-4-22
 date: 2025-4-22
-lien: "undefined"
+lien: "Tue Apr 22 2025 02:00:00 GMT+0200 (heure d’été d’Europe centrale)"
 categories:
   - easy cash
 ---

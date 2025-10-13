@@ -1,7 +1,7 @@
  
 title: fédération française de tennis de table fuite du 2025-9-19
 date: 2025-9-19
-lien: "undefined"
+lien: "Fri Sep 19 2025 02:00:00 GMT+0200 (heure d’été d’Europe centrale)"
 categories:
   - fédération française de tennis de table
 ---

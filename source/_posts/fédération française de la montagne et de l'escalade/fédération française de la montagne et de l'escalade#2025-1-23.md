@@ -1,7 +1,7 @@
  
 title: fédération française de la montagne et de l'escalade fuite du 2025-1-23
 date: 2025-1-23
-lien: "undefined"
+lien: "Thu Jan 23 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)"
 categories:
   - fédération française de la montagne et de l'escalade
 ---

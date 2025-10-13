@@ -1,7 +1,7 @@
  
 title: fédération française de foot fuite du 2025-2-21
 date: 2025-2-21
-lien: "undefined"
+lien: "Fri Feb 21 2025 01:00:00 GMT+0100 (heure normale d’Europe centrale)"
 categories:
   - fédération française de foot
 ---
