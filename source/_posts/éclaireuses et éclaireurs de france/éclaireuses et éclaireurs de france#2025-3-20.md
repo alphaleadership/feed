@@ -1,7 +1,7 @@
  
 title: éclaireuses et éclaireurs de france fuite du 2025-3-20
 date: 2025-3-20
-lien: "https://bonjourlafuite.eu.org/#Éclaireuses et Éclaireurs de France-2025-03-20"
+lien: "https://bonjourlafuite.eu.orgimg/scoutsdefrance.jpg"
 categories:
   - éclaireuses et éclaireurs de france
 ---
@@ -14,3 +14,4 @@ adresse
 profession
 email
 téléphone fixe et mobile
+
