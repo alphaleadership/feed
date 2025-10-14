@@ -1,10 +1,10 @@
-<div class="widget card shadow-sm mb-4">
-  <div class="card-header bg-dark text-white d-flex align-items-center">
-    <i class="bi bi-rss me-2"></i>
-    <h5 class="mb-0 flex-grow-1">RSS</h5>
+<div class="widget card border-0 shadow-lg mb-4 bg-gradient">
+  <div class="card-header bg-dark text-white d-flex align-items-center border-0">
+    <i class="bi bi-rss me-2 fs-4"></i>
+    <h5 class="mb-0 flex-grow-1 text-uppercase letter-spacing-1">RSS</h5>
   </div>
-  <div class="card-body p-2">
-    <a href="<% if (theme.rss) { %><%- url_for(theme.rss) %><% } else { %><%- url_for(config.rss) %><% } %>" target="_blank" title="rss" class="btn btn-outline-warning w-100">
+  <div class="card-body p-3">
+    <a href="<% if (theme.rss) { %><%- url_for(theme.rss) %><% } else { %><%- url_for(config.rss) %><% } %>" target="_blank" title="rss" class="btn btn-outline-warning w-100 text-uppercase fw-bold">
       <i class="bi bi-rss me-1"></i> RSS Feed
     </a>
   </div>

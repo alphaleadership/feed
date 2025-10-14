@@ -3,19 +3,19 @@
   page.title = 'Category'
 %>
 <div class="categories-wrapper">
-  <div class="card shadow-sm mb-4">
-    <div class="card-header bg-primary text-white d-flex align-items-center">
-      <i class="bi bi-folder me-2"></i>
-      <h2 class="mb-0 flex-grow-1"><%= site.categories.length || 0 %> Categories</h2>
+  <div class="card border-0 shadow-lg mb-4 bg-gradient">
+    <div class="card-header bg-dark text-white d-flex align-items-center border-0">
+      <i class="bi bi-folder me-2 fs-4"></i>
+      <h2 class="mb-0 flex-grow-1 text-uppercase letter-spacing-1"><%= site.categories.length || 0 %> Categories</h2>
     </div>
-    <div class="card-body p-2">
+    <div class="card-body p-3">
       <ul class="list-group list-group-flush">
         <% site.categories.filter(item=>item.name.toLowerCase()==item.name).sort((a, b) => a.length - b.length).each(function(category) { %>
-          <li class="list-group-item d-flex justify-content-between align-items-center">
-            <a class="fw-bold text-dark text-decoration-none" href="<%= url_for(category.path) %>">
+          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
+            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="<%= url_for(category.path) %>">
               <%= category.name %>
             </a>
-            <span class="badge bg-secondary rounded-pill"><%= category.posts.length || 0 %></span>
+            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6"><%= category.posts.length || 0 %></span>
           </li>
         <% }) %>
       </ul>

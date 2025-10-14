@@ -1,6 +1,6 @@
 <!-- title -->
-<div class="page-header bg-primary text-white rounded shadow-sm p-3 mb-4">
-  <h1 class="title d-flex align-items-center"><i class="bi bi-tags me-2"></i> <%= page.title %></h1>
+<div class="page-header bg-dark text-white rounded shadow-lg p-3 mb-4">
+  <h1 class="title d-flex align-items-center text-uppercase letter-spacing-1"><i class="bi bi-tags me-2 fs-4"></i> <%= page.title %></h1>
 </div>
 <div class="row">
   <% if (theme.widgets.length) { %>
@@ -10,16 +10,19 @@
   <% } %>
     <div id="top_search"></div>
     <% if (site.tags.length){ %>
-      <div class="card mb-4">
-        <div class="card-header bg-light fw-bold"><%= __('tags') %></div>
-        <div class="card-body p-2">
+      <div class="card border-0 shadow-lg mb-4 bg-gradient">
+        <div class="card-header bg-dark text-white fw-bold border-0 d-flex align-items-center">
+          <i class="bi bi-tags me-2 fs-4"></i>
+          <span class="text-uppercase letter-spacing-1"><%= __('tags') %></span>
+        </div>
+        <div class="card-body p-3">
           <ul class="list-group list-group-flush">
             <% site.tags.sort('name').each(function(item){ %>
-              <li class="list-group-item d-flex justify-content-between align-items-center">
-                <a href="#<%= item.name %>" class="text-decoration-none text-dark fw-bold">
+              <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
+                <a href="#<%= item.name %>" class="text-decoration-none text-primary fw-bold text-uppercase">
                   <%= item.name %>
                 </a>
-                <span class="badge bg-secondary rounded-pill"><%= item.posts.length %></span>
+                <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6"><%= item.posts.length %></span>
               </li>
             <% }); %>
           </ul>
@@ -30,7 +33,7 @@
     <div class="archive">
       <% site.tags.sort('name').each(function(item){ %>
         <div class="mb-3">
-          <button class="btn btn-outline-primary w-100 text-start" type="button" data-bs-toggle="collapse" data-bs-target="#modal-<%= item.name %>">
+          <button class="btn btn-outline-info w-100 text-start text-uppercase letter-spacing-1" type="button" data-bs-toggle="collapse" data-bs-target="#modal-<%= item.name %>">
             <%= item.name %> <i class="bi bi-caret-down-fill"></i>
           </button>
           <ul id="modal-<%= item.name %>" class="collapse show list-group list-group-flush">
@@ -38,7 +41,7 @@
               <% if (it.tags.length >= 1&&ite<=10) { %>
                 <% it.tags.data.forEach(function(data){ite++; %>
                   <% if (data._id == item._id) { %>
-                    <li class="list-group-item"><a href="<%= url_for(it.path) %>" <% if (it.description) { %> title="<%= it.description %>" <% } %>><%= it.title %></a></li>
+                    <li class="list-group-item border-0 bg-transparent"><a href="<%= url_for(it.path) %>" <% if (it.description) { %> title="<%= it.description %>" <% } %> class="text-primary fw-bold text-uppercase text-decoration-none"><%= it.title %></a></li>
                   <% } %>
                 <% }); %>
               <% } %>

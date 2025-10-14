@@ -1,5 +1,7 @@
-<div class="page-header <% if (theme.inverse){ %>page-header-inverse <% } %>">
-  <h1 class="title <% if (theme.inverse){ %>title-inverse <% } %>"><% if (config.subtitle){ %><%= config.subtitle %><% } else { %><%= config.title %><% } %></h1>
+<div class="page-header bg-dark text-white rounded shadow-lg p-3 mb-4">
+  <h1 class="title text-uppercase letter-spacing-1">
+    <% if (config.subtitle){ %><%= config.subtitle %><% } else { %><%= config.title %><% } %>
+  </h1>
 </div>
 <script>
   window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
