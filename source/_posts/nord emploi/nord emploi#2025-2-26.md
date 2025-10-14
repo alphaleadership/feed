@@ -1,7 +1,7 @@
  
 title: nord emploi fuite du 2025-2-26
 date: 2025-2-26
-lien: "https://bonjourlafuite.eu.org/#Nord Emploi-2025-02-26"
+lien: "https//bonjourlafuite.eu.org/#Nord Emploi-2025-02-26"
 categories:
   - nord emploi
 ---
@@ -12,7 +12,7 @@ téléphone
 adresse
 n° allocataire
 organisme référent
-formulaire RSA & CAF
+formulaire RSA  CAF
 CV
 date ouverture des droits
 date de cessation d’inscription
@@ -33,3 +33,4 @@ certification
 langue
 connaissance des outils bureautique
 permis de conduire
+

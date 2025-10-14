@@ -1,7 +1,7 @@
  
 title: boulanger fuite du 2024-9-7
 date: 2024-9-7
-lien: "https://bonjourlafuite.eu.org/#Boulanger-2024-09-07"
+lien: "https//bonjourlafuite.eu.org/#Boulanger-2024-09-07"
 categories:
   - boulanger
 ---
@@ -11,3 +11,4 @@ prénom
 adresse email
 adresse postale
 numéro de téléphone
+
