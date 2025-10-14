@@ -3,15 +3,11 @@
 Ce fichier documente les modifications apportées pour moderniser le thème et le transformer en un style inspiré de Matrix.
 
 
-*   **Correctif de la mise en page :** Modification de la structure HTML dans `layout.ejs` en supprimant une `div` superflue qui encapsulait le contenu principal et interférait probablement avec la grille Bootstrap.
-
-*   **Réparation et finalisation du thème Matrix :**
-    *   Restauration du fichier `cerulean.css` original pour corriger la mise en page cassée.
-    *   Transformation complète du fichier `cerulean.css` restauré en appliquant la palette de couleurs et les styles plats de Matrix (verts, noirs, sans dégradés/ombres).
-    *   Nettoyage du fichier `style.css` pour supprimer toutes les règles de surcharge devenues redondantes.
+*   **Diagnostic final et correctif de la barre latérale :**
+    *   Identification de la cause racine du problème de mise en page : une fonction JavaScript dans `main.js` qui déplaçait le contenu de la barre latérale sur les écrans de moins de 980px.
+    *   Désactivation de la fonction JavaScript problématique.
+*   **Restauration et application finale du thème :**
+    *   Restauration du fichier `cerulean.css` original pour garantir une base de mise en page stable.
+    *   Réapplication complète et propre du thème Matrix en utilisant des surcharges de style dans `style.css`.
 
 *   **Tri des catégories :** Changement du tri des catégories pour un ordre décroissant (du plus grand au plus petit) basé sur le nombre de posts.
-
-*   **Ajustements des templates EJS et finalisation :**
-    *   Remplacement de l'ombre des images par une lueur verte dans `article.ejs`.
-    *   Changement du thème des commentaires Giscus pour `transparent_dark`.
