@@ -92,7 +92,14 @@ parser.parseURL(rssUrl).then(feed => {
             }
           });
           if (autresRss.length > 0) {
-            autresFuites = '\n\nAutres fuites pour ce dossier :\n' + autresRss.map(it => `- [${it.link}](${it.link})`).join('\n');
+            autresFuites = '\n\nAutres fuites pour ce dossier :\n' + autresRss.map((it,i) => {
+              // Génère un lien interne au format "dir-fuite-du-date"
+              const pubDate = new Date(it.pubDate);
+             // const dateStr = `${pubDate.getFullYear()}-${pubDate.getMonth() + 1}-${pubDate.getDate()}`;
+              const dirSlug = Dir.replace(/[^a-z0-9]/gi, '-');
+              const internalLink = `${dirSlug}-fuite-du-${dateStr}`;
+              return `- [${i}](https://feed-blush.vercel.app/${internalLink})`;
+            }).join('\n');
           }
           const postContentHexo = ` 
 title: ${Dir} fuite du ${dateStr}
