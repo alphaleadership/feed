@@ -95,9 +95,9 @@ parser.parseURL(rssUrl).then(feed => {
             autresFuites = '\n\nAutres fuites pour ce dossier :\n' + autresRss.map((it,i) => {
               // Génère un lien interne au format "dir-fuite-du-date"
               const pubDate = new Date(it.pubDate);
-             // const dateStr = `${pubDate.getFullYear()}-${pubDate.getMonth() + 1}-${pubDate.getDate()}`;
+              const dateSt = `${pubDate.getFullYear()}-${pubDate.getMonth() + 1}-${pubDate.getDate()}`;
               const dirSlug = Dir.replace(/[^a-z0-9]/gi, '-');
-              const internalLink = `${dirSlug}-fuite-du-${dateStr}`;
+              const internalLink = `${dirSlug}-fuite-du-${dateSt}`;
               return `- [${i}](https://feed-blush.vercel.app/${internalLink})`;
             }).join('\n');
           }
