@@ -1,7 +1,7 @@
  
 title: nord emploi fuite du 2025-2-26
 date: 2025-2-26
-lien: "https://bonjourlafuite.eu.orgimg/nordemploi.jpeg"
+lien: "https://bonjourlafuite.eu.org/img/nordemploi.jpeg"
 categories:
   - nord emploi
 ---

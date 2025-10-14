@@ -1,7 +1,7 @@
  
 title: france travail fuite du 2025-8-12
 date: 2025-8-12
-lien: "https://bonjourlafuite.eu.orgimg/france-travail.png"
+lien: "https://bonjourlafuite.eu.org/img/france-travail.png"
 categories:
   - france travail
 ---

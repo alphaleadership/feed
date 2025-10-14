@@ -1,7 +1,7 @@
  
 title: maif  bpce fuite du 2025-3-28
 date: 2025-3-28
-lien: "https://bonjourlafuite.eu.orgimg/maif.png"
+lien: "https://bonjourlafuite.eu.org/img/maif.png"
 categories:
   - maif  bpce
 ---
