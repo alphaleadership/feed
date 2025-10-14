@@ -79,11 +79,20 @@ parser.parseURL(rssUrl).then(feed => {
           // --- Contenu du post
           const rawContent = parsecontent(item.contentSnippet, ',', "\n") || "pas d'information actuellement";
           const cleanContent = removeNunjucks(rawContent);
-          // --- Détection des autres fuites (autres fichiers .md dans le même dossier, hors celui en cours)
+          // --- Détection des autres fuites (autres entrées de postsMap pour le même DIR, même convention de nommage)
           let autresFuites = '';
-          const autresFichiers = allFiles.filter(f => f !== postFileName);
-          if (autresFichiers.length > 0) {
-            autresFuites = '\n\nAutres fuites pour ce dossier :\n' + autresFichiers.map(f => `- [${f}](${path.join(hexoPostDir, f)})`).join('\n');
+          const autresKeys = Object.keys(postsMap).filter(k => k.startsWith(Dir + '#'));
+          let autresRss = [];
+          autresKeys.forEach(k => {
+            if (k !== key) {
+              autresRss = autresRss.concat(postsMap[k]);
+            } else {
+              // Ajoute les autres items du même key sauf celui en cours
+              autresRss = autresRss.concat(postsMap[k].filter((it, i) => i !== idx));
+            }
+          });
+          if (autresRss.length > 0) {
+            autresFuites = '\n\nAutres fuites pour ce dossier :\n' + autresRss.map(it => `- [${it.link}](${it.link})`).join('\n');
           }
           const postContentHexo = ` 
 title: ${Dir} fuite du ${dateStr}

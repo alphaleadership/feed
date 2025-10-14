@@ -6,7 +6,7 @@ author: arbinger
 language: fr
 timezone: ''
 url: https://feed-blush.vercel.app/
-permalink: ':abbrlink/'
+permalink: ':post_title/'
 permalink_defaults: null
 category_generator:
   per_page: 0
