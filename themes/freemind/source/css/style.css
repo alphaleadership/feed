@@ -624,7 +624,53 @@ td {
   border-color: #005211;
 }
 
-a.text-decoration-none.text-primary.fw-bold.text-uppercase {
-  color: #39FF14 !important;
+a.text-decoration-none.text-primary.fw-bold.text-uppercase:hover {
+  color: #9effae !important;
 }
+
+/* Cerulean Overrides for Matrix Theme */
+a {
+  color: #39FF14;
+}
+
+a:hover,
+a:focus {
+  color: #9effae;
+}
+
+.alert-info {
+  color: #9effae;
+  background-color: #005211;
+  border-color: #008a22;
+}
+
+.btn-default {
+  color: #00FF41;
+  background-color: transparent;
+  border-color: #00FF41;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+  color: #000;
+  background-color: #00FF41;
+  border-color: #00FF41;
+}
+
+.btn-primary {
+  color: #000;
+  background-color: #00FF41;
+  border-color: #00FF41;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #9effae;
+  border-color: #9effae;
+}
+
+.navbar-default .navbar-brand {
+ color: #00FF41;
+}
+
 
