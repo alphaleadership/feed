@@ -104,7 +104,7 @@ parser.parseURL(rssUrl).then(feed => {
           const postContentHexo = ` 
 title: ${Dir} fuite du ${dateStr}
 date: ${dateStr}
-lien: "${item.guid}"
+lien: "${item.guid.replace('eu.orgimg','eu.org/img')}"
 categories:
   - ${Dir}
 ---
