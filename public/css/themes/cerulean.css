@@ -1161,7 +1161,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #157ab5;
+  color: #005211;
   text-decoration: underline;
 }
 a:focus {
@@ -1411,7 +1411,7 @@ a.text-success:focus {
   color: #356635;
 }
 .text-info {
-  color: #3a87ad;
+  color: #005211;
 }
 a.text-info:hover,
 a.text-info:focus {
@@ -6967,9 +6967,7 @@ a {
 a:hover {
   color: #157ab5;
 }
-#gotop {
-  background-color: #2fa4e7;
-}
+#39FF14
 #gotop span {
   color: #ffffff;
 }
