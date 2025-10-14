@@ -162,7 +162,7 @@ pre {
 
 /* RSS button */
 .rsspart {
-  background: #2ca6cb;
+  background: #39FF14;
 }
 .rsspart a {
   color: #fff;
@@ -172,7 +172,7 @@ pre {
   text-decoration: none;
 }
 .rsspart a:hover {
-  color: #2ca6cb;
+  color: #39FF14;
   background: #fafafa;
 }
 .rsspart a::before {
