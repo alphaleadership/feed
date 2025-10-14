@@ -57,3 +57,9 @@ pre code{
   padding-right: 0.5em;
   content: "\f09e";
 }
+
+/* Sidebar Layout Debug */
+.container .row .col-md-9,
+.container .row .col-md-3 {
+  float: left !important;
+}
