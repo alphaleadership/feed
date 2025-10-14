@@ -44,6 +44,8 @@ body {
 
 #sidebar {
   font-size: 0.9em;
+  border-left: 1px solid #005211;
+  padding-left: 15px;
 }
 
 a {
