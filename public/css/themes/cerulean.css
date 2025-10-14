@@ -1396,9 +1396,7 @@ mark,
 .text-muted {
   color: #999999;
 }
-.text-primary {
-  color: #2fa4e7;
-}
+.text-primary { color: #39FF14; }
 a.text-primary:hover,
 a.text-primary:focus {
   color: #178acc;
