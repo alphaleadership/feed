@@ -162,19 +162,18 @@ pre {
 
 /* RSS button */
 .rsspart {
-  background: #005211;
-  width: 100%;
+  background: #2ca6cb;
 }
 .rsspart a {
-  color: #00FF41;
+  color: #fff;
   display: block;
   padding: 0.625em 0;
   text-align: center;
   text-decoration: none;
 }
 .rsspart a:hover {
-  color: #000;
-  background: #9effae;
+  color: #2ca6cb;
+  background: #fafafa;
 }
 .rsspart a::before {
   font-family: "FontAwesome";

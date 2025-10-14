@@ -553,21 +553,6 @@ td {
 /* RSS button */
 .rsspart {
   background: #2ca6cb;
-  width: 100%;
-}
-@media only screen and (min-width: 768px) {
-  .rsspart {
-    float: left;
-    width: 45%;
-    margin: 0 5% 0 0;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .rsspart {
-    width: 100%;
-    float: none;
-    margin: 1em 0 0;
-  }
 }
 .rsspart a {
   color: #fff;
