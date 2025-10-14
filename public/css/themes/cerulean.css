@@ -1415,7 +1415,7 @@ a.text-success:focus {
 }
 a.text-info:hover,
 a.text-info:focus {
-  color: #2d6987;
+  color: #005211;
 }
 .text-warning {
   color: #c09853;
@@ -5127,7 +5127,7 @@ a.thumbnail.active {
   border-top-color: #a6e1ec;
 }
 .alert-info .alert-link {
-  color: #2d6987;
+  color: #005211;
 }
 .alert-warning {
   background-color: #fcf8e3;
