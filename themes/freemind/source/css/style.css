@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 
 /* =============================================================================
-   container
+   Base structure for Freemind Theme
    ========================================================================== */
 
 .container-narrow {
@@ -9,127 +9,26 @@
   max-width:970px;
 }
 
-.container-narrow > footer {
-  margin-top: 20px;
-  text-align: center;
-}
-.container-narrow > footer p {
-  padding: 5px;
-  display: inline-block;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
-}
-
-/* =============================================================================
-   Body and structure
-   ========================================================================== */
-
-body {
-  position: relative;
-  padding-top: 40px;
-  background-color: #000;
-  color: #00FF41;
-  padding-bottom: 70px;
-}
-
 .content {
   padding: 20px;
   margin-left: -20px;
   margin-right: -20px;
-  -webkit-border-radius: 6px 6px 6px 6px;
-  -moz-border-radius: 6px 6px 6px 6px;
-  border-radius: 6px 6px 6px 6px;
+  border-radius: 6px;
 }
 
 #sidebar {
   font-size: 0.9em;
-  border-left: 1px solid #005211;
-  padding-left: 15px;
 }
 
 a {
     word-break: break-word;
 }
 
-/* =============================================================================
-   page, post
-   ========================================================================== */
-
-.post{
+.post, .page {
   font-size: 1.2em;
-}
-
-.page{
-  font-size: 16px;
-}
-
-.page, .post{
   line-height: 1.5em;
   font-family: 'IBM Plex Mono', monospace;
 }
-
-.post .date {
-  margin-bottom:20px;
-  font-weight:bold;
-}
-
-.mypage {
-  padding-bottom: 30px;
-  border-bottom: 1px solid #005211;
-}
-
-/* =============================================================================
-   navbar
-   ========================================================================== */
-
-.navbar-brand {
-  text-shadow: 0 0 5px rgba(0, 255, 65, 0.5);
-  -webkit-transition: all .2s linear;
-     -moz-transition: all .2s linear;
-          transition: all .2s linear;
-}
-
-.navbar-brand:hover {
-  text-decoration: none;
-  text-shadow: 0 0 10px rgba(0, 255, 65, 0.8);
-}
-
-
-/* =============================================================================
-   widget and tag box
-   ========================================================================== */
-
-.widget {
-  padding-bottom: 25px;
-  border-bottom: 1px solid #005211; 
-}
-
-/* =============================================================================
-   Headers
-   ========================================================================== */
-
-h1,h2,h3,h4,h5,h6{
-  text-rendering:optimizelegibility;
-  font-weight:bold;
-  font-family: 'IBM Plex Mono', monospace;
-}
-
-/* =============================================================================
-   ToC
-   ========================================================================== */
-
-.toc{
-  font-size:10pt;
-  width:auto;
-  padding:10px;
-  background: #111;
-  border:solid 1px #008a22;
-}
-
-/* =============================================================================
-   Codes
-   ========================================================================== */
 
 pre code{
   border: none!important;
