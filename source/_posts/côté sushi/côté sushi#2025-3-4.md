@@ -1,7 +1,7 @@
  
 title: côté sushi fuite du 2025-3-4
 date: 2025-3-4
-lien: "https//bonjourlafuite.eu.org/#Côté Sushi-2025-03-04"
+lien: "https://bonjourlafuite.eu.orgimg/cotesushi.png"
 categories:
   - côté sushi
 ---

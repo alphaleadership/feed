@@ -1,7 +1,7 @@
  
 title: union nationale du sport scolaire fuite du 2025-7-7
 date: 2025-7-7
-lien: "https//bonjourlafuite.eu.org/#Union Nationale du Sport Scolaire-2025-07-07"
+lien: "https://xcancel.com/_SaxX_/status/1942139268962341112"
 categories:
   - union nationale du sport scolaire
 ---

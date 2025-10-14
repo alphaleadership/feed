@@ -1,7 +1,7 @@
  
 title: fédération française de roller skateboard fuite du 2025-1-14
 date: 2025-1-14
-lien: "https//bonjourlafuite.eu.org/#Fédération Française de Roller Skateboard-2025-01-14"
+lien: "https://bonjourlafuite.eu.orgimg/ffrs.png"
 categories:
   - fédération française de roller skateboard
 ---
