@@ -1,10 +1,20 @@
 <% if (theme.links.length){ %>
-<div class="widget">
-	<h4><%= __('links') %></h4>
-	<ul class="blogroll list-unstyled">
-	<% for (var i in theme.links){ %>
-		<li><i class="<%- theme.links[i].icon %>"></i><a href="<%- theme.links[i].url %>" title="<%- theme.links[i].intro %>" target="_blank"]);"><%= theme.links[i].title %></a></li>
-	<% } %>
-	</ul>
-</div>
+  <div class="widget card shadow-sm mb-4">
+    <div class="card-header bg-secondary text-white d-flex align-items-center">
+      <i class="bi bi-link-45deg me-2"></i>
+      <h5 class="mb-0 flex-grow-1"><%= __('links') %></h5>
+    </div>
+    <div class="card-body p-2">
+      <ul class="list-group list-group-flush">
+        <% for (var i in theme.links){ %>
+          <li class="list-group-item d-flex align-items-center">
+            <i class="<%- theme.links[i].icon %> me-2"></i>
+            <a href="<%- theme.links[i].url %>" title="<%- theme.links[i].intro %>" target="_blank" class="fw-bold text-dark">
+              <%= theme.links[i].title %>
+            </a>
+          </li>
+        <% } %>
+      </ul>
+    </div>
+  </div>
 <% } %>

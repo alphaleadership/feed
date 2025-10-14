@@ -1,17 +1,22 @@
-<div class="widget">
-    <% if(theme.comment_js) { %>
-	    <h4 class="dsq-widget-title"><%= __('recent_comments') %></h4>
-		<div id="recent-comments"></div>
-		<script type="text/javascript">
-		    getRecentCommentsList({
-			   type: "<%= theme.comment_js.type %>" ? "<%= theme.comment_js.type %>" : "github",
-			   user: "<%= theme.comment_js.user %>",
-               repo: "<%= theme.comment_js.repo %>",
-               client_id: "<%= theme.comment_js.client_id %>",
-               client_secret: "<%= theme.comment_js.client_secret %>",
-			   count: "<%= theme.comment_js.count %>" ? "<%= theme.comment_js.count %>" : 5,
-			   recent_comments_target: "#recent-comments"
-			});
-		</script>
-	<% } %>
+<div class="widget card shadow-sm mb-4">
+  <% if(theme.comment_js) { %>
+    <div class="card-header bg-warning text-dark d-flex align-items-center">
+      <i class="bi bi-chat-dots me-2"></i>
+      <h5 class="mb-0 flex-grow-1"><%= __('recent_comments') %></h5>
+    </div>
+    <div class="card-body p-2">
+      <div id="recent-comments"></div>
+      <script type="text/javascript">
+        getRecentCommentsList({
+          type: "<%= theme.comment_js.type %>" ? "<%= theme.comment_js.type %>" : "github",
+          user: "<%= theme.comment_js.user %>",
+          repo: "<%= theme.comment_js.repo %>",
+          client_id: "<%= theme.comment_js.client_id %>",
+          client_secret: "<%= theme.comment_js.client_secret %>",
+          count: "<%= theme.comment_js.count %>" ? "<%= theme.comment_js.count %>" : 5,
+          recent_comments_target: "#recent-comments"
+        });
+      </script>
+    </div>
+  <% } %>
 </div>

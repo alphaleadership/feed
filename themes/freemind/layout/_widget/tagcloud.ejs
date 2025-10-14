@@ -1,13 +1,24 @@
 <% if (site.tags.length){ %>
-	<div class="widget">
-		<h4><%= __('tagcloud') %></h4>
-		<ul class="tag_box inline list-unstyled">		
-		<% site.tags.random().limit(20).each(function(item){ %>
-			<li><a href="<%- url_for(item.path) %>"><%= item.name %><span><%= item.posts.length %></span></a></li>
-		<% }); %>
-		<% if (site.tags.length > 20) { %>
-		   <li><a href="<%- config.root %>/tags">...<span><%= site.tags.length %></span></a></li>
-		<% } %> 
-		</ul>
-	</div>
+  <div class="widget card shadow-sm mb-4">
+    <div class="card-header bg-success text-white d-flex align-items-center">
+      <i class="bi bi-cloud me-2"></i>
+      <h5 class="mb-0 flex-grow-1"><%= __('tagcloud') %></h5>
+    </div>
+    <div class="card-body p-2">
+      <ul class="list-inline">
+        <% site.tags.random().limit(20).each(function(item){ %>
+          <li class="list-inline-item mb-1">
+            <a href="<%- url_for(item.path) %>" class="badge bg-secondary text-decoration-none">
+              <%= item.name %> <span class="ms-1"><%= item.posts.length %></span>
+            </a>
+          </li>
+        <% }); %>
+        <% if (site.tags.length > 20) { %>
+          <li class="list-inline-item">
+            <a href="<%- config.root %>/tags" class="badge bg-dark text-decoration-none">...<span class="ms-1"><%= site.tags.length %></span></a>
+          </li>
+        <% } %>
+      </ul>
+    </div>
+  </div>
 <% } %>

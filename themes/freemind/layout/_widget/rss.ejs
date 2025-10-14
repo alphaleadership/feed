@@ -1,5 +1,11 @@
-<div class="widget">
-	<div class="rsspart">
-		<a href="<% if (theme.rss) { %><%- url_for(theme.rss) %><% } else { %><%- url_for(config.rss) %><% } %>" target="_blank" title="rss">RSS</a>
-	</div>
+<div class="widget card shadow-sm mb-4">
+  <div class="card-header bg-dark text-white d-flex align-items-center">
+    <i class="bi bi-rss me-2"></i>
+    <h5 class="mb-0 flex-grow-1">RSS</h5>
+  </div>
+  <div class="card-body p-2">
+    <a href="<% if (theme.rss) { %><%- url_for(theme.rss) %><% } else { %><%- url_for(config.rss) %><% } %>" target="_blank" title="rss" class="btn btn-outline-warning w-100">
+      <i class="bi bi-rss me-1"></i> RSS Feed
+    </a>
+  </div>
 </div>

@@ -1,12 +1,19 @@
 <% if (site.posts.length){ %>
-<div class="widget">
-  <h4><%= __('recent_posts') %></h4>
-  <ul class="entry list-unstyled">
-    <% site.posts.sort('date', -1).limit(10).each(function(post){ %>
-      <li>
-        <a href="<%= url_for(post.path) %>" <% if (post.description) { %> title="<%= post.description %>" <% } %>><i class="fa fa-file-o"></i><%= post.title %></a>
-      </li>
-    <% }); %>
-  </ul>
-</div>
+  <div class="widget card shadow-sm mb-4">
+    <div class="card-header bg-info text-white d-flex align-items-center">
+      <i class="bi bi-clock-history me-2"></i>
+      <h5 class="mb-0 flex-grow-1"><%= __('recent_posts') %></h5>
+    </div>
+    <div class="card-body p-2">
+      <ul class="list-group list-group-flush">
+        <% site.posts.sort('date', -1).limit(10).each(function(post){ %>
+          <li class="list-group-item">
+            <a href="<%= url_for(post.path) %>" <% if (post.description) { %> title="<%= post.description %>" <% } %> class="fw-bold text-dark">
+              <i class="bi bi-file-earmark-text me-1"></i><%= post.title %>
+            </a>
+          </li>
+        <% }); %>
+      </ul>
+    </div>
+  </div>
 <% } %>
