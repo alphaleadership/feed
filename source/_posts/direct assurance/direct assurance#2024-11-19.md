@@ -11,3 +11,6 @@ adresse email
 numéros de téléphone
 IBAN
 
+
+Autres fuites pour ce dossier :
+- [direct assurance#2025-3-18.md](source/_posts/direct assurance/direct assurance#2025-3-18.md)
