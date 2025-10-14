@@ -3,6 +3,8 @@
 Ce fichier documente les modifications apportées pour moderniser le thème et le transformer en un style inspiré de Matrix.
 
 
+*   **Correctif de la mise en page :** Modification de la structure HTML dans `layout.ejs` en supprimant une `div` superflue qui encapsulait le contenu principal et interférait probablement avec la grille Bootstrap.
+
 *   **Réparation et finalisation du thème Matrix :**
     *   Restauration du fichier `cerulean.css` original pour corriger la mise en page cassée.
     *   Transformation complète du fichier `cerulean.css` restauré en appliquant la palette de couleurs et les styles plats de Matrix (verts, noirs, sans dégradés/ombres).
