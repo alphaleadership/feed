@@ -34,6 +34,132 @@ pre code{
   border: none!important;
 }
 
+/* =============================================================================
+   MATRIX THEME OVERRIDES
+   ========================================================================== */
+
+body {
+  color: #00FF41;
+  background-color: #000000;
+}
+
+a {
+  color: #39FF14;
+}
+
+a:hover, a:focus {
+  color: #9effae;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  color: #00FF41;
+  font-family: 'IBM Plex Mono', monospace;
+  text-shadow: 0 0 3px rgba(0, 255, 65, 0.4);
+}
+
+.navbar-default, .navbar-inverse {
+  background-color: #000000;
+  border-color: #005211;
+  background-image: none;
+  box-shadow: none;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+    color: #00FF41;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #9effae;
+    background-color: #005211;
+}
+
+.btn-default {
+  color: #00FF41;
+  background-color: #1a1a1a;
+  border-color: #005211;
+  background-image: none;
+}
+.btn-default:hover, .btn-default:focus {
+  color: #000000;
+  background-color: #9effae;
+  border-color: #9effae;
+}
+
+.btn-primary {
+  color: #000000;
+  background-color: #39FF14;
+  border-color: #39FF14;
+  background-image: none;
+}
+.btn-primary:hover, .btn-primary:focus {
+  color: #000000;
+  background-color: #9effae;
+  border-color: #9effae;
+}
+
+.panel, .well, .list-group-item, .modal-content, .popover {
+    background-color: #000000;
+    color: #00FF41;
+    border-color: #005211;
+}
+
+.panel-heading {
+    background-color: #1a1a1a !important;
+    border-color: #005211 !important;
+    color: #00FF41 !important;
+}
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+  background-color: #39FF14;
+  border-color: #39FF14;
+  color: #000;
+}
+
+.alert-info {
+  color: #9effae;
+  background-color: #005211;
+  border-color: #008a22;
+}
+
+.alert-success {
+  color: #39FF14;
+  background-color: #005211;
+  border-color: #008a22;
+}
+
+.alert-warning {
+  color: #E8D53A;
+  background-color: #2a2a00;
+  border-color: #E8D53A;
+}
+
+.alert-danger {
+  color: #ff4136;
+  background-color: #581815;
+  border-color: #ff4136;
+}
+
+code {
+  color: #9effae;
+  background-color: #1a1a1a;
+}
+
+pre {
+    background-color: #1a1a1a;
+    border: 1px solid #005211;
+}
+
+.pagination > li > a, .pagination > li > span {
+    background-color: #000;
+    border-color: #005211;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #39FF14;
+    border-color: #39FF14;
+    color: #000;
+}
+
 /* RSS button */
 .rsspart {
   background: #005211;
@@ -56,10 +182,4 @@ pre code{
   -moz-osx-font-smoothing: grayscale;
   padding-right: 0.5em;
   content: "\f09e";
-}
-
-/* Sidebar Layout Debug */
-.container .row .col-md-9,
-.container .row .col-md-3 {
-  float: left !important;
 }
