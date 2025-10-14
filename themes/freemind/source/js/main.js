@@ -26,29 +26,28 @@ $(document).ready(function() {
 		}
 	});
 
-	//replaceMeta();
+	// replaceMeta(); // Disabled by Gemini
 
-	$(window).resize(function(){
-		//replaceMeta();
-	});
+	// $(window).resize(function(){ // Disabled by Gemini
+	// 	replaceMeta(); // Disabled by Gemini
+	// }); // Disabled by Gemini
 });
 
-replaceMeta = function(){
-	if ($(window).width() < 980) {
-		if ($("#side_meta #post_meta").length>0) {
-			$("#post_meta").appendTo("#top_meta");
-		}
-		if ($("#sidebar #site_search").length>0) {
-			$("#site_search").appendTo("#top_search");
-			$("#site_search #st-search-input").css("width", "95%");
-		}
-	} else {
-		if ($("#top_meta #post_meta").length>0) {
-			$("#post_meta").appendTo("#side_meta");
-		}
-		if ($("#top_search #site_search").length>0) {
-			$("#site_search").prependTo("#sidebar");
-			$("#site_search #st-search-input").css("width", "85%");
-		}
-	}
-}
+// replaceMeta = function(){ // Disabled by Gemini
+// 	if ($(window).width() < 980) { // Disabled by Gemini
+// 		if ($("#side_meta #post_meta").length>0) { // Disabled by Gemini
+// 			$("#post_meta").appendTo("#top_meta"); // Disabled by Gemini
+// 		} // Disabled by Gemini
+// 		if ($("#sidebar #site_search").length>0) { // Disabled by Gemini
+// 			$("#site_search").appendTo("#top_search"); // Disabled by Gemini
+// 			$("#site_search #st-search-input").css("width", "95%"); // Disabled by Gemini
+// 		} // Disabled by Gemini
+// 	} else { // Disabled by Gemini
+// 		if ($("#top_meta #post_meta").length>0) { // Disabled by Gemini
+// 			$("#post_meta").appendTo("#side_meta"); // Disabled by Gemini
+// 		} // Disabled by Gemini
+// 		if ($("#top_search #site_search").length>0) { // Disabled by Gemini
+// 			$("#site_search").prependTo("#sidebar"); // Disabled by Gemini
+// 			$("#site_search #st-search-input").css("width", "85%"); // Disabled by Gemini
+// 		} // Disabled by Gemini
+// } // Disabled by Gemini
