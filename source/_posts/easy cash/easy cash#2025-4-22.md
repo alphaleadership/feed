@@ -1,7 +1,7 @@
  
 title: easy cash fuite du 2025-4-22
 date: 2025-4-22
-lien: "https://bonjourlafuite.eu.org/#Easy Cash-2025-04-22"
+lien: "https//bonjourlafuite.eu.org/#Easy Cash-2025-04-22"
 categories:
   - easy cash
 ---
@@ -9,3 +9,4 @@ categories:
 nom
 prénom
 date de naissance
+

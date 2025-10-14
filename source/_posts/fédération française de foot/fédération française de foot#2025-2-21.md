@@ -1,7 +1,7 @@
  
 title: fédération française de foot fuite du 2025-2-21
 date: 2025-2-21
-lien: "https://bonjourlafuite.eu.org/#Fédération Française de Foot-2025-02-21"
+lien: "https//bonjourlafuite.eu.org/#Fédération Française de Foot-2025-02-21"
 categories:
   - fédération française de foot
 ---
@@ -16,3 +16,4 @@ adresse email
 numéro de téléphone
 photo
 copie du justificatif d’identité
+

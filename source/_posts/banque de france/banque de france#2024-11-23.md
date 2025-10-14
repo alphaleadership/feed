@@ -1,7 +1,7 @@
  
 title: banque de france fuite du 2024-11-23
 date: 2024-11-23
-lien: "https://bonjourlafuite.eu.org/#Banque de France-2024-11-23"
+lien: "https//bonjourlafuite.eu.org/#Banque de France-2024-11-23"
 categories:
   - banque de france
 ---
@@ -15,3 +15,4 @@ historique
 webmail
 documents stratégiques
 rapports financiers
+

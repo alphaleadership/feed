@@ -57,10 +57,8 @@ index_generator:
   order_by: '-date'
 default_category: uncategorized
 tags: nom, prénom,adresse email,addresse postale
-category_map:
-  
-tag_map:
-
+category_map: null
+tag_map: null
 meta_generator: true
 search:
   path: search.xml
