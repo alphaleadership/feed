@@ -1,7 +1,7 @@
  
 title: kaviari fuite du 2025-6-3
 date: 2025-6-3
-lien: "https://bonjourlafuite.eu.orgimg/kaviari.png"
+lien: "https://bonjourlafuite.eu.org/img/kaviari.png"
 categories:
   - kaviari
 ---

@@ -1,7 +1,7 @@
  
 title: école nationale de la sécurité fuite du 2025-2-28
 date: 2025-2-28
-lien: "https://bonjourlafuite.eu.orgimg/ens.jpg"
+lien: "https://bonjourlafuite.eu.org/img/ens.jpg"
 categories:
   - école nationale de la sécurité
 ---
