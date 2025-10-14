@@ -16,7 +16,7 @@ identifiants France Travail
 
 
 Autres fuites pour ce dossier :
-- [https//bonjourlafuite.eu.org/#France Travail-2025-10-06](https//bonjourlafuite.eu.org/#France Travail-2025-10-06)
-- [https//bonjourlafuite.eu.org/#France Travail-2025-09-25](https//bonjourlafuite.eu.org/#France Travail-2025-09-25)
-- [https//bonjourlafuite.eu.org/#France Travail-2025-08-12](https//bonjourlafuite.eu.org/#France Travail-2025-08-12)
-- [https//bonjourlafuite.eu.org/#France Travail-2025-07-22](https//bonjourlafuite.eu.org/#France Travail-2025-07-22)
+- [0](https://feed-blush.vercel.app/france-travail-fuite-du-2024-3-8)
+- [1](https://feed-blush.vercel.app/france-travail-fuite-du-2024-3-8)
+- [2](https://feed-blush.vercel.app/france-travail-fuite-du-2024-3-8)
+- [3](https://feed-blush.vercel.app/france-travail-fuite-du-2024-3-8)

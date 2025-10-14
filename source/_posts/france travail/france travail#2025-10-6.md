@@ -16,7 +16,7 @@ identifiant CIR
 
 
 Autres fuites pour ce dossier :
-- [https//bonjourlafuite.eu.org/#France Travail-2025-09-25](https//bonjourlafuite.eu.org/#France Travail-2025-09-25)
-- [https//bonjourlafuite.eu.org/#France Travail-2025-08-12](https//bonjourlafuite.eu.org/#France Travail-2025-08-12)
-- [https//bonjourlafuite.eu.org/#France Travail-2025-07-22](https//bonjourlafuite.eu.org/#France Travail-2025-07-22)
-- [https//bonjourlafuite.eu.org/#France Travail-2024-03-08](https//bonjourlafuite.eu.org/#France Travail-2024-03-08)
+- [0](https://feed-blush.vercel.app/france-travail-fuite-du-2025-10-6)
+- [1](https://feed-blush.vercel.app/france-travail-fuite-du-2025-10-6)
+- [2](https://feed-blush.vercel.app/france-travail-fuite-du-2025-10-6)
+- [3](https://feed-blush.vercel.app/france-travail-fuite-du-2025-10-6)

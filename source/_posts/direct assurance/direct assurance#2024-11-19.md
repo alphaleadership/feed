@@ -13,4 +13,4 @@ IBAN
 
 
 Autres fuites pour ce dossier :
-- [https//bonjourlafuite.eu.org/#Direct Assurance-2025-03-18](https//bonjourlafuite.eu.org/#Direct Assurance-2025-03-18)
+- [0](https://feed-blush.vercel.app/direct-assurance-fuite-du-2024-11-19)

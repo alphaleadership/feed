@@ -10,4 +10,4 @@ pas d'information actuellement
 
 
 Autres fuites pour ce dossier :
-- [https//bonjourlafuite.eu.org/#Direct Assurance-2024-11-19](https//bonjourlafuite.eu.org/#Direct Assurance-2024-11-19)
+- [0](https://feed-blush.vercel.app/direct-assurance-fuite-du-2025-3-18)
