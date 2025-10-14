@@ -223,7 +223,7 @@ body, .list-group-item, .panel, .well, .modal-content, .popover {
     background-color: #9effae;
     border-color: #9effae;
 }
-code {
+.code {
     color: #9effae;
     background-color: #1a1a1a;
 }
