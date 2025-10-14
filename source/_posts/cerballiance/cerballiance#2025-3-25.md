@@ -1,7 +1,7 @@
  
 title: cerballiance fuite du 2025-3-25
 date: 2025-3-25
-lien: "https//bonjourlafuite.eu.org/#Cerballiance-2025-03-25"
+lien: "https://www.clubic.com/actualite-558117-les-laboratoires-francais-cerballiance-ont-ete-victimes-d-une-cyberattaque-voici-les-donnees-qui-ont-fuite.html"
 categories:
   - cerballiance
 ---

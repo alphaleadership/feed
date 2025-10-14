@@ -1,7 +1,7 @@
  
 title: france travail fuite du 2024-3-8
 date: 2024-3-8
-lien: "https//bonjourlafuite.eu.org/#France Travail-2024-03-08"
+lien: "https://www.cnil.fr/fr/france-travail-la-cnil-enquete-sur-la-fuite-de-donnees-et-donne-des-conseils-pour-se-proteger"
 categories:
   - france travail
 ---

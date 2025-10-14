@@ -1,7 +1,7 @@
  
 title: la poste fuite du 2025-3-4
 date: 2025-3-4
-lien: "https//bonjourlafuite.eu.org/#La Poste-2025-03-04"
+lien: "https://bonjourlafuite.eu.orgimg/laposte.png"
 categories:
   - la poste
 ---

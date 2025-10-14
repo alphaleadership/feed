@@ -1,7 +1,7 @@
  
 title: autosur  diagnosur fuite du 2025-3-24
 date: 2025-3-24
-lien: "https//bonjourlafuite.eu.org/#Autosur  Diagnosur-2025-03-24"
+lien: "https://bonjourlafuite.eu.orgimg/autosur.jpg"
 categories:
   - autosur  diagnosur
 ---

@@ -1,7 +1,7 @@
  
 title: cybertek fuite du 2024-9-12
 date: 2024-9-12
-lien: "https//bonjourlafuite.eu.org/#Cybertek-2024-09-12"
+lien: "https://next.ink/149926/fuites-de-donnees-cybertek-et-grosbill-entrent-dans-la-danse-truffaut-refuse-de-donner-des-details/"
 categories:
   - cybertek
 ---

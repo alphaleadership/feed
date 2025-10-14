@@ -1,7 +1,7 @@
  
 title: ticketmaster fuite du 2024-4-28
 date: 2024-4-28
-lien: "https//bonjourlafuite.eu.org/#Ticketmaster-2024-04-28"
+lien: "https://www.clubic.com/actualite-528357-millions-de-clients-ticketmaster-pirates-le-geant-mondial-de-la-vente-de-billets-dans-la-tourmente.html"
 categories:
   - ticketmaster
 ---
