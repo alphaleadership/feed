@@ -10,4 +10,4 @@ pas d'information actuellement
 
 
 Autres fuites pour ce dossier :
-- [https//bonjourlafuite.eu.org/#Cerballiance-2025-03-25](https//bonjourlafuite.eu.org/#Cerballiance-2025-03-25)
+- [0](https://feed-blush.vercel.app/cerballiance-fuite-du-2025-4-30)
