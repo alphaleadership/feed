@@ -182,3 +182,16 @@ pre {
   padding-right: 0.5em;
   content: "\f09e";
 }
+
+/* Force sidebar to the side */
+@media (min-width: 992px) { /* Apply for medium and larger devices */
+  .row.page > .col-md-9 {
+    float: left;
+    width: 75%;
+  }
+
+  .row.page > .col-md-3 {
+    float: left;
+    width: 25%;
+  }
+}
