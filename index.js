@@ -54,6 +54,9 @@ parser.parseURL(rssUrl).then(feed => {
       if (!fs.existsSync(hexoPostDir)) {
         fs.mkdirSync(hexoPostDir, { recursive: true });
       }
+      // --- Détection des autres fuites pour le même dossier
+      // Recherche tous les fichiers existants pour ce dossier
+      const allFiles = fs.readdirSync(hexoPostDir).filter(f => f.endsWith('.md'));
       items.forEach((item, idx) => {
         try {
           // --- Chargement des fichiers de config
@@ -76,7 +79,12 @@ parser.parseURL(rssUrl).then(feed => {
           // --- Contenu du post
           const rawContent = parsecontent(item.contentSnippet, ',', "\n") || "pas d'information actuellement";
           const cleanContent = removeNunjucks(rawContent);
-          let autresFuites = items.length > 1 ? '\n\nAutres fuites ce jour :\n' + items.map((it, i) => i !== idx ? `- [${it.link}](${it.link})` : '').filter(Boolean).join('\n') : '';
+          // --- Détection des autres fuites (autres fichiers .md dans le même dossier, hors celui en cours)
+          let autresFuites = '';
+          const autresFichiers = allFiles.filter(f => f !== postFileName);
+          if (autresFichiers.length > 0) {
+            autresFuites = '\n\nAutres fuites pour ce dossier :\n' + autresFichiers.map(f => `- [${f}](${path.join(hexoPostDir, f)})`).join('\n');
+          }
           const postContentHexo = ` 
 title: ${Dir} fuite du ${dateStr}
 date: ${dateStr}
@@ -116,12 +124,12 @@ ${autresFuites}
 // --- Amélioration affichage moderne ---
 // Ajout d'une fonction pour générer un HTML responsive et sécurisé
 function generatePostHTML({ title, description, pubDate, link }) {
-  return `<article class="post">
-    <header>
-      <h2><a href="${link}" target="_blank" rel="noopener">${escapeHTML(title)}</a></h2>
-      <time datetime="${pubDate}">${pubDate}</time>
+  return `<article class="post card border-0 shadow-lg mb-4 bg-gradient">
+    <header class="card-header bg-dark text-white d-flex flex-column flex-md-row align-items-center border-0">
+      <h2 class="mb-0 flex-grow-1 text-uppercase letter-spacing-1"><a href="${link}" target="_blank" rel="noopener" class="text-info text-decoration-none">${escapeHTML(title)}</a></h2>
+      <time datetime="${pubDate}" class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6 ms-md-3">${pubDate}</time>
     </header>
-    <section>${escapeHTML(description)}</section>
+    <section class="card-body p-3">${escapeHTML(description)}</section>
   </article>`;
 }
 
