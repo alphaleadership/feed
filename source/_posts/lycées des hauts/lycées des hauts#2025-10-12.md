@@ -6,5 +6,7 @@ categories:
   - lycées des hauts
 ---
 
-pas d'information actuellement
+pièces d'identité d'élèves
+CV
+relevés de notes
 
