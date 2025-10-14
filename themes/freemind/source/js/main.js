@@ -26,10 +26,10 @@ $(document).ready(function() {
 		}
 	});
 
-	replaceMeta();
+	//replaceMeta();
 
 	$(window).resize(function(){
-		replaceMeta();
+		//replaceMeta();
 	});
 });
 
