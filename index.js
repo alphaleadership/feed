@@ -65,12 +65,13 @@ parser.parseURL(rssUrl).then(feed => {
           const config = yaml.load(fs.readFileSync(configFilePath, 'utf8'));
           const build = yaml.load(fs.readFileSync(buildFilePath, 'utf8'));
           if (!config.category_map) config.category_map = [];
-          if (!config.category_map.map((item)=>{return item.toLowerCase()}).includes(Dir)) {
+          if (!config.category_map.map((item)=>{return item.toLowerCase()}).includes(Dir.toLowerCase())) {
             config.category_map.map((item)=>{return item.toLowerCase()}).push(Dir.toLowerCase());
           }
           let tags = config.tags ? config.tags.split(",") : [];
           config.tags = [...new Set(tags)].join(",");
           build.tags = config.tags;
+          build.category_map=config.category_map.map((item)=>{return item.toLowerCase()})
           fs.writeFileSync(configFilePath, yaml.dump(config));
           fs.writeFileSync(buildFilePath, yaml.dump(build));
           // --- Nom fichier : sans index si une seule fuite, avec index sinon
