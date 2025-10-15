@@ -67,7 +67,7 @@ parser.parseURL(rssUrl).then(feed => {
           console.log(config.category_map)
           if (!config.category_map) config.category_map = [];
           if (!config.category_map.map((ite)=>{return ite.toLowerCase()}).includes(Dir.toLowerCase())) {
-            config.category_map.map((ite)=>{return ite.toLowerCase()}).push(Dir.toLowerCase());
+            config.category_map.push(Dir.toLowerCase());
           }
           let tags = config.tags ? config.tags.split(",") : [];
           config.tags = [...new Set(tags)].join(",");
