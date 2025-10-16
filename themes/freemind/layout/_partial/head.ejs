@@ -46,8 +46,7 @@
   <% } %>
 
   <!-- CSS -->
-  <!-- Original theme loading line removed: <link rel="stylesheet" href="<%- config.root %>css/themes/<%- theme.theme %>.css" media="screen" type="text/css"> -->
-  <link id="theme-style" rel="stylesheet" href="<%- config.root %>css/themes/cerulean.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="<%- config.root %>css/themes/<%- theme.theme %>.css" media="screen" type="text/css">
   <link rel="stylesheet" href="<%- config.root %>css/font-awesome.css" media="screen" type="text/css">
   <link rel="stylesheet" href="<%- config.root %>css/style.css" media="screen" type="text/css">
   <link rel="stylesheet" href="<%- config.root %>css/responsive.css" media="screen" type="text/css">
@@ -76,38 +75,4 @@
   <!-- analytics -->
   <%- partial('post/analytics') %>
 
-  <!-- Theme Switcher Script -->
-  <script>
-    const themes = [
-      "bootstrap", "cerulean", "cosmo", "cyborg", "darkly", 
-      "flatly", "journal", "lumen", "paper", "readable", "sandstone", "simplex", 
-      "slate", "spacelab", "superhero", "united", "yeti"
-    ]; // Excluded common.css and default.css as they were empty/very small.
-
-    function setTheme(themeName) {
-      const themeLink = document.getElementById('theme-style');
-      if (themeName === "cerulean") { // Default theme
-        themeLink.href = "<%- config.root %>css/themes/cerulean.css";
-        localStorage.removeItem('selectedTheme'); // Remove if default is selected
-      } else {
-        themeLink.href = "<%- config.root %>css/themes/" + themeName + ".css";
-        localStorage.setItem('selectedTheme', themeName);
-      }
-    }
-
-    document.addEventListener('DOMContentLoaded', () => {
-      const selectedTheme = localStorage.getItem('selectedTheme');
-      if (selectedTheme) {
-        setTheme(selectedTheme);
-        const themeSelector = document.getElementById('theme-selector');
-        if (themeSelector) {
-          themeSelector.value = selectedTheme;
-        }
-      } else {
-        // If no theme is saved, ensure cerulean is loaded as default
-        setTheme("cerulean");
-      }
-    });
-  </script>
-  <!-- End Theme Switcher Script -->
 </head>
