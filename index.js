@@ -64,7 +64,7 @@ parser.parseURL(rssUrl).then(feed => {
           const buildFilePath = './build.yml';
           const config = yaml.load(fs.readFileSync(configFilePath, 'utf8'));
           const build = yaml.load(fs.readFileSync(buildFilePath, 'utf8'));
-          console.log(config.category_map)
+          //console.log(config.category_map)
           if (!config.category_map) config.category_map = [];
           if (!config.category_map.map((ite)=>{return ite.toLowerCase()}).includes(Dir.toLowerCase())) {
             config.category_map.push(Dir.toLowerCase());
