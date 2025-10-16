@@ -1,0 +1,17 @@
+---
+title: Que faire en cas de piratage ?
+date: 2025-10-16 10:00:00
+---
+
+## Conseils immédiats en cas de suspicion de piratage
+
+Si vous pensez que votre système ou vos comptes ont été compromis, voici quelques étapes cruciales à suivre :
+
+1.  **Déconnectez la machine d'Internet** pour empêcher toute communication ultérieure de l'attaquant.
+2.  **Changez vos mots de passe** pour tous vos comptes critiques (email, banque, réseaux sociaux) à partir d'un appareil non compromis.
+3.  **Activez l'authentification multi-facteurs (MFA)** partout où c'est possible.
+4.  **Analysez votre système** avec un antivirus et un anti-malware à jour.
+5.  **Contactez les plateformes concernées** pour signaler le piratage de vos comptes.
+6.  **Déposez plainte** sur la plateforme gouvernementale dédiée (par exemple, cybermalveillance.gouv.fr en France).
+
+Restez vigilant et n'hésitez pas à demander de l'aide à des professionnels.
