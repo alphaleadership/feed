@@ -185,12 +185,14 @@ pre {
 
 /* Force sidebar to the side */
 @media (min-width: 992px) { /* Apply for medium and larger devices */
-  .row.page > .col-md-9 {
+  .row.page > .col-md-9,
+  .row.post > .col-md-9 {
     float: left;
     width: 75%;
   }
 
-  .row.page > .col-md-3 {
+  .row.page > .col-md-3,
+  .row.post > .col-md-3 {
     float: left;
     width: 25%;
   }
