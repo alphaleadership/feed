@@ -12,6 +12,9 @@ Si vous pensez que votre système ou vos comptes ont été compromis, voici quel
     **Important :** N'éteignez pas la machine immédiatement. Laisser l'ordinateur allumé peut préserver des informations volatiles en mémoire (RAM) qui sont cruciales pour une analyse forensique et pour comprendre l'étendue de l'attaque. L'extinction de la machine effacerait ces preuves.
 
 2.  **Changez vos mots de passe** pour tous vos comptes critiques (email, banque, réseaux sociaux) à partir d'un appareil non compromis.
+
+    **Utilisez un gestionnaire de mots de passe :** Pour éviter d'utiliser des mots de passe faibles ou réutilisés, servez-vous d'un gestionnaire de mots de passe. Ces outils créent et stockent des mots de passe complexes et uniques pour chaque service, renforçant considérablement la sécurité de vos comptes.
+
 3.  **Activez l'authentification multi-facteurs (MFA)** partout où c'est possible.
 4.  **Analysez votre système** avec un antivirus et un anti-malware à jour.
 5.  **Contactez les plateformes concernées** pour signaler le piratage de vos comptes.
