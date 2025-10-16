@@ -8,6 +8,9 @@ date: 2025-10-16 10:00:00
 Si vous pensez que votre système ou vos comptes ont été compromis, voici quelques étapes cruciales à suivre :
 
 1.  **Déconnectez la machine d'Internet** pour empêcher toute communication ultérieure de l'attaquant.
+
+    **Important :** N'éteignez pas la machine immédiatement. Laisser l'ordinateur allumé peut préserver des informations volatiles en mémoire (RAM) qui sont cruciales pour une analyse forensique et pour comprendre l'étendue de l'attaque. L'extinction de la machine effacerait ces preuves.
+
 2.  **Changez vos mots de passe** pour tous vos comptes critiques (email, banque, réseaux sociaux) à partir d'un appareil non compromis.
 3.  **Activez l'authentification multi-facteurs (MFA)** partout où c'est possible.
 4.  **Analysez votre système** avec un antivirus et un anti-malware à jour.
