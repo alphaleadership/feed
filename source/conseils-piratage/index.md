@@ -3,6 +3,15 @@ title: Que faire en cas de piratage ?
 date: 2025-10-16 10:00:00
 ---
 
+## Vérifiez si vos données ont fuité
+
+<div class="hibp-search-form">
+  <form action="https://haveibeenpwned.com/unifiedsearch" method="get" target="_blank" rel="noopener">
+    <input type="email" name="query" placeholder="Entrez votre adresse e-mail..." required aria-label="Adresse e-mail à vérifier">
+    <button type="submit">Vérifier sur HaveIBeenPwned.com</button>
+  </form>
+</div>
+
 ## Conseils immédiats en cas de suspicion de piratage
 
 Si vous pensez que votre système ou vos comptes ont été compromis, voici quelques étapes cruciales à suivre :
