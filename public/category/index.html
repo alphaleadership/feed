@@ -1,6 +1,8 @@
 <!DOCTYPE HTML>
 <html>
-  <head>
+
+
+<head>
 <script defer src="https://cloud.umami.is/script.js" data-website-id="3114a86e-6e66-4953-b19f-40491a63d444"></script>
   <meta charset="utf-8">
 
@@ -27,8 +29,7 @@
   
 
   <!-- CSS -->
-  <!-- Original theme loading line removed: <link rel="stylesheet" href="/css/themes/cerulean.css" media="screen" type="text/css"> -->
-  <link id="theme-style" rel="stylesheet" href="/css/themes/cerulean.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/themes/cerulean.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">
@@ -50,1727 +51,955 @@
 
 
 
-  <!-- Theme Switcher Script -->
-  <script>
-    const themes = [
-      "bootstrap", "cerulean", "cosmo", "cyborg", "darkly", 
-      "flatly", "journal", "lumen", "paper", "readable", "sandstone", "simplex", 
-      "slate", "spacelab", "superhero", "united", "yeti"
-    ]; // Excluded common.css and default.css as they were empty/very small.
-
-    function setTheme(themeName) {
-      const themeLink = document.getElementById('theme-style');
-      if (themeName === "cerulean") { // Default theme
-        themeLink.href = "/css/themes/cerulean.css";
-        localStorage.removeItem('selectedTheme'); // Remove if default is selected
-      } else {
-        themeLink.href = "/css/themes/" + themeName + ".css";
-        localStorage.setItem('selectedTheme', themeName);
-      }
-    }
-
-    document.addEventListener('DOMContentLoaded', () => {
-      const selectedTheme = localStorage.getItem('selectedTheme');
-      if (selectedTheme) {
-        setTheme(selectedTheme);
-        const themeSelector = document.getElementById('theme-selector');
-        if (themeSelector) {
-          themeSelector.value = selectedTheme;
-        }
-      } else {
-        // If no theme is saved, ensure cerulean is loaded as default
-        setTheme("cerulean");
-      }
-    });
-  </script>
-  <!-- End Theme Switcher Script -->
 <!-- hexo injector head_end start --><script src="./func.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"></head>
-  <body class="bg-dark text-light">
-    <nav id="main-nav" class="navbar navbar-dark bg-dark shadow-lg navbar-expand-lg navbar-fixed-top" role="navigation">
-  <div class="container">
-  
-    <a class="navbar-brand text-uppercase fw-bold" href="/">veille</a>
-    <div class="collapse navbar-collapse nav-menu">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        
-          <li class="nav-item">
-            <a href="/archives" title="All the articles." class="nav-link text-light text-uppercase fw-bold">
-              <i class="fa fa-archive fs-5 me-2"></i>Archives
-            </a>
-          </li>
-        
-          <li class="nav-item">
-            <a href="/category" title="toute les catégorie " class="nav-link text-light text-uppercase fw-bold">
-              <i class="fa fa-archive fs-5 me-2"></i>catégorie
-            </a>
-          </li>
-        
-      </ul>
-      <!-- Theme Switcher Dropdown -->
-      <style>
-        #theme-switcher-wrap {
-          margin-left: auto; /* Pushes it to the right */
-          padding-right: 15px; /* Some spacing */
-        }
-        #theme-selector {
-          background: #fff;
-          border: 1px solid #ccc;
-          padding: 5px;
-          border-radius: 3px;
-          color: #333; /* Dark text for light background */
-        }
-      </style>
-      <div id="theme-switcher-wrap">
-        <select id="theme-selector" onchange="setTheme(this.value)">
-          <option value="cerulean">Cerulean (Default)</option>
-          <option value="bootstrap">Bootstrap</option>
-          <option value="cosmo">Cosmo</option>
-          <option value="cyborg">Cyborg</option>
-          <option value="darkly">Darkly</option>
-          <option value="flatly">Flatly</option>
-          <option value="journal">Journal</option>
-          <option value="lumen">Lumen</option>
-          <option value="paper">Paper</option>
-          <option value="readable">Readable</option>
-          <option value="sandstone">Sandstone</option>
-          <option value="simplex">Simplex</option>
-          <option value="slate">Slate</option>
-          <option value="spacelab">Spacelab</option>
-          <option value="superhero">SuperHero</option>
-          <option value="united">United</option>
-          <option value="yeti">Yeti</option>
-        </select>
+
+<body>
+  <nav id="main-nav" class="navbar  navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+       <a class="navbar-brand" href="/">veille</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/category" title="toute les catégorie ">
+			  <i class="fa fa-archive"></i>catégorie
+			</a>
+		  </li>
+		  
+		</ul>
       </div>
-      <!-- End Theme Switcher -->
-    </div>
-  </div> <!-- container -->
+    </div> <!-- container -->
 </nav>
 <div class="clearfix"></div>
-    <div class="container">
+
+  <div class="container">
+    <div class="content">
       
+
 <div class="categories-wrapper">
-  <div class="card border-0 shadow-lg mb-4 bg-gradient">
-    <div class="card-header bg-dark text-white d-flex align-items-center border-0">
-      <i class="bi bi-folder me-2 fs-4"></i>
-      <h2 class="mb-0 flex-grow-1 text-uppercase letter-spacing-1">228 Categories</h2>
-    </div>
-    <div class="card-body p-3">
-      <ul class="list-group list-group-flush">
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/viamedis/">
-              viamedis
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/air-france/">
-              air france
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/almerys/">
-              almerys
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/afflelou/">
-              afflelou
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/aides/">
-              aides
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/assurance-retraite/">
-              assurance retraite
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/arsoe/">
-              arsoé
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/atos/">
-              atos
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/auchan/">
-              auchan
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">2</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/autosur-diagnosur/">
-              autosur  diagnosur
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/autosur/">
-              autosur
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/bouygues-telecom/">
-              bouygues telecom
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/banque-de-france/">
-              banque de france
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/boulanger/">
-              boulanger
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/caisse-des-depots-et-des-consignations/">
-              caisse des dépôts et des consignations
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/centrale-nantes/">
-              centrale nantes
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/carrefour-mobile/">
-              carrefour mobile
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/cartier/">
-              cartier
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/cerballiance/">
-              cerballiance
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">2</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/chambres-d%E2%80%99agriculture/">
-              chambres d’agriculture
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/centre-national-de-la-fonction-publique-territoriale/">
-              centre national de la fonction publique territoriale
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/chronopost/">
-              chronopost
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/cogitis/">
-              cogitis
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/cultura/">
-              cultura
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/companie-de-transport-strasbourgeoise/">
-              companie de transport strasbourgeoise
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/cyberhaven/">
-              cyberhaven
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/cote-sushi/">
-              côté sushi
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/dailymotion/">
-              dailymotion
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/deloitte/">
-              deloitte
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/cybertek/">
-              cybertek
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/direct-assurance/">
-              direct assurance
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">2</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/dior/">
-              dior
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/disneyland/">
-              disneyland
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/e-leclerc/">
-              e.leclerc
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/easy-cash/">
-              easy cash
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/edf-dpih/">
-              edf dpih
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/electro-depot/">
-              electro dépôt
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/espace/">
-              espace
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/free-mobile/">
-              free mobile
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/france-travail/">
-              france travail
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">5</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/free/">
-              free
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/federation-francaise-montagne-escalade/">
-              fédération française montagne escalade
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/federation-francaise-de-force/">
-              fédération française de force
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/federation-francaise-de-foot/">
-              fédération française de foot
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/federation-francaise-de-roller-skateboard/">
-              fédération française de roller skateboard
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/federation-francaise-de-la-montagne-et-de-l-escalade/">
-              fédération française de la montagne et de l&#39;escalade
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/go-sport/">
-              go sport
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/federation-francaise-de-tir-a-l-arc/">
-              fédération française de tir à l&#39;arc
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/groupe-5asec/">
-              groupe 5àsec
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/harvest/">
-              harvest
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/hertz/">
-              hertz
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/guy-demarle/">
-              guy demarle
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/huttopia/">
-              huttopia
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/indigo/">
-              indigo
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/hopital-prive-de-la-loire/">
-              hôpital privé de la loire
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/king-jouet/">
-              king jouet
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/jvs/">
-              jvs
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/kiabi/">
-              kiabi
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/ldlc/">
-              ldlc
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">2</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/laforet/">
-              laforêt
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/intersport/">
-              intersport
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/kaviari/">
-              kaviari
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/la-poste/">
-              la poste
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/le-slip-francais/">
-              le slip français
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/louis-vuitton/">
-              louis vuitton
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/mediboard/">
-              mediboard
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/maif-bpce/">
-              maif  bpce
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/le-point/">
-              le point
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/molotov/">
-              molotov
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/meilleurtaux/">
-              meilleurtaux
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/mutuelle-des-motards/">
-              mutuelle des motards
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/nord-emploi/">
-              nord emploi
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/norauto/">
-              norauto
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/oracle-cloud/">
-              oracle cloud
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/peugeot/">
-              peugeot
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/ornikar/">
-              ornikar
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/pandora/">
-              pandora
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/pulsy/">
-              pulsy
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/red-by-sfr/">
-              red by sfr
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/reporterre/">
-              reporterre
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/picard/">
-              picard
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/sfr/">
-              sfr
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/service-departemental-d-incendie-et-de-secours-de-la-vienne/">
-              service départemental d&#39;incendie et de secours de la vienne
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/sport-2000/">
-              sport 2000
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/sorbonne-universite/">
-              sorbonne université
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/utwin/">
-              utwin
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">2</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/top-achat/">
-              top achat
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/sport-decouverte/">
-              sport découverte
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/ticketmaster/">
-              ticketmaster
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/union-nationale-du-sport-scolaire/">
-              union nationale du sport scolaire
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/volkswagen/">
-              volkswagen
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/wakanim/">
-              wakanim
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/zephir/">
-              zephir
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/ze-camping/">
-              ze camping
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/eclaireuses-et-eclaireurs-de-france/">
-              éclaireuses et éclaireurs de france
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/ecole-nationale-de-la-securite/">
-              école nationale de la sécurité
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/alltricks/">
-              alltricks
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/orange/">
-              orange
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/agence-nationale-des-titres-securises/">
-              agence nationale des titres sécurisés
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/agence-regionale-de-sante-des-hauts/">
-              agence régionale de santé des hauts
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/clarins/">
-              clarins
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/digital-charging-solutions/">
-              digital charging solutions
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/discord/">
-              discord
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/eklo/">
-              eklo
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/france-link-interactive/">
-              france link interactive
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/federation-francaise-de-tennis-de-table/">
-              fédération française de tennis de table
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/google/">
-              google
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/inovie-labosud/">
-              inovie labosud
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/la-nef/">
-              la nef
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/mango/">
-              mango
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/lycees-des-hauts/">
-              lycées des hauts
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/optic-2000/">
-              optic 2000
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/partner-immo/">
-              partner immo
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/plex/">
-              plex
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/agence-nationale-des-titres-securises/agence-nationale-des-titres-securises/">
-              agence nationale des titres sécurisés
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/aides/aides/">
-              aides
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/almerys/almerys/">
-              almerys
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/alltricks/alltricks/">
-              alltricks
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/air-france/air-france/">
-              air france
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/agence-regionale-de-sante-des-hauts/agence-regionale-de-sante-des-hauts/">
-              agence régionale de santé des hauts
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/assurance-retraite/assurance-retraite/">
-              assurance retraite
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/afflelou/afflelou/">
-              afflelou
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/arsoe/arsoe/">
-              arsoé
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/auchan/auchan/">
-              auchan
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">2</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/autosur/autosur/">
-              autosur
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/atos/atos/">
-              atos
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/banque-de-france/banque-de-france/">
-              banque de france
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/autosur-diagnosur/autosur-diagnosur/">
-              autosur  diagnosur
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/caisse-des-depots-et-des-consignations/caisse-des-depots-et-des-consignations/">
-              caisse des dépôts et des consignations
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/bouygues-telecom/bouygues-telecom/">
-              bouygues telecom
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/cartier/cartier/">
-              cartier
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/centrale-nantes/centrale-nantes/">
-              centrale nantes
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/chronopost/chronopost/">
-              chronopost
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/boulanger/boulanger/">
-              boulanger
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/carrefour-mobile/carrefour-mobile/">
-              carrefour mobile
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/cogitis/cogitis/">
-              cogitis
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/clarins/clarins/">
-              clarins
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/chambres-d%E2%80%99agriculture/chambres-d%E2%80%99agriculture/">
-              chambres d’agriculture
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/cerballiance/cerballiance/">
-              cerballiance
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">2</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/companie-de-transport-strasbourgeoise/companie-de-transport-strasbourgeoise/">
-              companie de transport strasbourgeoise
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/cybertek/cybertek/">
-              cybertek
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/cote-sushi/cote-sushi/">
-              côté sushi
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/centre-national-de-la-fonction-publique-territoriale/centre-national-de-la-fonction-publique-territoriale/">
-              centre national de la fonction publique territoriale
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/dailymotion/dailymotion/">
-              dailymotion
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/cultura/cultura/">
-              cultura
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/cyberhaven/cyberhaven/">
-              cyberhaven
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/direct-assurance/direct-assurance/">
-              direct assurance
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">2</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/dior/dior/">
-              dior
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/deloitte/deloitte/">
-              deloitte
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/digital-charging-solutions/digital-charging-solutions/">
-              digital charging solutions
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/discord/discord/">
-              discord
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/disneyland/disneyland/">
-              disneyland
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/espace/espace/">
-              espace
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/eklo/eklo/">
-              eklo
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/edf-dpih/edf-dpih/">
-              edf dpih
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/e-leclerc/e-leclerc/">
-              e.leclerc
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/easy-cash/easy-cash/">
-              easy cash
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/electro-depot/electro-depot/">
-              electro dépôt
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/france-link-interactive/france-link-interactive/">
-              france link interactive
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/free/free/">
-              free
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/federation-francaise-de-force/federation-francaise-de-force/">
-              fédération française de force
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/federation-francaise-de-foot/federation-francaise-de-foot/">
-              fédération française de foot
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/federation-francaise-de-roller-skateboard/federation-francaise-de-roller-skateboard/">
-              fédération française de roller skateboard
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/free-mobile/free-mobile/">
-              free mobile
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/france-travail/france-travail/">
-              france travail
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">5</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/federation-francaise-de-la-montagne-et-de-l-escalade/federation-francaise-de-la-montagne-et-de-l-escalade/">
-              fédération française de la montagne et de l&#39;escalade
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/federation-francaise-montagne-escalade/federation-francaise-montagne-escalade/">
-              fédération française montagne escalade
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/federation-francaise-de-tennis-de-table/federation-francaise-de-tennis-de-table/">
-              fédération française de tennis de table
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/go-sport/go-sport/">
-              go sport
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/federation-francaise-de-tir-a-l-arc/federation-francaise-de-tir-a-l-arc/">
-              fédération française de tir à l&#39;arc
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/google/google/">
-              google
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/guy-demarle/guy-demarle/">
-              guy demarle
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/groupe-5asec/groupe-5asec/">
-              groupe 5àsec
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/hertz/hertz/">
-              hertz
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/indigo/indigo/">
-              indigo
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/hopital-prive-de-la-loire/hopital-prive-de-la-loire/">
-              hôpital privé de la loire
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/huttopia/huttopia/">
-              huttopia
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/intersport/intersport/">
-              intersport
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/jvs/jvs/">
-              jvs
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/la-poste/la-poste/">
-              la poste
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/inovie-labosud/inovie-labosud/">
-              inovie labosud
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/king-jouet/king-jouet/">
-              king jouet
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/harvest/harvest/">
-              harvest
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/la-nef/la-nef/">
-              la nef
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/kaviari/kaviari/">
-              kaviari
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/laforet/laforet/">
-              laforêt
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/le-slip-francais/le-slip-francais/">
-              le slip français
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/ldlc/ldlc/">
-              ldlc
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">2</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/kiabi/kiabi/">
-              kiabi
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/louis-vuitton/louis-vuitton/">
-              louis vuitton
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/maif-bpce/maif-bpce/">
-              maif  bpce
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/mango/mango/">
-              mango
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/molotov/molotov/">
-              molotov
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/meilleurtaux/meilleurtaux/">
-              meilleurtaux
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/le-point/le-point/">
-              le point
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/lycees-des-hauts/lycees-des-hauts/">
-              lycées des hauts
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/optic-2000/optic-2000/">
-              optic 2000
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/nord-emploi/nord-emploi/">
-              nord emploi
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/norauto/norauto/">
-              norauto
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/mutuelle-des-motards/mutuelle-des-motards/">
-              mutuelle des motards
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/mediboard/mediboard/">
-              mediboard
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/partner-immo/partner-immo/">
-              partner immo
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/oracle-cloud/oracle-cloud/">
-              oracle cloud
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/peugeot/peugeot/">
-              peugeot
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/orange/orange/">
-              orange
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/pandora/pandora/">
-              pandora
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/plex/plex/">
-              plex
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/ornikar/ornikar/">
-              ornikar
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/sfr/sfr/">
-              sfr
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/red-by-sfr/red-by-sfr/">
-              red by sfr
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/reporterre/reporterre/">
-              reporterre
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/picard/picard/">
-              picard
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/sorbonne-universite/sorbonne-universite/">
-              sorbonne université
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/sport-2000/sport-2000/">
-              sport 2000
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/ticketmaster/ticketmaster/">
-              ticketmaster
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/union-nationale-du-sport-scolaire/union-nationale-du-sport-scolaire/">
-              union nationale du sport scolaire
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/pulsy/pulsy/">
-              pulsy
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/sport-decouverte/sport-decouverte/">
-              sport découverte
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/service-departemental-d-incendie-et-de-secours-de-la-vienne/service-departemental-d-incendie-et-de-secours-de-la-vienne/">
-              service départemental d&#39;incendie et de secours de la vienne
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/viamedis/viamedis/">
-              viamedis
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/wakanim/wakanim/">
-              wakanim
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/top-achat/top-achat/">
-              top achat
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/zephir/zephir/">
-              zephir
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/ze-camping/ze-camping/">
-              ze camping
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/volkswagen/volkswagen/">
-              volkswagen
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/utwin/utwin/">
-              utwin
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">2</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/ecole-nationale-de-la-securite/ecole-nationale-de-la-securite/">
-              école nationale de la sécurité
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
-            <a class="fw-bold text-primary text-uppercase text-decoration-none" href="/category/eclaireuses-et-eclaireurs-de-france/eclaireuses-et-eclaireurs-de-france/">
-              éclaireuses et éclaireurs de france
-            </a>
-            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
+  <h2 class="list-header">198 Categories </h2>
+  <ul class="list-group category-wrapper">
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/viamedis/">
+          viamedis
+        </a>
+        <a class="category-count" href="/category/viamedis/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/air-france/">
+          air france
+        </a>
+        <a class="category-count" href="/category/air-france/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/almerys/">
+          almerys
+        </a>
+        <a class="category-count" href="/category/almerys/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/afflelou/">
+          afflelou
+        </a>
+        <a class="category-count" href="/category/afflelou/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/aides/">
+          aides
+        </a>
+        <a class="category-count" href="/category/aides/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/assurance-retraite/">
+          assurance retraite
+        </a>
+        <a class="category-count" href="/category/assurance-retraite/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/arsoe/">
+          arsoé
+        </a>
+        <a class="category-count" href="/category/arsoe/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/atos/">
+          atos
+        </a>
+        <a class="category-count" href="/category/atos/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/auchan/">
+          auchan
+        </a>
+        <a class="category-count" href="/category/auchan/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/autosur/">
+          autosur
+        </a>
+        <a class="category-count" href="/category/autosur/">
+          2
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/bouygues-telecom/">
+          bouygues telecom
+        </a>
+        <a class="category-count" href="/category/bouygues-telecom/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/banque-de-france/">
+          banque de france
+        </a>
+        <a class="category-count" href="/category/banque-de-france/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/boulanger/">
+          boulanger
+        </a>
+        <a class="category-count" href="/category/boulanger/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/caisse-des-depots-et-des-consignations/">
+          caisse des dépôts et des consignations
+        </a>
+        <a class="category-count" href="/category/caisse-des-depots-et-des-consignations/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/centrale-nantes/">
+          centrale nantes
+        </a>
+        <a class="category-count" href="/category/centrale-nantes/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/cartier/">
+          cartier
+        </a>
+        <a class="category-count" href="/category/cartier/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/cerballiance/">
+          cerballiance
+        </a>
+        <a class="category-count" href="/category/cerballiance/">
+          2
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/chambres-d%E2%80%99agriculture/">
+          chambres d’agriculture
+        </a>
+        <a class="category-count" href="/category/chambres-d%E2%80%99agriculture/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/centre-national-de-la-fonction-publique-territoriale/">
+          centre national de la fonction publique territoriale
+        </a>
+        <a class="category-count" href="/category/centre-national-de-la-fonction-publique-territoriale/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/chronopost/">
+          chronopost
+        </a>
+        <a class="category-count" href="/category/chronopost/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/cogitis/">
+          cogitis
+        </a>
+        <a class="category-count" href="/category/cogitis/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/cultura/">
+          cultura
+        </a>
+        <a class="category-count" href="/category/cultura/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/companie-de-transport-strasbourgeoise/">
+          companie de transport strasbourgeoise
+        </a>
+        <a class="category-count" href="/category/companie-de-transport-strasbourgeoise/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/cyberhaven/">
+          cyberhaven
+        </a>
+        <a class="category-count" href="/category/cyberhaven/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/cote-sushi/">
+          côté sushi
+        </a>
+        <a class="category-count" href="/category/cote-sushi/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/dailymotion/">
+          dailymotion
+        </a>
+        <a class="category-count" href="/category/dailymotion/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/deloitte/">
+          deloitte
+        </a>
+        <a class="category-count" href="/category/deloitte/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/cybertek/">
+          cybertek
+        </a>
+        <a class="category-count" href="/category/cybertek/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/direct-assurance/">
+          direct assurance
+        </a>
+        <a class="category-count" href="/category/direct-assurance/">
+          2
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/dior/">
+          dior
+        </a>
+        <a class="category-count" href="/category/dior/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/disneyland/">
+          disneyland
+        </a>
+        <a class="category-count" href="/category/disneyland/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/e-leclerc/">
+          e.leclerc
+        </a>
+        <a class="category-count" href="/category/e-leclerc/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/easy-cash/">
+          easy cash
+        </a>
+        <a class="category-count" href="/category/easy-cash/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/edf-dpih/">
+          edf dpih
+        </a>
+        <a class="category-count" href="/category/edf-dpih/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/electro-depot/">
+          electro dépôt
+        </a>
+        <a class="category-count" href="/category/electro-depot/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/espace/">
+          espace
+        </a>
+        <a class="category-count" href="/category/espace/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/france-travail/">
+          france travail
+        </a>
+        <a class="category-count" href="/category/france-travail/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/free/">
+          free
+        </a>
+        <a class="category-count" href="/category/free/">
+          2
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/federation-francaise-montagne-escalade/">
+          fédération française montagne escalade
+        </a>
+        <a class="category-count" href="/category/federation-francaise-montagne-escalade/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/federation-francaise-de-force/">
+          fédération française de force
+        </a>
+        <a class="category-count" href="/category/federation-francaise-de-force/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/federation-francaise-de-foot/">
+          fédération française de foot
+        </a>
+        <a class="category-count" href="/category/federation-francaise-de-foot/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/federation-francaise-de-roller-skateboard/">
+          fédération française de roller skateboard
+        </a>
+        <a class="category-count" href="/category/federation-francaise-de-roller-skateboard/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/federation-francaise-de-la-montagne-et-de-l-escalade/">
+          fédération française de la montagne et de l&#39;escalade
+        </a>
+        <a class="category-count" href="/category/federation-francaise-de-la-montagne-et-de-l-escalade/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/go-sport/">
+          go sport
+        </a>
+        <a class="category-count" href="/category/go-sport/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/federation-francaise-de-tir-a-l-arc/">
+          fédération française de tir à l&#39;arc
+        </a>
+        <a class="category-count" href="/category/federation-francaise-de-tir-a-l-arc/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/groupe-5asec/">
+          groupe 5àsec
+        </a>
+        <a class="category-count" href="/category/groupe-5asec/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/harvest/">
+          harvest
+        </a>
+        <a class="category-count" href="/category/harvest/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/hertz/">
+          hertz
+        </a>
+        <a class="category-count" href="/category/hertz/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/guy-demarle/">
+          guy demarle
+        </a>
+        <a class="category-count" href="/category/guy-demarle/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/huttopia/">
+          huttopia
+        </a>
+        <a class="category-count" href="/category/huttopia/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/indigo/">
+          indigo
+        </a>
+        <a class="category-count" href="/category/indigo/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/hopital-prive-de-la-loire/">
+          hôpital privé de la loire
+        </a>
+        <a class="category-count" href="/category/hopital-prive-de-la-loire/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/king-jouet/">
+          king jouet
+        </a>
+        <a class="category-count" href="/category/king-jouet/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/jvs/">
+          jvs
+        </a>
+        <a class="category-count" href="/category/jvs/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/kiabi/">
+          kiabi
+        </a>
+        <a class="category-count" href="/category/kiabi/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/ldlc/">
+          ldlc
+        </a>
+        <a class="category-count" href="/category/ldlc/">
+          2
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/laforet/">
+          laforêt
+        </a>
+        <a class="category-count" href="/category/laforet/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/intersport/">
+          intersport
+        </a>
+        <a class="category-count" href="/category/intersport/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/kaviari/">
+          kaviari
+        </a>
+        <a class="category-count" href="/category/kaviari/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/la-poste/">
+          la poste
+        </a>
+        <a class="category-count" href="/category/la-poste/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/le-slip-francais/">
+          le slip français
+        </a>
+        <a class="category-count" href="/category/le-slip-francais/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/louis-vuitton/">
+          louis vuitton
+        </a>
+        <a class="category-count" href="/category/louis-vuitton/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/mediboard/">
+          mediboard
+        </a>
+        <a class="category-count" href="/category/mediboard/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/maif-bpce/">
+          maif  bpce
+        </a>
+        <a class="category-count" href="/category/maif-bpce/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/le-point/">
+          le point
+        </a>
+        <a class="category-count" href="/category/le-point/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/molotov/">
+          molotov
+        </a>
+        <a class="category-count" href="/category/molotov/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/meilleurtaux/">
+          meilleurtaux
+        </a>
+        <a class="category-count" href="/category/meilleurtaux/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/mutuelle-des-motards/">
+          mutuelle des motards
+        </a>
+        <a class="category-count" href="/category/mutuelle-des-motards/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/nord-emploi/">
+          nord emploi
+        </a>
+        <a class="category-count" href="/category/nord-emploi/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/norauto/">
+          norauto
+        </a>
+        <a class="category-count" href="/category/norauto/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/oracle-cloud/">
+          oracle cloud
+        </a>
+        <a class="category-count" href="/category/oracle-cloud/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/peugeot/">
+          peugeot
+        </a>
+        <a class="category-count" href="/category/peugeot/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/ornikar/">
+          ornikar
+        </a>
+        <a class="category-count" href="/category/ornikar/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/pandora/">
+          pandora
+        </a>
+        <a class="category-count" href="/category/pandora/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/pulsy/">
+          pulsy
+        </a>
+        <a class="category-count" href="/category/pulsy/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/reporterre/">
+          reporterre
+        </a>
+        <a class="category-count" href="/category/reporterre/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/picard/">
+          picard
+        </a>
+        <a class="category-count" href="/category/picard/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/sfr/">
+          sfr
+        </a>
+        <a class="category-count" href="/category/sfr/">
+          2
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/service-departemental-d-incendie-et-de-secours-de-la-vienne/">
+          service départemental d&#39;incendie et de secours de la vienne
+        </a>
+        <a class="category-count" href="/category/service-departemental-d-incendie-et-de-secours-de-la-vienne/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/sport-2000/">
+          sport 2000
+        </a>
+        <a class="category-count" href="/category/sport-2000/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/sorbonne-universite/">
+          sorbonne université
+        </a>
+        <a class="category-count" href="/category/sorbonne-universite/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/utwin/">
+          utwin
+        </a>
+        <a class="category-count" href="/category/utwin/">
+          2
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/top-achat/">
+          top achat
+        </a>
+        <a class="category-count" href="/category/top-achat/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/sport-decouverte/">
+          sport découverte
+        </a>
+        <a class="category-count" href="/category/sport-decouverte/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/ticketmaster/">
+          ticketmaster
+        </a>
+        <a class="category-count" href="/category/ticketmaster/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/union-nationale-du-sport-scolaire/">
+          union nationale du sport scolaire
+        </a>
+        <a class="category-count" href="/category/union-nationale-du-sport-scolaire/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/volkswagen/">
+          volkswagen
+        </a>
+        <a class="category-count" href="/category/volkswagen/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/wakanim/">
+          wakanim
+        </a>
+        <a class="category-count" href="/category/wakanim/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/zephir/">
+          zephir
+        </a>
+        <a class="category-count" href="/category/zephir/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/ze-camping/">
+          ze camping
+        </a>
+        <a class="category-count" href="/category/ze-camping/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/eclaireuses-et-eclaireurs-de-france/">
+          éclaireuses et éclaireurs de france
+        </a>
+        <a class="category-count" href="/category/eclaireuses-et-eclaireurs-de-france/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/ecole-nationale-de-la-securite/">
+          école nationale de la sécurité
+        </a>
+        <a class="category-count" href="/category/ecole-nationale-de-la-securite/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/carrefour/">
+          carrefour
+        </a>
+        <a class="category-count" href="/category/carrefour/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/autosur/autosur-diagnosur/">
+          autosur  diagnosur
+        </a>
+        <a class="category-count" href="/category/autosur/autosur-diagnosur/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/free/free-mobile/">
+          free mobile
+        </a>
+        <a class="category-count" href="/category/free/free-mobile/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/sfr/red-by-sfr/">
+          red by sfr
+        </a>
+        <a class="category-count" href="/category/sfr/red-by-sfr/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/carrefour/carrefour-mobile/">
+          carrefour mobile
+        </a>
+        <a class="category-count" href="/category/carrefour/carrefour-mobile/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/alltricks/">
+          alltricks
+        </a>
+        <a class="category-count" href="/category/alltricks/">
+          1
+        </a>
+      </li>
+    
+      <li class="list-group-item">
+        <a class="category" href="/category/orange/">
+          orange
+        </a>
+        <a class="category-count" href="/category/orange/">
+          1
+        </a>
+      </li>
+     
+  </ul>
 </div>
 
 
     </div>
-    <div class="container-narrow">
-      <footer> <p>
+  </div>
+  <div class="container-narrow">
+    <footer> <p>
   &copy; 2025-2027 arbinger
   
       
 </p> </footer>
-    </div> <!-- container-narrow -->
-    
+  </div> <!-- container-narrow -->
+  
 
 
-    
+  
 <a id="gotop" href="#">   
   <span>▲</span> 
 </a>
@@ -1805,13 +1034,13 @@
 <!-- syntax highlighting -->
 
 
-    <script>
-      window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-    </script>
-    <script defer src="/_vercel/insights/script.js"></script>
-    <script>
-      window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
-    </script>
-    <script defer src="/_vercel/speed-insights/script.js"></script>
-  </body>
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
+<script>
+  window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/speed-insights/script.js"></script>
+</body>
 </html>

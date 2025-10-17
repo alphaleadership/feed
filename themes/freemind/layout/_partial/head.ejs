@@ -46,11 +46,9 @@
   <% } %>
 
   <!-- CSS -->
-  <!-- Original theme loading lines removed/modified -->
-  <link id="base-theme-style" rel="stylesheet" href="" media="screen" type="text/css">
-  <link id="override-theme-style" rel="stylesheet" href="" media="screen" type="text/css">
-
+  <link rel="stylesheet" href="<%- config.root %>css/themes/<%- theme.theme %>.css" media="screen" type="text/css">
   <link rel="stylesheet" href="<%- config.root %>css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="<%- config.root %>css/style.css" media="screen" type="text/css">
   <link rel="stylesheet" href="<%- config.root %>css/responsive.css" media="screen" type="text/css">
   <link rel="stylesheet" href="<%- config.root %>css/highlight.css" media="screen" type="text/css">
   <link rel="stylesheet" href="<%- config.root %>css/highlight-default.min.css" media="screen" type="text/css">
@@ -77,46 +75,4 @@
   <!-- analytics -->
   <%- partial('post/analytics') %>
 
-  <!-- Theme Switcher Script -->
-  <script>
-    let currentMode = "sombre"; // Default mode
-
-    function applyTheme(mode) {
-      const baseThemeLink = document.getElementById('base-theme-style');
-      const overrideThemeLink = document.getElementById('override-theme-style');
-      const themeToggleButton = document.getElementById('theme-toggle-button');
-
-      if (mode === "clair") {
-        baseThemeLink.href = "<%- config.root %>css/themes/cerulean-light.css";
-        overrideThemeLink.href = "<%- config.root %>css/themes/style-light.css";
-        localStorage.setItem('selectedMode', 'clair');
-        currentMode = 'clair';
-        if (themeToggleButton) themeToggleButton.textContent = 'Passer au mode Sombre';
-      } else { // Default to sombre
-        baseThemeLink.href = "<%- config.root %>css/themes/cerulean.css";
-        overrideThemeLink.href = "<%- config.root %>css/themes/style.css";
-        localStorage.setItem('selectedMode', 'sombre');
-        currentMode = 'sombre';
-        if (themeToggleButton) themeToggleButton.textContent = 'Passer au mode Clair';
-      }
-    }
-
-    function toggleTheme() {
-      if (currentMode === 'sombre') {
-        applyTheme('clair');
-      } else {
-        applyTheme('sombre');
-      }
-    }
-
-    document.addEventListener('DOMContentLoaded', () => {
-      const savedMode = localStorage.getItem('selectedMode');
-      if (savedMode) {
-        applyTheme(savedMode);
-      } else {
-        applyTheme("sombre"); // Apply default sombre if nothing saved
-      }
-    });
-  </script>
-  <!-- End Theme Switcher Script -->
 </head>
