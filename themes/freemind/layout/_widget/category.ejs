@@ -6,7 +6,7 @@
     </div>
     <div class="card-body p-3">
       <ul class="list-group list-group-flush">
-        <% site.categories.sort(function(a, b){ return b.posts.length - a.posts.length }).forEach(function(item){ %>
+        <% site.categories.toSorted(function(a, b){ return b.posts.length - a.posts.length }).forEach(function(item){ %>
           <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
             <a href="<%- url_for(item.path) %>" class="text-decoration-none text-primary fw-bold text-uppercase">
               <%= item.name.trim()%>
