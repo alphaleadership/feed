@@ -953,13 +953,6 @@ hexo-generator-archive@^2.0.0:
   dependencies:
     hexo-pagination "3.0.0"
 
-hexo-generator-category@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npmjs.org/hexo-generator-category/-/hexo-generator-category-2.0.0.tgz"
-  integrity sha512-9OduRBf3WeRDa4BR0kAfRjOVHur7v3fm0NKAwbjUiqULigAdNZVZPO3cHKW2MlBbl/lI5PuWdhQ9zZ99CCCAgQ==
-  dependencies:
-    hexo-pagination "3.0.0"
-
 "hexo-generator-feed@github:thomas-iniguez-visioli/hexo-generator-feed":
   version "3.0.0"
   resolved "git+ssh://git@github.com/thomas-iniguez-visioli/hexo-generator-feed.git#974021a82d30d3c2bdbd50f575933344147e9d02"
