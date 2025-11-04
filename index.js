@@ -18,7 +18,7 @@ const removeNunjucks = (content) => {
 };
 
 const l = (title) => {
-  if (title.includes("bonjourlafuite")) {
+  if (title.includes("http")) {
     return "_posts";
   } else {
     return "../_posts";
@@ -50,7 +50,7 @@ parser.parseURL(rssUrl).then(feed => {
     // Création des posts Hexo
     Object.entries(postsMap).forEach(([key, items]) => {
       const [Dir, dateStr] = key.split('#');
-      const hexoPostDir = path.join(PostDir, l(items[0].link), Dir);
+      const hexoPostDir = path.join(PostDir, l(items[0].guid), Dir);
       if (!fs.existsSync(hexoPostDir)) {
         fs.mkdirSync(hexoPostDir, { recursive: true });
       }
