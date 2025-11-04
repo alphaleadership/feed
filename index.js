@@ -28,7 +28,7 @@ const l = (title) => {
 parser.parseURL(rssUrl).then(feed => {
   try {
     // Filtrage des doublons avant toute opération
-    const uniqueItems = filterDisplayItems(feed.items);
+    const uniqueItems = filterDisplayItems(feed.items.filter(item => item.pubDate && !isNaN(new Date(item.pubDate))));
     // Regroupement par entreprise et date
     const postsMap = {};
     uniqueItems.forEach((item) => {
