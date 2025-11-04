@@ -16,8 +16,8 @@ status France Travail
 
 
 Autres fuites pour ce dossier :
-- [0](https://feed-blush.vercel.app/france-travail-fuite-du-2025-10-29)
-- [1](https://feed-blush.vercel.app/france-travail-fuite-du-2025-10-6)
+- [0](https://feed-blush.vercel.app/france-travail-fuite-du-2024-3-8)
+- [1](https://feed-blush.vercel.app/france-travail-fuite-du-2025-8-12)
 - [2](https://feed-blush.vercel.app/france-travail-fuite-du-2025-9-25)
-- [3](https://feed-blush.vercel.app/france-travail-fuite-du-2025-8-12)
-- [4](https://feed-blush.vercel.app/france-travail-fuite-du-2024-3-8)
+- [3](https://feed-blush.vercel.app/france-travail-fuite-du-2025-10-6)
+- [4](https://feed-blush.vercel.app/france-travail-fuite-du-2025-10-29)
