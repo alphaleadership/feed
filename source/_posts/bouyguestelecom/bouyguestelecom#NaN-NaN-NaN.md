@@ -1,7 +1,7 @@
  
 title: bouyguestelecom fuite du NaN-NaN-NaN
 date: NaN-NaN-NaN
-lien: "https://haveibeenpwned.com/Breach/BouyguesTelecom"
+lien: "https://haveibeenpwned.com/Breach/BouyguesTelecom-2025-09-24"
 categories:
   - bouyguestelecom
 ---

@@ -1,7 +1,7 @@
  
 title: latestpilotjobs fuite du NaN-NaN-NaN
 date: NaN-NaN-NaN
-lien: "https://haveibeenpwned.com/Breach/LatestPilotJobs"
+lien: "https://haveibeenpwned.com/Breach/LatestPilotJobs-2025-10-03"
 categories:
   - latestpilotjobs
 ---

@@ -1,7 +1,7 @@
  
 title: datatrollstealerlogs fuite du NaN-NaN-NaN
 date: NaN-NaN-NaN
-lien: "https://haveibeenpwned.com/Breach/DataTrollStealerLogs"
+lien: "https://haveibeenpwned.com/Breach/DataTrollStealerLogs-2025-08-13"
 categories:
   - datatrollstealerlogs
 ---

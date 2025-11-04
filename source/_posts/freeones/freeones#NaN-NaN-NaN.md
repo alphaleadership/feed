@@ -1,7 +1,7 @@
  
 title: freeones fuite du NaN-NaN-NaN
 date: NaN-NaN-NaN
-lien: "https://haveibeenpwned.com/Breach/FreeOnes"
+lien: "https://haveibeenpwned.com/Breach/FreeOnes-2025-09-18"
 categories:
   - freeones
 ---

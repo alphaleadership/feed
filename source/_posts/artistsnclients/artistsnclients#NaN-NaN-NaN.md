@@ -1,7 +1,7 @@
  
 title: artistsnclients fuite du NaN-NaN-NaN
 date: NaN-NaN-NaN
-lien: "https://haveibeenpwned.com/Breach/ArtistsNClients"
+lien: "https://haveibeenpwned.com/Breach/ArtistsNClients-2025-10-04"
 categories:
   - artistsnclients
 ---

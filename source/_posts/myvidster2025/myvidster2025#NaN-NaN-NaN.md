@@ -1,7 +1,7 @@
  
 title: myvidster2025 fuite du NaN-NaN-NaN
 date: NaN-NaN-NaN
-lien: "https://haveibeenpwned.com/Breach/MyVidster2025"
+lien: "https://haveibeenpwned.com/Breach/MyVidster2025-2025-10-27"
 categories:
   - myvidster2025
 ---

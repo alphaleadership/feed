@@ -1,7 +1,7 @@
  
 title: adpost fuite du NaN-NaN-NaN
 date: NaN-NaN-NaN
-lien: "https://haveibeenpwned.com/Breach/Adpost"
+lien: "https://haveibeenpwned.com/Breach/Adpost-2025-10-07"
 categories:
   - adpost
 ---

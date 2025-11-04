@@ -1,7 +1,7 @@
  
 title: synthientstealerlogthreatdata fuite du NaN-NaN-NaN
 date: NaN-NaN-NaN
-lien: "https://haveibeenpwned.com/Breach/SynthientStealerLogThreatData"
+lien: "https://haveibeenpwned.com/Breach/SynthientStealerLogThreatData-2025-10-21"
 categories:
   - synthientstealerlogthreatdata
 ---

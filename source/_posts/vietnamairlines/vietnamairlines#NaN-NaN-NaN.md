@@ -1,7 +1,7 @@
  
 title: vietnamairlines fuite du NaN-NaN-NaN
 date: NaN-NaN-NaN
-lien: "https://haveibeenpwned.com/Breach/VietnamAirlines"
+lien: "https://haveibeenpwned.com/Breach/VietnamAirlines-2025-10-11"
 categories:
   - vietnamairlines
 ---

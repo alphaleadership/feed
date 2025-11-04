@@ -1,7 +1,7 @@
  
 title: giglio fuite du NaN-NaN-NaN
 date: NaN-NaN-NaN
-lien: "https://haveibeenpwned.com/Breach/Giglio"
+lien: "https://haveibeenpwned.com/Breach/Giglio-2025-09-01"
 categories:
   - giglio
 ---

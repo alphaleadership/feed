@@ -1,7 +1,7 @@
  
 title: allianzlife fuite du NaN-NaN-NaN
 date: NaN-NaN-NaN
-lien: "https://haveibeenpwned.com/Breach/AllianzLife"
+lien: "https://haveibeenpwned.com/Breach/AllianzLife-2025-08-18"
 categories:
   - allianzlife
 ---

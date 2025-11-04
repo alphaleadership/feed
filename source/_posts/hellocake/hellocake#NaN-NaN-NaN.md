@@ -1,7 +1,7 @@
  
 title: hellocake fuite du NaN-NaN-NaN
 date: NaN-NaN-NaN
-lien: "https://haveibeenpwned.com/Breach/HelloCake"
+lien: "https://haveibeenpwned.com/Breach/HelloCake-2025-10-15"
 categories:
   - hellocake
 ---
