@@ -1,7 +1,7 @@
  
 title: allianzlife fuite du 2025-8-18
 date: 2025-8-18
-lien: "https://haveibeenpwned.com/Breach/AllianzLife-2025-08-18"
+lien: "https://haveibeenpwned.com/Breach/AllianzLife"
 categories:
   - allianzlife
 ---

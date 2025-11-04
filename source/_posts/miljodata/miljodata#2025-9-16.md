@@ -1,7 +1,7 @@
  
 title: miljodata fuite du 2025-9-16
 date: 2025-9-16
-lien: "https://haveibeenpwned.com/Breach/Miljodata-2025-09-16"
+lien: "https://haveibeenpwned.com/Breach/Miljodata"
 categories:
   - miljodata
 ---

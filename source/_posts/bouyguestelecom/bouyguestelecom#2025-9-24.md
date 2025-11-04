@@ -1,7 +1,7 @@
  
 title: bouyguestelecom fuite du 2025-9-24
 date: 2025-9-24
-lien: "https://haveibeenpwned.com/Breach/BouyguesTelecom-2025-09-24"
+lien: "https://haveibeenpwned.com/Breach/BouyguesTelecom"
 categories:
   - bouyguestelecom
 ---

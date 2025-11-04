@@ -1,7 +1,7 @@
  
 title: unigame fuite du 2025-8-8
 date: 2025-8-8
-lien: "https://haveibeenpwned.com/Breach/Unigame-2025-08-08"
+lien: "https://haveibeenpwned.com/Breach/Unigame"
 categories:
   - unigame
 ---

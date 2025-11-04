@@ -1,7 +1,7 @@
  
 title: freeones fuite du 2025-9-18
 date: 2025-9-18
-lien: "https://haveibeenpwned.com/Breach/FreeOnes-2025-09-18"
+lien: "https://haveibeenpwned.com/Breach/FreeOnes"
 categories:
   - freeones
 ---

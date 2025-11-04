@@ -1,7 +1,7 @@
  
 title: thesquare fuite du 2025-8-27
 date: 2025-8-27
-lien: "https://haveibeenpwned.com/Breach/TheSquare-2025-08-27"
+lien: "https://haveibeenpwned.com/Breach/TheSquare"
 categories:
   - thesquare
 ---

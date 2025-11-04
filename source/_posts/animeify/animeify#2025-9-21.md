@@ -1,7 +1,7 @@
  
 title: animeify fuite du 2025-9-21
 date: 2025-9-21
-lien: "https://haveibeenpwned.com/Breach/Animeify-2025-09-21"
+lien: "https://haveibeenpwned.com/Breach/Animeify"
 categories:
   - animeify
 ---

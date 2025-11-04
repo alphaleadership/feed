@@ -1,7 +1,7 @@
  
 title: artistsnclients fuite du 2025-10-4
 date: 2025-10-4
-lien: "https://haveibeenpwned.com/Breach/ArtistsNClients-2025-10-04"
+lien: "https://haveibeenpwned.com/Breach/ArtistsNClients"
 categories:
   - artistsnclients
 ---

@@ -1,7 +1,7 @@
  
 title: datatrollstealerlogs fuite du 2025-8-13
 date: 2025-8-13
-lien: "https://haveibeenpwned.com/Breach/DataTrollStealerLogs-2025-08-13"
+lien: "https://haveibeenpwned.com/Breach/DataTrollStealerLogs"
 categories:
   - datatrollstealerlogs
 ---
