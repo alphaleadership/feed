@@ -75,8 +75,10 @@ parser.parseURL(rssUrl).then(feed => {
           build.category_map=config.category_map.map((item)=>{return item.toLowerCase()})
           fs.writeFileSync(configFilePath, yaml.dump(config));
           fs.writeFileSync(buildFilePath, yaml.dump(build));
+           const pubDat = new Date(item.pubDate);
+              const dateS = `${pubDat.getFullYear()}-${pubDat.getMonth() + 1}-${pubDat.getDate()}`;
           // --- Nom fichier : sans index si une seule fuite, avec index sinon
-          const postFileName = items.length === 1 ? `${Dir}#${dateStr}.md` : `${Dir}#${dateStr}#${idx+1}.md`;
+          const postFileName = items.length === 1 ? `${Dir}#${dateS}.md` : `${Dir}#${dateS}#${idx+1}.md`;
           const postFilePath = path.join(hexoPostDir, postFileName);
           // --- Contenu du post
           const rawContent = parsecontent(item.contentSnippet, ',', "\n") || "pas d'information actuellement";
@@ -104,8 +106,8 @@ parser.parseURL(rssUrl).then(feed => {
             }).join('\n');
           }
           const postContentHexo = ` 
-title: ${Dir} fuite du ${dateStr}
-date: ${dateStr}
+title: ${Dir} fuite du ${dateS}
+date: ${dateS}
 lien: "${item.guid.replace('eu.orgimg','eu.org/img')}"
 categories:
   - ${Dir}
