@@ -70,13 +70,11 @@ include: null
 exclude: null
 ignore: null
 theme: freemind
-# Déploiement
 deploy:
   type: git
   repo: https://github.com/alphaleadership/feed.git
-  branch: gh-pages  # ou 'main'/'master' selon ta configuration GitHub
-  message: "Site mis à jour : {{ now('YYYY-MM-DD HH:mm:ss') }}"
-
+  branch: gh-pages
+  message: 'Site mis à jour : {{ now(''YYYY-MM-DD HH:mm:ss'') }}'
 category_map:
   - agence régionale de santé des hauts
   - lycées des hauts
