@@ -75,7 +75,7 @@ deploy:
   repo:
     github:
       url: https://github.com/alphaleadership/feed.git
-      branch: gh-pages
+      branch: pages
       token: $GITHUB_TOKEN
   name: arbinger
   email: alphaleadershipyt@protonmail
