@@ -40,9 +40,12 @@ jobs:
     - run: npm run build --if-present
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - run: node indexator && hexo generate && hexo deploy 
+    - run: node indexator  
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - uses: stefanzweifel/git-auto-commit-action@v5
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - run: npx hexo generate &&npx hexo deploy
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
