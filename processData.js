@@ -34,7 +34,11 @@ fs.readFile(dataFilePath, 'utf8', (err, data) => {
     const postsByDate = {};
     
     // Première passe : compter les fuites par date
-    breaches.forEach(breach => {
+    const batchSize = 10;
+    const batch = breaches.slice(0, batchSize); // Prendre uniquement les 10 premières entrées
+    console.log(`\n=== Traitement d'un seul lot de ${batch.length} entrées ===`);
+    
+    batch.forEach(breach => {
       const breachDate = new Date(breach.BreachDate);
       const dateKey = `${breachDate.getFullYear()}-${breachDate.getMonth() + 1}-${breachDate.getDate()}`;
       
@@ -48,7 +52,7 @@ fs.readFile(dataFilePath, 'utf8', (err, data) => {
     Object.entries(postsByDate).forEach(([dateKey, breachesForDate]) => {
       breachesForDate.forEach((breach, index) => {
         const safeName = breach.Name.toLowerCase()
-          .replace(/[^a-z0-9]+/g, ''); // Supprimer les caractères spéciaux
+          .replace(/[^a-z0-9]+/g, '').replace('\\',''); // Supprimer les caractères spéciaux
           
         // Formater la date (sans padding pour les mois/jours à un chiffre)
         const [year, month, day] = dateKey.split('-');
@@ -101,25 +105,33 @@ ${breach.Domain ? `- [${breach.Domain}](${breach.Domain.startsWith('http') ? '' 
       });
     });
     
-    console.log(`\nTraitement terminé. ${breaches.length} articles créés.`);
+    // Enlever les entrées traitées (les 10 premières)
+    const remainingBreaches = breaches.slice(10);
     
-    // Supprimer le fichier data.json après traitement
-    fs.unlink(dataFilePath, (err) => {
-      if (err) {
-        console.error('❌ Erreur lors de la suppression du fichier data.json:', err);
-      } else {
-        console.log('✅ Fichier data.json supprimé avec succès');
-      }
-    });
+    if (remainingBreaches.length > 0) {
+      // Sauvegarder les entrées restantes dans le fichier
+      fs.writeFile(dataFilePath, JSON.stringify(remainingBreaches, null, 2), (err) => {
+        if (err) {
+          console.error('❌ Erreur lors de la sauvegarde du fichier data.json mis à jour:', err);
+        } else {
+          console.log(`✅ Fichier data.json mis à jour avec succès. ${remainingBreaches.length} entrées restantes.`);
+        }
+      });
+    } else {
+      // Si plus d'entrées à traiter, supprimer le fichier
+      fs.unlink(dataFilePath, (err) => {
+        if (err) {
+          console.error('❌ Erreur lors de la suppression du fichier data.json:', err);
+        } else {
+          console.log('✅ Toutes les entrées ont été traitées. Fichier data.json supprimé.');
+        }
+      });
+    }
     
   } catch (error) {
     console.error('Erreur lors du traitement des données:', error);
     
-    // En cas d'erreur, on essaie quand même de supprimer le fichier
-    fs.unlink(dataFilePath, (err) => {
-      if (!err) {
-        console.log('✅ Fichier data.json supprimé malgré les erreurs de traitement');
-      }
-    });
+    // En cas d'erreur, on ne modifie pas le fichier pour éviter de perdre des données
+    console.error('⚠️  Le fichier data.json n\'a pas été modifié en raison d\'une erreur.');
   }
 });

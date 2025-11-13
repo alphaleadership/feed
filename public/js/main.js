@@ -50,5 +50,4 @@ $(document).ready(function() {
 // 			$("#site_search").prependTo("#sidebar"); // Disabled by Gemini
 // 			$("#site_search #st-search-input").css("width", "85%"); // Disabled by Gemini
 // 		} // Disabled by Gemini
-// 	} // Disabled by Gemini
 // } // Disabled by Gemini
