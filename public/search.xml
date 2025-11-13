@@ -15,6 +15,8 @@
           
           <category> weda </category>
           
+          <category> weda </category>
+          
       </categories>
       
       
@@ -34,8 +36,18 @@
           
           <category> oui heberg </category>
           
+          <category> oui heberg </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -53,8 +65,18 @@
           
           <category> mym </category>
           
+          <category> mym </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -69,6 +91,8 @@
       
       
       <categories>
+          
+          <category> france travail </category>
           
           <category> france travail </category>
           
@@ -88,6 +112,8 @@
       
       
       <categories>
+          
+          <category> fédération française de tir </category>
           
           <category> fédération française de tir </category>
           
@@ -152,8 +178,20 @@
           
           <category> mango </category>
           
+          <category> mango </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -202,8 +240,43 @@
           
           <category> lycées des hauts </category>
           
+          <category> lycées des hauts </category>
+          
       </categories>
       
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Adpost - Fuite De Données</title>
+      <link href="/adpost-fuite-de-donnees/"/>
+      <url>/adpost-fuite-de-donnees/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Adpost-Fuite-de-donnees"><a href="#Adpost-Fuite-de-donnees" class="headerlink" title="Adpost - Fuite de données"></a>Adpost - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2025-02-14<br><strong>Nombre de comptes affectés</strong> : 3 339 512</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In February 2025, data allegedly obtained from an earlier Adpost breach surfaced. The dataset contained 3.3M records including email addresses, usernames, and display names. Multiple attempts to contact Adpost regarding the incident received no response.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Names</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Adpost">Vérifier si vous êtes concerné</a></li><li><a href="https://adpost.com/">adpost.com</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> breaches </category>
+          
+          <category> adpost </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> email addresses </tag>
+            
+            <tag> names </tag>
+            
+            <tag> usernames </tag>
+            
+            <tag> nom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -221,8 +294,18 @@
           
           <category> france travail </category>
           
+          <category> france travail </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -240,8 +323,16 @@
           
           <category> discord </category>
           
+          <category> discord </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -259,8 +350,18 @@
           
           <category> france travail </category>
           
+          <category> france travail </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -275,6 +376,8 @@
       
       
       <categories>
+          
+          <category> la nef </category>
           
           <category> la nef </category>
           
@@ -297,6 +400,8 @@
           
           <category> inovie labosud </category>
           
+          <category> inovie labosud </category>
+          
       </categories>
       
       
@@ -316,8 +421,16 @@
           
           <category> digital charging solutions </category>
           
+          <category> digital charging solutions </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -335,8 +448,20 @@
           
           <category> fédération française de tennis de table </category>
           
+          <category> fédération française de tennis de table </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -351,6 +476,8 @@
       
       
       <categories>
+          
+          <category> clarins </category>
           
           <category> clarins </category>
           
@@ -370,6 +497,8 @@
       
       
       <categories>
+          
+          <category> eklo </category>
           
           <category> eklo </category>
           
@@ -410,6 +539,41 @@
     
     
     <entry>
+      <title>Allianz Life - Fuite De Données</title>
+      <link href="/allianz-life-fuite-de-donnees/"/>
+      <url>/allianz-life-fuite-de-donnees/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Allianz-Life-Fuite-de-donnees"><a href="#Allianz-Life-Fuite-de-donnees" class="headerlink" title="Allianz Life - Fuite de données"></a>Allianz Life - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2025-07-16<br><strong>Nombre de comptes affectés</strong> : 1 115 061</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In July 2025, Allianz Life was the victim of a cyber attack which resulted in millions of records later being leaked online. Allianz attributed the attack to “a social engineering technique” which targeted data on Salesforce and resulted in the exposure of 1.1M unique email addresses, names, genders, dates of birth, phone numbers and physical addresses.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Dates of birth</li><li>Email addresses</li><li>Genders</li><li>Names</li><li>Phone numbers</li><li>Physical addresses</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AllianzLife">Vérifier si vous êtes concerné</a></li><li><a href="https://allianzlife.com/">allianzlife.com</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> breaches </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> email addresses </tag>
+            
+            <tag> names </tag>
+            
+            <tag> phone numbers </tag>
+            
+            <tag> physical addresses </tag>
+            
+            <tag> dates of birth </tag>
+            
+            <tag> genders </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>France Link Interactive Fuite Du 2025-8-13</title>
       <link href="/france-link-interactive-fuite-du-2025-8-13/"/>
       <url>/france-link-interactive-fuite-du-2025-8-13/</url>
@@ -418,6 +582,8 @@
       
       
       <categories>
+          
+          <category> france link interactive </category>
           
           <category> france link interactive </category>
           
@@ -440,6 +606,8 @@
           
           <category> google </category>
           
+          <category> google </category>
+          
       </categories>
       
       
@@ -456,6 +624,8 @@
       
       
       <categories>
+          
+          <category> partner immo </category>
           
           <category> partner immo </category>
           
@@ -499,8 +669,20 @@
           
           <category> france travail </category>
           
+          <category> france travail </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -518,8 +700,18 @@
           
           <category> optic 2000 </category>
           
+          <category> optic 2000 </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -587,8 +779,18 @@
           
           <category> pandora </category>
           
+          <category> pandora </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -603,6 +805,8 @@
       
       
       <categories>
+          
+          <category> thepi </category>
           
           <category> thepi </category>
           
@@ -625,6 +829,8 @@
           
           <category> thepi </category>
           
+          <category> thepi </category>
+          
       </categories>
       
       
@@ -641,6 +847,8 @@
       
       
       <categories>
+          
+          <category> orange </category>
           
           <category> orange </category>
           
@@ -663,8 +871,20 @@
           
           <category> france travail </category>
           
+          <category> france travail </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -679,6 +899,8 @@
       
       
       <categories>
+          
+          <category> groupe 5àsec </category>
           
           <category> groupe 5àsec </category>
           
@@ -722,8 +944,20 @@
           
           <category> louis vuitton </category>
           
+          <category> louis vuitton </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -741,8 +975,20 @@
           
           <category> sorbonne université </category>
           
+          <category> sorbonne université </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -760,8 +1006,20 @@
           
           <category> union nationale du sport scolaire </category>
           
+          <category> union nationale du sport scolaire </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -776,6 +1034,8 @@
       
       
       <categories>
+          
+          <category> disneyland </category>
           
           <category> disneyland </category>
           
@@ -798,8 +1058,18 @@
           
           <category> hôpital privé de la loire </category>
           
+          <category> hôpital privé de la loire </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -822,6 +1092,12 @@
       </categories>
       
       
+        <tags>
+            
+            <tag> nom </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -838,8 +1114,18 @@
           
           <category> kaviari </category>
           
+          <category> kaviari </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -868,6 +1154,8 @@
             
             <tag> prénom </tag>
             
+            <tag> adresse email </tag>
+            
         </tags>
       
     </entry>
@@ -883,6 +1171,8 @@
       
       
       <categories>
+          
+          <category> dior </category>
           
           <category> dior </category>
           
@@ -905,8 +1195,18 @@
           
           <category> pulsy </category>
           
+          <category> pulsy </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -921,6 +1221,8 @@
       
       
       <categories>
+          
+          <category> cerballiance </category>
           
           <category> cerballiance </category>
           
@@ -948,6 +1250,12 @@
       </categories>
       
       
+        <tags>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -964,8 +1272,18 @@
           
           <category> easy cash </category>
           
+          <category> easy cash </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -983,8 +1301,20 @@
           
           <category> indigo </category>
           
+          <category> indigo </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1033,8 +1363,16 @@
           
           <category> hertz </category>
           
+          <category> hertz </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1049,6 +1387,8 @@
       
       
       <categories>
+          
+          <category> harvest </category>
           
           <category> harvest </category>
           
@@ -1071,8 +1411,16 @@
           
           <category> utwin </category>
           
+          <category> utwin </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1090,8 +1438,18 @@
           
           <category> reporterre </category>
           
+          <category> reporterre </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1109,8 +1467,18 @@
           
           <category> maif  bpce </category>
           
+          <category> maif  bpce </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1125,6 +1493,8 @@
       
       
       <categories>
+          
+          <category> oracle cloud </category>
           
           <category> oracle cloud </category>
           
@@ -1168,8 +1538,18 @@
           
           <category> cerballiance </category>
           
+          <category> cerballiance </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1192,6 +1572,16 @@
       </categories>
       
       
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -1208,8 +1598,18 @@
           
           <category> intersport </category>
           
+          <category> intersport </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1227,8 +1627,18 @@
           
           <category> éclaireuses et éclaireurs de france </category>
           
+          <category> éclaireuses et éclaireurs de france </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1243,6 +1653,8 @@
       
       
       <categories>
+          
+          <category> direct assurance </category>
           
           <category> direct assurance </category>
           
@@ -1265,6 +1677,8 @@
           
           <category> laforêt </category>
           
+          <category> laforêt </category>
+          
       </categories>
       
       
@@ -1284,8 +1698,16 @@
           
           <category> utwin </category>
           
+          <category> utwin </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1303,8 +1725,18 @@
           
           <category> côté sushi </category>
           
+          <category> côté sushi </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1322,8 +1754,18 @@
           
           <category> la poste </category>
           
+          <category> la poste </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1338,6 +1780,8 @@
       
       
       <categories>
+          
+          <category> edf dpih </category>
           
           <category> edf dpih </category>
           
@@ -1360,8 +1804,18 @@
           
           <category> zephir </category>
           
+          <category> zephir </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1379,8 +1833,18 @@
           
           <category> école nationale de la sécurité </category>
           
+          <category> école nationale de la sécurité </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1398,8 +1862,45 @@
           
           <category> nord emploi </category>
           
+          <category> nord emploi </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>ALIEN TXTBASE Stealer Logs - Fuite De Données</title>
+      <link href="/alien-txtbase-stealer-logs-fuite-de-donnees/"/>
+      <url>/alien-txtbase-stealer-logs-fuite-de-donnees/</url>
+      
+        <content type="html"><![CDATA[<h1 id="ALIEN-TXTBASE-Stealer-Logs-Fuite-de-donnees"><a href="#ALIEN-TXTBASE-Stealer-Logs-Fuite-de-donnees" class="headerlink" title="ALIEN TXTBASE Stealer Logs - Fuite de données"></a>ALIEN TXTBASE Stealer Logs - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2025-02-15<br><strong>Nombre de comptes affectés</strong> : 284 132 969</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In February 2025, 23 billion rows of stealer logs were obtained from a Telegram channel known as ALIEN TXTBASE. The data contained 284M unique email addresses alongside the websites they were entered into and the passwords used. This data is now searchable in HIBP by both email domain and the domain of the target website.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Passwords</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AlienStealerLogs">Vérifier si vous êtes concerné</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> breaches </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> email addresses </tag>
+            
+            <tag> passwords </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1417,8 +1918,20 @@
           
           <category> fédération française de foot </category>
           
+          <category> fédération française de foot </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1433,6 +1946,8 @@
       
       
       <categories>
+          
+          <category> service départemental d&#39;incendie et de secours de la vienne </category>
           
           <category> service départemental d&#39;incendie et de secours de la vienne </category>
           
@@ -1455,8 +1970,18 @@
           
           <category> sport découverte </category>
           
+          <category> sport découverte </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1474,8 +1999,20 @@
           
           <category> mutuelle des motards </category>
           
+          <category> mutuelle des motards </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1514,8 +2051,18 @@
           
           <category> chronopost </category>
           
+          <category> chronopost </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1533,8 +2080,53 @@
           
           <category> king jouet </category>
           
+          <category> king jouet </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Adopt Me Trading Values - Fuite De Données</title>
+      <link href="/adopt-me-trading-values-fuite-de-donnees/"/>
+      <url>/adopt-me-trading-values-fuite-de-donnees/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Adopt-Me-Trading-Values-Fuite-de-donnees"><a href="#Adopt-Me-Trading-Values-Fuite-de-donnees" class="headerlink" title="Adopt Me Trading Values - Fuite de données"></a>Adopt Me Trading Values - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2022-07-01<br><strong>Nombre de comptes affectés</strong> : 86 136</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In July 2022, the Adopt Me Trading Values website for assessing the value of pet trades within the “Adopt Me!” Roblox game suffered a data breach that was later redistributed as part of a larger corpus of data. The breach exposed 86k unique email addresses along with usernames (and Roblox usernames), IP addresses and bcrypt password hashes. </p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>IP addresses</li><li>Passwords</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AdoptMeTradingValues">Vérifier si vous êtes concerné</a></li><li><a href="https://adoptmetradingvalues.com/">adoptmetradingvalues.com</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> breaches </category>
+          
+          <category> adoptmetradingvalues </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> email addresses </tag>
+            
+            <tag> ip addresses </tag>
+            
+            <tag> passwords </tag>
+            
+            <tag> usernames </tag>
+            
+            <tag> nom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1552,8 +2144,18 @@
           
           <category> espace </category>
           
+          <category> espace </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1603,7 +2205,7 @@
       <link href="/9lives-fuite-de-donnees/"/>
       <url>/9lives-fuite-de-donnees/</url>
       
-        <content type="html"><![CDATA[<h1 id="9Lives-Fuite-de-donnees"><a href="#9Lives-Fuite-de-donnees" class="headerlink" title="9Lives - Fuite de données"></a>9Lives - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2014-10-01<br><strong>Nombre de comptes affectés</strong> : 109 515</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In October 2014, the (now defunct) Belgian gaming news forum 9Lives suffered a data breach that was later redistributed as part of a larger corpus of data. The breach exposed 109k unique email addresses along with usernames and salted MD5 password hashes.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Passwords</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/9Lives">Vérifier si vous êtes concerné</a></li><li><a href="https://9lives.be/">9lives.be</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="9Lives-Fuite-de-donnees"><a href="#9Lives-Fuite-de-donnees" class="headerlink" title="9Lives - Fuite de données"></a>9Lives - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2014-10-01<br><strong>Nombre de comptes affectés</strong> : 109 515</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In October 2014, the now defunct Belgian gaming news forum 9Lives suffered a data breach that was later redistributed as part of a larger corpus of data. The breach exposed 109k unique email addresses along with usernames and salted MD5 password hashes.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Passwords</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/9Lives">Vérifier si vous êtes concerné</a></li><li><a href="https://9lives.be/">9lives.be</a></li></ul>]]></content>
       
       
       <categories>
@@ -1674,8 +2276,20 @@
           
           <category> e.leclerc </category>
           
+          <category> e.leclerc </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1693,8 +2307,20 @@
           
           <category> fédération française montagne escalade </category>
           
+          <category> fédération française montagne escalade </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1712,8 +2338,20 @@
           
           <category> fédération française de la montagne et de l&#39;escalade </category>
           
+          <category> fédération française de la montagne et de l&#39;escalade </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1731,8 +2369,20 @@
           
           <category> fédération française de tir à l&#39;arc </category>
           
+          <category> fédération française de tir à l&#39;arc </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1747,6 +2397,8 @@
       
       
       <categories>
+          
+          <category> fédération française de force </category>
           
           <category> fédération française de force </category>
           
@@ -1769,8 +2421,20 @@
           
           <category> fédération française de roller skateboard </category>
           
+          <category> fédération française de roller skateboard </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1788,8 +2452,18 @@
           
           <category> kiabi </category>
           
+          <category> kiabi </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1804,6 +2478,8 @@
       
       
       <categories>
+          
+          <category> cogitis </category>
           
           <category> cogitis </category>
           
@@ -1868,6 +2544,8 @@
           
           <category> volkswagen </category>
           
+          <category> volkswagen </category>
+          
       </categories>
       
       
@@ -1884,6 +2562,8 @@
       
       
       <categories>
+          
+          <category> peugeot </category>
           
           <category> peugeot </category>
           
@@ -1906,6 +2586,8 @@
           
           <category> cyberhaven </category>
           
+          <category> cyberhaven </category>
+          
       </categories>
       
       
@@ -1925,8 +2607,18 @@
           
           <category> top achat </category>
           
+          <category> top achat </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1941,6 +2633,8 @@
       
       
       <categories>
+          
+          <category> deloitte </category>
           
           <category> deloitte </category>
           
@@ -1963,8 +2657,20 @@
           
           <category> guy demarle </category>
           
+          <category> guy demarle </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1982,8 +2688,20 @@
           
           <category> norauto </category>
           
+          <category> norauto </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -2001,8 +2719,18 @@
           
           <category> ze camping </category>
           
+          <category> ze camping </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -2020,8 +2748,20 @@
           
           <category> jvs </category>
           
+          <category> jvs </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -2039,8 +2779,20 @@
           
           <category> sfr </category>
           
+          <category> sfr </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -2079,6 +2831,8 @@
           
           <category> companie de transport strasbourgeoise </category>
           
+          <category> companie de transport strasbourgeoise </category>
+          
       </categories>
       
       
@@ -2095,6 +2849,8 @@
       
       
       <categories>
+          
+          <category> chambres d’agriculture </category>
           
           <category> chambres d’agriculture </category>
           
@@ -2148,8 +2904,18 @@
           
           <category> direct assurance </category>
           
+          <category> direct assurance </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -2167,8 +2933,18 @@
           
           <category> mediboard </category>
           
+          <category> mediboard </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -2186,8 +2962,18 @@
           
           <category> le point </category>
           
+          <category> le point </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -2205,8 +2991,20 @@
           
           <category> huttopia </category>
           
+          <category> huttopia </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -2224,8 +3022,20 @@
           
           <category> molotov </category>
           
+          <category> molotov </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -2243,8 +3053,20 @@
           
           <category> picard </category>
           
+          <category> picard </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -2262,8 +3084,20 @@
           
           <category> free mobile </category>
           
+          <category> free mobile </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -2281,8 +3115,20 @@
           
           <category> ornikar </category>
           
+          <category> ornikar </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -2300,8 +3146,18 @@
           
           <category> meilleurtaux </category>
           
+          <category> meilleurtaux </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -2319,8 +3175,20 @@
           
           <category> red by sfr </category>
           
+          <category> red by sfr </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -2367,8 +3235,51 @@
           
           <category> cybertek </category>
           
+          <category> cybertek </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Advance Auto Parts - Fuite De Données</title>
+      <link href="/advance-auto-parts-fuite-de-donnees/"/>
+      <url>/advance-auto-parts-fuite-de-donnees/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Advance-Auto-Parts-Fuite-de-donnees"><a href="#Advance-Auto-Parts-Fuite-de-donnees" class="headerlink" title="Advance Auto Parts - Fuite de données"></a>Advance Auto Parts - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2024-06-05<br><strong>Nombre de comptes affectés</strong> : 79 243 727</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In June 2024, Advance Auto Parts confirmed they had suffered a data breach which was posted for sale to a popular hacking forum. Linked to unauthorised access to Snowflake cloud services, the breach exposed a large number of records related to both customers and employees. In total, 79M unique email addresses were included in the breach, alongside names, phone numbers, addresses and further data attributes related to company employees.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Names</li><li>Phone numbers</li><li>Physical addresses</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AdvanceAutoParts">Vérifier si vous êtes concerné</a></li><li><a href="https://advanceautoparts.com/">advanceautoparts.com</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> breaches </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> email addresses </tag>
+            
+            <tag> names </tag>
+            
+            <tag> phone numbers </tag>
+            
+            <tag> physical addresses </tag>
+            
+        </tags>
       
     </entry>
     
@@ -2386,8 +3297,20 @@
           
           <category> ticketmaster </category>
           
+          <category> ticketmaster </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -2405,8 +3328,20 @@
           
           <category> le slip français </category>
           
+          <category> le slip français </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -2424,8 +3359,20 @@
           
           <category> france travail </category>
           
+          <category> france travail </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+            <tag> adresse email </tag>
+            
+        </tags>
       
     </entry>
     
@@ -2472,8 +3419,18 @@
           
           <category> viamedis </category>
           
+          <category> viamedis </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+            <tag> prénom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -2560,6 +3517,133 @@
     
     
     <entry>
+      <title>Adecco - Fuite De Données</title>
+      <link href="/adecco-fuite-de-donnees/"/>
+      <url>/adecco-fuite-de-donnees/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Adecco-Fuite-de-donnees"><a href="#Adecco-Fuite-de-donnees" class="headerlink" title="Adecco - Fuite de données"></a>Adecco - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2021-01-03<br><strong>Nombre de comptes affectés</strong> : 4 284 538</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In March 2021, news broke of a massive data breach impacting millions of Adecco customers in South America which was subsequently sold on a popular hacking forum. The breach exposed over 4M unique email addresses as well as genders, dates of birth, marital statuses, phone numbers and passwords stored as bcrypt hashes.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Genders</li><li>Geographic locations</li><li>Marital statuses</li><li>Names</li><li>Passwords</li><li>Phone numbers</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Adecco">Vérifier si vous êtes concerné</a></li><li><a href="https://adecco.com/">adecco.com</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> breaches </category>
+          
+          <category> adecco </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> email addresses </tag>
+            
+            <tag> names </tag>
+            
+            <tag> passwords </tag>
+            
+            <tag> phone numbers </tag>
+            
+            <tag> geographic locations </tag>
+            
+            <tag> genders </tag>
+            
+            <tag> nom </tag>
+            
+            <tag> marital statuses </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Aimware - Fuite De Données</title>
+      <link href="/aimware-fuite-de-donnees/"/>
+      <url>/aimware-fuite-de-donnees/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Aimware-Fuite-de-donnees"><a href="#Aimware-Fuite-de-donnees" class="headerlink" title="Aimware - Fuite de données"></a>Aimware - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2019-04-28<br><strong>Nombre de comptes affectés</strong> : 305 470</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In mid-2019, the video game cheats website “Aimware” suffered a data breach that exposed hundreds of thousands of subscribers’ personal information. Data included email and IP addresses, usernames, forum posts, private messages, website activity and passwords stored as salted MD5 hashes.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>IP addresses</li><li>Passwords</li><li>Private messages</li><li>Usernames</li><li>Website activity</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Aimware">Vérifier si vous êtes concerné</a></li><li><a href="https://aimware.net/">aimware.net</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> breaches </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> email addresses </tag>
+            
+            <tag> ip addresses </tag>
+            
+            <tag> passwords </tag>
+            
+            <tag> usernames </tag>
+            
+            <tag> website activity </tag>
+            
+            <tag> private messages </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Aditya Birla Fashion and Retail - Fuite De Données</title>
+      <link href="/aditya-birla-fashion-and-retail-fuite-de-donnees/"/>
+      <url>/aditya-birla-fashion-and-retail-fuite-de-donnees/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Aditya-Birla-Fashion-and-Retail-Fuite-de-donnees"><a href="#Aditya-Birla-Fashion-and-Retail-Fuite-de-donnees" class="headerlink" title="Aditya Birla Fashion and Retail - Fuite de données"></a>Aditya Birla Fashion and Retail - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2021-12-01<br><strong>Nombre de comptes affectés</strong> : 5 470 063</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In December 2021, Indian retailer Aditya Birla Fashion and Retail Ltd was breached and ransomed. The ransom demand was allegedly rejected and data containing 5.4M unique email addresses was subsequently dumped publicly on a popular hacking forum the next month. The data contained extensive personal customer information including names, phone numbers, physical addresses, DoBs, order histories and passwords stored as MD5 hashes. Employee data was also dumped publicly and included salary grades, marital statuses and religions.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Genders</li><li>Income levels</li><li>Job titles</li><li>Marital statuses</li><li>Names</li><li>Passwords</li><li>Phone numbers</li><li>Physical addresses</li><li>Purchases</li><li>Religions</li><li>Salutations</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/ABFRL">Vérifier si vous êtes concerné</a></li><li><a href="https://abfrl.com/">abfrl.com</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> breaches </category>
+          
+          <category> abfrl </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> email addresses </tag>
+            
+            <tag> names </tag>
+            
+            <tag> passwords </tag>
+            
+            <tag> phone numbers </tag>
+            
+            <tag> physical addresses </tag>
+            
+            <tag> genders </tag>
+            
+            <tag> job titles </tag>
+            
+            <tag> salutations </tag>
+            
+            <tag> nom </tag>
+            
+            <tag> marital statuses </tag>
+            
+            <tag> income levels </tag>
+            
+            <tag> purchases </tag>
+            
+            <tag> religions </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>ActMobile - Fuite De Données</title>
       <link href="/actmobile-fuite-de-donnees/"/>
       <url>/actmobile-fuite-de-donnees/</url>
@@ -2583,6 +3667,53 @@
             <tag> ip addresses </tag>
             
             <tag> nom </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Ajarn - Fuite De Données</title>
+      <link href="/ajarn-fuite-de-donnees/"/>
+      <url>/ajarn-fuite-de-donnees/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Ajarn-Fuite-de-donnees"><a href="#Ajarn-Fuite-de-donnees" class="headerlink" title="Ajarn - Fuite de données"></a>Ajarn - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2018-12-13<br><strong>Nombre de comptes affectés</strong> : 266 399</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In September 2021, the Thai-based English language teaching website Ajarn discovered they’d been the victim of a data breach dating back to December 2018. The breach was self-submitted to HIBP and included 266k email addresses, names, genders, phone numbers and other personal information. Hashed passwords were also impacted in the breach.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Dates of birth</li><li>Education levels</li><li>Email addresses</li><li>Genders</li><li>Geographic locations</li><li>Job applications</li><li>Marital statuses</li><li>Names</li><li>Nationalities</li><li>Passwords</li><li>Phone numbers</li><li>Profile photos</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Ajarn">Vérifier si vous êtes concerné</a></li><li><a href="https://ajarn.com/">ajarn.com</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> breaches </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> email addresses </tag>
+            
+            <tag> names </tag>
+            
+            <tag> passwords </tag>
+            
+            <tag> phone numbers </tag>
+            
+            <tag> dates of birth </tag>
+            
+            <tag> geographic locations </tag>
+            
+            <tag> genders </tag>
+            
+            <tag> marital statuses </tag>
+            
+            <tag> education levels </tag>
+            
+            <tag> job applications </tag>
+            
+            <tag> nationalities </tag>
+            
+            <tag> profile photos </tag>
             
         </tags>
       
@@ -2624,6 +3755,37 @@
             <tag> usernames </tag>
             
             <tag> nom </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>AgusiQ-Torrents.pl - Fuite De Données</title>
+      <link href="/agusiq-torrents-pl-fuite-de-donnees/"/>
+      <url>/agusiq-torrents-pl-fuite-de-donnees/</url>
+      
+        <content type="html"><![CDATA[<h1 id="AgusiQ-Torrents-pl-Fuite-de-donnees"><a href="#AgusiQ-Torrents-pl-Fuite-de-donnees" class="headerlink" title="AgusiQ-Torrents.pl - Fuite de données"></a>AgusiQ-Torrents.pl - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2019-09-24<br><strong>Nombre de comptes affectés</strong> : 90 478</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In September 2019, Polish torrent site AgusiQ-Torrents.pl suffered a data breach. The incident exposed 90k member records including email and IP addresses, usernames and passwords stored as MD5 hashes.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>IP addresses</li><li>Passwords</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AgusiQTorrents">Vérifier si vous êtes concerné</a></li><li><a href="https://agusiq-torrents.pl/">agusiq-torrents.pl</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> breaches </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> email addresses </tag>
+            
+            <tag> ip addresses </tag>
+            
+            <tag> passwords </tag>
+            
+            <tag> usernames </tag>
             
         </tags>
       
@@ -2704,6 +3866,115 @@
             <tag> genders </tag>
             
             <tag> nom </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>AerServ - Fuite De Données</title>
+      <link href="/aerserv-fuite-de-donnees/"/>
+      <url>/aerserv-fuite-de-donnees/</url>
+      
+        <content type="html"><![CDATA[<h1 id="AerServ-Fuite-de-donnees"><a href="#AerServ-Fuite-de-donnees" class="headerlink" title="AerServ - Fuite de données"></a>AerServ - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2018-04-01<br><strong>Nombre de comptes affectés</strong> : 66 308</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In April 2018, the ad management platform known as AerServ suffered a data breach. Acquired by InMobi earlier in the year, the AerServ breach impacted over 66k unique email addresses and also included contact information and passwords stored as salted SHA-512 hashes. The data was publicly posted to Twitter later in 2018 after which InMobi was notified and advised they were aware of the incident.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Employers</li><li>Job titles</li><li>Names</li><li>Passwords</li><li>Phone numbers</li><li>Physical addresses</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AerServ">Vérifier si vous êtes concerné</a></li><li><a href="https://aerserv.com/">aerserv.com</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> breaches </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> email addresses </tag>
+            
+            <tag> names </tag>
+            
+            <tag> passwords </tag>
+            
+            <tag> phone numbers </tag>
+            
+            <tag> physical addresses </tag>
+            
+            <tag> job titles </tag>
+            
+            <tag> employers </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Adapt - Fuite De Données</title>
+      <link href="/adapt-fuite-de-donnees/"/>
+      <url>/adapt-fuite-de-donnees/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Adapt-Fuite-de-donnees"><a href="#Adapt-Fuite-de-donnees" class="headerlink" title="Adapt - Fuite de données"></a>Adapt - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2018-11-05<br><strong>Nombre de comptes affectés</strong> : 9 363 740</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In November 2018, security researcher Bob Diachenko identified an unprotected database hosted by data aggregator “Adapt”. A provider of “Fresh Quality Contacts”, the service exposed over 9.3M unique records of individuals and employer information including their names, employers, job titles, contact information and data relating to the employer including organisation description, size and revenue. No response was received from Adapt when contacted.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Employers</li><li>Job titles</li><li>Names</li><li>Phone numbers</li><li>Physical addresses</li><li>Social media profiles</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Adapt">Vérifier si vous êtes concerné</a></li><li><a href="https://adapt.io/">adapt.io</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> breaches </category>
+          
+          <category> adapt </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> email addresses </tag>
+            
+            <tag> names </tag>
+            
+            <tag> phone numbers </tag>
+            
+            <tag> physical addresses </tag>
+            
+            <tag> job titles </tag>
+            
+            <tag> nom </tag>
+            
+            <tag> employers </tag>
+            
+            <tag> social media profiles </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Adult-FanFiction.Org - Fuite De Données</title>
+      <link href="/adult-fanfiction-org-fuite-de-donnees/"/>
+      <url>/adult-fanfiction-org-fuite-de-donnees/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Adult-FanFiction-Org-Fuite-de-donnees"><a href="#Adult-FanFiction-Org-Fuite-de-donnees" class="headerlink" title="Adult-FanFiction.Org - Fuite de données"></a>Adult-FanFiction.Org - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2018-05-30<br><strong>Nombre de comptes affectés</strong> : 186 082</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In May 2018, the website for sharing adult-orientated works of fiction known as Adult-FanFiction.Org had 186k records exposed in a data breach. The data contained names, email addresses, dates of birth and passwords stored as both MD5 hashes and plain text. AFF did not respond when contacted about the breach and the site was previously reported as compromised on the Vigilante.pw breached database directory.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Dates of birth</li><li>Email addresses</li><li>Names</li><li>Passwords</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AdultFanFiction">Vérifier si vous êtes concerné</a></li><li><a href="https://adult-fanfiction.org/">adult-fanfiction.org</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> breaches </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> email addresses </tag>
+            
+            <tag> names </tag>
+            
+            <tag> passwords </tag>
+            
+            <tag> dates of birth </tag>
             
         </tags>
       
@@ -2840,6 +4111,59 @@
     
     
     <entry>
+      <title>ai.type - Fuite De Données</title>
+      <link href="/ai-type-fuite-de-donnees/"/>
+      <url>/ai-type-fuite-de-donnees/</url>
+      
+        <content type="html"><![CDATA[<h1 id="ai-type-Fuite-de-donnees"><a href="#ai-type-Fuite-de-donnees" class="headerlink" title="ai.type - Fuite de données"></a>ai.type - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2017-12-05<br><strong>Nombre de comptes affectés</strong> : 20 580 060</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In December 2017, the virtual keyboard application ai.type was found to have left a huge amount of data publicly facing in an unsecured MongoDB instance. Discovered by researchers at The Kromtech Security Center, the 577GB data set included extensive personal information including over 20 million unique email addresses, social media profiles and address book contacts. The email addresses alone were provided to HIBP to enable impacted users to assess their exposure.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Address book contacts</li><li>Apps installed on devices</li><li>Cellular network names</li><li>Dates of birth</li><li>Device information</li><li>Email addresses</li><li>Genders</li><li>Geographic locations</li><li>IMEI numbers</li><li>IMSI numbers</li><li>IP addresses</li><li>Names</li><li>Phone numbers</li><li>Profile photos</li><li>Social media profiles</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AIType">Vérifier si vous êtes concerné</a></li><li><a href="https://aitype.com/">aitype.com</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> breaches </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> email addresses </tag>
+            
+            <tag> ip addresses </tag>
+            
+            <tag> names </tag>
+            
+            <tag> phone numbers </tag>
+            
+            <tag> dates of birth </tag>
+            
+            <tag> geographic locations </tag>
+            
+            <tag> device information </tag>
+            
+            <tag> genders </tag>
+            
+            <tag> social media profiles </tag>
+            
+            <tag> profile photos </tag>
+            
+            <tag> address book contacts </tag>
+            
+            <tag> apps installed on devices </tag>
+            
+            <tag> cellular network names </tag>
+            
+            <tag> imei numbers </tag>
+            
+            <tag> imsi numbers </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>AbuseWith.Us - Fuite De Données</title>
       <link href="/abusewith-us-fuite-de-donnees/"/>
       <url>/abusewith-us-fuite-de-donnees/</url>
@@ -2875,6 +4199,33 @@
     
     
     <entry>
+      <title>AKP Emails - Fuite De Données</title>
+      <link href="/akp-emails-fuite-de-donnees/"/>
+      <url>/akp-emails-fuite-de-donnees/</url>
+      
+        <content type="html"><![CDATA[<h1 id="AKP-Emails-Fuite-de-donnees"><a href="#AKP-Emails-Fuite-de-donnees" class="headerlink" title="AKP Emails - Fuite de données"></a>AKP Emails - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2016-07-19<br><strong>Nombre de comptes affectés</strong> : 917 461</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In July 2016, a hacker known as Phineas Fisher hacked Turkey’s ruling party (Justice and Development Party or “AKP”) and gained access to 300k emails. The full contents of the emails were subsequently published by WikiLeaks and made searchable. HIBP identified over 917k unique email address patterns in the data set, including message IDs and a number of other non-user addresses.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Email messages</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AKP">Vérifier si vous êtes concerné</a></li><li><a href="https://akparti.org.tr/">akparti.org.tr</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> breaches </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> email addresses </tag>
+            
+            <tag> email messages </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>7k7k - Fuite De Données</title>
       <link href="/7k7k-fuite-de-donnees/"/>
       <url>/7k7k-fuite-de-donnees/</url>
@@ -2900,6 +4251,33 @@
             <tag> usernames </tag>
             
             <tag> nom </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Aipai.com - Fuite De Données</title>
+      <link href="/aipai-com-fuite-de-donnees/"/>
+      <url>/aipai-com-fuite-de-donnees/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Aipai-com-Fuite-de-donnees"><a href="#Aipai-com-Fuite-de-donnees" class="headerlink" title="Aipai.com - Fuite de données"></a>Aipai.com - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2016-09-27<br><strong>Nombre de comptes affectés</strong> : 6 496 778</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In September 2016, data allegedly obtained from the Chinese gaming website known as Aipai.com and containing 6.5M accounts was leaked online. Whilst there is evidence that the data is legitimate, due to the difficulty of emphatically verifying the Chinese breach it has been flagged as “unverified”. The data in the breach contains email addresses and MD5 password hashes. Read more about Chinese data breaches in Have I Been Pwned.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Passwords</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Aipai">Vérifier si vous êtes concerné</a></li><li><a href="https://aipai.com/">aipai.com</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> breaches </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> email addresses </tag>
+            
+            <tag> passwords </tag>
             
         </tags>
       
@@ -3040,6 +4418,80 @@
             <tag> passwords </tag>
             
             <tag> nom </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>AhaShare.com - Fuite De Données</title>
+      <link href="/ahashare-com-fuite-de-donnees/"/>
+      <url>/ahashare-com-fuite-de-donnees/</url>
+      
+        <content type="html"><![CDATA[<h1 id="AhaShare-com-Fuite-de-donnees"><a href="#AhaShare-com-Fuite-de-donnees" class="headerlink" title="AhaShare.com - Fuite de données"></a>AhaShare.com - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2013-05-30<br><strong>Nombre de comptes affectés</strong> : 180 468</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In May 2013, the torrent site AhaShare.com suffered a breach which resulted in more than 180k user accounts being published publicly. The breach included a raft of personal information on registered users plus despite assertions of not distributing personally identifiable information, the site also leaked the IP addresses used by the registered identities.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Genders</li><li>Geographic locations</li><li>IP addresses</li><li>Partial dates of birth</li><li>Passwords</li><li>Usernames</li><li>Website activity</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AhaShare">Vérifier si vous êtes concerné</a></li><li><a href="https://ahashare.com/">ahashare.com</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> breaches </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> email addresses </tag>
+            
+            <tag> ip addresses </tag>
+            
+            <tag> passwords </tag>
+            
+            <tag> usernames </tag>
+            
+            <tag> geographic locations </tag>
+            
+            <tag> genders </tag>
+            
+            <tag> partial dates of birth </tag>
+            
+            <tag> website activity </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Adobe - Fuite De Données</title>
+      <link href="/adobe-fuite-de-donnees/"/>
+      <url>/adobe-fuite-de-donnees/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Adobe-Fuite-de-donnees"><a href="#Adobe-Fuite-de-donnees" class="headerlink" title="Adobe - Fuite de données"></a>Adobe - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2013-10-04<br><strong>Nombre de comptes affectés</strong> : 152 445 165</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In October 2013, 153 million Adobe accounts were breached with each containing an internal ID, username, email, encrypted password and a password hint in plain text. The password cryptography was poorly done and many were quickly resolved back to plain text. The unencrypted hints also disclosed much about the passwords adding further to the risk that hundreds of millions of Adobe customers already faced.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Password hints</li><li>Passwords</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Adobe">Vérifier si vous êtes concerné</a></li><li><a href="https://adobe.com/">adobe.com</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> breaches </category>
+          
+          <category> adobe </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> email addresses </tag>
+            
+            <tag> passwords </tag>
+            
+            <tag> usernames </tag>
+            
+            <tag> nom </tag>
+            
+            <tag> password hints </tag>
             
         </tags>
       

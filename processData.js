@@ -85,7 +85,7 @@ tags: [${breach.DataClasses ? breach.DataClasses.map(c => `"${c.toLowerCase()}"`
 **Nombre de comptes affectés** : ${breach.PwnCount ? breach.PwnCount.toLocaleString() : 'Inconnu'}
 
 ## Description
-${escapeMarkdown(breach.Description || 'Aucune description disponible.')}
+${escapeMarkdown(breach.Description.replace('\\','') || 'Aucune description disponible.')}
 
 ## Données exposées
 ${breach.DataClasses ? breach.DataClasses.map(item => `- ${item}`).join('\n') : '- Non spécifié'}

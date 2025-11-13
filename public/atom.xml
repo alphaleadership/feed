@@ -37,6 +37,8 @@
     
     <category term="weda" scheme="https://feed-blush.vercel.app/category/weda/"/>
     
+    <category term="weda" scheme="https://feed-blush.vercel.app/category/weda/weda/"/>
+    
     
   </entry>
   
@@ -61,6 +63,12 @@
     
     <category term="oui heberg" scheme="https://feed-blush.vercel.app/category/oui-heberg/"/>
     
+    <category term="oui heberg" scheme="https://feed-blush.vercel.app/category/oui-heberg/oui-heberg/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
     
   </entry>
   
@@ -84,6 +92,12 @@
     
     <category term="mym" scheme="https://feed-blush.vercel.app/category/mym/"/>
     
+    <category term="mym" scheme="https://feed-blush.vercel.app/category/mym/mym/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
     
   </entry>
   
@@ -106,6 +120,8 @@
     
     
     <category term="france travail" scheme="https://feed-blush.vercel.app/category/france-travail/"/>
+    
+    <category term="france travail" scheme="https://feed-blush.vercel.app/category/france-travail/france-travail/"/>
     
     
   </entry>
@@ -130,6 +146,8 @@
     
     
     <category term="fédération française de tir" scheme="https://feed-blush.vercel.app/category/federation-francaise-de-tir/"/>
+    
+    <category term="fédération française de tir" scheme="https://feed-blush.vercel.app/category/federation-francaise-de-tir/federation-francaise-de-tir/"/>
     
     
   </entry>
@@ -207,6 +225,14 @@
     
     <category term="mango" scheme="https://feed-blush.vercel.app/category/mango/"/>
     
+    <category term="mango" scheme="https://feed-blush.vercel.app/category/mango/mango/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -262,6 +288,41 @@
     
     <category term="lycées des hauts" scheme="https://feed-blush.vercel.app/category/lycees-des-hauts/"/>
     
+    <category term="lycées des hauts" scheme="https://feed-blush.vercel.app/category/lycees-des-hauts/lycees-des-hauts/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Adpost - Fuite De Données</title>
+    <link href="https://feed-blush.vercel.app/adpost-fuite-de-donnees/"/>
+    <id>https://feed-blush.vercel.app/adpost-fuite-de-donnees/</id>
+    <published>2025-10-06T22:15:09.000Z</published>
+    <updated>2025-11-13T18:12:43.473Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Adpost-Fuite-de-donnees"><a href="#Adpost-Fuite-de-donnees" class="headerlink" title="Adpost - Fuite de données"></a>Adpost - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2025-02-14<br><strong>Nombre de comptes affectés</strong> : 3 339 512</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In February 2025, data allegedly obtained from an earlier Adpost breach surfaced. The dataset contained 3.3M records including email addresses, usernames, and display names. Multiple attempts to contact Adpost regarding the incident received no response.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Names</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Adpost">Vérifier si vous êtes concerné</a></li><li><a href="https://adpost.com/">adpost.com</a></li></ul>
+    	  <a href="" target="_blank">source</a>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Adpost-Fuite-de-donnees&quot;&gt;&lt;a href=&quot;#Adpost-Fuite-de-donnees&quot; class=&quot;headerlink&quot; title=&quot;Adpost - Fuite de données&quot;&gt;&lt;/a&gt;Adpost - Fuite </summary>
+      
+    
+    
+    
+    <category term="breaches" scheme="https://feed-blush.vercel.app/category/breaches/"/>
+    
+    <category term="adpost" scheme="https://feed-blush.vercel.app/category/breaches/adpost/"/>
+    
+    
+    <category term="email addresses" scheme="https://feed-blush.vercel.app/tags/email-addresses/"/>
+    
+    <category term="names" scheme="https://feed-blush.vercel.app/tags/names/"/>
+    
+    <category term="usernames" scheme="https://feed-blush.vercel.app/tags/usernames/"/>
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
     
   </entry>
   
@@ -286,6 +347,12 @@
     
     <category term="france travail" scheme="https://feed-blush.vercel.app/category/france-travail/"/>
     
+    <category term="france travail" scheme="https://feed-blush.vercel.app/category/france-travail/france-travail/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
     
   </entry>
   
@@ -309,6 +376,10 @@
     
     <category term="discord" scheme="https://feed-blush.vercel.app/category/discord/"/>
     
+    <category term="discord" scheme="https://feed-blush.vercel.app/category/discord/discord/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
     
   </entry>
   
@@ -335,6 +406,12 @@
     
     <category term="france travail" scheme="https://feed-blush.vercel.app/category/france-travail/"/>
     
+    <category term="france travail" scheme="https://feed-blush.vercel.app/category/france-travail/france-travail/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
     
   </entry>
   
@@ -358,6 +435,8 @@
     
     
     <category term="la nef" scheme="https://feed-blush.vercel.app/category/la-nef/"/>
+    
+    <category term="la nef" scheme="https://feed-blush.vercel.app/category/la-nef/la-nef/"/>
     
     
   </entry>
@@ -383,6 +462,8 @@
     
     <category term="inovie labosud" scheme="https://feed-blush.vercel.app/category/inovie-labosud/"/>
     
+    <category term="inovie labosud" scheme="https://feed-blush.vercel.app/category/inovie-labosud/inovie-labosud/"/>
+    
     
   </entry>
   
@@ -407,6 +488,10 @@
     
     <category term="digital charging solutions" scheme="https://feed-blush.vercel.app/category/digital-charging-solutions/"/>
     
+    <category term="digital charging solutions" scheme="https://feed-blush.vercel.app/category/digital-charging-solutions/digital-charging-solutions/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
     
   </entry>
   
@@ -430,6 +515,14 @@
     
     <category term="fédération française de tennis de table" scheme="https://feed-blush.vercel.app/category/federation-francaise-de-tennis-de-table/"/>
     
+    <category term="fédération française de tennis de table" scheme="https://feed-blush.vercel.app/category/federation-francaise-de-tennis-de-table/federation-francaise-de-tennis-de-table/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -454,6 +547,8 @@
     
     <category term="clarins" scheme="https://feed-blush.vercel.app/category/clarins/"/>
     
+    <category term="clarins" scheme="https://feed-blush.vercel.app/category/clarins/clarins/"/>
+    
     
   </entry>
   
@@ -477,6 +572,8 @@
     
     
     <category term="eklo" scheme="https://feed-blush.vercel.app/category/eklo/"/>
+    
+    <category term="eklo" scheme="https://feed-blush.vercel.app/category/eklo/eklo/"/>
     
     
   </entry>
@@ -512,6 +609,41 @@
   </entry>
   
   <entry>
+    <title>Allianz Life - Fuite De Données</title>
+    <link href="https://feed-blush.vercel.app/allianz-life-fuite-de-donnees/"/>
+    <id>https://feed-blush.vercel.app/allianz-life-fuite-de-donnees/</id>
+    <published>2025-08-18T18:20:19.000Z</published>
+    <updated>2025-11-13T18:15:06.455Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Allianz-Life-Fuite-de-donnees"><a href="#Allianz-Life-Fuite-de-donnees" class="headerlink" title="Allianz Life - Fuite de données"></a>Allianz Life - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2025-07-16<br><strong>Nombre de comptes affectés</strong> : 1 115 061</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In July 2025, Allianz Life was the victim of a cyber attack which resulted in millions of records later being leaked online. Allianz attributed the attack to “a social engineering technique” which targeted data on Salesforce and resulted in the exposure of 1.1M unique email addresses, names, genders, dates of birth, phone numbers and physical addresses.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Dates of birth</li><li>Email addresses</li><li>Genders</li><li>Names</li><li>Phone numbers</li><li>Physical addresses</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AllianzLife">Vérifier si vous êtes concerné</a></li><li><a href="https://allianzlife.com/">allianzlife.com</a></li></ul>
+    	  <a href="" target="_blank">source</a>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Allianz-Life-Fuite-de-donnees&quot;&gt;&lt;a href=&quot;#Allianz-Life-Fuite-de-donnees&quot; class=&quot;headerlink&quot; title=&quot;Allianz Life - Fuite de données&quot;&gt;&lt;</summary>
+      
+    
+    
+    
+    <category term="breaches" scheme="https://feed-blush.vercel.app/category/breaches/"/>
+    
+    
+    <category term="email addresses" scheme="https://feed-blush.vercel.app/tags/email-addresses/"/>
+    
+    <category term="names" scheme="https://feed-blush.vercel.app/tags/names/"/>
+    
+    <category term="phone numbers" scheme="https://feed-blush.vercel.app/tags/phone-numbers/"/>
+    
+    <category term="physical addresses" scheme="https://feed-blush.vercel.app/tags/physical-addresses/"/>
+    
+    <category term="dates of birth" scheme="https://feed-blush.vercel.app/tags/dates-of-birth/"/>
+    
+    <category term="genders" scheme="https://feed-blush.vercel.app/tags/genders/"/>
+    
+  </entry>
+  
+  <entry>
     <title>France Link Interactive Fuite Du 2025-8-13</title>
     <link href="https://feed-blush.vercel.app/france-link-interactive-fuite-du-2025-8-13/"/>
     <id>https://feed-blush.vercel.app/france-link-interactive-fuite-du-2025-8-13/</id>
@@ -531,6 +663,8 @@
     
     
     <category term="france link interactive" scheme="https://feed-blush.vercel.app/category/france-link-interactive/"/>
+    
+    <category term="france link interactive" scheme="https://feed-blush.vercel.app/category/france-link-interactive/france-link-interactive/"/>
     
     
   </entry>
@@ -556,6 +690,8 @@
     
     <category term="google" scheme="https://feed-blush.vercel.app/category/google/"/>
     
+    <category term="google" scheme="https://feed-blush.vercel.app/category/google/google/"/>
+    
     
   </entry>
   
@@ -579,6 +715,8 @@
     
     
     <category term="partner immo" scheme="https://feed-blush.vercel.app/category/partner-immo/"/>
+    
+    <category term="partner immo" scheme="https://feed-blush.vercel.app/category/partner-immo/partner-immo/"/>
     
     
   </entry>
@@ -632,6 +770,14 @@
     
     <category term="france travail" scheme="https://feed-blush.vercel.app/category/france-travail/"/>
     
+    <category term="france travail" scheme="https://feed-blush.vercel.app/category/france-travail/france-travail/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -655,6 +801,12 @@
     
     <category term="optic 2000" scheme="https://feed-blush.vercel.app/category/optic-2000/"/>
     
+    <category term="optic 2000" scheme="https://feed-blush.vercel.app/category/optic-2000/optic-2000/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
     
   </entry>
   
@@ -735,6 +887,12 @@
     
     <category term="pandora" scheme="https://feed-blush.vercel.app/category/pandora/"/>
     
+    <category term="pandora" scheme="https://feed-blush.vercel.app/category/pandora/pandora/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -758,6 +916,8 @@
     
     <category term="thepi" scheme="https://feed-blush.vercel.app/category/thepi/"/>
     
+    <category term="thepi" scheme="https://feed-blush.vercel.app/category/thepi/thepi/"/>
+    
     
   </entry>
   
@@ -780,6 +940,8 @@
     
     
     <category term="thepi" scheme="https://feed-blush.vercel.app/category/thepi/"/>
+    
+    <category term="thepi" scheme="https://feed-blush.vercel.app/category/thepi/thepi/"/>
     
     
   </entry>
@@ -805,6 +967,8 @@
     
     <category term="orange" scheme="https://feed-blush.vercel.app/category/orange/"/>
     
+    <category term="orange" scheme="https://feed-blush.vercel.app/category/orange/orange/"/>
+    
     
   </entry>
   
@@ -829,6 +993,14 @@
     
     <category term="france travail" scheme="https://feed-blush.vercel.app/category/france-travail/"/>
     
+    <category term="france travail" scheme="https://feed-blush.vercel.app/category/france-travail/france-travail/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -852,6 +1024,8 @@
     
     
     <category term="groupe 5àsec" scheme="https://feed-blush.vercel.app/category/groupe-5asec/"/>
+    
+    <category term="groupe 5àsec" scheme="https://feed-blush.vercel.app/category/groupe-5asec/groupe-5asec/"/>
     
     
   </entry>
@@ -901,6 +1075,14 @@
     
     <category term="louis vuitton" scheme="https://feed-blush.vercel.app/category/louis-vuitton/"/>
     
+    <category term="louis vuitton" scheme="https://feed-blush.vercel.app/category/louis-vuitton/louis-vuitton/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -924,6 +1106,14 @@
     
     <category term="sorbonne université" scheme="https://feed-blush.vercel.app/category/sorbonne-universite/"/>
     
+    <category term="sorbonne université" scheme="https://feed-blush.vercel.app/category/sorbonne-universite/sorbonne-universite/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -947,6 +1137,14 @@
     
     <category term="union nationale du sport scolaire" scheme="https://feed-blush.vercel.app/category/union-nationale-du-sport-scolaire/"/>
     
+    <category term="union nationale du sport scolaire" scheme="https://feed-blush.vercel.app/category/union-nationale-du-sport-scolaire/union-nationale-du-sport-scolaire/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -971,6 +1169,8 @@
     
     <category term="disneyland" scheme="https://feed-blush.vercel.app/category/disneyland/"/>
     
+    <category term="disneyland" scheme="https://feed-blush.vercel.app/category/disneyland/disneyland/"/>
+    
     
   </entry>
   
@@ -994,6 +1194,12 @@
     
     <category term="hôpital privé de la loire" scheme="https://feed-blush.vercel.app/category/hopital-prive-de-la-loire/"/>
     
+    <category term="hôpital privé de la loire" scheme="https://feed-blush.vercel.app/category/hopital-prive-de-la-loire/hopital-prive-de-la-loire/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
     
   </entry>
   
@@ -1021,6 +1227,8 @@
     <category term="cartier" scheme="https://feed-blush.vercel.app/category/cartier/cartier/"/>
     
     
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
   </entry>
   
   <entry>
@@ -1043,6 +1251,12 @@
     
     <category term="kaviari" scheme="https://feed-blush.vercel.app/category/kaviari/"/>
     
+    <category term="kaviari" scheme="https://feed-blush.vercel.app/category/kaviari/kaviari/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
     
   </entry>
   
@@ -1074,6 +1288,8 @@
     
     <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
     
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
+    
   </entry>
   
   <entry>
@@ -1096,6 +1312,8 @@
     
     
     <category term="dior" scheme="https://feed-blush.vercel.app/category/dior/"/>
+    
+    <category term="dior" scheme="https://feed-blush.vercel.app/category/dior/dior/"/>
     
     
   </entry>
@@ -1120,6 +1338,12 @@
     
     <category term="pulsy" scheme="https://feed-blush.vercel.app/category/pulsy/"/>
     
+    <category term="pulsy" scheme="https://feed-blush.vercel.app/category/pulsy/pulsy/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
     
   </entry>
   
@@ -1145,6 +1369,8 @@
     
     
     <category term="cerballiance" scheme="https://feed-blush.vercel.app/category/cerballiance/"/>
+    
+    <category term="cerballiance" scheme="https://feed-blush.vercel.app/category/cerballiance/cerballiance/"/>
     
     
   </entry>
@@ -1173,6 +1399,8 @@
     <category term="carrefour mobile" scheme="https://feed-blush.vercel.app/category/carrefour-mobile/carrefour-mobile/"/>
     
     
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
+    
   </entry>
   
   <entry>
@@ -1196,6 +1424,12 @@
     
     <category term="easy cash" scheme="https://feed-blush.vercel.app/category/easy-cash/"/>
     
+    <category term="easy cash" scheme="https://feed-blush.vercel.app/category/easy-cash/easy-cash/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
     
   </entry>
   
@@ -1220,6 +1454,14 @@
     
     <category term="indigo" scheme="https://feed-blush.vercel.app/category/indigo/"/>
     
+    <category term="indigo" scheme="https://feed-blush.vercel.app/category/indigo/indigo/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -1276,6 +1518,10 @@
     
     <category term="hertz" scheme="https://feed-blush.vercel.app/category/hertz/"/>
     
+    <category term="hertz" scheme="https://feed-blush.vercel.app/category/hertz/hertz/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
     
   </entry>
   
@@ -1299,6 +1545,8 @@
     
     
     <category term="harvest" scheme="https://feed-blush.vercel.app/category/harvest/"/>
+    
+    <category term="harvest" scheme="https://feed-blush.vercel.app/category/harvest/harvest/"/>
     
     
   </entry>
@@ -1326,6 +1574,10 @@
     
     <category term="utwin" scheme="https://feed-blush.vercel.app/category/utwin/"/>
     
+    <category term="utwin" scheme="https://feed-blush.vercel.app/category/utwin/utwin/"/>
+    
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -1350,6 +1602,12 @@
     
     <category term="reporterre" scheme="https://feed-blush.vercel.app/category/reporterre/"/>
     
+    <category term="reporterre" scheme="https://feed-blush.vercel.app/category/reporterre/reporterre/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
     
   </entry>
   
@@ -1373,6 +1631,12 @@
     
     <category term="maif  bpce" scheme="https://feed-blush.vercel.app/category/maif-bpce/"/>
     
+    <category term="maif  bpce" scheme="https://feed-blush.vercel.app/category/maif-bpce/maif-bpce/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -1396,6 +1660,8 @@
     
     
     <category term="oracle cloud" scheme="https://feed-blush.vercel.app/category/oracle-cloud/"/>
+    
+    <category term="oracle cloud" scheme="https://feed-blush.vercel.app/category/oracle-cloud/oracle-cloud/"/>
     
     
   </entry>
@@ -1446,6 +1712,12 @@
     
     <category term="cerballiance" scheme="https://feed-blush.vercel.app/category/cerballiance/"/>
     
+    <category term="cerballiance" scheme="https://feed-blush.vercel.app/category/cerballiance/cerballiance/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
     
   </entry>
   
@@ -1473,6 +1745,12 @@
     <category term="autosur  diagnosur" scheme="https://feed-blush.vercel.app/category/autosur-diagnosur/autosur-diagnosur/"/>
     
     
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
+    
   </entry>
   
   <entry>
@@ -1495,6 +1773,12 @@
     
     <category term="intersport" scheme="https://feed-blush.vercel.app/category/intersport/"/>
     
+    <category term="intersport" scheme="https://feed-blush.vercel.app/category/intersport/intersport/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
     
   </entry>
   
@@ -1519,6 +1803,12 @@
     
     <category term="éclaireuses et éclaireurs de france" scheme="https://feed-blush.vercel.app/category/eclaireuses-et-eclaireurs-de-france/"/>
     
+    <category term="éclaireuses et éclaireurs de france" scheme="https://feed-blush.vercel.app/category/eclaireuses-et-eclaireurs-de-france/eclaireuses-et-eclaireurs-de-france/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
     
   </entry>
   
@@ -1545,6 +1835,8 @@
     
     <category term="direct assurance" scheme="https://feed-blush.vercel.app/category/direct-assurance/"/>
     
+    <category term="direct assurance" scheme="https://feed-blush.vercel.app/category/direct-assurance/direct-assurance/"/>
+    
     
   </entry>
   
@@ -1568,6 +1860,8 @@
     
     
     <category term="laforêt" scheme="https://feed-blush.vercel.app/category/laforet/"/>
+    
+    <category term="laforêt" scheme="https://feed-blush.vercel.app/category/laforet/laforet/"/>
     
     
   </entry>
@@ -1595,6 +1889,10 @@
     
     <category term="utwin" scheme="https://feed-blush.vercel.app/category/utwin/"/>
     
+    <category term="utwin" scheme="https://feed-blush.vercel.app/category/utwin/utwin/"/>
+    
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -1619,6 +1917,12 @@
     
     <category term="côté sushi" scheme="https://feed-blush.vercel.app/category/cote-sushi/"/>
     
+    <category term="côté sushi" scheme="https://feed-blush.vercel.app/category/cote-sushi/cote-sushi/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
     
   </entry>
   
@@ -1643,6 +1947,12 @@
     
     <category term="la poste" scheme="https://feed-blush.vercel.app/category/la-poste/"/>
     
+    <category term="la poste" scheme="https://feed-blush.vercel.app/category/la-poste/la-poste/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
     
   </entry>
   
@@ -1665,6 +1975,8 @@
     
     
     <category term="edf dpih" scheme="https://feed-blush.vercel.app/category/edf-dpih/"/>
+    
+    <category term="edf dpih" scheme="https://feed-blush.vercel.app/category/edf-dpih/edf-dpih/"/>
     
     
   </entry>
@@ -1690,6 +2002,12 @@
     
     <category term="zephir" scheme="https://feed-blush.vercel.app/category/zephir/"/>
     
+    <category term="zephir" scheme="https://feed-blush.vercel.app/category/zephir/zephir/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
     
   </entry>
   
@@ -1713,6 +2031,12 @@
     
     <category term="école nationale de la sécurité" scheme="https://feed-blush.vercel.app/category/ecole-nationale-de-la-securite/"/>
     
+    <category term="école nationale de la sécurité" scheme="https://feed-blush.vercel.app/category/ecole-nationale-de-la-securite/ecole-nationale-de-la-securite/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
     
   </entry>
   
@@ -1736,6 +2060,39 @@
     
     <category term="nord emploi" scheme="https://feed-blush.vercel.app/category/nord-emploi/"/>
     
+    <category term="nord emploi" scheme="https://feed-blush.vercel.app/category/nord-emploi/nord-emploi/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ALIEN TXTBASE Stealer Logs - Fuite De Données</title>
+    <link href="https://feed-blush.vercel.app/alien-txtbase-stealer-logs-fuite-de-donnees/"/>
+    <id>https://feed-blush.vercel.app/alien-txtbase-stealer-logs-fuite-de-donnees/</id>
+    <published>2025-02-25T18:25:18.000Z</published>
+    <updated>2025-11-13T18:15:06.455Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="ALIEN-TXTBASE-Stealer-Logs-Fuite-de-donnees"><a href="#ALIEN-TXTBASE-Stealer-Logs-Fuite-de-donnees" class="headerlink" title="ALIEN TXTBASE Stealer Logs - Fuite de données"></a>ALIEN TXTBASE Stealer Logs - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2025-02-15<br><strong>Nombre de comptes affectés</strong> : 284 132 969</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In February 2025, 23 billion rows of stealer logs were obtained from a Telegram channel known as ALIEN TXTBASE. The data contained 284M unique email addresses alongside the websites they were entered into and the passwords used. This data is now searchable in HIBP by both email domain and the domain of the target website.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Passwords</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AlienStealerLogs">Vérifier si vous êtes concerné</a></li></ul>
+    	  <a href="" target="_blank">source</a>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;ALIEN-TXTBASE-Stealer-Logs-Fuite-de-donnees&quot;&gt;&lt;a href=&quot;#ALIEN-TXTBASE-Stealer-Logs-Fuite-de-donnees&quot; class=&quot;headerlink&quot; title=&quot;ALIEN </summary>
+      
+    
+    
+    
+    <category term="breaches" scheme="https://feed-blush.vercel.app/category/breaches/"/>
+    
+    
+    <category term="email addresses" scheme="https://feed-blush.vercel.app/tags/email-addresses/"/>
+    
+    <category term="passwords" scheme="https://feed-blush.vercel.app/tags/passwords/"/>
     
   </entry>
   
@@ -1759,6 +2116,14 @@
     
     <category term="fédération française de foot" scheme="https://feed-blush.vercel.app/category/federation-francaise-de-foot/"/>
     
+    <category term="fédération française de foot" scheme="https://feed-blush.vercel.app/category/federation-francaise-de-foot/federation-francaise-de-foot/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -1782,6 +2147,8 @@
     
     
     <category term="service départemental d&#39;incendie et de secours de la vienne" scheme="https://feed-blush.vercel.app/category/service-departemental-d-incendie-et-de-secours-de-la-vienne/"/>
+    
+    <category term="service départemental d&#39;incendie et de secours de la vienne" scheme="https://feed-blush.vercel.app/category/service-departemental-d-incendie-et-de-secours-de-la-vienne/service-departemental-d-incendie-et-de-secours-de-la-vienne/"/>
     
     
   </entry>
@@ -1807,6 +2174,12 @@
     
     <category term="sport découverte" scheme="https://feed-blush.vercel.app/category/sport-decouverte/"/>
     
+    <category term="sport découverte" scheme="https://feed-blush.vercel.app/category/sport-decouverte/sport-decouverte/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
     
   </entry>
   
@@ -1831,6 +2204,14 @@
     
     <category term="mutuelle des motards" scheme="https://feed-blush.vercel.app/category/mutuelle-des-motards/"/>
     
+    <category term="mutuelle des motards" scheme="https://feed-blush.vercel.app/category/mutuelle-des-motards/mutuelle-des-motards/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -1881,6 +2262,12 @@
     
     <category term="chronopost" scheme="https://feed-blush.vercel.app/category/chronopost/"/>
     
+    <category term="chronopost" scheme="https://feed-blush.vercel.app/category/chronopost/chronopost/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
     
   </entry>
   
@@ -1905,6 +2292,47 @@
     
     <category term="king jouet" scheme="https://feed-blush.vercel.app/category/king-jouet/"/>
     
+    <category term="king jouet" scheme="https://feed-blush.vercel.app/category/king-jouet/king-jouet/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Adopt Me Trading Values - Fuite De Données</title>
+    <link href="https://feed-blush.vercel.app/adopt-me-trading-values-fuite-de-donnees/"/>
+    <id>https://feed-blush.vercel.app/adopt-me-trading-values-fuite-de-donnees/</id>
+    <published>2025-02-10T01:58:18.000Z</published>
+    <updated>2025-11-13T18:12:43.472Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Adopt-Me-Trading-Values-Fuite-de-donnees"><a href="#Adopt-Me-Trading-Values-Fuite-de-donnees" class="headerlink" title="Adopt Me Trading Values - Fuite de données"></a>Adopt Me Trading Values - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2022-07-01<br><strong>Nombre de comptes affectés</strong> : 86 136</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In July 2022, the Adopt Me Trading Values website for assessing the value of pet trades within the “Adopt Me!” Roblox game suffered a data breach that was later redistributed as part of a larger corpus of data. The breach exposed 86k unique email addresses along with usernames (and Roblox usernames), IP addresses and bcrypt password hashes. </p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>IP addresses</li><li>Passwords</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AdoptMeTradingValues">Vérifier si vous êtes concerné</a></li><li><a href="https://adoptmetradingvalues.com/">adoptmetradingvalues.com</a></li></ul>
+    	  <a href="" target="_blank">source</a>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Adopt-Me-Trading-Values-Fuite-de-donnees&quot;&gt;&lt;a href=&quot;#Adopt-Me-Trading-Values-Fuite-de-donnees&quot; class=&quot;headerlink&quot; title=&quot;Adopt Me Tra</summary>
+      
+    
+    
+    
+    <category term="breaches" scheme="https://feed-blush.vercel.app/category/breaches/"/>
+    
+    <category term="adoptmetradingvalues" scheme="https://feed-blush.vercel.app/category/breaches/adoptmetradingvalues/"/>
+    
+    
+    <category term="email addresses" scheme="https://feed-blush.vercel.app/tags/email-addresses/"/>
+    
+    <category term="ip addresses" scheme="https://feed-blush.vercel.app/tags/ip-addresses/"/>
+    
+    <category term="passwords" scheme="https://feed-blush.vercel.app/tags/passwords/"/>
+    
+    <category term="usernames" scheme="https://feed-blush.vercel.app/tags/usernames/"/>
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
     
   </entry>
   
@@ -1929,6 +2357,12 @@
     
     <category term="espace" scheme="https://feed-blush.vercel.app/category/espace/"/>
     
+    <category term="espace" scheme="https://feed-blush.vercel.app/category/espace/espace/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -1976,9 +2410,9 @@
     <link href="https://feed-blush.vercel.app/9lives-fuite-de-donnees/"/>
     <id>https://feed-blush.vercel.app/9lives-fuite-de-donnees/</id>
     <published>2025-02-02T01:04:44.000Z</published>
-    <updated>2025-11-13T18:10:24.526Z</updated>
+    <updated>2025-11-13T18:11:43.138Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="9Lives-Fuite-de-donnees"><a href="#9Lives-Fuite-de-donnees" class="headerlink" title="9Lives - Fuite de données"></a>9Lives - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2014-10-01<br><strong>Nombre de comptes affectés</strong> : 109 515</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In October 2014, the (now defunct) Belgian gaming news forum 9Lives suffered a data breach that was later redistributed as part of a larger corpus of data. The breach exposed 109k unique email addresses along with usernames and salted MD5 password hashes.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Passwords</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/9Lives">Vérifier si vous êtes concerné</a></li><li><a href="https://9lives.be/">9lives.be</a></li></ul>
+    <content type="html"><![CDATA[<h1 id="9Lives-Fuite-de-donnees"><a href="#9Lives-Fuite-de-donnees" class="headerlink" title="9Lives - Fuite de données"></a>9Lives - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2014-10-01<br><strong>Nombre de comptes affectés</strong> : 109 515</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In October 2014, the now defunct Belgian gaming news forum 9Lives suffered a data breach that was later redistributed as part of a larger corpus of data. The breach exposed 109k unique email addresses along with usernames and salted MD5 password hashes.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Passwords</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/9Lives">Vérifier si vous êtes concerné</a></li><li><a href="https://9lives.be/">9lives.be</a></li></ul>
     	  <a href="" target="_blank">source</a>]]></content>
     
     
@@ -2056,6 +2490,14 @@
     
     <category term="e.leclerc" scheme="https://feed-blush.vercel.app/category/e-leclerc/"/>
     
+    <category term="e.leclerc" scheme="https://feed-blush.vercel.app/category/e-leclerc/e-leclerc/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -2080,6 +2522,14 @@
     
     <category term="fédération française montagne escalade" scheme="https://feed-blush.vercel.app/category/federation-francaise-montagne-escalade/"/>
     
+    <category term="fédération française montagne escalade" scheme="https://feed-blush.vercel.app/category/federation-francaise-montagne-escalade/federation-francaise-montagne-escalade/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -2104,6 +2554,14 @@
     
     <category term="fédération française de la montagne et de l&#39;escalade" scheme="https://feed-blush.vercel.app/category/federation-francaise-de-la-montagne-et-de-l-escalade/"/>
     
+    <category term="fédération française de la montagne et de l&#39;escalade" scheme="https://feed-blush.vercel.app/category/federation-francaise-de-la-montagne-et-de-l-escalade/federation-francaise-de-la-montagne-et-de-l-escalade/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -2128,6 +2586,14 @@
     
     <category term="fédération française de tir à l&#39;arc" scheme="https://feed-blush.vercel.app/category/federation-francaise-de-tir-a-l-arc/"/>
     
+    <category term="fédération française de tir à l&#39;arc" scheme="https://feed-blush.vercel.app/category/federation-francaise-de-tir-a-l-arc/federation-francaise-de-tir-a-l-arc/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -2151,6 +2617,8 @@
     
     
     <category term="fédération française de force" scheme="https://feed-blush.vercel.app/category/federation-francaise-de-force/"/>
+    
+    <category term="fédération française de force" scheme="https://feed-blush.vercel.app/category/federation-francaise-de-force/federation-francaise-de-force/"/>
     
     
   </entry>
@@ -2176,6 +2644,14 @@
     
     <category term="fédération française de roller skateboard" scheme="https://feed-blush.vercel.app/category/federation-francaise-de-roller-skateboard/"/>
     
+    <category term="fédération française de roller skateboard" scheme="https://feed-blush.vercel.app/category/federation-francaise-de-roller-skateboard/federation-francaise-de-roller-skateboard/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -2200,6 +2676,12 @@
     
     <category term="kiabi" scheme="https://feed-blush.vercel.app/category/kiabi/"/>
     
+    <category term="kiabi" scheme="https://feed-blush.vercel.app/category/kiabi/kiabi/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
     
   </entry>
   
@@ -2223,6 +2705,8 @@
     
     
     <category term="cogitis" scheme="https://feed-blush.vercel.app/category/cogitis/"/>
+    
+    <category term="cogitis" scheme="https://feed-blush.vercel.app/category/cogitis/cogitis/"/>
     
     
   </entry>
@@ -2300,6 +2784,8 @@
     
     <category term="volkswagen" scheme="https://feed-blush.vercel.app/category/volkswagen/"/>
     
+    <category term="volkswagen" scheme="https://feed-blush.vercel.app/category/volkswagen/volkswagen/"/>
+    
     
   </entry>
   
@@ -2323,6 +2809,8 @@
     
     
     <category term="peugeot" scheme="https://feed-blush.vercel.app/category/peugeot/"/>
+    
+    <category term="peugeot" scheme="https://feed-blush.vercel.app/category/peugeot/peugeot/"/>
     
     
   </entry>
@@ -2348,6 +2836,8 @@
     
     <category term="cyberhaven" scheme="https://feed-blush.vercel.app/category/cyberhaven/"/>
     
+    <category term="cyberhaven" scheme="https://feed-blush.vercel.app/category/cyberhaven/cyberhaven/"/>
+    
     
   </entry>
   
@@ -2372,6 +2862,12 @@
     
     <category term="top achat" scheme="https://feed-blush.vercel.app/category/top-achat/"/>
     
+    <category term="top achat" scheme="https://feed-blush.vercel.app/category/top-achat/top-achat/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
     
   </entry>
   
@@ -2395,6 +2891,8 @@
     
     
     <category term="deloitte" scheme="https://feed-blush.vercel.app/category/deloitte/"/>
+    
+    <category term="deloitte" scheme="https://feed-blush.vercel.app/category/deloitte/deloitte/"/>
     
     
   </entry>
@@ -2420,6 +2918,14 @@
     
     <category term="guy demarle" scheme="https://feed-blush.vercel.app/category/guy-demarle/"/>
     
+    <category term="guy demarle" scheme="https://feed-blush.vercel.app/category/guy-demarle/guy-demarle/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -2444,6 +2950,14 @@
     
     <category term="norauto" scheme="https://feed-blush.vercel.app/category/norauto/"/>
     
+    <category term="norauto" scheme="https://feed-blush.vercel.app/category/norauto/norauto/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -2468,6 +2982,12 @@
     
     <category term="ze camping" scheme="https://feed-blush.vercel.app/category/ze-camping/"/>
     
+    <category term="ze camping" scheme="https://feed-blush.vercel.app/category/ze-camping/ze-camping/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
     
   </entry>
   
@@ -2492,6 +3012,14 @@
     
     <category term="jvs" scheme="https://feed-blush.vercel.app/category/jvs/"/>
     
+    <category term="jvs" scheme="https://feed-blush.vercel.app/category/jvs/jvs/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -2515,6 +3043,14 @@
     
     <category term="sfr" scheme="https://feed-blush.vercel.app/category/sfr/"/>
     
+    <category term="sfr" scheme="https://feed-blush.vercel.app/category/sfr/sfr/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -2564,6 +3100,8 @@
     
     <category term="companie de transport strasbourgeoise" scheme="https://feed-blush.vercel.app/category/companie-de-transport-strasbourgeoise/"/>
     
+    <category term="companie de transport strasbourgeoise" scheme="https://feed-blush.vercel.app/category/companie-de-transport-strasbourgeoise/companie-de-transport-strasbourgeoise/"/>
+    
     
   </entry>
   
@@ -2587,6 +3125,8 @@
     
     
     <category term="chambres d’agriculture" scheme="https://feed-blush.vercel.app/category/chambres-d%E2%80%99agriculture/"/>
+    
+    <category term="chambres d’agriculture" scheme="https://feed-blush.vercel.app/category/chambres-d%E2%80%99agriculture/chambres-d%E2%80%99agriculture/"/>
     
     
   </entry>
@@ -2645,6 +3185,12 @@
     
     <category term="direct assurance" scheme="https://feed-blush.vercel.app/category/direct-assurance/"/>
     
+    <category term="direct assurance" scheme="https://feed-blush.vercel.app/category/direct-assurance/direct-assurance/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -2668,6 +3214,12 @@
     
     <category term="mediboard" scheme="https://feed-blush.vercel.app/category/mediboard/"/>
     
+    <category term="mediboard" scheme="https://feed-blush.vercel.app/category/mediboard/mediboard/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
     
   </entry>
   
@@ -2692,6 +3244,12 @@
     
     <category term="le point" scheme="https://feed-blush.vercel.app/category/le-point/"/>
     
+    <category term="le point" scheme="https://feed-blush.vercel.app/category/le-point/le-point/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -2716,6 +3274,14 @@
     
     <category term="huttopia" scheme="https://feed-blush.vercel.app/category/huttopia/"/>
     
+    <category term="huttopia" scheme="https://feed-blush.vercel.app/category/huttopia/huttopia/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -2740,6 +3306,14 @@
     
     <category term="molotov" scheme="https://feed-blush.vercel.app/category/molotov/"/>
     
+    <category term="molotov" scheme="https://feed-blush.vercel.app/category/molotov/molotov/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -2763,6 +3337,14 @@
     
     <category term="picard" scheme="https://feed-blush.vercel.app/category/picard/"/>
     
+    <category term="picard" scheme="https://feed-blush.vercel.app/category/picard/picard/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -2786,6 +3368,14 @@
     
     <category term="free mobile" scheme="https://feed-blush.vercel.app/category/free-mobile/"/>
     
+    <category term="free mobile" scheme="https://feed-blush.vercel.app/category/free-mobile/free-mobile/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -2810,6 +3400,14 @@
     
     <category term="ornikar" scheme="https://feed-blush.vercel.app/category/ornikar/"/>
     
+    <category term="ornikar" scheme="https://feed-blush.vercel.app/category/ornikar/ornikar/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -2833,6 +3431,12 @@
     
     <category term="meilleurtaux" scheme="https://feed-blush.vercel.app/category/meilleurtaux/"/>
     
+    <category term="meilleurtaux" scheme="https://feed-blush.vercel.app/category/meilleurtaux/meilleurtaux/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
     
   </entry>
   
@@ -2856,6 +3460,14 @@
     
     <category term="red by sfr" scheme="https://feed-blush.vercel.app/category/red-by-sfr/"/>
     
+    <category term="red by sfr" scheme="https://feed-blush.vercel.app/category/red-by-sfr/red-by-sfr/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -2910,6 +3522,45 @@
     
     <category term="cybertek" scheme="https://feed-blush.vercel.app/category/cybertek/"/>
     
+    <category term="cybertek" scheme="https://feed-blush.vercel.app/category/cybertek/cybertek/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Advance Auto Parts - Fuite De Données</title>
+    <link href="https://feed-blush.vercel.app/advance-auto-parts-fuite-de-donnees/"/>
+    <id>https://feed-blush.vercel.app/advance-auto-parts-fuite-de-donnees/</id>
+    <published>2024-06-24T07:51:11.000Z</published>
+    <updated>2025-11-13T18:12:43.473Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Advance-Auto-Parts-Fuite-de-donnees"><a href="#Advance-Auto-Parts-Fuite-de-donnees" class="headerlink" title="Advance Auto Parts - Fuite de données"></a>Advance Auto Parts - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2024-06-05<br><strong>Nombre de comptes affectés</strong> : 79 243 727</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In June 2024, Advance Auto Parts confirmed they had suffered a data breach which was posted for sale to a popular hacking forum. Linked to unauthorised access to Snowflake cloud services, the breach exposed a large number of records related to both customers and employees. In total, 79M unique email addresses were included in the breach, alongside names, phone numbers, addresses and further data attributes related to company employees.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Names</li><li>Phone numbers</li><li>Physical addresses</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AdvanceAutoParts">Vérifier si vous êtes concerné</a></li><li><a href="https://advanceautoparts.com/">advanceautoparts.com</a></li></ul>
+    	  <a href="" target="_blank">source</a>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Advance-Auto-Parts-Fuite-de-donnees&quot;&gt;&lt;a href=&quot;#Advance-Auto-Parts-Fuite-de-donnees&quot; class=&quot;headerlink&quot; title=&quot;Advance Auto Parts - F</summary>
+      
+    
+    
+    
+    <category term="breaches" scheme="https://feed-blush.vercel.app/category/breaches/"/>
+    
+    
+    <category term="email addresses" scheme="https://feed-blush.vercel.app/tags/email-addresses/"/>
+    
+    <category term="names" scheme="https://feed-blush.vercel.app/tags/names/"/>
+    
+    <category term="phone numbers" scheme="https://feed-blush.vercel.app/tags/phone-numbers/"/>
+    
+    <category term="physical addresses" scheme="https://feed-blush.vercel.app/tags/physical-addresses/"/>
     
   </entry>
   
@@ -2933,6 +3584,14 @@
     
     <category term="ticketmaster" scheme="https://feed-blush.vercel.app/category/ticketmaster/"/>
     
+    <category term="ticketmaster" scheme="https://feed-blush.vercel.app/category/ticketmaster/ticketmaster/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -2957,6 +3616,14 @@
     
     <category term="le slip français" scheme="https://feed-blush.vercel.app/category/le-slip-francais/"/>
     
+    <category term="le slip français" scheme="https://feed-blush.vercel.app/category/le-slip-francais/le-slip-francais/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -2980,6 +3647,14 @@
     
     <category term="france travail" scheme="https://feed-blush.vercel.app/category/france-travail/"/>
     
+    <category term="france travail" scheme="https://feed-blush.vercel.app/category/france-travail/france-travail/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
+    
+    <category term="adresse email" scheme="https://feed-blush.vercel.app/tags/adresse-email/"/>
     
   </entry>
   
@@ -3034,6 +3709,12 @@
     
     <category term="viamedis" scheme="https://feed-blush.vercel.app/category/viamedis/"/>
     
+    <category term="viamedis" scheme="https://feed-blush.vercel.app/category/viamedis/viamedis/"/>
+    
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="prénom" scheme="https://feed-blush.vercel.app/tags/prenom/"/>
     
   </entry>
   
@@ -3118,6 +3799,133 @@
   </entry>
   
   <entry>
+    <title>Adecco - Fuite De Données</title>
+    <link href="https://feed-blush.vercel.app/adecco-fuite-de-donnees/"/>
+    <id>https://feed-blush.vercel.app/adecco-fuite-de-donnees/</id>
+    <published>2022-05-31T04:33:24.000Z</published>
+    <updated>2025-11-13T18:12:43.472Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Adecco-Fuite-de-donnees"><a href="#Adecco-Fuite-de-donnees" class="headerlink" title="Adecco - Fuite de données"></a>Adecco - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2021-01-03<br><strong>Nombre de comptes affectés</strong> : 4 284 538</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In March 2021, news broke of a massive data breach impacting millions of Adecco customers in South America which was subsequently sold on a popular hacking forum. The breach exposed over 4M unique email addresses as well as genders, dates of birth, marital statuses, phone numbers and passwords stored as bcrypt hashes.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Genders</li><li>Geographic locations</li><li>Marital statuses</li><li>Names</li><li>Passwords</li><li>Phone numbers</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Adecco">Vérifier si vous êtes concerné</a></li><li><a href="https://adecco.com/">adecco.com</a></li></ul>
+    	  <a href="" target="_blank">source</a>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Adecco-Fuite-de-donnees&quot;&gt;&lt;a href=&quot;#Adecco-Fuite-de-donnees&quot; class=&quot;headerlink&quot; title=&quot;Adecco - Fuite de données&quot;&gt;&lt;/a&gt;Adecco - Fuite </summary>
+      
+    
+    
+    
+    <category term="breaches" scheme="https://feed-blush.vercel.app/category/breaches/"/>
+    
+    <category term="adecco" scheme="https://feed-blush.vercel.app/category/breaches/adecco/"/>
+    
+    
+    <category term="email addresses" scheme="https://feed-blush.vercel.app/tags/email-addresses/"/>
+    
+    <category term="names" scheme="https://feed-blush.vercel.app/tags/names/"/>
+    
+    <category term="passwords" scheme="https://feed-blush.vercel.app/tags/passwords/"/>
+    
+    <category term="phone numbers" scheme="https://feed-blush.vercel.app/tags/phone-numbers/"/>
+    
+    <category term="geographic locations" scheme="https://feed-blush.vercel.app/tags/geographic-locations/"/>
+    
+    <category term="genders" scheme="https://feed-blush.vercel.app/tags/genders/"/>
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="marital statuses" scheme="https://feed-blush.vercel.app/tags/marital-statuses/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Aimware - Fuite De Données</title>
+    <link href="https://feed-blush.vercel.app/aimware-fuite-de-donnees/"/>
+    <id>https://feed-blush.vercel.app/aimware-fuite-de-donnees/</id>
+    <published>2022-05-02T00:13:41.000Z</published>
+    <updated>2025-11-13T18:15:06.455Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Aimware-Fuite-de-donnees"><a href="#Aimware-Fuite-de-donnees" class="headerlink" title="Aimware - Fuite de données"></a>Aimware - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2019-04-28<br><strong>Nombre de comptes affectés</strong> : 305 470</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In mid-2019, the video game cheats website “Aimware” suffered a data breach that exposed hundreds of thousands of subscribers’ personal information. Data included email and IP addresses, usernames, forum posts, private messages, website activity and passwords stored as salted MD5 hashes.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>IP addresses</li><li>Passwords</li><li>Private messages</li><li>Usernames</li><li>Website activity</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Aimware">Vérifier si vous êtes concerné</a></li><li><a href="https://aimware.net/">aimware.net</a></li></ul>
+    	  <a href="" target="_blank">source</a>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Aimware-Fuite-de-donnees&quot;&gt;&lt;a href=&quot;#Aimware-Fuite-de-donnees&quot; class=&quot;headerlink&quot; title=&quot;Aimware - Fuite de données&quot;&gt;&lt;/a&gt;Aimware - Fu</summary>
+      
+    
+    
+    
+    <category term="breaches" scheme="https://feed-blush.vercel.app/category/breaches/"/>
+    
+    
+    <category term="email addresses" scheme="https://feed-blush.vercel.app/tags/email-addresses/"/>
+    
+    <category term="ip addresses" scheme="https://feed-blush.vercel.app/tags/ip-addresses/"/>
+    
+    <category term="passwords" scheme="https://feed-blush.vercel.app/tags/passwords/"/>
+    
+    <category term="usernames" scheme="https://feed-blush.vercel.app/tags/usernames/"/>
+    
+    <category term="website activity" scheme="https://feed-blush.vercel.app/tags/website-activity/"/>
+    
+    <category term="private messages" scheme="https://feed-blush.vercel.app/tags/private-messages/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Aditya Birla Fashion and Retail - Fuite De Données</title>
+    <link href="https://feed-blush.vercel.app/aditya-birla-fashion-and-retail-fuite-de-donnees/"/>
+    <id>https://feed-blush.vercel.app/aditya-birla-fashion-and-retail-fuite-de-donnees/</id>
+    <published>2022-01-15T01:58:39.000Z</published>
+    <updated>2025-11-13T18:12:43.472Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Aditya-Birla-Fashion-and-Retail-Fuite-de-donnees"><a href="#Aditya-Birla-Fashion-and-Retail-Fuite-de-donnees" class="headerlink" title="Aditya Birla Fashion and Retail - Fuite de données"></a>Aditya Birla Fashion and Retail - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2021-12-01<br><strong>Nombre de comptes affectés</strong> : 5 470 063</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In December 2021, Indian retailer Aditya Birla Fashion and Retail Ltd was breached and ransomed. The ransom demand was allegedly rejected and data containing 5.4M unique email addresses was subsequently dumped publicly on a popular hacking forum the next month. The data contained extensive personal customer information including names, phone numbers, physical addresses, DoBs, order histories and passwords stored as MD5 hashes. Employee data was also dumped publicly and included salary grades, marital statuses and religions.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Genders</li><li>Income levels</li><li>Job titles</li><li>Marital statuses</li><li>Names</li><li>Passwords</li><li>Phone numbers</li><li>Physical addresses</li><li>Purchases</li><li>Religions</li><li>Salutations</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/ABFRL">Vérifier si vous êtes concerné</a></li><li><a href="https://abfrl.com/">abfrl.com</a></li></ul>
+    	  <a href="" target="_blank">source</a>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Aditya-Birla-Fashion-and-Retail-Fuite-de-donnees&quot;&gt;&lt;a href=&quot;#Aditya-Birla-Fashion-and-Retail-Fuite-de-donnees&quot; class=&quot;headerlink&quot; tit</summary>
+      
+    
+    
+    
+    <category term="breaches" scheme="https://feed-blush.vercel.app/category/breaches/"/>
+    
+    <category term="abfrl" scheme="https://feed-blush.vercel.app/category/breaches/abfrl/"/>
+    
+    
+    <category term="email addresses" scheme="https://feed-blush.vercel.app/tags/email-addresses/"/>
+    
+    <category term="names" scheme="https://feed-blush.vercel.app/tags/names/"/>
+    
+    <category term="passwords" scheme="https://feed-blush.vercel.app/tags/passwords/"/>
+    
+    <category term="phone numbers" scheme="https://feed-blush.vercel.app/tags/phone-numbers/"/>
+    
+    <category term="physical addresses" scheme="https://feed-blush.vercel.app/tags/physical-addresses/"/>
+    
+    <category term="genders" scheme="https://feed-blush.vercel.app/tags/genders/"/>
+    
+    <category term="job titles" scheme="https://feed-blush.vercel.app/tags/job-titles/"/>
+    
+    <category term="salutations" scheme="https://feed-blush.vercel.app/tags/salutations/"/>
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="marital statuses" scheme="https://feed-blush.vercel.app/tags/marital-statuses/"/>
+    
+    <category term="income levels" scheme="https://feed-blush.vercel.app/tags/income-levels/"/>
+    
+    <category term="purchases" scheme="https://feed-blush.vercel.app/tags/purchases/"/>
+    
+    <category term="religions" scheme="https://feed-blush.vercel.app/tags/religions/"/>
+    
+  </entry>
+  
+  <entry>
     <title>ActMobile - Fuite De Données</title>
     <link href="https://feed-blush.vercel.app/actmobile-fuite-de-donnees/"/>
     <id>https://feed-blush.vercel.app/actmobile-fuite-de-donnees/</id>
@@ -3145,6 +3953,53 @@
     <category term="ip addresses" scheme="https://feed-blush.vercel.app/tags/ip-addresses/"/>
     
     <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ajarn - Fuite De Données</title>
+    <link href="https://feed-blush.vercel.app/ajarn-fuite-de-donnees/"/>
+    <id>https://feed-blush.vercel.app/ajarn-fuite-de-donnees/</id>
+    <published>2021-09-26T01:45:38.000Z</published>
+    <updated>2025-11-13T18:15:06.455Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Ajarn-Fuite-de-donnees"><a href="#Ajarn-Fuite-de-donnees" class="headerlink" title="Ajarn - Fuite de données"></a>Ajarn - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2018-12-13<br><strong>Nombre de comptes affectés</strong> : 266 399</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In September 2021, the Thai-based English language teaching website Ajarn discovered they’d been the victim of a data breach dating back to December 2018. The breach was self-submitted to HIBP and included 266k email addresses, names, genders, phone numbers and other personal information. Hashed passwords were also impacted in the breach.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Dates of birth</li><li>Education levels</li><li>Email addresses</li><li>Genders</li><li>Geographic locations</li><li>Job applications</li><li>Marital statuses</li><li>Names</li><li>Nationalities</li><li>Passwords</li><li>Phone numbers</li><li>Profile photos</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Ajarn">Vérifier si vous êtes concerné</a></li><li><a href="https://ajarn.com/">ajarn.com</a></li></ul>
+    	  <a href="" target="_blank">source</a>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Ajarn-Fuite-de-donnees&quot;&gt;&lt;a href=&quot;#Ajarn-Fuite-de-donnees&quot; class=&quot;headerlink&quot; title=&quot;Ajarn - Fuite de données&quot;&gt;&lt;/a&gt;Ajarn - Fuite de d</summary>
+      
+    
+    
+    
+    <category term="breaches" scheme="https://feed-blush.vercel.app/category/breaches/"/>
+    
+    
+    <category term="email addresses" scheme="https://feed-blush.vercel.app/tags/email-addresses/"/>
+    
+    <category term="names" scheme="https://feed-blush.vercel.app/tags/names/"/>
+    
+    <category term="passwords" scheme="https://feed-blush.vercel.app/tags/passwords/"/>
+    
+    <category term="phone numbers" scheme="https://feed-blush.vercel.app/tags/phone-numbers/"/>
+    
+    <category term="dates of birth" scheme="https://feed-blush.vercel.app/tags/dates-of-birth/"/>
+    
+    <category term="geographic locations" scheme="https://feed-blush.vercel.app/tags/geographic-locations/"/>
+    
+    <category term="genders" scheme="https://feed-blush.vercel.app/tags/genders/"/>
+    
+    <category term="marital statuses" scheme="https://feed-blush.vercel.app/tags/marital-statuses/"/>
+    
+    <category term="education levels" scheme="https://feed-blush.vercel.app/tags/education-levels/"/>
+    
+    <category term="job applications" scheme="https://feed-blush.vercel.app/tags/job-applications/"/>
+    
+    <category term="nationalities" scheme="https://feed-blush.vercel.app/tags/nationalities/"/>
+    
+    <category term="profile photos" scheme="https://feed-blush.vercel.app/tags/profile-photos/"/>
     
   </entry>
   
@@ -3186,6 +4041,37 @@
     <category term="usernames" scheme="https://feed-blush.vercel.app/tags/usernames/"/>
     
     <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AgusiQ-Torrents.pl - Fuite De Données</title>
+    <link href="https://feed-blush.vercel.app/agusiq-torrents-pl-fuite-de-donnees/"/>
+    <id>https://feed-blush.vercel.app/agusiq-torrents-pl-fuite-de-donnees/</id>
+    <published>2019-12-04T20:54:50.000Z</published>
+    <updated>2025-11-13T18:15:06.455Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="AgusiQ-Torrents-pl-Fuite-de-donnees"><a href="#AgusiQ-Torrents-pl-Fuite-de-donnees" class="headerlink" title="AgusiQ-Torrents.pl - Fuite de données"></a>AgusiQ-Torrents.pl - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2019-09-24<br><strong>Nombre de comptes affectés</strong> : 90 478</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In September 2019, Polish torrent site AgusiQ-Torrents.pl suffered a data breach. The incident exposed 90k member records including email and IP addresses, usernames and passwords stored as MD5 hashes.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>IP addresses</li><li>Passwords</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AgusiQTorrents">Vérifier si vous êtes concerné</a></li><li><a href="https://agusiq-torrents.pl/">agusiq-torrents.pl</a></li></ul>
+    	  <a href="" target="_blank">source</a>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;AgusiQ-Torrents-pl-Fuite-de-donnees&quot;&gt;&lt;a href=&quot;#AgusiQ-Torrents-pl-Fuite-de-donnees&quot; class=&quot;headerlink&quot; title=&quot;AgusiQ-Torrents.pl - F</summary>
+      
+    
+    
+    
+    <category term="breaches" scheme="https://feed-blush.vercel.app/category/breaches/"/>
+    
+    
+    <category term="email addresses" scheme="https://feed-blush.vercel.app/tags/email-addresses/"/>
+    
+    <category term="ip addresses" scheme="https://feed-blush.vercel.app/tags/ip-addresses/"/>
+    
+    <category term="passwords" scheme="https://feed-blush.vercel.app/tags/passwords/"/>
+    
+    <category term="usernames" scheme="https://feed-blush.vercel.app/tags/usernames/"/>
     
   </entry>
   
@@ -3266,6 +4152,115 @@
     <category term="genders" scheme="https://feed-blush.vercel.app/tags/genders/"/>
     
     <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AerServ - Fuite De Données</title>
+    <link href="https://feed-blush.vercel.app/aerserv-fuite-de-donnees/"/>
+    <id>https://feed-blush.vercel.app/aerserv-fuite-de-donnees/</id>
+    <published>2018-12-06T01:58:12.000Z</published>
+    <updated>2025-11-13T18:15:06.455Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="AerServ-Fuite-de-donnees"><a href="#AerServ-Fuite-de-donnees" class="headerlink" title="AerServ - Fuite de données"></a>AerServ - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2018-04-01<br><strong>Nombre de comptes affectés</strong> : 66 308</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In April 2018, the ad management platform known as AerServ suffered a data breach. Acquired by InMobi earlier in the year, the AerServ breach impacted over 66k unique email addresses and also included contact information and passwords stored as salted SHA-512 hashes. The data was publicly posted to Twitter later in 2018 after which InMobi was notified and advised they were aware of the incident.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Employers</li><li>Job titles</li><li>Names</li><li>Passwords</li><li>Phone numbers</li><li>Physical addresses</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AerServ">Vérifier si vous êtes concerné</a></li><li><a href="https://aerserv.com/">aerserv.com</a></li></ul>
+    	  <a href="" target="_blank">source</a>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;AerServ-Fuite-de-donnees&quot;&gt;&lt;a href=&quot;#AerServ-Fuite-de-donnees&quot; class=&quot;headerlink&quot; title=&quot;AerServ - Fuite de données&quot;&gt;&lt;/a&gt;AerServ - Fu</summary>
+      
+    
+    
+    
+    <category term="breaches" scheme="https://feed-blush.vercel.app/category/breaches/"/>
+    
+    
+    <category term="email addresses" scheme="https://feed-blush.vercel.app/tags/email-addresses/"/>
+    
+    <category term="names" scheme="https://feed-blush.vercel.app/tags/names/"/>
+    
+    <category term="passwords" scheme="https://feed-blush.vercel.app/tags/passwords/"/>
+    
+    <category term="phone numbers" scheme="https://feed-blush.vercel.app/tags/phone-numbers/"/>
+    
+    <category term="physical addresses" scheme="https://feed-blush.vercel.app/tags/physical-addresses/"/>
+    
+    <category term="job titles" scheme="https://feed-blush.vercel.app/tags/job-titles/"/>
+    
+    <category term="employers" scheme="https://feed-blush.vercel.app/tags/employers/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Adapt - Fuite De Données</title>
+    <link href="https://feed-blush.vercel.app/adapt-fuite-de-donnees/"/>
+    <id>https://feed-blush.vercel.app/adapt-fuite-de-donnees/</id>
+    <published>2018-11-22T18:43:06.000Z</published>
+    <updated>2025-11-13T18:12:43.472Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Adapt-Fuite-de-donnees"><a href="#Adapt-Fuite-de-donnees" class="headerlink" title="Adapt - Fuite de données"></a>Adapt - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2018-11-05<br><strong>Nombre de comptes affectés</strong> : 9 363 740</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In November 2018, security researcher Bob Diachenko identified an unprotected database hosted by data aggregator “Adapt”. A provider of “Fresh Quality Contacts”, the service exposed over 9.3M unique records of individuals and employer information including their names, employers, job titles, contact information and data relating to the employer including organisation description, size and revenue. No response was received from Adapt when contacted.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Employers</li><li>Job titles</li><li>Names</li><li>Phone numbers</li><li>Physical addresses</li><li>Social media profiles</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Adapt">Vérifier si vous êtes concerné</a></li><li><a href="https://adapt.io/">adapt.io</a></li></ul>
+    	  <a href="" target="_blank">source</a>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Adapt-Fuite-de-donnees&quot;&gt;&lt;a href=&quot;#Adapt-Fuite-de-donnees&quot; class=&quot;headerlink&quot; title=&quot;Adapt - Fuite de données&quot;&gt;&lt;/a&gt;Adapt - Fuite de d</summary>
+      
+    
+    
+    
+    <category term="breaches" scheme="https://feed-blush.vercel.app/category/breaches/"/>
+    
+    <category term="adapt" scheme="https://feed-blush.vercel.app/category/breaches/adapt/"/>
+    
+    
+    <category term="email addresses" scheme="https://feed-blush.vercel.app/tags/email-addresses/"/>
+    
+    <category term="names" scheme="https://feed-blush.vercel.app/tags/names/"/>
+    
+    <category term="phone numbers" scheme="https://feed-blush.vercel.app/tags/phone-numbers/"/>
+    
+    <category term="physical addresses" scheme="https://feed-blush.vercel.app/tags/physical-addresses/"/>
+    
+    <category term="job titles" scheme="https://feed-blush.vercel.app/tags/job-titles/"/>
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="employers" scheme="https://feed-blush.vercel.app/tags/employers/"/>
+    
+    <category term="social media profiles" scheme="https://feed-blush.vercel.app/tags/social-media-profiles/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Adult-FanFiction.Org - Fuite De Données</title>
+    <link href="https://feed-blush.vercel.app/adult-fanfiction-org-fuite-de-donnees/"/>
+    <id>https://feed-blush.vercel.app/adult-fanfiction-org-fuite-de-donnees/</id>
+    <published>2018-08-06T06:56:03.000Z</published>
+    <updated>2025-11-13T18:12:43.473Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Adult-FanFiction-Org-Fuite-de-donnees"><a href="#Adult-FanFiction-Org-Fuite-de-donnees" class="headerlink" title="Adult-FanFiction.Org - Fuite de données"></a>Adult-FanFiction.Org - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2018-05-30<br><strong>Nombre de comptes affectés</strong> : 186 082</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In May 2018, the website for sharing adult-orientated works of fiction known as Adult-FanFiction.Org had 186k records exposed in a data breach. The data contained names, email addresses, dates of birth and passwords stored as both MD5 hashes and plain text. AFF did not respond when contacted about the breach and the site was previously reported as compromised on the Vigilante.pw breached database directory.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Dates of birth</li><li>Email addresses</li><li>Names</li><li>Passwords</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AdultFanFiction">Vérifier si vous êtes concerné</a></li><li><a href="https://adult-fanfiction.org/">adult-fanfiction.org</a></li></ul>
+    	  <a href="" target="_blank">source</a>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Adult-FanFiction-Org-Fuite-de-donnees&quot;&gt;&lt;a href=&quot;#Adult-FanFiction-Org-Fuite-de-donnees&quot; class=&quot;headerlink&quot; title=&quot;Adult-FanFiction.O</summary>
+      
+    
+    
+    
+    <category term="breaches" scheme="https://feed-blush.vercel.app/category/breaches/"/>
+    
+    
+    <category term="email addresses" scheme="https://feed-blush.vercel.app/tags/email-addresses/"/>
+    
+    <category term="names" scheme="https://feed-blush.vercel.app/tags/names/"/>
+    
+    <category term="passwords" scheme="https://feed-blush.vercel.app/tags/passwords/"/>
+    
+    <category term="dates of birth" scheme="https://feed-blush.vercel.app/tags/dates-of-birth/"/>
     
   </entry>
   
@@ -3398,6 +4393,59 @@
   </entry>
   
   <entry>
+    <title>ai.type - Fuite De Données</title>
+    <link href="https://feed-blush.vercel.app/ai-type-fuite-de-donnees/"/>
+    <id>https://feed-blush.vercel.app/ai-type-fuite-de-donnees/</id>
+    <published>2017-12-08T20:31:25.000Z</published>
+    <updated>2025-11-13T18:15:06.455Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="ai-type-Fuite-de-donnees"><a href="#ai-type-Fuite-de-donnees" class="headerlink" title="ai.type - Fuite de données"></a>ai.type - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2017-12-05<br><strong>Nombre de comptes affectés</strong> : 20 580 060</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In December 2017, the virtual keyboard application ai.type was found to have left a huge amount of data publicly facing in an unsecured MongoDB instance. Discovered by researchers at The Kromtech Security Center, the 577GB data set included extensive personal information including over 20 million unique email addresses, social media profiles and address book contacts. The email addresses alone were provided to HIBP to enable impacted users to assess their exposure.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Address book contacts</li><li>Apps installed on devices</li><li>Cellular network names</li><li>Dates of birth</li><li>Device information</li><li>Email addresses</li><li>Genders</li><li>Geographic locations</li><li>IMEI numbers</li><li>IMSI numbers</li><li>IP addresses</li><li>Names</li><li>Phone numbers</li><li>Profile photos</li><li>Social media profiles</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AIType">Vérifier si vous êtes concerné</a></li><li><a href="https://aitype.com/">aitype.com</a></li></ul>
+    	  <a href="" target="_blank">source</a>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;ai-type-Fuite-de-donnees&quot;&gt;&lt;a href=&quot;#ai-type-Fuite-de-donnees&quot; class=&quot;headerlink&quot; title=&quot;ai.type - Fuite de données&quot;&gt;&lt;/a&gt;ai.type - Fu</summary>
+      
+    
+    
+    
+    <category term="breaches" scheme="https://feed-blush.vercel.app/category/breaches/"/>
+    
+    
+    <category term="email addresses" scheme="https://feed-blush.vercel.app/tags/email-addresses/"/>
+    
+    <category term="ip addresses" scheme="https://feed-blush.vercel.app/tags/ip-addresses/"/>
+    
+    <category term="names" scheme="https://feed-blush.vercel.app/tags/names/"/>
+    
+    <category term="phone numbers" scheme="https://feed-blush.vercel.app/tags/phone-numbers/"/>
+    
+    <category term="dates of birth" scheme="https://feed-blush.vercel.app/tags/dates-of-birth/"/>
+    
+    <category term="geographic locations" scheme="https://feed-blush.vercel.app/tags/geographic-locations/"/>
+    
+    <category term="device information" scheme="https://feed-blush.vercel.app/tags/device-information/"/>
+    
+    <category term="genders" scheme="https://feed-blush.vercel.app/tags/genders/"/>
+    
+    <category term="social media profiles" scheme="https://feed-blush.vercel.app/tags/social-media-profiles/"/>
+    
+    <category term="profile photos" scheme="https://feed-blush.vercel.app/tags/profile-photos/"/>
+    
+    <category term="address book contacts" scheme="https://feed-blush.vercel.app/tags/address-book-contacts/"/>
+    
+    <category term="apps installed on devices" scheme="https://feed-blush.vercel.app/tags/apps-installed-on-devices/"/>
+    
+    <category term="cellular network names" scheme="https://feed-blush.vercel.app/tags/cellular-network-names/"/>
+    
+    <category term="imei numbers" scheme="https://feed-blush.vercel.app/tags/imei-numbers/"/>
+    
+    <category term="imsi numbers" scheme="https://feed-blush.vercel.app/tags/imsi-numbers/"/>
+    
+  </entry>
+  
+  <entry>
     <title>AbuseWith.Us - Fuite De Données</title>
     <link href="https://feed-blush.vercel.app/abusewith-us-fuite-de-donnees/"/>
     <id>https://feed-blush.vercel.app/abusewith-us-fuite-de-donnees/</id>
@@ -3433,6 +4481,33 @@
   </entry>
   
   <entry>
+    <title>AKP Emails - Fuite De Données</title>
+    <link href="https://feed-blush.vercel.app/akp-emails-fuite-de-donnees/"/>
+    <id>https://feed-blush.vercel.app/akp-emails-fuite-de-donnees/</id>
+    <published>2017-10-01T01:52:37.000Z</published>
+    <updated>2025-11-13T18:15:06.455Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="AKP-Emails-Fuite-de-donnees"><a href="#AKP-Emails-Fuite-de-donnees" class="headerlink" title="AKP Emails - Fuite de données"></a>AKP Emails - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2016-07-19<br><strong>Nombre de comptes affectés</strong> : 917 461</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In July 2016, a hacker known as Phineas Fisher hacked Turkey’s ruling party (Justice and Development Party or “AKP”) and gained access to 300k emails. The full contents of the emails were subsequently published by WikiLeaks and made searchable. HIBP identified over 917k unique email address patterns in the data set, including message IDs and a number of other non-user addresses.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Email messages</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AKP">Vérifier si vous êtes concerné</a></li><li><a href="https://akparti.org.tr/">akparti.org.tr</a></li></ul>
+    	  <a href="" target="_blank">source</a>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;AKP-Emails-Fuite-de-donnees&quot;&gt;&lt;a href=&quot;#AKP-Emails-Fuite-de-donnees&quot; class=&quot;headerlink&quot; title=&quot;AKP Emails - Fuite de données&quot;&gt;&lt;/a&gt;AKP</summary>
+      
+    
+    
+    
+    <category term="breaches" scheme="https://feed-blush.vercel.app/category/breaches/"/>
+    
+    
+    <category term="email addresses" scheme="https://feed-blush.vercel.app/tags/email-addresses/"/>
+    
+    <category term="email messages" scheme="https://feed-blush.vercel.app/tags/email-messages/"/>
+    
+  </entry>
+  
+  <entry>
     <title>7k7k - Fuite De Données</title>
     <link href="https://feed-blush.vercel.app/7k7k-fuite-de-donnees/"/>
     <id>https://feed-blush.vercel.app/7k7k-fuite-de-donnees/</id>
@@ -3462,6 +4537,33 @@
     <category term="usernames" scheme="https://feed-blush.vercel.app/tags/usernames/"/>
     
     <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Aipai.com - Fuite De Données</title>
+    <link href="https://feed-blush.vercel.app/aipai-com-fuite-de-donnees/"/>
+    <id>https://feed-blush.vercel.app/aipai-com-fuite-de-donnees/</id>
+    <published>2016-11-07T20:55:29.000Z</published>
+    <updated>2025-11-13T18:15:06.455Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Aipai-com-Fuite-de-donnees"><a href="#Aipai-com-Fuite-de-donnees" class="headerlink" title="Aipai.com - Fuite de données"></a>Aipai.com - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2016-09-27<br><strong>Nombre de comptes affectés</strong> : 6 496 778</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In September 2016, data allegedly obtained from the Chinese gaming website known as Aipai.com and containing 6.5M accounts was leaked online. Whilst there is evidence that the data is legitimate, due to the difficulty of emphatically verifying the Chinese breach it has been flagged as “unverified”. The data in the breach contains email addresses and MD5 password hashes. Read more about Chinese data breaches in Have I Been Pwned.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Passwords</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Aipai">Vérifier si vous êtes concerné</a></li><li><a href="https://aipai.com/">aipai.com</a></li></ul>
+    	  <a href="" target="_blank">source</a>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Aipai-com-Fuite-de-donnees&quot;&gt;&lt;a href=&quot;#Aipai-com-Fuite-de-donnees&quot; class=&quot;headerlink&quot; title=&quot;Aipai.com - Fuite de données&quot;&gt;&lt;/a&gt;Aipai.</summary>
+      
+    
+    
+    
+    <category term="breaches" scheme="https://feed-blush.vercel.app/category/breaches/"/>
+    
+    
+    <category term="email addresses" scheme="https://feed-blush.vercel.app/tags/email-addresses/"/>
+    
+    <category term="passwords" scheme="https://feed-blush.vercel.app/tags/passwords/"/>
     
   </entry>
   
@@ -3602,6 +4704,80 @@
     <category term="passwords" scheme="https://feed-blush.vercel.app/tags/passwords/"/>
     
     <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AhaShare.com - Fuite De Données</title>
+    <link href="https://feed-blush.vercel.app/ahashare-com-fuite-de-donnees/"/>
+    <id>https://feed-blush.vercel.app/ahashare-com-fuite-de-donnees/</id>
+    <published>2014-11-06T20:47:52.000Z</published>
+    <updated>2025-11-13T18:15:06.455Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="AhaShare-com-Fuite-de-donnees"><a href="#AhaShare-com-Fuite-de-donnees" class="headerlink" title="AhaShare.com - Fuite de données"></a>AhaShare.com - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2013-05-30<br><strong>Nombre de comptes affectés</strong> : 180 468</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In May 2013, the torrent site AhaShare.com suffered a breach which resulted in more than 180k user accounts being published publicly. The breach included a raft of personal information on registered users plus despite assertions of not distributing personally identifiable information, the site also leaked the IP addresses used by the registered identities.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Genders</li><li>Geographic locations</li><li>IP addresses</li><li>Partial dates of birth</li><li>Passwords</li><li>Usernames</li><li>Website activity</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AhaShare">Vérifier si vous êtes concerné</a></li><li><a href="https://ahashare.com/">ahashare.com</a></li></ul>
+    	  <a href="" target="_blank">source</a>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;AhaShare-com-Fuite-de-donnees&quot;&gt;&lt;a href=&quot;#AhaShare-com-Fuite-de-donnees&quot; class=&quot;headerlink&quot; title=&quot;AhaShare.com - Fuite de données&quot;&gt;&lt;</summary>
+      
+    
+    
+    
+    <category term="breaches" scheme="https://feed-blush.vercel.app/category/breaches/"/>
+    
+    
+    <category term="email addresses" scheme="https://feed-blush.vercel.app/tags/email-addresses/"/>
+    
+    <category term="ip addresses" scheme="https://feed-blush.vercel.app/tags/ip-addresses/"/>
+    
+    <category term="passwords" scheme="https://feed-blush.vercel.app/tags/passwords/"/>
+    
+    <category term="usernames" scheme="https://feed-blush.vercel.app/tags/usernames/"/>
+    
+    <category term="geographic locations" scheme="https://feed-blush.vercel.app/tags/geographic-locations/"/>
+    
+    <category term="genders" scheme="https://feed-blush.vercel.app/tags/genders/"/>
+    
+    <category term="partial dates of birth" scheme="https://feed-blush.vercel.app/tags/partial-dates-of-birth/"/>
+    
+    <category term="website activity" scheme="https://feed-blush.vercel.app/tags/website-activity/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Adobe - Fuite De Données</title>
+    <link href="https://feed-blush.vercel.app/adobe-fuite-de-donnees/"/>
+    <id>https://feed-blush.vercel.app/adobe-fuite-de-donnees/</id>
+    <published>2013-12-03T23:00:00.000Z</published>
+    <updated>2025-11-13T18:12:43.472Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Adobe-Fuite-de-donnees"><a href="#Adobe-Fuite-de-donnees" class="headerlink" title="Adobe - Fuite de données"></a>Adobe - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2013-10-04<br><strong>Nombre de comptes affectés</strong> : 152 445 165</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In October 2013, 153 million Adobe accounts were breached with each containing an internal ID, username, email, encrypted password and a password hint in plain text. The password cryptography was poorly done and many were quickly resolved back to plain text. The unencrypted hints also disclosed much about the passwords adding further to the risk that hundreds of millions of Adobe customers already faced.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Password hints</li><li>Passwords</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Adobe">Vérifier si vous êtes concerné</a></li><li><a href="https://adobe.com/">adobe.com</a></li></ul>
+    	  <a href="" target="_blank">source</a>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Adobe-Fuite-de-donnees&quot;&gt;&lt;a href=&quot;#Adobe-Fuite-de-donnees&quot; class=&quot;headerlink&quot; title=&quot;Adobe - Fuite de données&quot;&gt;&lt;/a&gt;Adobe - Fuite de d</summary>
+      
+    
+    
+    
+    <category term="breaches" scheme="https://feed-blush.vercel.app/category/breaches/"/>
+    
+    <category term="adobe" scheme="https://feed-blush.vercel.app/category/breaches/adobe/"/>
+    
+    
+    <category term="email addresses" scheme="https://feed-blush.vercel.app/tags/email-addresses/"/>
+    
+    <category term="passwords" scheme="https://feed-blush.vercel.app/tags/passwords/"/>
+    
+    <category term="usernames" scheme="https://feed-blush.vercel.app/tags/usernames/"/>
+    
+    <category term="nom" scheme="https://feed-blush.vercel.app/tags/nom/"/>
+    
+    <category term="password hints" scheme="https://feed-blush.vercel.app/tags/password-hints/"/>
     
   </entry>
   
