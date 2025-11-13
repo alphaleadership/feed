@@ -1,11 +1,11 @@
 ---
-title: "Roblox Developer Conference \(2023\) - Fuite de données"
+title: "Roblox Developer Conference- Fuite de données"
 date: 2023-07-18T21:06:48Z
 category: "breaches"
 tags: ["clothing sizes", "dates of birth", "email addresses", "ip addresses", "names", "phone numbers", "physical addresses", "usernames"]
 ---
 
-# Roblox Developer Conference \(2023\) - Fuite de données
+# Roblox Developer Conference  - Fuite de données
 
 **Date de la fuite** : 2020-12-18  
 **Nombre de comptes affectés** : 3 943

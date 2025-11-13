@@ -1,11 +1,11 @@
 ---
-title: "Flash Flash Revolution \(2016 breach\) - Fuite de données"
+title: "Flash Flash Revolution  - Fuite de données"
 date: 2016-09-06T08:08:29Z
 category: "breaches"
 tags: ["email addresses", "passwords", "usernames"]
 ---
 
-# Flash Flash Revolution \(2016 breach\) - Fuite de données
+# Flash Flash Revolution  - Fuite de données
 
 **Date de la fuite** : 2016-02-01  
 **Nombre de comptes affectés** : 1 771 845

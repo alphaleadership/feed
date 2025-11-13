@@ -1,11 +1,11 @@
 ---
-title: "LinkedIn Scraped and Faked Data \(2023\) - Fuite de données"
+title: "LinkedIn Scraped and Faked Data  - Fuite de données"
 date: 2023-11-07T07:12:02Z
 category: "breaches"
 tags: ["email addresses", "genders", "geographic locations", "job titles", "names", "professional skills", "social media profiles"]
 ---
 
-# LinkedIn Scraped and Faked Data \(2023\) - Fuite de données
+# LinkedIn Scraped and Faked Data  - Fuite de données
 
 **Date de la fuite** : 2023-11-04  
 **Nombre de comptes affectés** : 19 788 753

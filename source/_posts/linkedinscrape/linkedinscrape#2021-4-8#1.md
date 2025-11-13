@@ -1,11 +1,11 @@
 ---
-title: "LinkedIn Scraped Data \(2021\) - Fuite de données"
+title: "LinkedIn Scraped Data  - Fuite de données"
 date: 2021-10-02T21:39:21Z
 category: "breaches"
 tags: ["education levels", "email addresses", "genders", "geographic locations", "job titles", "names", "social media profiles"]
 ---
 
-# LinkedIn Scraped Data \(2021\) - Fuite de données
+# LinkedIn Scraped Data  - Fuite de données
 
 **Date de la fuite** : 2021-04-08  
 **Nombre de comptes affectés** : 125 698 496

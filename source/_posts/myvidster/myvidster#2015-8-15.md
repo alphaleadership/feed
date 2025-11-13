@@ -1,11 +1,11 @@
 ---
-title: "MyVidster \(2015\) - Fuite de données"
+title: "MyVidster  - Fuite de données"
 date: 2015-10-10T07:06:17Z
 category: "breaches"
 tags: ["email addresses", "passwords", "usernames"]
 ---
 
-# MyVidster \(2015\) - Fuite de données
+# MyVidster  - Fuite de données
 
 **Date de la fuite** : 2015-08-15  
 **Nombre de comptes affectés** : 19 863

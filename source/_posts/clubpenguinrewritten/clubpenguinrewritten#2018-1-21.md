@@ -1,11 +1,11 @@
 ---
-title: "Club Penguin Rewritten \(January 2018\) - Fuite de données"
+title: "Club Penguin Rewritten  - Fuite de données"
 date: 2019-04-23T05:05:16Z
 category: "breaches"
 tags: ["email addresses", "ip addresses", "passwords", "usernames"]
 ---
 
-# Club Penguin Rewritten \(January 2018\) - Fuite de données
+# Club Penguin Rewritten  - Fuite de données
 
 **Date de la fuite** : 2018-01-21  
 **Nombre de comptes affectés** : 1 688 176

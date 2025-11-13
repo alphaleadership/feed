@@ -1,11 +1,11 @@
 ---
-title: "Flash Flash Revolution \(2019 breach\) - Fuite de données"
+title: "Flash Flash Revolution - Fuite de données"
 date: 2019-07-21T20:31:54Z
 category: "breaches"
 tags: ["dates of birth", "email addresses", "ip addresses", "passwords", "usernames"]
 ---
 
-# Flash Flash Revolution \(2019 breach\) - Fuite de données
+# Flash Flash Revolution  - Fuite de données
 
 **Date de la fuite** : 2019-07-16  
 **Nombre de comptes affectés** : 1 858 124

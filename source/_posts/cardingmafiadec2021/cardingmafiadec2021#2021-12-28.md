@@ -1,11 +1,11 @@
 ---
-title: "Carding Mafia \(December 2021\) - Fuite de données"
+title: "Carding Mafia - Fuite de données"
 date: 2022-01-16T00:04:04Z
 category: "breaches"
 tags: ["email addresses", "ip addresses", "passwords", "usernames"]
 ---
 
-# Carding Mafia \(December 2021\) - Fuite de données
+# Carding Mafia  - Fuite de données
 
 **Date de la fuite** : 2021-12-28  
 **Nombre de comptes affectés** : 303 877

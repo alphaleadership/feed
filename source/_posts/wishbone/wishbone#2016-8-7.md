@@ -1,11 +1,11 @@
 ---
-title: "Wishbone \(2016\) - Fuite de données"
+title: "Wishbone  - Fuite de données"
 date: 2017-03-15T19:29:52Z
 category: "breaches"
 tags: ["auth tokens", "dates of birth", "email addresses", "genders", "names", "phone numbers", "usernames"]
 ---
 
-# Wishbone \(2016\) - Fuite de données
+# Wishbone  - Fuite de données
 
 **Date de la fuite** : 2016-08-07  
 **Nombre de comptes affectés** : 2 247 314

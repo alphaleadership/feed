@@ -1,11 +1,11 @@
 ---
-title: "Explore Talent \(July 2024\) - Fuite de données"
+title: "Explore Talent  - Fuite de données"
 date: 2024-07-25T03:21:40Z
 category: "breaches"
 tags: ["email addresses", "names", "phone numbers", "physical addresses"]
 ---
 
-# Explore Talent \(July 2024\) - Fuite de données
+# Explore Talent - Fuite de données
 
 **Date de la fuite** : 2022-02-28  
 **Nombre de comptes affectés** : 5 371 574

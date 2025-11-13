@@ -1,11 +1,11 @@
 ---
-title: "Adult FriendFinder \(2016\) - Fuite de données"
+title: "Adult FriendFinder  - Fuite de données"
 date: 2020-02-06T23:53:53Z
 category: "breaches"
 tags: ["email addresses", "passwords", "spoken languages", "usernames"]
 ---
 
-# Adult FriendFinder \(2016\) - Fuite de données
+# Adult FriendFinder  - Fuite de données
 
 **Date de la fuite** : 2016-10-16  
 **Nombre de comptes affectés** : 169 746 810

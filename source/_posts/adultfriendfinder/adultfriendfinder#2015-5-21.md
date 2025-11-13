@@ -1,11 +1,11 @@
 ---
-title: "Adult FriendFinder \(2015\) - Fuite de données"
+title: "Adult FriendFinder  - Fuite de données"
 date: 2015-05-22T06:03:44Z
 category: "breaches"
 tags: ["dates of birth", "email addresses", "genders", "geographic locations", "ip addresses", "races", "relationship statuses", "sexual orientations", "spoken languages", "usernames"]
 ---
 
-# Adult FriendFinder \(2015\) - Fuite de données
+# Adult FriendFinder - Fuite de données
 
 **Date de la fuite** : 2015-05-21  
 **Nombre de comptes affectés** : 3 867 997
