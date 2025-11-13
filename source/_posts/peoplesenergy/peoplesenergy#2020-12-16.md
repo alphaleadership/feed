@@ -11,7 +11,7 @@ tags: ["dates of birth", "email addresses", "names", "passwords", "phone numbers
 **Nombre de comptes affectés** : 358 822
 
 ## Description
-In December 2020, the UK power company People's Energy suffered a data breach. The breach exposed almost 7GB of files containing 359k unique email addresses along with names, phones numbers, physical addresses and dates of birth. The incident also included People's Energy staff email addresses and bcrypt password hashes \(no customer passwords were exposed\).
+In December 2020, the UK power company People's Energy suffered a data breach. The breach exposed almost 7GB of files containing 359k unique email addresses along with names, phones numbers, physical addresses and dates of birth. The incident also included People's Energy staff email addresses and bcrypt password hashes no customer passwords were exposed.
 
 ## Données exposées
 - Dates of birth

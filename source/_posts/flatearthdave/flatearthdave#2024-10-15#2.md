@@ -11,7 +11,7 @@ tags: ["dates of birth", "email addresses", "genders", "geographic locations", "
 **Nombre de comptes affectés** : 33 294
 
 ## Description
-In October 2024, the flat earth sun, moon and zodiac app created by Flat Earth Dave was found to be leaking extensive personal information of its users. The data included 33k unique email addresses along with usernames, latitudes and longitudes \(their position on the globe\) and passwords stored in plain text. A small number of profiles also contained names, dates of birth and genders.
+In October 2024, the flat earth sun, moon and zodiac app created by Flat Earth Dave was found to be leaking extensive personal information of its users. The data included 33k unique email addresses along with usernames, latitudes and longitudes their position on the globe and passwords stored in plain text. A small number of profiles also contained names, dates of birth and genders.
 
 ## Données exposées
 - Dates of birth

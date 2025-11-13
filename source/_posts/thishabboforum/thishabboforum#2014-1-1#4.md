@@ -11,7 +11,7 @@ tags: ["email addresses", "ip addresses", "passwords", "usernames"]
 **Nombre de comptes affectés** : 612 414
 
 ## Description
-In 2014, the ThisHabbo forum \(a fan site for Habbo.com, a Finnish social networking site\) appeared among a list of compromised sites which has subsequently been removed from the internet. Whilst the actual date of the exploit is not clear, the breached data includes usernames, email addresses, IP addresses and salted hashes of passwords. A further 584k records were added from a more comprehensive breach file provided in October 2016.
+In 2014, the ThisHabbo forum a fan site for Habbo.com, a Finnish social networking site appeared among a list of compromised sites which has subsequently been removed from the internet. Whilst the actual date of the exploit is not clear, the breached data includes usernames, email addresses, IP addresses and salted hashes of passwords. A further 584k records were added from a more comprehensive breach file provided in October 2016.
 
 ## Données exposées
 - Email addresses

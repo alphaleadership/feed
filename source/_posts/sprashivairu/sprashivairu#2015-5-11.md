@@ -11,7 +11,7 @@ tags: ["dates of birth", "email addresses", "genders", "geographic locations", "
 **Nombre de comptes affectés** : 3 474 763
 
 ## Description
-In May 2015, Спрашивай.ру \(a the Russian website for anonymous reviews\) was reported to have had 6.7 million user details exposed by a hacker known as "w0rm". Intended to be a site for expressing anonymous opinions, the leaked data included email addresses, birth dates and other personally identifiable data about almost 3.5 million unique email addresses found in the leak.
+In May 2015, Спрашивай.ру a the Russian website for anonymous reviews was reported to have had 6.7 million user details exposed by a hacker known as "w0rm". Intended to be a site for expressing anonymous opinions, the leaked data included email addresses, birth dates and other personally identifiable data about almost 3.5 million unique email addresses found in the leak.
 
 ## Données exposées
 - Dates of birth

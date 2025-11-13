@@ -11,7 +11,7 @@ tags: ["email addresses", "names", "spoken languages", "usernames"]
 **Nombre de comptes affectés** : 2 676 696
 
 ## Description
-In August 2023, 2.6M records of data scraped from Duolingo were broadly distributed on a popular hacking forum. Obtained by enumerating a vulnerable API, the data had earlier appeared for sale in January 2023 and contained email addresses, names, the languages being learned, XP \(experience points\), and other data related to learning progress on Duolingo. Whilst some of the data attributes are intentionally public, the ability to map private email addresses to them presents an ongoing risk to user privacy.
+In August 2023, 2.6M records of data scraped from Duolingo were broadly distributed on a popular hacking forum. Obtained by enumerating a vulnerable API, the data had earlier appeared for sale in January 2023 and contained email addresses, names, the languages being learned, XP experience points, and other data related to learning progress on Duolingo. Whilst some of the data attributes are intentionally public, the ability to map private email addresses to them presents an ongoing risk to user privacy.
 
 ## Données exposées
 - Email addresses

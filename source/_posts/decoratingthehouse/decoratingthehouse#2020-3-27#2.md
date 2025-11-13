@@ -11,7 +11,7 @@ tags: ["email addresses", "names", "phone numbers", "usernames"]
 **Nombre de comptes affectés** : 1 298 651
 
 ## Description
-In March 2020, the Korean interior decoration website ???? \(Decorating the House\) suffered a data breach which impacted almost 1.3 million members. Served via the URL ggumim.co.kr, the exposed data included email addresses, names, usernames and phone numbers, all of which was subsequently shared extensively throughout online hacking communities. The data was provided to HIBP by breachbase.pw.
+In March 2020, the Korean interior decoration website ???? Decorating the House suffered a data breach which impacted almost 1.3 million members. Served via the URL ggumim.co.kr, the exposed data included email addresses, names, usernames and phone numbers, all of which was subsequently shared extensively throughout online hacking communities. The data was provided to HIBP by breachbase.pw.
 
 ## Données exposées
 - Email addresses

@@ -11,7 +11,7 @@ tags: ["dates of birth", "email addresses", "ip addresses", "passwords", "userna
 **Nombre de comptes affectés** : 4 907 802
 
 ## Description
-In approximately late 2015, the maker of "performance marketing products" QuinStreet had a number of their online assets compromised. The attack impacted 28 separate sites, predominantly technology forums such as flashkit.com, codeguru.com and webdeveloper.com \(view a full list of sites\). QuinStreet advised that impacted users have been notified and passwords reset. The data contained details on over 4.9 million people and included email addresses, dates of birth and salted MD5 hashes.
+In approximately late 2015, the maker of "performance marketing products" QuinStreet had a number of their online assets compromised. The attack impacted 28 separate sites, predominantly technology forums such as flashkit.com, codeguru.com and webdeveloper.com view a full list of sites. QuinStreet advised that impacted users have been notified and passwords reset. The data contained details on over 4.9 million people and included email addresses, dates of birth and salted MD5 hashes.
 
 ## Données exposées
 - Dates of birth

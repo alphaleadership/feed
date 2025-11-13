@@ -11,7 +11,7 @@ tags: ["dates of birth", "email addresses", "names", "phone numbers", "physical 
 **Nombre de comptes affectés** : 224 119
 
 ## Description
-In June 2019, the library of Vienna \(Wiener Büchereien\) suffered a data breach. The compromised data included 224k unique email addresses, names, physical addresses, phone numbers and dates of birth. The breached data was subsequently posted to Twitter by the alleged perpetrator of the breach.
+In June 2019, the library of Vienna Wiener Büchereien suffered a data breach. The compromised data included 224k unique email addresses, names, physical addresses, phone numbers and dates of birth. The breached data was subsequently posted to Twitter by the alleged perpetrator of the breach.
 
 ## Données exposées
 - Dates of birth

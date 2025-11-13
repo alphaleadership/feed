@@ -1,11 +1,11 @@
 ---
-title: "Doxbin \(TOoDA\) - Fuite de données"
+title: "Doxbin TOoDA - Fuite de données"
 date: 2025-02-13T07:18:47Z
 category: "breaches"
 tags: ["email addresses", "usernames"]
 ---
 
-# Doxbin \(TOoDA\) - Fuite de données
+# Doxbin TOoDA - Fuite de données
 
 **Date de la fuite** : 2024-02-12  
 **Nombre de comptes affectés** : 136 461

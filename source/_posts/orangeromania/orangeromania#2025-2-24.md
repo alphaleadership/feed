@@ -11,7 +11,7 @@ tags: ["email addresses", "partial credit card data", "phone numbers"]
 **Nombre de comptes affectés** : 556 557
 
 ## Description
-In February 2025, the Romanian arm of telecommunications company Orange suffered a data breach which was subsequently published to a popular hacking forum. The data included 556k email addresses \(of which hundreds of thousands were in the form of \[phone number\]@as1.romtelecom.net\), phone numbers, subscription details, partial credit card data \(type, last 4 digits, expiration date and issuing bank\). The breach also exposed an extensive number of internal documents.
+In February 2025, the Romanian arm of telecommunications company Orange suffered a data breach which was subsequently published to a popular hacking forum. The data included 556k email addresses of which hundreds of thousands were in the form of \[phone number\]@as1.romtelecom.net, phone numbers, subscription details, partial credit card data type, last 4 digits, expiration date and issuing bank. The breach also exposed an extensive number of internal documents.
 
 ## Données exposées
 - Email addresses

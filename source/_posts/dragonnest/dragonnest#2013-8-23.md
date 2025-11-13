@@ -11,7 +11,7 @@ tags: ["email addresses", "ip addresses", "passwords", "usernames"]
 **Nombre de comptes affectés** : 511 290
 
 ## Description
-In August 2013, the massively multiplayer online role-playing game \(MMORGP\) DragonNest suffered a data breach that was later redistributed as part of a larger corpus of data. The breach exposed over 500k unique email addresses along with usernames, IP addresses and plain text passwords. The service later suffered a massive data loss.
+In August 2013, the massively multiplayer online role-playing game MMORGP DragonNest suffered a data breach that was later redistributed as part of a larger corpus of data. The breach exposed over 500k unique email addresses along with usernames, IP addresses and plain text passwords. The service later suffered a massive data loss.
 
 ## Données exposées
 - Email addresses

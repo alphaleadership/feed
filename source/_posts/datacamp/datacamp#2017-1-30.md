@@ -11,7 +11,7 @@ tags: ["email addresses", "geographic locations", "ip addresses", "names", "pass
 **Nombre de comptes affectés** : 760 561
 
 ## Description
-In December 2018, the data science website DataCamp suffered a data breach of records dating back to January 2017. The incident exposed 760k unique email and IP addresses along with names and passwords stored as bcrypt hashes. In 2019, the data appeared listed for sale on a dark web marketplace \(along with several other large breaches\) and subsequently began circulating more broadly.
+In December 2018, the data science website DataCamp suffered a data breach of records dating back to January 2017. The incident exposed 760k unique email and IP addresses along with names and passwords stored as bcrypt hashes. In 2019, the data appeared listed for sale on a dark web marketplace along with several other large breaches and subsequently began circulating more broadly.
 
 ## Données exposées
 - Email addresses

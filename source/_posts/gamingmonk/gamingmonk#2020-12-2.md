@@ -11,7 +11,7 @@ tags: ["dates of birth", "email addresses", "names", "passwords", "phone numbers
 **Nombre de comptes affectés** : 654 510
 
 ## Description
-In December 2020, India's "largest esports community" GamingMonk \(since acquired by and redirected to MPL Esports\), suffered a data breach. The incident exposed 655k unique email addresses along with names, usernames, phone numbers, dates of birth and bcrypt password hashes.
+In December 2020, India's "largest esports community" GamingMonk since acquired by and redirected to MPL Esports, suffered a data breach. The incident exposed 655k unique email addresses along with names, usernames, phone numbers, dates of birth and bcrypt password hashes.
 
 ## Données exposées
 - Dates of birth

@@ -11,7 +11,7 @@ tags: ["email addresses", "ip addresses", "names", "passwords", "phone numbers",
 **Nombre de comptes affectés** : 434 784
 
 ## Description
-In July 2021, the online Indonesian watch store, Jam Tangan \(AKA Machtwatch\), suffered a data breach that exposed over 400k customer records which were subsequently posted to a popular hacking forum. The data included email and IP addresses, names, phone numbers, physical addresses and passwords stored as either unsalted MD5 or bcrypt hashes.
+In July 2021, the online Indonesian watch store, Jam Tangan AKA Machtwatch, suffered a data breach that exposed over 400k customer records which were subsequently posted to a popular hacking forum. The data included email and IP addresses, names, phone numbers, physical addresses and passwords stored as either unsalted MD5 or bcrypt hashes.
 
 ## Données exposées
 - Email addresses

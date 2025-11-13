@@ -11,7 +11,7 @@ tags: ["dates of birth", "email addresses", "ip addresses", "names", "partial cr
 **Nombre de comptes affectés** : 31 152 842
 
 ## Description
-In May 2024, the American luxury retailer Neiman Marcus suffered a data breach which was later posted to a popular hacking forum. The data included 31M unique email addresses, names, phone numbers, dates of birth, physical addresses and partial credit card data \(note: this is insufficient to make purchases\). The breach was traced back to a series of attacks against the Snowflake cloud service which impacted 165 organisations worldwide.
+In May 2024, the American luxury retailer Neiman Marcus suffered a data breach which was later posted to a popular hacking forum. The data included 31M unique email addresses, names, phone numbers, dates of birth, physical addresses and partial credit card data note: this is insufficient to make purchases. The breach was traced back to a series of attacks against the Snowflake cloud service which impacted 165 organisations worldwide.
 
 ## Données exposées
 - Dates of birth

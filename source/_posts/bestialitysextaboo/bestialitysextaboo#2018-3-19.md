@@ -11,7 +11,7 @@ tags: ["dates of birth", "email addresses", "genders", "geographic locations", "
 **Nombre de comptes affectés** : 3 204
 
 ## Description
-In March 2018, the animal bestiality website known as Bestialitysextaboo was hacked. A collection of various sites running on the same service were also compromised and details of the hack \(including links to the data\) were posted on a popular forum. In all, more than 3.2k unique email addresses were included alongside usernames, IP addresses, dates of birth, genders and bcrypt hashes of passwords.
+In March 2018, the animal bestiality website known as Bestialitysextaboo was hacked. A collection of various sites running on the same service were also compromised and details of the hack including links to the data were posted on a popular forum. In all, more than 3.2k unique email addresses were included alongside usernames, IP addresses, dates of birth, genders and bcrypt hashes of passwords.
 
 ## Données exposées
 - Dates of birth

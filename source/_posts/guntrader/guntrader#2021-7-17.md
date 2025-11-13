@@ -11,7 +11,7 @@ tags: ["browser user agent details", "email addresses", "geographic locations", 
 **Nombre de comptes affectés** : 112 031
 
 ## Description
-In July 2021, the United Kingdom based website Guntrader suffered a data breach that exposed 112k unique email addresses. Extensive personal information was also exposed including names, phone numbers, geolocation data, IP addresses and various physical address attributes \(cities for all users, complete addresses for some\). Passwords stored as bcrypt hashes were also exposed.
+In July 2021, the United Kingdom based website Guntrader suffered a data breach that exposed 112k unique email addresses. Extensive personal information was also exposed including names, phone numbers, geolocation data, IP addresses and various physical address attributes cities for all users, complete addresses for some. Passwords stored as bcrypt hashes were also exposed.
 
 ## Données exposées
 - Browser user agent details

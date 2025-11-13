@@ -11,7 +11,7 @@ tags: ["email addresses", "instant messenger identities", "ip addresses", "names
 **Nombre de comptes affectés** : 202 683
 
 ## Description
-In September 2013, the Win7Vista Windows forum \(since renamed to the "Beyond Windows 9" forum\) was hacked and later had its internal database dumped. The dump included over 200k members’ personal information and other internal data extracted from the forum.
+In September 2013, the Win7Vista Windows forum since renamed to the "Beyond Windows 9" forum was hacked and later had its internal database dumped. The dump included over 200k members’ personal information and other internal data extracted from the forum.
 
 ## Données exposées
 - Email addresses

@@ -11,7 +11,7 @@ tags: ["email addresses", "geographic locations", "ip addresses", "passwords"]
 **Nombre de comptes affectés** : 647 896
 
 ## Description
-In June 2021, the \(now defunct\) gaming website HeatGames suffered a data breach that was later redistributed as part of a larger corpus of data. The breach exposed almost 650k unique email addresses along with IP addresses, country and salted MD5 password hashes.
+In June 2021, the now defunct gaming website HeatGames suffered a data breach that was later redistributed as part of a larger corpus of data. The breach exposed almost 650k unique email addresses along with IP addresses, country and salted MD5 password hashes.
 
 ## Données exposées
 - Email addresses

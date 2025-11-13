@@ -11,7 +11,7 @@ tags: ["email addresses", "passwords", "usernames"]
 **Nombre de comptes affectés** : 1 270 564
 
 ## Description
-In May 2016, the Fur Affinity website for people with an interest in anthropomorphic animal characters \(also known as "furries"\) was hacked. The attack exposed 1.2M email addresses \(many accounts had a different "first" and "last" email against them\) and hashed passwords.
+In May 2016, the Fur Affinity website for people with an interest in anthropomorphic animal characters also known as "furries" was hacked. The attack exposed 1.2M email addresses many accounts had a different "first" and "last" email against them and hashed passwords.
 
 ## Données exposées
 - Email addresses

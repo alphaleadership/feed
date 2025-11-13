@@ -11,7 +11,7 @@ tags: ["dates of birth", "email addresses", "genders", "names", "passwords", "us
 **Nombre de comptes affectés** : 319 613
 
 ## Description
-In September 2024, the Instituto Nacional de Deportes de Chile \(Chile's National Sports Institute\) suffered a data breach. The incident exposed 1.7M rows of data with 320k unique email addresses alongside names, dates of birth, genders and bcrypt password hashes. The newest records in the data date back to August 2022, suggesting the breach may be of an older data set.
+In September 2024, the Instituto Nacional de Deportes de Chile Chile's National Sports Institute suffered a data breach. The incident exposed 1.7M rows of data with 320k unique email addresses alongside names, dates of birth, genders and bcrypt password hashes. The newest records in the data date back to August 2022, suggesting the breach may be of an older data set.
 
 ## Données exposées
 - Dates of birth

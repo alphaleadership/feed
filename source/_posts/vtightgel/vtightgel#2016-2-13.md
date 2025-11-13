@@ -11,7 +11,7 @@ tags: ["email addresses", "ip addresses", "names", "phone numbers", "physical ad
 **Nombre de comptes affectés** : 2 013 164
 
 ## Description
-In approximately February 2016, data surfaced which was allegedly obtained from V-Tight Gel \(vaginal tightening gel\). Whilst the data set was titled V-Tight, within there were 50 other \(predominantly wellness-related\) domain names, most owned by the same entity. Multiple HIBP subscribers confirmed that although they couldn't recall providing data specifically to V-Tight, their personal information including name, phone and physical address was accurate. V-Tight Gel did not reply to multiple requests for comment.
+In approximately February 2016, data surfaced which was allegedly obtained from V-Tight Gel vaginal tightening gel. Whilst the data set was titled V-Tight, within there were 50 other predominantly wellness-related domain names, most owned by the same entity. Multiple HIBP subscribers confirmed that although they couldn't recall providing data specifically to V-Tight, their personal information including name, phone and physical address was accurate. V-Tight Gel did not reply to multiple requests for comment.
 
 ## Données exposées
 - Email addresses

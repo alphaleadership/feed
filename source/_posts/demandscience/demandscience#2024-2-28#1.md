@@ -11,7 +11,7 @@ tags: ["email addresses", "employers", "job titles", "names", "phone numbers", "
 **Nombre de comptes affectés** : 121 796 165
 
 ## Description
-In early 2024, a large corpus of data from DemandScience \(a company owned by Pure Incubation\), appeared for sale on a popular hacking forum. Later attributed to a leak from a decommissioned legacy system, the breach contained extensive data that was largely business contact information aggregated from public sources. Specifically, the data included 122M unique corporate email addresses, physical addresses, phone numbers, employers and job titles. It also included names and for many individuals, a link to their LinkedIn profile.
+In early 2024, a large corpus of data from DemandScience a company owned by Pure Incubation, appeared for sale on a popular hacking forum. Later attributed to a leak from a decommissioned legacy system, the breach contained extensive data that was largely business contact information aggregated from public sources. Specifically, the data included 122M unique corporate email addresses, physical addresses, phone numbers, employers and job titles. It also included names and for many individuals, a link to their LinkedIn profile.
 
 ## Données exposées
 - Email addresses

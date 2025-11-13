@@ -11,7 +11,7 @@ tags: ["email addresses", "passwords"]
 **Nombre de comptes affectés** : 855 249
 
 ## Description
-In June 2014, the Manga trading website Mangatraders.com had the usernames and passwords of over 900k users leaked on the internet \(approximately 855k of the emails were unique\). The passwords were weakly hashed with a single iteration of MD5 leaving them vulnerable to being easily cracked.
+In June 2014, the Manga trading website Mangatraders.com had the usernames and passwords of over 900k users leaked on the internet approximately 855k of the emails were unique. The passwords were weakly hashed with a single iteration of MD5 leaving them vulnerable to being easily cracked.
 
 ## Données exposées
 - Email addresses

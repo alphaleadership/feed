@@ -11,7 +11,7 @@ tags: ["email addresses", "names", "partial credit card data", "physical address
 **Nombre de comptes affectés** : 46 140
 
 ## Description
-In June 2024, the UK footwear chain Shoe Zone disclosed a data breach that was subsequently posted for sale on a popular hacking forum. The data included over 100k orders containing names, addresses, partial credit card numbers \(card type and last 4 digits\), and 46k unique email addresses.
+In June 2024, the UK footwear chain Shoe Zone disclosed a data breach that was subsequently posted for sale on a popular hacking forum. The data included over 100k orders containing names, addresses, partial credit card numbers card type and last 4 digits, and 46k unique email addresses.
 
 ## Données exposées
 - Email addresses

@@ -11,7 +11,7 @@ tags: ["email addresses", "ip addresses", "names", "passwords", "purchases", "us
 **Nombre de comptes affectés** : 66 479
 
 ## Description
-In October 2021, the fantasy premier league \(soccer\) website Fantasy Football Hub suffered a data breach that exposed 66 thousand unique email addresses. The data included names, usernames, IP addresses, transactions and passwords stored as WordPress MD5 hashes.
+In October 2021, the fantasy premier league soccer website Fantasy Football Hub suffered a data breach that exposed 66 thousand unique email addresses. The data included names, usernames, IP addresses, transactions and passwords stored as WordPress MD5 hashes.
 
 ## Données exposées
 - Email addresses

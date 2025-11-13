@@ -11,7 +11,7 @@ tags: ["email addresses", "passwords", "usernames"]
 **Nombre de comptes affectés** : 942 044
 
 ## Description
-In January 2016, a large number of unpatched vBulletin forums were compromised by an actor known as "CrimeAgency". A total of 140 forums had data including usernames, email addresses and passwords \(predominantly stored as salted MD5 hashes\), extracted and then distributed. Refer to the complete list of the forums for further information on which sites were impacted.
+In January 2016, a large number of unpatched vBulletin forums were compromised by an actor known as "CrimeAgency". A total of 140 forums had data including usernames, email addresses and passwords predominantly stored as salted MD5 hashes, extracted and then distributed. Refer to the complete list of the forums for further information on which sites were impacted.
 
 ## Données exposées
 - Email addresses

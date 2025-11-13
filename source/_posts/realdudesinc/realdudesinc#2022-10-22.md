@@ -11,7 +11,7 @@ tags: ["email addresses", "passwords", "usernames"]
 **Nombre de comptes affectés** : 101 543
 
 ## Description
-In October 2022, the GTA mod menu provider RealDudesInc suffered a data breach that exposed over 100k email addresses \(many of which are temporary guest account addresses\). The breach also included usernames and bcrypt password hashes.
+In October 2022, the GTA mod menu provider RealDudesInc suffered a data breach that exposed over 100k email addresses many of which are temporary guest account addresses. The breach also included usernames and bcrypt password hashes.
 
 ## Données exposées
 - Email addresses

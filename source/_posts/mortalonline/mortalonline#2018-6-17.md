@@ -11,7 +11,7 @@ tags: ["email addresses", "names", "passwords", "physical addresses", "usernames
 **Nombre de comptes affectés** : 606 637
 
 ## Description
-In June 2018, the massively multiplayer online role-playing game \(MMORPG\) Mortal Online suffered a data breach. A file containing 570k email addresses and cracked passwords was subsequently distributed online. A larger more complete file containing 607k email addresses with original unsalted MD5 password hashes along with names, usernames and physical addresses was later provided and the original breach in HIBP was updated accordingly. The data was provided to HIBP by whitehat security researcher and data analyst Adam Davies.
+In June 2018, the massively multiplayer online role-playing game MMORPG Mortal Online suffered a data breach. A file containing 570k email addresses and cracked passwords was subsequently distributed online. A larger more complete file containing 607k email addresses with original unsalted MD5 password hashes along with names, usernames and physical addresses was later provided and the original breach in HIBP was updated accordingly. The data was provided to HIBP by whitehat security researcher and data analyst Adam Davies.
 
 ## Données exposées
 - Email addresses

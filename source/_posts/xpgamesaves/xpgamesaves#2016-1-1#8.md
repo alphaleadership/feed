@@ -11,7 +11,7 @@ tags: ["email addresses", "ip addresses", "passwords", "usernames"]
 **Nombre de comptes affectés** : 890 341
 
 ## Description
-In approximately early 2016, the gaming website Xpgamesaves \(XPG\) suffered a data breach resulting in the exposure of 890k unique user records. The data contained email and IP addresses, usernames and salted MD5 hashes of passwords. The site was previously reported as compromised on the Vigilante.pw breached database directory. This data was provided by security researcher and data analyst, Adam Davies.
+In approximately early 2016, the gaming website Xpgamesaves XPG suffered a data breach resulting in the exposure of 890k unique user records. The data contained email and IP addresses, usernames and salted MD5 hashes of passwords. The site was previously reported as compromised on the Vigilante.pw breached database directory. This data was provided by security researcher and data analyst, Adam Davies.
 
 ## Données exposées
 - Email addresses

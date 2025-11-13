@@ -1,11 +1,11 @@
 ---
-title: "Experian \(2015\) - Fuite de données"
+title: "Experian 2015 - Fuite de données"
 date: 2016-09-06T23:49:00Z
 category: "breaches"
 tags: ["credit status information", "dates of birth", "email addresses", "ethnicities", "family structure", "genders", "home ownership statuses", "income levels", "ip addresses", "names", "phone numbers", "physical addresses", "purchasing habits"]
 ---
 
-# Experian \(2015\) - Fuite de données
+# Experian 2015 - Fuite de données
 
 **Date de la fuite** : 2015-09-16  
 **Nombre de comptes affectés** : 7 196 890

@@ -11,7 +11,7 @@ tags: ["age groups", "email addresses", "password hints", "passwords", "username
 **Nombre de comptes affectés** : 6 342
 
 ## Description
-In October 2024, The Club Penguin Experience \(TCPE\) suffered a data breach. The incident exposed over 6k subscribers' email addresses alongside usernames, age groups, passwords stored as bcrypt hashes and in some cases, plain text password hints. TCPE sent prompt disclosure notices to impacted customers following the breach.
+In October 2024, The Club Penguin Experience TCPE suffered a data breach. The incident exposed over 6k subscribers' email addresses alongside usernames, age groups, passwords stored as bcrypt hashes and in some cases, plain text password hints. TCPE sent prompt disclosure notices to impacted customers following the breach.
 
 ## Données exposées
 - Age groups

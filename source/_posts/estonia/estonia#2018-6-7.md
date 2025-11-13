@@ -1,11 +1,11 @@
 ---
-title: "Estonian Citizens \(via Estonian Cybercrime Bureau\) - Fuite de données"
+title: "Estonian Citizens via Estonian Cybercrime Bureau - Fuite de données"
 date: 2018-06-11T09:41:17Z
 category: "breaches"
 tags: ["email addresses", "passwords"]
 ---
 
-# Estonian Citizens \(via Estonian Cybercrime Bureau\) - Fuite de données
+# Estonian Citizens via Estonian Cybercrime Bureau - Fuite de données
 
 **Date de la fuite** : 2018-06-07  
 **Nombre de comptes affectés** : 655 161

@@ -11,7 +11,7 @@ tags: ["geographic locations", "phone numbers", "usernames"]
 **Nombre de comptes affectés** : 4 609 615
 
 ## Description
-In January 2014 just one week after Gibson Security detailed vulnerabilities in the service, Snapchat had 4.6 million usernames and phone number exposed. The attack involved brute force enumeration of a large number of phone numbers against the Snapchat API in what appears to be a response to Snapchat's assertion that such an attack was "theoretical". Consequently, the breach enabled individual usernames \(which are often used across other services\) to be resolved to phone numbers which users usually wish to keep private.
+In January 2014 just one week after Gibson Security detailed vulnerabilities in the service, Snapchat had 4.6 million usernames and phone number exposed. The attack involved brute force enumeration of a large number of phone numbers against the Snapchat API in what appears to be a response to Snapchat's assertion that such an attack was "theoretical". Consequently, the breach enabled individual usernames which are often used across other services to be resolved to phone numbers which users usually wish to keep private.
 
 ## Données exposées
 - Geographic locations

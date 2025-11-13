@@ -11,7 +11,7 @@ tags: ["dates of birth", "email addresses", "ip addresses", "time zones", "usern
 **Nombre de comptes affectés** : 21 994
 
 ## Description
-In March 2024, WoTLabs \(World of Tanks Statistics and Resources\) suffered a data breach and website defacement attributed to "chromebook breachers". The breach exposed 22k forum members' personal data including email and IP addresses, usernames, dates of birth and time zones.
+In March 2024, WoTLabs World of Tanks Statistics and Resources suffered a data breach and website defacement attributed to "chromebook breachers". The breach exposed 22k forum members' personal data including email and IP addresses, usernames, dates of birth and time zones.
 
 ## Données exposées
 - Dates of birth

@@ -11,7 +11,7 @@ tags: ["email addresses", "ip addresses", "passwords", "usernames"]
 **Nombre de comptes affectés** : 599 802
 
 ## Description
-In February 2017, hundreds of thousands of records from the Coachella music festival were discovered being sold online. Allegedly taken from a combination of the main Coachella website and their vBulletin-based message board, the data included almost 600k usernames, IP and email addresses and salted hashes of passwords \(MD5 in the case of the message board\).
+In February 2017, hundreds of thousands of records from the Coachella music festival were discovered being sold online. Allegedly taken from a combination of the main Coachella website and their vBulletin-based message board, the data included almost 600k usernames, IP and email addresses and salted hashes of passwords MD5 in the case of the message board.
 
 ## Données exposées
 - Email addresses

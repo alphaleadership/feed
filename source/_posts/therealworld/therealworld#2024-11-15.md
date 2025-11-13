@@ -11,7 +11,7 @@ tags: ["chat logs", "email addresses", "usernames"]
 **Nombre de comptes affectés** : 324 382
 
 ## Description
-In November 2024, the online course founded by Andrew Tate known as "The Real World" \(previously "Hustler's University" suffered a data breach that exposed almost 325k users of the platform. The impacted data was limited to usernames, email addresses and chat logs.
+In November 2024, the online course founded by Andrew Tate known as "The Real World" previously "Hustler's University" suffered a data breach that exposed almost 325k users of the platform. The impacted data was limited to usernames, email addresses and chat logs.
 
 ## Données exposées
 - Chat logs

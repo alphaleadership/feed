@@ -11,7 +11,7 @@ tags: ["email addresses", "ip addresses", "names", "passwords", "private message
 **Nombre de comptes affectés** : 45 018
 
 ## Description
-At some point in 2013, 45k accounts were breached from the Lounge Board "General Discussion Forum" and then dumped publicly. Lounge Board was a MyBB forum launched in 2012 and discontinued in mid 2013 \(the last activity in the logs was from August 2013\).
+At some point in 2013, 45k accounts were breached from the Lounge Board "General Discussion Forum" and then dumped publicly. Lounge Board was a MyBB forum launched in 2012 and discontinued in mid 2013 the last activity in the logs was from August 2013.
 
 ## Données exposées
 - Email addresses

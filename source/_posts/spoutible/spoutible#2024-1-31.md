@@ -11,7 +11,7 @@ tags: ["email addresses", "genders", "ip addresses", "names", "passwords", "phon
 **Nombre de comptes affectés** : 207 114
 
 ## Description
-In January 2024, Spoutible had 207k records scraped from a misconfigured API that inadvertently returned excessive personal information. The data included names, usernames, email and IP addresses, phone numbers \(where provided to the platform\), genders and bcrypt password hashes. The incident also exposed 2FA secrets and backup codes along with password reset tokens.
+In January 2024, Spoutible had 207k records scraped from a misconfigured API that inadvertently returned excessive personal information. The data included names, usernames, email and IP addresses, phone numbers where provided to the platform, genders and bcrypt password hashes. The incident also exposed 2FA secrets and backup codes along with password reset tokens.
 
 ## Données exposées
 - Email addresses

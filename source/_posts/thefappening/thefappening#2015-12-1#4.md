@@ -11,7 +11,7 @@ tags: ["email addresses", "passwords", "usernames"]
 **Nombre de comptes affectés** : 179 030
 
 ## Description
-In December 2015, the forum for discussing naked celebrity photos known as "The Fappening" \(named after the iCloud leaks of 2014\) was compromised and 179k accounts were leaked. Exposed member data included usernames, email addresses and salted hashes of passwords.
+In December 2015, the forum for discussing naked celebrity photos known as "The Fappening" named after the iCloud leaks of 2014 was compromised and 179k accounts were leaked. Exposed member data included usernames, email addresses and salted hashes of passwords.
 
 ## Données exposées
 - Email addresses

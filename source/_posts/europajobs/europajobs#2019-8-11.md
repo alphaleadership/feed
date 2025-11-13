@@ -11,7 +11,7 @@ tags: ["dates of birth", "email addresses", "geographic locations", "job applica
 **Nombre de comptes affectés** : 226 095
 
 ## Description
-In August 2019, the now defunct European jobs website europa.jobs \(Google cache link\) suffered a data breach. The incident exposed 226k unique email addresses alongside extensive personal information including names, dates of birth, job applications and passwords. The data was subsequently redistributed on a popular hacking forum.
+In August 2019, the now defunct European jobs website europa.jobs Google cache link suffered a data breach. The incident exposed 226k unique email addresses alongside extensive personal information including names, dates of birth, job applications and passwords. The data was subsequently redistributed on a popular hacking forum.
 
 ## Données exposées
 - Dates of birth

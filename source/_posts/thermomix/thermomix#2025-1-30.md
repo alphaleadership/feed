@@ -11,7 +11,7 @@ tags: ["bios", "dates of birth", "email addresses", "names", "phone numbers", "p
 **Nombre de comptes affectés** : 3 123 439
 
 ## Description
-In January 2025, the Rezeptwelt \(German for "recipe world"\) forum for Thermomix owners suffered a data breach. The incident exposed 3.1M registered users' details including names, email and physical addresses, phone numbers, dates of birth and bios \(usually cooking related\).
+In January 2025, the Rezeptwelt German for "recipe world" forum for Thermomix owners suffered a data breach. The incident exposed 3.1M registered users' details including names, email and physical addresses, phone numbers, dates of birth and bios usually cooking related.
 
 ## Données exposées
 - Bios

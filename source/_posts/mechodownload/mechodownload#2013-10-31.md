@@ -11,7 +11,7 @@ tags: ["email addresses", "ip addresses", "passwords", "usernames"]
 **Nombre de comptes affectés** : 437 928
 
 ## Description
-In October 2013, the \(now defunct\) downloads website "Mecho Download" suffered a data breach that exposed 438k records. Data from the vBulletin based website included email and IP addresses, usernames and passwords stored as salted MD5 hashes.
+In October 2013, the now defunct downloads website "Mecho Download" suffered a data breach that exposed 438k records. Data from the vBulletin based website included email and IP addresses, usernames and passwords stored as salted MD5 hashes.
 
 ## Données exposées
 - Email addresses

@@ -11,7 +11,7 @@ tags: ["email addresses"]
 **Nombre de comptes affectés** : 43 432 346
 
 ## Description
-In June 2018, the command and control server of a malicious botnet known as the "Trik Spam Botnet" was misconfigured such that it exposed the email addresses of more than 43 million people. The researchers who discovered the exposed Russian server believe the list of addresses was used to distribute various malware strains via malspam campaigns \(emails designed to deliver malware\).
+In June 2018, the command and control server of a malicious botnet known as the "Trik Spam Botnet" was misconfigured such that it exposed the email addresses of more than 43 million people. The researchers who discovered the exposed Russian server believe the list of addresses was used to distribute various malware strains via malspam campaigns emails designed to deliver malware.
 
 ## Données exposées
 - Email addresses

@@ -11,7 +11,7 @@ tags: ["dates of birth", "email addresses", "ip addresses", "names", "passwords"
 **Nombre de comptes affectés** : 24 500 011
 
 ## Description
-In October 2020, the Indian grocery platform bigbasket suffered a data breach that exposed over 20 million customer records. The data was originally sold before being leaked publicly in April the following year and included email, IP and physical addresses, names, phones numbers, dates of birth passwords stored as Django\(SHA-1\) hashes.
+In October 2020, the Indian grocery platform bigbasket suffered a data breach that exposed over 20 million customer records. The data was originally sold before being leaked publicly in April the following year and included email, IP and physical addresses, names, phones numbers, dates of birth passwords stored as DjangoSHA-1 hashes.
 
 ## Données exposées
 - Dates of birth

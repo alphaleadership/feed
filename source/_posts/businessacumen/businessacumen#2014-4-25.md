@@ -11,7 +11,7 @@ tags: ["email addresses", "names", "passwords", "usernames", "website activity"]
 **Nombre de comptes affectés** : 26 596
 
 ## Description
-In April 2014, the Australian "Business Acumen Magazine" website was hacked by an attacker known as 1337MiR. The breach resulted in over 26,000 accounts being exposed including usernames, email addresses and password stored with a weak cryptographic hashing algorithm \(MD5 with no salt\).
+In April 2014, the Australian "Business Acumen Magazine" website was hacked by an attacker known as 1337MiR. The breach resulted in over 26,000 accounts being exposed including usernames, email addresses and password stored with a weak cryptographic hashing algorithm MD5 with no salt.
 
 ## Données exposées
 - Email addresses
