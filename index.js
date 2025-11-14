@@ -18,7 +18,7 @@ const removeNunjucks = (content) => {
 };
 
 const l = (title) => {
-  if (title.includes("http")) {
+  if (!title.includes("https://www.intelligenceonline.fr")) {
     return "_posts";
   } else {
     return "../_posts";
