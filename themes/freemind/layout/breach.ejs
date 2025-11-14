@@ -1,0 +1,64 @@
+<%- partial('_partial/head') %>
+<body class="<%= page.layout %>-layout">
+  <div class="site-wrapper">
+    <%- partial('_partial/head') %>
+    
+    <main class="container mx-auto px-4 py-8">
+      <%- page.content %>
+      
+      <div class="mt-12 pt-8 border-t border-gray-200">
+        <a href="/breaches" class="inline-flex items-center text-blue-600 hover:text-blue-800">
+          <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+          </svg>
+          Retour à la liste des fuites
+        </a>
+      </div>
+    </main>
+    
+    <%- partial('_partial/footer') %>
+  </div>
+  
+
+  
+  <style>
+    .breach-meta {
+      @apply bg-gray-50 p-4 rounded-lg mb-8;
+    }
+    .meta-item {
+      @apply mb-2 last:mb-0;
+    }
+    .meta-label {
+      @apply font-medium text-gray-700 mr-2;
+    }
+    .meta-value {
+      @apply text-gray-900;
+    }
+    .data-classes {
+      @apply flex flex-wrap gap-2 mt-2;
+    }
+    .data-class {
+      @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800;
+    }
+    .breach-content {
+      @apply prose max-w-none;
+    }
+    .breach-content h2 {
+      @apply text-2xl font-bold mt-8 mb-4;
+    }
+    .breach-content h3 {
+      @apply text-xl font-semibold mt-6 mb-3;
+    }
+    .breach-content ul, 
+    .breach-content ol {
+      @apply my-4 pl-6;
+    }
+    .breach-content li {
+      @apply mb-2;
+    }
+    .breach-content a {
+      @apply text-blue-600 hover:underline;
+    }
+  </style>
+</body>
+</html>

@@ -4,19 +4,31 @@
   
     
     <entry>
-      <title>Operationendgame3 Fuite Du 2025-11-13</title>
-      <link href="/operationendgame3-fuite-du-2025-11-13/"/>
-      <url>/operationendgame3-fuite-du-2025-11-13/</url>
+      <title>Operation Endgame 3.0</title>
+      <link href="/operation-endgame-3-0/"/>
+      <url>/operation-endgame-3-0/</url>
       
-        <content type="html"><![CDATA[<p>Between 10 and 13 November 2025<br>the latest phase of Operation Endgame was coordinated from Europol’s headquarters in The Hague. The actions targeted one of the biggest infostealer Rhadamanthys<br>the Remote Access Trojan VenomRAT<br>and the botnet Elysium<br>all of which played a key role in international cybercrime. Authorities took down these three large cybercrime enablers and provided 2 million impacted email addresses and 7.4 million passwords to HIBP.</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="Operation-Endgame-3-0"><a href="#Operation-Endgame-3-0" class="headerlink" title="Operation Endgame 3.0"></a>Operation Endgame 3.0</h1><div class="breach-meta">  <div class="meta-item">    <span class="meta-label">Date de la fuite :</span>    <span class="meta-value">14 novembre 2025</span>  </div>  <div class="meta-item">    <span class="meta-label">Comptes affectés :</span>    <span class="meta-value">2 046 030</span>  </div></div><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>Between 10 and 13 November 2025, the latest phase of Operation Endgame was coordinated from Europol’s headquarters in The Hague. The actions targeted one of the biggest infostealer Rhadamanthys, the Remote Access Trojan VenomRAT, and the botnet Elysium, all of which played a key role in international cybercrime. Authorities took down these three large cybercrime enablers and provided 2 million impacted email addresses and 7.4 million passwords to HIBP.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><div class="data-classes">  <span class="data-class">Email addresses</span>  <span class="data-class">Passwords</span></div><h2 id="Actions-recommandees"><a href="#Actions-recommandees" class="headerlink" title="Actions recommandées"></a>Actions recommandées</h2><ol><li>Changez votre mot de passe sur ce site et sur tout autre site où vous utilisez le même mot de passe</li><li>Activez l’authentification à deux facteurs si disponible</li><li>Surveillez vos comptes pour toute activité suspecte</li></ol><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/OperationEndgame3">Vérifier si vous êtes concerné sur Have I Been Pwned</a></li></ul>]]></content>
       
       
       <categories>
+          
+          <category> breaches </category>
           
           <category> operationendgame3 </category>
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> email addresses </tag>
+            
+            <tag> passwords </tag>
+            
+            <tag> nom </tag>
+            
+        </tags>
       
     </entry>
     
@@ -73,19 +85,35 @@
     
     
     <entry>
-      <title>Tisza Fuite Du 2025-11-8</title>
-      <link href="/tisza-fuite-du-2025-11-8/"/>
-      <url>/tisza-fuite-du-2025-11-8/</url>
+      <title>TISZA Világ</title>
+      <link href="/tisza-vilag/"/>
+      <url>/tisza-vilag/</url>
       
-        <content type="html"><![CDATA[<p>In late October 2025<br>data breached from the Hungarian political party TISZA was published online before being extensively redistributed. Stemming from a compromise of the TISZA Világ service earlier in the month<br>the breach exposed 200k records of personal data including email addresses along with names<br>phone numbers and physical addresses.</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="TISZA-Vilag"><a href="#TISZA-Vilag" class="headerlink" title="TISZA Világ"></a>TISZA Világ</h1><div class="breach-meta">  <div class="meta-item">    <span class="meta-label">Date de la fuite :</span>    <span class="meta-value">6 octobre 2025</span>  </div>  <div class="meta-item">    <span class="meta-label">Comptes affectés :</span>    <span class="meta-value">198 520</span>  </div>  <div class="meta-item">    <span class="meta-label">Site web :</span>    <a href="https://tiszavilag.hu" target="_blank" rel="noopener">tiszavilag.hu</a>  </div></div><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In late October 2025, data breached from the Hungarian political party TISZA was published online before being extensively redistributed. Stemming from a compromise of the TISZA Világ service earlier in the month, the breach exposed 200k records of personal data including email addresses along with names, phone numbers and physical addresses.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><div class="data-classes">  <span class="data-class">Email addresses</span>  <span class="data-class">Names</span>  <span class="data-class">Phone numbers</span>  <span class="data-class">Physical addresses</span>  <span class="data-class">Usernames</span></div><h2 id="Actions-recommandees"><a href="#Actions-recommandees" class="headerlink" title="Actions recommandées"></a>Actions recommandées</h2><ol><li>Changez votre mot de passe sur ce site et sur tout autre site où vous utilisez le même mot de passe</li><li>Activez l’authentification à deux facteurs si disponible</li><li>Surveillez vos comptes pour toute activité suspecte</li></ol><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Tisza">Vérifier si vous êtes concerné sur Have I Been Pwned</a></li></ul>]]></content>
       
       
       <categories>
+          
+          <category> breaches </category>
           
           <category> tisza </category>
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> email addresses </tag>
+            
+            <tag> names </tag>
+            
+            <tag> phone numbers </tag>
+            
+            <tag> physical addresses </tag>
+            
+            <tag> usernames </tag>
+            
+        </tags>
       
     </entry>
     
@@ -121,25 +149,6 @@
     
     
     <entry>
-      <title>Synthientcredentialstuffingthreatdata Fuite Du 2025-11-6</title>
-      <link href="/synthientcredentialstuffingthreatdata-fuite-du-2025-11-6/"/>
-      <url>/synthientcredentialstuffingthreatdata-fuite-du-2025-11-6/</url>
-      
-        <content type="html"><![CDATA[<p>During 2025<br>the threat-intelligence firm Synthient aggregated 2 billion unique email addresses disclosed in credential-stuffing lists found across multiple malicious internet sources. Comprised of email addresses and passwords from previous data breaches<br>these lists are used by attackers to compromise other<br>unrelated accounts of victims who have reused their passwords. The data also included 1.3 billion unique passwords<br>which are now searchable in Pwned Passwords. Working to turn breached data into awareness<br>Synthient partnered with HIBP to help victims of cybercrime understand their exposure.</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> synthientcredentialstuffingthreatdata </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>France Travail Fuite Du 2025-10-29</title>
       <link href="/france-travail-fuite-du-2025-10-29/"/>
       <url>/france-travail-fuite-du-2025-10-29/</url>
@@ -161,19 +170,31 @@
     
     
     <entry>
-      <title>Myvidster2025 Fuite Du 2025-10-27</title>
-      <link href="/myvidster2025-fuite-du-2025-10-27/"/>
-      <url>/myvidster2025-fuite-du-2025-10-27/</url>
+      <title>MyVidster (2025)</title>
+      <link href="/myvidster-2025/"/>
+      <url>/myvidster-2025/</url>
       
-        <content type="html"><![CDATA[<p>In October 2025<br>the data of almost 4M MyVidster users was posted to a public hacking forum. Separate to the 2015 breach<br>this incident exposed usernames<br>email addresses and in a small number of cases<br>profile photos.</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="MyVidster-2025"><a href="#MyVidster-2025" class="headerlink" title="MyVidster (2025)"></a>MyVidster (2025)</h1><div class="breach-meta">  <div class="meta-item">    <span class="meta-label">Date de la fuite :</span>    <span class="meta-value">24 octobre 2025</span>  </div>  <div class="meta-item">    <span class="meta-label">Comptes affectés :</span>    <span class="meta-value">3 864 364</span>  </div>  <div class="meta-item">    <span class="meta-label">Site web :</span>    <a href="https://myvidster.com" target="_blank" rel="noopener">myvidster.com</a>  </div></div><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In October 2025, the data of almost 4M MyVidster users was posted to a public hacking forum. Separate to the 2015 breach, this incident exposed usernames, email addresses and in a small number of cases, profile photos.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><div class="data-classes">  <span class="data-class">Email addresses</span>  <span class="data-class">Profile photos</span>  <span class="data-class">Usernames</span></div><h2 id="Actions-recommandees"><a href="#Actions-recommandees" class="headerlink" title="Actions recommandées"></a>Actions recommandées</h2><ol><li>Changez votre mot de passe sur ce site et sur tout autre site où vous utilisez le même mot de passe</li><li>Activez l’authentification à deux facteurs si disponible</li><li>Surveillez vos comptes pour toute activité suspecte</li></ol><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/MyVidster2025">Vérifier si vous êtes concerné sur Have I Been Pwned</a></li></ul>]]></content>
       
       
       <categories>
+          
+          <category> breaches </category>
           
           <category> myvidster2025 </category>
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> email addresses </tag>
+            
+            <tag> usernames </tag>
+            
+            <tag> profile photos </tag>
+            
+        </tags>
       
     </entry>
     
@@ -222,25 +243,6 @@
     
     
     <entry>
-      <title>Synthientstealerlogthreatdata Fuite Du 2025-10-21</title>
-      <link href="/synthientstealerlogthreatdata-fuite-du-2025-10-21/"/>
-      <url>/synthientstealerlogthreatdata-fuite-du-2025-10-21/</url>
-      
-        <content type="html"><![CDATA[<p>During 2025<br>Synthient aggregated billions of records of “threat data” from various internet sources. The data contained 183M unique email addresses alongside the websites they were entered into and the passwords used. After normalising and deduplicating the data<br>183 million unique email addresses remained<br>each linked to the website where the credentials were captured<br>and the password used. This dataset is now searchable in HIBP by email address<br>password<br>domain<br>and the site on which the credentials were entered.</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> synthientstealerlogthreatdata </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Centre Hospitalier Intercommunal De Haute Fuite Du 2025-10-19</title>
       <link href="/centre-hospitalier-intercommunal-de-haute-fuite-du-2025-10-19/"/>
       <url>/centre-hospitalier-intercommunal-de-haute-fuite-du-2025-10-19/</url>
@@ -262,19 +264,82 @@
     
     
     <entry>
-      <title>Prosper Fuite Du 2025-10-16</title>
-      <link href="/prosper-fuite-du-2025-10-16/"/>
-      <url>/prosper-fuite-du-2025-10-16/</url>
+      <title>Prosper</title>
+      <link href="/prosper/"/>
+      <url>/prosper/</url>
       
-        <content type="html"><![CDATA[<p>In September 2025<br>Prosper announced that it had detected unauthorised access to their systems<br>which resulted in the exposure of customer and applicant information. The data breach impacted 17.6M unique email addresses<br>along with other customer information<br>including US Social Security numbers. Prosper advised that they did not find any evidence of unauthorised access to customer accounts and funds<br>and that their customer-facing operations were uninterrupted. Further information about the incident is contained in Prosper’s FAQs.</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="Prosper"><a href="#Prosper" class="headerlink" title="Prosper"></a>Prosper</h1><div class="breach-meta">  <div class="meta-item">    <span class="meta-label">Date de la fuite :</span>    <span class="meta-value">1 septembre 2025</span>  </div>  <div class="meta-item">    <span class="meta-label">Comptes affectés :</span>    <span class="meta-value">17 605 276</span>  </div>  <div class="meta-item">    <span class="meta-label">Site web :</span>    <a href="https://prosper.com" target="_blank" rel="noopener">prosper.com</a>  </div></div><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In September 2025, Prosper announced that it had detected unauthorised access to their systems, which resulted in the exposure of customer and applicant information. The data breach impacted 17.6M unique email addresses, along with other customer information, including US Social Security numbers. Prosper advised that they did not find any evidence of unauthorised access to customer accounts and funds, and that their customer-facing operations were uninterrupted. Further information about the incident is contained in Prosper’s FAQs.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><div class="data-classes">  <span class="data-class">Browser user agent details</span>  <span class="data-class">Credit status information</span>  <span class="data-class">Dates of birth</span>  <span class="data-class">Email addresses</span>  <span class="data-class">Employment statuses</span>  <span class="data-class">Government issued IDs</span>  <span class="data-class">Income levels</span>  <span class="data-class">IP addresses</span>  <span class="data-class">Names</span>  <span class="data-class">Physical addresses</span></div><h2 id="Actions-recommandees"><a href="#Actions-recommandees" class="headerlink" title="Actions recommandées"></a>Actions recommandées</h2><ol><li>Changez votre mot de passe sur ce site et sur tout autre site où vous utilisez le même mot de passe</li><li>Activez l’authentification à deux facteurs si disponible</li><li>Surveillez vos comptes pour toute activité suspecte</li></ol><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Prosper">Vérifier si vous êtes concerné sur Have I Been Pwned</a></li></ul>]]></content>
       
       
       <categories>
+          
+          <category> breaches </category>
           
           <category> prosper </category>
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> email addresses </tag>
+            
+            <tag> ip addresses </tag>
+            
+            <tag> names </tag>
+            
+            <tag> physical addresses </tag>
+            
+            <tag> dates of birth </tag>
+            
+            <tag> income levels </tag>
+            
+            <tag> government issued ids </tag>
+            
+            <tag> browser user agent details </tag>
+            
+            <tag> credit status information </tag>
+            
+            <tag> employment statuses </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello Cake</title>
+      <link href="/hello-cake/"/>
+      <url>/hello-cake/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Hello-Cake"><a href="#Hello-Cake" class="headerlink" title="Hello Cake"></a>Hello Cake</h1><div class="breach-meta">  <div class="meta-item">    <span class="meta-label">Date de la fuite :</span>    <span class="meta-value">25 juillet 2025</span>  </div>  <div class="meta-item">    <span class="meta-label">Comptes affectés :</span>    <span class="meta-value">22 907</span>  </div>  <div class="meta-item">    <span class="meta-label">Site web :</span>    <a href="https://hellocake.com" target="_blank" rel="noopener">hellocake.com</a>  </div></div><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In July 2025, the sexual healthcare product maker Hello Cake suffered a data breach. The data was subsequently posted on a public hacking forum and included 23k unique email addresses along with names, phone numbers, physical addresses, dates of birth and purchases.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><div class="data-classes">  <span class="data-class">Dates of birth</span>  <span class="data-class">Email addresses</span>  <span class="data-class">Names</span>  <span class="data-class">Phone numbers</span>  <span class="data-class">Physical addresses</span>  <span class="data-class">Purchases</span></div><h2 id="Actions-recommandees"><a href="#Actions-recommandees" class="headerlink" title="Actions recommandées"></a>Actions recommandées</h2><ol><li>Changez votre mot de passe sur ce site et sur tout autre site où vous utilisez le même mot de passe</li><li>Activez l’authentification à deux facteurs si disponible</li><li>Surveillez vos comptes pour toute activité suspecte</li></ol><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/HelloCake">Vérifier si vous êtes concerné sur Have I Been Pwned</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> breaches </category>
+          
+          <category> hellocake </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> email addresses </tag>
+            
+            <tag> names </tag>
+            
+            <tag> phone numbers </tag>
+            
+            <tag> physical addresses </tag>
+            
+            <tag> dates of birth </tag>
+            
+            <tag> purchases </tag>
+            
+        </tags>
       
     </entry>
     
@@ -306,25 +371,6 @@
             <tag> adresse email </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hellocake Fuite Du 2025-10-15</title>
-      <link href="/hellocake-fuite-du-2025-10-15/"/>
-      <url>/hellocake-fuite-du-2025-10-15/</url>
-      
-        <content type="html"><![CDATA[<p>In July 2025<br>the sexual healthcare product maker Hello Cake suffered a data breach. The data was subsequently posted on a public hacking forum and included 23k unique email addresses along with names<br>phone numbers<br>physical addresses<br>dates of birth and purchases.</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> hellocake </category>
-          
-      </categories>
-      
       
     </entry>
     
@@ -383,77 +429,6 @@
     
     
     <entry>
-      <title>Vietnamairlines Fuite Du 2025-10-11</title>
-      <link href="/vietnamairlines-fuite-du-2025-10-11/"/>
-      <url>/vietnamairlines-fuite-du-2025-10-11/</url>
-      
-        <content type="html"><![CDATA[<p>In October 2025<br>data stolen from the Salesforce instances of multiple companies by a hacking group calling itself “Scattered LAPSUS$ Hunters” was publicly released. Among the affected organisations was Vietnam Airlines<br>which had 7.3M unique customer email addresses exposed following a breach of its Salesforce environment in June of that year. The compromised data also included names<br>phone numbers<br>dates of birth<br>and loyalty program membership numbers.</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> vietnamairlines </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Adpost - Fuite De Données</title>
-      <link href="/adpost-fuite-de-donnees/"/>
-      <url>/adpost-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Adpost-Fuite-de-donnees"><a href="#Adpost-Fuite-de-donnees" class="headerlink" title="Adpost - Fuite de données"></a>Adpost - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2025-02-14<br><strong>Nombre de comptes affectés</strong> : 3 339 512</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In February 2025, data allegedly obtained from an earlier Adpost breach surfaced. The dataset contained 3.3M records including email addresses, usernames, and display names. Multiple attempts to contact Adpost regarding the incident received no response.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Names</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Adpost">Vérifier si vous êtes concerné</a></li><li><a href="https://adpost.com/">adpost.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> adpost </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> names </tag>
-            
-            <tag> usernames </tag>
-            
-            <tag> nom </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Adpost Fuite Du 2025-10-7</title>
-      <link href="/adpost-fuite-du-2025-10-7/"/>
-      <url>/adpost-fuite-du-2025-10-7/</url>
-      
-        <content type="html"><![CDATA[<p>In February 2025<br>data allegedly obtained from an earlier Adpost breach surfaced. The dataset contained 3.3M records including email addresses<br>usernames<br>and display names. Multiple attempts to contact Adpost regarding the incident received no response.</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> adpost </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>France Travail Fuite Du 2025-10-6</title>
       <link href="/france-travail-fuite-du-2025-10-6/"/>
       <url>/france-travail-fuite-du-2025-10-6/</url>
@@ -483,6 +458,39 @@
     
     
     <entry>
+      <title>Artists&amp;Clients</title>
+      <link href="/artists-clients/"/>
+      <url>/artists-clients/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Artists-Clients"><a href="#Artists-Clients" class="headerlink" title="Artists&amp;Clients"></a>Artists&amp;Clients</h1><div class="breach-meta">  <div class="meta-item">    <span class="meta-label">Date de la fuite :</span>    <span class="meta-value">31 août 2025</span>  </div>  <div class="meta-item">    <span class="meta-label">Comptes affectés :</span>    <span class="meta-value">95 351</span>  </div>  <div class="meta-item">    <span class="meta-label">Site web :</span>    <a href="https://artistsnclients.com" target="_blank" rel="noopener">artistsnclients.com</a>  </div></div><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In August 2025, the “marketplace that connects artists to prospective clients” Artists&amp;Clients, suffered a data breach and subsequent ransom demand of US$50k. The data was subsequently leaked publicly and included 95k unique email addresses alongside usernames, IP addresses and bcrypt password hashes.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><div class="data-classes">  <span class="data-class">Email addresses</span>  <span class="data-class">IP addresses</span>  <span class="data-class">Passwords</span>  <span class="data-class">Usernames</span></div><h2 id="Actions-recommandees"><a href="#Actions-recommandees" class="headerlink" title="Actions recommandées"></a>Actions recommandées</h2><ol><li>Changez votre mot de passe sur ce site et sur tout autre site où vous utilisez le même mot de passe</li><li>Activez l’authentification à deux facteurs si disponible</li><li>Surveillez vos comptes pour toute activité suspecte</li></ol><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/ArtistsNClients">Vérifier si vous êtes concerné sur Have I Been Pwned</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> breaches </category>
+          
+          <category> artistsnclients </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> email addresses </tag>
+            
+            <tag> ip addresses </tag>
+            
+            <tag> passwords </tag>
+            
+            <tag> usernames </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Discord Fuite Du 2025-10-4</title>
       <link href="/discord-fuite-du-2025-10-4/"/>
       <url>/discord-fuite-du-2025-10-4/</url>
@@ -504,25 +512,6 @@
             <tag> nom </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Artistsnclients Fuite Du 2025-10-4</title>
-      <link href="/artistsnclients-fuite-du-2025-10-4/"/>
-      <url>/artistsnclients-fuite-du-2025-10-4/</url>
-      
-        <content type="html"><![CDATA[<p>In August 2025<br>the “marketplace that connects artists to prospective clients” ArtistsClients<br>suffered a data breach and subsequent ransom demand of US$50k. The data was subsequently leaked publicly and included 95k unique email addresses alongside usernames<br>IP addresses and bcrypt password hashes.</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> artistsnclients </category>
-          
-      </categories>
-      
       
     </entry>
     
@@ -579,6 +568,43 @@
     
     
     <entry>
+      <title>Bouygues Telecom</title>
+      <link href="/bouygues-telecom/"/>
+      <url>/bouygues-telecom/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Bouygues-Telecom"><a href="#Bouygues-Telecom" class="headerlink" title="Bouygues Telecom"></a>Bouygues Telecom</h1><div class="breach-meta">  <div class="meta-item">    <span class="meta-label">Date de la fuite :</span>    <span class="meta-value">4 août 2025</span>  </div>  <div class="meta-item">    <span class="meta-label">Comptes affectés :</span>    <span class="meta-value">5 685 771</span>  </div>  <div class="meta-item">    <span class="meta-label">Site web :</span>    <a href="https://bouyguestelecom.fr" target="_blank" rel="noopener">bouyguestelecom.fr</a>  </div></div><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In August 2025, the French telecommunications company Bouygues Telecom detected a cyber attack against their services. The incident resulted in a data breach that exposed almost 6.4M customer records, including 5.7M unique email addresses. The breach also exposed names, physical addresses, phone numbers, dates of birth and IBANs (International Bank Account Numbers). Bouygues Telecom advised that all affected customers had been notified about the incident.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><div class="data-classes">  <span class="data-class">Bank account numbers</span>  <span class="data-class">Dates of birth</span>  <span class="data-class">Email addresses</span>  <span class="data-class">Names</span>  <span class="data-class">Phone numbers</span>  <span class="data-class">Physical addresses</span></div><h2 id="Actions-recommandees"><a href="#Actions-recommandees" class="headerlink" title="Actions recommandées"></a>Actions recommandées</h2><ol><li>Changez votre mot de passe sur ce site et sur tout autre site où vous utilisez le même mot de passe</li><li>Activez l’authentification à deux facteurs si disponible</li><li>Surveillez vos comptes pour toute activité suspecte</li></ol><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/BouyguesTelecom">Vérifier si vous êtes concerné sur Have I Been Pwned</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> breaches </category>
+          
+          <category> bouyguestelecom </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> email addresses </tag>
+            
+            <tag> names </tag>
+            
+            <tag> phone numbers </tag>
+            
+            <tag> physical addresses </tag>
+            
+            <tag> dates of birth </tag>
+            
+            <tag> bank account numbers </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Inovie Labosud Fuite Du 2025-9-23</title>
       <link href="/inovie-labosud-fuite-du-2025-9-23/"/>
       <url>/inovie-labosud-fuite-du-2025-9-23/</url>
@@ -594,39 +620,6 @@
           
       </categories>
       
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Animeify - Fuite De Données</title>
-      <link href="/animeify-fuite-de-donnees/"/>
-      <url>/animeify-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Animeify-Fuite-de-donnees"><a href="#Animeify-Fuite-de-donnees" class="headerlink" title="Animeify - Fuite de données"></a>Animeify - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2021-10-14<br><strong>Nombre de comptes affectés</strong> : 808 034</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In October 2021, the now defunct Arabic language Anime website Animeify suffered a data breach that was later redistributed as part of a larger corpus of data. The data included 808k unique email addresses along with names, usernames, genders and plain text passwords.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Genders</li><li>Names</li><li>Passwords</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Animeify">Vérifier si vous êtes concerné</a></li><li><a href="https://animeify.net/">animeify.net</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> names </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> usernames </tag>
-            
-            <tag> genders </tag>
-            
-        </tags>
       
     </entry>
     
@@ -712,6 +705,45 @@
     
     
     <entry>
+      <title>Miljödata</title>
+      <link href="/miljodata/"/>
+      <url>/miljodata/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Miljodata"><a href="#Miljodata" class="headerlink" title="Miljödata"></a>Miljödata</h1><div class="breach-meta">  <div class="meta-item">    <span class="meta-label">Date de la fuite :</span>    <span class="meta-value">25 août 2025</span>  </div>  <div class="meta-item">    <span class="meta-label">Comptes affectés :</span>    <span class="meta-value">870 108</span>  </div>  <div class="meta-item">    <span class="meta-label">Site web :</span>    <a href="https://miljodata.se" target="_blank" rel="noopener">miljodata.se</a>  </div></div><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In August 2025, the Swedish system supplier Miljödata was the victim of a ransomware attack. Following the attack, data was subsequently published on the dark web and included 870k unique email addresses across various compromised files. Data also included names, phone numbers, physical addresses, dates of birth and government-issued personal identity numbers.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><div class="data-classes">  <span class="data-class">Dates of birth</span>  <span class="data-class">Email addresses</span>  <span class="data-class">Genders</span>  <span class="data-class">Government issued IDs</span>  <span class="data-class">Names</span>  <span class="data-class">Phone numbers</span>  <span class="data-class">Physical addresses</span></div><h2 id="Actions-recommandees"><a href="#Actions-recommandees" class="headerlink" title="Actions recommandées"></a>Actions recommandées</h2><ol><li>Changez votre mot de passe sur ce site et sur tout autre site où vous utilisez le même mot de passe</li><li>Activez l’authentification à deux facteurs si disponible</li><li>Surveillez vos comptes pour toute activité suspecte</li></ol><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Miljodata">Vérifier si vous êtes concerné sur Have I Been Pwned</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> breaches </category>
+          
+          <category> miljodata </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> email addresses </tag>
+            
+            <tag> names </tag>
+            
+            <tag> phone numbers </tag>
+            
+            <tag> physical addresses </tag>
+            
+            <tag> dates of birth </tag>
+            
+            <tag> genders </tag>
+            
+            <tag> government issued ids </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Eklo Fuite Du 2025-9-3</title>
       <link href="/eklo-fuite-du-2025-9-3/"/>
       <url>/eklo-fuite-du-2025-9-3/</url>
@@ -727,6 +759,39 @@
           
       </categories>
       
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Giglio</title>
+      <link href="/giglio/"/>
+      <url>/giglio/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Giglio"><a href="#Giglio" class="headerlink" title="Giglio"></a>Giglio</h1><div class="breach-meta">  <div class="meta-item">    <span class="meta-label">Date de la fuite :</span>    <span class="meta-value">9 août 2025</span>  </div>  <div class="meta-item">    <span class="meta-label">Comptes affectés :</span>    <span class="meta-value">1 026 468</span>  </div>  <div class="meta-item">    <span class="meta-label">Site web :</span>    <a href="https://giglio.com" target="_blank" rel="noopener">giglio.com</a>  </div></div><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In August 2025, over 1M unique email addresses appeared in a breach allegedly obtained from Italian fashion designer Giglio. The data also included names, phone numbers and physical addresses. Giglio did not respond to repeated attempts to disclose the incident.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><div class="data-classes">  <span class="data-class">Email addresses</span>  <span class="data-class">Names</span>  <span class="data-class">Phone numbers</span>  <span class="data-class">Physical addresses</span></div><h2 id="Actions-recommandees"><a href="#Actions-recommandees" class="headerlink" title="Actions recommandées"></a>Actions recommandées</h2><ol><li>Changez votre mot de passe sur ce site et sur tout autre site où vous utilisez le même mot de passe</li><li>Activez l’authentification à deux facteurs si disponible</li><li>Surveillez vos comptes pour toute activité suspecte</li></ol><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Giglio">Vérifier si vous êtes concerné sur Have I Been Pwned</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> breaches </category>
+          
+          <category> giglio </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> email addresses </tag>
+            
+            <tag> names </tag>
+            
+            <tag> phone numbers </tag>
+            
+            <tag> physical addresses </tag>
+            
+        </tags>
       
     </entry>
     
@@ -754,41 +819,6 @@
             <tag> nom </tag>
             
             <tag> prénom </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Allianz Life - Fuite De Données</title>
-      <link href="/allianz-life-fuite-de-donnees/"/>
-      <url>/allianz-life-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Allianz-Life-Fuite-de-donnees"><a href="#Allianz-Life-Fuite-de-donnees" class="headerlink" title="Allianz Life - Fuite de données"></a>Allianz Life - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2025-07-16<br><strong>Nombre de comptes affectés</strong> : 1 115 061</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In July 2025, Allianz Life was the victim of a cyber attack which resulted in millions of records later being leaked online. Allianz attributed the attack to “a social engineering technique” which targeted data on Salesforce and resulted in the exposure of 1.1M unique email addresses, names, genders, dates of birth, phone numbers and physical addresses.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Dates of birth</li><li>Email addresses</li><li>Genders</li><li>Names</li><li>Phone numbers</li><li>Physical addresses</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AllianzLife">Vérifier si vous êtes concerné</a></li><li><a href="https://allianzlife.com/">allianzlife.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> names </tag>
-            
-            <tag> phone numbers </tag>
-            
-            <tag> physical addresses </tag>
-            
-            <tag> dates of birth </tag>
-            
-            <tag> genders </tag>
             
         </tags>
       
@@ -1035,6 +1065,35 @@
           
       </categories>
       
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Pi-Hole</title>
+      <link href="/pi-hole/"/>
+      <url>/pi-hole/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Pi-hole"><a href="#Pi-hole" class="headerlink" title="Pi-hole"></a>Pi-hole</h1><div class="breach-meta">  <div class="meta-item">    <span class="meta-label">Date de la fuite :</span>    <span class="meta-value">30 juillet 2025</span>  </div>  <div class="meta-item">    <span class="meta-label">Comptes affectés :</span>    <span class="meta-value">29 926</span>  </div>  <div class="meta-item">    <span class="meta-label">Site web :</span>    <a href="https://pi-hole.net" target="_blank" rel="noopener">pi-hole.net</a>  </div></div><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In July 2025, a vulnerability in the GiveWP WordPress plugin exposed the names and email addresses of approximately 30k donors to the Pi-hole network-wide ad blocking project. Pi-hole subsequently self-submitted the list of impacted donors to HIBP.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><div class="data-classes">  <span class="data-class">Email addresses</span>  <span class="data-class">Names</span></div><h2 id="Actions-recommandees"><a href="#Actions-recommandees" class="headerlink" title="Actions recommandées"></a>Actions recommandées</h2><ol><li>Changez votre mot de passe sur ce site et sur tout autre site où vous utilisez le même mot de passe</li><li>Activez l’authentification à deux facteurs si disponible</li><li>Surveillez vos comptes pour toute activité suspecte</li></ol><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/ThePi-Hole">Vérifier si vous êtes concerné sur Have I Been Pwned</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> breaches </category>
+          
+          <category> thepi-hole </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> email addresses </tag>
+            
+            <tag> names </tag>
+            
+        </tags>
       
     </entry>
     
@@ -2103,33 +2162,6 @@
     
     
     <entry>
-      <title>ALIEN TXTBASE Stealer Logs - Fuite De Données</title>
-      <link href="/alien-txtbase-stealer-logs-fuite-de-donnees/"/>
-      <url>/alien-txtbase-stealer-logs-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="ALIEN-TXTBASE-Stealer-Logs-Fuite-de-donnees"><a href="#ALIEN-TXTBASE-Stealer-Logs-Fuite-de-donnees" class="headerlink" title="ALIEN TXTBASE Stealer Logs - Fuite de données"></a>ALIEN TXTBASE Stealer Logs - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2025-02-15<br><strong>Nombre de comptes affectés</strong> : 284 132 969</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In February 2025, 23 billion rows of stealer logs were obtained from a Telegram channel known as ALIEN TXTBASE. The data contained 284M unique email addresses alongside the websites they were entered into and the passwords used. This data is now searchable in HIBP by both email domain and the domain of the target website.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Passwords</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AlienStealerLogs">Vérifier si vous êtes concerné</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> passwords </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Fédération Française De Foot Fuite Du 2025-2-21</title>
       <link href="/federation-francaise-de-foot-fuite-du-2025-2-21/"/>
       <url>/federation-francaise-de-foot-fuite-du-2025-2-21/</url>
@@ -2321,41 +2353,6 @@
     
     
     <entry>
-      <title>Adopt Me Trading Values - Fuite De Données</title>
-      <link href="/adopt-me-trading-values-fuite-de-donnees/"/>
-      <url>/adopt-me-trading-values-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Adopt-Me-Trading-Values-Fuite-de-donnees"><a href="#Adopt-Me-Trading-Values-Fuite-de-donnees" class="headerlink" title="Adopt Me Trading Values - Fuite de données"></a>Adopt Me Trading Values - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2022-07-01<br><strong>Nombre de comptes affectés</strong> : 86 136</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In July 2022, the Adopt Me Trading Values website for assessing the value of pet trades within the “Adopt Me!” Roblox game suffered a data breach that was later redistributed as part of a larger corpus of data. The breach exposed 86k unique email addresses along with usernames (and Roblox usernames), IP addresses and bcrypt password hashes. </p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>IP addresses</li><li>Passwords</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AdoptMeTradingValues">Vérifier si vous êtes concerné</a></li><li><a href="https://adoptmetradingvalues.com/">adoptmetradingvalues.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> adoptmetradingvalues </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> ip addresses </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> usernames </tag>
-            
-            <tag> nom </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Espace Fuite Du 2025-2-6</title>
       <link href="/espace-fuite-du-2025-2-6/"/>
       <url>/espace-fuite-du-2025-2-6/</url>
@@ -2377,78 +2374,6 @@
             <tag> nom </tag>
             
             <tag> adresse email </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>1win - Fuite De Données</title>
-      <link href="/1win-fuite-de-donnees/"/>
-      <url>/1win-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="1win-Fuite-de-donnees"><a href="#1win-Fuite-de-donnees" class="headerlink" title="1win - Fuite de données"></a>1win - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2024-11-02<br><strong>Nombre de comptes affectés</strong> : 96 166 543</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In November 2024, the online betting platform 1win suffered a data breach that exposed 96M users. The exposed data included email and IP addresses, phone numbers, dates of birth, country and SHA-256 password hashes.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Dates of birth</li><li>Email addresses</li><li>Geographic locations</li><li>IP addresses</li><li>Passwords</li><li>Phone numbers</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/1win">Vérifier si vous êtes concerné</a></li><li><a href="https://1win.com/">1win.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> 1win </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> ip addresses </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> phone numbers </tag>
-            
-            <tag> dates of birth </tag>
-            
-            <tag> geographic locations </tag>
-            
-            <tag> nom </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>9Lives - Fuite De Données</title>
-      <link href="/9lives-fuite-de-donnees/"/>
-      <url>/9lives-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="9Lives-Fuite-de-donnees"><a href="#9Lives-Fuite-de-donnees" class="headerlink" title="9Lives - Fuite de données"></a>9Lives - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2014-10-01<br><strong>Nombre de comptes affectés</strong> : 109 515</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In October 2014, the now defunct Belgian gaming news forum 9Lives suffered a data breach that was later redistributed as part of a larger corpus of data. The breach exposed 109k unique email addresses along with usernames and salted MD5 password hashes.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Passwords</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/9Lives">Vérifier si vous êtes concerné</a></li><li><a href="https://9lives.be/">9lives.be</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> 9lives </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> usernames </tag>
-            
-            <tag> nom </tag>
             
         </tags>
       
@@ -3296,37 +3221,6 @@
     
     
     <entry>
-      <title>Altenen - Fuite De Données</title>
-      <link href="/altenen-fuite-de-donnees/"/>
-      <url>/altenen-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Altenen-Fuite-de-donnees"><a href="#Altenen-Fuite-de-donnees" class="headerlink" title="Altenen - Fuite de données"></a>Altenen - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2022-06-24<br><strong>Nombre de comptes affectés</strong> : 1 267 701</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In June 2022, the malicious “carding” (referring to credit card fraud) website Altenen suffered a data breach that was later redistributed as part of a larger corpus of data. The data included 1.3M unique email addresses, usernames, bcrypt password hashes and cryptocurrency wallet addresses.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Cryptocurrency wallet addresses</li><li>Email addresses</li><li>Passwords</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Altenen">Vérifier si vous êtes concerné</a></li><li><a href="https://altenens.is/">altenens.is</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> usernames </tag>
-            
-            <tag> cryptocurrency wallet addresses </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Free Mobile Fuite Du 2024-10-25</title>
       <link href="/free-mobile-fuite-du-2024-10-25/"/>
       <url>/free-mobile-fuite-du-2024-10-25/</url>
@@ -3381,43 +3275,6 @@
             <tag> prénom </tag>
             
             <tag> adresse email </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>AlpineReplay - Fuite De Données</title>
-      <link href="/alpinereplay-fuite-de-donnees/"/>
-      <url>/alpinereplay-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="AlpineReplay-Fuite-de-donnees"><a href="#AlpineReplay-Fuite-de-donnees" class="headerlink" title="AlpineReplay - Fuite de données"></a>AlpineReplay - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2019-08-27<br><strong>Nombre de comptes affectés</strong> : 898 681</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In 2019, the snow sports tracking app AlpineReplay suffered a data breach that exposed 900k unique email addresses. Later rolled into the Trace service, the breach included names, usernames, genders, dates of birth, weights and passwords stored as either unsalted MD5 or bcrypt hashes.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Dates of birth</li><li>Email addresses</li><li>Genders</li><li>Names</li><li>Passwords</li><li>Physical attributes</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AlpineReplay">Vérifier si vous êtes concerné</a></li><li><a href="https://traceup.com/">traceup.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> names </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> usernames </tag>
-            
-            <tag> dates of birth </tag>
-            
-            <tag> genders </tag>
-            
-            <tag> physical attributes </tag>
             
         </tags>
       
@@ -3538,80 +3395,6 @@
             <tag> prénom </tag>
             
             <tag> adresse email </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>AnimeLeague - Fuite De Données</title>
-      <link href="/animeleague-fuite-de-donnees/"/>
-      <url>/animeleague-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="AnimeLeague-Fuite-de-donnees"><a href="#AnimeLeague-Fuite-de-donnees" class="headerlink" title="AnimeLeague - Fuite de données"></a>AnimeLeague - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2024-07-04<br><strong>Nombre de comptes affectés</strong> : 192 134</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In July 2024, AnimeLeague disclosed a data breach of their services. The data was posted for sale on a popular hacking forum and included 2 databases covering both event registration records and a dump of the phpBB bulletin board. The impacted data included passwords in various hashed formats including SHA-1, salted md5 and bcrypt, as well as usernames, private messages, dates of birth, purchases and 192k unique email addresses.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Dates of birth</li><li>Email addresses</li><li>IP addresses</li><li>Passwords</li><li>Phone numbers</li><li>Private messages</li><li>Purchases</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AnimeLeague">Vérifier si vous êtes concerné</a></li><li><a href="https://animeleague.net/">animeleague.net</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> ip addresses </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> phone numbers </tag>
-            
-            <tag> usernames </tag>
-            
-            <tag> dates of birth </tag>
-            
-            <tag> purchases </tag>
-            
-            <tag> private messages </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Advance Auto Parts - Fuite De Données</title>
-      <link href="/advance-auto-parts-fuite-de-donnees/"/>
-      <url>/advance-auto-parts-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Advance-Auto-Parts-Fuite-de-donnees"><a href="#Advance-Auto-Parts-Fuite-de-donnees" class="headerlink" title="Advance Auto Parts - Fuite de données"></a>Advance Auto Parts - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2024-06-05<br><strong>Nombre de comptes affectés</strong> : 79 243 727</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In June 2024, Advance Auto Parts confirmed they had suffered a data breach which was posted for sale to a popular hacking forum. Linked to unauthorised access to Snowflake cloud services, the breach exposed a large number of records related to both customers and employees. In total, 79M unique email addresses were included in the breach, alongside names, phone numbers, addresses and further data attributes related to company employees.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Names</li><li>Phone numbers</li><li>Physical addresses</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AdvanceAutoParts">Vérifier si vous êtes concerné</a></li><li><a href="https://advanceautoparts.com/">advanceautoparts.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> advanceautoparts </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> names </tag>
-            
-            <tag> phone numbers </tag>
-            
-            <tag> physical addresses </tag>
-            
-            <tag> nom </tag>
             
         </tags>
       
@@ -3763,1423 +3546,6 @@
             <tag> nom </tag>
             
             <tag> prénom </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Acuity - Fuite De Données</title>
-      <link href="/acuity-fuite-de-donnees/"/>
-      <url>/acuity-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Acuity-Fuite-de-donnees"><a href="#Acuity-Fuite-de-donnees" class="headerlink" title="Acuity - Fuite de données"></a>Acuity - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2020-06-18<br><strong>Nombre de comptes affectés</strong> : 14 055 729</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In mid-2020, a 437GB corpus of data attributed to an entity named “Acuity” was created and later extensively distributed. However, the source could not be confidently verified as any known companies named Acuity. The data totalled over 14M unique email addresses with each row containing extensive personal information across more than 400 columns of data including names, phone numbers, physical addresses, genders and dates of birth.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Dates of birth</li><li>Email addresses</li><li>Genders</li><li>IP addresses</li><li>Names</li><li>Phone numbers</li><li>Physical addresses</li><li>Salutations</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Acuity">Vérifier si vous êtes concerné</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> acuity </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> ip addresses </tag>
-            
-            <tag> names </tag>
-            
-            <tag> phone numbers </tag>
-            
-            <tag> physical addresses </tag>
-            
-            <tag> dates of birth </tag>
-            
-            <tag> genders </tag>
-            
-            <tag> salutations </tag>
-            
-            <tag> nom </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>AndroidLista - Fuite De Données</title>
-      <link href="/androidlista-fuite-de-donnees/"/>
-      <url>/androidlista-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="AndroidLista-Fuite-de-donnees"><a href="#AndroidLista-Fuite-de-donnees" class="headerlink" title="AndroidLista - Fuite de données"></a>AndroidLista - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2021-07-28<br><strong>Nombre de comptes affectés</strong> : 6 640 643</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In July 2021, the Android applications and games review site AndroidLista suffered a data breach. The incident exposed 6.6M user records containing email addresses, names, usernames and passwords stored as salted SHA-1 hashes, all of which were subsequently posted to a popular hacking forum. AndroidLista did not respond when contacted about the breach.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Names</li><li>Passwords</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AndroidLista">Vérifier si vous êtes concerné</a></li><li><a href="https://androidlista.com/">androidlista.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> names </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> usernames </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Activision - Fuite De Données</title>
-      <link href="/activision-fuite-de-donnees/"/>
-      <url>/activision-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Activision-Fuite-de-donnees"><a href="#Activision-Fuite-de-donnees" class="headerlink" title="Activision - Fuite de données"></a>Activision - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2022-12-04<br><strong>Nombre de comptes affectés</strong> : 16 006</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In December 2022, attackers socially engineered an Activision HR employee into disclosing information which led to the breach of almost 20k employee records. The data contained 16k unique email addresses along with names, phone numbers, job titles and the office location of the employee. Activision advised that no sensitive employee information was included in the breach.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Geographic locations</li><li>Job titles</li><li>Names</li><li>Phone numbers</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Activision">Vérifier si vous êtes concerné</a></li><li><a href="https://activision.com/">activision.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> activision </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> names </tag>
-            
-            <tag> phone numbers </tag>
-            
-            <tag> geographic locations </tag>
-            
-            <tag> job titles </tag>
-            
-            <tag> nom </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Abandonia (2022) - Fuite De Données</title>
-      <link href="/abandonia-2022-fuite-de-donnees/"/>
-      <url>/abandonia-2022-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Abandonia-2022-Fuite-de-donnees"><a href="#Abandonia-2022-Fuite-de-donnees" class="headerlink" title="Abandonia (2022) - Fuite de données"></a>Abandonia (2022) - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2022-11-15<br><strong>Nombre de comptes affectés</strong> : 919 790</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In November 2022, the gaming website dedicated to classic DOS games Abandonia suffered a data breach resulting in the exposure of 920k unique user records. This breach was in addition to another one 7 years earlier in 2015. The data contained email and IP addresses, usernames and salted MD5 hashes of passwords.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>IP addresses</li><li>Passwords</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Abandonia2022">Vérifier si vous êtes concerné</a></li><li><a href="https://abandonia.com/">abandonia.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> ip addresses </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> usernames </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Adecco - Fuite De Données</title>
-      <link href="/adecco-fuite-de-donnees/"/>
-      <url>/adecco-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Adecco-Fuite-de-donnees"><a href="#Adecco-Fuite-de-donnees" class="headerlink" title="Adecco - Fuite de données"></a>Adecco - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2021-01-03<br><strong>Nombre de comptes affectés</strong> : 4 284 538</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In March 2021, news broke of a massive data breach impacting millions of Adecco customers in South America which was subsequently sold on a popular hacking forum. The breach exposed over 4M unique email addresses as well as genders, dates of birth, marital statuses, phone numbers and passwords stored as bcrypt hashes.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Genders</li><li>Geographic locations</li><li>Marital statuses</li><li>Names</li><li>Passwords</li><li>Phone numbers</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Adecco">Vérifier si vous êtes concerné</a></li><li><a href="https://adecco.com/">adecco.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> adecco </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> names </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> phone numbers </tag>
-            
-            <tag> geographic locations </tag>
-            
-            <tag> genders </tag>
-            
-            <tag> nom </tag>
-            
-            <tag> marital statuses </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Amart Furniture - Fuite De Données</title>
-      <link href="/amart-furniture-fuite-de-donnees/"/>
-      <url>/amart-furniture-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Amart-Furniture-Fuite-de-donnees"><a href="#Amart-Furniture-Fuite-de-donnees" class="headerlink" title="Amart Furniture - Fuite de données"></a>Amart Furniture - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2022-05-16<br><strong>Nombre de comptes affectés</strong> : 108 940</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In May 2022, the Australian retailer Amart Furniture advised that their warranty claims database hosted on Amazon Web Services had been the target of a cyber attack. Over 100k records containing email and physical address, names, phone numbers and passwords stored as bcrypt hashes were exposed and shared online by the attacker.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Names</li><li>Passwords</li><li>Phone numbers</li><li>Physical addresses</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AmartFurniture">Vérifier si vous êtes concerné</a></li><li><a href="https://amartfurniture.com.au/">amartfurniture.com.au</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> names </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> phone numbers </tag>
-            
-            <tag> physical addresses </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Aimware - Fuite De Données</title>
-      <link href="/aimware-fuite-de-donnees/"/>
-      <url>/aimware-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Aimware-Fuite-de-donnees"><a href="#Aimware-Fuite-de-donnees" class="headerlink" title="Aimware - Fuite de données"></a>Aimware - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2019-04-28<br><strong>Nombre de comptes affectés</strong> : 305 470</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In mid-2019, the video game cheats website “Aimware” suffered a data breach that exposed hundreds of thousands of subscribers’ personal information. Data included email and IP addresses, usernames, forum posts, private messages, website activity and passwords stored as salted MD5 hashes.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>IP addresses</li><li>Passwords</li><li>Private messages</li><li>Usernames</li><li>Website activity</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Aimware">Vérifier si vous êtes concerné</a></li><li><a href="https://aimware.net/">aimware.net</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> ip addresses </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> usernames </tag>
-            
-            <tag> website activity </tag>
-            
-            <tag> private messages </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Aditya Birla Fashion and Retail - Fuite De Données</title>
-      <link href="/aditya-birla-fashion-and-retail-fuite-de-donnees/"/>
-      <url>/aditya-birla-fashion-and-retail-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Aditya-Birla-Fashion-and-Retail-Fuite-de-donnees"><a href="#Aditya-Birla-Fashion-and-Retail-Fuite-de-donnees" class="headerlink" title="Aditya Birla Fashion and Retail - Fuite de données"></a>Aditya Birla Fashion and Retail - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2021-12-01<br><strong>Nombre de comptes affectés</strong> : 5 470 063</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In December 2021, Indian retailer Aditya Birla Fashion and Retail Ltd was breached and ransomed. The ransom demand was allegedly rejected and data containing 5.4M unique email addresses was subsequently dumped publicly on a popular hacking forum the next month. The data contained extensive personal customer information including names, phone numbers, physical addresses, DoBs, order histories and passwords stored as MD5 hashes. Employee data was also dumped publicly and included salary grades, marital statuses and religions.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Genders</li><li>Income levels</li><li>Job titles</li><li>Marital statuses</li><li>Names</li><li>Passwords</li><li>Phone numbers</li><li>Physical addresses</li><li>Purchases</li><li>Religions</li><li>Salutations</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/ABFRL">Vérifier si vous êtes concerné</a></li><li><a href="https://abfrl.com/">abfrl.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> abfrl </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> names </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> phone numbers </tag>
-            
-            <tag> physical addresses </tag>
-            
-            <tag> genders </tag>
-            
-            <tag> job titles </tag>
-            
-            <tag> salutations </tag>
-            
-            <tag> nom </tag>
-            
-            <tag> marital statuses </tag>
-            
-            <tag> income levels </tag>
-            
-            <tag> purchases </tag>
-            
-            <tag> religions </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>ActMobile - Fuite De Données</title>
-      <link href="/actmobile-fuite-de-donnees/"/>
-      <url>/actmobile-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="ActMobile-Fuite-de-donnees"><a href="#ActMobile-Fuite-de-donnees" class="headerlink" title="ActMobile - Fuite de données"></a>ActMobile - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2021-10-08<br><strong>Nombre de comptes affectés</strong> : 1 583 193</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In October 2021, security researcher Bob Diachenko discovered an exposed database he attributed to ActMobile, the operators of Dash VPN and FreeVPN. The exposed data included 1.6 million unique email addresses along with IP addresses and password hashes, all of which were subsequently leaked on a popular hacking forum. Although usage of the service was verified by HIBP subscribers, ActMobile denied the data was sourced from them and the breach has subsequently been flagged as “unverified”.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>IP addresses</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/ActMobile">Vérifier si vous êtes concerné</a></li><li><a href="https://actmobile.com/">actmobile.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> actmobile </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> ip addresses </tag>
-            
-            <tag> nom </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Ajarn - Fuite De Données</title>
-      <link href="/ajarn-fuite-de-donnees/"/>
-      <url>/ajarn-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Ajarn-Fuite-de-donnees"><a href="#Ajarn-Fuite-de-donnees" class="headerlink" title="Ajarn - Fuite de données"></a>Ajarn - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2018-12-13<br><strong>Nombre de comptes affectés</strong> : 266 399</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In September 2021, the Thai-based English language teaching website Ajarn discovered they’d been the victim of a data breach dating back to December 2018. The breach was self-submitted to HIBP and included 266k email addresses, names, genders, phone numbers and other personal information. Hashed passwords were also impacted in the breach.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Dates of birth</li><li>Education levels</li><li>Email addresses</li><li>Genders</li><li>Geographic locations</li><li>Job applications</li><li>Marital statuses</li><li>Names</li><li>Nationalities</li><li>Passwords</li><li>Phone numbers</li><li>Profile photos</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Ajarn">Vérifier si vous êtes concerné</a></li><li><a href="https://ajarn.com/">ajarn.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> ajarn </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> names </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> phone numbers </tag>
-            
-            <tag> dates of birth </tag>
-            
-            <tag> geographic locations </tag>
-            
-            <tag> genders </tag>
-            
-            <tag> nom </tag>
-            
-            <tag> marital statuses </tag>
-            
-            <tag> education levels </tag>
-            
-            <tag> job applications </tag>
-            
-            <tag> nationalities </tag>
-            
-            <tag> profile photos </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>123RF - Fuite De Données</title>
-      <link href="/123rf-fuite-de-donnees/"/>
-      <url>/123rf-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="123RF-Fuite-de-donnees"><a href="#123RF-Fuite-de-donnees" class="headerlink" title="123RF - Fuite de données"></a>123RF - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2020-03-22<br><strong>Nombre de comptes affectés</strong> : 8 661 578</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In March 2020, the stock photo site 123RF suffered a data breach which impacted over 8 million subscribers and was subsequently sold online. The breach included email, IP and physical addresses, names, phone numbers and passwords stored as MD5 hashes. The data was provided to HIBP by dehashed.com.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>IP addresses</li><li>Names</li><li>Passwords</li><li>Phone numbers</li><li>Physical addresses</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/123RF">Vérifier si vous êtes concerné</a></li><li><a href="https://123rf.com/">123rf.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> 123rf </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> ip addresses </tag>
-            
-            <tag> names </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> phone numbers </tag>
-            
-            <tag> physical addresses </tag>
-            
-            <tag> usernames </tag>
-            
-            <tag> nom </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Animal Jam - Fuite De Données</title>
-      <link href="/animal-jam-fuite-de-donnees/"/>
-      <url>/animal-jam-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Animal-Jam-Fuite-de-donnees"><a href="#Animal-Jam-Fuite-de-donnees" class="headerlink" title="Animal Jam - Fuite de données"></a>Animal Jam - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2020-10-12<br><strong>Nombre de comptes affectés</strong> : 7 104 998</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In October 2020, the online game for kids Animal Jam suffered a data breach which was subsequently shared through online hacking communities the following month. The data contained 46 million user accounts with over 7 million unique email addresses. Impacted data also included usernames, IP addresses and for some records, dates of birth (sometimes in partial form), physical addresses, parent names and passwords stored as PBKDF2 hashes.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Dates of birth</li><li>Email addresses</li><li>Genders</li><li>IP addresses</li><li>Names</li><li>Passwords</li><li>Physical addresses</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AnimalJam">Vérifier si vous êtes concerné</a></li><li><a href="https://animaljam.com/">animaljam.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> ip addresses </tag>
-            
-            <tag> names </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> physical addresses </tag>
-            
-            <tag> usernames </tag>
-            
-            <tag> dates of birth </tag>
-            
-            <tag> genders </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>AnimeGame - Fuite De Données</title>
-      <link href="/animegame-fuite-de-donnees/"/>
-      <url>/animegame-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="AnimeGame-Fuite-de-donnees"><a href="#AnimeGame-Fuite-de-donnees" class="headerlink" title="AnimeGame - Fuite de données"></a>AnimeGame - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2020-02-27<br><strong>Nombre de comptes affectés</strong> : 1 431 378</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In February 2020, the gaming website AnimeGame suffered a data breach. The incident affected 1.4M subscribers and exposed email addresses, usernames and passwords stored as salted MD5 hashes. The data was subsequently shared on a popular hacking forum and was provided to HIBP by dehashed.com.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Passwords</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AnimeGame">Vérifier si vous êtes concerné</a></li><li><a href="https://animegame.me/">animegame.me</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> usernames </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Adult FriendFinder (2016) - Fuite De Données</title>
-      <link href="/adult-friendfinder-2016-fuite-de-donnees/"/>
-      <url>/adult-friendfinder-2016-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Adult-FriendFinder-2016-Fuite-de-donnees"><a href="#Adult-FriendFinder-2016-Fuite-de-donnees" class="headerlink" title="Adult FriendFinder (2016) - Fuite de données"></a>Adult FriendFinder (2016) - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2016-10-16<br><strong>Nombre de comptes affectés</strong> : 169 746 810</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In October 2016, the adult entertainment company Friend Finder Networks suffered a massive data breach. The incident impacted multiple separate online assets owned by the company, the largest of which was the Adult FriendFinder website alleged to be “the world’s largest sex &amp; swinger community”. Exposed data included usernames, passwords stored as SHA-1 hashes and 170 million unique email addresses. This incident is separate to the 2015 data breach Adult FriendFinder also suffered. The data was provided to HIBP by dehashed.com.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Passwords</li><li>Spoken languages</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AdultFriendFinder2016">Vérifier si vous êtes concerné</a></li><li><a href="https://adultfriendfinder.com/">adultfriendfinder.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> usernames </tag>
-            
-            <tag> spoken languages </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>AgusiQ-Torrents.pl - Fuite De Données</title>
-      <link href="/agusiq-torrents-pl-fuite-de-donnees/"/>
-      <url>/agusiq-torrents-pl-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="AgusiQ-Torrents-pl-Fuite-de-donnees"><a href="#AgusiQ-Torrents-pl-Fuite-de-donnees" class="headerlink" title="AgusiQ-Torrents.pl - Fuite de données"></a>AgusiQ-Torrents.pl - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2019-09-24<br><strong>Nombre de comptes affectés</strong> : 90 478</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In September 2019, Polish torrent site AgusiQ-Torrents.pl suffered a data breach. The incident exposed 90k member records including email and IP addresses, usernames and passwords stored as MD5 hashes.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>IP addresses</li><li>Passwords</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AgusiQTorrents">Vérifier si vous êtes concerné</a></li><li><a href="https://agusiq-torrents.pl/">agusiq-torrents.pl</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> agusiqtorrents </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> ip addresses </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> usernames </tag>
-            
-            <tag> nom </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>500px - Fuite De Données</title>
-      <link href="/500px-fuite-de-donnees/"/>
-      <url>/500px-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="500px-Fuite-de-donnees"><a href="#500px-Fuite-de-donnees" class="headerlink" title="500px - Fuite de données"></a>500px - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2018-07-05<br><strong>Nombre de comptes affectés</strong> : 14 867 999</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In mid-2018, the online photography community 500px suffered a data breach. The incident exposed almost 15 million unique email addresses alongside names, usernames, genders, dates of birth and either an MD5 or bcrypt password hash. In 2019, the data appeared listed for sale on a dark web marketplace (along with several other large breaches) and subsequently began circulating more broadly.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Dates of birth</li><li>Email addresses</li><li>Genders</li><li>Geographic locations</li><li>Names</li><li>Passwords</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/500px">Vérifier si vous êtes concerné</a></li><li><a href="https://500px.com/">500px.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> 500px </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> names </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> usernames </tag>
-            
-            <tag> dates of birth </tag>
-            
-            <tag> geographic locations </tag>
-            
-            <tag> genders </tag>
-            
-            <tag> nom </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>8fit - Fuite De Données</title>
-      <link href="/8fit-fuite-de-donnees/"/>
-      <url>/8fit-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="8fit-Fuite-de-donnees"><a href="#8fit-Fuite-de-donnees" class="headerlink" title="8fit - Fuite de données"></a>8fit - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2018-07-01<br><strong>Nombre de comptes affectés</strong> : 15 025 407</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In July 2018, the health and fitness service 8fit suffered a data breach. The data subsequently appeared for sale on a dark web marketplace in February 2019 and included over 15M unique email addresses alongside names, genders, IP addresses and passwords stored as bcrypt hashes. The data was provided to HIBP by dehashed.com.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Genders</li><li>Geographic locations</li><li>IP addresses</li><li>Names</li><li>Passwords</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/8fit">Vérifier si vous êtes concerné</a></li><li><a href="https://8fit.com/">8fit.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> 8fit </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> ip addresses </tag>
-            
-            <tag> names </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> geographic locations </tag>
-            
-            <tag> genders </tag>
-            
-            <tag> nom </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>AerServ - Fuite De Données</title>
-      <link href="/aerserv-fuite-de-donnees/"/>
-      <url>/aerserv-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="AerServ-Fuite-de-donnees"><a href="#AerServ-Fuite-de-donnees" class="headerlink" title="AerServ - Fuite de données"></a>AerServ - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2018-04-01<br><strong>Nombre de comptes affectés</strong> : 66 308</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In April 2018, the ad management platform known as AerServ suffered a data breach. Acquired by InMobi earlier in the year, the AerServ breach impacted over 66k unique email addresses and also included contact information and passwords stored as salted SHA-512 hashes. The data was publicly posted to Twitter later in 2018 after which InMobi was notified and advised they were aware of the incident.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Employers</li><li>Job titles</li><li>Names</li><li>Passwords</li><li>Phone numbers</li><li>Physical addresses</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AerServ">Vérifier si vous êtes concerné</a></li><li><a href="https://aerserv.com/">aerserv.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> aerserv </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> names </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> phone numbers </tag>
-            
-            <tag> physical addresses </tag>
-            
-            <tag> job titles </tag>
-            
-            <tag> nom </tag>
-            
-            <tag> employers </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Adapt - Fuite De Données</title>
-      <link href="/adapt-fuite-de-donnees/"/>
-      <url>/adapt-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Adapt-Fuite-de-donnees"><a href="#Adapt-Fuite-de-donnees" class="headerlink" title="Adapt - Fuite de données"></a>Adapt - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2018-11-05<br><strong>Nombre de comptes affectés</strong> : 9 363 740</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In November 2018, security researcher Bob Diachenko identified an unprotected database hosted by data aggregator “Adapt”. A provider of “Fresh Quality Contacts”, the service exposed over 9.3M unique records of individuals and employer information including their names, employers, job titles, contact information and data relating to the employer including organisation description, size and revenue. No response was received from Adapt when contacted.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Employers</li><li>Job titles</li><li>Names</li><li>Phone numbers</li><li>Physical addresses</li><li>Social media profiles</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Adapt">Vérifier si vous êtes concerné</a></li><li><a href="https://adapt.io/">adapt.io</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> adapt </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> names </tag>
-            
-            <tag> phone numbers </tag>
-            
-            <tag> physical addresses </tag>
-            
-            <tag> job titles </tag>
-            
-            <tag> nom </tag>
-            
-            <tag> employers </tag>
-            
-            <tag> social media profiles </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Adult-FanFiction.Org - Fuite De Données</title>
-      <link href="/adult-fanfiction-org-fuite-de-donnees/"/>
-      <url>/adult-fanfiction-org-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Adult-FanFiction-Org-Fuite-de-donnees"><a href="#Adult-FanFiction-Org-Fuite-de-donnees" class="headerlink" title="Adult-FanFiction.Org - Fuite de données"></a>Adult-FanFiction.Org - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2018-05-30<br><strong>Nombre de comptes affectés</strong> : 186 082</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In May 2018, the website for sharing adult-orientated works of fiction known as Adult-FanFiction.Org had 186k records exposed in a data breach. The data contained names, email addresses, dates of birth and passwords stored as both MD5 hashes and plain text. AFF did not respond when contacted about the breach and the site was previously reported as compromised on the Vigilante.pw breached database directory.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Dates of birth</li><li>Email addresses</li><li>Names</li><li>Passwords</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AdultFanFiction">Vérifier si vous êtes concerné</a></li><li><a href="https://adult-fanfiction.org/">adult-fanfiction.org</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> adultfanfiction </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> names </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> dates of birth </tag>
-            
-            <tag> nom </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>17173 - Fuite De Données</title>
-      <link href="/17173-fuite-de-donnees/"/>
-      <url>/17173-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="17173-Fuite-de-donnees"><a href="#17173-Fuite-de-donnees" class="headerlink" title="17173 - Fuite de données"></a>17173 - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2011-12-28<br><strong>Nombre de comptes affectés</strong> : 7 485 802</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In late 2011, a series of data breaches in China affected up to 100 million users, including 7.5 million from the gaming site known as 17173. Whilst there is evidence that the data is legitimate, due to the difficulty of emphatically verifying the Chinese breach it has been flagged as “unverified”. The data in the breach contains usernames, email addresses and salted MD5 password hashes and was provided with support from dehashed.com. Read more about Chinese data breaches in Have I Been Pwned.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Passwords</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/17173">Vérifier si vous êtes concerné</a></li><li><a href="https://17173.com/">17173.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> 17173 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> usernames </tag>
-            
-            <tag> nom </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>2,844 Separate Data Breaches - Fuite De Données</title>
-      <link href="/2-844-separate-data-breaches-fuite-de-donnees/"/>
-      <url>/2-844-separate-data-breaches-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="2-844-Separate-Data-Breaches-Fuite-de-donnees"><a href="#2-844-Separate-Data-Breaches-Fuite-de-donnees" class="headerlink" title="2,844 Separate Data Breaches - Fuite de données"></a>2,844 Separate Data Breaches - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2018-02-19<br><strong>Nombre de comptes affectés</strong> : 80 115 532</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In February 2018, a massive collection of almost 3,000 alleged data breaches was found online. Whilst some of the data had previously been seen in Have I Been Pwned, 2,844 of the files consisting of more than 80 million unique email addresses had not previously been seen. Each file contained both an email address and plain text password and were consequently loaded as a single “unverified” data breach.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Passwords</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/2844Breaches">Vérifier si vous êtes concerné</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> 2844breaches </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> nom </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>8tracks - Fuite De Données</title>
-      <link href="/8tracks-fuite-de-donnees/"/>
-      <url>/8tracks-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="8tracks-Fuite-de-donnees"><a href="#8tracks-Fuite-de-donnees" class="headerlink" title="8tracks - Fuite de données"></a>8tracks - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2017-06-27<br><strong>Nombre de comptes affectés</strong> : 17 979 961</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In June 2017, the online playlists service known as 8Tracks suffered a data breach which impacted 18 million accounts. In their disclosure, 8Tracks advised that “the vector for the attack was an employee’s GitHub account, which was not secured using two-factor authentication”. Salted SHA-1 password hashes for users who didn’t sign up with either Google or Facebook authentication were also included. The data was provided to HIBP by whitehat security researcher and data analyst Adam Davies and contained almost 8 million unique email addresses. The complete set of 18M records was later provided by <a href="mailto:&#x4a;&#105;&#x6d;&#x53;&#99;&#x6f;&#x74;&#116;&#46;&#x53;&#x65;&#x63;&#64;&#x70;&#114;&#x6f;&#116;&#x6f;&#x6e;&#109;&#x61;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">JimScott.Sec@protonmail.com</a> and updated in HIBP accordingly.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Passwords</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/8tracks">Vérifier si vous êtes concerné</a></li><li><a href="https://8tracks.com/">8tracks.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> 8tracks </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> nom </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>2fast4u - Fuite De Données</title>
-      <link href="/2fast4u-fuite-de-donnees/"/>
-      <url>/2fast4u-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="2fast4u-Fuite-de-donnees"><a href="#2fast4u-Fuite-de-donnees" class="headerlink" title="2fast4u - Fuite de données"></a>2fast4u - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2017-12-20<br><strong>Nombre de comptes affectés</strong> : 17 706</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In December 2017, the Belgian motorcycle forum 2fast4u discovered a data breach of their system. The breach of the vBulletin message board impacted over 17k individual users and exposed email addresses, usersnames and salted MD5 passwords.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Passwords</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/2fast4u">Vérifier si vous êtes concerné</a></li><li><a href="https://2fast4u.be/">2fast4u.be</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> 2fast4u </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> usernames </tag>
-            
-            <tag> nom </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Ancestry - Fuite De Données</title>
-      <link href="/ancestry-fuite-de-donnees/"/>
-      <url>/ancestry-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Ancestry-Fuite-de-donnees"><a href="#Ancestry-Fuite-de-donnees" class="headerlink" title="Ancestry - Fuite de données"></a>Ancestry - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2015-11-07<br><strong>Nombre de comptes affectés</strong> : 297 806</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In November 2015, an Ancestry service known as RootsWeb suffered a data breach. The breach was not discovered until late 2017 when a file containing almost 300k email addresses and plain text passwords was identified. </p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Passwords</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Ancestry">Vérifier si vous êtes concerné</a></li><li><a href="https://ancestry.com/">ancestry.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> passwords </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>ai.type - Fuite De Données</title>
-      <link href="/ai-type-fuite-de-donnees/"/>
-      <url>/ai-type-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="ai-type-Fuite-de-donnees"><a href="#ai-type-Fuite-de-donnees" class="headerlink" title="ai.type - Fuite de données"></a>ai.type - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2017-12-05<br><strong>Nombre de comptes affectés</strong> : 20 580 060</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In December 2017, the virtual keyboard application ai.type was found to have left a huge amount of data publicly facing in an unsecured MongoDB instance. Discovered by researchers at The Kromtech Security Center, the 577GB data set included extensive personal information including over 20 million unique email addresses, social media profiles and address book contacts. The email addresses alone were provided to HIBP to enable impacted users to assess their exposure.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Address book contacts</li><li>Apps installed on devices</li><li>Cellular network names</li><li>Dates of birth</li><li>Device information</li><li>Email addresses</li><li>Genders</li><li>Geographic locations</li><li>IMEI numbers</li><li>IMSI numbers</li><li>IP addresses</li><li>Names</li><li>Phone numbers</li><li>Profile photos</li><li>Social media profiles</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AIType">Vérifier si vous êtes concerné</a></li><li><a href="https://aitype.com/">aitype.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> ip addresses </tag>
-            
-            <tag> names </tag>
-            
-            <tag> phone numbers </tag>
-            
-            <tag> dates of birth </tag>
-            
-            <tag> geographic locations </tag>
-            
-            <tag> device information </tag>
-            
-            <tag> genders </tag>
-            
-            <tag> social media profiles </tag>
-            
-            <tag> profile photos </tag>
-            
-            <tag> address book contacts </tag>
-            
-            <tag> apps installed on devices </tag>
-            
-            <tag> cellular network names </tag>
-            
-            <tag> imei numbers </tag>
-            
-            <tag> imsi numbers </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>AbuseWith.Us - Fuite De Données</title>
-      <link href="/abusewith-us-fuite-de-donnees/"/>
-      <url>/abusewith-us-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="AbuseWith-Us-Fuite-de-donnees"><a href="#AbuseWith-Us-Fuite-de-donnees" class="headerlink" title="AbuseWith.Us - Fuite de données"></a>AbuseWith.Us - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2016-07-01<br><strong>Nombre de comptes affectés</strong> : 1 372 550</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In 2016, the site dedicated to helping people hack email and online gaming accounts known as Abusewith.us suffered multiple data breaches. The site allegedly had an administrator in common with the nefarious LeakedSource site, both of which have since been shut down. The exposed data included more than 1.3 million unique email addresses, often accompanied by usernames, IP addresses and plain text or hashed passwords retrieved from various sources and intended to be used to compromise the victims’ accounts.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>IP addresses</li><li>Passwords</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AbuseWithUs">Vérifier si vous êtes concerné</a></li><li><a href="https://abusewith.us/">abusewith.us</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> abusewithus </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> ip addresses </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> usernames </tag>
-            
-            <tag> nom </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>AKP Emails - Fuite De Données</title>
-      <link href="/akp-emails-fuite-de-donnees/"/>
-      <url>/akp-emails-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="AKP-Emails-Fuite-de-donnees"><a href="#AKP-Emails-Fuite-de-donnees" class="headerlink" title="AKP Emails - Fuite de données"></a>AKP Emails - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2016-07-19<br><strong>Nombre de comptes affectés</strong> : 917 461</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In July 2016, a hacker known as Phineas Fisher hacked Turkey’s ruling party (Justice and Development Party or “AKP”) and gained access to 300k emails. The full contents of the emails were subsequently published by WikiLeaks and made searchable. HIBP identified over 917k unique email address patterns in the data set, including message IDs and a number of other non-user addresses.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Email messages</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AKP">Vérifier si vous êtes concerné</a></li><li><a href="https://akparti.org.tr/">akparti.org.tr</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> email messages </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>7k7k - Fuite De Données</title>
-      <link href="/7k7k-fuite-de-donnees/"/>
-      <url>/7k7k-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="7k7k-Fuite-de-donnees"><a href="#7k7k-Fuite-de-donnees" class="headerlink" title="7k7k - Fuite de données"></a>7k7k - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2011-01-01<br><strong>Nombre de comptes affectés</strong> : 9 121 434</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In approximately 2011, it’s alleged that the Chinese gaming site known as 7k7k suffered a data breach that impacted 9.1 million subscribers. Whilst there is evidence that the data is legitimate, due to the difficulty of emphatically verifying the Chinese breach it has been flagged as “unverified”. The data in the breach contains usernames, email addresses and plain text passwords. Read more about Chinese data breaches in Have I Been Pwned.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Passwords</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/7k7k">Vérifier si vous êtes concerné</a></li><li><a href="https://7k7k.com/">7k7k.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> 7k7k </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> usernames </tag>
-            
-            <tag> nom </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Abandonia (2015) - Fuite De Données</title>
-      <link href="/abandonia-2015-fuite-de-donnees/"/>
-      <url>/abandonia-2015-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Abandonia-2015-Fuite-de-donnees"><a href="#Abandonia-2015-Fuite-de-donnees" class="headerlink" title="Abandonia (2015) - Fuite de données"></a>Abandonia (2015) - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2015-11-01<br><strong>Nombre de comptes affectés</strong> : 776 125</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In November 2015, the gaming website dedicated to classic DOS games Abandonia suffered a data breach resulting in the exposure of 776k unique user records. The data contained email and IP addresses, usernames and salted MD5 hashes of passwords.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>IP addresses</li><li>Passwords</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Abandonia">Vérifier si vous êtes concerné</a></li><li><a href="https://abandonia.com/">abandonia.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> ip addresses </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> usernames </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Aipai.com - Fuite De Données</title>
-      <link href="/aipai-com-fuite-de-donnees/"/>
-      <url>/aipai-com-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Aipai-com-Fuite-de-donnees"><a href="#Aipai-com-Fuite-de-donnees" class="headerlink" title="Aipai.com - Fuite de données"></a>Aipai.com - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2016-09-27<br><strong>Nombre de comptes affectés</strong> : 6 496 778</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In September 2016, data allegedly obtained from the Chinese gaming website known as Aipai.com and containing 6.5M accounts was leaked online. Whilst there is evidence that the data is legitimate, due to the difficulty of emphatically verifying the Chinese breach it has been flagged as “unverified”. The data in the breach contains email addresses and MD5 password hashes. Read more about Chinese data breaches in Have I Been Pwned.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Passwords</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Aipai">Vérifier si vous êtes concerné</a></li><li><a href="https://aipai.com/">aipai.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> aipai </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> nom </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>126 - Fuite De Données</title>
-      <link href="/126-fuite-de-donnees/"/>
-      <url>/126-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="126-Fuite-de-donnees"><a href="#126-Fuite-de-donnees" class="headerlink" title="126 - Fuite de données"></a>126 - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2012-01-01<br><strong>Nombre de comptes affectés</strong> : 6 414 191</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In approximately 2012, it’s alleged that the Chinese email service known as 126 suffered a data breach that impacted 6.4 million subscribers. Whilst there is evidence that the data is legitimate, due to the difficulty of emphatically verifying the Chinese breach it has been flagged as “unverified”. The data in the breach contains email addresses and plain text passwords. Read more about Chinese data breaches in Have I Been Pwned.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Passwords</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/126">Vérifier si vous êtes concerné</a></li><li><a href="https://126.com/">126.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> 126 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> nom </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>17 - Fuite De Données</title>
-      <link href="/17-fuite-de-donnees/"/>
-      <url>/17-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="17-Fuite-de-donnees"><a href="#17-Fuite-de-donnees" class="headerlink" title="17 - Fuite de données"></a>17 - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2016-04-19<br><strong>Nombre de comptes affectés</strong> : 4 009 640</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In April 2016, customer data obtained from the streaming app known as “17” appeared listed for sale on a Tor hidden service marketplace. The data contained over 4 million unique email addresses along with IP addresses, usernames and passwords stored as unsalted MD5 hashes.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Device information</li><li>Email addresses</li><li>IP addresses</li><li>Passwords</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/17Media">Vérifier si vous êtes concerné</a></li><li><a href="https://17app.co/">17app.co</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> 17media </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> ip addresses </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> usernames </tag>
-            
-            <tag> device information </tag>
-            
-            <tag> nom </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Acne.org - Fuite De Données</title>
-      <link href="/acne-org-fuite-de-donnees/"/>
-      <url>/acne-org-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Acne-org-Fuite-de-donnees"><a href="#Acne-org-Fuite-de-donnees" class="headerlink" title="Acne.org - Fuite de données"></a>Acne.org - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2014-11-25<br><strong>Nombre de comptes affectés</strong> : 432 943</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In November 2014, the acne website acne.org suffered a data breach that exposed over 430k forum members’ accounts. The data was being actively traded on underground forums and included email addresses, birth dates and passwords.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Dates of birth</li><li>Email addresses</li><li>IP addresses</li><li>Passwords</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AcneOrg">Vérifier si vous êtes concerné</a></li><li><a href="https://acne.org/">acne.org</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> acneorg </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> ip addresses </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> usernames </tag>
-            
-            <tag> dates of birth </tag>
-            
-            <tag> nom </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Android Forums - Fuite De Données</title>
-      <link href="/android-forums-fuite-de-donnees/"/>
-      <url>/android-forums-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Android-Forums-Fuite-de-donnees"><a href="#Android-Forums-Fuite-de-donnees" class="headerlink" title="Android Forums - Fuite de données"></a>Android Forums - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2011-10-30<br><strong>Nombre de comptes affectés</strong> : 745 355</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In October 2011, the Android Forums website was hacked and 745k user accounts were subsequently leaked publicly. The compromised data included email addresses, user birth dates and passwords stored as a salted MD5 hash.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Dates of birth</li><li>Email addresses</li><li>Homepage URLs</li><li>Instant messenger identities</li><li>IP addresses</li><li>Passwords</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AndroidForums">Vérifier si vous êtes concerné</a></li><li><a href="https://androidforums.com/">androidforums.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> ip addresses </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> dates of birth </tag>
-            
-            <tag> homepage urls </tag>
-            
-            <tag> instant messenger identities </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>000webhost - Fuite De Données</title>
-      <link href="/000webhost-fuite-de-donnees/"/>
-      <url>/000webhost-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="000webhost-Fuite-de-donnees"><a href="#000webhost-Fuite-de-donnees" class="headerlink" title="000webhost - Fuite de données"></a>000webhost - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2015-03-01<br><strong>Nombre de comptes affectés</strong> : 14 936 670</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In approximately March 2015, the free web hosting provider 000webhost suffered a major data breach that exposed almost 15 million customer records. The data was sold and traded before 000webhost was alerted in October. The breach included names, email addresses and plain text passwords.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>IP addresses</li><li>Names</li><li>Passwords</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/000webhost">Vérifier si vous êtes concerné</a></li><li><a href="https://000webhost.com/">000webhost.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> 000webhost </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> ip addresses </tag>
-            
-            <tag> names </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> nom </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Adult FriendFinder (2015) - Fuite De Données</title>
-      <link href="/adult-friendfinder-2015-fuite-de-donnees/"/>
-      <url>/adult-friendfinder-2015-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Adult-FriendFinder-2015-Fuite-de-donnees"><a href="#Adult-FriendFinder-2015-Fuite-de-donnees" class="headerlink" title="Adult FriendFinder (2015) - Fuite de données"></a>Adult FriendFinder (2015) - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2015-05-21<br><strong>Nombre de comptes affectés</strong> : 3 867 997</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In May 2015, the adult hookup site Adult FriendFinder was hacked and nearly 4 million records dumped publicly. The data dump included extremely sensitive personal information about individuals and their relationship statuses and sexual preferences combined with personally identifiable information.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Dates of birth</li><li>Email addresses</li><li>Genders</li><li>Geographic locations</li><li>IP addresses</li><li>Races</li><li>Relationship statuses</li><li>Sexual orientations</li><li>Spoken languages</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AdultFriendFinder">Vérifier si vous êtes concerné</a></li><li><a href="https://adultfriendfinder.com/">adultfriendfinder.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> ip addresses </tag>
-            
-            <tag> usernames </tag>
-            
-            <tag> dates of birth </tag>
-            
-            <tag> geographic locations </tag>
-            
-            <tag> genders </tag>
-            
-            <tag> races </tag>
-            
-            <tag> relationship statuses </tag>
-            
-            <tag> sexual orientations </tag>
-            
-            <tag> spoken languages </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>AhaShare.com - Fuite De Données</title>
-      <link href="/ahashare-com-fuite-de-donnees/"/>
-      <url>/ahashare-com-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="AhaShare-com-Fuite-de-donnees"><a href="#AhaShare-com-Fuite-de-donnees" class="headerlink" title="AhaShare.com - Fuite de données"></a>AhaShare.com - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2013-05-30<br><strong>Nombre de comptes affectés</strong> : 180 468</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In May 2013, the torrent site AhaShare.com suffered a breach which resulted in more than 180k user accounts being published publicly. The breach included a raft of personal information on registered users plus despite assertions of not distributing personally identifiable information, the site also leaked the IP addresses used by the registered identities.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Genders</li><li>Geographic locations</li><li>IP addresses</li><li>Partial dates of birth</li><li>Passwords</li><li>Usernames</li><li>Website activity</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/AhaShare">Vérifier si vous êtes concerné</a></li><li><a href="https://ahashare.com/">ahashare.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> ahashare </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> ip addresses </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> usernames </tag>
-            
-            <tag> geographic locations </tag>
-            
-            <tag> genders </tag>
-            
-            <tag> nom </tag>
-            
-            <tag> partial dates of birth </tag>
-            
-            <tag> website activity </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Adobe - Fuite De Données</title>
-      <link href="/adobe-fuite-de-donnees/"/>
-      <url>/adobe-fuite-de-donnees/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Adobe-Fuite-de-donnees"><a href="#Adobe-Fuite-de-donnees" class="headerlink" title="Adobe - Fuite de données"></a>Adobe - Fuite de données</h1><p><strong>Date de la fuite</strong> : 2013-10-04<br><strong>Nombre de comptes affectés</strong> : 152 445 165</p><h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><p>In October 2013, 153 million Adobe accounts were breached with each containing an internal ID, username, email, encrypted password and a password hint in plain text. The password cryptography was poorly done and many were quickly resolved back to plain text. The unencrypted hints also disclosed much about the passwords adding further to the risk that hundreds of millions of Adobe customers already faced.</p><h2 id="Donnees-exposees"><a href="#Donnees-exposees" class="headerlink" title="Données exposées"></a>Données exposées</h2><ul><li>Email addresses</li><li>Password hints</li><li>Passwords</li><li>Usernames</li></ul><h2 id="Plus-d’informations"><a href="#Plus-d’informations" class="headerlink" title="Plus d’informations"></a>Plus d’informations</h2><ul><li><a href="https://haveibeenpwned.com/breach/Adobe">Vérifier si vous êtes concerné</a></li><li><a href="https://adobe.com/">adobe.com</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> breaches </category>
-          
-          <category> adobe </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> email addresses </tag>
-            
-            <tag> passwords </tag>
-            
-            <tag> usernames </tag>
-            
-            <tag> nom </tag>
-            
-            <tag> password hints </tag>
             
         </tags>
       
