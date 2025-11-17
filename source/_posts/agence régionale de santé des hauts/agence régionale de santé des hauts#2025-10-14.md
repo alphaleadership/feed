@@ -14,7 +14,7 @@ Date et lieu de naissance
 Adresse email
 numéro de téléphone
 adresse postale
-Numéro de sécurit�� sociale
+Numéro de sécurité sociale
 Nationalité
 Statut donneur d’organe
 Dans certains cas
