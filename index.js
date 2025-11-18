@@ -145,7 +145,7 @@ date: ${dateS}
 lien: "${item.guid.replace('eu.orgimg','eu.org/img')}"
 categories:
   - ${Dir}
-  - ${yaml.dump(item.categories)}
+   ${yaml.dump(item.categories)}
 ---
 
 ${cleanContent}
