@@ -17,12 +17,12 @@ const removeNunjucks = (content) => {
   return content.replace(/{%.*?%}/g, '').replace(/{{\s*.*?}}/g, '');
 };
 
-const l = (title) => {
+const l = (title,cat) => {
   if (!title.includes("https://www.intelligenceonline.fr")) {
    return "_posts";
   } else {
     if(!title.includes('https//www.zataz.com/')){ return "_posts";}
-    
+    if(cat.indexOf("Fuite de données")!==-1){return "_posts";}
     return "../temp";
   }
 };
