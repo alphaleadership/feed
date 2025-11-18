@@ -21,7 +21,7 @@ const l = (title) => {
   if (!title.includes("https://www.intelligenceonline.fr")) {
     return "_posts";
   } else {
-    return "../_posts";
+    return "../temp";
   }
 };
 
