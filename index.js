@@ -57,6 +57,36 @@ parser.parseURL(rssUrl).then(feed => {
       // --- Détection des autres fuites pour le même dossier
       // Recherche tous les fichiers existants pour ce dossier
       const allFiles = fs.readdirSync(hexoPostDir).filter(f => f.endsWith('.md'));
+      allFiles.forEach((file) => {
+        const filePath = path.join(hexoPostDir, file);
+        try {
+          const content = fs.readFileSync(filePath, 'utf8');
+      
+              let data
+              const section =content.split('---')[0]
+                console.log(yaml.load( section));
+                data = yaml.load( section)
+                if(data) {
+                   data.pubDate = new Date(data.date);
+                console.log(data.lien)
+                data.guid = data.lien;
+                };
+               
+              
+              console.log(data);
+              
+              if(data &&data.guid && data.pubDate ){
+                data.contentSnippet=content.split('---')[1].trim().split("Autres fuites pour ce dossier :")[0].trim();
+                 if(items.findIndex(it => it.guid === data.guid) === -1) {
+                items.push(data);
+              }
+              }
+             
+          
+        
+        } catch (readErr) {
+          console.log('Erreur lecture fichier existant:', readErr.message);
+        }})
       items.forEach((item, idx) => {
         try {
           // --- Chargement des fichiers de config

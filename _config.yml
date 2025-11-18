@@ -27,8 +27,6 @@ breaches_dir: breaches
 category_dir: category
 code_dir: downloads/code
 i18n_dir: ':lang'
-skip_render:
-  - '**/breaches/**'
 new_post_name: ':title.md'
 default_layout: post
 titlecase: true
