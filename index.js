@@ -24,7 +24,7 @@ const l = (title,cat=[]) => {
    return "../temp";
   } else {
     if(title.includes('https//www.zataz.com/')){ return "../temp";}
-    
+    if(title.includes('https://www.cloudflarestatus.com/')){ return "../temp";}
     return "_posts";
   }
 };
