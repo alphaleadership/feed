@@ -113,7 +113,7 @@ parser.parseURL(rssUrl).then(feed => {
            const pubDat = new Date(item.pubDate);
               const dateS = `${pubDat.getFullYear()}-${pubDat.getMonth() + 1}-${pubDat.getDate()}`;
           // --- Nom fichier : sans index si une seule fuite, avec index sinon
-          const postFileName = items.length === 1 ? `${Dir}#${dateS}.md` : `${Dir}#${dateS}#${idx+1}.md`;
+          const postFileName = items.length === 1 ? `${Dir}#${dateS}.md` : `${Dir}#${dateS}.md`;
           const postFilePath = path.join(hexoPostDir, postFileName);
           // --- Contenu du post
           const rawContent = parsecontent(item.contentSnippet, ',', "\n") || "pas d'information actuellement";
