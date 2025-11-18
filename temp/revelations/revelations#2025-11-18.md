@@ -4,6 +4,7 @@ date: 2025-11-18
 lien: "https://www.intelligenceonline.fr/europe-russie/2025/11/18/revelations-sur-le-quatuor-soupconne-d-avoir-cible-un-opposant-russe-a-biarritz,110559789-eve"
 categories:
   - revelations
+
 ---
 
 Quatre hommes ont été interpellés le 13 octobre

@@ -4,6 +4,7 @@ date: 2025-10-11
 lien: "https://haveibeenpwned.com/Breach/VietnamAirlines"
 categories:
   - vietnamairlines
+
 ---
 
 In October 2025

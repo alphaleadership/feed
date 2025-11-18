@@ -4,6 +4,7 @@ date: 2025-11-17
 lien: "https://socradar.io/eurofiber-breach-critical-infrastructure-data-europe/"
 categories:
   - eurofiber
+
 ---
 
 données sensibles d’infrastructures réseau
