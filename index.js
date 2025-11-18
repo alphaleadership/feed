@@ -18,7 +18,7 @@ const removeNunjucks = (content) => {
 };
 
 const l = (title) => {
-  if (!title.includes("https://www.intelligenceonline.fr")) {
+  if (!title.includes("https://www.intelligenceonline.fr")||!title.includes('https//www.zataz.com/')) {
     return "_posts";
   } else {
     return "../temp";
