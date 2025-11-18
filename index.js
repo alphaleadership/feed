@@ -18,7 +18,7 @@ const removeNunjucks = (content) => {
 };
 
 const l = (title,cat) => {
-  if(cat.indexOf("Fuite de données")!==-1){return "_posts";}
+  if(cat.indexOf("fuite de données")!==-1){return "_posts";}
   if (!title.includes("https://www.intelligenceonline.fr")) {
    return "_posts";
   } else {
