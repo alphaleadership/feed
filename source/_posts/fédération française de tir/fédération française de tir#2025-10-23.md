@@ -1,4 +1,3 @@
- 
 title: fédération française de tir fuite du 2025-10-23
 date: 2025-10-23
 lien: "https://www.fftir.org/communication-relative-a-un-incident-de-securite/"

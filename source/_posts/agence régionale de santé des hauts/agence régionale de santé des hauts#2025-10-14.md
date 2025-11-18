@@ -1,4 +1,3 @@
- 
 title: agence régionale de santé des hauts fuite du 2025-10-14
 date: 2025-10-14
 lien: "https://info.inea.fr/"

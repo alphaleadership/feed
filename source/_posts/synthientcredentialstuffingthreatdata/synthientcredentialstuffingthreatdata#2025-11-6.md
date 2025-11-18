@@ -1,4 +1,3 @@
- 
 title: synthientcredentialstuffingthreatdata fuite du 2025-11-6
 date: 2025-11-6
 lien: "https://haveibeenpwned.com/Breach/SynthientCredentialStuffingThreatData"

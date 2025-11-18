@@ -104,6 +104,7 @@ parser.parseURL(rssUrl).then(feed => {
           if (!config.category_map.map((ite)=>{return ite.toLowerCase()}).includes(Dir.toLowerCase())) {
             config.category_map.push(Dir.toLowerCase());
           }
+          config.category_map=[... new Set(config.category_map)]
           let tags = config.tags ? config.tags.split(",") : [];
           config.tags = [...new Set(tags)].join(",");
           build.tags = config.tags;
@@ -145,8 +146,7 @@ parser.parseURL(rssUrl).then(feed => {
           }else{
             item.categories=[Dir]
           }
-          const postContentHexo = ` 
-title: ${Dir} fuite du ${dateS}
+          const postContentHexo = `title: ${Dir} fuite du ${dateS}
 date: ${dateS}
 lien: "${item.guid.replace('eu.orgimg','eu.org/img')}"
 ${yaml.dump({categories:[... new Set(item.categories)]})}

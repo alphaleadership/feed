@@ -1,4 +1,3 @@
- 
 title: france travail fuite du 2025-7-22
 date: 2025-7-22
 lien: "https://bonjourlafuite.eu.org/img/france-travail.jpg"
