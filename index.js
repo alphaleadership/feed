@@ -17,14 +17,15 @@ const removeNunjucks = (content) => {
   return content.replace(/{%.*?%}/g, '').replace(/{{\s*.*?}}/g, '');
 };
 
-const l = (title,cat) => {
-  if(cat.indexOf("fuite de données")!==-1){return "_posts";}
-  if (!title.includes("https://www.intelligenceonline.fr")) {
-   return "_posts";
+const l = (title,cat=[]) => {
+  console.log(cat.indexOf("fuite de données"))
+  if(cat.includes("fuite de données")){return "_posts";}
+  if (title.includes("https://www.intelligenceonline.fr")) {
+   return "../temp";
   } else {
-    if(!title.includes('https//www.zataz.com/')){ return "_posts";}
+    if(title.includes('https//www.zataz.com/')){ return "../temp";}
     
-    return "../temp";
+    return "_posts";
   }
 };
 
@@ -67,7 +68,7 @@ parser.parseURL(rssUrl).then(feed => {
       
               let data
               const section =content.split('---')[0]
-                console.log(yaml.load( section));
+              //  console.log(yaml.load( section));
                 data = yaml.load( section)
                 if(data) {
                    data.pubDate = new Date(data.date);
@@ -80,7 +81,7 @@ parser.parseURL(rssUrl).then(feed => {
               
               if(data &&data.guid && data.pubDate ){
                 data.contentSnippet=content.split('---')[1].trim().split("Autres fuites pour ce dossier :")[0].trim();
-                console.log(items)
+              //  console.log(items)
                  if(items.findIndex(it => it.guid.replace('eu.orgimg','eu.org/img') === data.guid) === -1) {
                 items.push(data);
               }
@@ -139,13 +140,16 @@ parser.parseURL(rssUrl).then(feed => {
               return `- [${i}](https://feed-blush.vercel.app/${internalLink})`;
             }).join('\n');
           }
+          if(item.categories){
+            item.categories.push(Dir)
+          }else{
+            item.categories=[Dir]
+          }
           const postContentHexo = ` 
 title: ${Dir} fuite du ${dateS}
 date: ${dateS}
 lien: "${item.guid.replace('eu.orgimg','eu.org/img')}"
-categories:
-  - ${Dir}
-   ${yaml.dump(item.categories)}
+${yaml.dump({categories:[... new Set(item.categories)]})}
 ---
 
 ${cleanContent}
