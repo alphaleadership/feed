@@ -68,16 +68,17 @@ parser.parseURL(rssUrl).then(feed => {
                 data = yaml.load( section)
                 if(data) {
                    data.pubDate = new Date(data.date);
-                console.log(data.lien)
+               // console.log(data.lien)
                 data.guid = data.lien;
                 };
                
               
-              console.log(data);
+             // console.log(data);
               
               if(data &&data.guid && data.pubDate ){
                 data.contentSnippet=content.split('---')[1].trim().split("Autres fuites pour ce dossier :")[0].trim();
-                 if(items.findIndex(it => it.guid === data.guid) === -1) {
+                console.log(items)
+                 if(items.findIndex(it => it.guid.replace('eu.orgimg','eu.org/img') === data.guid) === -1) {
                 items.push(data);
               }
               }
