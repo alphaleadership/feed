@@ -4,6 +4,7 @@ date: 2025-8-12
 lien: "https://bonjourlafuite.eu.org/img/france-travail.png"
 categories:
   - france travail
+
 ---
 
 nom

@@ -4,6 +4,7 @@ date: 2025-9-25
 lien: "https://bonjourlafuite.eu.org/img/france-travail-2.jpg"
 categories:
   - france travail
+
 ---
 
 adresse mail
