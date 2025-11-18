@@ -4,6 +4,7 @@ date: 2025-10-21
 lien: "https://haveibeenpwned.com/Breach/SynthientStealerLogThreatData"
 categories:
   - synthientstealerlogthreatdata
+
 ---
 
 During 2025

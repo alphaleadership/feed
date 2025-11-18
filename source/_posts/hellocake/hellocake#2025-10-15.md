@@ -4,6 +4,7 @@ date: 2025-10-15
 lien: "https://haveibeenpwned.com/Breach/HelloCake"
 categories:
   - hellocake
+
 ---
 
 In July 2025
