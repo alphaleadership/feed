@@ -18,11 +18,12 @@ const removeNunjucks = (content) => {
 };
 
 const l = (title,cat) => {
+  if(cat.indexOf("Fuite de données")!==-1){return "_posts";}
   if (!title.includes("https://www.intelligenceonline.fr")) {
    return "_posts";
   } else {
     if(!title.includes('https//www.zataz.com/')){ return "_posts";}
-    if(cat.indexOf("Fuite de données")!==-1){return "_posts";}
+    
     return "../temp";
   }
 };
@@ -52,7 +53,7 @@ parser.parseURL(rssUrl).then(feed => {
     // Création des posts Hexo
     Object.entries(postsMap).forEach(([key, items]) => {
       const [Dir, dateStr] = key.split('#');
-      const hexoPostDir = path.join(PostDir, l(items[0].guid), Dir);
+      const hexoPostDir = path.join(PostDir, l(items[0].guid,items[0].categories), Dir);
       if (!fs.existsSync(hexoPostDir)) {
         fs.mkdirSync(hexoPostDir, { recursive: true });
       }
@@ -144,6 +145,7 @@ date: ${dateS}
 lien: "${item.guid.replace('eu.orgimg','eu.org/img')}"
 categories:
   - ${Dir}
+  - ${yaml.dump(item.categories)}
 ---
 
 ${cleanContent}
