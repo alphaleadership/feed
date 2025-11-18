@@ -53,7 +53,7 @@ parser.parseURL(rssUrl).then(feed => {
     // Création des posts Hexo
     Object.entries(postsMap).forEach(([key, items]) => {
       const [Dir, dateStr] = key.split('#');
-      const hexoPostDir = path.join(PostDir, l(items[0].guid,items[0].categories), Dir);
+      const hexoPostDir = path.join(PostDir, l(items[0].guid,items[0].categories), Dir||"zataz");
       if (!fs.existsSync(hexoPostDir)) {
         fs.mkdirSync(hexoPostDir, { recursive: true });
       }
