@@ -1,9 +1,9 @@
- 
 title: cerballiance fuite du 2025-3-25
 date: 2025-3-25
 lien: "https://www.clubic.com/actualite-558117-les-laboratoires-francais-cerballiance-ont-ete-victimes-d-une-cyberattaque-voici-les-donnees-qui-ont-fuite.html"
 categories:
   - cerballiance
+
 ---
 
 nom
@@ -17,4 +17,6 @@ date de fin de droit
 
 
 Autres fuites pour ce dossier :
-- [0](https://feed-blush.vercel.app/cerballiance-fuite-du-2025-4-30)
+- [0](https://feed-blush.vercel.app/cerballiance-fuite-du-2025-3-25)
+- [1](https://feed-blush.vercel.app/cerballiance-fuite-du-2025-4-30)
+- [2](https://feed-blush.vercel.app/cerballiance-fuite-du-2025-4-30)

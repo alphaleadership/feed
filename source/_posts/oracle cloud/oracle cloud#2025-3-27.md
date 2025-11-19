@@ -1,9 +1,9 @@
- 
 title: oracle cloud fuite du 2025-3-27
 date: 2025-3-27
 lien: "https://www.lemondeinformatique.fr/actualites/lire-des-clients-confirment-la-fuite-de-donnees-oracle-cloud-96454.html"
 categories:
   - oracle cloud
+
 ---
 
 authentification LDAP

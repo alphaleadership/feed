@@ -1,9 +1,9 @@
- 
 title: centre national de la fonction publique territoriale fuite du 2025-7-11
 date: 2025-7-11
 lien: "https://bonjourlafuite.eu.org/img/cnfpt.jpg"
 categories:
   - centre national de la fonction publique territoriale
+
 ---
 
 pièce d’identité

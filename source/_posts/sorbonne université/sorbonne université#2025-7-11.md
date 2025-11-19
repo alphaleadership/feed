@@ -1,9 +1,9 @@
- 
 title: sorbonne université fuite du 2025-7-11
 date: 2025-7-11
 lien: "https://bonjourlafuite.eu.org/img/sorbonne.png"
 categories:
   - sorbonne université
+
 ---
 
 nom
