@@ -28,7 +28,9 @@ const l = (title,cat=[]) => {
     return "_posts";
   }
 };
-
+const checklink=(table,lien)=>{
+  return !table.includes(lien)
+}
 parser.parseURL(rssUrl).then(feed => {
   try {
     // Filtrage des doublons avant toute opération
@@ -132,13 +134,19 @@ parser.parseURL(rssUrl).then(feed => {
             }
           });
           if (autresRss.length > 0) {
+            const dirSlug = Dir.replace(/[^a-z0-9]/gi, '-');
+            let lien=[`${dirSlug}-fuite-du-${dateS}`]
             autresFuites = '\n\nAutres fuites pour ce dossier :\n' + autresRss.map((it,i) => {
               // Génère un lien interne au format "dir-fuite-du-date"
               const pubDate = new Date(it.pubDate);
               const dateSt = `${pubDate.getFullYear()}-${pubDate.getMonth() + 1}-${pubDate.getDate()}`;
-              const dirSlug = Dir.replace(/[^a-z0-9]/gi, '-');
+              
               const internalLink = `${dirSlug}-fuite-du-${dateSt}`;
-              return `- [${i}](https://feed-blush.vercel.app/${internalLink})`;
+              if(checklink(lien,internalLink)){
+                lien.push(internalLink)
+                return `- [${lien.length }](https://feed-blush.vercel.app/${internalLink})`;
+              }
+              
             }).join('\n');
           }
           if(item.categories){
