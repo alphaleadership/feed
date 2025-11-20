@@ -57,6 +57,7 @@ const checklink=(table,lien)=>{
   return !table.includes(lien)
 }
 parser.parseURL(rssUrl).then(feed => {
+  let alreadyseen=new Set()
   try {
     // Filtrage des doublons avant toute opération
     const uniqueItems = filterDisplayItems(feed.items.filter(item => item.pubDate && !isNaN(new Date(item.pubDate))));
@@ -74,12 +75,12 @@ parser.parseURL(rssUrl).then(feed => {
           if (!postsMap[key]) postsMap[key] = [];
           postsMap[key].push(item);
               const destinationDir = l(item.guid,item.categories);
-      if(destinationDir){
-        const [Dir, dateStr] = key.split('#');
+   //   if(destinationDir){
+        //const [Dir, dateStr] = key.split('#');
         const hexoPostDir = path.join(PostDir, destinationDir, Dir||"zataz");
         if (!fs.existsSync(hexoPostDir)) {
           fs.mkdirSync(hexoPostDir, { recursive: true });
-        }}
+        }//}
            const allFiles = fs.readdirSync(hexoPostDir).filter(f => f.endsWith('.md'));
         allFiles.forEach((file) => {
           const filePath = path.join(hexoPostDir, file);
@@ -130,8 +131,13 @@ parser.parseURL(rssUrl).then(feed => {
         // Recherche tous les fichiers existants pour ce dossier
        
         items.forEach((item, idx) => {
+          if(alreadyseen.has(item.guid.replace('eu.orgimg','eu.org/img'))){
+            return
+          }
+          alreadyseen.add(item.guid.replace('eu.orgimg','eu.org/img'))
           try {
             // --- Chargement des fichiers de config
+            console.log(items.length)
             const configFilePath = './_config.yml';
             const buildFilePath = './build.yml';
             const config = yaml.load(fs.readFileSync(configFilePath, 'utf8'));
