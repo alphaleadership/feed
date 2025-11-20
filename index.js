@@ -20,10 +20,15 @@ const removeNunjucks = (content) => {
 const l = (title,cat=[]) => {
   console.log(cat.indexOf("fuite de données"))
   if(cat.includes("fuite de données")){return "_posts";}
+
+  // Zataz posts that are not "fuite de données" are ignored.
+  if (title.includes("https://www.zataz.com/")) {
+    return "../temp";
+  }
+
   if (title.includes("https://www.intelligenceonline.fr")) {
    return "../temp";
   } else {
-    if(title.includes('https//www.zataz.com/')){ return "../temp";}
     if(title.includes('https://www.cloudflarestatus.com/')){ return "../temp";}
     return "_posts";
   }
@@ -48,6 +53,45 @@ parser.parseURL(rssUrl).then(feed => {
           const key = `${Dir}#${dateStr}`;
           if (!postsMap[key]) postsMap[key] = [];
           postsMap[key].push(item);
+              const destinationDir = l(item.guid,item.categories);
+      if(destinationDir){
+        const [Dir, dateStr] = key.split('#');
+        const hexoPostDir = path.join(PostDir, destinationDir, Dir||"zataz");
+        if (!fs.existsSync(hexoPostDir)) {
+          fs.mkdirSync(hexoPostDir, { recursive: true });
+        }}
+           const allFiles = fs.readdirSync(hexoPostDir).filter(f => f.endsWith('.md'));
+        allFiles.forEach((file) => {
+          const filePath = path.join(hexoPostDir, file);
+          try {
+            const content = fs.readFileSync(filePath, 'utf8');
+        
+                let data
+                const section =content.split('---')[0]
+                //  console.log(yaml.load( section));
+                  data = yaml.load( section)
+                  if(data) {
+                     data.pubDate = new Date(data.date);
+                 // console.log(data.lien)
+                  data.guid = data.lien;
+                  };
+                 
+                
+               // console.log(data);
+                
+                if(data &&data.guid && data.pubDate ){
+                  data.contentSnippet=content.split('---')[1].trim().split("Autres fuites pour ce dossier :")[0].trim();
+                //  console.log(items)
+                   if(postsMap[key].findIndex(it => it.guid.replace('eu.orgimg','eu.org/img') === data.guid) === -1) {
+                      postsMap[key].push(data);
+                   }
+                }
+               
+            
+          
+          } catch (readErr) {
+            console.log('Erreur lecture fichier existant:', readErr.message);
+          }})
         });
       } catch (itemErr) {
         console.log('Erreur parsing item:', itemErr.message);
@@ -55,106 +99,77 @@ parser.parseURL(rssUrl).then(feed => {
     });
     // Création des posts Hexo
     Object.entries(postsMap).forEach(([key, items]) => {
-      const [Dir, dateStr] = key.split('#');
-      const hexoPostDir = path.join(PostDir, l(items[0].guid,items[0].categories), Dir||"zataz");
-      if (!fs.existsSync(hexoPostDir)) {
-        fs.mkdirSync(hexoPostDir, { recursive: true });
-      }
-      // --- Détection des autres fuites pour le même dossier
-      // Recherche tous les fichiers existants pour ce dossier
-      const allFiles = fs.readdirSync(hexoPostDir).filter(f => f.endsWith('.md'));
-      allFiles.forEach((file) => {
-        const filePath = path.join(hexoPostDir, file);
-        try {
-          const content = fs.readFileSync(filePath, 'utf8');
-      
-              let data
-              const section =content.split('---')[0]
-              //  console.log(yaml.load( section));
-                data = yaml.load( section)
-                if(data) {
-                   data.pubDate = new Date(data.date);
-               // console.log(data.lien)
-                data.guid = data.lien;
-                };
-               
-              
-             // console.log(data);
-              
-              if(data &&data.guid && data.pubDate ){
-                data.contentSnippet=content.split('---')[1].trim().split("Autres fuites pour ce dossier :")[0].trim();
-              //  console.log(items)
-                 if(items.findIndex(it => it.guid.replace('eu.orgimg','eu.org/img') === data.guid) === -1) {
-                items.push(data);
-              }
-              }
-             
-          
-        
-        } catch (readErr) {
-          console.log('Erreur lecture fichier existant:', readErr.message);
-        }})
-      items.forEach((item, idx) => {
-        try {
-          // --- Chargement des fichiers de config
-          const configFilePath = './_config.yml';
-          const buildFilePath = './build.yml';
-          const config = yaml.load(fs.readFileSync(configFilePath, 'utf8'));
-          const build = yaml.load(fs.readFileSync(buildFilePath, 'utf8'));
-          //console.log(config.category_map)
-          if (!config.category_map) config.category_map = [];
-          if (!config.category_map.map((ite)=>{return ite.toLowerCase()}).includes(Dir.toLowerCase())) {
-            config.category_map.push(Dir.toLowerCase());
-          }
-          config.category_map=[... new Set(config.category_map)]
-          let tags = config.tags ? config.tags.split(",") : [];
-          config.tags = [...new Set(tags)].join(",");
-          build.tags = config.tags;
-          build.category_map=config.category_map.map((item)=>{return item.toLowerCase()})
-          fs.writeFileSync(configFilePath, yaml.dump(config));
-          fs.writeFileSync(buildFilePath, yaml.dump(build));
-           const pubDat = new Date(item.pubDate);
-              const dateS = `${pubDat.getFullYear()}-${pubDat.getMonth() + 1}-${pubDat.getDate()}`;
-          // --- Nom fichier : sans index si une seule fuite, avec index sinon
-          const postFileName = items.length === 1 ? `${Dir}#${dateS}.md` : `${Dir}#${dateS}#${idx}.md`;
-          const postFilePath = path.join(hexoPostDir, postFileName);
-          // --- Contenu du post
-          const rawContent = parsecontent(item.contentSnippet, ',', "\n") || "pas d'information actuellement";
-          const cleanContent = removeNunjucks(rawContent);
-          // --- Détection des autres fuites (autres entrées de postsMap pour le même DIR, même convention de nommage)
-          let autresFuites = '';
-          const autresKeys = Object.keys(postsMap).filter(k => k.startsWith(Dir + '#'));
-          let autresRss = [];
-          autresKeys.forEach(k => {
-            if (k !== key) {
-              autresRss = autresRss.concat(postsMap[k]);
-            } else {
-              // Ajoute les autres items du même key sauf celui en cours
-              autresRss = autresRss.concat(postsMap[k].filter((it, i) => i !== idx));
+      const destinationDir = l(items[0].guid,items[0].categories);
+      if(destinationDir){
+        const [Dir, dateStr] = key.split('#');
+        const hexoPostDir = path.join(PostDir, destinationDir, Dir||"zataz");
+        if (!fs.existsSync(hexoPostDir)) {
+          fs.mkdirSync(hexoPostDir, { recursive: true });
+        }
+        // --- Détection des autres fuites pour le même dossier
+        // Recherche tous les fichiers existants pour ce dossier
+       
+        items.forEach((item, idx) => {
+          try {
+            // --- Chargement des fichiers de config
+            const configFilePath = './_config.yml';
+            const buildFilePath = './build.yml';
+            const config = yaml.load(fs.readFileSync(configFilePath, 'utf8'));
+            const build = yaml.load(fs.readFileSync(buildFilePath, 'utf8'));
+            //console.log(config.category_map)
+            if (!config.category_map) config.category_map = [];
+            if (!config.category_map.map((ite)=>{return ite.toLowerCase()}).includes(Dir.toLowerCase())) {
+              config.category_map.push(Dir.toLowerCase());
             }
-          });
-          if (autresRss.length > 0) {
-            const dirSlug = Dir.replace(/[^a-z0-9]/gi, '-');
-            let lien=[`${dirSlug}-fuite-du-${dateS}`]
-            autresFuites = '\n\nAutres fuites pour ce dossier :\n' + autresRss.map((it,i) => {
-              // Génère un lien interne au format "dir-fuite-du-date"
-              const pubDate = new Date(it.pubDate);
-              const dateSt = `${pubDate.getFullYear()}-${pubDate.getMonth() + 1}-${pubDate.getDate()}`;
-              
-              const internalLink = `${dirSlug}-fuite-du-${dateSt}`;
-              if(checklink(lien,internalLink)){
-                lien.push(internalLink)
-                return `- [${lien.length }](https://feed-blush.vercel.app/${internalLink})`;
+            config.category_map=[... new Set(config.category_map)]
+            let tags = config.tags ? config.tags.split(",") : [];
+            config.tags = [...new Set(tags)].join(",");
+            build.tags = config.tags;
+            build.category_map=config.category_map.map((item)=>{return item.toLowerCase()})
+            fs.writeFileSync(configFilePath, yaml.dump(config));
+            fs.writeFileSync(buildFilePath, yaml.dump(build));
+             const pubDat = new Date(item.pubDate);
+                const dateS = `${pubDat.getFullYear()}-${pubDat.getMonth() + 1}-${pubDat.getDate()}`;
+            // --- Nom fichier : sans index si une seule fuite, avec index sinon
+            const postFileName = items.length === 1 ? `${Dir}#${dateS}.md` : `${Dir}#${dateS}#${idx}.md`;
+            const postFilePath = path.join(hexoPostDir, postFileName);
+            // --- Contenu du post
+            const rawContent = parsecontent(item.contentSnippet, ',', "\n") || "pas d'information actuellement";
+            const cleanContent = removeNunjucks(rawContent);
+            // --- Détection des autres fuites (autres entrées de postsMap pour le même DIR, même convention de nommage)
+            let autresFuites = '';
+            const autresKeys = Object.keys(postsMap).filter(k => k.startsWith(Dir + '#'));
+            let autresRss = [];
+            autresKeys.forEach(k => {
+              if (k !== key) {
+                autresRss = autresRss.concat(postsMap[k]);
+              } else {
+                // Ajoute les autres items du même key sauf celui en cours
+                autresRss = autresRss.concat(postsMap[k].filter((it, i) => i !== idx));
               }
-              
-            }).join('\n');
-          }
-          if(item.categories){
-            item.categories.push(Dir)
-          }else{
-            item.categories=[Dir]
-          }
-          const postContentHexo = `title: ${Dir} fuite du ${dateS}
+            });
+            if (autresRss.length > 0) {
+              const dirSlug = Dir.replace(/[^a-z0-9]/gi, '-');
+              let lien=[`${dirSlug}-fuite-du-${dateS}`]
+              autresFuites = '\n\nAutres fuites pour ce dossier :\n' + autresRss.map((it,i) => {
+                // Génère un lien interne au format "dir-fuite-du-date"
+                const pubDate = new Date(it.pubDate);
+                const dateSt = `${pubDate.getFullYear()}-${pubDate.getMonth() + 1}-${pubDate.getDate()}`;
+                
+                const internalLink = `${dirSlug}-fuite-du-${dateSt}`;
+                if(checklink(lien,internalLink)){
+                  lien.push(internalLink)
+                  return `- [${lien.length }](https://feed-blush.vercel.app/${internalLink})`;
+                }
+                
+              }).join('\n');
+            }
+            if(item.categories){
+              item.categories.push(Dir)
+            }else{
+              item.categories=[Dir]
+            }
+            const postContentHexo = `title: ${Dir} fuite du ${dateS}
 date: ${dateS}
 lien: "${item.guid.replace('eu.orgimg','eu.org/img')}"
 ${yaml.dump({categories:[... new Set(item.categories)]})}
@@ -163,23 +178,24 @@ ${yaml.dump({categories:[... new Set(item.categories)]})}
 ${cleanContent}
 ${autresFuites}
 `;
-          // --- Création ou mise à jour du fichier
-          if (!fs.existsSync(postFilePath)) {
-            fs.writeFileSync(postFilePath, postContentHexo);
-            console.log(`✅ Nouveau fichier créé : ${postFileName}`);
-          } else {
-            const existingContent = fs.readFileSync(postFilePath, 'utf8');
-            if (existingContent !== postContentHexo) {
+            // --- Création ou mise à jour du fichier
+            if (!fs.existsSync(postFilePath)) {
               fs.writeFileSync(postFilePath, postContentHexo);
-              console.log(`✏️ Fichier mis à jour : ${postFileName}`);
+              console.log(`✅ Nouveau fichier créé : ${postFileName}`);
             } else {
-              console.log(`⏩ Fichier inchangé : ${postFileName}`);
+              const existingContent = fs.readFileSync(postFilePath, 'utf8');
+              if (existingContent !== postContentHexo) {
+                fs.writeFileSync(postFilePath, postContentHexo);
+                console.log(`✏️ Fichier mis à jour : ${postFileName}`);
+              } else {
+                console.log(`⏩ Fichier inchangé : ${postFileName}`);
+              }
             }
+          } catch (fileErr) {
+            console.log('Erreur création post:', fileErr.message);
           }
-        } catch (fileErr) {
-          console.log('Erreur création post:', fileErr.message);
-        }
-      });
+        });
+      }
     });
   } catch (feedErr) {
     console.log('Erreur parsing feed:', feedErr.message);
