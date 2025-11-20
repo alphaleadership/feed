@@ -17,21 +17,41 @@ const removeNunjucks = (content) => {
   return content.replace(/{%.*?%}/g, '').replace(/{{\s*.*?}}/g, '');
 };
 
-const l = (title,cat=[]) => {
-  console.log(cat.indexOf("fuite de données"))
-  if(cat.includes("fuite de données")){return "_posts";}
-
-  // Zataz posts that are not "fuite de données" are ignored.
-  if (title.includes("https://www.zataz.com/")) {
-    return "../temp";
-  }
-
-  if (title.includes("https://www.intelligenceonline.fr")) {
-   return "../temp";
-  } else {
-    if(title.includes('https://www.cloudflarestatus.com/')){ return "../temp";}
+const l = (title, cat = []) => {
+  // Liste des catégories valides qui doivent aller dans _posts
+  const validCategories = [
+    "fuite de données",
+    "Données personnelles",
+    "Cybersécurité",
+    "Sécurité"
+  ];
+  
+  // Vérifier si au moins une catégorie valide est présente
+  const hasValidCategory = cat.some(c => validCategories.includes(c));
+  
+  if (hasValidCategory) {
+    console.log('✅ Catégorie valide trouvée:', cat.find(c => validCategories.includes(c)));
     return "_posts";
   }
+  
+  // Liste des URLs à ignorer (rediriger vers temp)
+  const ignoredUrls = [
+    "https://www.zataz.com/",
+    "https://www.intelligenceonline.fr",
+    "https://www.cloudflarestatus.com/"
+  ];
+  
+  // Vérifier si le titre contient une URL à ignorer
+  for (const url of ignoredUrls) {
+    if (title.includes(url)) {
+      console.log('⏭️ URL ignorée:', url);
+      return "../temp";
+    }
+  }
+  
+  // Par défaut, retourner _posts
+  console.log('📝 Aucune règle spécifique, utilisation par défaut');
+  return "_posts";
 };
 const checklink=(table,lien)=>{
   return !table.includes(lien)
