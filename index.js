@@ -62,7 +62,12 @@ parser.parseURL(rssUrl).then(feed => {
   console.log(feed)
   try {
     // Filtrage des doublons avant toute opération
-    const uniqueItems = filterDisplayItems(feed.items.filter(item => item.pubDate && !isNaN(new Date(item.pubDate))));
+    const uniqueItems = filterDisplayItems(feed.items.map((i)=>{
+      console.log(i.pubDate)
+      console.log(new Date(i.pubDate.replace("BST","")))
+      i.pubDate=i.pubDate.replace("BST","")
+      return i
+    }).filter(item => item.pubDate && !isNaN(new Date(item.pubDate))));
     // Regroupement par entreprise et date
     const postsMap = {};
     uniqueItems.forEach((item) => {
