@@ -39,7 +39,7 @@ const l = (title, cat = []) => {
     "https://www.zataz.com/",
     "https://www.intelligenceonline.fr",
     "https://www.cloudflarestatus.com/","https://www.numerama.com/",
-    "https://www.frandroid.com/",'https://www.opensourceprojects.dev/'
+    "https://www.frandroid.com/",'https://opensourceprojects.dev/'
   ];
   
   // Vérifier si le titre contient une URL à ignorer
