@@ -24,13 +24,13 @@ const l = (title, cat = []) => {
     "Données personnelles",
     "Cybersécurité",
     "Sécurité"
-  ];
+  ].map((item)=>{return item.toLowerCase()});
   
   // Vérifier si au moins une catégorie valide est présente
-  const hasValidCategory = cat.some(c => validCategories.includes(c));
+  const hasValidCategory = cat.some(c => validCategories.includes(c.toLowerCase()));
   
   if (hasValidCategory) {
-    console.log('✅ Catégorie valide trouvée:', cat.find(c => validCategories.includes(c)));
+    console.log('✅ Catégorie valide trouvée:', cat.find(c => validCategories.includes(c.toLowerCase())));
     return "_posts";
   }
   
@@ -38,10 +38,11 @@ const l = (title, cat = []) => {
   const ignoredUrls = [
     "https://www.zataz.com/",
     "https://www.intelligenceonline.fr",
-    "https://www.cloudflarestatus.com/","https://www.numerama.com/feed/"
+    "https://www.cloudflarestatus.com/","https://www.numerama.com/"
   ];
   
   // Vérifier si le titre contient une URL à ignorer
+  console.log(title)
   for (const url of ignoredUrls) {
     if (title.includes(url)) {
       console.log('⏭️ URL ignorée:', url);
@@ -58,6 +59,7 @@ const checklink=(table,lien)=>{
 }
 parser.parseURL(rssUrl).then(feed => {
   let alreadyseen=new Set()
+  console.log(feed)
   try {
     // Filtrage des doublons avant toute opération
     const uniqueItems = filterDisplayItems(feed.items.filter(item => item.pubDate && !isNaN(new Date(item.pubDate))));
