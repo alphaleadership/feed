@@ -38,7 +38,7 @@ const l = (title, cat = []) => {
   const ignoredUrls = [
     "https://www.zataz.com/",
     "https://www.intelligenceonline.fr",
-    "https://www.cloudflarestatus.com/"
+    "https://www.cloudflarestatus.com/","https://www.numerama.com/feed/"
   ];
   
   // Vérifier si le titre contient une URL à ignorer
