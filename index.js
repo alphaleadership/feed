@@ -71,6 +71,7 @@ parser.parseURL(rssUrl).then(feed => {
     }).filter(item => item.pubDate && !isNaN(new Date(item.pubDate))));
     // Regroupement par entreprise et date
     const postsMap = {};
+    const fuite={}
     uniqueItems.forEach((item) => {
       try {
         const postTitle = item.link.split('/').pop();
@@ -81,7 +82,9 @@ parser.parseURL(rssUrl).then(feed => {
           const Dir = DirRaw.trim().toLowerCase();
           const key = `${Dir}#${dateStr}`;
           if (!postsMap[key]) postsMap[key] = [];
+          if(!fuite[Dir||"zataz"]) fuite[Dir||"zataz"]=[]
           postsMap[key].push(item);
+          fuite[Dir||"zataz"].push(item)
               const destinationDir = l(item.guid,item.categories);
    //   if(destinationDir){
         //const [Dir, dateStr] = key.split('#');
@@ -113,6 +116,9 @@ parser.parseURL(rssUrl).then(feed => {
                 //  console.log(items)
                    if(postsMap[key].findIndex(it => it.guid.replace('eu.orgimg','eu.org/img') === data.guid) === -1) {
                       postsMap[key].push(data);
+                   }
+                   if(fuite[Dir||"zataz"].findIndex(it => it.guid.replace('eu.orgimg','eu.org/img') === data.guid) === -1) {
+                      fuite[Dir||"zataz"].push(data);
                    }
                 }
                
@@ -172,16 +178,16 @@ parser.parseURL(rssUrl).then(feed => {
             const cleanContent = removeNunjucks(rawContent);
             // --- Détection des autres fuites (autres entrées de postsMap pour le même DIR, même convention de nommage)
             let autresFuites = '';
-            const autresKeys = Object.keys(postsMap).filter(k => k.startsWith(Dir + '#'));
-            let autresRss = [];
-            autresKeys.forEach(k => {
+            const autresKeys = fuite[Dir||"zataz"];
+            let autresRss = fuite[Dir||"zataz"].filter((it, i) => i !== idx);
+           /* autresKeys.forEach(k => {
               if (k !== key) {
                 autresRss = autresRss.concat(postsMap[k]);
               } else {
                 // Ajoute les autres items du même key sauf celui en cours
-                autresRss = autresRss.concat(postsMap[k].filter((it, i) => i !== idx));
+                autresRss = autresRss.concat(postsMap[k];
               }
-            });
+            });*/
             if (autresRss.length > 0) {
               const dirSlug = Dir.replace(/[^a-z0-9]/gi, '-');
               let lien=[`${dirSlug}-fuite-du-${dateS}`]
