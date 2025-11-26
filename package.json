@@ -6,7 +6,8 @@
     "build": " node index.js && node indexator.js ",
     "clean": "hexo clean",
     "deploy": "hexo deploy --config build.yml",
-    "server": "hexo server"
+    "server": "hexo server",
+    "import": "node scripts/import.js"
   },
   "hexo": {
     "version": "8.1.1"
@@ -34,5 +35,8 @@
     "js-yaml": "^4.1.1",
     "rss-parser": "^3.13.0",
     "sudoku": "^0.0.3"
+  },
+  "devDependencies": {
+    "gray-matter": "^4.0.3"
   }
 }

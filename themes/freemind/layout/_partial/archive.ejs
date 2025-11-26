@@ -1,29 +1,27 @@
 <%
-   var title = '';
-   var posts = site.posts;
-   if (page.category) {
-      title = page.category;
-      posts = page.posts;
-   }
-   if (page.tag) {
-      title = page.tag;
-      posts = page.posts;
-   }
-   if (page.archive) {
-      if (page.year) title = page.year + (page.month ? '/' + page.month : '');
-      else {
-         title = __('archive_a');
-         posts = site.posts;
-      }
-   }
-   var archiveData = {
+  var title = '';
+  if (page.archive) {
+    if (page.year) title = page.year + (page.month ? '/' + page.month : '');
+    else title = __('archive_a');
+  }
+
+  // Utiliser les données de breaches.json
+  var posts = site.data.breaches ? site.data.breaches.breaches : [];
+  console.log(posts)
+  var archiveData = {
       years: {},
       months: ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre']
-   };
+  };
    
-   posts.sort('date', -1).each(function(item) {
-      var year = item.date.toDate().getFullYear();
-      var month = item.date.toDate().getMonth();
+  // Ajouter l'index à chaque post et trier
+  posts.map((item, index) => {
+    item.index = index; // Ajouter l'index pour le lien
+    return item;
+  }).sort((a, b) => new Date(b.BreachDate) - new Date(a.BreachDate))
+    .forEach(function(item) {
+      var date = new Date(item.BreachDate);
+      var year = date.getFullYear();
+      var month = date.getMonth();
       
       if (!archiveData.years[year]) {
          archiveData.years[year] = {};
@@ -37,43 +35,28 @@
 
 <!-- title -->
 <div class="page-header <% if (theme.inverse){ %>page-header-inverse<% } %>">
-  <h1 class="archive-title<% if (page.tag){ %>-tag<% } else if (page.category){ %>-category<% } %> title <% if (theme.inverse){ %>title-inverse<% } %>"><%= title %></h1>
+  <h1 class="archive-title title <% if (theme.inverse){ %>title-inverse<% } %>"><%= title %></h1>
 </div>
 
-<div class="row page">
-  <div class="<% if (theme.widgets.length) { %>col-md-9<% } else { %>col-md-12<% } %>">
-
-    <div id="top_search"></div>
-
-    <% if (page.category || page.tag) { %>
-      <div class="mypage">
-        <% page.posts.each(function(item){ %>
-          <%- partial('post/title', {item: item, index: true}) %>
-          <%- partial('post/entry', {item: item, index: true}) %>
-        <% }); %>
-      </div>
-      <div>
-        <center>
-          <%- partial('index_pagination') %>
-        </center>
-      </div>
-    <% } else { %>
+<% if (!posts || posts.length === 0) { %>
+  <div class="alert alert-info" role="alert">
+    Aucune fuite de données trouvée.
+  </div>
+<% } else { %>
+  <div class="row page">
+    <div class="<% if (theme.widgets.length) { %>col-md-9<% } else { %>col-md-12<% } %>">
       <div class="archive">
-        <% Object.keys(archiveData.years).forEach(function(year) { %>
+        <% Object.keys(archiveData.years).sort((a, b) => b - a).forEach(function(year) { %>
           <h4 class="archive-ul" data-toggle="collapse" data-target="#year_<%= year %>"><%= year %> <b class="caret"></b></h4>
-          <div id="year_<%= year %>">
-            <% Object.keys(archiveData.years[year]).forEach(function(month) { %>
+          <div id="year_<%= year %>" class="collapse in">
+            <% Object.keys(archiveData.years[year]).sort((a, b) => b - a).forEach(function(month) { %>
               <h5 class="archive-ul" data-toggle="collapse" data-target="#month_<%= year %>_<%= month %>"><%= archiveData.months[month] %> <b class="caret"></b></h5>
-              <div id="month_<%= year %>_<%= month %>">
-                <ol class="collapse in">
+              <div id="month_<%= year %>_<%= month %>" class="collapse in">
+                <ol>
                   <% archiveData.years[year][month].forEach(function(item) { %>
                     <li class="listing-item">
-                      <span class="date_class"><%= item.date.format("YYYY-MM-DD") %></span> &raquo;
-                      <% if (item.link) { %>
-                        <span class="title link"><a href="<%- item.link %>" target="_blank" <% if (item.description) { %>title="<%= item.description %>"<% } %>><%= item.title || item.link %></a></span>
-                      <% } else { %>
-                        <span class="title"><a href="<%- url_for(item.path) %>" <% if (item.description) { %>title="<%= item.description %>"<% } %>><%= item.title %></a></span>
-                      <% } %>
+                      <span class="date_class"><%= new Date(item.BreachDate).toISOString().split('T')[0] %></span> &raquo;
+                      <span class="title"><a href="<%- url_for('/fuites?id=' + item.index) %>" title="<%= item.Title||item.Name %>"><%= item.Title||item.Name %></a></span>
                     </li>
                   <% }); %>
                 </ol>
@@ -82,6 +65,6 @@
           </div>
         <% }); %>
       </div>
-    <% } %>
+    </div>
   </div>
-</div>
+<% } %>
