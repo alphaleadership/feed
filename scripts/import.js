@@ -99,8 +99,17 @@ function runImport() {
     const fileContent = getfile(filePath, 'utf-8');
     
     try {
-      const parsed = matter(fileContent);
-      const breachDataFromMatter = parsed.data;
+      let parsed, breachDataFromMatter;
+      try {
+        parsed = matter(fileContent);
+       breachDataFromMatter = parsed.data;
+      } catch (error) {
+        console.error(`Erreur lors de l'analyse du front-matter dans le fichier '${filename}':`, error.message);
+        skippedCount++;
+        fs.unlinkSync(filePath);
+        return;
+      }
+       
 
       // Appliquer le schéma par défaut et fusionner les données du front-matter
       const newBreach = Object.assign({}, defaultBreachSchema, breachDataFromMatter);
