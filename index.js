@@ -43,7 +43,7 @@ const l = (title, cat = []) => {
   ];
   
   // Vérifier si le titre contient une URL à ignorer
-  console.log(title)
+  //console.log(title)
   for (const url of ignoredUrls) {
     if (title.includes(url)) {
       console.log('⏭️ URL ignorée:', url);
@@ -60,7 +60,7 @@ const checklink=(table,lien)=>{
 }
 parser.parseURL(rssUrl).then(feed => {
   let alreadyseen=new Set()
-  console.log(feed)
+ // console.log(feed)
   try {
     // Filtrage des doublons avant toute opération
     const uniqueItems = filterDisplayItems(feed.items.map((i)=>{
