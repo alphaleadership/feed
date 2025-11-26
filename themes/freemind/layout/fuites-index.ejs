@@ -1,0 +1,168 @@
+<style>
+  #fuites-container {
+    padding: 2em;
+    font-family: sans-serif;
+  }
+  .fuite-list-item {
+    border-bottom: 1px solid #eee;
+    padding: 1em 0;
+  }
+  .fuite-list-item a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #333;
+  }
+  .fuite-list-item p {
+    color: #666;
+    margin: 0.5em 0 0 0;
+  }
+  .breach-details {
+    padding: 0;
+  }
+  .breach-header {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+  }
+  .breach-header h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  .breach-meta {
+    display: flex;
+    gap: 2em;
+    margin-top: 1em;
+    color: #555;
+  }
+  .meta-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .meta-label {
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #777;
+  }
+  .meta-value {
+    font-size: 1.1em;
+  }
+  .breach-content {
+    margin-top: 2em;
+  }
+  .breach-content h2 {
+    font-size: 1.5em;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5em;
+    margin-top: 1.5em;
+  }
+  .breach-content .description {
+    line-height: 1.6;
+  }
+  .data-classes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin-top: 1em;
+  }
+  .data-class {
+    background-color: #eef;
+    padding: 0.3em 0.8em;
+    border-radius: 15px;
+    font-size: 0.9em;
+  }
+</style>
+
+<div id="fuites-container">
+  <h1>Chargement des données...</h1>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const container = document.getElementById('fuites-container');
+    const params = new URLSearchParams(window.location.search);
+    const breachId = params.get('id');
+
+    // Le chemin vers le fichier JSON. Hexo le place à la racine du site.
+    const dataUrl = '/data/breaches.json';
+
+    fetch(dataUrl)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok ' + response.statusText);
+        }
+        return response.json();
+      })
+      .then(data => {
+        const breaches = data.breaches;
+        if (breachId !== null && breaches[breachId]) {
+          renderDetails(breaches[breachId]);
+        } else {
+          renderList(breaches);
+        }
+      })
+      .catch(error => {
+        container.innerHTML = '<h1>Erreur</h1><p>Impossible de charger le fichier de données des fuites. Veuillez vérifier que le fichier <code>source/_data/breaches.json</code> existe et est accessible.</p><p>Détail de l\'erreur: ' + error + '</p>';
+      });
+
+    function renderList(breaches) {
+      let html = '<h1>Liste des Fuites de Données</h1>';
+      if (!breaches || breaches.length === 0) {
+        html += '<p>Aucune fuite de données trouvée.</p>';
+        container.innerHTML = html;
+        return;
+      }
+      
+      html += breaches.map((breach, index) => `
+        <div class="fuite-list-item">
+          <a href="?id=${index}">${breach.Title || breach.Name}</a>
+          <p>Date: ${new Date(breach.BreachDate).toLocaleDateString('fr-FR')}</p>
+        </div>
+      `).join('');
+      
+      container.innerHTML = html;
+    }
+
+    function renderDetails(breach) {
+      let html = `
+        <div class="breach-details">
+          <div class="breach-header">
+            <h1>${breach.Title}</h1>
+            <div class="breach-meta">
+              <div class="meta-item">
+                <span class="meta-label">Date de la fuite</span>
+                <span class="meta-value">${new Date(breach.BreachDate).toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+              </div>
+              ${breach.PwnCount > 0 ? `
+                <div class="meta-item">
+                  <span class="meta-label">Comptes affectés</span>
+                  <span class="meta-value">${breach.PwnCount.toLocaleString('fr-FR')}</span>
+                </div>
+              ` : ''}
+            </div>
+          </div>
+          <div class="breach-content">
+            <h2>Description</h2>
+            <div class="description">
+              ${breach.Description}
+            </div>
+            ${breach.DataClasses && breach.DataClasses.length > 0 ? `
+              <h2>Données compromises</h2>
+              <div class="data-classes">
+                ${breach.DataClasses.map(item => `<span class="data-class">${item}</span>`).join('')}
+              </div>
+            ` : ''}
+            ${breach.DisclosureUrl ? `
+              <h2>Plus d\'informations</h2>
+              <p>
+                <a href="${breach.DisclosureUrl}" target="_blank" rel="noopener noreferrer">Annonce officielle de la fuite</a>
+              </p>
+            ` : ''}
+          </div>
+        </div>
+        <hr>
+        <a href="/fuites/">Retour à la liste</a>
+      `;
+      container.innerHTML = html;
+    }
+  });
+</script>

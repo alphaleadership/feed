@@ -3,7 +3,7 @@ const path = require('path');
 
 // Configuration
 const dataFilePath = './temp/data.json';
-const allBreachesFile = './source/_data/breaches.json';
+const allBreachesFile = './source/data/breaches.json';
 const basePostDir = './source/_posts';
 
 // Créer les répertoires nécessaires
