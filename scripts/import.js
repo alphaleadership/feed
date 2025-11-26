@@ -38,15 +38,13 @@ const defaultBreachSchema = {
   "path": "",
   "formattedDate": ""
 };
-if(fs.readdirSync(path.join(baseDir, 'source', '_posts')).filter((file)=>{
+if(fs.readdirSync(path.join(baseDir, 'source', '_posts')).filter((file)=>{ return fs.statSync(path.join(baseDir, 'source', '_posts',file)).isDirectory()}).length!=0){
 
-  return fs.statSync(path.join(baseDir, 'source', '_posts',file)).isDirectory()}).length!=0){
-  const importDir = path.join(baseDir, 'source', '_posts',fs.readdirSync(path.join(baseDir, 'source', '_posts')).filter((file)=>{
-
-  return fs.statSync(path.join(baseDir, 'source', '_posts',file)).isDirectory()})[0]);
+function runImport() {
+    fs.readdirSync(path.join(baseDir, 'source', '_posts')).filter((file)=>{return fs.statSync(path.join(baseDir, 'source', '_posts',file)).isDirectory()}).forEach((dir)=>{
+  const importDir = path.join(baseDir, 'source', '_posts',dir);
 console.log(importDir)
 const dataFile = path.join(baseDir, 'source', 'data', 'breaches.json');
-function runImport() {
   console.log("Démarrage du script d'importation autonome...");
 
   if (!fs.existsSync(importDir)) {
@@ -107,7 +105,6 @@ function runImport() {
         console.error(`Erreur lors de l'analyse du front-matter dans le fichier '${filename}':`, error.message);
         skippedCount++;
         fs.unlinkSync(filePath);
-        return;
       }
        
 
@@ -178,7 +175,7 @@ function runImport() {
   console.log(` ${newBreaches.length} nouvelle(s) fuite(s) importée(s).`);
   console.log(` ${skippedCount} fichier(s) ignoré(s) (doublon ou erreur).`);
   console.log('-----------------------------');
-  fs.rmdirSync(importDir)
+  fs.rmdirSync(importDir)})
 }
 
 // Lancer la fonction
