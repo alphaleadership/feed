@@ -151,10 +151,10 @@
                 ${breach.DataClasses.map(item => `<span class="data-class">${item}</span>`).join('')}
               </div>
             ` : ''}
-            ${breach.DisclosureUrl ? `
+            ${breach.lien ? `
               <h2>Plus d\'informations</h2>
               <p>
-                <a href="${breach.DisclosureUrl}" target="_blank" rel="noopener noreferrer">Annonce officielle de la fuite</a>
+                <a href="${breach.lien}" target="_blank" rel="noopener noreferrer">Annonce officielle de la fuite</a>
               </p>
             ` : ''}
           </div>
