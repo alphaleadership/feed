@@ -1,10 +1,252 @@
 {
-  "lastUpdated": "2025-11-26T13:08:40.726Z",
-  "totalBreaches": 1108,
-    "breaches": [
+  "lastUpdated": "2025-11-27T18:35:03.209Z",
+  "totalBreaches": 1115,
+  "breaches": [
+    {
+      "Name": "2128523 fuite du 2025-11-27",
+      "Title": "2128523 fuite du 2025-11-27",
+      "Domain": null,
+      "BreachDate": "2025-11-27T00:00:00.000Z",
+      "AddedDate": "2025-11-27T18:35:02.976Z",
+      "ModifiedDate": "2025-11-27T18:35:02.976Z",
+      "PwnCount": 0,
+      "Description": "-\n\nDans un rapport publié le 24 novembre 2025\nl’équipe de recherche de la société de cybersécurité Morphisec revient sur une vaste campagne cybercriminelle visant les utilisateurs de Blender. Ce logiciel de conception 3D open source est largement utilisé par les freelances ainsi que par certaines entreprises du secteur de l’animation et du jeu vidéo.\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "2128523-fuite-du-2025-11-27",
+      "path": "https://www.numerama.com/cyberguerre/2128523-comment-cet-incontournable-logiciel-de-conception-3d-a-permis-aux-hackers-dinfiltrer-le-monde-de-lanimation.html",
+      "formattedDate": "2025-11-27",
+      "title": "2128523 fuite du 2025-11-27",
+      "date": "2025-11-27T00:00:00.000Z",
+      "lien": "https://www.numerama.com/cyberguerre/2128523-comment-cet-incontournable-logiciel-de-conception-3d-a-permis-aux-hackers-dinfiltrer-le-monde-de-lanimation.html",
+      "categories": [
+        "Cybercriminalité",
+        "Cyberguerre",
+        "Hygiène numérique",
+        "Sécurité informatique B2B",
+        "Animation",
+        "Blender",
+        "cybersécurité",
+        "Hacker",
+        "2128523"
+      ]
+    },
+    {
+      "Name": "2129081 fuite du 2025-11-27",
+      "Title": "2129081 fuite du 2025-11-27",
+      "Domain": null,
+      "BreachDate": "2025-11-27T00:00:00.000Z",
+      "AddedDate": "2025-11-27T18:35:03.005Z",
+      "ModifiedDate": "2025-11-27T18:35:03.005Z",
+      "PwnCount": 0,
+      "Description": "-\n\nDans l'optique de rehausser la sécurité autour de votre carte SIM\nil est possible de modifier le code PIN avec une séquence de chiffres un peu plus complexe. Voici la marche à suivre pour changer le code PIN sur un smartphone Android.\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "2129081-fuite-du-2025-11-27",
+      "path": "https://www.numerama.com/tech/2129081-comment-changer-son-code-pin-sur-android.html",
+      "formattedDate": "2025-11-27",
+      "title": "2129081 fuite du 2025-11-27",
+      "date": "2025-11-27T00:00:00.000Z",
+      "lien": "https://www.numerama.com/tech/2129081-comment-changer-son-code-pin-sur-android.html",
+      "categories": [
+        "Smartphone",
+        "Smartphones Android",
+        "Tech",
+        "Code PIN",
+        "Sécurité",
+        "2129081"
+      ]
+    },
+    {
+      "Name": "2887767_des fuite du 2025-11-27",
+      "Title": "2887767_des fuite du 2025-11-27",
+      "Domain": null,
+      "BreachDate": "2025-11-27T00:00:00.000Z",
+      "AddedDate": "2025-11-27T18:35:03.033Z",
+      "ModifiedDate": "2025-11-27T18:35:03.033Z",
+      "PwnCount": 0,
+      "Description": "-\n\nLes hackers malveillants ne manquent pas d’imagination\ncomme le prouve la nouvelle vague d’attaques « ClickFix » qui se fait passer pour un écran de mises à jour Windows pour infecter des PC.\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "2887767-des-fuite-du-2025-11-27",
+      "path": "https://www.frandroid.com/marques/microsoft/2887767_des-fausses-mises-a-jour-windows-tentent-dinfecter-votre-pc-avec-un-virus",
+      "formattedDate": "2025-11-27",
+      "title": "2887767_des fuite du 2025-11-27",
+      "date": "2025-11-27T00:00:00.000Z",
+      "lien": "https://www.frandroid.com/marques/microsoft/2887767_des-fausses-mises-a-jour-windows-tentent-dinfecter-votre-pc-avec-un-virus",
+      "categories": [
+        "Marques",
+        "Microsoft",
+        "OS",
+        "PC",
+        "Produits",
+        "Sécurité",
+        "Société",
+        "Windows",
+        "malware",
+        "mise à jour",
+        "virus",
+        "Windows 11 Professionnel",
+        "2887767_des"
+      ]
+    },
+    {
+      "Name": "csdn fuite du 2025-11-27",
+      "Title": "csdn fuite du 2025-11-27",
+      "Domain": null,
+      "BreachDate": "2025-11-27T00:00:00.000Z",
+      "AddedDate": "2025-11-27T18:35:03.082Z",
+      "ModifiedDate": "2025-11-27T18:35:03.082Z",
+      "PwnCount": 0,
+      "Description": "-\n\nIn 2011\nthe China Software Developer Network (CSDN) suffered a data breach that exposed over 6M user records. The data included email addresses alongside usernames and plain text passwords.\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "csdn-fuite-du-2025-11-27",
+      "path": "https://haveibeenpwned.com/Breach/CSDN",
+      "formattedDate": "2025-11-27",
+      "title": "csdn fuite du 2025-11-27",
+      "date": "2025-11-27T00:00:00.000Z",
+      "lien": "https://haveibeenpwned.com/Breach/CSDN",
+      "categories": [
+        "csdn"
+      ]
+    },
+    {
+      "Name": "footclub fédération française de foot fuite du 2025-11-27",
+      "Title": "footclub fédération française de foot fuite du 2025-11-27",
+      "Domain": null,
+      "BreachDate": "2025-11-27T00:00:00.000Z",
+      "AddedDate": "2025-11-27T18:35:03.103Z",
+      "ModifiedDate": "2025-11-27T18:35:03.103Z",
+      "PwnCount": 0,
+      "Description": "-\n\nnom\nprénom\ngenre\ndate et lieu de naissance\nnationalité\nadresse postale\nadresse mail\nnuméro de téléphone\nnuméro de licence\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "footclub-f-d-ration-fran-aise-de-foot-fuite-du-2025-11-27",
+      "path": "https://www.fff.fr/article/15831-communique-du-26-novembre-relatif-au-vol-de-donnees.html",
+      "formattedDate": "2025-11-27",
+      "title": "footclub fédération française de foot fuite du 2025-11-27",
+      "date": "2025-11-27T00:00:00.000Z",
+      "lien": "https://www.fff.fr/article/15831-communique-du-26-novembre-relatif-au-vol-de-donnees.html",
+      "categories": [
+        "footclub fédération française de foot"
+      ]
+    },
+    {
+      "Name": "synbird la rochelle fuite du 2025-11-27",
+      "Title": "synbird la rochelle fuite du 2025-11-27",
+      "Domain": null,
+      "BreachDate": "2025-11-27T00:00:00.000Z",
+      "AddedDate": "2025-11-27T18:35:03.180Z",
+      "ModifiedDate": "2025-11-27T18:35:03.180Z",
+      "PwnCount": 0,
+      "Description": "-\n\nnom\nprénom\nemail\nnuméro de téléphone\nheure\ndate et lieu de rendez-vous\nautres éléments\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "synbird-la-rochelle-fuite-du-2025-11-27",
+      "path": "https://www.sudouest.fr/charente-maritime/la-rochelle/fuite-de-donnees-chez-synbird-la-rochelle-touchee-comme-1-300-communes-de-france-26875312.php",
+      "formattedDate": "2025-11-27",
+      "title": "synbird la rochelle fuite du 2025-11-27",
+      "date": "2025-11-27T00:00:00.000Z",
+      "lien": "https://www.sudouest.fr/charente-maritime/la-rochelle/fuite-de-donnees-chez-synbird-la-rochelle-touchee-comme-1-300-communes-de-france-26875312.php",
+      "categories": [
+        "synbird la rochelle"
+      ]
+    },
+    {
+      "Name": "weda msp givors presqu’île fuite du 2025-11-27",
+      "Title": "weda msp givors presqu’île fuite du 2025-11-27",
+      "Domain": null,
+      "BreachDate": "2025-11-27T00:00:00.000Z",
+      "AddedDate": "2025-11-27T18:35:03.208Z",
+      "ModifiedDate": "2025-11-27T18:35:03.208Z",
+      "PwnCount": 0,
+      "Description": "-\n\nnom\nprénom\nadresse postale\nadresse email\nnuméro de téléphone\ndonnées de santé\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "weda-msp-givors-presqu-le-fuite-du-2025-11-27",
+      "path": "https://bonjourlafuite.eu.org/img/msp-givors.png",
+      "formattedDate": "2025-11-27",
+      "title": "weda msp givors presqu’île fuite du 2025-11-27",
+      "date": "2025-11-27T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/msp-givors.png",
+      "categories": [
+        "weda msp givors presqu’île"
+      ]
+    },
     {
       "Name": "2122433 fuite du 2025-11-25",
-      "Title": "",
+      "Title": "2122433 fuite du 2025-11-25",
       "Domain": null,
       "BreachDate": "2025-11-25T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:07:33.685Z",
@@ -40,12 +282,11 @@
         "Cybercriminalité",
         "données personnelles",
         "2122433"
-      ],
-      "Titlee": "2122433 fuite du 2025-11-25"
+      ]
     },
     {
       "Name": "2127053 fuite du 2025-11-25",
-      "Title": "",
+      "Title": "2127053 fuite du 2025-11-25",
       "Domain": null,
       "BreachDate": "2025-11-25T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:07:35.299Z",
@@ -83,12 +324,11 @@
         "Mangas",
         "Robots",
         "2127053"
-      ],
-      "Titlee": "2127053 fuite du 2025-11-25"
+      ]
     },
     {
       "Name": "2885197_ce fuite du 2025-11-25",
-      "Title": "",
+      "Title": "2885197_ce fuite du 2025-11-25",
       "Domain": null,
       "BreachDate": "2025-11-25T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:07:42.703Z",
@@ -127,12 +367,11 @@
         "Surveillance de masse",
         "WhatsApp",
         "2885197_ce"
-      ],
-      "Titlee": "2885197_ce fuite du 2025-11-25"
+      ]
     },
     {
       "Name": "628206_comment fuite du 2025-11-25",
-      "Title": "",
+      "Title": "628206_comment fuite du 2025-11-25",
       "Domain": null,
       "BreachDate": "2025-11-25T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:07:44.078Z",
@@ -169,12 +408,11 @@
         "Tutoriels smartphones",
         "Tutoriels iPhone et iPad",
         "628206_comment"
-      ],
-      "Titlee": "628206_comment fuite du 2025-11-25"
+      ]
     },
     {
       "Name": "ag2r la mondiale fuite du 2025-11-25",
-      "Title": "",
+      "Title": "ag2r la mondiale fuite du 2025-11-25",
       "Domain": null,
       "BreachDate": "2025-11-25T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:07:51.627Z",
@@ -201,12 +439,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/ag2r.jpg",
       "categories": [
         "ag2r la mondiale"
-      ],
-      "Titlee": "ag2r la mondiale fuite du 2025-11-25"
+      ]
     },
     {
       "Name": "clinique du millénaire fuite du 2025-11-25",
-      "Title": "",
+      "Title": "clinique du millénaire fuite du 2025-11-25",
       "Domain": null,
       "BreachDate": "2025-11-25T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:10.188Z",
@@ -233,12 +470,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/clinique-millenaire.png",
       "categories": [
         "clinique du millénaire"
-      ],
-      "Titlee": "clinique du millénaire fuite du 2025-11-25"
+      ]
     },
     {
       "Name": "fédération française de danse fuite du 2025-11-25",
-      "Title": "",
+      "Title": "fédération française de danse fuite du 2025-11-25",
       "Domain": null,
       "BreachDate": "2025-11-25T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:16.332Z",
@@ -265,12 +501,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/ffdanse.png",
       "categories": [
         "fédération française de danse"
-      ],
-      "Titlee": "fédération française de danse fuite du 2025-11-25"
+      ]
     },
     {
       "Name": "itelis fuite du 2025-11-25",
-      "Title": "",
+      "Title": "itelis fuite du 2025-11-25",
       "Domain": null,
       "BreachDate": "2025-11-25T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:21.931Z",
@@ -297,12 +532,11 @@
       "lien": "https://www.bfmtv.com/tech/cybersecurite/la-plateforme-itelis-a-ete-victime-d-un-piratage-les-donnees-privees-d-utilisateurs-liees-aux-remboursements-de-frais-d-optique-ont-ete-derobees-attention-aux-campagnes-de-phishing_AV-202511240584.html",
       "categories": [
         "itelis"
-      ],
-      "Titlee": "itelis fuite du 2025-11-25"
+      ]
     },
     {
       "Name": "weda msp du pré vicinal fuite du 2025-11-25",
-      "Title": "",
+      "Title": "weda msp du pré vicinal fuite du 2025-11-25",
       "Domain": null,
       "BreachDate": "2025-11-25T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:39.438Z",
@@ -329,12 +563,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/msp-pre-vicinal.png",
       "categories": [
         "weda msp du pré vicinal"
-      ],
-      "Titlee": "weda msp du pré vicinal fuite du 2025-11-25"
+      ]
     },
     {
       "Name": "aprs fuite du 2025-11-24",
-      "Title": "",
+      "Title": "aprs fuite du 2025-11-24",
       "Domain": null,
       "BreachDate": "2025-11-24T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:04.588Z",
@@ -361,12 +594,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/aprs.png",
       "categories": [
         "aprs"
-      ],
-      "Titlee": "aprs fuite du 2025-11-24"
+      ]
     },
     {
       "Name": "mairie de chatou fuite du 2025-11-24",
-      "Title": "",
+      "Title": "mairie de chatou fuite du 2025-11-24",
       "Domain": null,
       "BreachDate": "2025-11-24T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:25.507Z",
@@ -393,12 +625,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/chatou.png",
       "categories": [
         "mairie de chatou"
-      ],
-      "Titlee": "mairie de chatou fuite du 2025-11-24"
+      ]
     },
     {
       "Name": "mairie de quimper fuite du 2025-11-24",
-      "Title": "",
+      "Title": "mairie de quimper fuite du 2025-11-24",
       "Domain": null,
       "BreachDate": "2025-11-24T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:25.808Z",
@@ -425,12 +656,11 @@
       "lien": "https://www.letelegramme.fr/finistere/quimper-29000/cartes-didentite-passeports-la-ville-de-quimper-cible-dune-cyberattaque-des-milliers-de-donnees-piratees-6931248.php",
       "categories": [
         "mairie de quimper"
-      ],
-      "Titlee": "mairie de quimper fuite du 2025-11-24"
+      ]
     },
     {
       "Name": "mairie de saint fuite du 2025-11-24",
-      "Title": "",
+      "Title": "mairie de saint fuite du 2025-11-24",
       "Domain": null,
       "BreachDate": "2025-11-24T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:26.047Z",
@@ -457,12 +687,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/saint-aubin-aubigne.jpg",
       "categories": [
         "mairie de saint"
-      ],
-      "Titlee": "mairie de saint fuite du 2025-11-24"
+      ]
     },
     {
       "Name": "malakoff humanis fuite du 2025-11-24",
-      "Title": "",
+      "Title": "malakoff humanis fuite du 2025-11-24",
       "Domain": null,
       "BreachDate": "2025-11-24T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:26.572Z",
@@ -489,12 +718,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/malakoff.png",
       "categories": [
         "malakoff humanis"
-      ],
-      "Titlee": "malakoff humanis fuite du 2025-11-24"
+      ]
     },
     {
       "Name": "murfy fuite du 2025-11-24",
-      "Title": "",
+      "Title": "murfy fuite du 2025-11-24",
       "Domain": null,
       "BreachDate": "2025-11-24T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:28.324Z",
@@ -521,12 +749,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/murfy.jpg",
       "categories": [
         "murfy"
-      ],
-      "Titlee": "murfy fuite du 2025-11-24"
+      ]
     },
     {
       "Name": "fuite du 2025-11-24",
-      "Title": "",
+      "Title": "fuite du 2025-11-24",
       "Domain": null,
       "BreachDate": "2025-11-24T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:39.812Z",
@@ -565,12 +792,11 @@
         "phishing",
         "usurpation administrative",
         ""
-      ],
-      "Titlee": "fuite du 2025-11-24"
+      ]
     },
     {
       "Name": "adda fuite du 2025-11-23",
-      "Title": "",
+      "Title": "adda fuite du 2025-11-23",
       "Domain": null,
       "BreachDate": "2025-11-23T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:07:48.836Z",
@@ -597,12 +823,11 @@
       "lien": "https://haveibeenpwned.com/Breach/ADDA",
       "categories": [
         "adda"
-      ],
-      "Titlee": "adda fuite du 2025-11-23"
+      ]
     },
     {
       "Name": "codestepbystep fuite du 2025-11-23",
-      "Title": "",
+      "Title": "codestepbystep fuite du 2025-11-23",
       "Domain": null,
       "BreachDate": "2025-11-23T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:10.403Z",
@@ -629,12 +854,11 @@
       "lien": "https://haveibeenpwned.com/Breach/CodeStepByStep",
       "categories": [
         "codestepbystep"
-      ],
-      "Titlee": "codestepbystep fuite du 2025-11-23"
+      ]
     },
     {
       "Name": "2125121 fuite du 2025-11-22",
-      "Title": "",
+      "Title": "2125121 fuite du 2025-11-22",
       "Domain": null,
       "BreachDate": "2025-11-22T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:07:34.322Z",
@@ -666,12 +890,11 @@
         "cybersécurité",
         "recherche",
         "2125121"
-      ],
-      "Titlee": "2125121 fuite du 2025-11-22"
+      ]
     },
     {
       "Name": "2879549_comment fuite du 2025-11-21",
-      "Title": "",
+      "Title": "2879549_comment fuite du 2025-11-21",
       "Domain": null,
       "BreachDate": "2025-11-21T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:07:41.167Z",
@@ -704,12 +927,11 @@
         "Sécurité",
         "Société",
         "2879549_comment"
-      ],
-      "Titlee": "2879549_comment fuite du 2025-11-21"
+      ]
     },
     {
       "Name": "2881329_nous fuite du 2025-11-21",
-      "Title": "",
+      "Title": "2881329_nous fuite du 2025-11-21",
       "Domain": null,
       "BreachDate": "2025-11-21T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:07:41.828Z",
@@ -744,12 +966,11 @@
         "Société",
         "GrapheneOS",
         "2881329_nous"
-      ],
-      "Titlee": "2881329_nous fuite du 2025-11-21"
+      ]
     },
     {
       "Name": "colis privé fuite du 2025-11-21",
-      "Title": "",
+      "Title": "colis privé fuite du 2025-11-21",
       "Domain": null,
       "BreachDate": "2025-11-21T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:10.787Z",
@@ -776,12 +997,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/colisprive.jpeg",
       "categories": [
         "colis privé"
-      ],
-      "Titlee": "colis privé fuite du 2025-11-21"
+      ]
     },
     {
       "Name": "michelin fuite du 2025-11-21",
-      "Title": "",
+      "Title": "michelin fuite du 2025-11-21",
       "Domain": null,
       "BreachDate": "2025-11-21T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:27.491Z",
@@ -808,12 +1028,11 @@
       "lien": "https://botcrawl.com/michelin-data-breach/",
       "categories": [
         "michelin"
-      ],
-      "Titlee": "michelin fuite du 2025-11-21"
+      ]
     },
     {
       "Name": "beckett fuite du 2025-11-20",
-      "Title": "",
+      "Title": "beckett fuite du 2025-11-20",
       "Domain": null,
       "BreachDate": "2025-11-20T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:06.937Z",
@@ -840,12 +1059,11 @@
       "lien": "https://haveibeenpwned.com/Breach/Beckett",
       "categories": [
         "beckett"
-      ],
-      "Titlee": "beckett fuite du 2025-11-20"
+      ]
     },
     {
       "Name": "eurofiber fuite du 2025-11-20",
-      "Title": "",
+      "Title": "eurofiber fuite du 2025-11-20",
       "Domain": null,
       "BreachDate": "2025-11-20T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:15.161Z",
@@ -872,12 +1090,11 @@
       "lien": "https://haveibeenpwned.com/Breach/Eurofiber",
       "categories": [
         "eurofiber"
-      ],
-      "Titlee": "eurofiber fuite du 2025-11-20"
+      ]
     },
     {
       "Name": "iko fuite du 2025-11-20",
-      "Title": "",
+      "Title": "iko fuite du 2025-11-20",
       "Domain": null,
       "BreachDate": "2025-11-20T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:20.795Z",
@@ -904,12 +1121,11 @@
       "lien": "https://haveibeenpwned.com/Breach/IKO",
       "categories": [
         "iko"
-      ],
-      "Titlee": "iko fuite du 2025-11-20"
+      ]
     },
     {
       "Name": "vultr fuite du 2025-11-20",
-      "Title": "",
+      "Title": "vultr fuite du 2025-11-20",
       "Domain": null,
       "BreachDate": "2025-11-20T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:38.947Z",
@@ -936,12 +1152,11 @@
       "lien": "https://haveibeenpwned.com/Breach/Vultr",
       "categories": [
         "vultr"
-      ],
-      "Titlee": "vultr fuite du 2025-11-20"
+      ]
     },
     {
       "Name": "2121983 fuite du 2025-11-19",
-      "Title": "",
+      "Title": "2121983 fuite du 2025-11-19",
       "Domain": null,
       "BreachDate": "2025-11-19T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:06:12.424Z",
@@ -974,12 +1189,11 @@
         "Meta",
         "WhatsApp",
         "2121983"
-      ],
-      "Titlee": "2121983 fuite du 2025-11-19"
+      ]
     },
     {
       "Name": "2122247 fuite du 2025-11-19",
-      "Title": "",
+      "Title": "2122247 fuite du 2025-11-19",
       "Domain": null,
       "BreachDate": "2025-11-19T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:07:27.259Z",
@@ -1018,12 +1232,11 @@
         "Sécurité",
         "Zoomers",
         "2122247"
-      ],
-      "Titlee": "2122247 fuite du 2025-11-19"
+      ]
     },
     {
       "Name": "mairie d’alfortville fuite du 2025-11-19",
-      "Title": "",
+      "Title": "mairie d’alfortville fuite du 2025-11-19",
       "Domain": null,
       "BreachDate": "2025-11-19T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:26.336Z",
@@ -1050,12 +1263,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/alfortville-1.jpg",
       "categories": [
         "mairie d’alfortville"
-      ],
-      "Titlee": "mairie d’alfortville fuite du 2025-11-19"
+      ]
     },
     {
       "Name": "resana fuite du 2025-11-18",
-      "Title": "",
+      "Title": "resana fuite du 2025-11-18",
       "Domain": null,
       "BreachDate": "2025-11-18T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:34.198Z",
@@ -1082,12 +1294,11 @@
       "lien": "https://www.numerama.com/cyberguerre/2120401-chantage-en-cours-sur-des-agents-et-fonctionnaires-de-letat-francais-des-hackers-ont-exfiltre-des-donnees-dune-plateforme-interministerielle.html",
       "categories": [
         "resana"
-      ],
-      "Titlee": "resana fuite du 2025-11-18"
+      ]
     },
     {
       "Name": "synbird fuite du 2025-11-18",
-      "Title": "",
+      "Title": "synbird fuite du 2025-11-18",
       "Domain": null,
       "BreachDate": "2025-11-18T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:35.842Z",
@@ -1114,12 +1325,11 @@
       "lien": "https://france3-regions.franceinfo.fr/bretagne/finistere/quimper/vol-massif-de-donnees-en-bretagne-au-moins-cinq-communes-touchees-l-enquete-s-accelere-voici-ce-que-l-on-sait-3252205.html",
       "categories": [
         "synbird"
-      ],
-      "Titlee": "synbird fuite du 2025-11-18"
+      ]
     },
     {
       "Name": "eurofiber fuite du 2025-11-17",
-      "Title": "",
+      "Title": "eurofiber fuite du 2025-11-17",
       "Domain": null,
       "BreachDate": "2025-11-17T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:15.156Z",
@@ -1146,12 +1356,11 @@
       "lien": "https://socradar.io/eurofiber-breach-critical-infrastructure-data-europe/",
       "categories": [
         "eurofiber"
-      ],
-      "Titlee": "eurofiber fuite du 2025-11-17"
+      ]
     },
     {
       "Name": "mairie de brest fuite du 2025-11-17",
-      "Title": "",
+      "Title": "mairie de brest fuite du 2025-11-17",
       "Domain": null,
       "BreachDate": "2025-11-17T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:25.277Z",
@@ -1178,12 +1387,11 @@
       "lien": "https://xcancel.com/_SaxX_/status/1990359988280152238",
       "categories": [
         "mairie de brest"
-      ],
-      "Titlee": "mairie de brest fuite du 2025-11-17"
+      ]
     },
     {
       "Name": "pajemploi fuite du 2025-11-17",
-      "Title": "",
+      "Title": "pajemploi fuite du 2025-11-17",
       "Domain": null,
       "BreachDate": "2025-11-17T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:31.455Z",
@@ -1210,12 +1418,11 @@
       "lien": "https://www.urssaf.fr/accueil/actualites/pajemploi-vol-de-donnees.html",
       "categories": [
         "pajemploi"
-      ],
-      "Titlee": "pajemploi fuite du 2025-11-17"
+      ]
     },
     {
       "Name": "santé pro fuite du 2025-11-17",
-      "Title": "",
+      "Title": "santé pro fuite du 2025-11-17",
       "Domain": null,
       "BreachDate": "2025-11-17T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:34.467Z",
@@ -1242,8 +1449,7 @@
       "lien": "https://bonjourlafuite.eu.org/img/santepro.jpg",
       "categories": [
         "santé pro"
-      ],
-      "Titlee": "santé pro fuite du 2025-11-17"
+      ]
     },
     {
       "Name": "OperationEndgame3",
@@ -1275,7 +1481,7 @@
     },
     {
       "Name": "Operation Endgame 3.0",
-      "Title": "",
+      "Title": "Operation Endgame 3.0",
       "Domain": null,
       "BreachDate": "2025-11-13T10:23:12.000Z",
       "AddedDate": "2025-11-26T13:08:29.897Z",
@@ -1302,12 +1508,11 @@
       "tags": [
         "email addresses",
         "passwords"
-      ],
-      "Titlee": "Operation Endgame 3.0"
+      ]
     },
     {
       "Name": "operationendgame3 fuite du 2025-11-13",
-      "Title": "",
+      "Title": "operationendgame3 fuite du 2025-11-13",
       "Domain": null,
       "BreachDate": "2025-11-13T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:29.871Z",
@@ -1334,12 +1539,11 @@
       "lien": "https://haveibeenpwned.com/Breach/OperationEndgame3",
       "categories": [
         "operationendgame3"
-      ],
-      "Titlee": "operationendgame3 fuite du 2025-11-13"
+      ]
     },
     {
       "Name": "weda fuite du 2025-11-12",
-      "Title": "",
+      "Title": "weda fuite du 2025-11-12",
       "Domain": null,
       "BreachDate": "2025-11-12T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:39.198Z",
@@ -1366,12 +1570,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/weda-1.jpg",
       "categories": [
         "weda"
-      ],
-      "Titlee": "weda fuite du 2025-11-12"
+      ]
     },
     {
       "Name": "fuite du 2025-11-12",
-      "Title": "",
+      "Title": "fuite du 2025-11-12",
       "Domain": null,
       "BreachDate": "2025-11-12T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:39.684Z",
@@ -1412,12 +1615,11 @@
         "télémétrie",
         "vie privée",
         ""
-      ],
-      "Titlee": "fuite du 2025-11-12"
+      ]
     },
     {
       "Name": "oui heberg fuite du 2025-11-10",
-      "Title": "",
+      "Title": "oui heberg fuite du 2025-11-10",
       "Domain": null,
       "BreachDate": "2025-11-10T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:31.141Z",
@@ -1444,12 +1646,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/ouiheberg.png",
       "categories": [
         "oui heberg"
-      ],
-      "Titlee": "oui heberg fuite du 2025-11-10"
+      ]
     },
     {
       "Name": "TISZA Világ",
-      "Title": "",
+      "Title": "TISZA Világ",
       "Domain": null,
       "BreachDate": "2025-11-08T09:45:55.000Z",
       "AddedDate": "2025-11-26T13:08:37.269Z",
@@ -1479,12 +1680,11 @@
         "phone numbers",
         "physical addresses",
         "usernames"
-      ],
-      "Titlee": "TISZA Világ"
+      ]
     },
     {
       "Name": "tisza fuite du 2025-11-8",
-      "Title": "",
+      "Title": "tisza fuite du 2025-11-8",
       "Domain": null,
       "BreachDate": "2025-11-8",
       "AddedDate": "2025-11-26T13:08:37.274Z",
@@ -1511,12 +1711,11 @@
       "lien": "https://haveibeenpwned.com/Breach/Tisza",
       "categories": [
         "tisza"
-      ],
-      "Titlee": "tisza fuite du 2025-11-8"
+      ]
     },
     {
       "Name": "mym fuite du 2025-11-7",
-      "Title": "",
+      "Title": "mym fuite du 2025-11-7",
       "Domain": null,
       "BreachDate": "2025-11-7",
       "AddedDate": "2025-11-26T13:08:28.884Z",
@@ -1543,12 +1742,11 @@
       "lien": "https://xcancel.com/_SaxX_/status/1986701724623548561",
       "categories": [
         "mym"
-      ],
-      "Titlee": "mym fuite du 2025-11-7"
+      ]
     },
     {
       "Name": "synthientcredentialstuffingthreatdata fuite du 2025-11-6",
-      "Title": "",
+      "Title": "synthientcredentialstuffingthreatdata fuite du 2025-11-6",
       "Domain": null,
       "BreachDate": "2025-11-6",
       "AddedDate": "2025-11-26T13:08:36.056Z",
@@ -1575,12 +1773,11 @@
       "lien": "https://haveibeenpwned.com/Breach/SynthientCredentialStuffingThreatData",
       "categories": [
         "synthientcredentialstuffingthreatdata"
-      ],
-      "Titlee": "synthientcredentialstuffingthreatdata fuite du 2025-11-6"
+      ]
     },
     {
       "Name": "france travail fuite du 2025-10-29",
-      "Title": "",
+      "Title": "france travail fuite du 2025-10-29",
       "Domain": null,
       "BreachDate": "2025-10-29T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:15.578Z",
@@ -1607,12 +1804,11 @@
       "lien": "https://www.francebleu.fr/infos/faits-divers-justice/le-site-de-france-travail-victime-d-une-cyberattaque-lundi-des-donnees-ont-ete-extraites-9504464",
       "categories": [
         "france travail"
-      ],
-      "Titlee": "france travail fuite du 2025-10-29"
+      ]
     },
     {
       "Name": "MyVidster (2025)",
-      "Title": "",
+      "Title": "MyVidster (2025)",
       "Domain": null,
       "BreachDate": "2025-10-27T02:40:29.000Z",
       "AddedDate": "2025-11-26T13:08:29.146Z",
@@ -1640,12 +1836,11 @@
         "email addresses",
         "profile photos",
         "usernames"
-      ],
-      "Titlee": "MyVidster (2025)"
+      ]
     },
     {
       "Name": "myvidster2025 fuite du 2025-10-27",
-      "Title": "",
+      "Title": "myvidster2025 fuite du 2025-10-27",
       "Domain": null,
       "BreachDate": "2025-10-27T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:29.151Z",
@@ -1672,12 +1867,11 @@
       "lien": "https://haveibeenpwned.com/Breach/MyVidster2025",
       "categories": [
         "myvidster2025"
-      ],
-      "Titlee": "myvidster2025 fuite du 2025-10-27"
+      ]
     },
     {
       "Name": "poltronesofa fuite du 2025-10-27",
-      "Title": "",
+      "Title": "poltronesofa fuite du 2025-10-27",
       "Domain": null,
       "BreachDate": "2025-10-27T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:33.002Z",
@@ -1704,8 +1898,7 @@
       "lien": "https://bonjourlafuite.eu.org/img/poltronesofa.jpg",
       "categories": [
         "poltronesofa"
-      ],
-      "Titlee": "poltronesofa fuite du 2025-10-27"
+      ]
     },
     {
       "Name": "MyVidster2025",
@@ -1738,7 +1931,7 @@
     },
     {
       "Name": "fédération française de tir fuite du 2025-10-23",
-      "Title": "",
+      "Title": "fédération française de tir fuite du 2025-10-23",
       "Domain": null,
       "BreachDate": "2025-10-23T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:17.811Z",
@@ -1765,12 +1958,11 @@
       "lien": "https://www.fftir.org/communication-relative-a-un-incident-de-securite/",
       "categories": [
         "fédération française de tir"
-      ],
-      "Titlee": "fédération française de tir fuite du 2025-10-23"
+      ]
     },
     {
       "Name": "agences régionales de santé de l’île fuite du 2025-10-22",
-      "Title": "",
+      "Title": "agences régionales de santé de l’île fuite du 2025-10-22",
       "Domain": null,
       "BreachDate": "2025-10-22T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:07:59.645Z",
@@ -1797,12 +1989,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/ars.jpg",
       "categories": [
         "agences régionales de santé de l’île"
-      ],
-      "Titlee": "agences régionales de santé de l’île fuite du 2025-10-22"
+      ]
     },
     {
       "Name": "synthientstealerlogthreatdata fuite du 2025-10-21",
-      "Title": "",
+      "Title": "synthientstealerlogthreatdata fuite du 2025-10-21",
       "Domain": null,
       "BreachDate": "2025-10-21T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:36.295Z",
@@ -1829,12 +2020,11 @@
       "lien": "https://haveibeenpwned.com/Breach/SynthientStealerLogThreatData",
       "categories": [
         "synthientstealerlogthreatdata"
-      ],
-      "Titlee": "synthientstealerlogthreatdata fuite du 2025-10-21"
+      ]
     },
     {
       "Name": "centre hospitalier intercommunal de haute fuite du 2025-10-19",
-      "Title": "",
+      "Title": "centre hospitalier intercommunal de haute fuite du 2025-10-19",
       "Domain": null,
       "BreachDate": "2025-10-19T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:08.926Z",
@@ -1861,12 +2051,11 @@
       "lien": "https://www.pleinair.net/actualites/item/17199-pontarlier-cyberattaque-le-centre-hospitalier-intercommunal-de-haute-comte-contraint-de-couper-son-systeme-informatique",
       "categories": [
         "centre hospitalier intercommunal de haute"
-      ],
-      "Titlee": "centre hospitalier intercommunal de haute fuite du 2025-10-19"
+      ]
     },
     {
       "Name": "prosper fuite du 2025-10-16",
-      "Title": "",
+      "Title": "prosper fuite du 2025-10-16",
       "Domain": null,
       "BreachDate": "2025-10-16T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:33.240Z",
@@ -1893,12 +2082,11 @@
       "lien": "https://haveibeenpwned.com/Breach/Prosper",
       "categories": [
         "prosper"
-      ],
-      "Titlee": "prosper fuite du 2025-10-16"
+      ]
     },
     {
       "Name": "Hello Cake",
-      "Title": "",
+      "Title": "Hello Cake",
       "Domain": null,
       "BreachDate": "2025-10-15T03:16:37.000Z",
       "AddedDate": "2025-11-26T13:08:19.874Z",
@@ -1929,12 +2117,11 @@
         "phone numbers",
         "physical addresses",
         "purchases"
-      ],
-      "Titlee": "Hello Cake"
+      ]
     },
     {
       "Name": "hellocake fuite du 2025-10-15",
-      "Title": "",
+      "Title": "hellocake fuite du 2025-10-15",
       "Domain": null,
       "BreachDate": "2025-10-15T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:19.879Z",
@@ -1961,12 +2148,11 @@
       "lien": "https://haveibeenpwned.com/Breach/HelloCake",
       "categories": [
         "hellocake"
-      ],
-      "Titlee": "hellocake fuite du 2025-10-15"
+      ]
     },
     {
       "Name": "mango fuite du 2025-10-15",
-      "Title": "",
+      "Title": "mango fuite du 2025-10-15",
       "Domain": null,
       "BreachDate": "2025-10-15T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:26.794Z",
@@ -1993,12 +2179,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/mango.jpg",
       "categories": [
         "mango"
-      ],
-      "Titlee": "mango fuite du 2025-10-15"
+      ]
     },
     {
       "Name": "agence régionale de santé des hauts fuite du 2025-10-14",
-      "Title": "",
+      "Title": "agence régionale de santé des hauts fuite du 2025-10-14",
       "Domain": null,
       "BreachDate": "2025-10-14T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:07:53.630Z",
@@ -2025,12 +2210,11 @@
       "lien": "https://info.inea.fr/",
       "categories": [
         "agence régionale de santé des hauts"
-      ],
-      "Titlee": "agence régionale de santé des hauts fuite du 2025-10-14"
+      ]
     },
     {
       "Name": "lycées des hauts fuite du 2025-10-12",
-      "Title": "",
+      "Title": "lycées des hauts fuite du 2025-10-12",
       "Domain": null,
       "BreachDate": "2025-10-12T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:24.732Z",
@@ -2057,12 +2241,11 @@
       "lien": "https://www.hautsdefrance.fr/incident-de-cybersecurite-dans-plusieurs-lycees-de-la-region-hauts-de-france/",
       "categories": [
         "lycées des hauts"
-      ],
-      "Titlee": "lycées des hauts fuite du 2025-10-12"
+      ]
     },
     {
       "Name": "vietnamairlines fuite du 2025-10-11",
-      "Title": "",
+      "Title": "vietnamairlines fuite du 2025-10-11",
       "Domain": null,
       "BreachDate": "2025-10-11T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:38.464Z",
@@ -2089,12 +2272,11 @@
       "lien": "https://haveibeenpwned.com/Breach/VietnamAirlines",
       "categories": [
         "vietnamairlines"
-      ],
-      "Titlee": "vietnamairlines fuite du 2025-10-11"
+      ]
     },
     {
       "Name": "adpost fuite du 2025-10-7",
-      "Title": "",
+      "Title": "adpost fuite du 2025-10-7",
       "Domain": null,
       "BreachDate": "2025-10-7",
       "AddedDate": "2025-11-26T13:07:49.483Z",
@@ -2121,8 +2303,7 @@
       "lien": "https://haveibeenpwned.com/Breach/Adpost",
       "categories": [
         "adpost"
-      ],
-      "Titlee": "adpost fuite du 2025-10-7"
+      ]
     },
     {
       "Name": "Tisza",
@@ -2157,7 +2338,7 @@
     },
     {
       "Name": "france travail fuite du 2025-10-6",
-      "Title": "",
+      "Title": "france travail fuite du 2025-10-6",
       "Domain": null,
       "BreachDate": "2025-10-6",
       "AddedDate": "2025-11-26T13:08:15.581Z",
@@ -2184,12 +2365,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/pole-emploi.png",
       "categories": [
         "france travail"
-      ],
-      "Titlee": "france travail fuite du 2025-10-6"
+      ]
     },
     {
       "Name": "Artists&Clients",
-      "Title": "",
+      "Title": "Artists&Clients",
       "Domain": null,
       "BreachDate": "2025-10-04T01:05:43.000Z",
       "AddedDate": "2025-11-26T13:08:05.365Z",
@@ -2218,12 +2398,11 @@
         "ip addresses",
         "passwords",
         "usernames"
-      ],
-      "Titlee": "Artists&Clients"
+      ]
     },
     {
       "Name": "artistsnclients fuite du 2025-10-4",
-      "Title": "",
+      "Title": "artistsnclients fuite du 2025-10-4",
       "Domain": null,
       "BreachDate": "2025-10-4",
       "AddedDate": "2025-11-26T13:08:05.371Z",
@@ -2250,12 +2429,11 @@
       "lien": "https://haveibeenpwned.com/Breach/ArtistsNClients",
       "categories": [
         "artistsnclients"
-      ],
-      "Titlee": "artistsnclients fuite du 2025-10-4"
+      ]
     },
     {
       "Name": "discord fuite du 2025-10-4",
-      "Title": "",
+      "Title": "discord fuite du 2025-10-4",
       "Domain": null,
       "BreachDate": "2025-10-4",
       "AddedDate": "2025-11-26T13:08:13.230Z",
@@ -2282,12 +2460,11 @@
       "lien": "https://next.ink/203013/discord-reconnait-une-fuite-de-donnees-personnelles-et-de-documents-internes/",
       "categories": [
         "discord"
-      ],
-      "Titlee": "discord fuite du 2025-10-4"
+      ]
     },
     {
       "Name": "france travail fuite du 2025-9-25",
-      "Title": "",
+      "Title": "france travail fuite du 2025-9-25",
       "Domain": null,
       "BreachDate": "2025-9-25",
       "AddedDate": "2025-11-26T13:08:15.611Z",
@@ -2314,12 +2491,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/france-travail-2.jpg",
       "categories": [
         "france travail"
-      ],
-      "Titlee": "france travail fuite du 2025-9-25"
+      ]
     },
     {
       "Name": "la nef fuite du 2025-9-25",
-      "Title": "",
+      "Title": "la nef fuite du 2025-9-25",
       "Domain": null,
       "BreachDate": "2025-9-25",
       "AddedDate": "2025-11-26T13:08:23.118Z",
@@ -2346,12 +2522,11 @@
       "lien": "https://next.ink/201451/la-banque-cooperative-la-nef-alerte-ses-clients-au-sujet-dune-fuite-dadresses-email/",
       "categories": [
         "la nef"
-      ],
-      "Titlee": "la nef fuite du 2025-9-25"
+      ]
     },
     {
       "Name": "Bouygues Telecom",
-      "Title": "",
+      "Title": "Bouygues Telecom",
       "Domain": null,
       "BreachDate": "2025-09-24T06:37:56.000Z",
       "AddedDate": "2025-11-26T13:08:07.583Z",
@@ -2382,12 +2557,11 @@
         "names",
         "phone numbers",
         "physical addresses"
-      ],
-      "Titlee": "Bouygues Telecom"
+      ]
     },
     {
       "Name": "inovie labosud fuite du 2025-9-23",
-      "Title": "",
+      "Title": "inovie labosud fuite du 2025-9-23",
       "Domain": null,
       "BreachDate": "2025-9-23",
       "AddedDate": "2025-11-26T13:08:21.405Z",
@@ -2414,12 +2588,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/inovie.jpg",
       "categories": [
         "inovie labosud"
-      ],
-      "Titlee": "inovie labosud fuite du 2025-9-23"
+      ]
     },
     {
       "Name": "digital charging solutions fuite du 2025-9-20",
-      "Title": "",
+      "Title": "digital charging solutions fuite du 2025-9-20",
       "Domain": null,
       "BreachDate": "2025-9-20",
       "AddedDate": "2025-11-26T13:08:12.531Z",
@@ -2446,12 +2619,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/dcs.jpg",
       "categories": [
         "digital charging solutions"
-      ],
-      "Titlee": "digital charging solutions fuite du 2025-9-20"
+      ]
     },
     {
       "Name": "fédération française de tennis de table fuite du 2025-9-19",
-      "Title": "",
+      "Title": "fédération française de tennis de table fuite du 2025-9-19",
       "Domain": null,
       "BreachDate": "2025-9-19",
       "AddedDate": "2025-11-26T13:08:17.608Z",
@@ -2478,12 +2650,11 @@
       "lien": "https://www.fftt.com/site/actualites/2025-09-19/communique-cyberattaque-et-vol-de-donnees",
       "categories": [
         "fédération française de tennis de table"
-      ],
-      "Titlee": "fédération française de tennis de table fuite du 2025-9-19"
+      ]
     },
     {
       "Name": "clarins fuite du 2025-9-18",
-      "Title": "",
+      "Title": "clarins fuite du 2025-9-18",
       "Domain": null,
       "BreachDate": "2025-9-18",
       "AddedDate": "2025-11-26T13:08:09.999Z",
@@ -2510,12 +2681,11 @@
       "lien": "https://www.usine-digitale.fr/article/clarins-victime-d-une-cyberattaque-les-donnees-personnelles-des-clients-exposees.N2237935",
       "categories": [
         "clarins"
-      ],
-      "Titlee": "clarins fuite du 2025-9-18"
+      ]
     },
     {
       "Name": "Miljödata",
-      "Title": "",
+      "Title": "Miljödata",
       "Domain": null,
       "BreachDate": "2025-09-16T00:10:29.000Z",
       "AddedDate": "2025-11-26T13:08:27.748Z",
@@ -2547,12 +2717,11 @@
         "names",
         "phone numbers",
         "physical addresses"
-      ],
-      "Titlee": "Miljödata"
+      ]
     },
     {
       "Name": "plex fuite du 2025-9-9",
-      "Title": "",
+      "Title": "plex fuite du 2025-9-9",
       "Domain": null,
       "BreachDate": "2025-9-9",
       "AddedDate": "2025-11-26T13:08:32.777Z",
@@ -2579,12 +2748,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/plex.png",
       "categories": [
         "plex"
-      ],
-      "Titlee": "plex fuite du 2025-9-9"
+      ]
     },
     {
       "Name": "eklo fuite du 2025-9-3",
-      "Title": "",
+      "Title": "eklo fuite du 2025-9-3",
       "Domain": null,
       "BreachDate": "2025-9-3",
       "AddedDate": "2025-11-26T13:08:14.475Z",
@@ -2611,8 +2779,7 @@
       "lien": "https://bonjourlafuite.eu.org/img/eklo.jpg",
       "categories": [
         "eklo"
-      ],
-      "Titlee": "eklo fuite du 2025-9-3"
+      ]
     },
     {
       "Name": "Prosper",
@@ -2715,7 +2882,7 @@
     },
     {
       "Name": "auchan fuite du 2025-8-21",
-      "Title": "",
+      "Title": "auchan fuite du 2025-8-21",
       "Domain": null,
       "BreachDate": "2025-8-21",
       "AddedDate": "2025-11-26T13:08:06.099Z",
@@ -2742,12 +2909,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/auchan.jpg",
       "categories": [
         "auchan"
-      ],
-      "Titlee": "auchan fuite du 2025-8-21"
+      ]
     },
     {
       "Name": "france link interactive fuite du 2025-8-13",
-      "Title": "",
+      "Title": "france link interactive fuite du 2025-8-13",
       "Domain": null,
       "BreachDate": "2025-8-13",
       "AddedDate": "2025-11-26T13:08:15.360Z",
@@ -2774,12 +2940,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/francelink.png",
       "categories": [
         "france link interactive"
-      ],
-      "Titlee": "france link interactive fuite du 2025-8-13"
+      ]
     },
     {
       "Name": "google fuite du 2025-8-13",
-      "Title": "",
+      "Title": "google fuite du 2025-8-13",
       "Domain": null,
       "BreachDate": "2025-8-13",
       "AddedDate": "2025-11-26T13:08:18.655Z",
@@ -2806,12 +2971,11 @@
       "lien": "https://www.01net.com/actualites/fuite-donnees-chez-google-255-millions-dinformations-piratees.html",
       "categories": [
         "google"
-      ],
-      "Titlee": "google fuite du 2025-8-13"
+      ]
     },
     {
       "Name": "partner immo fuite du 2025-8-13",
-      "Title": "",
+      "Title": "partner immo fuite du 2025-8-13",
       "Domain": null,
       "BreachDate": "2025-8-13",
       "AddedDate": "2025-11-26T13:08:32.008Z",
@@ -2838,12 +3002,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/partnerimmo.jpg",
       "categories": [
         "partner immo"
-      ],
-      "Titlee": "partner immo fuite du 2025-8-13"
+      ]
     },
     {
       "Name": "alltricks fuite du 2025-8-12",
-      "Title": "",
+      "Title": "alltricks fuite du 2025-8-12",
       "Domain": null,
       "BreachDate": "2025-8-12",
       "AddedDate": "2025-11-26T13:08:02.489Z",
@@ -2870,12 +3033,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/alltricks.png",
       "categories": [
         "alltricks"
-      ],
-      "Titlee": "alltricks fuite du 2025-8-12"
+      ]
     },
     {
       "Name": "france travail fuite du 2025-8-12",
-      "Title": "",
+      "Title": "france travail fuite du 2025-8-12",
       "Domain": null,
       "BreachDate": "2025-8-12",
       "AddedDate": "2025-11-26T13:08:15.606Z",
@@ -2902,8 +3064,7 @@
       "lien": "https://bonjourlafuite.eu.org/img/france-travail.png",
       "categories": [
         "france travail"
-      ],
-      "Titlee": "france travail fuite du 2025-8-12"
+      ]
     },
     {
       "Name": "Giglio",
@@ -2937,7 +3098,7 @@
     },
     {
       "Name": "optic 2000 fuite du 2025-8-8",
-      "Title": "",
+      "Title": "optic 2000 fuite du 2025-8-8",
       "Domain": null,
       "BreachDate": "2025-8-8",
       "AddedDate": "2025-11-26T13:08:30.155Z",
@@ -2964,12 +3125,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/optic2000.png",
       "categories": [
         "optic 2000"
-      ],
-      "Titlee": "optic 2000 fuite du 2025-8-8"
+      ]
     },
     {
       "Name": "air france fuite du 2025-8-6",
-      "Title": "",
+      "Title": "air france fuite du 2025-8-6",
       "Domain": null,
       "BreachDate": "2025-8-6",
       "AddedDate": "2025-11-26T13:08:01.190Z",
@@ -2996,12 +3156,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/air-france.jpg",
       "categories": [
         "air france"
-      ],
-      "Titlee": "air france fuite du 2025-8-6"
+      ]
     },
     {
       "Name": "bouygues telecom fuite du 2025-8-6",
-      "Title": "",
+      "Title": "bouygues telecom fuite du 2025-8-6",
       "Domain": null,
       "BreachDate": "2025-8-6",
       "AddedDate": "2025-11-26T13:08:07.373Z",
@@ -3028,12 +3187,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/bouygues.png",
       "categories": [
         "bouygues telecom"
-      ],
-      "Titlee": "bouygues telecom fuite du 2025-8-6"
+      ]
     },
     {
       "Name": "pandora fuite du 2025-8-5",
-      "Title": "",
+      "Title": "pandora fuite du 2025-8-5",
       "Domain": null,
       "BreachDate": "2025-8-5",
       "AddedDate": "2025-11-26T13:08:31.747Z",
@@ -3060,8 +3218,7 @@
       "lien": "https://bonjourlafuite.eu.org/img/pandora.jpg",
       "categories": [
         "pandora"
-      ],
-      "Titlee": "pandora fuite du 2025-8-5"
+      ]
     },
     {
       "Name": "BouyguesTelecom",
@@ -3096,40 +3253,8 @@
       "formattedDate": "2025-08-04"
     },
     {
-      "Name": "Pi-hole",
-      "Title": "",
-      "Domain": null,
-      "BreachDate": "2025-07-31T22:46:38.000Z",
-      "AddedDate": "2025-11-26T13:08:36.769Z",
-      "ModifiedDate": "2025-11-26T13:08:36.769Z",
-      "PwnCount": 0,
-      "Description": "-\r\n\r\n# Pi-hole\r\n\r\n<div class=\"breach-meta\">\r\n  <div class=\"meta-item\">\r\n    <span class=\"meta-label\">Date de la fuite :</span>\r\n    <span class=\"meta-value\">30 juillet 2025</span>\r\n  </div>\r\n  <div class=\"meta-item\">\r\n    <span class=\"meta-label\">Comptes affectés :</span>\r\n    <span class=\"meta-value\">29 926</span>\r\n  </div>\r\n  <div class=\"meta-item\">\r\n    <span class=\"meta-label\">Site web :</span>\r\n    <a href=\"https://pi-hole.net\" target=\"_blank\" rel=\"noopener\">pi-hole.net</a>\r\n  </div>\r\n</div>\r\n\r\n## Description\r\nIn July 2025, a vulnerability in the GiveWP WordPress plugin exposed the names and email addresses of approximately 30k donors to the Pi-hole network-wide ad blocking project. Pi-hole subsequently self-submitted the list of impacted donors to HIBP.\r\n\r\n## Données exposées\r\n\r\n<div class=\"data-classes\">\r\n  <span class=\"data-class\">Email addresses</span>\r\n  <span class=\"data-class\">Names</span>\r\n</div>\r\n\r\n## Actions recommandées\r\n1. Changez votre mot de passe sur ce site et sur tout autre site où vous utilisez le même mot de passe\r\n2. Activez l'authentification à deux facteurs si disponible\r\n3. Surveillez vos comptes pour toute activité suspecte\r\n\r\n## Plus d'informations\r\n- [Vérifier si vous êtes concerné sur Have I Been Pwned](https://haveibeenpwned.com/breach/ThePi-Hole)\r\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "pi-hole",
-      "formattedDate": "2025-07-31",
-      "title": "Pi-hole",
-      "date": "2025-07-31T22:46:38.000Z",
-      "category": "breaches",
-      "tags": [
-        "email addresses",
-        "names"
-      ],
-      "Titlee": "Pi-hole"
-    },
-    {
       "Name": "thepi fuite du 2025-8-1",
-      "Title": "",
+      "Title": "thepi fuite du 2025-8-1",
       "Domain": null,
       "BreachDate": "2025-8-1",
       "AddedDate": "2025-11-26T13:08:36.516Z",
@@ -3156,12 +3281,42 @@
       "lien": "https://haveibeenpwned.com/Breach/ThePi-Hole",
       "categories": [
         "thepi"
-      ],
-      "Titlee": "thepi fuite du 2025-8-1"
+      ]
+    },
+    {
+      "Name": "Pi-hole",
+      "Title": "Pi-hole",
+      "Domain": null,
+      "BreachDate": "2025-07-31T22:46:38.000Z",
+      "AddedDate": "2025-11-26T13:08:36.769Z",
+      "ModifiedDate": "2025-11-26T13:08:36.769Z",
+      "PwnCount": 0,
+      "Description": "-\r\n\r\n# Pi-hole\r\n\r\n<div class=\"breach-meta\">\r\n  <div class=\"meta-item\">\r\n    <span class=\"meta-label\">Date de la fuite :</span>\r\n    <span class=\"meta-value\">30 juillet 2025</span>\r\n  </div>\r\n  <div class=\"meta-item\">\r\n    <span class=\"meta-label\">Comptes affectés :</span>\r\n    <span class=\"meta-value\">29 926</span>\r\n  </div>\r\n  <div class=\"meta-item\">\r\n    <span class=\"meta-label\">Site web :</span>\r\n    <a href=\"https://pi-hole.net\" target=\"_blank\" rel=\"noopener\">pi-hole.net</a>\r\n  </div>\r\n</div>\r\n\r\n## Description\r\nIn July 2025, a vulnerability in the GiveWP WordPress plugin exposed the names and email addresses of approximately 30k donors to the Pi-hole network-wide ad blocking project. Pi-hole subsequently self-submitted the list of impacted donors to HIBP.\r\n\r\n## Données exposées\r\n\r\n<div class=\"data-classes\">\r\n  <span class=\"data-class\">Email addresses</span>\r\n  <span class=\"data-class\">Names</span>\r\n</div>\r\n\r\n## Actions recommandées\r\n1. Changez votre mot de passe sur ce site et sur tout autre site où vous utilisez le même mot de passe\r\n2. Activez l'authentification à deux facteurs si disponible\r\n3. Surveillez vos comptes pour toute activité suspecte\r\n\r\n## Plus d'informations\r\n- [Vérifier si vous êtes concerné sur Have I Been Pwned](https://haveibeenpwned.com/breach/ThePi-Hole)\r\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "pi-hole",
+      "formattedDate": "2025-07-31",
+      "title": "Pi-hole",
+      "date": "2025-07-31T22:46:38.000Z",
+      "category": "breaches",
+      "tags": [
+        "email addresses",
+        "names"
+      ]
     },
     {
       "Name": "thepi fuite du 2025-7-31",
-      "Title": "",
+      "Title": "thepi fuite du 2025-7-31",
       "Domain": null,
       "BreachDate": "2025-7-31",
       "AddedDate": "2025-11-26T13:08:36.511Z",
@@ -3188,8 +3343,7 @@
       "lien": "https://haveibeenpwned.com/Breach/ThePi-Hole",
       "categories": [
         "thepi"
-      ],
-      "Titlee": "thepi fuite du 2025-7-31"
+      ]
     },
     {
       "Name": "ThePi-Hole",
@@ -3253,7 +3407,7 @@
     },
     {
       "Name": "orange fuite du 2025-7-25",
-      "Title": "",
+      "Title": "orange fuite du 2025-7-25",
       "Domain": null,
       "BreachDate": "2025-7-25",
       "AddedDate": "2025-11-26T13:08:30.618Z",
@@ -3280,12 +3434,11 @@
       "lien": "https://newsroom.orange.com/le-groupe-orange-annonce-avoir-depose-plainte-lundi-28-juillet-pour-atteinte-a-un-de-ses-systemes-dinformation?lang=fra",
       "categories": [
         "orange"
-      ],
-      "Titlee": "orange fuite du 2025-7-25"
+      ]
     },
     {
       "Name": "france travail fuite du 2025-7-22",
-      "Title": "",
+      "Title": "france travail fuite du 2025-7-22",
       "Domain": null,
       "BreachDate": "2025-7-22",
       "AddedDate": "2025-11-26T13:08:15.584Z",
@@ -3312,12 +3465,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/france-travail.jpg",
       "categories": [
         "france travail"
-      ],
-      "Titlee": "france travail fuite du 2025-7-22"
+      ]
     },
     {
       "Name": "groupe 5àsec fuite du 2025-7-22",
-      "Title": "",
+      "Title": "groupe 5àsec fuite du 2025-7-22",
       "Domain": null,
       "BreachDate": "2025-7-22",
       "AddedDate": "2025-11-26T13:08:18.954Z",
@@ -3344,8 +3496,7 @@
       "lien": "https://xcancel.com/_SaxX_/status/1947579183875383378",
       "categories": [
         "groupe 5àsec"
-      ],
-      "Titlee": "groupe 5àsec fuite du 2025-7-22"
+      ]
     },
     {
       "Name": "AllianzLife",
@@ -3381,7 +3532,7 @@
     },
     {
       "Name": "centre national de la fonction publique territoriale fuite du 2025-7-11",
-      "Title": "",
+      "Title": "centre national de la fonction publique territoriale fuite du 2025-7-11",
       "Domain": null,
       "BreachDate": "2025-7-11",
       "AddedDate": "2025-11-26T13:08:09.156Z",
@@ -3408,12 +3559,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/cnfpt.jpg",
       "categories": [
         "centre national de la fonction publique territoriale"
-      ],
-      "Titlee": "centre national de la fonction publique territoriale fuite du 2025-7-11"
+      ]
     },
     {
       "Name": "louis vuitton fuite du 2025-7-11",
-      "Title": "",
+      "Title": "louis vuitton fuite du 2025-7-11",
       "Domain": null,
       "BreachDate": "2025-7-11",
       "AddedDate": "2025-11-26T13:08:24.499Z",
@@ -3440,12 +3590,11 @@
       "lien": "https://next.ink/brief_article/fuite-de-donnees-chez-louis-vuitton-la-france-est-aussi-concernee/",
       "categories": [
         "louis vuitton"
-      ],
-      "Titlee": "louis vuitton fuite du 2025-7-11"
+      ]
     },
     {
       "Name": "sorbonne université fuite du 2025-7-11",
-      "Title": "",
+      "Title": "sorbonne université fuite du 2025-7-11",
       "Domain": null,
       "BreachDate": "2025-7-11",
       "AddedDate": "2025-11-26T13:08:35.342Z",
@@ -3472,12 +3621,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/sorbonne.png",
       "categories": [
         "sorbonne université"
-      ],
-      "Titlee": "sorbonne université fuite du 2025-7-11"
+      ]
     },
     {
       "Name": "union nationale du sport scolaire fuite du 2025-7-7",
-      "Title": "",
+      "Title": "union nationale du sport scolaire fuite du 2025-7-7",
       "Domain": null,
       "BreachDate": "2025-7-7",
       "AddedDate": "2025-11-26T13:08:37.802Z",
@@ -3504,8 +3652,7 @@
       "lien": "https://xcancel.com/_SaxX_/status/1942139268962341112",
       "categories": [
         "union nationale du sport scolaire"
-      ],
-      "Titlee": "union nationale du sport scolaire fuite du 2025-7-7"
+      ]
     },
     {
       "Name": "TheSquare",
@@ -3569,7 +3716,7 @@
     },
     {
       "Name": "disneyland fuite du 2025-6-21",
-      "Title": "",
+      "Title": "disneyland fuite du 2025-6-21",
       "Domain": null,
       "BreachDate": "2025-6-21",
       "AddedDate": "2025-11-26T13:08:13.539Z",
@@ -3596,12 +3743,11 @@
       "lien": "https://xcancel.com/_SaxX_/status/1936346269737173317",
       "categories": [
         "disneyland"
-      ],
-      "Titlee": "disneyland fuite du 2025-6-21"
+      ]
     },
     {
       "Name": "hôpital privé de la loire fuite du 2025-6-21",
-      "Title": "",
+      "Title": "hôpital privé de la loire fuite du 2025-6-21",
       "Domain": null,
       "BreachDate": "2025-6-21",
       "AddedDate": "2025-11-26T13:08:20.553Z",
@@ -3628,8 +3774,7 @@
       "lien": "https://xcancel.com/_SaxX_/status/1940667859467645379",
       "categories": [
         "hôpital privé de la loire"
-      ],
-      "Titlee": "hôpital privé de la loire fuite du 2025-6-21"
+      ]
     },
     {
       "Name": "DataTrollStealerLogs",
@@ -3750,7 +3895,7 @@
     },
     {
       "Name": "cartier fuite du 2025-6-3",
-      "Title": "",
+      "Title": "cartier fuite du 2025-6-3",
       "Domain": null,
       "BreachDate": "2025-6-3",
       "AddedDate": "2025-11-26T13:08:08.305Z",
@@ -3777,12 +3922,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/cartier.jpg",
       "categories": [
         "cartier"
-      ],
-      "Titlee": "cartier fuite du 2025-6-3"
+      ]
     },
     {
       "Name": "kaviari fuite du 2025-6-3",
-      "Title": "",
+      "Title": "kaviari fuite du 2025-6-3",
       "Domain": null,
       "BreachDate": "2025-6-3",
       "AddedDate": "2025-11-26T13:08:22.436Z",
@@ -3809,12 +3953,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/kaviari.png",
       "categories": [
         "kaviari"
-      ],
-      "Titlee": "kaviari fuite du 2025-6-3"
+      ]
     },
     {
       "Name": "autosur fuite du 2025-5-26",
-      "Title": "",
+      "Title": "autosur fuite du 2025-5-26",
       "Domain": null,
       "BreachDate": "2025-5-26",
       "AddedDate": "2025-11-26T13:08:06.305Z",
@@ -3841,8 +3984,7 @@
       "lien": "https://bonjourlafuite.eu.org/img/autosur.png",
       "categories": [
         "autosur"
-      ],
-      "Titlee": "autosur fuite du 2025-5-26"
+      ]
     },
     {
       "Name": "ColoCrossing",
@@ -3903,7 +4045,7 @@
     },
     {
       "Name": "dior fuite du 2025-5-13",
-      "Title": "",
+      "Title": "dior fuite du 2025-5-13",
       "Domain": null,
       "BreachDate": "2025-5-13",
       "AddedDate": "2025-11-26T13:08:12.744Z",
@@ -3930,12 +4072,11 @@
       "lien": "https://www.lemonde.fr/pixels/article/2025/05/13/dior-victime-d-un-vol-de-donnees-personnelles-de-clients_6605835_4408996.html",
       "categories": [
         "dior"
-      ],
-      "Titlee": "dior fuite du 2025-5-13"
+      ]
     },
     {
       "Name": "pulsy fuite du 2025-5-13",
-      "Title": "",
+      "Title": "pulsy fuite du 2025-5-13",
       "Domain": null,
       "BreachDate": "2025-5-13",
       "AddedDate": "2025-11-26T13:08:33.475Z",
@@ -3962,8 +4103,7 @@
       "lien": "https://bonjourlafuite.eu.org/img/pulsy.png",
       "categories": [
         "pulsy"
-      ],
-      "Titlee": "pulsy fuite du 2025-5-13"
+      ]
     },
     {
       "Name": "Ualabee",
@@ -4028,7 +4168,7 @@
     },
     {
       "Name": "cerballiance fuite du 2025-4-30",
-      "Title": "",
+      "Title": "cerballiance fuite du 2025-4-30",
       "Domain": null,
       "BreachDate": "2025-4-30",
       "AddedDate": "2025-11-26T13:08:09.360Z",
@@ -4055,12 +4195,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/cerballiance.png",
       "categories": [
         "cerballiance"
-      ],
-      "Titlee": "cerballiance fuite du 2025-4-30"
+      ]
     },
     {
       "Name": "carrefour mobile fuite du 2025-4-24",
-      "Title": "",
+      "Title": "carrefour mobile fuite du 2025-4-24",
       "Domain": null,
       "BreachDate": "2025-4-24",
       "AddedDate": "2025-11-26T13:08:08.019Z",
@@ -4087,12 +4226,11 @@
       "lien": "https://www.gondola.be/fr/news/64000-clients-de-carrefour-mobile-victimes-dune-fuite-de-donnees",
       "categories": [
         "carrefour mobile"
-      ],
-      "Titlee": "carrefour mobile fuite du 2025-4-24"
+      ]
     },
     {
       "Name": "easy cash fuite du 2025-4-22",
-      "Title": "",
+      "Title": "easy cash fuite du 2025-4-22",
       "Domain": null,
       "BreachDate": "2025-4-22",
       "AddedDate": "2025-11-26T13:08:14.045Z",
@@ -4119,12 +4257,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/easycash.png",
       "categories": [
         "easy cash"
-      ],
-      "Titlee": "easy cash fuite du 2025-4-22"
+      ]
     },
     {
       "Name": "indigo fuite du 2025-4-18",
-      "Title": "",
+      "Title": "indigo fuite du 2025-4-18",
       "Domain": null,
       "BreachDate": "2025-4-18",
       "AddedDate": "2025-11-26T13:08:21.096Z",
@@ -4151,12 +4288,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/indigo.jpg",
       "categories": [
         "indigo"
-      ],
-      "Titlee": "indigo fuite du 2025-4-18"
+      ]
     },
     {
       "Name": "afflelou fuite du 2025-4-15",
-      "Title": "",
+      "Title": "afflelou fuite du 2025-4-15",
       "Domain": null,
       "BreachDate": "2025-4-15",
       "AddedDate": "2025-11-26T13:07:50.355Z",
@@ -4183,12 +4319,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/afflelou-1.jpg",
       "categories": [
         "afflelou"
-      ],
-      "Titlee": "afflelou fuite du 2025-4-15"
+      ]
     },
     {
       "Name": "hertz fuite du 2025-4-15",
-      "Title": "",
+      "Title": "hertz fuite du 2025-4-15",
       "Domain": null,
       "BreachDate": "2025-4-15",
       "AddedDate": "2025-11-26T13:08:20.126Z",
@@ -4215,8 +4350,7 @@
       "lien": "https://next.ink/brief_article/hertz-sest-fait-derober-des-donnees-clients-permis-passeports-cartes-de-credit/",
       "categories": [
         "hertz"
-      ],
-      "Titlee": "hertz fuite du 2025-4-15"
+      ]
     },
     {
       "Name": "SynthientCredentialStuffingThreatData",
@@ -4276,7 +4410,7 @@
     },
     {
       "Name": "harvest fuite du 2025-4-11",
-      "Title": "",
+      "Title": "harvest fuite du 2025-4-11",
       "Domain": null,
       "BreachDate": "2025-4-11",
       "AddedDate": "2025-11-26T13:08:19.650Z",
@@ -4303,12 +4437,11 @@
       "lien": "https://www.01net.com/actualites/fuite-massive-france-vol-donnees-bouscule-monde-finance-francaise.html",
       "categories": [
         "harvest"
-      ],
-      "Titlee": "harvest fuite du 2025-4-11"
+      ]
     },
     {
       "Name": "utwin fuite du 2025-4-7",
-      "Title": "",
+      "Title": "utwin fuite du 2025-4-7",
       "Domain": null,
       "BreachDate": "2025-4-7",
       "AddedDate": "2025-11-26T13:08:38.023Z",
@@ -4335,8 +4468,7 @@
       "lien": "https://bonjourlafuite.eu.org/img/utwin.jpg",
       "categories": [
         "utwin"
-      ],
-      "Titlee": "utwin fuite du 2025-4-7"
+      ]
     },
     {
       "Name": "DemoLeakFour",
@@ -4354,7 +4486,7 @@
     },
     {
       "Name": "reporterre fuite du 2025-4-1",
-      "Title": "",
+      "Title": "reporterre fuite du 2025-4-1",
       "Domain": null,
       "BreachDate": "2025-4-1",
       "AddedDate": "2025-11-26T13:08:33.970Z",
@@ -4381,8 +4513,7 @@
       "lien": "https://bonjourlafuite.eu.org/img/reporterre.jpg",
       "categories": [
         "reporterre"
-      ],
-      "Titlee": "reporterre fuite du 2025-4-1"
+      ]
     },
     {
       "Name": "SamsungGermany",
@@ -4419,7 +4550,7 @@
     },
     {
       "Name": "maif  bpce fuite du 2025-3-28",
-      "Title": "",
+      "Title": "maif  bpce fuite du 2025-3-28",
       "Domain": null,
       "BreachDate": "2025-3-28",
       "AddedDate": "2025-11-26T13:08:25.016Z",
@@ -4446,8 +4577,7 @@
       "lien": "https://bonjourlafuite.eu.org/img/maif.png",
       "categories": [
         "maif  bpce"
-      ],
-      "Titlee": "maif  bpce fuite du 2025-3-28"
+      ]
     },
     {
       "Name": "GermanDonerKebab",
@@ -4481,7 +4611,7 @@
     },
     {
       "Name": "oracle cloud fuite du 2025-3-27",
-      "Title": "",
+      "Title": "oracle cloud fuite du 2025-3-27",
       "Domain": null,
       "BreachDate": "2025-3-27",
       "AddedDate": "2025-11-26T13:08:30.369Z",
@@ -4508,8 +4638,7 @@
       "lien": "https://www.lemondeinformatique.fr/actualites/lire-des-clients-confirment-la-fuite-de-donnees-oracle-cloud-96454.html",
       "categories": [
         "oracle cloud"
-      ],
-      "Titlee": "oracle cloud fuite du 2025-3-27"
+      ]
     },
     {
       "Name": "TehetsegKapu",
@@ -4542,7 +4671,7 @@
     },
     {
       "Name": "centrale nantes fuite du 2025-3-26",
-      "Title": "",
+      "Title": "centrale nantes fuite du 2025-3-26",
       "Domain": null,
       "BreachDate": "2025-3-26",
       "AddedDate": "2025-11-26T13:08:08.589Z",
@@ -4569,8 +4698,7 @@
       "lien": "https://bonjourlafuite.eu.org/img/centrale-nantes.png",
       "categories": [
         "centrale nantes"
-      ],
-      "Titlee": "centrale nantes fuite du 2025-3-26"
+      ]
     },
     {
       "Name": "TroyHuntMailchimpList",
@@ -4603,7 +4731,7 @@
     },
     {
       "Name": "cerballiance fuite du 2025-3-25",
-      "Title": "",
+      "Title": "cerballiance fuite du 2025-3-25",
       "Domain": null,
       "BreachDate": "2025-3-25",
       "AddedDate": "2025-11-26T13:08:09.353Z",
@@ -4630,12 +4758,11 @@
       "lien": "https://www.clubic.com/actualite-558117-les-laboratoires-francais-cerballiance-ont-ete-victimes-d-une-cyberattaque-voici-les-donnees-qui-ont-fuite.html",
       "categories": [
         "cerballiance"
-      ],
-      "Titlee": "cerballiance fuite du 2025-3-25"
+      ]
     },
     {
       "Name": "autosur  diagnosur fuite du 2025-3-24",
-      "Title": "",
+      "Title": "autosur  diagnosur fuite du 2025-3-24",
       "Domain": null,
       "BreachDate": "2025-3-24",
       "AddedDate": "2025-11-26T13:08:06.514Z",
@@ -4662,12 +4789,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/autosur.jpg",
       "categories": [
         "autosur  diagnosur"
-      ],
-      "Titlee": "autosur  diagnosur fuite du 2025-3-24"
+      ]
     },
     {
       "Name": "intersport fuite du 2025-3-20",
-      "Title": "",
+      "Title": "intersport fuite du 2025-3-20",
       "Domain": null,
       "BreachDate": "2025-3-20",
       "AddedDate": "2025-11-26T13:08:21.674Z",
@@ -4694,12 +4820,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/intersport.jpg",
       "categories": [
         "intersport"
-      ],
-      "Titlee": "intersport fuite du 2025-3-20"
+      ]
     },
     {
       "Name": "éclaireuses et éclaireurs de france fuite du 2025-3-20",
-      "Title": "",
+      "Title": "éclaireuses et éclaireurs de france fuite du 2025-3-20",
       "Domain": null,
       "BreachDate": "2025-3-20",
       "AddedDate": "2025-11-26T13:08:40.527Z",
@@ -4726,12 +4851,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/scoutsdefrance.jpg",
       "categories": [
         "éclaireuses et éclaireurs de france"
-      ],
-      "Titlee": "éclaireuses et éclaireurs de france fuite du 2025-3-20"
+      ]
     },
     {
       "Name": "direct assurance fuite du 2025-3-18",
-      "Title": "",
+      "Title": "direct assurance fuite du 2025-3-18",
       "Domain": null,
       "BreachDate": "2025-3-18",
       "AddedDate": "2025-11-26T13:08:13.036Z",
@@ -4758,12 +4882,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/directassurance.jpg",
       "categories": [
         "direct assurance"
-      ],
-      "Titlee": "direct assurance fuite du 2025-3-18"
+      ]
     },
     {
       "Name": "laforêt fuite du 2025-3-13",
-      "Title": "",
+      "Title": "laforêt fuite du 2025-3-13",
       "Domain": null,
       "BreachDate": "2025-3-13",
       "AddedDate": "2025-11-26T13:08:23.537Z",
@@ -4790,12 +4913,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/laforet.jpg",
       "categories": [
         "laforêt"
-      ],
-      "Titlee": "laforêt fuite du 2025-3-13"
+      ]
     },
     {
       "Name": "utwin fuite du 2025-3-5",
-      "Title": "",
+      "Title": "utwin fuite du 2025-3-5",
       "Domain": null,
       "BreachDate": "2025-3-5",
       "AddedDate": "2025-11-26T13:08:38.018Z",
@@ -4822,12 +4944,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/utwin.png",
       "categories": [
         "utwin"
-      ],
-      "Titlee": "utwin fuite du 2025-3-5"
+      ]
     },
     {
       "Name": "côté sushi fuite du 2025-3-4",
-      "Title": "",
+      "Title": "côté sushi fuite du 2025-3-4",
       "Domain": null,
       "BreachDate": "2025-3-4",
       "AddedDate": "2025-11-26T13:08:11.910Z",
@@ -4854,12 +4975,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/cotesushi.png",
       "categories": [
         "côté sushi"
-      ],
-      "Titlee": "côté sushi fuite du 2025-3-4"
+      ]
     },
     {
       "Name": "la poste fuite du 2025-3-4",
-      "Title": "",
+      "Title": "la poste fuite du 2025-3-4",
       "Domain": null,
       "BreachDate": "2025-3-4",
       "AddedDate": "2025-11-26T13:08:23.315Z",
@@ -4886,12 +5006,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/laposte.png",
       "categories": [
         "la poste"
-      ],
-      "Titlee": "la poste fuite du 2025-3-4"
+      ]
     },
     {
       "Name": "edf dpih fuite du 2025-2-28",
-      "Title": "",
+      "Title": "edf dpih fuite du 2025-2-28",
       "Domain": null,
       "BreachDate": "2025-2-28",
       "AddedDate": "2025-11-26T13:08:14.250Z",
@@ -4918,12 +5037,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/edf-dpih.jpg",
       "categories": [
         "edf dpih"
-      ],
-      "Titlee": "edf dpih fuite du 2025-2-28"
+      ]
     },
     {
       "Name": "zephir fuite du 2025-2-28",
-      "Title": "",
+      "Title": "zephir fuite du 2025-2-28",
       "Domain": null,
       "BreachDate": "2025-2-28",
       "AddedDate": "2025-11-26T13:08:40.252Z",
@@ -4950,12 +5068,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/zephir.jpg",
       "categories": [
         "zephir"
-      ],
-      "Titlee": "zephir fuite du 2025-2-28"
+      ]
     },
     {
       "Name": "école nationale de la sécurité fuite du 2025-2-28",
-      "Title": "",
+      "Title": "école nationale de la sécurité fuite du 2025-2-28",
       "Domain": null,
       "BreachDate": "2025-2-28",
       "AddedDate": "2025-11-26T13:08:40.721Z",
@@ -4982,12 +5099,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/ens.jpg",
       "categories": [
         "école nationale de la sécurité"
-      ],
-      "Titlee": "école nationale de la sécurité fuite du 2025-2-28"
+      ]
     },
     {
       "Name": "nord emploi fuite du 2025-2-26",
-      "Title": "",
+      "Title": "nord emploi fuite du 2025-2-26",
       "Domain": null,
       "BreachDate": "2025-2-26",
       "AddedDate": "2025-11-26T13:08:29.621Z",
@@ -5014,8 +5130,7 @@
       "lien": "https://bonjourlafuite.eu.org/img/nordemploi.jpeg",
       "categories": [
         "nord emploi"
-      ],
-      "Titlee": "nord emploi fuite du 2025-2-26"
+      ]
     },
     {
       "Name": "OrangeRomania",
@@ -5048,7 +5163,7 @@
     },
     {
       "Name": "fédération française de foot fuite du 2025-2-21",
-      "Title": "",
+      "Title": "fédération française de foot fuite du 2025-2-21",
       "Domain": null,
       "BreachDate": "2025-2-21",
       "AddedDate": "2025-11-26T13:08:16.570Z",
@@ -5075,12 +5190,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/fff.jpg",
       "categories": [
         "fédération française de foot"
-      ],
-      "Titlee": "fédération française de foot fuite du 2025-2-21"
+      ]
     },
     {
       "Name": "service départemental d'incendie et de secours de la vienne fuite du 2025-2-19",
-      "Title": "",
+      "Title": "service départemental d'incendie et de secours de la vienne fuite du 2025-2-19",
       "Domain": null,
       "BreachDate": "2025-2-19",
       "AddedDate": "2025-11-26T13:08:34.821Z",
@@ -5107,12 +5221,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/sdis86.jpg",
       "categories": [
         "service départemental d'incendie et de secours de la vienne"
-      ],
-      "Titlee": "service départemental d'incendie et de secours de la vienne fuite du 2025-2-19"
+      ]
     },
     {
       "Name": "sport découverte fuite du 2025-2-17",
-      "Title": "",
+      "Title": "sport découverte fuite du 2025-2-17",
       "Domain": null,
       "BreachDate": "2025-2-17",
       "AddedDate": "2025-11-26T13:08:35.597Z",
@@ -5139,8 +5252,7 @@
       "lien": "https://bonjourlafuite.eu.org/img/sportdecouverte.jpg",
       "categories": [
         "sport découverte"
-      ],
-      "Titlee": "sport découverte fuite du 2025-2-17"
+      ]
     },
     {
       "Name": "AlienStealerLogs",
@@ -5255,7 +5367,7 @@
     },
     {
       "Name": "mutuelle des motards fuite du 2025-2-13",
-      "Title": "",
+      "Title": "mutuelle des motards fuite du 2025-2-13",
       "Domain": null,
       "BreachDate": "2025-2-13",
       "AddedDate": "2025-11-26T13:08:28.606Z",
@@ -5282,12 +5394,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/motards.jpg",
       "categories": [
         "mutuelle des motards"
-      ],
-      "Titlee": "mutuelle des motards fuite du 2025-2-13"
+      ]
     },
     {
       "Name": "caisse des dépôts et des consignations fuite du 2025-2-12",
-      "Title": "",
+      "Title": "caisse des dépôts et des consignations fuite du 2025-2-12",
       "Domain": null,
       "BreachDate": "2025-2-12",
       "AddedDate": "2025-11-26T13:08:07.806Z",
@@ -5314,12 +5425,11 @@
       "lien": "https://www.francetvinfo.fr/internet/securite-sur-internet/cyberattaques/vols-de-donnees-personnelles-a-la-caisse-des-depots-70-000-personnes-concernees-dont-1-000-elus_7070919.html",
       "categories": [
         "caisse des dépôts et des consignations"
-      ],
-      "Titlee": "caisse des dépôts et des consignations fuite du 2025-2-12"
+      ]
     },
     {
       "Name": "chronopost fuite du 2025-2-12",
-      "Title": "",
+      "Title": "chronopost fuite du 2025-2-12",
       "Domain": null,
       "BreachDate": "2025-2-12",
       "AddedDate": "2025-11-26T13:08:09.793Z",
@@ -5346,8 +5456,7 @@
       "lien": "https://next.ink/170278/chronopost-confirme-un-incident-ayant-conduit-a-un-vol-dune-partie-des-donnees-personnelles/",
       "categories": [
         "chronopost"
-      ],
-      "Titlee": "chronopost fuite du 2025-2-12"
+      ]
     },
     {
       "Name": "Lexipol",
@@ -5382,7 +5491,7 @@
     },
     {
       "Name": "king jouet fuite du 2025-2-11",
-      "Title": "",
+      "Title": "king jouet fuite du 2025-2-11",
       "Domain": null,
       "BreachDate": "2025-2-11",
       "AddedDate": "2025-11-26T13:08:22.916Z",
@@ -5409,12 +5518,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/kingjouet.png",
       "categories": [
         "king jouet"
-      ],
-      "Titlee": "king jouet fuite du 2025-2-11"
+      ]
     },
     {
       "Name": "espace fuite du 2025-2-6",
-      "Title": "",
+      "Title": "espace fuite du 2025-2-6",
       "Domain": null,
       "BreachDate": "2025-2-6",
       "AddedDate": "2025-11-26T13:08:14.911Z",
@@ -5441,8 +5549,7 @@
       "lien": "https://bonjourlafuite.eu.org/img/espace-recettes.png",
       "categories": [
         "espace"
-      ],
-      "Titlee": "espace fuite du 2025-2-6"
+      ]
     },
     {
       "Name": "DemoLeakTwo",
@@ -5493,7 +5600,7 @@
     },
     {
       "Name": "aides fuite du 2025-1-27",
-      "Title": "",
+      "Title": "aides fuite du 2025-1-27",
       "Domain": null,
       "BreachDate": "2025-1-27",
       "AddedDate": "2025-11-26T13:08:00.312Z",
@@ -5520,8 +5627,7 @@
       "lien": "https://next.ink/167384/aides-org-pirate-donnees-personnelles-et-bancaires-iban-dans-la-nature/",
       "categories": [
         "aides"
-      ],
-      "Titlee": "aides fuite du 2025-1-27"
+      ]
     },
     {
       "Name": "DoxbinScrape",
@@ -5552,7 +5658,7 @@
     },
     {
       "Name": "e.leclerc fuite du 2025-1-24",
-      "Title": "",
+      "Title": "e.leclerc fuite du 2025-1-24",
       "Domain": null,
       "BreachDate": "2025-1-24",
       "AddedDate": "2025-11-26T13:08:13.771Z",
@@ -5579,12 +5685,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/leclerc.jpg",
       "categories": [
         "e.leclerc"
-      ],
-      "Titlee": "e.leclerc fuite du 2025-1-24"
+      ]
     },
     {
       "Name": "fédération française montagne escalade fuite du 2025-1-24",
-      "Title": "",
+      "Title": "fédération française montagne escalade fuite du 2025-1-24",
       "Domain": null,
       "BreachDate": "2025-1-24",
       "AddedDate": "2025-11-26T13:08:18.239Z",
@@ -5611,12 +5716,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/ffme.webp",
       "categories": [
         "fédération française montagne escalade"
-      ],
-      "Titlee": "fédération française montagne escalade fuite du 2025-1-24"
+      ]
     },
     {
       "Name": "fédération française de la montagne et de l'escalade fuite du 2025-1-23",
-      "Title": "",
+      "Title": "fédération française de la montagne et de l'escalade fuite du 2025-1-23",
       "Domain": null,
       "BreachDate": "2025-1-23",
       "AddedDate": "2025-11-26T13:08:17.052Z",
@@ -5643,12 +5747,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/ffme.png",
       "categories": [
         "fédération française de la montagne et de l'escalade"
-      ],
-      "Titlee": "fédération française de la montagne et de l'escalade fuite du 2025-1-23"
+      ]
     },
     {
       "Name": "fédération française de tir à l'arc fuite du 2025-1-20",
-      "Title": "",
+      "Title": "fédération française de tir à l'arc fuite du 2025-1-20",
       "Domain": null,
       "BreachDate": "2025-1-20",
       "AddedDate": "2025-11-26T13:08:18.034Z",
@@ -5675,8 +5778,7 @@
       "lien": "https://bonjourlafuite.eu.org/img/ffta.jpg",
       "categories": [
         "fédération française de tir à l'arc"
-      ],
-      "Titlee": "fédération française de tir à l'arc fuite du 2025-1-20"
+      ]
     },
     {
       "Name": "FrameAndOptic",
@@ -5710,7 +5812,7 @@
     },
     {
       "Name": "fédération française de force fuite du 2025-1-14",
-      "Title": "",
+      "Title": "fédération française de force fuite du 2025-1-14",
       "Domain": null,
       "BreachDate": "2025-1-14",
       "AddedDate": "2025-11-26T13:08:16.772Z",
@@ -5737,12 +5839,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/ffforce.jpg",
       "categories": [
         "fédération française de force"
-      ],
-      "Titlee": "fédération française de force fuite du 2025-1-14"
+      ]
     },
     {
       "Name": "fédération française de roller skateboard fuite du 2025-1-14",
-      "Title": "",
+      "Title": "fédération française de roller skateboard fuite du 2025-1-14",
       "Domain": null,
       "BreachDate": "2025-1-14",
       "AddedDate": "2025-11-26T13:08:17.356Z",
@@ -5769,12 +5870,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/ffrs.png",
       "categories": [
         "fédération française de roller skateboard"
-      ],
-      "Titlee": "fédération française de roller skateboard fuite du 2025-1-14"
+      ]
     },
     {
       "Name": "kiabi fuite du 2025-1-14",
-      "Title": "",
+      "Title": "kiabi fuite du 2025-1-14",
       "Domain": null,
       "BreachDate": "2025-1-14",
       "AddedDate": "2025-11-26T13:08:22.669Z",
@@ -5801,8 +5901,7 @@
       "lien": "https://bonjourlafuite.eu.org/img/kiabi.jpg",
       "categories": [
         "kiabi"
-      ],
-      "Titlee": "kiabi fuite du 2025-1-14"
+      ]
     },
     {
       "Name": "StealerLogsJan2025",
@@ -5909,7 +6008,7 @@
     },
     {
       "Name": "cogitis fuite du 2024-12-31",
-      "Title": "",
+      "Title": "cogitis fuite du 2024-12-31",
       "Domain": null,
       "BreachDate": "2024-12-31T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:10.605Z",
@@ -5936,12 +6035,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/cogitis.png",
       "categories": [
         "cogitis"
-      ],
-      "Titlee": "cogitis fuite du 2024-12-31"
+      ]
     },
     {
       "Name": "atos fuite du 2024-12-30",
-      "Title": "",
+      "Title": "atos fuite du 2024-12-30",
       "Domain": null,
       "BreachDate": "2024-12-30T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:05.852Z",
@@ -5968,12 +6066,11 @@
       "lien": "https://next.ink/brief_article/le-groupe-de-rancongiciels-space-bears-affirme-avoir-compromis-la-securite-datos/",
       "categories": [
         "atos"
-      ],
-      "Titlee": "atos fuite du 2024-12-30"
+      ]
     },
     {
       "Name": "arsoé fuite du 2024-12-27",
-      "Title": "",
+      "Title": "arsoé fuite du 2024-12-27",
       "Domain": null,
       "BreachDate": "2024-12-27T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:05.177Z",
@@ -6000,12 +6097,11 @@
       "lien": "https://www.ladepeche.fr/2024/12/27/agriculture-larsoe-specialiste-des-services-numeriques-aux-eleveurs-victime-dune-cyberattaque-12413861.php",
       "categories": [
         "arsoé"
-      ],
-      "Titlee": "arsoé fuite du 2024-12-27"
+      ]
     },
     {
       "Name": "volkswagen fuite du 2024-12-27",
-      "Title": "",
+      "Title": "volkswagen fuite du 2024-12-27",
       "Domain": null,
       "BreachDate": "2024-12-27T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:38.731Z",
@@ -6032,12 +6128,11 @@
       "lien": "https://cybersecuritynews.com/volkswagen-data-breach/",
       "categories": [
         "volkswagen"
-      ],
-      "Titlee": "volkswagen fuite du 2024-12-27"
+      ]
     },
     {
       "Name": "peugeot fuite du 2024-12-26",
-      "Title": "",
+      "Title": "peugeot fuite du 2024-12-26",
       "Domain": null,
       "BreachDate": "2024-12-26T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:32.295Z",
@@ -6064,12 +6159,11 @@
       "lien": "https://www.20minutes.fr/high-tech/4130958-20241226-peugeot-sait-cyberattaque",
       "categories": [
         "peugeot"
-      ],
-      "Titlee": "peugeot fuite du 2024-12-26"
+      ]
     },
     {
       "Name": "cyberhaven fuite du 2024-12-25",
-      "Title": "",
+      "Title": "cyberhaven fuite du 2024-12-25",
       "Domain": null,
       "BreachDate": "2024-12-25T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:11.472Z",
@@ -6096,8 +6190,7 @@
       "lien": "https://www.lemagit.fr/actualites/366617606/Chaine-logistique-du-logiciel-Cyberhaven-touche-par-une-cyberattaque",
       "categories": [
         "cyberhaven"
-      ],
-      "Titlee": "cyberhaven fuite du 2024-12-25"
+      ]
     },
     {
       "Name": "Speedio",
@@ -6131,7 +6224,7 @@
     },
     {
       "Name": "electro dépôt fuite du 2024-12-20",
-      "Title": "",
+      "Title": "electro dépôt fuite du 2024-12-20",
       "Domain": null,
       "BreachDate": "2024-12-20T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:14.697Z",
@@ -6158,8 +6251,7 @@
       "lien": "https://cybernews.com/security/french-records-exposed-by-mysterious-data-hoarder/",
       "categories": [
         "electro dépôt"
-      ],
-      "Titlee": "electro dépôt fuite du 2024-12-20"
+      ]
     },
     {
       "Name": "BitView",
@@ -6199,7 +6291,7 @@
     },
     {
       "Name": "top achat fuite du 2024-12-12",
-      "Title": "",
+      "Title": "top achat fuite du 2024-12-12",
       "Domain": null,
       "BreachDate": "2024-12-12T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:37.543Z",
@@ -6226,8 +6318,7 @@
       "lien": "https://bonjourlafuite.eu.org/img/topachat.jpg",
       "categories": [
         "top achat"
-      ],
-      "Titlee": "top achat fuite du 2024-12-12"
+      ]
     },
     {
       "Name": "YoungLivingEssentialOils",
@@ -6261,7 +6352,7 @@
     },
     {
       "Name": "ldlc fuite du 2024-12-10",
-      "Title": "",
+      "Title": "ldlc fuite du 2024-12-10",
       "Domain": null,
       "BreachDate": "2024-12-10T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:23.751Z",
@@ -6288,12 +6379,11 @@
       "lien": "https://www.groupe-ldlc.com/information-relative-a-un-incident-de-cybersecurite-3/",
       "categories": [
         "ldlc"
-      ],
-      "Titlee": "ldlc fuite du 2024-12-10"
+      ]
     },
     {
       "Name": "deloitte fuite du 2024-12-4",
-      "Title": "",
+      "Title": "deloitte fuite du 2024-12-4",
       "Domain": null,
       "BreachDate": "2024-12-4",
       "AddedDate": "2025-11-26T13:08:12.298Z",
@@ -6320,12 +6410,11 @@
       "lien": "https://cybersecuritynews.com/deloitte-hacked/",
       "categories": [
         "deloitte"
-      ],
-      "Titlee": "deloitte fuite du 2024-12-4"
+      ]
     },
     {
       "Name": "guy demarle fuite du 2024-12-3",
-      "Title": "",
+      "Title": "guy demarle fuite du 2024-12-3",
       "Domain": null,
       "BreachDate": "2024-12-3",
       "AddedDate": "2025-11-26T13:08:19.332Z",
@@ -6352,12 +6441,11 @@
       "lien": "https://www.01net.com/actualites/nouveau-hack-en-france-les-donnees-de-lenseigne-guy-demarle-ont-ete-volees.html",
       "categories": [
         "guy demarle"
-      ],
-      "Titlee": "guy demarle fuite du 2024-12-3"
+      ]
     },
     {
       "Name": "norauto fuite du 2024-12-2",
-      "Title": "",
+      "Title": "norauto fuite du 2024-12-2",
       "Domain": null,
       "BreachDate": "2024-12-2",
       "AddedDate": "2025-11-26T13:08:29.370Z",
@@ -6384,12 +6472,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/norauto.webp",
       "categories": [
         "norauto"
-      ],
-      "Titlee": "norauto fuite du 2024-12-2"
+      ]
     },
     {
       "Name": "ze camping fuite du 2024-11-27",
-      "Title": "",
+      "Title": "ze camping fuite du 2024-11-27",
       "Domain": null,
       "BreachDate": "2024-11-27T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:40.042Z",
@@ -6416,12 +6503,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/ze-camping.jpg",
       "categories": [
         "ze camping"
-      ],
-      "Titlee": "ze camping fuite du 2024-11-27"
+      ]
     },
     {
       "Name": "jvs fuite du 2024-11-26",
-      "Title": "",
+      "Title": "jvs fuite du 2024-11-26",
       "Domain": null,
       "BreachDate": "2024-11-26T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:22.213Z",
@@ -6448,12 +6534,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/jvs.webp",
       "categories": [
         "jvs"
-      ],
-      "Titlee": "jvs fuite du 2024-11-26"
+      ]
     },
     {
       "Name": "sfr fuite du 2024-11-24",
-      "Title": "",
+      "Title": "sfr fuite du 2024-11-24",
       "Domain": null,
       "BreachDate": "2024-11-24T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:35.070Z",
@@ -6480,8 +6565,7 @@
       "lien": "https://bonjourlafuite.eu.org/img/sfr.webp",
       "categories": [
         "sfr"
-      ],
-      "Titlee": "sfr fuite du 2024-11-24"
+      ]
     },
     {
       "Name": "SeniorDating",
@@ -6523,7 +6607,7 @@
     },
     {
       "Name": "banque de france fuite du 2024-11-23",
-      "Title": "",
+      "Title": "banque de france fuite du 2024-11-23",
       "Domain": null,
       "BreachDate": "2024-11-23T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:06.712Z",
@@ -6550,12 +6634,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/banque-france.png",
       "categories": [
         "banque de france"
-      ],
-      "Titlee": "banque de france fuite du 2024-11-23"
+      ]
     },
     {
       "Name": "companie de transport strasbourgeoise fuite du 2024-11-22",
-      "Title": "",
+      "Title": "companie de transport strasbourgeoise fuite du 2024-11-22",
       "Domain": null,
       "BreachDate": "2024-11-22T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:11.004Z",
@@ -6582,8 +6665,7 @@
       "lien": "https://bonjourlafuite.eu.org/img/cts.jpg",
       "categories": [
         "companie de transport strasbourgeoise"
-      ],
-      "Titlee": "companie de transport strasbourgeoise fuite du 2024-11-22"
+      ]
     },
     {
       "Name": "Yonema",
@@ -6620,7 +6702,7 @@
     },
     {
       "Name": "chambres d’agriculture fuite du 2024-11-21",
-      "Title": "",
+      "Title": "chambres d’agriculture fuite du 2024-11-21",
       "Domain": null,
       "BreachDate": "2024-11-21T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:09.569Z",
@@ -6647,12 +6729,11 @@
       "lien": "https://www.ladepeche.fr/2024/11/21/info-la-depeche-les-chambres-dagriculture-doccitanie-victimes-dun-piratage-informatique-dampleur-dautres-instances-touchees-en-france-12338652.php",
       "categories": [
         "chambres d’agriculture"
-      ],
-      "Titlee": "chambres d’agriculture fuite du 2024-11-21"
+      ]
     },
     {
       "Name": "auchan fuite du 2024-11-19",
-      "Title": "",
+      "Title": "auchan fuite du 2024-11-19",
       "Domain": null,
       "BreachDate": "2024-11-19T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:06.094Z",
@@ -6679,12 +6760,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/auchan.webp",
       "categories": [
         "auchan"
-      ],
-      "Titlee": "auchan fuite du 2024-11-19"
+      ]
     },
     {
       "Name": "direct assurance fuite du 2024-11-19",
-      "Title": "",
+      "Title": "direct assurance fuite du 2024-11-19",
       "Domain": null,
       "BreachDate": "2024-11-19T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:13.032Z",
@@ -6711,12 +6791,11 @@
       "lien": "https://www.zataz.com/cyberattaque-sur-direct-assurance-un-pirate-parle-de-milliers-de-clients-et-prospects-exposes/",
       "categories": [
         "direct assurance"
-      ],
-      "Titlee": "direct assurance fuite du 2024-11-19"
+      ]
     },
     {
       "Name": "mediboard fuite du 2024-11-19",
-      "Title": "",
+      "Title": "mediboard fuite du 2024-11-19",
       "Domain": null,
       "BreachDate": "2024-11-19T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:26.996Z",
@@ -6743,8 +6822,7 @@
       "lien": "https://www.clubic.com/actualite-544139-fichiers-et-dossiers-patients-sensibles-francais-en-fuite-sur-le-dark-web-que-se-passe-t-il.html",
       "categories": [
         "mediboard"
-      ],
-      "Titlee": "mediboard fuite du 2024-11-19"
+      ]
     },
     {
       "Name": "FlipaClip",
@@ -6778,7 +6856,7 @@
     },
     {
       "Name": "le point fuite du 2024-11-18",
-      "Title": "",
+      "Title": "le point fuite du 2024-11-18",
       "Domain": null,
       "BreachDate": "2024-11-18T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:24.020Z",
@@ -6805,8 +6883,7 @@
       "lien": "https://www.lepoint.fr/high-tech-internet/apres-la-croix-et-liberation-le-point-victime-d-un-vol-de-donnees-personnelles-18-11-2024-2575566_47.php",
       "categories": [
         "le point"
-      ],
-      "Titlee": "le point fuite du 2024-11-18"
+      ]
     },
     {
       "Name": "TheRealWorld",
@@ -6869,7 +6946,7 @@
     },
     {
       "Name": "huttopia fuite du 2024-11-14",
-      "Title": "",
+      "Title": "huttopia fuite du 2024-11-14",
       "Domain": null,
       "BreachDate": "2024-11-14T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:20.341Z",
@@ -6896,12 +6973,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/huttopia.jpg",
       "categories": [
         "huttopia"
-      ],
-      "Titlee": "huttopia fuite du 2024-11-14"
+      ]
     },
     {
       "Name": "molotov fuite du 2024-11-13",
-      "Title": "",
+      "Title": "molotov fuite du 2024-11-13",
       "Domain": null,
       "BreachDate": "2024-11-13T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:28.076Z",
@@ -6928,12 +7004,11 @@
       "lien": "https://bonjourlafuite.eu.org/img/molotov.jpg",
       "categories": [
         "molotov"
-      ],
-      "Titlee": "molotov fuite du 2024-11-13"
+      ]
     },
     {
       "Name": "picard fuite du 2024-11-12",
-      "Title": "",
+      "Title": "picard fuite du 2024-11-12",
       "Domain": null,
       "BreachDate": "2024-11-12T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:32.539Z",
@@ -6960,8 +7035,7 @@
       "lien": "https://bonjourlafuite.eu.org#Picard-2024-11-12",
       "categories": [
         "picard"
-      ],
-      "Titlee": "picard fuite du 2024-11-12"
+      ]
     },
     {
       "Name": "Tibber",
@@ -7059,7 +7133,7 @@
     },
     {
       "Name": "free fuite du 2024-10-25",
-      "Title": "",
+      "Title": "free fuite du 2024-10-25",
       "Domain": null,
       "BreachDate": "2024-10-25T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:15.801Z",
@@ -7086,12 +7160,11 @@
       "lien": "https://www.clubic.com/actualite-542138-cyberattaque-de-free-les-donnees-fuitees-ont-trouve-preneur-pour-175-000-dollars-voici-ce-que-ca-implique.html",
       "categories": [
         "free"
-      ],
-      "Titlee": "free fuite du 2024-10-25"
+      ]
     },
     {
       "Name": "free mobile fuite du 2024-10-25",
-      "Title": "",
+      "Title": "free mobile fuite du 2024-10-25",
       "Domain": null,
       "BreachDate": "2024-10-25T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:16.051Z",
@@ -7118,12 +7191,11 @@
       "lien": "https://www.clubic.com/actualite-542138-cyberattaque-de-free-les-donnees-fuitees-ont-trouve-preneur-pour-175-000-dollars-voici-ce-que-ca-implique.html",
       "categories": [
         "free mobile"
-      ],
-      "Titlee": "free mobile fuite du 2024-10-25"
+      ]
     },
     {
       "Name": "ornikar fuite du 2024-10-24",
-      "Title": "",
+      "Title": "ornikar fuite du 2024-10-24",
       "Domain": null,
       "BreachDate": "2024-10-24T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:30.861Z",
@@ -7150,8 +7222,7 @@
       "lien": "https://www.numerama.com/cyberguerre/1832130-lauto-ecole-en-ligne-ornikar-victime-dune-cyberattaque-des-infos-personnelles-ont-fuite.html",
       "categories": [
         "ornikar"
-      ],
-      "Titlee": "ornikar fuite du 2024-10-24"
+      ]
     },
     {
       "Name": "HotTopic",
@@ -7374,7 +7445,7 @@
     },
     {
       "Name": "meilleurtaux fuite du 2024-9-30",
-      "Title": "",
+      "Title": "meilleurtaux fuite du 2024-9-30",
       "Domain": null,
       "BreachDate": "2024-9-30",
       "AddedDate": "2025-11-26T13:08:27.240Z",
@@ -7401,8 +7472,7 @@
       "lien": "https://www.numerama.com/cyberguerre/1817354-le-site-meilleurtaux-a-subi-une-cyberattaque-attention-aux-tentatives-de-phishing.html",
       "categories": [
         "meilleurtaux"
-      ],
-      "Titlee": "meilleurtaux fuite du 2024-9-30"
+      ]
     },
     {
       "Name": "digiDirect",
@@ -7499,7 +7569,7 @@
     },
     {
       "Name": "red by sfr fuite du 2024-9-18",
-      "Title": "",
+      "Title": "red by sfr fuite du 2024-9-18",
       "Domain": null,
       "BreachDate": "2024-9-18",
       "AddedDate": "2025-11-26T13:08:33.710Z",
@@ -7526,8 +7596,7 @@
       "lien": "https://next.ink/brief_article/red-by-sfr-informe-ses-clients-dune-nouvelle-fuite-avec-une-ribambelle-de-donnees/",
       "categories": [
         "red by sfr"
-      ],
-      "Titlee": "red by sfr fuite du 2024-9-18"
+      ]
     },
     {
       "Name": "Muah",
@@ -7559,7 +7628,7 @@
     },
     {
       "Name": "assurance retraite fuite du 2024-9-13",
-      "Title": "",
+      "Title": "assurance retraite fuite du 2024-9-13",
       "Domain": null,
       "BreachDate": "2024-9-13",
       "AddedDate": "2025-11-26T13:08:05.638Z",
@@ -7586,8 +7655,7 @@
       "lien": "https://www.lemonde.fr/pixels/article/2024/09/13/l-assurance-retraite-s-est-fait-voler-des-donnees-de-370-000-personnes_6316212_4408996.html",
       "categories": [
         "assurance retraite"
-      ],
-      "Titlee": "assurance retraite fuite du 2024-9-13"
+      ]
     },
     {
       "Name": "InstitutoNacionalDeDeportesDeChile",
@@ -7623,7 +7691,7 @@
     },
     {
       "Name": "cybertek fuite du 2024-9-12",
-      "Title": "",
+      "Title": "cybertek fuite du 2024-9-12",
       "Domain": null,
       "BreachDate": "2024-9-12",
       "AddedDate": "2025-11-26T13:08:11.682Z",
@@ -7650,12 +7718,11 @@
       "lien": "https://next.ink/149926/fuites-de-donnees-cybertek-et-grosbill-entrent-dans-la-danse-truffaut-refuse-de-donner-des-details/",
       "categories": [
         "cybertek"
-      ],
-      "Titlee": "cybertek fuite du 2024-9-12"
+      ]
     },
     {
       "Name": "cultura fuite du 2024-9-10",
-      "Title": "",
+      "Title": "cultura fuite du 2024-9-10",
       "Domain": null,
       "BreachDate": "2024-9-10",
       "AddedDate": "2025-11-26T13:08:11.246Z",
@@ -7682,12 +7749,11 @@
       "lien": "https://next.ink/149551/boulanger-cultura-diviamobilites-les-fuites-de-donnees-se-multiplient/",
       "categories": [
         "cultura"
-      ],
-      "Titlee": "cultura fuite du 2024-9-10"
+      ]
     },
     {
       "Name": "boulanger fuite du 2024-9-7",
-      "Title": "",
+      "Title": "boulanger fuite du 2024-9-7",
       "Domain": null,
       "BreachDate": "2024-9-7",
       "AddedDate": "2025-11-26T13:08:07.140Z",
@@ -7714,8 +7780,7 @@
       "lien": "https://www.lemondeinformatique.fr/actualites/lire-piratage-de-boulanger-des-centaines-de-milliers-de-clients-touches-94654.html",
       "categories": [
         "boulanger"
-      ],
-      "Titlee": "boulanger fuite du 2024-9-7"
+      ]
     },
     {
       "Name": "Boulanger",
@@ -8749,7 +8814,7 @@
     },
     {
       "Name": "ticketmaster fuite du 2024-4-28",
-      "Title": "",
+      "Title": "ticketmaster fuite du 2024-4-28",
       "Domain": null,
       "BreachDate": "2024-4-28",
       "AddedDate": "2025-11-26T13:08:37.031Z",
@@ -8776,8 +8841,7 @@
       "lien": "https://www.clubic.com/actualite-528357-millions-de-clients-ticketmaster-pirates-le-geant-mondial-de-la-vente-de-billets-dans-la-tourmente.html",
       "categories": [
         "ticketmaster"
-      ],
-      "Titlee": "ticketmaster fuite du 2024-4-28"
+      ]
     },
     {
       "Name": "PipingRock",
@@ -8941,7 +9005,7 @@
     },
     {
       "Name": "le slip français fuite du 2024-4-15",
-      "Title": "",
+      "Title": "le slip français fuite du 2024-4-15",
       "Domain": null,
       "BreachDate": "2024-4-15",
       "AddedDate": "2025-11-26T13:08:24.261Z",
@@ -8968,8 +9032,7 @@
       "lien": "https://www.journaldugeek.com/2024/04/18/piratage-que-sait-on-du-hack-massif-de-cette-marque-francaise/",
       "categories": [
         "le slip français"
-      ],
-      "Titlee": "le slip français fuite du 2024-4-15"
+      ]
     },
     {
       "Name": "NeimanMarcus",
@@ -9282,7 +9345,7 @@
     },
     {
       "Name": "france travail fuite du 2024-3-8",
-      "Title": "",
+      "Title": "france travail fuite du 2024-3-8",
       "Domain": null,
       "BreachDate": "2024-3-8",
       "AddedDate": "2025-11-26T13:08:15.569Z",
@@ -9309,8 +9372,7 @@
       "lien": "https://www.cnil.fr/fr/france-travail-la-cnil-enquete-sur-la-fuite-de-donnees-et-donne-des-conseils-pour-se-proteger",
       "categories": [
         "france travail"
-      ],
-      "Titlee": "france travail fuite du 2024-3-8"
+      ]
     },
     {
       "Name": "GiantTiger",
@@ -9466,7 +9528,7 @@
     },
     {
       "Name": "ldlc fuite du 2024-3-1",
-      "Title": "",
+      "Title": "ldlc fuite du 2024-3-1",
       "Domain": null,
       "BreachDate": "2024-3-1",
       "AddedDate": "2025-11-26T13:08:23.776Z",
@@ -9493,8 +9555,7 @@
       "lien": "https://www.01net.com/actualites/les-donnees-de-15-million-de-clients-ldlc-ont-ete-piratees.html",
       "categories": [
         "ldlc"
-      ],
-      "Titlee": "ldlc fuite du 2024-3-1"
+      ]
     },
     {
       "Name": "DemandScience",
@@ -9711,7 +9772,7 @@
     },
     {
       "Name": "almerys fuite du 2024-2-6",
-      "Title": "",
+      "Title": "almerys fuite du 2024-2-6",
       "Domain": null,
       "BreachDate": "2024-2-6",
       "AddedDate": "2025-11-26T13:08:03.924Z",
@@ -9738,12 +9799,11 @@
       "lien": "https://www.cnil.fr/fr/violation-de-donnees-de-deux-operateurs-de-tiers-payant-la-cnil-ouvre-une-enquete-et-rappelle-aux",
       "categories": [
         "almerys"
-      ],
-      "Titlee": "almerys fuite du 2024-2-6"
+      ]
     },
     {
       "Name": "viamedis fuite du 2024-2-6",
-      "Title": "",
+      "Title": "viamedis fuite du 2024-2-6",
       "Domain": null,
       "BreachDate": "2024-2-6",
       "AddedDate": "2025-11-26T13:08:38.257Z",
@@ -9771,8 +9831,7 @@
       "categories": [
         "almerys",
         "viamedis"
-      ],
-      "Titlee": "viamedis fuite du 2024-2-6"
+      ]
     },
     {
       "Name": "SurveyLama",
@@ -23857,7 +23916,7 @@
         "Names",
         "Purchases"
       ],
-     "IsVerified": true,
+      "IsVerified": true,
       "IsFabricated": false,
       "IsSensitive": false,
       "IsRetired": false,
@@ -25971,7 +26030,7 @@
     },
     {
       "Name": "dailymotion fuite du 2016-10-1",
-      "Title": "",
+      "Title": "dailymotion fuite du 2016-10-1",
       "Domain": null,
       "BreachDate": "2016-10-1",
       "AddedDate": "2025-11-26T13:08:12.098Z",
@@ -25998,8 +26057,7 @@
       "lien": "https://thehackernews.com/2016/12/dailymotion-video-hacked.html",
       "categories": [
         "dailymotion"
-      ],
-      "Titlee": "dailymotion fuite du 2016-10-1"
+      ]
     },
     {
       "Name": "JustDate",
