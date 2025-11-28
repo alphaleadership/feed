@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-11-28T09:49:51.352Z",
-  "totalBreaches": 1118,
+  "lastUpdated": "2025-11-28T10:52:57.776Z",
+  "totalBreaches": 1119,
   "breaches": [
     {
       "Name": "2121285 fuite du 2025-11-28",
@@ -117,6 +117,45 @@
         "ProtonVPN",
         "vie privée",
         "2878079_cybersecurite"
+      ]
+    },
+    {
+      "Name": "2129731 fuite du 2025-11-28",
+      "Title": "2129731 fuite du 2025-11-28",
+      "Domain": null,
+      "BreachDate": "2025-11-28T00:00:00.000Z",
+      "AddedDate": "2025-11-28T10:52:57.774Z",
+      "ModifiedDate": "2025-11-28T10:52:57.774Z",
+      "PwnCount": 0,
+      "Description": "-\n\nRivian et Amazon ont élargi leur partenariat pour intégrer un service de vidéo en temps réel. Grâce à sa coentreprise avec le constructeur américain\nVolkswagen pourrait profiter de cette technologie et embarquer un mode de sécurité semblable à la Sentinelle de Tesla\nnommé Rivian Gear Guard.\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "2129731-fuite-du-2025-11-28",
+      "path": "https://www.numerama.com/vroom/2129731-volkswagen-va-sinspirer-de-lune-des-meilleures-fonctions-de-tesla.html",
+      "formattedDate": "2025-11-28",
+      "title": "2129731 fuite du 2025-11-28",
+      "date": "2025-11-28T00:00:00.000Z",
+      "lien": "https://www.numerama.com/vroom/2129731-volkswagen-va-sinspirer-de-lune-des-meilleures-fonctions-de-tesla.html",
+      "categories": [
+        "Voiture",
+        "Voiture électrique",
+        "Vroom",
+        "Rivian",
+        "Sécurité",
+        "sentinelle",
+        "Tesla",
+        "Volkswagen",
+        "2129731"
       ]
     },
     {
