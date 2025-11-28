@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-11-28T10:52:57.776Z",
-  "totalBreaches": 1119,
+  "lastUpdated": "2025-11-28T13:19:13.240Z",
+  "totalBreaches": 1120,
   "breaches": [
     {
       "Name": "2121285 fuite du 2025-11-28",
@@ -156,6 +156,37 @@
         "Tesla",
         "Volkswagen",
         "2129731"
+      ]
+    },
+    {
+      "Name": "la centrale du financement fuite du 2025-11-28",
+      "Title": "la centrale du financement fuite du 2025-11-28",
+      "Domain": null,
+      "BreachDate": "2025-11-28T00:00:00.000Z",
+      "AddedDate": "2025-11-28T13:19:13.239Z",
+      "ModifiedDate": "2025-11-28T13:19:13.239Z",
+      "PwnCount": 0,
+      "Description": "-\n\ndossier de financement\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "la-centrale-du-financement-fuite-du-2025-11-28",
+      "path": "https://bonjourlafuite.eu.org/img/centrale-financement.jpg",
+      "formattedDate": "2025-11-28",
+      "title": "la centrale du financement fuite du 2025-11-28",
+      "date": "2025-11-28T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/centrale-financement.jpg",
+      "categories": [
+        "la centrale du financement"
       ]
     },
     {
