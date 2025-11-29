@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-11-29T10:40:55.614Z",
-  "totalBreaches": 1121,
+  "lastUpdated": "2025-11-29T15:31:08.340Z",
+  "totalBreaches": 1122,
   "breaches": [
     {
       "Name": "2891747_airbus fuite du 2025-11-29",
@@ -1837,6 +1837,37 @@
         "télémétrie",
         "vie privée",
         ""
+      ]
+    },
+    {
+      "Name": "fédération française de cardiologie fuite du 2025-11-11",
+      "Title": "fédération française de cardiologie fuite du 2025-11-11",
+      "Domain": null,
+      "BreachDate": "2025-11-11T00:00:00.000Z",
+      "AddedDate": "2025-11-29T15:31:08.339Z",
+      "ModifiedDate": "2025-11-29T15:31:08.339Z",
+      "PwnCount": 0,
+      "Description": "-\n\nnom\nprénom\nadresse postale\nadresse email\nnuméro de téléphone\nmot de passe\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "f-d-ration-fran-aise-de-cardiologie-fuite-du-2025-11-11",
+      "path": "https://next.ink/211477/fuite-de-donnees-a-la-federation-francaise-de-cardiologie-y-compris-des-mots-de-passe/",
+      "formattedDate": "2025-11-11",
+      "title": "fédération française de cardiologie fuite du 2025-11-11",
+      "date": "2025-11-11T00:00:00.000Z",
+      "lien": "https://next.ink/211477/fuite-de-donnees-a-la-federation-francaise-de-cardiologie-y-compris-des-mots-de-passe/",
+      "categories": [
+        "fédération française de cardiologie"
       ]
     },
     {
