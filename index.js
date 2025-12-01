@@ -80,8 +80,13 @@ parser.parseURL(rssUrl).then(feed => {
         const postTitle = item.link.split('/').pop();
         const pubDate = new Date(item.pubDate);
         const dateStr = `${pubDate.getFullYear()}-${pubDate.getMonth() + 1}-${pubDate.getDate()}`;
-        const entreprises = postTitle.split("-")[0].replace("#", '').replaceAll("[",'').replaceAll("]",'' ).split(",");
-        entreprises.forEach((DirRaw) => {
+        let entreprises
+        if(item.guid.startsWith("CVE")){
+          entreprises=[item.guid]
+        }else{
+          entreprises = postTitle.split("-")[0].replace("#", '').replaceAll("[",'').replaceAll("]",'' ).split(",");
+        
+        }entreprises.forEach((DirRaw) => {
           const Dir = DirRaw.trim().toLowerCase();
           const key = `${Dir}#${dateStr}`;
           if (!postsMap[key]) postsMap[key] = [];
@@ -219,7 +224,7 @@ ${yaml.dump({categories:[... new Set(item.categories)]})}
 ---
 
 ${cleanContent}
-${autresFuites}
+
 `;
             // --- Création ou mise à jour du fichier
             if (!fs.existsSync(postFilePath)) {
