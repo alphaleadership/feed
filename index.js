@@ -19,6 +19,9 @@ const removeNunjucks = (content) => {
 
 const l = (title, cat = []) => {
   // Liste des catégories valides qui doivent aller dans _posts
+  if(title.startsWith("CVE")){
+    return "_posts"
+  }
   const validCategories = [
     "fuite de données",
     "Données personnelles",
