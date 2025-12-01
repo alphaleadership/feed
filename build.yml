@@ -2007,6 +2007,11 @@ category_map:
   - '2132161'
   - 2893277_le
   - '1995539211714465839'
+  - cve-2025-13653
+  - cve-2025-13835
+  - cve-2025-13836
+  - cve-2025-13837
+  - 2894475_la
 tag_map: null
 meta_generator: true
 search:
