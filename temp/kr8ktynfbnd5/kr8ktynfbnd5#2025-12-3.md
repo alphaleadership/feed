@@ -1,0 +1,17 @@
+title: kr8ktynfbnd5 fuite du 2025-12-3
+date: 2025-12-3
+lien: "https://www.cloudflarestatus.com/incidents/kr8ktynfbnd5"
+categories:
+  - kr8ktynfbnd5
+
+---
+
+THIS IS A SCHEDULED EVENT Dec 3
+1800 - 2330 UTCDec  1
+2106 UTCScheduled - We will be performing scheduled maintenance in HKG (Hong Kong) datacenter on 2025-12-03 between 1800 and 2330 UTC.
+Traffic might be re-routed from this location
+hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location
+please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.
+You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email
+PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.
+
