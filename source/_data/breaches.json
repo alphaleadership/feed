@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-01T08:52:55.480Z",
-  "totalBreaches": 1123,
+  "lastUpdated": "2025-12-01T11:15:15.663Z",
+  "totalBreaches": 1124,
   "breaches": [
     {
       "Name": "zilvia fuite du 2025-12-1",
@@ -31,6 +31,44 @@
       "lien": "https://haveibeenpwned.com/Breach/Zilvia",
       "categories": [
         "zilvia"
+      ]
+    },
+    {
+      "Name": "2893069_elon fuite du 2025-12-1",
+      "Title": "2893069_elon fuite du 2025-12-1",
+      "Domain": null,
+      "BreachDate": "2025-12-1",
+      "AddedDate": "2025-12-01T11:15:15.662Z",
+      "ModifiedDate": "2025-12-01T11:15:15.662Z",
+      "PwnCount": 0,
+      "Description": "-\n\nElon Musk met fin aux rumeurs et confirme que Tesla ne proposera jamais de moto électrique. Cela pour des raisons de sécurité\nselon le PDG.\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "2893069-elon-fuite-du-2025-12-1",
+      "path": "https://www.frandroid.com/marques/tesla/2893069_elon-musk-confirme-il-ny-aura-jamais-de-moto-electrique-chez-tesla-pour-une-raison-tres-simple",
+      "formattedDate": "2025-12-01",
+      "title": "2893069_elon fuite du 2025-12-1",
+      "date": "2025-12-1",
+      "lien": "https://www.frandroid.com/marques/tesla/2893069_elon-musk-confirme-il-ny-aura-jamais-de-moto-electrique-chez-tesla-pour-une-raison-tres-simple",
+      "categories": [
+        "Marques",
+        "Motos Électriques",
+        "Survoltés",
+        "Tesla",
+        "Elon Musk",
+        "Quad",
+        "sécurité",
+        "2893069_elon"
       ]
     },
     {
