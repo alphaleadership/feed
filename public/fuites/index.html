@@ -176,6 +176,7 @@
       })
       .then(data => {
         const breaches = data.breaches.filter((item)=>{
+          console.log(item.IsRetired)
           return !item.IsRetired
         });
         if (breachId !== null && breaches[breachId]) {
