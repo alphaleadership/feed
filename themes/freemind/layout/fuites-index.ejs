@@ -114,7 +114,7 @@
       
       html += breaches.map((breach, index) => `
         <div class="fuite-list-item">
-          <a href="?id=${index}">${breach.Title || breach.Name}</a>
+          <a href="?id=${breach.index}">${breach.Title || breach.Name}</a>
           <p>Date: ${new Date(breach.BreachDate).toLocaleDateString('fr-FR')}</p>
         </div>
       `).join('');

@@ -82,6 +82,12 @@ const dataFile = path.join(baseDir, 'source', 'data', 'breaches.json');
       if (!Array.isArray(db.breaches)) {
         throw new Error("Le fichier 'breaches.json' n'a pas le format attendu (pas de tableau 'breaches').");
       }
+      // Trier les données existantes par ancienneté (plus vieille en premier)
+      db.breaches.sort((a, b) => {
+        const dateA = a.BreachDate ? new Date(a.BreachDate) : new Date(0);
+        const dateB = b.BreachDate ? new Date(b.BreachDate) : new Date(0);
+        return dateA - dateB;
+      });
     } catch (e) {
       console.error("Erreur lors de la lecture ou de l'analyse de 'data/breaches.json':", e.message);
       return;
@@ -160,6 +166,11 @@ const dataFile = path.join(baseDir, 'source', 'data', 'breaches.json');
       const dateA = a.BreachDate ? new Date(a.BreachDate) : new Date(0);
       const dateB = b.BreachDate ? new Date(b.BreachDate) : new Date(0);
       return dateA - dateB;
+    });
+
+    // Ajouter l'index à chaque fuite
+    allBreaches.forEach((breach, idx) => {
+      breach.index = idx;
     });
 
     db.breaches = allBreaches;
