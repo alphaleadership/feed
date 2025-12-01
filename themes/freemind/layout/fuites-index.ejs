@@ -93,7 +93,9 @@
         return response.json();
       })
       .then(data => {
-        const breaches = data.breaches;
+        const breaches = data.breaches.filter((item)=>{
+          return !item.IsRetired
+        });
         if (breachId !== null && breaches[breachId]) {
           renderDetails(breaches[breachId]);
         } else {
