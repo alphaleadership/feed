@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-01T13:39:37.937Z",
-  "totalBreaches": 1626,
+  "lastUpdated": "2025-12-01T14:33:54.579Z",
+  "totalBreaches": 1625,
   "breaches": [
     {
       "Name": "gPotato",
@@ -36258,39 +36258,6 @@
       "index": 1124
     },
     {
-      "Name": "1win",
-      "Title": "1win",
-      "Domain": "1win.com",
-      "BreachDate": "2024-11-02",
-      "AddedDate": "2025-02-03T17:37:55Z",
-      "ModifiedDate": "2025-02-06T04:30:27Z",
-      "PwnCount": 96166543,
-      "Description": "In November 2024, <a href=\"https://cryptoadventure.com/1win-hack-leaks-data-of-100-million-users-can-gamblefi-save-the-day/\" target=\"_blank\" rel=\"noopener\">the online betting platform 1win suffered a data breach that exposed 96M users</a>. The exposed data included email and IP addresses, phone numbers, dates of birth, country and SHA-256 password hashes.",
-      "LogoPath": "https://logos.haveibeenpwned.com/1win.png",
-      "Attribution": "Leidhall",
-      "DisclosureUrl": null,
-      "DataClasses": [
-        "Dates of birth",
-        "Email addresses",
-        "Geographic locations",
-        "IP addresses",
-        "Passwords",
-        "Phone numbers"
-      ],
-      "IsVerified": true,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "1win",
-      "path": "breaches/1win",
-      "formattedDate": "2024-11-02",
-      "index": 1125
-    },
-    {
       "Name": "cve-2024-10310 fuite du 2024-11-2",
       "Title": "cve-2024-10310 fuite du 2024-11-2",
       "Domain": null,
@@ -36320,7 +36287,7 @@
       "categories": [
         "cve-2024-10310"
       ],
-      "index": 1126
+      "index": 1125
     },
     {
       "Name": "cve-2024-10540 fuite du 2024-11-2",
@@ -36352,7 +36319,7 @@
       "categories": [
         "cve-2024-10540"
       ],
-      "index": 1127
+      "index": 1126
     },
     {
       "Name": "cve-2024-10697 fuite du 2024-11-2",
@@ -36384,7 +36351,7 @@
       "categories": [
         "cve-2024-10697"
       ],
-      "index": 1128
+      "index": 1127
     },
     {
       "Name": "cve-2024-10698 fuite du 2024-11-2",
@@ -36416,7 +36383,7 @@
       "categories": [
         "cve-2024-10698"
       ],
-      "index": 1129
+      "index": 1128
     },
     {
       "Name": "cve-2024-10699 fuite du 2024-11-2",
@@ -36448,7 +36415,7 @@
       "categories": [
         "cve-2024-10699"
       ],
-      "index": 1130
+      "index": 1129
     },
     {
       "Name": "cve-2024-10700 fuite du 2024-11-2",
@@ -36480,7 +36447,7 @@
       "categories": [
         "cve-2024-10700"
       ],
-      "index": 1131
+      "index": 1130
     },
     {
       "Name": "cve-2024-10701 fuite du 2024-11-2",
@@ -36512,7 +36479,7 @@
       "categories": [
         "cve-2024-10701"
       ],
-      "index": 1132
+      "index": 1131
     },
     {
       "Name": "cve-2024-10702 fuite du 2024-11-2",
@@ -36544,7 +36511,7 @@
       "categories": [
         "cve-2024-10702"
       ],
-      "index": 1133
+      "index": 1132
     },
     {
       "Name": "cve-2024-51774 fuite du 2024-11-2",
@@ -36576,7 +36543,7 @@
       "categories": [
         "cve-2024-51774"
       ],
-      "index": 1134
+      "index": 1133
     },
     {
       "Name": "cve-2024-8739 fuite du 2024-11-2",
@@ -36608,7 +36575,7 @@
       "categories": [
         "cve-2024-8739"
       ],
-      "index": 1135
+      "index": 1134
     },
     {
       "Name": "cve-2024-9868 fuite du 2024-11-2",
@@ -36640,7 +36607,7 @@
       "categories": [
         "cve-2024-9868"
       ],
-      "index": 1136
+      "index": 1135
     },
     {
       "Name": "cve-2024-9896 fuite du 2024-11-2",
@@ -36672,6 +36639,39 @@
       "categories": [
         "cve-2024-9896"
       ],
+      "index": 1136
+    },
+    {
+      "Name": "1win",
+      "Title": "1win",
+      "Domain": "1win.com",
+      "BreachDate": "2024-11-02",
+      "AddedDate": "2025-02-03T17:37:55Z",
+      "ModifiedDate": "2025-02-06T04:30:27Z",
+      "PwnCount": 96166543,
+      "Description": "In November 2024, <a href=\"https://cryptoadventure.com/1win-hack-leaks-data-of-100-million-users-can-gamblefi-save-the-day/\" target=\"_blank\" rel=\"noopener\">the online betting platform 1win suffered a data breach that exposed 96M users</a>. The exposed data included email and IP addresses, phone numbers, dates of birth, country and SHA-256 password hashes.",
+      "LogoPath": "https://logos.haveibeenpwned.com/1win.png",
+      "Attribution": "Leidhall",
+      "DisclosureUrl": null,
+      "DataClasses": [
+        "Dates of birth",
+        "Email addresses",
+        "Geographic locations",
+        "IP addresses",
+        "Passwords",
+        "Phone numbers"
+      ],
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "1win",
+      "path": "breaches/1win",
+      "formattedDate": "2024-11-02",
       "index": 1137
     },
     {
@@ -45830,7 +45830,7 @@
       "slug": "scholastic",
       "path": "breaches/scholastic",
       "formattedDate": "2025-01-08",
-      "index": 1424
+      "index": 1423
     },
     {
       "Name": "LandAirSea",
@@ -45863,7 +45863,7 @@
       "slug": "landairsea",
       "path": "breaches/landairsea",
       "formattedDate": "2025-01-12",
-      "index": 1425
+      "index": 1424
     },
     {
       "Name": "StealerLogsJan2025",
@@ -45892,7 +45892,7 @@
       "slug": "stealerlogsjan2025",
       "path": "breaches/stealerlogsjan2025",
       "formattedDate": "2025-01-13",
-      "index": 1426
+      "index": 1425
     },
     {
       "Name": "fédération française de force fuite du 2025-1-14",
@@ -45924,7 +45924,7 @@
       "categories": [
         "fédération française de force"
       ],
-      "index": 1427
+      "index": 1426
     },
     {
       "Name": "fédération française de roller skateboard fuite du 2025-1-14",
@@ -45956,7 +45956,7 @@
       "categories": [
         "fédération française de roller skateboard"
       ],
-      "index": 1428
+      "index": 1427
     },
     {
       "Name": "kiabi fuite du 2025-1-14",
@@ -45988,7 +45988,7 @@
       "categories": [
         "kiabi"
       ],
-      "index": 1429
+      "index": 1428
     },
     {
       "Name": "FrameAndOptic",
@@ -46019,7 +46019,7 @@
       "slug": "frameandoptic",
       "path": "breaches/frameandoptic",
       "formattedDate": "2025-01-16",
-      "index": 1430
+      "index": 1429
     },
     {
       "Name": "fédération française de tir à l'arc fuite du 2025-1-20",
@@ -46051,7 +46051,7 @@
       "categories": [
         "fédération française de tir à l'arc"
       ],
-      "index": 1431
+      "index": 1430
     },
     {
       "Name": "fédération française de la montagne et de l'escalade fuite du 2025-1-23",
@@ -46083,7 +46083,7 @@
       "categories": [
         "fédération française de la montagne et de l'escalade"
       ],
-      "index": 1432
+      "index": 1431
     },
     {
       "Name": "e.leclerc fuite du 2025-1-24",
@@ -46115,7 +46115,7 @@
       "categories": [
         "e.leclerc"
       ],
-      "index": 1433
+      "index": 1432
     },
     {
       "Name": "fédération française montagne escalade fuite du 2025-1-24",
@@ -46147,7 +46147,7 @@
       "categories": [
         "fédération française montagne escalade"
       ],
-      "index": 1434
+      "index": 1433
     },
     {
       "Name": "DoxbinScrape",
@@ -46175,7 +46175,7 @@
       "slug": "doxbinscrape",
       "path": "breaches/doxbinscrape",
       "formattedDate": "2025-01-24",
-      "index": 1435
+      "index": 1434
     },
     {
       "Name": "aides fuite du 2025-1-27",
@@ -46207,7 +46207,7 @@
       "categories": [
         "aides"
       ],
-      "index": 1436
+      "index": 1435
     },
     {
       "Name": "Thermomix",
@@ -46241,7 +46241,7 @@
       "slug": "thermomix",
       "path": "breaches/thermomix",
       "formattedDate": "2025-01-30",
-      "index": 1437
+      "index": 1436
     },
     {
       "Name": "espace fuite du 2025-2-6",
@@ -46273,7 +46273,7 @@
       "categories": [
         "espace"
       ],
-      "index": 1439
+      "index": 1437
     },
     {
       "Name": "king jouet fuite du 2025-2-11",
@@ -46305,7 +46305,7 @@
       "categories": [
         "king jouet"
       ],
-      "index": 1440
+      "index": 1438
     },
     {
       "Name": "Lexipol",
@@ -46337,7 +46337,7 @@
       "slug": "lexipol",
       "path": "breaches/lexipol",
       "formattedDate": "2025-02-11",
-      "index": 1441
+      "index": 1439
     },
     {
       "Name": "caisse des dépôts et des consignations fuite du 2025-2-12",
@@ -46369,7 +46369,7 @@
       "categories": [
         "caisse des dépôts et des consignations"
       ],
-      "index": 1442
+      "index": 1440
     },
     {
       "Name": "chronopost fuite du 2025-2-12",
@@ -46401,7 +46401,7 @@
       "categories": [
         "chronopost"
       ],
-      "index": 1443
+      "index": 1441
     },
     {
       "Name": "mutuelle des motards fuite du 2025-2-13",
@@ -46433,7 +46433,7 @@
       "categories": [
         "mutuelle des motards"
       ],
-      "index": 1444
+      "index": 1442
     },
     {
       "Name": "Adpost",
@@ -46463,7 +46463,7 @@
       "slug": "adpost",
       "path": "breaches/adpost",
       "formattedDate": "2025-02-14",
-      "index": 1445
+      "index": 1443
     },
     {
       "Name": "Cocospy",
@@ -46491,7 +46491,7 @@
       "slug": "cocospy",
       "path": "breaches/cocospy",
       "formattedDate": "2025-02-14",
-      "index": 1446
+      "index": 1444
     },
     {
       "Name": "Spyic",
@@ -46519,7 +46519,7 @@
       "slug": "spyic",
       "path": "breaches/spyic",
       "formattedDate": "2025-02-14",
-      "index": 1447
+      "index": 1445
     },
     {
       "Name": "AlienStealerLogs",
@@ -46548,7 +46548,7 @@
       "slug": "alienstealerlogs",
       "path": "breaches/alienstealerlogs",
       "formattedDate": "2025-02-15",
-      "index": 1448
+      "index": 1446
     },
     {
       "Name": "sport découverte fuite du 2025-2-17",
@@ -46580,7 +46580,7 @@
       "categories": [
         "sport découverte"
       ],
-      "index": 1449
+      "index": 1447
     },
     {
       "Name": "service départemental d'incendie et de secours de la vienne fuite du 2025-2-19",
@@ -46612,7 +46612,7 @@
       "categories": [
         "service départemental d'incendie et de secours de la vienne"
       ],
-      "index": 1450
+      "index": 1448
     },
     {
       "Name": "fédération française de foot fuite du 2025-2-21",
@@ -46644,7 +46644,7 @@
       "categories": [
         "fédération française de foot"
       ],
-      "index": 1451
+      "index": 1449
     },
     {
       "Name": "OrangeRomania",
@@ -46674,7 +46674,7 @@
       "slug": "orangeromania",
       "path": "breaches/orangeromania",
       "formattedDate": "2025-02-24",
-      "index": 1452
+      "index": 1450
     },
     {
       "Name": "nord emploi fuite du 2025-2-26",
@@ -46706,7 +46706,7 @@
       "categories": [
         "nord emploi"
       ],
-      "index": 1453
+      "index": 1451
     },
     {
       "Name": "edf dpih fuite du 2025-2-28",
@@ -46738,7 +46738,7 @@
       "categories": [
         "edf dpih"
       ],
-      "index": 1454
+      "index": 1452
     },
     {
       "Name": "zephir fuite du 2025-2-28",
@@ -46770,7 +46770,7 @@
       "categories": [
         "zephir"
       ],
-      "index": 1455
+      "index": 1453
     },
     {
       "Name": "école nationale de la sécurité fuite du 2025-2-28",
@@ -46802,7 +46802,7 @@
       "categories": [
         "école nationale de la sécurité"
       ],
-      "index": 1456
+      "index": 1454
     },
     {
       "Name": "côté sushi fuite du 2025-3-4",
@@ -46834,7 +46834,7 @@
       "categories": [
         "côté sushi"
       ],
-      "index": 1457
+      "index": 1455
     },
     {
       "Name": "la poste fuite du 2025-3-4",
@@ -46866,7 +46866,7 @@
       "categories": [
         "la poste"
       ],
-      "index": 1458
+      "index": 1456
     },
     {
       "Name": "utwin fuite du 2025-3-5",
@@ -46898,7 +46898,7 @@
       "categories": [
         "utwin"
       ],
-      "index": 1459
+      "index": 1457
     },
     {
       "Name": "laforêt fuite du 2025-3-13",
@@ -46930,7 +46930,7 @@
       "categories": [
         "laforêt"
       ],
-      "index": 1460
+      "index": 1458
     },
     {
       "Name": "direct assurance fuite du 2025-3-18",
@@ -46962,7 +46962,7 @@
       "categories": [
         "direct assurance"
       ],
-      "index": 1461
+      "index": 1459
     },
     {
       "Name": "intersport fuite du 2025-3-20",
@@ -46994,7 +46994,7 @@
       "categories": [
         "intersport"
       ],
-      "index": 1462
+      "index": 1460
     },
     {
       "Name": "éclaireuses et éclaireurs de france fuite du 2025-3-20",
@@ -47026,7 +47026,7 @@
       "categories": [
         "éclaireuses et éclaireurs de france"
       ],
-      "index": 1463
+      "index": 1461
     },
     {
       "Name": "autosur  diagnosur fuite du 2025-3-24",
@@ -47058,7 +47058,7 @@
       "categories": [
         "autosur  diagnosur"
       ],
-      "index": 1464
+      "index": 1462
     },
     {
       "Name": "cerballiance fuite du 2025-3-25",
@@ -47090,7 +47090,7 @@
       "categories": [
         "cerballiance"
       ],
-      "index": 1465
+      "index": 1463
     },
     {
       "Name": "TroyHuntMailchimpList",
@@ -47120,7 +47120,7 @@
       "slug": "troyhuntmailchimplist",
       "path": "breaches/troyhuntmailchimplist",
       "formattedDate": "2025-03-25",
-      "index": 1466
+      "index": 1464
     },
     {
       "Name": "centrale nantes fuite du 2025-3-26",
@@ -47152,7 +47152,7 @@
       "categories": [
         "centrale nantes"
       ],
-      "index": 1467
+      "index": 1465
     },
     {
       "Name": "TehetsegKapu",
@@ -47182,7 +47182,7 @@
       "slug": "tehetsegkapu",
       "path": "breaches/tehetsegkapu",
       "formattedDate": "2025-03-26",
-      "index": 1468
+      "index": 1466
     },
     {
       "Name": "oracle cloud fuite du 2025-3-27",
@@ -47214,7 +47214,7 @@
       "categories": [
         "oracle cloud"
       ],
-      "index": 1469
+      "index": 1467
     },
     {
       "Name": "GermanDonerKebab",
@@ -47245,7 +47245,7 @@
       "slug": "germandonerkebab",
       "path": "breaches/germandonerkebab",
       "formattedDate": "2025-03-27",
-      "index": 1470
+      "index": 1468
     },
     {
       "Name": "maif  bpce fuite du 2025-3-28",
@@ -47277,7 +47277,7 @@
       "categories": [
         "maif  bpce"
       ],
-      "index": 1471
+      "index": 1469
     },
     {
       "Name": "SamsungGermany",
@@ -47311,7 +47311,7 @@
       "slug": "samsunggermany",
       "path": "breaches/samsunggermany",
       "formattedDate": "2025-03-30",
-      "index": 1472
+      "index": 1470
     },
     {
       "Name": "reporterre fuite du 2025-4-1",
@@ -47343,7 +47343,7 @@
       "categories": [
         "reporterre"
       ],
-      "index": 1473
+      "index": 1471
     },
     {
       "Name": "utwin fuite du 2025-4-7",
@@ -47375,7 +47375,7 @@
       "categories": [
         "utwin"
       ],
-      "index": 1475
+      "index": 1472
     },
     {
       "Name": "harvest fuite du 2025-4-11",
@@ -47407,7 +47407,7 @@
       "categories": [
         "harvest"
       ],
-      "index": 1476
+      "index": 1473
     },
     {
       "Name": "SynthientCredentialStuffingThreatData",
@@ -47436,7 +47436,7 @@
       "slug": "synthientcredentialstuffingthreatdata",
       "path": "breaches/synthientcredentialstuffingthreatdata",
       "formattedDate": "2025-04-11",
-      "index": 1477
+      "index": 1474
     },
     {
       "Name": "SynthientStealerLogThreatData",
@@ -47465,7 +47465,7 @@
       "slug": "synthientstealerlogthreatdata",
       "path": "breaches/synthientstealerlogthreatdata",
       "formattedDate": "2025-04-11",
-      "index": 1478
+      "index": 1475
     },
     {
       "Name": "afflelou fuite du 2025-4-15",
@@ -47497,7 +47497,7 @@
       "categories": [
         "afflelou"
       ],
-      "index": 1479
+      "index": 1476
     },
     {
       "Name": "hertz fuite du 2025-4-15",
@@ -47529,7 +47529,7 @@
       "categories": [
         "hertz"
       ],
-      "index": 1480
+      "index": 1477
     },
     {
       "Name": "indigo fuite du 2025-4-18",
@@ -47561,7 +47561,7 @@
       "categories": [
         "indigo"
       ],
-      "index": 1481
+      "index": 1478
     },
     {
       "Name": "easy cash fuite du 2025-4-22",
@@ -47593,7 +47593,7 @@
       "categories": [
         "easy cash"
       ],
-      "index": 1482
+      "index": 1479
     },
     {
       "Name": "carrefour mobile fuite du 2025-4-24",
@@ -47625,7 +47625,7 @@
       "categories": [
         "carrefour mobile"
       ],
-      "index": 1483
+      "index": 1480
     },
     {
       "Name": "cerballiance fuite du 2025-4-30",
@@ -47657,7 +47657,7 @@
       "categories": [
         "cerballiance"
       ],
-      "index": 1484
+      "index": 1481
     },
     {
       "Name": "CreamsCafe",
@@ -47688,7 +47688,7 @@
       "slug": "creamscafe",
       "path": "breaches/creamscafe",
       "formattedDate": "2025-05-01",
-      "index": 1485
+      "index": 1482
     },
     {
       "Name": "Ualabee",
@@ -47720,7 +47720,7 @@
       "slug": "ualabee",
       "path": "breaches/ualabee",
       "formattedDate": "2025-05-06",
-      "index": 1486
+      "index": 1483
     },
     {
       "Name": "dior fuite du 2025-5-13",
@@ -47752,7 +47752,7 @@
       "categories": [
         "dior"
       ],
-      "index": 1487
+      "index": 1484
     },
     {
       "Name": "pulsy fuite du 2025-5-13",
@@ -47784,7 +47784,7 @@
       "categories": [
         "pulsy"
       ],
-      "index": 1488
+      "index": 1485
     },
     {
       "Name": "OperationEndgame2",
@@ -47813,7 +47813,7 @@
       "slug": "operationendgame2",
       "path": "breaches/operationendgame2",
       "formattedDate": "2025-05-23",
-      "index": 1489
+      "index": 1486
     },
     {
       "Name": "ColoCrossing",
@@ -47843,7 +47843,7 @@
       "slug": "colocrossing",
       "path": "breaches/colocrossing",
       "formattedDate": "2025-05-24",
-      "index": 1490
+      "index": 1487
     },
     {
       "Name": "autosur fuite du 2025-5-26",
@@ -47875,7 +47875,7 @@
       "categories": [
         "autosur"
       ],
-      "index": 1491
+      "index": 1488
     },
     {
       "Name": "cartier fuite du 2025-6-3",
@@ -47907,7 +47907,7 @@
       "categories": [
         "cartier"
       ],
-      "index": 1492
+      "index": 1489
     },
     {
       "Name": "kaviari fuite du 2025-6-3",
@@ -47939,7 +47939,7 @@
       "categories": [
         "kaviari"
       ],
-      "index": 1493
+      "index": 1490
     },
     {
       "Name": "Omnicuris",
@@ -47970,7 +47970,7 @@
       "slug": "omnicuris",
       "path": "breaches/omnicuris",
       "formattedDate": "2025-06-08",
-      "index": 1494
+      "index": 1491
     },
     {
       "Name": "Catwatchful",
@@ -47999,7 +47999,7 @@
       "slug": "catwatchful",
       "path": "breaches/catwatchful",
       "formattedDate": "2025-06-09",
-      "index": 1495
+      "index": 1492
     },
     {
       "Name": "DataTrollStealerLogs",
@@ -48028,7 +48028,7 @@
       "slug": "datatrollstealerlogs",
       "path": "breaches/datatrollstealerlogs",
       "formattedDate": "2025-06-20",
-      "index": 1496
+      "index": 1493
     },
     {
       "Name": "VietnamAirlines",
@@ -48060,7 +48060,7 @@
       "slug": "vietnamairlines",
       "path": "breaches/vietnamairlines",
       "formattedDate": "2025-06-20",
-      "index": 1497
+      "index": 1494
     },
     {
       "Name": "disneyland fuite du 2025-6-21",
@@ -48092,7 +48092,7 @@
       "categories": [
         "disneyland"
       ],
-      "index": 1498
+      "index": 1495
     },
     {
       "Name": "hôpital privé de la loire fuite du 2025-6-21",
@@ -48124,7 +48124,7 @@
       "categories": [
         "hôpital privé de la loire"
       ],
-      "index": 1499
+      "index": 1496
     },
     {
       "Name": "MaReads",
@@ -48155,7 +48155,7 @@
       "slug": "mareads",
       "path": "breaches/mareads",
       "formattedDate": "2025-06-22",
-      "index": 1500
+      "index": 1497
     },
     {
       "Name": "TheSquare",
@@ -48186,7 +48186,7 @@
       "slug": "thesquare",
       "path": "breaches/thesquare",
       "formattedDate": "2025-06-27",
-      "index": 1501
+      "index": 1498
     },
     {
       "Name": "union nationale du sport scolaire fuite du 2025-7-7",
@@ -48218,7 +48218,7 @@
       "categories": [
         "union nationale du sport scolaire"
       ],
-      "index": 1502
+      "index": 1499
     },
     {
       "Name": "centre national de la fonction publique territoriale fuite du 2025-7-11",
@@ -48250,7 +48250,7 @@
       "categories": [
         "centre national de la fonction publique territoriale"
       ],
-      "index": 1503
+      "index": 1500
     },
     {
       "Name": "louis vuitton fuite du 2025-7-11",
@@ -48282,7 +48282,7 @@
       "categories": [
         "louis vuitton"
       ],
-      "index": 1504
+      "index": 1501
     },
     {
       "Name": "sorbonne université fuite du 2025-7-11",
@@ -48314,7 +48314,7 @@
       "categories": [
         "sorbonne université"
       ],
-      "index": 1505
+      "index": 1502
     },
     {
       "Name": "AllianzLife",
@@ -48347,7 +48347,7 @@
       "slug": "allianzlife",
       "path": "breaches/allianzlife",
       "formattedDate": "2025-07-16",
-      "index": 1506
+      "index": 1503
     },
     {
       "Name": "france travail fuite du 2025-7-22",
@@ -48379,7 +48379,7 @@
       "categories": [
         "france travail"
       ],
-      "index": 1507
+      "index": 1504
     },
     {
       "Name": "groupe 5àsec fuite du 2025-7-22",
@@ -48411,7 +48411,7 @@
       "categories": [
         "groupe 5àsec"
       ],
-      "index": 1508
+      "index": 1505
     },
     {
       "Name": "orange fuite du 2025-7-25",
@@ -48443,7 +48443,7 @@
       "categories": [
         "orange"
       ],
-      "index": 1509
+      "index": 1506
     },
     {
       "Name": "HelloCake",
@@ -48476,7 +48476,7 @@
       "slug": "hellocake",
       "path": "breaches/hellocake",
       "formattedDate": "2025-07-25",
-      "index": 1510
+      "index": 1507
     },
     {
       "Name": "ThePi-Hole",
@@ -48505,7 +48505,7 @@
       "slug": "thepi-hole",
       "path": "breaches/thepi-hole",
       "formattedDate": "2025-07-30",
-      "index": 1511
+      "index": 1508
     },
     {
       "Name": "thepi fuite du 2025-7-31",
@@ -48537,39 +48537,7 @@
       "categories": [
         "thepi"
       ],
-      "index": 1512
-    },
-    {
-      "Name": "Pi-hole",
-      "Title": "Pi-hole",
-      "Domain": null,
-      "BreachDate": "2025-07-31T22:46:38.000Z",
-      "AddedDate": "2025-11-26T13:08:36.769Z",
-      "ModifiedDate": "2025-11-26T13:08:36.769Z",
-      "PwnCount": 0,
-      "Description": "-\r\n\r\n# Pi-hole\r\n\r\n<div class=\"breach-meta\">\r\n  <div class=\"meta-item\">\r\n    <span class=\"meta-label\">Date de la fuite :</span>\r\n    <span class=\"meta-value\">30 juillet 2025</span>\r\n  </div>\r\n  <div class=\"meta-item\">\r\n    <span class=\"meta-label\">Comptes affectés :</span>\r\n    <span class=\"meta-value\">29 926</span>\r\n  </div>\r\n  <div class=\"meta-item\">\r\n    <span class=\"meta-label\">Site web :</span>\r\n    <a href=\"https://pi-hole.net\" target=\"_blank\" rel=\"noopener\">pi-hole.net</a>\r\n  </div>\r\n</div>\r\n\r\n## Description\r\nIn July 2025, a vulnerability in the GiveWP WordPress plugin exposed the names and email addresses of approximately 30k donors to the Pi-hole network-wide ad blocking project. Pi-hole subsequently self-submitted the list of impacted donors to HIBP.\r\n\r\n## Données exposées\r\n\r\n<div class=\"data-classes\">\r\n  <span class=\"data-class\">Email addresses</span>\r\n  <span class=\"data-class\">Names</span>\r\n</div>\r\n\r\n## Actions recommandées\r\n1. Changez votre mot de passe sur ce site et sur tout autre site où vous utilisez le même mot de passe\r\n2. Activez l'authentification à deux facteurs si disponible\r\n3. Surveillez vos comptes pour toute activité suspecte\r\n\r\n## Plus d'informations\r\n- [Vérifier si vous êtes concerné sur Have I Been Pwned](https://haveibeenpwned.com/breach/ThePi-Hole)\r\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "pi-hole",
-      "formattedDate": "2025-07-31",
-      "title": "Pi-hole",
-      "date": "2025-07-31T22:46:38.000Z",
-      "category": "breaches",
-      "tags": [
-        "email addresses",
-        "names"
-      ],
-      "index": 1513
+      "index": 1509
     },
     {
       "Name": "thepi fuite du 2025-8-1",
@@ -48601,7 +48569,39 @@
       "categories": [
         "thepi"
       ],
-      "index": 1514
+      "index": 1510
+    },
+    {
+      "Name": "Pi-hole",
+      "Title": "Pi-hole",
+      "Domain": null,
+      "BreachDate": "2025-07-31T22:46:38.000Z",
+      "AddedDate": "2025-11-26T13:08:36.769Z",
+      "ModifiedDate": "2025-11-26T13:08:36.769Z",
+      "PwnCount": 0,
+      "Description": "-\r\n\r\n# Pi-hole\r\n\r\n<div class=\"breach-meta\">\r\n  <div class=\"meta-item\">\r\n    <span class=\"meta-label\">Date de la fuite :</span>\r\n    <span class=\"meta-value\">30 juillet 2025</span>\r\n  </div>\r\n  <div class=\"meta-item\">\r\n    <span class=\"meta-label\">Comptes affectés :</span>\r\n    <span class=\"meta-value\">29 926</span>\r\n  </div>\r\n  <div class=\"meta-item\">\r\n    <span class=\"meta-label\">Site web :</span>\r\n    <a href=\"https://pi-hole.net\" target=\"_blank\" rel=\"noopener\">pi-hole.net</a>\r\n  </div>\r\n</div>\r\n\r\n## Description\r\nIn July 2025, a vulnerability in the GiveWP WordPress plugin exposed the names and email addresses of approximately 30k donors to the Pi-hole network-wide ad blocking project. Pi-hole subsequently self-submitted the list of impacted donors to HIBP.\r\n\r\n## Données exposées\r\n\r\n<div class=\"data-classes\">\r\n  <span class=\"data-class\">Email addresses</span>\r\n  <span class=\"data-class\">Names</span>\r\n</div>\r\n\r\n## Actions recommandées\r\n1. Changez votre mot de passe sur ce site et sur tout autre site où vous utilisez le même mot de passe\r\n2. Activez l'authentification à deux facteurs si disponible\r\n3. Surveillez vos comptes pour toute activité suspecte\r\n\r\n## Plus d'informations\r\n- [Vérifier si vous êtes concerné sur Have I Been Pwned](https://haveibeenpwned.com/breach/ThePi-Hole)\r\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "pi-hole",
+      "formattedDate": "2025-07-31",
+      "title": "Pi-hole",
+      "date": "2025-07-31T22:46:38.000Z",
+      "category": "breaches",
+      "tags": [
+        "email addresses",
+        "names"
+      ],
+      "index": 1511
     },
     {
       "Name": "BouyguesTelecom",
@@ -48634,7 +48634,7 @@
       "slug": "bouyguestelecom",
       "path": "breaches/bouyguestelecom",
       "formattedDate": "2025-08-04",
-      "index": 1515
+      "index": 1512
     },
     {
       "Name": "pandora fuite du 2025-8-5",
@@ -48666,7 +48666,7 @@
       "categories": [
         "pandora"
       ],
-      "index": 1516
+      "index": 1513
     },
     {
       "Name": "air france fuite du 2025-8-6",
@@ -48698,7 +48698,7 @@
       "categories": [
         "air france"
       ],
-      "index": 1517
+      "index": 1514
     },
     {
       "Name": "bouygues telecom fuite du 2025-8-6",
@@ -48730,7 +48730,7 @@
       "categories": [
         "bouygues telecom"
       ],
-      "index": 1518
+      "index": 1515
     },
     {
       "Name": "optic 2000 fuite du 2025-8-8",
@@ -48762,7 +48762,7 @@
       "categories": [
         "optic 2000"
       ],
-      "index": 1519
+      "index": 1516
     },
     {
       "Name": "Giglio",
@@ -48793,7 +48793,7 @@
       "slug": "giglio",
       "path": "breaches/giglio",
       "formattedDate": "2025-08-09",
-      "index": 1520
+      "index": 1517
     },
     {
       "Name": "alltricks fuite du 2025-8-12",
@@ -48825,7 +48825,7 @@
       "categories": [
         "alltricks"
       ],
-      "index": 1521
+      "index": 1518
     },
     {
       "Name": "france travail fuite du 2025-8-12",
@@ -48857,7 +48857,7 @@
       "categories": [
         "france travail"
       ],
-      "index": 1522
+      "index": 1519
     },
     {
       "Name": "france link interactive fuite du 2025-8-13",
@@ -48889,7 +48889,7 @@
       "categories": [
         "france link interactive"
       ],
-      "index": 1523
+      "index": 1520
     },
     {
       "Name": "google fuite du 2025-8-13",
@@ -48921,7 +48921,7 @@
       "categories": [
         "google"
       ],
-      "index": 1524
+      "index": 1521
     },
     {
       "Name": "partner immo fuite du 2025-8-13",
@@ -48953,7 +48953,7 @@
       "categories": [
         "partner immo"
       ],
-      "index": 1525
+      "index": 1522
     },
     {
       "Name": "auchan fuite du 2025-8-21",
@@ -48985,7 +48985,7 @@
       "categories": [
         "auchan"
       ],
-      "index": 1526
+      "index": 1523
     },
     {
       "Name": "Miljodata",
@@ -49019,7 +49019,7 @@
       "slug": "miljodata",
       "path": "breaches/miljodata",
       "formattedDate": "2025-08-25",
-      "index": 1527
+      "index": 1524
     },
     {
       "Name": "ArtistsNClients",
@@ -49050,7 +49050,7 @@
       "slug": "artistsnclients",
       "path": "breaches/artistsnclients",
       "formattedDate": "2025-08-31",
-      "index": 1528
+      "index": 1525
     },
     {
       "Name": "Prosper",
@@ -49087,7 +49087,7 @@
       "slug": "prosper",
       "path": "breaches/prosper",
       "formattedDate": "2025-09-01",
-      "index": 1529
+      "index": 1526
     },
     {
       "Name": "eklo fuite du 2025-9-3",
@@ -49119,7 +49119,7 @@
       "categories": [
         "eklo"
       ],
-      "index": 1530
+      "index": 1527
     },
     {
       "Name": "plex fuite du 2025-9-9",
@@ -49151,7 +49151,7 @@
       "categories": [
         "plex"
       ],
-      "index": 1531
+      "index": 1528
     },
     {
       "Name": "Miljödata",
@@ -49188,7 +49188,7 @@
         "phone numbers",
         "physical addresses"
       ],
-      "index": 1532
+      "index": 1529
     },
     {
       "Name": "clarins fuite du 2025-9-18",
@@ -49220,7 +49220,7 @@
       "categories": [
         "clarins"
       ],
-      "index": 1533
+      "index": 1530
     },
     {
       "Name": "fédération française de tennis de table fuite du 2025-9-19",
@@ -49252,7 +49252,7 @@
       "categories": [
         "fédération française de tennis de table"
       ],
-      "index": 1534
+      "index": 1531
     },
     {
       "Name": "digital charging solutions fuite du 2025-9-20",
@@ -49284,7 +49284,7 @@
       "categories": [
         "digital charging solutions"
       ],
-      "index": 1535
+      "index": 1532
     },
     {
       "Name": "inovie labosud fuite du 2025-9-23",
@@ -49316,7 +49316,7 @@
       "categories": [
         "inovie labosud"
       ],
-      "index": 1536
+      "index": 1533
     },
     {
       "Name": "Bouygues Telecom",
@@ -49352,7 +49352,7 @@
         "phone numbers",
         "physical addresses"
       ],
-      "index": 1537
+      "index": 1534
     },
     {
       "Name": "france travail fuite du 2025-9-25",
@@ -49384,7 +49384,7 @@
       "categories": [
         "france travail"
       ],
-      "index": 1538
+      "index": 1535
     },
     {
       "Name": "la nef fuite du 2025-9-25",
@@ -49416,7 +49416,7 @@
       "categories": [
         "la nef"
       ],
-      "index": 1539
+      "index": 1536
     },
     {
       "Name": "artistsnclients fuite du 2025-10-4",
@@ -49448,7 +49448,7 @@
       "categories": [
         "artistsnclients"
       ],
-      "index": 1540
+      "index": 1537
     },
     {
       "Name": "discord fuite du 2025-10-4",
@@ -49480,7 +49480,7 @@
       "categories": [
         "discord"
       ],
-      "index": 1541
+      "index": 1538
     },
     {
       "Name": "Artists&Clients",
@@ -49514,7 +49514,7 @@
         "passwords",
         "usernames"
       ],
-      "index": 1542
+      "index": 1539
     },
     {
       "Name": "france travail fuite du 2025-10-6",
@@ -49546,7 +49546,7 @@
       "categories": [
         "france travail"
       ],
-      "index": 1543
+      "index": 1540
     },
     {
       "Name": "Tisza",
@@ -49578,7 +49578,7 @@
       "slug": "tisza",
       "path": "breaches/tisza",
       "formattedDate": "2025-10-06",
-      "index": 1544
+      "index": 1541
     },
     {
       "Name": "adpost fuite du 2025-10-7",
@@ -49610,7 +49610,7 @@
       "categories": [
         "adpost"
       ],
-      "index": 1545
+      "index": 1542
     },
     {
       "Name": "vietnamairlines fuite du 2025-10-11",
@@ -49642,7 +49642,7 @@
       "categories": [
         "vietnamairlines"
       ],
-      "index": 1546
+      "index": 1543
     },
     {
       "Name": "lycées des hauts fuite du 2025-10-12",
@@ -49674,7 +49674,7 @@
       "categories": [
         "lycées des hauts"
       ],
-      "index": 1547
+      "index": 1544
     },
     {
       "Name": "agence régionale de santé des hauts fuite du 2025-10-14",
@@ -49706,7 +49706,7 @@
       "categories": [
         "agence régionale de santé des hauts"
       ],
-      "index": 1548
+      "index": 1545
     },
     {
       "Name": "hellocake fuite du 2025-10-15",
@@ -49738,7 +49738,7 @@
       "categories": [
         "hellocake"
       ],
-      "index": 1549
+      "index": 1546
     },
     {
       "Name": "mango fuite du 2025-10-15",
@@ -49770,7 +49770,7 @@
       "categories": [
         "mango"
       ],
-      "index": 1550
+      "index": 1547
     },
     {
       "Name": "Hello Cake",
@@ -49806,7 +49806,7 @@
         "physical addresses",
         "purchases"
       ],
-      "index": 1551
+      "index": 1548
     },
     {
       "Name": "prosper fuite du 2025-10-16",
@@ -49838,7 +49838,7 @@
       "categories": [
         "prosper"
       ],
-      "index": 1552
+      "index": 1549
     },
     {
       "Name": "centre hospitalier intercommunal de haute fuite du 2025-10-19",
@@ -49870,7 +49870,7 @@
       "categories": [
         "centre hospitalier intercommunal de haute"
       ],
-      "index": 1553
+      "index": 1550
     },
     {
       "Name": "synthientstealerlogthreatdata fuite du 2025-10-21",
@@ -49902,7 +49902,7 @@
       "categories": [
         "synthientstealerlogthreatdata"
       ],
-      "index": 1554
+      "index": 1551
     },
     {
       "Name": "agences régionales de santé de l’île fuite du 2025-10-22",
@@ -49934,7 +49934,7 @@
       "categories": [
         "agences régionales de santé de l’île"
       ],
-      "index": 1555
+      "index": 1552
     },
     {
       "Name": "fédération française de tir fuite du 2025-10-23",
@@ -49966,7 +49966,7 @@
       "categories": [
         "fédération française de tir"
       ],
-      "index": 1556
+      "index": 1553
     },
     {
       "Name": "MyVidster2025",
@@ -49996,7 +49996,7 @@
       "slug": "myvidster2025",
       "path": "breaches/myvidster2025",
       "formattedDate": "2025-10-24",
-      "index": 1557
+      "index": 1554
     },
     {
       "Name": "myvidster2025 fuite du 2025-10-27",
@@ -50028,7 +50028,7 @@
       "categories": [
         "myvidster2025"
       ],
-      "index": 1558
+      "index": 1555
     },
     {
       "Name": "poltronesofa fuite du 2025-10-27",
@@ -50060,7 +50060,7 @@
       "categories": [
         "poltronesofa"
       ],
-      "index": 1559
+      "index": 1556
     },
     {
       "Name": "MyVidster (2025)",
@@ -50093,7 +50093,7 @@
         "profile photos",
         "usernames"
       ],
-      "index": 1560
+      "index": 1557
     },
     {
       "Name": "france travail fuite du 2025-10-29",
@@ -50125,7 +50125,7 @@
       "categories": [
         "france travail"
       ],
-      "index": 1561
+      "index": 1558
     },
     {
       "Name": "synthientcredentialstuffingthreatdata fuite du 2025-11-6",
@@ -50157,7 +50157,7 @@
       "categories": [
         "synthientcredentialstuffingthreatdata"
       ],
-      "index": 1562
+      "index": 1559
     },
     {
       "Name": "mym fuite du 2025-11-7",
@@ -50189,7 +50189,7 @@
       "categories": [
         "mym"
       ],
-      "index": 1563
+      "index": 1560
     },
     {
       "Name": "tisza fuite du 2025-11-8",
@@ -50221,7 +50221,7 @@
       "categories": [
         "tisza"
       ],
-      "index": 1564
+      "index": 1561
     },
     {
       "Name": "TISZA Világ",
@@ -50256,7 +50256,7 @@
         "physical addresses",
         "usernames"
       ],
-      "index": 1565
+      "index": 1562
     },
     {
       "Name": "oui heberg fuite du 2025-11-10",
@@ -50288,7 +50288,7 @@
       "categories": [
         "oui heberg"
       ],
-      "index": 1566
+      "index": 1563
     },
     {
       "Name": "fédération française de cardiologie fuite du 2025-11-11",
@@ -50320,7 +50320,7 @@
       "categories": [
         "fédération française de cardiologie"
       ],
-      "index": 1567
+      "index": 1564
     },
     {
       "Name": "weda fuite du 2025-11-12",
@@ -50352,7 +50352,7 @@
       "categories": [
         "weda"
       ],
-      "index": 1568
+      "index": 1565
     },
     {
       "Name": "fuite du 2025-11-12",
@@ -50398,7 +50398,7 @@
         "vie privée",
         ""
       ],
-      "index": 1569
+      "index": 1566
     },
     {
       "Name": "operationendgame3 fuite du 2025-11-13",
@@ -50430,7 +50430,7 @@
       "categories": [
         "operationendgame3"
       ],
-      "index": 1570
+      "index": 1567
     },
     {
       "Name": "Operation Endgame 3.0",
@@ -50462,7 +50462,7 @@
         "email addresses",
         "passwords"
       ],
-      "index": 1571
+      "index": 1568
     },
     {
       "Name": "OperationEndgame3",
@@ -50491,7 +50491,7 @@
       "slug": "operationendgame3",
       "path": "breaches/operationendgame3",
       "formattedDate": "2025-11-14",
-      "index": 1572
+      "index": 1569
     },
     {
       "Name": "eurofiber fuite du 2025-11-17",
@@ -50523,7 +50523,7 @@
       "categories": [
         "eurofiber"
       ],
-      "index": 1573
+      "index": 1570
     },
     {
       "Name": "mairie de brest fuite du 2025-11-17",
@@ -50555,7 +50555,7 @@
       "categories": [
         "mairie de brest"
       ],
-      "index": 1574
+      "index": 1571
     },
     {
       "Name": "pajemploi fuite du 2025-11-17",
@@ -50587,7 +50587,7 @@
       "categories": [
         "pajemploi"
       ],
-      "index": 1575
+      "index": 1572
     },
     {
       "Name": "santé pro fuite du 2025-11-17",
@@ -50619,7 +50619,7 @@
       "categories": [
         "santé pro"
       ],
-      "index": 1576
+      "index": 1573
     },
     {
       "Name": "resana fuite du 2025-11-18",
@@ -50651,7 +50651,7 @@
       "categories": [
         "resana"
       ],
-      "index": 1577
+      "index": 1574
     },
     {
       "Name": "synbird fuite du 2025-11-18",
@@ -50683,7 +50683,7 @@
       "categories": [
         "synbird"
       ],
-      "index": 1578
+      "index": 1575
     },
     {
       "Name": "2121983 fuite du 2025-11-19",
@@ -50721,7 +50721,7 @@
         "WhatsApp",
         "2121983"
       ],
-      "index": 1579
+      "index": 1576
     },
     {
       "Name": "2122247 fuite du 2025-11-19",
@@ -50765,7 +50765,7 @@
         "Zoomers",
         "2122247"
       ],
-      "index": 1580
+      "index": 1577
     },
     {
       "Name": "mairie d’alfortville fuite du 2025-11-19",
@@ -50797,7 +50797,7 @@
       "categories": [
         "mairie d’alfortville"
       ],
-      "index": 1581
+      "index": 1578
     },
     {
       "Name": "beckett fuite du 2025-11-20",
@@ -50829,7 +50829,7 @@
       "categories": [
         "beckett"
       ],
-      "index": 1582
+      "index": 1579
     },
     {
       "Name": "eurofiber fuite du 2025-11-20",
@@ -50861,7 +50861,7 @@
       "categories": [
         "eurofiber"
       ],
-      "index": 1583
+      "index": 1580
     },
     {
       "Name": "iko fuite du 2025-11-20",
@@ -50893,7 +50893,7 @@
       "categories": [
         "iko"
       ],
-      "index": 1584
+      "index": 1581
     },
     {
       "Name": "vultr fuite du 2025-11-20",
@@ -50925,7 +50925,7 @@
       "categories": [
         "vultr"
       ],
-      "index": 1585
+      "index": 1582
     },
     {
       "Name": "2879549_comment fuite du 2025-11-21",
@@ -50963,7 +50963,7 @@
         "Société",
         "2879549_comment"
       ],
-      "index": 1586
+      "index": 1583
     },
     {
       "Name": "2881329_nous fuite du 2025-11-21",
@@ -51003,7 +51003,7 @@
         "GrapheneOS",
         "2881329_nous"
       ],
-      "index": 1587
+      "index": 1584
     },
     {
       "Name": "colis privé fuite du 2025-11-21",
@@ -51035,7 +51035,7 @@
       "categories": [
         "colis privé"
       ],
-      "index": 1588
+      "index": 1585
     },
     {
       "Name": "michelin fuite du 2025-11-21",
@@ -51067,7 +51067,7 @@
       "categories": [
         "michelin"
       ],
-      "index": 1589
+      "index": 1586
     },
     {
       "Name": "2125121 fuite du 2025-11-22",
@@ -51104,7 +51104,7 @@
         "recherche",
         "2125121"
       ],
-      "index": 1590
+      "index": 1587
     },
     {
       "Name": "adda fuite du 2025-11-23",
@@ -51136,7 +51136,7 @@
       "categories": [
         "adda"
       ],
-      "index": 1591
+      "index": 1588
     },
     {
       "Name": "codestepbystep fuite du 2025-11-23",
@@ -51168,7 +51168,7 @@
       "categories": [
         "codestepbystep"
       ],
-      "index": 1592
+      "index": 1589
     },
     {
       "Name": "aprs fuite du 2025-11-24",
@@ -51200,7 +51200,7 @@
       "categories": [
         "aprs"
       ],
-      "index": 1593
+      "index": 1590
     },
     {
       "Name": "mairie de chatou fuite du 2025-11-24",
@@ -51232,7 +51232,7 @@
       "categories": [
         "mairie de chatou"
       ],
-      "index": 1594
+      "index": 1591
     },
     {
       "Name": "mairie de quimper fuite du 2025-11-24",
@@ -51264,7 +51264,7 @@
       "categories": [
         "mairie de quimper"
       ],
-      "index": 1595
+      "index": 1592
     },
     {
       "Name": "mairie de saint fuite du 2025-11-24",
@@ -51296,7 +51296,7 @@
       "categories": [
         "mairie de saint"
       ],
-      "index": 1596
+      "index": 1593
     },
     {
       "Name": "malakoff humanis fuite du 2025-11-24",
@@ -51328,7 +51328,7 @@
       "categories": [
         "malakoff humanis"
       ],
-      "index": 1597
+      "index": 1594
     },
     {
       "Name": "murfy fuite du 2025-11-24",
@@ -51360,7 +51360,7 @@
       "categories": [
         "murfy"
       ],
-      "index": 1598
+      "index": 1595
     },
     {
       "Name": "fuite du 2025-11-24",
@@ -51404,7 +51404,7 @@
         "usurpation administrative",
         ""
       ],
-      "index": 1599
+      "index": 1596
     },
     {
       "Name": "2122433 fuite du 2025-11-25",
@@ -51445,7 +51445,7 @@
         "données personnelles",
         "2122433"
       ],
-      "index": 1600
+      "index": 1597
     },
     {
       "Name": "2127053 fuite du 2025-11-25",
@@ -51488,7 +51488,7 @@
         "Robots",
         "2127053"
       ],
-      "index": 1601
+      "index": 1598
     },
     {
       "Name": "2885197_ce fuite du 2025-11-25",
@@ -51532,7 +51532,7 @@
         "WhatsApp",
         "2885197_ce"
       ],
-      "index": 1602
+      "index": 1599
     },
     {
       "Name": "628206_comment fuite du 2025-11-25",
@@ -51574,7 +51574,7 @@
         "Tutoriels iPhone et iPad",
         "628206_comment"
       ],
-      "index": 1603
+      "index": 1600
     },
     {
       "Name": "ag2r la mondiale fuite du 2025-11-25",
@@ -51606,7 +51606,7 @@
       "categories": [
         "ag2r la mondiale"
       ],
-      "index": 1604
+      "index": 1601
     },
     {
       "Name": "clinique du millénaire fuite du 2025-11-25",
@@ -51638,7 +51638,7 @@
       "categories": [
         "clinique du millénaire"
       ],
-      "index": 1605
+      "index": 1602
     },
     {
       "Name": "fédération française de danse fuite du 2025-11-25",
@@ -51670,7 +51670,7 @@
       "categories": [
         "fédération française de danse"
       ],
-      "index": 1606
+      "index": 1603
     },
     {
       "Name": "itelis fuite du 2025-11-25",
@@ -51702,7 +51702,7 @@
       "categories": [
         "itelis"
       ],
-      "index": 1607
+      "index": 1604
     },
     {
       "Name": "weda msp du pré vicinal fuite du 2025-11-25",
@@ -51734,7 +51734,7 @@
       "categories": [
         "weda msp du pré vicinal"
       ],
-      "index": 1608
+      "index": 1605
     },
     {
       "Name": "2128523 fuite du 2025-11-27",
@@ -51774,7 +51774,7 @@
         "Hacker",
         "2128523"
       ],
-      "index": 1609
+      "index": 1606
     },
     {
       "Name": "2129081 fuite du 2025-11-27",
@@ -51811,7 +51811,7 @@
         "Sécurité",
         "2129081"
       ],
-      "index": 1610
+      "index": 1607
     },
     {
       "Name": "2887767_des fuite du 2025-11-27",
@@ -51855,7 +51855,7 @@
         "Windows 11 Professionnel",
         "2887767_des"
       ],
-      "index": 1611
+      "index": 1608
     },
     {
       "Name": "csdn fuite du 2025-11-27",
@@ -51887,7 +51887,7 @@
       "categories": [
         "csdn"
       ],
-      "index": 1612
+      "index": 1609
     },
     {
       "Name": "footclub fédération française de foot fuite du 2025-11-27",
@@ -51919,7 +51919,7 @@
       "categories": [
         "footclub fédération française de foot"
       ],
-      "index": 1613
+      "index": 1610
     },
     {
       "Name": "synbird la rochelle fuite du 2025-11-27",
@@ -51951,7 +51951,7 @@
       "categories": [
         "synbird la rochelle"
       ],
-      "index": 1614
+      "index": 1611
     },
     {
       "Name": "weda msp givors presqu’île fuite du 2025-11-27",
@@ -51983,7 +51983,7 @@
       "categories": [
         "weda msp givors presqu’île"
       ],
-      "index": 1615
+      "index": 1612
     },
     {
       "Name": "2121285 fuite du 2025-11-28",
@@ -52021,7 +52021,7 @@
         "protonvpn",
         "2121285"
       ],
-      "index": 1616
+      "index": 1613
     },
     {
       "Name": "2129623 fuite du 2025-11-28",
@@ -52063,7 +52063,7 @@
         "OpenAI",
         "2129623"
       ],
-      "index": 1617
+      "index": 1614
     },
     {
       "Name": "2878079_cybersecurite fuite du 2025-11-28",
@@ -52103,7 +52103,7 @@
         "vie privée",
         "2878079_cybersecurite"
       ],
-      "index": 1618
+      "index": 1615
     },
     {
       "Name": "2129731 fuite du 2025-11-28",
@@ -52143,7 +52143,7 @@
         "Volkswagen",
         "2129731"
       ],
-      "index": 1619
+      "index": 1616
     },
     {
       "Name": "la centrale du financement fuite du 2025-11-28",
@@ -52175,7 +52175,7 @@
       "categories": [
         "la centrale du financement"
       ],
-      "index": 1620
+      "index": 1617
     },
     {
       "Name": "2891747_airbus fuite du 2025-11-29",
@@ -52211,7 +52211,7 @@
         "avion",
         "2891747_airbus"
       ],
-      "index": 1621
+      "index": 1618
     },
     {
       "Name": "zilvia fuite du 2025-12-1",
@@ -52243,7 +52243,7 @@
       "categories": [
         "zilvia"
       ],
-      "index": 1622
+      "index": 1619
     },
     {
       "Name": "2893069_elon fuite du 2025-12-1",
@@ -52282,7 +52282,7 @@
         "sécurité",
         "2893069_elon"
       ],
-      "index": 1623
+      "index": 1620
     },
     {
       "Name": "cve-2025-12106 fuite du 2025-12-1",
@@ -52314,7 +52314,7 @@
       "categories": [
         "cve-2025-12106"
       ],
-      "index": 1624
+      "index": 1621
     },
     {
       "Name": "cve-2025-27232 fuite du 2025-12-1",
@@ -52346,7 +52346,71 @@
       "categories": [
         "cve-2025-27232"
       ],
-      "index": 1625
+      "index": 1622
+    },
+    {
+      "Name": "cve-2025-49642 fuite du 2025-12-1",
+      "Title": "cve-2025-49642 fuite du 2025-12-1",
+      "Domain": null,
+      "BreachDate": "2025-12-1",
+      "AddedDate": "2025-12-01T14:33:54.490Z",
+      "ModifiedDate": "2025-12-01T14:33:54.490Z",
+      "PwnCount": 0,
+      "Description": "-\n\nLibrary loading on AIX Zabbix Agent builds can be hijacked by local users with write access to the /home/cecuser directory. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-49642-fuite-du-2025-12-1",
+      "path": "CVE-2025-49642",
+      "formattedDate": "2025-11-30",
+      "title": "cve-2025-49642 fuite du 2025-12-1",
+      "date": "2025-12-1",
+      "lien": "CVE-2025-49642",
+      "categories": [
+        "cve-2025-49642"
+      ],
+      "index": 1623
+    },
+    {
+      "Name": "cve-2025-49643 fuite du 2025-12-1",
+      "Title": "cve-2025-49643 fuite du 2025-12-1",
+      "Domain": null,
+      "BreachDate": "2025-12-1",
+      "AddedDate": "2025-12-01T14:33:54.577Z",
+      "ModifiedDate": "2025-12-01T14:33:54.577Z",
+      "PwnCount": 0,
+      "Description": "-\n\nAn authenticated Zabbix user (including Guest) is able to cause disproportionate CPU load on the webserver by sending specially crafted parameters to /imgstore.php\nleading to potential denial of service. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-49643-fuite-du-2025-12-1",
+      "path": "CVE-2025-49643",
+      "formattedDate": "2025-11-30",
+      "title": "cve-2025-49643 fuite du 2025-12-1",
+      "date": "2025-12-1",
+      "lien": "CVE-2025-49643",
+      "categories": [
+        "cve-2025-49643"
+      ],
+      "index": 1624
     }
   ]
 }
