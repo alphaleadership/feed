@@ -155,7 +155,12 @@ const dataFile = path.join(baseDir, 'source', 'data', 'breaches.json');
 
   if (newBreaches.length > 0) {
     const allBreaches = [...db.breaches, ...newBreaches];
-    allBreaches.sort((a, b) => new Date(a.BreachDate) - new Date(b.BreachDate));
+    // Tri par ancienneté: la plus vieille fuite aura l'index 0
+    allBreaches.sort((a, b) => {
+      const dateA = a.BreachDate ? new Date(a.BreachDate) : new Date(0);
+      const dateB = b.BreachDate ? new Date(b.BreachDate) : new Date(0);
+      return dateA - dateB;
+    });
 
     db.breaches = allBreaches;
     db.totalBreaches = allBreaches.length;
