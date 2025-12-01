@@ -1,7 +1,38 @@
 {
-  "lastUpdated": "2025-11-29T15:31:08.340Z",
-  "totalBreaches": 1122,
+  "lastUpdated": "2025-12-01T08:52:55.480Z",
+  "totalBreaches": 1123,
   "breaches": [
+    {
+      "Name": "zilvia fuite du 2025-12-1",
+      "Title": "zilvia fuite du 2025-12-1",
+      "Domain": null,
+      "BreachDate": "2025-12-1",
+      "AddedDate": "2025-12-01T08:52:55.479Z",
+      "ModifiedDate": "2025-12-01T08:52:55.479Z",
+      "PwnCount": 0,
+      "Description": "-\n\nIn November 2025\ndata breached from the Zilvia.net Nissan 240SX Silvia and Z Fairlady car forum was leaked. The breach exposed 288k unique email addresses along with usernames\nIP addresses and salted MD5 password hashes sourced from the vBulletin based platform. Attempts to contact Zilvia.net about the incident were unsuccessful.\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "zilvia-fuite-du-2025-12-1",
+      "path": "https://haveibeenpwned.com/Breach/Zilvia",
+      "formattedDate": "2025-12-01",
+      "title": "zilvia fuite du 2025-12-1",
+      "date": "2025-12-1",
+      "lien": "https://haveibeenpwned.com/Breach/Zilvia",
+      "categories": [
+        "zilvia"
+      ]
+    },
     {
       "Name": "2891747_airbus fuite du 2025-11-29",
       "Title": "2891747_airbus fuite du 2025-11-29",
