@@ -155,7 +155,7 @@ const dataFile = path.join(baseDir, 'source', 'data', 'breaches.json');
 
   if (newBreaches.length > 0) {
     const allBreaches = [...db.breaches, ...newBreaches];
-    allBreaches.sort((a, b) => new Date(b.BreachDate) - new Date(a.BreachDate));
+    allBreaches.sort((a, b) => new Date(a.BreachDate) - new Date(b.BreachDate));
 
     db.breaches = allBreaches;
     db.totalBreaches = allBreaches.length;
