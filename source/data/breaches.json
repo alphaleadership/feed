@@ -45802,20 +45802,6 @@
       "index": 1422
     },
     {
-      "Name": "DemoLeak",
-      "Title": "Fuite de Données de Démonstration",
-      "Domain": "demo.com",
-      "BreachDate": "2025-01-01",
-      "PwnCount": 100,
-      "Description": "Ceci est une fuite de données de démonstration pour tester le script d'importation.",
-      "DataClasses": [
-        "Usernames",
-        "Passwords"
-      ],
-      "slug": "demoleak",
-      "index": 1423
-    },
-    {
       "Name": "Scholastic",
       "Title": "Scholastic",
       "Domain": "scholastic.com",
@@ -46256,21 +46242,6 @@
       "path": "breaches/thermomix",
       "formattedDate": "2025-01-30",
       "index": 1437
-    },
-    {
-      "Name": "DemoLeakTwo",
-      "Title": "Deuxième Fuite de Démonstration",
-      "Domain": "demo2.com",
-      "BreachDate": "2025-02-02",
-      "PwnCount": 200,
-      "Description": "Ceci est une deuxième fuite pour tester le script d'importation mis à jour.",
-      "DataClasses": [
-        "IP addresses"
-      ],
-      "slug": "demoleaktwo",
-      "path": "breaches/demoleaktwo",
-      "formattedDate": "2025-02-02",
-      "index": 1438
     },
     {
       "Name": "espace fuite du 2025-2-6",
@@ -47373,21 +47344,6 @@
         "reporterre"
       ],
       "index": 1473
-    },
-    {
-      "Name": "DemoLeakFour",
-      "Title": "Quatrième Fuite de Démonstration",
-      "Domain": "demo4.com",
-      "BreachDate": "2025-04-04",
-      "PwnCount": 400,
-      "Description": "Ceci est une quatrième fuite pour le test final.",
-      "DataClasses": [
-        "Usernames"
-      ],
-      "slug": "demoleakfour",
-      "path": "breaches/demoleakfour",
-      "formattedDate": "2025-04-04",
-      "index": 1474
     },
     {
       "Name": "utwin fuite du 2025-4-7",
