@@ -98,7 +98,7 @@
           return !item.IsRetired
         })
         if (breachId !== null && breaches[breachId]) {
-          renderDetails(breaches[breachId]);
+          renderDetails(breaches[breachId],breachId);
         } else {
           renderList(breaches);
         }
@@ -131,7 +131,7 @@
       container.innerHTML = html;
     }
 
-    function renderDetails(breach) {
+    function renderDetails(breach,index) {
       console.log(breach)
       let html = `
         <div class="breach-details">
@@ -170,9 +170,9 @@
           </div>
         </div>
         <hr>
-        <a href="/fuites?id=${breach.index-1}">précédent</a>
+        <a href="/fuites?id=${index-1}">précédent</a>
         <a href="/fuites/">Retour à la liste</a>
-        <a href="/fuites?id=${breach.index+1}">suivant</a>
+        <a href="/fuites?id=${index+1}">suivant</a>
       `;
       container.innerHTML = html;
     }
