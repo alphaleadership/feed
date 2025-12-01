@@ -96,7 +96,7 @@
         const breaches = data.breaches.filter((item)=>{
           console.log(item.IsRetired)
           return !item.IsRetired
-        });
+        }).sort((a, b) => new Date(b.BreachDate) - new Date(a.BreachDate));
         if (breachId !== null && breaches[breachId]) {
           renderDetails(breaches[breachId]);
         } else {
