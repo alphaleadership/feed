@@ -957,7 +957,7 @@ hexo-generator-category@^2.0.0:
 
 "hexo-generator-feed@github:thomas-iniguez-visioli/hexo-generator-feed":
   version "3.0.0"
-  resolved "git+ssh://git@github.com/thomas-iniguez-visioli/hexo-generator-feed.git#574209bcc25a92238451615ca418278aa60c6856"
+  resolved "git+ssh://git@github.com/thomas-iniguez-visioli/hexo-generator-feed.git#4d18b499c99d1c94ec6c25d6e59f86cc2ba7aff9"
   dependencies:
     hexo-util "^4.0.0"
     nunjucks "^3.2.3"
