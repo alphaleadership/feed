@@ -170,9 +170,9 @@
           </div>
         </div>
         <hr>
-        <a href="/fuites?id=${index-1}">précédent</a>
+        <a href="/fuites?id=${parseInt(index)-1}">précédent</a>
         <a href="/fuites/">Retour à la liste</a>
-        <a href="/fuites?id=${index+1}">suivant</a>
+        <a href="/fuites?id=${parseInt(index)+1}">suivant</a>
       `;
       container.innerHTML = html;
     }
