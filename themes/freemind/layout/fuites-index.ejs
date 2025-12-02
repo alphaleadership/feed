@@ -179,7 +179,8 @@
               <div class="meta-item">
                 <span class="meta-label">Date de la fuite</span>
                 <span class="meta-value">${new Date(breach.BreachDate).toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
-              </div>
+             <
+                </div>
               ${breach.PwnCount > 0 ?
                 `
                 <div class="meta-item">
@@ -188,6 +189,15 @@
                 </div>
                 ` : ''
               }
+                    ${breach.Domain?
+                `
+                <div class="meta-item">
+                  <span class="meta-label">domaine</span>
+                  <span class="meta-value">${breach.Domain}</span>
+                </div>
+                ` : ''
+              }
+
             </div>
           </div>
           <div class="breach-content">

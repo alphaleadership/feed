@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-02T12:54:30.964Z",
-  "totalBreaches": 1798,
+  "lastUpdated": "2025-12-02T13:54:56.426Z",
+  "totalBreaches": 1819,
   "breaches": [
     {
       "Name": "gPotato",
@@ -517,7 +517,7 @@
       "categories": [
         "Fling"
       ],
-      "isNSFW": false
+      "isNSFW": true
     },
     {
       "Name": "Dangdang",
@@ -1114,7 +1114,7 @@
       "categories": [
         "YouPorn"
       ],
-      "isNSFW": false
+      "isNSFW": true
     },
     {
       "Name": "Gamigo",
@@ -1855,7 +1855,7 @@
       "categories": [
         "Brazzers"
       ],
-      "isNSFW": false
+      "isNSFW": true
     },
     {
       "Name": "DDO",
@@ -1968,7 +1968,7 @@
       "categories": [
         "NonNudeGirls"
       ],
-      "isNSFW": false
+      "isNSFW": true
     },
     {
       "Name": "AhaShare",
@@ -3624,7 +3624,7 @@
       "categories": [
         "Fridae"
       ],
-      "isNSFW": false
+      "isNSFW": true
     },
     {
       "Name": "Bitly",
@@ -5310,7 +5310,7 @@
       "categories": [
         "AdultFriendFinder"
       ],
-      "isNSFW": false
+      "isNSFW": true
     },
     {
       "Name": "BitcoinTalk",
@@ -5938,7 +5938,7 @@
       "categories": [
         "AshleyMadison"
       ],
-      "isNSFW": false
+      "isNSFW": true
     },
     {
       "Name": "Pokebip",
@@ -6121,7 +6121,7 @@
       "categories": [
         "TheCandidBoard"
       ],
-      "isNSFW": false
+      "isNSFW": true
     },
     {
       "Name": "Experian",
@@ -6928,7 +6928,7 @@
       "categories": [
         "BeautifulPeople"
       ],
-      "isNSFW": false
+      "isNSFW": true
     },
     {
       "Name": "VTech",
@@ -7943,7 +7943,7 @@
       "categories": [
         "Mate1"
       ],
-      "isNSFW": false
+      "isNSFW": true
     },
     {
       "Name": "Nival",
@@ -8090,7 +8090,7 @@
       "categories": [
         "NaughtyAmerica"
       ],
-      "isNSFW": false
+      "isNSFW": true
     },
     {
       "Name": "TunedGlobal",
@@ -10661,7 +10661,7 @@
       "categories": [
         "xHamster"
       ],
-      "isNSFW": false
+      "isNSFW": true
     },
     {
       "Name": "FashionFantasyGame",
@@ -11445,7 +11445,7 @@
       "categories": [
         "FreedomHostingII"
       ],
-      "isNSFW": false
+      "isNSFW": true
     },
     {
       "Name": "FreeOnes",
@@ -18926,7 +18926,7 @@
       "categories": [
         "Zoosk2020"
       ],
-      "isNSFW": false
+      "isNSFW": true
     },
     {
       "Name": "Mathway",
@@ -19009,7 +19009,7 @@
       "categories": [
         "MeetMindful"
       ],
-      "isNSFW": false
+      "isNSFW": true
     },
     {
       "Name": "Ulmon",
@@ -24816,7 +24816,7 @@
       "categories": [
         "CyberServe"
       ],
-      "isNSFW": false
+      "isNSFW": true
     },
     {
       "Name": "BTCAlpha",
@@ -27773,7 +27773,7 @@
       "categories": [
         "CityJerks"
       ],
-      "isNSFW": false
+      "isNSFW": true
     },
     {
       "Name": "DCHealth",
@@ -30841,7 +30841,7 @@
       "categories": [
         "Ladies"
       ],
-      "isNSFW": false
+      "isNSFW": true
     },
     {
       "Name": "AnimeLeague",
@@ -31607,7 +31607,7 @@
       "categories": [
         "Muah"
       ],
-      "isNSFW": false
+      "isNSFW": true
     },
     {
       "Name": "red by sfr fuite du 2024-9-18",
@@ -52716,7 +52716,7 @@
       "categories": [
         "HelloCake"
       ],
-      "isNSFW": false
+      "isNSFW": true
     },
     {
       "Name": "ThePi-Hole",
@@ -54050,7 +54050,7 @@
         "hellocake "
       ],
       "index": 1544,
-      "isNSFW": false
+      "isNSFW": true
     },
     {
       "Name": "mango fuite du 2025-10-15",
@@ -54123,7 +54123,7 @@
       "categories": [
         "Hello Cake"
       ],
-      "isNSFW": false
+      "isNSFW": true
     },
     {
       "Name": "prosper fuite du 2025-10-16",
@@ -54524,7 +54524,7 @@
         "mym "
       ],
       "index": 1558,
-      "isNSFW": false
+      "isNSFW": true
     },
     {
       "Name": "tisza fuite du 2025-11-8",
@@ -62354,6 +62354,699 @@
         "cve-2025-13873"
       ],
       "index": 1781,
+      "isNSFW": false
+    },
+    {
+      "Name": "cve-2025-11778 fuite du 2025-12-2",
+      "Title": "cve-2025-11778 fuite du 2025-12-2",
+      "Domain": null,
+      "BreachDate": "2025-12-2",
+      "AddedDate": "2025-12-02T13:47:28.282Z",
+      "ModifiedDate": "2025-12-02T13:47:28.282Z",
+      "PwnCount": 0,
+      "Description": "-\n\nStack-based buffer overflow in Circutor SGE-PLC1000/SGE-PLC50 v0.9.2. This vulnerability allows an attacker to remotely exploit memory corruption through the 'read_packet()' function of the TACACSPLUS implementation. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-11778-fuite-du-2025-12-2",
+      "path": "CVE-2025-11778",
+      "formattedDate": "2025-12-02",
+      "title": "cve-2025-11778 fuite du 2025-12-2",
+      "date": "2025-12-2",
+      "lien": "CVE-2025-11778",
+      "categories": [
+        "cve-2025-11778"
+      ],
+      "index": 1782,
+      "isNSFW": false
+    },
+    {
+      "Name": "cve-2025-11779 fuite du 2025-12-2",
+      "Title": "cve-2025-11779 fuite du 2025-12-2",
+      "Domain": null,
+      "BreachDate": "2025-12-2",
+      "AddedDate": "2025-12-02T13:47:28.332Z",
+      "ModifiedDate": "2025-12-02T13:47:28.332Z",
+      "PwnCount": 0,
+      "Description": "-\n\nStack-based buffer overflow vulnerability in CircutorSGE-PLC1000/SGE-PLC50 v9.0.2. The 'SetLan' function is invoked when a new configuration is applied. This new configuration function is activated by a management web request\nwhich can be invoked by a user when making changes to the 'index.cgi' web application. The parameters are not being sanitised\nwhich could lead to command injection. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-11779-fuite-du-2025-12-2",
+      "path": "CVE-2025-11779",
+      "formattedDate": "2025-12-02",
+      "title": "cve-2025-11779 fuite du 2025-12-2",
+      "date": "2025-12-2",
+      "lien": "CVE-2025-11779",
+      "categories": [
+        "cve-2025-11779"
+      ],
+      "index": 1783,
+      "isNSFW": false
+    },
+    {
+      "Name": "cve-2025-11780 fuite du 2025-12-2",
+      "Title": "cve-2025-11780 fuite du 2025-12-2",
+      "Domain": null,
+      "BreachDate": "2025-12-2",
+      "AddedDate": "2025-12-02T13:47:28.380Z",
+      "ModifiedDate": "2025-12-02T13:47:28.380Z",
+      "PwnCount": 0,
+      "Description": "-\n\nStack-based buffer overflow vulnerability in Circutor SGE-PLC1000/SGE-PLC50 v9.0.2. In the 'showMeterReport()' function\nthere is an unlimited user input that is copied to a fixed-size buffer via 'sprintf()'. The 'GetParameter(meter)' function retrieves the user input\nwhich is directly incorporated into a buffer without size validation. An attacker can provide an excessively large input for the “meter” parameter. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-11780-fuite-du-2025-12-2",
+      "path": "CVE-2025-11780",
+      "formattedDate": "2025-12-02",
+      "title": "cve-2025-11780 fuite du 2025-12-2",
+      "date": "2025-12-2",
+      "lien": "CVE-2025-11780",
+      "categories": [
+        "cve-2025-11780"
+      ],
+      "index": 1784,
+      "isNSFW": false
+    },
+    {
+      "Name": "cve-2025-11781 fuite du 2025-12-2",
+      "Title": "cve-2025-11781 fuite du 2025-12-2",
+      "Domain": null,
+      "BreachDate": "2025-12-2",
+      "AddedDate": "2025-12-02T13:47:28.430Z",
+      "ModifiedDate": "2025-12-02T13:47:28.430Z",
+      "PwnCount": 0,
+      "Description": "-\n\nUse of hardcoded cryptographic keys in Circutor SGE-PLC1000/SGE-PLC50 v9.0.2. The affected firmware contains a hardcoded static authentication key. An attacker with local access to the device can extract this key (e.g.\nby analysing the firmware image or memory dump) and create valid firmware update packages. This bypasses all intended access controls and grants full administrative privileges. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-11781-fuite-du-2025-12-2",
+      "path": "CVE-2025-11781",
+      "formattedDate": "2025-12-02",
+      "title": "cve-2025-11781 fuite du 2025-12-2",
+      "date": "2025-12-2",
+      "lien": "CVE-2025-11781",
+      "categories": [
+        "cve-2025-11781"
+      ],
+      "index": 1785,
+      "isNSFW": false
+    },
+    {
+      "Name": "cve-2025-11782 fuite du 2025-12-2",
+      "Title": "cve-2025-11782 fuite du 2025-12-2",
+      "Domain": null,
+      "BreachDate": "2025-12-2",
+      "AddedDate": "2025-12-02T13:47:28.480Z",
+      "ModifiedDate": "2025-12-02T13:47:28.480Z",
+      "PwnCount": 0,
+      "Description": "-\n\nStack-based buffer overflow vulnerability in Circutor SGE-PLC1000/SGE-PLC50 v9.0.2. The 'ShowDownload()' function uses “sprintf()” to format a string that includes the user-controlled input of 'GetParameter(meter)' in the fixed-size buffer 'acStack_4c' (64 bytes) without checking the length. An attacker can provide an excessively long value for the 'meter' parameter that exceeds the 64-byte buffer size. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-11782-fuite-du-2025-12-2",
+      "path": "CVE-2025-11782",
+      "formattedDate": "2025-12-02",
+      "title": "cve-2025-11782 fuite du 2025-12-2",
+      "date": "2025-12-2",
+      "lien": "CVE-2025-11782",
+      "categories": [
+        "cve-2025-11782"
+      ],
+      "index": 1786,
+      "isNSFW": false
+    },
+    {
+      "Name": "cve-2025-11783 fuite du 2025-12-2",
+      "Title": "cve-2025-11783 fuite du 2025-12-2",
+      "Domain": null,
+      "BreachDate": "2025-12-2",
+      "AddedDate": "2025-12-02T13:47:28.530Z",
+      "ModifiedDate": "2025-12-02T13:47:28.530Z",
+      "PwnCount": 0,
+      "Description": "-\n\nStack-based buffer overflow vulnerability in Circutor SGE-PLC1000/SGE-PLC50 v9.0.2. The vulnerability is found in the 'AddEvent()' function when copying the user-controlled username input to a fixed-size buffer (48 bytes) without boundary checking. This can lead to memory corruption\nresulting in possible remote code execution. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-11783-fuite-du-2025-12-2",
+      "path": "CVE-2025-11783",
+      "formattedDate": "2025-12-02",
+      "title": "cve-2025-11783 fuite du 2025-12-2",
+      "date": "2025-12-2",
+      "lien": "CVE-2025-11783",
+      "categories": [
+        "cve-2025-11783"
+      ],
+      "index": 1787,
+      "isNSFW": false
+    },
+    {
+      "Name": "cve-2025-11784 fuite du 2025-12-2",
+      "Title": "cve-2025-11784 fuite du 2025-12-2",
+      "Domain": null,
+      "BreachDate": "2025-12-2",
+      "AddedDate": "2025-12-02T13:47:28.578Z",
+      "ModifiedDate": "2025-12-02T13:47:28.578Z",
+      "PwnCount": 0,
+      "Description": "-\n\nStack-based buffer overflow vulnerability in Circutor SGE-PLC1000/SGE-PLC50 v9.0.2. In the 'ShowMeterDatabase()' function\nthere is an unlimited user input that is copied to a fixed-size buffer via 'sprintf()'. The 'GetParameter(meter)' function retrieves the user input\nwhich is directly incorporated into a buffer without size validation. An attacker can provide an excessively large input for the 'meter' parameter. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-11784-fuite-du-2025-12-2",
+      "path": "CVE-2025-11784",
+      "formattedDate": "2025-12-02",
+      "title": "cve-2025-11784 fuite du 2025-12-2",
+      "date": "2025-12-2",
+      "lien": "CVE-2025-11784",
+      "categories": [
+        "cve-2025-11784"
+      ],
+      "index": 1788,
+      "isNSFW": false
+    },
+    {
+      "Name": "cve-2025-11785 fuite du 2025-12-2",
+      "Title": "cve-2025-11785 fuite du 2025-12-2",
+      "Domain": null,
+      "BreachDate": "2025-12-2",
+      "AddedDate": "2025-12-02T13:47:28.626Z",
+      "ModifiedDate": "2025-12-02T13:47:28.626Z",
+      "PwnCount": 0,
+      "Description": "-\n\nStack-based buffer overflow vulnerability in Circutor SGE-PLC1000/SGE-PLC50 v9.0.2. In the 'ShowMeterPasswords()' function\nthere is an unlimited user input that is copied to a fixed-size buffer via 'sprintf()'. The 'GetParameter(meter)' function retrieves the user input\nwhich is directly incorporated into a buffer without size validation. An attacker can provide an excessively large input for the 'meter' parameter. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-11785-fuite-du-2025-12-2",
+      "path": "CVE-2025-11785",
+      "formattedDate": "2025-12-02",
+      "title": "cve-2025-11785 fuite du 2025-12-2",
+      "date": "2025-12-2",
+      "lien": "CVE-2025-11785",
+      "categories": [
+        "cve-2025-11785"
+      ],
+      "index": 1789,
+      "isNSFW": false
+    },
+    {
+      "Name": "cve-2025-11786 fuite du 2025-12-2",
+      "Title": "cve-2025-11786 fuite du 2025-12-2",
+      "Domain": null,
+      "BreachDate": "2025-12-2",
+      "AddedDate": "2025-12-02T13:47:28.674Z",
+      "ModifiedDate": "2025-12-02T13:47:28.674Z",
+      "PwnCount": 0,
+      "Description": "-\n\nStack-based buffer overflow vulnerability in Circutor SGE-PLC1000/SGE-PLC50 v9.0.2. In the 'SetUserPassword()' function\nthe 'newPassword' parameter is directly embedded in a shell command string using 'sprintf()' without any sanitisation or validation\nand then executed using 'system()'. This allows an attacker to inject arbitrary shell commands that will be executed with the same privileges as the application. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-11786-fuite-du-2025-12-2",
+      "path": "CVE-2025-11786",
+      "formattedDate": "2025-12-02",
+      "title": "cve-2025-11786 fuite du 2025-12-2",
+      "date": "2025-12-2",
+      "lien": "CVE-2025-11786",
+      "categories": [
+        "cve-2025-11786"
+      ],
+      "index": 1790,
+      "isNSFW": false
+    },
+    {
+      "Name": "cve-2025-11787 fuite du 2025-12-2",
+      "Title": "cve-2025-11787 fuite du 2025-12-2",
+      "Domain": null,
+      "BreachDate": "2025-12-2",
+      "AddedDate": "2025-12-02T13:47:28.722Z",
+      "ModifiedDate": "2025-12-02T13:47:28.722Z",
+      "PwnCount": 0,
+      "Description": "-\n\nCommand injection vulnerability in the operating system in Circutor SGE-PLC1000/SGE-PLC50 v9.0.2 through the 'GetDNS()'\n'CheckPing()' and 'TraceRoute()' functions. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-11787-fuite-du-2025-12-2",
+      "path": "CVE-2025-11787",
+      "formattedDate": "2025-12-02",
+      "title": "cve-2025-11787 fuite du 2025-12-2",
+      "date": "2025-12-2",
+      "lien": "CVE-2025-11787",
+      "categories": [
+        "cve-2025-11787"
+      ],
+      "index": 1791,
+      "isNSFW": false
+    },
+    {
+      "Name": "cve-2025-11788 fuite du 2025-12-2",
+      "Title": "cve-2025-11788 fuite du 2025-12-2",
+      "Domain": null,
+      "BreachDate": "2025-12-2",
+      "AddedDate": "2025-12-02T13:47:28.771Z",
+      "ModifiedDate": "2025-12-02T13:47:28.771Z",
+      "PwnCount": 0,
+      "Description": "-\n\nHeap-based buffer overflow vulnerability in Circutor SGE-PLC1000/SGE-PLC50 v9.0.2. In the 'ShowSupervisorParameters()' function\nthere is an unlimited user input that is copied to a fixed-size buffer via 'sprintf()'. The 'GetParameter(meter)' function retrieves the user input\nwhich is directly incorporated into a buffer without size validation. An attacker can provide an excessively large input for the 'meter' parameter. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-11788-fuite-du-2025-12-2",
+      "path": "CVE-2025-11788",
+      "formattedDate": "2025-12-02",
+      "title": "cve-2025-11788 fuite du 2025-12-2",
+      "date": "2025-12-2",
+      "lien": "CVE-2025-11788",
+      "categories": [
+        "cve-2025-11788"
+      ],
+      "index": 1792,
+      "isNSFW": false
+    },
+    {
+      "Name": "cve-2025-11789 fuite du 2025-12-2",
+      "Title": "cve-2025-11789 fuite du 2025-12-2",
+      "Domain": null,
+      "BreachDate": "2025-12-2",
+      "AddedDate": "2025-12-02T13:47:28.819Z",
+      "ModifiedDate": "2025-12-02T13:47:28.819Z",
+      "PwnCount": 0,
+      "Description": "-\n\nOut-of-bounds read vulnerability in Circutor SGE-PLC1000/SGE-PLC50 v9.0.2. The 'DownloadFile' function converts a parameter to an integer using 'atoi()' and then uses it as an index in the 'FilesDownload' array with '(FilesDownload)[iVar2]'. If the parameter is too large\nit will access memory beyond the limits. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-11789-fuite-du-2025-12-2",
+      "path": "CVE-2025-11789",
+      "formattedDate": "2025-12-02",
+      "title": "cve-2025-11789 fuite du 2025-12-2",
+      "date": "2025-12-2",
+      "lien": "CVE-2025-11789",
+      "categories": [
+        "cve-2025-11789"
+      ],
+      "index": 1793,
+      "isNSFW": false
+    },
+    {
+      "Name": "cve-2025-12465 fuite du 2025-12-2",
+      "Title": "cve-2025-12465 fuite du 2025-12-2",
+      "Domain": null,
+      "BreachDate": "2025-12-2",
+      "AddedDate": "2025-12-02T13:47:28.869Z",
+      "ModifiedDate": "2025-12-02T13:47:28.869Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA Blind SQL injection vulnerability has been identified in QuickCMS. Improper neutralization of input provided by a high-privileged user into aFilesDelete allows for Blind SQL Injection attacks.\r\n\r\nThe vendor was notified early about this vulnerability\nbut didn't respond with the details of vulnerability or vulnerable version range. Only version 6.8 was tested and confirmed as vulnerable\nother versions were not tested and might also be vulnerable. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-12465-fuite-du-2025-12-2",
+      "path": "CVE-2025-12465",
+      "formattedDate": "2025-12-02",
+      "title": "cve-2025-12465 fuite du 2025-12-2",
+      "date": "2025-12-2",
+      "lien": "CVE-2025-12465",
+      "categories": [
+        "cve-2025-12465"
+      ],
+      "index": 1794,
+      "isNSFW": false
+    },
+    {
+      "Name": "cve-2025-13090 fuite du 2025-12-2",
+      "Title": "cve-2025-13090 fuite du 2025-12-2",
+      "Domain": null,
+      "BreachDate": "2025-12-2",
+      "AddedDate": "2025-12-02T13:47:28.980Z",
+      "ModifiedDate": "2025-12-02T13:47:28.980Z",
+      "PwnCount": 0,
+      "Description": "-\n\nThe WP Directory Kit plugin for WordPress is vulnerable to SQL Injection via the 'search' parameter in all versions up to\nand including\n1.4.6 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers\nwith Administrator-level access and above\nto append additional SQL queries into already existing queries that can be used to extract sensitive information from the database. | CVSS Score 4.9 (MEDIUM)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-13090-fuite-du-2025-12-2",
+      "path": "CVE-2025-13090",
+      "formattedDate": "2025-12-02",
+      "title": "cve-2025-13090 fuite du 2025-12-2",
+      "date": "2025-12-2",
+      "lien": "CVE-2025-13090",
+      "categories": [
+        "cve-2025-13090"
+      ],
+      "index": 1795,
+      "isNSFW": false
+    },
+    {
+      "Name": "cve-2025-13353 fuite du 2025-12-2",
+      "Title": "cve-2025-13353 fuite du 2025-12-2",
+      "Domain": null,
+      "BreachDate": "2025-12-2",
+      "AddedDate": "2025-12-02T13:47:29.038Z",
+      "ModifiedDate": "2025-12-02T13:47:29.038Z",
+      "PwnCount": 0,
+      "Description": "-\n\nIn gokey versions 0.2.0\na flaw in the seed decryption logic resulted in passwords incorrectly \r\nbeing derived solely from the initial vector and the AES-GCM \r\nauthentication tag of the key seed.\r\n\r\n\r\nThis issue has been fixed in gokey version 0.2.0. This is a breaking change. The fix has invalidated any passwords/secrets that were derived from the seed file (using the -s option). Even if the input seed file stays the same\nversion 0.2.0 gokey will generate different secrets.\r\n\r\n\r\nImpact\r\nThis vulnerability impacts generated keys/secrets using a seed file as an entropy input (using the -s option). Keys/secrets generated just from the master password (without the -s\r\n option) are not impacted. The confidentiality of the seed itself is \r\nalso not impacted (it is not required to regenerate the seed itself). \r\nSpecific impact includes\r\n\r\n\r\n\r\n  *  keys/secrets generated from a seed file may have lower entropy it \r\nwas expected that the whole seed would be used to generate keys (240 \r\nbytes of entropy input)\nwhere in vulnerable versions only 28 bytes was \r\nused\r\n\r\n  *  a malicious entity could have recovered all passwords\ngenerated \r\nfrom a particular seed\nhaving only the seed file in possession without \r\nthe knowledge of the seed master password\r\n\r\n\r\n\r\n\r\nPatches\r\nThe code logic bug has been fixed in gokey version 0.2.0\r\n and above. Due to the deterministic nature of gokey\nfixed versions \r\nwill produce different passwords/secrets using seed files\nas all seed \r\nentropy will be used now.\r\n\r\n\r\nSystem secret rotation guidance\r\nIt is advised for users to regenerate passwords/secrets using the patched version of gokey (0.2.0\r\n and above)\nand provision/rotate these secrets into respective systems \r\nin place of the old secret. A specific rotation procedure is \r\nsystem-dependent\nbut most common patterns are described below.\r\n\r\n\r\nSystems that do not require the old password/secret for rotation\r\nSuch systems usually have a \"Forgot password\" facility or a\r\n similar facility allowing users to rotate their password/secrets by \r\nsending a unique \"magic\" link to the user's email or phone. In such \r\ncases users are advised to use this facility and input the newly \r\ngenerated password secret\nwhen prompted by the system.\r\n\r\n\r\nSystems that require the old password/secret for rotation\r\nSuch systems usually have a modal password rotation window\r\n usually in the user settings section requiring the user to input the \r\nold and the new password sometimes with a confirmation. To \r\ngenerate/recover the old password in such cases users are advised to\r\n\r\n\r\n\r\n  *  temporarily download  gokey version 0.1.3 https//github.com/cloudflare/gokey/releases/tag/v0.1.3  for their respective operating system to recover the old password\r\n\r\n  *  use gokey version 0.2.0 or above to generate the new password\r\n\r\n  *  populate the system provided password rotation form\r\n\r\n\r\n\r\n\r\nSystems that allow multiple credentials for the same account to be provisioned\r\nSuch systems usually require a secret or a cryptographic \r\nkey as a credential for access\nbut allow several credentials at the \r\nsame time. One example is SSH a particular user may have several \r\nauthorized public keys configured on the SSH server for access. For such\r\n systems users are advised to\r\n\r\n\r\n\r\n  *  generate a new secret/key/credential using gokey version 0.2.0 or above\r\n\r\n  *  provision the new secret/key/credential in addition to the existing credential on the system\r\n\r\n  *  verify that the access or required system operation is still possible with the new secret/key/credential\r\n\r\n  *  revoke authorization for the existing/old credential from the system\r\n\r\n\r\n\r\n\r\nCredit\r\nThis vulnerability was found by Théo Cusnir ( @mister_mime https//hackerone.com/mister_mime ) and responsibly disclosed through Cloudflare's bug bounty program. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-13353-fuite-du-2025-12-2",
+      "path": "CVE-2025-13353",
+      "formattedDate": "2025-12-02",
+      "title": "cve-2025-13353 fuite du 2025-12-2",
+      "date": "2025-12-2",
+      "lien": "CVE-2025-13353",
+      "categories": [
+        "cve-2025-13353"
+      ],
+      "index": 1796,
+      "isNSFW": false
+    },
+    {
+      "Name": "cve-2025-13879 fuite du 2025-12-2",
+      "Title": "cve-2025-13879 fuite du 2025-12-2",
+      "Domain": null,
+      "BreachDate": "2025-12-2",
+      "AddedDate": "2025-12-02T13:47:29.228Z",
+      "ModifiedDate": "2025-12-02T13:47:29.228Z",
+      "PwnCount": 0,
+      "Description": "-\n\nDirectory traversal vulnerability in SOLIDserver IPAM v8.2.3. This vulnerability allows an authenticated user with administrator privileges to list directories other than those to which the have authorized access using the 'directory' parameter in '/mod/ajax.php?action=sections/list/list'.For examplem setting the 'directory' parameter to '/' displays files outside the 'LOCAL///' folder. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-13879-fuite-du-2025-12-2",
+      "path": "CVE-2025-13879",
+      "formattedDate": "2025-12-02",
+      "title": "cve-2025-13879 fuite du 2025-12-2",
+      "date": "2025-12-2",
+      "lien": "CVE-2025-13879",
+      "categories": [
+        "cve-2025-13879"
+      ],
+      "index": 1797,
+      "isNSFW": false
+    },
+    {
+      "Name": "cve-2025-40700 fuite du 2025-12-2",
+      "Title": "cve-2025-40700 fuite du 2025-12-2",
+      "Domain": null,
+      "BreachDate": "2025-12-2",
+      "AddedDate": "2025-12-02T13:47:29.394Z",
+      "ModifiedDate": "2025-12-02T13:47:29.394Z",
+      "PwnCount": 0,
+      "Description": "-\n\nReflected Cross-Site Scripting (XSS) in IDI Eikon's Governalia. The vulnerability allows an attacker to execute JavaScript code in the victim's browser when a malicious URL with the 'q' parameter in '/search' is sent to them. This vulnerability can be exploited to steal sensitive information such as session cookies or to perform actions on behalf of the victim. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-40700-fuite-du-2025-12-2",
+      "path": "CVE-2025-40700",
+      "formattedDate": "2025-12-02",
+      "title": "cve-2025-40700 fuite du 2025-12-2",
+      "date": "2025-12-2",
+      "lien": "CVE-2025-40700",
+      "categories": [
+        "cve-2025-40700"
+      ],
+      "index": 1798,
+      "isNSFW": false
+    },
+    {
+      "Name": "cve-2025-41012 fuite du 2025-12-2",
+      "Title": "cve-2025-41012 fuite du 2025-12-2",
+      "Domain": null,
+      "BreachDate": "2025-12-2",
+      "AddedDate": "2025-12-02T13:47:29.683Z",
+      "ModifiedDate": "2025-12-02T13:47:29.683Z",
+      "PwnCount": 0,
+      "Description": "-\n\nUnauthorized access vulnerability in TCMAN GIM v11 version 20250304. This vulnerability allows an unauthenticated attacker to determine whether a user exists on the system by using the 'pdauserId' and 'pdanewPassword' parameters with 'soapaction UnlockUser’ in '/WS/PDAWebService.asmx'. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-41012-fuite-du-2025-12-2",
+      "path": "CVE-2025-41012",
+      "formattedDate": "2025-12-02",
+      "title": "cve-2025-41012 fuite du 2025-12-2",
+      "date": "2025-12-2",
+      "lien": "CVE-2025-41012",
+      "categories": [
+        "cve-2025-41012"
+      ],
+      "index": 1799,
+      "isNSFW": false
+    },
+    {
+      "Name": "cve-2025-41742 fuite du 2025-12-2",
+      "Title": "cve-2025-41742 fuite du 2025-12-2",
+      "Domain": null,
+      "BreachDate": "2025-12-2",
+      "AddedDate": "2025-12-02T13:47:29.733Z",
+      "ModifiedDate": "2025-12-02T13:47:29.733Z",
+      "PwnCount": 0,
+      "Description": "-\n\nSprecher Automations SPRECON-E-C\nSPRECON-E-P\nSPRECON-E-T3 is vulnerable to attack by an unauthorized remote attacker via default cryptographic keys. The use of these keys allows the attacker to read\nmodify\nand write projects and data\nor to access any device via remote maintenance. | CVSS Score 9.8 (CRITICAL)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-41742-fuite-du-2025-12-2",
+      "path": "CVE-2025-41742",
+      "formattedDate": "2025-12-02",
+      "title": "cve-2025-41742 fuite du 2025-12-2",
+      "date": "2025-12-2",
+      "lien": "CVE-2025-41742",
+      "categories": [
+        "cve-2025-41742"
+      ],
+      "index": 1800,
+      "isNSFW": false
+    },
+    {
+      "Name": "cve-2025-41743 fuite du 2025-12-2",
+      "Title": "cve-2025-41743 fuite du 2025-12-2",
+      "Domain": null,
+      "BreachDate": "2025-12-2",
+      "AddedDate": "2025-12-02T13:47:29.781Z",
+      "ModifiedDate": "2025-12-02T13:47:29.781Z",
+      "PwnCount": 0,
+      "Description": "-\n\nInsufficient encryption strength in Sprecher Automation SPRECON-E-C\nSPRECON-E-P\nand SPRECON-E-T3 allows a local unprivileged attacker to extract data from update images and thus obtain limited information about the architecture and internal processes. | CVSS Score 4 (MEDIUM)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-41743-fuite-du-2025-12-2",
+      "path": "CVE-2025-41743",
+      "formattedDate": "2025-12-02",
+      "title": "cve-2025-41743 fuite du 2025-12-2",
+      "date": "2025-12-2",
+      "lien": "CVE-2025-41743",
+      "categories": [
+        "cve-2025-41743"
+      ],
+      "index": 1801,
+      "isNSFW": false
+    },
+    {
+      "Name": "cve-2025-41744 fuite du 2025-12-2",
+      "Title": "cve-2025-41744 fuite du 2025-12-2",
+      "Domain": null,
+      "BreachDate": "2025-12-2",
+      "AddedDate": "2025-12-02T13:47:29.831Z",
+      "ModifiedDate": "2025-12-02T13:47:29.831Z",
+      "PwnCount": 0,
+      "Description": "-\n\nSprecher Automations SPRECON-E series uses default cryptographic keys that allow an unprivileged remote attacker to access all encrypted communications\nthereby compromising confidentiality and integrity. | CVSS Score 9.1 (CRITICAL)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-41744-fuite-du-2025-12-2",
+      "path": "CVE-2025-41744",
+      "formattedDate": "2025-12-02",
+      "title": "cve-2025-41744 fuite du 2025-12-2",
+      "date": "2025-12-2",
+      "lien": "CVE-2025-41744",
+      "categories": [
+        "cve-2025-41744"
+      ],
+      "index": 1802,
       "isNSFW": false
     }
   ]
