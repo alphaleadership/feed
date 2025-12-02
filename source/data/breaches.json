@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-02T05:42:23.992Z",
-  "totalBreaches": 1781,
+  "lastUpdated": "2025-12-02T06:54:28.909Z",
+  "totalBreaches": 1783,
   "breaches": [
     {
       "Name": "gPotato",
@@ -57419,6 +57419,70 @@
         "cve-2025-13606"
       ],
       "index": 1780
+    },
+    {
+      "Name": "cve-2025-13000 fuite du 2025-12-2",
+      "Title": "cve-2025-13000 fuite du 2025-12-2",
+      "Domain": null,
+      "BreachDate": "2025-12-2",
+      "AddedDate": "2025-12-02T06:54:28.852Z",
+      "ModifiedDate": "2025-12-02T06:54:28.852Z",
+      "PwnCount": 0,
+      "Description": "-\n\nThe db-access WordPress plugin through 0.8.7 does not have authorization in an AJAX action\nallowing any authenticated users\nsuch as subscriber to perform SQLI attacks | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-13000-fuite-du-2025-12-2",
+      "path": "CVE-2025-13000",
+      "formattedDate": "2025-12-02",
+      "title": "cve-2025-13000 fuite du 2025-12-2",
+      "date": "2025-12-2",
+      "lien": "CVE-2025-13000",
+      "categories": [
+        "cve-2025-13000"
+      ],
+      "index": 1781
+    },
+    {
+      "Name": "cve-2025-13001 fuite du 2025-12-2",
+      "Title": "cve-2025-13001 fuite du 2025-12-2",
+      "Domain": null,
+      "BreachDate": "2025-12-2",
+      "AddedDate": "2025-12-02T06:54:28.908Z",
+      "ModifiedDate": "2025-12-02T06:54:28.908Z",
+      "PwnCount": 0,
+      "Description": "-\n\nThe donation WordPress plugin through 1.0 does not sanitize and escape a parameter before using it in a SQL statement\nallowing high privilege users\nsuch as admin to perform SQL injection attacks | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-13001-fuite-du-2025-12-2",
+      "path": "CVE-2025-13001",
+      "formattedDate": "2025-12-02",
+      "title": "cve-2025-13001 fuite du 2025-12-2",
+      "date": "2025-12-2",
+      "lien": "CVE-2025-13001",
+      "categories": [
+        "cve-2025-13001"
+      ],
+      "index": 1782
     }
   ]
 }
