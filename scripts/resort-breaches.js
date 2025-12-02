@@ -23,6 +23,9 @@ db.breaches.forEach((breach, idx) => {
   if(!(breach.categories && Array.isArray(breach.categories))){
     breach.categories=[breach.Name.split("fuite")[0]]
   }
+  if(!Object.keys(breach).includes("isNSFW")){
+    breach.isNSFW=false
+  }
   if(!breach.IsRetired){
     i++
   }
