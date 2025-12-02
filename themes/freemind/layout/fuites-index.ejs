@@ -117,6 +117,10 @@
       html+='<h1>total='+breaches.length+'</h1>'
       html += breaches.map((breach, index) => `
         <div class="fuite-list-item">
+          ${breach.isNSFW ? `
+              <h2> attention lien potentiellement inadaptée </h2>
+              
+            ` : ''}
           <a href="https://feed-blush.vercel.app/fuites?id=${index}">${breach.Title || breach.Name}</a>
           <p>Date: ${new Date(breach.BreachDate).toLocaleDateString('fr-FR')}</p>
             ${breach.DataClasses && breach.DataClasses.length > 0 ? `
@@ -137,6 +141,10 @@
         <div class="breach-details">
           <div class="breach-header">
             <h1>${breach.Title}</h1>
+             ${breach.isNSFW ? `
+              <h2> attention lien potentiellement inadaptée </h2>
+              
+            ` : ''}
             <div class="breach-meta">
               <div class="meta-item">
                 <span class="meta-label">Date de la fuite</span>
