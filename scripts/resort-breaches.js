@@ -19,8 +19,25 @@ db.breaches.sort((a, b) => {
 });
 let i=-1;
 // Ajouter l'index à chaque fuite
-db.breaches.forEach((breach, idx) => {
-  if(!(breach.categories && Array.isArray(breach.categories))){
+db.breaches.filter((
+  item
+)=>{
+  if(Object.keys(item).includes("path")){
+      if(item?.path.includes("breaches/")){
+    if(item.pwnCount>1){
+    return false
+    }
+    return true
+  }
+  }
+
+  return true
+}).forEach((breach, idx) => {
+  console.log(breach)
+  if(breach==null){
+    return
+  }
+ if(!(breach.categories && Array.isArray(breach.categories))){
     breach.categories=[breach.Name.split("fuite")[0]]
   }
   if(!Object.keys(breach).includes("isNSFW")){
@@ -34,7 +51,7 @@ db.breaches.forEach((breach, idx) => {
     i++
   }
   breach.index = i;
-});
+})
 
 console.log('Tri effectué. Première fuite:', db.breaches[0].Name, '- Date:', db.breaches[0].BreachDate);
 console.log('Dernière fuite:', db.breaches[db.breaches.length - 1].Name, '- Date:', db.breaches[db.breaches.length - 1].BreachDate);
