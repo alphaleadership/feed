@@ -20,9 +20,9 @@ categories:
 
 ---
 
-![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">
+![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[![CDATA[div class="chapo has-text-weight-semibold mb-5">
 div>On est au deuxième jour du calendrier de l'Avent 2025 de Frandroid. Dans le cadre du concours
 vous pouvez remporter un joli lot Xbox avec une manette en édition spéciale
 un casque sans fil et 3 mois au Game Pass Ultimate./div>
-/div>]]>  ]]>]]>]]>]]>]]>]]>]]>]]>]]>
+/div>]]>  ]]>]]>]]>]]>]]>]]>]]>]]>]]>]]>
 
