@@ -138,6 +138,26 @@
       html += breaches.filter((item) => !item.Name.includes('cve'))
         .map((breach, index) => `
           <div class="fuite-list-item">
+            <script> function confirmShowLink(event, index) {
+      event.preventDefault();
+      const userConfirmed = confirm("Ce lien mène vers un contenu NSFW. Êtes-vous sûr de vouloir l'afficher ?");
+      if (userConfirmed) {
+        const link = document.querySelector(\`a[href="https://feed-blush.vercel.app/fuites?id=${index}"]\`);
+        link.classList.remove('hidden');
+        event.target.style.display = 'none';
+      }
+    }
+
+    // Fonction pour afficher un lien externe NSFW dans les détails
+    function confirmShowExternalLink(event) {
+      event.preventDefault();
+      const userConfirmed = confirm("Ce lien mène vers un contenu NSFW. Êtes-vous sûr de vouloir l'ouvrir ?");
+      if (userConfirmed) {
+        const link = event.target.nextElementSibling;
+        link.classList.remove('hidden');
+        event.target.style.display = 'none';
+      }
+    }<\/script>
             ${breach.isNSFW ?
               `
               <div class="nsfw-warning">
@@ -234,16 +254,11 @@
         <a href="/fuites?id=${parseInt(breach.index)-1}">Précédent</a>
         <a href="/fuites/">Retour à la liste</a>
         <a href="/fuites?id=${parseInt(breach.index)+1}">Suivant</a>
-      `;
-      container.innerHTML = html;
-    }
-
-    // Fonction pour afficher un lien NSFW dans la liste
-    function confirmShowLink(event, index) {
+        <script> function confirmShowLink(event, index) {
       event.preventDefault();
       const userConfirmed = confirm("Ce lien mène vers un contenu NSFW. Êtes-vous sûr de vouloir l'afficher ?");
       if (userConfirmed) {
-        const link = document.querySelector(`a[href="https://feed-blush.vercel.app/fuites?id=${index}"]`);
+        const link = document.querySelector(\`a[href="https://feed-blush.vercel.app/fuites?id=${index}"]\`);
         link.classList.remove('hidden');
         event.target.style.display = 'none';
       }
@@ -258,6 +273,12 @@
         link.classList.remove('hidden');
         event.target.style.display = 'none';
       }
+    }<\/script>
+      `;
+      container.innerHTML = html;
     }
+
+    // Fonction pour afficher un lien NSFW dans la liste
+   
   });
 </script>
