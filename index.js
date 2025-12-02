@@ -11,6 +11,11 @@ axios.default.get("https://haveibeenpwned.com/api/v3/breaches").then((res)=>{
 res.data.forEach((breach)=>{
   if(!db.breaches.includes(breach.Name)){
     console.log(breach.Name)
+    if(db.breaches.findIndex((b)=>{return b.Name==breach.Name})==-1){
+      db.breaches.push(breach)
+    }else{
+      db.breaches[db.breaches.findIndex((b)=>{return b.Name==breach.Name})]=breach
+    }
     db.breaches.push(breach.Name)
   }
 })
