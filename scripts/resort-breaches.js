@@ -17,10 +17,16 @@ db.breaches.sort((a, b) => {
   const dateB = b.BreachDate ? new Date(b.BreachDate) : new Date(0);
   return dateA - dateB;
 });
-
+let i=0;
 // Ajouter l'index à chaque fuite
 db.breaches.forEach((breach, idx) => {
-  breach.index = idx;
+  if(!(breach.categories && Array.isArray(breach.categories))){
+    breach.categories=[breach.Name]
+  }
+  if(!breach.IsRetired){
+    i++
+  }
+  breach.index = i;
 });
 
 console.log('Tri effectué. Première fuite:', db.breaches[0].Name, '- Date:', db.breaches[0].BreachDate);
@@ -30,5 +36,6 @@ db.lastUpdated = new Date().toISOString();
 
 fs.writeFileSync(dataFile, JSON.stringify(db, null, 2));
 fs.writeFileSync(path.join(baseDir, 'source', 'data', 'breaches.json'), JSON.stringify(db, null, 2));
+fs.writeFileSync(path.join(baseDir, 'source', '_data', 'breaches.json'), JSON.stringify(db, null, 2));
 
 console.log('Fichiers mis à jour avec succès!');

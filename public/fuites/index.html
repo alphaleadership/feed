@@ -178,9 +178,9 @@
         const breaches = data.breaches.filter((item)=>{
           console.log(item.IsRetired)
           return !item.IsRetired
-        });
+        })
         if (breachId !== null && breaches[breachId]) {
-          renderDetails(breaches[breachId]);
+          renderDetails(breaches[breachId],breachId);
         } else {
           renderList(breaches);
         }
@@ -199,7 +199,7 @@
       html+='<h1>total='+breaches.length+'</h1>'
       html += breaches.map((breach, index) => `
         <div class="fuite-list-item">
-          <a href="https://feed-blush.vercel.app/fuites?id=${breach.index}">${breach.Title || breach.Name}</a>
+          <a href="https://feed-blush.vercel.app/fuites?id=${index}">${breach.Title || breach.Name}</a>
           <p>Date: ${new Date(breach.BreachDate).toLocaleDateString('fr-FR')}</p>
             ${breach.DataClasses && breach.DataClasses.length > 0 ? `
               <h2>Données compromises</h2>
@@ -213,7 +213,8 @@
       container.innerHTML = html;
     }
 
-    function renderDetails(breach) {
+    function renderDetails(breach,index) {
+      console.log(breach)
       let html = `
         <div class="breach-details">
           <div class="breach-header">
@@ -251,7 +252,9 @@
           </div>
         </div>
         <hr>
+        <a href="/fuites?id=${parseInt(index)-1}">précédent</a>
         <a href="/fuites/">Retour à la liste</a>
+        <a href="/fuites?id=${parseInt(index)+1}">suivant</a>
       `;
       container.innerHTML = html;
     }

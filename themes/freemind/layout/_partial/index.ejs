@@ -1,12 +1,181 @@
 <div class="row page">
 <script src="<%- config.url %>/js/index.js"></script>
 
-
 	<% if (theme.widgets.length) { %>
 	<div class="col-md-9">
 	<% } else { %>
 	<div class="col-md-12">
 	<% } %>
+
+	<!-- Système de notes - Catégories les plus fréquentes -->
+	<div class="category-stats card shadow-sm mb-4">
+		<div class="card-header bg-dark text-white">
+			<h3 class="mb-0">📊 Catégories de données les plus exposées</h3>
+			<small class="text-muted" id="breach-count">Chargement...</small>
+		</div>
+		<div class="card-body">
+			<div class="row" id="category-container">
+				<div class="col-12 text-center py-5">
+					<div class="spinner-border text-primary" role="status">
+						<span class="visually-hidden">Chargement...</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		// Charger et analyser les données avec fetch
+		fetch('<%- config.url %>/data/breaches.json')
+			.then(response => response.json())
+			.then(data => {
+				const categoryBreaches = {};
+				
+				// Associer chaque catégorie avec ses fuites
+				data.breaches.forEach(breach => {
+					if (breach.categories && Array.isArray(breach.categories)) {
+						breach.categories.forEach(category => {
+							if (!categoryBreaches[category.toLowerCase()]) {
+								categoryBreaches[category.toLowerCase()] = [];
+							}
+							categoryBreaches[category.toLowerCase()].push({
+								name: breach.Name,
+								title: breach.Title,
+								slug: breach.slug,
+								path: breach.index,
+								pwnCount: breach.PwnCount,
+								date: breach.BreachDate
+							});
+						});
+					}
+				});
+				
+				// Trier et prendre les 15 premiers
+				const sortedCategories = Object.entries(categoryBreaches)
+					.sort((a, b) => b[1].length - a[1].length)
+					.slice(0, 15)
+					.map(([name, breaches]) => ({ 
+						name, 
+						count: breaches.length,
+						breaches: breaches.sort((a, b) => b.pwnCount - a.pwnCount).slice(0, 5),
+						percentage: ((breaches.length / data.totalBreaches) * 100).toFixed(1) 
+					}));
+				
+				// Mettre à jour le compteur
+				document.getElementById('breach-count').textContent = 
+					`Basé sur ${data.totalBreaches.toLocaleString()} fuites analysées`;
+				
+				// Générer le HTML des catégories
+				const container = document.getElementById('category-container');
+				container.innerHTML = sortedCategories.map((cat, idx) => {
+					const borderClass = idx < 3 ? 'border-danger' : idx < 8 ? 'border-warning' : 'border-info';
+					const badgeClass = idx < 3 ? 'bg-danger' : idx < 8 ? 'bg-warning text-dark' : 'bg-info';
+					
+					const breachLinks = cat.breaches.map(breach => 
+						`<li class="breach-link-item">
+							<a href="<%- config.url %>/fuites?id=${breach.path}" class="text-decoration-none">
+								${breach.title} <span class="text-muted small">(${(breach.pwnCount / 1000000).toFixed(1)}M)</span>
+							</a>
+						</li>`
+					).join('');
+					
+					return `
+						<div class="col-md-4 col-sm-6 mb-3">
+							<div class="note-card p-3 border rounded ${borderClass} h-100">
+								<div class="d-flex justify-content-between align-items-center mb-2">
+									<span class="badge ${badgeClass} fs-6">#${idx + 1}</span>
+									<span class="text-muted small">${cat.percentage}%</span>
+								</div>
+								<h5 class="mb-2">${cat.name}</h5>
+								<p class="mb-2 text-muted"><strong>${cat.count.toLocaleString()}</strong> fuites</p>
+								<details class="breach-details">
+									<summary class="text-primary" style="cursor: pointer;">Top 5 fuites</summary>
+									<ul class="breach-list mt-2 ps-3">
+										${breachLinks}
+									</ul>
+								</details>
+							</div>
+						</div>
+					`;
+				}).join('');
+			})
+			.catch(error => {
+				console.error('Erreur chargement des données:', error);
+				document.getElementById('category-container').innerHTML = 
+					'<div class="col-12 text-center text-danger">Erreur de chargement des données</div>';
+			});
+	</script>
+
+	<style>
+		.category-stats {
+			background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+			border: none;
+		}
+		.category-stats .card-header {
+			background: rgba(0,0,0,0.5) !important;
+			border-bottom: 2px solid rgba(255,255,255,0.1);
+		}
+		.category-stats .card-header h3 {
+			color: #fff;
+		}
+		.category-stats .card-header small {
+			color: #aaa !important;
+		}
+		.category-stats .card-body {
+			background: #1e1e2e;
+			padding: 1.5rem;
+		}
+		.note-card {
+			transition: transform 0.2s, box-shadow 0.2s;
+			background: linear-gradient(145deg, #252538 0%, #2a2a3e 100%);
+			border-color: rgba(255,255,255,0.1) !important;
+		}
+		.note-card:hover {
+			transform: translateY(-5px);
+			box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+			background: linear-gradient(145deg, #2a2a3e 0%, #2f2f48 100%);
+		}
+		.note-card h5 {
+			color: #e0e0e0;
+		}
+		.note-card .text-muted {
+			color: #999 !important;
+		}
+		.breach-details summary {
+			font-size: 0.9rem;
+			font-weight: 500;
+			margin-top: 0.5rem;
+			color: #6c9fff;
+		}
+		.breach-details[open] summary {
+			margin-bottom: 0.5rem;
+		}
+		.breach-list {
+			list-style: none;
+			padding-left: 0;
+			font-size: 0.85rem;
+		}
+		.breach-link-item {
+			padding: 0.25rem 0;
+			border-bottom: 1px solid rgba(255,255,255,0.05);
+		}
+		.breach-link-item:last-child {
+			border-bottom: none;
+		}
+		.breach-link-item a {
+			color: #b8b8d1;
+			transition: color 0.2s;
+		}
+		.breach-link-item a:hover {
+			color: #8ab4ff;
+		}
+		.breach-link-item .text-muted {
+			color: #666 !important;
+		}
+		.spinner-border {
+			color: #6c9fff !important;
+		}
+	</style>
 
 		<%- partial('post/slogan') %>
 		<div id="top_search"></div>
