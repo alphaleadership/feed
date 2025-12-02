@@ -2114,6 +2114,8 @@ category_map:
   - cve-2025-20790
   - cve-2025-20791
   - cve-2025-20792
+  - cve-2025-13387
+  - cve-2025-13606
 tag_map: null
 meta_generator: true
 search:

@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-02T04:27:20.720Z",
-  "totalBreaches": 1779,
+  "lastUpdated": "2025-12-02T05:42:23.992Z",
+  "totalBreaches": 1781,
   "breaches": [
     {
       "Name": "gPotato",
@@ -57355,6 +57355,70 @@
         "cve-2025-20792"
       ],
       "index": 1778
+    },
+    {
+      "Name": "cve-2025-13387 fuite du 2025-12-2",
+      "Title": "cve-2025-13387 fuite du 2025-12-2",
+      "Domain": null,
+      "BreachDate": "2025-12-2",
+      "AddedDate": "2025-12-02T05:42:23.942Z",
+      "ModifiedDate": "2025-12-02T05:42:23.942Z",
+      "PwnCount": 0,
+      "Description": "-\n\nThe Kadence WooCommerce Email Designer plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the customer name in all versions up to\nand including\n1.5.17 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. | CVSS Score 7.2 (HIGH)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-13387-fuite-du-2025-12-2",
+      "path": "CVE-2025-13387",
+      "formattedDate": "2025-12-02",
+      "title": "cve-2025-13387 fuite du 2025-12-2",
+      "date": "2025-12-2",
+      "lien": "CVE-2025-13387",
+      "categories": [
+        "cve-2025-13387"
+      ],
+      "index": 1779
+    },
+    {
+      "Name": "cve-2025-13606 fuite du 2025-12-2",
+      "Title": "cve-2025-13606 fuite du 2025-12-2",
+      "Domain": null,
+      "BreachDate": "2025-12-2",
+      "AddedDate": "2025-12-02T05:42:23.990Z",
+      "ModifiedDate": "2025-12-02T05:42:23.990Z",
+      "PwnCount": 0,
+      "Description": "-\n\nThe Export All Posts\nProducts\nOrders\nRefunds  Users plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to\nand including\n2.19. This is due to missing or incorrect nonce validation on the `parseData` function. This makes it possible for unauthenticated attackers to export sensitive information including user data\nemail addresses\npassword hashes\nand WooCommerce data to an attacker-controlled file path on the server via a forged request granted they can trick a site administrator into performing an action such as clicking on a link. | CVSS Score 6.5 (MEDIUM)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-13606-fuite-du-2025-12-2",
+      "path": "CVE-2025-13606",
+      "formattedDate": "2025-12-02",
+      "title": "cve-2025-13606 fuite du 2025-12-2",
+      "date": "2025-12-2",
+      "lien": "CVE-2025-13606",
+      "categories": [
+        "cve-2025-13606"
+      ],
+      "index": 1780
     }
   ]
 }
