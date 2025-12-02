@@ -26,6 +26,10 @@ db.breaches.forEach((breach, idx) => {
   if(!Object.keys(breach).includes("isNSFW")){
     breach.isNSFW=false
   }
+  if(!Object.keys(breach).includes("lien")){
+    console.log("lien", breach.path)
+    breach.lien="https://haveibeenpwned.com/Breach/"+(breach.path||"").split("breaches/")[1]
+  }
   if(!breach.IsRetired){
     i++
   }
