@@ -32,7 +32,7 @@
 				const categoryBreaches = {};
 				
 				// Associer chaque catégorie avec ses fuites
-				data.breaches.forEach(breach => {
+				data.breaches.filter((item)=>{return ! item.isRetired}).forEach(breach => {
 					if (breach.categories && Array.isArray(breach.categories)) {
 						breach.categories.map(item=>{
 							return item.split("fuite")[0]
