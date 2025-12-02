@@ -14,8 +14,11 @@
   };
    
   // Ajouter l'index à chaque post et trier
-  posts.map((item, index) => {
-    item.index = index; // Ajouter l'index pour le lien
+  posts.filter((item)=>{
+          console.log(item.IsRetired)
+          return !item.Name.includes('cve')
+        }).map((item, index) => {
+    //item.index = index; // Ajouter l'index pour le lien
     return item;
   }).sort((a, b) => new Date(b.BreachDate) - new Date(a.BreachDate))
     .forEach(function(item) {
