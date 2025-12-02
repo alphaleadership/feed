@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-02T07:34:31.428Z",
-  "totalBreaches": 1787,
+  "lastUpdated": "2025-12-02T08:52:07.742Z",
+  "totalBreaches": 1790,
   "breaches": [
     {
       "Name": "gPotato",
@@ -60205,6 +60205,102 @@
         "cve-2025-13685"
       ],
       "index": 1786
+    },
+    {
+      "Name": "cve-2025-10971 fuite du 2025-12-2",
+      "Title": "cve-2025-10971 fuite du 2025-12-2",
+      "Domain": null,
+      "BreachDate": "2025-12-2",
+      "AddedDate": "2025-12-02T08:52:07.527Z",
+      "ModifiedDate": "2025-12-02T08:52:07.527Z",
+      "PwnCount": 0,
+      "Description": "-\n\nInsecure Storage of Sensitive Information vulnerability in MeetMe on iOS\nAndroid allows Retrieve Embedded Sensitive Data. This issue affects MeetMe through v2.2.5. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-10971-fuite-du-2025-12-2",
+      "path": "CVE-2025-10971",
+      "formattedDate": "2025-12-02",
+      "title": "cve-2025-10971 fuite du 2025-12-2",
+      "date": "2025-12-2",
+      "lien": "CVE-2025-10971",
+      "categories": [
+        "cve-2025-10971"
+      ],
+      "index": 1787
+    },
+    {
+      "Name": "cve-2025-11726 fuite du 2025-12-2",
+      "Title": "cve-2025-11726 fuite du 2025-12-2",
+      "Domain": null,
+      "BreachDate": "2025-12-2",
+      "AddedDate": "2025-12-02T08:52:07.578Z",
+      "ModifiedDate": "2025-12-02T08:52:07.578Z",
+      "PwnCount": 0,
+      "Description": "-\n\nThe Beaver Builder – WordPress Page Builder plugin for WordPress is vulnerable to Missing Authorization in all versions up to\nand including\n2.9.4. This is due to insufficient capability checks in the REST API endpoints under the 'fl-controls/v1' namespace that control site-wide Global Presets. This makes it possible for authenticated attackers with contributor-level access and above to add\nmodify\nor delete global color and background presets that affect all Beaver Builder content site-wide. | CVSS Score 4.3 (MEDIUM)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-11726-fuite-du-2025-12-2",
+      "path": "CVE-2025-11726",
+      "formattedDate": "2025-12-02",
+      "title": "cve-2025-11726 fuite du 2025-12-2",
+      "date": "2025-12-2",
+      "lien": "CVE-2025-11726",
+      "categories": [
+        "cve-2025-11726"
+      ],
+      "index": 1788
+    },
+    {
+      "Name": "cve-2025-13696 fuite du 2025-12-2",
+      "Title": "cve-2025-13696 fuite du 2025-12-2",
+      "Domain": null,
+      "BreachDate": "2025-12-2",
+      "AddedDate": "2025-12-02T08:52:07.741Z",
+      "ModifiedDate": "2025-12-02T08:52:07.741Z",
+      "PwnCount": 0,
+      "Description": "-\n\nThe Zigaform plugin for WordPress is vulnerable to Sensitive Information Exposure in versions up to\nand including\n7.6.5. This is due to the plugin exposing a public AJAX endpoint that retrieves form submission data without performing authorization checks to verify ownership or access rights. This makes it possible for unauthenticated attackers to extract sensitive form submission data including personal information\npayment details\nand other private data via the rocket_front_payment_seesummary action by enumerating sequential form_r_id values. | CVSS Score 5.3 (MEDIUM)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-13696-fuite-du-2025-12-2",
+      "path": "CVE-2025-13696",
+      "formattedDate": "2025-12-02",
+      "title": "cve-2025-13696 fuite du 2025-12-2",
+      "date": "2025-12-2",
+      "lien": "CVE-2025-13696",
+      "categories": [
+        "cve-2025-13696"
+      ],
+      "index": 1789
     }
   ]
 }
