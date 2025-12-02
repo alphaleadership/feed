@@ -20,9 +20,9 @@ db.breaches.sort((a, b) => {
 let i=0;
 // Ajouter l'index à chaque fuite
 db.breaches.forEach((breach, idx) => {
-  if(!(breach.categories && Array.isArray(breach.categories))){
-    breach.categories=[breach.Name]
-  }
+//  if(!(breach.categories && Array.isArray(breach.categories))){
+    breach.categories=[breach.Name.split("fuite")[0]]
+//  }
   if(!breach.IsRetired){
     i++
   }

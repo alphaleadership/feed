@@ -10,7 +10,7 @@
 	<!-- Système de notes - Catégories les plus fréquentes -->
 	<div class="category-stats card shadow-sm mb-4">
 		<div class="card-header bg-dark text-white">
-			<h3 class="mb-0">📊 Catégories de données les plus exposées</h3>
+			<h3 class="mb-0">📊 entreprise ayant eu le plus de fuite </h3>
 			<small class="text-muted" id="breach-count">Chargement...</small>
 		</div>
 		<div class="card-body">
@@ -34,7 +34,9 @@
 				// Associer chaque catégorie avec ses fuites
 				data.breaches.forEach(breach => {
 					if (breach.categories && Array.isArray(breach.categories)) {
-						breach.categories.forEach(category => {
+						breach.categories.map(item=>{
+							return item.split("fuite")[0]
+						}).forEach(category => {
 							if (!categoryBreaches[category.toLowerCase()]) {
 								categoryBreaches[category.toLowerCase()] = [];
 							}
@@ -49,7 +51,7 @@
 						});
 					}
 				});
-				
+				console.log(categoryBreaches)
 				// Trier et prendre les 15 premiers
 				const sortedCategories = Object.entries(categoryBreaches)
 					.sort((a, b) => b[1].length - a[1].length)
