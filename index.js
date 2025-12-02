@@ -3,10 +3,20 @@ const path = require('path');
 const Parser = require('rss-parser');
 const yaml = require('js-yaml');
 const parser = new Parser();
-
+const axios = require('axios');
+const db=require("./source/_data/breaches.json")
 const rssUrl = 'https://thomas-iniguez-visioli.github.io/nodejs-news-feeder/feed.xml';
 const PostDir = './source/';
-
+axios.default.get("https://haveibeenpwned.com/api/v3/breaches").then((res)=>{
+res.data.forEach((breach)=>{
+  if(!db.breaches.includes(breach.Name)){
+    console.log(breach.Name)
+    db.breaches.push(breach.Name)
+  }
+})
+}).catch((err)=>{
+  console.log(err)
+})
 const parsecontent = (txt, sep, joi) => {
   if (!txt) return "";
   return txt.split(sep).map(line => line.trim()).join(joi);
@@ -49,13 +59,13 @@ const l = (title, cat = []) => {
   //console.log(title)
   for (const url of ignoredUrls) {
     if (title.includes(url)) {
-      console.log('⏭️ URL ignorée:', url);
+    //  console.log('⏭️ URL ignorée:', url);
       return "../temp";
     }
   }
   
   // Par défaut, retourner _posts
-  console.log('📝 Aucune règle spécifique, utilisation par défaut');
+// console.log('📝 Aucune règle spécifique, utilisation par défaut');
   return "_posts";
 };
 const checklink=(table,lien)=>{
@@ -67,8 +77,8 @@ parser.parseURL(rssUrl).then(feed => {
   try {
     // Filtrage des doublons avant toute opération
     const uniqueItems = filterDisplayItems(feed.items.map((i)=>{
-      console.log(i.pubDate)
-      console.log(new Date(i.pubDate.replace("BST","")))
+    //  console.log(i.pubDate)
+      //console.log(new Date(i.pubDate.replace("BST","")))
       i.pubDate=i.pubDate.replace("BST","")
       return i
     }).filter(item => item.pubDate && !isNaN(new Date(item.pubDate))));
@@ -159,7 +169,7 @@ parser.parseURL(rssUrl).then(feed => {
           alreadyseen.add(item.guid.replace('eu.orgimg','eu.org/img'))
           try {
             // --- Chargement des fichiers de config
-            console.log(items.length)
+          //  console.log(items.length)
             const configFilePath = './_config.yml';
             const buildFilePath = './build.yml';
             const config = yaml.load(fs.readFileSync(configFilePath, 'utf8'));
@@ -229,14 +239,14 @@ ${cleanContent}
             // --- Création ou mise à jour du fichier
             if (!fs.existsSync(postFilePath)) {
               fs.writeFileSync(postFilePath, postContentHexo);
-              console.log(`✅ Nouveau fichier créé : ${postFileName}`);
+            //  console.log(`✅ Nouveau fichier créé : ${postFileName}`);
             } else {
               const existingContent = fs.readFileSync(postFilePath, 'utf8');
               if (existingContent !== postContentHexo) {
                 fs.writeFileSync(postFilePath, postContentHexo);
-                console.log(`✏️ Fichier mis à jour : ${postFileName}`);
+            //    console.log(`✏️ Fichier mis à jour : ${postFileName}`);
               } else {
-                console.log(`⏩ Fichier inchangé : ${postFileName}`);
+            //    console.log(`⏩ Fichier inchangé : ${postFileName}`);
               }
             }
           } catch (fileErr) {
