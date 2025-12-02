@@ -44,7 +44,7 @@ function runImport() {
     fs.readdirSync(path.join(baseDir, 'source', '_posts')).filter((file)=>{return fs.statSync(path.join(baseDir, 'source', '_posts',file)).isDirectory()}).forEach((dir)=>{
   const importDir = path.join(baseDir, 'source', '_posts',dir);
 console.log(importDir)
-const dataFile = path.join(baseDir, 'source', 'data', 'breaches.json');
+const dataFile = path.join(baseDir, 'source', '_data', 'breaches.json');
   console.log("Démarrage du script d'importation autonome...");
 
   if (!fs.existsSync(importDir)) {
