@@ -17,7 +17,7 @@ db.breaches.sort((a, b) => {
   const dateB = b.BreachDate ? new Date(b.BreachDate) : new Date(0);
   return dateA - dateB;
 });
-let i=0;
+let i=-1;
 // Ajouter l'index à chaque fuite
 db.breaches.forEach((breach, idx) => {
   if(!(breach.categories && Array.isArray(breach.categories))){

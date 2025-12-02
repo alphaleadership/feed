@@ -59,7 +59,7 @@
 					.map(([name, breaches]) => ({ 
 						name, 
 						count: breaches.length,
-						breaches: breaches.sort((a, b) => b.pwnCount - a.pwnCount).slice(0, 5),
+						breaches: breaches.sort((a, b) => b.pwnCount - a.pwnCount).slice(0, 50),
 						percentage: ((breaches.length / data.totalBreaches) * 100).toFixed(1) 
 					}));
 				
