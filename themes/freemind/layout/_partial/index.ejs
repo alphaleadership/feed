@@ -46,7 +46,8 @@
 								slug: breach.slug,
 								path: breach.index,
 								pwnCount: breach.PwnCount,
-								date: breach.BreachDate
+								date: breach.BreachDate,
+								nsfw:breach.isNSFW
 							});
 						});
 					}
@@ -74,7 +75,8 @@
 					const badgeClass = idx < 3 ? 'bg-danger' : idx < 8 ? 'bg-warning text-dark' : 'bg-info';
 					
 					const breachLinks = cat.breaches.map(breach => 
-						`<li class="breach-link-item">
+						`<li class="breach-link-item ${breach.nsfw ? 'border-warning' : 'border-info'}">
+
 							<a href="<%- config.url %>/fuites?id=${breach.path}" class="text-decoration-none">
 								${breach.title} <span class="text-muted small">(${(breach.pwnCount / 1000000).toFixed(1)}M)</span>
 							</a>
