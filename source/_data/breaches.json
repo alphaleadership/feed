@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-03T16:31:44.355Z",
-  "totalBreaches": 1947,
+  "lastUpdated": "2025-12-03T16:59:22.975Z",
+  "totalBreaches": 1948,
   "breaches": [
     {
       "Name": "gPotato",
@@ -68196,6 +68196,46 @@
         "cve-2025-7044"
       ],
       "index": 1946
+    },
+    {
+      "Name": "2134125 fuite du 2025-12-3",
+      "Title": "2134125 fuite du 2025-12-3",
+      "Domain": null,
+      "BreachDate": "2025-12-3",
+      "AddedDate": "2025-12-03T16:59:22.973Z",
+      "ModifiedDate": "2025-12-03T16:59:22.973Z",
+      "PwnCount": 0,
+      "Description": "-\n\n\r\nLa lutte contre le « spoofing » (usurpation) se durcit en France. Dès le 1er janvier 2026\nles appels venant de l'étranger qui affichent un numéro de téléphone débutant par 06 ou 07 seront automatiquement masqués si les opérateurs de téléphonie échouent à certifier leur authenticité.\r\n  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "2134125-fuite-du-2025-12-3",
+      "path": "https://www.numerama.com/tech/2134125-vous-avez-un-numero-de-telephone-il-y-a-du-changement-pour-les-appels-masques.html",
+      "formattedDate": "2025-12-03",
+      "title": "2134125 fuite du 2025-12-3",
+      "date": "2025-12-3",
+      "lien": "https://www.numerama.com/tech/2134125-vous-avez-un-numero-de-telephone-il-y-a-du-changement-pour-les-appels-masques.html",
+      "categories": [
+        "Cybercriminalité",
+        "Cyberguerre",
+        "Tech",
+        "Télécoms",
+        "Arcep",
+        "cybersécurité",
+        "escroquerie",
+        "Téléphonie",
+        "2134125"
+      ],
+      "index": 1947
     }
   ]
 }
