@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-02T23:31:26.530Z",
-  "totalBreaches": 1906,
+  "lastUpdated": "2025-12-03T04:25:27.222Z",
+  "totalBreaches": 1909,
   "breaches": [
     {
       "Name": "gPotato",
@@ -66768,6 +66768,102 @@
         "cve-2025-65955"
       ],
       "index": 1905
+    },
+    {
+      "Name": "cve-2025-13448 fuite du 2025-12-3",
+      "Title": "cve-2025-13448 fuite du 2025-12-3",
+      "Domain": null,
+      "BreachDate": "2025-12-3",
+      "AddedDate": "2025-12-03T04:25:26.947Z",
+      "ModifiedDate": "2025-12-03T04:25:26.947Z",
+      "PwnCount": 0,
+      "Description": "-\n\n![CDATA[The CSSIgniter Shortcodes plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'element' shortcode attribute in all versions up to\nand including\n2.4.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers\nwith Contributor-level access and above\nto inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. | CVSS Score 6.4 (MEDIUM)  ]]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-13448-fuite-du-2025-12-3",
+      "path": "CVE-2025-13448",
+      "formattedDate": "2025-12-03",
+      "title": "cve-2025-13448 fuite du 2025-12-3",
+      "date": "2025-12-3",
+      "lien": "CVE-2025-13448",
+      "categories": [
+        "cve-2025-13448"
+      ],
+      "index": 1906
+    },
+    {
+      "Name": "cve-2025-13645 fuite du 2025-12-3",
+      "Title": "cve-2025-13645 fuite du 2025-12-3",
+      "Domain": null,
+      "BreachDate": "2025-12-3",
+      "AddedDate": "2025-12-03T04:25:27.171Z",
+      "ModifiedDate": "2025-12-03T04:25:27.171Z",
+      "PwnCount": 0,
+      "Description": "-\n\n![CDATA[The Modula Image Gallery plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the 'ajax_unzip_file' function in versions 2.13.1 to 2.13.2. This makes it possible for authenticated attackers\nwith Author-level access and above\nto delete arbitrary files on the server\nwhich can easily lead to remote code execution when the right file is deleted (such as wp-config.php). | CVSS Score 7.2 (HIGH)  ]]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-13645-fuite-du-2025-12-3",
+      "path": "CVE-2025-13645",
+      "formattedDate": "2025-12-03",
+      "title": "cve-2025-13645 fuite du 2025-12-3",
+      "date": "2025-12-3",
+      "lien": "CVE-2025-13645",
+      "categories": [
+        "cve-2025-13645"
+      ],
+      "index": 1907
+    },
+    {
+      "Name": "cve-2025-13646 fuite du 2025-12-3",
+      "Title": "cve-2025-13646 fuite du 2025-12-3",
+      "Domain": null,
+      "BreachDate": "2025-12-3",
+      "AddedDate": "2025-12-03T04:25:27.221Z",
+      "ModifiedDate": "2025-12-03T04:25:27.221Z",
+      "PwnCount": 0,
+      "Description": "-\n\n![CDATA[The Modula Image Gallery plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'ajax_unzip_file' function in versions 2.13.1 to 2.13.2. This makes it possible for authenticated attackers\nwith Author-level access and above\nto upload arbitrary files with race condition on the affected site's server which may make remote code execution possible. | CVSS Score 7.5 (HIGH)  ]]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-13646-fuite-du-2025-12-3",
+      "path": "CVE-2025-13646",
+      "formattedDate": "2025-12-03",
+      "title": "cve-2025-13646 fuite du 2025-12-3",
+      "date": "2025-12-3",
+      "lien": "CVE-2025-13646",
+      "categories": [
+        "cve-2025-13646"
+      ],
+      "index": 1908
     }
   ]
 }
