@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-03T04:48:12.571Z",
-  "totalBreaches": 1912,
+  "lastUpdated": "2025-12-03T06:53:28.370Z",
+  "totalBreaches": 1913,
   "breaches": [
     {
       "Name": "gPotato",
@@ -66960,6 +66960,38 @@
         "cve-2025-13495"
       ],
       "index": 1911
+    },
+    {
+      "Name": "cve-2025-12954 fuite du 2025-12-3",
+      "Title": "cve-2025-12954 fuite du 2025-12-3",
+      "Domain": null,
+      "BreachDate": "2025-12-3",
+      "AddedDate": "2025-12-03T06:53:28.368Z",
+      "ModifiedDate": "2025-12-03T06:53:28.368Z",
+      "PwnCount": 0,
+      "Description": "-\n\n![CDATA[The Timetable and Event Schedule by MotoPress WordPress plugin before 2.4.16 does not verify a user has access to a specific event when duplicating\nleading to arbitrary event disclosure when to users with a role as low as Contributor. | Severity UNKNOWN  ]]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-12954-fuite-du-2025-12-3",
+      "path": "CVE-2025-12954",
+      "formattedDate": "2025-12-03",
+      "title": "cve-2025-12954 fuite du 2025-12-3",
+      "date": "2025-12-3",
+      "lien": "CVE-2025-12954",
+      "categories": [
+        "cve-2025-12954"
+      ],
+      "index": 1912
     }
   ]
 }
