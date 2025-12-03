@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-03T04:25:27.222Z",
-  "totalBreaches": 1909,
+  "lastUpdated": "2025-12-03T04:48:12.571Z",
+  "totalBreaches": 1912,
   "breaches": [
     {
       "Name": "gPotato",
@@ -66864,6 +66864,102 @@
         "cve-2025-13646"
       ],
       "index": 1908
+    },
+    {
+      "Name": "cve-2025-10304 fuite du 2025-12-3",
+      "Title": "cve-2025-10304 fuite du 2025-12-3",
+      "Domain": null,
+      "BreachDate": "2025-12-3",
+      "AddedDate": "2025-12-03T04:48:12.405Z",
+      "ModifiedDate": "2025-12-03T04:48:12.405Z",
+      "PwnCount": 0,
+      "Description": "-\n\n![CDATA[The Everest Backup – WordPress Cloud Backup\nMigration\nRestore  Cloning Plugin plugin for WordPress is vulnerable to unauthorized access due to a missing capability check on the process_status_unlink() function in all versions up to\nand including\n2.3.8. This makes it possible for unauthenticated attackers to delete the back-up progress files and cause a back-up to fail while it is in progress. | CVSS Score 5.3 (MEDIUM)  ]]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-10304-fuite-du-2025-12-3",
+      "path": "CVE-2025-10304",
+      "formattedDate": "2025-12-03",
+      "title": "cve-2025-10304 fuite du 2025-12-3",
+      "date": "2025-12-3",
+      "lien": "CVE-2025-10304",
+      "categories": [
+        "cve-2025-10304"
+      ],
+      "index": 1909
+    },
+    {
+      "Name": "cve-2025-12585 fuite du 2025-12-3",
+      "Title": "cve-2025-12585 fuite du 2025-12-3",
+      "Domain": null,
+      "BreachDate": "2025-12-3",
+      "AddedDate": "2025-12-03T04:48:12.467Z",
+      "ModifiedDate": "2025-12-03T04:48:12.467Z",
+      "PwnCount": 0,
+      "Description": "-\n\n![CDATA[The MxChat – AI Chatbot for WordPress plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to\nand including\n2.5.5 via upload filenames. This makes it possible for unauthenticated attackers to extract session values that can subsequently be used to access conversation data. | CVSS Score 5.3 (MEDIUM)  ]]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-12585-fuite-du-2025-12-3",
+      "path": "CVE-2025-12585",
+      "formattedDate": "2025-12-03",
+      "title": "cve-2025-12585 fuite du 2025-12-3",
+      "date": "2025-12-3",
+      "lien": "CVE-2025-12585",
+      "categories": [
+        "cve-2025-12585"
+      ],
+      "index": 1910
+    },
+    {
+      "Name": "cve-2025-13495 fuite du 2025-12-3",
+      "Title": "cve-2025-13495 fuite du 2025-12-3",
+      "Domain": null,
+      "BreachDate": "2025-12-3",
+      "AddedDate": "2025-12-03T04:48:12.569Z",
+      "ModifiedDate": "2025-12-03T04:48:12.569Z",
+      "PwnCount": 0,
+      "Description": "-\n\n![CDATA[The FluentCart plugin for WordPress is vulnerable to SQL Injection via the 'groupKey' parameter in all versions up to\nand including\n1.3.1. This is due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for authenticated attackers\nwith Administrator-level access and above\nto append additional SQL queries into already existing queries that can be used to extract sensitive information from the database. | CVSS Score 4.9 (MEDIUM)  ]]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-13495-fuite-du-2025-12-3",
+      "path": "CVE-2025-13495",
+      "formattedDate": "2025-12-03",
+      "title": "cve-2025-13495 fuite du 2025-12-3",
+      "date": "2025-12-3",
+      "lien": "CVE-2025-13495",
+      "categories": [
+        "cve-2025-13495"
+      ],
+      "index": 1911
     }
   ]
 }
