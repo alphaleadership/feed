@@ -240,7 +240,7 @@ ${yaml.dump({categories:[... new Set(item.categories)]})}
 
 ${cleanContent}
 
-`;
+`.replaceAll("![CDATA[",'').replaceAll("]]>",'');
             // --- Création ou mise à jour du fichier
             if (!fs.existsSync(postFilePath)) {
               fs.writeFileSync(postFilePath, postContentHexo);
