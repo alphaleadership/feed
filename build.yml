@@ -2604,6 +2604,11 @@ category_map:
   - b3e56f67
   - 40cba8f2
   - 9e93434c
+  - cve-2025-64055
+  - cve-2025-65868
+  - cve-2025-66293
+  - cve-2025-66404
+  - 7be06052
 tag_map: null
 meta_generator: true
 search:
