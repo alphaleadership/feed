@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-03T10:47:55.371Z",
-  "totalBreaches": 1923,
+  "lastUpdated": "2025-12-03T11:15:48.654Z",
+  "totalBreaches": 1924,
   "breaches": [
     {
       "Name": "gPotato",
@@ -67403,6 +67403,48 @@
         "cve-2025-39665"
       ],
       "index": 1922
+    },
+    {
+      "Name": "2133447 fuite du 2025-12-3",
+      "Title": "2133447 fuite du 2025-12-3",
+      "Domain": null,
+      "BreachDate": "2025-12-3",
+      "AddedDate": "2025-12-03T11:15:48.652Z",
+      "ModifiedDate": "2025-12-03T11:15:48.652Z",
+      "PwnCount": 0,
+      "Description": "-\n\n\r\nLe 1ᵉʳnbspdécembre 2025\nla Police nationale sud-coréenne a annoncé l’arrestation de quatre individus soupçonnés d’avoir piraté plus de 120nbsp000nbspcamérasnbspIP à travers le pays. Les images volées auraient ensuite été revendues à un site diffusant clandestinement ces contenus à des fins sexuelles. Une affaire qui remet la sécurité des objets connectés au cœur des débats.\r\n  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "2133447-fuite-du-2025-12-3",
+      "path": "https://www.numerama.com/cyberguerre/2133447-120-000-cameras-ip-ont-ete-piratees-pour-alimenter-un-site-voyeuriste-comment-ce-hack-massif-relance-le-debat-sur-la-securite-des-objets-connectes.html",
+      "formattedDate": "2025-12-03",
+      "title": "2133447 fuite du 2025-12-3",
+      "date": "2025-12-3",
+      "lien": "https://www.numerama.com/cyberguerre/2133447-120-000-cameras-ip-ont-ete-piratees-pour-alimenter-un-site-voyeuriste-comment-ce-hack-massif-relance-le-debat-sur-la-securite-des-objets-connectes.html",
+      "categories": [
+        "Cybercriminalité",
+        "Cyberguerre",
+        "Fuites de données",
+        "Hygiène numérique",
+        "Corée du Sud",
+        "cybersécurité",
+        "Europe",
+        "hack",
+        "NSFW",
+        "Vidéosurveillance",
+        "2133447"
+      ],
+      "index": 1923
     }
   ]
 }
