@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-03T13:52:34.800Z",
-  "totalBreaches": 1928,
+  "lastUpdated": "2025-12-03T14:17:28.290Z",
+  "totalBreaches": 1929,
   "breaches": [
     {
       "Name": "gPotato",
@@ -67573,6 +67573,44 @@
         "cve-2025-13342"
       ],
       "index": 1927
+    },
+    {
+      "Name": "2897187_smarttube fuite du 2025-12-3",
+      "Title": "2897187_smarttube fuite du 2025-12-3",
+      "Domain": null,
+      "BreachDate": "2025-12-3",
+      "AddedDate": "2025-12-03T14:17:28.288Z",
+      "ModifiedDate": "2025-12-03T14:17:28.288Z",
+      "PwnCount": 0,
+      "Description": "-\n\ndiv class=\"chapo has-text-weight-semibold mb-5\">\r\ndiv>Vous avez vu passer une alerte Google Play Protect sur votre téléviseur ce week-end ? Ne l'ignorez surtout pas. SmartTube\nle client alternatif YouTube adoré par beaucoup de monde\nest victime d'une attaque. Des versions vérolées circulent\net vos données personnelles pourraient bien transiter vers des serveurs inconnus./div>\r\n/div>  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "2897187-smarttube-fuite-du-2025-12-3",
+      "path": "https://www.frandroid.com/android/2897187_smarttube-sur-android-desinstallez-lapplication-immediatement-elle-est-piratee",
+      "formattedDate": "2025-12-03",
+      "title": "2897187_smarttube fuite du 2025-12-3",
+      "date": "2025-12-3",
+      "lien": "https://www.frandroid.com/android/2897187_smarttube-sur-android-desinstallez-lapplication-immediatement-elle-est-piratee",
+      "categories": [
+        "Android",
+        "Android TV",
+        "Applications Android",
+        "Google TV (ex Android TV)",
+        "Sécurité",
+        "Société",
+        "2897187_smarttube"
+      ],
+      "index": 1928
     }
   ]
 }
