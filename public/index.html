@@ -103,7 +103,7 @@
 	<!-- Système de notes - Catégories les plus fréquentes -->
 	<div class="category-stats card shadow-sm mb-4">
 		<div class="card-header bg-dark text-white">
-			<h3 class="mb-0">📊 Catégories de données les plus exposées</h3>
+			<h3 class="mb-0">📊 entreprise ayant eu le plus de fuite </h3>
 			<small class="text-muted" id="breach-count">Chargement...</small>
 		</div>
 		<div class="card-body">
@@ -125,9 +125,11 @@
 				const categoryBreaches = {};
 				
 				// Associer chaque catégorie avec ses fuites
-				data.breaches.forEach(breach => {
+				data.breaches.filter((item)=>{return ! item.isRetired}).forEach(breach => {
 					if (breach.categories && Array.isArray(breach.categories)) {
-						breach.categories.forEach(category => {
+						breach.categories.map(item=>{
+							return item.split("fuite")[0]
+						}).forEach(category => {
 							if (!categoryBreaches[category.toLowerCase()]) {
 								categoryBreaches[category.toLowerCase()] = [];
 							}
@@ -137,7 +139,8 @@
 								slug: breach.slug,
 								path: breach.index,
 								pwnCount: breach.PwnCount,
-								date: breach.BreachDate
+								date: breach.BreachDate,
+								nsfw:breach.isNSFW
 							});
 						});
 					}
@@ -150,7 +153,7 @@
 					.map(([name, breaches]) => ({ 
 						name, 
 						count: breaches.length,
-						breaches: breaches.sort((a, b) => b.pwnCount - a.pwnCount).slice(0, 5),
+						breaches: breaches.sort((a, b) => b.pwnCount - a.pwnCount).slice(0, 50),
 						percentage: ((breaches.length / data.totalBreaches) * 100).toFixed(1) 
 					}));
 				
@@ -165,7 +168,8 @@
 					const badgeClass = idx < 3 ? 'bg-danger' : idx < 8 ? 'bg-warning text-dark' : 'bg-info';
 					
 					const breachLinks = cat.breaches.map(breach => 
-						`<li class="breach-link-item">
+						`<li class="breach-link-item ${breach.nsfw ? 'border-warning' : 'border-info'}">
+
 							<a href="https://feed-blush.vercel.app/fuites?id=${breach.path}" class="text-decoration-none">
 								${breach.title} <span class="text-muted small">(${(breach.pwnCount / 1000000).toFixed(1)}M)</span>
 							</a>
@@ -282,40 +286,7 @@
 		
 		<!-- title and entry -->
         <!-- render top articles firstly -->
-        
-		
-            
-		
-        
-        <!-- render other articles -->
-        
-           
-			  
-	
-	<!-- display as entry -->	
-		<h3 class="title">
-			<div class="date"> 2025-12-01 </div>
-			<div class="article-title"><a href="/2025/12/01/temp/" >Fuites De Données</a></div>
-		</h3>
-	
-
-
-			  
-<div class="entry-show-title">
-
-  <div class="row">
-	
-	<a href="" target="_blank">source</a>
-	
-		
-	
-	</div>
-  <a type="button" href="/2025/12/01/temp/#more" class="btn btn-default more">Read More</a>
-</div>
-
-           
-		
-
+     
 		</div>
 
 		<!-- pagination -->

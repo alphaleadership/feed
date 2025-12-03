@@ -6,6 +6,13 @@ const path = require('path');
 const baseDir = path.join(__dirname, '..');
 const dataFile = path.join(baseDir, 'source', '_data', 'breaches.json');
 
+// Termes NSFW à détecter dans les descriptions
+const nsfwTerms = [
+  'adult', 'porn', 'xxx', 'sex', 'nude', 'naked', 'erotic', 'fetish',
+  'escort', 'dating', 'hookup', 'affair', 'cheating', 'adultery',
+  'hentai', 'camgirl', 'webcam', 'onlyfans', 'patreon adult'
+];
+
 console.log('Chargement des données...');
 const db = JSON.parse(fs.readFileSync(dataFile, 'utf-8'));
 
@@ -40,8 +47,15 @@ db.breaches.filter((
  if(!(breach.categories && Array.isArray(breach.categories))){
     breach.categories=[breach.Name.split("fuite")[0]]
   }
+  // Détection automatique NSFW basée sur la description
   if(!Object.keys(breach).includes("isNSFW")){
-    breach.isNSFW=false
+    breach.isNSFW = false;
+    
+    // Vérifier si la description contient des termes NSFW
+    if(breach.Description){
+      const descLower = breach.Description.toLowerCase();
+      breach.isNSFW = nsfwTerms.some(term => descLower.includes(term.toLowerCase()));
+    }
   }
   if(!Object.keys(breach).includes("lien")){
     console.log("lien", breach.path)
