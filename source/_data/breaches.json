@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-04T07:40:37.484Z",
-  "totalBreaches": 2012,
+  "lastUpdated": "2025-12-04T10:47:21.557Z",
+  "totalBreaches": 2013,
   "breaches": [
     {
       "Name": "gPotato",
@@ -70284,6 +70284,38 @@
         "cve-2025-12826"
       ],
       "index": 2011
+    },
+    {
+      "Name": "cve-2025-14010 fuite du 2025-12-4",
+      "Title": "cve-2025-14010 fuite du 2025-12-4",
+      "Domain": null,
+      "BreachDate": "2025-12-4",
+      "AddedDate": "2025-12-04T10:47:21.555Z",
+      "ModifiedDate": "2025-12-04T10:47:21.555Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA flaw was found in ansible-collection-community-general. This vulnerability allows for information exposure (IE) of sensitive credentials\nspecifically plaintext passwords\nvia verbose output when running Ansible with debug modes. Attackers with access to logs could retrieve these secrets and potentially compromise Keycloak accounts or administrative access. | CVSS Score 5.5 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14010-fuite-du-2025-12-4",
+      "path": "CVE-2025-14010",
+      "formattedDate": "2025-12-04",
+      "title": "cve-2025-14010 fuite du 2025-12-4",
+      "date": "2025-12-4",
+      "lien": "CVE-2025-14010",
+      "categories": [
+        "cve-2025-14010"
+      ],
+      "index": 2012
     }
   ]
 }
