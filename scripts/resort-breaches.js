@@ -44,7 +44,7 @@ db.breaches.filter((
   if(breach==null){
     return
   }
-   if(breach.Name.split("fuite")[0]=""){
+   if(breach.Name.split("fuite")[0]==""){
       breach.IsRetired=true
     }
  if(!(breach.categories && Array.isArray(breach.categories))){
