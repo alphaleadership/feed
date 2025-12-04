@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-04T03:02:28.171Z",
-  "totalBreaches": 2007,
+  "lastUpdated": "2025-12-04T05:42:28.563Z",
+  "totalBreaches": 2009,
   "breaches": [
     {
       "Name": "gPotato",
@@ -70124,6 +70124,70 @@
         "cve-2025-62173"
       ],
       "index": 2006
+    },
+    {
+      "Name": "cve-2025-11379 fuite du 2025-12-4",
+      "Title": "cve-2025-11379 fuite du 2025-12-4",
+      "Domain": null,
+      "BreachDate": "2025-12-4",
+      "AddedDate": "2025-12-04T05:42:28.506Z",
+      "ModifiedDate": "2025-12-04T05:42:28.506Z",
+      "PwnCount": 0,
+      "Description": "-\n\nThe WebP Express plugin for WordPress is vulnerable to information exposure via config files in all versions up to\nand including\n0.25.9. This is due to the plugin not properly randomizing the name of the config file to prevent direct access on NGINX. This makes it possible for unauthenticated attackers to extract configuration data. | CVSS Score 5.3 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-11379-fuite-du-2025-12-4",
+      "path": "CVE-2025-11379",
+      "formattedDate": "2025-12-04",
+      "title": "cve-2025-11379 fuite du 2025-12-4",
+      "date": "2025-12-4",
+      "lien": "CVE-2025-11379",
+      "categories": [
+        "cve-2025-11379"
+      ],
+      "index": 2007
+    },
+    {
+      "Name": "cve-2025-11727 fuite du 2025-12-4",
+      "Title": "cve-2025-11727 fuite du 2025-12-4",
+      "Domain": null,
+      "BreachDate": "2025-12-4",
+      "AddedDate": "2025-12-04T05:42:28.561Z",
+      "ModifiedDate": "2025-12-04T05:42:28.561Z",
+      "PwnCount": 0,
+      "Description": "-\n\nThe Omnichannel for WooCommerce Google\nAmazon\neBay  Walmart Integration – Powered by Codisto plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the sync() function in all versions up to\nand including\n1.3.65 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. | CVSS Score 7.2 (HIGH)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-11727-fuite-du-2025-12-4",
+      "path": "CVE-2025-11727",
+      "formattedDate": "2025-12-04",
+      "title": "cve-2025-11727 fuite du 2025-12-4",
+      "date": "2025-12-4",
+      "lien": "CVE-2025-11727",
+      "categories": [
+        "cve-2025-11727"
+      ],
+      "index": 2008
     }
   ]
 }
