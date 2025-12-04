@@ -2916,6 +2916,12 @@ category_map:
   - cve-2025-66506
   - cve-2025-66509
   - cve-2025-6946
+  - cve-2025-13373
+  - cve-2025-14051
+  - cve-2025-66559
+  - cve-2025-66561
+  - cve-2025-66563
+  - cve-2025-66564
 tag_map: null
 meta_generator: true
 search:
