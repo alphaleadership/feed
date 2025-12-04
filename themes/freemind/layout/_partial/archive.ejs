@@ -18,6 +18,9 @@
           console.log(item.IsRetired)
           return !item.Name.includes('cve')
         }).filter((c)=>{
+          if(c.Name.toLowerCase().includes("cve-")){
+            return false
+          }
           const category=c.categories[0]
           if(category==""){
 								return false
