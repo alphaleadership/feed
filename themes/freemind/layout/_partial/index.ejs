@@ -41,7 +41,7 @@
 							if(category==""){
 								return
 							}
-							if(invalidcategory.includes(category)){
+							if(invalidcategory.includes(category.toLowerCase())){
 								return
 							}
 							if (!categoryBreaches[category.toLowerCase()]) {
