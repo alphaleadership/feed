@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-04T05:42:28.563Z",
-  "totalBreaches": 2009,
+  "lastUpdated": "2025-12-04T06:53:28.026Z",
+  "totalBreaches": 2010,
   "breaches": [
     {
       "Name": "gPotato",
@@ -70188,6 +70188,38 @@
         "cve-2025-11727"
       ],
       "index": 2008
+    },
+    {
+      "Name": "cve-2025-13513 fuite du 2025-12-4",
+      "Title": "cve-2025-13513 fuite du 2025-12-4",
+      "Domain": null,
+      "BreachDate": "2025-12-4",
+      "AddedDate": "2025-12-04T06:53:28.024Z",
+      "ModifiedDate": "2025-12-04T06:53:28.024Z",
+      "PwnCount": 0,
+      "Description": "-\n\nThe Clik stats plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the `$_SERVER['PHP_SELF']` parameter in all versions up to\nand including\n0.8 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link. | CVSS Score 6.1 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-13513-fuite-du-2025-12-4",
+      "path": "CVE-2025-13513",
+      "formattedDate": "2025-12-04",
+      "title": "cve-2025-13513 fuite du 2025-12-4",
+      "date": "2025-12-4",
+      "lien": "CVE-2025-13513",
+      "categories": [
+        "cve-2025-13513"
+      ],
+      "index": 2009
     }
   ]
 }
