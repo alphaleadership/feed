@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-03T21:36:13.783Z",
-  "totalBreaches": 2006,
+  "lastUpdated": "2025-12-04T03:02:28.171Z",
+  "totalBreaches": 2007,
   "breaches": [
     {
       "Name": "gPotato",
@@ -70092,6 +70092,38 @@
         "cve-2025-66404"
       ],
       "index": 2005
+    },
+    {
+      "Name": "cve-2025-62173 fuite du 2025-12-4",
+      "Title": "cve-2025-62173 fuite du 2025-12-4",
+      "Domain": null,
+      "BreachDate": "2025-12-4",
+      "AddedDate": "2025-12-04T03:02:28.169Z",
+      "ModifiedDate": "2025-12-04T03:02:28.169Z",
+      "PwnCount": 0,
+      "Description": "-\n\n## Summary\r\n\r\nAuthenticated SQL Injection Vulnerability in Endpoint Module Rest API | Severity UNKNOWN  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-62173-fuite-du-2025-12-4",
+      "path": "CVE-2025-62173",
+      "formattedDate": "2025-12-04",
+      "title": "cve-2025-62173 fuite du 2025-12-4",
+      "date": "2025-12-4",
+      "lien": "CVE-2025-62173",
+      "categories": [
+        "cve-2025-62173"
+      ],
+      "index": 2006
     }
   ]
 }
