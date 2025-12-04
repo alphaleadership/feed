@@ -44,6 +44,18 @@ db.breaches.filter((
   if(breach==null){
     return
   }
+   const invalidcategory=["hygiène numérique","sécurité","cybersécurité","cybercriminalité","cyberguerre"]
+   const category=breach.categories[0]
+          if(category==""){
+								breach.IsRetired=true
+							}
+								if(!isNaN(parseInt(category))){
+								invalidcategory.push(category)
+							}
+							if(invalidcategory.includes(category.toLowerCase())){
+								breach.IsRetired=true
+							}
+              
    if(breach.Name.split("fuite")[0]==""){
       breach.IsRetired=true
     }
