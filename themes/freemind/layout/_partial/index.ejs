@@ -25,6 +25,7 @@
 	</div>
 
 	<script>
+		const invalidcategory=["hygiène numérique","sécurité","cybersécurité"]
 		// Charger et analyser les données avec fetch
 		fetch('<%- config.url %>/data/breaches.json')
 			.then(response => response.json())
@@ -38,6 +39,9 @@
 							return item.split("fuite")[0]
 						}).forEach(category => {
 							if(category==""){
+								return
+							}
+							if(invalidcategory.includes(category)){
 								return
 							}
 							if (!categoryBreaches[category.toLowerCase()]) {
