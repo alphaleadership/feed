@@ -44,8 +44,12 @@ db.breaches.filter((
   if(breach==null){
     return
   }
+   if(breach.Name.split("fuite")[0]=""){
+      breach.IsRetired=true
+    }
  if(!(breach.categories && Array.isArray(breach.categories))){
-    breach.categories=[breach.Name.split("fuite")[0]]
+   
+    breach.categories=[]
   }
   // Détection automatique NSFW basée sur la description
   if(!Object.keys(breach).includes("isNSFW")){
