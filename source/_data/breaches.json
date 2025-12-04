@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-04T06:53:28.026Z",
-  "totalBreaches": 2010,
+  "lastUpdated": "2025-12-04T07:40:37.484Z",
+  "totalBreaches": 2012,
   "breaches": [
     {
       "Name": "gPotato",
@@ -70220,6 +70220,70 @@
         "cve-2025-13513"
       ],
       "index": 2009
+    },
+    {
+      "Name": "cve-2025-12782 fuite du 2025-12-4",
+      "Title": "cve-2025-12782 fuite du 2025-12-4",
+      "Domain": null,
+      "BreachDate": "2025-12-4",
+      "AddedDate": "2025-12-04T07:40:37.424Z",
+      "ModifiedDate": "2025-12-04T07:40:37.424Z",
+      "PwnCount": 0,
+      "Description": "-\n\nThe Beaver Builder – WordPress Page Builder plugin for WordPress is vulnerable to authorization bypass in all versions up to\nand including\n2.9.4. This is due to the plugin not properly verifying a user's authorization in the disable() function. This makes it possible for authenticated attackers\nwith contributor level access and above\nto disable the Beaver Builder layout on arbitrary posts and pages\ncausing content integrity issues and layout disruption on those pages. | CVSS Score 4.3 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-12782-fuite-du-2025-12-4",
+      "path": "CVE-2025-12782",
+      "formattedDate": "2025-12-04",
+      "title": "cve-2025-12782 fuite du 2025-12-4",
+      "date": "2025-12-4",
+      "lien": "CVE-2025-12782",
+      "categories": [
+        "cve-2025-12782"
+      ],
+      "index": 2010
+    },
+    {
+      "Name": "cve-2025-12826 fuite du 2025-12-4",
+      "Title": "cve-2025-12826 fuite du 2025-12-4",
+      "Domain": null,
+      "BreachDate": "2025-12-4",
+      "AddedDate": "2025-12-04T07:40:37.483Z",
+      "ModifiedDate": "2025-12-04T07:40:37.483Z",
+      "PwnCount": 0,
+      "Description": "-\n\nThe Custom Post Type UI plugin for WordPress is vulnerable to authorization bypass in all versions up to\nand including\n1.18.0. This is due to the plugin not verifying that a user has the required capability to perform actions in the \"cptui_process_post_type\" function. This makes it possible for authenticated attackers\nwith subscriber level access and above\nto add\nedit\nor delete custom post types in limited situations. | CVSS Score 4.8 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-12826-fuite-du-2025-12-4",
+      "path": "CVE-2025-12826",
+      "formattedDate": "2025-12-04",
+      "title": "cve-2025-12826 fuite du 2025-12-4",
+      "date": "2025-12-4",
+      "lien": "CVE-2025-12826",
+      "categories": [
+        "cve-2025-12826"
+      ],
+      "index": 2011
     }
   ]
 }

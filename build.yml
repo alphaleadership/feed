@@ -2648,6 +2648,9 @@ category_map:
   - 2897911_google
   - 2897311_li
   - 2895831_cest
+  - 2897139_a
+  - cve-2025-12782
+  - cve-2025-12826
 tag_map: null
 meta_generator: true
 search:
