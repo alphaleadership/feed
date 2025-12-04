@@ -8,5 +8,5 @@ categories:
 
 Le service allemand de renseignement intérieur
 le BfV
-cherche à se doter d'une plateforme unifiée de traitement de données de [...]    
+cherche à se doter d'une plateforme unifiée de traitement de données de [...]      
 
