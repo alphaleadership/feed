@@ -29,7 +29,7 @@
 								return false 
 							}
               return true 
-        });.map((item, index) => {
+        }).map((item, index) => {
     //item.index = index; // Ajouter l'index pour le lien
     return item;
   }).sort((a, b) => new Date(b.BreachDate) - new Date(a.BreachDate))
