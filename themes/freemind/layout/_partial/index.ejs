@@ -37,6 +37,9 @@
 						breach.categories.map(item=>{
 							return item.split("fuite")[0]
 						}).forEach(category => {
+							if(category==""){
+								return
+							}
 							if (!categoryBreaches[category.toLowerCase()]) {
 								categoryBreaches[category.toLowerCase()] = [];
 							}
