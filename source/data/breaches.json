@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-04T12:46:26.287Z",
+  "lastUpdated": "2025-12-04T13:24:43.635Z",
   "totalBreaches": 2013,
   "breaches": [
     {
@@ -55618,7 +55618,7 @@
       "date": "2025-11-12T00:00:00.000Z",
       "lien": "https://bonjourlafuite.eu.org/img/weda-1.jpg",
       "categories": [
-        "weda "
+        "weda"
       ],
       "index": 1563,
       "isNSFW": false
@@ -56580,7 +56580,7 @@
       "date": "2025-11-24T00:00:00.000Z",
       "lien": "https://bonjourlafuite.eu.org/img/malakoff.png",
       "categories": [
-        "malakoff humanis "
+        "malakoff humanis"
       ],
       "index": 1589,
       "isNSFW": false
@@ -70416,6 +70416,72 @@
         "cve-2025-14010"
       ],
       "index": 1992,
+      "isNSFW": false
+    },
+    {
+      "Name": "cve-2025-41079 fuite du 2025-12-4",
+      "Title": "cve-2025-41079 fuite du 2025-12-4",
+      "Domain": null,
+      "BreachDate": "2025-12-4",
+      "AddedDate": "2025-12-04T12:43:47.516Z",
+      "ModifiedDate": "2025-12-04T12:43:47.516Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA stored Cross-Site Scripting (XSS) vulnerability has been found in Seafile v12.0.10. This vulnerability allows an attacker to execute arbitrary code in the victim's browser by storing malicious payloads with PUT parámetro 'name' in '/api/v2.1/user/'. | Severity UNKNOWN  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-41079-fuite-du-2025-12-4",
+      "path": "CVE-2025-41079",
+      "formattedDate": "2025-12-04",
+      "title": "cve-2025-41079 fuite du 2025-12-4",
+      "date": "2025-12-4",
+      "lien": "CVE-2025-41079",
+      "categories": [
+        "cve-2025-41079"
+      ],
+      "index": 1993,
+      "isNSFW": false
+    },
+    {
+      "Name": "cve-2025-41080 fuite du 2025-12-4",
+      "Title": "cve-2025-41080 fuite du 2025-12-4",
+      "Domain": null,
+      "BreachDate": "2025-12-4",
+      "AddedDate": "2025-12-04T12:43:47.575Z",
+      "ModifiedDate": "2025-12-04T12:43:47.575Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA stored Cross-Site Scripting (XSS) vulnerability has been found in Seafile v12.0.10. This vulnerability allows an attacker to execute arbitrary code in the victim's browser by storing malicious payloads with POST parámetro 'p' in '/api/v2.1/repos/{repo_id}/file/'. | Severity UNKNOWN  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-41080-fuite-du-2025-12-4",
+      "path": "CVE-2025-41080",
+      "formattedDate": "2025-12-04",
+      "title": "cve-2025-41080 fuite du 2025-12-4",
+      "date": "2025-12-4",
+      "lien": "CVE-2025-41080",
+      "categories": [
+        "cve-2025-41080"
+      ],
+      "index": 1994,
       "isNSFW": false
     }
   ]

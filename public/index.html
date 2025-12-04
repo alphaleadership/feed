@@ -118,6 +118,7 @@
 	</div>
 
 	<script>
+		const invalidcategory=["hygiène numérique","sécurité","cybersécurité","cybercriminalité","cyberguerre"]
 		// Charger et analyser les données avec fetch
 		fetch('https://feed-blush.vercel.app/data/breaches.json')
 			.then(response => response.json())
@@ -130,6 +131,16 @@
 						breach.categories.map(item=>{
 							return item.split("fuite")[0]
 						}).forEach(category => {
+							if(category==""){
+								return
+							}
+								if(!isNaN(parseInt(category))){
+								invalidcategory.push(category)
+							}
+							if(invalidcategory.includes(category.toLowerCase())){
+								return
+							}
+						
 							if (!categoryBreaches[category.toLowerCase()]) {
 								categoryBreaches[category.toLowerCase()] = [];
 							}
@@ -151,7 +162,7 @@
 					.sort((a, b) => b[1].length - a[1].length)
 					.slice(0, 15)
 					.map(([name, breaches]) => ({ 
-						name, 
+						name:name||"inconnu", 
 						count: breaches.length,
 						breaches: breaches.sort((a, b) => b.pwnCount - a.pwnCount).slice(0, 50),
 						percentage: ((breaches.length / data.totalBreaches) * 100).toFixed(1) 
