@@ -28,7 +28,7 @@
 							if(invalidcategory.includes(category.toLowerCase())){
 								return false 
 							}
-              return true 
+              return !c.IsRetired 
         }).map((item, index) => {
     //item.index = index; // Ajouter l'index pour le lien
     return item;
