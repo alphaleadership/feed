@@ -41,9 +41,13 @@
 							if(category==""){
 								return
 							}
+								if(!isNaN(parseInt(category))){
+								invalidcategory.push(category)
+							}
 							if(invalidcategory.includes(category.toLowerCase())){
 								return
 							}
+						
 							if (!categoryBreaches[category.toLowerCase()]) {
 								categoryBreaches[category.toLowerCase()] = [];
 							}
