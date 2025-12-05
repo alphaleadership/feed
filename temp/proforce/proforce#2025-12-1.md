@@ -7,5 +7,5 @@ categories:
 ---
 
 Acteur jusqu'ici surtout identifié par notre publication sœur Africa Intelligence
-pour la livraison de blindés de type MRAP aux forces [...]                                                      
+pour la livraison de blindés de type MRAP aux forces [...]                                                        
 

@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-05T06:53:34.975Z",
-  "totalBreaches": 2222,
+  "lastUpdated": "2025-12-05T07:18:01.889Z",
+  "totalBreaches": 2223,
   "breaches": [
     {
       "Name": "gPotato",
@@ -77120,6 +77120,43 @@
         "cve-2025-66270"
       ],
       "index": 2221
+    },
+    {
+      "Name": "2895985_vous fuite du 2025-12-5",
+      "Title": "2895985_vous fuite du 2025-12-5",
+      "Domain": null,
+      "BreachDate": "2025-12-5",
+      "AddedDate": "2025-12-05T07:18:01.887Z",
+      "ModifiedDate": "2025-12-05T07:18:01.887Z",
+      "PwnCount": 0,
+      "Description": "-\n\ndiv class=\"chapo has-text-weight-semibold mb-5\">\r\ndiv>Il est temps de préparer ses cadeaux de Noël. Mais avant de se lancer\nil est essentiel de sécuriser sa connexion internet. Et en ce moment\nle VPN premium CyberGhost est au prix très doux de 2\n44 euros par mois./div>\r\n/div>  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "2895985-vous-fuite-du-2025-12-5",
+      "path": "https://www.frandroid.com/services/vpn/2895985_vous-avez-rate-le-black-friday-ce-vpn-premium-mais-pas-cher-est-ideal-pour-securiser-vos-achats-en-ligne-avant-noel",
+      "formattedDate": "2025-12-05",
+      "title": "2895985_vous fuite du 2025-12-5",
+      "date": "2025-12-5",
+      "lien": "https://www.frandroid.com/services/vpn/2895985_vous-avez-rate-le-black-friday-ce-vpn-premium-mais-pas-cher-est-ideal-pour-securiser-vos-achats-en-ligne-avant-noel",
+      "categories": [
+        "Services",
+        "VPN",
+        "Bons plans CyberGhost VPN",
+        "données personnelles",
+        "données privées",
+        "2895985_vous"
+      ],
+      "index": 2222
     }
   ]
 }
