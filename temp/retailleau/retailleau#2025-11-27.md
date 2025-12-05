@@ -9,5 +9,5 @@ categories:
 La note blanche de la DGSI (Direction générale de la sécurité intérieure) se veut sans appel  elle relève les "responsabilités de premier plan" exercées par un homme de nationalité chinoise
 Dai G.
 âgé de 68 ans
-"dans les réseaux et [...]                                                                                  
+"dans les réseaux et [...]                                                                                    
 
