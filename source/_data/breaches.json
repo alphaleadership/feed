@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-04T23:38:13.895Z",
-  "totalBreaches": 2172,
+  "lastUpdated": "2025-12-05T03:02:01.791Z",
+  "totalBreaches": 2174,
   "breaches": [
     {
       "Name": "gPotato",
@@ -75520,6 +75520,70 @@
         "cve-2025-66564"
       ],
       "index": 2171
+    },
+    {
+      "Name": "cve-2025-14052 fuite du 2025-12-5",
+      "Title": "cve-2025-14052 fuite du 2025-12-5",
+      "Domain": null,
+      "BreachDate": "2025-12-5",
+      "AddedDate": "2025-12-05T03:02:01.185Z",
+      "ModifiedDate": "2025-12-05T03:02:01.185Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA vulnerability has been found in youlaitech youlai-mall 1.0.0/2.0.0. Affected by this vulnerability is the function getMemberById of the file /mall-ums/app-api/v1/members/. The manipulation of the argument memberId leads to improper access controls. The attack is possible to be carried out remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way. | CVSS Score 6.3 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14052-fuite-du-2025-12-5",
+      "path": "CVE-2025-14052",
+      "formattedDate": "2025-12-05",
+      "title": "cve-2025-14052 fuite du 2025-12-5",
+      "date": "2025-12-5",
+      "lien": "CVE-2025-14052",
+      "categories": [
+        "cve-2025-14052"
+      ],
+      "index": 2172
+    },
+    {
+      "Name": "cve-2025-62223 fuite du 2025-12-5",
+      "Title": "cve-2025-62223 fuite du 2025-12-5",
+      "Domain": null,
+      "BreachDate": "2025-12-5",
+      "AddedDate": "2025-12-05T03:02:01.790Z",
+      "ModifiedDate": "2025-12-05T03:02:01.790Z",
+      "PwnCount": 0,
+      "Description": "-\n\nUser interface (ui) misrepresentation of critical information in Microsoft Edge for iOS allows an unauthorized attacker to perform spoofing over a network. | CVSS Score 4.3 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-62223-fuite-du-2025-12-5",
+      "path": "CVE-2025-62223",
+      "formattedDate": "2025-12-05",
+      "title": "cve-2025-62223 fuite du 2025-12-5",
+      "date": "2025-12-5",
+      "lien": "CVE-2025-62223",
+      "categories": [
+        "cve-2025-62223"
+      ],
+      "index": 2173
     }
   ]
 }
