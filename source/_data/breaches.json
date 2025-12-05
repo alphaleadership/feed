@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-05T19:28:56.565Z",
-  "totalBreaches": 2323,
+  "lastUpdated": "2025-12-05T19:39:32.389Z",
+  "totalBreaches": 2324,
   "breaches": [
     {
       "Name": "gPotato",
@@ -80390,6 +80390,38 @@
         "cve-2025-66644"
       ],
       "index": 2322
+    },
+    {
+      "Name": "schmidt fuite du 2025-12-5",
+      "Title": "schmidt fuite du 2025-12-5",
+      "Domain": null,
+      "BreachDate": "2025-12-5",
+      "AddedDate": "2025-12-05T19:39:32.387Z",
+      "ModifiedDate": "2025-12-05T19:39:32.387Z",
+      "PwnCount": 0,
+      "Description": "-\n\ncivilité\nnom\nprénom\nnuméro de téléphone\nadresse email  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "schmidt-fuite-du-2025-12-5",
+      "path": "https://bonjourlafuite.eu.org/img/schmidt.png",
+      "formattedDate": "2025-12-05",
+      "title": "schmidt fuite du 2025-12-5",
+      "date": "2025-12-5",
+      "lien": "https://bonjourlafuite.eu.org/img/schmidt.png",
+      "categories": [
+        "schmidt"
+      ],
+      "index": 2323
     }
   ]
 }
