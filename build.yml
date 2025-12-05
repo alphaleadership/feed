@@ -3158,6 +3158,13 @@ category_map:
   - cve-2025-66566
   - 086007c5
   - '444477e1'
+  - cve-2025-46603
+  - cve-2025-66570
+  - cve-2025-66577
+  - cve-2025-66581
+  - cve-2025-66623
+  - cve-2025-66624
+  - cve-2025-66644
 tag_map: null
 meta_generator: true
 search:
