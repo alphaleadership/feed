@@ -6,5 +6,5 @@ categories:
 
 ---
 
-Philippines – Panterra développe ses activités auprès des gouvernements en AsieLe cabinet londonien de conseil en communication Panterra a grossi [...]                                                                        
+Philippines – Panterra développe ses activités auprès des gouvernements en AsieLe cabinet londonien de conseil en communication Panterra a grossi [...]                                                                          
 
