@@ -6,5 +6,5 @@ categories:
 
 ---
 
-Un récent rapport du Privacy and Civil Liberties Oversight Board [...]                                                                                                                                      
+Un récent rapport du Privacy and Civil Liberties Oversight Board [...]                                                                                                                                        
 
