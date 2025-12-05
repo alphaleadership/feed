@@ -3172,6 +3172,10 @@ category_map:
   - cuisinella
   - 08eff7cd
   - '53724600'
+  - cve-2025-13426
+  - cve-2025-14106
+  - cve-2025-14107
+  - cve-2025-14108
 tag_map: null
 meta_generator: true
 search:
