@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-05T03:02:01.791Z",
-  "totalBreaches": 2174,
+  "lastUpdated": "2025-12-05T04:32:14.771Z",
+  "totalBreaches": 2176,
   "breaches": [
     {
       "Name": "gPotato",
@@ -75584,6 +75584,70 @@
         "cve-2025-62223"
       ],
       "index": 2173
+    },
+    {
+      "Name": "cve-2025-11759 fuite du 2025-12-5",
+      "Title": "cve-2025-11759 fuite du 2025-12-5",
+      "Domain": null,
+      "BreachDate": "2025-12-5",
+      "AddedDate": "2025-12-05T04:32:14.634Z",
+      "ModifiedDate": "2025-12-05T04:32:14.634Z",
+      "PwnCount": 0,
+      "Description": "-\n\nThe Backup\nRestore and Migrate your sites with XCloner plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to\nand including\n4.8.2. This is due to missing or incorrect nonce validation on the Xcloner_Remote_Storagesave() function. This makes it possible for unauthenticated attackers to add or modify an FTP backup configuration via a forged request granted they can trick a site administrator into performing an action such as clicking on a link. Successful exploitation allows an attacker to set an attacker-controlled FTP site for backup storage and exfiltrate potentially sensitive site data. | CVSS Score 4.3 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-11759-fuite-du-2025-12-5",
+      "path": "CVE-2025-11759",
+      "formattedDate": "2025-12-05",
+      "title": "cve-2025-11759 fuite du 2025-12-5",
+      "date": "2025-12-5",
+      "lien": "CVE-2025-11759",
+      "categories": [
+        "cve-2025-11759"
+      ],
+      "index": 2174
+    },
+    {
+      "Name": "cve-2025-12804 fuite du 2025-12-5",
+      "Title": "cve-2025-12804 fuite du 2025-12-5",
+      "Domain": null,
+      "BreachDate": "2025-12-5",
+      "AddedDate": "2025-12-05T04:32:14.770Z",
+      "ModifiedDate": "2025-12-05T04:32:14.770Z",
+      "PwnCount": 0,
+      "Description": "-\n\nThe Booking Calendar plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin 'bookingcalendar' shortcode in all versions up to\nand including\n10.14.6 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers\nwith contributor-level access and above\nto inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. | CVSS Score 6.4 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-12804-fuite-du-2025-12-5",
+      "path": "CVE-2025-12804",
+      "formattedDate": "2025-12-05",
+      "title": "cve-2025-12804 fuite du 2025-12-5",
+      "date": "2025-12-5",
+      "lien": "CVE-2025-12804",
+      "categories": [
+        "cve-2025-12804"
+      ],
+      "index": 2175
     }
   ]
 }
