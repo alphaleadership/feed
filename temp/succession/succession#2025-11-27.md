@@ -6,5 +6,5 @@ categories:
 
 ---
 
-Un accord juridique secret conclu durant la dernière semaine d'octobre à propos des biens contestés du cheikh Khalifa bin Zayed [...]                                                                                      
+Un accord juridique secret conclu durant la dernière semaine d'octobre à propos des biens contestés du cheikh Khalifa bin Zayed [...]                                                                                        
 
