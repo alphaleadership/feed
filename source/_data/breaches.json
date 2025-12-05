@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-05T15:43:24.932Z",
-  "totalBreaches": 2256,
+  "lastUpdated": "2025-12-05T15:53:53.250Z",
+  "totalBreaches": 2257,
   "breaches": [
     {
       "Name": "gPotato",
@@ -78235,6 +78235,38 @@
         "cve-2025-64057"
       ],
       "index": 2255
+    },
+    {
+      "Name": "gesthand fédération française de handball fuite du 2025-12-5",
+      "Title": "gesthand fédération française de handball fuite du 2025-12-5",
+      "Domain": null,
+      "BreachDate": "2025-12-5",
+      "AddedDate": "2025-12-05T15:53:53.248Z",
+      "ModifiedDate": "2025-12-05T15:53:53.248Z",
+      "PwnCount": 0,
+      "Description": "-\n\nnom\nprénom\ngenre\ndate de naissance\nadresse email\nnuméro de téléphone  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "gesthand-f-d-ration-fran-aise-de-handball-fuite-du-2025-12-5",
+      "path": "https://bonjourlafuite.eu.org/img/ffhb.png",
+      "formattedDate": "2025-12-05",
+      "title": "gesthand fédération française de handball fuite du 2025-12-5",
+      "date": "2025-12-5",
+      "lien": "https://bonjourlafuite.eu.org/img/ffhb.png",
+      "categories": [
+        "gesthand fédération française de handball"
+      ],
+      "index": 2256
     }
   ]
 }
