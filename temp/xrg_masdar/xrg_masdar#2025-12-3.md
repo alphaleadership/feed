@@ -9,5 +9,5 @@ categories:
 Les dirigeants de XRG
 société d'investissement dans le secteur de l'énergie récemment lancée à Abu Dhabi
 prévoient d'absorber Masdar
-le [...]                                                                  
+le [...]                                                                    
 
