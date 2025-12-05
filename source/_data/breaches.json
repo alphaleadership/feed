@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-05T19:39:32.389Z",
-  "totalBreaches": 2324,
+  "lastUpdated": "2025-12-05T21:32:22.748Z",
+  "totalBreaches": 2327,
   "breaches": [
     {
       "Name": "gPotato",
@@ -80422,6 +80422,102 @@
         "schmidt"
       ],
       "index": 2323
+    },
+    {
+      "Name": "cuisinella fuite du 2025-12-5",
+      "Title": "cuisinella fuite du 2025-12-5",
+      "Domain": null,
+      "BreachDate": "2025-12-5",
+      "AddedDate": "2025-12-05T21:32:18.815Z",
+      "ModifiedDate": "2025-12-05T21:32:18.815Z",
+      "PwnCount": 0,
+      "Description": "-\n\ncivilité\nnom\nprénom\nnuméro de téléphone\nadresse email  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cuisinella-fuite-du-2025-12-5",
+      "path": "https://bonjourlafuite.eu.org/img/cuisinella.png",
+      "formattedDate": "2025-12-05",
+      "title": "cuisinella fuite du 2025-12-5",
+      "date": "2025-12-5",
+      "lien": "https://bonjourlafuite.eu.org/img/cuisinella.png",
+      "categories": [
+        "cuisinella"
+      ],
+      "index": 2324
+    },
+    {
+      "Name": "cve-2025-14105 fuite du 2025-12-5",
+      "Title": "cve-2025-14105 fuite du 2025-12-5",
+      "Domain": null,
+      "BreachDate": "2025-12-5",
+      "AddedDate": "2025-12-05T21:32:20.531Z",
+      "ModifiedDate": "2025-12-05T21:32:20.531Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA vulnerability was determined in TOZED ZLT M30S and ZLT M30S PRO 1.47/3.09.06. This impacts an unknown function of the file /reqproc/proc_post of the component Web Interface. Executing manipulation of the argument goformId with the input REBOOT_DEVICE can lead to denial of service. The attack can only be done within the local network. The exploit has been publicly disclosed and may be utilized. The vendor was contacted early about this disclosure but did not respond in any way. | CVSS Score 4.3 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14105-fuite-du-2025-12-5",
+      "path": "CVE-2025-14105",
+      "formattedDate": "2025-12-05",
+      "title": "cve-2025-14105 fuite du 2025-12-5",
+      "date": "2025-12-5",
+      "lien": "CVE-2025-14105",
+      "categories": [
+        "cve-2025-14105"
+      ],
+      "index": 2325
+    },
+    {
+      "Name": "cve-2025-8148 fuite du 2025-12-5",
+      "Title": "cve-2025-8148 fuite du 2025-12-5",
+      "Domain": null,
+      "BreachDate": "2025-12-5",
+      "AddedDate": "2025-12-05T21:32:22.746Z",
+      "ModifiedDate": "2025-12-05T21:32:22.746Z",
+      "PwnCount": 0,
+      "Description": "-\n\nAn Improper Access Control in the SFTP service in Fortra's GoAnywhere MFT prior to version 7.9.0 allows Web Users with an Authentication Alias and a valid SSH key but limited to Password authentication for SFTP to still login using their SSH key. | CVSS Score 4.2 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-8148-fuite-du-2025-12-5",
+      "path": "CVE-2025-8148",
+      "formattedDate": "2025-12-05",
+      "title": "cve-2025-8148 fuite du 2025-12-5",
+      "date": "2025-12-5",
+      "lien": "CVE-2025-8148",
+      "categories": [
+        "cve-2025-8148"
+      ],
+      "index": 2326
     }
   ]
 }
