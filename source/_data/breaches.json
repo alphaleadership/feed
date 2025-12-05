@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-05T07:40:13.701Z",
-  "totalBreaches": 2231,
+  "lastUpdated": "2025-12-05T09:18:12.999Z",
+  "totalBreaches": 2233,
   "breaches": [
     {
       "Name": "gPotato",
@@ -77413,6 +77413,70 @@
         "cve-2025-13515"
       ],
       "index": 2230
+    },
+    {
+      "Name": "cve-2025-12130 fuite du 2025-12-5",
+      "Title": "cve-2025-12130 fuite du 2025-12-5",
+      "Domain": null,
+      "BreachDate": "2025-12-5",
+      "AddedDate": "2025-12-05T09:18:12.279Z",
+      "ModifiedDate": "2025-12-05T09:18:12.279Z",
+      "PwnCount": 0,
+      "Description": "-\n\nThe WC Vendors – WooCommerce Multivendor\nWooCommerce Marketplace\nProduct Vendors plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to\nand including\n2.6.4. This is due to missing or incorrect nonce validation on the /vendor_dashboard/product/delete/ endpoint. This makes it possible for unauthenticated attackers to delete vendor products via a forged request granted they can trick a site administrator into performing an action such as clicking on a link. | CVSS Score 4.3 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-12130-fuite-du-2025-12-5",
+      "path": "CVE-2025-12130",
+      "formattedDate": "2025-12-05",
+      "title": "cve-2025-12130 fuite du 2025-12-5",
+      "date": "2025-12-5",
+      "lien": "CVE-2025-12130",
+      "categories": [
+        "cve-2025-12130"
+      ],
+      "index": 2231
+    },
+    {
+      "Name": "cve-2025-13684 fuite du 2025-12-5",
+      "Title": "cve-2025-13684 fuite du 2025-12-5",
+      "Domain": null,
+      "BreachDate": "2025-12-5",
+      "AddedDate": "2025-12-05T09:18:12.997Z",
+      "ModifiedDate": "2025-12-05T09:18:12.997Z",
+      "PwnCount": 0,
+      "Description": "-\n\nThe ARK Related Posts plugin for WordPress is vulnerable to Cross-Site Request Forgery in version 2.19. This is due to missing or incorrect nonce validation on the ark_rp_options_page function. This makes it possible for unauthenticated attackers to modify the plugin's configuration settings via a forged request granted they can trick a site administrator into performing an action such as clicking on a link. | CVSS Score 4.3 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-13684-fuite-du-2025-12-5",
+      "path": "CVE-2025-13684",
+      "formattedDate": "2025-12-05",
+      "title": "cve-2025-13684 fuite du 2025-12-5",
+      "date": "2025-12-5",
+      "lien": "CVE-2025-13684",
+      "categories": [
+        "cve-2025-13684"
+      ],
+      "index": 2232
     }
   ]
 }
