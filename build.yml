@@ -3039,6 +3039,14 @@ category_map:
   - '2135703'
   - 2899761_bmw
   - '2899735_128'
+  - cve-2025-13620
+  - cve-2025-55753
+  - cve-2025-59775
+  - cve-2025-65082
+  - cve-2025-66200
+  - '2135767'
+  - 2897631_cest
+  - 2899575_fini
 tag_map: null
 meta_generator: true
 search:
