@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-06T16:52:16.963Z",
+  "lastUpdated": "2025-12-06T16:54:36.270Z",
   "totalBreaches": 2378,
   "breaches": [
     {
@@ -30528,7 +30528,8 @@
         "Hathway"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/hathway"
+      "lien": "https://haveibeenpwned.com/Breach/hathway",
+      "validated": true
     },
     {
       "Name": "Trello",
@@ -30563,7 +30564,8 @@
         "Trello"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/trello"
+      "lien": "https://haveibeenpwned.com/Breach/trello",
+      "validated": true
     },
     {
       "Name": "Spoutible",
@@ -30602,7 +30604,8 @@
         "Spoutible"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/spoutible"
+      "lien": "https://haveibeenpwned.com/Breach/spoutible",
+      "validated": true
     },
     {
       "Name": "SurveyLama",
@@ -30641,7 +30644,8 @@
         "SurveyLama"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/surveylama"
+      "lien": "https://haveibeenpwned.com/Breach/surveylama",
+      "validated": true
     },
     {
       "Name": "almerys-fuite-du-2024-2-6",
@@ -30674,7 +30678,8 @@
         "almerys-"
       ],
       "index": 800,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "almerys fuite du 2024-2-6",
@@ -30707,7 +30712,8 @@
         "almerys "
       ],
       "index": 801,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "viamedis fuite du 2024-2-6",
@@ -30740,7 +30746,8 @@
         "viamedis "
       ],
       "index": 802,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "DoxbinTOoDA",
@@ -30774,7 +30781,8 @@
         "DoxbinTOoDA"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/doxbintooda"
+      "lien": "https://haveibeenpwned.com/Breach/doxbintooda",
+      "validated": true
     },
     {
       "Name": "Tangerine",
@@ -30813,7 +30821,8 @@
         "Tangerine"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/tangerine"
+      "lien": "https://haveibeenpwned.com/Breach/tangerine",
+      "validated": true
     },
     {
       "Name": "Spyzie",
@@ -30846,7 +30855,8 @@
         "Spyzie"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/spyzie"
+      "lien": "https://haveibeenpwned.com/Breach/spyzie",
+      "validated": true
     },
     {
       "Name": "CutoutPro",
@@ -30882,7 +30892,8 @@
         "CutoutPro"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/cutoutpro"
+      "lien": "https://haveibeenpwned.com/Breach/cutoutpro",
+      "validated": true
     },
     {
       "Name": "DemandScience",
@@ -30921,7 +30932,8 @@
         "DemandScience"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/demandscience"
+      "lien": "https://haveibeenpwned.com/Breach/demandscience",
+      "validated": true
     },
     {
       "Name": "LDLC",
@@ -30958,40 +30970,8 @@
         "LDLC"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/ldlc"
-    },
-    {
-      "Name": "ldlc fuite du 2024-3-1",
-      "Title": "ldlc fuite du 2024-3-1",
-      "Domain": null,
-      "BreachDate": "2024-3-1",
-      "AddedDate": "2025-11-26T13:08:23.776Z",
-      "ModifiedDate": "2025-11-26T13:08:23.776Z",
-      "PwnCount": 0,
-      "Description": "-\r\n\r\nnom\r\nprénom\r\nadresse email\r\nadresse postale\r\nnuméro de téléphone\r\n\r\n\r\nAutres fuites pour ce dossier :\r\n- [2](https://feed-blush.vercel.app/ldlc-fuite-du-2024-12-10)\r\n\r\n\r\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "ldlc-fuite-du-2024-3-1",
-      "path": "https://www.01net.com/actualites/les-donnees-de-15-million-de-clients-ldlc-ont-ete-piratees.html",
-      "formattedDate": "2024-02-29",
-      "title": "ldlc fuite du 2024-3-1",
-      "date": "2024-3-1",
-      "lien": "https://www.01net.com/actualites/les-donnees-de-15-million-de-clients-ldlc-ont-ete-piratees.html",
-      "categories": [
-        "ldlc "
-      ],
-      "index": 809,
-      "isNSFW": false
+      "lien": "https://haveibeenpwned.com/Breach/ldlc",
+      "validated": true
     },
     {
       "Name": "Life360",
@@ -31026,7 +31006,8 @@
         "Life360"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/life360"
+      "lien": "https://haveibeenpwned.com/Breach/life360",
+      "validated": true
     },
     {
       "Name": "MrGreenGaming",
@@ -31063,7 +31044,8 @@
         "MrGreenGaming"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/mrgreengaming"
+      "lien": "https://haveibeenpwned.com/Breach/mrgreengaming",
+      "validated": true
     },
     {
       "Name": "FairVoteCanada",
@@ -31100,7 +31082,8 @@
         "FairVoteCanada"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/fairvotecanada"
+      "lien": "https://haveibeenpwned.com/Breach/fairvotecanada",
+      "validated": true
     },
     {
       "Name": "WoTLabs",
@@ -31137,7 +31120,8 @@
         "WoTLabs"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/wotlabs"
+      "lien": "https://haveibeenpwned.com/Breach/wotlabs",
+      "validated": true
     },
     {
       "Name": "GiantTiger",
@@ -31173,7 +31157,8 @@
         "GiantTiger"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/gianttiger"
+      "lien": "https://haveibeenpwned.com/Breach/gianttiger",
+      "validated": true
     },
     {
       "Name": "france travail fuite du 2024-3-8",
@@ -31206,7 +31191,8 @@
         "france travail "
       ],
       "index": 815,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "HuntStand",
@@ -31242,7 +31228,8 @@
         "HuntStand"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/huntstand"
+      "lien": "https://haveibeenpwned.com/Breach/huntstand",
+      "validated": true
     },
     {
       "Name": "ECB",
@@ -31276,7 +31263,8 @@
         "ECB"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/ecb"
+      "lien": "https://haveibeenpwned.com/Breach/ecb",
+      "validated": true
     },
     {
       "Name": "KasperskyClub",
@@ -31312,7 +31300,8 @@
         "KasperskyClub"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/kasperskyclub"
+      "lien": "https://haveibeenpwned.com/Breach/kasperskyclub",
+      "validated": true
     },
     {
       "Name": "boAt",
