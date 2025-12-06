@@ -104,7 +104,7 @@ async function main() {
                 if(entry.Name.includes("cve")){
                     action="reject"
                 }else{
-                      action= { action } = await inquirer.prompt([
+                      const value = await inquirer.prompt([
 
                     {
 
@@ -133,6 +133,8 @@ async function main() {
                     },
 
                 ]);
+                action = value.action;
+                console.log(action)
                 }
         
 
