@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-06T17:16:33.837Z",
+  "lastUpdated": "2025-12-06T17:20:56.894Z",
   "totalBreaches": 2378,
   "breaches": [
     {
@@ -36044,7 +36044,8 @@
         "edf dpih "
       ],
       "index": 1452,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "zephir fuite du 2025-2-28",
@@ -36077,7 +36078,8 @@
         "zephir "
       ],
       "index": 1453,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "école nationale de la sécurité fuite du 2025-2-28",
@@ -36110,7 +36112,8 @@
         "école nationale de la sécurité "
       ],
       "index": 1454,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "côté sushi fuite du 2025-3-4",
@@ -36143,7 +36146,8 @@
         "côté sushi "
       ],
       "index": 1455,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "la poste fuite du 2025-3-4",
@@ -36176,7 +36180,8 @@
         "la poste "
       ],
       "index": 1456,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "utwin fuite du 2025-3-5",
@@ -36209,7 +36214,8 @@
         "utwin "
       ],
       "index": 1457,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "laforêt fuite du 2025-3-13",
@@ -36242,7 +36248,8 @@
         "laforêt "
       ],
       "index": 1458,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "direct assurance fuite du 2025-3-18",
@@ -36275,7 +36282,8 @@
         "direct assurance "
       ],
       "index": 1459,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "intersport fuite du 2025-3-20",
@@ -36308,7 +36316,8 @@
         "intersport "
       ],
       "index": 1460,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "éclaireuses et éclaireurs de france fuite du 2025-3-20",
@@ -36341,7 +36350,8 @@
         "éclaireuses et éclaireurs de france "
       ],
       "index": 1461,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "autosur  diagnosur fuite du 2025-3-24",
@@ -36374,7 +36384,8 @@
         "autosur  diagnosur "
       ],
       "index": 1462,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "cerballiance fuite du 2025-3-25",
@@ -36407,7 +36418,8 @@
         "cerballiance "
       ],
       "index": 1463,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "TroyHuntMailchimpList",
@@ -36442,7 +36454,8 @@
         "TroyHuntMailchimpList"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/troyhuntmailchimplist"
+      "lien": "https://haveibeenpwned.com/Breach/troyhuntmailchimplist",
+      "validated": true
     },
     {
       "Name": "centrale nantes fuite du 2025-3-26",
@@ -36475,7 +36488,8 @@
         "centrale nantes "
       ],
       "index": 1465,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "TehetsegKapu",
@@ -36510,7 +36524,8 @@
         "TehetsegKapu"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/tehetsegkapu"
+      "lien": "https://haveibeenpwned.com/Breach/tehetsegkapu",
+      "validated": true
     },
     {
       "Name": "oracle cloud fuite du 2025-3-27",
@@ -36543,7 +36558,8 @@
         "oracle cloud "
       ],
       "index": 1467,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "GermanDonerKebab",
@@ -36579,7 +36595,8 @@
         "GermanDonerKebab"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/germandonerkebab"
+      "lien": "https://haveibeenpwned.com/Breach/germandonerkebab",
+      "validated": true
     },
     {
       "Name": "maif  bpce fuite du 2025-3-28",
@@ -36612,7 +36629,8 @@
         "maif  bpce "
       ],
       "index": 1469,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "SamsungGermany",
@@ -36651,7 +36669,8 @@
         "SamsungGermany"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/samsunggermany"
+      "lien": "https://haveibeenpwned.com/Breach/samsunggermany",
+      "validated": true
     },
     {
       "Name": "reporterre fuite du 2025-4-1",
@@ -36684,7 +36703,8 @@
         "reporterre "
       ],
       "index": 1471,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "utwin fuite du 2025-4-7",
@@ -36717,7 +36737,8 @@
         "utwin "
       ],
       "index": 1472,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "harvest fuite du 2025-4-11",
@@ -36750,7 +36771,8 @@
         "harvest "
       ],
       "index": 1473,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "SynthientCredentialStuffingThreatData",
@@ -36784,7 +36806,8 @@
         "SynthientCredentialStuffingThreatData"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/synthientcredentialstuffingthreatdata"
+      "lien": "https://haveibeenpwned.com/Breach/synthientcredentialstuffingthreatdata",
+      "validated": true
     },
     {
       "Name": "SynthientStealerLogThreatData",
@@ -36818,7 +36841,8 @@
         "SynthientStealerLogThreatData"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/synthientstealerlogthreatdata"
+      "lien": "https://haveibeenpwned.com/Breach/synthientstealerlogthreatdata",
+      "validated": true
     },
     {
       "Name": "afflelou fuite du 2025-4-15",
@@ -36851,7 +36875,8 @@
         "afflelou "
       ],
       "index": 1476,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "hertz fuite du 2025-4-15",
@@ -36884,7 +36909,8 @@
         "hertz "
       ],
       "index": 1477,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "indigo fuite du 2025-4-18",
@@ -36917,7 +36943,8 @@
         "indigo "
       ],
       "index": 1478,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "easy cash fuite du 2025-4-22",
@@ -36950,7 +36977,8 @@
         "easy cash "
       ],
       "index": 1479,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "carrefour mobile fuite du 2025-4-24",
@@ -36983,7 +37011,8 @@
         "carrefour mobile "
       ],
       "index": 1480,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "cerballiance fuite du 2025-4-30",
@@ -37016,7 +37045,8 @@
         "cerballiance "
       ],
       "index": 1481,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "CreamsCafe",
@@ -37052,7 +37082,8 @@
         "CreamsCafe"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/creamscafe"
+      "lien": "https://haveibeenpwned.com/Breach/creamscafe",
+      "validated": true
     },
     {
       "Name": "Ualabee",
@@ -37089,7 +37120,8 @@
         "Ualabee"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/ualabee"
+      "lien": "https://haveibeenpwned.com/Breach/ualabee",
+      "validated": true
     },
     {
       "Name": "dior fuite du 2025-5-13",
@@ -37122,7 +37154,8 @@
         "dior "
       ],
       "index": 1484,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "pulsy fuite du 2025-5-13",
@@ -37155,7 +37188,8 @@
         "pulsy "
       ],
       "index": 1485,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "OperationEndgame2",
@@ -37189,7 +37223,8 @@
         "OperationEndgame2"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/operationendgame2"
+      "lien": "https://haveibeenpwned.com/Breach/operationendgame2",
+      "validated": true
     },
     {
       "Name": "ColoCrossing",
@@ -37224,7 +37259,8 @@
         "ColoCrossing"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/colocrossing"
+      "lien": "https://haveibeenpwned.com/Breach/colocrossing",
+      "validated": true
     },
     {
       "Name": "autosur fuite du 2025-5-26",
@@ -37257,7 +37293,8 @@
         "autosur "
       ],
       "index": 1488,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "cartier fuite du 2025-6-3",
@@ -37290,7 +37327,8 @@
         "cartier "
       ],
       "index": 1489,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "kaviari fuite du 2025-6-3",
@@ -37323,7 +37361,8 @@
         "kaviari "
       ],
       "index": 1490,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "Omnicuris",
@@ -37359,7 +37398,8 @@
         "Omnicuris"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/omnicuris"
+      "lien": "https://haveibeenpwned.com/Breach/omnicuris",
+      "validated": true
     },
     {
       "Name": "Catwatchful",
@@ -37393,7 +37433,8 @@
         "Catwatchful"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/catwatchful"
+      "lien": "https://haveibeenpwned.com/Breach/catwatchful",
+      "validated": true
     },
     {
       "Name": "DataTrollStealerLogs",
@@ -37427,7 +37468,8 @@
         "DataTrollStealerLogs"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/datatrollstealerlogs"
+      "lien": "https://haveibeenpwned.com/Breach/datatrollstealerlogs",
+      "validated": true
     },
     {
       "Name": "VietnamAirlines",
@@ -37464,7 +37506,8 @@
         "VietnamAirlines"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/vietnamairlines"
+      "lien": "https://haveibeenpwned.com/Breach/vietnamairlines",
+      "validated": true
     },
     {
       "Name": "disneyland fuite du 2025-6-21",
@@ -37497,7 +37540,8 @@
         "disneyland "
       ],
       "index": 1495,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "hôpital privé de la loire fuite du 2025-6-21",
@@ -37530,7 +37574,8 @@
         "hôpital privé de la loire "
       ],
       "index": 1496,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "MaReads",
@@ -37566,7 +37611,8 @@
         "MaReads"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/mareads"
+      "lien": "https://haveibeenpwned.com/Breach/mareads",
+      "validated": true
     },
     {
       "Name": "TheSquare",
@@ -37602,7 +37648,8 @@
         "TheSquare"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/thesquare"
+      "lien": "https://haveibeenpwned.com/Breach/thesquare",
+      "validated": true
     },
     {
       "Name": "union nationale du sport scolaire fuite du 2025-7-7",
@@ -37635,7 +37682,8 @@
         "union nationale du sport scolaire "
       ],
       "index": 1499,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "centre national de la fonction publique territoriale fuite du 2025-7-11",
@@ -37668,7 +37716,8 @@
         "centre national de la fonction publique territoriale "
       ],
       "index": 1500,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "louis vuitton fuite du 2025-7-11",
@@ -37701,7 +37750,8 @@
         "louis vuitton "
       ],
       "index": 1501,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "sorbonne université fuite du 2025-7-11",
@@ -37734,7 +37784,8 @@
         "sorbonne université "
       ],
       "index": 1502,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "AllianzLife",
@@ -37772,7 +37823,8 @@
         "AllianzLife"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/allianzlife"
+      "lien": "https://haveibeenpwned.com/Breach/allianzlife",
+      "validated": true
     },
     {
       "Name": "france travail fuite du 2025-7-22",
@@ -37805,7 +37857,8 @@
         "france travail "
       ],
       "index": 1504,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "groupe 5àsec fuite du 2025-7-22",
@@ -37838,7 +37891,8 @@
         "groupe 5àsec "
       ],
       "index": 1505,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "orange fuite du 2025-7-25",
@@ -37871,7 +37925,8 @@
         "orange "
       ],
       "index": 1506,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "HelloCake",
