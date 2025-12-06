@@ -52,10 +52,9 @@ async function main() {
         process.on('SIGINT', saveAndExit); // Gérer Ctrl+C
     
         for (const entry of entriesToValidate) {
-            if (interrupted) break;
-    
-            console.log(chalk.cyan('\n----------------------------------------'));
-            console.log(chalk.bold.white(`Nom: ${entry.Name}`));
+                    if (interrupted) break;
+                    console.clear();
+                    console.log(chalk.cyan('\n----------------------------------------'));            console.log(chalk.bold.white(`Nom: ${entry.Name}`));
             console.log(chalk.white(`Titre: ${entry.Title}`));
             console.log(chalk.white(`Date de la brèche: ${entry.BreachDate}`));
             console.log(chalk.white(`Nombre de comptes affectés: ${entry.PwnCount.toLocaleString()}`));

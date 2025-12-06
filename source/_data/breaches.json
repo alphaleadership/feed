@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-06T14:49:26.501Z",
+  "lastUpdated": "2025-12-06T15:08:08.343Z",
   "totalBreaches": 2378,
   "breaches": [
     {
@@ -42,7 +42,8 @@
         "gPotato"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/gpotato"
+      "lien": "https://haveibeenpwned.com/Breach/gpotato",
+      "validated": true
     },
     {
       "Name": "FoxyBingo",
@@ -85,7 +86,8 @@
         "FoxyBingo"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/foxybingo"
+      "lien": "https://haveibeenpwned.com/Breach/foxybingo",
+      "validated": true
     },
     {
       "Name": "MySpace",
@@ -120,7 +122,8 @@
         "MySpace"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/myspace"
+      "lien": "https://haveibeenpwned.com/Breach/myspace",
+      "validated": true
     },
     {
       "Name": "BabyNames",
@@ -154,7 +157,8 @@
         "BabyNames"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/babynames"
+      "lien": "https://haveibeenpwned.com/Breach/babynames",
+      "validated": true
     },
     {
       "Name": "Elance",
@@ -192,7 +196,8 @@
         "Elance"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/elance"
+      "lien": "https://haveibeenpwned.com/Breach/elance",
+      "validated": true
     },
     {
       "Name": "MoneyBookers",
@@ -230,7 +235,8 @@
         "MoneyBookers"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/moneybookers"
+      "lien": "https://haveibeenpwned.com/Breach/moneybookers",
+      "validated": true
     },
     {
       "Name": "DivXSubTitles",
@@ -265,7 +271,8 @@
         "DivXSubTitles"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/divxsubtitles"
+      "lien": "https://haveibeenpwned.com/Breach/divxsubtitles",
+      "validated": true
     },
     {
       "Name": "Neteller",
@@ -307,7 +314,8 @@
         "Neteller"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/neteller"
+      "lien": "https://haveibeenpwned.com/Breach/neteller",
+      "validated": true
     },
     {
       "Name": "PaddyPower",
@@ -349,7 +357,8 @@
         "PaddyPower"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/paddypower"
+      "lien": "https://haveibeenpwned.com/Breach/paddypower",
+      "validated": true
     },
     {
       "Name": "Gawker",
@@ -384,7 +393,8 @@
         "Gawker"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/gawker"
+      "lien": "https://haveibeenpwned.com/Breach/gawker",
+      "validated": true
     },
     {
       "Name": "7k7k",
@@ -419,7 +429,8 @@
         "7k7k"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/7k7k"
+      "lien": "https://haveibeenpwned.com/Breach/7k7k",
+      "validated": true
     },
     {
       "Name": "Duowan",
@@ -454,7 +465,8 @@
         "Duowan"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/duowan"
+      "lien": "https://haveibeenpwned.com/Breach/duowan",
+      "validated": true
     },
     {
       "Name": "Zoosk",
@@ -488,7 +500,8 @@
         "Zoosk"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/zoosk"
+      "lien": "https://haveibeenpwned.com/Breach/zoosk",
+      "validated": true
     },
     {
       "Name": "Fling",
@@ -531,7 +544,8 @@
         "Fling"
       ],
       "isNSFW": true,
-      "lien": "https://haveibeenpwned.com/Breach/fling"
+      "lien": "https://haveibeenpwned.com/Breach/fling",
+      "validated": true
     },
     {
       "Name": "Dangdang",
@@ -564,7 +578,8 @@
         "Dangdang"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/dangdang"
+      "lien": "https://haveibeenpwned.com/Breach/dangdang",
+      "validated": true
     },
     {
       "Name": "QIP",
@@ -600,7 +615,8 @@
         "QIP"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/qip"
+      "lien": "https://haveibeenpwned.com/Breach/qip",
+      "validated": true
     },
     {
       "Name": "Sony",
@@ -640,7 +656,8 @@
         "Sony"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/sony"
+      "lien": "https://haveibeenpwned.com/Breach/sony",
+      "validated": true
     },
     {
       "Name": "HackForums",
@@ -683,7 +700,8 @@
         "HackForums"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/hackforums"
+      "lien": "https://haveibeenpwned.com/Breach/hackforums",
+      "validated": true
     },
     {
       "Name": "BattlefieldHeroes",
@@ -717,7 +735,8 @@
         "BattlefieldHeroes"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/battlefieldheroes"
+      "lien": "https://haveibeenpwned.com/Breach/battlefieldheroes",
+      "validated": true
     },
     {
       "Name": "CivilOnline",
@@ -754,7 +773,8 @@
         "CivilOnline"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/civilonline"
+      "lien": "https://haveibeenpwned.com/Breach/civilonline",
+      "validated": true
     },
     {
       "Name": "AndroidForums",
@@ -792,7 +812,8 @@
         "AndroidForums"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/androidforums"
+      "lien": "https://haveibeenpwned.com/Breach/androidforums",
+      "validated": true
     },
     {
       "Name": "Dodonew",
@@ -826,7 +847,8 @@
         "Dodonew"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/dodonew"
+      "lien": "https://haveibeenpwned.com/Breach/dodonew",
+      "validated": true
     },
     {
       "Name": "Hemmelig",
@@ -864,7 +886,8 @@
         "Hemmelig"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/hemmelig"
+      "lien": "https://haveibeenpwned.com/Breach/hemmelig",
+      "validated": true
     },
     {
       "Name": "Zhenai",
@@ -898,7 +921,8 @@
         "Zhenai"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/zhenai"
+      "lien": "https://haveibeenpwned.com/Breach/zhenai",
+      "validated": true
     },
     {
       "Name": "Stratfor",
@@ -937,7 +961,8 @@
         "Stratfor"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/stratfor"
+      "lien": "https://haveibeenpwned.com/Breach/stratfor",
+      "validated": true
     },
     {
       "Name": "Tianya",
@@ -972,7 +997,8 @@
         "Tianya"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/tianya"
+      "lien": "https://haveibeenpwned.com/Breach/tianya",
+      "validated": true
     },
     {
       "Name": "17173",
@@ -1007,7 +1033,8 @@
         "17173"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/17173"
+      "lien": "https://haveibeenpwned.com/Breach/17173",
+      "validated": true
     },
     {
       "Name": "126",
@@ -1041,7 +1068,8 @@
         "126"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/126"
+      "lien": "https://haveibeenpwned.com/Breach/126",
+      "validated": true
     },
     {
       "Name": "Taobao",
@@ -1075,7 +1103,8 @@
         "Taobao"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/taobao"
+      "lien": "https://haveibeenpwned.com/Breach/taobao",
+      "validated": true
     },
     {
       "Name": "VK",
@@ -1111,7 +1140,8 @@
         "VK"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/vk"
+      "lien": "https://haveibeenpwned.com/Breach/vk",
+      "validated": true
     },
     {
       "Name": "YouPorn",
@@ -1145,7 +1175,8 @@
         "YouPorn"
       ],
       "isNSFW": true,
-      "lien": "https://haveibeenpwned.com/Breach/youporn"
+      "lien": "https://haveibeenpwned.com/Breach/youporn",
+      "validated": true
     },
     {
       "Name": "Gamigo",
@@ -1179,7 +1210,8 @@
         "Gamigo"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/gamigo"
+      "lien": "https://haveibeenpwned.com/Breach/gamigo",
+      "validated": true
     },
     {
       "Name": "JobStreet",
@@ -1223,7 +1255,8 @@
         "JobStreet"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/jobstreet"
+      "lien": "https://haveibeenpwned.com/Breach/jobstreet",
+      "validated": true
     },
     {
       "Name": "Lastfm",
@@ -1259,7 +1292,8 @@
         "Lastfm"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/lastfm"
+      "lien": "https://haveibeenpwned.com/Breach/lastfm",
+      "validated": true
     },
     {
       "Name": "LinkedIn",
@@ -1293,7 +1327,8 @@
         "LinkedIn"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/linkedin"
+      "lien": "https://haveibeenpwned.com/Breach/linkedin",
+      "validated": true
     },
     {
       "Name": "WHMCS",
@@ -1335,7 +1370,8 @@
         "WHMCS"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/whmcs"
+      "lien": "https://haveibeenpwned.com/Breach/whmcs",
+      "validated": true
     },
     {
       "Name": "LeagueOfLegends",
@@ -1370,7 +1406,8 @@
         "LeagueOfLegends"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/leagueoflegends"
+      "lien": "https://haveibeenpwned.com/Breach/leagueoflegends",
+      "validated": true
     },
     {
       "Name": "Disqus",
@@ -1405,7 +1442,8 @@
         "Disqus"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/disqus"
+      "lien": "https://haveibeenpwned.com/Breach/disqus",
+      "validated": true
     },
     {
       "Name": "Dropbox",
@@ -1439,7 +1477,8 @@
         "Dropbox"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/dropbox"
+      "lien": "https://haveibeenpwned.com/Breach/dropbox",
+      "validated": true
     },
     {
       "Name": "WarInc",
@@ -1475,7 +1514,8 @@
         "WarInc"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/warinc"
+      "lien": "https://haveibeenpwned.com/Breach/warinc",
+      "validated": true
     },
     {
       "Name": "Yahoo",
@@ -1509,7 +1549,8 @@
         "Yahoo"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/yahoo"
+      "lien": "https://haveibeenpwned.com/Breach/yahoo",
+      "validated": true
     },
     {
       "Name": "Xiaomi",
@@ -1545,7 +1586,8 @@
         "Xiaomi"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/xiaomi"
+      "lien": "https://haveibeenpwned.com/Breach/xiaomi",
+      "validated": true
     },
     {
       "Name": "Lookbook",
@@ -1584,7 +1626,8 @@
         "Lookbook"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/lookbook"
+      "lien": "https://haveibeenpwned.com/Breach/lookbook",
+      "validated": true
     },
     {
       "Name": "Netlog",
@@ -1618,7 +1661,8 @@
         "Netlog"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/netlog"
+      "lien": "https://haveibeenpwned.com/Breach/netlog",
+      "validated": true
     },
     {
       "Name": "BookCrossing",
@@ -1657,7 +1701,8 @@
         "BookCrossing"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/bookcrossing"
+      "lien": "https://haveibeenpwned.com/Breach/bookcrossing",
+      "validated": true
     },
     {
       "Name": "HeroesOfNewerth",
@@ -1692,7 +1737,8 @@
         "HeroesOfNewerth"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/heroesofnewerth"
+      "lien": "https://haveibeenpwned.com/Breach/heroesofnewerth",
+      "validated": true
     },
     {
       "Name": "FaceUP",
@@ -1731,7 +1777,8 @@
         "FaceUP"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/faceup"
+      "lien": "https://haveibeenpwned.com/Breach/faceup",
+      "validated": true
     },
     {
       "Name": "JD",
@@ -1767,7 +1814,8 @@
         "JD"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/jd"
+      "lien": "https://haveibeenpwned.com/Breach/jd",
+      "validated": true
     },
     {
       "Name": "OMGPOP",
@@ -1801,7 +1849,8 @@
         "OMGPOP"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/omgpop"
+      "lien": "https://haveibeenpwned.com/Breach/omgpop",
+      "validated": true
     },
     {
       "Name": "HeroesOfGaia",
@@ -1838,7 +1887,8 @@
         "HeroesOfGaia"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/heroesofgaia"
+      "lien": "https://haveibeenpwned.com/Breach/heroesofgaia",
+      "validated": true
     },
     {
       "Name": "Tumblr",
@@ -1872,7 +1922,8 @@
         "Tumblr"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/tumblr"
+      "lien": "https://haveibeenpwned.com/Breach/tumblr",
+      "validated": true
     },
     {
       "Name": "Brazzers",
@@ -1907,7 +1958,8 @@
         "Brazzers"
       ],
       "isNSFW": true,
-      "lien": "https://haveibeenpwned.com/Breach/brazzers"
+      "lien": "https://haveibeenpwned.com/Breach/brazzers",
+      "validated": true
     },
     {
       "Name": "DDO",
@@ -1945,7 +1997,8 @@
         "DDO"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/ddo"
+      "lien": "https://haveibeenpwned.com/Breach/ddo",
+      "validated": true
     },
     {
       "Name": "Neopets",
@@ -1985,7 +2038,8 @@
         "Neopets"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/neopets"
+      "lien": "https://haveibeenpwned.com/Breach/neopets",
+      "validated": true
     },
     {
       "Name": "NonNudeGirls",
@@ -2023,7 +2077,8 @@
         "NonNudeGirls"
       ],
       "isNSFW": true,
-      "lien": "https://haveibeenpwned.com/Breach/nonnudegirls"
+      "lien": "https://haveibeenpwned.com/Breach/nonnudegirls",
+      "validated": true
     },
     {
       "Name": "AhaShare",
@@ -2063,7 +2118,8 @@
         "AhaShare"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/ahashare"
+      "lien": "https://haveibeenpwned.com/Breach/ahashare",
+      "validated": true
     },
     {
       "Name": "Badoo",
@@ -2101,7 +2157,8 @@
         "Badoo"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/badoo"
+      "lien": "https://haveibeenpwned.com/Breach/badoo",
+      "validated": true
     },
     {
       "Name": "Yam",
@@ -2140,7 +2197,8 @@
         "Yam"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/yam"
+      "lien": "https://haveibeenpwned.com/Breach/yam",
+      "validated": true
     },
     {
       "Name": "NexusMods",
@@ -2175,7 +2233,8 @@
         "NexusMods"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/nexusmods"
+      "lien": "https://haveibeenpwned.com/Breach/nexusmods",
+      "validated": true
     },
     {
       "Name": "LOTR",
@@ -2213,7 +2272,8 @@
         "LOTR"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/lotr"
+      "lien": "https://haveibeenpwned.com/Breach/lotr",
+      "validated": true
     },
     {
       "Name": "LoungeBoard",
@@ -2252,7 +2312,8 @@
         "LoungeBoard"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/loungeboard"
+      "lien": "https://haveibeenpwned.com/Breach/loungeboard",
+      "validated": true
     },
     {
       "Name": "OwnedCore",
@@ -2288,7 +2349,8 @@
         "OwnedCore"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/ownedcore"
+      "lien": "https://haveibeenpwned.com/Breach/ownedcore",
+      "validated": true
     },
     {
       "Name": "Evite",
@@ -2327,7 +2389,8 @@
         "Evite"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/evite"
+      "lien": "https://haveibeenpwned.com/Breach/evite",
+      "validated": true
     },
     {
       "Name": "DragonNest",
@@ -2363,7 +2426,8 @@
         "DragonNest"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/dragonnest"
+      "lien": "https://haveibeenpwned.com/Breach/dragonnest",
+      "validated": true
     },
     {
       "Name": "imgur",
@@ -2397,7 +2461,8 @@
         "imgur"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/imgur"
+      "lien": "https://haveibeenpwned.com/Breach/imgur",
+      "validated": true
     },
     {
       "Name": "Yatra",
@@ -2436,7 +2501,8 @@
         "Yatra"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/yatra"
+      "lien": "https://haveibeenpwned.com/Breach/yatra",
+      "validated": true
     },
     {
       "Name": "Win7Vista",
@@ -2476,7 +2542,8 @@
         "Win7Vista"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/win7vista"
+      "lien": "https://haveibeenpwned.com/Breach/win7vista",
+      "validated": true
     },
     {
       "Name": "CrackCommunity",
@@ -2513,7 +2580,8 @@
         "CrackCommunity"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/crackcommunity"
+      "lien": "https://haveibeenpwned.com/Breach/crackcommunity",
+      "validated": true
     },
     {
       "Name": "iMesh",
@@ -2549,7 +2617,8 @@
         "iMesh"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/imesh"
+      "lien": "https://haveibeenpwned.com/Breach/imesh",
+      "validated": true
     },
     {
       "Name": "Adobe",
@@ -2585,7 +2654,8 @@
         "Adobe"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/adobe"
+      "lien": "https://haveibeenpwned.com/Breach/adobe",
+      "validated": true
     },
     {
       "Name": "MechoDownload",
@@ -2621,7 +2691,8 @@
         "MechoDownload"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/mechodownload"
+      "lien": "https://haveibeenpwned.com/Breach/mechodownload",
+      "validated": true
     },
     {
       "Name": "WeHeartIt",
@@ -2656,7 +2727,8 @@
         "WeHeartIt"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/weheartit"
+      "lien": "https://haveibeenpwned.com/Breach/weheartit",
+      "validated": true
     },
     {
       "Name": "XSplit",
@@ -2692,7 +2764,8 @@
         "XSplit"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/xsplit"
+      "lien": "https://haveibeenpwned.com/Breach/xsplit",
+      "validated": true
     },
     {
       "Name": "Vodafone",
@@ -2735,7 +2808,8 @@
         "Vodafone"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/vodafone"
+      "lien": "https://haveibeenpwned.com/Breach/vodafone",
+      "validated": true
     },
     {
       "Name": "PixelFederation",
@@ -2769,7 +2843,8 @@
         "PixelFederation"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/pixelfederation"
+      "lien": "https://haveibeenpwned.com/Breach/pixelfederation",
+      "validated": true
     },
     {
       "Name": "TorrentInvites",
@@ -2807,7 +2882,8 @@
         "TorrentInvites"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/torrentinvites"
+      "lien": "https://haveibeenpwned.com/Breach/torrentinvites",
+      "validated": true
     },
     {
       "Name": "AstroPID",
@@ -2847,7 +2923,8 @@
         "AstroPID"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/astropid"
+      "lien": "https://haveibeenpwned.com/Breach/astropid",
+      "validated": true
     },
     {
       "Name": "HIAPK",
@@ -2882,7 +2959,8 @@
         "HIAPK"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/hiapk"
+      "lien": "https://haveibeenpwned.com/Breach/hiapk",
+      "validated": true
     },
     {
       "Name": "Reverb-Nation",
@@ -2916,7 +2994,8 @@
         "Reverb-Nation"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/reverb-nation"
+      "lien": "https://haveibeenpwned.com/Breach/reverb-nation",
+      "validated": true
     },
     {
       "Name": "Snapchat",
@@ -2951,7 +3030,8 @@
         "Snapchat"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/snapchat"
+      "lien": "https://haveibeenpwned.com/Breach/snapchat",
+      "validated": true
     },
     {
       "Name": "ThisHabboForum",
@@ -2987,7 +3067,8 @@
         "ThisHabboForum"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/thishabboforum"
+      "lien": "https://haveibeenpwned.com/Breach/thishabboforum",
+      "validated": true
     },
     {
       "Name": "WPT",
@@ -3021,7 +3102,8 @@
         "WPT"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/wpt"
+      "lien": "https://haveibeenpwned.com/Breach/wpt",
+      "validated": true
     },
     {
       "Name": "BTSec",
@@ -3055,7 +3137,8 @@
         "BTSec"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/btsec"
+      "lien": "https://haveibeenpwned.com/Breach/btsec",
+      "validated": true
     },
     {
       "Name": "Verified",
@@ -3094,7 +3177,8 @@
         "Verified"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/verified"
+      "lien": "https://haveibeenpwned.com/Breach/verified",
+      "validated": true
     },
     {
       "Name": "Bell",
@@ -3130,7 +3214,8 @@
         "Bell"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/bell"
+      "lien": "https://haveibeenpwned.com/Breach/bell",
+      "validated": true
     },
     {
       "Name": "CannabisForum",
@@ -3172,7 +3257,8 @@
         "CannabisForum"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/cannabisforum"
+      "lien": "https://haveibeenpwned.com/Breach/cannabisforum",
+      "validated": true
     },
     {
       "Name": "CouponMomAndArmorGames",
@@ -3206,7 +3292,8 @@
         "CouponMomAndArmorGames"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/couponmomandarmorgames"
+      "lien": "https://haveibeenpwned.com/Breach/couponmomandarmorgames",
+      "validated": true
     },
     {
       "Name": "Tesco",
@@ -3241,7 +3328,8 @@
         "Tesco"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/tesco"
+      "lien": "https://haveibeenpwned.com/Breach/tesco",
+      "validated": true
     },
     {
       "Name": "Forbes",
@@ -3277,7 +3365,8 @@
         "Forbes"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/forbes"
+      "lien": "https://haveibeenpwned.com/Breach/forbes",
+      "validated": true
     },
     {
       "Name": "Kickstarter",
@@ -3311,7 +3400,8 @@
         "Kickstarter"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/kickstarter"
+      "lien": "https://haveibeenpwned.com/Breach/kickstarter",
+      "validated": true
     },
     {
       "Name": "MuslimDirectory",
@@ -3351,7 +3441,8 @@
         "MuslimDirectory"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/muslimdirectory"
+      "lien": "https://haveibeenpwned.com/Breach/muslimdirectory",
+      "validated": true
     },
     {
       "Name": "IGF",
@@ -3387,7 +3478,8 @@
         "IGF"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/igf"
+      "lien": "https://haveibeenpwned.com/Breach/igf",
+      "validated": true
     },
     {
       "Name": "Spirol",
@@ -3425,7 +3517,8 @@
         "Spirol"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/spirol"
+      "lien": "https://haveibeenpwned.com/Breach/spirol",
+      "validated": true
     },
     {
       "Name": "Rambler",
@@ -3460,7 +3553,8 @@
         "Rambler"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/rambler"
+      "lien": "https://haveibeenpwned.com/Breach/rambler",
+      "validated": true
     },
     {
       "Name": "QuantumBooter",
@@ -3498,7 +3592,8 @@
         "QuantumBooter"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/quantumbooter"
+      "lien": "https://haveibeenpwned.com/Breach/quantumbooter",
+      "validated": true
     },
     {
       "Name": "Boxee",
@@ -3540,7 +3635,8 @@
         "Boxee"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/boxee"
+      "lien": "https://haveibeenpwned.com/Breach/boxee",
+      "validated": true
     },
     {
       "Name": "BigMoneyJobs",
@@ -3582,7 +3678,8 @@
         "BigMoneyJobs"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/bigmoneyjobs"
+      "lien": "https://haveibeenpwned.com/Breach/bigmoneyjobs",
+      "validated": true
     },
     {
       "Name": "CafeMom",
@@ -3616,7 +3713,8 @@
         "CafeMom"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/cafemom"
+      "lien": "https://haveibeenpwned.com/Breach/cafemom",
+      "validated": true
     },
     {
       "Name": "NextGenUpdate",
@@ -3652,7 +3750,8 @@
         "NextGenUpdate"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/nextgenupdate"
+      "lien": "https://haveibeenpwned.com/Breach/nextgenupdate",
+      "validated": true
     },
     {
       "Name": "BusinessAcumen",
@@ -3689,7 +3788,8 @@
         "BusinessAcumen"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/businessacumen"
+      "lien": "https://haveibeenpwned.com/Breach/businessacumen",
+      "validated": true
     },
     {
       "Name": "Fridae",
@@ -3725,7 +3825,8 @@
         "Fridae"
       ],
       "isNSFW": true,
-      "lien": "https://haveibeenpwned.com/Breach/fridae"
+      "lien": "https://haveibeenpwned.com/Breach/fridae",
+      "validated": true
     },
     {
       "Name": "Bitly",
@@ -3760,7 +3861,8 @@
         "Bitly"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/bitly"
+      "lien": "https://haveibeenpwned.com/Breach/bitly",
+      "validated": true
     },
     {
       "Name": "Avast",
@@ -3795,7 +3897,8 @@
         "Avast"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/avast"
+      "lien": "https://haveibeenpwned.com/Breach/avast",
+      "validated": true
     },
     {
       "Name": "MangaTraders",
@@ -3829,7 +3932,8 @@
         "MangaTraders"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/mangatraders"
+      "lien": "https://haveibeenpwned.com/Breach/mangatraders",
+      "validated": true
     },
     {
       "Name": "Dominos",
@@ -3866,7 +3970,8 @@
         "Dominos"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/dominos"
+      "lien": "https://haveibeenpwned.com/Breach/dominos",
+      "validated": true
     },
     {
       "Name": "SumoTorrent",
@@ -3903,7 +4008,8 @@
         "SumoTorrent"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/sumotorrent"
+      "lien": "https://haveibeenpwned.com/Breach/sumotorrent",
+      "validated": true
     },
     {
       "Name": "BlackHatWorld",
@@ -3942,7 +4048,8 @@
         "BlackHatWorld"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/blackhatworld"
+      "lien": "https://haveibeenpwned.com/Breach/blackhatworld",
+      "validated": true
     },
     {
       "Name": "PoliceOne",
@@ -3978,7 +4085,8 @@
         "PoliceOne"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/policeone"
+      "lien": "https://haveibeenpwned.com/Breach/policeone",
+      "validated": true
     },
     {
       "Name": "Insanelyi",
@@ -4014,7 +4122,8 @@
         "Insanelyi"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/insanelyi"
+      "lien": "https://haveibeenpwned.com/Breach/insanelyi",
+      "validated": true
     },
     {
       "Name": "PokemonCreed",
@@ -4052,7 +4161,8 @@
         "PokemonCreed"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/pokemoncreed"
+      "lien": "https://haveibeenpwned.com/Breach/pokemoncreed",
+      "validated": true
     },
     {
       "Name": "DietCom",
@@ -4092,7 +4202,8 @@
         "DietCom"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/dietcom"
+      "lien": "https://haveibeenpwned.com/Breach/dietcom",
+      "validated": true
     },
     {
       "Name": "Banorte",
@@ -4131,7 +4242,8 @@
         "Banorte"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/banorte"
+      "lien": "https://haveibeenpwned.com/Breach/banorte",
+      "validated": true
     },
     {
       "Name": "Vermillion",
@@ -4168,7 +4280,8 @@
         "Vermillion"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/vermillion"
+      "lien": "https://haveibeenpwned.com/Breach/vermillion",
+      "validated": true
     },
     {
       "Name": "BinWeevils",
@@ -4206,7 +4319,8 @@
         "BinWeevils"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/binweevils"
+      "lien": "https://haveibeenpwned.com/Breach/binweevils",
+      "validated": true
     },
     {
       "Name": "Powerbot",
@@ -4242,7 +4356,8 @@
         "Powerbot"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/powerbot"
+      "lien": "https://haveibeenpwned.com/Breach/powerbot",
+      "validated": true
     },
     {
       "Name": "Yandex",
@@ -4276,7 +4391,8 @@
         "Yandex"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/yandex"
+      "lien": "https://haveibeenpwned.com/Breach/yandex",
+      "validated": true
     },
     {
       "Name": "MailRu",
@@ -4310,7 +4426,8 @@
         "MailRu"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/mailru"
+      "lien": "https://haveibeenpwned.com/Breach/mailru",
+      "validated": true
     },
     {
       "Name": "Tout",
@@ -4349,7 +4466,8 @@
         "Tout"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/tout"
+      "lien": "https://haveibeenpwned.com/Breach/tout",
+      "validated": true
     },
     {
       "Name": "9Lives",
@@ -4384,7 +4502,8 @@
         "9Lives"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/9lives"
+      "lien": "https://haveibeenpwned.com/Breach/9lives",
+      "validated": true
     },
     {
       "Name": "BTCE",
@@ -4422,7 +4541,8 @@
         "BTCE"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/btce"
+      "lien": "https://haveibeenpwned.com/Breach/btce",
+      "validated": true
     },
     {
       "Name": "ILikeCheats",
@@ -4458,7 +4578,8 @@
         "ILikeCheats"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/ilikecheats"
+      "lien": "https://haveibeenpwned.com/Breach/ilikecheats",
+      "validated": true
     },
     {
       "Name": "BotOfLegends",
@@ -4495,7 +4616,8 @@
         "BotOfLegends"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/botoflegends"
+      "lien": "https://haveibeenpwned.com/Breach/botoflegends",
+      "validated": true
     },
     {
       "Name": "Malwarebytes",
@@ -4533,7 +4655,8 @@
         "Malwarebytes"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/malwarebytes"
+      "lien": "https://haveibeenpwned.com/Breach/malwarebytes",
+      "validated": true
     },
     {
       "Name": "Warframe",
@@ -4568,7 +4691,8 @@
         "Warframe"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/warframe"
+      "lien": "https://haveibeenpwned.com/Breach/warframe",
+      "validated": true
     },
     {
       "Name": "AcneOrg",
@@ -4605,7 +4729,8 @@
         "AcneOrg"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/acneorg"
+      "lien": "https://haveibeenpwned.com/Breach/acneorg",
+      "validated": true
     },
     {
       "Name": "Solomid",
@@ -4641,7 +4766,8 @@
         "Solomid"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/solomid"
+      "lien": "https://haveibeenpwned.com/Breach/solomid",
+      "validated": true
     },
     {
       "Name": "BleachAnime",
@@ -4676,7 +4802,8 @@
         "BleachAnime"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/bleachanime"
+      "lien": "https://haveibeenpwned.com/Breach/bleachanime",
+      "validated": true
     },
     {
       "Name": "LizardSquad",
@@ -4711,7 +4838,8 @@
         "LizardSquad"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/lizardsquad"
+      "lien": "https://haveibeenpwned.com/Breach/lizardsquad",
+      "validated": true
     },
     {
       "Name": "PSX-Scene",
@@ -4747,7 +4875,8 @@
         "PSX-Scene"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/psx-scene"
+      "lien": "https://haveibeenpwned.com/Breach/psx-scene",
+      "validated": true
     },
     {
       "Name": "Xbox-Scene",
@@ -4783,7 +4912,8 @@
         "Xbox-Scene"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/xbox-scene"
+      "lien": "https://haveibeenpwned.com/Breach/xbox-scene",
+      "validated": true
     },
     {
       "Name": "Flashback",
@@ -4818,7 +4948,8 @@
         "Flashback"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/flashback"
+      "lien": "https://haveibeenpwned.com/Breach/flashback",
+      "validated": true
     },
     {
       "Name": "MyFHA",
@@ -4859,7 +4990,8 @@
         "MyFHA"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/myfha"
+      "lien": "https://haveibeenpwned.com/Breach/myfha",
+      "validated": true
     },
     {
       "Name": "StarNet",
@@ -4901,7 +5033,8 @@
         "StarNet"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/starnet"
+      "lien": "https://haveibeenpwned.com/Breach/starnet",
+      "validated": true
     },
     {
       "Name": "000webhost",
@@ -4937,7 +5070,8 @@
         "000webhost"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/000webhost"
+      "lien": "https://haveibeenpwned.com/Breach/000webhost",
+      "validated": true
     },
     {
       "Name": "GameTuts",
@@ -4973,7 +5107,8 @@
         "GameTuts"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/gametuts"
+      "lien": "https://haveibeenpwned.com/Breach/gametuts",
+      "validated": true
     },
     {
       "Name": "HongFire",
@@ -5010,7 +5145,8 @@
         "HongFire"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/hongfire"
+      "lien": "https://haveibeenpwned.com/Breach/hongfire",
+      "validated": true
     },
     {
       "Name": "Snail",
@@ -5046,7 +5182,8 @@
         "Snail"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/snail"
+      "lien": "https://haveibeenpwned.com/Breach/snail",
+      "validated": true
     },
     {
       "Name": "SweClockers",
@@ -5081,7 +5218,8 @@
         "SweClockers"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/sweclockers"
+      "lien": "https://haveibeenpwned.com/Breach/sweclockers",
+      "validated": true
     },
     {
       "Name": "SCDailyPhoneSpamList",
@@ -5119,7 +5257,8 @@
         "SCDailyPhoneSpamList"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/scdailyphonespamlist"
+      "lien": "https://haveibeenpwned.com/Breach/scdailyphonespamlist",
+      "validated": true
     },
     {
       "Name": "TRAI",
@@ -5153,7 +5292,8 @@
         "TRAI"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/trai"
+      "lien": "https://haveibeenpwned.com/Breach/trai",
+      "validated": true
     },
     {
       "Name": "Kimsufi",
@@ -5189,7 +5329,8 @@
         "Kimsufi"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/kimsufi"
+      "lien": "https://haveibeenpwned.com/Breach/kimsufi",
+      "validated": true
     },
     {
       "Name": "OVH",
@@ -5225,7 +5366,8 @@
         "OVH"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/ovh"
+      "lien": "https://haveibeenpwned.com/Breach/ovh",
+      "validated": true
     },
     {
       "Name": "Evermotion",
@@ -5261,7 +5403,8 @@
         "Evermotion"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/evermotion"
+      "lien": "https://haveibeenpwned.com/Breach/evermotion",
+      "validated": true
     },
     {
       "Name": "SprashivaiRu",
@@ -5300,7 +5443,8 @@
         "SprashivaiRu"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/sprashivairu"
+      "lien": "https://haveibeenpwned.com/Breach/sprashivairu",
+      "validated": true
     },
     {
       "Name": "Gaadi",
@@ -5340,7 +5484,8 @@
         "Gaadi"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/gaadi"
+      "lien": "https://haveibeenpwned.com/Breach/gaadi",
+      "validated": true
     },
     {
       "Name": "mSpy",
@@ -5373,7 +5518,8 @@
         "mSpy"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/mspy"
+      "lien": "https://haveibeenpwned.com/Breach/mspy",
+      "validated": true
     },
     {
       "Name": "VNG",
@@ -5416,7 +5562,8 @@
         "VNG"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/vng"
+      "lien": "https://haveibeenpwned.com/Breach/vng",
+      "validated": true
     },
     {
       "Name": "AdultFriendFinder",
@@ -5458,7 +5605,8 @@
         "AdultFriendFinder"
       ],
       "isNSFW": true,
-      "lien": "https://haveibeenpwned.com/Breach/adultfriendfinder"
+      "lien": "https://haveibeenpwned.com/Breach/adultfriendfinder",
+      "validated": true
     },
     {
       "Name": "BitcoinTalk",
@@ -5498,7 +5646,8 @@
         "BitcoinTalk"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/bitcointalk"
+      "lien": "https://haveibeenpwned.com/Breach/bitcointalk",
+      "validated": true
     },
     {
       "Name": "MinecraftPocketEditionForum",
@@ -5534,7 +5683,8 @@
         "MinecraftPocketEditionForum"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/minecraftpocketeditionforum"
+      "lien": "https://haveibeenpwned.com/Breach/minecraftpocketeditionforum",
+      "validated": true
     },
     {
       "Name": "Eroticy",
@@ -5575,7 +5725,8 @@
         "Eroticy"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/eroticy"
+      "lien": "https://haveibeenpwned.com/Breach/eroticy",
+      "validated": true
     },
     {
       "Name": "Minefield",
@@ -5613,7 +5764,8 @@
         "Minefield"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/minefield"
+      "lien": "https://haveibeenpwned.com/Breach/minefield",
+      "validated": true
     },
     {
       "Name": "CheapAssGamer",
@@ -5649,7 +5801,8 @@
         "CheapAssGamer"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/cheapassgamer"
+      "lien": "https://haveibeenpwned.com/Breach/cheapassgamer",
+      "validated": true
     },
     {
       "Name": "iPmart",
@@ -5685,7 +5838,8 @@
         "iPmart"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/ipmart"
+      "lien": "https://haveibeenpwned.com/Breach/ipmart",
+      "validated": true
     },
     {
       "Name": "PS3Hax",
@@ -5721,7 +5875,8 @@
         "PS3Hax"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/ps3hax"
+      "lien": "https://haveibeenpwned.com/Breach/ps3hax",
+      "validated": true
     },
     {
       "Name": "QatarNationalBank",
@@ -5769,7 +5924,8 @@
         "QatarNationalBank"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/qatarnationalbank"
+      "lien": "https://haveibeenpwned.com/Breach/qatarnationalbank",
+      "validated": true
     },
     {
       "Name": "SvenskaMagic",
@@ -5804,7 +5960,8 @@
         "SvenskaMagic"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/svenskamagic"
+      "lien": "https://haveibeenpwned.com/Breach/svenskamagic",
+      "validated": true
     },
     {
       "Name": "Plex",
@@ -5840,7 +5997,8 @@
         "Plex"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/plex"
+      "lien": "https://haveibeenpwned.com/Breach/plex",
+      "validated": true
     },
     {
       "Name": "HackingTeam",
@@ -5874,7 +6032,8 @@
         "HackingTeam"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/hackingteam"
+      "lien": "https://haveibeenpwned.com/Breach/hackingteam",
+      "validated": true
     },
     {
       "Name": "myRepoSpace",
@@ -5910,7 +6069,8 @@
         "myRepoSpace"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/myrepospace"
+      "lien": "https://haveibeenpwned.com/Breach/myrepospace",
+      "validated": true
     },
     {
       "Name": "Hemmakvall",
@@ -5947,7 +6107,8 @@
         "Hemmakvall"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/hemmakvall"
+      "lien": "https://haveibeenpwned.com/Breach/hemmakvall",
+      "validated": true
     },
     {
       "Name": "WildStar",
@@ -5984,7 +6145,8 @@
         "WildStar"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/wildstar"
+      "lien": "https://haveibeenpwned.com/Breach/wildstar",
+      "validated": true
     },
     {
       "Name": "Seedpeer",
@@ -6019,7 +6181,8 @@
         "Seedpeer"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/seedpeer"
+      "lien": "https://haveibeenpwned.com/Breach/seedpeer",
+      "validated": true
     },
     {
       "Name": "Soundwave",
@@ -6058,7 +6221,8 @@
         "Soundwave"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/soundwave"
+      "lien": "https://haveibeenpwned.com/Breach/soundwave",
+      "validated": true
     },
     {
       "Name": "AshleyMadison",
@@ -6103,7 +6267,8 @@
         "AshleyMadison"
       ],
       "isNSFW": true,
-      "lien": "https://haveibeenpwned.com/Breach/ashleymadison"
+      "lien": "https://haveibeenpwned.com/Breach/ashleymadison",
+      "validated": true
     },
     {
       "Name": "Pokebip",
@@ -6141,7 +6306,8 @@
         "Pokebip"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/pokebip"
+      "lien": "https://haveibeenpwned.com/Breach/pokebip",
+      "validated": true
     },
     {
       "Name": "StoryBird",
@@ -6177,7 +6343,8 @@
         "StoryBird"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/storybird"
+      "lien": "https://haveibeenpwned.com/Breach/storybird",
+      "validated": true
     },
     {
       "Name": "MyVidster",
@@ -6212,7 +6379,8 @@
         "MyVidster"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/myvidster"
+      "lien": "https://haveibeenpwned.com/Breach/myvidster",
+      "validated": true
     },
     {
       "Name": "ClearVoiceSurveys",
@@ -6252,7 +6420,8 @@
         "ClearVoiceSurveys"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/clearvoicesurveys"
+      "lien": "https://haveibeenpwned.com/Breach/clearvoicesurveys",
+      "validated": true
     },
     {
       "Name": "TheCandidBoard",
@@ -6291,7 +6460,8 @@
         "TheCandidBoard"
       ],
       "isNSFW": true,
-      "lien": "https://haveibeenpwned.com/Breach/thecandidboard"
+      "lien": "https://haveibeenpwned.com/Breach/thecandidboard",
+      "validated": true
     },
     {
       "Name": "Experian",
@@ -6336,7 +6506,8 @@
         "Experian"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/experian"
+      "lien": "https://haveibeenpwned.com/Breach/experian",
+      "validated": true
     },
     {
       "Name": "FFShrine",
@@ -6372,7 +6543,8 @@
         "FFShrine"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/ffshrine"
+      "lien": "https://haveibeenpwned.com/Breach/ffshrine",
+      "validated": true
     },
     {
       "Name": "PSPISO",
@@ -6408,7 +6580,8 @@
         "PSPISO"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/pspiso"
+      "lien": "https://haveibeenpwned.com/Breach/pspiso",
+      "validated": true
     },
     {
       "Name": "WIIUISO",
@@ -6444,7 +6617,8 @@
         "WIIUISO"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/wiiuiso"
+      "lien": "https://haveibeenpwned.com/Breach/wiiuiso",
+      "validated": true
     },
     {
       "Name": "Xbox360ISO",
@@ -6480,7 +6654,8 @@
         "Xbox360ISO"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/xbox360iso"
+      "lien": "https://haveibeenpwned.com/Breach/xbox360iso",
+      "validated": true
     },
     {
       "Name": "Patreon",
@@ -6518,7 +6693,8 @@
         "Patreon"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/patreon"
+      "lien": "https://haveibeenpwned.com/Breach/patreon",
+      "validated": true
     },
     {
       "Name": "SpecialKSpamList",
