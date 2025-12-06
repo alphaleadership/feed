@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-06T17:00:47.670Z",
+  "lastUpdated": "2025-12-06T17:09:01.387Z",
   "totalBreaches": 2378,
   "breaches": [
     {
@@ -32505,7 +32505,8 @@
         "AnimeLeague"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/animeleague"
+      "lien": "https://haveibeenpwned.com/Breach/animeleague",
+      "validated": true
     },
     {
       "Name": "RobloxDeveloperConference2024",
@@ -32540,7 +32541,8 @@
         "RobloxDeveloperConference2024"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/robloxdeveloperconference2024"
+      "lien": "https://haveibeenpwned.com/Breach/robloxdeveloperconference2024",
+      "validated": true
     },
     {
       "Name": "HuskyOwners",
@@ -32576,7 +32578,8 @@
         "HuskyOwners"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/huskyowners"
+      "lien": "https://haveibeenpwned.com/Breach/huskyowners",
+      "validated": true
     },
     {
       "Name": "LuLu",
@@ -32614,7 +32617,8 @@
         "LuLu"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/lulu"
+      "lien": "https://haveibeenpwned.com/Breach/lulu",
+      "validated": true
     },
     {
       "Name": "MSI",
@@ -32651,7 +32655,8 @@
         "MSI"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/msi"
+      "lien": "https://haveibeenpwned.com/Breach/msi",
+      "validated": true
     },
     {
       "Name": "TheHeritageFoundation",
@@ -32688,7 +32693,8 @@
         "TheHeritageFoundation"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/theheritagefoundation"
+      "lien": "https://haveibeenpwned.com/Breach/theheritagefoundation",
+      "validated": true
     },
     {
       "Name": "TelegramStealerLogs",
@@ -32722,7 +32728,8 @@
         "TelegramStealerLogs"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/telegramstealerlogs"
+      "lien": "https://haveibeenpwned.com/Breach/telegramstealerlogs",
+      "validated": true
     },
     {
       "Name": "Ubook",
@@ -32759,7 +32766,8 @@
         "Ubook"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/ubook"
+      "lien": "https://haveibeenpwned.com/Breach/ubook",
+      "validated": true
     },
     {
       "Name": "NotSOCRadar",
@@ -32792,7 +32800,8 @@
         "NotSOCRadar"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/notsocradar"
+      "lien": "https://haveibeenpwned.com/Breach/notsocradar",
+      "validated": true
     },
     {
       "Name": "ChrisLeong",
@@ -32833,7 +32842,8 @@
         "ChrisLeong"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/chrisleong"
+      "lien": "https://haveibeenpwned.com/Breach/chrisleong",
+      "validated": true
     },
     {
       "Name": "ExploreTalentAug2024",
@@ -32866,7 +32876,8 @@
         "ExploreTalentAug2024"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/exploretalentaug2024"
+      "lien": "https://haveibeenpwned.com/Breach/exploretalentaug2024",
+      "validated": true
     },
     {
       "Name": "schenkYOU",
@@ -32902,7 +32913,8 @@
         "schenkYOU"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/schenkyou"
+      "lien": "https://haveibeenpwned.com/Breach/schenkyou",
+      "validated": true
     },
     {
       "Name": "Tracki",
@@ -32936,7 +32948,8 @@
         "Tracki"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/tracki"
+      "lien": "https://haveibeenpwned.com/Breach/tracki",
+      "validated": true
     },
     {
       "Name": "MC2Data",
@@ -32971,7 +32984,8 @@
         "MC2Data"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/mc2data"
+      "lien": "https://haveibeenpwned.com/Breach/mc2data",
+      "validated": true
     },
     {
       "Name": "Boulanger",
@@ -33008,7 +33022,8 @@
         "Boulanger"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/boulanger"
+      "lien": "https://haveibeenpwned.com/Breach/boulanger",
+      "validated": true
     },
     {
       "Name": "Cultura",
@@ -33045,73 +33060,8 @@
         "Cultura"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/cultura"
-    },
-    {
-      "Name": "boulanger fuite du 2024-9-7",
-      "Title": "boulanger fuite du 2024-9-7",
-      "Domain": null,
-      "BreachDate": "2024-9-7",
-      "AddedDate": "2025-11-26T13:08:07.140Z",
-      "ModifiedDate": "2025-11-26T13:08:07.140Z",
-      "PwnCount": 0,
-      "Description": "-\r\n\r\nnom\r\nprénom\r\nadresse email\r\nadresse postale\r\nnuméro de téléphone\r\n\r\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "boulanger-fuite-du-2024-9-7",
-      "path": "https://www.lemondeinformatique.fr/actualites/lire-piratage-de-boulanger-des-centaines-de-milliers-de-clients-touches-94654.html",
-      "formattedDate": "2024-09-06",
-      "title": "boulanger fuite du 2024-9-7",
-      "date": "2024-9-7",
-      "lien": "https://www.lemondeinformatique.fr/actualites/lire-piratage-de-boulanger-des-centaines-de-milliers-de-clients-touches-94654.html",
-      "categories": [
-        "boulanger "
-      ],
-      "index": 866,
-      "isNSFW": false
-    },
-    {
-      "Name": "cultura fuite du 2024-9-10",
-      "Title": "cultura fuite du 2024-9-10",
-      "Domain": null,
-      "BreachDate": "2024-9-10",
-      "AddedDate": "2025-11-26T13:08:11.246Z",
-      "ModifiedDate": "2025-11-26T13:08:11.246Z",
-      "PwnCount": 0,
-      "Description": "-\r\n\r\nnom\r\nprénom\r\nadresse email\r\nadresse postale\r\nnuméro de téléphone\r\nhistorique des commandes\r\n\r\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cultura-fuite-du-2024-9-10",
-      "path": "https://next.ink/149551/boulanger-cultura-diviamobilites-les-fuites-de-donnees-se-multiplient/",
-      "formattedDate": "2024-09-09",
-      "title": "cultura fuite du 2024-9-10",
-      "date": "2024-9-10",
-      "lien": "https://next.ink/149551/boulanger-cultura-diviamobilites-les-fuites-de-donnees-se-multiplient/",
-      "categories": [
-        "cultura "
-      ],
-      "index": 867,
-      "isNSFW": false
+      "lien": "https://haveibeenpwned.com/Breach/cultura",
+      "validated": true
     },
     {
       "Name": "cybertek fuite du 2024-9-12",
@@ -33144,7 +33094,8 @@
         "cybertek "
       ],
       "index": 868,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "InstitutoNacionalDeDeportesDeChile",
@@ -33182,7 +33133,8 @@
         "InstitutoNacionalDeDeportesDeChile"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/institutonacionaldedeportesdechile"
+      "lien": "https://haveibeenpwned.com/Breach/institutonacionaldedeportesdechile",
+      "validated": true
     },
     {
       "Name": "assurance retraite fuite du 2024-9-13",
@@ -33215,7 +33167,8 @@
         "assurance retraite "
       ],
       "index": 870,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "Muah",
@@ -33249,7 +33202,8 @@
         "Muah"
       ],
       "isNSFW": true,
-      "lien": "https://haveibeenpwned.com/Breach/muah"
+      "lien": "https://haveibeenpwned.com/Breach/muah",
+      "validated": true
     },
     {
       "Name": "red by sfr fuite du 2024-9-18",
@@ -33282,7 +33236,8 @@
         "red by sfr "
       ],
       "index": 872,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "FrenchCitizens",
@@ -33321,7 +33276,8 @@
         "FrenchCitizens"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/frenchcitizens"
+      "lien": "https://haveibeenpwned.com/Breach/frenchcitizens",
+      "validated": true
     },
     {
       "Name": "InternetArchive",
@@ -33356,7 +33312,8 @@
         "InternetArchive"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/internetarchive"
+      "lien": "https://haveibeenpwned.com/Breach/internetarchive",
+      "validated": true
     },
     {
       "Name": "digiDirect",
@@ -33393,7 +33350,8 @@
         "digiDirect"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/digidirect"
+      "lien": "https://haveibeenpwned.com/Breach/digidirect",
+      "validated": true
     },
     {
       "Name": "meilleurtaux fuite du 2024-9-30",
@@ -33426,7 +33384,8 @@
         "meilleurtaux "
       ],
       "index": 876,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "Switch",
@@ -33462,7 +33421,8 @@
         "Switch"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/switch"
+      "lien": "https://haveibeenpwned.com/Breach/switch",
+      "validated": true
     },
     {
       "Name": "TheClubPenguinExperience",
@@ -33499,7 +33459,8 @@
         "TheClubPenguinExperience"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/theclubpenguinexperience"
+      "lien": "https://haveibeenpwned.com/Breach/theclubpenguinexperience",
+      "validated": true
     },
     {
       "Name": "Finsure",
@@ -33535,7 +33496,8 @@
         "Finsure"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/finsure"
+      "lien": "https://haveibeenpwned.com/Breach/finsure",
+      "validated": true
     },
     {
       "Name": "FlatEarthDave",
@@ -33574,7 +33536,8 @@
         "FlatEarthDave"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/flatearthdave"
+      "lien": "https://haveibeenpwned.com/Breach/flatearthdave",
+      "validated": true
     },
     {
       "Name": "Earth2",
@@ -33608,7 +33571,8 @@
         "Earth2"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/earth2"
+      "lien": "https://haveibeenpwned.com/Breach/earth2",
+      "validated": true
     },
     {
       "Name": "FreeMobile",
@@ -33646,7 +33610,8 @@
         "FreeMobile"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/freemobile"
+      "lien": "https://haveibeenpwned.com/Breach/freemobile",
+      "validated": true
     },
     {
       "Name": "HotTopic",
@@ -33687,7 +33652,8 @@
         "HotTopic"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/hottopic"
+      "lien": "https://haveibeenpwned.com/Breach/hottopic",
+      "validated": true
     },
     {
       "Name": "ornikar fuite du 2024-10-24",
@@ -33720,73 +33686,8 @@
         "ornikar "
       ],
       "index": 884,
-      "isNSFW": false
-    },
-    {
-      "Name": "free fuite du 2024-10-25",
-      "Title": "free fuite du 2024-10-25",
-      "Domain": null,
-      "BreachDate": "2024-10-25T00:00:00.000Z",
-      "AddedDate": "2025-11-26T13:08:15.801Z",
-      "ModifiedDate": "2025-11-26T13:08:15.801Z",
-      "PwnCount": 0,
-      "Description": "-\r\n\r\nnom\r\nprénom\r\ndate de naissance\r\nlieu de naissance\r\nadresse email\r\nadresse postale\r\nIBAN\r\nidentifiant abonné\r\ntype d’offre souscrite\r\ndate de souscription\r\nabonnement actif ou non\r\n\r\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "free-fuite-du-2024-10-25",
-      "path": "https://www.clubic.com/actualite-542138-cyberattaque-de-free-les-donnees-fuitees-ont-trouve-preneur-pour-175-000-dollars-voici-ce-que-ca-implique.html",
-      "formattedDate": "2024-10-25",
-      "title": "free fuite du 2024-10-25",
-      "date": "2024-10-25T00:00:00.000Z",
-      "lien": "https://www.clubic.com/actualite-542138-cyberattaque-de-free-les-donnees-fuitees-ont-trouve-preneur-pour-175-000-dollars-voici-ce-que-ca-implique.html",
-      "categories": [
-        "free "
-      ],
-      "index": 885,
-      "isNSFW": false
-    },
-    {
-      "Name": "free mobile fuite du 2024-10-25",
-      "Title": "free mobile fuite du 2024-10-25",
-      "Domain": null,
-      "BreachDate": "2024-10-25T00:00:00.000Z",
-      "AddedDate": "2025-11-26T13:08:16.051Z",
-      "ModifiedDate": "2025-11-26T13:08:16.051Z",
-      "PwnCount": 0,
-      "Description": "-\n\nnom\nprénom\ndate de naissance\nlieu de naissance\nadresse email\nadresse postale\nidentifiant abonné\ntype d’offre souscrite\ndate de souscription\nabonnement actif ou non\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "free-mobile-fuite-du-2024-10-25",
-      "path": "https://www.clubic.com/actualite-542138-cyberattaque-de-free-les-donnees-fuitees-ont-trouve-preneur-pour-175-000-dollars-voici-ce-que-ca-implique.html",
-      "formattedDate": "2024-10-25",
-      "title": "free mobile fuite du 2024-10-25",
-      "date": "2024-10-25T00:00:00.000Z",
-      "lien": "https://www.clubic.com/actualite-542138-cyberattaque-de-free-les-donnees-fuitees-ont-trouve-preneur-pour-175-000-dollars-voici-ce-que-ca-implique.html",
-      "categories": [
-        "free mobile "
-      ],
-      "index": 886,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "SuperDraft",
@@ -33824,304 +33725,8 @@
         "SuperDraft"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/superdraft"
-    },
-    {
-      "Name": "cve-2024-0105 fuite du 2024-11-1",
-      "Title": "cve-2024-0105 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:22.356Z",
-      "ModifiedDate": "2025-12-01T13:39:22.356Z",
-      "PwnCount": 0,
-      "Description": "-\n\nNVIDIA ConnectX Firmware contains a vulnerability where an attacker may cause an improper handling of insufficient privileges issue. A successful exploit of this vulnerability may lead to denial of service\ndata tampering\nand limited information disclosure. | CVSS Score 8.9 (HIGH)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-0105-fuite-du-2024-11-1",
-      "path": "CVE-2024-0105",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-0105 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-0105",
-      "categories": [
-        "cve-2024-0105 "
-      ],
-      "index": 888,
-      "isNSFW": false
-    },
-    {
-      "Name": "cve-2024-0106 fuite du 2024-11-1",
-      "Title": "cve-2024-0106 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:22.384Z",
-      "ModifiedDate": "2025-12-01T13:39:22.384Z",
-      "PwnCount": 0,
-      "Description": "-\n\nNVIDIA ConnectX Host Firmware for the BlueField Data Processing Unit (DPU) contains a vulnerability where an attacker may cause an improper handling of insufficient privileges issue. A successful exploit of this vulnerability may lead to denial of service\ndata tampering\nand limited information disclosure. | CVSS Score 8.7 (HIGH)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-0106-fuite-du-2024-11-1",
-      "path": "CVE-2024-0106",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-0106 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-0106",
-      "categories": [
-        "cve-2024-0106 "
-      ],
-      "index": 889,
-      "isNSFW": false
-    },
-    {
-      "Name": "cve-2024-10232 fuite du 2024-11-1",
-      "Title": "cve-2024-10232 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:22.494Z",
-      "ModifiedDate": "2025-12-01T13:39:22.494Z",
-      "PwnCount": 0,
-      "Description": "-\n\nThe Group Chat  Video Chat by AtomChat plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's atomchat shortcode in all versions up to\nand including\n1.1.5 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers\nwith contributor-level access and above\nto inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. | CVSS Score 6.4 (MEDIUM)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-10232-fuite-du-2024-11-1",
-      "path": "CVE-2024-10232",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-10232 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-10232",
-      "categories": [
-        "cve-2024-10232 "
-      ],
-      "index": 890,
-      "isNSFW": false
-    },
-    {
-      "Name": "cve-2024-10367 fuite du 2024-11-1",
-      "Title": "cve-2024-10367 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:22.653Z",
-      "ModifiedDate": "2025-12-01T13:39:22.653Z",
-      "PwnCount": 0,
-      "Description": "-\n\nThe Otter Blocks – Gutenberg Blocks\nPage Builder for Gutenberg Editor  FSE plugin for WordPress is vulnerable to Stored Cross-Site Scripting via REST API SVG File uploads in all versions up to\nand including\n3.0.4 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers\nwith Author-level access and above\nto inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file. | CVSS Score 6.4 (MEDIUM)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-10367-fuite-du-2024-11-1",
-      "path": "CVE-2024-10367",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-10367 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-10367",
-      "categories": [
-        "cve-2024-10367 "
-      ],
-      "index": 891,
-      "isNSFW": false
-    },
-    {
-      "Name": "cve-2024-10602 fuite du 2024-11-1",
-      "Title": "cve-2024-10602 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:22.763Z",
-      "ModifiedDate": "2025-12-01T13:39:22.763Z",
-      "PwnCount": 0,
-      "Description": "-\n\nA vulnerability was found in Tongda OA 2017 up to 11.9 and classified as critical. Affected by this issue is some unknown functionality of the file /general/approve_center/list/input_form/data_picker_link.php. The manipulation of the argument dataSrc leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. | CVSS Score 6.3 (MEDIUM)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-10602-fuite-du-2024-11-1",
-      "path": "CVE-2024-10602",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-10602 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-10602",
-      "categories": [
-        "cve-2024-10602 "
-      ],
-      "index": 892,
-      "isNSFW": false
-    },
-    {
-      "Name": "cve-2024-10605 fuite du 2024-11-1",
-      "Title": "cve-2024-10605 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:22.794Z",
-      "ModifiedDate": "2025-12-01T13:39:22.794Z",
-      "PwnCount": 0,
-      "Description": "-\n\nA vulnerability was found in code-projects Blood Bank Management System 1.0. It has been classified as problematic. This affects an unknown part of the file /file/request.php. The manipulation leads to cross-site request forgery. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. | CVSS Score 4.3 (MEDIUM)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-10605-fuite-du-2024-11-1",
-      "path": "CVE-2024-10605",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-10605 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-10605",
-      "categories": [
-        "cve-2024-10605 "
-      ],
-      "index": 893,
-      "isNSFW": false
-    },
-    {
-      "Name": "cve-2024-10607 fuite du 2024-11-1",
-      "Title": "cve-2024-10607 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:22.821Z",
-      "ModifiedDate": "2025-12-01T13:39:22.821Z",
-      "PwnCount": 0,
-      "Description": "-\n\nA vulnerability was found in code-projects Courier Management System 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /track-result.php. The manipulation of the argument Consignment leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. | CVSS Score 7.3 (HIGH)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-10607-fuite-du-2024-11-1",
-      "path": "CVE-2024-10607",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-10607 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-10607",
-      "categories": [
-        "cve-2024-10607 "
-      ],
-      "index": 894,
-      "isNSFW": false
-    },
-    {
-      "Name": "cve-2024-10608 fuite du 2024-11-1",
-      "Title": "cve-2024-10608 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:22.848Z",
-      "ModifiedDate": "2025-12-01T13:39:22.848Z",
-      "PwnCount": 0,
-      "Description": "-\n\nA vulnerability was found in code-projects Courier Management System 1.0. It has been rated as critical. This issue affects some unknown processing of the file /login.php. The manipulation of the argument txtusername leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. | CVSS Score 7.3 (HIGH)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-10608-fuite-du-2024-11-1",
-      "path": "CVE-2024-10608",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-10608 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-10608",
-      "categories": [
-        "cve-2024-10608 "
-      ],
-      "index": 895,
-      "isNSFW": false
-    },
-    {
-      "Name": "cve-2024-10609 fuite du 2024-11-1",
-      "Title": "cve-2024-10609 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:22.875Z",
-      "ModifiedDate": "2025-12-01T13:39:22.875Z",
-      "PwnCount": 0,
-      "Description": "-\n\nA vulnerability\nwhich was classified as critical\nwas found in itsourcecode Tailoring Management System Project 1.0. This affects an unknown part of the file typeadd.php. The manipulation of the argument sex leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. | CVSS Score 6.3 (MEDIUM)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-10609-fuite-du-2024-11-1",
-      "path": "CVE-2024-10609",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-10609 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-10609",
-      "categories": [
-        "cve-2024-10609 "
-      ],
-      "index": 896,
-      "isNSFW": false
+      "lien": "https://haveibeenpwned.com/Breach/superdraft",
+      "validated": true
     },
     {
       "Name": "cve-2024-10610 fuite du 2024-11-1",
@@ -34154,733 +33759,8 @@
         "cve-2024-10610 "
       ],
       "index": 897,
-      "isNSFW": false
-    },
-    {
-      "Name": "cve-2024-10611 fuite du 2024-11-1",
-      "Title": "cve-2024-10611 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:22.931Z",
-      "ModifiedDate": "2025-12-01T13:39:22.931Z",
-      "PwnCount": 0,
-      "Description": "-\n\nA vulnerability was found in ESAFENET CDG 5 and classified as critical. This issue affects the function delProtocol of the file /com/esafenet/servlet/system/PrintScreenListService.java. The manipulation of the argument id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way. | CVSS Score 6.3 (MEDIUM)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-10611-fuite-du-2024-11-1",
-      "path": "CVE-2024-10611",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-10611 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-10611",
-      "categories": [
-        "cve-2024-10611 "
-      ],
-      "index": 898,
-      "isNSFW": false
-    },
-    {
-      "Name": "cve-2024-10612 fuite du 2024-11-1",
-      "Title": "cve-2024-10612 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:22.957Z",
-      "ModifiedDate": "2025-12-01T13:39:22.957Z",
-      "PwnCount": 0,
-      "Description": "-\n\nA vulnerability was found in ESAFENET CDG 5. It has been classified as critical. Affected is the function removeHookInvalidCourse of the file /com/esafenet/servlet/system/HookInvalidCourseService.java. The manipulation of the argument id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way. | CVSS Score 6.3 (MEDIUM)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-10612-fuite-du-2024-11-1",
-      "path": "CVE-2024-10612",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-10612 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-10612",
-      "categories": [
-        "cve-2024-10612 "
-      ],
-      "index": 899,
-      "isNSFW": false
-    },
-    {
-      "Name": "cve-2024-10613 fuite du 2024-11-1",
-      "Title": "cve-2024-10613 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:22.985Z",
-      "ModifiedDate": "2025-12-01T13:39:22.985Z",
-      "PwnCount": 0,
-      "Description": "-\n\nA vulnerability was found in ESAFENET CDG 5. It has been declared as critical. Affected by this vulnerability is the function delSystemEncryptPolicy of the file /com/esafenet/servlet/system/SystemEncryptPolicyService.java. The manipulation of the argument id leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way. | CVSS Score 6.3 (MEDIUM)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-10613-fuite-du-2024-11-1",
-      "path": "CVE-2024-10613",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-10613 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-10613",
-      "categories": [
-        "cve-2024-10613 "
-      ],
-      "index": 900,
-      "isNSFW": false
-    },
-    {
-      "Name": "cve-2024-10615 fuite du 2024-11-1",
-      "Title": "cve-2024-10615 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:23.012Z",
-      "ModifiedDate": "2025-12-01T13:39:23.012Z",
-      "PwnCount": 0,
-      "Description": "-\n\nA vulnerability was found in Tongda OA 2017 up to 11.10. It has been rated as critical. Affected by this issue is some unknown functionality of the file /general/approve_center/query/list/input_form/delete_data_attach.php. The manipulation of the argument RUN_ID leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. | CVSS Score 6.3 (MEDIUM)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-10615-fuite-du-2024-11-1",
-      "path": "CVE-2024-10615",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-10615 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-10615",
-      "categories": [
-        "cve-2024-10615 "
-      ],
-      "index": 901,
-      "isNSFW": false
-    },
-    {
-      "Name": "cve-2024-10616 fuite du 2024-11-1",
-      "Title": "cve-2024-10616 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:23.042Z",
-      "ModifiedDate": "2025-12-01T13:39:23.042Z",
-      "PwnCount": 0,
-      "Description": "-\n\nA vulnerability classified as critical has been found in Tongda OA up to 11.9. This affects an unknown part of the file /pda/workflow/webSignSubmit.php. The manipulation of the argument saleId leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. | CVSS Score 6.3 (MEDIUM)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-10616-fuite-du-2024-11-1",
-      "path": "CVE-2024-10616",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-10616 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-10616",
-      "categories": [
-        "cve-2024-10616 "
-      ],
-      "index": 902,
-      "isNSFW": false
-    },
-    {
-      "Name": "cve-2024-10617 fuite du 2024-11-1",
-      "Title": "cve-2024-10617 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:23.070Z",
-      "ModifiedDate": "2025-12-01T13:39:23.070Z",
-      "PwnCount": 0,
-      "Description": "-\n\nA vulnerability classified as critical was found in Tongda OA up to 11.10. This vulnerability affects unknown code of the file /pda/workflow/check_seal.php. The manipulation of the argument ID leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. | CVSS Score 6.3 (MEDIUM)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-10617-fuite-du-2024-11-1",
-      "path": "CVE-2024-10617",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-10617 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-10617",
-      "categories": [
-        "cve-2024-10617 "
-      ],
-      "index": 903,
-      "isNSFW": false
-    },
-    {
-      "Name": "cve-2024-10618 fuite du 2024-11-1",
-      "Title": "cve-2024-10618 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:23.095Z",
-      "ModifiedDate": "2025-12-01T13:39:23.095Z",
-      "PwnCount": 0,
-      "Description": "-\n\nA vulnerability\nwhich was classified as critical\nhas been found in Tongda OA 2017 up to 11.10. This issue affects some unknown processing of the file /pda/reportshop/record_detail.php. The manipulation of the argument repid leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. | CVSS Score 6.3 (MEDIUM)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-10618-fuite-du-2024-11-1",
-      "path": "CVE-2024-10618",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-10618 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-10618",
-      "categories": [
-        "cve-2024-10618 "
-      ],
-      "index": 904,
-      "isNSFW": false
-    },
-    {
-      "Name": "cve-2024-10619 fuite du 2024-11-1",
-      "Title": "cve-2024-10619 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:23.123Z",
-      "ModifiedDate": "2025-12-01T13:39:23.123Z",
-      "PwnCount": 0,
-      "Description": "-\n\nA vulnerability\nwhich was classified as critical\nwas found in Tongda OA 2017 up to 11.10. Affected is an unknown function of the file /pda/reportshop/next_detail.php. The manipulation of the argument repid leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. | CVSS Score 6.3 (MEDIUM)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-10619-fuite-du-2024-11-1",
-      "path": "CVE-2024-10619",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-10619 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-10619",
-      "categories": [
-        "cve-2024-10619 "
-      ],
-      "index": 905,
-      "isNSFW": false
-    },
-    {
-      "Name": "cve-2024-10620 fuite du 2024-11-1",
-      "Title": "cve-2024-10620 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:23.149Z",
-      "ModifiedDate": "2025-12-01T13:39:23.149Z",
-      "PwnCount": 0,
-      "Description": "-\n\nA vulnerability was found in knightliao Disconf 2.6.36. It has been classified as critical. This affects an unknown part of the file /api/config/list of the component Configuration Center. The manipulation leads to improper authentication. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. | CVSS Score 5.3 (MEDIUM)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-10620-fuite-du-2024-11-1",
-      "path": "CVE-2024-10620",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-10620 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-10620",
-      "categories": [
-        "cve-2024-10620 "
-      ],
-      "index": 906,
-      "isNSFW": false
-    },
-    {
-      "Name": "cve-2024-10651 fuite du 2024-11-1",
-      "Title": "cve-2024-10651 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:23.177Z",
-      "ModifiedDate": "2025-12-01T13:39:23.177Z",
-      "PwnCount": 0,
-      "Description": "-\n\nIDExpert from CHANGING Information Technology does not properly validate a specific parameter in the administrator interface\nallowing remote attackers with administrator privileges to exploit this vulnerability to read arbitrary system files. | CVSS Score 4.9 (MEDIUM)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-10651-fuite-du-2024-11-1",
-      "path": "CVE-2024-10651",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-10651 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-10651",
-      "categories": [
-        "cve-2024-10651 "
-      ],
-      "index": 907,
-      "isNSFW": false
-    },
-    {
-      "Name": "cve-2024-10652 fuite du 2024-11-1",
-      "Title": "cve-2024-10652 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:23.204Z",
-      "ModifiedDate": "2025-12-01T13:39:23.204Z",
-      "PwnCount": 0,
-      "Description": "-\n\nIDExpert from CHANGING Information Technology does not properly validate a parameter for a specific functionality\nallowing unauthenticated remote attackers to inject JavsScript code and perform Reflected Cross-site scripting attacks. | CVSS Score 6.1 (MEDIUM)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-10652-fuite-du-2024-11-1",
-      "path": "CVE-2024-10652",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-10652 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-10652",
-      "categories": [
-        "cve-2024-10652 "
-      ],
-      "index": 908,
-      "isNSFW": false
-    },
-    {
-      "Name": "cve-2024-10653 fuite du 2024-11-1",
-      "Title": "cve-2024-10653 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:23.230Z",
-      "ModifiedDate": "2025-12-01T13:39:23.230Z",
-      "PwnCount": 0,
-      "Description": "-\n\nIDExpert from CHANGING Information Technology does not properly validate a specific parameter in the administrator interface\nallowing remote attackers with administrative privileges to inject and execute OS commands on the server. | CVSS Score 7.2 (HIGH)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-10653-fuite-du-2024-11-1",
-      "path": "CVE-2024-10653",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-10653 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-10653",
-      "categories": [
-        "cve-2024-10653 "
-      ],
-      "index": 909,
-      "isNSFW": false
-    },
-    {
-      "Name": "cve-2024-10654 fuite du 2024-11-1",
-      "Title": "cve-2024-10654 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:23.259Z",
-      "ModifiedDate": "2025-12-01T13:39:23.259Z",
-      "PwnCount": 0,
-      "Description": "-\n\nA vulnerability has been found in TOTOLINK LR350 up to 9.3.5u.6369 and classified as critical. Affected by this vulnerability is an unknown functionality of the file /formLoginAuth.htm. The manipulation of the argument authCode with the input 1 leads to authorization bypass. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. Upgrading to version 9.3.5u.6698_B20230810 is able to address this issue. It is recommended to upgrade the affected component. | CVSS Score 5.3 (MEDIUM)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-10654-fuite-du-2024-11-1",
-      "path": "CVE-2024-10654",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-10654 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-10654",
-      "categories": [
-        "cve-2024-10654 "
-      ],
-      "index": 910,
-      "isNSFW": false
-    },
-    {
-      "Name": "cve-2024-10655 fuite du 2024-11-1",
-      "Title": "cve-2024-10655 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:23.284Z",
-      "ModifiedDate": "2025-12-01T13:39:23.284Z",
-      "PwnCount": 0,
-      "Description": "-\n\nA vulnerability was found in Tongda OA 2017 up to 11.9. It has been declared as critical. This vulnerability affects unknown code of the file /pda/reportshop/new.php. The manipulation of the argument repid leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. | CVSS Score 6.3 (MEDIUM)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-10655-fuite-du-2024-11-1",
-      "path": "CVE-2024-10655",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-10655 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-10655",
-      "categories": [
-        "cve-2024-10655 "
-      ],
-      "index": 911,
-      "isNSFW": false
-    },
-    {
-      "Name": "cve-2024-10656 fuite du 2024-11-1",
-      "Title": "cve-2024-10656 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:23.313Z",
-      "ModifiedDate": "2025-12-01T13:39:23.313Z",
-      "PwnCount": 0,
-      "Description": "-\n\nA vulnerability was found in Tongda OA 2017 up to 11.9. It has been rated as critical. This issue affects some unknown processing of the file /pda/meeting/apply.php. The manipulation of the argument mr_id leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. | CVSS Score 6.3 (MEDIUM)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-10656-fuite-du-2024-11-1",
-      "path": "CVE-2024-10656",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-10656 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-10656",
-      "categories": [
-        "cve-2024-10656 "
-      ],
-      "index": 912,
-      "isNSFW": false
-    },
-    {
-      "Name": "cve-2024-10657 fuite du 2024-11-1",
-      "Title": "cve-2024-10657 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:23.341Z",
-      "ModifiedDate": "2025-12-01T13:39:23.341Z",
-      "PwnCount": 0,
-      "Description": "-\n\nA vulnerability classified as critical has been found in Tongda OA up to 11.10. Affected is an unknown function of the file /pda/approve_center/prcs_info.php. The manipulation of the argument RUN_ID leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. | CVSS Score 6.3 (MEDIUM)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-10657-fuite-du-2024-11-1",
-      "path": "CVE-2024-10657",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-10657 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-10657",
-      "categories": [
-        "cve-2024-10657 "
-      ],
-      "index": 913,
-      "isNSFW": false
-    },
-    {
-      "Name": "cve-2024-10658 fuite du 2024-11-1",
-      "Title": "cve-2024-10658 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:23.366Z",
-      "ModifiedDate": "2025-12-01T13:39:23.366Z",
-      "PwnCount": 0,
-      "Description": "-\n\nA vulnerability classified as critical was found in Tongda OA up to 11.10. Affected by this vulnerability is an unknown functionality of the file /pda/approve_center/check_seal.php. The manipulation of the argument ID leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. | CVSS Score 6.3 (MEDIUM)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-10658-fuite-du-2024-11-1",
-      "path": "CVE-2024-10658",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-10658 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-10658",
-      "categories": [
-        "cve-2024-10658 "
-      ],
-      "index": 914,
-      "isNSFW": false
-    },
-    {
-      "Name": "cve-2024-10659 fuite du 2024-11-1",
-      "Title": "cve-2024-10659 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:23.397Z",
-      "ModifiedDate": "2025-12-01T13:39:23.397Z",
-      "PwnCount": 0,
-      "Description": "-\n\nA vulnerability\nwhich was classified as critical\nhas been found in ESAFENET CDG 5. Affected by this issue is the function delSystemEncryptPolicy of the file /com/esafenet/servlet/document/CDGAuthoriseTempletService.java. The manipulation of the argument id leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. | CVSS Score 6.3 (MEDIUM)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-10659-fuite-du-2024-11-1",
-      "path": "CVE-2024-10659",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-10659 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-10659",
-      "categories": [
-        "cve-2024-10659 "
-      ],
-      "index": 915,
-      "isNSFW": false
-    },
-    {
-      "Name": "cve-2024-10660 fuite du 2024-11-1",
-      "Title": "cve-2024-10660 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:23.423Z",
-      "ModifiedDate": "2025-12-01T13:39:23.423Z",
-      "PwnCount": 0,
-      "Description": "-\n\nA vulnerability\nwhich was classified as critical\nwas found in ESAFENET CDG 5. This affects the function deleteHook of the file /com/esafenet/servlet/policy/HookService.java. The manipulation of the argument hookId leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. | CVSS Score 6.3 (MEDIUM)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-10660-fuite-du-2024-11-1",
-      "path": "CVE-2024-10660",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-10660 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-10660",
-      "categories": [
-        "cve-2024-10660 "
-      ],
-      "index": 916,
-      "isNSFW": false
-    },
-    {
-      "Name": "cve-2024-10661 fuite du 2024-11-1",
-      "Title": "cve-2024-10661 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:23.450Z",
-      "ModifiedDate": "2025-12-01T13:39:23.450Z",
-      "PwnCount": 0,
-      "Description": "-\n\nA vulnerability has been found in Tenda AC15 15.03.05.19 and classified as critical. This vulnerability affects the function SetDlnaCfg of the file /goform/SetDlnaCfg. The manipulation of the argument scanList leads to stack-based buffer overflow. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. | CVSS Score 8.8 (HIGH)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-10661-fuite-du-2024-11-1",
-      "path": "CVE-2024-10661",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-10661 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-10661",
-      "categories": [
-        "cve-2024-10661 "
-      ],
-      "index": 917,
-      "isNSFW": false
-    },
-    {
-      "Name": "cve-2024-10662 fuite du 2024-11-1",
-      "Title": "cve-2024-10662 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:23.478Z",
-      "ModifiedDate": "2025-12-01T13:39:23.478Z",
-      "PwnCount": 0,
-      "Description": "-\n\nA vulnerability was found in Tenda AC15 15.03.05.19 and classified as critical. This issue affects the function formSetDeviceName of the file /goform/SetOnlineDevName. The manipulation of the argument devName leads to stack-based buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. | CVSS Score 8.8 (HIGH)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-10662-fuite-du-2024-11-1",
-      "path": "CVE-2024-10662",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-10662 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-10662",
-      "categories": [
-        "cve-2024-10662 "
-      ],
-      "index": 918,
-      "isNSFW": false
-    },
-    {
-      "Name": "cve-2024-21510 fuite du 2024-11-1",
-      "Title": "cve-2024-21510 fuite du 2024-11-1",
-      "Domain": null,
-      "BreachDate": "2024-11-1",
-      "AddedDate": "2025-12-01T13:39:25.589Z",
-      "ModifiedDate": "2025-12-01T13:39:25.589Z",
-      "PwnCount": 0,
-      "Description": "-\n\nVersions of the package sinatra from 0.0.0 are vulnerable to Reliance on Untrusted Inputs in a Security Decision via the X-Forwarded-Host (XFH) header. When making a request to a method with redirect applied\nit is possible to trigger an Open Redirect Attack by inserting an arbitrary address into this header. If used for caching purposes\nsuch as with servers like Nginx\nor as a reverse proxy\nwithout handling the X-Forwarded-Host header\nattackers can potentially exploit Cache Poisoning or Routing-based SSRF. | CVSS Score 5.4 (MEDIUM)\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "cve-2024-21510-fuite-du-2024-11-1",
-      "path": "CVE-2024-21510",
-      "formattedDate": "2024-11-01",
-      "title": "cve-2024-21510 fuite du 2024-11-1",
-      "date": "2024-11-1",
-      "lien": "CVE-2024-21510",
-      "categories": [
-        "cve-2024-21510 "
-      ],
-      "index": 919,
-      "isNSFW": false
+      "isNSFW": true,
+      "validated": true
     },
     {
       "Name": "cve-2024-22733 fuite du 2024-11-1",

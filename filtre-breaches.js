@@ -100,11 +100,11 @@ async function main() {
                 console.log(chalk.white(`Description: ${entry.Description}
                     `));
 
-        
-
-        
-
-                const { action } = await inquirer.prompt([
+                let action
+                if(entry.Name.includes("cve")){
+                    action="reject"
+                }else{
+                      action= { action } = await inquirer.prompt([
 
                     {
 
@@ -133,6 +133,10 @@ async function main() {
                     },
 
                 ]);
+                }
+        
+
+              
 
         
 
