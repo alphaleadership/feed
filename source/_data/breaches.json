@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-06T15:08:08.343Z",
-  "totalBreaches": 2378,
+  "lastUpdated": "2025-12-06T15:31:17.255Z",
+  "totalBreaches": 2379,
   "breaches": [
     {
       "Name": "gPotato",
@@ -82349,6 +82349,38 @@
         ""
       ],
       "index": 2377
+    },
+    {
+      "Name": "cve-2025-14139 fuite du 2025-12-6",
+      "Title": "cve-2025-14139 fuite du 2025-12-6",
+      "Domain": null,
+      "BreachDate": "2025-12-6",
+      "AddedDate": "2025-12-06T15:31:17.253Z",
+      "ModifiedDate": "2025-12-06T15:31:17.253Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA security vulnerability has been detected in UTT 进取 520W 1.7.7-180627. Impacted is the function strcpy of the file /goform/formConfigDnsFilterGlobal. Such manipulation of the argument timeRangeName leads to buffer overflow. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way. | CVSS Score 5.7 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14139-fuite-du-2025-12-6",
+      "path": "CVE-2025-14139",
+      "formattedDate": "2025-12-06",
+      "title": "cve-2025-14139 fuite du 2025-12-6",
+      "date": "2025-12-6",
+      "lien": "CVE-2025-14139",
+      "categories": [
+        "cve-2025-14139"
+      ],
+      "index": 2378
     }
   ]
 }
