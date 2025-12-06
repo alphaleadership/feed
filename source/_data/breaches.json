@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-05T23:37:27.367Z",
-  "totalBreaches": 2335,
+  "lastUpdated": "2025-12-06T04:42:46.754Z",
+  "totalBreaches": 2337,
   "breaches": [
     {
       "Name": "gPotato",
@@ -80774,6 +80774,70 @@
         "cve-2025-66629"
       ],
       "index": 2334
+    },
+    {
+      "Name": "cve-2025-11263 fuite du 2025-12-6",
+      "Title": "cve-2025-11263 fuite du 2025-12-6",
+      "Domain": null,
+      "BreachDate": "2025-12-6",
+      "AddedDate": "2025-12-06T04:42:46.198Z",
+      "ModifiedDate": "2025-12-06T04:42:46.198Z",
+      "PwnCount": 0,
+      "Description": "-\n\nThe Link Whisper Free plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the type parameter in all versions up to\nand including\n0.8.8 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link. | CVSS Score 6.1 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-11263-fuite-du-2025-12-6",
+      "path": "CVE-2025-11263",
+      "formattedDate": "2025-12-06",
+      "title": "cve-2025-11263 fuite du 2025-12-6",
+      "date": "2025-12-6",
+      "lien": "CVE-2025-11263",
+      "categories": [
+        "cve-2025-11263"
+      ],
+      "index": 2335
+    },
+    {
+      "Name": "cve-2025-12510 fuite du 2025-12-6",
+      "Title": "cve-2025-12510 fuite du 2025-12-6",
+      "Domain": null,
+      "BreachDate": "2025-12-6",
+      "AddedDate": "2025-12-06T04:42:46.753Z",
+      "ModifiedDate": "2025-12-06T04:42:46.753Z",
+      "PwnCount": 0,
+      "Description": "-\n\nThe Widgets for Google Reviews plugin for WordPress is vulnerable to Stored Cross-Site Scripting in all versions up to\nand including\n13.2.4 due to insufficient input sanitization and output escaping on Google Reviews data imported by the plugin. This makes it possible for unauthenticated attackers to inject arbitrary web scripts that will execute in the admin panel (and potentially on the frontend) whenever a user accesses imported reviews\ngranted they can add a malicious review to a Google Place that is connected to the vulnerable site. | CVSS Score 7.2 (HIGH)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-12510-fuite-du-2025-12-6",
+      "path": "CVE-2025-12510",
+      "formattedDate": "2025-12-06",
+      "title": "cve-2025-12510 fuite du 2025-12-6",
+      "date": "2025-12-6",
+      "lien": "CVE-2025-12510",
+      "categories": [
+        "cve-2025-12510"
+      ],
+      "index": 2336
     }
   ]
 }
