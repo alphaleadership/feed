@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-06T16:54:36.270Z",
+  "lastUpdated": "2025-12-06T16:58:51.830Z",
   "totalBreaches": 2378,
   "breaches": [
     {
@@ -31337,7 +31337,8 @@
         "boAt"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/boat"
+      "lien": "https://haveibeenpwned.com/Breach/boat",
+      "validated": true
     },
     {
       "Name": "Lookiero",
@@ -31373,7 +31374,8 @@
         "Lookiero"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/lookiero"
+      "lien": "https://haveibeenpwned.com/Breach/lookiero",
+      "validated": true
     },
     {
       "Name": "Pandabuy",
@@ -31410,7 +31412,8 @@
         "Pandabuy"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/pandabuy"
+      "lien": "https://haveibeenpwned.com/Breach/pandabuy",
+      "validated": true
     },
     {
       "Name": "SalvadoranCitizens",
@@ -31449,7 +31452,8 @@
         "SalvadoranCitizens"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/salvadorancitizens"
+      "lien": "https://haveibeenpwned.com/Breach/salvadorancitizens",
+      "validated": true
     },
     {
       "Name": "NationalPublicData",
@@ -31488,7 +31492,8 @@
         "NationalPublicData"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/nationalpublicdata"
+      "lien": "https://haveibeenpwned.com/Breach/nationalpublicdata",
+      "validated": true
     },
     {
       "Name": "LeSlipFrancais",
@@ -31524,7 +31529,8 @@
         "LeSlipFrancais"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/leslipfrancais"
+      "lien": "https://haveibeenpwned.com/Breach/leslipfrancais",
+      "validated": true
     },
     {
       "Name": "NeimanMarcus",
@@ -31564,40 +31570,8 @@
         "NeimanMarcus"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/neimanmarcus"
-    },
-    {
-      "Name": "le slip français fuite du 2024-4-15",
-      "Title": "le slip français fuite du 2024-4-15",
-      "Domain": null,
-      "BreachDate": "2024-4-15",
-      "AddedDate": "2025-11-26T13:08:24.261Z",
-      "ModifiedDate": "2025-11-26T13:08:24.261Z",
-      "PwnCount": 0,
-      "Description": "-\r\n\r\nnom\r\nprénom\r\ntéléphones\r\nadresse postale\r\nadresse email\r\nnuméros de commandes\r\n\r\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "le-slip-fran-ais-fuite-du-2024-4-15",
-      "path": "https://www.journaldugeek.com/2024/04/18/piratage-que-sait-on-du-hack-massif-de-cette-marque-francaise/",
-      "formattedDate": "2024-04-14",
-      "title": "le slip français fuite du 2024-4-15",
-      "date": "2024-4-15",
-      "lien": "https://www.journaldugeek.com/2024/04/18/piratage-que-sait-on-du-hack-massif-de-cette-marque-francaise/",
-      "categories": [
-        "le slip français "
-      ],
-      "index": 826,
-      "isNSFW": false
+      "lien": "https://haveibeenpwned.com/Breach/neimanmarcus",
+      "validated": true
     },
     {
       "Name": "MovieBoxPro",
@@ -31631,7 +31605,8 @@
         "MovieBoxPro"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/movieboxpro"
+      "lien": "https://haveibeenpwned.com/Breach/movieboxpro",
+      "validated": true
     },
     {
       "Name": "T2",
