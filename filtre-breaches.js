@@ -84,8 +84,10 @@ async function main() {
 
                 console.clear();
 
-                console.log(chalk.cyan('\n----------------------------------------'));
-
+                console.log(chalk.cyan('\n----------------------------------------\n'));
+                console.log(chalk.cyan('|              Brèche de données            |\n'));
+                console.log(chalk.cyan('----------------------------------------\n'));
+                    console.log(chalk.blue(`sensible: ${entry.isNSFW}`));
                 console.log(chalk.bold.white(`Nom: ${entry.Name}`));
 
                 console.log(chalk.white(`Titre: ${entry.Title}`));
