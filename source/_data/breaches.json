@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-06T13:14:15.912Z",
-  "totalBreaches": 2374,
+  "lastUpdated": "2025-12-06T13:49:28.057Z",
+  "totalBreaches": 2375,
   "breaches": [
     {
       "Name": "gPotato",
@@ -82022,6 +82022,38 @@
         "cve-2025-14135"
       ],
       "index": 2373
+    },
+    {
+      "Name": "cve-2025-14136 fuite du 2025-12-6",
+      "Title": "cve-2025-14136 fuite du 2025-12-6",
+      "Domain": null,
+      "BreachDate": "2025-12-6",
+      "AddedDate": "2025-12-06T13:49:28.055Z",
+      "ModifiedDate": "2025-12-06T13:49:28.055Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA security flaw has been discovered in Linksys RE6500\nRE6250\nRE6300\nRE6350\nRE7000 and RE9000 1.0.013.001/1.0.04.001/1.0.04.002/1.1.05.003/1.2.07.001. This vulnerability affects the function RE2000v2Repeater_get_wired_clientlist_setClientsName of the file mod_form.so. The manipulation of the argument clientsname_0 results in stack-based buffer overflow. The attack may be launched remotely. The exploit has been released to the public and may be exploited. The vendor was contacted early about this disclosure but did not respond in any way. | CVSS Score 8.8 (HIGH)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14136-fuite-du-2025-12-6",
+      "path": "CVE-2025-14136",
+      "formattedDate": "2025-12-06",
+      "title": "cve-2025-14136 fuite du 2025-12-6",
+      "date": "2025-12-6",
+      "lien": "CVE-2025-14136",
+      "categories": [
+        "cve-2025-14136"
+      ],
+      "index": 2374
     }
   ]
 }
