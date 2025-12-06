@@ -139,7 +139,10 @@ async function main() {
                 if (action === 'validate') {
 
                     entry.validated = true;
-
+                    if(entry.isNSFW){
+                        nsfwCount++;
+                    }
+                    
                     validatedCount++;
 
                     console.log(chalk.green('--> Entrée validée.'));
