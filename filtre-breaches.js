@@ -101,7 +101,7 @@ async function main() {
                     `));
 
                 let action
-                if(entry.Name.includes("cve")){
+                if(entry.Name.includes("cve-")){
                     action="reject"
                 }else{
                       const value = await inquirer.prompt([
