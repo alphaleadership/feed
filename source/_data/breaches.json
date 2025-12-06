@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-06T17:12:45.345Z",
+  "lastUpdated": "2025-12-06T17:16:33.837Z",
   "totalBreaches": 2378,
   "breaches": [
     {
@@ -33835,7 +33835,8 @@
         "Tibber"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/tibber"
+      "lien": "https://haveibeenpwned.com/Breach/tibber",
+      "validated": true
     },
     {
       "Name": "picard fuite du 2024-11-12",
@@ -33868,7 +33869,8 @@
         "picard "
       ],
       "index": 1390,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "molotov fuite du 2024-11-13",
@@ -33901,7 +33903,8 @@
         "molotov "
       ],
       "index": 1391,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "PoinCampus",
@@ -33937,7 +33940,8 @@
         "PoinCampus"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/poincampus"
+      "lien": "https://haveibeenpwned.com/Breach/poincampus",
+      "validated": true
     },
     {
       "Name": "huttopia fuite du 2024-11-14",
@@ -33970,7 +33974,8 @@
         "huttopia "
       ],
       "index": 1393,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "TheRealWorld",
@@ -34005,7 +34010,8 @@
         "TheRealWorld"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/therealworld"
+      "lien": "https://haveibeenpwned.com/Breach/therealworld",
+      "validated": true
     },
     {
       "Name": "FlipaClip",
@@ -34041,7 +34047,8 @@
         "FlipaClip"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/flipaclip"
+      "lien": "https://haveibeenpwned.com/Breach/flipaclip",
+      "validated": true
     },
     {
       "Name": "le point fuite du 2024-11-18",
@@ -34074,7 +34081,8 @@
         "le point "
       ],
       "index": 1396,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "auchan fuite du 2024-11-19",
@@ -34107,7 +34115,8 @@
         "auchan "
       ],
       "index": 1397,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "direct assurance fuite du 2024-11-19",
@@ -34140,7 +34149,8 @@
         "direct assurance "
       ],
       "index": 1398,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "mediboard fuite du 2024-11-19",
@@ -34173,7 +34183,8 @@
         "mediboard "
       ],
       "index": 1399,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "Yonema",
@@ -34212,7 +34223,8 @@
         "Yonema"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/yonema"
+      "lien": "https://haveibeenpwned.com/Breach/yonema",
+      "validated": true
     },
     {
       "Name": "chambres d’agriculture fuite du 2024-11-21",
@@ -34245,7 +34257,8 @@
         "chambres d’agriculture "
       ],
       "index": 1401,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "companie de transport strasbourgeoise fuite du 2024-11-22",
@@ -34278,7 +34291,8 @@
         "companie de transport strasbourgeoise "
       ],
       "index": 1402,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "SeniorDating",
@@ -34321,8 +34335,9 @@
       "categories": [
         "SeniorDating"
       ],
-      "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/seniordating"
+      "isNSFW": true,
+      "lien": "https://haveibeenpwned.com/Breach/seniordating",
+      "validated": true
     },
     {
       "Name": "banque de france fuite du 2024-11-23",
@@ -34355,7 +34370,8 @@
         "banque de france "
       ],
       "index": 1404,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "sfr fuite du 2024-11-24",
@@ -34388,7 +34404,8 @@
         "sfr "
       ],
       "index": 1405,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "jvs fuite du 2024-11-26",
@@ -34421,7 +34438,8 @@
         "jvs "
       ],
       "index": 1406,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "ze camping fuite du 2024-11-27",
@@ -34454,7 +34472,8 @@
         "ze camping "
       ],
       "index": 1407,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "norauto fuite du 2024-12-2",
@@ -34487,7 +34506,8 @@
         "norauto "
       ],
       "index": 1408,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "guy demarle fuite du 2024-12-3",
@@ -34520,7 +34540,8 @@
         "guy demarle "
       ],
       "index": 1409,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "deloitte fuite du 2024-12-4",
@@ -34553,7 +34574,8 @@
         "deloitte "
       ],
       "index": 1410,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "ldlc fuite du 2024-12-10",
@@ -34586,7 +34608,8 @@
         "ldlc "
       ],
       "index": 1411,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "YoungLivingEssentialOils",
@@ -34622,7 +34645,8 @@
         "YoungLivingEssentialOils"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/younglivingessentialoils"
+      "lien": "https://haveibeenpwned.com/Breach/younglivingessentialoils",
+      "validated": true
     },
     {
       "Name": "top achat fuite du 2024-12-12",
@@ -34655,7 +34679,8 @@
         "top achat "
       ],
       "index": 1413,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "BitView",
@@ -34697,7 +34722,8 @@
         "BitView"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/bitview"
+      "lien": "https://haveibeenpwned.com/Breach/bitview",
+      "validated": true
     },
     {
       "Name": "electro dépôt fuite du 2024-12-20",
@@ -34730,7 +34756,8 @@
         "electro dépôt "
       ],
       "index": 1415,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "Speedio",
@@ -34766,7 +34793,8 @@
         "Speedio"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/speedio"
+      "lien": "https://haveibeenpwned.com/Breach/speedio",
+      "validated": true
     },
     {
       "Name": "cyberhaven fuite du 2024-12-25",
@@ -34799,7 +34827,8 @@
         "cyberhaven "
       ],
       "index": 1417,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "peugeot fuite du 2024-12-26",
@@ -34832,7 +34861,8 @@
         "peugeot "
       ],
       "index": 1418,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "arsoé fuite du 2024-12-27",
@@ -34865,7 +34895,8 @@
         "arsoé "
       ],
       "index": 1419,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "volkswagen fuite du 2024-12-27",
@@ -34898,7 +34929,8 @@
         "volkswagen "
       ],
       "index": 1420,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "atos fuite du 2024-12-30",
@@ -34931,7 +34963,8 @@
         "atos "
       ],
       "index": 1421,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "cogitis fuite du 2024-12-31",
@@ -34964,7 +34997,8 @@
         "cogitis "
       ],
       "index": 1422,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "Scholastic",
@@ -35000,7 +35034,8 @@
         "Scholastic"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/scholastic"
+      "lien": "https://haveibeenpwned.com/Breach/scholastic",
+      "validated": true
     },
     {
       "Name": "LandAirSea",
@@ -35038,7 +35073,8 @@
         "LandAirSea"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/landairsea"
+      "lien": "https://haveibeenpwned.com/Breach/landairsea",
+      "validated": true
     },
     {
       "Name": "StealerLogsJan2025",
@@ -35072,7 +35108,8 @@
         "StealerLogsJan2025"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/stealerlogsjan2025"
+      "lien": "https://haveibeenpwned.com/Breach/stealerlogsjan2025",
+      "validated": true
     },
     {
       "Name": "fédération française de force fuite du 2025-1-14",
@@ -35105,7 +35142,8 @@
         "fédération française de force "
       ],
       "index": 1426,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "fédération française de roller skateboard fuite du 2025-1-14",
@@ -35138,7 +35176,8 @@
         "fédération française de roller skateboard "
       ],
       "index": 1427,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "kiabi fuite du 2025-1-14",
@@ -35171,7 +35210,8 @@
         "kiabi "
       ],
       "index": 1428,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "FrameAndOptic",
@@ -35207,7 +35247,8 @@
         "FrameAndOptic"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/frameandoptic"
+      "lien": "https://haveibeenpwned.com/Breach/frameandoptic",
+      "validated": true
     },
     {
       "Name": "fédération française de tir à l'arc fuite du 2025-1-20",
@@ -35240,7 +35281,8 @@
         "fédération française de tir à l'arc "
       ],
       "index": 1430,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "fédération française de la montagne et de l'escalade fuite du 2025-1-23",
@@ -35273,7 +35315,8 @@
         "fédération française de la montagne et de l'escalade "
       ],
       "index": 1431,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "e.leclerc fuite du 2025-1-24",
@@ -35306,7 +35349,8 @@
         "e.leclerc "
       ],
       "index": 1432,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "fédération française montagne escalade fuite du 2025-1-24",
@@ -35339,7 +35383,8 @@
         "fédération française montagne escalade "
       ],
       "index": 1433,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "DoxbinScrape",
@@ -35372,7 +35417,8 @@
         "DoxbinScrape"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/doxbinscrape"
+      "lien": "https://haveibeenpwned.com/Breach/doxbinscrape",
+      "validated": true
     },
     {
       "Name": "aides fuite du 2025-1-27",
@@ -35405,7 +35451,8 @@
         "aides "
       ],
       "index": 1435,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "Thermomix",
@@ -35444,7 +35491,8 @@
         "Thermomix"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/thermomix"
+      "lien": "https://haveibeenpwned.com/Breach/thermomix",
+      "validated": true
     },
     {
       "Name": "espace fuite du 2025-2-6",
@@ -35477,7 +35525,8 @@
         "espace "
       ],
       "index": 1437,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "king jouet fuite du 2025-2-11",
@@ -35510,7 +35559,8 @@
         "king jouet "
       ],
       "index": 1438,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "Lexipol",
@@ -35547,7 +35597,8 @@
         "Lexipol"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/lexipol"
+      "lien": "https://haveibeenpwned.com/Breach/lexipol",
+      "validated": true
     },
     {
       "Name": "caisse des dépôts et des consignations fuite du 2025-2-12",
@@ -35580,7 +35631,8 @@
         "caisse des dépôts et des consignations "
       ],
       "index": 1440,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "chronopost fuite du 2025-2-12",
@@ -35613,7 +35665,8 @@
         "chronopost "
       ],
       "index": 1441,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "mutuelle des motards fuite du 2025-2-13",
@@ -35646,7 +35699,8 @@
         "mutuelle des motards "
       ],
       "index": 1442,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "Adpost",
@@ -35681,7 +35735,8 @@
         "Adpost"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/adpost"
+      "lien": "https://haveibeenpwned.com/Breach/adpost",
+      "validated": true
     },
     {
       "Name": "Cocospy",
@@ -35714,7 +35769,8 @@
         "Cocospy"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/cocospy"
+      "lien": "https://haveibeenpwned.com/Breach/cocospy",
+      "validated": true
     },
     {
       "Name": "Spyic",
@@ -35747,7 +35803,8 @@
         "Spyic"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/spyic"
+      "lien": "https://haveibeenpwned.com/Breach/spyic",
+      "validated": true
     },
     {
       "Name": "AlienStealerLogs",
@@ -35781,7 +35838,8 @@
         "AlienStealerLogs"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/alienstealerlogs"
+      "lien": "https://haveibeenpwned.com/Breach/alienstealerlogs",
+      "validated": true
     },
     {
       "Name": "sport découverte fuite du 2025-2-17",
@@ -35814,7 +35872,8 @@
         "sport découverte "
       ],
       "index": 1447,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "service départemental d'incendie et de secours de la vienne fuite du 2025-2-19",
@@ -35847,7 +35906,8 @@
         "service départemental d'incendie et de secours de la vienne "
       ],
       "index": 1448,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "fédération française de foot fuite du 2025-2-21",
@@ -35880,7 +35940,8 @@
         "fédération française de foot "
       ],
       "index": 1449,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "OrangeRomania",
@@ -35915,7 +35976,8 @@
         "OrangeRomania"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/orangeromania"
+      "lien": "https://haveibeenpwned.com/Breach/orangeromania",
+      "validated": true
     },
     {
       "Name": "nord emploi fuite du 2025-2-26",
@@ -35948,7 +36010,8 @@
         "nord emploi "
       ],
       "index": 1451,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "edf dpih fuite du 2025-2-28",
