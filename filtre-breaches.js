@@ -88,6 +88,7 @@ async function main() {
                 console.log(chalk.cyan('|              Brèche de données            |\n'));
                 console.log(chalk.cyan('----------------------------------------\n'));
                     console.log(chalk.blue(`sensible: ${entry.isNSFW}`));
+                    console.log(chalk.blue(`restante: ${entriesToValidate.length-entriesToValidate.indexOf(entry)}`));
                 console.log(chalk.bold.white(`Nom: ${entry.Name}`));
 
                 console.log(chalk.white(`Titre: ${entry.Title}`));
