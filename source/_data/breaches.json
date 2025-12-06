@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-06T08:44:47.929Z",
-  "totalBreaches": 2368,
+  "lastUpdated": "2025-12-06T10:41:14.440Z",
+  "totalBreaches": 2371,
   "breaches": [
     {
       "Name": "gPotato",
@@ -81830,6 +81830,102 @@
         "cve-2025-12499"
       ],
       "index": 2367
+    },
+    {
+      "Name": "cve-2025-12966 fuite du 2025-12-6",
+      "Title": "cve-2025-12966 fuite du 2025-12-6",
+      "Domain": null,
+      "BreachDate": "2025-12-6",
+      "AddedDate": "2025-12-06T10:41:13.009Z",
+      "ModifiedDate": "2025-12-06T10:41:13.009Z",
+      "PwnCount": 0,
+      "Description": "-\n\nThe All-in-One Video Gallery plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the resolve_import_directory() function in versions 4.5.4 to 4.5.7. This makes it possible for authenticated attackers\nwith Author-level access and above\nto upload arbitrary files on the affected site's server which may make remote code execution possible. | CVSS Score 8.8 (HIGH)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-12966-fuite-du-2025-12-6",
+      "path": "CVE-2025-12966",
+      "formattedDate": "2025-12-06",
+      "title": "cve-2025-12966 fuite du 2025-12-6",
+      "date": "2025-12-6",
+      "lien": "CVE-2025-12966",
+      "categories": [
+        "cve-2025-12966"
+      ],
+      "index": 2368
+    },
+    {
+      "Name": "cve-2025-13065 fuite du 2025-12-6",
+      "Title": "cve-2025-13065 fuite du 2025-12-6",
+      "Domain": null,
+      "BreachDate": "2025-12-6",
+      "AddedDate": "2025-12-06T10:41:13.170Z",
+      "ModifiedDate": "2025-12-06T10:41:13.170Z",
+      "PwnCount": 0,
+      "Description": "-\n\nThe Starter Templates plugin for WordPress is vulnerable to arbitrary file upload in all versions up to\nand including\n4.4.41. This is due to insufficient file type validation detecting WXR files\nallowing double extension files to bypass sanitization while being accepted as a valid WXR file. This makes it possible for authenticated attackers\nwith author-level access and above\nto upload arbitrary files on the affected site's server which may make remote code execution possible. | CVSS Score 8.8 (HIGH)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-13065-fuite-du-2025-12-6",
+      "path": "CVE-2025-13065",
+      "formattedDate": "2025-12-06",
+      "title": "cve-2025-13065 fuite du 2025-12-6",
+      "date": "2025-12-6",
+      "lien": "CVE-2025-13065",
+      "categories": [
+        "cve-2025-13065"
+      ],
+      "index": 2369
+    },
+    {
+      "Name": "cve-2025-14126 fuite du 2025-12-6",
+      "Title": "cve-2025-14126 fuite du 2025-12-6",
+      "Domain": null,
+      "BreachDate": "2025-12-6",
+      "AddedDate": "2025-12-06T10:41:14.438Z",
+      "ModifiedDate": "2025-12-06T10:41:14.438Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA vulnerability has been found in TOZED ZLT M30S and ZLT M30S PRO 1.47/3.09.06. Affected is an unknown function of the component Web Interface. Such manipulation leads to hard-coded credentials. The attack needs to be initiated within the local network. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way. | CVSS Score 8.8 (HIGH)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14126-fuite-du-2025-12-6",
+      "path": "CVE-2025-14126",
+      "formattedDate": "2025-12-06",
+      "title": "cve-2025-14126 fuite du 2025-12-6",
+      "date": "2025-12-6",
+      "lien": "CVE-2025-14126",
+      "categories": [
+        "cve-2025-14126"
+      ],
+      "index": 2370
     }
   ]
 }

@@ -3224,6 +3224,10 @@ category_map:
   - 2898859_darty
   - '2136455'
   - 2898229_le
+  - cve-2025-12966
+  - cve-2025-13065
+  - cve-2025-14126
+  - '2136473'
 tag_map: null
 meta_generator: true
 search:
