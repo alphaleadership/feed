@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-06T17:20:56.894Z",
+  "lastUpdated": "2025-12-06T17:21:50.183Z",
   "totalBreaches": 2378,
   "breaches": [
     {
@@ -37964,7 +37964,8 @@
         "HelloCake"
       ],
       "isNSFW": true,
-      "lien": "https://haveibeenpwned.com/Breach/hellocake"
+      "lien": "https://haveibeenpwned.com/Breach/hellocake",
+      "validated": true
     },
     {
       "Name": "ThePi-Hole",
@@ -37998,7 +37999,8 @@
         "ThePi-Hole"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/thepi-hole"
+      "lien": "https://haveibeenpwned.com/Breach/thepi-hole",
+      "validated": true
     },
     {
       "Name": "thepi fuite du 2025-7-31",
@@ -38031,44 +38033,8 @@
         "thepi "
       ],
       "index": 1509,
-      "isNSFW": false
-    },
-    {
-      "Name": "Pi-hole",
-      "Title": "Pi-hole",
-      "Domain": null,
-      "BreachDate": "2025-07-31T22:46:38.000Z",
-      "AddedDate": "2025-11-26T13:08:36.769Z",
-      "ModifiedDate": "2025-11-26T13:08:36.769Z",
-      "PwnCount": 0,
-      "Description": "-\r\n\r\n# Pi-hole\r\n\r\n<div class=\"breach-meta\">\r\n  <div class=\"meta-item\">\r\n    <span class=\"meta-label\">Date de la fuite :</span>\r\n    <span class=\"meta-value\">30 juillet 2025</span>\r\n  </div>\r\n  <div class=\"meta-item\">\r\n    <span class=\"meta-label\">Comptes affectés :</span>\r\n    <span class=\"meta-value\">29 926</span>\r\n  </div>\r\n  <div class=\"meta-item\">\r\n    <span class=\"meta-label\">Site web :</span>\r\n    <a href=\"https://pi-hole.net\" target=\"_blank\" rel=\"noopener\">pi-hole.net</a>\r\n  </div>\r\n</div>\r\n\r\n## Description\r\nIn July 2025, a vulnerability in the GiveWP WordPress plugin exposed the names and email addresses of approximately 30k donors to the Pi-hole network-wide ad blocking project. Pi-hole subsequently self-submitted the list of impacted donors to HIBP.\r\n\r\n## Données exposées\r\n\r\n<div class=\"data-classes\">\r\n  <span class=\"data-class\">Email addresses</span>\r\n  <span class=\"data-class\">Names</span>\r\n</div>\r\n\r\n## Actions recommandées\r\n1. Changez votre mot de passe sur ce site et sur tout autre site où vous utilisez le même mot de passe\r\n2. Activez l'authentification à deux facteurs si disponible\r\n3. Surveillez vos comptes pour toute activité suspecte\r\n\r\n## Plus d'informations\r\n- [Vérifier si vous êtes concerné sur Have I Been Pwned](https://haveibeenpwned.com/breach/ThePi-Hole)\r\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "pi-hole",
-      "formattedDate": "2025-07-31",
-      "title": "Pi-hole",
-      "date": "2025-07-31T22:46:38.000Z",
-      "category": "breaches",
-      "tags": [
-        "email addresses",
-        "names"
-      ],
-      "index": 1510,
-      "categories": [
-        "Pi-hole"
-      ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/undefined"
+      "validated": true
     },
     {
       "Name": "thepi fuite du 2025-8-1",
@@ -38101,7 +38067,8 @@
         "thepi "
       ],
       "index": 1511,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "BouyguesTelecom",
@@ -38139,7 +38106,8 @@
         "BouyguesTelecom"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/bouyguestelecom"
+      "lien": "https://haveibeenpwned.com/Breach/bouyguestelecom",
+      "validated": true
     },
     {
       "Name": "pandora fuite du 2025-8-5",
@@ -38172,7 +38140,8 @@
         "pandora "
       ],
       "index": 1513,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "air france fuite du 2025-8-6",
@@ -38205,40 +38174,8 @@
         "air france "
       ],
       "index": 1514,
-      "isNSFW": false
-    },
-    {
-      "Name": "bouygues telecom fuite du 2025-8-6",
-      "Title": "bouygues telecom fuite du 2025-8-6",
-      "Domain": null,
-      "BreachDate": "2025-8-6",
-      "AddedDate": "2025-11-26T13:08:07.373Z",
-      "ModifiedDate": "2025-11-26T13:08:07.373Z",
-      "PwnCount": 0,
-      "Description": "-\r\n\r\ncoordonnées\r\ndonnées contractuelles\r\nétat civil\r\nIBAN\r\n\r\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "bouygues-telecom-fuite-du-2025-8-6",
-      "path": "https://bonjourlafuite.eu.org/img/bouygues.png",
-      "formattedDate": "2025-08-05",
-      "title": "bouygues telecom fuite du 2025-8-6",
-      "date": "2025-8-6",
-      "lien": "https://bonjourlafuite.eu.org/img/bouygues.png",
-      "categories": [
-        "bouygues telecom "
-      ],
-      "index": 1515,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "optic 2000 fuite du 2025-8-8",
@@ -38271,7 +38208,8 @@
         "optic 2000 "
       ],
       "index": 1516,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "Giglio",
@@ -38307,7 +38245,8 @@
         "Giglio"
       ],
       "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/giglio"
+      "lien": "https://haveibeenpwned.com/Breach/giglio",
+      "validated": true
     },
     {
       "Name": "alltricks fuite du 2025-8-12",
@@ -38340,7 +38279,8 @@
         "alltricks "
       ],
       "index": 1518,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "france travail fuite du 2025-8-12",
@@ -38373,7 +38313,8 @@
         "france travail "
       ],
       "index": 1519,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "france link interactive fuite du 2025-8-13",
@@ -38406,7 +38347,8 @@
         "france link interactive "
       ],
       "index": 1520,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "google fuite du 2025-8-13",
@@ -38439,7 +38381,8 @@
         "google "
       ],
       "index": 1521,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "partner immo fuite du 2025-8-13",
