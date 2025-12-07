@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-07T08:28:02.891Z",
-  "totalBreaches": 1418,
+  "lastUpdated": "2025-12-07T08:47:11.771Z",
+  "totalBreaches": 1419,
   "breaches": [
     {
       "Name": "gPotato",
@@ -51545,6 +51545,46 @@
         "cve-2025-14186"
       ],
       "index": 1417
+    },
+    {
+      "Name": "fuite du 2025-12-7",
+      "Title": "fuite du 2025-12-7",
+      "Domain": null,
+      "BreachDate": "2025-12-7",
+      "AddedDate": "2025-12-07T08:47:11.770Z",
+      "ModifiedDate": "2025-12-07T08:47:11.770Z",
+      "PwnCount": 0,
+      "Description": "-\n\nLa Russie bâtit une liste blanche de services accessibles lors des coupures d’internet mobile\nau nom de la sécurité et de la continuité des infrastructures critiques....  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "fuite-du-2025-12-7",
+      "path": "https://www.zataz.com/russie-une-liste-blanche-pour-linternet-mobile-en-cas-coupure-de-connexion/",
+      "formattedDate": "2025-12-07",
+      "title": "fuite du 2025-12-7",
+      "date": "2025-12-7",
+      "lien": "https://www.zataz.com/russie-une-liste-blanche-pour-linternet-mobile-en-cas-coupure-de-connexion/",
+      "categories": [
+        "Actualités",
+        "cyber actualité",
+        "Divers",
+        "warcyber",
+        "Cybersécurité",
+        "internet mobile",
+        "liste blanche",
+        "russie",
+        ""
+      ],
+      "index": 1418
     }
   ]
 }
