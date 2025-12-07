@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-07T17:39:35.696Z",
-  "totalBreaches": 1353,
+  "lastUpdated": "2025-12-07T18:30:28.759Z",
+  "totalBreaches": 1355,
   "breaches": [
     {
       "Name": "gPotato",
@@ -49373,6 +49373,70 @@
         "cve-2025-14199"
       ],
       "index": 1352
+    },
+    {
+      "Name": "cve-2025-14200 fuite du 2025-12-7",
+      "Title": "cve-2025-14200 fuite du 2025-12-7",
+      "Domain": null,
+      "BreachDate": "2025-12-7",
+      "AddedDate": "2025-12-07T18:30:28.710Z",
+      "ModifiedDate": "2025-12-07T18:30:28.710Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA vulnerability has been found in alokjaiswal Hotel-Management-services-using-MYSQL-and-php up to 5f8b60a7aa6c06a5632de569d4e3f6a8cd82f76f. Affected is an unknown function of the file /usersub.php of the component Request Pending Page. The manipulation leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. This product is using a rolling release to provide continious delivery. Therefore\nno version details for affected nor updated releases are available. The vendor was contacted early about this disclosure but did not respond in any way. | CVSS Score 3.5 (LOW)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14200-fuite-du-2025-12-7",
+      "path": "CVE-2025-14200",
+      "formattedDate": "2025-12-07",
+      "title": "cve-2025-14200 fuite du 2025-12-7",
+      "date": "2025-12-7",
+      "lien": "CVE-2025-14200",
+      "categories": [
+        "cve-2025-14200"
+      ],
+      "index": 1353
+    },
+    {
+      "Name": "cve-2025-14201 fuite du 2025-12-7",
+      "Title": "cve-2025-14201 fuite du 2025-12-7",
+      "Domain": null,
+      "BreachDate": "2025-12-7",
+      "AddedDate": "2025-12-07T18:30:28.758Z",
+      "ModifiedDate": "2025-12-07T18:30:28.758Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA vulnerability was found in alokjaiswal Hotel-Management-services-using-MYSQL-and-php up to 5f8b60a7aa6c06a5632de569d4e3f6a8cd82f76f. Affected by this vulnerability is an unknown functionality of the file /dishsub.php. The manipulation of the argument item.name results in cross site scripting. It is possible to launch the attack remotely. The exploit has been made public and could be used. This product takes the approach of rolling releases to provide continious delivery. Therefore\nversion details for affected and updated releases are not available. The vendor was contacted early about this disclosure but did not respond in any way. | CVSS Score 2.4 (LOW)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14201-fuite-du-2025-12-7",
+      "path": "CVE-2025-14201",
+      "formattedDate": "2025-12-07",
+      "title": "cve-2025-14201 fuite du 2025-12-7",
+      "date": "2025-12-7",
+      "lien": "CVE-2025-14201",
+      "categories": [
+        "cve-2025-14201"
+      ],
+      "index": 1354
     }
   ]
 }
