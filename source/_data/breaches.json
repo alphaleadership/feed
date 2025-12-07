@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-07T03:41:15.881Z",
-  "totalBreaches": 1415,
+  "lastUpdated": "2025-12-07T05:41:30.190Z",
+  "totalBreaches": 1417,
   "breaches": [
     {
       "Name": "gPotato",
@@ -51449,6 +51449,70 @@
         "cve-2025-14183"
       ],
       "index": 1414
+    },
+    {
+      "Name": "cve-2025-14184 fuite du 2025-12-7",
+      "Title": "cve-2025-14184 fuite du 2025-12-7",
+      "Domain": null,
+      "BreachDate": "2025-12-7",
+      "AddedDate": "2025-12-07T05:41:30.141Z",
+      "ModifiedDate": "2025-12-07T05:41:30.141Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA vulnerability was determined in SGAI Space1 NAS N1211DS up to 1.0.915. Impacted is the function RENAME_FILE/OPERATE_FILE/NGNIX_UPLOAD of the file /cgi-bin/JSONAPI of the component gsaiagent. This manipulation causes command injection. The attack may be initiated remotely. The exploit has been publicly disclosed and may be utilized. The vendor was contacted early about this disclosure but did not respond in any way. | CVSS Score 6.3 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14184-fuite-du-2025-12-7",
+      "path": "CVE-2025-14184",
+      "formattedDate": "2025-12-07",
+      "title": "cve-2025-14184 fuite du 2025-12-7",
+      "date": "2025-12-7",
+      "lien": "CVE-2025-14184",
+      "categories": [
+        "cve-2025-14184"
+      ],
+      "index": 1415
+    },
+    {
+      "Name": "cve-2025-14185 fuite du 2025-12-7",
+      "Title": "cve-2025-14185 fuite du 2025-12-7",
+      "Domain": null,
+      "BreachDate": "2025-12-7",
+      "AddedDate": "2025-12-07T05:41:30.189Z",
+      "ModifiedDate": "2025-12-07T05:41:30.189Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA vulnerability was identified in Yonyou U8 Cloud 5.0/5.0sp/5.1/5.1sp. The affected element is an unknown function of the file nc/pubitf/erm/mobile/appservice/AppServletService.class. Such manipulation of the argument usercode leads to sql injection. The attack may be launched remotely. The exploit is publicly available and might be used. The vendor was contacted early about this disclosure but did not respond in any way. | CVSS Score 6.3 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14185-fuite-du-2025-12-7",
+      "path": "CVE-2025-14185",
+      "formattedDate": "2025-12-07",
+      "title": "cve-2025-14185 fuite du 2025-12-7",
+      "date": "2025-12-7",
+      "lien": "CVE-2025-14185",
+      "categories": [
+        "cve-2025-14185"
+      ],
+      "index": 1416
     }
   ]
 }
