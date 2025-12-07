@@ -38,10 +38,6 @@ const l = (title, cat = []) => {
     return "_posts"
   }
   const validCategories = [
-    "fuite de données",
-    "Données personnelles",
-    "Cybersécurité",
-    "Sécurité"
   ].map((item)=>{return item.toLowerCase()});
   
   // Vérifier si au moins une catégorie valide est présente
