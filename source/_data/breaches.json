@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-07T11:38:27.219Z",
-  "totalBreaches": 1421,
+  "lastUpdated": "2025-12-07T12:42:10.414Z",
+  "totalBreaches": 1422,
   "breaches": [
     {
       "Name": "gPotato",
@@ -51649,6 +51649,38 @@
         "cve-2025-14188"
       ],
       "index": 1420
+    },
+    {
+      "Name": "cve-2025-14189 fuite du 2025-12-7",
+      "Title": "cve-2025-14189 fuite du 2025-12-7",
+      "Domain": null,
+      "BreachDate": "2025-12-7",
+      "AddedDate": "2025-12-07T12:42:10.412Z",
+      "ModifiedDate": "2025-12-07T12:42:10.412Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA vulnerability was detected in Chanjet CRM up to 20251121. Affected is an unknown function of the file /tools/jxf_dump_table_demo.php. The manipulation of the argument gblOrgID results in sql injection. The attack may be performed from remote. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way. | CVSS Score 7.3 (HIGH)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14189-fuite-du-2025-12-7",
+      "path": "CVE-2025-14189",
+      "formattedDate": "2025-12-07",
+      "title": "cve-2025-14189 fuite du 2025-12-7",
+      "date": "2025-12-7",
+      "lien": "CVE-2025-14189",
+      "categories": [
+        "cve-2025-14189"
+      ],
+      "index": 1421
     }
   ]
 }
