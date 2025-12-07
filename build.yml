@@ -3312,6 +3312,10 @@ category_map:
   - 2900349_la
   - '2135027'
   - cve-2025-14189
+  - '2133407'
+  - 2897013_test
+  - cve-2025-14190
+  - cve-2025-14191
 tag_map: null
 meta_generator: true
 search:
