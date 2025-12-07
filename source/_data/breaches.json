@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-07T15:00:16.831Z",
-  "totalBreaches": 1347,
+  "lastUpdated": "2025-12-07T15:20:14.397Z",
+  "totalBreaches": 1349,
   "breaches": [
     {
       "Name": "gPotato",
@@ -49181,6 +49181,70 @@
         "cve-2025-14193"
       ],
       "index": 1346
+    },
+    {
+      "Name": "cve-2025-14194 fuite du 2025-12-7",
+      "Title": "cve-2025-14194 fuite du 2025-12-7",
+      "Domain": null,
+      "BreachDate": "2025-12-7",
+      "AddedDate": "2025-12-07T15:20:14.355Z",
+      "ModifiedDate": "2025-12-07T15:20:14.355Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA vulnerability was identified in code-projects Employee Profile Management System 1.0. This issue affects some unknown processing of the file /view_personnel.php. The manipulation of the argument per_address/dr_school/other_school leads to cross site scripting. The attack may be initiated remotely. The exploit is publicly available and might be used. | CVSS Score 3.5 (LOW)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14194-fuite-du-2025-12-7",
+      "path": "CVE-2025-14194",
+      "formattedDate": "2025-12-07",
+      "title": "cve-2025-14194 fuite du 2025-12-7",
+      "date": "2025-12-7",
+      "lien": "CVE-2025-14194",
+      "categories": [
+        "cve-2025-14194"
+      ],
+      "index": 1347
+    },
+    {
+      "Name": "cve-2025-14195 fuite du 2025-12-7",
+      "Title": "cve-2025-14195 fuite du 2025-12-7",
+      "Domain": null,
+      "BreachDate": "2025-12-7",
+      "AddedDate": "2025-12-07T15:20:14.396Z",
+      "ModifiedDate": "2025-12-07T15:20:14.396Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA security flaw has been discovered in code-projects Employee Profile Management System 1.0. Impacted is an unknown function of the file /profiling/add_file_query.php. The manipulation of the argument per_file results in unrestricted upload. The attack may be launched remotely. The exploit has been released to the public and may be exploited. | CVSS Score 6.3 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14195-fuite-du-2025-12-7",
+      "path": "CVE-2025-14195",
+      "formattedDate": "2025-12-07",
+      "title": "cve-2025-14195 fuite du 2025-12-7",
+      "date": "2025-12-7",
+      "lien": "CVE-2025-14195",
+      "categories": [
+        "cve-2025-14195"
+      ],
+      "index": 1348
     }
   ]
 }

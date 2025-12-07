@@ -3322,6 +3322,12 @@ category_map:
   - 2901293_lunion
   - 2900527_hisense
   - 2901303_hemorragie
+  - cve-2025-14194
+  - cve-2025-14195
+  - ceab61f8
+  - 2889231_jai
+  - '2135705'
+  - '2091289'
 tag_map: null
 meta_generator: true
 search:
