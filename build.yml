@@ -3298,6 +3298,8 @@ category_map:
   - 2894483_reseau
   - '2134937'
   - '2128819'
+  - cve-2025-14186
+  - '2134433'
 tag_map: null
 meta_generator: true
 search:
