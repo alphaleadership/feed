@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-07T13:37:54.807Z",
-  "totalBreaches": 1424,
+  "lastUpdated": "2025-12-07T14:20:08.221Z",
+  "totalBreaches": 1426,
   "breaches": [
     {
       "Name": "gPotato",
@@ -51745,6 +51745,70 @@
         "cve-2025-14191"
       ],
       "index": 1423
+    },
+    {
+      "Name": "cve-2025-14192 fuite du 2025-12-7",
+      "Title": "cve-2025-14192 fuite du 2025-12-7",
+      "Domain": null,
+      "BreachDate": "2025-12-7",
+      "AddedDate": "2025-12-07T14:20:08.173Z",
+      "ModifiedDate": "2025-12-07T14:20:08.173Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA vulnerability was found in RashminDungrani online-banking up to 2337ad552ea9d385b4e07b90e6f32d011b7c68a2. This affects an unknown part of the file /site/dist/auth_login.php. Performing manipulation of the argument Username results in sql injection. The attack can be initiated remotely. The exploit has been made public and could be used. Continious delivery with rolling releases is used by this product. Therefore\nno version details of affected nor updated releases are available. The vendor was contacted early about this disclosure but did not respond in any way. | CVSS Score 7.3 (HIGH)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14192-fuite-du-2025-12-7",
+      "path": "CVE-2025-14192",
+      "formattedDate": "2025-12-07",
+      "title": "cve-2025-14192 fuite du 2025-12-7",
+      "date": "2025-12-7",
+      "lien": "CVE-2025-14192",
+      "categories": [
+        "cve-2025-14192"
+      ],
+      "index": 1424
+    },
+    {
+      "Name": "cve-2025-14193 fuite du 2025-12-7",
+      "Title": "cve-2025-14193 fuite du 2025-12-7",
+      "Domain": null,
+      "BreachDate": "2025-12-7",
+      "AddedDate": "2025-12-07T14:20:08.220Z",
+      "ModifiedDate": "2025-12-07T14:20:08.220Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA vulnerability was determined in code-projects Employee Profile Management System 1.0. This vulnerability affects unknown code of the file /view_personnel.php. Executing manipulation of the argument per_id can lead to sql injection. The attack can be launched remotely. The exploit has been publicly disclosed and may be utilized. | CVSS Score 6.3 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14193-fuite-du-2025-12-7",
+      "path": "CVE-2025-14193",
+      "formattedDate": "2025-12-07",
+      "title": "cve-2025-14193 fuite du 2025-12-7",
+      "date": "2025-12-7",
+      "lien": "CVE-2025-14193",
+      "categories": [
+        "cve-2025-14193"
+      ],
+      "index": 1425
     }
   ]
 }
