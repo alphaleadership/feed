@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-07T18:30:28.759Z",
-  "totalBreaches": 1355,
+  "lastUpdated": "2025-12-07T22:20:33.794Z",
+  "totalBreaches": 1356,
   "breaches": [
     {
       "Name": "gPotato",
@@ -49437,6 +49437,38 @@
         "cve-2025-14201"
       ],
       "index": 1354
+    },
+    {
+      "Name": "cve-2025-14203 fuite du 2025-12-7",
+      "Title": "cve-2025-14203 fuite du 2025-12-7",
+      "Domain": null,
+      "BreachDate": "2025-12-7",
+      "AddedDate": "2025-12-07T22:20:33.793Z",
+      "ModifiedDate": "2025-12-07T22:20:33.793Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA flaw has been found in code-projects Question Paper Generator up to 1.0. This vulnerability affects unknown code of the file /selectquestionuser.php. This manipulation of the argument subid causes sql injection. Remote exploitation of the attack is possible. The exploit has been published and may be used. | CVSS Score 6.3 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14203-fuite-du-2025-12-7",
+      "path": "CVE-2025-14203",
+      "formattedDate": "2025-12-07",
+      "title": "cve-2025-14203 fuite du 2025-12-7",
+      "date": "2025-12-7",
+      "lien": "CVE-2025-14203",
+      "categories": [
+        "cve-2025-14203"
+      ],
+      "index": 1355
     }
   ]
 }
