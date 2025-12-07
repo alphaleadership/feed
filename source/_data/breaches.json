@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-07T15:20:14.397Z",
-  "totalBreaches": 1349,
+  "lastUpdated": "2025-12-07T16:26:18.756Z",
+  "totalBreaches": 1351,
   "breaches": [
     {
       "Name": "gPotato",
@@ -49245,6 +49245,70 @@
         "cve-2025-14195"
       ],
       "index": 1348
+    },
+    {
+      "Name": "cve-2025-14196 fuite du 2025-12-7",
+      "Title": "cve-2025-14196 fuite du 2025-12-7",
+      "Domain": null,
+      "BreachDate": "2025-12-7",
+      "AddedDate": "2025-12-07T16:26:18.711Z",
+      "ModifiedDate": "2025-12-07T16:26:18.711Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA weakness has been identified in H3C Magic B1 up to 100R004. The affected element is the function sub_44de0 of the file /goform/aspForm. This manipulation of the argument param causes buffer overflow. Remote exploitation of the attack is possible. The exploit has been made available to the public and could be exploited. The vendor was contacted early about this disclosure but did not respond in any way. | CVSS Score 8.8 (HIGH)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14196-fuite-du-2025-12-7",
+      "path": "CVE-2025-14196",
+      "formattedDate": "2025-12-07",
+      "title": "cve-2025-14196 fuite du 2025-12-7",
+      "date": "2025-12-7",
+      "lien": "CVE-2025-14196",
+      "categories": [
+        "cve-2025-14196"
+      ],
+      "index": 1349
+    },
+    {
+      "Name": "cve-2025-14197 fuite du 2025-12-7",
+      "Title": "cve-2025-14197 fuite du 2025-12-7",
+      "Domain": null,
+      "BreachDate": "2025-12-7",
+      "AddedDate": "2025-12-07T16:26:18.755Z",
+      "ModifiedDate": "2025-12-07T16:26:18.755Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA security vulnerability has been detected in Verysync 微力同步 up to 2.21.3. The impacted element is an unknown function of the file /rest/f/api/resources/f96956469e7be39d of the component Web Administration Module. Such manipulation leads to information disclosure. The attack can be executed remotely. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way. | CVSS Score 5.3 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14197-fuite-du-2025-12-7",
+      "path": "CVE-2025-14197",
+      "formattedDate": "2025-12-07",
+      "title": "cve-2025-14197 fuite du 2025-12-7",
+      "date": "2025-12-7",
+      "lien": "CVE-2025-14197",
+      "categories": [
+        "cve-2025-14197"
+      ],
+      "index": 1350
     }
   ]
 }
