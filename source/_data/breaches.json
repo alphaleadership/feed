@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-08T13:36:50.948Z",
-  "totalBreaches": 1495,
+  "lastUpdated": "2025-12-08T14:29:43.689Z",
+  "totalBreaches": 1497,
   "breaches": [
     {
       "Name": "gPotato",
@@ -53917,6 +53917,70 @@
         "cve-2025-42620"
       ],
       "index": 1494
+    },
+    {
+      "Name": "cve-2025-14246 fuite du 2025-12-8",
+      "Title": "cve-2025-14246 fuite du 2025-12-8",
+      "Domain": null,
+      "BreachDate": "2025-12-8",
+      "AddedDate": "2025-12-08T14:29:43.637Z",
+      "ModifiedDate": "2025-12-08T14:29:43.637Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA vulnerability was found in code-projects Simple Shopping Cart 1.0. This vulnerability affects unknown code of the file /Customers/settings.php. Performing manipulation of the argument user_id results in sql injection. Remote exploitation of the attack is possible. The exploit has been made public and could be used. | CVSS Score 6.3 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14246-fuite-du-2025-12-8",
+      "path": "CVE-2025-14246",
+      "formattedDate": "2025-12-08",
+      "title": "cve-2025-14246 fuite du 2025-12-8",
+      "date": "2025-12-8",
+      "lien": "CVE-2025-14246",
+      "categories": [
+        "cve-2025-14246"
+      ],
+      "index": 1495
+    },
+    {
+      "Name": "cve-2025-14247 fuite du 2025-12-8",
+      "Title": "cve-2025-14247 fuite du 2025-12-8",
+      "Domain": null,
+      "BreachDate": "2025-12-8",
+      "AddedDate": "2025-12-08T14:29:43.688Z",
+      "ModifiedDate": "2025-12-08T14:29:43.688Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA vulnerability was determined in code-projects Simple Shopping Cart 1.0. This issue affects some unknown processing of the file /Admin/additems.php. Executing manipulation of the argument item_name can lead to sql injection. The attack can be executed remotely. The exploit has been publicly disclosed and may be utilized. | CVSS Score 6.3 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14247-fuite-du-2025-12-8",
+      "path": "CVE-2025-14247",
+      "formattedDate": "2025-12-08",
+      "title": "cve-2025-14247 fuite du 2025-12-8",
+      "date": "2025-12-8",
+      "lien": "CVE-2025-14247",
+      "categories": [
+        "cve-2025-14247"
+      ],
+      "index": 1496
     }
   ]
 }
