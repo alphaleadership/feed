@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-08T04:07:59.586Z",
-  "totalBreaches": 1446,
+  "lastUpdated": "2025-12-08T04:47:10.846Z",
+  "totalBreaches": 1447,
   "breaches": [
     {
       "Name": "gPotato",
@@ -52349,6 +52349,38 @@
         "cve-2025-14212"
       ],
       "index": 1445
+    },
+    {
+      "Name": "cve-2025-14214 fuite du 2025-12-8",
+      "Title": "cve-2025-14214 fuite du 2025-12-8",
+      "Domain": null,
+      "BreachDate": "2025-12-8",
+      "AddedDate": "2025-12-08T04:47:10.844Z",
+      "ModifiedDate": "2025-12-08T04:47:10.844Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA vulnerability has been found in itsourcecode Student Information System 1.0. This affects an unknown part of the file /section_edit1.php. The manipulation of the argument ID leads to sql injection. Remote exploitation of the attack is possible. The exploit has been disclosed to the public and may be used. | CVSS Score 6.3 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14214-fuite-du-2025-12-8",
+      "path": "CVE-2025-14214",
+      "formattedDate": "2025-12-08",
+      "title": "cve-2025-14214 fuite du 2025-12-8",
+      "date": "2025-12-8",
+      "lien": "CVE-2025-14214",
+      "categories": [
+        "cve-2025-14214"
+      ],
+      "index": 1446
     }
   ]
 }
