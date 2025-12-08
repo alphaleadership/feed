@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-08T05:26:01.219Z",
-  "totalBreaches": 1450,
+  "lastUpdated": "2025-12-08T06:39:16.442Z",
+  "totalBreaches": 1452,
   "breaches": [
     {
       "Name": "gPotato",
@@ -52477,6 +52477,70 @@
         "cve-2025-14217"
       ],
       "index": 1449
+    },
+    {
+      "Name": "cve-2025-14218 fuite du 2025-12-8",
+      "Title": "cve-2025-14218 fuite du 2025-12-8",
+      "Domain": null,
+      "BreachDate": "2025-12-8",
+      "AddedDate": "2025-12-08T06:39:16.375Z",
+      "ModifiedDate": "2025-12-08T06:39:16.375Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA security flaw has been discovered in code-projects Currency Exchange System 1.0. The affected element is an unknown function of the file /editotheraccount.php. Performing manipulation of the argument ID results in sql injection. It is possible to initiate the attack remotely. The exploit has been released to the public and may be exploited. | CVSS Score 7.3 (HIGH)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14218-fuite-du-2025-12-8",
+      "path": "CVE-2025-14218",
+      "formattedDate": "2025-12-08",
+      "title": "cve-2025-14218 fuite du 2025-12-8",
+      "date": "2025-12-8",
+      "lien": "CVE-2025-14218",
+      "categories": [
+        "cve-2025-14218"
+      ],
+      "index": 1450
+    },
+    {
+      "Name": "cve-2025-14219 fuite du 2025-12-8",
+      "Title": "cve-2025-14219 fuite du 2025-12-8",
+      "Domain": null,
+      "BreachDate": "2025-12-8",
+      "AddedDate": "2025-12-08T06:39:16.440Z",
+      "ModifiedDate": "2025-12-08T06:39:16.440Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA weakness has been identified in Campcodes Retro Basketball Shoes Online Store 1.0. The impacted element is an unknown function of the file /admin/admin_running.php. Executing manipulation of the argument product_image can lead to unrestricted upload. It is possible to launch the attack remotely. The exploit has been made available to the public and could be exploited. | CVSS Score 4.7 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14219-fuite-du-2025-12-8",
+      "path": "CVE-2025-14219",
+      "formattedDate": "2025-12-08",
+      "title": "cve-2025-14219 fuite du 2025-12-8",
+      "date": "2025-12-8",
+      "lien": "CVE-2025-14219",
+      "categories": [
+        "cve-2025-14219"
+      ],
+      "index": 1451
     }
   ]
 }
