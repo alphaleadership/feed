@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-08T10:30:55.765Z",
-  "totalBreaches": 1487,
+  "lastUpdated": "2025-12-08T11:24:45.618Z",
+  "totalBreaches": 1489,
   "breaches": [
     {
       "Name": "gPotato",
@@ -53661,6 +53661,70 @@
         "cve-2025-66461"
       ],
       "index": 1486
+    },
+    {
+      "Name": "cve-2025-14228 fuite du 2025-12-8",
+      "Title": "cve-2025-14228 fuite du 2025-12-8",
+      "Domain": null,
+      "BreachDate": "2025-12-8",
+      "AddedDate": "2025-12-08T11:24:45.568Z",
+      "ModifiedDate": "2025-12-08T11:24:45.568Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA weakness has been identified in Yealink SIP-T21P E2 52.84.0.15. Impacted is an unknown function of the component Local Directory Page. This manipulation causes cross site scripting. It is possible to initiate the attack remotely. The exploit has been made available to the public and could be exploited. The vendor was contacted early about this disclosure but did not respond in any way. This vulnerability only affects products that are no longer supported by the maintainer. | CVSS Score 3.5 (LOW)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14228-fuite-du-2025-12-8",
+      "path": "CVE-2025-14228",
+      "formattedDate": "2025-12-08",
+      "title": "cve-2025-14228 fuite du 2025-12-8",
+      "date": "2025-12-8",
+      "lien": "CVE-2025-14228",
+      "categories": [
+        "cve-2025-14228"
+      ],
+      "index": 1487
+    },
+    {
+      "Name": "cve-2025-14229 fuite du 2025-12-8",
+      "Title": "cve-2025-14229 fuite du 2025-12-8",
+      "Domain": null,
+      "BreachDate": "2025-12-8",
+      "AddedDate": "2025-12-08T11:24:45.617Z",
+      "ModifiedDate": "2025-12-08T11:24:45.617Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA security vulnerability has been detected in SourceCodester Inventory Management System 1.0. The affected element is an unknown function of the component SVC Report Export. Such manipulation leads to csv injection. It is possible to launch the attack remotely. The exploit has been disclosed publicly and may be used. | CVSS Score 4.7 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14229-fuite-du-2025-12-8",
+      "path": "CVE-2025-14229",
+      "formattedDate": "2025-12-08",
+      "title": "cve-2025-14229 fuite du 2025-12-8",
+      "date": "2025-12-8",
+      "lien": "CVE-2025-14229",
+      "categories": [
+        "cve-2025-14229"
+      ],
+      "index": 1488
     }
   ]
 }

@@ -7,5 +7,5 @@ categories:
 ---
 
 Le 2 décembre
-l'eurodéputé luxembourgeois Fernand Kartheiser a fait parvenir un mail à ses collègues parlementaires de l'Union européenne (UE) qui [...]                    
+l'eurodéputé luxembourgeois Fernand Kartheiser a fait parvenir un mail à ses collègues parlementaires de l'Union européenne (UE) qui [...]                      
 
