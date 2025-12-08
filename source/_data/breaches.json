@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-08T14:29:43.689Z",
-  "totalBreaches": 1497,
+  "lastUpdated": "2025-12-08T15:27:08.280Z",
+  "totalBreaches": 1500,
   "breaches": [
     {
       "Name": "gPotato",
@@ -53981,6 +53981,102 @@
         "cve-2025-14247"
       ],
       "index": 1496
+    },
+    {
+      "Name": "cve-2025-14248 fuite du 2025-12-8",
+      "Title": "cve-2025-14248 fuite du 2025-12-8",
+      "Domain": null,
+      "BreachDate": "2025-12-8",
+      "AddedDate": "2025-12-08T15:27:08.158Z",
+      "ModifiedDate": "2025-12-08T15:27:08.158Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA vulnerability was identified in code-projects Simple Shopping Cart 1.0. Impacted is an unknown function of the file /adminlogin.php. The manipulation of the argument admin_username leads to sql injection. The attack is possible to be carried out remotely. The exploit is publicly available and might be used. | CVSS Score 7.3 (HIGH)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14248-fuite-du-2025-12-8",
+      "path": "CVE-2025-14248",
+      "formattedDate": "2025-12-08",
+      "title": "cve-2025-14248 fuite du 2025-12-8",
+      "date": "2025-12-8",
+      "lien": "CVE-2025-14248",
+      "categories": [
+        "cve-2025-14248"
+      ],
+      "index": 1497
+    },
+    {
+      "Name": "cve-2025-14249 fuite du 2025-12-8",
+      "Title": "cve-2025-14249 fuite du 2025-12-8",
+      "Domain": null,
+      "BreachDate": "2025-12-8",
+      "AddedDate": "2025-12-08T15:27:08.211Z",
+      "ModifiedDate": "2025-12-08T15:27:08.211Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA security flaw has been discovered in code-projects Online Ordering System 1.0. The affected element is an unknown function of the file /user_school.php. The manipulation of the argument product_id results in sql injection. The attack may be performed from remote. The exploit has been released to the public and may be exploited. | CVSS Score 7.3 (HIGH)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14249-fuite-du-2025-12-8",
+      "path": "CVE-2025-14249",
+      "formattedDate": "2025-12-08",
+      "title": "cve-2025-14249 fuite du 2025-12-8",
+      "date": "2025-12-8",
+      "lien": "CVE-2025-14249",
+      "categories": [
+        "cve-2025-14249"
+      ],
+      "index": 1498
+    },
+    {
+      "Name": "cve-2025-60912 fuite du 2025-12-8",
+      "Title": "cve-2025-60912 fuite du 2025-12-8",
+      "Domain": null,
+      "BreachDate": "2025-12-8",
+      "AddedDate": "2025-12-08T15:27:08.279Z",
+      "ModifiedDate": "2025-12-08T15:27:08.279Z",
+      "PwnCount": 0,
+      "Description": "-\n\nphpIPAM v1.7.3 contains a Cross-Site Request Forgery (CSRF) vulnerability in the database export functionality. The generate-mysql.php function\nlocated in the /app/admin/import-export/ endpoint\nallows remote attackers to trigger large database dump downloads via crafted HTTP GET requests if an administrator has an active session. | Severity UNKNOWN  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-60912-fuite-du-2025-12-8",
+      "path": "CVE-2025-60912",
+      "formattedDate": "2025-12-08",
+      "title": "cve-2025-60912 fuite du 2025-12-8",
+      "date": "2025-12-8",
+      "lien": "CVE-2025-60912",
+      "categories": [
+        "cve-2025-60912"
+      ],
+      "index": 1499
     }
   ]
 }
