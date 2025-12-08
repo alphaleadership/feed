@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-08T03:24:38.946Z",
-  "totalBreaches": 1443,
+  "lastUpdated": "2025-12-08T04:07:59.586Z",
+  "totalBreaches": 1446,
   "breaches": [
     {
       "Name": "gPotato",
@@ -52253,6 +52253,102 @@
         "cve-2025-14209"
       ],
       "index": 1442
+    },
+    {
+      "Name": "cve-2025-14210 fuite du 2025-12-8",
+      "Title": "cve-2025-14210 fuite du 2025-12-8",
+      "Domain": null,
+      "BreachDate": "2025-12-8",
+      "AddedDate": "2025-12-08T04:07:59.498Z",
+      "ModifiedDate": "2025-12-08T04:07:59.498Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA security vulnerability has been detected in projectworlds Advanced Library Management System 1.0. Affected is an unknown function of the file /delete_member.php. Such manipulation of the argument user_id leads to sql injection. The attack can be launched remotely. The exploit has been disclosed publicly and may be used. | CVSS Score 7.3 (HIGH)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14210-fuite-du-2025-12-8",
+      "path": "CVE-2025-14210",
+      "formattedDate": "2025-12-08",
+      "title": "cve-2025-14210 fuite du 2025-12-8",
+      "date": "2025-12-8",
+      "lien": "CVE-2025-14210",
+      "categories": [
+        "cve-2025-14210"
+      ],
+      "index": 1443
+    },
+    {
+      "Name": "cve-2025-14211 fuite du 2025-12-8",
+      "Title": "cve-2025-14211 fuite du 2025-12-8",
+      "Domain": null,
+      "BreachDate": "2025-12-8",
+      "AddedDate": "2025-12-08T04:07:59.542Z",
+      "ModifiedDate": "2025-12-08T04:07:59.542Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA vulnerability was detected in projectworlds Advanced Library Management System 1.0. Affected by this vulnerability is an unknown functionality of the file /delete_book.php. Performing manipulation of the argument book_id results in sql injection. The attack may be initiated remotely. The exploit is now public and may be used. | CVSS Score 7.3 (HIGH)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14211-fuite-du-2025-12-8",
+      "path": "CVE-2025-14211",
+      "formattedDate": "2025-12-08",
+      "title": "cve-2025-14211 fuite du 2025-12-8",
+      "date": "2025-12-8",
+      "lien": "CVE-2025-14211",
+      "categories": [
+        "cve-2025-14211"
+      ],
+      "index": 1444
+    },
+    {
+      "Name": "cve-2025-14212 fuite du 2025-12-8",
+      "Title": "cve-2025-14212 fuite du 2025-12-8",
+      "Domain": null,
+      "BreachDate": "2025-12-8",
+      "AddedDate": "2025-12-08T04:07:59.586Z",
+      "ModifiedDate": "2025-12-08T04:07:59.586Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA flaw has been found in projectworlds Advanced Library Management System 1.0. Affected by this issue is some unknown functionality of the file /member_search.php. Executing manipulation of the argument roll_number can lead to sql injection. The attack may be launched remotely. The exploit has been published and may be used. | CVSS Score 7.3 (HIGH)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14212-fuite-du-2025-12-8",
+      "path": "CVE-2025-14212",
+      "formattedDate": "2025-12-08",
+      "title": "cve-2025-14212 fuite du 2025-12-8",
+      "date": "2025-12-8",
+      "lien": "CVE-2025-14212",
+      "categories": [
+        "cve-2025-14212"
+      ],
+      "index": 1445
     }
   ]
 }
