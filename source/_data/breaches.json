@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-08T04:47:10.846Z",
-  "totalBreaches": 1447,
+  "lastUpdated": "2025-12-08T05:26:01.219Z",
+  "totalBreaches": 1450,
   "breaches": [
     {
       "Name": "gPotato",
@@ -52381,6 +52381,102 @@
         "cve-2025-14214"
       ],
       "index": 1446
+    },
+    {
+      "Name": "cve-2025-14215 fuite du 2025-12-8",
+      "Title": "cve-2025-14215 fuite du 2025-12-8",
+      "Domain": null,
+      "BreachDate": "2025-12-8",
+      "AddedDate": "2025-12-08T05:26:01.101Z",
+      "ModifiedDate": "2025-12-08T05:26:01.101Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA vulnerability was found in code-projects Currency Exchange System 1.0. This vulnerability affects unknown code of the file /edit.php. The manipulation of the argument ID results in sql injection. The attack can be executed remotely. The exploit has been made public and could be used. | CVSS Score 7.3 (HIGH)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14215-fuite-du-2025-12-8",
+      "path": "CVE-2025-14215",
+      "formattedDate": "2025-12-08",
+      "title": "cve-2025-14215 fuite du 2025-12-8",
+      "date": "2025-12-8",
+      "lien": "CVE-2025-14215",
+      "categories": [
+        "cve-2025-14215"
+      ],
+      "index": 1447
+    },
+    {
+      "Name": "cve-2025-14216 fuite du 2025-12-8",
+      "Title": "cve-2025-14216 fuite du 2025-12-8",
+      "Domain": null,
+      "BreachDate": "2025-12-8",
+      "AddedDate": "2025-12-08T05:26:01.174Z",
+      "ModifiedDate": "2025-12-08T05:26:01.174Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA vulnerability was determined in code-projects Currency Exchange System 1.0. This issue affects some unknown processing of the file /viewserial.php. This manipulation of the argument ID causes sql injection. The attack is possible to be carried out remotely. The exploit has been publicly disclosed and may be utilized. | CVSS Score 7.3 (HIGH)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14216-fuite-du-2025-12-8",
+      "path": "CVE-2025-14216",
+      "formattedDate": "2025-12-08",
+      "title": "cve-2025-14216 fuite du 2025-12-8",
+      "date": "2025-12-8",
+      "lien": "CVE-2025-14216",
+      "categories": [
+        "cve-2025-14216"
+      ],
+      "index": 1448
+    },
+    {
+      "Name": "cve-2025-14217 fuite du 2025-12-8",
+      "Title": "cve-2025-14217 fuite du 2025-12-8",
+      "Domain": null,
+      "BreachDate": "2025-12-8",
+      "AddedDate": "2025-12-08T05:26:01.218Z",
+      "ModifiedDate": "2025-12-08T05:26:01.218Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA vulnerability was identified in code-projects Currency Exchange System 1.0. Impacted is an unknown function of the file /edittrns.php. Such manipulation of the argument ID leads to sql injection. The attack may be performed from remote. The exploit is publicly available and might be used. | CVSS Score 7.3 (HIGH)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14217-fuite-du-2025-12-8",
+      "path": "CVE-2025-14217",
+      "formattedDate": "2025-12-08",
+      "title": "cve-2025-14217 fuite du 2025-12-8",
+      "date": "2025-12-8",
+      "lien": "CVE-2025-14217",
+      "categories": [
+        "cve-2025-14217"
+      ],
+      "index": 1449
     }
   ]
 }
