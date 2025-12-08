@@ -3700,6 +3700,12 @@ category_map:
   - cve-2025-62408
   - cve-2025-64650
   - 2902773_on
+  - cve-2025-36140
+  - cve-2025-64497
+  - cve-2025-64498
+  - cve-2025-64499
+  - cve-2025-64760
+  - 2902793_ils
 tag_map: null
 meta_generator: true
 search:
