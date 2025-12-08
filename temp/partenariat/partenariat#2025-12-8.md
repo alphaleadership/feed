@@ -7,5 +7,5 @@ categories:
 ---
 
 Selon les informations recueillies par Intelligence Online
-la CIA cherche à se procurer une dizaine d'appareils C-130 Hercules sur le marché de l'occasion. Une condition  qu'ils soient démarqués pour ne pas être identifiés. Cet avion de transport militaire construit par [...]                          
+la CIA cherche à se procurer une dizaine d'appareils C-130 Hercules sur le marché de l'occasion. Une condition  qu'ils soient démarqués pour ne pas être identifiés. Cet avion de transport militaire construit par [...]                            
 

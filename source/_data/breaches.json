@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-08T11:24:45.618Z",
-  "totalBreaches": 1489,
+  "lastUpdated": "2025-12-08T12:50:05.411Z",
+  "totalBreaches": 1492,
   "breaches": [
     {
       "Name": "gPotato",
@@ -53725,6 +53725,102 @@
         "cve-2025-14229"
       ],
       "index": 1488
+    },
+    {
+      "Name": "cve-2025-14230 fuite du 2025-12-8",
+      "Title": "cve-2025-14230 fuite du 2025-12-8",
+      "Domain": null,
+      "BreachDate": "2025-12-8",
+      "AddedDate": "2025-12-08T12:50:04.352Z",
+      "ModifiedDate": "2025-12-08T12:50:04.352Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA vulnerability was detected in code-projects Daily Time Recording System 4.5.0. The impacted element is an unknown function of the file /admin/add_payroll.php. Performing manipulation of the argument detail_Id results in sql injection. The attack can be initiated remotely. The exploit is now public and may be used. | CVSS Score 6.3 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14230-fuite-du-2025-12-8",
+      "path": "CVE-2025-14230",
+      "formattedDate": "2025-12-08",
+      "title": "cve-2025-14230 fuite du 2025-12-8",
+      "date": "2025-12-8",
+      "lien": "CVE-2025-14230",
+      "categories": [
+        "cve-2025-14230"
+      ],
+      "index": 1489
+    },
+    {
+      "Name": "cve-2025-14244 fuite du 2025-12-8",
+      "Title": "cve-2025-14244 fuite du 2025-12-8",
+      "Domain": null,
+      "BreachDate": "2025-12-8",
+      "AddedDate": "2025-12-08T12:50:04.401Z",
+      "ModifiedDate": "2025-12-08T12:50:04.401Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA flaw has been found in GreenCMS 2.3.0603. Affected by this issue is some unknown functionality of the file /Admin/Controller/CustomController.class.php of the component Menu Management Page. This manipulation of the argument Link causes cross site scripting. The attack may be initiated remotely. The exploit has been published and may be used. This vulnerability only affects products that are no longer supported by the maintainer. | CVSS Score 2.4 (LOW)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14244-fuite-du-2025-12-8",
+      "path": "CVE-2025-14244",
+      "formattedDate": "2025-12-08",
+      "title": "cve-2025-14244 fuite du 2025-12-8",
+      "date": "2025-12-8",
+      "lien": "CVE-2025-14244",
+      "categories": [
+        "cve-2025-14244"
+      ],
+      "index": 1490
+    },
+    {
+      "Name": "cve-2025-42615 fuite du 2025-12-8",
+      "Title": "cve-2025-42615 fuite du 2025-12-8",
+      "Domain": null,
+      "BreachDate": "2025-12-8",
+      "AddedDate": "2025-12-08T12:50:05.410Z",
+      "ModifiedDate": "2025-12-08T12:50:05.410Z",
+      "PwnCount": 0,
+      "Description": "-\n\nIn affected versions\nvulnerability-lookup did not track or limit failed\r\n One-Time Password (OTP) attempts during Two-Factor Authentication (2FA)\r\n verification. An attacker who already knew or guessed a valid username \r\nand password could submit an arbitrary number of OTP codes without \r\ncausing the account to be locked or generating any specific alert for \r\nadministrators.\r\n\r\n\r\nThis lack of rate-limiting and lockout on OTP failures significantly \r\nlowers the cost of online brute-force attacks against 2FA codes and \r\nincreases the risk of successful account takeover\nespecially if OTP \r\nentropy is reduced (e.g. short numeric codes\nuser reuse\nor predictable\r\n tokens). Additionally\nadministrators had no direct visibility into \r\naccounts experiencing repeated 2FA failures\nmaking targeted attacks \r\nharder to detect and investigate.\r\n\r\n\r\nThe patch introduces a persistent failed_otp_attempts counter on user \r\naccounts\nlocks the user after 5 invalid OTP submissions\nresets the \r\ncounter on successful verification\nand surfaces failed 2FA attempts in \r\nthe admin user list. This enforces an account lockout policy for OTP \r\nbrute-force attempts and improves monitoring capabilities for suspicious\r\n 2FA activity.This issue affects Vulnerability-Lookup before 2.18.0. | Severity UNKNOWN  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-42615-fuite-du-2025-12-8",
+      "path": "CVE-2025-42615",
+      "formattedDate": "2025-12-08",
+      "title": "cve-2025-42615 fuite du 2025-12-8",
+      "date": "2025-12-8",
+      "lien": "CVE-2025-42615",
+      "categories": [
+        "cve-2025-42615"
+      ],
+      "index": 1491
     }
   ]
 }
