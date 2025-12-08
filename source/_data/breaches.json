@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-08T19:23:25.428Z",
-  "totalBreaches": 1581,
+  "lastUpdated": "2025-12-08T20:27:27.557Z",
+  "totalBreaches": 1583,
   "breaches": [
     {
       "Name": "gPotato",
@@ -56669,6 +56669,70 @@
         "cve-2025-65849"
       ],
       "index": 1580
+    },
+    {
+      "Name": "cve-2025-65229 fuite du 2025-12-8",
+      "Title": "cve-2025-65229 fuite du 2025-12-8",
+      "Domain": null,
+      "BreachDate": "2025-12-8",
+      "AddedDate": "2025-12-08T20:27:27.501Z",
+      "ModifiedDate": "2025-12-08T20:27:27.501Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA stored cross-site scripting (XSS) vulnerability exists in the web interface of Lyrion Music Server  9.0.3. An authenticated user with access to Settings Player can save arbitrary HTML/JavaScript in the Player name field. That value is stored by the server and later rendered without proper output encoding on the Information (Player Info) tab\ncausing the script to execute in the context of any user viewing that page. | Severity UNKNOWN  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-65229-fuite-du-2025-12-8",
+      "path": "CVE-2025-65229",
+      "formattedDate": "2025-12-08",
+      "title": "cve-2025-65229 fuite du 2025-12-8",
+      "date": "2025-12-8",
+      "lien": "CVE-2025-65229",
+      "categories": [
+        "cve-2025-65229"
+      ],
+      "index": 1581
+    },
+    {
+      "Name": "cve-2025-65230 fuite du 2025-12-8",
+      "Title": "cve-2025-65230 fuite du 2025-12-8",
+      "Domain": null,
+      "BreachDate": "2025-12-8",
+      "AddedDate": "2025-12-08T20:27:27.556Z",
+      "ModifiedDate": "2025-12-08T20:27:27.556Z",
+      "PwnCount": 0,
+      "Description": "-\n\nBarix Instreamer v04.06 and v04.05 contains a stored cross-site scripting (XSS) vulnerability in the Web UI Configuration Streaming Destination input. | Severity UNKNOWN  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-65230-fuite-du-2025-12-8",
+      "path": "CVE-2025-65230",
+      "formattedDate": "2025-12-08",
+      "title": "cve-2025-65230 fuite du 2025-12-8",
+      "date": "2025-12-8",
+      "lien": "CVE-2025-65230",
+      "categories": [
+        "cve-2025-65230"
+      ],
+      "index": 1582
     }
   ]
 }
