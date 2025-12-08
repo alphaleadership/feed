@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-08T12:50:05.411Z",
-  "totalBreaches": 1492,
+  "lastUpdated": "2025-12-08T13:36:50.948Z",
+  "totalBreaches": 1495,
   "breaches": [
     {
       "Name": "gPotato",
@@ -53821,6 +53821,102 @@
         "cve-2025-42615"
       ],
       "index": 1491
+    },
+    {
+      "Name": "cve-2025-14245 fuite du 2025-12-8",
+      "Title": "cve-2025-14245 fuite du 2025-12-8",
+      "Domain": null,
+      "BreachDate": "2025-12-8",
+      "AddedDate": "2025-12-08T13:36:50.846Z",
+      "ModifiedDate": "2025-12-08T13:36:50.846Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA vulnerability has been found in IdeaCMS up to 1.8. This affects the function whereRaw of the file app/common/logic/index/Coupon.php. Such manipulation of the argument params leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. | CVSS Score 7.3 (HIGH)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14245-fuite-du-2025-12-8",
+      "path": "CVE-2025-14245",
+      "formattedDate": "2025-12-08",
+      "title": "cve-2025-14245 fuite du 2025-12-8",
+      "date": "2025-12-8",
+      "lien": "CVE-2025-14245",
+      "categories": [
+        "cve-2025-14245"
+      ],
+      "index": 1492
+    },
+    {
+      "Name": "cve-2025-42616 fuite du 2025-12-8",
+      "Title": "cve-2025-42616 fuite du 2025-12-8",
+      "Domain": null,
+      "BreachDate": "2025-12-8",
+      "AddedDate": "2025-12-08T13:36:50.895Z",
+      "ModifiedDate": "2025-12-08T13:36:50.895Z",
+      "PwnCount": 0,
+      "Description": "-\n\nSome endpoints in vulnerability-lookup that modified \r\napplication state (e.g. changing database entries\nuser data\nconfigurations\nor other privileged actions) may have been accessible \r\nvia HTTP GET requests without requiring a CSRF token. This flaw leaves \r\nthe application vulnerable to Cross-Site Request Forgery (CSRF) attacks\r\n an attacker who tricks a logged-in user into visiting a malicious \r\nwebsite could cause the user’s browser to issue GET requests that \r\nperform unintended state-changing operations in the context of their \r\nauthenticated session.\r\n\r\n\r\nBecause the server would treat these GET requests as valid (since no \r\nCSRF protection or POST method enforcement was in place)\nthe attacker \r\ncould exploit this to escalate privileges\nchange settings\nor carry out\r\n other unauthorized actions without needing the user’s explicit consent \r\nor awareness. \r\nThe fix ensures that all state-changing endpoints now require HTTP POST \r\nrequests and include a valid CSRF token. This enforces that state \r\nchanges cannot be triggered by arbitrary cross-site GET requests. This issue affects Vulnerability-Lookup before 2.18.0. | Severity UNKNOWN  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-42616-fuite-du-2025-12-8",
+      "path": "CVE-2025-42616",
+      "formattedDate": "2025-12-08",
+      "title": "cve-2025-42616 fuite du 2025-12-8",
+      "date": "2025-12-8",
+      "lien": "CVE-2025-42616",
+      "categories": [
+        "cve-2025-42616"
+      ],
+      "index": 1493
+    },
+    {
+      "Name": "cve-2025-42620 fuite du 2025-12-8",
+      "Title": "cve-2025-42620 fuite du 2025-12-8",
+      "Domain": null,
+      "BreachDate": "2025-12-8",
+      "AddedDate": "2025-12-08T13:36:50.947Z",
+      "ModifiedDate": "2025-12-08T13:36:50.947Z",
+      "PwnCount": 0,
+      "Description": "-\n\nIn affected versions\nvulnerability-lookup handled user-controlled \r\ncontent in comments and bundles in an unsafe way\nwhich could lead to \r\nstored Cross-Site Scripting (XSS).\r\n\r\n\r\n\r\n\r\nOn the backend\nthe related_vulnerabilities field of bundles accepted \r\narbitrary strings without format validation or proper sanitization. On \r\nthe frontend\ncomment and bundle descriptions were converted from \r\nMarkdown to HTML and then injected directly into the DOM using string \r\ntemplates and innerHTML. This combination allowed an attacker who could \r\ncreate or edit comments or bundles to store crafted HTML/JavaScript \r\npayloads which would later be rendered and executed in the browser of \r\nany user visiting the affected profile page (user.html). \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nThis issue affects Vulnerability-Lookup before 2.18.0. | Severity UNKNOWN  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-42620-fuite-du-2025-12-8",
+      "path": "CVE-2025-42620",
+      "formattedDate": "2025-12-08",
+      "title": "cve-2025-42620 fuite du 2025-12-8",
+      "date": "2025-12-8",
+      "lien": "CVE-2025-42620",
+      "categories": [
+        "cve-2025-42620"
+      ],
+      "index": 1494
     }
   ]
 }
