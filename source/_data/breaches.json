@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-08T06:39:16.442Z",
-  "totalBreaches": 1452,
+  "lastUpdated": "2025-12-08T07:36:03.312Z",
+  "totalBreaches": 1454,
   "breaches": [
     {
       "Name": "gPotato",
@@ -52541,6 +52541,70 @@
         "cve-2025-14219"
       ],
       "index": 1451
+    },
+    {
+      "Name": "cve-2025-14220 fuite du 2025-12-8",
+      "Title": "cve-2025-14220 fuite du 2025-12-8",
+      "Domain": null,
+      "BreachDate": "2025-12-8",
+      "AddedDate": "2025-12-08T07:36:03.263Z",
+      "ModifiedDate": "2025-12-08T07:36:03.263Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA security vulnerability has been detected in ORICO CD3510 1.9.12. This affects an unknown function of the component File Upload. The manipulation leads to path traversal. The attack can be initiated remotely. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way. | CVSS Score 4.3 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14220-fuite-du-2025-12-8",
+      "path": "CVE-2025-14220",
+      "formattedDate": "2025-12-08",
+      "title": "cve-2025-14220 fuite du 2025-12-8",
+      "date": "2025-12-8",
+      "lien": "CVE-2025-14220",
+      "categories": [
+        "cve-2025-14220"
+      ],
+      "index": 1452
+    },
+    {
+      "Name": "cve-2025-14221 fuite du 2025-12-8",
+      "Title": "cve-2025-14221 fuite du 2025-12-8",
+      "Domain": null,
+      "BreachDate": "2025-12-8",
+      "AddedDate": "2025-12-08T07:36:03.311Z",
+      "ModifiedDate": "2025-12-08T07:36:03.311Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA vulnerability was detected in SourceCodester Online Banking System 1.0. This impacts an unknown function of the file /?page=user. The manipulation of the argument First Name/Last Name results in cross site scripting. The attack can be launched remotely. The exploit is now public and may be used. | CVSS Score 3.5 (LOW)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14221-fuite-du-2025-12-8",
+      "path": "CVE-2025-14221",
+      "formattedDate": "2025-12-08",
+      "title": "cve-2025-14221 fuite du 2025-12-8",
+      "date": "2025-12-8",
+      "lien": "CVE-2025-14221",
+      "categories": [
+        "cve-2025-14221"
+      ],
+      "index": 1453
     }
   ]
 }
