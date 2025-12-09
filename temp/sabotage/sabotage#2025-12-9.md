@@ -7,5 +7,5 @@ categories:
 ---
 
 Tandis que les législateurs américains peinent à trouver un accord sur l'ambitieux texte de sanctions visant Moscou
-l'activité des services [...]                  
+l'activité des services [...]                      
 
