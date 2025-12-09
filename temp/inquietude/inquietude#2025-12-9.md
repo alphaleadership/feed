@@ -8,5 +8,5 @@ categories:
 
 Réunis vendredi 28 novembre au siège de la DGSE (Direction générale de la sécurité extérieure) à l'invitation du patron du service
 Nicolas Lerner
-environ 200 "anciens" ont écouté la responsable de la récente et reformatée direction de la sécurité et de la [...]                                      
+environ 200 "anciens" ont écouté la responsable de la récente et reformatée direction de la sécurité et de la [...]                                        
 
