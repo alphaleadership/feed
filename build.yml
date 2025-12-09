@@ -4468,6 +4468,12 @@ category_map:
   - cve-2025-64787
   - cve-2025-64896
   - cve-2025-64899
+  - cve-2025-34425
+  - cve-2025-36437
+  - cve-2025-65513
+  - cve-2025-66039
+  - cve-2025-66645
+  - cve-2025-67494
 tag_map: null
 meta_generator: true
 search:
