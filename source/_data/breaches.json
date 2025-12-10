@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-10T10:29:34.403Z",
-  "totalBreaches": 2310,
+  "lastUpdated": "2025-12-10T11:21:45.077Z",
+  "totalBreaches": 2312,
   "breaches": [
     {
       "Name": "gPotato",
@@ -79997,6 +79997,70 @@
         "cve-2025-7073"
       ],
       "index": 2309
+    },
+    {
+      "Name": "cve-2025-41730 fuite du 2025-12-10",
+      "Title": "cve-2025-41730 fuite du 2025-12-10",
+      "Domain": null,
+      "BreachDate": "2025-12-10T00:00:00.000Z",
+      "AddedDate": "2025-12-10T11:21:45.009Z",
+      "ModifiedDate": "2025-12-10T11:21:45.009Z",
+      "PwnCount": 0,
+      "Description": "-\n\nAn unauthenticated remote attacker can abuse unsafe sscanf calls within the check_account() function to write arbitrary data into fixed-size stack buffers which leads to full device compromise. | CVSS Score 8.8 (HIGH)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-41730-fuite-du-2025-12-10",
+      "path": "CVE-2025-41730",
+      "formattedDate": "2025-12-10",
+      "title": "cve-2025-41730 fuite du 2025-12-10",
+      "date": "2025-12-10T00:00:00.000Z",
+      "lien": "CVE-2025-41730",
+      "categories": [
+        "cve-2025-41730"
+      ],
+      "index": 2310
+    },
+    {
+      "Name": "cve-2025-41732 fuite du 2025-12-10",
+      "Title": "cve-2025-41732 fuite du 2025-12-10",
+      "Domain": null,
+      "BreachDate": "2025-12-10T00:00:00.000Z",
+      "AddedDate": "2025-12-10T11:21:45.076Z",
+      "ModifiedDate": "2025-12-10T11:21:45.076Z",
+      "PwnCount": 0,
+      "Description": "-\n\nAn unauthenticated remote attacker can abuse unsafe sscanf calls within the check_cookie() function to write arbitrary data into fixed-size stack buffers which leads to full device compromise. | CVSS Score 8.8 (HIGH)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-41732-fuite-du-2025-12-10",
+      "path": "CVE-2025-41732",
+      "formattedDate": "2025-12-10",
+      "title": "cve-2025-41732 fuite du 2025-12-10",
+      "date": "2025-12-10T00:00:00.000Z",
+      "lien": "CVE-2025-41732",
+      "categories": [
+        "cve-2025-41732"
+      ],
+      "index": 2311
     }
   ]
 }
