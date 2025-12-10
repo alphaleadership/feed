@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-10T12:52:08.459Z",
-  "totalBreaches": 2314,
+  "lastUpdated": "2025-12-10T13:39:30.389Z",
+  "totalBreaches": 2317,
   "breaches": [
     {
       "Name": "gPotato",
@@ -80125,6 +80125,102 @@
         "cve-2025-41358"
       ],
       "index": 2313
+    },
+    {
+      "Name": "cve-2024-2104 fuite du 2025-12-10",
+      "Title": "cve-2024-2104 fuite du 2025-12-10",
+      "Domain": null,
+      "BreachDate": "2025-12-10T00:00:00.000Z",
+      "AddedDate": "2025-12-10T13:39:30.130Z",
+      "ModifiedDate": "2025-12-10T13:39:30.130Z",
+      "PwnCount": 0,
+      "Description": "-\n\nDue to improper BLE security configurations on the device's GATT server\nan adjacent unauthenticated attacker can read and write device control commands through the mobile app service wich could render the device unusable. | CVSS Score 8.8 (HIGH)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2024-2104-fuite-du-2025-12-10",
+      "path": "CVE-2024-2104",
+      "formattedDate": "2025-12-10",
+      "title": "cve-2024-2104 fuite du 2025-12-10",
+      "date": "2025-12-10T00:00:00.000Z",
+      "lien": "CVE-2024-2104",
+      "categories": [
+        "cve-2024-2104"
+      ],
+      "index": 2314
+    },
+    {
+      "Name": "cve-2024-2105 fuite du 2025-12-10",
+      "Title": "cve-2024-2105 fuite du 2025-12-10",
+      "Domain": null,
+      "BreachDate": "2025-12-10T00:00:00.000Z",
+      "AddedDate": "2025-12-10T13:39:30.194Z",
+      "ModifiedDate": "2025-12-10T13:39:30.194Z",
+      "PwnCount": 0,
+      "Description": "-\n\nAn unauthorised attacker within bluetooth range may use an improper validation during the BLE connection request to deadlock the affected devices. | CVSS Score 6.5 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2024-2105-fuite-du-2025-12-10",
+      "path": "CVE-2024-2105",
+      "formattedDate": "2025-12-10",
+      "title": "cve-2024-2105 fuite du 2025-12-10",
+      "date": "2025-12-10T00:00:00.000Z",
+      "lien": "CVE-2024-2105",
+      "categories": [
+        "cve-2024-2105"
+      ],
+      "index": 2315
+    },
+    {
+      "Name": "cve-2025-13184 fuite du 2025-12-10",
+      "Title": "cve-2025-13184 fuite du 2025-12-10",
+      "Domain": null,
+      "BreachDate": "2025-12-10T00:00:00.000Z",
+      "AddedDate": "2025-12-10T13:39:30.387Z",
+      "ModifiedDate": "2025-12-10T13:39:30.387Z",
+      "PwnCount": 0,
+      "Description": "-\n\nUnauthenticated Telnet enablement via cstecgi.cgi (auth bypass) leading to unauthenticated root login with a blank password on factory/reset X5000R V9.1.0u.6369_B20230113 (arbitrary command execution). Earlier versions that share the same implementation\nmay also be affected. | Severity UNKNOWN  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-13184-fuite-du-2025-12-10",
+      "path": "CVE-2025-13184",
+      "formattedDate": "2025-12-10",
+      "title": "cve-2025-13184 fuite du 2025-12-10",
+      "date": "2025-12-10T00:00:00.000Z",
+      "lien": "CVE-2025-13184",
+      "categories": [
+        "cve-2025-13184"
+      ],
+      "index": 2316
     }
   ]
 }

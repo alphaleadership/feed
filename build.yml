@@ -4590,6 +4590,11 @@ category_map:
   - cve-2025-13953
   - cve-2025-41358
   - '2137845'
+  - '2138617'
+  - cve-2024-2104
+  - cve-2024-2105
+  - cve-2025-13184
+  - 2902459_adobe
 tag_map: null
 meta_generator: true
 search:
