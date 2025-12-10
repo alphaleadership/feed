@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-10T09:34:39.742Z",
-  "totalBreaches": 2307,
+  "lastUpdated": "2025-12-10T10:29:34.403Z",
+  "totalBreaches": 2310,
   "breaches": [
     {
       "Name": "gPotato",
@@ -79901,6 +79901,102 @@
         "cve-2025-9315"
       ],
       "index": 2306
+    },
+    {
+      "Name": "cve-2025-14390 fuite du 2025-12-10",
+      "Title": "cve-2025-14390 fuite du 2025-12-10",
+      "Domain": null,
+      "BreachDate": "2025-12-10T00:00:00.000Z",
+      "AddedDate": "2025-12-10T10:29:28.572Z",
+      "ModifiedDate": "2025-12-10T10:29:28.572Z",
+      "PwnCount": 0,
+      "Description": "-\n\nThe Video Merchant plugin for WordPress is vulnerable to Cross-Site Request Forgery in version  5.0.4. This is due to missing or incorrect nonce validation on the video_merchant_add_video_file() function. This makes it possible for unauthenticated attackers to upload arbitrary files that make remote code execution possible via a forged request granted they can trick a site administrator into performing an action such as clicking on a link. | CVSS Score 8.8 (HIGH)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14390-fuite-du-2025-12-10",
+      "path": "CVE-2025-14390",
+      "formattedDate": "2025-12-10",
+      "title": "cve-2025-14390 fuite du 2025-12-10",
+      "date": "2025-12-10T00:00:00.000Z",
+      "lien": "CVE-2025-14390",
+      "categories": [
+        "cve-2025-14390"
+      ],
+      "index": 2307
+    },
+    {
+      "Name": "cve-2025-66675 fuite du 2025-12-10",
+      "Title": "cve-2025-66675 fuite du 2025-12-10",
+      "Domain": null,
+      "BreachDate": "2025-12-10T00:00:00.000Z",
+      "AddedDate": "2025-12-10T10:29:32.628Z",
+      "ModifiedDate": "2025-12-10T10:29:32.628Z",
+      "PwnCount": 0,
+      "Description": "-\n\nDenial of Service vulnerability in Apache Struts\nfile leak in multipart request processing causes disk exhaustion.\r\n\r\nThis issue affects Apache Struts from 2.0.0 through 6.7.4\nfrom 7.0.0 through 7.0.3.\r\n\r\nUsers are recommended to upgrade to version 6.8.0 or 7.1.1\nwhich fixes the issue.\r\n\r\nIt's related to  https//cve.org/CVERecord?id=CVE-2025-64775  - this CVE addresses missing affected version 6.7.4 | Severity UNKNOWN  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-66675-fuite-du-2025-12-10",
+      "path": "CVE-2025-66675",
+      "formattedDate": "2025-12-10",
+      "title": "cve-2025-66675 fuite du 2025-12-10",
+      "date": "2025-12-10T00:00:00.000Z",
+      "lien": "CVE-2025-66675",
+      "categories": [
+        "cve-2025-66675"
+      ],
+      "index": 2308
+    },
+    {
+      "Name": "cve-2025-7073 fuite du 2025-12-10",
+      "Title": "cve-2025-7073 fuite du 2025-12-10",
+      "Domain": null,
+      "BreachDate": "2025-12-10T00:00:00.000Z",
+      "AddedDate": "2025-12-10T10:29:34.402Z",
+      "ModifiedDate": "2025-12-10T10:29:34.402Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA local privilege escalation vulnerability in Bitdefender Total Security 27.0.46.231 allows low-privileged attackers to elevate privileges. The issue arises from bdservicehost.exe deleting files from a user-writable directory (C\\ProgramData\\Atc\\Feedback) without proper symbolic link validation\nenabling arbitrary file deletion. This issue is chained with a file copy operation during network events and a filter driver bypass via DLL injection to achieve arbitrary file copy and code execution as elevated user. | Severity UNKNOWN  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-7073-fuite-du-2025-12-10",
+      "path": "CVE-2025-7073",
+      "formattedDate": "2025-12-10",
+      "title": "cve-2025-7073 fuite du 2025-12-10",
+      "date": "2025-12-10T00:00:00.000Z",
+      "lien": "CVE-2025-7073",
+      "categories": [
+        "cve-2025-7073"
+      ],
+      "index": 2309
     }
   ]
 }
