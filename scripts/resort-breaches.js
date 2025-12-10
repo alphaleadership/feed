@@ -26,20 +26,7 @@ db.breaches.sort((a, b) => {
 });
 let i=-1;
 // Ajouter l'index à chaque fuite
-db.breaches.filter((
-  item
-)=>{
-  if(Object.keys(item).includes("path")){
-      if(item?.path.includes("breaches/")){
-    if(item.pwnCount>1){
-    return false
-    }
-    return true
-  }
-  }
-
-  return true
-}).forEach((breach, idx) => {
+db.breaches.forEach((breach, idx) => {
   console.log(breach)
   if(breach==null){
     return
