@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-10T01:53:31.191Z",
-  "totalBreaches": 2283,
+  "lastUpdated": "2025-12-10T04:07:48.963Z",
+  "totalBreaches": 2284,
   "breaches": [
     {
       "Name": "gPotato",
@@ -79133,6 +79133,38 @@
         "cve-2025-67507"
       ],
       "index": 2282
+    },
+    {
+      "Name": "cve-2025-13613 fuite du 2025-12-10",
+      "Title": "cve-2025-13613 fuite du 2025-12-10",
+      "Domain": null,
+      "BreachDate": "2025-12-10T00:00:00.000Z",
+      "AddedDate": "2025-12-10T04:07:48.961Z",
+      "ModifiedDate": "2025-12-10T04:07:48.961Z",
+      "PwnCount": 0,
+      "Description": "-\n\nThe Elated Membership plugin for WordPress is vulnerable to Authentication Bypass in all versions up to\nand including\n1.2. This is due to the plugin not properly logging in a user with the data that was previously verified through the 'eltdf_membership_check_facebook_user' and the 'eltdf_membership_login_user_from_social_network' function. This makes it possible for unauthenticated attackers to log in as administrative users\nas long as they have an existing account on the site which can easily be created by default through the temp user functionality\nand access to the administrative user's email. | CVSS Score 9.8 (CRITICAL)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-13613-fuite-du-2025-12-10",
+      "path": "CVE-2025-13613",
+      "formattedDate": "2025-12-10",
+      "title": "cve-2025-13613 fuite du 2025-12-10",
+      "date": "2025-12-10T00:00:00.000Z",
+      "lien": "CVE-2025-13613",
+      "categories": [
+        "cve-2025-13613"
+      ],
+      "index": 2283
     }
   ]
 }
