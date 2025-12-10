@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-10T13:39:30.389Z",
-  "totalBreaches": 2317,
+  "lastUpdated": "2025-12-10T14:34:20.373Z",
+  "totalBreaches": 2319,
   "breaches": [
     {
       "Name": "gPotato",
@@ -80221,6 +80221,70 @@
         "cve-2025-13184"
       ],
       "index": 2316
+    },
+    {
+      "Name": "cve-2025-13127 fuite du 2025-12-10",
+      "Title": "cve-2025-13127 fuite du 2025-12-10",
+      "Domain": null,
+      "BreachDate": "2025-12-10T00:00:00.000Z",
+      "AddedDate": "2025-12-10T14:34:14.812Z",
+      "ModifiedDate": "2025-12-10T14:34:14.812Z",
+      "PwnCount": 0,
+      "Description": "-\n\nImproper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in TAC Information Services Internal and External Trade Inc. GoldenHorn allows Cross-Site Scripting (XSS).This issue affects GoldenHorn before 4.25.1121.1. | CVSS Score 3.5 (LOW)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-13127-fuite-du-2025-12-10",
+      "path": "CVE-2025-13127",
+      "formattedDate": "2025-12-10",
+      "title": "cve-2025-13127 fuite du 2025-12-10",
+      "date": "2025-12-10T00:00:00.000Z",
+      "lien": "CVE-2025-13127",
+      "categories": [
+        "cve-2025-13127"
+      ],
+      "index": 2317
+    },
+    {
+      "Name": "cve-2025-8110 fuite du 2025-12-10",
+      "Title": "cve-2025-8110 fuite du 2025-12-10",
+      "Domain": null,
+      "BreachDate": "2025-12-10T00:00:00.000Z",
+      "AddedDate": "2025-12-10T14:34:20.371Z",
+      "ModifiedDate": "2025-12-10T14:34:20.371Z",
+      "PwnCount": 0,
+      "Description": "-\n\nImproper Symbolic link handling in the PutContents API in Gogs allows Local Execution of Code. | Severity UNKNOWN  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-8110-fuite-du-2025-12-10",
+      "path": "CVE-2025-8110",
+      "formattedDate": "2025-12-10",
+      "title": "cve-2025-8110 fuite du 2025-12-10",
+      "date": "2025-12-10T00:00:00.000Z",
+      "lien": "CVE-2025-8110",
+      "categories": [
+        "cve-2025-8110"
+      ],
+      "index": 2318
     }
   ]
 }
