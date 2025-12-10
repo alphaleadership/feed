@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-10T04:46:58.605Z",
-  "totalBreaches": 2295,
+  "lastUpdated": "2025-12-10T05:25:00.980Z",
+  "totalBreaches": 2296,
   "breaches": [
     {
       "Name": "gPotato",
@@ -79517,6 +79517,38 @@
         "cve-2025-9056"
       ],
       "index": 2294
+    },
+    {
+      "Name": "cve-2025-13339 fuite du 2025-12-10",
+      "Title": "cve-2025-13339 fuite du 2025-12-10",
+      "Domain": null,
+      "BreachDate": "2025-12-10T00:00:00.000Z",
+      "AddedDate": "2025-12-10T05:25:00.978Z",
+      "ModifiedDate": "2025-12-10T05:25:00.978Z",
+      "PwnCount": 0,
+      "Description": "-\n\nThe Hippoo Mobile App for WooCommerce plugin for WordPress is vulnerable to Path Traversal in all versions up to\nand including\n1.7.1 via the template_redirect() function. This makes it possible for unauthenticated attackers to read the contents of arbitrary files on the server\nwhich can contain sensitive information. | CVSS Score 7.5 (HIGH)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-13339-fuite-du-2025-12-10",
+      "path": "CVE-2025-13339",
+      "formattedDate": "2025-12-10",
+      "title": "cve-2025-13339 fuite du 2025-12-10",
+      "date": "2025-12-10T00:00:00.000Z",
+      "lien": "CVE-2025-13339",
+      "categories": [
+        "cve-2025-13339"
+      ],
+      "index": 2295
     }
   ]
 }
