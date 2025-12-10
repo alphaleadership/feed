@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-10T07:35:02.610Z",
-  "totalBreaches": 2299,
+  "lastUpdated": "2025-12-10T08:55:52.651Z",
+  "totalBreaches": 2300,
   "breaches": [
     {
       "Name": "gPotato",
@@ -79645,6 +79645,38 @@
         "cve-2025-9571"
       ],
       "index": 2298
+    },
+    {
+      "Name": "cve-2025-12952 fuite du 2025-12-10",
+      "Title": "cve-2025-12952 fuite du 2025-12-10",
+      "Domain": null,
+      "BreachDate": "2025-12-10T00:00:00.000Z",
+      "AddedDate": "2025-12-10T08:55:52.649Z",
+      "ModifiedDate": "2025-12-10T08:55:52.649Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA privilege escalation vulnerability exists in Google Cloud's Dialogflow CX.\r\n\r\nDialogflow agent developers with Webhook editor permission are able to configure Webhooks using Dialogflow service agent access token authentication. \r\nThis allows the attacker to escalate their privileges from agent-level to project-level\ngranting them unauthorized access to manage resources in services associated with the project\nleading to unexpected costs and resource depletion for the producer project.\r\n\r\nA fix was applied on the server side to protect from this vulnerability in February 2025. No customer action is required. | Severity UNKNOWN  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-12952-fuite-du-2025-12-10",
+      "path": "CVE-2025-12952",
+      "formattedDate": "2025-12-10",
+      "title": "cve-2025-12952 fuite du 2025-12-10",
+      "date": "2025-12-10T00:00:00.000Z",
+      "lien": "CVE-2025-12952",
+      "categories": [
+        "cve-2025-12952"
+      ],
+      "index": 2299
     }
   ]
 }
