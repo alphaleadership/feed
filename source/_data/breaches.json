@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-10T19:26:34.147Z",
-  "totalBreaches": 2480,
+  "lastUpdated": "2025-12-10T20:28:52.643Z",
+  "totalBreaches": 2482,
   "breaches": [
     {
       "Name": "gPotato",
@@ -85437,6 +85437,70 @@
         "cve-2025-65199"
       ],
       "index": 2479
+    },
+    {
+      "Name": "cve-2025-63895 fuite du 2025-12-10",
+      "Title": "cve-2025-63895 fuite du 2025-12-10",
+      "Domain": null,
+      "BreachDate": "2025-12-10T00:00:00.000Z",
+      "AddedDate": "2025-12-10T20:28:50.150Z",
+      "ModifiedDate": "2025-12-10T20:28:50.150Z",
+      "PwnCount": 0,
+      "Description": "-\n\nAn issue in the Bluetooth firmware of JXL 9 Inch Car Android Double Din Player Android v12.0 allows attackers to cause a Denial of Service (DoS) via sending a crafted Link Manager Protocol (LMP) packet. | Severity UNKNOWN  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-63895-fuite-du-2025-12-10",
+      "path": "CVE-2025-63895",
+      "formattedDate": "2025-12-10",
+      "title": "cve-2025-63895 fuite du 2025-12-10",
+      "date": "2025-12-10T00:00:00.000Z",
+      "lien": "CVE-2025-63895",
+      "categories": [
+        "cve-2025-63895"
+      ],
+      "index": 2480
+    },
+    {
+      "Name": "cve-2025-65602 fuite du 2025-12-10",
+      "Title": "cve-2025-65602 fuite du 2025-12-10",
+      "Domain": null,
+      "BreachDate": "2025-12-10T00:00:00.000Z",
+      "AddedDate": "2025-12-10T20:28:52.641Z",
+      "ModifiedDate": "2025-12-10T20:28:52.641Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA template injection vulnerability in the /vip/v1/file/save component of ChanCMS v3.3.4 allows attackers to execute arbitrary code via a crafted POST request. | Severity UNKNOWN  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-65602-fuite-du-2025-12-10",
+      "path": "CVE-2025-65602",
+      "formattedDate": "2025-12-10",
+      "title": "cve-2025-65602 fuite du 2025-12-10",
+      "date": "2025-12-10T00:00:00.000Z",
+      "lien": "CVE-2025-65602",
+      "categories": [
+        "cve-2025-65602"
+      ],
+      "index": 2481
     }
   ]
 }
