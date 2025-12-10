@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-10T11:21:45.077Z",
-  "totalBreaches": 2312,
+  "lastUpdated": "2025-12-10T12:52:08.459Z",
+  "totalBreaches": 2314,
   "breaches": [
     {
       "Name": "gPotato",
@@ -80061,6 +80061,70 @@
         "cve-2025-41732"
       ],
       "index": 2311
+    },
+    {
+      "Name": "cve-2025-13953 fuite du 2025-12-10",
+      "Title": "cve-2025-13953 fuite du 2025-12-10",
+      "Domain": null,
+      "BreachDate": "2025-12-10T00:00:00.000Z",
+      "AddedDate": "2025-12-10T12:52:07.958Z",
+      "ModifiedDate": "2025-12-10T12:52:07.958Z",
+      "PwnCount": 0,
+      "Description": "-\n\nBypass vulnerability in the authentication method in the GTT Tax Information System application\nrelated to the Active Directory (LDAP) login method.\r\n\r\nAuthentication is performed through a local WebSocket\nbut the web application does not properly validate the authenticity or origin of the data received\nallowing an attacker with access to the local machine or internal network to impersonate the legitimate WebSocket and inject manipulated information.\r\n\r\nExploiting this vulnerability could allow an attacker to authenticate as any user in the domain\nwithout the need for valid credentials\ncompromising the confidentiality\nintegrity\nand availability of the application and its data. | Severity UNKNOWN  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-13953-fuite-du-2025-12-10",
+      "path": "CVE-2025-13953",
+      "formattedDate": "2025-12-10",
+      "title": "cve-2025-13953 fuite du 2025-12-10",
+      "date": "2025-12-10T00:00:00.000Z",
+      "lien": "CVE-2025-13953",
+      "categories": [
+        "cve-2025-13953"
+      ],
+      "index": 2312
+    },
+    {
+      "Name": "cve-2025-41358 fuite du 2025-12-10",
+      "Title": "cve-2025-41358 fuite du 2025-12-10",
+      "Domain": null,
+      "BreachDate": "2025-12-10T00:00:00.000Z",
+      "AddedDate": "2025-12-10T12:52:08.457Z",
+      "ModifiedDate": "2025-12-10T12:52:08.457Z",
+      "PwnCount": 0,
+      "Description": "-\n\nDirect Object Reference Vulnerability (IDOR) in i2A's CronosWeb\nin versions prior to 25.00.00.12\ninclusive. This vulnerability could allow an authenticated attacker to access other users' documents by manipulating the ‘documentCode’ parameter in '/CronosWeb/Modulos/Personas/DocumentosPersonales/AdjuntarDocumentosPersonas'. | Severity UNKNOWN  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-41358-fuite-du-2025-12-10",
+      "path": "CVE-2025-41358",
+      "formattedDate": "2025-12-10",
+      "title": "cve-2025-41358 fuite du 2025-12-10",
+      "date": "2025-12-10T00:00:00.000Z",
+      "lien": "CVE-2025-41358",
+      "categories": [
+        "cve-2025-41358"
+      ],
+      "index": 2313
     }
   ]
 }

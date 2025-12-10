@@ -4585,6 +4585,11 @@ category_map:
   - 2904451_a
   - '2138205'
   - 2904525_amazon
+  - 2904513_le
+  - '2138513'
+  - cve-2025-13953
+  - cve-2025-41358
+  - '2137845'
 tag_map: null
 meta_generator: true
 search:
