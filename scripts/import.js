@@ -3,7 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
-
+console.log=(data)=>{return data}
 // Définir les chemins manuellement car nous sommes hors du contexte de Hexo
 const baseDir = path.join(__dirname, '..');
 const getfile=(f)=>{
