@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-11T05:26:14.917Z",
-  "totalBreaches": 2583,
+  "lastUpdated": "2025-12-11T07:36:04.347Z",
+  "totalBreaches": 2585,
   "breaches": [
     {
       "Name": "gPotato",
@@ -88733,6 +88733,70 @@
         "cve-2025-9436"
       ],
       "index": 2582
+    },
+    {
+      "Name": "cve-2025-14512 fuite du 2025-12-11",
+      "Title": "cve-2025-14512 fuite du 2025-12-11",
+      "Domain": null,
+      "BreachDate": "2025-12-11T00:00:00.000Z",
+      "AddedDate": "2025-12-11T07:35:59.819Z",
+      "ModifiedDate": "2025-12-11T07:35:59.819Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA flaw was found in glib. This vulnerability allows a heap buffer overflow and denial-of-service (DoS) via an integer overflow in GLib's GIO (GLib Input/Output) escape_byte_string() function when processing malicious file or remote filesystem attribute values. | CVSS Score 6.5 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14512-fuite-du-2025-12-11",
+      "path": "CVE-2025-14512",
+      "formattedDate": "2025-12-11",
+      "title": "cve-2025-14512 fuite du 2025-12-11",
+      "date": "2025-12-11T00:00:00.000Z",
+      "lien": "CVE-2025-14512",
+      "categories": [
+        "cve-2025-14512"
+      ],
+      "index": 2583
+    },
+    {
+      "Name": "cve-2025-67738 fuite du 2025-12-11",
+      "Title": "cve-2025-67738 fuite du 2025-12-11",
+      "Domain": null,
+      "BreachDate": "2025-12-11T00:00:00.000Z",
+      "AddedDate": "2025-12-11T07:36:04.346Z",
+      "ModifiedDate": "2025-12-11T07:36:04.346Z",
+      "PwnCount": 0,
+      "Description": "-\n\nsquid/cachemgr.cgi in Webmin before 2.600 does not properly quote arguments. This is relevant if Webmin's Squid module and its Cache Manager feature are available\nand an untrusted party is able to authenticate to Webmin and has certain Cache Manager permissions (the \"cms\" security option). | CVSS Score 8.5 (HIGH)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-67738-fuite-du-2025-12-11",
+      "path": "CVE-2025-67738",
+      "formattedDate": "2025-12-11",
+      "title": "cve-2025-67738 fuite du 2025-12-11",
+      "date": "2025-12-11T00:00:00.000Z",
+      "lien": "CVE-2025-67738",
+      "categories": [
+        "cve-2025-67738"
+      ],
+      "index": 2584
     }
   ]
 }
