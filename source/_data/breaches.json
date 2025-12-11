@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-11T07:36:04.347Z",
-  "totalBreaches": 2585,
+  "lastUpdated": "2025-12-11T08:34:22.385Z",
+  "totalBreaches": 2587,
   "breaches": [
     {
       "Name": "gPotato",
@@ -88797,6 +88797,70 @@
         "cve-2025-67738"
       ],
       "index": 2584
+    },
+    {
+      "Name": "cve-2025-12029 fuite du 2025-12-11",
+      "Title": "cve-2025-12029 fuite du 2025-12-11",
+      "Domain": null,
+      "BreachDate": "2025-12-11T00:00:00.000Z",
+      "AddedDate": "2025-12-11T08:34:22.223Z",
+      "ModifiedDate": "2025-12-11T08:34:22.223Z",
+      "PwnCount": 0,
+      "Description": "-\n\nGitLab has remediated an issue in GitLab CE/EE affecting all versions from 15.11 before 18.4.6\n18.5 before 18.5.4\nand 18.6 before 18.6.2 that could have\nunder certain circumstances\nallowed an unauthenticated user to perform unauthorized actions on behalf of another user by injecting malicious external scripts into the Swagger UI.\" | CVSS Score 8 (HIGH)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-12029-fuite-du-2025-12-11",
+      "path": "CVE-2025-12029",
+      "formattedDate": "2025-12-11",
+      "title": "cve-2025-12029 fuite du 2025-12-11",
+      "date": "2025-12-11T00:00:00.000Z",
+      "lien": "CVE-2025-12029",
+      "categories": [
+        "cve-2025-12029"
+      ],
+      "index": 2585
+    },
+    {
+      "Name": "cve-2025-12734 fuite du 2025-12-11",
+      "Title": "cve-2025-12734 fuite du 2025-12-11",
+      "Domain": null,
+      "BreachDate": "2025-12-11T00:00:00.000Z",
+      "AddedDate": "2025-12-11T08:34:22.383Z",
+      "ModifiedDate": "2025-12-11T08:34:22.383Z",
+      "PwnCount": 0,
+      "Description": "-\n\nGitLab has remediated an issue in GitLab CE/EE affecting all versions from 15.6 before 18.4.6\n18.5 before 18.5.4\nand 18.6 before 18.6.2 that could have allowed an authenticated user to leak sensitive information from specifically crafted merge request titles. | CVSS Score 3.5 (LOW)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-12734-fuite-du-2025-12-11",
+      "path": "CVE-2025-12734",
+      "formattedDate": "2025-12-11",
+      "title": "cve-2025-12734 fuite du 2025-12-11",
+      "date": "2025-12-11T00:00:00.000Z",
+      "lien": "CVE-2025-12734",
+      "categories": [
+        "cve-2025-12734"
+      ],
+      "index": 2586
     }
   ]
 }
