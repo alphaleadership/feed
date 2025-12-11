@@ -5013,6 +5013,10 @@ category_map:
   - '688690'
   - 2846927_zeekr
   - '2139679'
+  - '2139641'
+  - cve-2025-14516
+  - cve-2025-14517
+  - 2887243_xiaomi
 tag_map: null
 meta_generator: true
 search:

@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-11T13:41:37.952Z",
-  "totalBreaches": 2605,
+  "lastUpdated": "2025-12-11T14:37:54.347Z",
+  "totalBreaches": 2607,
   "breaches": [
     {
       "Name": "gPotato",
@@ -89437,6 +89437,70 @@
         "cve-2025-14523"
       ],
       "index": 2604
+    },
+    {
+      "Name": "cve-2025-14516 fuite du 2025-12-11",
+      "Title": "cve-2025-14516 fuite du 2025-12-11",
+      "Domain": null,
+      "BreachDate": "2025-12-11T00:00:00.000Z",
+      "AddedDate": "2025-12-11T14:37:54.268Z",
+      "ModifiedDate": "2025-12-11T14:37:54.268Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA vulnerability was found in Yalantis uCrop 2.2.11. Affected by this issue is the function downloadFile of the file com.yalantis.ucrop.task.BitmapLoadTask.java of the component URL Handler. Performing manipulation results in server-side request forgery. The attack may be initiated remotely. The exploit has been made public and could be used. The vendor was contacted early about this disclosure but did not respond in any way. | CVSS Score 6.3 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14516-fuite-du-2025-12-11",
+      "path": "CVE-2025-14516",
+      "formattedDate": "2025-12-11",
+      "title": "cve-2025-14516 fuite du 2025-12-11",
+      "date": "2025-12-11T00:00:00.000Z",
+      "lien": "CVE-2025-14516",
+      "categories": [
+        "cve-2025-14516"
+      ],
+      "index": 2605
+    },
+    {
+      "Name": "cve-2025-14517 fuite du 2025-12-11",
+      "Title": "cve-2025-14517 fuite du 2025-12-11",
+      "Domain": null,
+      "BreachDate": "2025-12-11T00:00:00.000Z",
+      "AddedDate": "2025-12-11T14:37:54.345Z",
+      "ModifiedDate": "2025-12-11T14:37:54.345Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA vulnerability was determined in Yalantis uCrop 2.2.11. This affects the function UCropActivity  of the file AndroidManifest.xml. Executing manipulation can lead to improper export of android application components. The attack can only be executed locally. The exploit has been publicly disclosed and may be utilized. The vendor was contacted early about this disclosure but did not respond in any way. | CVSS Score 5.3 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14517-fuite-du-2025-12-11",
+      "path": "CVE-2025-14517",
+      "formattedDate": "2025-12-11",
+      "title": "cve-2025-14517 fuite du 2025-12-11",
+      "date": "2025-12-11T00:00:00.000Z",
+      "lien": "CVE-2025-14517",
+      "categories": [
+        "cve-2025-14517"
+      ],
+      "index": 2606
     }
   ]
 }
