@@ -8,5 +8,5 @@ categories:
 
 Le ministre français de l'intérieur
 Laurent Nuñez
-l'a annoncé sans détour dans son discours de clôture du colloque "Le renseignement français face au désordre mondial" organisé le 4 décembre à la présidence de l'Assemblée nationale par la Délégation parlementaire au renseignement [...]                                                                    
+l'a annoncé sans détour dans son discours de clôture du colloque "Le renseignement français face au désordre mondial" organisé le 4 décembre à la présidence de l'Assemblée nationale par la Délégation parlementaire au renseignement [...]                                                                      
 
