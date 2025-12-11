@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-11T03:27:36.814Z",
-  "totalBreaches": 2561,
+  "lastUpdated": "2025-12-11T04:10:31.406Z",
+  "totalBreaches": 2564,
   "breaches": [
     {
       "Name": "gPotato",
@@ -88029,6 +88029,102 @@
         "cve-2025-67720"
       ],
       "index": 2560
+    },
+    {
+      "Name": "cve-2025-11467 fuite du 2025-12-11",
+      "Title": "cve-2025-11467 fuite du 2025-12-11",
+      "Domain": null,
+      "BreachDate": "2025-12-11T00:00:00.000Z",
+      "AddedDate": "2025-12-11T04:10:30.766Z",
+      "ModifiedDate": "2025-12-11T04:10:30.766Z",
+      "PwnCount": 0,
+      "Description": "-\n\nThe RSS Aggregator by Feedzy – Feed to Post\nAutoblogging\nNews  YouTube Video Feeds Aggregator plugin for WordPress is vulnerable to Blind Server-Side Request Forgery in all versions up to\nand including\n5.1.1 via the feedzy_lazy_load function. This makes it possible for unauthenticated attackers to make web requests to arbitrary locations originating from the web application and can be used to query and modify information from internal services. | CVSS Score 5.8 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-11467-fuite-du-2025-12-11",
+      "path": "CVE-2025-11467",
+      "formattedDate": "2025-12-11",
+      "title": "cve-2025-11467 fuite du 2025-12-11",
+      "date": "2025-12-11T00:00:00.000Z",
+      "lien": "CVE-2025-11467",
+      "categories": [
+        "cve-2025-11467"
+      ],
+      "index": 2561
+    },
+    {
+      "Name": "cve-2025-13764 fuite du 2025-12-11",
+      "Title": "cve-2025-13764 fuite du 2025-12-11",
+      "Domain": null,
+      "BreachDate": "2025-12-11T00:00:00.000Z",
+      "AddedDate": "2025-12-11T04:10:31.155Z",
+      "ModifiedDate": "2025-12-11T04:10:31.155Z",
+      "PwnCount": 0,
+      "Description": "-\n\nThe WP CarDealer plugin for WordPress is vulnerable to Privilege Escalation in all versions up to\nand including\n1.2.16. This is due to the 'WP_CarDealer_Userprocess_register' function not restricting what user roles a user can register with. This makes it possible for unauthenticated attackers to supply the 'administrator' role during registration and gain administrator access to the site. | CVSS Score 9.8 (CRITICAL)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-13764-fuite-du-2025-12-11",
+      "path": "CVE-2025-13764",
+      "formattedDate": "2025-12-11",
+      "title": "cve-2025-13764 fuite du 2025-12-11",
+      "date": "2025-12-11T00:00:00.000Z",
+      "lien": "CVE-2025-13764",
+      "categories": [
+        "cve-2025-13764"
+      ],
+      "index": 2562
+    },
+    {
+      "Name": "cve-2025-14485 fuite du 2025-12-11",
+      "Title": "cve-2025-14485 fuite du 2025-12-11",
+      "Domain": null,
+      "BreachDate": "2025-12-11T00:00:00.000Z",
+      "AddedDate": "2025-12-11T04:10:31.404Z",
+      "ModifiedDate": "2025-12-11T04:10:31.404Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA weakness has been identified in EFM ipTIME A3004T 14.19.0. This vulnerability affects the function show_debug_screen of the file /sess-bin/timepro.cgi of the component Administrator Password Handler. This manipulation of the argument aaksjdkfj with the input !@dnjsrureljrm* causes command injection. The attack is possible to be carried out remotely. The complexity of an attack is rather high. It is stated that the exploitability is difficult. The exploit has been made available to the public and could be exploited. The vendor was contacted early about this disclosure but did not respond in any way. | CVSS Score 5 (MEDIUM)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14485-fuite-du-2025-12-11",
+      "path": "CVE-2025-14485",
+      "formattedDate": "2025-12-11",
+      "title": "cve-2025-14485 fuite du 2025-12-11",
+      "date": "2025-12-11T00:00:00.000Z",
+      "lien": "CVE-2025-14485",
+      "categories": [
+        "cve-2025-14485"
+      ],
+      "index": 2563
     }
   ]
 }
