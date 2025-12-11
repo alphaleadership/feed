@@ -5003,6 +5003,12 @@ category_map:
   - cve-2025-64994
   - cve-2025-64995
   - 2906333_fini
+  - '2139553'
+  - cve-2025-13003
+  - cve-2025-14515
+  - cve-2025-14523
+  - 2906083_spotify
+  - 2906391_la
 tag_map: null
 meta_generator: true
 search:

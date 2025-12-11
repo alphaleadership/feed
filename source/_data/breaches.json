@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-11T12:53:26.760Z",
-  "totalBreaches": 2602,
+  "lastUpdated": "2025-12-11T13:41:37.952Z",
+  "totalBreaches": 2605,
   "breaches": [
     {
       "Name": "gPotato",
@@ -89341,6 +89341,102 @@
         "cve-2025-64995"
       ],
       "index": 2601
+    },
+    {
+      "Name": "cve-2025-13003 fuite du 2025-12-11",
+      "Title": "cve-2025-13003 fuite du 2025-12-11",
+      "Domain": null,
+      "BreachDate": "2025-12-11T00:00:00.000Z",
+      "AddedDate": "2025-12-11T13:41:37.479Z",
+      "ModifiedDate": "2025-12-11T13:41:37.479Z",
+      "PwnCount": 0,
+      "Description": "-\n\nAuthorization Bypass Through User-Controlled Key vulnerability in Aksis Computer Services and Consulting Inc. AxOnboard allows Exploitation of Trusted Identifiers.This issue affects AxOnboard from 3.2.0 before 3.3.0. | CVSS Score 7.6 (HIGH)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-13003-fuite-du-2025-12-11",
+      "path": "CVE-2025-13003",
+      "formattedDate": "2025-12-11",
+      "title": "cve-2025-13003 fuite du 2025-12-11",
+      "date": "2025-12-11T00:00:00.000Z",
+      "lien": "CVE-2025-13003",
+      "categories": [
+        "cve-2025-13003"
+      ],
+      "index": 2602
+    },
+    {
+      "Name": "cve-2025-14515 fuite du 2025-12-11",
+      "Title": "cve-2025-14515 fuite du 2025-12-11",
+      "Domain": null,
+      "BreachDate": "2025-12-11T00:00:00.000Z",
+      "AddedDate": "2025-12-11T13:41:37.885Z",
+      "ModifiedDate": "2025-12-11T13:41:37.885Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA vulnerability has been found in Campcodes Supplier Management System 1.0. Affected by this vulnerability is an unknown functionality of the file /admin/add_unit.php. Such manipulation of the argument txtunitDetails leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. | CVSS Score 7.3 (HIGH)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14515-fuite-du-2025-12-11",
+      "path": "CVE-2025-14515",
+      "formattedDate": "2025-12-11",
+      "title": "cve-2025-14515 fuite du 2025-12-11",
+      "date": "2025-12-11T00:00:00.000Z",
+      "lien": "CVE-2025-14515",
+      "categories": [
+        "cve-2025-14515"
+      ],
+      "index": 2603
+    },
+    {
+      "Name": "cve-2025-14523 fuite du 2025-12-11",
+      "Title": "cve-2025-14523 fuite du 2025-12-11",
+      "Domain": null,
+      "BreachDate": "2025-12-11T00:00:00.000Z",
+      "AddedDate": "2025-12-11T13:41:37.950Z",
+      "ModifiedDate": "2025-12-11T13:41:37.950Z",
+      "PwnCount": 0,
+      "Description": "-\n\nA flaw in libsoup’s HTTP header handling allows multiple Host headers in a request and returns the last occurrence for server-side processing. Common front proxies often honor the first Host header\nso this mismatch can cause vhost confusion where a proxy routes a request to one backend but the backend interprets it as destined for another host. This discrepancy enables request-smuggling style attacks\ncache poisoning\nor bypassing host-based access controls when an attacker supplies duplicate Host headers. | CVSS Score 8.2 (HIGH)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14523-fuite-du-2025-12-11",
+      "path": "CVE-2025-14523",
+      "formattedDate": "2025-12-11",
+      "title": "cve-2025-14523 fuite du 2025-12-11",
+      "date": "2025-12-11T00:00:00.000Z",
+      "lien": "CVE-2025-14523",
+      "categories": [
+        "cve-2025-14523"
+      ],
+      "index": 2604
     }
   ]
 }
