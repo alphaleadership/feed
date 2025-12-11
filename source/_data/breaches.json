@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-11T08:34:22.385Z",
-  "totalBreaches": 2587,
+  "lastUpdated": "2025-12-11T09:36:11.685Z",
+  "totalBreaches": 2588,
   "breaches": [
     {
       "Name": "gPotato",
@@ -88861,6 +88861,38 @@
         "cve-2025-12734"
       ],
       "index": 2586
+    },
+    {
+      "Name": "cve-2025-64701 fuite du 2025-12-11",
+      "Title": "cve-2025-64701 fuite du 2025-12-11",
+      "Domain": null,
+      "BreachDate": "2025-12-11T00:00:00.000Z",
+      "AddedDate": "2025-12-11T09:36:11.682Z",
+      "ModifiedDate": "2025-12-11T09:36:11.682Z",
+      "PwnCount": 0,
+      "Description": "-\n\nQND Premium/Advance/Standard Ver.11.0.9i and prior contains a privilege escalation vulnerability\nwhich may allow a user who can log in to a Windows system with the affected product to gain administrator privileges. As a result\nsensitive information may be accessed or altered\nand arbitrary actions may be performed. | CVSS Score 7.8 (HIGH)  \n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-64701-fuite-du-2025-12-11",
+      "path": "CVE-2025-64701",
+      "formattedDate": "2025-12-11",
+      "title": "cve-2025-64701 fuite du 2025-12-11",
+      "date": "2025-12-11T00:00:00.000Z",
+      "lien": "CVE-2025-64701",
+      "categories": [
+        "cve-2025-64701"
+      ],
+      "index": 2587
     }
   ]
 }
