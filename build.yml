@@ -5541,6 +5541,8 @@ category_map:
   - cve-2025-67750
   - 2909351_ios
   - 2909363_on
+  - cve-2025-14582
+  - cve-2025-14583
 tag_map: null
 meta_generator: true
 search:
