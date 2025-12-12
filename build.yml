@@ -5406,6 +5406,11 @@ category_map:
   - cve-2025-14159
   - cve-2025-14442
   - 2908145_fin
+  - cve-2025-13506
+  - '2140847'
+  - 2073312_arret
+  - 2908183_fin
+  - 2907807_lasus
 tag_map: null
 meta_generator: true
 search:
