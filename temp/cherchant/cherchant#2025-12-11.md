@@ -8,5 +8,5 @@ categories:
 
 Etlaq
 la base au cœur des ambitions annoncées d'Oman dans le domaine spatial
-espère que la fortune lui sourira l'an [...]                                                                                      
+espère que la fortune lui sourira l'an [...]                                                                                          
 
