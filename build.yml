@@ -5468,6 +5468,11 @@ category_map:
   - 2909257_le
   - cve-2025-40345
   - '2141507'
+  - cve-2025-14568
+  - cve-2025-14569
+  - cve-2025-14570
+  - cve-2025-14571
+  - cve-2025-8082
 tag_map: null
 meta_generator: true
 search:
