@@ -5397,6 +5397,15 @@ category_map:
   - 2908103_on
   - 2907593_le
   - '2140327'
+  - '2139773'
+  - cve-2025-12407
+  - cve-2025-12408
+  - cve-2025-12965
+  - cve-2025-14030
+  - cve-2025-14065
+  - cve-2025-14159
+  - cve-2025-14442
+  - 2908145_fin
 tag_map: null
 meta_generator: true
 search:
