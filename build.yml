@@ -5668,6 +5668,10 @@ category_map:
   - cve-2025-9856
   - cve-2025-9873
   - '2138149'
+  - cve-2025-14621
+  - 2903509_voici
+  - 2908361_cette
+  - 2894315_test
 tag_map: null
 meta_generator: true
 search:
