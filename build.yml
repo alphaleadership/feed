@@ -5718,6 +5718,9 @@ category_map:
   - cve-2025-14656
   - '2141153'
   - 2908199_recap
+  - '2141135'
+  - 2908381_avec
+  - cve-2025-14659
 tag_map: null
 meta_generator: true
 search:
