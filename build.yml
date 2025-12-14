@@ -5729,6 +5729,10 @@ category_map:
   - cve-2025-14662
   - cve-2025-14663
   - 2907723_ce
+  - cve-2025-14664
+  - cve-2025-14665
+  - 2881263_on
+  - '2139075'
 tag_map: null
 meta_generator: true
 search:
