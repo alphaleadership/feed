@@ -5714,6 +5714,10 @@ category_map:
   - cve-2025-14654
   - 2903679_nintendo
   - 2904891_roborock
+  - cve-2025-14655
+  - cve-2025-14656
+  - '2141153'
+  - 2908199_recap
 tag_map: null
 meta_generator: true
 search:
