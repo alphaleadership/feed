@@ -5733,6 +5733,9 @@ category_map:
   - cve-2025-14665
   - 2881263_on
   - '2139075'
+  - cve-2025-14666
+  - cve-2025-14667
+  - 2907955_boulanger
 tag_map: null
 meta_generator: true
 search:
