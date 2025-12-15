@@ -5993,6 +5993,10 @@ category_map:
   - cve-2025-55895
   - cve-2025-59947
   - cve-2025-64725
+  - cve-2025-14729
+  - cve-2025-14730
+  - cve-2025-9121
+  - cve-2025-9122
 tag_map: null
 meta_generator: true
 search:
