@@ -82,7 +82,7 @@ async function main() {
             action = await prompt.run();
         }
 
-        if (action === 'reject' && !entry.Name.includes("cve-")) {
+        if (action === '❌ Rejeter (supprimer définitivement)' && !entry.Name.includes("cve-")) {
             const confirmPrompt = new Confirm({
                 name: 'confirm',
                 message: 'Êtes-vous sûr de vouloir supprimer cette entrée ?',
@@ -93,32 +93,32 @@ async function main() {
                 action = 'skip';
             }
         }
-
+        fs.appendFileSync('filtre-breaches.log', `[${new Date().toISOString()}] Action: ${action} | Entry: ${entry.Name}\n`);
         switch (action) {
-            case 'validate':
+            case '✅ Valider cette entrée':
                 entry.validated = true;
                 if (entry.isNSFW) nsfwCount++;
                 validatedCount++;
                 console.log(new chalk.Chalk().green('--> Entrée validée.'));
                 break;
-            case 'validate_nsfw':
+            case '✅ Valider et marquer comme NSFW':
                 entry.validated = true;
                 entry.isNSFW = true;
                 validatedCount++;
                 nsfwCount++;
                 console.log(new chalk.Chalk().magenta('--> Entrée validée et marquée NSFW.'));
                 break;
-            case 'reject':
+            case '❌ Rejeter (supprimer définitivement)':
                 rejectedForDeletion.push(entry);
                 rejectedCount++;
                 console.log(new chalk.Chalk().red('--> Entrée marquée pour suppression.'));
                 break;
-            case 'skip':
+            case '⏭️  Sauter (pour plus tard)':
                 entry.validated = null;
                 skippedCount++;
                 console.log(new chalk.Chalk().gray('--> Entrée sautée.'));
                 break;
-            case 'exit':
+            case '💾 Sauvegarder et quitter':
                 interrupted = true;
                 break;
         }
@@ -130,7 +130,7 @@ async function main() {
             delete entry.validated;
         }
     });
-    data.breaches = finalBreaches;
+    data.breaches = finalBreaches
     data.lastUpdated = new Date().toISOString();
     fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2));
 

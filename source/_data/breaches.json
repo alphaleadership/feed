@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-16T15:31:57.963Z",
+  "lastUpdated": "2025-12-16T15:43:29.039Z",
   "totalBreaches": 1472,
   "breaches": [
     {
@@ -41125,7 +41125,8 @@
         "ufolep"
       ],
       "index": 1094,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "france ventilation fuite du 2025-12-12",
@@ -41158,7 +41159,8 @@
         "france ventilation"
       ],
       "index": 1095,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "euromatik fuite du 2025-12-12",
@@ -41191,7 +41193,8 @@
         "euromatik"
       ],
       "index": 1096,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "ministère de l’intérieur fuite du 2025-12-13",
@@ -41224,7 +41227,8 @@
         "ministère de l’intérieur"
       ],
       "index": 1097,
-      "isNSFW": false
+      "isNSFW": false,
+      "validated": true
     },
     {
       "Name": "pornhub fuite du 2025-12-16",
@@ -41257,7 +41261,8 @@
         "pornhub"
       ],
       "index": 1442,
-      "isNSFW": true
+      "isNSFW": true,
+      "validated": true
     }
   ]
 }
