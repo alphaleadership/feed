@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>veille</title>
   
-  <subtitle>fuite de donnée en cours</subtitle>
+  <subtitle>fuites de donnée en cours</subtitle>
   <link href="https://feed-blush.vercel.app/atom.xml" rel="self"/>
   
   <link href="https://feed-blush.vercel.app/"/>
