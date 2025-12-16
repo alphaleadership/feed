@@ -1,0 +1,15 @@
+title: wxmkdyjljgdc fuite du 2025-12-15
+date: 2025-12-15
+lien: "https://www.cloudflarestatus.com/incidents/wxmkdyjljgdc"
+categories:
+  - wxmkdyjljgdc
+
+---
+
+strong>THIS IS A SCHEDULED EVENT Dec var data-var='date'>15/var>
+var data-var='time'>0430/var> - var data-var='time'>0930/var> UTC/strong>small>Dec var data-var='date'>12/var>
+var data-var='time'>0800/var> UTC/small>strong>Scheduled/strong> - We will be performing scheduled maintenance in IAD (Ashburn) datacenter on 2025-12-15 between 0430 and 0930 UTC.br />br />Traffic might be re-routed from this location
+hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location
+please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network interfaces in this datacentre may become temporarily unavailable.br />br />You can now subscribe to these notifications via Cloudflare dashboard and receive these updates directly via email
+PagerDuty and webhooks (based on your plan) https//developers.cloudflare.com/notifications/notification-available/#cloudflare-status.                                                                                                                                                                                                                                                                                                                                                                                                                            
+
