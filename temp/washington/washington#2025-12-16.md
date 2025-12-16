@@ -7,5 +7,5 @@ categories:
 ---
 
 Les États-Unis s'apprêtent à renforcer leurs capacités de surveillance de l'Arctique et en particulier des activités russes et chinoises
-selon [...]                  
+selon [...]                    
 
