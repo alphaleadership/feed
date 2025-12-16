@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-16T15:31:57.963Z",
+  "lastUpdated": "2025-12-16T15:47:14.778Z",
   "totalBreaches": 1472,
   "breaches": [
     {
@@ -43949,7 +43949,8 @@
         "pornhub"
       ],
       "index": 1442,
-      "isNSFW": true
+      "isNSFW": true,
+      "validated": true
     }
   ]
 }
