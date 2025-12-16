@@ -34,7 +34,7 @@ async function main() {
     const rejectedForDeletion = [];
 
     const saveAndExit = () => {
-        data.breaches = breaches.filter(entry => !rejectedForDeletion.includes(entry));
+        data.breaches = breaches.filter(entry => !rejectedForDeletion.includes(entry.Name));
         data.breaches.forEach(entry => {
             if (entry.validated === null) {
                 delete entry.validated;
@@ -109,7 +109,12 @@ async function main() {
                 console.log(new chalk.Chalk().magenta('--> Entrée validée et marquée NSFW.'));
                 break;
             case '❌ Rejeter (supprimer définitivement)':
-                rejectedForDeletion.push(entry);
+                rejectedForDeletion.push(entry.Name);
+                rejectedCount++;
+                console.log(new chalk.Chalk().red('--> Entrée marquée pour suppression.'));
+                break;
+                 case 'reject':
+                rejectedForDeletion.push(entry.Name);
                 rejectedCount++;
                 console.log(new chalk.Chalk().red('--> Entrée marquée pour suppression.'));
                 break;
@@ -124,7 +129,7 @@ async function main() {
         }
     }
 
-    const finalBreaches = breaches.filter(entry => !rejectedForDeletion.includes(entry));
+    const finalBreaches = breaches.filter(entry => !rejectedForDeletion.includes(entry.Name));
     finalBreaches.forEach(entry => {
         if (entry.validated === null) {
             delete entry.validated;
