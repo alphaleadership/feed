@@ -2,6 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const varia=require("./eratos")
 console.log(varia)
+if(!fs.existsSync("./temp")){
+    fs.mkdirSync("./temp")
+}
 var storage=fs.readdirSync("./temp")
 if(storage.length>varia.choix){
     fs.readdirSync("./temp").forEach(file => {
