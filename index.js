@@ -89,6 +89,7 @@ parser.parseURL(rssUrl).then(feed => {
     uniqueItems.forEach((item) => {
       try {
         const postTitle = item.link.split('/').pop();
+        console.log(postTitle)
         const pubDate = new Date(item.pubDate);
         const dateStr = `${pubDate.getFullYear()}-${pubDate.getMonth() + 1}-${pubDate.getDate()}`;
         let entreprises
