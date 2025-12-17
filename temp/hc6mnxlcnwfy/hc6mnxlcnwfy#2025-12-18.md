@@ -6,7 +6,7 @@ categories:
 
 ---
 
-[[[strong>THIS IS A SCHEDULED EVENT Dec var data-var='date'>18/var>
+[[[[strong>THIS IS A SCHEDULED EVENT Dec var data-var='date'>18/var>
 var data-var='time'>0030/var> - var data-var='time'>0630/var> UTC/strong>small>Dec var data-var='date'>17/var>
 var data-var='time'>0244/var> UTC/small>strong>Scheduled/strong> - We will be performing scheduled maintenance in SOF (Sofia) datacenter on 2025-12-18 between 0030 and 0630 UTC.br />br />Traffic might be re-routed from this location
 hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location
