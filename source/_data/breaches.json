@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-17T14:31:53.996Z",
-  "totalBreaches": 1619,
+  "lastUpdated": "2025-12-17T15:33:56.197Z",
+  "totalBreaches": 1620,
   "breaches": [
     {
       "Name": "gPotato",
@@ -57903,6 +57903,38 @@
         "sfr"
       ],
       "index": 1618
+    },
+    {
+      "Name": "cve-2022-23851 fuite du 2025-12-17",
+      "Title": "cve-2022-23851 fuite du 2025-12-17",
+      "Domain": null,
+      "BreachDate": "2025-12-17T00:00:00.000Z",
+      "AddedDate": "2025-12-17T15:33:56.195Z",
+      "ModifiedDate": "2025-12-17T15:33:56.195Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[Netaxis API Orchestrator (APIO) before 0.19.3 allows server side template injection (SSTI). | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2022-23851-fuite-du-2025-12-17",
+      "path": "CVE-2022-23851",
+      "formattedDate": "2025-12-17",
+      "title": "cve-2022-23851 fuite du 2025-12-17",
+      "date": "2025-12-17T00:00:00.000Z",
+      "lien": "CVE-2022-23851",
+      "categories": [
+        "cve-2022-23851"
+      ],
+      "index": 1619
     }
   ]
 }
