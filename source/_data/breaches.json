@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-18T10:55:37.261Z",
-  "totalBreaches": 2010,
+  "lastUpdated": "2025-12-18T11:24:06.288Z",
+  "totalBreaches": 2011,
   "breaches": [
     {
       "Name": "gPotato",
@@ -71322,6 +71322,38 @@
         "cve-2025-64997"
       ],
       "index": 2009
+    },
+    {
+      "Name": "cve-2025-40602 fuite du 2025-12-18",
+      "Title": "cve-2025-40602 fuite du 2025-12-18",
+      "Domain": null,
+      "BreachDate": "2025-12-18T00:00:00.000Z",
+      "AddedDate": "2025-12-18T11:24:06.286Z",
+      "ModifiedDate": "2025-12-18T11:24:06.286Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[A local privilege escalation vulnerability due to insufficient authorization in the SonicWall SMA1000 appliance management console (AMC). | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-40602-fuite-du-2025-12-18",
+      "path": "CVE-2025-40602",
+      "formattedDate": "2025-12-18",
+      "title": "cve-2025-40602 fuite du 2025-12-18",
+      "date": "2025-12-18T00:00:00.000Z",
+      "lien": "CVE-2025-40602",
+      "categories": [
+        "cve-2025-40602"
+      ],
+      "index": 2010
     }
   ]
 }
