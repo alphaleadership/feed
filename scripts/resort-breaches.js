@@ -57,6 +57,7 @@ db.breaches.forEach((breach, idx) => {
     // Vérifier si la description contient des termes NSFW
     if(breach.Description){
       const descLower = breach.Description.toLowerCase();
+      breach.Description=breach.Description.replaceAll("[","").replaceAll("]","")
       breach.isNSFW = nsfwTerms.some(term => descLower.includes(term.toLowerCase()));
     }
   }
