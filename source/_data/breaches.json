@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-17T23:23:13.778Z",
-  "totalBreaches": 1773,
+  "lastUpdated": "2025-12-18T01:50:34.568Z",
+  "totalBreaches": 1776,
   "breaches": [
     {
       "Name": "gPotato",
@@ -62831,6 +62831,102 @@
         "cve-2025-68435"
       ],
       "index": 1772
+    },
+    {
+      "Name": "cve-2025-14202 fuite du 2025-12-18",
+      "Title": "cve-2025-14202 fuite du 2025-12-18",
+      "Domain": null,
+      "BreachDate": "2025-12-18T00:00:00.000Z",
+      "AddedDate": "2025-12-18T01:50:33.952Z",
+      "ModifiedDate": "2025-12-18T01:50:33.952Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[A vulnerability in the file upload at bookmark + asset rendering pipeline allows an attacker to upload a malicious SVG file with JavaScript content. When an authenticated admin user views the SVG file with embedded JavaScript code of shared bookmark\nJavaScript executes in the admin’s browser\nretrieves the CSRF token\nand sends a request to change the admin's password resulting in a full account takeover. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14202-fuite-du-2025-12-18",
+      "path": "CVE-2025-14202",
+      "formattedDate": "2025-12-18",
+      "title": "cve-2025-14202 fuite du 2025-12-18",
+      "date": "2025-12-18T00:00:00.000Z",
+      "lien": "CVE-2025-14202",
+      "categories": [
+        "cve-2025-14202"
+      ],
+      "index": 1773
+    },
+    {
+      "Name": "cve-2025-14837 fuite du 2025-12-18",
+      "Title": "cve-2025-14837 fuite du 2025-12-18",
+      "Domain": null,
+      "BreachDate": "2025-12-18T00:00:00.000Z",
+      "AddedDate": "2025-12-18T01:50:34.513Z",
+      "ModifiedDate": "2025-12-18T01:50:34.513Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[A vulnerability has been found in ZZCMS 2025. Affected by this issue is the function stripfxg of the file /admin/siteconfig.php of the component Backend Website Settings Module. Such manipulation of the argument icp leads to code injection. The attack can be executed remotely. The exploit has been disclosed to the public and may be used. | CVSS Score 4.7 (MEDIUM)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14837-fuite-du-2025-12-18",
+      "path": "CVE-2025-14837",
+      "formattedDate": "2025-12-18",
+      "title": "cve-2025-14837 fuite du 2025-12-18",
+      "date": "2025-12-18T00:00:00.000Z",
+      "lien": "CVE-2025-14837",
+      "categories": [
+        "cve-2025-14837"
+      ],
+      "index": 1774
+    },
+    {
+      "Name": "cve-2025-14841 fuite du 2025-12-18",
+      "Title": "cve-2025-14841 fuite du 2025-12-18",
+      "Domain": null,
+      "BreachDate": "2025-12-18T00:00:00.000Z",
+      "AddedDate": "2025-12-18T01:50:34.567Z",
+      "ModifiedDate": "2025-12-18T01:50:34.567Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[A flaw has been found in OFFIS DCMTK up to 3.6.9. The impacted element is the function DcmQueryRetrieveIndexDatabaseHandlestartFindRequest/DcmQueryRetrieveIndexDatabaseHandlestartMoveRequest in the library dcmqrdb/libsrc/dcmqrdbi.cc of the component dcmqrscp. This manipulation causes null pointer dereference. The attack requires local access. Upgrading to version 3.7.0 is sufficient to resolve this issue. Patch name ffb1a4a37d2c876e3feeb31df4930f2aed7fa030. You should upgrade the affected component. | CVSS Score 3.3 (LOW)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14841-fuite-du-2025-12-18",
+      "path": "CVE-2025-14841",
+      "formattedDate": "2025-12-18",
+      "title": "cve-2025-14841 fuite du 2025-12-18",
+      "date": "2025-12-18T00:00:00.000Z",
+      "lien": "CVE-2025-14841",
+      "categories": [
+        "cve-2025-14841"
+      ],
+      "index": 1775
     }
   ]
 }
