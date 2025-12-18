@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-18T08:33:56.678Z",
-  "totalBreaches": 2005,
+  "lastUpdated": "2025-12-18T09:42:01.524Z",
+  "totalBreaches": 2006,
   "breaches": [
     {
       "Name": "gPotato",
@@ -70255,6 +70255,38 @@
         "cve-2025-67546"
       ],
       "index": 2004
+    },
+    {
+      "Name": "cve-2025-14874 fuite du 2025-12-18",
+      "Title": "cve-2025-14874 fuite du 2025-12-18",
+      "Domain": null,
+      "BreachDate": "2025-12-18T00:00:00.000Z",
+      "AddedDate": "2025-12-18T09:42:01.522Z",
+      "ModifiedDate": "2025-12-18T09:42:01.522Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[A flaw was found in Nodemailer. This vulnerability allows a denial of service (DoS) via a crafted email address header that triggers infinite recursion in the address parser. | CVSS Score 5.3 (MEDIUM)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14874-fuite-du-2025-12-18",
+      "path": "CVE-2025-14874",
+      "formattedDate": "2025-12-18",
+      "title": "cve-2025-14874 fuite du 2025-12-18",
+      "date": "2025-12-18T00:00:00.000Z",
+      "lien": "CVE-2025-14874",
+      "categories": [
+        "cve-2025-14874"
+      ],
+      "index": 2005
     }
   ]
 }
