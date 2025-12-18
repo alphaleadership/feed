@@ -12,7 +12,7 @@ categories:
 
 ---
 
-[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[div class="chapo has-text-weight-semibold mb-5">
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[div class="chapo has-text-weight-semibold mb-5">
 div>Le calendrier de l’Avent strong>#FrandroidOffreMoi/strong> se poursuit avec encore un cadeau de taille sur cette 17e journée. Aujourd'hui
 c'est 2 To de stockage à vie qui sont à la clé. /div>
 /div>
