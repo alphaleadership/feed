@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-18T03:23:42.872Z",
-  "totalBreaches": 1777,
+  "lastUpdated": "2025-12-18T04:07:53.857Z",
+  "totalBreaches": 1778,
   "breaches": [
     {
       "Name": "gPotato",
@@ -62959,6 +62959,38 @@
         "cve-2025-14856"
       ],
       "index": 1776
+    },
+    {
+      "Name": "cve-2025-12885 fuite du 2025-12-18",
+      "Title": "cve-2025-12885 fuite du 2025-12-18",
+      "Domain": null,
+      "BreachDate": "2025-12-18T00:00:00.000Z",
+      "AddedDate": "2025-12-18T04:07:53.855Z",
+      "ModifiedDate": "2025-12-18T04:07:53.855Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[The Embed Any Document – Embed PDF\nWord\nPowerPoint and Excel Files plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the sanitize_pdf_src function regex bypass in all versions up to\nand including\n2.7.10 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers\nwith Contributor-level access and above\nto inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. | CVSS Score 6.4 (MEDIUM)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-12885-fuite-du-2025-12-18",
+      "path": "CVE-2025-12885",
+      "formattedDate": "2025-12-18",
+      "title": "cve-2025-12885 fuite du 2025-12-18",
+      "date": "2025-12-18T00:00:00.000Z",
+      "lien": "CVE-2025-12885",
+      "categories": [
+        "cve-2025-12885"
+      ],
+      "index": 1777
     }
   ]
 }
