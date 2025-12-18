@@ -14,7 +14,7 @@ categories:
 
 ---
 
-[[[[[[[[[[div class="chapo has-text-weight-semibold mb-5">
+[[[[[[[[[[[div class="chapo has-text-weight-semibold mb-5">
 div>On se tourne du côté de la sécurité pour le jour 18 de notre calendrier de l'Avent. Tentez de gagner la caméra de sécurité Eufy Solocam E42 avec notre concours #FrandroidOffreMoi./div>
 /div>
 
