@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-18T01:50:34.568Z",
-  "totalBreaches": 1776,
+  "lastUpdated": "2025-12-18T03:23:42.872Z",
+  "totalBreaches": 1777,
   "breaches": [
     {
       "Name": "gPotato",
@@ -62927,6 +62927,38 @@
         "cve-2025-14841"
       ],
       "index": 1775
+    },
+    {
+      "Name": "cve-2025-14856 fuite du 2025-12-18",
+      "Title": "cve-2025-14856 fuite du 2025-12-18",
+      "Domain": null,
+      "BreachDate": "2025-12-18T00:00:00.000Z",
+      "AddedDate": "2025-12-18T03:23:42.870Z",
+      "ModifiedDate": "2025-12-18T03:23:42.870Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[A security vulnerability has been detected in y_project RuoYi up to 4.8.1. The affected element is an unknown function of the file /monitor/cache/getnames. Such manipulation of the argument fragment leads to code injection. The attack can be executed remotely. The exploit has been disclosed publicly and may be used. | CVSS Score 6.3 (MEDIUM)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14856-fuite-du-2025-12-18",
+      "path": "CVE-2025-14856",
+      "formattedDate": "2025-12-18",
+      "title": "cve-2025-14856 fuite du 2025-12-18",
+      "date": "2025-12-18T00:00:00.000Z",
+      "lien": "CVE-2025-14856",
+      "categories": [
+        "cve-2025-14856"
+      ],
+      "index": 1776
     }
   ]
 }
