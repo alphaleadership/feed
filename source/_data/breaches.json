@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-18T17:39:45.629Z",
-  "totalBreaches": 1555,
+  "lastUpdated": "2025-12-18T18:36:40.996Z",
+  "totalBreaches": 1557,
   "breaches": [
     {
       "Name": "gPotato",
@@ -55872,6 +55872,70 @@
         "cve-2025-66058"
       ],
       "index": 1554
+    },
+    {
+      "Name": "cve-2025-14737 fuite du 2025-12-18",
+      "Title": "cve-2025-14737 fuite du 2025-12-18",
+      "Domain": null,
+      "BreachDate": "2025-12-18T00:00:00.000Z",
+      "AddedDate": "2025-12-18T18:36:40.947Z",
+      "ModifiedDate": "2025-12-18T18:36:40.947Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[Command Injection vulnerability in TP-Link WA850RE (httpd modules) allows authenticated adjacent attacker to inject arbitrary commands.This issue affects ≤ WA850RE V2_160527\n≤ \r\n\r\nWA850RE V3_160922. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14737-fuite-du-2025-12-18",
+      "path": "CVE-2025-14737",
+      "formattedDate": "2025-12-18",
+      "title": "cve-2025-14737 fuite du 2025-12-18",
+      "date": "2025-12-18T00:00:00.000Z",
+      "lien": "CVE-2025-14737",
+      "categories": [
+        "cve-2025-14737"
+      ],
+      "index": 1555
+    },
+    {
+      "Name": "cve-2025-14738 fuite du 2025-12-18",
+      "Title": "cve-2025-14738 fuite du 2025-12-18",
+      "Domain": null,
+      "BreachDate": "2025-12-18T00:00:00.000Z",
+      "AddedDate": "2025-12-18T18:36:40.995Z",
+      "ModifiedDate": "2025-12-18T18:36:40.995Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[Improper authentication vulnerability in TP-Link WA850RE (httpd modules) allows unauthenticated attackers to download the configuration file.This issue affects ≤ WA850RE V2_160527\n≤ \r\n\r\n WA850RE V3_160922. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14738-fuite-du-2025-12-18",
+      "path": "CVE-2025-14738",
+      "formattedDate": "2025-12-18",
+      "title": "cve-2025-14738 fuite du 2025-12-18",
+      "date": "2025-12-18T00:00:00.000Z",
+      "lien": "CVE-2025-14738",
+      "categories": [
+        "cve-2025-14738"
+      ],
+      "index": 1556
     }
   ]
 }
