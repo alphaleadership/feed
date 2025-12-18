@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-18T13:38:50.326Z",
-  "totalBreaches": 2016,
+  "lastUpdated": "2025-12-18T13:59:21.057Z",
+  "totalBreaches": 2017,
   "breaches": [
     {
       "Name": "gPotato",
@@ -71514,6 +71514,38 @@
         "cve-2025-14618"
       ],
       "index": 2015
+    },
+    {
+      "Name": "caisse d’allocations familiales fuite du 2025-12-18",
+      "Title": "caisse d’allocations familiales fuite du 2025-12-18",
+      "Domain": null,
+      "BreachDate": "2025-12-18T00:00:00.000Z",
+      "AddedDate": "2025-12-18T13:59:21.055Z",
+      "ModifiedDate": "2025-12-18T13:59:21.055Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[[nom\nprénom\ndate de naissance\nsituation\nallocataire\nadresse postale\nmatricule\nnuméro de téléphone\nemail\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "caisse-d-allocations-familiales-fuite-du-2025-12-18",
+      "path": "https://www.lesnumeriques.com/societe-numerique/exclusif-cyberattaque-massive-sur-la-caf-22-millions-de-victimes-dans-une-offensive-qui-frappe-l-etat-n248336.html",
+      "formattedDate": "2025-12-18",
+      "title": "caisse d’allocations familiales fuite du 2025-12-18",
+      "date": "2025-12-18T00:00:00.000Z",
+      "lien": "https://www.lesnumeriques.com/societe-numerique/exclusif-cyberattaque-massive-sur-la-caf-22-millions-de-victimes-dans-une-offensive-qui-frappe-l-etat-n248336.html",
+      "categories": [
+        "caisse d’allocations familiales"
+      ],
+      "index": 2016
     }
   ]
 }
