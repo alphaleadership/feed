@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-18T04:07:53.857Z",
-  "totalBreaches": 1778,
+  "lastUpdated": "2025-12-18T05:26:18.737Z",
+  "totalBreaches": 1780,
   "breaches": [
     {
       "Name": "gPotato",
@@ -62991,6 +62991,70 @@
         "cve-2025-12885"
       ],
       "index": 1777
+    },
+    {
+      "Name": "cve-2025-68460 fuite du 2025-12-18",
+      "Title": "cve-2025-68460 fuite du 2025-12-18",
+      "Domain": null,
+      "BreachDate": "2025-12-18T00:00:00.000Z",
+      "AddedDate": "2025-12-18T05:26:18.686Z",
+      "ModifiedDate": "2025-12-18T05:26:18.686Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[Roundcube Webmail before 1.5.12 and 1.6 before 1.6.12 is prone to a information disclosure vulnerability in the HTML style sanitizer. | CVSS Score 7.2 (HIGH)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-68460-fuite-du-2025-12-18",
+      "path": "CVE-2025-68460",
+      "formattedDate": "2025-12-18",
+      "title": "cve-2025-68460 fuite du 2025-12-18",
+      "date": "2025-12-18T00:00:00.000Z",
+      "lien": "CVE-2025-68460",
+      "categories": [
+        "cve-2025-68460"
+      ],
+      "index": 1778
+    },
+    {
+      "Name": "cve-2025-68461 fuite du 2025-12-18",
+      "Title": "cve-2025-68461 fuite du 2025-12-18",
+      "Domain": null,
+      "BreachDate": "2025-12-18T00:00:00.000Z",
+      "AddedDate": "2025-12-18T05:26:18.735Z",
+      "ModifiedDate": "2025-12-18T05:26:18.735Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[Roundcube Webmail before 1.5.12 and 1.6 before 1.6.12 is prone to a Cross-Site-Scripting (XSS) vulnerability via the animate tag in an SVG document. | CVSS Score 7.2 (HIGH)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-68461-fuite-du-2025-12-18",
+      "path": "CVE-2025-68461",
+      "formattedDate": "2025-12-18",
+      "title": "cve-2025-68461 fuite du 2025-12-18",
+      "date": "2025-12-18T00:00:00.000Z",
+      "lien": "CVE-2025-68461",
+      "categories": [
+        "cve-2025-68461"
+      ],
+      "index": 1779
     }
   ]
 }
