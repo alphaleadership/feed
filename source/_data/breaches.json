@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-19T11:21:04.563Z",
-  "totalBreaches": 1711,
+  "lastUpdated": "2025-12-19T12:48:48.785Z",
+  "totalBreaches": 1714,
   "breaches": [
     {
       "Name": "gPotato",
@@ -60864,6 +60864,102 @@
         "cve-2025-14847"
       ],
       "index": 1710
+    },
+    {
+      "Name": "cve-2025-1885 fuite du 2025-12-19",
+      "Title": "cve-2025-1885 fuite du 2025-12-19",
+      "Domain": null,
+      "BreachDate": "2025-12-19T00:00:00.000Z",
+      "AddedDate": "2025-12-19T12:48:45.881Z",
+      "ModifiedDate": "2025-12-19T12:48:45.881Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[URL Redirection to Untrusted Site ('Open Redirect') vulnerability in Restajet Information Technologies Inc. Online Food Delivery System allows Phishing\nForceful Browsing.This issue affects Online Food Delivery System through 19122025. | CVSS Score 5.4 (MEDIUM)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-1885-fuite-du-2025-12-19",
+      "path": "CVE-2025-1885",
+      "formattedDate": "2025-12-19",
+      "title": "cve-2025-1885 fuite du 2025-12-19",
+      "date": "2025-12-19T00:00:00.000Z",
+      "lien": "CVE-2025-1885",
+      "categories": [
+        "cve-2025-1885"
+      ],
+      "index": 1711
+    },
+    {
+      "Name": "cve-2025-1927 fuite du 2025-12-19",
+      "Title": "cve-2025-1927 fuite du 2025-12-19",
+      "Domain": null,
+      "BreachDate": "2025-12-19T00:00:00.000Z",
+      "AddedDate": "2025-12-19T12:48:45.936Z",
+      "ModifiedDate": "2025-12-19T12:48:45.936Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[Cross-Site Request Forgery (CSRF) vulnerability in Restajet Information Technologies Inc. Online Food Delivery System allows Cross Site Request Forgery.This issue affects Online Food Delivery System through 19122025. | CVSS Score 7.1 (HIGH)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-1927-fuite-du-2025-12-19",
+      "path": "CVE-2025-1927",
+      "formattedDate": "2025-12-19",
+      "title": "cve-2025-1927 fuite du 2025-12-19",
+      "date": "2025-12-19T00:00:00.000Z",
+      "lien": "CVE-2025-1927",
+      "categories": [
+        "cve-2025-1927"
+      ],
+      "index": 1712
+    },
+    {
+      "Name": "red by sfr fuite du 2025-12-19",
+      "Title": "red by sfr fuite du 2025-12-19",
+      "Domain": null,
+      "BreachDate": "2025-12-19T00:00:00.000Z",
+      "AddedDate": "2025-12-19T12:48:48.784Z",
+      "ModifiedDate": "2025-12-19T12:48:48.784Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[[nom\nprénom\nadresse mail\nadresse postale\nréférence client\nnuméro de téléphone\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "red-by-sfr-fuite-du-2025-12-19",
+      "path": "https://bonjourlafuite.eu.org/img/red.jpg",
+      "formattedDate": "2025-12-19",
+      "title": "red by sfr fuite du 2025-12-19",
+      "date": "2025-12-19T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/red.jpg",
+      "categories": [
+        "red by sfr"
+      ],
+      "index": 1713
     }
   ]
 }
