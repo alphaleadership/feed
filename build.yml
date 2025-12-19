@@ -7328,6 +7328,14 @@ category_map:
   - 2910551_voici
   - '2915795_10'
   - 2915431_ce
+  - cve-2025-66500
+  - cve-2025-66501
+  - cve-2025-66502
+  - cve-2025-66519
+  - cve-2025-66520
+  - cve-2025-66521
+  - cve-2025-66522
+  - 2915737_severe
 tag_map: null
 meta_generator: true
 search:
