@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-19T10:27:34.195Z",
-  "totalBreaches": 1710,
+  "lastUpdated": "2025-12-19T11:21:04.563Z",
+  "totalBreaches": 1711,
   "breaches": [
     {
       "Name": "gPotato",
@@ -60832,6 +60832,38 @@
         "cve-2025-66524"
       ],
       "index": 1709
+    },
+    {
+      "Name": "cve-2025-14847 fuite du 2025-12-19",
+      "Title": "cve-2025-14847 fuite du 2025-12-19",
+      "Domain": null,
+      "BreachDate": "2025-12-19T00:00:00.000Z",
+      "AddedDate": "2025-12-19T11:21:04.561Z",
+      "ModifiedDate": "2025-12-19T11:21:04.561Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[Mismatched length fields in Zlib compressed protocol headers may allow a read of uninitialized heap memory by an unauthenticated client. This issue affects all MongoDB Server v7.0 prior to 7.0.28 versions\nMongoDB Server v8.0 versions prior to 8.0.17\nMongoDB Server v8.2 versions prior to 8.2.3\nMongoDB Server v6.0 versions prior to 6.0.27\nMongoDB Server v5.0 versions prior to 5.0.32\nMongoDB Server v4.4 versions prior to 4.4.30\nMongoDB Server v4.2 versions greater than or equal to 4.2.0\nMongoDB Server v4.0 versions greater than or equal to 4.0.0\nand MongoDB Server v3.6 versions greater than or equal to 3.6.0. | CVSS Score 7.5 (HIGH)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14847-fuite-du-2025-12-19",
+      "path": "CVE-2025-14847",
+      "formattedDate": "2025-12-19",
+      "title": "cve-2025-14847 fuite du 2025-12-19",
+      "date": "2025-12-19T00:00:00.000Z",
+      "lien": "CVE-2025-14847",
+      "categories": [
+        "cve-2025-14847"
+      ],
+      "index": 1710
     }
   ]
 }
