@@ -7,15 +7,13 @@
 
   // Utiliser les données de breaches.json
   var posts = site.data.breaches ? site.data.breaches.breaches : [];
-  console.log(posts)
   var archiveData = {
       years: {},
       months: ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre']
   };
      const invalidcategory=["hygiène numérique","sécurité","cybersécurité","cybercriminalité","cyberguerre"]
   // Ajouter l'index à chaque post et trier
-  posts.filter((item)=>{
-          console.log(item.IsRetired)
+  var filteredPosts = posts.filter((item)=>{
           return !item.Name.includes('cve')
         }).filter((c)=>{
           if(c.Name.toLowerCase().includes("cve-")){
@@ -36,7 +34,9 @@
     //item.index = index; // Ajouter l'index pour le lien
     return item;
   }).sort((a, b) => new Date(b.BreachDate) - new Date(a.BreachDate))
-    .forEach(function(item) {
+    ;
+
+  filteredPosts.forEach(function(item) {
       var date = new Date(item.BreachDate);
       var year = date.getFullYear();
       var month = date.getMonth();
@@ -56,7 +56,7 @@
   <h1 class="archive-title title <% if (theme.inverse){ %>title-inverse<% } %>"><%= title %></h1>
 </div>
 
-<% if (!posts || posts.length === 0) { %>
+<% if (!filteredPosts || filteredPosts.length === 0) { %>
   <div class="alert alert-info" role="alert">
     Aucune fuite de données trouvée.
   </div>
@@ -65,10 +65,12 @@
     <div class="<% if (theme.widgets.length) { %>col-md-9<% } else { %>col-md-12<% } %>">
       <div class="archive">
         <% Object.keys(archiveData.years).sort((a, b) => b - a).forEach(function(year) { %>
-          <h4 class="archive-ul" data-toggle="collapse" data-target="#year_<%= year %>"><%= year %> <b class="caret"></b></h4>
+          <% var yearCount = Object.keys(archiveData.years[year]).reduce(function(total, monthKey) { return total + archiveData.years[year][monthKey].length; }, 0); %>
+          <h4 class="archive-ul" data-toggle="collapse" data-target="#year_<%= year %>"><%= year %> (<%= yearCount %>) <b class="caret"></b></h4>
           <div id="year_<%= year %>" class="collapse in">
             <% Object.keys(archiveData.years[year]).sort((a, b) => b - a).forEach(function(month) { %>
-              <h5 class="archive-ul" data-toggle="collapse" data-target="#month_<%= year %>_<%= month %>"><%= archiveData.months[month] %> <b class="caret"></b></h5>
+              <% var monthCount = archiveData.years[year][month].length; %>
+              <h5 class="archive-ul" data-toggle="collapse" data-target="#month_<%= year %>_<%= month %>"><%= archiveData.months[month] %> (<%= monthCount %>) <b class="caret"></b></h5>
               <div id="month_<%= year %>_<%= month %>" class="collapse in">
                 <ol>
                   <% archiveData.years[year][month].forEach(function(item) { %>
