@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-19T13:35:09.315Z",
-  "totalBreaches": 1718,
+  "lastUpdated": "2025-12-19T14:26:06.770Z",
+  "totalBreaches": 1719,
   "breaches": [
     {
       "Name": "gPotato",
@@ -61088,6 +61088,38 @@
         "cve-2025-1928"
       ],
       "index": 1717
+    },
+    {
+      "Name": "cve-2025-14950 fuite du 2025-12-19",
+      "Title": "cve-2025-14950 fuite du 2025-12-19",
+      "Domain": null,
+      "BreachDate": "2025-12-19T00:00:00.000Z",
+      "AddedDate": "2025-12-19T14:26:06.769Z",
+      "ModifiedDate": "2025-12-19T14:26:06.769Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[A weakness has been identified in code-projects Scholars Tracking System 1.0. The affected element is an unknown function of the file /delete_post.php. This manipulation of the argument ID causes sql injection. Remote exploitation of the attack is possible. The exploit has been made available to the public and could be exploited. | CVSS Score 7.3 (HIGH)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14950-fuite-du-2025-12-19",
+      "path": "CVE-2025-14950",
+      "formattedDate": "2025-12-19",
+      "title": "cve-2025-14950 fuite du 2025-12-19",
+      "date": "2025-12-19T00:00:00.000Z",
+      "lien": "CVE-2025-14950",
+      "categories": [
+        "cve-2025-14950"
+      ],
+      "index": 1718
     }
   ]
 }
