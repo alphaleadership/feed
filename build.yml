@@ -7300,6 +7300,11 @@ category_map:
   - cve-2025-68489
   - cve-2025-68490
   - cve-2025-68491
+  - 2910787_offre
+  - 2915039_ce
+  - cve-2025-13307
+  - '2145373'
+  - aux
 tag_map: null
 meta_generator: true
 search:
