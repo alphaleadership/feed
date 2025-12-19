@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-19T09:34:02.208Z",
-  "totalBreaches": 1707,
+  "lastUpdated": "2025-12-19T10:27:34.195Z",
+  "totalBreaches": 1710,
   "breaches": [
     {
       "Name": "gPotato",
@@ -60736,6 +60736,102 @@
         "cve-2025-14151"
       ],
       "index": 1706
+    },
+    {
+      "Name": "cve-2025-12361 fuite du 2025-12-19",
+      "Title": "cve-2025-12361 fuite du 2025-12-19",
+      "Domain": null,
+      "BreachDate": "2025-12-19T00:00:00.000Z",
+      "AddedDate": "2025-12-19T10:27:30.856Z",
+      "ModifiedDate": "2025-12-19T10:27:30.856Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[The myCred – Points Management System For Gamification\nRanks\nBadges\nand Loyalty Program plugin for WordPress is vulnerable to Missing Authorization in versions up to\nand including\n2.9.7.1. This is due to the plugin not properly verifying that a user is authorized to perform an action. This makes it possible for authenticated attackers\nwith Subscriber-level access and above\nto retrieve sensitive information including user IDs\ndisplay names\nand email addresses of all users on the site via the get_bank_accounts AJAX action. Passwords are not exposed. | CVSS Score 4.3 (MEDIUM)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-12361-fuite-du-2025-12-19",
+      "path": "CVE-2025-12361",
+      "formattedDate": "2025-12-19",
+      "title": "cve-2025-12361 fuite du 2025-12-19",
+      "date": "2025-12-19T00:00:00.000Z",
+      "lien": "CVE-2025-12361",
+      "categories": [
+        "cve-2025-12361"
+      ],
+      "index": 1707
+    },
+    {
+      "Name": "cve-2025-14455 fuite du 2025-12-19",
+      "Title": "cve-2025-14455 fuite du 2025-12-19",
+      "Domain": null,
+      "BreachDate": "2025-12-19T00:00:00.000Z",
+      "AddedDate": "2025-12-19T10:27:31.145Z",
+      "ModifiedDate": "2025-12-19T10:27:31.145Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[The Image Photo Gallery Final Tiles Grid plugin for WordPress is vulnerable to authorization bypass in all versions up to\nand including\n3.6.7. This is due to the plugin not properly verifying that a user is authorized to perform actions on gallery management functions. This makes it possible for authenticated attackers\nwith Contributor-level access and above\nto delete\nmodify\nor clone galleries created by any user\nincluding administrators. | CVSS Score 5.4 (MEDIUM)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14455-fuite-du-2025-12-19",
+      "path": "CVE-2025-14455",
+      "formattedDate": "2025-12-19",
+      "title": "cve-2025-14455 fuite du 2025-12-19",
+      "date": "2025-12-19T00:00:00.000Z",
+      "lien": "CVE-2025-14455",
+      "categories": [
+        "cve-2025-14455"
+      ],
+      "index": 1708
+    },
+    {
+      "Name": "cve-2025-66524 fuite du 2025-12-19",
+      "Title": "cve-2025-66524 fuite du 2025-12-19",
+      "Domain": null,
+      "BreachDate": "2025-12-19T00:00:00.000Z",
+      "AddedDate": "2025-12-19T10:27:34.194Z",
+      "ModifiedDate": "2025-12-19T10:27:34.194Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[Apache NiFi 1.20.0 through 2.6.0 include the GetAsanaObject Processor\nwhich requires integration with a configurable Distribute Map Cache Client Service for storing and retrieving state information. The GetAsanaObject Processor used generic Java Object serialization and deserialization without filtering. Unfiltered Java object deserialization does not provide protection against crafted state information stored in the cache server configured for GetAsanaObject. Exploitation requires an Apache NiFi system running with the GetAsanaObject Processor\nand direct access to the configured cache server. Upgrading to Apache NiFi 2.7.0 is the recommended mitigation\nwhich replaces Java Object serialization with JSON serialization. Removing the GetAsanaObject Processor located in the nifi-asana-processors-nar bundle also prevents exploitation. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-66524-fuite-du-2025-12-19",
+      "path": "CVE-2025-66524",
+      "formattedDate": "2025-12-19",
+      "title": "cve-2025-66524 fuite du 2025-12-19",
+      "date": "2025-12-19T00:00:00.000Z",
+      "lien": "CVE-2025-66524",
+      "categories": [
+        "cve-2025-66524"
+      ],
+      "index": 1709
     }
   ]
 }
