@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-19T08:33:49.179Z",
-  "totalBreaches": 1705,
+  "lastUpdated": "2025-12-19T09:34:02.208Z",
+  "totalBreaches": 1707,
   "breaches": [
     {
       "Name": "gPotato",
@@ -60672,6 +60672,70 @@
         "cve-2025-66522"
       ],
       "index": 1704
+    },
+    {
+      "Name": "cve-2025-11747 fuite du 2025-12-19",
+      "Title": "cve-2025-11747 fuite du 2025-12-19",
+      "Domain": null,
+      "BreachDate": "2025-12-19T00:00:00.000Z",
+      "AddedDate": "2025-12-19T09:34:02.002Z",
+      "ModifiedDate": "2025-12-19T09:34:02.002Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[The Colibri Page Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the colibri_blog_posts shortcode in all versions up to\nand including\n1.0.345 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers\nwith contributor-level access and above\nto inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. | CVSS Score 6.4 (MEDIUM)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-11747-fuite-du-2025-12-19",
+      "path": "CVE-2025-11747",
+      "formattedDate": "2025-12-19",
+      "title": "cve-2025-11747 fuite du 2025-12-19",
+      "date": "2025-12-19T00:00:00.000Z",
+      "lien": "CVE-2025-11747",
+      "categories": [
+        "cve-2025-11747"
+      ],
+      "index": 1705
+    },
+    {
+      "Name": "cve-2025-14151 fuite du 2025-12-19",
+      "Title": "cve-2025-14151 fuite du 2025-12-19",
+      "Domain": null,
+      "BreachDate": "2025-12-19T00:00:00.000Z",
+      "AddedDate": "2025-12-19T09:34:02.206Z",
+      "ModifiedDate": "2025-12-19T09:34:02.206Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[The SlimStat Analytics plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'outbound_resource' parameter in the slimtrack AJAX action in all versions up to\nand including\n5.3.2. This is due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. | CVSS Score 6.1 (MEDIUM)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14151-fuite-du-2025-12-19",
+      "path": "CVE-2025-14151",
+      "formattedDate": "2025-12-19",
+      "title": "cve-2025-14151 fuite du 2025-12-19",
+      "date": "2025-12-19T00:00:00.000Z",
+      "lien": "CVE-2025-14151",
+      "categories": [
+        "cve-2025-14151"
+      ],
+      "index": 1706
     }
   ]
 }
