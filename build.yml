@@ -7336,6 +7336,8 @@ category_map:
   - cve-2025-66521
   - cve-2025-66522
   - 2915737_severe
+  - '2145615'
+  - 2915811_spotify
 tag_map: null
 meta_generator: true
 search:
