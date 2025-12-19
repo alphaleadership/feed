@@ -54,6 +54,14 @@
 <!-- title -->
 <div class="page-header <% if (theme.inverse){ %>page-header-inverse<% } %>">
   <h1 class="archive-title title <% if (theme.inverse){ %>title-inverse<% } %>"><%= title %></h1>
+  <% if (filteredPosts && filteredPosts.length) { %>
+    <div class="archive-year-nav">
+      <% Object.keys(archiveData.years).sort((a, b) => b - a).forEach(function(year) { %>
+        <% var yearCount = Object.keys(archiveData.years[year]).reduce(function(total, monthKey) { return total + archiveData.years[year][monthKey].length; }, 0); %>
+        <a href="#year_heading_<%= year %>"><%= year %> (<%= yearCount %>)</a>
+      <% }); %>
+    </div>
+  <% } %>
 </div>
 
 <% if (!filteredPosts || filteredPosts.length === 0) { %>
@@ -66,7 +74,7 @@
       <div class="archive">
         <% Object.keys(archiveData.years).sort((a, b) => b - a).forEach(function(year) { %>
           <% var yearCount = Object.keys(archiveData.years[year]).reduce(function(total, monthKey) { return total + archiveData.years[year][monthKey].length; }, 0); %>
-          <h4 class="archive-ul" data-toggle="collapse" data-target="#year_<%= year %>"><%= year %> (<%= yearCount %>) <b class="caret"></b></h4>
+          <h4 id="year_heading_<%= year %>" class="archive-ul" data-toggle="collapse" data-target="#year_<%= year %>"><%= year %> (<%= yearCount %>) <b class="caret"></b></h4>
           <div id="year_<%= year %>" class="collapse in">
             <% Object.keys(archiveData.years[year]).sort((a, b) => b - a).forEach(function(month) { %>
               <% var monthCount = archiveData.years[year][month].length; %>
