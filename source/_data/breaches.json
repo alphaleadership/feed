@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-20T20:24:00.170Z",
-  "totalBreaches": 1811,
+  "lastUpdated": "2025-12-20T23:21:07.127Z",
+  "totalBreaches": 1813,
   "breaches": [
     {
       "Name": "gPotato",
@@ -64691,6 +64691,70 @@
         "cve-2025-34290"
       ],
       "index": 1810
+    },
+    {
+      "Name": "cve-2025-12700 fuite du 2025-12-20",
+      "Title": "cve-2025-12700 fuite du 2025-12-20",
+      "Domain": null,
+      "BreachDate": "2025-12-20T00:00:00.000Z",
+      "AddedDate": "2025-12-20T23:21:06.780Z",
+      "ModifiedDate": "2025-12-20T23:21:06.780Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[Rejected reason This CVE ID has been rejected or withdrawn by its CVE Numbering Authority. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-12700-fuite-du-2025-12-20",
+      "path": "CVE-2025-12700",
+      "formattedDate": "2025-12-20",
+      "title": "cve-2025-12700 fuite du 2025-12-20",
+      "date": "2025-12-20T00:00:00.000Z",
+      "lien": "CVE-2025-12700",
+      "categories": [
+        "cve-2025-12700"
+      ],
+      "index": 1811
+    },
+    {
+      "Name": "cve-2025-14597 fuite du 2025-12-20",
+      "Title": "cve-2025-14597 fuite du 2025-12-20",
+      "Domain": null,
+      "BreachDate": "2025-12-20T00:00:00.000Z",
+      "AddedDate": "2025-12-20T23:21:07.126Z",
+      "ModifiedDate": "2025-12-20T23:21:07.126Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[Rejected reason This CVE ID has been rejected or withdrawn by its CVE Numbering Authority. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14597-fuite-du-2025-12-20",
+      "path": "CVE-2025-14597",
+      "formattedDate": "2025-12-20",
+      "title": "cve-2025-14597 fuite du 2025-12-20",
+      "date": "2025-12-20T00:00:00.000Z",
+      "lien": "CVE-2025-14597",
+      "categories": [
+        "cve-2025-14597"
+      ],
+      "index": 1812
     }
   ]
 }
