@@ -7544,6 +7544,9 @@ category_map:
   - '2138125'
   - 2916973_star
   - '2145625'
+  - cve-2025-7733
+  - cve-2025-7782
+  - 2916595_en
 tag_map: null
 meta_generator: true
 search:

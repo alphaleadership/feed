@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-20T11:05:24.045Z",
-  "totalBreaches": 1808,
+  "lastUpdated": "2025-12-20T14:20:56.691Z",
+  "totalBreaches": 1810,
   "breaches": [
     {
       "Name": "gPotato",
@@ -64595,6 +64595,70 @@
         "cve-2025-8065"
       ],
       "index": 1807
+    },
+    {
+      "Name": "cve-2025-7733 fuite du 2025-12-20",
+      "Title": "cve-2025-7733 fuite du 2025-12-20",
+      "Domain": null,
+      "BreachDate": "2025-12-20T00:00:00.000Z",
+      "AddedDate": "2025-12-20T14:20:56.640Z",
+      "ModifiedDate": "2025-12-20T14:20:56.640Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[The WP JobHunt plugin for WordPress\nused by the JobCareer theme\nis vulnerable to Insecure Direct Object Reference in all versions up to\nand including\n7.7 via the 'cs_update_application_status_callback' due to missing validation on a user controlled key. This makes it possible for authenticated attackers\nwith Candidate-level access and above\nto send a site-generated email with injected HTML to any user. | CVSS Score 4.3 (MEDIUM)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-7733-fuite-du-2025-12-20",
+      "path": "CVE-2025-7733",
+      "formattedDate": "2025-12-20",
+      "title": "cve-2025-7733 fuite du 2025-12-20",
+      "date": "2025-12-20T00:00:00.000Z",
+      "lien": "CVE-2025-7733",
+      "categories": [
+        "cve-2025-7733"
+      ],
+      "index": 1808
+    },
+    {
+      "Name": "cve-2025-7782 fuite du 2025-12-20",
+      "Title": "cve-2025-7782 fuite du 2025-12-20",
+      "Domain": null,
+      "BreachDate": "2025-12-20T00:00:00.000Z",
+      "AddedDate": "2025-12-20T14:20:56.690Z",
+      "ModifiedDate": "2025-12-20T14:20:56.690Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[The WP JobHunt plugin for WordPress\nused by the JobCareer theme\nis vulnerable to unauthorized modification of data due to a missing capability check on the 'cs_update_application_status_callback' function in all versions up to\nand including\n7.7. This makes it possible for authenticated attackers\nwith Candidate-level access and above\nto inject cross-site scripting into the 'status' parameter of applied jobs for any user. | CVSS Score 7.6 (HIGH)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-7782-fuite-du-2025-12-20",
+      "path": "CVE-2025-7782",
+      "formattedDate": "2025-12-20",
+      "title": "cve-2025-7782 fuite du 2025-12-20",
+      "date": "2025-12-20T00:00:00.000Z",
+      "lien": "CVE-2025-7782",
+      "categories": [
+        "cve-2025-7782"
+      ],
+      "index": 1809
     }
   ]
 }
