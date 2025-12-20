@@ -2,7 +2,7 @@
 Thumbs.db
 *.log
 node_modules/
-
+temp/
 .deploy*/
 _multiconfig.yml
 .clinerules/byterover-rules.md
