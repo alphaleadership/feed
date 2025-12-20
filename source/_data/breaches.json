@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-20T14:20:56.691Z",
-  "totalBreaches": 1810,
+  "lastUpdated": "2025-12-20T20:24:00.170Z",
+  "totalBreaches": 1811,
   "breaches": [
     {
       "Name": "gPotato",
@@ -64659,6 +64659,38 @@
         "cve-2025-7782"
       ],
       "index": 1809
+    },
+    {
+      "Name": "cve-2025-34290 fuite du 2025-12-20",
+      "Title": "cve-2025-34290 fuite du 2025-12-20",
+      "Domain": null,
+      "BreachDate": "2025-12-20T00:00:00.000Z",
+      "AddedDate": "2025-12-20T20:24:00.168Z",
+      "ModifiedDate": "2025-12-20T20:24:00.168Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[Versa SASE Client for Windows versions released between 7.8.7 and 7.9.4 contain a local privilege escalation vulnerability in the audit log export functionality. The client communicates user-controlled file paths to a privileged service\nwhich performs file system operations without impersonating the requesting user. Due to improper privilege handling and a time-of-check time-of-use race condition combined with symbolic link and mount point manipulation\na local authenticated attacker can coerce the service into deleting arbitrary directories with SYSTEM privileges. This can be exploited to delete protected system folders such as C\\\\Config.msi and subsequently achieve execution as NT AUTHORITY\\\\SYSTEM via MSI rollback techniques. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-34290-fuite-du-2025-12-20",
+      "path": "CVE-2025-34290",
+      "formattedDate": "2025-12-20",
+      "title": "cve-2025-34290 fuite du 2025-12-20",
+      "date": "2025-12-20T00:00:00.000Z",
+      "lien": "CVE-2025-34290",
+      "categories": [
+        "cve-2025-34290"
+      ],
+      "index": 1810
     }
   ]
 }
