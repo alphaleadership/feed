@@ -7567,6 +7567,11 @@ category_map:
   - cve-2025-34290
   - cve-2025-12700
   - cve-2025-14597
+  - cve-2023-25445
+  - cve-2023-25446
+  - cve-2023-47232
+  - cve-2023-25068
+  - cve-2025-14989
 tag_map: null
 meta_generator: true
 search:
