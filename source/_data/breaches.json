@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-21T08:30:13.685Z",
-  "totalBreaches": 1420,
+  "lastUpdated": "2025-12-21T09:23:55.776Z",
+  "totalBreaches": 1421,
   "breaches": [
     {
       "Name": "gPotato",
@@ -51557,6 +51557,38 @@
         "cve-2025-14994"
       ],
       "index": 1419
+    },
+    {
+      "Name": "cve-2025-14995 fuite du 2025-12-21",
+      "Title": "cve-2025-14995 fuite du 2025-12-21",
+      "Domain": null,
+      "BreachDate": "2025-12-21T00:00:00.000Z",
+      "AddedDate": "2025-12-21T09:23:55.775Z",
+      "ModifiedDate": "2025-12-21T09:23:55.775Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[A vulnerability has been found in Tenda FH1201 1.2.0.14(408). Affected is the function sprintf of the file /goform/SetIpBind. Such manipulation of the argument page leads to stack-based buffer overflow. The attack may be performed from remote. The exploit has been disclosed to the public and may be used. | CVSS Score 8.8 (HIGH)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14995-fuite-du-2025-12-21",
+      "path": "CVE-2025-14995",
+      "formattedDate": "2025-12-21",
+      "title": "cve-2025-14995 fuite du 2025-12-21",
+      "date": "2025-12-21T00:00:00.000Z",
+      "lien": "CVE-2025-14995",
+      "categories": [
+        "cve-2025-14995"
+      ],
+      "index": 1420
     }
   ]
 }
