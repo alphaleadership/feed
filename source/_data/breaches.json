@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-21T08:25:14.517Z",
-  "totalBreaches": 1417,
+  "lastUpdated": "2025-12-21T08:30:13.685Z",
+  "totalBreaches": 1420,
   "breaches": [
     {
       "Name": "gPotato",
@@ -51461,6 +51461,102 @@
         "cve-2025-9343"
       ],
       "index": 1416
+    },
+    {
+      "Name": "cve-2025-14800 fuite du 2025-12-21",
+      "Title": "cve-2025-14800 fuite du 2025-12-21",
+      "Domain": null,
+      "BreachDate": "2025-12-21T00:00:00.000Z",
+      "AddedDate": "2025-12-21T08:30:13.008Z",
+      "ModifiedDate": "2025-12-21T08:30:13.008Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[The Redirection for Contact Form 7 plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'move_file_to_upload' function in all versions up to\nand including\n3.2.7. This makes it possible for unauthenticated attackers to copy arbitrary files on the affected site's server. If 'allow_url_fopen' is set to 'On'\nit is possible to upload a remote file to the server. | CVSS Score 8.1 (HIGH)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14800-fuite-du-2025-12-21",
+      "path": "CVE-2025-14800",
+      "formattedDate": "2025-12-21",
+      "title": "cve-2025-14800 fuite du 2025-12-21",
+      "date": "2025-12-21T00:00:00.000Z",
+      "lien": "CVE-2025-14800",
+      "categories": [
+        "cve-2025-14800"
+      ],
+      "index": 1417
+    },
+    {
+      "Name": "cve-2025-14855 fuite du 2025-12-21",
+      "Title": "cve-2025-14855 fuite du 2025-12-21",
+      "Domain": null,
+      "BreachDate": "2025-12-21T00:00:00.000Z",
+      "AddedDate": "2025-12-21T08:30:13.144Z",
+      "ModifiedDate": "2025-12-21T08:30:13.144Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[The SureForms plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the form field parameters in all versions up to\nand including\n2.2.0 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. | CVSS Score 7.2 (HIGH)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14855-fuite-du-2025-12-21",
+      "path": "CVE-2025-14855",
+      "formattedDate": "2025-12-21",
+      "title": "cve-2025-14855 fuite du 2025-12-21",
+      "date": "2025-12-21T00:00:00.000Z",
+      "lien": "CVE-2025-14855",
+      "categories": [
+        "cve-2025-14855"
+      ],
+      "index": 1418
+    },
+    {
+      "Name": "cve-2025-14994 fuite du 2025-12-21",
+      "Title": "cve-2025-14994 fuite du 2025-12-21",
+      "Domain": null,
+      "BreachDate": "2025-12-21T00:00:00.000Z",
+      "AddedDate": "2025-12-21T08:30:13.684Z",
+      "ModifiedDate": "2025-12-21T08:30:13.684Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[A flaw has been found in Tenda FH1201 and FH1206 1.2.0.14(408)/1.2.0.8(8155). This impacts the function strcat of the file /goform/webtypelibrary of the component HTTP Request Handler. This manipulation of the argument webSiteId causes stack-based buffer overflow. The attack is possible to be carried out remotely. The exploit has been published and may be used. | CVSS Score 8.8 (HIGH)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14994-fuite-du-2025-12-21",
+      "path": "CVE-2025-14994",
+      "formattedDate": "2025-12-21",
+      "title": "cve-2025-14994 fuite du 2025-12-21",
+      "date": "2025-12-21T00:00:00.000Z",
+      "lien": "CVE-2025-14994",
+      "categories": [
+        "cve-2025-14994"
+      ],
+      "index": 1419
     }
   ]
 }
