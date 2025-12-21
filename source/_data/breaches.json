@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-21T22:22:26.996Z",
-  "totalBreaches": 1424,
+  "lastUpdated": "2025-12-21T23:21:42.523Z",
+  "totalBreaches": 1425,
   "breaches": [
     {
       "Name": "gPotato",
@@ -51685,6 +51685,38 @@
         "cve-2025-62926"
       ],
       "index": 1423
+    },
+    {
+      "Name": "cve-2025-15002 fuite du 2025-12-21",
+      "Title": "cve-2025-15002 fuite du 2025-12-21",
+      "Domain": null,
+      "BreachDate": "2025-12-21T00:00:00.000Z",
+      "AddedDate": "2025-12-21T23:21:42.521Z",
+      "ModifiedDate": "2025-12-21T23:21:42.521Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[A vulnerability has been found in SeaCMS up to 13.3. The affected element is an unknown function of the file js/player/dmplayer/dmku/class/mysqli.class.php. Such manipulation of the argument page/limit leads to sql injection. The attack can be executed remotely. The exploit has been disclosed to the public and may be used. | CVSS Score 7.3 (HIGH)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-15002-fuite-du-2025-12-21",
+      "path": "CVE-2025-15002",
+      "formattedDate": "2025-12-21",
+      "title": "cve-2025-15002 fuite du 2025-12-21",
+      "date": "2025-12-21T00:00:00.000Z",
+      "lien": "CVE-2025-15002",
+      "categories": [
+        "cve-2025-15002"
+      ],
+      "index": 1424
     }
   ]
 }
