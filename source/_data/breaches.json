@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-22T06:39:23.767Z",
-  "totalBreaches": 1447,
+  "lastUpdated": "2025-12-22T08:35:01.478Z",
+  "totalBreaches": 1449,
   "breaches": [
     {
       "Name": "gPotato",
@@ -52421,6 +52421,70 @@
         "cve-2025-11545"
       ],
       "index": 1446
+    },
+    {
+      "Name": "cve-2025-8304 fuite du 2025-12-22",
+      "Title": "cve-2025-8304 fuite du 2025-12-22",
+      "Domain": null,
+      "BreachDate": "2025-12-22T00:00:00.000Z",
+      "AddedDate": "2025-12-22T08:35:01.429Z",
+      "ModifiedDate": "2025-12-22T08:35:01.429Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[An authenticated local user can obtain information that allows claiming security policy rules of another user due to sensitive information being accessible in the Windows Registry keys for Check Point Identity Agent running on a Terminal Server. | CVSS Score 6.5 (MEDIUM)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-8304-fuite-du-2025-12-22",
+      "path": "CVE-2025-8304",
+      "formattedDate": "2025-12-22",
+      "title": "cve-2025-8304 fuite du 2025-12-22",
+      "date": "2025-12-22T00:00:00.000Z",
+      "lien": "CVE-2025-8304",
+      "categories": [
+        "cve-2025-8304"
+      ],
+      "index": 1447
+    },
+    {
+      "Name": "cve-2025-8305 fuite du 2025-12-22",
+      "Title": "cve-2025-8305 fuite du 2025-12-22",
+      "Domain": null,
+      "BreachDate": "2025-12-22T00:00:00.000Z",
+      "AddedDate": "2025-12-22T08:35:01.477Z",
+      "ModifiedDate": "2025-12-22T08:35:01.477Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[An authenticated local user can obtain information that allows claiming security policy rules of another user due to sensitive information being printed in plaintext in Identity Agent for Terminal Services debug files. | CVSS Score 6.5 (MEDIUM)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-8305-fuite-du-2025-12-22",
+      "path": "CVE-2025-8305",
+      "formattedDate": "2025-12-22",
+      "title": "cve-2025-8305 fuite du 2025-12-22",
+      "date": "2025-12-22T00:00:00.000Z",
+      "lien": "CVE-2025-8305",
+      "categories": [
+        "cve-2025-8305"
+      ],
+      "index": 1448
     }
   ]
 }
