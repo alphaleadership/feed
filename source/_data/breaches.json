@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-22T19:25:13.464Z",
-  "totalBreaches": 1489,
+  "lastUpdated": "2025-12-22T19:39:57.343Z",
+  "totalBreaches": 1490,
   "breaches": [
     {
       "Name": "gPotato",
@@ -53765,6 +53765,38 @@
         "cve-2025-67288"
       ],
       "index": 1488
+    },
+    {
+      "Name": "123 casting fuite du 2025-12-22",
+      "Title": "123 casting fuite du 2025-12-22",
+      "Domain": null,
+      "BreachDate": "2025-12-22T00:00:00.000Z",
+      "AddedDate": "2025-12-22T19:39:57.342Z",
+      "ModifiedDate": "2025-12-22T19:39:57.342Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[[nom\nprénom\nmot de passe haché en MD5 (en clair donc…)\ndate de naissance\ngenre\nadresse postale\nadresse mail\nnuméro de téléphone\ntaille\npoids\ncouleurs des yeux et des cheuveux\nmensurations\norigine ethnique\nsignes distinctifs\nbook photos  vidéos\nhistorique des messages privés\ndonnées de paiement\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "123-casting-fuite-du-2025-12-22",
+      "path": "https://xcancel.com/Ced_haurus/status/2002765103217746135",
+      "formattedDate": "2025-12-22",
+      "title": "123 casting fuite du 2025-12-22",
+      "date": "2025-12-22T00:00:00.000Z",
+      "lien": "https://xcancel.com/Ced_haurus/status/2002765103217746135",
+      "categories": [
+        "123 casting"
+      ],
+      "index": 1489
     }
   ]
 }
