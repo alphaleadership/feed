@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-22T17:21:41.905Z",
-  "totalBreaches": 1478,
+  "lastUpdated": "2025-12-22T18:35:19.743Z",
+  "totalBreaches": 1481,
   "breaches": [
     {
       "Name": "gPotato",
@@ -53413,6 +53413,102 @@
         "cve-2025-68337"
       ],
       "index": 1477
+    },
+    {
+      "Name": "cve-2025-65270 fuite du 2025-12-22",
+      "Title": "cve-2025-65270 fuite du 2025-12-22",
+      "Domain": null,
+      "BreachDate": "2025-12-22T00:00:00.000Z",
+      "AddedDate": "2025-12-22T18:35:19.290Z",
+      "ModifiedDate": "2025-12-22T18:35:19.290Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[Reflected cross-site scripting (XSS) vulnerability in ClinCapture EDC 3.0 and 2.2.3\nallowing an unauthenticated remote attacker to execute JavaScript code in the context of the victim's browser. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-65270-fuite-du-2025-12-22",
+      "path": "CVE-2025-65270",
+      "formattedDate": "2025-12-22",
+      "title": "cve-2025-65270 fuite du 2025-12-22",
+      "date": "2025-12-22T00:00:00.000Z",
+      "lien": "CVE-2025-65270",
+      "categories": [
+        "cve-2025-65270"
+      ],
+      "index": 1478
+    },
+    {
+      "Name": "cve-2025-67289 fuite du 2025-12-22",
+      "Title": "cve-2025-67289 fuite du 2025-12-22",
+      "Domain": null,
+      "BreachDate": "2025-12-22T00:00:00.000Z",
+      "AddedDate": "2025-12-22T18:35:19.469Z",
+      "ModifiedDate": "2025-12-22T18:35:19.469Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[An arbitrary file upload vulnerability in the Attachments module of Frappe Framework v15.89.0 allows attackers to execute arbitrary code via uploading a crafted XML file. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-67289-fuite-du-2025-12-22",
+      "path": "CVE-2025-67289",
+      "formattedDate": "2025-12-22",
+      "title": "cve-2025-67289 fuite du 2025-12-22",
+      "date": "2025-12-22T00:00:00.000Z",
+      "lien": "CVE-2025-67289",
+      "categories": [
+        "cve-2025-67289"
+      ],
+      "index": 1479
+    },
+    {
+      "Name": "cve-2025-68645 fuite du 2025-12-22",
+      "Title": "cve-2025-68645 fuite du 2025-12-22",
+      "Domain": null,
+      "BreachDate": "2025-12-22T00:00:00.000Z",
+      "AddedDate": "2025-12-22T18:35:19.742Z",
+      "ModifiedDate": "2025-12-22T18:35:19.742Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[A Local File Inclusion (LFI) vulnerability exists in the Webmail Classic UI of Zimbra Collaboration (ZCS) 10.0 and 10.1 because of improper handling of user-supplied request parameters in the RestFilter servlet. An unauthenticated remote attacker can craft requests to the /h/rest endpoint to influence internal request dispatching\nallowing inclusion of arbitrary files from the WebRoot directory. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-68645-fuite-du-2025-12-22",
+      "path": "CVE-2025-68645",
+      "formattedDate": "2025-12-22",
+      "title": "cve-2025-68645 fuite du 2025-12-22",
+      "date": "2025-12-22T00:00:00.000Z",
+      "lien": "CVE-2025-68645",
+      "categories": [
+        "cve-2025-68645"
+      ],
+      "index": 1480
     }
   ]
 }
