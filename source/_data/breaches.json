@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-22T15:26:12.809Z",
-  "totalBreaches": 1464,
+  "lastUpdated": "2025-12-22T16:30:22.954Z",
+  "totalBreaches": 1465,
   "breaches": [
     {
       "Name": "gPotato",
@@ -52965,6 +52965,38 @@
         "cve-2025-67826"
       ],
       "index": 1463
+    },
+    {
+      "Name": "cve-2025-10021 fuite du 2025-12-22",
+      "Title": "cve-2025-10021 fuite du 2025-12-22",
+      "Domain": null,
+      "BreachDate": "2025-12-22T00:00:00.000Z",
+      "AddedDate": "2025-12-22T16:30:22.953Z",
+      "ModifiedDate": "2025-12-22T16:30:22.953Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[A Use of Uninitialized Variable vulnerability exists in Open Design Alliance Drawings SDK static versions (mt) before 2026.12. Static object `COdaMfcAppApp theApp` may access `OdStringkEmpty` before its initialization. Due to undefined initialization order of static objects across translation units (Static Initialization Order Fiasco)\nthe application accesses uninitialized memory. This results in application crash on startup\ncausing denial of service. Due to undefined behavior\nmemory corruption and potential arbitrary code execution cannot be ruled out in specific exploitation scenarios. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-10021-fuite-du-2025-12-22",
+      "path": "CVE-2025-10021",
+      "formattedDate": "2025-12-22",
+      "title": "cve-2025-10021 fuite du 2025-12-22",
+      "date": "2025-12-22T00:00:00.000Z",
+      "lien": "CVE-2025-10021",
+      "categories": [
+        "cve-2025-10021"
+      ],
+      "index": 1464
     }
   ]
 }
