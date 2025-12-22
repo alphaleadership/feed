@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-22T14:27:41.613Z",
-  "totalBreaches": 1459,
+  "lastUpdated": "2025-12-22T14:47:52.065Z",
+  "totalBreaches": 1461,
   "breaches": [
     {
       "Name": "gPotato",
@@ -52805,6 +52805,70 @@
         "cve-2025-14018"
       ],
       "index": 1458
+    },
+    {
+      "Name": "altitude infra fuite du 2025-12-22",
+      "Title": "altitude infra fuite du 2025-12-22",
+      "Domain": null,
+      "BreachDate": "2025-12-22T00:00:00.000Z",
+      "AddedDate": "2025-12-22T14:47:50.155Z",
+      "ModifiedDate": "2025-12-22T14:47:50.155Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[[infrastructures réseau\nfichier partenaires\ndonnées opérationnelles\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "altitude-infra-fuite-du-2025-12-22",
+      "path": "https://botcrawl.com/altitude-infra-data-breach-exposes-5-76-gb-of-french-fiber-infrastructure-files/",
+      "formattedDate": "2025-12-22",
+      "title": "altitude infra fuite du 2025-12-22",
+      "date": "2025-12-22T00:00:00.000Z",
+      "lien": "https://botcrawl.com/altitude-infra-data-breach-exposes-5-76-gb-of-french-fiber-infrastructure-files/",
+      "categories": [
+        "altitude infra"
+      ],
+      "index": 1459
+    },
+    {
+      "Name": "justice.fr fuite du 2025-12-22",
+      "Title": "justice.fr fuite du 2025-12-22",
+      "Domain": null,
+      "BreachDate": "2025-12-22T00:00:00.000Z",
+      "AddedDate": "2025-12-22T14:47:52.064Z",
+      "ModifiedDate": "2025-12-22T14:47:52.064Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[[nom\nprénom\nfonction judiciaire\nadresse personnelle\nnuméro de téléphone personnel\ninformations professionnelles\nIBAN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "justice-fr-fuite-du-2025-12-22",
+      "path": "https://xcancel.com/seblatombe/status/2003030362046304642/",
+      "formattedDate": "2025-12-22",
+      "title": "justice.fr fuite du 2025-12-22",
+      "date": "2025-12-22T00:00:00.000Z",
+      "lien": "https://xcancel.com/seblatombe/status/2003030362046304642/",
+      "categories": [
+        "justice.fr"
+      ],
+      "index": 1460
     }
   ]
 }
