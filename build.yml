@@ -7646,6 +7646,9 @@ category_map:
   - cve-2025-62901
   - cve-2025-62926
   - cve-2025-15002
+  - cve-2025-15004
+  - cve-2025-15005
+  - cve-2025-15003
 tag_map: null
 meta_generator: true
 search:

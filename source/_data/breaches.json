@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-21T23:21:42.523Z",
-  "totalBreaches": 1425,
+  "lastUpdated": "2025-12-22T01:59:39.799Z",
+  "totalBreaches": 1428,
   "breaches": [
     {
       "Name": "gPotato",
@@ -51717,6 +51717,102 @@
         "cve-2025-15002"
       ],
       "index": 1424
+    },
+    {
+      "Name": "cve-2025-15003 fuite du 2025-12-22",
+      "Title": "cve-2025-15003 fuite du 2025-12-22",
+      "Domain": null,
+      "BreachDate": "2025-12-22T00:00:00.000Z",
+      "AddedDate": "2025-12-22T01:59:39.707Z",
+      "ModifiedDate": "2025-12-22T01:59:39.707Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[A vulnerability was found in SeaCMS up to 13.3. The impacted element is an unknown function of the file admin_video.php. Performing manipulation of the argument e_id results in sql injection. The attack is possible to be carried out remotely. The exploit has been made public and could be used. | CVSS Score 4.7 (MEDIUM)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-15003-fuite-du-2025-12-22",
+      "path": "CVE-2025-15003",
+      "formattedDate": "2025-12-22",
+      "title": "cve-2025-15003 fuite du 2025-12-22",
+      "date": "2025-12-22T00:00:00.000Z",
+      "lien": "CVE-2025-15003",
+      "categories": [
+        "cve-2025-15003"
+      ],
+      "index": 1425
+    },
+    {
+      "Name": "cve-2025-15004 fuite du 2025-12-22",
+      "Title": "cve-2025-15004 fuite du 2025-12-22",
+      "Domain": null,
+      "BreachDate": "2025-12-22T00:00:00.000Z",
+      "AddedDate": "2025-12-22T01:59:39.753Z",
+      "ModifiedDate": "2025-12-22T01:59:39.753Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[A vulnerability was identified in DedeCMS up to 5.7.118. This impacts an unknown function of the file /freelist_main.php. The manipulation of the argument orderby leads to sql injection. It is possible to initiate the attack remotely. The exploit is publicly available and might be used. | CVSS Score 6.3 (MEDIUM)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-15004-fuite-du-2025-12-22",
+      "path": "CVE-2025-15004",
+      "formattedDate": "2025-12-22",
+      "title": "cve-2025-15004 fuite du 2025-12-22",
+      "date": "2025-12-22T00:00:00.000Z",
+      "lien": "CVE-2025-15004",
+      "categories": [
+        "cve-2025-15004"
+      ],
+      "index": 1426
+    },
+    {
+      "Name": "cve-2025-15005 fuite du 2025-12-22",
+      "Title": "cve-2025-15005 fuite du 2025-12-22",
+      "Domain": null,
+      "BreachDate": "2025-12-22T00:00:00.000Z",
+      "AddedDate": "2025-12-22T01:59:39.798Z",
+      "ModifiedDate": "2025-12-22T01:59:39.798Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[A security flaw has been discovered in CouchCMS up to 2.4. Affected is an unknown function of the file couch/config.example.php of the component reCAPTCHA Handler. The manipulation of the argument K_RECAPTCHA_SITE_KEY/K_RECAPTCHA_SECRET_KEY results in use of hard-coded cryptographic key\r . It is possible to launch the attack remotely. This attack is characterized by high complexity. The exploitability is told to be difficult. The exploit has been released to the public and may be exploited. | CVSS Score 3.7 (LOW)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-15005-fuite-du-2025-12-22",
+      "path": "CVE-2025-15005",
+      "formattedDate": "2025-12-22",
+      "title": "cve-2025-15005 fuite du 2025-12-22",
+      "date": "2025-12-22T00:00:00.000Z",
+      "lien": "CVE-2025-15005",
+      "categories": [
+        "cve-2025-15005"
+      ],
+      "index": 1427
     }
   ]
 }
