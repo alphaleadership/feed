@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-22T05:41:11.963Z",
-  "totalBreaches": 1445,
+  "lastUpdated": "2025-12-22T06:39:23.767Z",
+  "totalBreaches": 1447,
   "breaches": [
     {
       "Name": "gPotato",
@@ -52357,6 +52357,70 @@
         "cve-2025-15014"
       ],
       "index": 1444
+    },
+    {
+      "Name": "cve-2025-11544 fuite du 2025-12-22",
+      "Title": "cve-2025-11544 fuite du 2025-12-22",
+      "Domain": null,
+      "BreachDate": "2025-12-22T00:00:00.000Z",
+      "AddedDate": "2025-12-22T06:39:23.720Z",
+      "ModifiedDate": "2025-12-22T06:39:23.720Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[Improper Validation of Integrity Check Value vulnerability in Sharp Display Solutions projectors allows a attacker may create and run unauthorized firmware. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-11544-fuite-du-2025-12-22",
+      "path": "CVE-2025-11544",
+      "formattedDate": "2025-12-22",
+      "title": "cve-2025-11544 fuite du 2025-12-22",
+      "date": "2025-12-22T00:00:00.000Z",
+      "lien": "CVE-2025-11544",
+      "categories": [
+        "cve-2025-11544"
+      ],
+      "index": 1445
+    },
+    {
+      "Name": "cve-2025-11545 fuite du 2025-12-22",
+      "Title": "cve-2025-11545 fuite du 2025-12-22",
+      "Domain": null,
+      "BreachDate": "2025-12-22T00:00:00.000Z",
+      "AddedDate": "2025-12-22T06:39:23.766Z",
+      "ModifiedDate": "2025-12-22T06:39:23.766Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[Exposure of Sensitive System Information to an Unauthorized Control Sphere vulnerability in Sharp Display Solutions projectors allows a attacker may improperly access the HTTP server and execute arbitrary actions. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-11545-fuite-du-2025-12-22",
+      "path": "CVE-2025-11545",
+      "formattedDate": "2025-12-22",
+      "title": "cve-2025-11545 fuite du 2025-12-22",
+      "date": "2025-12-22T00:00:00.000Z",
+      "lien": "CVE-2025-11545",
+      "categories": [
+        "cve-2025-11545"
+      ],
+      "index": 1446
     }
   ]
 }
