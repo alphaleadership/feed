@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-22T14:47:52.065Z",
-  "totalBreaches": 1461,
+  "lastUpdated": "2025-12-22T15:26:12.809Z",
+  "totalBreaches": 1464,
   "breaches": [
     {
       "Name": "gPotato",
@@ -52869,6 +52869,102 @@
         "justice.fr"
       ],
       "index": 1460
+    },
+    {
+      "Name": "cve-2025-26379 fuite du 2025-12-22",
+      "Title": "cve-2025-26379 fuite du 2025-12-22",
+      "Domain": null,
+      "BreachDate": "2025-12-22T00:00:00.000Z",
+      "AddedDate": "2025-12-22T15:26:12.171Z",
+      "ModifiedDate": "2025-12-22T15:26:12.171Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[Use of a weak pseudo-random number generator\nwhich may allow an attacker to read or inject encrypted PowerG packets. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-26379-fuite-du-2025-12-22",
+      "path": "CVE-2025-26379",
+      "formattedDate": "2025-12-22",
+      "title": "cve-2025-26379 fuite du 2025-12-22",
+      "date": "2025-12-22T00:00:00.000Z",
+      "lien": "CVE-2025-26379",
+      "categories": [
+        "cve-2025-26379"
+      ],
+      "index": 1461
+    },
+    {
+      "Name": "cve-2025-61740 fuite du 2025-12-22",
+      "Title": "cve-2025-61740 fuite du 2025-12-22",
+      "Domain": null,
+      "BreachDate": "2025-12-22T00:00:00.000Z",
+      "AddedDate": "2025-12-22T15:26:12.345Z",
+      "ModifiedDate": "2025-12-22T15:26:12.345Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[Authentication issue that does not verify the source of a packet which could allow an attacker to create a denial-of-service condition or modify the configuration of the device. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-61740-fuite-du-2025-12-22",
+      "path": "CVE-2025-61740",
+      "formattedDate": "2025-12-22",
+      "title": "cve-2025-61740 fuite du 2025-12-22",
+      "date": "2025-12-22T00:00:00.000Z",
+      "lien": "CVE-2025-61740",
+      "categories": [
+        "cve-2025-61740"
+      ],
+      "index": 1462
+    },
+    {
+      "Name": "cve-2025-67826 fuite du 2025-12-22",
+      "Title": "cve-2025-67826 fuite du 2025-12-22",
+      "Domain": null,
+      "BreachDate": "2025-12-22T00:00:00.000Z",
+      "AddedDate": "2025-12-22T15:26:12.808Z",
+      "ModifiedDate": "2025-12-22T15:26:12.808Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[An issue was discovered in K7 Ultimate Security 17.0.2045. A Local Privilege Escalation (LPE) vulnerability in the K7 Ultimate Security antivirus can be exploited by a local unprivileged user on default installations of the product. Insecure access to a named pipe allows unprivileged users to edit any registry key\nleading to a full compromise as SYSTEM. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-67826-fuite-du-2025-12-22",
+      "path": "CVE-2025-67826",
+      "formattedDate": "2025-12-22",
+      "title": "cve-2025-67826 fuite du 2025-12-22",
+      "date": "2025-12-22T00:00:00.000Z",
+      "lien": "CVE-2025-67826",
+      "categories": [
+        "cve-2025-67826"
+      ],
+      "index": 1463
     }
   ]
 }
