@@ -7721,6 +7721,16 @@ category_map:
   - '2147059'
   - 2918005_creez
   - 2917999_incident
+  - cve-2025-12514
+  - cve-2025-54890
+  - cve-2025-61738
+  - cve-2025-61739
+  - cve-2025-8460
+  - 2917833_renault
+  - 2897259_voici
+  - 2917873_la
+  - 2586223_amazon
+  - '442830'
 tag_map: null
 meta_generator: true
 search:
