@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-22T20:26:54.124Z",
-  "totalBreaches": 1497,
+  "lastUpdated": "2025-12-22T21:21:22.965Z",
+  "totalBreaches": 1500,
   "breaches": [
     {
       "Name": "gPotato",
@@ -54021,6 +54021,102 @@
         "cve-2025-67418"
       ],
       "index": 1496
+    },
+    {
+      "Name": "cve-2025-65817 fuite du 2025-12-22",
+      "Title": "cve-2025-65817 fuite du 2025-12-22",
+      "Domain": null,
+      "BreachDate": "2025-12-22T00:00:00.000Z",
+      "AddedDate": "2025-12-22T21:21:22.848Z",
+      "ModifiedDate": "2025-12-22T21:21:22.848Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[LSC Smart Connect Indoor IP Camera 1.4.13 contains a RCE vulnerability in start_app.sh. | CVSS Score 8.8 (HIGH)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-65817-fuite-du-2025-12-22",
+      "path": "CVE-2025-65817",
+      "formattedDate": "2025-12-22",
+      "title": "cve-2025-65817 fuite du 2025-12-22",
+      "date": "2025-12-22T00:00:00.000Z",
+      "lien": "CVE-2025-65817",
+      "categories": [
+        "cve-2025-65817"
+      ],
+      "index": 1497
+    },
+    {
+      "Name": "cve-2025-66735 fuite du 2025-12-22",
+      "Title": "cve-2025-66735 fuite du 2025-12-22",
+      "Domain": null,
+      "BreachDate": "2025-12-22T00:00:00.000Z",
+      "AddedDate": "2025-12-22T21:21:22.921Z",
+      "ModifiedDate": "2025-12-22T21:21:22.921Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[youlai-boot V2.21.1 is vulnerable to Incorrect Access Control. The getRoleForm function in SysRoleController.java does not perform permission checks\nwhich may allow non-root users to directly access root roles. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-66735-fuite-du-2025-12-22",
+      "path": "CVE-2025-66735",
+      "formattedDate": "2025-12-22",
+      "title": "cve-2025-66735 fuite du 2025-12-22",
+      "date": "2025-12-22T00:00:00.000Z",
+      "lien": "CVE-2025-66735",
+      "categories": [
+        "cve-2025-66735"
+      ],
+      "index": 1498
+    },
+    {
+      "Name": "cve-2025-66736 fuite du 2025-12-22",
+      "Title": "cve-2025-66736 fuite du 2025-12-22",
+      "Domain": null,
+      "BreachDate": "2025-12-22T00:00:00.000Z",
+      "AddedDate": "2025-12-22T21:21:22.965Z",
+      "ModifiedDate": "2025-12-22T21:21:22.965Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[youlai-boot V2.21.1 is vulnerable to Incorrect Access Control. The importUsers function in SysUserController.java does not perform a permission check on the current user's identity\nwhich may allow regular users to import user data into the database\nresulting in an authorization bypass vulnerability. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-66736-fuite-du-2025-12-22",
+      "path": "CVE-2025-66736",
+      "formattedDate": "2025-12-22",
+      "title": "cve-2025-66736 fuite du 2025-12-22",
+      "date": "2025-12-22T00:00:00.000Z",
+      "lien": "CVE-2025-66736",
+      "categories": [
+        "cve-2025-66736"
+      ],
+      "index": 1499
     }
   ]
 }
