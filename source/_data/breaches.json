@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-22T12:50:19.266Z",
-  "totalBreaches": 1458,
+  "lastUpdated": "2025-12-22T14:27:41.613Z",
+  "totalBreaches": 1459,
   "breaches": [
     {
       "Name": "gPotato",
@@ -52773,6 +52773,38 @@
         "cve-2025-14273"
       ],
       "index": 1457
+    },
+    {
+      "Name": "cve-2025-14018 fuite du 2025-12-22",
+      "Title": "cve-2025-14018 fuite du 2025-12-22",
+      "Domain": null,
+      "BreachDate": "2025-12-22T00:00:00.000Z",
+      "AddedDate": "2025-12-22T14:27:41.611Z",
+      "ModifiedDate": "2025-12-22T14:27:41.611Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[Unquoted Search Path or Element vulnerability in NetBT Consulting Services Inc. E-Fatura allows Leveraging/Manipulating Configuration File Search Paths\nRedirect Access to Libraries.This issue affects e-Fatura before 1.2.15. | CVSS Score 7.3 (HIGH)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-14018-fuite-du-2025-12-22",
+      "path": "CVE-2025-14018",
+      "formattedDate": "2025-12-22",
+      "title": "cve-2025-14018 fuite du 2025-12-22",
+      "date": "2025-12-22T00:00:00.000Z",
+      "lien": "CVE-2025-14018",
+      "categories": [
+        "cve-2025-14018"
+      ],
+      "index": 1458
     }
   ]
 }
