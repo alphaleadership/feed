@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-23T19:25:31.816Z",
-  "totalBreaches": 1601,
+  "lastUpdated": "2025-12-23T19:39:54.743Z",
+  "totalBreaches": 1602,
   "breaches": [
     {
       "Name": "gPotato",
@@ -57349,6 +57349,38 @@
         "cve-2025-25364"
       ],
       "index": 1600
+    },
+    {
+      "Name": "fédération française de natation fuite du 2025-12-23",
+      "Title": "fédération française de natation fuite du 2025-12-23",
+      "Domain": null,
+      "BreachDate": "2025-12-23T00:00:00.000Z",
+      "AddedDate": "2025-12-23T19:39:54.742Z",
+      "ModifiedDate": "2025-12-23T19:39:54.742Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[[nom\nprénom\nnuméro de licence\nadresse postale\nadresse email\nnuméro de téléphone\ninformations médicales\ncoordonnés des parents\nclub\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "f-d-ration-fran-aise-de-natation-fuite-du-2025-12-23",
+      "path": "https://bonjourlafuite.eu.org/img/ffnatation.jpg",
+      "formattedDate": "2025-12-23",
+      "title": "fédération française de natation fuite du 2025-12-23",
+      "date": "2025-12-23T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/ffnatation.jpg",
+      "categories": [
+        "fédération française de natation"
+      ],
+      "index": 1601
     }
   ]
 }
