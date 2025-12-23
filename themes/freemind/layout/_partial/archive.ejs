@@ -56,7 +56,7 @@
   <h1 class="archive-title title <% if (theme.inverse){ %>title-inverse<% } %>"><%= title %></h1>
   <% if (filteredPosts && filteredPosts.length) { %>
     <div class="archive-year-nav">
-      <% Object.keys(archiveData.years).sort((a, b) => b - a).forEach(function(year) { %>
+      <% Object.keys(archiveData.years).sort((a, b) => a - b).forEach(function(year) { %>
         <% var yearCount = Object.keys(archiveData.years[year]).reduce(function(total, monthKey) { return total + archiveData.years[year][monthKey].length; }, 0); %>
         <a href="#year_heading_<%= year %>"><%= year %> (<%= yearCount %>)</a></br>
       <% }); %>
