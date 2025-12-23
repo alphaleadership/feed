@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-23T14:30:21.125Z",
-  "totalBreaches": 1579,
+  "lastUpdated": "2025-12-23T15:26:32.887Z",
+  "totalBreaches": 1580,
   "breaches": [
     {
       "Name": "gPotato",
@@ -56645,6 +56645,38 @@
         "cve-2025-68343"
       ],
       "index": 1578
+    },
+    {
+      "Name": "cve-2024-9684 fuite du 2025-12-23",
+      "Title": "cve-2024-9684 fuite du 2025-12-23",
+      "Domain": null,
+      "BreachDate": "2025-12-23T00:00:00.000Z",
+      "AddedDate": "2025-12-23T15:26:32.885Z",
+      "ModifiedDate": "2025-12-23T15:26:32.885Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[FreyrSCADA/IEC-60870-5-104 server v21.06.008 allows remote attackers to cause a denial of service by sending specific message sequences. | CVSS Score 7.5 (HIGH)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2024-9684-fuite-du-2025-12-23",
+      "path": "CVE-2024-9684",
+      "formattedDate": "2025-12-23",
+      "title": "cve-2024-9684 fuite du 2025-12-23",
+      "date": "2025-12-23T00:00:00.000Z",
+      "lien": "CVE-2024-9684",
+      "categories": [
+        "cve-2024-9684"
+      ],
+      "index": 1579
     }
   ]
 }
