@@ -7980,6 +7980,8 @@ category_map:
   - cve-2025-68560
   - cve-2025-68561
   - '2147883'
+  - cve-2025-13183
+  - '2147695'
 tag_map: null
 meta_generator: true
 search:

@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-23T12:51:23.441Z",
-  "totalBreaches": 1568,
+  "lastUpdated": "2025-12-23T13:38:05.283Z",
+  "totalBreaches": 1569,
   "breaches": [
     {
       "Name": "gPotato",
@@ -56293,6 +56293,38 @@
         "cve-2025-68561"
       ],
       "index": 1567
+    },
+    {
+      "Name": "cve-2025-13183 fuite du 2025-12-23",
+      "Title": "cve-2025-13183 fuite du 2025-12-23",
+      "Domain": null,
+      "BreachDate": "2025-12-23T00:00:00.000Z",
+      "AddedDate": "2025-12-23T13:38:05.282Z",
+      "ModifiedDate": "2025-12-23T13:38:05.282Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Hotech Software Inc. Otello allows Stored XSS.This issue affects Otello from 2.4.0 before 2.4.4. | CVSS Score 7.3 (HIGH)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-13183-fuite-du-2025-12-23",
+      "path": "CVE-2025-13183",
+      "formattedDate": "2025-12-23",
+      "title": "cve-2025-13183 fuite du 2025-12-23",
+      "date": "2025-12-23T00:00:00.000Z",
+      "lien": "CVE-2025-13183",
+      "categories": [
+        "cve-2025-13183"
+      ],
+      "index": 1568
     }
   ]
 }
