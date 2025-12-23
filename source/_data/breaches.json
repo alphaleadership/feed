@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-23T17:30:16.620Z",
-  "totalBreaches": 1597,
+  "lastUpdated": "2025-12-23T18:35:47.324Z",
+  "totalBreaches": 1599,
   "breaches": [
     {
       "Name": "gPotato",
@@ -57221,6 +57221,70 @@
         "cve-2025-65713"
       ],
       "index": 1596
+    },
+    {
+      "Name": "cve-2025-13074 fuite du 2025-12-23",
+      "Title": "cve-2025-13074 fuite du 2025-12-23",
+      "Domain": null,
+      "BreachDate": "2025-12-23T00:00:00.000Z",
+      "AddedDate": "2025-12-23T18:35:46.630Z",
+      "ModifiedDate": "2025-12-23T18:35:46.630Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[Rejected reason ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. Reason This candidate was issued in error. Notes All references and descriptions in this candidate have been removed to prevent accidental usage. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-13074-fuite-du-2025-12-23",
+      "path": "CVE-2025-13074",
+      "formattedDate": "2025-12-23",
+      "title": "cve-2025-13074 fuite du 2025-12-23",
+      "date": "2025-12-23T00:00:00.000Z",
+      "lien": "CVE-2025-13074",
+      "categories": [
+        "cve-2025-13074"
+      ],
+      "index": 1597
+    },
+    {
+      "Name": "cve-2025-51511 fuite du 2025-12-23",
+      "Title": "cve-2025-51511 fuite du 2025-12-23",
+      "Domain": null,
+      "BreachDate": "2025-12-23T00:00:00.000Z",
+      "AddedDate": "2025-12-23T18:35:47.323Z",
+      "ModifiedDate": "2025-12-23T18:35:47.323Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[Cadmium CMS v.0.4.9 has a background arbitrary file upload vulnerability in /admin/content/filemanager/uploads. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-51511-fuite-du-2025-12-23",
+      "path": "CVE-2025-51511",
+      "formattedDate": "2025-12-23",
+      "title": "cve-2025-51511 fuite du 2025-12-23",
+      "date": "2025-12-23T00:00:00.000Z",
+      "lien": "CVE-2025-51511",
+      "categories": [
+        "cve-2025-51511"
+      ],
+      "index": 1598
     }
   ]
 }
