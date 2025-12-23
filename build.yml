@@ -8024,6 +8024,18 @@ category_map:
   - 2919507_ce
   - '2148209'
   - '2148541'
+  - cve-2024-57521
+  - cve-2025-29228
+  - cve-2025-29229
+  - cve-2025-33222
+  - cve-2025-33223
+  - cve-2025-33224
+  - cve-2025-65410
+  - cve-2025-65713
+  - 2919741_lexcellent
+  - 1629865_sosh
+  - 2896283_voici
+  - '712919'
 tag_map: null
 meta_generator: true
 search:
