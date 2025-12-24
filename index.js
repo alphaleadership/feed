@@ -105,7 +105,7 @@ parser.parseURL(rssUrl).then(feed => {
           if(!fuite[Dir||"zataz"]) fuite[Dir||"zataz"]=[]
           postsMap[key].push(item);
           fuite[Dir||"zataz"].push(item)
-              const destinationDir = l(item.guid,item.categories);
+              const destinationDir = l(item.link,item.categories);
    //   if(destinationDir){
         //const [Dir, dateStr] = key.split('#');
         const hexoPostDir = path.join(PostDir, destinationDir, Dir||"zataz");
@@ -154,7 +154,7 @@ parser.parseURL(rssUrl).then(feed => {
     });
     // Création des posts Hexo
     Object.entries(postsMap).forEach(([key, items]) => {
-      const destinationDir = l(items[0].guid,items[0].categories);
+      const destinationDir = l(items[0].link,items[0].categories);
       if(destinationDir){
         const [Dir, dateStr] = key.split('#');
         const hexoPostDir = path.join(PostDir, destinationDir, Dir||"zataz");
