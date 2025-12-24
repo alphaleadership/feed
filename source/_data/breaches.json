@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-24T05:27:28.737Z",
-  "totalBreaches": 1724,
+  "lastUpdated": "2025-12-24T06:38:31.953Z",
+  "totalBreaches": 1726,
   "breaches": [
     {
       "Name": "gPotato",
@@ -61285,6 +61285,70 @@
         "cve-2025-66445"
       ],
       "index": 1723
+    },
+    {
+      "Name": "cve-2024-58335 fuite du 2025-12-24",
+      "Title": "cve-2024-58335 fuite du 2025-12-24",
+      "Domain": null,
+      "BreachDate": "2025-12-24T00:00:00.000Z",
+      "AddedDate": "2025-12-24T06:38:31.753Z",
+      "ModifiedDate": "2025-12-24T06:38:31.753Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[OpenXRechnungToolbox through 2024-10-05-3.0.0 before 6c50e89 allows XXE because the disallow-doctype-decl feature is not enabled in visualization/VisualizerImpl.java. | CVSS Score 5 (MEDIUM)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2024-58335-fuite-du-2025-12-24",
+      "path": "CVE-2024-58335",
+      "formattedDate": "2025-12-24",
+      "title": "cve-2024-58335 fuite du 2025-12-24",
+      "date": "2025-12-24T00:00:00.000Z",
+      "lien": "CVE-2024-58335",
+      "categories": [
+        "cve-2024-58335"
+      ],
+      "index": 1724
+    },
+    {
+      "Name": "cve-2025-13407 fuite du 2025-12-24",
+      "Title": "cve-2025-13407 fuite du 2025-12-24",
+      "Domain": null,
+      "BreachDate": "2025-12-24T00:00:00.000Z",
+      "AddedDate": "2025-12-24T06:38:31.952Z",
+      "ModifiedDate": "2025-12-24T06:38:31.952Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[The Gravity Forms WordPress plugin before 2.9.23.1 does not properly prevent users from uploading dangerous files through its chunked upload functionality\nallowing attackers to upload PHP files to affected sites and achieve Remote Code Execution\ngranted they can discover or enumerate the upload path. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-13407-fuite-du-2025-12-24",
+      "path": "CVE-2025-13407",
+      "formattedDate": "2025-12-24",
+      "title": "cve-2025-13407 fuite du 2025-12-24",
+      "date": "2025-12-24T00:00:00.000Z",
+      "lien": "CVE-2025-13407",
+      "categories": [
+        "cve-2025-13407"
+      ],
+      "index": 1725
     }
   ]
 }
