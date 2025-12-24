@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-23T23:22:15.867Z",
-  "totalBreaches": 1709,
+  "lastUpdated": "2025-12-24T01:53:25.251Z",
+  "totalBreaches": 1710,
   "breaches": [
     {
       "Name": "gPotato",
@@ -60805,6 +60805,38 @@
         "cve-2025-68696"
       ],
       "index": 1708
+    },
+    {
+      "Name": "cve-2025-15050 fuite du 2025-12-24",
+      "Title": "cve-2025-15050 fuite du 2025-12-24",
+      "Domain": null,
+      "BreachDate": "2025-12-24T00:00:00.000Z",
+      "AddedDate": "2025-12-24T01:53:25.249Z",
+      "ModifiedDate": "2025-12-24T01:53:25.249Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[A security vulnerability has been detected in code-projects Student File Management System 1.0. This affects an unknown part of the file /save_file.php. Such manipulation of the argument File leads to unrestricted upload. The attack can be executed remotely. The exploit has been disclosed publicly and may be used. | CVSS Score 6.3 (MEDIUM)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-15050-fuite-du-2025-12-24",
+      "path": "CVE-2025-15050",
+      "formattedDate": "2025-12-24",
+      "title": "cve-2025-15050 fuite du 2025-12-24",
+      "date": "2025-12-24T00:00:00.000Z",
+      "lien": "CVE-2025-15050",
+      "categories": [
+        "cve-2025-15050"
+      ],
+      "index": 1709
     }
   ]
 }
