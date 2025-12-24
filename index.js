@@ -78,7 +78,7 @@ parser.parseURL(rssUrl).then(feed => {
   try {
     // Filtrage des doublons avant toute opération
     const uniqueItems = filterDisplayItems(feed.items.map((i)=>{
-    //  console.log(i.pubDate)
+     console.log(i)
       //console.log(new Date(i.pubDate.replace("BST","")))
       i.pubDate=i.pubDate.replace("BST","")
       return i
