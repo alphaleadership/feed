@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-24T08:33:53.059Z",
-  "totalBreaches": 1729,
+  "lastUpdated": "2025-12-24T09:53:45.813Z",
+  "totalBreaches": 1730,
   "breaches": [
     {
       "Name": "gPotato",
@@ -61445,6 +61445,38 @@
         "cve-2025-64641"
       ],
       "index": 1728
+    },
+    {
+      "Name": "adecco fuite du 2025-12-24",
+      "Title": "adecco fuite du 2025-12-24",
+      "Domain": null,
+      "BreachDate": "2025-12-24T00:00:00.000Z",
+      "AddedDate": "2025-12-24T09:53:45.812Z",
+      "ModifiedDate": "2025-12-24T09:53:45.812Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[[nom\nprénom\nadresse email\nnuméro de téléphone\nCV\nSecteur\nPoste recherché\nExpériences professionnelles\nNiveau d’éducation\nDiplômes\nCompétences\nLangues maîtrisées\nStatus professionnel\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "adecco-fuite-du-2025-12-24",
+      "path": "https://bonjourlafuite.eu.org/img/adecco.jpg",
+      "formattedDate": "2025-12-24",
+      "title": "adecco fuite du 2025-12-24",
+      "date": "2025-12-24T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/adecco.jpg",
+      "categories": [
+        "adecco"
+      ],
+      "index": 1729
     }
   ]
 }
