@@ -8184,6 +8184,10 @@ category_map:
   - 2920313_galaxy
   - 2734285_nothing
   - 2919991_dreame
+  - '2147991'
+  - cve-2025-13767
+  - cve-2025-64641
+  - 2914753_test
 tag_map: null
 meta_generator: true
 search:

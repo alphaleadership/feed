@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-24T07:36:05.300Z",
-  "totalBreaches": 1727,
+  "lastUpdated": "2025-12-24T08:33:53.059Z",
+  "totalBreaches": 1729,
   "breaches": [
     {
       "Name": "gPotato",
@@ -61381,6 +61381,70 @@
         "cve-2025-57840"
       ],
       "index": 1726
+    },
+    {
+      "Name": "cve-2025-13767 fuite du 2025-12-24",
+      "Title": "cve-2025-13767 fuite du 2025-12-24",
+      "Domain": null,
+      "BreachDate": "2025-12-24T00:00:00.000Z",
+      "AddedDate": "2025-12-24T08:33:51.698Z",
+      "ModifiedDate": "2025-12-24T08:33:51.698Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[Mattermost versions 11.1.x  11.1.0\n11.0.x  11.0.5\n10.12.x  10.12.3\n10.11.x  10.11.7 fails to validate user channel membership when attaching Mattermost posts as comments to Jira issues\nwhich allows an authenticated attacker with access to the Jira plugin to read post content and attachments from channels they do not have access to. | CVSS Score 4.3 (MEDIUM)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-13767-fuite-du-2025-12-24",
+      "path": "CVE-2025-13767",
+      "formattedDate": "2025-12-24",
+      "title": "cve-2025-13767 fuite du 2025-12-24",
+      "date": "2025-12-24T00:00:00.000Z",
+      "lien": "CVE-2025-13767",
+      "categories": [
+        "cve-2025-13767"
+      ],
+      "index": 1727
+    },
+    {
+      "Name": "cve-2025-64641 fuite du 2025-12-24",
+      "Title": "cve-2025-64641 fuite du 2025-12-24",
+      "Domain": null,
+      "BreachDate": "2025-12-24T00:00:00.000Z",
+      "AddedDate": "2025-12-24T08:33:53.058Z",
+      "ModifiedDate": "2025-12-24T08:33:53.058Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[Mattermost versions 11.1.x  11.1.0\n11.0.x  11.0.5\n10.12.x  10.12.3\n10.11.x  10.11.7 fail to verify that post actions invoking /share-issue-publicly were created by the Jira plugin which allowed a malicious Mattermost user to exfiltrate Jira tickets when victim users interacted with affected posts | CVSS Score 4.1 (MEDIUM)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-64641-fuite-du-2025-12-24",
+      "path": "CVE-2025-64641",
+      "formattedDate": "2025-12-24",
+      "title": "cve-2025-64641 fuite du 2025-12-24",
+      "date": "2025-12-24T00:00:00.000Z",
+      "lien": "CVE-2025-64641",
+      "categories": [
+        "cve-2025-64641"
+      ],
+      "index": 1728
     }
   ]
 }
