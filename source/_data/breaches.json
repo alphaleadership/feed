@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-24T04:50:10.749Z",
-  "totalBreaches": 1721,
+  "lastUpdated": "2025-12-24T05:27:28.737Z",
+  "totalBreaches": 1724,
   "breaches": [
     {
       "Name": "gPotato",
@@ -61189,6 +61189,102 @@
         "cve-2025-68695"
       ],
       "index": 1720
+    },
+    {
+      "Name": "cve-2025-13773 fuite du 2025-12-24",
+      "Title": "cve-2025-13773 fuite du 2025-12-24",
+      "Domain": null,
+      "BreachDate": "2025-12-24T00:00:00.000Z",
+      "AddedDate": "2025-12-24T05:27:27.248Z",
+      "ModifiedDate": "2025-12-24T05:27:27.248Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[The Print Invoice  Delivery Notes for WooCommerce plugin for WordPress is vulnerable to Remote Code Execution in all versions up to\nand including\n5.8.0 via the 'WooCommerce_Delivery_Notesupdate' function. This is due to missing capability check in the 'WooCommerce_Delivery_Notesupdate' function\nPHP enabled in Dompdf\nand missing escape in the 'template.php' file. This makes it possible for unauthenticated attackers to execute code on the server. | CVSS Score 9.8 (CRITICAL)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-13773-fuite-du-2025-12-24",
+      "path": "CVE-2025-13773",
+      "formattedDate": "2025-12-24",
+      "title": "cve-2025-13773 fuite du 2025-12-24",
+      "date": "2025-12-24T00:00:00.000Z",
+      "lien": "CVE-2025-13773",
+      "categories": [
+        "cve-2025-13773"
+      ],
+      "index": 1721
+    },
+    {
+      "Name": "cve-2025-66444 fuite du 2025-12-24",
+      "Title": "cve-2025-66444 fuite du 2025-12-24",
+      "Domain": null,
+      "BreachDate": "2025-12-24T00:00:00.000Z",
+      "AddedDate": "2025-12-24T05:27:28.687Z",
+      "ModifiedDate": "2025-12-24T05:27:28.687Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[Cross-site Scripting vulnerability in Hitachi Infrastructure Analytics Advisor (Data Center Analytics component) and Hitachi Ops Center Analyzer (Hitachi Ops Center Analyzer detail view component).This issue affects Hitachi Infrastructure Analytics Advisor Hitachi Ops Center Analyzer from 10.0.0-00 before 11.0.5-00. | CVSS Score 8.2 (HIGH)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-66444-fuite-du-2025-12-24",
+      "path": "CVE-2025-66444",
+      "formattedDate": "2025-12-24",
+      "title": "cve-2025-66444 fuite du 2025-12-24",
+      "date": "2025-12-24T00:00:00.000Z",
+      "lien": "CVE-2025-66444",
+      "categories": [
+        "cve-2025-66444"
+      ],
+      "index": 1722
+    },
+    {
+      "Name": "cve-2025-66445 fuite du 2025-12-24",
+      "Title": "cve-2025-66445 fuite du 2025-12-24",
+      "Domain": null,
+      "BreachDate": "2025-12-24T00:00:00.000Z",
+      "AddedDate": "2025-12-24T05:27:28.736Z",
+      "ModifiedDate": "2025-12-24T05:27:28.736Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[Authorization bypass vulnerability in Hitachi Infrastructure Analytics Advisor (Data Center Analytics component) and Hitachi Ops Center Analyzer (Hitachi Ops Center Analyzer detail view component).This issue affects Hitachi Infrastructure Analytics Advisor Hitachi Ops Center Analyzer from 10.0.0-00 before 11.0.5-00. | CVSS Score 7.1 (HIGH)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-66445-fuite-du-2025-12-24",
+      "path": "CVE-2025-66445",
+      "formattedDate": "2025-12-24",
+      "title": "cve-2025-66445 fuite du 2025-12-24",
+      "date": "2025-12-24T00:00:00.000Z",
+      "lien": "CVE-2025-66445",
+      "categories": [
+        "cve-2025-66445"
+      ],
+      "index": 1723
     }
   ]
 }
