@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-24T13:34:42.182Z",
-  "totalBreaches": 2144,
+  "lastUpdated": "2025-12-24T14:23:15.412Z",
+  "totalBreaches": 2145,
   "breaches": [
     {
       "Name": "gPotato",
@@ -74725,6 +74725,38 @@
         "cve-2025-68749"
       ],
       "index": 2143
+    },
+    {
+      "Name": "cve-2025-5448 fuite du 2025-12-24",
+      "Title": "cve-2025-5448 fuite du 2025-12-24",
+      "Domain": null,
+      "BreachDate": "2025-12-24T00:00:00.000Z",
+      "AddedDate": "2025-12-24T14:23:15.410Z",
+      "ModifiedDate": "2025-12-24T14:23:15.410Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[Rejected reason This CVE id was assigned but later discarded. | Severity UNKNOWN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-5448-fuite-du-2025-12-24",
+      "path": "CVE-2025-5448",
+      "formattedDate": "2025-12-24",
+      "title": "cve-2025-5448 fuite du 2025-12-24",
+      "date": "2025-12-24T00:00:00.000Z",
+      "lien": "CVE-2025-5448",
+      "categories": [
+        "cve-2025-5448"
+      ],
+      "index": 2144
     }
   ]
 }
