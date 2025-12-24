@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-24T06:38:31.953Z",
-  "totalBreaches": 1726,
+  "lastUpdated": "2025-12-24T07:36:05.300Z",
+  "totalBreaches": 1727,
   "breaches": [
     {
       "Name": "gPotato",
@@ -61349,6 +61349,38 @@
         "cve-2025-13407"
       ],
       "index": 1725
+    },
+    {
+      "Name": "cve-2025-57840 fuite du 2025-12-24",
+      "Title": "cve-2025-57840 fuite du 2025-12-24",
+      "Domain": null,
+      "BreachDate": "2025-12-24T00:00:00.000Z",
+      "AddedDate": "2025-12-24T07:36:05.298Z",
+      "ModifiedDate": "2025-12-24T07:36:05.298Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[ADB(Android Debug Bridge) is affected by type privilege bypass\nsuccessful exploitation of this vulnerability may affect service availability. | CVSS Score 2.2 (LOW)\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "cve-2025-57840-fuite-du-2025-12-24",
+      "path": "CVE-2025-57840",
+      "formattedDate": "2025-12-24",
+      "title": "cve-2025-57840 fuite du 2025-12-24",
+      "date": "2025-12-24T00:00:00.000Z",
+      "lien": "CVE-2025-57840",
+      "categories": [
+        "cve-2025-57840"
+      ],
+      "index": 1726
     }
   ]
 }
