@@ -29,7 +29,7 @@ const parsecontent = (txt, sep, joi) => {
 
 const removeNunjucks = (content) => {
   if (!content) return '';
-  return content.replace(/{%.*?%}/g, '').replace(/{{\s*.*?}}/g, '');
+  return content.replace(/{%.*?%}/g, '').replace(/{{\s*.*?}}/g, '').replace(/<%.*?%>/g, '').replace("[[",'').replace("]]",'');
 };
 
 const l = (title, cat = []) => {
