@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-25T15:21:11.979Z",
-  "totalBreaches": 2157,
+  "lastUpdated": "2025-12-25T15:25:10.246Z",
+  "totalBreaches": 1128,
   "breaches": [
     {
       "Name": "gPotato",
@@ -30974,6 +30974,39 @@
       "validated": true
     },
     {
+      "Name": "ldlc fuite du 2024-3-1",
+      "Title": "ldlc fuite du 2024-3-1",
+      "Domain": null,
+      "BreachDate": "2024-3-1",
+      "AddedDate": "2025-12-24T15:38:47.148Z",
+      "ModifiedDate": "2025-12-24T15:38:47.148Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[[nom\nprénom\nadresse email\nadresse postale\nnuméro de téléphone\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "ldlc-fuite-du-2024-3-1",
+      "path": "https://www.01net.com/actualites/les-donnees-de-15-million-de-clients-ldlc-ont-ete-piratees.html",
+      "formattedDate": "2024-03-01",
+      "title": "ldlc fuite du 2024-3-1",
+      "date": "2024-3-1",
+      "lien": "https://www.01net.com/actualites/les-donnees-de-15-million-de-clients-ldlc-ont-ete-piratees.html",
+      "categories": [
+        "ldlc"
+      ],
+      "index": 809,
+      "validated": true
+    },
+    {
       "Name": "Life360",
       "Title": "Life360",
       "Domain": "life360.com",
@@ -31001,7 +31034,7 @@
       "slug": "life360",
       "path": "breaches/life360",
       "formattedDate": "2024-03-01",
-      "index": 809,
+      "index": 810,
       "categories": [
         "Life360"
       ],
@@ -31039,45 +31072,12 @@
       "slug": "mrgreengaming",
       "path": "breaches/mrgreengaming",
       "formattedDate": "2024-03-01",
-      "index": 810,
+      "index": 811,
       "categories": [
         "MrGreenGaming"
       ],
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/mrgreengaming",
-      "validated": true
-    },
-    {
-      "Name": "ldlc fuite du 2024-3-1",
-      "Title": "ldlc fuite du 2024-3-1",
-      "Domain": null,
-      "BreachDate": "2024-3-1",
-      "AddedDate": "2025-12-24T15:38:47.148Z",
-      "ModifiedDate": "2025-12-24T15:38:47.148Z",
-      "PwnCount": 0,
-      "Description": "-\n\n[[nom\nprénom\nadresse email\nadresse postale\nnuméro de téléphone\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "ldlc-fuite-du-2024-3-1",
-      "path": "https://www.01net.com/actualites/les-donnees-de-15-million-de-clients-ldlc-ont-ete-piratees.html",
-      "formattedDate": "2024-03-01",
-      "title": "ldlc fuite du 2024-3-1",
-      "date": "2024-3-1",
-      "lien": "https://www.01net.com/actualites/les-donnees-de-15-million-de-clients-ldlc-ont-ete-piratees.html",
-      "categories": [
-        "ldlc"
-      ],
-      "index": 811,
       "validated": true
     },
     {
@@ -31607,41 +31607,6 @@
       "validated": true
     },
     {
-      "Name": "MovieBoxPro",
-      "Title": "MovieBoxPro",
-      "Domain": "movieboxpro.app",
-      "BreachDate": "2024-04-15",
-      "AddedDate": "2024-04-30T01:54:06Z",
-      "ModifiedDate": "2024-04-30T01:54:06Z",
-      "PwnCount": 6009014,
-      "Description": "In April 2024, over 6M records from the streaming service MovieBoxPro were scraped from a vulnerable API. Of questionable legality, the service <a href=\"https://twitter.com/troyhunt/status/1784701384266543128\" target=\"_blank\" rel=\"noopener\">provided no contact information to disclose the incident</a>, although reportedly the vulnerability was rectified after being mass enumerated.",
-      "LogoPath": "https://logos.haveibeenpwned.com/MovieBoxPro.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [
-        "Email addresses",
-        "Usernames"
-      ],
-      "IsVerified": true,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "movieboxpro",
-      "path": "breaches/movieboxpro",
-      "formattedDate": "2024-04-15",
-      "index": 826,
-      "categories": [
-        "MovieBoxPro"
-      ],
-      "isNSFW": false,
-      "lien": "https://haveibeenpwned.com/Breach/movieboxpro",
-      "validated": true
-    },
-    {
       "Name": "le slip français fuite du 2024-4-15",
       "Title": "le slip français fuite du 2024-4-15",
       "Domain": null,
@@ -31671,7 +31636,42 @@
       "categories": [
         "le slip français"
       ],
+      "index": 826,
+      "validated": true
+    },
+    {
+      "Name": "MovieBoxPro",
+      "Title": "MovieBoxPro",
+      "Domain": "movieboxpro.app",
+      "BreachDate": "2024-04-15",
+      "AddedDate": "2024-04-30T01:54:06Z",
+      "ModifiedDate": "2024-04-30T01:54:06Z",
+      "PwnCount": 6009014,
+      "Description": "In April 2024, over 6M records from the streaming service MovieBoxPro were scraped from a vulnerable API. Of questionable legality, the service <a href=\"https://twitter.com/troyhunt/status/1784701384266543128\" target=\"_blank\" rel=\"noopener\">provided no contact information to disclose the incident</a>, although reportedly the vulnerability was rectified after being mass enumerated.",
+      "LogoPath": "https://logos.haveibeenpwned.com/MovieBoxPro.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [
+        "Email addresses",
+        "Usernames"
+      ],
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "movieboxpro",
+      "path": "breaches/movieboxpro",
+      "formattedDate": "2024-04-15",
       "index": 827,
+      "categories": [
+        "MovieBoxPro"
+      ],
+      "isNSFW": false,
+      "lien": "https://haveibeenpwned.com/Breach/movieboxpro",
       "validated": true
     },
     {
@@ -41864,7 +41864,7 @@
       "categories": [
         "red by sfr"
       ],
-      "index": 1252,
+      "index": 1117,
       "isNSFW": false,
       "validated": true
     },
@@ -41898,7 +41898,7 @@
       "categories": [
         "ministère des sports"
       ],
-      "index": 1253,
+      "index": 1118,
       "validated": true
     },
     {
@@ -41931,7 +41931,7 @@
       "categories": [
         "chronopost"
       ],
-      "index": 1378,
+      "index": 1119,
       "validated": true
     },
     {
@@ -41964,7 +41964,7 @@
       "categories": [
         "altitude infra"
       ],
-      "index": 1468,
+      "index": 1120,
       "validated": true
     },
     {
@@ -41997,7 +41997,7 @@
       "categories": [
         "justice.fr"
       ],
-      "index": 1469,
+      "index": 1121,
       "validated": true
     },
     {
@@ -42030,7 +42030,7 @@
       "categories": [
         "123 casting"
       ],
-      "index": 1498,
+      "index": 1122,
       "validated": true
     },
     {
@@ -42063,7 +42063,7 @@
       "categories": [
         "fédération française de natation"
       ],
-      "index": 1610,
+      "index": 1123,
       "validated": true
     },
     {
@@ -42096,7 +42096,7 @@
       "categories": [
         "adecco"
       ],
-      "index": 1738,
+      "index": 1124,
       "validated": true
     }
   ]
