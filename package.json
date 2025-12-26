@@ -7,7 +7,8 @@
     "clean": "hexo clean",
     "deploy": "hexo deploy --config build.yml",
     "server": "hexo server",
-    "import": "node scripts/import.js"
+    "import": "node scripts/import.js",
+    "add:breach": "node scripts/add-breach.js"
   },
   "hexo": {
     "version": "8.1.1"
