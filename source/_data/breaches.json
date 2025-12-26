@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-26T18:57:13.722Z",
-  "totalBreaches": 1128,
+  "lastUpdated": "2025-12-26T20:25:34.182Z",
+  "totalBreaches": 1129,
   "breaches": [
     {
       "Name": "gPotato",
@@ -42241,6 +42241,38 @@
         "nouvelle lune"
       ],
       "index": 1127
+    },
+    {
+      "Name": "commune de lens fuite du 2025-12-26",
+      "Title": "commune de lens fuite du 2025-12-26",
+      "Domain": null,
+      "BreachDate": "2025-12-26T00:00:00.000Z",
+      "AddedDate": "2025-12-26T20:25:34.180Z",
+      "ModifiedDate": "2025-12-26T20:25:34.180Z",
+      "PwnCount": 0,
+      "Description": "-\n\n[probable ransomware\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "commune-de-lens-fuite-du-2025-12-26",
+      "path": "https://www.francebleu.fr/infos/faits-divers-justice/la-ville-de-lens-victime-d-un-piratage-informatique-1926814",
+      "formattedDate": "2025-12-26",
+      "title": "commune de lens fuite du 2025-12-26",
+      "date": "2025-12-26T00:00:00.000Z",
+      "lien": "https://www.francebleu.fr/infos/faits-divers-justice/la-ville-de-lens-victime-d-un-piratage-informatique-1926814",
+      "categories": [
+        "commune de lens"
+      ],
+      "index": 1128
     }
   ]
 }
