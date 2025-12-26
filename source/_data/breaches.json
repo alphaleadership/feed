@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-26T18:33:56.443Z",
-  "totalBreaches": 1127,
+  "lastUpdated": "2025-12-26T18:57:13.722Z",
+  "totalBreaches": 1128,
   "breaches": [
     {
       "Name": "gPotato",
@@ -41911,6 +41911,38 @@
       "isNSFW": false
     },
     {
+      "Name": "la licra fuite du 2025-12-19",
+      "Title": "la licra fuite du 2025-12-19",
+      "Domain": null,
+      "BreachDate": "2025-12-19T00:00:00.000Z",
+      "AddedDate": "2025-12-26T18:57:13.720Z",
+      "ModifiedDate": "2025-12-26T18:57:13.720Z",
+      "PwnCount": 0,
+      "Description": "-\n\nAdresse email\nMot de passe hashé\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "la-licra-fuite-du-2025-12-19",
+      "path": "https://bonjourlafuite.eu.org/img/licra.png",
+      "formattedDate": "2025-12-19",
+      "title": "la licra fuite du 2025-12-19",
+      "date": "2025-12-19T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/licra.png",
+      "categories": [
+        "la licra"
+      ],
+      "index": 1118
+    },
+    {
       "Name": "chronopost fuite du 2025-12-20",
       "Title": "chronopost fuite du 2025-12-20",
       "Domain": null,
@@ -41940,7 +41972,7 @@
       "categories": [
         "chronopost"
       ],
-      "index": 1118,
+      "index": 1119,
       "validated": true,
       "isNSFW": false
     },
@@ -41974,7 +42006,7 @@
       "categories": [
         "altitude infra"
       ],
-      "index": 1119,
+      "index": 1120,
       "validated": true,
       "isNSFW": false
     },
@@ -42008,7 +42040,7 @@
       "categories": [
         "justice.fr"
       ],
-      "index": 1120,
+      "index": 1121,
       "validated": true,
       "isNSFW": false
     },
@@ -42042,7 +42074,7 @@
       "categories": [
         "casting"
       ],
-      "index": 1121,
+      "index": 1122,
       "validated": true,
       "isNSFW": false
     },
@@ -42076,7 +42108,7 @@
       "categories": [
         "fédération française de natation"
       ],
-      "index": 1122,
+      "index": 1123,
       "validated": true,
       "isNSFW": false
     },
@@ -42110,7 +42142,7 @@
       "categories": [
         "adecco"
       ],
-      "index": 1123,
+      "index": 1124,
       "validated": true,
       "isNSFW": false
     },
@@ -42144,7 +42176,7 @@
       "isNSFW": false,
       "lien": "https://x.com/IntCyberDigest/status/2004249741417398372",
       "validated": true,
-      "index": 1124
+      "index": 1125
     },
     {
       "Name": "mondial relay fuite du 2025-12-26",
@@ -42176,7 +42208,7 @@
       "categories": [
         "mondial relay"
       ],
-      "index": 1125
+      "index": 1126
     },
     {
       "Name": "nouvelle lune fuite du 2025-12-26",
@@ -42208,7 +42240,7 @@
       "categories": [
         "nouvelle lune"
       ],
-      "index": 1126
+      "index": 1127
     }
   ]
 }
