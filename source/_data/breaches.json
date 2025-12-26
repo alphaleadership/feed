@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-26T17:20:02.854Z",
-  "totalBreaches": 1126,
+  "lastUpdated": "2025-12-26T18:33:56.443Z",
+  "totalBreaches": 1127,
   "breaches": [
     {
       "Name": "gPotato",
@@ -42177,6 +42177,38 @@
         "mondial relay"
       ],
       "index": 1125
+    },
+    {
+      "Name": "nouvelle lune fuite du 2025-12-26",
+      "Title": "nouvelle lune fuite du 2025-12-26",
+      "Domain": null,
+      "BreachDate": "2025-12-26T00:00:00.000Z",
+      "AddedDate": "2025-12-26T18:33:56.442Z",
+      "ModifiedDate": "2025-12-26T18:33:56.442Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse email\nAdresse postale\nDate de dernière connexion\nDate de dernière commande\nNombre de commandes\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "nouvelle-lune-fuite-du-2025-12-26",
+      "path": "https://bonjourlafuite.eu.org/img/nouvellelune.png",
+      "formattedDate": "2025-12-26",
+      "title": "nouvelle lune fuite du 2025-12-26",
+      "date": "2025-12-26T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/nouvellelune.png",
+      "categories": [
+        "nouvelle lune"
+      ],
+      "index": 1126
     }
   ]
 }
