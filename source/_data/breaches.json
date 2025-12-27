@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-27T14:21:02.501Z",
-  "totalBreaches": 1130,
+  "lastUpdated": "2025-12-27T15:22:04.495Z",
+  "totalBreaches": 1131,
   "breaches": [
     {
       "Name": "gPotato",
@@ -42305,6 +42305,38 @@
         "acrv"
       ],
       "index": 1129
+    },
+    {
+      "Name": "hellowork fuite du 2025-12-27",
+      "Title": "hellowork fuite du 2025-12-27",
+      "Domain": null,
+      "BreachDate": "2025-12-27T00:00:00.000Z",
+      "AddedDate": "2025-12-27T15:22:04.493Z",
+      "ModifiedDate": "2025-12-27T15:22:04.493Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse email\nMétier recherché\nNiveau de qualification\nExpérience professionnelle\nSecteurs d’activité recherchés\nTypes de contrat recherchés\nZones géographiques de mobilité\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "hellowork-fuite-du-2025-12-27",
+      "path": "https://bonjourlafuite.eu.org/img/hellowork.png",
+      "formattedDate": "2025-12-27",
+      "title": "hellowork fuite du 2025-12-27",
+      "date": "2025-12-27T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/hellowork.png",
+      "categories": [
+        "hellowork"
+      ],
+      "index": 1130
     }
   ]
 }
