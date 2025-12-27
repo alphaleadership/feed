@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-27T15:41:09.917Z",
-  "totalBreaches": 1133,
+  "lastUpdated": "2025-12-27T18:32:23.789Z",
+  "totalBreaches": 1136,
   "breaches": [
     {
       "Name": "gPotato",
@@ -40857,6 +40857,38 @@
       "validated": true
     },
     {
+      "Name": "proxiserve fuite du 2025-11-25",
+      "Title": "proxiserve fuite du 2025-11-25",
+      "Domain": null,
+      "BreachDate": "2025-11-25T00:00:00.000Z",
+      "AddedDate": "2025-12-27T18:32:23.788Z",
+      "ModifiedDate": "2025-12-27T18:32:23.788Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse email\nAdresse postale\nMotif d’intervention\nDate d’intervention\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "proxiserve-fuite-du-2025-11-25",
+      "path": "https://bonjourlafuite.eu.org/img/proxiserve.png",
+      "formattedDate": "2025-11-25",
+      "title": "proxiserve fuite du 2025-11-25",
+      "date": "2025-11-25T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/proxiserve.png",
+      "categories": [
+        "proxiserve"
+      ],
+      "index": 1087
+    },
+    {
       "Name": "csdn fuite du 2025-11-27",
       "Title": "csdn fuite du 2025-11-27",
       "Domain": null,
@@ -40886,7 +40918,7 @@
       "categories": [
         "csdn "
       ],
-      "index": 1087,
+      "index": 1088,
       "isNSFW": false,
       "validated": true
     },
@@ -40920,7 +40952,7 @@
       "categories": [
         "footclub fédération française de foot "
       ],
-      "index": 1088,
+      "index": 1089,
       "isNSFW": false,
       "validated": true
     },
@@ -40954,7 +40986,7 @@
       "categories": [
         "synbird la rochelle "
       ],
-      "index": 1089,
+      "index": 1090,
       "isNSFW": false,
       "validated": true
     },
@@ -40988,7 +41020,7 @@
       "categories": [
         "weda msp givors presqu’île "
       ],
-      "index": 1090,
+      "index": 1091,
       "isNSFW": false,
       "validated": true
     },
@@ -41022,7 +41054,7 @@
       "categories": [
         "msp givors presqu’île"
       ],
-      "index": 1091,
+      "index": 1092,
       "isNSFW": false,
       "validated": true
     },
@@ -41056,7 +41088,7 @@
       "categories": [
         "fédération française de foot"
       ],
-      "index": 1092,
+      "index": 1093,
       "validated": true,
       "isNSFW": false
     },
@@ -41090,7 +41122,7 @@
       "categories": [
         "la rochelle"
       ],
-      "index": 1093,
+      "index": 1094,
       "validated": true,
       "isNSFW": false
     },
@@ -41124,7 +41156,7 @@
       "categories": [
         "la centrale du financement "
       ],
-      "index": 1094,
+      "index": 1095,
       "isNSFW": false,
       "validated": true
     },
@@ -41158,7 +41190,7 @@
       "categories": [
         "zilvia "
       ],
-      "index": 1095,
+      "index": 1096,
       "isNSFW": false,
       "validated": true
     },
@@ -41192,7 +41224,7 @@
       "categories": [
         "france travail "
       ],
-      "index": 1096,
+      "index": 1097,
       "isNSFW": false,
       "validated": true
     },
@@ -41226,7 +41258,7 @@
       "categories": [
         "leroy merlin"
       ],
-      "index": 1097,
+      "index": 1098,
       "validated": true,
       "isNSFW": false
     },
@@ -41260,7 +41292,7 @@
       "categories": [
         "médecin direct"
       ],
-      "index": 1098,
+      "index": 1099,
       "validated": true,
       "isNSFW": false
     },
@@ -41294,7 +41326,7 @@
       "categories": [
         "itelis asaf  afps"
       ],
-      "index": 1099,
+      "index": 1100,
       "validated": true,
       "isNSFW": false
     },
@@ -41328,7 +41360,7 @@
       "categories": [
         "gesthand fédération française de handball"
       ],
-      "index": 1100,
+      "index": 1101,
       "validated": true,
       "isNSFW": false
     },
@@ -41362,7 +41394,7 @@
       "categories": [
         "schmidt"
       ],
-      "index": 1101,
+      "index": 1102,
       "validated": true,
       "isNSFW": false
     },
@@ -41396,7 +41428,7 @@
       "categories": [
         "cuisinella"
       ],
-      "index": 1102,
+      "index": 1103,
       "validated": true,
       "isNSFW": false
     },
@@ -41430,7 +41462,7 @@
       "categories": [
         "asaf  afps"
       ],
-      "index": 1103,
+      "index": 1104,
       "isNSFW": false,
       "validated": true
     },
@@ -41464,7 +41496,7 @@
       "categories": [
         "fédération française de handball"
       ],
-      "index": 1104,
+      "index": 1105,
       "isNSFW": false,
       "validated": true
     },
@@ -41498,7 +41530,7 @@
       "categories": [
         "ufolep"
       ],
-      "index": 1105,
+      "index": 1106,
       "isNSFW": false,
       "validated": true
     },
@@ -41532,7 +41564,7 @@
       "categories": [
         "fédération française de cyclisme"
       ],
-      "index": 1106,
+      "index": 1107,
       "isNSFW": false,
       "validated": true
     },
@@ -41566,7 +41598,7 @@
       "categories": [
         "résidence du parc (champdeniers"
       ],
-      "index": 1107,
+      "index": 1108,
       "validated": true,
       "isNSFW": false
     },
@@ -41600,7 +41632,7 @@
       "categories": [
         "france ventilation"
       ],
-      "index": 1108,
+      "index": 1109,
       "isNSFW": false,
       "validated": true
     },
@@ -41634,7 +41666,7 @@
       "categories": [
         "euromatik"
       ],
-      "index": 1109,
+      "index": 1110,
       "isNSFW": false,
       "validated": true
     },
@@ -41668,7 +41700,7 @@
       "categories": [
         "ministère de l’intérieur"
       ],
-      "index": 1110,
+      "index": 1111,
       "isNSFW": false,
       "validated": true
     },
@@ -41702,7 +41734,7 @@
       "categories": [
         "pornhub"
       ],
-      "index": 1111,
+      "index": 1112,
       "isNSFW": true,
       "validated": true
     },
@@ -41736,7 +41768,7 @@
       "categories": [
         "soundcloud"
       ],
-      "index": 1112,
+      "index": 1113,
       "isNSFW": false,
       "validated": true
     },
@@ -41770,7 +41802,7 @@
       "categories": [
         "sfr"
       ],
-      "index": 1113,
+      "index": 1114,
       "isNSFW": false,
       "validated": true
     },
@@ -41804,7 +41836,7 @@
       "categories": [
         "parashop"
       ],
-      "index": 1114,
+      "index": 1115,
       "isNSFW": false,
       "validated": true
     },
@@ -41838,7 +41870,7 @@
       "categories": [
         "caisse d’allocations familiales"
       ],
-      "index": 1115,
+      "index": 1116,
       "validated": true,
       "isNSFW": false
     },
@@ -41872,7 +41904,7 @@
       "categories": [
         "red by sfr"
       ],
-      "index": 1116,
+      "index": 1117,
       "isNSFW": false,
       "validated": true
     },
@@ -41906,7 +41938,7 @@
       "categories": [
         "ministère des sports"
       ],
-      "index": 1117,
+      "index": 1118,
       "validated": true,
       "isNSFW": false
     },
@@ -41940,7 +41972,7 @@
       "categories": [
         "la licra"
       ],
-      "index": 1118
+      "index": 1119
     },
     {
       "Name": "chronopost fuite du 2025-12-20",
@@ -41972,7 +42004,7 @@
       "categories": [
         "chronopost"
       ],
-      "index": 1119,
+      "index": 1120,
       "validated": true,
       "isNSFW": false
     },
@@ -42006,7 +42038,7 @@
       "categories": [
         "altitude infra"
       ],
-      "index": 1120,
+      "index": 1121,
       "validated": true,
       "isNSFW": false
     },
@@ -42040,7 +42072,7 @@
       "categories": [
         "justice.fr"
       ],
-      "index": 1121,
+      "index": 1122,
       "validated": true,
       "isNSFW": false
     },
@@ -42074,7 +42106,7 @@
       "categories": [
         "casting"
       ],
-      "index": 1122,
+      "index": 1123,
       "validated": true,
       "isNSFW": false
     },
@@ -42108,7 +42140,7 @@
       "categories": [
         "fédération française de natation"
       ],
-      "index": 1123,
+      "index": 1124,
       "validated": true,
       "isNSFW": false
     },
@@ -42142,7 +42174,7 @@
       "categories": [
         "adecco"
       ],
-      "index": 1124,
+      "index": 1125,
       "validated": true,
       "isNSFW": false
     },
@@ -42176,7 +42208,7 @@
       "isNSFW": false,
       "lien": "https://x.com/IntCyberDigest/status/2004249741417398372",
       "validated": true,
-      "index": 1125
+      "index": 1126
     },
     {
       "Name": "mondial relay fuite du 2025-12-26",
@@ -42208,7 +42240,7 @@
       "categories": [
         "mondial relay"
       ],
-      "index": 1126
+      "index": 1127
     },
     {
       "Name": "nouvelle lune fuite du 2025-12-26",
@@ -42240,7 +42272,7 @@
       "categories": [
         "nouvelle lune"
       ],
-      "index": 1127
+      "index": 1128
     },
     {
       "Name": "commune de lens fuite du 2025-12-26",
@@ -42272,7 +42304,7 @@
       "categories": [
         "commune de lens"
       ],
-      "index": 1128
+      "index": 1129
     },
     {
       "Name": "fédération française de kick boxing fuite du 2025-12-26",
@@ -42304,7 +42336,7 @@
       "categories": [
         "fédération française de kick boxing"
       ],
-      "index": 1129
+      "index": 1130
     },
     {
       "Name": "acrv fuite du 2025-12-27",
@@ -42336,7 +42368,7 @@
       "categories": [
         "acrv"
       ],
-      "index": 1130
+      "index": 1131
     },
     {
       "Name": "hellowork fuite du 2025-12-27",
@@ -42368,7 +42400,7 @@
       "categories": [
         "hellowork"
       ],
-      "index": 1131
+      "index": 1132
     },
     {
       "Name": "paytrip fuite du 2025-12-27",
@@ -42400,7 +42432,71 @@
       "categories": [
         "paytrip"
       ],
-      "index": 1132
+      "index": 1133
+    },
+    {
+      "Name": "club de nation 95 fuite du 2025-12-27",
+      "Title": "club de nation 95 fuite du 2025-12-27",
+      "Domain": null,
+      "BreachDate": "2025-12-27T00:00:00.000Z",
+      "AddedDate": "2025-12-27T18:32:23.652Z",
+      "ModifiedDate": "2025-12-27T18:32:23.652Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse postale\nAdresse email\nNuméro de téléphone\nAdresse IP\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "club-de-nation-95-fuite-du-2025-12-27",
+      "path": "https://bonjourlafuite.eu.org/img/cn95.png",
+      "formattedDate": "2025-12-27",
+      "title": "club de nation 95 fuite du 2025-12-27",
+      "date": "2025-12-27T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/cn95.png",
+      "categories": [
+        "club de nation 95"
+      ],
+      "index": 1134
+    },
+    {
+      "Name": "eni fuite du 2025-12-27",
+      "Title": "eni fuite du 2025-12-27",
+      "Domain": null,
+      "BreachDate": "2025-12-27T00:00:00.000Z",
+      "AddedDate": "2025-12-27T18:32:23.697Z",
+      "ModifiedDate": "2025-12-27T18:32:23.697Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse email\nType de profil\nRaison sociale\nFonction\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "eni-fuite-du-2025-12-27",
+      "path": "https://bonjourlafuite.eu.org/img/eni.png",
+      "formattedDate": "2025-12-27",
+      "title": "eni fuite du 2025-12-27",
+      "date": "2025-12-27T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/eni.png",
+      "categories": [
+        "eni"
+      ],
+      "index": 1135
     }
   ]
 }
