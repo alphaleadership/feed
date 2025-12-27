@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-27T15:22:04.495Z",
-  "totalBreaches": 1131,
+  "lastUpdated": "2025-12-27T15:41:09.917Z",
+  "totalBreaches": 1133,
   "breaches": [
     {
       "Name": "gPotato",
@@ -42275,6 +42275,38 @@
       "index": 1128
     },
     {
+      "Name": "fédération française de kick boxing fuite du 2025-12-26",
+      "Title": "fédération française de kick boxing fuite du 2025-12-26",
+      "Domain": null,
+      "BreachDate": "2025-12-26T00:00:00.000Z",
+      "AddedDate": "2025-12-27T15:41:09.847Z",
+      "ModifiedDate": "2025-12-27T15:41:09.847Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nGenre\nDate de naissance\nNationalité\nAdresses email\nNuméros de téléphone\nAdresse postale\nType de licence\nsaison et date de validité\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "f-d-ration-fran-aise-de-kick-boxing-fuite-du-2025-12-26",
+      "path": "https://xcancel.com/Ced_haurus/status/2004524410774970615",
+      "formattedDate": "2025-12-26",
+      "title": "fédération française de kick boxing fuite du 2025-12-26",
+      "date": "2025-12-26T00:00:00.000Z",
+      "lien": "https://xcancel.com/Ced_haurus/status/2004524410774970615",
+      "categories": [
+        "fédération française de kick boxing"
+      ],
+      "index": 1129
+    },
+    {
       "Name": "acrv fuite du 2025-12-27",
       "Title": "acrv fuite du 2025-12-27",
       "Domain": null,
@@ -42304,7 +42336,7 @@
       "categories": [
         "acrv"
       ],
-      "index": 1129
+      "index": 1130
     },
     {
       "Name": "hellowork fuite du 2025-12-27",
@@ -42336,7 +42368,39 @@
       "categories": [
         "hellowork"
       ],
-      "index": 1130
+      "index": 1131
+    },
+    {
+      "Name": "paytrip fuite du 2025-12-27",
+      "Title": "paytrip fuite du 2025-12-27",
+      "Domain": null,
+      "BreachDate": "2025-12-27T00:00:00.000Z",
+      "AddedDate": "2025-12-27T15:41:09.917Z",
+      "ModifiedDate": "2025-12-27T15:41:09.917Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse email\nAdresse postale\nNuméro de téléphone\nSolde du compte\nIBAN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "paytrip-fuite-du-2025-12-27",
+      "path": "https://bonjourlafuite.eu.org/img/paytrip.png",
+      "formattedDate": "2025-12-27",
+      "title": "paytrip fuite du 2025-12-27",
+      "date": "2025-12-27T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/paytrip.png",
+      "categories": [
+        "paytrip"
+      ],
+      "index": 1132
     }
   ]
 }
