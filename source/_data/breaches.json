@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-27T18:32:23.789Z",
-  "totalBreaches": 1136,
+  "lastUpdated": "2025-12-28T13:53:33.442Z",
+  "totalBreaches": 1137,
   "breaches": [
     {
       "Name": "gPotato",
@@ -42497,6 +42497,38 @@
         "eni"
       ],
       "index": 1135
+    },
+    {
+      "Name": "allegro musique fuite du 2025-12-28",
+      "Title": "allegro musique fuite du 2025-12-28",
+      "Domain": null,
+      "BreachDate": "2025-12-28T00:00:00.000Z",
+      "AddedDate": "2025-12-28T13:53:33.441Z",
+      "ModifiedDate": "2025-12-28T13:53:33.441Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse postale\nAdresse email\nNuméro de téléphone\nNuméro de sécurité sociale\nDate d’incription et de résiliation\nContenu des annonces\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "allegro-musique-fuite-du-2025-12-28",
+      "path": "https://bonjourlafuite.eu.org/img/allegromusique.png",
+      "formattedDate": "2025-12-28",
+      "title": "allegro musique fuite du 2025-12-28",
+      "date": "2025-12-28T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/allegromusique.png",
+      "categories": [
+        "allegro musique"
+      ],
+      "index": 1136
     }
   ]
 }
