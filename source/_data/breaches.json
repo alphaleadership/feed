@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-28T15:22:47.981Z",
-  "totalBreaches": 1139,
+  "lastUpdated": "2025-12-28T18:33:21.425Z",
+  "totalBreaches": 1140,
   "breaches": [
     {
       "Name": "gPotato",
@@ -42593,6 +42593,38 @@
         "batterie de portable"
       ],
       "index": 1138
+    },
+    {
+      "Name": "foot locker fuite du 2025-12-28",
+      "Title": "foot locker fuite du 2025-12-28",
+      "Domain": null,
+      "BreachDate": "2025-12-28T00:00:00.000Z",
+      "AddedDate": "2025-12-28T18:33:21.424Z",
+      "ModifiedDate": "2025-12-28T18:33:21.424Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nDate de naissance\nAdresse postale\nAdresse e-mail\nNuméro de téléphone\nNuméro de commande\nMode de paiement\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "foot-locker-fuite-du-2025-12-28",
+      "path": "https://bonjourlafuite.eu.org/img/footlocker.png",
+      "formattedDate": "2025-12-28",
+      "title": "foot locker fuite du 2025-12-28",
+      "date": "2025-12-28T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/footlocker.png",
+      "categories": [
+        "foot locker"
+      ],
+      "index": 1139
     }
   ]
 }
