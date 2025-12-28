@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-28T13:53:33.442Z",
-  "totalBreaches": 1137,
+  "lastUpdated": "2025-12-28T14:22:02.001Z",
+  "totalBreaches": 1138,
   "breaches": [
     {
       "Name": "gPotato",
@@ -42529,6 +42529,38 @@
         "allegro musique"
       ],
       "index": 1136
+    },
+    {
+      "Name": "europages fuite du 2025-12-28",
+      "Title": "europages fuite du 2025-12-28",
+      "Domain": null,
+      "BreachDate": "2025-12-28T00:00:00.000Z",
+      "AddedDate": "2025-12-28T14:22:02.000Z",
+      "ModifiedDate": "2025-12-28T14:22:02.000Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nPoste\nEntreprise\nAdresse postale\nAdresse email\nNuméro de téléphone\nSIRET\nNuméro de TVA\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "europages-fuite-du-2025-12-28",
+      "path": "https://bonjourlafuite.eu.org/img/europages.png",
+      "formattedDate": "2025-12-28",
+      "title": "europages fuite du 2025-12-28",
+      "date": "2025-12-28T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/europages.png",
+      "categories": [
+        "europages"
+      ],
+      "index": 1137
     }
   ]
 }
