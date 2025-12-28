@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-28T14:22:02.001Z",
-  "totalBreaches": 1138,
+  "lastUpdated": "2025-12-28T15:22:47.981Z",
+  "totalBreaches": 1139,
   "breaches": [
     {
       "Name": "gPotato",
@@ -42561,6 +42561,38 @@
         "europages"
       ],
       "index": 1137
+    },
+    {
+      "Name": "batterie de portable fuite du 2025-12-28",
+      "Title": "batterie de portable fuite du 2025-12-28",
+      "Domain": null,
+      "BreachDate": "2025-12-28T00:00:00.000Z",
+      "AddedDate": "2025-12-28T15:22:47.980Z",
+      "ModifiedDate": "2025-12-28T15:22:47.980Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nDate de naissance\nAdresse postale\nAdresse e-mail\nNuméros de téléphone fixe et mobile\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "batterie-de-portable-fuite-du-2025-12-28",
+      "path": "https://bonjourlafuite.eu.org/img/batteriedeportable.png",
+      "formattedDate": "2025-12-28",
+      "title": "batterie de portable fuite du 2025-12-28",
+      "date": "2025-12-28T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/batteriedeportable.png",
+      "categories": [
+        "batterie de portable"
+      ],
+      "index": 1138
     }
   ]
 }
