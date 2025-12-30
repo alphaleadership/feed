@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-28T18:33:21.425Z",
+  "lastUpdated": "2025-12-30T14:36:45.158Z",
   "totalBreaches": 1140,
   "breaches": [
     {
@@ -40886,7 +40886,8 @@
       "categories": [
         "proxiserve"
       ],
-      "index": 1087
+      "index": 1087,
+      "validated": true
     },
     {
       "Name": "csdn fuite du 2025-11-27",
@@ -41972,7 +41973,8 @@
       "categories": [
         "la licra"
       ],
-      "index": 1119
+      "index": 1119,
+      "validated": true
     },
     {
       "Name": "chronopost fuite du 2025-12-20",
@@ -42240,7 +42242,8 @@
       "categories": [
         "mondial relay"
       ],
-      "index": 1127
+      "index": 1127,
+      "validated": true
     },
     {
       "Name": "nouvelle lune fuite du 2025-12-26",
@@ -42272,7 +42275,8 @@
       "categories": [
         "nouvelle lune"
       ],
-      "index": 1128
+      "index": 1128,
+      "validated": true
     },
     {
       "Name": "commune de lens fuite du 2025-12-26",
@@ -42304,7 +42308,8 @@
       "categories": [
         "commune de lens"
       ],
-      "index": 1129
+      "index": 1129,
+      "validated": true
     },
     {
       "Name": "fédération française de kick boxing fuite du 2025-12-26",
@@ -42336,7 +42341,8 @@
       "categories": [
         "fédération française de kick boxing"
       ],
-      "index": 1130
+      "index": 1130,
+      "validated": true
     },
     {
       "Name": "acrv fuite du 2025-12-27",
@@ -42368,7 +42374,8 @@
       "categories": [
         "acrv"
       ],
-      "index": 1131
+      "index": 1131,
+      "validated": true
     },
     {
       "Name": "hellowork fuite du 2025-12-27",
@@ -42400,7 +42407,8 @@
       "categories": [
         "hellowork"
       ],
-      "index": 1132
+      "index": 1132,
+      "validated": true
     },
     {
       "Name": "paytrip fuite du 2025-12-27",
@@ -42432,7 +42440,8 @@
       "categories": [
         "paytrip"
       ],
-      "index": 1133
+      "index": 1133,
+      "validated": true
     },
     {
       "Name": "club de nation 95 fuite du 2025-12-27",
@@ -42464,7 +42473,8 @@
       "categories": [
         "club de nation 95"
       ],
-      "index": 1134
+      "index": 1134,
+      "validated": true
     },
     {
       "Name": "eni fuite du 2025-12-27",
@@ -42496,7 +42506,8 @@
       "categories": [
         "eni"
       ],
-      "index": 1135
+      "index": 1135,
+      "validated": true
     },
     {
       "Name": "allegro musique fuite du 2025-12-28",
@@ -42528,7 +42539,8 @@
       "categories": [
         "allegro musique"
       ],
-      "index": 1136
+      "index": 1136,
+      "validated": true
     },
     {
       "Name": "europages fuite du 2025-12-28",
@@ -42560,7 +42572,8 @@
       "categories": [
         "europages"
       ],
-      "index": 1137
+      "index": 1137,
+      "validated": true
     },
     {
       "Name": "batterie de portable fuite du 2025-12-28",
@@ -42592,7 +42605,8 @@
       "categories": [
         "batterie de portable"
       ],
-      "index": 1138
+      "index": 1138,
+      "validated": true
     },
     {
       "Name": "foot locker fuite du 2025-12-28",
@@ -42624,7 +42638,8 @@
       "categories": [
         "foot locker"
       ],
-      "index": 1139
+      "index": 1139,
+      "validated": true
     }
   ]
 }
