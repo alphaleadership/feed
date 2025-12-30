@@ -1,9 +1,10 @@
 const fs = require('fs');
 const path = require('path');
-const { Select, Confirm, Input, AutoComplete } = require('enquirer');
+const inquirer = require('inquirer');
 const chalk = require('chalk');
 
 const DATA_FILE = path.join(__dirname, 'source', '_data', 'breaches.json');
+
 
 // Helper to read data
 function loadData() {
@@ -25,16 +26,14 @@ function saveData(data) {
 
 // Main menu
 async function promptMainMenu() {
-    const { action } = await new Select({
-        name: 'action',
-        message: 'Que souhaitez-vous faire ?',
-        choices: [
-            { name: '🕵️  Valider les nouvelles entrées', value: 'validate' },
-            { name: '✏️  Éditer une entrée existante', value: 'edit' },
-            { name: '🚪 Quitter', value: 'exit' }
-        ]
-    }).run();
-    return action;
+    const { actionInput } = await inquirer.default.prompt([
+        {
+            type: 'input',
+            name: 'actionInput',
+            message: 'Que souhaitez-vous faire ? (valider/éditer/quitter)',
+        }
+    ]);
+    return actionInput;
 }
 
 // --- Validation Logic ---
@@ -84,22 +83,32 @@ async function validateEntries(breaches) {
             console.log(new chalk.Chalk().yellow('⚠️  Cette entrée CVE sera automatiquement rejetée.'));
             action = "reject";
         } else {
-            const prompt = new Select({
-                name: 'action',
-                message: 'Action pour cette entrée ?',
-                choices: [
-                    { name: '✅ Valider', value: 'validate' },
-                    { name: '🔞 Valider et marquer NSFW', value: 'validate_nsfw' },
-                    { name: '❌ Rejeter (supprimer)', value: 'reject' },
-                    { name: '⏭️  Sauter', value: 'skip' },
-                    { name: '💾 Sauvegarder et quitter', value: 'exit' },
-                ],
-            });
-            action = await prompt.run();
+            const { action: promptAction } = await inquirer.default.prompt([
+                {
+                    type: 'list',
+                    name: 'action',
+                    message: 'Action pour cette entrée ?',
+                    choices: [
+                        { name: '✅ Valider', value: 'validate' },
+                        { name: '🔞 Valider et marquer NSFW', value: 'validate_nsfw' },
+                        { name: '❌ Rejeter (supprimer)', value: 'reject' },
+                        { name: '⏭️  Sauter', value: 'skip' },
+                        { name: '💾 Sauvegarder et quitter', value: 'exit' },
+                    ],
+                }
+            ]);
+            action = promptAction;
         }
 
         if (action === 'reject' && !entry.Name.includes("cve-")) {
-            const confirm = await new Confirm({ name: 'confirm', message: 'Êtes-vous sûr de vouloir supprimer cette entrée ?', initial: false }).run();
+            const { confirm } = await inquirer.default.prompt([
+                {
+                    type: 'confirm',
+                    name: 'confirm',
+                    message: 'Êtes-vous sûr de vouloir supprimer cette entrée ?',
+                    default: false,
+                }
+            ]);
             if (!confirm) action = 'skip';
         }
 
@@ -146,16 +155,47 @@ async function validateEntries(breaches) {
 async function editEntry(breaches) {
     const findBreach = (name) => breaches.find(b => b.Name === name);
 
-    const { breachName } = await new AutoComplete({
-        name: 'breachName',
-        message: 'Quelle entrée éditer ? (commencez à taper pour chercher)',
-        limit: 10,
-        choices: breaches.map(b => b.Name),
-    }).run();
+    // Step 1: Get search term
+    const { searchTerm } = await inquirer.default.prompt([
+        {
+            type: 'input',
+            name: 'searchTerm',
+            message: 'Rechercher une entrée à éditer (tapez une partie du nom):',
+        }
+    ]);
 
-    const breachToEdit = findBreach(breachName);
+    if (!searchTerm || searchTerm.trim() === '') {
+        console.log(new chalk.Chalk().yellow('Recherche annulée.'));
+        return breaches;
+    }
+
+    // Step 2: Filter breaches based on search term
+    const matchedBreaches = breaches.filter(b => 
+        b.Name.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+
+    let breachToEdit;
+    if (matchedBreaches.length === 0) {
+        console.log(new chalk.Chalk().red('Aucune entrée trouvée.'));
+        return breaches;
+    } else { // I
+    //f 1 or more matches, ALWAYS show the list.
+    console.log(matchedBreaches)
+    console.log(matchedBreaches.map(b => {return {value:b.Name}}))
+        const { selectedBreachName } = await inquirer.default.prompt([
+            {
+                type: 'select',
+                name: 'selectedBreachName',
+                message: 'Résultats de la recherche, veuillez en choisir un:',
+                choices: matchedBreaches.map(b => {return {value:b.Name}}),
+            }
+        ]);
+        console.log(selectedBreachName)
+        breachToEdit = findBreach(selectedBreachName);
+    }
+
     if (!breachToEdit) {
-        console.log(new chalk.Chalk().red("Entrée non trouvée."));
+        console.log(new chalk.Chalk().red("Erreur lors de la sélection de l'entrée."));
         return breaches;
     }
 
@@ -166,27 +206,38 @@ async function editEntry(breaches) {
     console.log(new chalk.Chalk().yellow(JSON.stringify(breachToEdit, null, 2)));
     console.log('\n');
     
-    const { fieldToEdit } = await new Select({
-        name: 'fieldToEdit',
-        message: 'Quel champ éditer ?',
-        choices: Object.keys(breachToEdit),
-    }).run();
+    const { fieldToEdit } = await inquirer.default.prompt([
+        {
+            type: 'list',
+            name: 'fieldToEdit',
+            message: 'Quel champ éditer ?',
+            choices: Object.keys(breachToEdit),
+        }
+    ]);
 
     const currentValue = breachToEdit[fieldToEdit];
     let newValue;
 
     if (typeof currentValue === 'boolean') {
-        newValue = await new Confirm({
-            name: 'value',
-            message: `Nouvelle valeur pour '${fieldToEdit}'?`,
-            initial: currentValue
-        }).run();
+        const { value } = await inquirer.default.prompt([
+            {
+                type: 'confirm',
+                name: 'value',
+                message: `Nouvelle valeur pour '${fieldToEdit}'?`,
+                default: currentValue
+            }
+        ]);
+        newValue = value;
     } else {
-        newValue = await new Input({
-            name: 'value',
-            message: `Nouvelle valeur pour '${fieldToEdit}':`,
-            initial: currentValue,
-        }).run();
+        const { value } = await inquirer.default.prompt([
+            {
+                type: 'input',
+                name: 'value',
+                message: `Nouvelle valeur pour '${fieldToEdit}':`,
+                default: currentValue
+            }
+        ]);
+        newValue = value;
     }
     
     // Type casting
@@ -211,34 +262,55 @@ async function main() {
     const data = loadData();
     let breaches = data.breaches || [];
 
-    const action = await promptMainMenu();
+    let exitApp = false;
+    while (!exitApp) {
+        const rawAction = await promptMainMenu();
+        const action = rawAction ? rawAction.toLowerCase().trim() : '';
 
-    if (action === 'validate') {
-        const { modifiedBreaches, stats } = await validateEntries(breaches);
-        data.breaches = modifiedBreaches;
-        data.lastUpdated = new Date().toISOString();
-        saveData(data);
-        console.log(new chalk.Chalk().cyan('\n----------------------------------------'));
-        console.log(chalk.bold.green('Validation terminée !'));
-        console.log(`- ${stats.validatedCount} entrées validées (dont ${stats.nsfwCount} NSFW)`);
-        console.log(`- ${stats.rejectedCount} entrées supprimées`);
-        console.log(`- ${stats.skippedCount} entrées sautées`);
-    } else if (action === 'edit') {
-        const modifiedBreaches = await editEntry(breaches);
-        data.breaches = modifiedBreaches;
-        data.lastUpdated = new Date().toISOString();
-        const confirmSave = await new Confirm({ name: 'confirm', message: 'Sauvegarder les modifications ?', initial: true }).run();
-        if (confirmSave) {
+        if (action === '') { // Handles empty input or cancellation of the input prompt
+            console.log(new chalk.Chalk().yellow('\nSélection annulée ou entrée vide. Opération interrompue.'));
+            exitApp = true; 
+        } else if (action.startsWith('v')) { // 'valider'
+            const { modifiedBreaches, stats } = await validateEntries(breaches);
+            data.breaches = modifiedBreaches;
+            data.lastUpdated = new Date().toISOString();
             saveData(data);
+            console.log(new chalk.Chalk().cyan('\n----------------------------------------'));
+            console.log(chalk.bold.green('Validation terminée !'));
+            console.log(`- ${stats.validatedCount} entrées validées (dont ${stats.nsfwCount} NSFW)`);
+            console.log(`- ${stats.rejectedCount} entrées supprimées`);
+            console.log(`- ${stats.skippedCount} entrées sautées`);
+        } else if (action.startsWith('e')) { // 'éditer'
+            const modifiedBreaches = await editEntry(breaches);
+            data.breaches = modifiedBreaches;
+            data.lastUpdated = new Date().toISOString();
+            const { confirmSave } = await inquirer.default.prompt([
+                {
+                    type: 'confirm',
+                    name: 'confirmSave',
+                    message: 'Sauvegarder les modifications ?',
+                    default: true,
+                }
+            ]);
+            if (confirmSave) {
+                saveData(data);
+            } else {
+                console.log(new chalk.Chalk().yellow("Modifications annulées."));
+            }
+        } else if (action.startsWith('q')) { // 'quitter'
+            console.log('Au revoir !');
+            exitApp = true;
         } else {
-            console.log(new chalk.Chalk().yellow("Modifications annulées."));
+            console.log(new chalk.Chalk().red('\nChoix non reconnu. Veuillez taper "valider", "éditer" ou "quitter".'));
         }
-    } else {
-        console.log('Au revoir !');
+        console.log('\n'); // Add a newline for better spacing before next prompt
     }
 }
-
 main().catch(error => {
-    console.error(new chalk.Chalk().red('Une erreur inattendue est survenue:'));
-    console.error(error);
+    if (error) {
+        console.error(new chalk.Chalk().red('Une erreur inattendue est survenue:'));
+        console.error(error);
+    } else {
+        console.log(new chalk.Chalk().yellow('\nOpération annulée.'));
+    }
 });

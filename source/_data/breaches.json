@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-30T14:36:45.158Z",
+  "lastUpdated": "2025-12-30T16:15:32.937Z",
   "totalBreaches": 1140,
   "breaches": [
     {
@@ -42549,7 +42549,7 @@
       "BreachDate": "2025-12-28T00:00:00.000Z",
       "AddedDate": "2025-12-28T14:22:02.000Z",
       "ModifiedDate": "2025-12-28T14:22:02.000Z",
-      "PwnCount": 0,
+      "PwnCount": 205403,
       "Description": "-\n\nNom\nprénom\nPoste\nEntreprise\nAdresse postale\nAdresse email\nNuméro de téléphone\nSIRET\nNuméro de TVA\n\n",
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
