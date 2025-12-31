@@ -208,10 +208,10 @@ async function editEntry(breaches) {
     
     const { fieldToEdit } = await inquirer.default.prompt([
         {
-            type: 'list',
+            type: 'lselect',
             name: 'fieldToEdit',
             message: 'Quel champ éditer ?',
-            choices: Object.keys(breachToEdit),
+            choices: Object.keys(breachToEdit).map(key => ({ name: key, value: key }))
         }
     ]);
 
