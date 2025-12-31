@@ -59,10 +59,13 @@
       <% Object.keys(archiveData.years).sort((a, b) => a - b).forEach(function(year) { %>
         <% var yearCount = Object.keys(archiveData.years[year]).reduce(function(total, monthKey) { return total + archiveData.years[year][monthKey].length; }, 0);var totalPwnCount = Object.keys(archiveData.years[year]).reduce(
     (total, monthKey) => total + archiveData.years[year][monthKey].reduce(
-        (monthTotal, item) => monthTotal + item.pwnCount, 0
+        (monthTotal, item) => monthTotal + (item.pwnCount || 0), 0 // Utilisez 0 si pwnCount est undefined
     ), 0
 ); %>
-        <a href="#year_heading_<%= year %>"><%= year %> (<%= yearCount %>) avec <%= totalPwnCount %> ligne cumulée de données fuitée/a></br>
+tem.pwnCount, 0
+    ), 0
+); %>
+        <a href="#year_heading_<%= year %>"><%= year %> (<%= yearCount %>) avec <%= totalPwnCount %> ligne cumulée de données fuitée</a></br>
       <% }); %>
     </div>
   <% } %>
