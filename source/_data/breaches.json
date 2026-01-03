@@ -11067,7 +11067,10 @@
       ],
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/dailymotion",
-      "validated": true
+      "validated": true,
+      "pwnCountFr": 85,
+      "sourceFr": "https://bonjourlafuite.eu.org/",
+      "victimTextFr": "85"
     },
     {
       "Name": "MCBans",
@@ -23647,7 +23650,10 @@
       ],
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/adecco",
-      "validated": true
+      "validated": true,
+      "pwnCountFr": 800000,
+      "sourceFr": "https://bonjourlafuite.eu.org/",
+      "victimTextFr": "800 000"
     },
     {
       "Name": "DevilTorrents",
@@ -30971,7 +30977,10 @@
       ],
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/ldlc",
-      "validated": true
+      "validated": true,
+      "pwnCountFr": 15,
+      "sourceFr": "https://bonjourlafuite.eu.org/",
+      "victimTextFr": "1,5"
     },
     {
       "Name": "ldlc fuite du 2024-3-1",
@@ -31564,7 +31573,10 @@
       ],
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/leslipfrancais",
-      "validated": true
+      "validated": true,
+      "pwnCountFr": 15,
+      "sourceFr": "https://bonjourlafuite.eu.org/",
+      "victimTextFr": "1.5"
     },
     {
       "Name": "NeimanMarcus",
@@ -33129,7 +33141,10 @@
       ],
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/cultura",
-      "validated": true
+      "validated": true,
+      "pwnCountFr": 15,
+      "sourceFr": "https://bonjourlafuite.eu.org/",
+      "victimTextFr": "1,5"
     },
     {
       "Name": "boulanger fuite du 2024-9-7",
@@ -33747,7 +33762,10 @@
       ],
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/freemobile",
-      "validated": true
+      "validated": true,
+      "pwnCountFr": 51,
+      "sourceFr": "https://bonjourlafuite.eu.org/",
+      "victimTextFr": "5,1"
     },
     {
       "Name": "HotTopic",
@@ -38243,7 +38261,10 @@
       ],
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/bouyguestelecom",
-      "validated": true
+      "validated": true,
+      "pwnCountFr": 64,
+      "sourceFr": "https://bonjourlafuite.eu.org/",
+      "victimTextFr": "6.4"
     },
     {
       "Name": "pandora fuite du 2025-8-5",
