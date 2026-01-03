@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-30T16:15:32.937Z",
-  "totalBreaches": 1140,
+  "lastUpdated": "2026-01-03T10:06:25.885Z",
+  "totalBreaches": 1151,
   "breaches": [
     {
       "Name": "gPotato",
@@ -33844,6 +33844,38 @@
       "validated": true
     },
     {
+      "Name": "free fuite du 2024-10-25",
+      "Title": "free fuite du 2024-10-25",
+      "Domain": null,
+      "BreachDate": "2024-10-25T00:00:00.000Z",
+      "AddedDate": "2026-01-03T10:06:24.849Z",
+      "ModifiedDate": "2026-01-03T10:06:24.849Z",
+      "PwnCount": 0,
+      "Description": "-\n\nnom\nprénom\ndate de naissance\nlieu de naissance\nadresse email\nadresse postale\nIBAN\nidentifiant abonné\ntype d’offre souscrite\ndate de souscription\nabonnement actif ou non]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "free-fuite-du-2024-10-25",
+      "path": "https://www.clubic.com/actualite-542138-cyberattaque-de-free-les-donnees-fuitees-ont-trouve-preneur-pour-175-000-dollars-voici-ce-que-ca-implique.html",
+      "formattedDate": "2024-10-25",
+      "title": "free fuite du 2024-10-25",
+      "date": "2024-10-25T00:00:00.000Z",
+      "lien": "https://www.clubic.com/actualite-542138-cyberattaque-de-free-les-donnees-fuitees-ont-trouve-preneur-pour-175-000-dollars-voici-ce-que-ca-implique.html",
+      "categories": [
+        "free"
+      ],
+      "index": 885
+    },
+    {
       "Name": "SuperDraft",
       "Title": "SuperDraft",
       "Domain": "superdraft.io",
@@ -33874,7 +33906,7 @@
       "slug": "superdraft",
       "path": "breaches/superdraft",
       "formattedDate": "2024-10-27",
-      "index": 885,
+      "index": 886,
       "categories": [
         "SuperDraft"
       ],
@@ -33912,7 +33944,7 @@
       "categories": [
         "cve-2024-10610 "
       ],
-      "index": 886,
+      "index": 887,
       "isNSFW": true,
       "validated": true
     },
@@ -33947,7 +33979,7 @@
       "slug": "1win",
       "path": "breaches/1win",
       "formattedDate": "2024-11-02",
-      "index": 887,
+      "index": 888,
       "categories": [
         "1win"
       ],
@@ -33984,7 +34016,7 @@
       "slug": "tibber",
       "path": "breaches/tibber",
       "formattedDate": "2024-11-10",
-      "index": 888,
+      "index": 889,
       "categories": [
         "Tibber"
       ],
@@ -34022,7 +34054,7 @@
       "categories": [
         "picard "
       ],
-      "index": 889,
+      "index": 890,
       "isNSFW": false,
       "validated": true
     },
@@ -34056,7 +34088,7 @@
       "categories": [
         "molotov "
       ],
-      "index": 890,
+      "index": 891,
       "isNSFW": false,
       "validated": true
     },
@@ -34089,7 +34121,7 @@
       "slug": "poincampus",
       "path": "breaches/poincampus",
       "formattedDate": "2024-11-14",
-      "index": 891,
+      "index": 892,
       "categories": [
         "PoinCampus"
       ],
@@ -34127,7 +34159,7 @@
       "categories": [
         "huttopia "
       ],
-      "index": 892,
+      "index": 893,
       "isNSFW": false,
       "validated": true
     },
@@ -34159,7 +34191,7 @@
       "slug": "therealworld",
       "path": "breaches/therealworld",
       "formattedDate": "2024-11-15",
-      "index": 893,
+      "index": 894,
       "categories": [
         "TheRealWorld"
       ],
@@ -34196,7 +34228,7 @@
       "slug": "flipaclip",
       "path": "breaches/flipaclip",
       "formattedDate": "2024-11-18",
-      "index": 894,
+      "index": 895,
       "categories": [
         "FlipaClip"
       ],
@@ -34234,7 +34266,7 @@
       "categories": [
         "le point "
       ],
-      "index": 895,
+      "index": 896,
       "isNSFW": false,
       "validated": true
     },
@@ -34268,7 +34300,7 @@
       "categories": [
         "auchan "
       ],
-      "index": 896,
+      "index": 897,
       "isNSFW": false,
       "validated": true
     },
@@ -34302,7 +34334,7 @@
       "categories": [
         "direct assurance "
       ],
-      "index": 897,
+      "index": 898,
       "isNSFW": false,
       "validated": true
     },
@@ -34336,7 +34368,7 @@
       "categories": [
         "mediboard "
       ],
-      "index": 898,
+      "index": 899,
       "isNSFW": false,
       "validated": true
     },
@@ -34372,7 +34404,7 @@
       "slug": "yonema",
       "path": "breaches/yonema",
       "formattedDate": "2024-11-21",
-      "index": 899,
+      "index": 900,
       "categories": [
         "Yonema"
       ],
@@ -34410,7 +34442,7 @@
       "categories": [
         "chambres d’agriculture "
       ],
-      "index": 900,
+      "index": 901,
       "isNSFW": false,
       "validated": true
     },
@@ -34444,7 +34476,7 @@
       "categories": [
         "companie de transport strasbourgeoise "
       ],
-      "index": 901,
+      "index": 902,
       "isNSFW": false,
       "validated": true
     },
@@ -34485,7 +34517,7 @@
       "slug": "seniordating",
       "path": "breaches/seniordating",
       "formattedDate": "2024-11-23",
-      "index": 902,
+      "index": 903,
       "categories": [
         "SeniorDating"
       ],
@@ -34523,7 +34555,7 @@
       "categories": [
         "banque de france "
       ],
-      "index": 903,
+      "index": 904,
       "isNSFW": false,
       "validated": true
     },
@@ -34557,7 +34589,7 @@
       "categories": [
         "sfr "
       ],
-      "index": 904,
+      "index": 905,
       "isNSFW": false,
       "validated": true
     },
@@ -34591,7 +34623,7 @@
       "categories": [
         "jvs "
       ],
-      "index": 905,
+      "index": 906,
       "isNSFW": false,
       "validated": true
     },
@@ -34625,7 +34657,7 @@
       "categories": [
         "ze camping "
       ],
-      "index": 906,
+      "index": 907,
       "isNSFW": false,
       "validated": true
     },
@@ -34659,7 +34691,7 @@
       "categories": [
         "norauto "
       ],
-      "index": 907,
+      "index": 908,
       "isNSFW": false,
       "validated": true
     },
@@ -34693,7 +34725,7 @@
       "categories": [
         "guy demarle "
       ],
-      "index": 908,
+      "index": 909,
       "isNSFW": false,
       "validated": true
     },
@@ -34727,7 +34759,7 @@
       "categories": [
         "deloitte "
       ],
-      "index": 909,
+      "index": 910,
       "isNSFW": false,
       "validated": true
     },
@@ -34761,7 +34793,7 @@
       "categories": [
         "ldlc "
       ],
-      "index": 910,
+      "index": 911,
       "isNSFW": false,
       "validated": true
     },
@@ -34794,7 +34826,7 @@
       "slug": "younglivingessentialoils",
       "path": "breaches/younglivingessentialoils",
       "formattedDate": "2024-12-11",
-      "index": 911,
+      "index": 912,
       "categories": [
         "YoungLivingEssentialOils"
       ],
@@ -34832,7 +34864,7 @@
       "categories": [
         "top achat "
       ],
-      "index": 912,
+      "index": 913,
       "isNSFW": false,
       "validated": true
     },
@@ -34871,7 +34903,7 @@
       "slug": "bitview",
       "path": "breaches/bitview",
       "formattedDate": "2024-12-14",
-      "index": 913,
+      "index": 914,
       "categories": [
         "BitView"
       ],
@@ -34909,7 +34941,7 @@
       "categories": [
         "electro dépôt "
       ],
-      "index": 914,
+      "index": 915,
       "isNSFW": false,
       "validated": true
     },
@@ -34942,7 +34974,7 @@
       "slug": "speedio",
       "path": "breaches/speedio",
       "formattedDate": "2024-12-24",
-      "index": 915,
+      "index": 916,
       "categories": [
         "Speedio"
       ],
@@ -34980,7 +35012,7 @@
       "categories": [
         "cyberhaven "
       ],
-      "index": 916,
+      "index": 917,
       "isNSFW": false,
       "validated": true
     },
@@ -35014,7 +35046,7 @@
       "categories": [
         "peugeot "
       ],
-      "index": 917,
+      "index": 918,
       "isNSFW": false,
       "validated": true
     },
@@ -35048,7 +35080,7 @@
       "categories": [
         "arsoé "
       ],
-      "index": 918,
+      "index": 919,
       "isNSFW": false,
       "validated": true
     },
@@ -35082,7 +35114,7 @@
       "categories": [
         "volkswagen "
       ],
-      "index": 919,
+      "index": 920,
       "isNSFW": false,
       "validated": true
     },
@@ -35116,7 +35148,7 @@
       "categories": [
         "atos "
       ],
-      "index": 920,
+      "index": 921,
       "isNSFW": false,
       "validated": true
     },
@@ -35150,7 +35182,7 @@
       "categories": [
         "cogitis "
       ],
-      "index": 921,
+      "index": 922,
       "isNSFW": false,
       "validated": true
     },
@@ -35183,7 +35215,7 @@
       "slug": "scholastic",
       "path": "breaches/scholastic",
       "formattedDate": "2025-01-08",
-      "index": 922,
+      "index": 923,
       "categories": [
         "Scholastic"
       ],
@@ -35222,7 +35254,7 @@
       "slug": "landairsea",
       "path": "breaches/landairsea",
       "formattedDate": "2025-01-12",
-      "index": 923,
+      "index": 924,
       "categories": [
         "LandAirSea"
       ],
@@ -35257,7 +35289,7 @@
       "slug": "stealerlogsjan2025",
       "path": "breaches/stealerlogsjan2025",
       "formattedDate": "2025-01-13",
-      "index": 924,
+      "index": 925,
       "categories": [
         "StealerLogsJan2025"
       ],
@@ -35295,7 +35327,7 @@
       "categories": [
         "fédération française de force "
       ],
-      "index": 925,
+      "index": 926,
       "isNSFW": false,
       "validated": true
     },
@@ -35329,7 +35361,7 @@
       "categories": [
         "fédération française de roller skateboard "
       ],
-      "index": 926,
+      "index": 927,
       "isNSFW": false,
       "validated": true
     },
@@ -35363,7 +35395,7 @@
       "categories": [
         "kiabi "
       ],
-      "index": 927,
+      "index": 928,
       "isNSFW": false,
       "validated": true
     },
@@ -35396,7 +35428,7 @@
       "slug": "frameandoptic",
       "path": "breaches/frameandoptic",
       "formattedDate": "2025-01-16",
-      "index": 928,
+      "index": 929,
       "categories": [
         "FrameAndOptic"
       ],
@@ -35434,7 +35466,7 @@
       "categories": [
         "fédération française de tir à l'arc "
       ],
-      "index": 929,
+      "index": 930,
       "isNSFW": false,
       "validated": true
     },
@@ -35468,7 +35500,7 @@
       "categories": [
         "fédération française de la montagne et de l'escalade "
       ],
-      "index": 930,
+      "index": 931,
       "isNSFW": false,
       "validated": true
     },
@@ -35502,7 +35534,7 @@
       "categories": [
         "e.leclerc "
       ],
-      "index": 931,
+      "index": 932,
       "isNSFW": false,
       "validated": true
     },
@@ -35536,7 +35568,7 @@
       "categories": [
         "fédération française montagne escalade "
       ],
-      "index": 932,
+      "index": 933,
       "isNSFW": false,
       "validated": true
     },
@@ -35566,7 +35598,7 @@
       "slug": "doxbinscrape",
       "path": "breaches/doxbinscrape",
       "formattedDate": "2025-01-24",
-      "index": 933,
+      "index": 934,
       "categories": [
         "DoxbinScrape"
       ],
@@ -35604,7 +35636,7 @@
       "categories": [
         "aides "
       ],
-      "index": 934,
+      "index": 935,
       "isNSFW": false,
       "validated": true
     },
@@ -35640,7 +35672,7 @@
       "slug": "thermomix",
       "path": "breaches/thermomix",
       "formattedDate": "2025-01-30",
-      "index": 935,
+      "index": 936,
       "categories": [
         "Thermomix"
       ],
@@ -35678,7 +35710,7 @@
       "categories": [
         "espace "
       ],
-      "index": 936,
+      "index": 937,
       "isNSFW": false,
       "validated": true
     },
@@ -35712,7 +35744,7 @@
       "categories": [
         "king jouet "
       ],
-      "index": 937,
+      "index": 938,
       "isNSFW": false,
       "validated": true
     },
@@ -35746,7 +35778,7 @@
       "slug": "lexipol",
       "path": "breaches/lexipol",
       "formattedDate": "2025-02-11",
-      "index": 938,
+      "index": 939,
       "categories": [
         "Lexipol"
       ],
@@ -35784,7 +35816,7 @@
       "categories": [
         "caisse des dépôts et des consignations "
       ],
-      "index": 939,
+      "index": 940,
       "isNSFW": false,
       "validated": true
     },
@@ -35818,7 +35850,7 @@
       "categories": [
         "chronopost "
       ],
-      "index": 940,
+      "index": 941,
       "isNSFW": false,
       "validated": true
     },
@@ -35852,7 +35884,7 @@
       "categories": [
         "mutuelle des motards "
       ],
-      "index": 941,
+      "index": 942,
       "isNSFW": false,
       "validated": true
     },
@@ -35884,7 +35916,7 @@
       "slug": "adpost",
       "path": "breaches/adpost",
       "formattedDate": "2025-02-14",
-      "index": 942,
+      "index": 943,
       "categories": [
         "Adpost"
       ],
@@ -35918,7 +35950,7 @@
       "slug": "cocospy",
       "path": "breaches/cocospy",
       "formattedDate": "2025-02-14",
-      "index": 943,
+      "index": 944,
       "categories": [
         "Cocospy"
       ],
@@ -35952,7 +35984,7 @@
       "slug": "spyic",
       "path": "breaches/spyic",
       "formattedDate": "2025-02-14",
-      "index": 944,
+      "index": 945,
       "categories": [
         "Spyic"
       ],
@@ -35987,7 +36019,7 @@
       "slug": "alienstealerlogs",
       "path": "breaches/alienstealerlogs",
       "formattedDate": "2025-02-15",
-      "index": 945,
+      "index": 946,
       "categories": [
         "AlienStealerLogs"
       ],
@@ -36025,7 +36057,7 @@
       "categories": [
         "sport découverte "
       ],
-      "index": 946,
+      "index": 947,
       "isNSFW": false,
       "validated": true
     },
@@ -36059,7 +36091,7 @@
       "categories": [
         "service départemental d'incendie et de secours de la vienne "
       ],
-      "index": 947,
+      "index": 948,
       "isNSFW": false,
       "validated": true
     },
@@ -36093,7 +36125,7 @@
       "categories": [
         "fédération française de foot "
       ],
-      "index": 948,
+      "index": 949,
       "isNSFW": false,
       "validated": true
     },
@@ -36125,7 +36157,7 @@
       "slug": "orangeromania",
       "path": "breaches/orangeromania",
       "formattedDate": "2025-02-24",
-      "index": 949,
+      "index": 950,
       "categories": [
         "OrangeRomania"
       ],
@@ -36163,7 +36195,7 @@
       "categories": [
         "nord emploi "
       ],
-      "index": 950,
+      "index": 951,
       "isNSFW": false,
       "validated": true
     },
@@ -36197,7 +36229,7 @@
       "categories": [
         "edf dpih "
       ],
-      "index": 951,
+      "index": 952,
       "isNSFW": false,
       "validated": true
     },
@@ -36231,7 +36263,7 @@
       "categories": [
         "zephir "
       ],
-      "index": 952,
+      "index": 953,
       "isNSFW": false,
       "validated": true
     },
@@ -36265,7 +36297,7 @@
       "categories": [
         "école nationale de la sécurité "
       ],
-      "index": 953,
+      "index": 954,
       "isNSFW": false,
       "validated": true
     },
@@ -36299,7 +36331,7 @@
       "categories": [
         "côté sushi "
       ],
-      "index": 954,
+      "index": 955,
       "isNSFW": false,
       "validated": true
     },
@@ -36333,7 +36365,7 @@
       "categories": [
         "la poste "
       ],
-      "index": 955,
+      "index": 956,
       "isNSFW": false,
       "validated": true
     },
@@ -36367,7 +36399,7 @@
       "categories": [
         "utwin "
       ],
-      "index": 956,
+      "index": 957,
       "isNSFW": false,
       "validated": true
     },
@@ -36401,7 +36433,7 @@
       "categories": [
         "laforêt "
       ],
-      "index": 957,
+      "index": 958,
       "isNSFW": false,
       "validated": true
     },
@@ -36435,7 +36467,7 @@
       "categories": [
         "direct assurance "
       ],
-      "index": 958,
+      "index": 959,
       "isNSFW": false,
       "validated": true
     },
@@ -36469,7 +36501,7 @@
       "categories": [
         "intersport "
       ],
-      "index": 959,
+      "index": 960,
       "isNSFW": false,
       "validated": true
     },
@@ -36503,7 +36535,7 @@
       "categories": [
         "éclaireuses et éclaireurs de france "
       ],
-      "index": 960,
+      "index": 961,
       "isNSFW": false,
       "validated": true
     },
@@ -36537,9 +36569,41 @@
       "categories": [
         "autosur  diagnosur "
       ],
-      "index": 961,
+      "index": 962,
       "isNSFW": false,
       "validated": true
+    },
+    {
+      "Name": "autosur & diagnosur fuite du 2025-3-24",
+      "Title": "autosur & diagnosur fuite du 2025-3-24",
+      "Domain": null,
+      "BreachDate": "2025-3-24",
+      "AddedDate": "2026-01-03T10:06:24.459Z",
+      "ModifiedDate": "2026-01-03T10:06:24.459Z",
+      "PwnCount": 0,
+      "Description": "-\n\nnom\nprénom\nadresse email et postale\nnuméro de téléphone\nplace d’immatriculation]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "autosur-diagnosur-fuite-du-2025-3-24",
+      "path": "https://bonjourlafuite.eu.org/img/autosur.jpg",
+      "formattedDate": "2025-03-24",
+      "title": "autosur & diagnosur fuite du 2025-3-24",
+      "date": "2025-3-24",
+      "lien": "https://bonjourlafuite.eu.org/img/autosur.jpg",
+      "categories": [
+        "autosur & diagnosur"
+      ],
+      "index": 963
     },
     {
       "Name": "cerballiance fuite du 2025-3-25",
@@ -36571,7 +36635,7 @@
       "categories": [
         "cerballiance "
       ],
-      "index": 962,
+      "index": 964,
       "isNSFW": false,
       "validated": true
     },
@@ -36603,7 +36667,7 @@
       "slug": "troyhuntmailchimplist",
       "path": "breaches/troyhuntmailchimplist",
       "formattedDate": "2025-03-25",
-      "index": 963,
+      "index": 965,
       "categories": [
         "TroyHuntMailchimpList"
       ],
@@ -36641,7 +36705,7 @@
       "categories": [
         "centrale nantes "
       ],
-      "index": 964,
+      "index": 966,
       "isNSFW": false,
       "validated": true
     },
@@ -36673,7 +36737,7 @@
       "slug": "tehetsegkapu",
       "path": "breaches/tehetsegkapu",
       "formattedDate": "2025-03-26",
-      "index": 965,
+      "index": 967,
       "categories": [
         "TehetsegKapu"
       ],
@@ -36711,7 +36775,7 @@
       "categories": [
         "oracle cloud "
       ],
-      "index": 966,
+      "index": 968,
       "isNSFW": false,
       "validated": true
     },
@@ -36744,7 +36808,7 @@
       "slug": "germandonerkebab",
       "path": "breaches/germandonerkebab",
       "formattedDate": "2025-03-27",
-      "index": 967,
+      "index": 969,
       "categories": [
         "GermanDonerKebab"
       ],
@@ -36782,9 +36846,41 @@
       "categories": [
         "maif  bpce "
       ],
-      "index": 968,
+      "index": 970,
       "isNSFW": false,
       "validated": true
+    },
+    {
+      "Name": "maif & bpce fuite du 2025-3-28",
+      "Title": "maif & bpce fuite du 2025-3-28",
+      "Domain": null,
+      "BreachDate": "2025-3-28",
+      "AddedDate": "2026-01-03T10:06:25.251Z",
+      "ModifiedDate": "2026-01-03T10:06:25.251Z",
+      "PwnCount": 0,
+      "Description": "-\n\nnom\ngenre\ndate de naissance\nsituation matrimoniale et professionnelle\nadresse postale\nadresse email\nnuméro de téléphone\nrevenus\npatrimoine\nnuméro de sociétaire]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "maif-bpce-fuite-du-2025-3-28",
+      "path": "https://bonjourlafuite.eu.org/img/maif.png",
+      "formattedDate": "2025-03-28",
+      "title": "maif & bpce fuite du 2025-3-28",
+      "date": "2025-3-28",
+      "lien": "https://bonjourlafuite.eu.org/img/maif.png",
+      "categories": [
+        "maif & bpce"
+      ],
+      "index": 971
     },
     {
       "Name": "SamsungGermany",
@@ -36818,7 +36914,7 @@
       "slug": "samsunggermany",
       "path": "breaches/samsunggermany",
       "formattedDate": "2025-03-30",
-      "index": 969,
+      "index": 972,
       "categories": [
         "SamsungGermany"
       ],
@@ -36856,7 +36952,7 @@
       "categories": [
         "reporterre "
       ],
-      "index": 970,
+      "index": 973,
       "isNSFW": false,
       "validated": true
     },
@@ -36890,7 +36986,7 @@
       "categories": [
         "utwin "
       ],
-      "index": 971,
+      "index": 974,
       "isNSFW": false,
       "validated": true
     },
@@ -36924,7 +37020,7 @@
       "categories": [
         "harvest "
       ],
-      "index": 972,
+      "index": 975,
       "isNSFW": false,
       "validated": true
     },
@@ -36955,7 +37051,7 @@
       "slug": "synthientcredentialstuffingthreatdata",
       "path": "breaches/synthientcredentialstuffingthreatdata",
       "formattedDate": "2025-04-11",
-      "index": 973,
+      "index": 976,
       "categories": [
         "SynthientCredentialStuffingThreatData"
       ],
@@ -36990,7 +37086,7 @@
       "slug": "synthientstealerlogthreatdata",
       "path": "breaches/synthientstealerlogthreatdata",
       "formattedDate": "2025-04-11",
-      "index": 974,
+      "index": 977,
       "categories": [
         "SynthientStealerLogThreatData"
       ],
@@ -37028,7 +37124,7 @@
       "categories": [
         "afflelou "
       ],
-      "index": 975,
+      "index": 978,
       "isNSFW": false,
       "validated": true
     },
@@ -37062,7 +37158,7 @@
       "categories": [
         "hertz "
       ],
-      "index": 976,
+      "index": 979,
       "isNSFW": false,
       "validated": true
     },
@@ -37096,7 +37192,7 @@
       "categories": [
         "indigo "
       ],
-      "index": 977,
+      "index": 980,
       "isNSFW": false,
       "validated": true
     },
@@ -37130,7 +37226,7 @@
       "categories": [
         "easy cash "
       ],
-      "index": 978,
+      "index": 981,
       "isNSFW": false,
       "validated": true
     },
@@ -37164,7 +37260,7 @@
       "categories": [
         "carrefour mobile "
       ],
-      "index": 979,
+      "index": 982,
       "isNSFW": false,
       "validated": true
     },
@@ -37198,7 +37294,7 @@
       "categories": [
         "cerballiance "
       ],
-      "index": 980,
+      "index": 983,
       "isNSFW": false,
       "validated": true
     },
@@ -37231,7 +37327,7 @@
       "slug": "creamscafe",
       "path": "breaches/creamscafe",
       "formattedDate": "2025-05-01",
-      "index": 981,
+      "index": 984,
       "categories": [
         "CreamsCafe"
       ],
@@ -37269,7 +37365,7 @@
       "slug": "ualabee",
       "path": "breaches/ualabee",
       "formattedDate": "2025-05-06",
-      "index": 982,
+      "index": 985,
       "categories": [
         "Ualabee"
       ],
@@ -37307,7 +37403,7 @@
       "categories": [
         "dior "
       ],
-      "index": 983,
+      "index": 986,
       "isNSFW": false,
       "validated": true
     },
@@ -37341,7 +37437,7 @@
       "categories": [
         "pulsy "
       ],
-      "index": 984,
+      "index": 987,
       "isNSFW": false,
       "validated": true
     },
@@ -37372,7 +37468,7 @@
       "slug": "operationendgame2",
       "path": "breaches/operationendgame2",
       "formattedDate": "2025-05-23",
-      "index": 985,
+      "index": 988,
       "categories": [
         "OperationEndgame2"
       ],
@@ -37408,7 +37504,7 @@
       "slug": "colocrossing",
       "path": "breaches/colocrossing",
       "formattedDate": "2025-05-24",
-      "index": 986,
+      "index": 989,
       "categories": [
         "ColoCrossing"
       ],
@@ -37446,7 +37542,7 @@
       "categories": [
         "autosur "
       ],
-      "index": 987,
+      "index": 990,
       "isNSFW": false,
       "validated": true
     },
@@ -37480,7 +37576,7 @@
       "categories": [
         "cartier "
       ],
-      "index": 988,
+      "index": 991,
       "isNSFW": false,
       "validated": true
     },
@@ -37514,7 +37610,7 @@
       "categories": [
         "kaviari "
       ],
-      "index": 989,
+      "index": 992,
       "isNSFW": false,
       "validated": true
     },
@@ -37547,7 +37643,7 @@
       "slug": "omnicuris",
       "path": "breaches/omnicuris",
       "formattedDate": "2025-06-08",
-      "index": 990,
+      "index": 993,
       "categories": [
         "Omnicuris"
       ],
@@ -37582,7 +37678,7 @@
       "slug": "catwatchful",
       "path": "breaches/catwatchful",
       "formattedDate": "2025-06-09",
-      "index": 991,
+      "index": 994,
       "categories": [
         "Catwatchful"
       ],
@@ -37617,7 +37713,7 @@
       "slug": "datatrollstealerlogs",
       "path": "breaches/datatrollstealerlogs",
       "formattedDate": "2025-06-20",
-      "index": 992,
+      "index": 995,
       "categories": [
         "DataTrollStealerLogs"
       ],
@@ -37655,7 +37751,7 @@
       "slug": "vietnamairlines",
       "path": "breaches/vietnamairlines",
       "formattedDate": "2025-06-20",
-      "index": 993,
+      "index": 996,
       "categories": [
         "VietnamAirlines"
       ],
@@ -37693,7 +37789,7 @@
       "categories": [
         "disneyland "
       ],
-      "index": 994,
+      "index": 997,
       "isNSFW": false,
       "validated": true
     },
@@ -37727,7 +37823,7 @@
       "categories": [
         "hôpital privé de la loire "
       ],
-      "index": 995,
+      "index": 998,
       "isNSFW": false,
       "validated": true
     },
@@ -37760,7 +37856,7 @@
       "slug": "mareads",
       "path": "breaches/mareads",
       "formattedDate": "2025-06-22",
-      "index": 996,
+      "index": 999,
       "categories": [
         "MaReads"
       ],
@@ -37797,7 +37893,7 @@
       "slug": "thesquare",
       "path": "breaches/thesquare",
       "formattedDate": "2025-06-27",
-      "index": 997,
+      "index": 1000,
       "categories": [
         "TheSquare"
       ],
@@ -37835,7 +37931,7 @@
       "categories": [
         "union nationale du sport scolaire "
       ],
-      "index": 998,
+      "index": 1001,
       "isNSFW": false,
       "validated": true
     },
@@ -37869,7 +37965,7 @@
       "categories": [
         "centre national de la fonction publique territoriale "
       ],
-      "index": 999,
+      "index": 1002,
       "isNSFW": false,
       "validated": true
     },
@@ -37903,7 +37999,7 @@
       "categories": [
         "louis vuitton "
       ],
-      "index": 1000,
+      "index": 1003,
       "isNSFW": false,
       "validated": true
     },
@@ -37937,7 +38033,7 @@
       "categories": [
         "sorbonne université "
       ],
-      "index": 1001,
+      "index": 1004,
       "isNSFW": false,
       "validated": true
     },
@@ -37972,7 +38068,7 @@
       "slug": "allianzlife",
       "path": "breaches/allianzlife",
       "formattedDate": "2025-07-16",
-      "index": 1002,
+      "index": 1005,
       "categories": [
         "AllianzLife"
       ],
@@ -38010,7 +38106,7 @@
       "categories": [
         "france travail "
       ],
-      "index": 1003,
+      "index": 1006,
       "isNSFW": false,
       "validated": true
     },
@@ -38044,7 +38140,7 @@
       "categories": [
         "groupe 5àsec "
       ],
-      "index": 1004,
+      "index": 1007,
       "isNSFW": false,
       "validated": true
     },
@@ -38078,7 +38174,7 @@
       "categories": [
         "orange "
       ],
-      "index": 1005,
+      "index": 1008,
       "isNSFW": false,
       "validated": true
     },
@@ -38113,7 +38209,7 @@
       "slug": "hellocake",
       "path": "breaches/hellocake",
       "formattedDate": "2025-07-25",
-      "index": 1006,
+      "index": 1009,
       "categories": [
         "HelloCake"
       ],
@@ -38148,7 +38244,7 @@
       "slug": "thepi-hole",
       "path": "breaches/thepi-hole",
       "formattedDate": "2025-07-30",
-      "index": 1007,
+      "index": 1010,
       "categories": [
         "ThePi-Hole"
       ],
@@ -38186,7 +38282,7 @@
       "categories": [
         "thepi "
       ],
-      "index": 1008,
+      "index": 1011,
       "isNSFW": false,
       "validated": true
     },
@@ -38220,7 +38316,7 @@
       "categories": [
         "thepi "
       ],
-      "index": 1009,
+      "index": 1012,
       "isNSFW": false,
       "validated": true
     },
@@ -38255,7 +38351,7 @@
       "slug": "bouyguestelecom",
       "path": "breaches/bouyguestelecom",
       "formattedDate": "2025-08-04",
-      "index": 1010,
+      "index": 1013,
       "categories": [
         "BouyguesTelecom"
       ],
@@ -38296,7 +38392,7 @@
       "categories": [
         "pandora "
       ],
-      "index": 1011,
+      "index": 1014,
       "isNSFW": false,
       "validated": true
     },
@@ -38330,7 +38426,7 @@
       "categories": [
         "air france "
       ],
-      "index": 1012,
+      "index": 1015,
       "isNSFW": false,
       "validated": true
     },
@@ -38364,7 +38460,7 @@
       "categories": [
         "bouygues telecom"
       ],
-      "index": 1013,
+      "index": 1016,
       "validated": true,
       "isNSFW": false
     },
@@ -38398,7 +38494,7 @@
       "categories": [
         "optic 2000 "
       ],
-      "index": 1014,
+      "index": 1017,
       "isNSFW": false,
       "validated": true
     },
@@ -38431,7 +38527,7 @@
       "slug": "giglio",
       "path": "breaches/giglio",
       "formattedDate": "2025-08-09",
-      "index": 1015,
+      "index": 1018,
       "categories": [
         "Giglio"
       ],
@@ -38469,7 +38565,7 @@
       "categories": [
         "alltricks "
       ],
-      "index": 1016,
+      "index": 1019,
       "isNSFW": false,
       "validated": true
     },
@@ -38503,7 +38599,7 @@
       "categories": [
         "france travail "
       ],
-      "index": 1017,
+      "index": 1020,
       "isNSFW": false,
       "validated": true
     },
@@ -38537,7 +38633,7 @@
       "categories": [
         "france link interactive "
       ],
-      "index": 1018,
+      "index": 1021,
       "isNSFW": false,
       "validated": true
     },
@@ -38571,7 +38667,7 @@
       "categories": [
         "google "
       ],
-      "index": 1019,
+      "index": 1022,
       "isNSFW": false,
       "validated": true
     },
@@ -38605,7 +38701,7 @@
       "categories": [
         "partner immo "
       ],
-      "index": 1020,
+      "index": 1023,
       "isNSFW": false,
       "validated": true
     },
@@ -38639,7 +38735,7 @@
       "categories": [
         "auchan "
       ],
-      "index": 1021,
+      "index": 1024,
       "isNSFW": false,
       "validated": true
     },
@@ -38675,7 +38771,7 @@
       "slug": "miljodata",
       "path": "breaches/miljodata",
       "formattedDate": "2025-08-25",
-      "index": 1022,
+      "index": 1025,
       "categories": [
         "Miljodata"
       ],
@@ -38712,7 +38808,7 @@
       "slug": "artistsnclients",
       "path": "breaches/artistsnclients",
       "formattedDate": "2025-08-31",
-      "index": 1023,
+      "index": 1026,
       "categories": [
         "ArtistsNClients"
       ],
@@ -38755,7 +38851,7 @@
       "slug": "prosper",
       "path": "breaches/prosper",
       "formattedDate": "2025-09-01",
-      "index": 1024,
+      "index": 1027,
       "categories": [
         "Prosper"
       ],
@@ -38793,7 +38889,7 @@
       "categories": [
         "eklo "
       ],
-      "index": 1025,
+      "index": 1028,
       "isNSFW": false,
       "validated": true
     },
@@ -38827,7 +38923,7 @@
       "categories": [
         "plex "
       ],
-      "index": 1026,
+      "index": 1029,
       "isNSFW": false,
       "validated": true
     },
@@ -38861,7 +38957,7 @@
       "categories": [
         "clarins "
       ],
-      "index": 1027,
+      "index": 1030,
       "isNSFW": false,
       "validated": true
     },
@@ -38895,7 +38991,7 @@
       "categories": [
         "fédération française de tennis de table "
       ],
-      "index": 1028,
+      "index": 1031,
       "isNSFW": false,
       "validated": true
     },
@@ -38929,7 +39025,7 @@
       "categories": [
         "digital charging solutions "
       ],
-      "index": 1029,
+      "index": 1032,
       "isNSFW": false,
       "validated": true
     },
@@ -38963,7 +39059,7 @@
       "categories": [
         "inovie labosud "
       ],
-      "index": 1030,
+      "index": 1033,
       "isNSFW": false,
       "validated": true
     },
@@ -38997,7 +39093,7 @@
       "categories": [
         "france travail "
       ],
-      "index": 1031,
+      "index": 1034,
       "isNSFW": false,
       "validated": true
     },
@@ -39031,7 +39127,7 @@
       "categories": [
         "la nef "
       ],
-      "index": 1032,
+      "index": 1035,
       "isNSFW": false,
       "validated": true
     },
@@ -39065,7 +39161,7 @@
       "categories": [
         "artistsnclients "
       ],
-      "index": 1033,
+      "index": 1036,
       "isNSFW": false,
       "validated": true
     },
@@ -39099,7 +39195,7 @@
       "categories": [
         "discord "
       ],
-      "index": 1034,
+      "index": 1037,
       "isNSFW": false,
       "validated": true
     },
@@ -39133,7 +39229,7 @@
       "categories": [
         "france travail "
       ],
-      "index": 1035,
+      "index": 1038,
       "isNSFW": false,
       "validated": true
     },
@@ -39167,7 +39263,7 @@
       "slug": "tisza",
       "path": "breaches/tisza",
       "formattedDate": "2025-10-06",
-      "index": 1036,
+      "index": 1039,
       "categories": [
         "Tisza"
       ],
@@ -39205,7 +39301,7 @@
       "categories": [
         "adpost "
       ],
-      "index": 1037,
+      "index": 1040,
       "isNSFW": false,
       "validated": true
     },
@@ -39239,7 +39335,7 @@
       "categories": [
         "vietnamairlines "
       ],
-      "index": 1038,
+      "index": 1041,
       "isNSFW": false,
       "validated": true
     },
@@ -39273,7 +39369,7 @@
       "categories": [
         "lycées des hauts "
       ],
-      "index": 1039,
+      "index": 1042,
       "isNSFW": false,
       "validated": true
     },
@@ -39307,7 +39403,7 @@
       "categories": [
         "agence régionale de santé des hauts "
       ],
-      "index": 1040,
+      "index": 1043,
       "isNSFW": false,
       "validated": true
     },
@@ -39341,7 +39437,7 @@
       "categories": [
         "hellocake "
       ],
-      "index": 1041,
+      "index": 1044,
       "isNSFW": true,
       "validated": true
     },
@@ -39375,7 +39471,7 @@
       "categories": [
         "mango "
       ],
-      "index": 1042,
+      "index": 1045,
       "isNSFW": false,
       "validated": true
     },
@@ -39409,7 +39505,7 @@
       "categories": [
         "prosper "
       ],
-      "index": 1043,
+      "index": 1046,
       "isNSFW": false,
       "validated": true
     },
@@ -39443,7 +39539,7 @@
       "categories": [
         "centre hospitalier intercommunal de haute "
       ],
-      "index": 1044,
+      "index": 1047,
       "isNSFW": false,
       "validated": true
     },
@@ -39477,7 +39573,7 @@
       "categories": [
         "synthientstealerlogthreatdata "
       ],
-      "index": 1045,
+      "index": 1048,
       "isNSFW": false,
       "validated": true
     },
@@ -39511,7 +39607,7 @@
       "categories": [
         "agences régionales de santé de l’île "
       ],
-      "index": 1046,
+      "index": 1049,
       "isNSFW": false,
       "validated": true
     },
@@ -39545,7 +39641,7 @@
       "categories": [
         "fédération française de tir "
       ],
-      "index": 1047,
+      "index": 1050,
       "isNSFW": false,
       "validated": true
     },
@@ -39577,7 +39673,7 @@
       "slug": "myvidster2025",
       "path": "breaches/myvidster2025",
       "formattedDate": "2025-10-24",
-      "index": 1048,
+      "index": 1051,
       "categories": [
         "MyVidster2025"
       ],
@@ -39615,7 +39711,7 @@
       "categories": [
         "myvidster2025 "
       ],
-      "index": 1049,
+      "index": 1052,
       "isNSFW": false,
       "validated": true
     },
@@ -39649,7 +39745,7 @@
       "categories": [
         "poltronesofa "
       ],
-      "index": 1050,
+      "index": 1053,
       "isNSFW": false,
       "validated": true
     },
@@ -39683,7 +39779,7 @@
       "categories": [
         "france travail "
       ],
-      "index": 1051,
+      "index": 1054,
       "isNSFW": false,
       "validated": true
     },
@@ -39717,7 +39813,7 @@
       "categories": [
         "synthientcredentialstuffingthreatdata "
       ],
-      "index": 1052,
+      "index": 1055,
       "isNSFW": false,
       "validated": true
     },
@@ -39751,7 +39847,7 @@
       "categories": [
         "mym "
       ],
-      "index": 1053,
+      "index": 1056,
       "isNSFW": true,
       "validated": true
     },
@@ -39785,7 +39881,7 @@
       "categories": [
         "tisza "
       ],
-      "index": 1054,
+      "index": 1057,
       "isNSFW": false,
       "validated": true
     },
@@ -39819,7 +39915,7 @@
       "categories": [
         "oui heberg "
       ],
-      "index": 1055,
+      "index": 1058,
       "isNSFW": false,
       "validated": true
     },
@@ -39853,7 +39949,7 @@
       "categories": [
         "fédération française de cardiologie "
       ],
-      "index": 1056,
+      "index": 1059,
       "isNSFW": false,
       "validated": true
     },
@@ -39887,7 +39983,7 @@
       "categories": [
         "weda"
       ],
-      "index": 1057,
+      "index": 1060,
       "isNSFW": false,
       "validated": true
     },
@@ -39921,7 +40017,7 @@
       "categories": [
         "operationendgame3 "
       ],
-      "index": 1058,
+      "index": 1061,
       "isNSFW": false,
       "validated": true
     },
@@ -39955,7 +40051,7 @@
       "categories": [
         "eurofiber "
       ],
-      "index": 1059,
+      "index": 1062,
       "isNSFW": false,
       "validated": true
     },
@@ -39989,7 +40085,7 @@
       "categories": [
         "mairie de brest "
       ],
-      "index": 1060,
+      "index": 1063,
       "isNSFW": false,
       "validated": true
     },
@@ -40023,7 +40119,7 @@
       "categories": [
         "pajemploi "
       ],
-      "index": 1061,
+      "index": 1064,
       "isNSFW": false,
       "validated": true
     },
@@ -40057,7 +40153,7 @@
       "categories": [
         "santé pro "
       ],
-      "index": 1062,
+      "index": 1065,
       "isNSFW": false,
       "validated": true
     },
@@ -40091,7 +40187,7 @@
       "categories": [
         "resana "
       ],
-      "index": 1063,
+      "index": 1066,
       "isNSFW": false,
       "validated": true
     },
@@ -40125,7 +40221,7 @@
       "categories": [
         "synbird "
       ],
-      "index": 1064,
+      "index": 1067,
       "isNSFW": false,
       "validated": true
     },
@@ -40159,7 +40255,7 @@
       "categories": [
         "mairie d’alfortville "
       ],
-      "index": 1065,
+      "index": 1068,
       "isNSFW": false,
       "validated": true
     },
@@ -40193,7 +40289,7 @@
       "categories": [
         "beckett "
       ],
-      "index": 1066,
+      "index": 1069,
       "isNSFW": false,
       "validated": true
     },
@@ -40227,7 +40323,7 @@
       "categories": [
         "iko "
       ],
-      "index": 1067,
+      "index": 1070,
       "isNSFW": false,
       "validated": true
     },
@@ -40261,7 +40357,7 @@
       "categories": [
         "vultr "
       ],
-      "index": 1068,
+      "index": 1071,
       "isNSFW": false,
       "validated": true
     },
@@ -40295,7 +40391,7 @@
       "categories": [
         "colis privé "
       ],
-      "index": 1069,
+      "index": 1072,
       "isNSFW": false,
       "validated": true
     },
@@ -40329,9 +40425,41 @@
       "categories": [
         "michelin "
       ],
-      "index": 1070,
+      "index": 1073,
       "isNSFW": false,
       "validated": true
+    },
+    {
+      "Name": "murfy fuite du 2025-11-21",
+      "Title": "murfy fuite du 2025-11-21",
+      "Domain": null,
+      "BreachDate": "2025-11-21T00:00:00.000Z",
+      "AddedDate": "2026-01-03T10:06:25.440Z",
+      "ModifiedDate": "2026-01-03T10:06:25.440Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse email\nAdresse postale\nNuméro de téléphone\nSolde du compte\nMessages échangées\nCommentaires\nMotif des visites\nRéparateur]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "murfy-fuite-du-2025-11-21",
+      "path": "https://bonjourlafuite.eu.org/img/murfy.jpg",
+      "formattedDate": "2025-11-21",
+      "title": "murfy fuite du 2025-11-21",
+      "date": "2025-11-21T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/murfy.jpg",
+      "categories": [
+        "murfy"
+      ],
+      "index": 1074
     },
     {
       "Name": "adda fuite du 2025-11-23",
@@ -40363,7 +40491,7 @@
       "categories": [
         "adda "
       ],
-      "index": 1071,
+      "index": 1075,
       "isNSFW": false,
       "validated": true
     },
@@ -40397,7 +40525,7 @@
       "categories": [
         "codestepbystep "
       ],
-      "index": 1072,
+      "index": 1076,
       "isNSFW": false,
       "validated": true
     },
@@ -40431,7 +40559,7 @@
       "categories": [
         "aprs "
       ],
-      "index": 1073,
+      "index": 1077,
       "isNSFW": false,
       "validated": true
     },
@@ -40465,7 +40593,7 @@
       "categories": [
         "mairie de chatou "
       ],
-      "index": 1074,
+      "index": 1078,
       "isNSFW": false,
       "validated": true
     },
@@ -40499,7 +40627,7 @@
       "categories": [
         "mairie de quimper "
       ],
-      "index": 1075,
+      "index": 1079,
       "isNSFW": false,
       "validated": true
     },
@@ -40533,7 +40661,7 @@
       "categories": [
         "mairie de saint "
       ],
-      "index": 1076,
+      "index": 1080,
       "isNSFW": false,
       "validated": true
     },
@@ -40567,7 +40695,7 @@
       "categories": [
         "malakoff humanis"
       ],
-      "index": 1077,
+      "index": 1081,
       "isNSFW": false,
       "validated": true
     },
@@ -40601,7 +40729,7 @@
       "categories": [
         "murfy "
       ],
-      "index": 1078,
+      "index": 1082,
       "isNSFW": false,
       "validated": true
     },
@@ -40635,7 +40763,7 @@
       "categories": [
         "ag2r la mondiale "
       ],
-      "index": 1079,
+      "index": 1083,
       "isNSFW": false,
       "validated": true
     },
@@ -40669,7 +40797,7 @@
       "categories": [
         "clinique du millénaire "
       ],
-      "index": 1080,
+      "index": 1084,
       "isNSFW": false,
       "validated": true
     },
@@ -40703,7 +40831,7 @@
       "categories": [
         "fédération française de danse "
       ],
-      "index": 1081,
+      "index": 1085,
       "isNSFW": false,
       "validated": true
     },
@@ -40737,7 +40865,7 @@
       "categories": [
         "itelis "
       ],
-      "index": 1082,
+      "index": 1086,
       "isNSFW": false,
       "validated": true
     },
@@ -40771,7 +40899,7 @@
       "categories": [
         "weda msp du pré vicinal "
       ],
-      "index": 1083,
+      "index": 1087,
       "isNSFW": false,
       "validated": true
     },
@@ -40805,7 +40933,7 @@
       "categories": [
         "itac fédération française de danse"
       ],
-      "index": 1084,
+      "index": 1088,
       "validated": true,
       "isNSFW": false
     },
@@ -40839,7 +40967,7 @@
       "categories": [
         "weda clinique du millénaire"
       ],
-      "index": 1085,
+      "index": 1089,
       "validated": true,
       "isNSFW": false
     },
@@ -40873,7 +41001,7 @@
       "categories": [
         "msp du pré vicinal"
       ],
-      "index": 1086,
+      "index": 1090,
       "isNSFW": false,
       "validated": true
     },
@@ -40907,7 +41035,7 @@
       "categories": [
         "proxiserve"
       ],
-      "index": 1087,
+      "index": 1091,
       "validated": true
     },
     {
@@ -40940,7 +41068,7 @@
       "categories": [
         "csdn "
       ],
-      "index": 1088,
+      "index": 1092,
       "isNSFW": false,
       "validated": true
     },
@@ -40974,7 +41102,7 @@
       "categories": [
         "footclub fédération française de foot "
       ],
-      "index": 1089,
+      "index": 1093,
       "isNSFW": false,
       "validated": true
     },
@@ -41008,7 +41136,7 @@
       "categories": [
         "synbird la rochelle "
       ],
-      "index": 1090,
+      "index": 1094,
       "isNSFW": false,
       "validated": true
     },
@@ -41042,7 +41170,7 @@
       "categories": [
         "weda msp givors presqu’île "
       ],
-      "index": 1091,
+      "index": 1095,
       "isNSFW": false,
       "validated": true
     },
@@ -41076,7 +41204,7 @@
       "categories": [
         "msp givors presqu’île"
       ],
-      "index": 1092,
+      "index": 1096,
       "isNSFW": false,
       "validated": true
     },
@@ -41110,7 +41238,7 @@
       "categories": [
         "fédération française de foot"
       ],
-      "index": 1093,
+      "index": 1097,
       "validated": true,
       "isNSFW": false
     },
@@ -41144,7 +41272,7 @@
       "categories": [
         "la rochelle"
       ],
-      "index": 1094,
+      "index": 1098,
       "validated": true,
       "isNSFW": false
     },
@@ -41178,7 +41306,7 @@
       "categories": [
         "la centrale du financement "
       ],
-      "index": 1095,
+      "index": 1099,
       "isNSFW": false,
       "validated": true
     },
@@ -41212,7 +41340,7 @@
       "categories": [
         "zilvia "
       ],
-      "index": 1096,
+      "index": 1100,
       "isNSFW": false,
       "validated": true
     },
@@ -41246,7 +41374,7 @@
       "categories": [
         "france travail "
       ],
-      "index": 1097,
+      "index": 1101,
       "isNSFW": false,
       "validated": true
     },
@@ -41280,7 +41408,7 @@
       "categories": [
         "leroy merlin"
       ],
-      "index": 1098,
+      "index": 1102,
       "validated": true,
       "isNSFW": false
     },
@@ -41314,7 +41442,7 @@
       "categories": [
         "médecin direct"
       ],
-      "index": 1099,
+      "index": 1103,
       "validated": true,
       "isNSFW": false
     },
@@ -41348,7 +41476,7 @@
       "categories": [
         "itelis asaf  afps"
       ],
-      "index": 1100,
+      "index": 1104,
       "validated": true,
       "isNSFW": false
     },
@@ -41382,7 +41510,7 @@
       "categories": [
         "gesthand fédération française de handball"
       ],
-      "index": 1101,
+      "index": 1105,
       "validated": true,
       "isNSFW": false
     },
@@ -41416,7 +41544,7 @@
       "categories": [
         "schmidt"
       ],
-      "index": 1102,
+      "index": 1106,
       "validated": true,
       "isNSFW": false
     },
@@ -41450,7 +41578,7 @@
       "categories": [
         "cuisinella"
       ],
-      "index": 1103,
+      "index": 1107,
       "validated": true,
       "isNSFW": false
     },
@@ -41484,7 +41612,7 @@
       "categories": [
         "asaf  afps"
       ],
-      "index": 1104,
+      "index": 1108,
       "isNSFW": false,
       "validated": true
     },
@@ -41518,9 +41646,41 @@
       "categories": [
         "fédération française de handball"
       ],
-      "index": 1105,
+      "index": 1109,
       "isNSFW": false,
       "validated": true
+    },
+    {
+      "Name": "asaf & afps fuite du 2025-12-5",
+      "Title": "asaf & afps fuite du 2025-12-5",
+      "Domain": null,
+      "BreachDate": "2025-12-5",
+      "AddedDate": "2026-01-03T10:06:24.395Z",
+      "ModifiedDate": "2026-01-03T10:06:24.395Z",
+      "PwnCount": 0,
+      "Description": "-\n\nnom\nprénom\ndate de naissance\nnuméro de sécurité sociale\ndossier de remboursement\ndonnées de correction visuelle\nnuméro de téléphone]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "asaf-afps-fuite-du-2025-12-5",
+      "path": "https://bonjourlafuite.eu.org/img/asaf-afps.jpg",
+      "formattedDate": "2025-12-05",
+      "title": "asaf & afps fuite du 2025-12-5",
+      "date": "2025-12-5",
+      "lien": "https://bonjourlafuite.eu.org/img/asaf-afps.jpg",
+      "categories": [
+        "asaf & afps"
+      ],
+      "index": 1110
     },
     {
       "Name": "ufolep fuite du 2025-12-10",
@@ -41552,7 +41712,7 @@
       "categories": [
         "ufolep"
       ],
-      "index": 1106,
+      "index": 1111,
       "isNSFW": false,
       "validated": true
     },
@@ -41586,7 +41746,7 @@
       "categories": [
         "fédération française de cyclisme"
       ],
-      "index": 1107,
+      "index": 1112,
       "isNSFW": false,
       "validated": true
     },
@@ -41620,7 +41780,7 @@
       "categories": [
         "résidence du parc (champdeniers"
       ],
-      "index": 1108,
+      "index": 1113,
       "validated": true,
       "isNSFW": false
     },
@@ -41654,7 +41814,7 @@
       "categories": [
         "france ventilation"
       ],
-      "index": 1109,
+      "index": 1114,
       "isNSFW": false,
       "validated": true
     },
@@ -41688,7 +41848,7 @@
       "categories": [
         "euromatik"
       ],
-      "index": 1110,
+      "index": 1115,
       "isNSFW": false,
       "validated": true
     },
@@ -41722,7 +41882,7 @@
       "categories": [
         "ministère de l’intérieur"
       ],
-      "index": 1111,
+      "index": 1116,
       "isNSFW": false,
       "validated": true
     },
@@ -41756,7 +41916,7 @@
       "categories": [
         "pornhub"
       ],
-      "index": 1112,
+      "index": 1117,
       "isNSFW": true,
       "validated": true
     },
@@ -41790,7 +41950,7 @@
       "categories": [
         "soundcloud"
       ],
-      "index": 1113,
+      "index": 1118,
       "isNSFW": false,
       "validated": true
     },
@@ -41824,7 +41984,7 @@
       "categories": [
         "sfr"
       ],
-      "index": 1114,
+      "index": 1119,
       "isNSFW": false,
       "validated": true
     },
@@ -41858,7 +42018,7 @@
       "categories": [
         "parashop"
       ],
-      "index": 1115,
+      "index": 1120,
       "isNSFW": false,
       "validated": true
     },
@@ -41892,7 +42052,7 @@
       "categories": [
         "caisse d’allocations familiales"
       ],
-      "index": 1116,
+      "index": 1121,
       "validated": true,
       "isNSFW": false
     },
@@ -41926,7 +42086,7 @@
       "categories": [
         "red by sfr"
       ],
-      "index": 1117,
+      "index": 1122,
       "isNSFW": false,
       "validated": true
     },
@@ -41960,7 +42120,7 @@
       "categories": [
         "ministère des sports"
       ],
-      "index": 1118,
+      "index": 1123,
       "validated": true,
       "isNSFW": false
     },
@@ -41994,7 +42154,7 @@
       "categories": [
         "la licra"
       ],
-      "index": 1119,
+      "index": 1124,
       "validated": true
     },
     {
@@ -42027,7 +42187,7 @@
       "categories": [
         "chronopost"
       ],
-      "index": 1120,
+      "index": 1125,
       "validated": true,
       "isNSFW": false
     },
@@ -42061,7 +42221,7 @@
       "categories": [
         "altitude infra"
       ],
-      "index": 1121,
+      "index": 1126,
       "validated": true,
       "isNSFW": false
     },
@@ -42095,7 +42255,7 @@
       "categories": [
         "justice.fr"
       ],
-      "index": 1122,
+      "index": 1127,
       "validated": true,
       "isNSFW": false
     },
@@ -42129,9 +42289,41 @@
       "categories": [
         "casting"
       ],
-      "index": 1123,
+      "index": 1128,
       "validated": true,
       "isNSFW": false
+    },
+    {
+      "Name": "123 casting fuite du 2025-12-22",
+      "Title": "123 casting fuite du 2025-12-22",
+      "Domain": null,
+      "BreachDate": "2025-12-22T00:00:00.000Z",
+      "AddedDate": "2026-01-03T10:06:24.237Z",
+      "ModifiedDate": "2026-01-03T10:06:24.237Z",
+      "PwnCount": 0,
+      "Description": "-\n\nnom\nprénom\nmot de passe haché en MD5 (en clair donc…)\ndate de naissance\ngenre\nadresse postale\nadresse mail\nnuméro de téléphone\ntaille\npoids\ncouleurs des yeux et des cheuveux\nmensurations\norigine ethnique\nsignes distinctifs\nbook photos & vidéos\nhistorique des messages privés\ndonnées de paiement]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "123-casting-fuite-du-2025-12-22",
+      "path": "https://xcancel.com/Ced_haurus/status/2002765103217746135",
+      "formattedDate": "2025-12-22",
+      "title": "123 casting fuite du 2025-12-22",
+      "date": "2025-12-22T00:00:00.000Z",
+      "lien": "https://xcancel.com/Ced_haurus/status/2002765103217746135",
+      "categories": [
+        "123 casting"
+      ],
+      "index": 1129
     },
     {
       "Name": "fédération française de natation fuite du 2025-12-23",
@@ -42163,7 +42355,7 @@
       "categories": [
         "fédération française de natation"
       ],
-      "index": 1124,
+      "index": 1130,
       "validated": true,
       "isNSFW": false
     },
@@ -42197,7 +42389,7 @@
       "categories": [
         "adecco"
       ],
-      "index": 1125,
+      "index": 1131,
       "validated": true,
       "isNSFW": false
     },
@@ -42231,7 +42423,7 @@
       "isNSFW": false,
       "lien": "https://x.com/IntCyberDigest/status/2004249741417398372",
       "validated": true,
-      "index": 1126
+      "index": 1132
     },
     {
       "Name": "mondial relay fuite du 2025-12-26",
@@ -42263,7 +42455,7 @@
       "categories": [
         "mondial relay"
       ],
-      "index": 1127,
+      "index": 1133,
       "validated": true
     },
     {
@@ -42296,7 +42488,7 @@
       "categories": [
         "nouvelle lune"
       ],
-      "index": 1128,
+      "index": 1134,
       "validated": true
     },
     {
@@ -42329,7 +42521,7 @@
       "categories": [
         "commune de lens"
       ],
-      "index": 1129,
+      "index": 1135,
       "validated": true
     },
     {
@@ -42362,7 +42554,7 @@
       "categories": [
         "fédération française de kick boxing"
       ],
-      "index": 1130,
+      "index": 1136,
       "validated": true
     },
     {
@@ -42395,7 +42587,7 @@
       "categories": [
         "acrv"
       ],
-      "index": 1131,
+      "index": 1137,
       "validated": true
     },
     {
@@ -42428,7 +42620,7 @@
       "categories": [
         "hellowork"
       ],
-      "index": 1132,
+      "index": 1138,
       "validated": true
     },
     {
@@ -42461,7 +42653,7 @@
       "categories": [
         "paytrip"
       ],
-      "index": 1133,
+      "index": 1139,
       "validated": true
     },
     {
@@ -42494,7 +42686,7 @@
       "categories": [
         "club de nation 95"
       ],
-      "index": 1134,
+      "index": 1140,
       "validated": true
     },
     {
@@ -42527,7 +42719,7 @@
       "categories": [
         "eni"
       ],
-      "index": 1135,
+      "index": 1141,
       "validated": true
     },
     {
@@ -42560,7 +42752,7 @@
       "categories": [
         "allegro musique"
       ],
-      "index": 1136,
+      "index": 1142,
       "validated": true
     },
     {
@@ -42593,7 +42785,7 @@
       "categories": [
         "europages"
       ],
-      "index": 1137,
+      "index": 1143,
       "validated": true
     },
     {
@@ -42626,7 +42818,7 @@
       "categories": [
         "batterie de portable"
       ],
-      "index": 1138,
+      "index": 1144,
       "validated": true
     },
     {
@@ -42659,8 +42851,168 @@
       "categories": [
         "foot locker"
       ],
-      "index": 1139,
+      "index": 1145,
       "validated": true
+    },
+    {
+      "Name": "ministère de l’agriculture et de l’alimentation fuite du 2025-12-28",
+      "Title": "ministère de l’agriculture et de l’alimentation fuite du 2025-12-28",
+      "Domain": null,
+      "BreachDate": "2025-12-28T00:00:00.000Z",
+      "AddedDate": "2026-01-03T10:06:25.365Z",
+      "ModifiedDate": "2026-01-03T10:06:25.365Z",
+      "PwnCount": 0,
+      "Description": "-\n\nAccès FTP\nFichiers SQL\nJournaux système de 32 département\n19 applications métiers]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "minist-re-de-l-agriculture-et-de-l-alimentation-fuite-du-2025-12-28",
+      "path": "https://bonjourlafuite.eu.org/img/ministere-agriculture.png",
+      "formattedDate": "2025-12-28",
+      "title": "ministère de l’agriculture et de l’alimentation fuite du 2025-12-28",
+      "date": "2025-12-28T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/ministere-agriculture.png",
+      "categories": [
+        "ministère de l’agriculture et de l’alimentation"
+      ],
+      "index": 1146
+    },
+    {
+      "Name": "université de lille fuite du 2025-12-29",
+      "Title": "université de lille fuite du 2025-12-29",
+      "Domain": null,
+      "BreachDate": "2025-12-29T00:00:00.000Z",
+      "AddedDate": "2026-01-03T10:06:25.779Z",
+      "ModifiedDate": "2026-01-03T10:06:25.779Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse email\nAdresse postale\nNumére de téléphone]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "universit-de-lille-fuite-du-2025-12-29",
+      "path": "https://bonjourlafuite.eu.org/img/universite-lille.png",
+      "formattedDate": "2025-12-29",
+      "title": "université de lille fuite du 2025-12-29",
+      "date": "2025-12-29T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/universite-lille.png",
+      "categories": [
+        "université de lille"
+      ],
+      "index": 1147
+    },
+    {
+      "Name": "école de management de grenoble fuite du 2025-12-29",
+      "Title": "école de management de grenoble fuite du 2025-12-29",
+      "Domain": null,
+      "BreachDate": "2025-12-29T00:00:00.000Z",
+      "AddedDate": "2026-01-03T10:06:25.856Z",
+      "ModifiedDate": "2026-01-03T10:06:25.856Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse email\nAdresse postale\nNumére de téléphone\nEmployeur\nposte occupé]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "-cole-de-management-de-grenoble-fuite-du-2025-12-29",
+      "path": "https://www.grenoble-em.com/actualites/information-relative-a-la-securite-de-vos-donnees",
+      "formattedDate": "2025-12-29",
+      "title": "école de management de grenoble fuite du 2025-12-29",
+      "date": "2025-12-29T00:00:00.000Z",
+      "lien": "https://www.grenoble-em.com/actualites/information-relative-a-la-securite-de-vos-donnees",
+      "categories": [
+        "école de management de grenoble"
+      ],
+      "index": 1148
+    },
+    {
+      "Name": "institut polytechnique de paris fuite du 2025-12-31",
+      "Title": "institut polytechnique de paris fuite du 2025-12-31",
+      "Domain": null,
+      "BreachDate": "2025-12-31T00:00:00.000Z",
+      "AddedDate": "2026-01-03T10:06:25.070Z",
+      "ModifiedDate": "2026-01-03T10:06:25.070Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse email\nAdresse postale\nNumére de téléphone\nIBAN]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "institut-polytechnique-de-paris-fuite-du-2025-12-31",
+      "path": "https://bonjourlafuite.eu.org/img/ensae.png",
+      "formattedDate": "2025-12-31",
+      "title": "institut polytechnique de paris fuite du 2025-12-31",
+      "date": "2025-12-31T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/ensae.png",
+      "categories": [
+        "institut polytechnique de paris"
+      ],
+      "index": 1149
+    },
+    {
+      "Name": "école nationale de la statistique et de l’analyse de l’information fuite du 2025-12-31",
+      "Title": "école nationale de la statistique et de l’analyse de l’information fuite du 2025-12-31",
+      "Domain": null,
+      "BreachDate": "2025-12-31T00:00:00.000Z",
+      "AddedDate": "2026-01-03T10:06:25.884Z",
+      "ModifiedDate": "2026-01-03T10:06:25.884Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse email\nAdresse postale\nPhoto d’identité\nNumére de téléphone\nNuméro partiel de carte bleu\nCVV\ndate d’expiration\nInscriptions\nrésultats d’évaluation]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "-cole-nationale-de-la-statistique-et-de-l-analyse-de-l-information-fuite-du-2025-12-31",
+      "path": "https://bonjourlafuite.eu.org/img/ensai-1.png",
+      "formattedDate": "2025-12-31",
+      "title": "école nationale de la statistique et de l’analyse de l’information fuite du 2025-12-31",
+      "date": "2025-12-31T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/ensai-1.png",
+      "categories": [
+        "école nationale de la statistique et de l’analyse de l’information"
+      ],
+      "index": 1150
     }
   ]
 }
