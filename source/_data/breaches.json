@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-03T10:06:25.885Z",
-  "totalBreaches": 1151,
+  "lastUpdated": "2026-01-04T15:46:30.637Z",
+  "totalBreaches": 1153,
   "breaches": [
     {
       "Name": "gPotato",
@@ -43013,6 +43013,70 @@
         "école nationale de la statistique et de l’analyse de l’information"
       ],
       "index": 1150
+    },
+    {
+      "Name": "afppcd fuite du 2026-1-2",
+      "Title": "afppcd fuite du 2026-1-2",
+      "Domain": null,
+      "BreachDate": "2026-1-2",
+      "AddedDate": "2026-01-04T15:46:29.266Z",
+      "ModifiedDate": "2026-01-04T15:46:29.266Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse email\nAdresse postale\nDate de naissance\nExpérience professionnelle\nNuméro de sécurité sociale]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "afppcd-fuite-du-2026-1-2",
+      "path": "https://bonjourlafuite.eu.org/img/afppcd.png",
+      "formattedDate": "2026-01-02",
+      "title": "afppcd fuite du 2026-1-2",
+      "date": "2026-1-2",
+      "lien": "https://bonjourlafuite.eu.org/img/afppcd.png",
+      "categories": [
+        "afppcd"
+      ],
+      "index": 1151
+    },
+    {
+      "Name": "trescal fuite du 2026-1-2",
+      "Title": "trescal fuite du 2026-1-2",
+      "Domain": null,
+      "BreachDate": "2026-1-2",
+      "AddedDate": "2026-01-04T15:46:30.637Z",
+      "ModifiedDate": "2026-01-04T15:46:30.637Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse email\nAdresse postale\nFonction\nSIRET\nnuméro de TVA\nClients sensibles (ministères\nsites sensibles…)\nGestion des actifs (matériel de métrologie)]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "trescal-fuite-du-2026-1-2",
+      "path": "https://bonjourlafuite.eu.org/img/trescal.png",
+      "formattedDate": "2026-01-02",
+      "title": "trescal fuite du 2026-1-2",
+      "date": "2026-1-2",
+      "lien": "https://bonjourlafuite.eu.org/img/trescal.png",
+      "categories": [
+        "trescal"
+      ],
+      "index": 1152
     }
   ]
 }

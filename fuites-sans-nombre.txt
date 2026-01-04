@@ -1,10 +1,10 @@
 RAPPORT - FUITES SANS NOMBRE DE PERSONNES IMPACTÉES
 =================================================
 
-Date de génération: 04/01/2026 15:41:53
-Total des fuites analysées: 1151
-Fuites sans nombre d'impactés: 231
-Pourcentage: 20.07%
+Date de génération: 04/01/2026 15:46:30
+Total des fuites analysées: 1153
+Fuites sans nombre d'impactés: 233
+Pourcentage: 20.21%
 
 LISTE DES FUITES CONCERNÉES:
 ============================
@@ -2086,5 +2086,23 @@ LISTE DES FUITES CONCERNÉES:
    - Date d'ajout: 2026-01-03T10:06:25.884Z
    - PwnCount: 0
    - Lien: https://bonjourlafuite.eu.org/img/ensai-1.png
+   - Vérifié: Non
+
+232. afppcd fuite du 2026-1-2
+   - Titre: afppcd fuite du 2026-1-2
+   - Domaine: Non spécifié
+   - Date de fuite: 2026-1-2
+   - Date d'ajout: 2026-01-04T15:46:29.266Z
+   - PwnCount: 0
+   - Lien: https://bonjourlafuite.eu.org/img/afppcd.png
+   - Vérifié: Non
+
+233. trescal fuite du 2026-1-2
+   - Titre: trescal fuite du 2026-1-2
+   - Domaine: Non spécifié
+   - Date de fuite: 2026-1-2
+   - Date d'ajout: 2026-01-04T15:46:30.637Z
+   - PwnCount: 0
+   - Lien: https://bonjourlafuite.eu.org/img/trescal.png
    - Vérifié: Non
 
