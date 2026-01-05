@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-04T16:49:53.782Z",
-  "totalBreaches": 1257,
+  "lastUpdated": "2026-01-05T20:29:16.688Z",
+  "totalBreaches": 1258,
   "breaches": [
     {
       "Name": "gPotato",
@@ -46405,6 +46405,38 @@
         "trescal"
       ],
       "index": 1256
+    },
+    {
+      "Name": "office%20fran%c3%a7ais%20de%20l%e2%80%99immigration%20et%20de%20l%e2%80%99int%c3%a9gration fuite du 2026-1-5",
+      "Title": "office%20fran%c3%a7ais%20de%20l%e2%80%99immigration%20et%20de%20l%e2%80%99int%c3%a9gration fuite du 2026-1-5",
+      "Domain": null,
+      "BreachDate": "2026-1-5",
+      "AddedDate": "2026-01-05T20:29:16.686Z",
+      "ModifiedDate": "2026-01-05T20:29:16.686Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse postale\nNuméro de téléphone\nDate de naissance\nNuméro de sécurité social\nNationalité\nLangues maîtrisées\nSituation familiale\nNuméro de famille\nDate de naissance des enfants\nNature du séjour\nPréfecture instructrice\nDate de décision]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "office-20fran-c3-a7ais-20de-20l-e2-80-99immigration-20et-20de-20l-e2-80-99int-c3-a9gration-fuite-du-2026-1-5",
+      "path": "https://www.lemonde.fr/pixels/article/2026/01/05/l-office-francais-de-l-immigration-et-de-l-integration-victime-d-une-fuite-de-donnees_6660632_4408996.html",
+      "formattedDate": "2026-01-05",
+      "title": "office%20fran%c3%a7ais%20de%20l%e2%80%99immigration%20et%20de%20l%e2%80%99int%c3%a9gration fuite du 2026-1-5",
+      "date": "2026-1-5",
+      "lien": "https://www.lemonde.fr/pixels/article/2026/01/05/l-office-francais-de-l-immigration-et-de-l-integration-victime-d-une-fuite-de-donnees_6660632_4408996.html",
+      "categories": [
+        "office%20fran%c3%a7ais%20de%20l%e2%80%99immigration%20et%20de%20l%e2%80%99int%c3%a9gration"
+      ],
+      "index": 1257
     }
   ]
 }
