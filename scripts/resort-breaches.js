@@ -42,9 +42,13 @@ db.breaches.forEach((breach, idx) => {
 							if(invalidcategory.includes(category.toLowerCase())){
 								breach.IsRetired=true
 							}
-              
+    breach.Name=decodeURI(breach.Name)
+    console.log("Name", breach.Name)
    if(breach.Name.split("fuite")[0]==""){
       breach.IsRetired=true
+    }
+    if(breach.Name!==breach.Title){
+            breach.IsRetired=true
     }
  if(!(breach.categories && Array.isArray(breach.categories))){
    

@@ -149,7 +149,7 @@ const dataFile = path.join(baseDir, 'source', '_data', 'breaches.json');
 
       newBreaches.push(newBreach); // Pousser l'objet enrichi
       existingNames.add(newBreach.Name);
-      console.log(`Importation de '${newBreach.Name}'...`);
+     // console.log(`Importation de '${newBreach.Name}'...`);
       
       fs.unlinkSync(filePath);
 
