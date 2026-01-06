@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-26T08:12:19.767Z",
-  "totalBreaches": 1125,
+  "lastUpdated": "2026-01-03T09:25:31.783Z",
+  "totalBreaches": 1140,
   "breaches": [
     {
       "Name": "gPotato",
@@ -11067,7 +11067,10 @@
       ],
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/dailymotion",
-      "validated": true
+      "validated": true,
+      "pwnCountFr": 85,
+      "sourceFr": "https://bonjourlafuite.eu.org/",
+      "victimTextFr": "85"
     },
     {
       "Name": "MCBans",
@@ -23647,7 +23650,10 @@
       ],
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/adecco",
-      "validated": true
+      "validated": true,
+      "pwnCountFr": 800000,
+      "sourceFr": "https://bonjourlafuite.eu.org/",
+      "victimTextFr": "800 000"
     },
     {
       "Name": "DevilTorrents",
@@ -30971,7 +30977,10 @@
       ],
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/ldlc",
-      "validated": true
+      "validated": true,
+      "pwnCountFr": 15,
+      "sourceFr": "https://bonjourlafuite.eu.org/",
+      "victimTextFr": "1,5"
     },
     {
       "Name": "ldlc fuite du 2024-3-1",
@@ -31564,7 +31573,10 @@
       ],
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/leslipfrancais",
-      "validated": true
+      "validated": true,
+      "pwnCountFr": 15,
+      "sourceFr": "https://bonjourlafuite.eu.org/",
+      "victimTextFr": "1.5"
     },
     {
       "Name": "NeimanMarcus",
@@ -33129,7 +33141,10 @@
       ],
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/cultura",
-      "validated": true
+      "validated": true,
+      "pwnCountFr": 15,
+      "sourceFr": "https://bonjourlafuite.eu.org/",
+      "victimTextFr": "1,5"
     },
     {
       "Name": "boulanger fuite du 2024-9-7",
@@ -33747,7 +33762,10 @@
       ],
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/freemobile",
-      "validated": true
+      "validated": true,
+      "pwnCountFr": 51,
+      "sourceFr": "https://bonjourlafuite.eu.org/",
+      "victimTextFr": "5,1"
     },
     {
       "Name": "HotTopic",
@@ -38243,7 +38261,10 @@
       ],
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/bouyguestelecom",
-      "validated": true
+      "validated": true,
+      "pwnCountFr": 64,
+      "sourceFr": "https://bonjourlafuite.eu.org/",
+      "victimTextFr": "6.4"
     },
     {
       "Name": "pandora fuite du 2025-8-5",
@@ -40857,6 +40878,40 @@
       "validated": true
     },
     {
+      "Name": "proxiserve fuite du 2025-11-25",
+      "Title": "proxiserve fuite du 2025-11-25",
+      "Domain": null,
+      "BreachDate": "2025-11-25T00:00:00.000Z",
+      "AddedDate": "2025-12-27T18:32:23.788Z",
+      "ModifiedDate": "2025-12-27T18:32:23.788Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse email\nAdresse postale\nMotif d’intervention\nDate d’intervention\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "proxiserve-fuite-du-2025-11-25",
+      "path": "https://bonjourlafuite.eu.org/img/proxiserve.png",
+      "formattedDate": "2025-11-25",
+      "title": "proxiserve fuite du 2025-11-25",
+      "date": "2025-11-25T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/proxiserve.png",
+      "categories": [
+        "proxiserve"
+      ],
+      "index": 1076,
+      "validated": true,
+      "isNSFW": false
+    },
+    {
       "Name": "csdn fuite du 2025-11-27",
       "Title": "csdn fuite du 2025-11-27",
       "Domain": null,
@@ -40886,7 +40941,7 @@
       "categories": [
         "csdn "
       ],
-      "index": 1076,
+      "index": 1077,
       "isNSFW": false,
       "validated": true
     },
@@ -40920,7 +40975,7 @@
       "categories": [
         "footclub fédération française de foot "
       ],
-      "index": 1077,
+      "index": 1078,
       "isNSFW": false,
       "validated": true
     },
@@ -40954,7 +41009,7 @@
       "categories": [
         "synbird la rochelle "
       ],
-      "index": 1078,
+      "index": 1079,
       "isNSFW": false,
       "validated": true
     },
@@ -40988,7 +41043,7 @@
       "categories": [
         "weda msp givors presqu’île "
       ],
-      "index": 1079,
+      "index": 1080,
       "isNSFW": false,
       "validated": true
     },
@@ -41022,7 +41077,7 @@
       "categories": [
         "msp givors presqu’île"
       ],
-      "index": 1080,
+      "index": 1081,
       "isNSFW": false,
       "validated": true
     },
@@ -41056,7 +41111,7 @@
       "categories": [
         "fédération française de foot"
       ],
-      "index": 1081,
+      "index": 1082,
       "validated": true,
       "isNSFW": false
     },
@@ -41090,7 +41145,7 @@
       "categories": [
         "la rochelle"
       ],
-      "index": 1082,
+      "index": 1083,
       "validated": true,
       "isNSFW": false
     },
@@ -41124,7 +41179,7 @@
       "categories": [
         "la centrale du financement "
       ],
-      "index": 1083,
+      "index": 1084,
       "isNSFW": false,
       "validated": true
     },
@@ -41158,7 +41213,7 @@
       "categories": [
         "zilvia "
       ],
-      "index": 1084,
+      "index": 1085,
       "isNSFW": false,
       "validated": true
     },
@@ -41192,7 +41247,7 @@
       "categories": [
         "france travail "
       ],
-      "index": 1085,
+      "index": 1086,
       "isNSFW": false,
       "validated": true
     },
@@ -41226,7 +41281,7 @@
       "categories": [
         "leroy merlin"
       ],
-      "index": 1086,
+      "index": 1087,
       "validated": true,
       "isNSFW": false
     },
@@ -41260,7 +41315,7 @@
       "categories": [
         "médecin direct"
       ],
-      "index": 1087,
+      "index": 1088,
       "validated": true,
       "isNSFW": false
     },
@@ -41294,7 +41349,7 @@
       "categories": [
         "itelis asaf  afps"
       ],
-      "index": 1088,
+      "index": 1089,
       "validated": true,
       "isNSFW": false
     },
@@ -41328,7 +41383,7 @@
       "categories": [
         "gesthand fédération française de handball"
       ],
-      "index": 1089,
+      "index": 1090,
       "validated": true,
       "isNSFW": false
     },
@@ -41362,7 +41417,7 @@
       "categories": [
         "schmidt"
       ],
-      "index": 1090,
+      "index": 1091,
       "validated": true,
       "isNSFW": false
     },
@@ -41396,7 +41451,7 @@
       "categories": [
         "cuisinella"
       ],
-      "index": 1091,
+      "index": 1092,
       "validated": true,
       "isNSFW": false
     },
@@ -41430,7 +41485,7 @@
       "categories": [
         "asaf  afps"
       ],
-      "index": 1092,
+      "index": 1093,
       "isNSFW": false,
       "validated": true
     },
@@ -41464,7 +41519,7 @@
       "categories": [
         "fédération française de handball"
       ],
-      "index": 1093,
+      "index": 1094,
       "isNSFW": false,
       "validated": true
     },
@@ -41498,7 +41553,7 @@
       "categories": [
         "ufolep"
       ],
-      "index": 1094,
+      "index": 1095,
       "isNSFW": false,
       "validated": true
     },
@@ -41532,7 +41587,7 @@
       "categories": [
         "fédération française de cyclisme"
       ],
-      "index": 1095,
+      "index": 1096,
       "isNSFW": false,
       "validated": true
     },
@@ -41566,7 +41621,7 @@
       "categories": [
         "résidence du parc (champdeniers"
       ],
-      "index": 1096,
+      "index": 1097,
       "validated": true,
       "isNSFW": false
     },
@@ -41600,7 +41655,7 @@
       "categories": [
         "france ventilation"
       ],
-      "index": 1097,
+      "index": 1098,
       "isNSFW": false,
       "validated": true
     },
@@ -41634,7 +41689,7 @@
       "categories": [
         "euromatik"
       ],
-      "index": 1098,
+      "index": 1099,
       "isNSFW": false,
       "validated": true
     },
@@ -41668,7 +41723,7 @@
       "categories": [
         "ministère de l’intérieur"
       ],
-      "index": 1099,
+      "index": 1100,
       "isNSFW": false,
       "validated": true
     },
@@ -41702,7 +41757,7 @@
       "categories": [
         "pornhub"
       ],
-      "index": 1100,
+      "index": 1101,
       "isNSFW": true,
       "validated": true
     },
@@ -41736,7 +41791,7 @@
       "categories": [
         "soundcloud"
       ],
-      "index": 1101,
+      "index": 1102,
       "isNSFW": false,
       "validated": true
     },
@@ -41770,7 +41825,7 @@
       "categories": [
         "sfr"
       ],
-      "index": 1102,
+      "index": 1103,
       "isNSFW": false,
       "validated": true
     },
@@ -41804,7 +41859,7 @@
       "categories": [
         "parashop"
       ],
-      "index": 1103,
+      "index": 1104,
       "isNSFW": false,
       "validated": true
     },
@@ -41838,7 +41893,7 @@
       "categories": [
         "caisse d’allocations familiales"
       ],
-      "index": 1103,
+      "index": 1104,
       "validated": true,
       "isNSFW": false
     },
@@ -41872,7 +41927,7 @@
       "categories": [
         "red by sfr"
       ],
-      "index": 1104,
+      "index": 1105,
       "isNSFW": false,
       "validated": true
     },
@@ -41906,7 +41961,41 @@
       "categories": [
         "ministère des sports"
       ],
-      "index": 1105,
+      "index": 1106,
+      "validated": true,
+      "isNSFW": false
+    },
+    {
+      "Name": "la licra fuite du 2025-12-19",
+      "Title": "la licra fuite du 2025-12-19",
+      "Domain": null,
+      "BreachDate": "2025-12-19T00:00:00.000Z",
+      "AddedDate": "2025-12-26T18:57:13.720Z",
+      "ModifiedDate": "2025-12-26T18:57:13.720Z",
+      "PwnCount": 0,
+      "Description": "-\n\nAdresse email\nMot de passe hashé\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "la-licra-fuite-du-2025-12-19",
+      "path": "https://bonjourlafuite.eu.org/img/licra.png",
+      "formattedDate": "2025-12-19",
+      "title": "la licra fuite du 2025-12-19",
+      "date": "2025-12-19T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/licra.png",
+      "categories": [
+        "la licra"
+      ],
+      "index": 1107,
       "validated": true,
       "isNSFW": false
     },
@@ -41940,7 +42029,7 @@
       "categories": [
         "chronopost"
       ],
-      "index": 1106,
+      "index": 1108,
       "validated": true,
       "isNSFW": false
     },
@@ -41974,7 +42063,7 @@
       "categories": [
         "altitude infra"
       ],
-      "index": 1107,
+      "index": 1109,
       "validated": true,
       "isNSFW": false
     },
@@ -42008,7 +42097,7 @@
       "categories": [
         "justice.fr"
       ],
-      "index": 1108,
+      "index": 1110,
       "validated": true,
       "isNSFW": false
     },
@@ -42042,7 +42131,7 @@
       "categories": [
         "casting"
       ],
-      "index": 1109,
+      "index": 1111,
       "validated": true,
       "isNSFW": false
     },
@@ -42076,7 +42165,7 @@
       "categories": [
         "fédération française de natation"
       ],
-      "index": 1110,
+      "index": 1112,
       "validated": true,
       "isNSFW": false
     },
@@ -42110,7 +42199,7 @@
       "categories": [
         "adecco"
       ],
-      "index": 1111,
+      "index": 1113,
       "validated": true,
       "isNSFW": false
     },
@@ -42122,7 +42211,7 @@
       "AddedDate": "2025-12-26T08:12:19.762Z",
       "ModifiedDate": "2025-12-26T08:12:19.762Z",
       "PwnCount": 0,
-      "Description": "Logitech data has been leaked",
+      "Description": "Logitech data has been leaked: employee, customer, and supplier information.",
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
@@ -42144,7 +42233,449 @@
       "isNSFW": false,
       "lien": "https://x.com/IntCyberDigest/status/2004249741417398372",
       "validated": true,
-      "index": 1112
+      "index": 1114
+    },
+    {
+      "Name": "mondial relay fuite du 2025-12-26",
+      "Title": "mondial relay fuite du 2025-12-26",
+      "Domain": null,
+      "BreachDate": "2025-12-26T00:00:00.000Z",
+      "AddedDate": "2025-12-26T17:20:02.852Z",
+      "ModifiedDate": "2025-12-26T17:20:02.852Z",
+      "PwnCount": 0,
+      "Description": "-\n\nnom\nprénom\nadresse email\nadresse postale\nnuméro de téléphone\nnuméro d’expédition\nstatuts des livraisons\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "mondial-relay-fuite-du-2025-12-26",
+      "path": "https://bonjourlafuite.eu.org/img/mondial-relay.png",
+      "formattedDate": "2025-12-26",
+      "title": "mondial relay fuite du 2025-12-26",
+      "date": "2025-12-26T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/mondial-relay.png",
+      "categories": [
+        "mondial relay"
+      ],
+      "index": 1115,
+      "validated": true,
+      "isNSFW": false
+    },
+    {
+      "Name": "nouvelle lune fuite du 2025-12-26",
+      "Title": "nouvelle lune fuite du 2025-12-26",
+      "Domain": null,
+      "BreachDate": "2025-12-26T00:00:00.000Z",
+      "AddedDate": "2025-12-26T18:33:56.442Z",
+      "ModifiedDate": "2025-12-26T18:33:56.442Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse email\nAdresse postale\nDate de dernière connexion\nDate de dernière commande\nNombre de commandes\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "nouvelle-lune-fuite-du-2025-12-26",
+      "path": "https://bonjourlafuite.eu.org/img/nouvellelune.png",
+      "formattedDate": "2025-12-26",
+      "title": "nouvelle lune fuite du 2025-12-26",
+      "date": "2025-12-26T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/nouvellelune.png",
+      "categories": [
+        "nouvelle lune"
+      ],
+      "index": 1116,
+      "validated": true,
+      "isNSFW": false
+    },
+    {
+      "Name": "commune de lens fuite du 2025-12-26",
+      "Title": "commune de lens fuite du 2025-12-26",
+      "Domain": null,
+      "BreachDate": "2025-12-26T00:00:00.000Z",
+      "AddedDate": "2025-12-26T20:25:34.180Z",
+      "ModifiedDate": "2025-12-26T20:25:34.180Z",
+      "PwnCount": 0,
+      "Description": "-\n\nprobable ransomware\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "commune-de-lens-fuite-du-2025-12-26",
+      "path": "https://www.francebleu.fr/infos/faits-divers-justice/la-ville-de-lens-victime-d-un-piratage-informatique-1926814",
+      "formattedDate": "2025-12-26",
+      "title": "commune de lens fuite du 2025-12-26",
+      "date": "2025-12-26T00:00:00.000Z",
+      "lien": "https://www.francebleu.fr/infos/faits-divers-justice/la-ville-de-lens-victime-d-un-piratage-informatique-1926814",
+      "categories": [
+        "commune de lens"
+      ],
+      "index": 1117,
+      "validated": true,
+      "isNSFW": false
+    },
+    {
+      "Name": "fédération française de kick boxing fuite du 2025-12-26",
+      "Title": "fédération française de kick boxing fuite du 2025-12-26",
+      "Domain": null,
+      "BreachDate": "2025-12-26T00:00:00.000Z",
+      "AddedDate": "2025-12-27T15:41:09.847Z",
+      "ModifiedDate": "2025-12-27T15:41:09.847Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nGenre\nDate de naissance\nNationalité\nAdresses email\nNuméros de téléphone\nAdresse postale\nType de licence\nsaison et date de validité\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "f-d-ration-fran-aise-de-kick-boxing-fuite-du-2025-12-26",
+      "path": "https://xcancel.com/Ced_haurus/status/2004524410774970615",
+      "formattedDate": "2025-12-26",
+      "title": "fédération française de kick boxing fuite du 2025-12-26",
+      "date": "2025-12-26T00:00:00.000Z",
+      "lien": "https://xcancel.com/Ced_haurus/status/2004524410774970615",
+      "categories": [
+        "fédération française de kick boxing"
+      ],
+      "index": 1118,
+      "validated": true,
+      "isNSFW": false
+    },
+    {
+      "Name": "acrv fuite du 2025-12-27",
+      "Title": "acrv fuite du 2025-12-27",
+      "Domain": null,
+      "BreachDate": "2025-12-27T00:00:00.000Z",
+      "AddedDate": "2025-12-27T14:21:02.499Z",
+      "ModifiedDate": "2025-12-27T14:21:02.499Z",
+      "PwnCount": 0,
+      "Description": "-\n\naccès Wordpress\nFTP\nMySQL…\ndeface\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "acrv-fuite-du-2025-12-27",
+      "path": "https://bonjourlafuite.eu.org/img/acrv.png",
+      "formattedDate": "2025-12-27",
+      "title": "acrv fuite du 2025-12-27",
+      "date": "2025-12-27T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/acrv.png",
+      "categories": [
+        "acrv"
+      ],
+      "index": 1119,
+      "validated": true,
+      "isNSFW": false
+    },
+    {
+      "Name": "hellowork fuite du 2025-12-27",
+      "Title": "hellowork fuite du 2025-12-27",
+      "Domain": null,
+      "BreachDate": "2025-12-27T00:00:00.000Z",
+      "AddedDate": "2025-12-27T15:22:04.493Z",
+      "ModifiedDate": "2025-12-27T15:22:04.493Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse email\nMétier recherché\nNiveau de qualification\nExpérience professionnelle\nSecteurs d’activité recherchés\nTypes de contrat recherchés\nZones géographiques de mobilité\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "hellowork-fuite-du-2025-12-27",
+      "path": "https://bonjourlafuite.eu.org/img/hellowork.png",
+      "formattedDate": "2025-12-27",
+      "title": "hellowork fuite du 2025-12-27",
+      "date": "2025-12-27T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/hellowork.png",
+      "categories": [
+        "hellowork"
+      ],
+      "index": 1120,
+      "validated": true,
+      "isNSFW": false
+    },
+    {
+      "Name": "paytrip fuite du 2025-12-27",
+      "Title": "paytrip fuite du 2025-12-27",
+      "Domain": null,
+      "BreachDate": "2025-12-27T00:00:00.000Z",
+      "AddedDate": "2025-12-27T15:41:09.917Z",
+      "ModifiedDate": "2025-12-27T15:41:09.917Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse email\nAdresse postale\nNuméro de téléphone\nSolde du compte\nIBAN\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "paytrip-fuite-du-2025-12-27",
+      "path": "https://bonjourlafuite.eu.org/img/paytrip.png",
+      "formattedDate": "2025-12-27",
+      "title": "paytrip fuite du 2025-12-27",
+      "date": "2025-12-27T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/paytrip.png",
+      "categories": [
+        "paytrip"
+      ],
+      "index": 1121,
+      "validated": true,
+      "isNSFW": false
+    },
+    {
+      "Name": "club de nation 95 fuite du 2025-12-27",
+      "Title": "club de nation 95 fuite du 2025-12-27",
+      "Domain": null,
+      "BreachDate": "2025-12-27T00:00:00.000Z",
+      "AddedDate": "2025-12-27T18:32:23.652Z",
+      "ModifiedDate": "2025-12-27T18:32:23.652Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse postale\nAdresse email\nNuméro de téléphone\nAdresse IP\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "club-de-nation-95-fuite-du-2025-12-27",
+      "path": "https://bonjourlafuite.eu.org/img/cn95.png",
+      "formattedDate": "2025-12-27",
+      "title": "club de nation 95 fuite du 2025-12-27",
+      "date": "2025-12-27T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/cn95.png",
+      "categories": [
+        "club de nation 95"
+      ],
+      "index": 1122,
+      "validated": true,
+      "isNSFW": false
+    },
+    {
+      "Name": "eni fuite du 2025-12-27",
+      "Title": "eni fuite du 2025-12-27",
+      "Domain": null,
+      "BreachDate": "2025-12-27T00:00:00.000Z",
+      "AddedDate": "2025-12-27T18:32:23.697Z",
+      "ModifiedDate": "2025-12-27T18:32:23.697Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse email\nType de profil\nRaison sociale\nFonction\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "eni-fuite-du-2025-12-27",
+      "path": "https://bonjourlafuite.eu.org/img/eni.png",
+      "formattedDate": "2025-12-27",
+      "title": "eni fuite du 2025-12-27",
+      "date": "2025-12-27T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/eni.png",
+      "categories": [
+        "eni"
+      ],
+      "index": 1123,
+      "validated": true,
+      "isNSFW": false
+    },
+    {
+      "Name": "allegro musique fuite du 2025-12-28",
+      "Title": "allegro musique fuite du 2025-12-28",
+      "Domain": null,
+      "BreachDate": "2025-12-28T00:00:00.000Z",
+      "AddedDate": "2025-12-28T13:53:33.441Z",
+      "ModifiedDate": "2025-12-28T13:53:33.441Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse postale\nAdresse email\nNuméro de téléphone\nNuméro de sécurité sociale\nDate d’incription et de résiliation\nContenu des annonces\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "allegro-musique-fuite-du-2025-12-28",
+      "path": "https://bonjourlafuite.eu.org/img/allegromusique.png",
+      "formattedDate": "2025-12-28",
+      "title": "allegro musique fuite du 2025-12-28",
+      "date": "2025-12-28T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/allegromusique.png",
+      "categories": [
+        "allegro musique"
+      ],
+      "index": 1124,
+      "validated": true,
+      "isNSFW": false
+    },
+    {
+      "Name": "europages fuite du 2025-12-28",
+      "Title": "europages fuite du 2025-12-28",
+      "Domain": null,
+      "BreachDate": "2025-12-28T00:00:00.000Z",
+      "AddedDate": "2025-12-28T14:22:02.000Z",
+      "ModifiedDate": "2025-12-28T14:22:02.000Z",
+      "PwnCount": 205403,
+      "Description": "-\n\nNom\nprénom\nPoste\nEntreprise\nAdresse postale\nAdresse email\nNuméro de téléphone\nSIRET\nNuméro de TVA\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "europages-fuite-du-2025-12-28",
+      "path": "https://bonjourlafuite.eu.org/img/europages.png",
+      "formattedDate": "2025-12-28",
+      "title": "europages fuite du 2025-12-28",
+      "date": "2025-12-28T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/europages.png",
+      "categories": [
+        "europages"
+      ],
+      "index": 1125,
+      "validated": true,
+      "isNSFW": false
+    },
+    {
+      "Name": "batterie de portable fuite du 2025-12-28",
+      "Title": "batterie de portable fuite du 2025-12-28",
+      "Domain": null,
+      "BreachDate": "2025-12-28T00:00:00.000Z",
+      "AddedDate": "2025-12-28T15:22:47.980Z",
+      "ModifiedDate": "2025-12-28T15:22:47.980Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nDate de naissance\nAdresse postale\nAdresse e-mail\nNuméros de téléphone fixe et mobile\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "batterie-de-portable-fuite-du-2025-12-28",
+      "path": "https://bonjourlafuite.eu.org/img/batteriedeportable.png",
+      "formattedDate": "2025-12-28",
+      "title": "batterie de portable fuite du 2025-12-28",
+      "date": "2025-12-28T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/batteriedeportable.png",
+      "categories": [
+        "batterie de portable"
+      ],
+      "index": 1126,
+      "validated": true,
+      "isNSFW": false
+    },
+    {
+      "Name": "foot locker fuite du 2025-12-28",
+      "Title": "foot locker fuite du 2025-12-28",
+      "Domain": null,
+      "BreachDate": "2025-12-28T00:00:00.000Z",
+      "AddedDate": "2025-12-28T18:33:21.424Z",
+      "ModifiedDate": "2025-12-28T18:33:21.424Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nDate de naissance\nAdresse postale\nAdresse e-mail\nNuméro de téléphone\nNuméro de commande\nMode de paiement\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "foot-locker-fuite-du-2025-12-28",
+      "path": "https://bonjourlafuite.eu.org/img/footlocker.png",
+      "formattedDate": "2025-12-28",
+      "title": "foot locker fuite du 2025-12-28",
+      "date": "2025-12-28T00:00:00.000Z",
+      "lien": "https://bonjourlafuite.eu.org/img/footlocker.png",
+      "categories": [
+        "foot locker"
+      ],
+      "index": 1127,
+      "validated": true,
+      "isNSFW": false
     }
   ]
 }
