@@ -49,7 +49,7 @@ function detectBreachesWithoutCount() {
     // Préparer le contenu du fichier de sortie
     let output = `RAPPORT - FUITES SANS NOMBRE DE PERSONNES IMPACTÉES\n`;
     output += `=================================================\n\n`;
-    output += `Date de génération: ${new Date().toLocaleString('fr-FR')}\n`;
+
     output += `Total des fuites analysées: ${breaches.length}\n`;
     output += `Fuites sans nombre d'impactés: ${breachesWithoutCount.length}\n`;
     output += `Pourcentage: ${((breachesWithoutCount.length / breaches.length) * 100).toFixed(2)}%\n\n`;
