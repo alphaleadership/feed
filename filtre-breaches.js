@@ -210,16 +210,16 @@ async function editEntry(breaches) {
     console.log(new chalk.Chalk().yellow(JSON.stringify(breachToEdit, null, 2)));
     console.log('\n');
     
-    const { fieldToEdit } = await inquirer.default.prompt([
+   /* const { fieldToEdit } = await inquirer.default.prompt([
         {
             type: 'lselect',
             name: 'fieldToEdit',
             message: 'Quel champ éditer ?',
             choices: Object.keys(breachToEdit).map(key => ({ name: key, value: key }))
         }
-    ]);
+    ]);*/
 
-    const currentValue = breachToEdit[fieldToEdit];
+    const currentValue = breachToEdit[ "PwnCount"];
     let newValue;
 
     if (typeof currentValue === 'boolean') {
@@ -227,7 +227,7 @@ async function editEntry(breaches) {
             {
                 type: 'confirm',
                 name: 'value',
-                message: `Nouvelle valeur pour '${fieldToEdit}'?`,
+                message: `Nouvelle valeur pour 'PwnCount' ?`,
                 default: currentValue
             }
         ]);
@@ -237,7 +237,7 @@ async function editEntry(breaches) {
             {
                 type: 'input',
                 name: 'value',
-                message: `Nouvelle valeur pour '${fieldToEdit}':`,
+                message: `Nouvelle valeur pour 'PwnCount':`,
                 default: currentValue
             }
         ]);
@@ -246,12 +246,12 @@ async function editEntry(breaches) {
     
     // Type casting
     if (typeof currentValue === 'number') {
-        breachToEdit[fieldToEdit] = Number(newValue);
+        breachToEdit["PwnCount"] = Number(newValue);
     } else if (typeof currentValue === 'boolean') {
-         breachToEdit[fieldToEdit] = newValue;
+         breachToEdit["PwnCount"] = newValue;
     }
     else {
-        breachToEdit[fieldToEdit] = newValue;
+        breachToEdit["PwnCount"] = newValue;
     }
 
     console.log(new chalk.Chalk().green('\nEntrée mise à jour. Voici le nouvel objet:'));

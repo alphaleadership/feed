@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-06T14:03:08.816Z",
+  "lastUpdated": "2026-01-06T14:17:09.746Z",
   "totalBreaches": 1154,
   "breaches": [
     {
@@ -31853,7 +31853,7 @@
       "BreachDate": "2024-4-28",
       "AddedDate": "2025-11-26T13:08:37.031Z",
       "ModifiedDate": "2025-11-26T13:08:37.031Z",
-      "PwnCount": 0,
+      "PwnCount": 560000000,
       "Description": "-\r\n\r\nnom\r\nprénom\r\nadresse email\r\nadresse postale\r\nnuméro de téléphone\r\ndistorique des transactions\r\ndétails des commandes\r\ninformations bancaires (4 derniers numéros de la carte enregistrée et date d’expiration)\r\n\r\n",
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
@@ -33151,7 +33151,7 @@
       "BreachDate": "2024-9-7",
       "AddedDate": "2025-12-24T15:38:45.836Z",
       "ModifiedDate": "2025-12-24T15:38:45.836Z",
-      "PwnCount": 0,
+      "PwnCount": 2077078,
       "Description": "-\n\n nom\nprénom\nadresse email\nadresse postale\nnuméro de téléphone\n\n",
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
@@ -33185,7 +33185,7 @@
       "BreachDate": "2024-9-10",
       "AddedDate": "2025-12-24T15:38:46.169Z",
       "ModifiedDate": "2025-12-24T15:38:46.169Z",
-      "PwnCount": 0,
+      "PwnCount": 1462025,
       "Description": "-\n\n nom\nprénom\nadresse email\nadresse postale\nnuméro de téléphone\nhistorique des commandes\n\n",
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
