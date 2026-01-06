@@ -136,6 +136,10 @@ async function validateEntries(breaches) {
             case 'exit':
                 interrupted = true;
                 break;
+            default:
+                 rejectedForDeletion.push(entry.Name);
+                rejectedCount++;
+                break;
         }
     }
 
@@ -276,7 +280,7 @@ async function main() {
             data.lastUpdated = new Date().toISOString();
             saveData(data);
             console.log(new chalk.Chalk().cyan('\n----------------------------------------'));
-            console.log(chalk.bold.green('Validation terminée !'));
+            console.log(new chalk.Chalk().bold.green('Validation terminée !'));
             console.log(`- ${stats.validatedCount} entrées validées (dont ${stats.nsfwCount} NSFW)`);
             console.log(`- ${stats.rejectedCount} entrées supprimées`);
             console.log(`- ${stats.skippedCount} entrées sautées`);
