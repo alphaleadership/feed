@@ -191,7 +191,7 @@ async function editEntry(breaches) {
                 type: 'select',
                 name: 'selectedBreachName',
                 message: 'Résultats de la recherche, veuillez en choisir un:',
-                choices: matchedBreaches.map(b => {return {value:b.Name}}),
+                choices: matchedBreaches.map(b => {return {value:b.Name, name: `${b.Name} - ${b.PwnCount.toLocaleString()} comptes affectés`}}),
             }
         ]);
         console.log(selectedBreachName)
