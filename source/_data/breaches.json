@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-06T08:50:35.375Z",
+  "lastUpdated": "2026-01-06T09:04:05.248Z",
   "totalBreaches": 1140,
   "breaches": [
     {
@@ -30694,7 +30694,7 @@
       "BreachDate": "2024-2-6",
       "AddedDate": "2025-11-26T13:08:38.257Z",
       "ModifiedDate": "2025-11-26T13:08:38.257Z",
-      "PwnCount": 0,
+      "PwnCount": 33000000,
       "Description": "-\r\n\r\nnom\r\nprénom\r\ndate de naissance\r\nnuméro de sécurité sociale\r\nnom de l’assureur de santé\r\ncontrat souscrit\r\n\r\n",
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
@@ -30955,7 +30955,7 @@
       "BreachDate": "2024-3-1",
       "AddedDate": "2025-12-24T15:38:47.148Z",
       "ModifiedDate": "2025-12-24T15:38:47.148Z",
-      "PwnCount": 0,
+      "PwnCount": 1500000,
       "Description": "-\n\n nom\nprénom\nadresse email\nadresse postale\nnuméro de téléphone\n\n",
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
