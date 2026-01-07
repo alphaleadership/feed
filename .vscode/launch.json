@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "type": "node",
+            "name": "Debug web",
+            "request": "attach",
+            "address": "127.0.0.1",
+            "localRoot": "c:\\Users\\alpha\\prefsup\\web",
+            "remoteRoot": "/app",
+            "restart": true
+        }
+    ]
+}

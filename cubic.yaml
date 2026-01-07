@@ -1,0 +1,58 @@
+# yaml-language-server: $schema=https://cubic.dev/schema/cubic-repository-config.schema.json
+
+# cubic.yaml
+# This file configures AI review behavior, ignore patterns, PR descriptions, and custom rules.
+# Place this file in your repository root to version-control your AI review settings.
+# Settings defined here take precedence over UI-configured settings.
+# See https://docs.cubic.dev/configure/cubic-yaml for documentation.
+
+version: 1
+reviews:
+  enabled: true
+  sensitivity: high
+  incremental_commits: true
+  architecture_diagrams: true
+  show_ai_feedback_buttons: false
+  resolve_threads_when_addressed: true
+pr_descriptions:
+  generate: true
+  cubic_review_link: false
+issues:
+  fix_with_cubic_buttons: true
+
+# -----------------------------------------------------------------------------
+# Sample configuration (commented out). Uncomment the sections you need.
+# -----------------------------------------------------------------------------
+# version: 1
+# reviews:
+#   enabled: true
+#   sensitivity: medium
+#   incremental_commits: true
+#   architecture_diagrams: false
+#   show_ai_feedback_buttons: true
+#   resolve_threads_when_addressed: true
+#   custom_instructions: "Add any reviewer guidance here."
+#   ignore:
+#     files:
+#       - docs/**
+#       - "**/*.md"
+#     head_branches:
+#       - feature/*
+#     base_branches:
+#       - release/*
+#     pr_labels:
+#       - WIP
+#     pr_titles:
+#       - "draft:*"
+#   custom_rules:
+#     - name: Example rule name
+#       description: Explain what should be enforced.
+#       include:
+#         - "src/**/*.ts"
+#       exclude:
+#         - "**/*.spec.ts"
+# pr_descriptions:
+#   generate: true
+#   instructions: "Summaries should highlight risk and testing steps."
+# issues:
+#   fix_with_cubic_buttons: true
