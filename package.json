@@ -1,7 +1,7 @@
 {
   "name": "hexo-site",
   "version": "0.0.0",
-  "private": true,
+  "private": true, 
   "scripts": {
     "build": " node index.js && node indexator.js && node scripts/import && node detecter-fuites-sans-nombre ",
     "clean": "hexo clean",
