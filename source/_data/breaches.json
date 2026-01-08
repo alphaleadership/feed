@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-08T11:31:43.500Z",
+  "lastUpdated": "2026-01-08T12:19:19.149Z",
   "totalBreaches": 1322,
   "breaches": [
     {
@@ -31524,40 +31524,6 @@
       "oldindex": 801
     },
     {
-      "Name": "almerys fuite du 2024-2-6",
-      "Title": "almerys fuite du 2024-2-6",
-      "Domain": null,
-      "BreachDate": "2024-2-6",
-      "AddedDate": "2026-01-06T09:56:56.070Z",
-      "ModifiedDate": "2026-01-06T09:56:56.070Z",
-      "PwnCount": 33000000,
-      "Description": "-\n\nnom\nprénom\ndate de naissance\nnuméro de sécurité sociale\nnom de l’assureur de santé\ncontrat souscrit>\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "almerys-fuite-du-2024-2-6",
-      "path": "https://www.cnil.fr/fr/violation-de-donnees-de-deux-operateurs-de-tiers-payant-la-cnil-ouvre-une-enquete-et-rappelle-aux",
-      "formattedDate": "2024-02-06",
-      "title": "almerys fuite du 2024-2-6",
-      "date": "2024-2-6",
-      "lien": "https://www.cnil.fr/fr/violation-de-donnees-de-deux-operateurs-de-tiers-payant-la-cnil-ouvre-une-enquete-et-rappelle-aux",
-      "categories": [
-        "almerys"
-      ],
-      "index": 802,
-      "isNSFW": false,
-      "oldindex": 802
-    },
-    {
       "Name": "DoxbinTOoDA",
       "Title": "Doxbin (TOoDA)",
       "Domain": "doxbin.com",
@@ -34728,40 +34694,6 @@
       "oldindex": 884
     },
     {
-      "Name": "free fuite du 2024-10-25",
-      "Title": "free fuite du 2024-10-25",
-      "Domain": null,
-      "BreachDate": "2024-10-25T00:00:00.000Z",
-      "AddedDate": "2026-01-06T09:56:56.700Z",
-      "ModifiedDate": "2026-01-06T09:56:56.700Z",
-      "PwnCount": 0,
-      "Description": "-\n\nnom\nprénom\ndate de naissance\nlieu de naissance\nadresse email\nadresse postale\nIBAN\nidentifiant abonné\ntype d’offre souscrite\ndate de souscription\nabonnement actif ou non>\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "free-fuite-du-2024-10-25",
-      "path": "https://www.clubic.com/actualite-542138-cyberattaque-de-free-les-donnees-fuitees-ont-trouve-preneur-pour-175-000-dollars-voici-ce-que-ca-implique.html",
-      "formattedDate": "2024-10-25",
-      "title": "free fuite du 2024-10-25",
-      "date": "2024-10-25T00:00:00.000Z",
-      "lien": "https://www.clubic.com/actualite-542138-cyberattaque-de-free-les-donnees-fuitees-ont-trouve-preneur-pour-175-000-dollars-voici-ce-que-ca-implique.html",
-      "categories": [
-        "free"
-      ],
-      "index": 885,
-      "isNSFW": false,
-      "oldindex": 885
-    },
-    {
       "Name": "SuperDraft",
       "Title": "SuperDraft",
       "Domain": "superdraft.io",
@@ -36329,33 +36261,6 @@
       "oldindex": 928
     },
     {
-      "Name": "Fédération Française de Force",
-      "Description": "aucune information ",
-      "BreachDate": "2025-01-14T00:00:00.000Z",
-      "AddedDate": "2025-01-14T00:00:00.000Z",
-      "PwnCount": 64512,
-      "index": 929,
-      "Title": "Fédération Française de Force"
-    },
-    {
-      "Name": "Fédération Française Roller Skateboard",
-      "Description": "aucune information ",
-      "BreachDate": "2025-01-14T00:00:00.000Z",
-      "AddedDate": "2025-01-14T00:00:00.000Z",
-      "PwnCount": 60000,
-      "index": 930,
-      "Title": "Fédération Française Roller Skateboard"
-    },
-    {
-      "Name": "Kiabi Seconde Main",
-      "Description": "aucune information ",
-      "BreachDate": "2025-01-14T00:00:00.000Z",
-      "AddedDate": "2025-01-14T00:00:00.000Z",
-      "PwnCount": 20000,
-      "index": 931,
-      "Title": "Kiabi Seconde Main"
-    },
-    {
       "Name": "FrameAndOptic",
       "Title": "Frame & Optic",
       "Domain": "frameandoptic.com",
@@ -36427,15 +36332,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 930
-    },
-    {
-      "Name": "Fédération Française Tir à l'arc",
-      "Description": "aucune information ",
-      "BreachDate": "2025-01-20T00:00:00.000Z",
-      "AddedDate": "2025-01-20T00:00:00.000Z",
-      "PwnCount": 625434,
-      "index": 934,
-      "Title": "Fédération Française Tir à l'arc"
     },
     {
       "Name": "fédération française de la montagne et de l'escalade fuite du 2025-1-23",
@@ -36578,24 +36474,6 @@
       "oldindex": 934
     },
     {
-      "Name": "E.Leclerc",
-      "Description": "Non spécifié",
-      "BreachDate": "2025-01-24T00:00:00.000Z",
-      "AddedDate": "2025-01-24T00:00:00.000Z",
-      "PwnCount": 0,
-      "index": 939,
-      "Title": "E.Leclerc"
-    },
-    {
-      "Name": "Fédération française de la montagne et de l'escalade",
-      "Description": "aucune information ",
-      "BreachDate": "2025-01-24T00:00:00.000Z",
-      "AddedDate": "2025-01-24T00:00:00.000Z",
-      "PwnCount": 808881,
-      "index": 940,
-      "Title": "Fédération française de la montagne et de l'escalade"
-    },
-    {
       "Name": "aides fuite du 2025-1-27",
       "Title": "aides fuite du 2025-1-27",
       "Domain": null,
@@ -36629,15 +36507,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 935
-    },
-    {
-      "Name": "AIDES",
-      "Description": "Non spécifié",
-      "BreachDate": "2025-01-27T00:00:00.000Z",
-      "AddedDate": "2025-01-27T00:00:00.000Z",
-      "PwnCount": 0,
-      "index": 942,
-      "Title": "AIDES"
     },
     {
       "Name": "Thermomix",
@@ -36679,15 +36548,6 @@
       "lien": "https://haveibeenpwned.com/Breach/thermomix",
       "validated": true,
       "oldindex": 936
-    },
-    {
-      "Name": "Thermomix Recipe World Forum",
-      "Description": "aucune information ",
-      "BreachDate": "2025-01-30T00:00:00.000Z",
-      "AddedDate": "2025-01-30T00:00:00.000Z",
-      "PwnCount": 3123439,
-      "index": 944,
-      "Title": "Thermomix Recipe World Forum"
     },
     {
       "Name": "espace fuite du 2025-2-6",
@@ -36799,15 +36659,6 @@
       "oldindex": 939
     },
     {
-      "Name": "King Jouet",
-      "Description": "aucune information ",
-      "BreachDate": "2025-02-11T00:00:00.000Z",
-      "AddedDate": "2025-02-11T00:00:00.000Z",
-      "PwnCount": 4000000,
-      "index": 948,
-      "Title": "King Jouet"
-    },
-    {
       "Name": "caisse des dépôts et des consignations fuite du 2025-2-12",
       "Title": "caisse des dépôts et des consignations fuite du 2025-2-12",
       "Domain": null,
@@ -36878,24 +36729,6 @@
       "oldindex": 941
     },
     {
-      "Name": "Chronopost",
-      "Description": "aucune information ",
-      "BreachDate": "2025-02-12T00:00:00.000Z",
-      "AddedDate": "2025-02-12T00:00:00.000Z",
-      "PwnCount": 210000,
-      "index": 951,
-      "Title": "Chronopost"
-    },
-    {
-      "Name": "Caisse des dépôts et des consignations",
-      "Description": "aucune information ",
-      "BreachDate": "2025-02-12T00:00:00.000Z",
-      "AddedDate": "2025-02-12T00:00:00.000Z",
-      "PwnCount": 70000,
-      "index": 952,
-      "Title": "Caisse des dépôts et des consignations"
-    },
-    {
       "Name": "mutuelle des motards fuite du 2025-2-13",
       "Title": "mutuelle des motards fuite du 2025-2-13",
       "Domain": null,
@@ -36929,15 +36762,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 942
-    },
-    {
-      "Name": "Mutuelle des motards",
-      "Description": "aucune information ",
-      "BreachDate": "2025-02-13T00:00:00.000Z",
-      "AddedDate": "2025-02-13T00:00:00.000Z",
-      "PwnCount": 1300000,
-      "index": 954,
-      "Title": "Mutuelle des motards"
     },
     {
       "Name": "Adpost",
@@ -37083,15 +36907,6 @@
       "oldindex": 946
     },
     {
-      "Name": "ALIEN TXTBASE Stealer Logs",
-      "Description": "284 132 969",
-      "BreachDate": "2025-02-15T00:00:00.000Z",
-      "AddedDate": "2025-02-15T00:00:00.000Z",
-      "PwnCount": 284132969,
-      "index": 959,
-      "Title": "ALIEN TXTBASE Stealer Logs"
-    },
-    {
       "Name": "sport découverte fuite du 2025-2-17",
       "Title": "sport découverte fuite du 2025-2-17",
       "Domain": null,
@@ -37125,15 +36940,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 947
-    },
-    {
-      "Name": "Sport Découverte",
-      "Description": "488 023",
-      "BreachDate": "2025-02-17T00:00:00.000Z",
-      "AddedDate": "2025-02-17T00:00:00.000Z",
-      "PwnCount": 488023,
-      "index": 961,
-      "Title": "Sport Découverte"
     },
     {
       "Name": "service départemental d'incendie et de secours de la vienne fuite du 2025-2-19",
@@ -37171,15 +36977,6 @@
       "oldindex": 948
     },
     {
-      "Name": "Service Départemental d'Incendie et de Secours de la Vienne (SDIS 86)",
-      "Description": "22 233",
-      "BreachDate": "2025-02-19T00:00:00.000Z",
-      "AddedDate": "2025-02-19T00:00:00.000Z",
-      "PwnCount": 22233,
-      "index": 963,
-      "Title": "Service Départemental d'Incendie et de Secours de la Vienne (SDIS 86)"
-    },
-    {
       "Name": "fédération française de foot fuite du 2025-2-21",
       "Title": "fédération française de foot fuite du 2025-2-21",
       "Domain": null,
@@ -37213,15 +37010,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 949
-    },
-    {
-      "Name": "Fédération Française de Football (FFF)",
-      "Description": "1 500 000",
-      "BreachDate": "2025-02-21T00:00:00.000Z",
-      "AddedDate": "2025-02-21T00:00:00.000Z",
-      "PwnCount": 1500000,
-      "index": 965,
-      "Title": "Fédération Française de Football (FFF)"
     },
     {
       "Name": "OrangeRomania",
@@ -37294,15 +37082,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 951
-    },
-    {
-      "Name": "Nord Emploi",
-      "Description": "200 000",
-      "BreachDate": "2025-02-26T00:00:00.000Z",
-      "AddedDate": "2025-02-26T00:00:00.000Z",
-      "PwnCount": 200000,
-      "index": 968,
-      "Title": "Nord Emploi"
     },
     {
       "Name": "edf dpih fuite du 2025-2-28",
@@ -37410,33 +37189,6 @@
       "oldindex": 954
     },
     {
-      "Name": "École Nationale de la Sécurité (E.N.S.)",
-      "Description": "29 103",
-      "BreachDate": "2025-02-28T00:00:00.000Z",
-      "AddedDate": "2025-02-28T00:00:00.000Z",
-      "PwnCount": 29103,
-      "index": 972,
-      "Title": "École Nationale de la Sécurité (E.N.S.)"
-    },
-    {
-      "Name": "EDF (DPIH)",
-      "Description": "5 000",
-      "BreachDate": "2025-02-28T00:00:00.000Z",
-      "AddedDate": "2025-02-28T00:00:00.000Z",
-      "PwnCount": 5000,
-      "index": 973,
-      "Title": "EDF (DPIH)"
-    },
-    {
-      "Name": "Zéphir (Groupe Zéphir)",
-      "Description": "67 000",
-      "BreachDate": "2025-02-28T00:00:00.000Z",
-      "AddedDate": "2025-02-28T00:00:00.000Z",
-      "PwnCount": 67000,
-      "index": 974,
-      "Title": "Zéphir (Groupe Zéphir)"
-    },
-    {
       "Name": "côté sushi fuite du 2025-3-4",
       "Title": "côté sushi fuite du 2025-3-4",
       "Domain": null,
@@ -37507,24 +37259,6 @@
       "oldindex": 956
     },
     {
-      "Name": "La Poste (Élection du timbre)",
-      "Description": "50 000",
-      "BreachDate": "2025-03-04T00:00:00.000Z",
-      "AddedDate": "2025-03-04T00:00:00.000Z",
-      "PwnCount": 50000,
-      "index": 977,
-      "Title": "La Poste (Élection du timbre)"
-    },
-    {
-      "Name": "Côté Sushi",
-      "Description": "600 000",
-      "BreachDate": "2025-03-04T00:00:00.000Z",
-      "AddedDate": "2025-03-04T00:00:00.000Z",
-      "PwnCount": 600000,
-      "index": 978,
-      "Title": "Côté Sushi"
-    },
-    {
       "Name": "utwin fuite du 2025-3-5",
       "Title": "utwin fuite du 2025-3-5",
       "Domain": null,
@@ -37558,15 +37292,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 957
-    },
-    {
-      "Name": "UTwin",
-      "Description": "42 000",
-      "BreachDate": "2025-03-05T00:00:00.000Z",
-      "AddedDate": "2025-03-05T00:00:00.000Z",
-      "PwnCount": 42000,
-      "index": 980,
-      "Title": "UTwin"
     },
     {
       "Name": "laforêt fuite du 2025-3-13",
@@ -37604,15 +37329,6 @@
       "oldindex": 958
     },
     {
-      "Name": "Laforêt",
-      "Description": "20 000",
-      "BreachDate": "2025-03-13T00:00:00.000Z",
-      "AddedDate": "2025-03-13T00:00:00.000Z",
-      "PwnCount": 20000,
-      "index": 982,
-      "Title": "Laforêt"
-    },
-    {
       "Name": "direct assurance fuite du 2025-3-18",
       "Title": "direct assurance fuite du 2025-3-18",
       "Domain": null,
@@ -37646,15 +37362,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 959
-    },
-    {
-      "Name": "Direct Assurance",
-      "Description": "15 654",
-      "BreachDate": "2025-03-18T00:00:00.000Z",
-      "AddedDate": "2025-03-18T00:00:00.000Z",
-      "PwnCount": 15654,
-      "index": 984,
-      "Title": "Direct Assurance"
     },
     {
       "Name": "intersport fuite du 2025-3-20",
@@ -37727,24 +37434,6 @@
       "oldindex": 961
     },
     {
-      "Name": "Éclaireuses et Éclaireurs de France (EEDF)",
-      "Description": "44 000",
-      "BreachDate": "2025-03-20T00:00:00.000Z",
-      "AddedDate": "2025-03-20T00:00:00.000Z",
-      "PwnCount": 44000,
-      "index": 987,
-      "Title": "Éclaireuses et Éclaireurs de France (EEDF)"
-    },
-    {
-      "Name": "Intersport.fr",
-      "Description": "3 388 826",
-      "BreachDate": "2025-03-20T00:00:00.000Z",
-      "AddedDate": "2025-03-20T00:00:00.000Z",
-      "PwnCount": 3388826,
-      "index": 988,
-      "Title": "Intersport.fr"
-    },
-    {
       "Name": "autosur  diagnosur fuite du 2025-3-24",
       "Title": "autosur  diagnosur fuite du 2025-3-24",
       "Domain": null,
@@ -37778,49 +37467,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 962
-    },
-    {
-      "Name": "autosur & diagnosur fuite du 2025-3-24",
-      "Title": "autosur & diagnosur fuite du 2025-3-24",
-      "Domain": null,
-      "BreachDate": "2025-3-24",
-      "AddedDate": "2026-01-06T09:56:56.183Z",
-      "ModifiedDate": "2026-01-06T09:56:56.183Z",
-      "PwnCount": 0,
-      "Description": "-\n\nnom\nprénom\nadresse email et postale\nnuméro de téléphone\nplace d’immatriculation>\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "autosur-diagnosur-fuite-du-2025-3-24",
-      "path": "https://bonjourlafuite.eu.org/img/autosur.jpg",
-      "formattedDate": "2025-03-24",
-      "title": "autosur & diagnosur fuite du 2025-3-24",
-      "date": "2025-3-24",
-      "lien": "https://bonjourlafuite.eu.org/img/autosur.jpg",
-      "categories": [
-        "autosur & diagnosur"
-      ],
-      "index": 990,
-      "isNSFW": false,
-      "oldindex": 963
-    },
-    {
-      "Name": "Autosur & Diagnosur",
-      "Description": "4 000 000",
-      "BreachDate": "2025-03-24T00:00:00.000Z",
-      "AddedDate": "2025-03-24T00:00:00.000Z",
-      "PwnCount": 4000000,
-      "index": 991,
-      "Title": "Autosur & Diagnosur"
     },
     {
       "Name": "cerballiance fuite du 2025-3-25",
@@ -37895,15 +37541,6 @@
       "oldindex": 965
     },
     {
-      "Name": "Cerballiance (PACA)",
-      "Description": "440 000",
-      "BreachDate": "2025-03-25T00:00:00.000Z",
-      "AddedDate": "2025-03-25T00:00:00.000Z",
-      "PwnCount": 440000,
-      "index": 994,
-      "Title": "Cerballiance (PACA)"
-    },
-    {
       "Name": "centrale nantes fuite du 2025-3-26",
       "Title": "centrale nantes fuite du 2025-3-26",
       "Domain": null,
@@ -37974,15 +37611,6 @@
       "lien": "https://haveibeenpwned.com/Breach/tehetsegkapu",
       "validated": true,
       "oldindex": 967
-    },
-    {
-      "Name": "Centrale Nantes",
-      "Description": "10 500",
-      "BreachDate": "2025-03-26T00:00:00.000Z",
-      "AddedDate": "2025-03-26T00:00:00.000Z",
-      "PwnCount": 10500,
-      "index": 997,
-      "Title": "Centrale Nantes"
     },
     {
       "Name": "oracle cloud fuite du 2025-3-27",
@@ -38058,15 +37686,6 @@
       "oldindex": 969
     },
     {
-      "Name": "Oracle Cloud",
-      "Description": "6 000 000",
-      "BreachDate": "2025-03-27T00:00:00.000Z",
-      "AddedDate": "2025-03-27T00:00:00.000Z",
-      "PwnCount": 6000000,
-      "index": 1000,
-      "Title": "Oracle Cloud"
-    },
-    {
       "Name": "maif  bpce fuite du 2025-3-28",
       "Title": "maif  bpce fuite du 2025-3-28",
       "Domain": null,
@@ -38100,58 +37719,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 970
-    },
-    {
-      "Name": "maif & bpce fuite du 2025-3-28",
-      "Title": "maif & bpce fuite du 2025-3-28",
-      "Domain": null,
-      "BreachDate": "2025-3-28",
-      "AddedDate": "2026-01-06T09:56:57.215Z",
-      "ModifiedDate": "2026-01-06T09:56:57.215Z",
-      "PwnCount": 0,
-      "Description": "-\n\nnom\ngenre\ndate de naissance\nsituation matrimoniale et professionnelle\nadresse postale\nadresse email\nnuméro de téléphone\nrevenus\npatrimoine\nnuméro de sociétaire>\n\n",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "maif-bpce-fuite-du-2025-3-28",
-      "path": "https://bonjourlafuite.eu.org/img/maif.png",
-      "formattedDate": "2025-03-28",
-      "title": "maif & bpce fuite du 2025-3-28",
-      "date": "2025-3-28",
-      "lien": "https://bonjourlafuite.eu.org/img/maif.png",
-      "categories": [
-        "maif & bpce"
-      ],
-      "index": 1002,
-      "isNSFW": false,
-      "oldindex": 971
-    },
-    {
-      "Name": "MAIF (via Harvest)",
-      "Description": "50 000",
-      "BreachDate": "2025-03-28T00:00:00.000Z",
-      "AddedDate": "2025-03-28T00:00:00.000Z",
-      "PwnCount": 50000,
-      "index": 1003,
-      "Title": "MAIF (via Harvest)"
-    },
-    {
-      "Name": "Groupe BPCE (via Harvest)",
-      "Description": "3 000",
-      "BreachDate": "2025-03-28T00:00:00.000Z",
-      "AddedDate": "2025-03-28T00:00:00.000Z",
-      "PwnCount": 3000,
-      "index": 1004,
-      "Title": "Groupe BPCE (via Harvest)"
     },
     {
       "Name": "SamsungGermany",
@@ -38228,24 +37795,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 973
-    },
-    {
-      "Name": "Reporterre",
-      "Description": "24 312",
-      "BreachDate": "2025-04-01T00:00:00.000Z",
-      "AddedDate": "2025-04-01T00:00:00.000Z",
-      "PwnCount": 24312,
-      "index": 1007,
-      "Title": "Reporterre"
-    },
-    {
-      "Name": "Hertz",
-      "Description": "1 000 175 personnes affectées (déclaration officielle)",
-      "BreachDate": "2025-04-02T00:00:00.000Z",
-      "AddedDate": "2025-04-02T00:00:00.000Z",
-      "PwnCount": 1000175,
-      "index": 1008,
-      "Title": "Hertz"
     },
     {
       "Name": "utwin fuite du 2025-4-7",
@@ -38390,15 +37939,6 @@
       "oldindex": 977
     },
     {
-      "Name": "Harvest",
-      "Description": "55 000",
-      "BreachDate": "2025-04-11T00:00:00.000Z",
-      "AddedDate": "2025-04-11T00:00:00.000Z",
-      "PwnCount": 55000,
-      "index": 1013,
-      "Title": "Harvest"
-    },
-    {
       "Name": "afflelou fuite du 2025-4-15",
       "Title": "afflelou fuite du 2025-4-15",
       "Domain": null,
@@ -38467,15 +38007,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 979
-    },
-    {
-      "Name": "Alain Afflelou",
-      "Description": "Volume non communiqué (estimé à plusieurs milliers/dizaines de milliers de clients)",
-      "BreachDate": "2025-04-15T00:00:00.000Z",
-      "AddedDate": "2025-04-15T00:00:00.000Z",
-      "PwnCount": 0,
-      "index": 1016,
-      "Title": "Alain Afflelou"
     },
     {
       "Name": "indigo fuite du 2025-4-18",
@@ -38548,15 +38079,6 @@
       "oldindex": 981
     },
     {
-      "Name": "EasyCash",
-      "Description": "Annonce publique d’EasyCash : cyberattaque confirmée, compromission avril 2025, mise à disposition publique janvier 2026",
-      "BreachDate": "2025-04-22T00:00:00.000Z",
-      "AddedDate": "2025-04-22T00:00:00.000Z",
-      "PwnCount": 14000000,
-      "index": 1019,
-      "Title": "EasyCash"
-    },
-    {
       "Name": "carrefour mobile fuite du 2025-4-24",
       "Title": "carrefour mobile fuite du 2025-4-24",
       "Domain": null,
@@ -38590,15 +38112,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 982
-    },
-    {
-      "Name": "INDIGO (stationnement / Indigo Neo)",
-      "Description": "Volume non communiqué (qualifié d'important, touchant des milliers d'automobilistes)",
-      "BreachDate": "2025-04-24T00:00:00.000Z",
-      "AddedDate": "2025-04-24T00:00:00.000Z",
-      "PwnCount": 0,
-      "index": 1021,
-      "Title": "INDIGO (stationnement / Indigo Neo)"
     },
     {
       "Name": "cerballiance fuite du 2025-4-30",
@@ -38783,24 +38296,6 @@
       "oldindex": 987
     },
     {
-      "Name": "Pulsy (GRADeS Grand Est)",
-      "Description": "Potentiellement jusqu'à 6 000 000 de patients (volume total de la plateforme)",
-      "BreachDate": "2025-05-13T00:00:00.000Z",
-      "AddedDate": "2025-05-13T00:00:00.000Z",
-      "PwnCount": 0,
-      "index": 1027,
-      "Title": "Pulsy (GRADeS Grand Est)"
-    },
-    {
-      "Name": "Dior",
-      "Description": "Environ 100 000 records exfiltrés (principalement clientèle Asie)",
-      "BreachDate": "2025-05-13T00:00:00.000Z",
-      "AddedDate": "2025-05-13T00:00:00.000Z",
-      "PwnCount": 100000,
-      "index": 1028,
-      "Title": "Dior"
-    },
-    {
       "Name": "OperationEndgame2",
       "Title": "Operation Endgame 2.0",
       "Domain": "",
@@ -38909,15 +38404,6 @@
       "oldindex": 990
     },
     {
-      "Name": "TheSqua.re",
-      "Description": "107 314 comptes uniques (Source: HIBP)",
-      "BreachDate": "2025-06-01T00:00:00.000Z",
-      "AddedDate": "2025-06-01T00:00:00.000Z",
-      "PwnCount": 107314,
-      "index": 1032,
-      "Title": "TheSqua.re"
-    },
-    {
       "Name": "cartier fuite du 2025-6-3",
       "Title": "cartier fuite du 2025-6-3",
       "Domain": null,
@@ -38986,33 +38472,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 992
-    },
-    {
-      "Name": "Cartier",
-      "Description": "Volume non communiqué (estimé à plusieurs centaines de milliers de clients)",
-      "BreachDate": "2025-06-03T00:00:00.000Z",
-      "AddedDate": "2025-06-03T00:00:00.000Z",
-      "PwnCount": 0,
-      "index": 1035,
-      "Title": "Cartier"
-    },
-    {
-      "Name": "Kaviari",
-      "Description": "Volume non communiqué (fuite via plateforme e-commerce)",
-      "BreachDate": "2025-06-03T00:00:00.000Z",
-      "AddedDate": "2025-06-03T00:00:00.000Z",
-      "PwnCount": 0,
-      "index": 1036,
-      "Title": "Kaviari"
-    },
-    {
-      "Name": "Sorbonne Université",
-      "Description": "30 000 agents et personnels administratifs",
-      "BreachDate": "2025-06-06T00:00:00.000Z",
-      "AddedDate": "2025-06-06T00:00:00.000Z",
-      "PwnCount": 30000,
-      "index": 1037,
-      "Title": "Sorbonne Université"
     },
     {
       "Name": "Omnicuris",
@@ -39164,15 +38623,6 @@
       "oldindex": 996
     },
     {
-      "Name": "Vietnam Airlines",
-      "Description": "7 316 915 comptes (23 millions de records au total)",
-      "BreachDate": "2025-06-20T00:00:00.000Z",
-      "AddedDate": "2025-06-20T00:00:00.000Z",
-      "PwnCount": 7316915,
-      "index": 1042,
-      "Title": "Vietnam Airlines"
-    },
-    {
       "Name": "disneyland fuite du 2025-6-21",
       "Title": "disneyland fuite du 2025-6-21",
       "Domain": null,
@@ -39241,15 +38691,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 998
-    },
-    {
-      "Name": "Disneyland Paris",
-      "Description": "64 Go (39 000 fichiers techniques et plans)",
-      "BreachDate": "2025-06-21T00:00:00.000Z",
-      "AddedDate": "2025-06-21T00:00:00.000Z",
-      "PwnCount": 0,
-      "index": 1045,
-      "Title": "Disneyland Paris"
     },
     {
       "Name": "MaReads",
@@ -39328,24 +38769,6 @@
       "oldindex": 1000
     },
     {
-      "Name": "Union Nationale du Sport Scolaire (UNSS)",
-      "Description": "7 795 940 profils (élèves et encadrants)",
-      "BreachDate": "2025-06-28T00:00:00.000Z",
-      "AddedDate": "2025-06-28T00:00:00.000Z",
-      "PwnCount": 7795940,
-      "index": 1048,
-      "Title": "Union Nationale du Sport Scolaire (UNSS)"
-    },
-    {
-      "Name": "CNFPT",
-      "Description": "34 000 intervenants (dossiers KYC complets)",
-      "BreachDate": "2025-07-04T00:00:00.000Z",
-      "AddedDate": "2025-07-04T00:00:00.000Z",
-      "PwnCount": 34000,
-      "index": 1049,
-      "Title": "CNFPT"
-    },
-    {
       "Name": "union nationale du sport scolaire fuite du 2025-7-7",
       "Title": "union nationale du sport scolaire fuite du 2025-7-7",
       "Domain": null,
@@ -39379,15 +38802,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 1001
-    },
-    {
-      "Name": "Hôpital privé de la Loire (Ramsay Santé)",
-      "Description": "530 000 dossiers (comptes patients et archives administratives)",
-      "BreachDate": "2025-07-07T00:00:00.000Z",
-      "AddedDate": "2025-07-07T00:00:00.000Z",
-      "PwnCount": 530000,
-      "index": 1051,
-      "Title": "Hôpital privé de la Loire (Ramsay Santé)"
     },
     {
       "Name": "centre national de la fonction publique territoriale fuite du 2025-7-11",
@@ -39495,15 +38909,6 @@
       "oldindex": 1004
     },
     {
-      "Name": "Louis Vuitton",
-      "Description": "≈ 1,5 million de clients (monde, dont France significative)",
-      "BreachDate": "2025-07-11T00:00:00.000Z",
-      "AddedDate": "2025-07-11T00:00:00.000Z",
-      "PwnCount": 1500000,
-      "index": 1055,
-      "Title": "Louis Vuitton"
-    },
-    {
       "Name": "AllianzLife",
       "Title": "Allianz Life",
       "Domain": "allianzlife.com",
@@ -39542,15 +38947,6 @@
       "lien": "https://haveibeenpwned.com/Breach/allianzlife",
       "validated": true,
       "oldindex": 1005
-    },
-    {
-      "Name": "5àSec",
-      "Description": "289 Go de données (estimé à 1,2 million de comptes clients)",
-      "BreachDate": "2025-07-16T00:00:00.000Z",
-      "AddedDate": "2025-07-16T00:00:00.000Z",
-      "PwnCount": 1200000,
-      "index": 1057,
-      "Title": "5àSec"
     },
     {
       "Name": "france travail fuite du 2025-7-22",
@@ -39621,15 +39017,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 1007
-    },
-    {
-      "Name": "France Travail",
-      "Description": "340 000 demandeurs d’emploi (nouvel incident ciblé)",
-      "BreachDate": "2025-07-22T00:00:00.000Z",
-      "AddedDate": "2025-07-22T00:00:00.000Z",
-      "PwnCount": 340000,
-      "index": 1060,
-      "Title": "France Travail"
     },
     {
       "Name": "orange fuite du 2025-7-25",
@@ -39741,15 +39128,6 @@
       "lien": "https://haveibeenpwned.com/Breach/thepi-hole",
       "validated": true,
       "oldindex": 1010
-    },
-    {
-      "Name": "Pi-hole",
-      "Description": "29 926 donateurs (exact)",
-      "BreachDate": "2025-07-30T00:00:00.000Z",
-      "AddedDate": "2025-07-30T00:00:00.000Z",
-      "PwnCount": 29926,
-      "index": 1064,
-      "Title": "Pi-hole"
     },
     {
       "Name": "thepi fuite du 2025-7-31",
@@ -39900,15 +39278,6 @@
       "oldindex": 1014
     },
     {
-      "Name": "Pandora",
-      "Description": "Estimé à 500 000 clients (périmètre Europe)",
-      "BreachDate": "2025-08-05T00:00:00.000Z",
-      "AddedDate": "2025-08-05T00:00:00.000Z",
-      "PwnCount": 500000,
-      "index": 1069,
-      "Title": "Pandora"
-    },
-    {
       "Name": "air france fuite du 2025-8-6",
       "Title": "air france fuite du 2025-8-6",
       "Domain": null,
@@ -39979,24 +39348,6 @@
       "oldindex": 1016
     },
     {
-      "Name": "Air France-KLM",
-      "Description": "Environ 35 000 clients impactés (via un prestataire de service client)",
-      "BreachDate": "2025-08-06T00:00:00.000Z",
-      "AddedDate": "2025-08-06T00:00:00.000Z",
-      "PwnCount": 35000,
-      "index": 1072,
-      "Title": "Air France-KLM"
-    },
-    {
-      "Name": "Bouygues Telecom",
-      "Description": "6,4M comptes clients (environ 5,7M d'emails uniques selon HIBP)",
-      "BreachDate": "2025-08-06T00:00:00.000Z",
-      "AddedDate": "2025-08-06T00:00:00.000Z",
-      "PwnCount": 6400000,
-      "index": 1073,
-      "Title": "Bouygues Telecom"
-    },
-    {
       "Name": "optic 2000 fuite du 2025-8-8",
       "Title": "optic 2000 fuite du 2025-8-8",
       "Domain": null,
@@ -40030,15 +39381,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 1017
-    },
-    {
-      "Name": "Optic 2000",
-      "Description": "≈ 1,5 million de dossiers clients (fuite massive via base de gestion)",
-      "BreachDate": "2025-08-08T00:00:00.000Z",
-      "AddedDate": "2025-08-08T00:00:00.000Z",
-      "PwnCount": 1500000,
-      "index": 1075,
-      "Title": "Optic 2000"
     },
     {
       "Name": "Giglio",
@@ -40149,24 +39491,6 @@
       "oldindex": 1020
     },
     {
-      "Name": "France Travail",
-      "Description": "≈ 500 000 comptes (nouvel incident ciblé sur les API)",
-      "BreachDate": "2025-08-12T00:00:00.000Z",
-      "AddedDate": "2025-08-12T00:00:00.000Z",
-      "PwnCount": 500000,
-      "index": 1079,
-      "Title": "France Travail"
-    },
-    {
-      "Name": "Alltricks",
-      "Description": "Volume non chiffré (compromission de la plateforme de routage e-mail)",
-      "BreachDate": "2025-08-12T00:00:00.000Z",
-      "AddedDate": "2025-08-12T00:00:00.000Z",
-      "PwnCount": 0,
-      "index": 1080,
-      "Title": "Alltricks"
-    },
-    {
       "Name": "france link interactive fuite du 2025-8-13",
       "Title": "france link interactive fuite du 2025-8-13",
       "Domain": null,
@@ -40272,24 +39596,6 @@
       "oldindex": 1023
     },
     {
-      "Name": "Google (via Salesforce CRM)",
-      "Description": "Nombre indéterminé de prospects Google Cloud et Google Ads",
-      "BreachDate": "2025-08-13T00:00:00.000Z",
-      "AddedDate": "2025-08-13T00:00:00.000Z",
-      "PwnCount": 0,
-      "index": 1084,
-      "Title": "Google (via Salesforce CRM)"
-    },
-    {
-      "Name": "France Link Interactive (Francelink)",
-      "Description": "Incident ransomware (données exfiltrées non dénombrées)",
-      "BreachDate": "2025-08-13T00:00:00.000Z",
-      "AddedDate": "2025-08-13T00:00:00.000Z",
-      "PwnCount": 0,
-      "index": 1085,
-      "Title": "France Link Interactive (Francelink)"
-    },
-    {
       "Name": "auchan fuite du 2025-8-21",
       "Title": "auchan fuite du 2025-8-21",
       "Domain": null,
@@ -40323,15 +39629,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 1024
-    },
-    {
-      "Name": "Auchan",
-      "Description": "500 000 comptes clients impactés",
-      "BreachDate": "2025-08-21T00:00:00.000Z",
-      "AddedDate": "2025-08-21T00:00:00.000Z",
-      "PwnCount": 500000,
-      "index": 1087,
-      "Title": "Auchan"
     },
     {
       "Name": "Miljodata",
@@ -40375,15 +39672,6 @@
       "oldindex": 1025
     },
     {
-      "Name": "Miljödata",
-      "Description": "870 108 records (Base HIBP)",
-      "BreachDate": "2025-08-25T00:00:00.000Z",
-      "AddedDate": "2025-08-25T00:00:00.000Z",
-      "PwnCount": 870108,
-      "index": 1089,
-      "Title": "Miljödata"
-    },
-    {
       "Name": "ArtistsNClients",
       "Title": "Artists&Clients",
       "Domain": "artistsnclients.com",
@@ -40420,15 +39708,6 @@
       "lien": "https://haveibeenpwned.com/Breach/artistsnclients",
       "validated": true,
       "oldindex": 1026
-    },
-    {
-      "Name": "Artists&Clients",
-      "Description": "95 351 comptes uniques",
-      "BreachDate": "2025-08-31T00:00:00.000Z",
-      "AddedDate": "2025-08-31T00:00:00.000Z",
-      "PwnCount": 95351,
-      "index": 1091,
-      "Title": "Artists&Clients"
     },
     {
       "Name": "Prosper",
@@ -40580,15 +39859,6 @@
       "oldindex": 1030
     },
     {
-      "Name": "Clarins",
-      "Description": "Environ 420 000 clients (périmètre Europe)",
-      "BreachDate": "2025-09-18T00:00:00.000Z",
-      "AddedDate": "2025-09-18T00:00:00.000Z",
-      "PwnCount": 420000,
-      "index": 1096,
-      "Title": "Clarins"
-    },
-    {
       "Name": "fédération française de tennis de table fuite du 2025-9-19",
       "Title": "fédération française de tennis de table fuite du 2025-9-19",
       "Domain": null,
@@ -40622,15 +39892,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 1031
-    },
-    {
-      "Name": "Fédération Française de Tennis de Table (FFTT)",
-      "Description": "Base complète des licenciés (saison en cours)",
-      "BreachDate": "2025-09-19T00:00:00.000Z",
-      "AddedDate": "2025-09-19T00:00:00.000Z",
-      "PwnCount": 210000,
-      "index": 1098,
-      "Title": "Fédération Française de Tennis de Table (FFTT)"
     },
     {
       "Name": "digital charging solutions fuite du 2025-9-20",
@@ -40668,15 +39929,6 @@
       "oldindex": 1032
     },
     {
-      "Name": "Digital Charging Solutions (DCS)",
-      "Description": "≈ 12 000 utilisateurs (comptes BMW / Mercedes charging)",
-      "BreachDate": "2025-09-20T00:00:00.000Z",
-      "AddedDate": "2025-09-20T00:00:00.000Z",
-      "PwnCount": 12000,
-      "index": 1100,
-      "Title": "Digital Charging Solutions (DCS)"
-    },
-    {
       "Name": "inovie labosud fuite du 2025-9-23",
       "Title": "inovie labosud fuite du 2025-9-23",
       "Domain": null,
@@ -40710,15 +39962,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 1033
-    },
-    {
-      "Name": "Inovie Labosud",
-      "Description": "12 000 patients spécifiquement notifiés (accès via portail tiers)",
-      "BreachDate": "2025-09-23T00:00:00.000Z",
-      "AddedDate": "2025-09-23T00:00:00.000Z",
-      "PwnCount": 12000,
-      "index": 1102,
-      "Title": "Inovie Labosud"
     },
     {
       "Name": "france travail fuite du 2025-9-25",
@@ -40791,24 +40034,6 @@
       "oldindex": 1035
     },
     {
-      "Name": "La Nef",
-      "Description": "≈ 25 000 adresses email (base abonnés / newsletter)",
-      "BreachDate": "2025-09-25T00:00:00.000Z",
-      "AddedDate": "2025-09-25T00:00:00.000Z",
-      "PwnCount": 25000,
-      "index": 1105,
-      "Title": "La Nef"
-    },
-    {
-      "Name": "France Travail (Dump #2)",
-      "Description": "9 971 records (extrait spécifique BonjourLaFuite)",
-      "BreachDate": "2025-09-25T00:00:00.000Z",
-      "AddedDate": "2025-09-25T00:00:00.000Z",
-      "PwnCount": 9971,
-      "index": 1106,
-      "Title": "France Travail (Dump #2)"
-    },
-    {
       "Name": "artistsnclients fuite du 2025-10-4",
       "Title": "artistsnclients fuite du 2025-10-4",
       "Domain": null,
@@ -40877,15 +40102,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 1037
-    },
-    {
-      "Name": "Discord",
-      "Description": "Nombre restreint (utilisateurs ayant contacté le support)",
-      "BreachDate": "2025-10-04T00:00:00.000Z",
-      "AddedDate": "2025-10-04T00:00:00.000Z",
-      "PwnCount": 0,
-      "index": 1109,
-      "Title": "Discord"
     },
     {
       "Name": "france travail fuite du 2025-10-6",
@@ -40960,15 +40176,6 @@
       "lien": "https://haveibeenpwned.com/Breach/tisza",
       "validated": true,
       "oldindex": 1039
-    },
-    {
-      "Name": "France Travail (Dump #3)",
-      "Description": "5 500 records (ciblage allocataires RSA)",
-      "BreachDate": "2025-10-06T00:00:00.000Z",
-      "AddedDate": "2025-10-06T00:00:00.000Z",
-      "PwnCount": 5500,
-      "index": 1112,
-      "Title": "France Travail (Dump #3)"
     },
     {
       "Name": "adpost fuite du 2025-10-7",
@@ -41076,15 +40283,6 @@
       "oldindex": 1042
     },
     {
-      "Name": "Lycées des Hauts-de-France",
-      "Description": "≈ 300 000 (élèves et personnels) ; 1,1 To de données exfiltrées par le groupe Medusa",
-      "BreachDate": "2025-10-12T00:00:00.000Z",
-      "AddedDate": "2025-10-12T00:00:00.000Z",
-      "PwnCount": 300000,
-      "index": 1116,
-      "Title": "Lycées des Hauts-de-France"
-    },
-    {
       "Name": "agence régionale de santé des hauts fuite du 2025-10-14",
       "Title": "agence régionale de santé des hauts fuite du 2025-10-14",
       "Domain": null,
@@ -41190,15 +40388,6 @@
       "oldindex": 1045
     },
     {
-      "Name": "Mango",
-      "Description": "≈ 1 000 000 (estimation base marketing Europe)",
-      "BreachDate": "2025-10-15T00:00:00.000Z",
-      "AddedDate": "2025-10-15T00:00:00.000Z",
-      "PwnCount": 1000000,
-      "index": 1120,
-      "Title": "Mango"
-    },
-    {
       "Name": "prosper fuite du 2025-10-16",
       "Title": "prosper fuite du 2025-10-16",
       "Domain": null,
@@ -41267,15 +40456,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 1047
-    },
-    {
-      "Name": "Centre hospitalier intercommunal de Haute-Comté",
-      "Description": "Base patientèle complète (estimée à 100 000 dossiers)",
-      "BreachDate": "2025-10-19T00:00:00.000Z",
-      "AddedDate": "2025-10-19T00:00:00.000Z",
-      "PwnCount": 100000,
-      "index": 1123,
-      "Title": "Centre hospitalier intercommunal de Haute-Comté"
     },
     {
       "Name": "synthientstealerlogthreatdata fuite du 2025-10-21",
@@ -41348,15 +40528,6 @@
       "oldindex": 1049
     },
     {
-      "Name": "Agence Régionale de Santé (ARS)",
-      "Description": "34 000 000 d'enregistrements (base consolidée France entière)",
-      "BreachDate": "2025-10-22T00:00:00.000Z",
-      "AddedDate": "2025-10-22T00:00:00.000Z",
-      "PwnCount": 34000000,
-      "index": 1126,
-      "Title": "Agence Régionale de Santé (ARS)"
-    },
-    {
       "Name": "fédération française de tir fuite du 2025-10-23",
       "Title": "fédération française de tir fuite du 2025-10-23",
       "Domain": null,
@@ -41390,15 +40561,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 1050
-    },
-    {
-      "Name": "Fédération Française de Tir (FFTir)",
-      "Description": "≈ 250 000 licenciés (actifs et archives)",
-      "BreachDate": "2025-10-23T00:00:00.000Z",
-      "AddedDate": "2025-10-23T00:00:00.000Z",
-      "PwnCount": 250000,
-      "index": 1128,
-      "Title": "Fédération Française de Tir (FFTir)"
     },
     {
       "Name": "MyVidster2025",
@@ -41436,15 +40598,6 @@
       "lien": "https://haveibeenpwned.com/Breach/myvidster2025",
       "validated": true,
       "oldindex": 1051
-    },
-    {
-      "Name": "MyVidster (2025)",
-      "Description": "3 900 000 comptes (confirmé par HIBP)",
-      "BreachDate": "2025-10-24T00:00:00.000Z",
-      "AddedDate": "2025-10-24T00:00:00.000Z",
-      "PwnCount": 3900000,
-      "index": 1130,
-      "Title": "MyVidster (2025)"
     },
     {
       "Name": "myvidster2025 fuite du 2025-10-27",
@@ -41517,15 +40670,6 @@
       "oldindex": 1053
     },
     {
-      "Name": "Poltronesofà",
-      "Description": "≈ 450 000 dossiers clients (France et Italie)",
-      "BreachDate": "2025-10-27T00:00:00.000Z",
-      "AddedDate": "2025-10-27T00:00:00.000Z",
-      "PwnCount": 450000,
-      "index": 1133,
-      "Title": "Poltronesofà"
-    },
-    {
       "Name": "france travail fuite du 2025-10-29",
       "Title": "france travail fuite du 2025-10-29",
       "Domain": null,
@@ -41559,15 +40703,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 1054
-    },
-    {
-      "Name": "France Travail (Détournement KYC)",
-      "Description": "31 000 dossiers complets exfiltrés",
-      "BreachDate": "2025-10-29T00:00:00.000Z",
-      "AddedDate": "2025-10-29T00:00:00.000Z",
-      "PwnCount": 31000,
-      "index": 1135,
-      "Title": "France Travail (Détournement KYC)"
     },
     {
       "Name": "synthientcredentialstuffingthreatdata fuite du 2025-11-6",
@@ -41640,15 +40775,6 @@
       "oldindex": 1056
     },
     {
-      "Name": "MYM",
-      "Description": "5 000 000 de comptes uniques",
-      "BreachDate": "2025-11-07T00:00:00.000Z",
-      "AddedDate": "2025-11-07T00:00:00.000Z",
-      "PwnCount": 5000000,
-      "index": 1138,
-      "Title": "MYM"
-    },
-    {
       "Name": "tisza fuite du 2025-11-8",
       "Title": "tisza fuite du 2025-11-8",
       "Domain": null,
@@ -41719,15 +40845,6 @@
       "oldindex": 1058
     },
     {
-      "Name": "Oui Heberg",
-      "Description": "4 400 comptes clients (dump complet)",
-      "BreachDate": "2025-11-10T00:00:00.000Z",
-      "AddedDate": "2025-11-10T00:00:00.000Z",
-      "PwnCount": 4400,
-      "index": 1141,
-      "Title": "Oui Heberg"
-    },
-    {
       "Name": "fédération française de cardiologie fuite du 2025-11-11",
       "Title": "fédération française de cardiologie fuite du 2025-11-11",
       "Domain": null,
@@ -41761,15 +40878,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 1059
-    },
-    {
-      "Name": "Fédération Française de Cardiologie",
-      "Description": "≈ 125 000 donateurs et membres",
-      "BreachDate": "2025-11-11T00:00:00.000Z",
-      "AddedDate": "2025-11-11T00:00:00.000Z",
-      "PwnCount": 125000,
-      "index": 1143,
-      "Title": "Fédération Française de Cardiologie"
     },
     {
       "Name": "weda fuite du 2025-11-12",
@@ -41807,15 +40915,6 @@
       "oldindex": 1060
     },
     {
-      "Name": "Weda (Softway Medical)",
-      "Description": "Estimation de 500 000 dossiers patients exposés via des cabinets médicaux",
-      "BreachDate": "2025-11-12T00:00:00.000Z",
-      "AddedDate": "2025-11-12T00:00:00.000Z",
-      "PwnCount": 500000,
-      "index": 1145,
-      "Title": "Weda (Softway Medical)"
-    },
-    {
       "Name": "operationendgame3 fuite du 2025-11-13",
       "Title": "operationendgame3 fuite du 2025-11-13",
       "Domain": null,
@@ -41849,15 +40948,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 1061
-    },
-    {
-      "Name": "Ville de Brest (prestataire RDV)",
-      "Description": "50 000 fiches de rendez-vous",
-      "BreachDate": "2025-11-14T00:00:00.000Z",
-      "AddedDate": "2025-11-14T00:00:00.000Z",
-      "PwnCount": 50000,
-      "index": 1147,
-      "Title": "Ville de Brest (prestataire RDV)"
     },
     {
       "Name": "eurofiber fuite du 2025-11-17",
@@ -42000,24 +41090,6 @@
       "oldindex": 1065
     },
     {
-      "Name": "Pajemploi (Urssaf)",
-      "Description": "1 200 000 salariés (employés à domicile et assistants maternels)",
-      "BreachDate": "2025-11-17T00:00:00.000Z",
-      "AddedDate": "2025-11-17T00:00:00.000Z",
-      "PwnCount": 1200000,
-      "index": 1152,
-      "Title": "Pajemploi (Urssaf)"
-    },
-    {
-      "Name": "Eurofiber France",
-      "Description": "10 000 emails uniques (HIBP) ; impact sur 3 600 organisations clientes",
-      "BreachDate": "2025-11-17T00:00:00.000Z",
-      "AddedDate": "2025-11-17T00:00:00.000Z",
-      "PwnCount": 10000,
-      "index": 1153,
-      "Title": "Eurofiber France"
-    },
-    {
       "Name": "resana fuite du 2025-11-18",
       "Title": "resana fuite du 2025-11-18",
       "Domain": null,
@@ -42088,33 +41160,6 @@
       "oldindex": 1067
     },
     {
-      "Name": "Mairie de Quimper",
-      "Description": "Près de 12 000 lignes (confirmé par la ville)",
-      "BreachDate": "2025-11-18T00:00:00.000Z",
-      "AddedDate": "2025-11-18T00:00:00.000Z",
-      "PwnCount": 12000,
-      "index": 1156,
-      "Title": "Mairie de Quimper"
-    },
-    {
-      "Name": "Synbird (1300 Communes)",
-      "Description": "≈ 65 000 rendez-vous exposés sur l'ensemble du territoire",
-      "BreachDate": "2025-11-18T00:00:00.000Z",
-      "AddedDate": "2025-11-18T00:00:00.000Z",
-      "PwnCount": 65000,
-      "index": 1157,
-      "Title": "Synbird (1300 Communes)"
-    },
-    {
-      "Name": "Resana (DINUM)",
-      "Description": "50 Go de fichiers interministériels (revendiqué par 'World Leaks')",
-      "BreachDate": "2025-11-18T00:00:00.000Z",
-      "AddedDate": "2025-11-18T00:00:00.000Z",
-      "PwnCount": 0,
-      "index": 1158,
-      "Title": "Resana (DINUM)"
-    },
-    {
       "Name": "mairie d’alfortville fuite du 2025-11-19",
       "Title": "mairie d’alfortville fuite du 2025-11-19",
       "Domain": null,
@@ -42148,15 +41193,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 1068
-    },
-    {
-      "Name": "Colis Privé",
-      "Description": "≈ 250 000 enregistrements clients",
-      "BreachDate": "2025-11-19T00:00:00.000Z",
-      "AddedDate": "2025-11-19T00:00:00.000Z",
-      "PwnCount": 250000,
-      "index": 1160,
-      "Title": "Colis Privé"
     },
     {
       "Name": "beckett fuite du 2025-11-20",
@@ -42367,24 +41403,6 @@
       "validated": true,
       "isNSFW": false,
       "oldindex": 1074
-    },
-    {
-      "Name": "Michelin",
-      "Description": "≈15 Go de données exfiltrées (revendication par le groupe Everest)",
-      "BreachDate": "2025-11-21T00:00:00.000Z",
-      "AddedDate": "2025-11-21T00:00:00.000Z",
-      "PwnCount": 0,
-      "index": 1167,
-      "Title": "Michelin"
-    },
-    {
-      "Name": "Murfy",
-      "Description": "294 075 clients uniques (base de données complète)",
-      "BreachDate": "2025-11-21T00:00:00.000Z",
-      "AddedDate": "2025-11-21T00:00:00.000Z",
-      "PwnCount": 294075,
-      "index": 1168,
-      "Title": "Murfy"
     },
     {
       "Name": "adda fuite du 2025-11-23",
@@ -42665,33 +41683,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 1082
-    },
-    {
-      "Name": "Itelis (Impactant APRS/AXA, Malakoff Humanis, AG2R)",
-      "Description": "≈ 2 000 000 de bénéficiaires impactés au total",
-      "BreachDate": "2025-11-24T00:00:00.000Z",
-      "AddedDate": "2025-11-24T00:00:00.000Z",
-      "PwnCount": 2000000,
-      "index": 1177,
-      "Title": "Itelis (Impactant APRS/AXA, Malakoff Humanis, AG2R)"
-    },
-    {
-      "Name": "Mairie de Chatou",
-      "Description": "≈ 8 500 fiches usagers (via prestataire RDV)",
-      "BreachDate": "2025-11-24T00:00:00.000Z",
-      "AddedDate": "2025-11-24T00:00:00.000Z",
-      "PwnCount": 8500,
-      "index": 1178,
-      "Title": "Mairie de Chatou"
-    },
-    {
-      "Name": "Mairie de Saint-Aubin-d’Aubigné",
-      "Description": "≈ 3 200 enregistrements",
-      "BreachDate": "2025-11-24T00:00:00.000Z",
-      "AddedDate": "2025-11-24T00:00:00.000Z",
-      "PwnCount": 3200,
-      "index": 1179,
-      "Title": "Mairie de Saint-Aubin-d’Aubigné"
     },
     {
       "Name": "ag2r la mondiale fuite du 2025-11-25",
@@ -43009,60 +42000,6 @@
       "oldindex": 1091
     },
     {
-      "Name": "ProxiServe",
-      "Description": "294 639 clients (base complète exfiltrée)",
-      "BreachDate": "2025-11-25T00:00:00.000Z",
-      "AddedDate": "2025-11-25T00:00:00.000Z",
-      "PwnCount": 294639,
-      "index": 1189,
-      "Title": "ProxiServe"
-    },
-    {
-      "Name": "MSP du Pré Vicinal (via Weda)",
-      "Description": "≈ 15 000 dossiers patients (estimation locale)",
-      "BreachDate": "2025-11-25T00:00:00.000Z",
-      "AddedDate": "2025-11-25T00:00:00.000Z",
-      "PwnCount": 15000,
-      "index": 1190,
-      "Title": "MSP du Pré Vicinal (via Weda)"
-    },
-    {
-      "Name": "Itelis (Plateforme Santé)",
-      "Description": "≈ 5 000 000 (estimation globale incluant les bénéficiaires AXA, Malakoff et AG2R)",
-      "BreachDate": "2025-11-25T00:00:00.000Z",
-      "AddedDate": "2025-11-25T00:00:00.000Z",
-      "PwnCount": 5000000,
-      "index": 1191,
-      "Title": "Itelis (Plateforme Santé)"
-    },
-    {
-      "Name": "Fédération Française de Danse (FFDanse)",
-      "Description": "≈ 82 000 licenciés (base active et archives)",
-      "BreachDate": "2025-11-25T00:00:00.000Z",
-      "AddedDate": "2025-11-25T00:00:00.000Z",
-      "PwnCount": 82000,
-      "index": 1192,
-      "Title": "Fédération Française de Danse (FFDanse)"
-    },
-    {
-      "Name": "Clinique du Millénaire (via Weda)",
-      "Description": "≈ 45 000 dossiers patients exfiltrés",
-      "BreachDate": "2025-11-25T00:00:00.000Z",
-      "AddedDate": "2025-11-25T00:00:00.000Z",
-      "PwnCount": 45000,
-      "index": 1193,
-      "Title": "Clinique du Millénaire (via Weda)"
-    },
-    {
-      "Name": "Fédération Française de Football (FFF)",
-      "Description": "≈ 1,5 million de licenciés (nouveau dump distinct de celui de février)",
-      "BreachDate": "2025-11-26T00:00:00.000Z",
-      "AddedDate": "2025-11-26T00:00:00.000Z",
-      "PwnCount": 1500000,
-      "index": 1194,
-      "Title": "Fédération Française de Football (FFF)"
-    },
-    {
       "Name": "csdn fuite du 2025-11-27",
       "Title": "csdn fuite du 2025-11-27",
       "Domain": null,
@@ -43308,24 +42245,6 @@
       "oldindex": 1098
     },
     {
-      "Name": "MSP Givors Presqu’Île (via Weda)",
-      "Description": "≈ 12 000 dossiers patients",
-      "BreachDate": "2025-11-27T00:00:00.000Z",
-      "AddedDate": "2025-11-27T00:00:00.000Z",
-      "PwnCount": 12000,
-      "index": 1202,
-      "Title": "MSP Givors Presqu’Île (via Weda)"
-    },
-    {
-      "Name": "La Rochelle (via SynBird)",
-      "Description": "400 usagers (RDV spécifiques CNI/Passeports)",
-      "BreachDate": "2025-11-27T00:00:00.000Z",
-      "AddedDate": "2025-11-27T00:00:00.000Z",
-      "PwnCount": 400,
-      "index": 1203,
-      "Title": "La Rochelle (via SynBird)"
-    },
-    {
       "Name": "la centrale du financement fuite du 2025-11-28",
       "Title": "la centrale du financement fuite du 2025-11-28",
       "Domain": null,
@@ -43359,15 +42278,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 1099
-    },
-    {
-      "Name": "La Centrale du Financement",
-      "Description": "≈ 85 000 dossiers de prêt exfiltrés",
-      "BreachDate": "2025-11-28T00:00:00.000Z",
-      "AddedDate": "2025-11-28T00:00:00.000Z",
-      "PwnCount": 85000,
-      "index": 1205,
-      "Title": "La Centrale du Financement"
     },
     {
       "Name": "zilvia fuite du 2025-12-1",
@@ -43440,15 +42350,6 @@
       "oldindex": 1101
     },
     {
-      "Name": "France Travail (Missions Locales / Jeunes)",
-      "Description": "1,6 million de profils (jeunes de 16 à 25 ans)",
-      "BreachDate": "2025-12-01T00:00:00.000Z",
-      "AddedDate": "2025-12-01T00:00:00.000Z",
-      "PwnCount": 1600000,
-      "index": 1208,
-      "Title": "France Travail (Missions Locales / Jeunes)"
-    },
-    {
       "Name": "leroy merlin fuite du 2025-12-2",
       "Title": "leroy merlin fuite du 2025-12-2",
       "Domain": null,
@@ -43484,15 +42385,6 @@
       "oldindex": 1102
     },
     {
-      "Name": "Leroy Merlin",
-      "Description": "≈ 450 000 clients (base fidélité et e-commerce)",
-      "BreachDate": "2025-12-02T00:00:00.000Z",
-      "AddedDate": "2025-12-02T00:00:00.000Z",
-      "PwnCount": 450000,
-      "index": 1210,
-      "Title": "Leroy Merlin"
-    },
-    {
       "Name": "médecin direct fuite du 2025-12-3",
       "Title": "médecin direct fuite du 2025-12-3",
       "Domain": null,
@@ -43526,15 +42418,6 @@
       "validated": true,
       "isNSFW": false,
       "oldindex": 1103
-    },
-    {
-      "Name": "MédecinDirect (Teladoc Health)",
-      "Description": "285 000 patients notifiés (base active)",
-      "BreachDate": "2025-12-03T00:00:00.000Z",
-      "AddedDate": "2025-12-03T00:00:00.000Z",
-      "PwnCount": 285000,
-      "index": 1212,
-      "Title": "MédecinDirect (Teladoc Health)"
     },
     {
       "Name": "itelis asaf  afps fuite du 2025-12-5",
@@ -43782,33 +42665,6 @@
       "oldindex": 1110
     },
     {
-      "Name": "ASAF & AFPS (Cluster Itelis)",
-      "Description": "≈ 180 000 bénéficiaires (partie spécifique du dump Itelis)",
-      "BreachDate": "2025-12-05T00:00:00.000Z",
-      "AddedDate": "2025-12-05T00:00:00.000Z",
-      "PwnCount": 180000,
-      "index": 1220,
-      "Title": "ASAF & AFPS (Cluster Itelis)"
-    },
-    {
-      "Name": "Schmidt Groupe (Cuisinella & Schmidt)",
-      "Description": "≈ 150 000 prospects et clients (base CRM partagée)",
-      "BreachDate": "2025-12-05T00:00:00.000Z",
-      "AddedDate": "2025-12-05T00:00:00.000Z",
-      "PwnCount": 150000,
-      "index": 1221,
-      "Title": "Schmidt Groupe (Cuisinella & Schmidt)"
-    },
-    {
-      "Name": "Fédération Française de Handball (FFHandball)",
-      "Description": "≈ 500 000 licenciés (base active saison 2025)",
-      "BreachDate": "2025-12-05T00:00:00.000Z",
-      "AddedDate": "2025-12-05T00:00:00.000Z",
-      "PwnCount": 500000,
-      "index": 1222,
-      "Title": "Fédération Française de Handball (FFHandball)"
-    },
-    {
       "Name": "ufolep fuite du 2025-12-10",
       "Title": "ufolep fuite du 2025-12-10",
       "Domain": null,
@@ -43914,33 +42770,6 @@
       "oldindex": 1113
     },
     {
-      "Name": "Fédération Française de Cyclisme (FFC)",
-      "Description": "≈ 120 000 records (licenciés et archives)",
-      "BreachDate": "2025-12-10T00:00:00.000Z",
-      "AddedDate": "2025-12-10T00:00:00.000Z",
-      "PwnCount": 120000,
-      "index": 1226,
-      "Title": "Fédération Française de Cyclisme (FFC)"
-    },
-    {
-      "Name": "Résidence du Parc (EHPAD)",
-      "Description": "50 Go de données exfiltrées (Ransomware)",
-      "BreachDate": "2025-12-10T00:00:00.000Z",
-      "AddedDate": "2025-12-10T00:00:00.000Z",
-      "PwnCount": 0,
-      "index": 1227,
-      "Title": "Résidence du Parc (EHPAD)"
-    },
-    {
-      "Name": "UFOLEP",
-      "Description": "≈ 350 000 membres et encadrants",
-      "BreachDate": "2025-12-10T00:00:00.000Z",
-      "AddedDate": "2025-12-10T00:00:00.000Z",
-      "PwnCount": 350000,
-      "index": 1228,
-      "Title": "UFOLEP"
-    },
-    {
       "Name": "france ventilation fuite du 2025-12-12",
       "Title": "france ventilation fuite du 2025-12-12",
       "Domain": null,
@@ -44011,24 +42840,6 @@
       "oldindex": 1115
     },
     {
-      "Name": "France Ventilation",
-      "Description": "≈ 8 500 transactions bancaires (Fuite de type 'Magecart')",
-      "BreachDate": "2025-12-12T00:00:00.000Z",
-      "AddedDate": "2025-12-12T00:00:00.000Z",
-      "PwnCount": 8500,
-      "index": 1231,
-      "Title": "France Ventilation"
-    },
-    {
-      "Name": "Euromatik",
-      "Description": "≈ 12 000 clients (base e-commerce)",
-      "BreachDate": "2025-12-12T00:00:00.000Z",
-      "AddedDate": "2025-12-12T00:00:00.000Z",
-      "PwnCount": 12000,
-      "index": 1232,
-      "Title": "Euromatik"
-    },
-    {
       "Name": "ministère de l’intérieur fuite du 2025-12-13",
       "Title": "ministère de l’intérieur fuite du 2025-12-13",
       "Domain": null,
@@ -44062,15 +42873,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 1116
-    },
-    {
-      "Name": "Ministère de l’Intérieur",
-      "Description": "Volume non chiffré (Accès TAJ/FPR, fichiers administratifs et identités d'agents)",
-      "BreachDate": "2025-12-13T00:00:00.000Z",
-      "AddedDate": "2025-12-13T00:00:00.000Z",
-      "PwnCount": 0,
-      "index": 1234,
-      "Title": "Ministère de l’Intérieur"
     },
     {
       "Name": "pornhub fuite du 2025-12-16",
@@ -44143,24 +42945,6 @@
       "oldindex": 1118
     },
     {
-      "Name": "SoundCloud",
-      "Description": "≈ 26 000 000 d'utilisateurs (20% de la base active)",
-      "BreachDate": "2025-12-16T00:00:00.000Z",
-      "AddedDate": "2025-12-16T00:00:00.000Z",
-      "PwnCount": 26000000,
-      "index": 1237,
-      "Title": "SoundCloud"
-    },
-    {
-      "Name": "Pornhub",
-      "Description": "≈ 12 000 000 de comptes (Identifiants exfiltrés via credential stuffing)",
-      "BreachDate": "2025-12-16T00:00:00.000Z",
-      "AddedDate": "2025-12-16T00:00:00.000Z",
-      "PwnCount": 12000000,
-      "index": 1238,
-      "Title": "Pornhub"
-    },
-    {
       "Name": "sfr fuite du 2025-12-17",
       "Title": "sfr fuite du 2025-12-17",
       "Domain": null,
@@ -44229,24 +43013,6 @@
       "isNSFW": false,
       "validated": true,
       "oldindex": 1120
-    },
-    {
-      "Name": "SFR / RED by SFR",
-      "Description": "≈ 1,1 million de clients (incident groupé)",
-      "BreachDate": "2025-12-17T00:00:00.000Z",
-      "AddedDate": "2025-12-17T00:00:00.000Z",
-      "PwnCount": 1100000,
-      "index": 1241,
-      "Title": "SFR / RED by SFR"
-    },
-    {
-      "Name": "Parashop",
-      "Description": "≈ 140 000 clients",
-      "BreachDate": "2025-12-17T00:00:00.000Z",
-      "AddedDate": "2025-12-17T00:00:00.000Z",
-      "PwnCount": 140000,
-      "index": 1242,
-      "Title": "Parashop"
     },
     {
       "Name": "caisse d’allocations familiales fuite du 2025-12-18",
@@ -44389,24 +43155,6 @@
       "oldindex": 1124
     },
     {
-      "Name": "Ministère des Sports (Pass Sport)",
-      "Description": "3 500 000 foyers (Fuite majeure KYC/Sociale)",
-      "BreachDate": "2025-12-19T00:00:00.000Z",
-      "AddedDate": "2025-12-19T00:00:00.000Z",
-      "PwnCount": 3500000,
-      "index": 1247,
-      "Title": "Ministère des Sports (Pass Sport)"
-    },
-    {
-      "Name": "La Licra",
-      "Description": "186 abonnés et 8 administrateurs",
-      "BreachDate": "2025-12-19T00:00:00.000Z",
-      "AddedDate": "2025-12-19T00:00:00.000Z",
-      "PwnCount": 194,
-      "index": 1248,
-      "Title": "La Licra"
-    },
-    {
       "Name": "chronopost fuite du 2025-12-20",
       "Title": "chronopost fuite du 2025-12-20",
       "Domain": null,
@@ -44440,15 +43188,6 @@
       "validated": true,
       "isNSFW": false,
       "oldindex": 1125
-    },
-    {
-      "Name": "Chronopost / Pickup",
-      "Description": "860 000 clients",
-      "BreachDate": "2025-12-20T00:00:00.000Z",
-      "AddedDate": "2025-12-20T00:00:00.000Z",
-      "PwnCount": 860000,
-      "index": 1250,
-      "Title": "Chronopost / Pickup"
     },
     {
       "Name": "altitude infra fuite du 2025-12-22",
@@ -44591,15 +43330,6 @@
       "oldindex": 1129
     },
     {
-      "Name": "123casting",
-      "Description": "240 000 profils (Base complète exfiltrée)",
-      "BreachDate": "2025-12-22T00:00:00.000Z",
-      "AddedDate": "2025-12-22T00:00:00.000Z",
-      "PwnCount": 240000,
-      "index": 1255,
-      "Title": "123casting"
-    },
-    {
       "Name": "fédération française de natation fuite du 2025-12-23",
       "Title": "fédération française de natation fuite du 2025-12-23",
       "Domain": null,
@@ -44635,15 +43365,6 @@
       "oldindex": 1130
     },
     {
-      "Name": "Fédération Française de Natation (FFN)",
-      "Description": "1,3 million d’adhérents (base complète)",
-      "BreachDate": "2025-12-23T00:00:00.000Z",
-      "AddedDate": "2025-12-23T00:00:00.000Z",
-      "PwnCount": 1300000,
-      "index": 1257,
-      "Title": "Fédération Française de Natation (FFN)"
-    },
-    {
       "Name": "adecco fuite du 2025-12-24",
       "Title": "adecco fuite du 2025-12-24",
       "Domain": null,
@@ -44677,15 +43398,6 @@
       "validated": true,
       "isNSFW": false,
       "oldindex": 1131
-    },
-    {
-      "Name": "Adecco France",
-      "Description": "800 000 candidats et intérimaires",
-      "BreachDate": "2025-12-24T00:00:00.000Z",
-      "AddedDate": "2025-12-24T00:00:00.000Z",
-      "PwnCount": 800000,
-      "index": 1259,
-      "Title": "Adecco France"
     },
     {
       "Name": "logitech",
@@ -44859,33 +43571,6 @@
       "validated": true,
       "isNSFW": false,
       "oldindex": 1136
-    },
-    {
-      "Name": "Mondial Relay",
-      "Description": "≈ 250 000 comptes clients (échantillon diffusé)",
-      "BreachDate": "2025-12-26T00:00:00.000Z",
-      "AddedDate": "2025-12-26T00:00:00.000Z",
-      "PwnCount": 250000,
-      "index": 1265,
-      "Title": "Mondial Relay"
-    },
-    {
-      "Name": "Fédération Française de Kick Boxing (FFKMDA)",
-      "Description": "361 321 adhérents uniques",
-      "BreachDate": "2025-12-26T00:00:00.000Z",
-      "AddedDate": "2025-12-26T00:00:00.000Z",
-      "PwnCount": 361321,
-      "index": 1266,
-      "Title": "Fédération Française de Kick Boxing (FFKMDA)"
-    },
-    {
-      "Name": "Commune de Lens",
-      "Description": "≈ 32 000 administrés (potentiel selon population)",
-      "BreachDate": "2025-12-26T00:00:00.000Z",
-      "AddedDate": "2025-12-26T00:00:00.000Z",
-      "PwnCount": 32000,
-      "index": 1267,
-      "Title": "Commune de Lens"
     },
     {
       "Name": "acrv fuite du 2025-12-27",
@@ -45063,24 +43748,6 @@
       "oldindex": 1141
     },
     {
-      "Name": "PayTrip",
-      "Description": "74 877 clients (données Fintech)",
-      "BreachDate": "2025-12-27T00:00:00.000Z",
-      "AddedDate": "2025-12-27T00:00:00.000Z",
-      "PwnCount": 74877,
-      "index": 1273,
-      "Title": "PayTrip"
-    },
-    {
-      "Name": "HelloWork",
-      "Description": "≈ 2,8 millions de profils candidats",
-      "BreachDate": "2025-12-27T00:00:00.000Z",
-      "AddedDate": "2025-12-27T00:00:00.000Z",
-      "PwnCount": 2800000,
-      "index": 1274,
-      "Title": "HelloWork"
-    },
-    {
       "Name": "europages fuite du 2025-12-28",
       "Title": "europages fuite du 2025-12-28",
       "Domain": null,
@@ -45182,7 +43849,8 @@
       ],
       "index": 1277,
       "isNSFW": false,
-      "oldindex": 1144
+      "oldindex": 1144,
+      "validated": true
     },
     {
       "Name": "batterie de portable fuite du 2025-12-28",
@@ -45216,7 +43884,8 @@
       ],
       "index": 1278,
       "isNSFW": false,
-      "oldindex": 1145
+      "oldindex": 1145,
+      "validated": true
     },
     {
       "Name": "ministère de l’agriculture et de l’alimentation fuite du 2025-12-28",
@@ -45250,43 +43919,8 @@
       ],
       "index": 1279,
       "isNSFW": false,
-      "oldindex": 1146
-    },
-    {
-      "Name": "Ministère de l’Agriculture (France)",
-      "Description": "97 210 fichiers (revendiqué par LAPSUS$)",
-      "BreachDate": "2025-12-28T00:00:00.000Z",
-      "AddedDate": "2025-12-28T00:00:00.000Z",
-      "PwnCount": 0,
-      "index": 1280,
-      "Title": "Ministère de l’Agriculture (France)"
-    },
-    {
-      "Name": "Europages",
-      "Description": "≈ 210 000 contacts B2B",
-      "BreachDate": "2025-12-28T00:00:00.000Z",
-      "AddedDate": "2025-12-28T00:00:00.000Z",
-      "PwnCount": 210000,
-      "index": 1281,
-      "Title": "Europages"
-    },
-    {
-      "Name": "Batterie de Portable",
-      "Description": "≈ 120 000 clients notifiés",
-      "BreachDate": "2025-12-28T00:00:00.000Z",
-      "AddedDate": "2025-12-28T00:00:00.000Z",
-      "PwnCount": 120000,
-      "index": 1282,
-      "Title": "Batterie de Portable"
-    },
-    {
-      "Name": "Allegro Musique",
-      "Description": "≈ 45 000 professeurs et élèves",
-      "BreachDate": "2025-12-28T00:00:00.000Z",
-      "AddedDate": "2025-12-28T00:00:00.000Z",
-      "PwnCount": 45000,
-      "index": 1283,
-      "Title": "Allegro Musique"
+      "oldindex": 1146,
+      "validated": true
     },
     {
       "Name": "université de lille fuite du 2025-12-29",
@@ -45320,7 +43954,8 @@
       ],
       "index": 1284,
       "isNSFW": false,
-      "oldindex": 1147
+      "oldindex": 1147,
+      "validated": true
     },
     {
       "Name": "école de management de grenoble fuite du 2025-12-29",
@@ -45354,25 +43989,8 @@
       ],
       "index": 1285,
       "isNSFW": false,
-      "oldindex": 1148
-    },
-    {
-      "Name": "Grenoble École de Management (GEM Alpine Business School)",
-      "Description": "≈ 448 000 profils (base prospects et abonnés newsletters)",
-      "BreachDate": "2025-12-29T00:00:00.000Z",
-      "AddedDate": "2025-12-29T00:00:00.000Z",
-      "PwnCount": 448000,
-      "index": 1286,
-      "Title": "Grenoble École de Management (GEM Alpine Business School)"
-    },
-    {
-      "Name": "Université de Lille (IUT Informatique)",
-      "Description": "7 244 dossiers (revendiqué par LAPSUS$)",
-      "BreachDate": "2025-12-29T00:00:00.000Z",
-      "AddedDate": "2025-12-29T00:00:00.000Z",
-      "PwnCount": 7244,
-      "index": 1287,
-      "Title": "Université de Lille (IUT Informatique)"
+      "oldindex": 1148,
+      "validated": true
     },
     {
       "Name": "CNRS (projet NectarCam – CTA)",
@@ -45381,25 +43999,8 @@
       "AddedDate": "2025-12-29T00:00:00.000Z",
       "PwnCount": 0,
       "index": 1288,
-      "Title": "CNRS (projet NectarCam – CTA)"
-    },
-    {
-      "Name": "CLYO Systems",
-      "Description": "147 820 comptes (données datées de 2016 à septembre 2023, fuite dite « froide » selon la veille)",
-      "BreachDate": "2025-12-30T00:00:00.000Z",
-      "AddedDate": "2025-12-30T00:00:00.000Z",
-      "PwnCount": 147820,
-      "index": 1289,
-      "Title": "CLYO Systems"
-    },
-    {
-      "Name": "Fédération Française de Spéléologie (FFS)",
-      "Description": "63 000 licenciés et abonnés (mise en vente signalée le 30/12/2025)",
-      "BreachDate": "2025-12-30T00:00:00.000Z",
-      "AddedDate": "2025-12-30T00:00:00.000Z",
-      "PwnCount": 63000,
-      "index": 1290,
-      "Title": "Fédération Française de Spéléologie (FFS)"
+      "Title": "CNRS (projet NectarCam – CTA)",
+      "validated": true
     },
     {
       "Name": "institut polytechnique de paris fuite du 2025-12-31",
@@ -45433,7 +44034,8 @@
       ],
       "index": 1291,
       "isNSFW": false,
-      "oldindex": 1149
+      "oldindex": 1149,
+      "validated": true
     },
     {
       "Name": "école nationale de la statistique et de l’analyse de l’information fuite du 2025-12-31",
@@ -45467,34 +44069,8 @@
       ],
       "index": 1292,
       "isNSFW": false,
-      "oldindex": 1150
-    },
-    {
-      "Name": "Institut Polytechnique de Paris (ENSAE)",
-      "Description": "9 551 enregistrements (dont 4 179 IBAN exposés)",
-      "BreachDate": "2025-12-31T00:00:00.000Z",
-      "AddedDate": "2025-12-31T00:00:00.000Z",
-      "PwnCount": 9551,
-      "index": 1293,
-      "Title": "Institut Polytechnique de Paris (ENSAE)"
-    },
-    {
-      "Name": "École Nationale de la Statistique et de l’Analyse de l’Information (ENSAI)",
-      "Description": "3 900 étudiants et candidats",
-      "BreachDate": "2025-12-31T00:00:00.000Z",
-      "AddedDate": "2025-12-31T00:00:00.000Z",
-      "PwnCount": 3900,
-      "index": 1294,
-      "Title": "École Nationale de la Statistique et de l’Analyse de l’Information (ENSAI)"
-    },
-    {
-      "Name": "OFII / ANEF (Portail \"Étrangers en France\" – Ministère de l’Intérieur)",
-      "Description": "≈ 2,1 millions de lignes (~1 Go) - Confirmée",
-      "BreachDate": "2026-01-01T00:00:00.000Z",
-      "AddedDate": "2026-01-01T00:00:00.000Z",
-      "PwnCount": 2100000,
-      "index": 1295,
-      "Title": "OFII / ANEF (Portail \"Étrangers en France\" – Ministère de l’Intérieur)"
+      "oldindex": 1150,
+      "validated": true
     },
     {
       "Name": "trescal fuite du 2026-1-2",
@@ -45563,52 +44139,8 @@
       ],
       "index": 1297,
       "isNSFW": false,
-      "oldindex": 1152
-    },
-    {
-      "Name": "Trescal",
-      "Description": "70 981 clients (revendication/veille ; non confirmé officiellement par Trescal à ce stade)",
-      "BreachDate": "2026-01-02T00:00:00.000Z",
-      "AddedDate": "2026-01-02T00:00:00.000Z",
-      "PwnCount": 70981,
-      "index": 1298,
-      "Title": "Trescal"
-    },
-    {
-      "Name": "AFPPCD-IDF",
-      "Description": "Plus de 24 000 enregistrements (revendication/veille ; non confirmé officiellement par l’organisme à ce stade)",
-      "BreachDate": "2026-01-02T00:00:00.000Z",
-      "AddedDate": "2026-01-02T00:00:00.000Z",
-      "PwnCount": 24000,
-      "index": 1299,
-      "Title": "AFPPCD-IDF"
-    },
-    {
-      "Name": "Dream Up (LAPSUS$) 40go multi sites",
-      "Description": "40 Go (54 bases SQL revendiquées / exfiltrées).",
-      "BreachDate": "2026-01-04T00:00:00.000Z",
-      "AddedDate": "2026-01-04T00:00:00.000Z",
-      "PwnCount": 0,
-      "index": 1300,
-      "Title": "Dream Up (LAPSUS$) 40go multi sites"
-    },
-    {
-      "Name": "AXYON  (EDF, Eiffage, Bouygues, Engie, Renault, etc.)",
-      "Description": "≈ 340 Go de données internes (revendication/vente) — périmètre exact et date de compromission non confirmés publiquement à ce stade",
-      "BreachDate": "2026-01-04T00:00:00.000Z",
-      "AddedDate": "2026-01-04T00:00:00.000Z",
-      "PwnCount": 0,
-      "index": 1301,
-      "Title": "AXYON  (EDF, Eiffage, Bouygues, Engie, Renault, etc.)"
-    },
-    {
-      "Name": "AgroParisTech",
-      "Description": "211 Go de données (revendication/veille ; non confirmé officiellement à ce stade)",
-      "BreachDate": "2026-01-04T00:00:00.000Z",
-      "AddedDate": "2026-01-04T00:00:00.000Z",
-      "PwnCount": 0,
-      "index": 1302,
-      "Title": "AgroParisTech"
+      "oldindex": 1152,
+      "validated": true
     },
     {
       "Name": "office français de l’immigration et de l’intégration fuite du 2026-1-5",
@@ -45642,70 +44174,8 @@
       ],
       "index": 1303,
       "isNSFW": false,
-      "oldindex": 1153
-    },
-    {
-      "Name": "Ledger (via prestataire Global-e)",
-      "Description": "Incident confirmé (Global-e) — nombre de clients Ledger impactés non communiqué publiquement",
-      "BreachDate": "2026-01-05T00:00:00.000Z",
-      "AddedDate": "2026-01-05T00:00:00.000Z",
-      "PwnCount": 0,
-      "index": 1304,
-      "Title": "Ledger (via prestataire Global-e)"
-    },
-    {
-      "Name": "Petits-fils",
-      "Description": "1 050 identités uniques (collaborateurs, responsables d’agences, franchisés). Données actualisées jusqu’au 24 décembre 2025 (timestamps).",
-      "BreachDate": "2026-01-05T00:00:00.000Z",
-      "AddedDate": "2026-01-05T00:00:00.000Z",
-      "PwnCount": 1050,
-      "index": 1305,
-      "Title": "Petits-fils"
-    },
-    {
-      "Name": "DCE Conseil (Partenaires divers : Prisons, Armées, Luxe etc)",
-      "Description": "844 Go de données (remis en vente sur BreachForums/revendication). Fuite signalée initialement en octobre 2025. Périmètre cité : Prisons (établissements d’Argentan, Châteaudun, Condé-sur-Sarthe, Orléans – Justice / justice.gouv) ; Défense (base école du 2e Régiment d’Hélicoptères de Combat BE-2e RHC au Quartier Lejay – Armées / Armees.Gouv) ; Gendarmerie ; Hermès  ; Veolia  ; Dalkia  ; Engie  ; GRTgaz ; Lidl  ; Sodexo ; etc.",
-      "BreachDate": "2026-01-05T00:00:00.000Z",
-      "AddedDate": "2026-01-05T00:00:00.000Z",
-      "PwnCount": 0,
-      "index": 1306,
-      "Title": "DCE Conseil (Partenaires divers : Prisons, Armées, Luxe etc)"
-    },
-    {
-      "Name": "Fédération Française d'ULM (FFPLUM)",
-      "Description": "Revendication sur Breachforums cybercriminel : base annoncée à 78 133 lignes.",
-      "BreachDate": "2026-01-06T00:00:00.000Z",
-      "AddedDate": "2026-01-06T00:00:00.000Z",
-      "PwnCount": 78133,
-      "index": 1307,
-      "Title": "Fédération Française d'ULM (FFPLUM)"
-    },
-    {
-      "Name": "Fondation des Lions de France (Lions Clubs de France)",
-      "Description": "135 580 enregistrements au total - confirmé; 133 297 victimes uniques après dédoublonnage. Logs indiquant des mises à jour jusqu’au 2 janvier 2026 (≈48h avant publication). Publication sur BreachForums. Exemples de personnalités citées dans le post : Rachida Dati, Sébastien Lecornu, François Bayrou ; présence alléguée de nombreux maires, préfets, magistrats et hauts gradés.",
-      "BreachDate": "2026-01-06T00:00:00.000Z",
-      "AddedDate": "2026-01-06T00:00:00.000Z",
-      "PwnCount": 133297,
-      "index": 1308,
-      "Title": "Fondation des Lions de France (Lions Clubs de France)"
-    },
-    {
-      "Name": "L’Orange Bleue Fitness Club",
-      "Description": "Fuite interne concernant ~600 clubs (France/Belgique/Espagne) datant de juin 2025. Échantillon public analysé : >2 500 lignes (1 ligne = 1 fiche club issue d’un logiciel interne). Aucune donnée client indiquée comme compromise à ce stade.",
-      "BreachDate": "2026-01-06T00:00:00.000Z",
-      "AddedDate": "2026-01-06T00:00:00.000Z",
-      "PwnCount": 0,
-      "index": 1309,
-      "Title": "L’Orange Bleue Fitness Club"
-    },
-    {
-      "Name": "Philharmonie de Paris (PAD)",
-      "Description": "Exfiltration suspectée : 25 décembre 2025 (métadonnées lastlogin). Base nationale d’abonnés PAD incluant accès via bibliothèques partenaires (BDP/BM/BU).",
-      "BreachDate": "2026-01-06T00:00:00.000Z",
-      "AddedDate": "2026-01-06T00:00:00.000Z",
-      "PwnCount": 47561,
-      "index": 1310,
-      "Title": "Philharmonie de Paris (PAD)"
+      "oldindex": 1153,
+      "validated": true
     },
     {
       "Name": "corse gsm fuite du 2026-1-7",
@@ -45739,7 +44209,8 @@
       ],
       "index": 1311,
       "isNSFW": false,
-      "oldindex": 1154
+      "oldindex": 1154,
+      "validated": true
     },
     {
       "Name": "easycash fuite du 2026-1-7",
@@ -45773,7 +44244,8 @@
       ],
       "index": 1312,
       "isNSFW": false,
-      "oldindex": 1155
+      "oldindex": 1155,
+      "validated": true
     },
     {
       "Name": "fédération française de squash fuite du 2026-1-7",
@@ -45807,7 +44279,8 @@
       ],
       "index": 1313,
       "isNSFW": false,
-      "oldindex": 1156
+      "oldindex": 1156,
+      "validated": true
     },
     {
       "Name": "fédération française d’ulm fuite du 2026-1-7",
@@ -45841,7 +44314,8 @@
       ],
       "index": 1314,
       "isNSFW": false,
-      "oldindex": 1157
+      "oldindex": 1157,
+      "validated": true
     },
     {
       "Name": "fédération sportive et gymnique du travail fuite du 2026-1-7",
@@ -45875,7 +44349,8 @@
       ],
       "index": 1315,
       "isNSFW": false,
-      "oldindex": 1158
+      "oldindex": 1158,
+      "validated": true
     },
     {
       "Name": "philharmonie de paris fuite du 2026-1-7",
@@ -45909,52 +44384,8 @@
       ],
       "index": 1316,
       "isNSFW": false,
-      "oldindex": 1159
-    },
-    {
-      "Name": "Fédération Française de Squash (FFSquash)",
-      "Description": "Revendication sur  BreachForums  : base 162 263 lignes.",
-      "BreachDate": "2026-01-07T00:00:00.000Z",
-      "AddedDate": "2026-01-07T00:00:00.000Z",
-      "PwnCount": 162263,
-      "index": 1317,
-      "Title": "Fédération Française de Squash (FFSquash)"
-    },
-    {
-      "Name": "Fédération Française de Canoë-Kayak (FFCK)",
-      "Description": "Revendication sur Breachforums cybercriminel. Compromission début janvier 2026.",
-      "BreachDate": "2026-01-07T00:00:00.000Z",
-      "AddedDate": "2026-01-07T00:00:00.000Z",
-      "PwnCount": 72178,
-      "index": 1318,
-      "Title": "Fédération Française de Canoë-Kayak (FFCK)"
-    },
-    {
-      "Name": "Fédération Française de Roller et Skateboard (FFRS) #2",
-      "Description": "Revendication sur Breachforums. Présence de champs « saison 2026 » et validités jusqu’au 31/08/2026 dans les samples. Nouvelle fuite présumée distincte de celle de 2025, données plus récentes/actualisées.",
-      "BreachDate": "2026-01-07T00:00:00.000Z",
-      "AddedDate": "2026-01-07T00:00:00.000Z",
-      "PwnCount": 599797,
-      "index": 1319,
-      "Title": "Fédération Française de Roller et Skateboard (FFRS) #2"
-    },
-    {
-      "Name": "Corse GSM (2025)",
-      "Description": "Fichier JSON : 23 923 enregistrements au total. Indices de fraîcheur : commitmentEndDate observée jusqu’au 12 mai 2027 ; estimation d’extraction vers mai 2025 (hypothèse engagement max 24 mois). Comparatif 2024 : la fuite 2024 comptait 41 955 enregistrements et incluait davantage de données.",
-      "BreachDate": "2026-01-08T00:00:00.000Z",
-      "AddedDate": "2026-01-08T00:00:00.000Z",
-      "PwnCount": 23920,
-      "index": 1320,
-      "Title": "Corse GSM (2025)"
-    },
-    {
-      "Name": "Fédération Sportive et Gymnique du Travail (FSGT)",
-      "Description": "Revendication sur BreachForums. base ~600 000 comptes, compromission fin 2025.",
-      "BreachDate": "2026-01-08T00:00:00.000Z",
-      "AddedDate": "2026-01-08T00:00:00.000Z",
-      "PwnCount": 599797,
-      "index": 1321,
-      "Title": "Fédération Sportive et Gymnique du Travail (FSGT)"
+      "oldindex": 1159,
+      "validated": true
     }
   ]
 }
