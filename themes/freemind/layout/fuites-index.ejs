@@ -136,7 +136,7 @@
       })
       .then(data => {
         const invalidcategory=["hygiène numérique","sécurité","cybersécurité","cybercriminalité","cyberguerre"]
-        const breaches = data.breaches.filter((item) => !item.IsRetired).
+        const breaches = data.breaches.filter((item) => !item.IsRetired)
         if (breachId !== null && breaches[breachId]) {
           renderDetails(breaches[breachId], breachId);
         } else {
