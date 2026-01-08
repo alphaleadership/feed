@@ -136,19 +136,7 @@
       })
       .then(data => {
         const invalidcategory=["hygiène numérique","sécurité","cybersécurité","cybercriminalité","cyberguerre"]
-        const breaches = data.breaches.filter((item) => !item.IsRetired).filter((c)=>{
-          const category=c.categories[0]
-          if(category==""){
-								return false
-							}
-								if(!isNaN(parseInt(category))){
-								invalidcategory.push(category)
-							}
-							if(invalidcategory.includes(category.toLowerCase())){
-								return false 
-							}
-              return true 
-        });
+        const breaches = data.breaches.filter((item) => !item.IsRetired).
         if (breachId !== null && breaches[breachId]) {
           renderDetails(breaches[breachId], breachId);
         } else {
