@@ -10,7 +10,7 @@ const PostDir = './source/';
 axios.default.get("https://haveibeenpwned.com/api/v3/breaches").then((res)=>{
 res.data.forEach((breach)=>{
   if(!db.breaches.includes(breach.Name)){
-    console.log(breach.Name)
+   // console.log(breach.Name)
     if(db.breaches.findIndex((b)=>{return b.Name==breach.Name})==-1){
       db.breaches.push(breach)
     }else{
@@ -78,7 +78,7 @@ parser.parseURL(rssUrl).then(feed => {
   try {
     // Filtrage des doublons avant toute opération
     const uniqueItems = filterDisplayItems(feed.items.map((i)=>{
-     console.log(i)
+    // console.log(i)
       //console.log(new Date(i.pubDate.replace("BST","")))
       i.pubDate=i.pubDate.replace("BST","")
       return i
@@ -89,7 +89,7 @@ parser.parseURL(rssUrl).then(feed => {
     uniqueItems.forEach((item) => {
       try {
         const postTitle = item.link.split('/').pop();
-        console.log(postTitle)
+       // console.log(postTitle)
         const pubDate = new Date(item.pubDate);
         const dateStr = `${pubDate.getFullYear()}-${pubDate.getMonth() + 1}-${pubDate.getDate()}`;
         let entreprises

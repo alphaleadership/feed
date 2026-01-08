@@ -39,7 +39,7 @@ db.breaches.forEach((breach, idx) => {
    const invalidcategory=["hygiène numérique","sécurité","cybersécurité","cybercriminalité","cyberguerre"]
  
     breach.Name=decodeURI(breach.Name)
-    console.log("Name", breach.Name)
+   // console.log("Name", breach.Name)
    if(breach.Name.split("fuite")[0]==""){
       breach.IsRetired=true
     }
@@ -74,7 +74,7 @@ db.breaches.forEach((breach, idx) => {
     }
   }
   if(!Object.keys(breach).includes("lien")){
-    console.log("lien", breach.path)
+   // console.log("lien", breach.path)
     breach.lien="https://haveibeenpwned.com/Breach/"+(breach.path||"").split("breaches/")[1]
   }
   if(breach?.validated){

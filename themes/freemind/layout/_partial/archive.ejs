@@ -19,22 +19,13 @@
           if(c.Name.toLowerCase().includes("cve-")){
             return false
           }
-          const category=c.categories[0]
-          if(category==""){
-								return false
-							}
-								if(!isNaN(parseInt(category))){
-								invalidcategory.push(category)
-							}
-							if(invalidcategory.includes(category.toLowerCase())){
-								return false 
-							}
-              return !c.IsRetired 
+          
+              return true
         }).map((item, index) => {
     //item.index = index; // Ajouter l'index pour le lien
     return item;
   }).sort((a, b) => new Date(b.BreachDate) - new Date(a.BreachDate))
-    ;
+    
 
   filteredPosts.forEach(function(item) {
       var date = new Date(item.BreachDate);
