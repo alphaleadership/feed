@@ -28,7 +28,7 @@ let i=-1;
 // Ajouter l'index à chaque fuite
 const alreadyseen=new Set()
 db.breaches.forEach((breach, idx) => {
-  console.log(breach)
+//  console.log(breach)
   if(alreadyseen.has(breach.Name)){
     breach.IsRetired=true
   }

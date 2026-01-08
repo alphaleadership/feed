@@ -74,11 +74,11 @@ const disdata = fetchjson("https://christopheboutry.com/data/fuites-infos.json")
       })
 
     })
-    console.log(await tempdata)
+    //console.log(await tempdata)
     const storage=await tempdata
     fs.readdirSync(path.join(baseDir, 'source', '_posts')).filter((file) => { return fs.statSync(path.join(baseDir, 'source', '_posts', file)).isDirectory() }).forEach((dir) => {
       const importDir = path.join(baseDir, 'source', '_posts', dir);
-      console.log(importDir)
+      //console.log(importDir)
       const dataFile = path.join(baseDir, 'source', '_data', 'breaches.json');
       console.log("Démarrage du script d'importation autonome...");
 
