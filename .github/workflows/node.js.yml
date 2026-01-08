@@ -46,7 +46,7 @@ jobs:
     - uses: stefanzweifel/git-auto-commit-action@v7.1.0
       with:
         commit_message: Mise à jour de l'indexation des articles
-        branch: temp-indexation
+        
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - run: npx hexo generate &&npx hexo deploy
