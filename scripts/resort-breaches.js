@@ -26,22 +26,18 @@ db.breaches.sort((a, b) => {
 });
 let i=-1;
 // Ajouter l'index à chaque fuite
+const alreadyseen=new Set()
 db.breaches.forEach((breach, idx) => {
   console.log(breach)
+  if(alreadyseen.has(breach.Name)){
+    breach.IsRetired=true
+  }
+  alreadyseen.add(breach.Name)
   if(breach==null){
     return
   }
    const invalidcategory=["hygiène numérique","sécurité","cybersécurité","cybercriminalité","cyberguerre"]
-   const category=breach.categories[0]
-          if(category==""){
-								breach.IsRetired=true
-							}
-								if(!isNaN(parseInt(category))){
-								invalidcategory.push(category)
-							}
-							if(invalidcategory.includes(category.toLowerCase())){
-								breach.IsRetired=true
-							}
+ 
     breach.Name=decodeURI(breach.Name)
     console.log("Name", breach.Name)
    if(breach.Name.split("fuite")[0]==""){
@@ -53,7 +49,19 @@ db.breaches.forEach((breach, idx) => {
  if(!(breach.categories && Array.isArray(breach.categories))){
    
     breach.categories=[]
+  }else{
+        const category=breach.categories[0]||""
+          if(category==""){
+								breach.IsRetired=true
+							}
+								if(!isNaN(parseInt(category))){
+								invalidcategory.push(category)
+							}
+							if(invalidcategory.includes(category.toLowerCase())){
+								breach.IsRetired=true
+							}
   }
+
   // Détection automatique NSFW basée sur la description
   if(!Object.keys(breach).includes("isNSFW")){
     breach.isNSFW = false;
@@ -69,12 +77,16 @@ db.breaches.forEach((breach, idx) => {
     console.log("lien", breach.path)
     breach.lien="https://haveibeenpwned.com/Breach/"+(breach.path||"").split("breaches/")[1]
   }
+  if(breach?.validated){
+    breach.IsRetired=false
+  }
   if(!breach.IsRetired){
     i++
   }
   breach.oldindex=breach.index
   breach.index = i;
-})
+});
+db.breaches=db.breaches.filter(breach=>!breach.IsRetired)
 
 console.log('Tri effectué. Première fuite:', db.breaches[0].Name, '- Date:', db.breaches[0].BreachDate);
 console.log('Dernière fuite:', db.breaches[db.breaches.length - 1].Name, '- Date:', db.breaches[db.breaches.length - 1].BreachDate);
