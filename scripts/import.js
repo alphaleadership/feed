@@ -48,12 +48,12 @@ class breach {
     Object.assign(this, defaultBreachSchema, data);
   }
 }
-const disdata = fetchjson("https://christopheboutry.com/data/fuites-infos.json")
+//const disdata = fetchjson("https://christopheboutry.com/data/fuites-infos.json")
 
 
 
   async function runImport() {
-    const tempdata = disdata.then((data) => {
+    /*const tempdata = disdata.then((data) => {
       //console.log(data)
       return data.data.map((item) => {
         let morph = item
@@ -73,9 +73,9 @@ const disdata = fetchjson("https://christopheboutry.com/data/fuites-infos.json")
 
       })
 
-    })
+    })*/
     //console.log(await tempdata)
-    const storage=await tempdata
+    const storage=[]
     fs.readdirSync(path.join(baseDir, 'source', '_posts')).filter((file) => { return fs.statSync(path.join(baseDir, 'source', '_posts', file)).isDirectory() }).forEach((dir) => {
       const importDir = path.join(baseDir, 'source', '_posts', dir);
       //console.log(importDir)
