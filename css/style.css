@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+/* =============================================================================
+   Base structure for Freemind Theme
+   ========================================================================== */
+
+.container-narrow {
+  margin: 0 auto;
+  max-width:970px;
+}
+
+.content {
+  padding: 20px;
+  margin-left: -20px;
+  margin-right: -20px;
+  border-radius: 6px;
+}
+
+#sidebar {
+  font-size: 0.9em;
+}
+
+a {
+    word-break: break-word;
+}
+
+.post, .page {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+pre code{
+  border: none!important;
+}
+
+/* =============================================================================
+   MATRIX THEME OVERRIDES
+   ========================================================================== */
+
+body {
+  color: #00FF41;
+  background-color: #000000;
+}
+
+a {
+  color: #39FF14;
+}
+
+a:hover, a:focus {
+  color: #9effae;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  color: #00FF41;
+  font-family: 'IBM Plex Mono', monospace;
+  text-shadow: 0 0 3px rgba(0, 255, 65, 0.4);
+}
+
+.navbar-default, .navbar-inverse {
+  background-color: #000000;
+  border-color: #005211;
+  background-image: none;
+  box-shadow: none;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+    color: #00FF41;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #9effae;
+    background-color: #005211;
+}
+
+.btn-default {
+  color: #00FF41;
+  background-color: #1a1a1a;
+  border-color: #005211;
+  background-image: none;
+}
+.btn-default:hover, .btn-default:focus {
+  color: #000000;
+  background-color: #9effae;
+  border-color: #9effae;
+}
+
+.btn-primary {
+  color: #000000;
+  background-color: #39FF14;
+  border-color: #39FF14;
+  background-image: none;
+}
+.btn-primary:hover, .btn-primary:focus {
+  color: #000000;
+  background-color: #9effae;
+  border-color: #9effae;
+}
+
+.panel, .well, .list-group-item, .modal-content, .popover {
+    background-color: #000000;
+    color: #00FF41;
+    border-color: #005211;
+}
+
+.panel-heading {
+    background-color: #1a1a1a !important;
+    border-color: #005211 !important;
+    color: #00FF41 !important;
+}
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+  background-color: #39FF14;
+  border-color: #39FF14;
+  color: #000;
+}
+
+.alert-info {
+  color: #9effae;
+  background-color: #005211;
+  border-color: #008a22;
+}
+
+.alert-success {
+  color: #39FF14;
+  background-color: #005211;
+  border-color: #008a22;
+}
+
+.alert-warning {
+  color: #E8D53A;
+  background-color: #2a2a00;
+  border-color: #E8D53A;
+}
+
+.alert-danger {
+  color: #ff4136;
+  background-color: #581815;
+  border-color: #ff4136;
+}
+
+code {
+  color: #9effae;
+  background-color: #1a1a1a;
+}
+
+pre {
+    background-color: #1a1a1a;
+    border: 1px solid #005211;
+}
+
+.pagination > li > a, .pagination > li > span {
+    background-color: #000;
+    border-color: #005211;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #39FF14;
+    border-color: #39FF14;
+    color: #000;
+}
+
+/* RSS button */
+.rsspart {
+  background: #39FF14;
+}
+.rsspart a {
+  color: #fff;
+  display: block;
+  padding: 0.625em 0;
+  text-align: center;
+  text-decoration: none;
+}
+.rsspart a:hover {
+  color: #39FF14;
+  background: #fafafa;
+}
+.rsspart a::before {
+  font-family: "FontAwesome";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-right: 0.5em;
+  content: "\f09e";
+}
+
+/* Force sidebar to the side */
+@media (min-width: 992px) { /* Apply for medium and larger devices */
+  .row.page > .col-md-9,
+  .row.post > .col-md-9 {
+    float: left;
+    width: 75%;
+  }
+
+  .row.page > .col-md-3,
+  .row.post > .col-md-3 {
+    float: left;
+    width: 25%;
+  }
+}
+
+/* Conseil Piratage Section */
+.piratage-advice {
+  margin-top: 50px;
+  padding: 25px;
+  border: 1px solid #00ff00;
+  border-radius: 0;
+  background-color: #0d0d0d;
+  text-align: center;
+  box-shadow: 0 0 10px #00ff00;
+}
+
+.piratage-advice h3 {
+  margin-bottom: 15px;
+}
+
+.piratage-advice h3 a {
+  color: #00ff00;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5em;
+  text-shadow: 0 0 5px #00ff00;
+}
+
+.piratage-advice p {
+  color: #00cc00;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* HIBP Search Form */
+.hibp-search-form {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #00ff00;
+  background-color: #0d0d0d;
+  text-align: center;
+  box-shadow: 0 0 10px #00ff00;
+}
+.hibp-search-form input[type="email"] {
+  background-color: #000;
+  border: 1px solid #00ff00;
+  color: #00ff00;
+  padding: 10px;
+  width: 70%;
+  font-family: 'Courier New', Courier, monospace;
+  margin-right: 10px;
+}
+.hibp-search-form input[type="email"]::placeholder {
+  color: #009900;
+}
+.hibp-search-form button {
+  background-color: #00ff00;
+  border: 1px solid #00ff00;
+  color: #000;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.hibp-search-form button:hover {
+  background-color: #000;
+  color: #00ff00;
+}
