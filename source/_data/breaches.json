@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-08T17:03:52.702Z",
-  "totalBreaches": 1162,
+  "lastUpdated": "2026-01-12T15:17:56.524Z",
+  "totalBreaches": 1163,
   "breaches": [
     {
       "Name": "gPotato",
@@ -44516,6 +44516,32 @@
       "path": "https://bonjourlafuite.eu.org/img/casino-paris.jpg",
       "formattedDate": "2026-01-08",
       "index": 1161
+    },
+    {
+      "Name": "fédération française de tennis fuite du 2026-1-12",
+      "Title": "fédération française de tennis fuite du 2026-1-12",
+      "Domain": null,
+      "BreachDate": "2026-1-12",
+      "AddedDate": "2026-01-12T15:17:56.523Z",
+      "ModifiedDate": "2026-01-12T15:17:56.523Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse email\nAdresse postale\nNuméro de téléphone\nInformation de licence]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "f-d-ration-fran-aise-de-tennis-fuite-du-2026-1-12",
+      "path": "https://bonjourlafuite.eu.org/img/fft.png",
+      "formattedDate": "2026-01-12",
+      "index": 1162
     }
   ]
 }
