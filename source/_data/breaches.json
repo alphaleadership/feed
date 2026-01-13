@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-12T23:22:28.315Z",
-  "totalBreaches": 1169,
+  "lastUpdated": "2026-01-13T14:02:40.745Z",
+  "totalBreaches": 1170,
   "breaches": [
     {
       "Name": "gPotato",
@@ -44518,6 +44518,32 @@
       "validated": true
     },
     {
+      "Name": "ledger fuite du 2026-1-7",
+      "Title": "ledger fuite du 2026-1-7",
+      "Domain": null,
+      "BreachDate": "2026-1-7",
+      "AddedDate": "2026-01-13T14:02:40.744Z",
+      "ModifiedDate": "2026-01-13T14:02:40.744Z",
+      "PwnCount": 0,
+      "Description": "-\n\nSource\n              ]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "ledger-fuite-du-2026-1-7",
+      "path": "https://www.leparisien.fr/faits-divers/cryptomonnaies-des-clients-de-lentreprise-legder-victimes-dune-fuite-de-leurs-donnees-personnelles-07-01-2026-WSK45MAFQZENPOLJU3PXYYNKX4.php",
+      "formattedDate": "2026-01-07",
+      "index": 1162
+    },
+    {
       "Name": "casino de paris fuite du 2026-1-8",
       "Title": "casino de paris fuite du 2026-1-8",
       "Domain": null,
@@ -44541,7 +44567,7 @@
       "slug": "casino-de-paris-fuite-du-2026-1-8",
       "path": "https://bonjourlafuite.eu.org/img/casino-paris.jpg",
       "formattedDate": "2026-01-08",
-      "index": 1162
+      "index": 1163
     },
     {
       "Name": "fédération française de tennis fuite du 2026-1-12",
@@ -44567,7 +44593,7 @@
       "slug": "f-d-ration-fran-aise-de-tennis-fuite-du-2026-1-12",
       "path": "https://bonjourlafuite.eu.org/img/fft.png",
       "formattedDate": "2026-01-12",
-      "index": 1163
+      "index": 1164
     },
     {
       "Name": "blackstore fuite du 2026-1-12",
@@ -44593,7 +44619,7 @@
       "slug": "blackstore-fuite-du-2026-1-12",
       "path": "https://bonjourlafuite.eu.org/img/blackstore.png",
       "formattedDate": "2026-01-12",
-      "index": 1164
+      "index": 1165
     },
     {
       "Name": "monlogicielmedical.com fuite du 2026-1-12",
@@ -44619,7 +44645,7 @@
       "slug": "monlogicielmedical-com-fuite-du-2026-1-12",
       "path": "https://bonjourlafuite.eu.org/img/monlogicielmedical.png",
       "formattedDate": "2026-01-12",
-      "index": 1165
+      "index": 1166
     },
     {
       "Name": "nephael.com & chloesanchez.com fuite du 2026-1-12",
@@ -44645,7 +44671,7 @@
       "slug": "nephael-com-chloesanchez-com-fuite-du-2026-1-12",
       "path": "https://bonjourlafuite.eu.org/img/nephael.png",
       "formattedDate": "2026-01-12",
-      "index": 1166
+      "index": 1167
     },
     {
       "Name": "relais colis fuite du 2026-1-12",
@@ -44671,7 +44697,7 @@
       "slug": "relais-colis-fuite-du-2026-1-12",
       "path": "https://bonjourlafuite.eu.org/img/relaiscolis.png",
       "formattedDate": "2026-01-12",
-      "index": 1167
+      "index": 1168
     },
     {
       "Name": "instagram fuite du 2026-1-12",
@@ -44697,7 +44723,7 @@
       "slug": "instagram-fuite-du-2026-1-12",
       "path": "https://www.01net.com/actualites/fuite-donnees-instagram-informations-17-millions-utilisateurs-volees.html",
       "formattedDate": "2026-01-12",
-      "index": 1168
+      "index": 1169
     }
   ]
 }
