@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-14T10:33:49.042Z",
+  "lastUpdated": "2026-01-14T11:10:16.335Z",
   "totalBreaches": 1170,
   "breaches": [
     {
@@ -35525,7 +35525,7 @@
       "BreachDate": "2024-11-27T00:00:00.000Z",
       "AddedDate": "2025-11-26T13:08:40.042Z",
       "ModifiedDate": "2025-11-26T13:08:40.042Z",
-      "PwnCount": 0,
+      "PwnCount": 1600000,
       "Description": "-\r\n\r\nnom\r\nprénom\r\nlogin\r\nmot de passe hashé\r\ndate de naissance\r\ntéléphone\r\nadresse postale\r\n\r\n",
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
@@ -36214,7 +36214,7 @@
       "BreachDate": "2025-1-14",
       "AddedDate": "2025-11-26T13:08:16.772Z",
       "ModifiedDate": "2025-11-26T13:08:16.772Z",
-      "PwnCount": 0,
+      "PwnCount": 64512,
       "Description": "-\r\n\r\n64 512 comptes\r\n\r\n",
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
@@ -36357,7 +36357,7 @@
       "BreachDate": "2025-1-20",
       "AddedDate": "2025-11-26T13:08:18.034Z",
       "ModifiedDate": "2025-11-26T13:08:18.034Z",
-      "PwnCount": 0,
+      "PwnCount": 625434,
       "Description": "-\r\n\r\nnom\r\nprénom\r\nsexe\r\ndate de naissance\r\nadresse postale\r\ntéléphone\r\nadresse email\r\nphoto de profil\r\n\r\n",
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
@@ -36462,7 +36462,7 @@
       "BreachDate": "2025-1-24",
       "AddedDate": "2025-11-26T13:08:18.239Z",
       "ModifiedDate": "2025-11-26T13:08:18.239Z",
-      "PwnCount": 0,
+      "PwnCount": 808881,
       "Description": "-\r\n\r\nnom\r\nprénom\r\nadresse postale\r\nadresse email\r\nidentifiant\r\ndate de naissance\r\nnuméro de téléphone\r\n\r\n",
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,

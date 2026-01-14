@@ -175,7 +175,15 @@ async function editEntry(breaches) {
 
     // Step 2: Filter breaches based on search term
     const matchedBreaches = breaches.filter(b => 
-        b.Name.toLowerCase().includes(searchTerm.toLowerCase())
+        {
+            if(b.Name.toLowerCase().includes(searchTerm.toLowerCase())){
+                if(b.PwnCount === 0){
+                    return true
+            }
+            return false
+        }
+        return false
+        }
     );
 
     let breachToEdit;
