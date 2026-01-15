@@ -1,9 +1,9 @@
 RAPPORT - FUITES SANS NOMBRE DE PERSONNES IMPACTÉES
 =================================================
 
-Total des fuites analysées: 1171
-Fuites sans nombre d'impactés: 229
-Pourcentage: 19.56%
+Total des fuites analysées: 1172
+Fuites sans nombre d'impactés: 230
+Pourcentage: 19.62%
 
 LISTE DES FUITES CONCERNÉES:
 ============================
@@ -2065,6 +2065,15 @@ LISTE DES FUITES CONCERNÉES:
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-13
    - Date d'ajout: 2026-01-15T09:43:04.024Z
+   - PwnCount: 0
+   - Lien: Non disponible
+   - Vérifié: Non
+
+230. service public fuite du 2026-1-15
+   - Titre: service public fuite du 2026-1-15
+   - Domaine: Non spécifié
+   - Date de fuite: 2026-1-15
+   - Date d'ajout: 2026-01-15T10:57:26.365Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non

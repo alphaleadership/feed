@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-15T09:43:04.025Z",
-  "totalBreaches": 1171,
+  "lastUpdated": "2026-01-15T10:57:26.366Z",
+  "totalBreaches": 1172,
   "breaches": [
     {
       "Name": "gPotato",
@@ -44750,6 +44750,32 @@
       "path": "https://bonjourlafuite.eu.org/img/eurail.png",
       "formattedDate": "2026-01-13",
       "index": 1170
+    },
+    {
+      "Name": "service public fuite du 2026-1-15",
+      "Title": "service public fuite du 2026-1-15",
+      "Domain": null,
+      "BreachDate": "2026-1-15",
+      "AddedDate": "2026-01-15T10:57:26.365Z",
+      "ModifiedDate": "2026-01-15T10:57:26.365Z",
+      "PwnCount": 0,
+      "Description": "-\n\nDonnées d’identification\nPièces justificatives]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "service-public-fuite-du-2026-1-15",
+      "path": "https://bonjourlafuite.eu.org/img/servicepublic.jpg",
+      "formattedDate": "2026-01-15",
+      "index": 1171
     }
   ]
 }
