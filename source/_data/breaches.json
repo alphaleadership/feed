@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-15T11:28:54.088Z",
-  "totalBreaches": 1175,
+  "lastUpdated": "2026-01-15T17:50:10.112Z",
+  "totalBreaches": 1177,
   "breaches": [
     {
       "Name": "gPotato",
@@ -44853,6 +44853,58 @@
       "lien": "https://bonjourlafuite.eu.org/img/totalenergies.png",
       "formattedDate": "2026-01-15",
       "index": 1174
+    },
+    {
+      "Name": "fédération française de montagne escalade fuite du 2026-1-15",
+      "Title": "fédération française de montagne escalade fuite du 2026-1-15",
+      "Domain": null,
+      "BreachDate": "2026-1-15",
+      "AddedDate": "2026-01-15T17:50:09.274Z",
+      "ModifiedDate": "2026-01-15T17:50:09.274Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nDate de naissance\nCoordonnées\nType de licence\nStructure d’affiliation]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "f-d-ration-fran-aise-de-montagne-escalade-fuite-du-2026-1-15",
+      "path": "https://www.ffme.fr/la-ffme-victime-dun-acte-de-cyber-malveillance/",
+      "formattedDate": "2026-01-15",
+      "index": 1175
+    },
+    {
+      "Name": "relais colis fuite du 2026-1-15",
+      "Title": "relais colis fuite du 2026-1-15",
+      "Domain": null,
+      "BreachDate": "2026-1-15",
+      "AddedDate": "2026-01-15T17:50:10.111Z",
+      "ModifiedDate": "2026-01-15T17:50:10.111Z",
+      "PwnCount": 0,
+      "Description": "-\n\nAdresse mail]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "relais-colis-fuite-du-2026-1-15",
+      "path": "https://bonjourlafuite.eu.org/img/relaiscolis-2.jpg",
+      "formattedDate": "2026-01-15",
+      "index": 1176
     }
   ]
 }
