@@ -245,7 +245,7 @@
           </div>
           <div class="breach-content">
             <h2>Description</h2>
-            <div class="description">${breach.Description}</div>
+            <div class="description">${breach.Description.replace("\n","</br>")}</div>
             ${breach.DataClasses && breach.DataClasses.length > 0 ?
               `
               <h2>Données compromises</h2>
