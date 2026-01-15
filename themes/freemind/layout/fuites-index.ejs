@@ -261,9 +261,9 @@
                 ${breach.isNSFW ?
                   `
                   <button onclick="confirmShowExternalLink(event)" class="show-nsfw-link">Afficher le lien externe</button>
-                  <a href="${breach.lien}" target="_blank" rel="noopener noreferrer" class="hidden">Annonce officielle de la fuite</a>
+                  <a href="${breach.lien||breach.path}" target="_blank" rel="noopener noreferrer" class="hidden">Annonce officielle de la fuite</a>
                   ` :
-                  `<a href="${breach.lien}" target="_blank" rel="noopener noreferrer">Annonce officielle de la fuite</a>`
+                  `<a href="${breach.lien||breach.path}" target="_blank" rel="noopener noreferrer">Annonce officielle de la fuite</a>`
                 }
               </p>
               ` : ''
