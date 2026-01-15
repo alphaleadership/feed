@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-14T11:10:16.335Z",
-  "totalBreaches": 1170,
+  "lastUpdated": "2026-01-15T09:43:04.025Z",
+  "totalBreaches": 1171,
   "breaches": [
     {
       "Name": "gPotato",
@@ -44724,6 +44724,32 @@
       "path": "https://www.01net.com/actualites/fuite-donnees-instagram-informations-17-millions-utilisateurs-volees.html",
       "formattedDate": "2026-01-12",
       "index": 1169
+    },
+    {
+      "Name": "eurail fuite du 2026-1-13",
+      "Title": "eurail fuite du 2026-1-13",
+      "Domain": null,
+      "BreachDate": "2026-1-13",
+      "AddedDate": "2026-01-15T09:43:04.024Z",
+      "ModifiedDate": "2026-01-15T09:43:04.024Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nDate de naissance\nAdresse email\nAdresse postale\nNuméro de téléphone\nNuméro de passeport\ndate d’émission et d’expiration]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "eurail-fuite-du-2026-1-13",
+      "path": "https://bonjourlafuite.eu.org/img/eurail.png",
+      "formattedDate": "2026-01-13",
+      "index": 1170
     }
   ]
 }
