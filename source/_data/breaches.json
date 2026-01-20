@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-20T10:31:56.632Z",
-  "totalBreaches": 1184,
+  "lastUpdated": "2026-01-20T15:03:52.008Z",
+  "totalBreaches": 1185,
   "breaches": [
     {
       "Name": "gPotato",
@@ -45087,6 +45087,32 @@
       "path": "https://www.france-education-international.fr/actualites/incident-sur-la-plateforme-gael-diplomes-delf-dalf",
       "formattedDate": "2026-01-20",
       "index": 1183
+    },
+    {
+      "Name": "delko fuite du 2026-1-20",
+      "Title": "delko fuite du 2026-1-20",
+      "Domain": null,
+      "BreachDate": "2026-1-20",
+      "AddedDate": "2026-01-20T15:03:52.007Z",
+      "ModifiedDate": "2026-01-20T15:03:52.007Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse email\nNuméro de téléphone\nCode postal\ncommune]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "delko-fuite-du-2026-1-20",
+      "path": "https://bonjourlafuite.eu.org/img/delko.jpg",
+      "formattedDate": "2026-01-20",
+      "index": 1184
     }
   ]
 }

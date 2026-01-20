@@ -1,9 +1,9 @@
 RAPPORT - FUITES SANS NOMBRE DE PERSONNES IMPACTÉES
 =================================================
 
-Total des fuites analysées: 1184
-Fuites sans nombre d'impactés: 242
-Pourcentage: 20.44%
+Total des fuites analysées: 1185
+Fuites sans nombre d'impactés: 243
+Pourcentage: 20.51%
 
 LISTE DES FUITES CONCERNÉES:
 ============================
@@ -2182,6 +2182,15 @@ LISTE DES FUITES CONCERNÉES:
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-20
    - Date d'ajout: 2026-01-20T10:31:56.631Z
+   - PwnCount: 0
+   - Lien: Non disponible
+   - Vérifié: Non
+
+243. delko fuite du 2026-1-20
+   - Titre: delko fuite du 2026-1-20
+   - Domaine: Non spécifié
+   - Date de fuite: 2026-1-20
+   - Date d'ajout: 2026-01-20T15:03:52.007Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
