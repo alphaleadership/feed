@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-19T19:01:20.630Z",
-  "totalBreaches": 1183,
+  "lastUpdated": "2026-01-20T10:31:56.632Z",
+  "totalBreaches": 1184,
   "breaches": [
     {
       "Name": "gPotato",
@@ -45061,6 +45061,32 @@
       "path": "https://www.20minutes.fr/faits_divers/4196942-20260119-urssaf-victime-acces-frauduleux-donnees-12-millions-salaries-potentiellement-concernes",
       "formattedDate": "2026-01-19",
       "index": 1182
+    },
+    {
+      "Name": "france éducation international fuite du 2026-1-20",
+      "Title": "france éducation international fuite du 2026-1-20",
+      "Domain": null,
+      "BreachDate": "2026-1-20",
+      "AddedDate": "2026-01-20T10:31:56.631Z",
+      "ModifiedDate": "2026-01-20T10:31:56.631Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nVille de naissance et pays de naissance\nDate de naissance\nNationalité\nLangue maternelle\nCentre de rattachement]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "france-ducation-international-fuite-du-2026-1-20",
+      "path": "https://www.france-education-international.fr/actualites/incident-sur-la-plateforme-gael-diplomes-delf-dalf",
+      "formattedDate": "2026-01-20",
+      "index": 1183
     }
   ]
 }
