@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-20T15:03:52.008Z",
-  "totalBreaches": 1185,
+  "lastUpdated": "2026-01-20T23:46:02.467Z",
+  "totalBreaches": 1186,
   "breaches": [
     {
       "Name": "gPotato",
@@ -45113,6 +45113,32 @@
       "path": "https://bonjourlafuite.eu.org/img/delko.jpg",
       "formattedDate": "2026-01-20",
       "index": 1184
+    },
+    {
+      "Name": "conseiljuridique.net fuite du 2026-1-20",
+      "Title": "conseiljuridique.net fuite du 2026-1-20",
+      "Domain": null,
+      "BreachDate": "2026-1-20",
+      "AddedDate": "2026-01-20T23:46:02.466Z",
+      "ModifiedDate": "2026-01-20T23:46:02.466Z",
+      "PwnCount": 0,
+      "Description": "-\n\nSource\r\n              ]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "conseiljuridique-net-fuite-du-2026-1-20",
+      "path": "https://bonjourlafuite.eu.org/img/conseiljuridique.png",
+      "formattedDate": "2026-01-20",
+      "index": 1185
     }
   ]
 }
