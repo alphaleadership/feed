@@ -1,9 +1,9 @@
 RAPPORT - FUITES SANS NOMBRE DE PERSONNES IMPACTÉES
 =================================================
 
-Total des fuites analysées: 1186
-Fuites sans nombre d'impactés: 244
-Pourcentage: 20.57%
+Total des fuites analysées: 1187
+Fuites sans nombre d'impactés: 245
+Pourcentage: 20.64%
 
 LISTE DES FUITES CONCERNÉES:
 ============================
@@ -2200,6 +2200,15 @@ LISTE DES FUITES CONCERNÉES:
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-20
    - Date d'ajout: 2026-01-20T23:46:02.466Z
+   - PwnCount: 0
+   - Lien: Non disponible
+   - Vérifié: Non
+
+245. ensam fuite du 2026-1-21
+   - Titre: ensam fuite du 2026-1-21
+   - Domaine: Non spécifié
+   - Date de fuite: 2026-1-21
+   - Date d'ajout: 2026-01-21T15:03:51.760Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non

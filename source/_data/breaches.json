@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-20T23:46:02.467Z",
-  "totalBreaches": 1186,
+  "lastUpdated": "2026-01-21T15:03:51.762Z",
+  "totalBreaches": 1187,
   "breaches": [
     {
       "Name": "gPotato",
@@ -45139,6 +45139,32 @@
       "path": "https://bonjourlafuite.eu.org/img/conseiljuridique.png",
       "formattedDate": "2026-01-20",
       "index": 1185
+    },
+    {
+      "Name": "ensam fuite du 2026-1-21",
+      "Title": "ensam fuite du 2026-1-21",
+      "Domain": null,
+      "BreachDate": "2026-1-21",
+      "AddedDate": "2026-01-21T15:03:51.760Z",
+      "ModifiedDate": "2026-01-21T15:03:51.760Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nNuméro de Sécurité Sociale\nDécision d’attribution de bourse et montant\nDate de début et de fin d’arrêt de travail]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "ensam-fuite-du-2026-1-21",
+      "path": "https://bonjourlafuite.eu.org/img/ensam.png",
+      "formattedDate": "2026-01-21",
+      "index": 1186
     }
   ]
 }
