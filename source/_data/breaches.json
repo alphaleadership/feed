@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-23T09:59:33.320Z",
-  "totalBreaches": 1197,
+  "lastUpdated": "2026-01-23T14:29:01.873Z",
+  "totalBreaches": 1198,
   "breaches": [
     {
       "Name": "gPotato",
@@ -45425,6 +45425,32 @@
       "path": "https://bonjourlafuite.eu.org/img/orpi-1.png",
       "formattedDate": "2026-01-23",
       "index": 1196
+    },
+    {
+      "Name": "waltio fuite du 2026-1-23",
+      "Title": "waltio fuite du 2026-1-23",
+      "Domain": null,
+      "BreachDate": "2026-1-23",
+      "AddedDate": "2026-01-23T14:29:01.872Z",
+      "ModifiedDate": "2026-01-23T14:29:01.872Z",
+      "PwnCount": 0,
+      "Description": "-\n\nAdresse mail\nRapport fiscal 2024\nSolde bancaire]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "waltio-fuite-du-2026-1-23",
+      "path": "https://www.waltio.com/fr/blog/actualite/security-notice-23-01/",
+      "formattedDate": "2026-01-23",
+      "index": 1197
     }
   ]
 }

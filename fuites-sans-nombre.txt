@@ -1,9 +1,9 @@
 RAPPORT - FUITES SANS NOMBRE DE PERSONNES IMPACTÉES
 =================================================
 
-Total des fuites analysées: 1197
-Fuites sans nombre d'impactés: 255
-Pourcentage: 21.30%
+Total des fuites analysées: 1198
+Fuites sans nombre d'impactés: 256
+Pourcentage: 21.37%
 
 LISTE DES FUITES CONCERNÉES:
 ============================
@@ -2299,6 +2299,15 @@ LISTE DES FUITES CONCERNÉES:
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-23
    - Date d'ajout: 2026-01-23T09:59:33.319Z
+   - PwnCount: 0
+   - Lien: Non disponible
+   - Vérifié: Non
+
+256. waltio fuite du 2026-1-23
+   - Titre: waltio fuite du 2026-1-23
+   - Domaine: Non spécifié
+   - Date de fuite: 2026-1-23
+   - Date d'ajout: 2026-01-23T14:29:01.872Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
