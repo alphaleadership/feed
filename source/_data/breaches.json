@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-24T23:42:25.848Z",
-  "totalBreaches": 1204,
+  "lastUpdated": "2026-01-24T23:53:43.799Z",
+  "totalBreaches": 1205,
   "breaches": [
     {
       "Name": "gPotato",
@@ -44229,6 +44229,32 @@
       "validated": true
     },
     {
+      "Name": "fédération française de spéléologie fuite du 2025-12-31",
+      "Title": "fédération française de spéléologie fuite du 2025-12-31",
+      "Domain": null,
+      "BreachDate": "2025-12-31T00:00:00.000Z",
+      "AddedDate": "2026-01-24T23:53:43.798Z",
+      "ModifiedDate": "2026-01-24T23:53:43.798Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nNationalité\nAdresse email\nNuméro de téléphone\nNuméro de licence\nProfession]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "f-d-ration-fran-aise-de-sp-l-ologie-fuite-du-2025-12-31",
+      "path": "https://bonjourlafuite.eu.org/img/ffspeleo.jpg",
+      "formattedDate": "2025-12-31",
+      "index": 1154
+    },
+    {
       "Name": "trescal fuite du 2026-1-2",
       "Title": "trescal fuite du 2026-1-2",
       "Domain": null,
@@ -44258,7 +44284,7 @@
       "categories": [
         "trescal"
       ],
-      "index": 1154,
+      "index": 1155,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1151
@@ -44293,7 +44319,7 @@
       "categories": [
         "afppcd"
       ],
-      "index": 1155,
+      "index": 1156,
       "isNSFW": false,
       "oldindex": 1152,
       "validated": true
@@ -44328,7 +44354,7 @@
       "categories": [
         "office français de l’immigration et de l’intégration"
       ],
-      "index": 1156,
+      "index": 1157,
       "isNSFW": false,
       "oldindex": 1153,
       "validated": true
@@ -44363,7 +44389,7 @@
       "categories": [
         "corse gsm"
       ],
-      "index": 1157,
+      "index": 1158,
       "isNSFW": false,
       "oldindex": 1154,
       "validated": true
@@ -44398,7 +44424,7 @@
       "categories": [
         "easycash"
       ],
-      "index": 1158,
+      "index": 1159,
       "isNSFW": false,
       "oldindex": 1155,
       "validated": true
@@ -44433,7 +44459,7 @@
       "categories": [
         "fédération française de squash"
       ],
-      "index": 1159,
+      "index": 1160,
       "isNSFW": false,
       "oldindex": 1156,
       "validated": true
@@ -44468,7 +44494,7 @@
       "categories": [
         "fédération française d’ulm"
       ],
-      "index": 1160,
+      "index": 1161,
       "isNSFW": false,
       "oldindex": 1157,
       "validated": true
@@ -44503,7 +44529,7 @@
       "categories": [
         "fédération sportive et gymnique du travail"
       ],
-      "index": 1161,
+      "index": 1162,
       "isNSFW": false,
       "oldindex": 1158,
       "validated": true
@@ -44538,7 +44564,7 @@
       "categories": [
         "philharmonie de paris"
       ],
-      "index": 1162,
+      "index": 1163,
       "isNSFW": false,
       "oldindex": 1159,
       "validated": true
@@ -44567,7 +44593,7 @@
       "slug": "ledger-fuite-du-2026-1-7",
       "path": "https://www.leparisien.fr/faits-divers/cryptomonnaies-des-clients-de-lentreprise-legder-victimes-dune-fuite-de-leurs-donnees-personnelles-07-01-2026-WSK45MAFQZENPOLJU3PXYYNKX4.php",
       "formattedDate": "2026-01-07",
-      "index": 1163
+      "index": 1164
     },
     {
       "Name": "casino de paris fuite du 2026-1-8",
@@ -44593,7 +44619,7 @@
       "slug": "casino-de-paris-fuite-du-2026-1-8",
       "path": "https://bonjourlafuite.eu.org/img/casino-paris.jpg",
       "formattedDate": "2026-01-08",
-      "index": 1164
+      "index": 1165
     },
     {
       "Name": "fédération française de tennis fuite du 2026-1-12",
@@ -44619,7 +44645,7 @@
       "slug": "f-d-ration-fran-aise-de-tennis-fuite-du-2026-1-12",
       "path": "https://bonjourlafuite.eu.org/img/fft.png",
       "formattedDate": "2026-01-12",
-      "index": 1165
+      "index": 1166
     },
     {
       "Name": "blackstore fuite du 2026-1-12",
@@ -44645,7 +44671,7 @@
       "slug": "blackstore-fuite-du-2026-1-12",
       "path": "https://bonjourlafuite.eu.org/img/blackstore.png",
       "formattedDate": "2026-01-12",
-      "index": 1166
+      "index": 1167
     },
     {
       "Name": "monlogicielmedical.com fuite du 2026-1-12",
@@ -44671,7 +44697,7 @@
       "slug": "monlogicielmedical-com-fuite-du-2026-1-12",
       "path": "https://bonjourlafuite.eu.org/img/monlogicielmedical.png",
       "formattedDate": "2026-01-12",
-      "index": 1167
+      "index": 1168
     },
     {
       "Name": "nephael.com & chloesanchez.com fuite du 2026-1-12",
@@ -44697,7 +44723,7 @@
       "slug": "nephael-com-chloesanchez-com-fuite-du-2026-1-12",
       "path": "https://bonjourlafuite.eu.org/img/nephael.png",
       "formattedDate": "2026-01-12",
-      "index": 1168
+      "index": 1169
     },
     {
       "Name": "relais colis fuite du 2026-1-12",
@@ -44723,7 +44749,7 @@
       "slug": "relais-colis-fuite-du-2026-1-12",
       "lien": "https://bonjourlafuite.eu.org/img/relaiscolis.png",
       "formattedDate": "2026-01-12",
-      "index": 1169
+      "index": 1170
     },
     {
       "Name": "instagram fuite du 2026-1-12",
@@ -44749,7 +44775,7 @@
       "slug": "instagram-fuite-du-2026-1-12",
       "lien": "https://www.01net.com/actualites/fuite-donnees-instagram-informations-17-millions-utilisateurs-volees.html",
       "formattedDate": "2026-01-12",
-      "index": 1170
+      "index": 1171
     },
     {
       "Name": "eurail fuite du 2026-1-13",
@@ -44775,7 +44801,7 @@
       "slug": "eurail-fuite-du-2026-1-13",
       "lien": "https://bonjourlafuite.eu.org/img/eurail.png",
       "formattedDate": "2026-01-13",
-      "index": 1171
+      "index": 1172
     },
     {
       "Name": "service public fuite du 2026-1-15",
@@ -44800,7 +44826,7 @@
       "IsStealerLog": false,
       "lien": "https://bonjourlafuite.eu.org/img/servicepublic.jpg",
       "formattedDate": "2026-01-15",
-      "index": 1172
+      "index": 1173
     },
     {
       "Name": "agro paris tech fuite du 2026-1-15",
@@ -44826,7 +44852,7 @@
       "slug": "agro-paris-tech-fuite-du-2026-1-15",
       "lien": "https://bonjourlafuite.eu.org/img/agroparistech.png",
       "formattedDate": "2026-01-15",
-      "index": 1173
+      "index": 1174
     },
     {
       "Name": "lire demain fuite du 2026-1-15",
@@ -44852,7 +44878,7 @@
       "slug": "lire-demain-fuite-du-2026-1-15",
       "lien": "https://bonjourlafuite.eu.org/img/liredemain.png",
       "formattedDate": "2026-01-15",
-      "index": 1174
+      "index": 1175
     },
     {
       "Name": "total énergies fuite du 2026-1-15",
@@ -44878,7 +44904,7 @@
       "slug": "total-nergies-fuite-du-2026-1-15",
       "lien": "https://bonjourlafuite.eu.org/img/totalenergies.png",
       "formattedDate": "2026-01-15",
-      "index": 1175
+      "index": 1176
     },
     {
       "Name": "fédération française de montagne escalade fuite du 2026-1-15",
@@ -44904,7 +44930,7 @@
       "slug": "f-d-ration-fran-aise-de-montagne-escalade-fuite-du-2026-1-15",
       "path": "https://www.ffme.fr/la-ffme-victime-dun-acte-de-cyber-malveillance/",
       "formattedDate": "2026-01-15",
-      "index": 1176
+      "index": 1177
     },
     {
       "Name": "relais colis fuite du 2026-1-15",
@@ -44930,7 +44956,7 @@
       "slug": "relais-colis-fuite-du-2026-1-15",
       "path": "https://bonjourlafuite.eu.org/img/relaiscolis-2.jpg",
       "formattedDate": "2026-01-15",
-      "index": 1177
+      "index": 1178
     },
     {
       "Name": "fédération française de twirling bâton fuite du 2026-1-15",
@@ -44956,7 +44982,7 @@
       "slug": "f-d-ration-fran-aise-de-twirling-b-ton-fuite-du-2026-1-15",
       "path": "https://bonjourlafuite.eu.org/img/fftb.jpg",
       "formattedDate": "2026-01-15",
-      "index": 1178
+      "index": 1179
     },
     {
       "Name": "store pas cher fuite du 2026-1-16",
@@ -44982,7 +45008,7 @@
       "slug": "store-pas-cher-fuite-du-2026-1-16",
       "path": "https://bonjourlafuite.eu.org/img/storepascher.png",
       "formattedDate": "2026-01-16",
-      "index": 1179
+      "index": 1180
     },
     {
       "Name": "euronature fuite du 2026-1-18",
@@ -45008,7 +45034,7 @@
       "slug": "euronature-fuite-du-2026-1-18",
       "path": "https://bonjourlafuite.eu.org/img/euronature-1.png",
       "formattedDate": "2026-01-18",
-      "index": 1180
+      "index": 1181
     },
     {
       "Name": "dce conseil fuite du 2026-1-19",
@@ -45034,7 +45060,7 @@
       "slug": "dce-conseil-fuite-du-2026-1-19",
       "path": "https://www.01net.com/actualites/fuite-donnees-devoile-plans-plusieurs-prisons-base-militaire-francaise.html",
       "formattedDate": "2026-01-19",
-      "index": 1181
+      "index": 1182
     },
     {
       "Name": "info jeunes bourgogne franche fuite du 2026-1-19",
@@ -45060,7 +45086,7 @@
       "slug": "info-jeunes-bourgogne-franche-fuite-du-2026-1-19",
       "path": "https://bonjourlafuite.eu.org/img/info-jeunes-bourgogne-franche-comte.png",
       "formattedDate": "2026-01-19",
-      "index": 1182
+      "index": 1183
     },
     {
       "Name": "urssaf fuite du 2026-1-19",
@@ -45086,7 +45112,7 @@
       "slug": "urssaf-fuite-du-2026-1-19",
       "path": "https://www.20minutes.fr/faits_divers/4196942-20260119-urssaf-victime-acces-frauduleux-donnees-12-millions-salaries-potentiellement-concernes",
       "formattedDate": "2026-01-19",
-      "index": 1183
+      "index": 1184
     },
     {
       "Name": "france éducation international fuite du 2026-1-20",
@@ -45112,7 +45138,7 @@
       "slug": "france-ducation-international-fuite-du-2026-1-20",
       "path": "https://www.france-education-international.fr/actualites/incident-sur-la-plateforme-gael-diplomes-delf-dalf",
       "formattedDate": "2026-01-20",
-      "index": 1184
+      "index": 1185
     },
     {
       "Name": "delko fuite du 2026-1-20",
@@ -45138,7 +45164,7 @@
       "slug": "delko-fuite-du-2026-1-20",
       "path": "https://bonjourlafuite.eu.org/img/delko.jpg",
       "formattedDate": "2026-01-20",
-      "index": 1185
+      "index": 1186
     },
     {
       "Name": "conseiljuridique.net fuite du 2026-1-20",
@@ -45164,7 +45190,7 @@
       "slug": "conseiljuridique-net-fuite-du-2026-1-20",
       "path": "https://bonjourlafuite.eu.org/img/conseiljuridique.png",
       "formattedDate": "2026-01-20",
-      "index": 1186
+      "index": 1187
     },
     {
       "Name": "ensam fuite du 2026-1-21",
@@ -45190,7 +45216,7 @@
       "slug": "ensam-fuite-du-2026-1-21",
       "path": "https://bonjourlafuite.eu.org/img/ensam.png",
       "formattedDate": "2026-01-21",
-      "index": 1187
+      "index": 1188
     },
     {
       "Name": "baby vista fuite du 2026-1-23",
@@ -45216,7 +45242,7 @@
       "slug": "baby-vista-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/babyvista.png",
       "formattedDate": "2026-01-23",
-      "index": 1188
+      "index": 1189
     },
     {
       "Name": "fédération française de chasse fuite du 2026-1-23",
@@ -45242,7 +45268,7 @@
       "slug": "f-d-ration-fran-aise-de-chasse-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/ffchasse.png",
       "formattedDate": "2026-01-23",
-      "index": 1189
+      "index": 1190
     },
     {
       "Name": "fédération française d’escrime fuite du 2026-1-23",
@@ -45268,7 +45294,7 @@
       "slug": "f-d-ration-fran-aise-d-escrime-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/ffe.png",
       "formattedDate": "2026-01-23",
-      "index": 1190
+      "index": 1191
     },
     {
       "Name": "grand froid fuite du 2026-1-23",
@@ -45294,7 +45320,7 @@
       "slug": "grand-froid-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/grand-froid.png",
       "formattedDate": "2026-01-23",
-      "index": 1191
+      "index": 1192
     },
     {
       "Name": "too easy fuite du 2026-1-23",
@@ -45320,7 +45346,7 @@
       "slug": "too-easy-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/tooeasy.png",
       "formattedDate": "2026-01-23",
-      "index": 1192
+      "index": 1193
     },
     {
       "Name": "valorissimo fuite du 2026-1-23",
@@ -45346,7 +45372,7 @@
       "slug": "valorissimo-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/valo.png",
       "formattedDate": "2026-01-23",
-      "index": 1193
+      "index": 1194
     },
     {
       "Name": "fédération française de golf fuite du 2026-1-23",
@@ -45372,7 +45398,7 @@
       "slug": "f-d-ration-fran-aise-de-golf-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/ffgolf.png",
       "formattedDate": "2026-01-23",
-      "index": 1194
+      "index": 1195
     },
     {
       "Name": "fédération française des sapeurs fuite du 2026-1-23",
@@ -45398,7 +45424,7 @@
       "slug": "f-d-ration-fran-aise-des-sapeurs-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/ffpompiers.png",
       "formattedDate": "2026-01-23",
-      "index": 1195
+      "index": 1196
     },
     {
       "Name": "orpi fuite du 2026-1-23",
@@ -45424,7 +45450,7 @@
       "slug": "orpi-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/orpi-1.png",
       "formattedDate": "2026-01-23",
-      "index": 1196
+      "index": 1197
     },
     {
       "Name": "waltio fuite du 2026-1-23",
@@ -45450,7 +45476,7 @@
       "slug": "waltio-fuite-du-2026-1-23",
       "path": "https://www.waltio.com/fr/blog/actualite/security-notice-23-01/",
       "formattedDate": "2026-01-23",
-      "index": 1197
+      "index": 1198
     },
     {
       "Name": "fédération française de volley fuite du 2026-1-23",
@@ -45476,7 +45502,7 @@
       "slug": "f-d-ration-fran-aise-de-volley-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/ffvolley.png",
       "formattedDate": "2026-01-23",
-      "index": 1198
+      "index": 1199
     },
     {
       "Name": "fédération française d’études et de sports sous fuite du 2026-1-24",
@@ -45502,7 +45528,7 @@
       "slug": "f-d-ration-fran-aise-d-tudes-et-de-sports-sous-fuite-du-2026-1-24",
       "path": "https://bonjourlafuite.eu.org/img/ffessm-1.png",
       "formattedDate": "2026-01-24",
-      "index": 1199
+      "index": 1200
     },
     {
       "Name": "panorama banques fuite du 2026-1-24",
@@ -45528,7 +45554,7 @@
       "slug": "panorama-banques-fuite-du-2026-1-24",
       "path": "https://bonjourlafuite.eu.org/img/panoramabanques.png",
       "formattedDate": "2026-01-24",
-      "index": 1200
+      "index": 1201
     },
     {
       "Name": "scoring fit fuite du 2026-1-24",
@@ -45554,7 +45580,7 @@
       "slug": "scoring-fit-fuite-du-2026-1-24",
       "path": "https://bonjourlafuite.eu.org/img/scoringfit.png",
       "formattedDate": "2026-01-24",
-      "index": 1201
+      "index": 1202
     },
     {
       "Name": "suzuki fuite du 2026-1-24",
@@ -45580,7 +45606,7 @@
       "slug": "suzuki-fuite-du-2026-1-24",
       "path": "https://www.suzuki.fr/securite-donnees-personnelles",
       "formattedDate": "2026-01-24",
-      "index": 1202
+      "index": 1203
     },
     {
       "Name": "guiot de bourg fuite du 2026-1-24",
@@ -45606,7 +45632,7 @@
       "slug": "guiot-de-bourg-fuite-du-2026-1-24",
       "path": "https://bonjourlafuite.eu.org/img/guiotdebourg.png",
       "formattedDate": "2026-01-24",
-      "index": 1203
+      "index": 1204
     }
   ]
 }
