@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-24T23:24:31.434Z",
-  "totalBreaches": 1203,
+  "lastUpdated": "2026-01-24T23:42:25.848Z",
+  "totalBreaches": 1204,
   "breaches": [
     {
       "Name": "gPotato",
@@ -45581,6 +45581,32 @@
       "path": "https://www.suzuki.fr/securite-donnees-personnelles",
       "formattedDate": "2026-01-24",
       "index": 1202
+    },
+    {
+      "Name": "guiot de bourg fuite du 2026-1-24",
+      "Title": "guiot de bourg fuite du 2026-1-24",
+      "Domain": null,
+      "BreachDate": "2026-1-24",
+      "AddedDate": "2026-01-24T23:42:25.847Z",
+      "ModifiedDate": "2026-01-24T23:42:25.847Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse mail\nMot de passe haché\nDate de naissance\nIP d’inscription à la newsletter\nSite internet\nMontant autorisé\nDélais de payment\nStatus invité\nCompte supprimé (😒)\nJeton de renouvellement du mot de passe\nClef secrète]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "guiot-de-bourg-fuite-du-2026-1-24",
+      "path": "https://bonjourlafuite.eu.org/img/guiotdebourg.png",
+      "formattedDate": "2026-01-24",
+      "index": 1203
     }
   ]
 }
