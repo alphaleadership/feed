@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-25T16:52:43.198Z",
-  "totalBreaches": 1208,
+  "lastUpdated": "2026-01-25T17:20:40.415Z",
+  "totalBreaches": 1209,
   "breaches": [
     {
       "Name": "gPotato",
@@ -45711,6 +45711,32 @@
       "path": "https://bonjourlafuite.eu.org/img/sciences-po-1.png",
       "formattedDate": "2026-01-25",
       "index": 1207
+    },
+    {
+      "Name": "livrenpoche fuite du 2026-1-25",
+      "Title": "livrenpoche fuite du 2026-1-25",
+      "Domain": null,
+      "BreachDate": "2026-1-25",
+      "AddedDate": "2026-01-25T17:20:40.414Z",
+      "ModifiedDate": "2026-01-25T17:20:40.414Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse mail\nEntreprise\nNuméro de téléphone]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "livrenpoche-fuite-du-2026-1-25",
+      "path": "https://bonjourlafuite.eu.org/img/livrenpoche.png",
+      "formattedDate": "2026-01-25",
+      "index": 1208
     }
   ]
 }
