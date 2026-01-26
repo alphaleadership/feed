@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-25T17:20:40.415Z",
-  "totalBreaches": 1209,
+  "lastUpdated": "2026-01-26T23:47:30.742Z",
+  "totalBreaches": 1210,
   "breaches": [
     {
       "Name": "gPotato",
@@ -45635,6 +45635,32 @@
       "index": 1204
     },
     {
+      "Name": "movida fuite du 2026-1-24",
+      "Title": "movida fuite du 2026-1-24",
+      "Domain": null,
+      "BreachDate": "2026-1-24",
+      "AddedDate": "2026-01-26T23:47:30.741Z",
+      "ModifiedDate": "2026-01-26T23:47:30.741Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nCoordonnées\nIBAN]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "movida-fuite-du-2026-1-24",
+      "path": "https://bonjourlafuite.eu.org/img/movida.png",
+      "formattedDate": "2026-01-24",
+      "index": 1205
+    },
+    {
       "Name": "fédération française des sports pour tous fuite du 2026-1-25",
       "Title": "fédération française des sports pour tous fuite du 2026-1-25",
       "Domain": null,
@@ -45658,7 +45684,7 @@
       "slug": "f-d-ration-fran-aise-des-sports-pour-tous-fuite-du-2026-1-25",
       "path": "https://bonjourlafuite.eu.org/img/sportspourtous.png",
       "formattedDate": "2026-01-25",
-      "index": 1205
+      "index": 1206
     },
     {
       "Name": "renault fuite du 2026-1-25",
@@ -45684,7 +45710,7 @@
       "slug": "renault-fuite-du-2026-1-25",
       "path": "https://bonjourlafuite.eu.org/img/renault.png",
       "formattedDate": "2026-01-25",
-      "index": 1206
+      "index": 1207
     },
     {
       "Name": "sciences po fuite du 2026-1-25",
@@ -45710,7 +45736,7 @@
       "slug": "sciences-po-fuite-du-2026-1-25",
       "path": "https://bonjourlafuite.eu.org/img/sciences-po-1.png",
       "formattedDate": "2026-01-25",
-      "index": 1207
+      "index": 1208
     },
     {
       "Name": "livrenpoche fuite du 2026-1-25",
@@ -45736,7 +45762,7 @@
       "slug": "livrenpoche-fuite-du-2026-1-25",
       "path": "https://bonjourlafuite.eu.org/img/livrenpoche.png",
       "formattedDate": "2026-01-25",
-      "index": 1208
+      "index": 1209
     }
   ]
 }
