@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-26T23:47:30.742Z",
-  "totalBreaches": 1210,
+  "lastUpdated": "2026-01-28T17:57:13.835Z",
+  "totalBreaches": 1216,
   "breaches": [
     {
       "Name": "gPotato",
@@ -45115,6 +45115,32 @@
       "index": 1184
     },
     {
+      "Name": "ioburo fuite du 2026-1-19",
+      "Title": "ioburo fuite du 2026-1-19",
+      "Domain": null,
+      "BreachDate": "2026-1-19",
+      "AddedDate": "2026-01-28T17:57:12.929Z",
+      "ModifiedDate": "2026-01-28T17:57:12.929Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse de livraison\nAdresse email\nNuméro de téléphone\nDate de naissance]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "ioburo-fuite-du-2026-1-19",
+      "path": "https://bonjourlafuite.eu.org/img/ioburo.png",
+      "formattedDate": "2026-01-19",
+      "index": 1185
+    },
+    {
       "Name": "france éducation international fuite du 2026-1-20",
       "Title": "france éducation international fuite du 2026-1-20",
       "Domain": null,
@@ -45138,7 +45164,7 @@
       "slug": "france-ducation-international-fuite-du-2026-1-20",
       "path": "https://www.france-education-international.fr/actualites/incident-sur-la-plateforme-gael-diplomes-delf-dalf",
       "formattedDate": "2026-01-20",
-      "index": 1185
+      "index": 1186
     },
     {
       "Name": "delko fuite du 2026-1-20",
@@ -45164,7 +45190,7 @@
       "slug": "delko-fuite-du-2026-1-20",
       "path": "https://bonjourlafuite.eu.org/img/delko.jpg",
       "formattedDate": "2026-01-20",
-      "index": 1186
+      "index": 1187
     },
     {
       "Name": "conseiljuridique.net fuite du 2026-1-20",
@@ -45190,7 +45216,7 @@
       "slug": "conseiljuridique-net-fuite-du-2026-1-20",
       "path": "https://bonjourlafuite.eu.org/img/conseiljuridique.png",
       "formattedDate": "2026-01-20",
-      "index": 1187
+      "index": 1188
     },
     {
       "Name": "ensam fuite du 2026-1-21",
@@ -45216,7 +45242,7 @@
       "slug": "ensam-fuite-du-2026-1-21",
       "path": "https://bonjourlafuite.eu.org/img/ensam.png",
       "formattedDate": "2026-01-21",
-      "index": 1188
+      "index": 1189
     },
     {
       "Name": "baby vista fuite du 2026-1-23",
@@ -45242,7 +45268,7 @@
       "slug": "baby-vista-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/babyvista.png",
       "formattedDate": "2026-01-23",
-      "index": 1189
+      "index": 1190
     },
     {
       "Name": "fédération française de chasse fuite du 2026-1-23",
@@ -45268,7 +45294,7 @@
       "slug": "f-d-ration-fran-aise-de-chasse-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/ffchasse.png",
       "formattedDate": "2026-01-23",
-      "index": 1190
+      "index": 1191
     },
     {
       "Name": "fédération française d’escrime fuite du 2026-1-23",
@@ -45294,7 +45320,7 @@
       "slug": "f-d-ration-fran-aise-d-escrime-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/ffe.png",
       "formattedDate": "2026-01-23",
-      "index": 1191
+      "index": 1192
     },
     {
       "Name": "grand froid fuite du 2026-1-23",
@@ -45320,7 +45346,7 @@
       "slug": "grand-froid-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/grand-froid.png",
       "formattedDate": "2026-01-23",
-      "index": 1192
+      "index": 1193
     },
     {
       "Name": "too easy fuite du 2026-1-23",
@@ -45346,7 +45372,7 @@
       "slug": "too-easy-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/tooeasy.png",
       "formattedDate": "2026-01-23",
-      "index": 1193
+      "index": 1194
     },
     {
       "Name": "valorissimo fuite du 2026-1-23",
@@ -45372,7 +45398,7 @@
       "slug": "valorissimo-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/valo.png",
       "formattedDate": "2026-01-23",
-      "index": 1194
+      "index": 1195
     },
     {
       "Name": "fédération française de golf fuite du 2026-1-23",
@@ -45398,7 +45424,7 @@
       "slug": "f-d-ration-fran-aise-de-golf-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/ffgolf.png",
       "formattedDate": "2026-01-23",
-      "index": 1195
+      "index": 1196
     },
     {
       "Name": "fédération française des sapeurs fuite du 2026-1-23",
@@ -45424,7 +45450,7 @@
       "slug": "f-d-ration-fran-aise-des-sapeurs-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/ffpompiers.png",
       "formattedDate": "2026-01-23",
-      "index": 1196
+      "index": 1197
     },
     {
       "Name": "orpi fuite du 2026-1-23",
@@ -45450,7 +45476,7 @@
       "slug": "orpi-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/orpi-1.png",
       "formattedDate": "2026-01-23",
-      "index": 1197
+      "index": 1198
     },
     {
       "Name": "waltio fuite du 2026-1-23",
@@ -45476,7 +45502,7 @@
       "slug": "waltio-fuite-du-2026-1-23",
       "path": "https://www.waltio.com/fr/blog/actualite/security-notice-23-01/",
       "formattedDate": "2026-01-23",
-      "index": 1198
+      "index": 1199
     },
     {
       "Name": "fédération française de volley fuite du 2026-1-23",
@@ -45502,7 +45528,7 @@
       "slug": "f-d-ration-fran-aise-de-volley-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/ffvolley.png",
       "formattedDate": "2026-01-23",
-      "index": 1199
+      "index": 1200
     },
     {
       "Name": "fédération française d’études et de sports sous fuite du 2026-1-24",
@@ -45528,7 +45554,7 @@
       "slug": "f-d-ration-fran-aise-d-tudes-et-de-sports-sous-fuite-du-2026-1-24",
       "path": "https://bonjourlafuite.eu.org/img/ffessm-1.png",
       "formattedDate": "2026-01-24",
-      "index": 1200
+      "index": 1201
     },
     {
       "Name": "panorama banques fuite du 2026-1-24",
@@ -45554,7 +45580,7 @@
       "slug": "panorama-banques-fuite-du-2026-1-24",
       "path": "https://bonjourlafuite.eu.org/img/panoramabanques.png",
       "formattedDate": "2026-01-24",
-      "index": 1201
+      "index": 1202
     },
     {
       "Name": "scoring fit fuite du 2026-1-24",
@@ -45580,7 +45606,7 @@
       "slug": "scoring-fit-fuite-du-2026-1-24",
       "path": "https://bonjourlafuite.eu.org/img/scoringfit.png",
       "formattedDate": "2026-01-24",
-      "index": 1202
+      "index": 1203
     },
     {
       "Name": "suzuki fuite du 2026-1-24",
@@ -45606,7 +45632,7 @@
       "slug": "suzuki-fuite-du-2026-1-24",
       "path": "https://www.suzuki.fr/securite-donnees-personnelles",
       "formattedDate": "2026-01-24",
-      "index": 1203
+      "index": 1204
     },
     {
       "Name": "guiot de bourg fuite du 2026-1-24",
@@ -45632,7 +45658,7 @@
       "slug": "guiot-de-bourg-fuite-du-2026-1-24",
       "path": "https://bonjourlafuite.eu.org/img/guiotdebourg.png",
       "formattedDate": "2026-01-24",
-      "index": 1204
+      "index": 1205
     },
     {
       "Name": "movida fuite du 2026-1-24",
@@ -45658,7 +45684,7 @@
       "slug": "movida-fuite-du-2026-1-24",
       "path": "https://bonjourlafuite.eu.org/img/movida.png",
       "formattedDate": "2026-01-24",
-      "index": 1205
+      "index": 1206
     },
     {
       "Name": "fédération française des sports pour tous fuite du 2026-1-25",
@@ -45684,7 +45710,7 @@
       "slug": "f-d-ration-fran-aise-des-sports-pour-tous-fuite-du-2026-1-25",
       "path": "https://bonjourlafuite.eu.org/img/sportspourtous.png",
       "formattedDate": "2026-01-25",
-      "index": 1206
+      "index": 1207
     },
     {
       "Name": "renault fuite du 2026-1-25",
@@ -45710,7 +45736,7 @@
       "slug": "renault-fuite-du-2026-1-25",
       "path": "https://bonjourlafuite.eu.org/img/renault.png",
       "formattedDate": "2026-01-25",
-      "index": 1207
+      "index": 1208
     },
     {
       "Name": "sciences po fuite du 2026-1-25",
@@ -45736,7 +45762,7 @@
       "slug": "sciences-po-fuite-du-2026-1-25",
       "path": "https://bonjourlafuite.eu.org/img/sciences-po-1.png",
       "formattedDate": "2026-01-25",
-      "index": 1208
+      "index": 1209
     },
     {
       "Name": "livrenpoche fuite du 2026-1-25",
@@ -45762,7 +45788,137 @@
       "slug": "livrenpoche-fuite-du-2026-1-25",
       "path": "https://bonjourlafuite.eu.org/img/livrenpoche.png",
       "formattedDate": "2026-01-25",
-      "index": 1209
+      "index": 1210
+    },
+    {
+      "Name": "centre d’imagerie médicale de puteaux fuite du 2026-1-28",
+      "Title": "centre d’imagerie médicale de puteaux fuite du 2026-1-28",
+      "Domain": null,
+      "BreachDate": "2026-1-28",
+      "AddedDate": "2026-01-28T17:57:11.933Z",
+      "ModifiedDate": "2026-01-28T17:57:11.933Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nDate de naissance\nNuméro de téléphone\nAdresse email\nAdresse postale\nNombre de rendez-vous]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "centre-d-imagerie-m-dicale-de-puteaux-fuite-du-2026-1-28",
+      "path": "https://bonjourlafuite.eu.org/img/cim-puteaux.png",
+      "formattedDate": "2026-01-28",
+      "index": 1211
+    },
+    {
+      "Name": "coriolis fuite du 2026-1-28",
+      "Title": "coriolis fuite du 2026-1-28",
+      "Domain": null,
+      "BreachDate": "2026-1-28",
+      "AddedDate": "2026-01-28T17:57:12.196Z",
+      "ModifiedDate": "2026-01-28T17:57:12.196Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nGenre\nNuméro de téléphone\nAdresse mail\nAdresse postale\nIBAN]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "coriolis-fuite-du-2026-1-28",
+      "path": "https://bonjourlafuite.eu.org/img/coriolis.png",
+      "formattedDate": "2026-01-28",
+      "index": 1212
+    },
+    {
+      "Name": "le cnam fuite du 2026-1-28",
+      "Title": "le cnam fuite du 2026-1-28",
+      "Domain": null,
+      "BreachDate": "2026-1-28",
+      "AddedDate": "2026-01-28T17:57:13.073Z",
+      "ModifiedDate": "2026-01-28T17:57:13.073Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse mail\nNuméro de téléphone\nPoste occupé et département\nAdresse postale\nDate de naissance\nSite Internet\nLoisirs]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "le-cnam-fuite-du-2026-1-28",
+      "path": "https://bonjourlafuite.eu.org/img/cnam.png",
+      "formattedDate": "2026-01-28",
+      "index": 1213
+    },
+    {
+      "Name": "lovys fuite du 2026-1-28",
+      "Title": "lovys fuite du 2026-1-28",
+      "Domain": null,
+      "BreachDate": "2026-1-28",
+      "AddedDate": "2026-01-28T17:57:13.167Z",
+      "ModifiedDate": "2026-01-28T17:57:13.167Z",
+      "PwnCount": 0,
+      "Description": "-\n\nSource\r\n              ]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "lovys-fuite-du-2026-1-28",
+      "path": "https://bonjourlafuite.eu.org/img/lovys.png",
+      "formattedDate": "2026-01-28",
+      "index": 1214
+    },
+    {
+      "Name": "ugsel fuite du 2026-1-28",
+      "Title": "ugsel fuite du 2026-1-28",
+      "Domain": null,
+      "BreachDate": "2026-1-28",
+      "AddedDate": "2026-01-28T17:57:13.834Z",
+      "ModifiedDate": "2026-01-28T17:57:13.834Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nGenre\nDate de naissance\nCatégorie\nClasse]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "ugsel-fuite-du-2026-1-28",
+      "path": "https://bonjourlafuite.eu.org/img/ugsel.png",
+      "formattedDate": "2026-01-28",
+      "index": 1215
     }
   ]
 }
