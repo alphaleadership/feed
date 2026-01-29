@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-29T19:45:06.352Z",
-  "totalBreaches": 1222,
+  "lastUpdated": "2026-01-29T20:01:53.343Z",
+  "totalBreaches": 1224,
   "breaches": [
     {
       "Name": "gPotato",
@@ -46075,6 +46075,58 @@
       "path": "https://bonjourlafuite.eu.org/img/sfr-2.png",
       "formattedDate": "2026-01-29",
       "index": 1221
+    },
+    {
+      "Name": "réseau.site fuite du 2026-1-29",
+      "Title": "réseau.site fuite du 2026-1-29",
+      "Domain": null,
+      "BreachDate": "2026-1-29",
+      "AddedDate": "2026-01-29T20:01:53.070Z",
+      "ModifiedDate": "2026-01-29T20:01:53.070Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nMot de passe\nNuméro de téléphone\nAdresse postale\nAchats]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "r-seau-site-fuite-du-2026-1-29",
+      "path": "https://bonjourlafuite.eu.org/img/reseau-site.png",
+      "formattedDate": "2026-01-29",
+      "index": 1222
+    },
+    {
+      "Name": "verychic fuite du 2026-1-29",
+      "Title": "verychic fuite du 2026-1-29",
+      "Domain": null,
+      "BreachDate": "2026-1-29",
+      "AddedDate": "2026-01-29T20:01:53.342Z",
+      "ModifiedDate": "2026-01-29T20:01:53.342Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nDate de naissance\nNuméro de téléphone\nAdresse postale\nNuméro de réservation\nDate du séjour]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "verychic-fuite-du-2026-1-29",
+      "path": "https://bonjourlafuite.eu.org/img/very-chic.png",
+      "formattedDate": "2026-01-29",
+      "index": 1223
     }
   ]
 }
