@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-28T19:58:02.161Z",
-  "totalBreaches": 1220,
+  "lastUpdated": "2026-01-29T19:45:06.352Z",
+  "totalBreaches": 1222,
   "breaches": [
     {
       "Name": "gPotato",
@@ -46023,6 +46023,58 @@
       "path": "https://bonjourlafuite.eu.org/img/agences-immobilieres.png",
       "formattedDate": "2026-01-28",
       "index": 1219
+    },
+    {
+      "Name": "match group (hinge fuite du 2026-1-29",
+      "Title": "match group (hinge fuite du 2026-1-29",
+      "Domain": null,
+      "BreachDate": "2026-1-29",
+      "AddedDate": "2026-01-29T19:45:05.831Z",
+      "ModifiedDate": "2026-01-29T19:45:05.831Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nlogin\nMot de passe\nUser agent\nDate de naissance\nAdresse IP\nNuméro de téléphone]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "match-group-hinge-fuite-du-2026-1-29",
+      "path": "https://bonjourlafuite.eu.org/img/match-group.png",
+      "formattedDate": "2026-01-29",
+      "index": 1220
+    },
+    {
+      "Name": "sfr fuite du 2026-1-29",
+      "Title": "sfr fuite du 2026-1-29",
+      "Domain": null,
+      "BreachDate": "2026-1-29",
+      "AddedDate": "2026-01-29T19:45:06.351Z",
+      "ModifiedDate": "2026-01-29T19:45:06.351Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse email\nAdresse postale\nNuméro de téléphone\nDate de naissance\nIBAN]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "sfr-fuite-du-2026-1-29",
+      "path": "https://bonjourlafuite.eu.org/img/sfr-2.png",
+      "formattedDate": "2026-01-29",
+      "index": 1221
     }
   ]
 }

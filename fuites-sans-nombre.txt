@@ -1,9 +1,9 @@
 RAPPORT - FUITES SANS NOMBRE DE PERSONNES IMPACTÉES
 =================================================
 
-Total des fuites analysées: 1220
-Fuites sans nombre d'impactés: 278
-Pourcentage: 22.79%
+Total des fuites analysées: 1222
+Fuites sans nombre d'impactés: 280
+Pourcentage: 22.91%
 
 LISTE DES FUITES CONCERNÉES:
 ============================
@@ -2506,6 +2506,24 @@ LISTE DES FUITES CONCERNÉES:
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-28
    - Date d'ajout: 2026-01-28T19:58:02.159Z
+   - PwnCount: 0
+   - Lien: Non disponible
+   - Vérifié: Non
+
+279. match group (hinge fuite du 2026-1-29
+   - Titre: match group (hinge fuite du 2026-1-29
+   - Domaine: Non spécifié
+   - Date de fuite: 2026-1-29
+   - Date d'ajout: 2026-01-29T19:45:05.831Z
+   - PwnCount: 0
+   - Lien: Non disponible
+   - Vérifié: Non
+
+280. sfr fuite du 2026-1-29
+   - Titre: sfr fuite du 2026-1-29
+   - Domaine: Non spécifié
+   - Date de fuite: 2026-1-29
+   - Date d'ajout: 2026-01-29T19:45:06.351Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
