@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-29T20:01:53.343Z",
-  "totalBreaches": 1224,
+  "lastUpdated": "2026-01-30T15:40:18.808Z",
+  "totalBreaches": 1226,
   "breaches": [
     {
       "Name": "gPotato",
@@ -46127,6 +46127,58 @@
       "path": "https://bonjourlafuite.eu.org/img/very-chic.png",
       "formattedDate": "2026-01-29",
       "index": 1223
+    },
+    {
+      "Name": "mano mano fuite du 2026-1-30",
+      "Title": "mano mano fuite du 2026-1-30",
+      "Domain": null,
+      "BreachDate": "2026-1-30",
+      "AddedDate": "2026-01-30T15:40:18.566Z",
+      "ModifiedDate": "2026-01-30T15:40:18.566Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse mail\nNuméro de téléphone\nÉchanges avec le support]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "mano-mano-fuite-du-2026-1-30",
+      "path": "https://bonjourlafuite.eu.org/img/manomano.png",
+      "formattedDate": "2026-01-30",
+      "index": 1224
+    },
+    {
+      "Name": "opquast fuite du 2026-1-30",
+      "Title": "opquast fuite du 2026-1-30",
+      "Domain": null,
+      "BreachDate": "2026-1-30",
+      "AddedDate": "2026-01-30T15:40:18.807Z",
+      "ModifiedDate": "2026-01-30T15:40:18.807Z",
+      "PwnCount": 0,
+      "Description": "-\n\nAdresse mail]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "opquast-fuite-du-2026-1-30",
+      "path": "https://bonjourlafuite.eu.org/img/opquast.png",
+      "formattedDate": "2026-01-30",
+      "index": 1225
     }
   ]
 }
