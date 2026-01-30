@@ -1,9 +1,9 @@
 RAPPORT - FUITES SANS NOMBRE DE PERSONNES IMPACTÉES
 =================================================
 
-Total des fuites analysées: 1226
-Fuites sans nombre d'impactés: 284
-Pourcentage: 23.16%
+Total des fuites analysées: 1227
+Fuites sans nombre d'impactés: 285
+Pourcentage: 23.23%
 
 LISTE DES FUITES CONCERNÉES:
 ============================
@@ -2560,6 +2560,15 @@ LISTE DES FUITES CONCERNÉES:
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-30
    - Date d'ajout: 2026-01-30T15:40:18.807Z
+   - PwnCount: 0
+   - Lien: Non disponible
+   - Vérifié: Non
+
+285. code rousseau fuite du 2026-1-30
+   - Titre: code rousseau fuite du 2026-1-30
+   - Domaine: Non spécifié
+   - Date de fuite: 2026-1-30
+   - Date d'ajout: 2026-01-30T16:18:11.443Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non

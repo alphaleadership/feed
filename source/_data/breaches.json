@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-30T15:40:18.808Z",
-  "totalBreaches": 1226,
+  "lastUpdated": "2026-01-30T16:18:11.445Z",
+  "totalBreaches": 1227,
   "breaches": [
     {
       "Name": "gPotato",
@@ -46179,6 +46179,32 @@
       "path": "https://bonjourlafuite.eu.org/img/opquast.png",
       "formattedDate": "2026-01-30",
       "index": 1225
+    },
+    {
+      "Name": "code rousseau fuite du 2026-1-30",
+      "Title": "code rousseau fuite du 2026-1-30",
+      "Domain": null,
+      "BreachDate": "2026-1-30",
+      "AddedDate": "2026-01-30T16:18:11.443Z",
+      "ModifiedDate": "2026-01-30T16:18:11.443Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse postale\nAdresse mail\nNuméro de téléphone\nPhoto d’identité\nNuméro NEPH\nDonnées de l’ASR\nSignature]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "code-rousseau-fuite-du-2026-1-30",
+      "path": "https://bonjourlafuite.eu.org/img/code-rousseau.jpg",
+      "formattedDate": "2026-01-30",
+      "index": 1226
     }
   ]
 }
