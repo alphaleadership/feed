@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-30T16:18:11.445Z",
-  "totalBreaches": 1227,
+  "lastUpdated": "2026-02-02T10:07:56.296Z",
+  "totalBreaches": 1229,
   "breaches": [
     {
       "Name": "gPotato",
@@ -46205,6 +46205,58 @@
       "path": "https://bonjourlafuite.eu.org/img/code-rousseau.jpg",
       "formattedDate": "2026-01-30",
       "index": 1226
+    },
+    {
+      "Name": "armée de terre fuite du 2026-1-31",
+      "Title": "armée de terre fuite du 2026-1-31",
+      "Domain": null,
+      "BreachDate": "2026-1-31",
+      "AddedDate": "2026-02-02T10:07:55.237Z",
+      "ModifiedDate": "2026-02-02T10:07:55.237Z",
+      "PwnCount": 0,
+      "Description": "-\n\nDocuments classifiés (diffusion restreinte)\nGuides techniques]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "arm-e-de-terre-fuite-du-2026-1-31",
+      "path": "https://bonjourlafuite.eu.org/img/armee-de-terre.png",
+      "formattedDate": "2026-01-31",
+      "index": 1227
+    },
+    {
+      "Name": "inria fuite du 2026-1-31",
+      "Title": "inria fuite du 2026-1-31",
+      "Domain": null,
+      "BreachDate": "2026-1-31",
+      "AddedDate": "2026-02-02T10:07:56.295Z",
+      "ModifiedDate": "2026-02-02T10:07:56.295Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nOrganisation\nAdresse email]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "inria-fuite-du-2026-1-31",
+      "path": "https://bonjourlafuite.eu.org/img/inria-1.png",
+      "formattedDate": "2026-01-31",
+      "index": 1228
     }
   ]
 }
