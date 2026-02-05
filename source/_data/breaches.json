@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-02T17:26:46.188Z",
-  "totalBreaches": 1230,
+  "lastUpdated": "2026-02-05T18:04:44.440Z",
+  "totalBreaches": 1231,
   "breaches": [
     {
       "Name": "gPotato",
@@ -46283,6 +46283,32 @@
       "path": "https://bonjourlafuite.eu.org/img/inria-1.png",
       "formattedDate": "2026-01-31",
       "index": 1229
+    },
+    {
+      "Name": "protexia france fuite du 2026-2-5",
+      "Title": "protexia france fuite du 2026-2-5",
+      "Domain": null,
+      "BreachDate": "2026-2-5",
+      "AddedDate": "2026-02-05T18:04:44.438Z",
+      "ModifiedDate": "2026-02-05T18:04:44.438Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nDate de naissance\nAdresse postale\nAdresse email\nNuméro de téléphone\nNuméro d’adhérent]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "protexia-france-fuite-du-2026-2-5",
+      "path": "https://bonjourlafuite.eu.org/img/protexia.png",
+      "formattedDate": "2026-02-05",
+      "index": 1230
     }
   ]
 }
