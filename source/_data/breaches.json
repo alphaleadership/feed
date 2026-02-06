@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T13:07:41.248Z",
-  "totalBreaches": 1233,
+  "lastUpdated": "2026-02-06T17:50:45.367Z",
+  "totalBreaches": 1235,
   "breaches": [
     {
       "Name": "gPotato",
@@ -46361,6 +46361,58 @@
       "path": "https://bonjourlafuite.eu.org/img/flickr.png",
       "formattedDate": "2026-02-06",
       "index": 1232
+    },
+    {
+      "Name": "autoforever fuite du 2026-2-6",
+      "Title": "autoforever fuite du 2026-2-6",
+      "Domain": null,
+      "BreachDate": "2026-2-6",
+      "AddedDate": "2026-02-06T17:50:44.549Z",
+      "ModifiedDate": "2026-02-06T17:50:44.549Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse postale\nAdresse email\nNuméro de téléphone\nAdresse IP\nNom de l’entreprise\nNuméro de TVA]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "autoforever-fuite-du-2026-2-6",
+      "path": "https://bonjourlafuite.eu.org/img/autoforever.png",
+      "formattedDate": "2026-02-06",
+      "index": 1233
+    },
+    {
+      "Name": "fédération française de voile fuite du 2026-2-6",
+      "Title": "fédération française de voile fuite du 2026-2-6",
+      "Domain": null,
+      "BreachDate": "2026-2-6",
+      "AddedDate": "2026-02-06T17:50:45.366Z",
+      "ModifiedDate": "2026-02-06T17:50:45.366Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nDate de naissance\nAdresse postale\nAdresse email\nNuméro de téléphone]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "f-d-ration-fran-aise-de-voile-fuite-du-2026-2-6",
+      "path": "https://www.letelegramme.fr/sports/voile/la-federation-francaise-de-voile-victime-dune-fuite-de-donnees-de-ses-licencies-6978517.php",
+      "formattedDate": "2026-02-06",
+      "index": 1234
     }
   ]
 }
