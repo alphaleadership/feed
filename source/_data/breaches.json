@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T10:42:58.285Z",
-  "totalBreaches": 1232,
+  "lastUpdated": "2026-02-06T13:07:41.248Z",
+  "totalBreaches": 1233,
   "breaches": [
     {
       "Name": "gPotato",
@@ -46311,6 +46311,32 @@
       "index": 1230
     },
     {
+      "Name": "substack fuite du 2026-2-5",
+      "Title": "substack fuite du 2026-2-5",
+      "Domain": null,
+      "BreachDate": "2026-2-5",
+      "AddedDate": "2026-02-06T13:07:41.246Z",
+      "ModifiedDate": "2026-02-06T13:07:41.246Z",
+      "PwnCount": 0,
+      "Description": "-\n\nAdresse mail\nNuméro de téléphone\nMétadonnées internes]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "substack-fuite-du-2026-2-5",
+      "path": "https://lorichristian.substack.com/p/notice-of-data-breach",
+      "formattedDate": "2026-02-05",
+      "index": 1231
+    },
+    {
       "Name": "flickr fuite du 2026-2-6",
       "Title": "flickr fuite du 2026-2-6",
       "Domain": null,
@@ -46334,7 +46360,7 @@
       "slug": "flickr-fuite-du-2026-2-6",
       "path": "https://bonjourlafuite.eu.org/img/flickr.png",
       "formattedDate": "2026-02-06",
-      "index": 1231
+      "index": 1232
     }
   ]
 }

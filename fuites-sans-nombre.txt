@@ -1,9 +1,9 @@
 RAPPORT - FUITES SANS NOMBRE DE PERSONNES IMPACTÉES
 =================================================
 
-Total des fuites analysées: 1232
-Fuites sans nombre d'impactés: 290
-Pourcentage: 23.54%
+Total des fuites analysées: 1233
+Fuites sans nombre d'impactés: 291
+Pourcentage: 23.60%
 
 LISTE DES FUITES CONCERNÉES:
 ============================
@@ -2609,7 +2609,16 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: Non disponible
    - Vérifié: Non
 
-290. flickr fuite du 2026-2-6
+290. substack fuite du 2026-2-5
+   - Titre: substack fuite du 2026-2-5
+   - Domaine: Non spécifié
+   - Date de fuite: 2026-2-5
+   - Date d'ajout: 2026-02-06T13:07:41.246Z
+   - PwnCount: 0
+   - Lien: Non disponible
+   - Vérifié: Non
+
+291. flickr fuite du 2026-2-6
    - Titre: flickr fuite du 2026-2-6
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-6
