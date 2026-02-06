@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-05T18:04:44.440Z",
-  "totalBreaches": 1231,
+  "lastUpdated": "2026-02-06T10:42:58.285Z",
+  "totalBreaches": 1232,
   "breaches": [
     {
       "Name": "gPotato",
@@ -46309,6 +46309,32 @@
       "path": "https://bonjourlafuite.eu.org/img/protexia.png",
       "formattedDate": "2026-02-05",
       "index": 1230
+    },
+    {
+      "Name": "flickr fuite du 2026-2-6",
+      "Title": "flickr fuite du 2026-2-6",
+      "Domain": null,
+      "BreachDate": "2026-2-6",
+      "AddedDate": "2026-02-06T10:42:58.283Z",
+      "ModifiedDate": "2026-02-06T10:42:58.283Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nAdresse mail\nAdresse IP\nLogin\nType de compte\nLocalisation\nActivité du compte]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "flickr-fuite-du-2026-2-6",
+      "path": "https://bonjourlafuite.eu.org/img/flickr.png",
+      "formattedDate": "2026-02-06",
+      "index": 1231
     }
   ]
 }
