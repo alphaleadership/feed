@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-07T13:48:32.831Z",
-  "totalBreaches": 1236,
+  "lastUpdated": "2026-02-07T14:29:41.153Z",
+  "totalBreaches": 1239,
   "breaches": [
     {
       "Name": "gPotato",
@@ -46285,6 +46285,32 @@
       "index": 1229
     },
     {
+      "Name": "loxam fuite du 2026-2-4",
+      "Title": "loxam fuite du 2026-2-4",
+      "Domain": null,
+      "BreachDate": "2026-2-4",
+      "AddedDate": "2026-02-07T14:29:41.088Z",
+      "ModifiedDate": "2026-02-07T14:29:41.088Z",
+      "PwnCount": 0,
+      "Description": "-\n\nChauffeur\nNuméro de téléphone\nAdresse de livraison\nPlaque d’immatriculation\nDate de livraison\nCréneau horaire]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "loxam-fuite-du-2026-2-4",
+      "path": "https://bonjourlafuite.eu.org/img/loxam.png",
+      "formattedDate": "2026-02-04",
+      "index": 1230
+    },
+    {
       "Name": "protexia france fuite du 2026-2-5",
       "Title": "protexia france fuite du 2026-2-5",
       "Domain": null,
@@ -46308,7 +46334,7 @@
       "slug": "protexia-france-fuite-du-2026-2-5",
       "path": "https://bonjourlafuite.eu.org/img/protexia.png",
       "formattedDate": "2026-02-05",
-      "index": 1230
+      "index": 1231
     },
     {
       "Name": "substack fuite du 2026-2-5",
@@ -46334,7 +46360,33 @@
       "slug": "substack-fuite-du-2026-2-5",
       "path": "https://lorichristian.substack.com/p/notice-of-data-breach",
       "formattedDate": "2026-02-05",
-      "index": 1231
+      "index": 1232
+    },
+    {
+      "Name": "fédération française de randonnée pédestre fuite du 2026-2-5",
+      "Title": "fédération française de randonnée pédestre fuite du 2026-2-5",
+      "Domain": null,
+      "BreachDate": "2026-2-5",
+      "AddedDate": "2026-02-07T14:29:40.503Z",
+      "ModifiedDate": "2026-02-07T14:29:40.503Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nNuméro de licence\nDate et lieu de naissance\nNuméro de téléphone\nAdresse mail\nAdresse postale\nStructure d’accueil]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "f-d-ration-fran-aise-de-randonn-e-p-destre-fuite-du-2026-2-5",
+      "path": "https://bonjourlafuite.eu.org/img/ffrando.png",
+      "formattedDate": "2026-02-05",
+      "index": 1233
     },
     {
       "Name": "flickr fuite du 2026-2-6",
@@ -46360,7 +46412,7 @@
       "slug": "flickr-fuite-du-2026-2-6",
       "path": "https://bonjourlafuite.eu.org/img/flickr.png",
       "formattedDate": "2026-02-06",
-      "index": 1232
+      "index": 1234
     },
     {
       "Name": "autoforever fuite du 2026-2-6",
@@ -46386,7 +46438,7 @@
       "slug": "autoforever-fuite-du-2026-2-6",
       "path": "https://bonjourlafuite.eu.org/img/autoforever.png",
       "formattedDate": "2026-02-06",
-      "index": 1233
+      "index": 1235
     },
     {
       "Name": "fédération française de voile fuite du 2026-2-6",
@@ -46412,7 +46464,33 @@
       "slug": "f-d-ration-fran-aise-de-voile-fuite-du-2026-2-6",
       "path": "https://www.letelegramme.fr/sports/voile/la-federation-francaise-de-voile-victime-dune-fuite-de-donnees-de-ses-licencies-6978517.php",
       "formattedDate": "2026-02-06",
-      "index": 1234
+      "index": 1236
+    },
+    {
+      "Name": "maire de paris fuite du 2026-2-6",
+      "Title": "maire de paris fuite du 2026-2-6",
+      "Domain": null,
+      "BreachDate": "2026-2-6",
+      "AddedDate": "2026-02-07T14:29:41.152Z",
+      "ModifiedDate": "2026-02-07T14:29:41.152Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nPrénom\nDate de naissance\nAdresse postale\nNuméro de téléphone\nAdresse mail]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "maire-de-paris-fuite-du-2026-2-6",
+      "path": "https://bonjourlafuite.eu.org/img/mairie-paris.png",
+      "formattedDate": "2026-02-06",
+      "index": 1237
     },
     {
       "Name": "office français de la biodiversité fuite du 2026-2-7",
@@ -46438,7 +46516,7 @@
       "slug": "office-fran-ais-de-la-biodiversit-fuite-du-2026-2-7",
       "path": "https://ofb.gouv.fr/actualites/cyberattaque-visant-application-du-permis-de-chasser-ofb-informe-ses-usagers",
       "formattedDate": "2026-02-07",
-      "index": 1235
+      "index": 1238
     }
   ]
 }
