@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T17:50:45.367Z",
-  "totalBreaches": 1235,
+  "lastUpdated": "2026-02-07T13:48:32.831Z",
+  "totalBreaches": 1236,
   "breaches": [
     {
       "Name": "gPotato",
@@ -46413,6 +46413,32 @@
       "path": "https://www.letelegramme.fr/sports/voile/la-federation-francaise-de-voile-victime-dune-fuite-de-donnees-de-ses-licencies-6978517.php",
       "formattedDate": "2026-02-06",
       "index": 1234
+    },
+    {
+      "Name": "office français de la biodiversité fuite du 2026-2-7",
+      "Title": "office français de la biodiversité fuite du 2026-2-7",
+      "Domain": null,
+      "BreachDate": "2026-2-7",
+      "AddedDate": "2026-02-07T13:48:32.830Z",
+      "ModifiedDate": "2026-02-07T13:48:32.830Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénoms\nDate et ville de naissance\nAdresse postale\nNuméros de téléphone fixe et portable\nNationalité\nAdresse e-mail\nNuméro de permis de chasser\nInformations relatives à la demande\nl’instruction ou à l’examen du permis de chasser\nInscription au fichier national des personnes interdites d'acquisition et de détention d'armes\nConvocation\ndates\nprésence et résultat]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "office-fran-ais-de-la-biodiversit-fuite-du-2026-2-7",
+      "path": "https://ofb.gouv.fr/actualites/cyberattaque-visant-application-du-permis-de-chasser-ofb-informe-ses-usagers",
+      "formattedDate": "2026-02-07",
+      "index": 1235
     }
   ]
 }
