@@ -42,12 +42,22 @@ db.breaches.forEach((breach, idx) => {
    if (!breach.Title || breach.Title.trim() === '') {
      breach.Title = breach.Name;
    }
-   // console.log("Name", breach.Name)
+   
+   // Détermination de la source
+   if (!breach.source) {
+     if (breach.path && breach.path.includes('breaches/')) breach.source = 'Have I Been Pwned';
+     else if (breach.lien && breach.lien.includes('zataz.com')) breach.source = 'Zataz';
+     else breach.source = 'Manuel';
+   }
+
    if(breach.Name.split("fuite")[0]==""){
       breach.IsRetired=true
     }
-    if(breach.Name!==breach.Title){
-            breach.IsRetired=true
+    
+    // Correction des liens HIBP
+    if (breach.lien && breach.lien.includes('undefined') && breach.path && breach.path.includes('breaches/')) {
+      const slug = breach.path.split('breaches/')[1];
+      if (slug) breach.lien = `https://haveibeenpwned.com/Breach/${slug}`;
     }
  if(!(breach.categories && Array.isArray(breach.categories))){
    

@@ -113,6 +113,7 @@ async function main() {
   const newBreach = {
     Name: name,
     Title: title,
+    source: sourceType === 'hibp' ? 'Have I Been Pwned' : 'Manuel',
     Domain: domain && domain.trim().length ? domain.trim() : null,
     BreachDate: breachDate,
     AddedDate: now,
