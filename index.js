@@ -4,24 +4,48 @@ const Parser = require('rss-parser');
 const yaml = require('js-yaml');
 const parser = new Parser();
 const axios = require('axios');
-const db=require("./source/_data/breaches.json")
+const breachesPath = "./source/_data/breaches.json";
+const db = require(breachesPath);
 const rssUrl = 'https://thomas-iniguez-visioli.github.io/nodejs-news-feeder/feed.xml';
 const PostDir = './source/';
-axios.default.get("https://haveibeenpwned.com/api/v3/breaches").then((res)=>{
-res.data.forEach((breach)=>{
-  if(!db.breaches.includes(breach.Name)){
-   // console.log(breach.Name)
-    if(db.breaches.findIndex((b)=>{return b.Name==breach.Name})==-1){
-      db.breaches.push(breach)
-    }else{
-      db.breaches[db.breaches.findIndex((b)=>{return b.Name==breach.Name})]=breach
+
+async function updateHIBPBreaches() {
+  try {
+    const res = await axios.default.get("https://haveibeenpwned.com/api/v3/breaches");
+    let updated = false;
+    
+    // S'assurer que db.breaches est un tableau d'objets
+    if (!Array.isArray(db.breaches)) db.breaches = [];
+
+    res.data.forEach((breach) => {
+      // On ne cherche que par Name (objet)
+      const index = db.breaches.findIndex((b) => b && typeof b === 'object' && b.Name === breach.Name);
+      
+      if (index === -1) {
+        db.breaches.push(breach);
+        updated = true;
+        // console.log(`✨ Nouvelle fuite HIBP ajoutée: ${breach.Name}`);
+      } else if (typeof db.breaches[index] !== 'object') {
+        // Au cas où il y aurait une chaîne de caractères au lieu d'un objet
+        db.breaches[index] = breach;
+        updated = true;
+      }
+    });
+
+    if (updated) {
+      db.totalBreaches = db.breaches.length;
+      db.lastUpdated = new Date().toISOString();
+      fs.writeFileSync(breachesPath, JSON.stringify(db, null, 2));
+      console.log("✅ Base de données breaches.json mise à jour avec les données HIBP.");
     }
-    db.breaches.push(breach.Name)
+  } catch (err) {
+    console.log("❌ Erreur lors de la récupération des données HIBP:", err.message);
   }
-})
-}).catch((err)=>{
-  console.log(err)
-})
+}
+
+// Lancer la mise à jour HIBP
+updateHIBPBreaches();
+
 const parsecontent = (txt, sep, joi) => {
   if (!txt) return "";
   return txt.split(sep).map(line => line.trim()).join(joi);

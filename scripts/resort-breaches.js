@@ -39,6 +39,9 @@ db.breaches.forEach((breach, idx) => {
    const invalidcategory=["hygiène numérique","sécurité","cybersécurité","cybercriminalité","cyberguerre"]
  
     breach.Name=decodeURI(breach.Name)
+   if (!breach.Title || breach.Title.trim() === '') {
+     breach.Title = breach.Name;
+   }
    // console.log("Name", breach.Name)
    if(breach.Name.split("fuite")[0]==""){
       breach.IsRetired=true
@@ -61,6 +64,11 @@ db.breaches.forEach((breach, idx) => {
 								breach.IsRetired=true
 							}
   }
+
+   if (!breach.Description || breach.Description.trim() === '') {
+     breach.Description = "Aucune description disponible pour cette fuite de données.";
+   }
+   breach.content = breach.Description;
 
   // Détection automatique NSFW basée sur la description
   if(!Object.keys(breach).includes("isNSFW")){
