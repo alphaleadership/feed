@@ -1,9 +1,9 @@
 RAPPORT - FUITES SANS NOMBRE DE PERSONNES IMPACTÉES
 =================================================
 
-Total des fuites analysées: 1280
-Fuites sans nombre d'impactés: 312
-Pourcentage: 24.38%
+Total des fuites analysées: 1281
+Fuites sans nombre d'impactés: 313
+Pourcentage: 24.43%
 
 LISTE DES FUITES CONCERNÉES:
 ============================
@@ -2814,5 +2814,14 @@ LISTE DES FUITES CONCERNÉES:
    - Date d'ajout: 2026-02-10T08:48:46.397Z
    - PwnCount: 0
    - Lien: https://haveibeenpwned.com/Breach/undefined
+   - Vérifié: Non
+
+313. relais colis fuite du 2026-2-10
+   - Titre: relais colis fuite du 2026-2-10
+   - Domaine: Non spécifié
+   - Date de fuite: 2026-2-10
+   - Date d'ajout: 2026-02-10T15:01:54.736Z
+   - PwnCount: 0
+   - Lien: Non disponible
    - Vérifié: Non
 
