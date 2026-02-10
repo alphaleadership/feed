@@ -93,6 +93,7 @@ db.breaches.forEach((breach, idx) => {
   }
   breach.oldindex=breach.index
   breach.index = i;
+  breach.title=breach.Title
 });
 db.breaches=db.breaches.filter(breach=>!breach.IsRetired)
 
