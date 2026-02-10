@@ -39,7 +39,7 @@
     "inquirer": "^13.2.0",
     "js-yaml": "^4.1.1",
     "jsonstream": "^1.0.3",
-    "resend": "^6.7.0",
+    "resend": "^6.9.1",
     "rss-parser": "^3.13.0",
     "sudoku": "^0.0.3"
   },
