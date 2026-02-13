@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-11T11:11:27.661Z",
-  "totalBreaches": 1283,
+  "lastUpdated": "2026-02-13T21:21:09.137Z",
+  "totalBreaches": 1285,
   "breaches": [
     {
       "Name": "gPotato",
@@ -51765,6 +51765,58 @@
       "path": "https://bonjourlafuite.eu.org/img/bourg-achard.png",
       "formattedDate": "2026-02-11",
       "index": 1282
+    },
+    {
+      "Name": "les restos du cœur fuite du 2026-2-13",
+      "Title": "les restos du cœur fuite du 2026-2-13",
+      "Domain": null,
+      "BreachDate": "2026-2-13",
+      "AddedDate": "2026-02-13T21:21:07.927Z",
+      "ModifiedDate": "2026-02-13T21:21:07.927Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nFonction et statut\nAdresse email\nNuméro de téléphone]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "les-restos-du-c-ur-fuite-du-2026-2-13",
+      "path": "https://bonjourlafuite.eu.org/img/resto-coeur.png",
+      "formattedDate": "2026-02-13",
+      "index": 1283
+    },
+    {
+      "Name": "voyage privé fuite du 2026-2-13",
+      "Title": "voyage privé fuite du 2026-2-13",
+      "Domain": null,
+      "BreachDate": "2026-2-13",
+      "AddedDate": "2026-02-13T21:21:09.136Z",
+      "ModifiedDate": "2026-02-13T21:21:09.136Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nPays de résidence\nAdresse email\nNuméro de téléphone\nNuméro et date d’expiration du passeport]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "voyage-priv-fuite-du-2026-2-13",
+      "path": "https://bonjourlafuite.eu.org/img/voyage-prive-1.jpg",
+      "formattedDate": "2026-02-13",
+      "index": 1284
     }
   ]
 }
