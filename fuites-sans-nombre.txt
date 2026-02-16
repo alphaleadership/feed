@@ -1,9 +1,9 @@
 RAPPORT - FUITES SANS NOMBRE DE PERSONNES IMPACTÉES
 =================================================
 
-Total des fuites analysées: 1286
-Fuites sans nombre d'impactés: 317
-Pourcentage: 24.65%
+Total des fuites analysées: 1287
+Fuites sans nombre d'impactés: 318
+Pourcentage: 24.71%
 
 LISTE DES FUITES CONCERNÉES:
 ============================
@@ -2857,6 +2857,15 @@ LISTE DES FUITES CONCERNÉES:
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-13
    - Date d'ajout: 2026-02-13T21:21:09.136Z
+   - PwnCount: 0
+   - Lien: Non disponible
+   - Vérifié: Non
+
+318. cnrs fuite du 2026-2-16
+   - Titre: cnrs fuite du 2026-2-16
+   - Domaine: Non spécifié
+   - Date de fuite: 2026-2-16
+   - Date d'ajout: 2026-02-16T12:01:57.318Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
