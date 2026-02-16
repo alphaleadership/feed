@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-13T21:21:09.137Z",
-  "totalBreaches": 1285,
+  "lastUpdated": "2026-02-16T07:36:46.194Z",
+  "totalBreaches": 1286,
   "breaches": [
     {
       "Name": "gPotato",
@@ -51817,6 +51817,32 @@
       "path": "https://bonjourlafuite.eu.org/img/voyage-prive-1.jpg",
       "formattedDate": "2026-02-13",
       "index": 1284
+    },
+    {
+      "Name": "APOIAse",
+      "Title": "APOIA.se",
+      "Domain": "apoia.se",
+      "BreachDate": "2025-12-16",
+      "AddedDate": "2026-02-16T07:31:43Z",
+      "ModifiedDate": "2026-02-16T07:31:43Z",
+      "PwnCount": 450764,
+      "Description": "In December 2025, a database of the Brazilian crowdfunding platform <a href=\"https://canaltech.com.br/seguranca/apoiase-confirma-vazamento-de-dados-de-usuarios-veja-como-se-proteger/\" target=\"_blank\" rel=\"noopener\">APOIA.se was posted to an online forum</a>. In January 2026, the company confirmed it had suffered a data breach. The incident exposed 451k unique email addresses along with names and physical addresses.",
+      "LogoPath": "https://logos.haveibeenpwned.com/APOIAse.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [
+        "Email addresses",
+        "Names",
+        "Physical addresses"
+      ],
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false
     }
   ]
 }
