@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-16T12:01:57.320Z",
-  "totalBreaches": 1287,
+  "lastUpdated": "2026-02-16T22:02:31.550Z",
+  "totalBreaches": 1288,
   "breaches": [
     {
       "Name": "gPotato",
@@ -51870,6 +51870,40 @@
       "path": "https://bonjourlafuite.eu.org/img/cnrs.png",
       "formattedDate": "2026-02-16",
       "index": 1286
+    },
+    {
+      "Name": "UniversityOfPennsylvania",
+      "Title": "University of Pennsylvania",
+      "Domain": "upenn.edu",
+      "BreachDate": "2025-10-30",
+      "AddedDate": "2026-02-16T21:57:51Z",
+      "ModifiedDate": "2026-02-16T21:57:51Z",
+      "PwnCount": 623750,
+      "Description": "In October 2025, <a href=\"https://www.bleepingcomputer.com/news/security/university-of-pennsylvania-hacker-claims-1.2-million-donor-data-breach/\" target=\"_blank\" rel=\"noopener\">the University of Pennsylvania was the victim of a data breach followed by a ransom demand</a>, largely affecting its donor database. After the incident, the attackers sent inflammatory emails to some victims. <a href=\"https://www.thedp.com/article/2026/02/penn-hack-donor-data-ransom-one-million-shinyhunters-gse-emai\" target=\"_blank\" rel=\"noopener\">The data was later published online in February 2026</a> and included 624k unique email addresses alongside names and physical addresses. For some donor records, additional personal information was exposed, including gender and date of birth. A small subset of records also contained religion, spouse name, estimated income and donation history.",
+      "LogoPath": "https://logos.haveibeenpwned.com/UniversityOfPennsylvania.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [
+        "Charitable donations",
+        "Dates of birth",
+        "Email addresses",
+        "Genders",
+        "Income levels",
+        "Job titles",
+        "Names",
+        "Physical addresses",
+        "Religions",
+        "Salutations",
+        "Spouses names"
+      ],
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false
     }
   ]
 }
