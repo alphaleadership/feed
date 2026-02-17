@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-16T22:02:31.550Z",
-  "totalBreaches": 1288,
+  "lastUpdated": "2026-02-17T03:14:27.929Z",
+  "totalBreaches": 1289,
   "breaches": [
     {
       "Name": "gPotato",
@@ -51895,6 +51895,37 @@
         "Religions",
         "Salutations",
         "Spouses names"
+      ],
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false
+    },
+    {
+      "Name": "CanadaGoose",
+      "Title": "Canada Goose",
+      "Domain": "canadagoose.com",
+      "BreachDate": "2025-07-04",
+      "AddedDate": "2026-02-17T00:19:51Z",
+      "ModifiedDate": "2026-02-17T00:19:51Z",
+      "PwnCount": 581877,
+      "Description": "In February 2026, <a href=\"https://www.bleepingcomputer.com/news/security/canada-goose-investigating-as-hackers-leak-600k-customer-records/\" target=\"_blank\" rel=\"noopener\">a data breach allegedly containing data relating to Canada Goose customers was published publicly</a>. The data contained 920k records with 582k unique email addresses and included names, phone numbers, IP addresses, physical addresses and partial credit card data, specifically card type and last 4 digits. Canada Goose advised that the data \"appears to relate to past customer transactions\" and stated that it originated from a breach at a third party in August 2025. The most recent transaction date in the data is July 2025.",
+      "LogoPath": "https://logos.haveibeenpwned.com/CanadaGoose.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [
+        "Device information",
+        "Email addresses",
+        "IP addresses",
+        "Names",
+        "Partial credit card data",
+        "Phone numbers",
+        "Physical addresses",
+        "Purchases"
       ],
       "IsVerified": true,
       "IsFabricated": false,
