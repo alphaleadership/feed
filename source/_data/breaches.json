@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-18T03:17:59.294Z",
-  "totalBreaches": 1290,
+  "lastUpdated": "2026-02-18T13:14:42.102Z",
+  "totalBreaches": 1291,
   "breaches": [
     {
       "Name": "gPotato",
@@ -42095,6 +42095,38 @@
       "title": "TheSqua.re"
     },
     {
+      "Name": "CanadaGoose",
+      "Title": "Canada Goose",
+      "Domain": "canadagoose.com",
+      "BreachDate": "2025-07-04",
+      "AddedDate": "2026-02-17T00:19:51Z",
+      "ModifiedDate": "2026-02-17T00:19:51Z",
+      "PwnCount": 581877,
+      "Description": "In February 2026, <a href=\"https://www.bleepingcomputer.com/news/security/canada-goose-investigating-as-hackers-leak-600k-customer-records/\" target=\"_blank\" rel=\"noopener\">a data breach allegedly containing data relating to Canada Goose customers was published publicly</a>. The data contained 920k records with 582k unique email addresses and included names, phone numbers, IP addresses, physical addresses and partial credit card data, specifically card type and last 4 digits. Canada Goose advised that the data \"appears to relate to past customer transactions\" and stated that it originated from a breach at a third party in August 2025. The most recent transaction date in the data is July 2025.",
+      "LogoPath": "https://logos.haveibeenpwned.com/CanadaGoose.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [
+        "Device information",
+        "Email addresses",
+        "IP addresses",
+        "Names",
+        "Partial credit card data",
+        "Phone numbers",
+        "Physical addresses",
+        "Purchases"
+      ],
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "index": 1010
+    },
+    {
       "Name": "union nationale du sport scolaire fuite du 2025-7-7",
       "Title": "union nationale du sport scolaire fuite du 2025-7-7",
       "Domain": null,
@@ -42124,7 +42156,7 @@
       "categories": [
         "union nationale du sport scolaire "
       ],
-      "index": 1010,
+      "index": 1011,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1010,
@@ -42161,7 +42193,7 @@
       "categories": [
         "centre national de la fonction publique territoriale "
       ],
-      "index": 1011,
+      "index": 1012,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1011,
@@ -42198,7 +42230,7 @@
       "categories": [
         "louis vuitton "
       ],
-      "index": 1012,
+      "index": 1013,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1012,
@@ -42235,7 +42267,7 @@
       "categories": [
         "sorbonne université "
       ],
-      "index": 1013,
+      "index": 1014,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1013,
@@ -42273,7 +42305,7 @@
       "slug": "allianzlife",
       "path": "breaches/allianzlife",
       "formattedDate": "2025-07-16",
-      "index": 1014,
+      "index": 1015,
       "categories": [
         "AllianzLife"
       ],
@@ -42315,7 +42347,7 @@
       "categories": [
         "france travail "
       ],
-      "index": 1015,
+      "index": 1016,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1015,
@@ -42352,7 +42384,7 @@
       "categories": [
         "groupe 5àsec "
       ],
-      "index": 1016,
+      "index": 1017,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1016,
@@ -42389,7 +42421,7 @@
       "categories": [
         "orange "
       ],
-      "index": 1017,
+      "index": 1018,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1017,
@@ -42427,7 +42459,7 @@
       "slug": "hellocake",
       "path": "breaches/hellocake",
       "formattedDate": "2025-07-25",
-      "index": 1018,
+      "index": 1019,
       "categories": [
         "HelloCake"
       ],
@@ -42463,7 +42495,7 @@
       "slug": "centre-d-tudes-et-de-recherches-sur-les-qualifications-fuite-du-2025-7-26",
       "path": "https://bonjourlafuite.eu.org/img/cereq.png",
       "formattedDate": "2025-07-26",
-      "index": 1019,
+      "index": 1020,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nAdresse mail\nTéléphone\n\n",
@@ -42499,7 +42531,7 @@
       "slug": "thepi-hole",
       "path": "breaches/thepi-hole",
       "formattedDate": "2025-07-30",
-      "index": 1020,
+      "index": 1021,
       "categories": [
         "ThePi-Hole"
       ],
@@ -42541,7 +42573,7 @@
       "categories": [
         "thepi "
       ],
-      "index": 1021,
+      "index": 1022,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1021,
@@ -42578,7 +42610,7 @@
       "categories": [
         "thepi "
       ],
-      "index": 1022,
+      "index": 1023,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1022,
@@ -42616,7 +42648,7 @@
       "slug": "bouyguestelecom",
       "path": "breaches/bouyguestelecom",
       "formattedDate": "2025-08-04",
-      "index": 1023,
+      "index": 1024,
       "categories": [
         "BouyguesTelecom"
       ],
@@ -42661,7 +42693,7 @@
       "categories": [
         "pandora "
       ],
-      "index": 1024,
+      "index": 1025,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1024,
@@ -42698,7 +42730,7 @@
       "categories": [
         "air france "
       ],
-      "index": 1025,
+      "index": 1026,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1025,
@@ -42735,7 +42767,7 @@
       "categories": [
         "bouygues telecom"
       ],
-      "index": 1026,
+      "index": 1027,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1026,
@@ -42772,7 +42804,7 @@
       "categories": [
         "optic 2000 "
       ],
-      "index": 1027,
+      "index": 1028,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1027,
@@ -42808,7 +42840,7 @@
       "slug": "giglio",
       "path": "breaches/giglio",
       "formattedDate": "2025-08-09",
-      "index": 1028,
+      "index": 1029,
       "categories": [
         "Giglio"
       ],
@@ -42847,7 +42879,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1029,
+      "index": 1030,
       "source": "Manuel",
       "categories": [],
       "content": "In October 2025, <a href=\"https://therecord.media/breachforums-fbi-france-takedown-banner-scattered-spider-salesforce-leak\" target=\"_blank\" rel=\"noopener\">a reincarnation of the hacking forum BreachForums, which had previously been shut down multiple times, was taken offline by a coalition of law enforcement agencies</a>. In the months leading up to the takedown, the site itself suffered a data breach that exposed a total of 672k unique email addresses across all tables, including within forum posts and private messages. The users table alone contained 324k unique email addresses, usernames, and Argon2 password hashes.",
@@ -42886,7 +42918,7 @@
       "categories": [
         "alltricks "
       ],
-      "index": 1030,
+      "index": 1031,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1030,
@@ -42923,7 +42955,7 @@
       "categories": [
         "france travail "
       ],
-      "index": 1031,
+      "index": 1032,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1031,
@@ -42960,7 +42992,7 @@
       "categories": [
         "france link interactive "
       ],
-      "index": 1032,
+      "index": 1033,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1032,
@@ -42997,7 +43029,7 @@
       "categories": [
         "google "
       ],
-      "index": 1033,
+      "index": 1034,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1033,
@@ -43034,7 +43066,7 @@
       "categories": [
         "partner immo "
       ],
-      "index": 1034,
+      "index": 1035,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1034,
@@ -43071,7 +43103,7 @@
       "categories": [
         "auchan "
       ],
-      "index": 1035,
+      "index": 1036,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1035,
@@ -43110,7 +43142,7 @@
       "slug": "miljodata",
       "path": "breaches/miljodata",
       "formattedDate": "2025-08-25",
-      "index": 1036,
+      "index": 1037,
       "categories": [
         "Miljodata"
       ],
@@ -43151,7 +43183,7 @@
       "slug": "artistsnclients",
       "path": "breaches/artistsnclients",
       "formattedDate": "2025-08-31",
-      "index": 1037,
+      "index": 1038,
       "categories": [
         "ArtistsNClients"
       ],
@@ -43198,7 +43230,7 @@
       "slug": "prosper",
       "path": "breaches/prosper",
       "formattedDate": "2025-09-01",
-      "index": 1038,
+      "index": 1039,
       "categories": [
         "Prosper"
       ],
@@ -43240,7 +43272,7 @@
       "categories": [
         "eklo "
       ],
-      "index": 1039,
+      "index": 1040,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1039,
@@ -43271,7 +43303,7 @@
       "slug": "syma-mobile-fuite-du-2025-9-3",
       "path": "https://www.clubic.com/actualite-577542-alerte-cybersecurite-des-bases-de-donnees-d-alain-afflelou-de-syma-mobile-et-du-snu-mises-en-vente-sur-le-dark-web.html",
       "formattedDate": "2025-09-03",
-      "index": 1040,
+      "index": 1041,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nDate de naissance\nAdresse postale\nAdresse mail\nNuméro de téléphone]>\n\n",
@@ -43310,7 +43342,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1041
+      "index": 1042
     },
     {
       "Name": "plex fuite du 2025-9-9",
@@ -43342,7 +43374,7 @@
       "categories": [
         "plex "
       ],
-      "index": 1042,
+      "index": 1043,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1042,
@@ -43379,7 +43411,7 @@
       "categories": [
         "clarins "
       ],
-      "index": 1043,
+      "index": 1044,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1043,
@@ -43416,7 +43448,7 @@
       "categories": [
         "fédération française de tennis de table "
       ],
-      "index": 1044,
+      "index": 1045,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1044,
@@ -43453,7 +43485,7 @@
       "categories": [
         "digital charging solutions "
       ],
-      "index": 1045,
+      "index": 1046,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1045,
@@ -43490,7 +43522,7 @@
       "categories": [
         "inovie labosud "
       ],
-      "index": 1046,
+      "index": 1047,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1046,
@@ -43527,7 +43559,7 @@
       "categories": [
         "france travail "
       ],
-      "index": 1047,
+      "index": 1048,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1047,
@@ -43564,7 +43596,7 @@
       "categories": [
         "la nef "
       ],
-      "index": 1048,
+      "index": 1049,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1048,
@@ -43601,7 +43633,7 @@
       "categories": [
         "artistsnclients "
       ],
-      "index": 1049,
+      "index": 1050,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1049,
@@ -43638,7 +43670,7 @@
       "categories": [
         "discord "
       ],
-      "index": 1050,
+      "index": 1051,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1050,
@@ -43675,7 +43707,7 @@
       "categories": [
         "france travail "
       ],
-      "index": 1051,
+      "index": 1052,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1051,
@@ -43712,7 +43744,7 @@
       "slug": "tisza",
       "path": "breaches/tisza",
       "formattedDate": "2025-10-06",
-      "index": 1052,
+      "index": 1053,
       "categories": [
         "Tisza"
       ],
@@ -43754,7 +43786,7 @@
       "categories": [
         "adpost "
       ],
-      "index": 1053,
+      "index": 1054,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1053,
@@ -43791,7 +43823,7 @@
       "categories": [
         "vietnamairlines "
       ],
-      "index": 1054,
+      "index": 1055,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1054,
@@ -43828,7 +43860,7 @@
       "categories": [
         "lycées des hauts "
       ],
-      "index": 1055,
+      "index": 1056,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1055,
@@ -43865,7 +43897,7 @@
       "categories": [
         "agence régionale de santé des hauts "
       ],
-      "index": 1056,
+      "index": 1057,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1056,
@@ -43902,7 +43934,7 @@
       "categories": [
         "hellocake "
       ],
-      "index": 1057,
+      "index": 1058,
       "isNSFW": true,
       "validated": true,
       "oldindex": 1057,
@@ -43939,7 +43971,7 @@
       "categories": [
         "mango "
       ],
-      "index": 1058,
+      "index": 1059,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1058,
@@ -43976,7 +44008,7 @@
       "categories": [
         "prosper "
       ],
-      "index": 1059,
+      "index": 1060,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1059,
@@ -44013,7 +44045,7 @@
       "categories": [
         "centre hospitalier intercommunal de haute "
       ],
-      "index": 1060,
+      "index": 1061,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1060,
@@ -44050,7 +44082,7 @@
       "categories": [
         "synthientstealerlogthreatdata "
       ],
-      "index": 1061,
+      "index": 1062,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1061,
@@ -44087,7 +44119,7 @@
       "categories": [
         "agences régionales de santé de l’île "
       ],
-      "index": 1062,
+      "index": 1063,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1062,
@@ -44124,7 +44156,7 @@
       "categories": [
         "fédération française de tir "
       ],
-      "index": 1063,
+      "index": 1064,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1063,
@@ -44155,7 +44187,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1064
+      "index": 1065
     },
     {
       "Name": "MyVidster2025",
@@ -44185,7 +44217,7 @@
       "slug": "myvidster2025",
       "path": "breaches/myvidster2025",
       "formattedDate": "2025-10-24",
-      "index": 1065,
+      "index": 1066,
       "categories": [
         "MyVidster2025"
       ],
@@ -44227,7 +44259,7 @@
       "categories": [
         "myvidster2025 "
       ],
-      "index": 1066,
+      "index": 1067,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1066,
@@ -44264,7 +44296,7 @@
       "categories": [
         "poltronesofa "
       ],
-      "index": 1067,
+      "index": 1068,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1067,
@@ -44301,12 +44333,47 @@
       "categories": [
         "france travail "
       ],
-      "index": 1068,
+      "index": 1069,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1068,
       "content": "-\r\n\r\ndonnées d’authentification en clair\r\nétat civil\r\nadresse\r\nn° de téléphone\r\nemail\r\ncarte d’identité\r\nRIB\r\ncontrats de travail\r\navis d’imposition\r\nattestion de Sécurité Sociale\r\nattestation de formation\r\nautorisation de travail\r\n\r\n\r\nAutres fuites pour ce dossier :\r\n\r\n- [2](https://feed-blush.vercel.app/france-travail-fuite-du-2024-3-8)\r\n- [3](https://feed-blush.vercel.app/france-travail-fuite-du-2025-10-6)\r\n- [4](https://feed-blush.vercel.app/france-travail-fuite-du-2025-7-22)\r\n- [5](https://feed-blush.vercel.app/france-travail-fuite-du-2025-8-12)\r\n- [6](https://feed-blush.vercel.app/france-travail-fuite-du-2025-9-25)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
       "source": "Manuel"
+    },
+    {
+      "Name": "UniversityOfPennsylvania",
+      "Title": "University of Pennsylvania",
+      "Domain": "upenn.edu",
+      "BreachDate": "2025-10-30",
+      "AddedDate": "2026-02-16T21:57:51Z",
+      "ModifiedDate": "2026-02-16T21:57:51Z",
+      "PwnCount": 623750,
+      "Description": "In October 2025, <a href=\"https://www.bleepingcomputer.com/news/security/university-of-pennsylvania-hacker-claims-1.2-million-donor-data-breach/\" target=\"_blank\" rel=\"noopener\">the University of Pennsylvania was the victim of a data breach followed by a ransom demand</a>, largely affecting its donor database. After the incident, the attackers sent inflammatory emails to some victims. <a href=\"https://www.thedp.com/article/2026/02/penn-hack-donor-data-ransom-one-million-shinyhunters-gse-emai\" target=\"_blank\" rel=\"noopener\">The data was later published online in February 2026</a> and included 624k unique email addresses alongside names and physical addresses. For some donor records, additional personal information was exposed, including gender and date of birth. A small subset of records also contained religion, spouse name, estimated income and donation history.",
+      "LogoPath": "https://logos.haveibeenpwned.com/UniversityOfPennsylvania.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [
+        "Charitable donations",
+        "Dates of birth",
+        "Email addresses",
+        "Genders",
+        "Income levels",
+        "Job titles",
+        "Names",
+        "Physical addresses",
+        "Religions",
+        "Salutations",
+        "Spouses names"
+      ],
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "index": 1070
     },
     {
       "Name": "synthientcredentialstuffingthreatdata fuite du 2025-11-6",
@@ -44338,7 +44405,7 @@
       "categories": [
         "synthientcredentialstuffingthreatdata "
       ],
-      "index": 1069,
+      "index": 1071,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1069,
@@ -44371,7 +44438,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1070,
+      "index": 1072,
       "source": "Manuel",
       "categories": [],
       "content": "In November 2025, data breached from <a href=\"https://www.zilvia.net/\" target=\"_blank\" rel=\"noopener\">the Zilvia.net Nissan 240SX Silvia and Z Fairlady car forum</a> was leaked. The breach exposed 288k unique email addresses along with usernames, IP addresses and salted MD5 password hashes sourced from the vBulletin based platform. Attempts to contact Zilvia.net about the incident were unsuccessful.",
@@ -44410,7 +44477,7 @@
       "categories": [
         "mym "
       ],
-      "index": 1071,
+      "index": 1073,
       "isNSFW": true,
       "validated": true,
       "oldindex": 1071,
@@ -44447,7 +44514,7 @@
       "categories": [
         "tisza "
       ],
-      "index": 1072,
+      "index": 1074,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1072,
@@ -44481,7 +44548,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1073,
+      "index": 1075,
       "source": "Manuel",
       "categories": [],
       "content": "In November 2025, <a href=\"https://www.valueaddedresource.net/becket-collectibles-alleged-data-breach/\" target=\"_blank\" rel=\"noopener\">Beckett Collectibles experienced a data breach accompanied by website content defacement</a>. The stolen data was later advertised for sale on a prominent hacking forum, with portions subsequently released publicly. The publicly circulating data initially included more than 500k email addresses reportedly belonging to North American customers, before a larger corpus of over 1M addresses was published the following month. The impacted data included names, usernames, phone numbers and physical addresses.",
@@ -44520,7 +44587,7 @@
       "categories": [
         "oui heberg "
       ],
-      "index": 1074,
+      "index": 1076,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1074,
@@ -44557,7 +44624,7 @@
       "categories": [
         "fédération française de cardiologie "
       ],
-      "index": 1075,
+      "index": 1077,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1075,
@@ -44590,7 +44657,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1076,
+      "index": 1078,
       "source": "Manuel",
       "categories": [],
       "content": "In November 2025, <a href=\"https://botcrawl.com/international-kiteboarding-organization-data-breach/\" target=\"_blank\" rel=\"noopener\">the International Kiteboarding Organization suffered a data breach that exposed 340k user records</a>. The data was subsequently listed for sale on a hacking forum and included email addresses, names, usernames and in many cases, the user's city and country.",
@@ -44629,7 +44696,7 @@
       "categories": [
         "weda"
       ],
-      "index": 1077,
+      "index": 1079,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1077,
@@ -44666,7 +44733,7 @@
       "categories": [
         "operationendgame3 "
       ],
-      "index": 1078,
+      "index": 1080,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1078,
@@ -44697,7 +44764,7 @@
       "IsMalware": true,
       "IsSubscriptionFree": true,
       "IsStealerLog": false,
-      "index": 1079,
+      "index": 1081,
       "source": "Manuel",
       "categories": [],
       "content": "Between 10 and 13 November 2025, <a href=\"https://www.europol.europa.eu/media-press/newsroom/news/end-of-game-for-cybercrime-infrastructure-1025-servers-taken-down\" target=\"_blank\" rel=\"noopener\">the latest phase of Operation Endgame was coordinated from Europol's headquarters in The Hague</a>. The actions targeted one of the biggest infostealer Rhadamanthys, the Remote Access Trojan VenomRAT, and the botnet Elysium, all of which played a key role in international cybercrime. Authorities took down these three large cybercrime enablers and provided 2 million impacted email addresses and 7.4 million passwords to HIBP.",
@@ -44731,7 +44798,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1080
+      "index": 1082
     },
     {
       "Name": "CodeStepByStep",
@@ -44758,7 +44825,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1081
+      "index": 1083
     },
     {
       "Name": "eurofiber fuite du 2025-11-17",
@@ -44790,7 +44857,7 @@
       "categories": [
         "eurofiber "
       ],
-      "index": 1082,
+      "index": 1084,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1082,
@@ -44827,7 +44894,7 @@
       "categories": [
         "mairie de brest "
       ],
-      "index": 1083,
+      "index": 1085,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1083,
@@ -44864,7 +44931,7 @@
       "categories": [
         "pajemploi "
       ],
-      "index": 1084,
+      "index": 1086,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1084,
@@ -44901,7 +44968,7 @@
       "categories": [
         "santé pro "
       ],
-      "index": 1085,
+      "index": 1087,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1085,
@@ -44936,7 +45003,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1086,
+      "index": 1088,
       "source": "Manuel",
       "categories": [],
       "content": "In November 2025, <a href=\"https://hackread.com/everest-ransomware-under-armour-users-data/\" target=\"_blank\" rel=\"noopener\">the Everest ransomware group claimed Under Armour as a victim and attempted to extort a ransom</a>, alleging they had obtained access to 343GB of data. <a href=\"https://x.com/justabreach/status/2012933753853657288\" target=\"_blank\" rel=\"noopener\">In January 2026, customer data from the incident was published publicly on a popular hacking forum</a>, including 72M email addresses. Many records also contained additional personal information such as names, dates of birth, genders, geographic locations and purchase information.",
@@ -44975,7 +45042,7 @@
       "categories": [
         "resana "
       ],
-      "index": 1087,
+      "index": 1089,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1087,
@@ -45012,7 +45079,7 @@
       "categories": [
         "synbird "
       ],
-      "index": 1088,
+      "index": 1090,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1088,
@@ -45049,7 +45116,7 @@
       "categories": [
         "mairie d’alfortville "
       ],
-      "index": 1089,
+      "index": 1091,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1089,
@@ -45086,7 +45153,7 @@
       "categories": [
         "beckett "
       ],
-      "index": 1090,
+      "index": 1092,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1090,
@@ -45123,7 +45190,7 @@
       "categories": [
         "iko "
       ],
-      "index": 1091,
+      "index": 1093,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1091,
@@ -45160,7 +45227,7 @@
       "categories": [
         "vultr "
       ],
-      "index": 1092,
+      "index": 1094,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1092,
@@ -45197,7 +45264,7 @@
       "categories": [
         "colis privé "
       ],
-      "index": 1093,
+      "index": 1095,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1093,
@@ -45234,7 +45301,7 @@
       "categories": [
         "michelin "
       ],
-      "index": 1094,
+      "index": 1096,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1094,
@@ -45271,7 +45338,7 @@
       "categories": [
         "murfy"
       ],
-      "index": 1095,
+      "index": 1097,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1095,
@@ -45308,7 +45375,7 @@
       "categories": [
         "adda "
       ],
-      "index": 1096,
+      "index": 1098,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1096,
@@ -45345,7 +45412,7 @@
       "categories": [
         "codestepbystep "
       ],
-      "index": 1097,
+      "index": 1099,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1097,
@@ -45382,7 +45449,7 @@
       "categories": [
         "aprs "
       ],
-      "index": 1098,
+      "index": 1100,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1098,
@@ -45419,7 +45486,7 @@
       "categories": [
         "mairie de chatou "
       ],
-      "index": 1099,
+      "index": 1101,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1099,
@@ -45456,7 +45523,7 @@
       "categories": [
         "mairie de quimper "
       ],
-      "index": 1100,
+      "index": 1102,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1100,
@@ -45493,7 +45560,7 @@
       "categories": [
         "mairie de saint "
       ],
-      "index": 1101,
+      "index": 1103,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1101,
@@ -45530,7 +45597,7 @@
       "categories": [
         "malakoff humanis"
       ],
-      "index": 1102,
+      "index": 1104,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1102,
@@ -45567,7 +45634,7 @@
       "categories": [
         "murfy "
       ],
-      "index": 1103,
+      "index": 1105,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1103,
@@ -45604,7 +45671,7 @@
       "categories": [
         "ag2r la mondiale "
       ],
-      "index": 1104,
+      "index": 1106,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1104,
@@ -45641,7 +45708,7 @@
       "categories": [
         "clinique du millénaire "
       ],
-      "index": 1105,
+      "index": 1107,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1105,
@@ -45678,7 +45745,7 @@
       "categories": [
         "fédération française de danse "
       ],
-      "index": 1106,
+      "index": 1108,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1106,
@@ -45715,7 +45782,7 @@
       "categories": [
         "itelis "
       ],
-      "index": 1107,
+      "index": 1109,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1107,
@@ -45752,7 +45819,7 @@
       "categories": [
         "weda msp du pré vicinal "
       ],
-      "index": 1108,
+      "index": 1110,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1108,
@@ -45789,7 +45856,7 @@
       "categories": [
         "itac fédération française de danse"
       ],
-      "index": 1109,
+      "index": 1111,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1109,
@@ -45826,7 +45893,7 @@
       "categories": [
         "weda clinique du millénaire"
       ],
-      "index": 1110,
+      "index": 1112,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1110,
@@ -45863,7 +45930,7 @@
       "categories": [
         "msp du pré vicinal"
       ],
-      "index": 1111,
+      "index": 1113,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1111,
@@ -45900,7 +45967,7 @@
       "categories": [
         "proxiserve"
       ],
-      "index": 1112,
+      "index": 1114,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1112,
@@ -45937,7 +46004,7 @@
       "categories": [
         "csdn "
       ],
-      "index": 1113,
+      "index": 1115,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1113,
@@ -45974,7 +46041,7 @@
       "categories": [
         "footclub fédération française de foot "
       ],
-      "index": 1114,
+      "index": 1116,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1114,
@@ -46011,7 +46078,7 @@
       "categories": [
         "synbird la rochelle "
       ],
-      "index": 1115,
+      "index": 1117,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1115,
@@ -46048,7 +46115,7 @@
       "categories": [
         "weda msp givors presqu’île "
       ],
-      "index": 1116,
+      "index": 1118,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1116,
@@ -46085,7 +46152,7 @@
       "categories": [
         "msp givors presqu’île"
       ],
-      "index": 1117,
+      "index": 1119,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1117,
@@ -46122,7 +46189,7 @@
       "categories": [
         "fédération française de foot"
       ],
-      "index": 1118,
+      "index": 1120,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1118,
@@ -46159,7 +46226,7 @@
       "categories": [
         "la rochelle"
       ],
-      "index": 1119,
+      "index": 1121,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1119,
@@ -46196,7 +46263,7 @@
       "categories": [
         "la centrale du financement "
       ],
-      "index": 1120,
+      "index": 1122,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1120,
@@ -46233,7 +46300,7 @@
       "categories": [
         "zilvia "
       ],
-      "index": 1121,
+      "index": 1123,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1121,
@@ -46270,7 +46337,7 @@
       "categories": [
         "france travail "
       ],
-      "index": 1122,
+      "index": 1124,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1122,
@@ -46307,7 +46374,7 @@
       "categories": [
         "leroy merlin"
       ],
-      "index": 1123,
+      "index": 1125,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1123,
@@ -46344,7 +46411,7 @@
       "categories": [
         "médecin direct"
       ],
-      "index": 1124,
+      "index": 1126,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1124,
@@ -46381,7 +46448,7 @@
       "categories": [
         "itelis asaf  afps"
       ],
-      "index": 1125,
+      "index": 1127,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1125,
@@ -46418,7 +46485,7 @@
       "categories": [
         "gesthand fédération française de handball"
       ],
-      "index": 1126,
+      "index": 1128,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1126,
@@ -46455,7 +46522,7 @@
       "categories": [
         "schmidt"
       ],
-      "index": 1127,
+      "index": 1129,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1127,
@@ -46492,7 +46559,7 @@
       "categories": [
         "cuisinella"
       ],
-      "index": 1128,
+      "index": 1130,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1128,
@@ -46529,7 +46596,7 @@
       "categories": [
         "asaf  afps"
       ],
-      "index": 1129,
+      "index": 1131,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1129,
@@ -46566,7 +46633,7 @@
       "categories": [
         "fédération française de handball"
       ],
-      "index": 1130,
+      "index": 1132,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1130,
@@ -46603,7 +46670,7 @@
       "categories": [
         "asaf & afps"
       ],
-      "index": 1131,
+      "index": 1133,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1131,
@@ -46640,7 +46707,7 @@
       "categories": [
         "ufolep"
       ],
-      "index": 1132,
+      "index": 1134,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1132,
@@ -46677,7 +46744,7 @@
       "categories": [
         "fédération française de cyclisme"
       ],
-      "index": 1133,
+      "index": 1135,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1133,
@@ -46714,7 +46781,7 @@
       "categories": [
         "résidence du parc (champdeniers"
       ],
-      "index": 1134,
+      "index": 1136,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1134,
@@ -46751,7 +46818,7 @@
       "categories": [
         "france ventilation"
       ],
-      "index": 1135,
+      "index": 1137,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1135,
@@ -46788,7 +46855,7 @@
       "categories": [
         "euromatik"
       ],
-      "index": 1136,
+      "index": 1138,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1136,
@@ -46825,7 +46892,7 @@
       "categories": [
         "ministère de l’intérieur"
       ],
-      "index": 1137,
+      "index": 1139,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1137,
@@ -46861,7 +46928,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1138
+      "index": 1140
     },
     {
       "Name": "SoundCloud",
@@ -46891,7 +46958,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1139
+      "index": 1141
     },
     {
       "Name": "pornhub fuite du 2025-12-16",
@@ -46923,7 +46990,7 @@
       "categories": [
         "pornhub"
       ],
-      "index": 1140,
+      "index": 1142,
       "isNSFW": true,
       "validated": true,
       "oldindex": 1140,
@@ -46960,7 +47027,7 @@
       "categories": [
         "soundcloud"
       ],
-      "index": 1141,
+      "index": 1143,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1141,
@@ -46992,7 +47059,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1142
+      "index": 1144
     },
     {
       "Name": "sfr fuite du 2025-12-17",
@@ -47024,7 +47091,7 @@
       "categories": [
         "sfr"
       ],
-      "index": 1143,
+      "index": 1145,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1142,
@@ -47061,7 +47128,7 @@
       "categories": [
         "parashop"
       ],
-      "index": 1144,
+      "index": 1146,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1143,
@@ -47095,7 +47162,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1145,
+      "index": 1147,
       "source": "Manuel",
       "categories": [],
       "content": "In December 2025, <a href=\"https://www.lesnumeriques.com/societe-numerique/exclusif-cyberattaque-massive-sur-la-caf-22-millions-de-victimes-dans-une-offensive-qui-frappe-l-etat-n248336.html\" target=\"_blank\" rel=\"noopener\">data from France's Pass'Sport program was posted to a popular hacking forum</a>. Initially misattributed to CAF (the French family allowance fund), the data contained 6.5M unique email addresses affecting 3.5M households. The data also included names, phone numbers, genders and physical addresses. <a href=\"https://www.sports.gouv.fr/exfiltration-de-donnees-provenant-d-un-des-systemes-d-information-du-ministere-10048\" target=\"_blank\" rel=\"noopener\">The Ministry of Sports subsequently released a statement acknowledging the incident</a>.",
@@ -47134,7 +47201,7 @@
       "categories": [
         "caisse d’allocations familiales"
       ],
-      "index": 1146,
+      "index": 1148,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1145,
@@ -47171,7 +47238,7 @@
       "categories": [
         "red by sfr"
       ],
-      "index": 1147,
+      "index": 1149,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1146,
@@ -47208,7 +47275,7 @@
       "categories": [
         "ministère des sports"
       ],
-      "index": 1148,
+      "index": 1150,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1147,
@@ -47245,7 +47312,7 @@
       "categories": [
         "la licra"
       ],
-      "index": 1149,
+      "index": 1151,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1148,
@@ -47276,7 +47343,7 @@
       "slug": "france-connect-fuite-du-2025-12-19",
       "path": "https://bonjourlafuite.eu.org/img/franceconnect-1.png",
       "formattedDate": "2025-12-19",
-      "index": 1150
+      "index": 1152
     },
     {
       "Name": "chronopost fuite du 2025-12-20",
@@ -47308,7 +47375,7 @@
       "categories": [
         "chronopost"
       ],
-      "index": 1151,
+      "index": 1153,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1149,
@@ -47345,7 +47412,7 @@
       "categories": [
         "altitude infra"
       ],
-      "index": 1152,
+      "index": 1154,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1150,
@@ -47382,7 +47449,7 @@
       "categories": [
         "justice.fr"
       ],
-      "index": 1153,
+      "index": 1155,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1151,
@@ -47419,7 +47486,7 @@
       "categories": [
         "casting"
       ],
-      "index": 1154,
+      "index": 1156,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1152,
@@ -47456,7 +47523,7 @@
       "categories": [
         "123 casting"
       ],
-      "index": 1155,
+      "index": 1157,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1153,
@@ -47493,7 +47560,7 @@
       "categories": [
         "fédération française de natation"
       ],
-      "index": 1156,
+      "index": 1158,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1154,
@@ -47530,7 +47597,7 @@
       "categories": [
         "adecco"
       ],
-      "index": 1157,
+      "index": 1159,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1155,
@@ -47567,7 +47634,7 @@
       "isNSFW": false,
       "lien": "https://x.com/IntCyberDigest/status/2004249741417398372",
       "validated": true,
-      "index": 1158,
+      "index": 1160,
       "oldindex": 1156,
       "content": "Logitech data has been leaked: employee, customer, and supplier information.",
       "source": "Manuel",
@@ -47603,7 +47670,7 @@
       "categories": [
         "mondial relay"
       ],
-      "index": 1159,
+      "index": 1161,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1157,
@@ -47640,7 +47707,7 @@
       "categories": [
         "nouvelle lune"
       ],
-      "index": 1160,
+      "index": 1162,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1158,
@@ -47677,7 +47744,7 @@
       "categories": [
         "commune de lens"
       ],
-      "index": 1161,
+      "index": 1163,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1159,
@@ -47714,7 +47781,7 @@
       "categories": [
         "fédération française de kick boxing"
       ],
-      "index": 1162,
+      "index": 1164,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1160,
@@ -47751,7 +47818,7 @@
       "categories": [
         "acrv"
       ],
-      "index": 1163,
+      "index": 1165,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1161,
@@ -47788,7 +47855,7 @@
       "categories": [
         "hellowork"
       ],
-      "index": 1164,
+      "index": 1166,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1162,
@@ -47825,7 +47892,7 @@
       "categories": [
         "paytrip"
       ],
-      "index": 1165,
+      "index": 1167,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1163,
@@ -47862,7 +47929,7 @@
       "categories": [
         "club de nation 95"
       ],
-      "index": 1166,
+      "index": 1168,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1164,
@@ -47899,7 +47966,7 @@
       "categories": [
         "eni"
       ],
-      "index": 1167,
+      "index": 1169,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1165,
@@ -47936,7 +48003,7 @@
       "categories": [
         "europages"
       ],
-      "index": 1168,
+      "index": 1170,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1166,
@@ -47973,7 +48040,7 @@
       "categories": [
         "foot locker"
       ],
-      "index": 1169,
+      "index": 1171,
       "validated": true,
       "isNSFW": false,
       "oldindex": 1167,
@@ -48010,7 +48077,7 @@
       "categories": [
         "allegro musique"
       ],
-      "index": 1170,
+      "index": 1172,
       "isNSFW": false,
       "oldindex": 1168,
       "validated": true,
@@ -48047,7 +48114,7 @@
       "categories": [
         "batterie de portable"
       ],
-      "index": 1171,
+      "index": 1173,
       "isNSFW": false,
       "oldindex": 1169,
       "validated": true,
@@ -48084,7 +48151,7 @@
       "categories": [
         "ministère de l’agriculture et de l’alimentation"
       ],
-      "index": 1172,
+      "index": 1174,
       "isNSFW": false,
       "oldindex": 1170,
       "validated": true,
@@ -48121,7 +48188,7 @@
       "categories": [
         "université de lille"
       ],
-      "index": 1173,
+      "index": 1175,
       "isNSFW": false,
       "oldindex": 1171,
       "validated": true,
@@ -48158,7 +48225,7 @@
       "categories": [
         "école de management de grenoble"
       ],
-      "index": 1174,
+      "index": 1176,
       "isNSFW": false,
       "oldindex": 1172,
       "validated": true,
@@ -48171,7 +48238,7 @@
       "BreachDate": "2025-12-29T00:00:00.000Z",
       "AddedDate": "2025-12-29T00:00:00.000Z",
       "PwnCount": 0,
-      "index": 1175,
+      "index": 1177,
       "Title": "CNRS (projet NectarCam – CTA)",
       "validated": true,
       "categories": [],
@@ -48227,7 +48294,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1176
+      "index": 1178
     },
     {
       "Name": "institut polytechnique de paris fuite du 2025-12-31",
@@ -48259,7 +48326,7 @@
       "categories": [
         "institut polytechnique de paris"
       ],
-      "index": 1177,
+      "index": 1179,
       "isNSFW": false,
       "oldindex": 1175,
       "validated": true,
@@ -48296,7 +48363,7 @@
       "categories": [
         "école nationale de la statistique et de l’analyse de l’information"
       ],
-      "index": 1178,
+      "index": 1180,
       "isNSFW": false,
       "oldindex": 1176,
       "validated": true,
@@ -48327,7 +48394,7 @@
       "slug": "f-d-ration-fran-aise-de-sp-l-ologie-fuite-du-2025-12-31",
       "path": "https://bonjourlafuite.eu.org/img/ffspeleo.jpg",
       "formattedDate": "2025-12-31",
-      "index": 1179,
+      "index": 1181,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nNationalité\nAdresse email\nNuméro de téléphone\nNuméro de licence\nProfession]>\n\n",
@@ -48366,7 +48433,7 @@
       "categories": [
         "trescal"
       ],
-      "index": 1180,
+      "index": 1182,
       "isNSFW": false,
       "validated": true,
       "oldindex": 1178,
@@ -48403,7 +48470,7 @@
       "categories": [
         "afppcd"
       ],
-      "index": 1181,
+      "index": 1183,
       "isNSFW": false,
       "oldindex": 1179,
       "validated": true,
@@ -48440,7 +48507,7 @@
       "categories": [
         "office français de l’immigration et de l’intégration"
       ],
-      "index": 1182,
+      "index": 1184,
       "isNSFW": false,
       "oldindex": 1180,
       "validated": true,
@@ -48477,7 +48544,7 @@
       "categories": [
         "corse gsm"
       ],
-      "index": 1183,
+      "index": 1185,
       "isNSFW": false,
       "oldindex": 1181,
       "validated": true,
@@ -48514,7 +48581,7 @@
       "categories": [
         "easycash"
       ],
-      "index": 1184,
+      "index": 1186,
       "isNSFW": false,
       "oldindex": 1182,
       "validated": true,
@@ -48551,7 +48618,7 @@
       "categories": [
         "fédération française de squash"
       ],
-      "index": 1185,
+      "index": 1187,
       "isNSFW": false,
       "oldindex": 1183,
       "validated": true,
@@ -48588,7 +48655,7 @@
       "categories": [
         "fédération française d’ulm"
       ],
-      "index": 1186,
+      "index": 1188,
       "isNSFW": false,
       "oldindex": 1184,
       "validated": true,
@@ -48625,7 +48692,7 @@
       "categories": [
         "fédération sportive et gymnique du travail"
       ],
-      "index": 1187,
+      "index": 1189,
       "isNSFW": false,
       "oldindex": 1185,
       "validated": true,
@@ -48662,7 +48729,7 @@
       "categories": [
         "philharmonie de paris"
       ],
-      "index": 1188,
+      "index": 1190,
       "isNSFW": false,
       "oldindex": 1186,
       "validated": true,
@@ -48693,7 +48760,7 @@
       "slug": "ledger-fuite-du-2026-1-7",
       "path": "https://www.leparisien.fr/faits-divers/cryptomonnaies-des-clients-de-lentreprise-legder-victimes-dune-fuite-de-leurs-donnees-personnelles-07-01-2026-WSK45MAFQZENPOLJU3PXYYNKX4.php",
       "formattedDate": "2026-01-07",
-      "index": 1189,
+      "index": 1191,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nSource\n\n",
@@ -48728,7 +48795,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1190,
+      "index": 1192,
       "source": "Manuel",
       "categories": [],
       "content": "In January 2026, <a href=\"https://dailydarkweb.net/panera-bread-data-breach-shinyhunters-claims-14-million-records-stolen/\" target=\"_blank\" rel=\"noopener\">Panera Bread suffered a data breach that exposed 14M records</a>. After an attempted extortion failed, the attackers published the data publicly, which included 5.1M unique email addresses along with associated account information such as names, phone numbers and physical addresses. Panera Bread subsequently confirmed that <a href=\"https://www.reuters.com/business/bumble-match-panera-bread-crunchbase-hit-by-cyberattacks-bloomberg-news-reports-2026-01-29/\" target=\"_blank\" rel=\"noopener\">\"the data involved is contact information\"</a> and that authorities were notified.",
@@ -48764,7 +48831,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1191
+      "index": 1193
     },
     {
       "Name": "casino de paris fuite du 2026-1-8",
@@ -48790,7 +48857,7 @@
       "slug": "casino-de-paris-fuite-du-2026-1-8",
       "path": "https://bonjourlafuite.eu.org/img/casino-paris.jpg",
       "formattedDate": "2026-01-08",
-      "index": 1192,
+      "index": 1194,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nEmail\nDate de naissance\nCode postal\n\n",
@@ -48830,7 +48897,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1193
+      "index": 1195
     },
     {
       "Name": "blackstore fuite du 2026-1-12",
@@ -48856,7 +48923,7 @@
       "slug": "blackstore-fuite-du-2026-1-12",
       "path": "https://bonjourlafuite.eu.org/img/blackstore.png",
       "formattedDate": "2026-01-12",
-      "index": 1194,
+      "index": 1196,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nAdresse mail\nNuméro de téléphone\nMagasin\nNuméro de commande\nDate de commande\n\n",
@@ -48889,7 +48956,7 @@
       "slug": "f-d-ration-fran-aise-de-tennis-fuite-du-2026-1-12",
       "path": "https://bonjourlafuite.eu.org/img/fft.png",
       "formattedDate": "2026-01-12",
-      "index": 1195,
+      "index": 1197,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nAdresse email\nAdresse postale\nNuméro de téléphone\nInformation de licence\n\n",
@@ -48922,7 +48989,7 @@
       "slug": "instagram-fuite-du-2026-1-12",
       "path": "https://www.01net.com/actualites/fuite-donnees-instagram-informations-17-millions-utilisateurs-volees.html",
       "formattedDate": "2026-01-12",
-      "index": 1196,
+      "index": 1198,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom d’utilisateurs\nAdresse postale\nAdresse mail\nNuméro de téléphone\n\n",
@@ -48955,7 +49022,7 @@
       "slug": "monlogicielmedical-com-fuite-du-2026-1-12",
       "path": "https://bonjourlafuite.eu.org/img/monlogicielmedical.png",
       "formattedDate": "2026-01-12",
-      "index": 1197,
+      "index": 1199,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nDate de naissance\nAdresse postale\nStatus\nRégime de sécurité sociale\nDernière visite\n\n",
@@ -48988,7 +49055,7 @@
       "slug": "nephael-com-chloesanchez-com-fuite-du-2026-1-12",
       "path": "https://bonjourlafuite.eu.org/img/nephael.png",
       "formattedDate": "2026-01-12",
-      "index": 1198,
+      "index": 1200,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nLogin\nMot de passe (MD5)\nAdresse email\nAdresse IP\n\n",
@@ -49021,7 +49088,7 @@
       "slug": "relais-colis-fuite-du-2026-1-12",
       "path": "https://bonjourlafuite.eu.org/img/relaiscolis.png",
       "formattedDate": "2026-01-12",
-      "index": 1199,
+      "index": 1201,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nEnseigne\nAdresse postale\nAdresse mail\nNuméro de téléphone\n\n",
@@ -49054,7 +49121,7 @@
       "slug": "eurail-fuite-du-2026-1-13",
       "path": "https://bonjourlafuite.eu.org/img/eurail.png",
       "formattedDate": "2026-01-13",
-      "index": 1200,
+      "index": 1202,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nDate de naissance\nAdresse email\nAdresse postale\nNuméro de téléphone\nNuméro de passeport\ndate d’émission et d’expiration\n\n",
@@ -49087,7 +49154,7 @@
       "slug": "zurfl-h-fuite-du-2026-1-13",
       "path": "https://bonjourlafuite.eu.org/img/zurfluh-feller.png",
       "formattedDate": "2026-01-13",
-      "index": 1201,
+      "index": 1203,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nSource\r\n              ]>\n\n",
@@ -49120,7 +49187,7 @@
       "slug": "agro-paris-tech-fuite-du-2026-1-15",
       "path": "https://bonjourlafuite.eu.org/img/agroparistech.png",
       "formattedDate": "2026-01-15",
-      "index": 1202,
+      "index": 1204,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nPhoto d’identité\nNuméro de Sécurité Sociale\nFiche de renseignement\nSignature\nRIB]>\n\n",
@@ -49153,7 +49220,7 @@
       "slug": "f-d-ration-fran-aise-de-montagne-escalade-fuite-du-2026-1-15",
       "path": "https://www.ffme.fr/la-ffme-victime-dun-acte-de-cyber-malveillance/",
       "formattedDate": "2026-01-15",
-      "index": 1203,
+      "index": 1205,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nDate de naissance\nCoordonnées\nType de licence\nStructure d’affiliation]>\n\n",
@@ -49186,7 +49253,7 @@
       "slug": "f-d-ration-fran-aise-de-twirling-b-ton-fuite-du-2026-1-15",
       "path": "https://bonjourlafuite.eu.org/img/fftb.jpg",
       "formattedDate": "2026-01-15",
-      "index": 1204,
+      "index": 1206,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nAdresse postale\nDate de naissance\nAdresse mail\nNuméro de téléphone\nNationalité\nProfession\nCatégorie socio-professionnelle\nSituation familiale\nClub]>\n\n",
@@ -49219,7 +49286,7 @@
       "slug": "lire-demain-fuite-du-2026-1-15",
       "path": "https://bonjourlafuite.eu.org/img/liredemain.png",
       "formattedDate": "2026-01-15",
-      "index": 1205,
+      "index": 1207,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nAdresse mail\nAdresse postale\nCommandes]>\n\n",
@@ -49252,7 +49319,7 @@
       "slug": "relais-colis-fuite-du-2026-1-15",
       "path": "https://bonjourlafuite.eu.org/img/relaiscolis-2.jpg",
       "formattedDate": "2026-01-15",
-      "index": 1206,
+      "index": 1208,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nAdresse mail]>\n\n",
@@ -49285,7 +49352,7 @@
       "slug": "service-public-fuite-du-2026-1-15",
       "path": "https://bonjourlafuite.eu.org/img/servicepublic.jpg",
       "formattedDate": "2026-01-15",
-      "index": 1207,
+      "index": 1209,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nDonnées d’identification\nPièces justificatives]>\n\n",
@@ -49318,7 +49385,7 @@
       "slug": "total-nergies-fuite-du-2026-1-15",
       "path": "https://bonjourlafuite.eu.org/img/totalenergies.png",
       "formattedDate": "2026-01-15",
-      "index": 1208,
+      "index": 1210,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nAdresse postale\nAdresse email\nTéléphone\nIBAN\nRéference client\nSituation du foyer]>\n\n",
@@ -49351,7 +49418,7 @@
       "slug": "store-pas-cher-fuite-du-2026-1-16",
       "path": "https://bonjourlafuite.eu.org/img/storepascher.png",
       "formattedDate": "2026-01-16",
-      "index": 1209,
+      "index": 1211,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nNuméro de téléphone\nAdresse postale\nAdresse IP]>\n\n",
@@ -49384,7 +49451,7 @@
       "slug": "euronature-fuite-du-2026-1-18",
       "path": "https://bonjourlafuite.eu.org/img/euronature-1.png",
       "formattedDate": "2026-01-18",
-      "index": 1210,
+      "index": 1212,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nIBAN\nPasseport\nPhoto d’identité\nDiplômes\nCarte vitale\nCasier judiciaire]>\n\n",
@@ -49417,7 +49484,7 @@
       "slug": "dce-conseil-fuite-du-2026-1-19",
       "path": "https://www.01net.com/actualites/fuite-donnees-devoile-plans-plusieurs-prisons-base-militaire-francaise.html",
       "formattedDate": "2026-01-19",
-      "index": 1211,
+      "index": 1213,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nPrisons\nInstallations techniques\nBases militaires]>\n\n",
@@ -49450,7 +49517,7 @@
       "slug": "info-jeunes-bourgogne-franche-fuite-du-2026-1-19",
       "path": "https://bonjourlafuite.eu.org/img/info-jeunes-bourgogne-franche-comte.png",
       "formattedDate": "2026-01-19",
-      "index": 1212,
+      "index": 1214,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nDonnées d’identification]>\n\n",
@@ -49483,7 +49550,7 @@
       "slug": "ioburo-fuite-du-2026-1-19",
       "path": "https://bonjourlafuite.eu.org/img/ioburo.png",
       "formattedDate": "2026-01-19",
-      "index": 1213,
+      "index": 1215,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nAdresse de livraison\nAdresse email\nNuméro de téléphone\nDate de naissance]>\n\n",
@@ -49516,7 +49583,7 @@
       "slug": "urssaf-fuite-du-2026-1-19",
       "path": "https://www.20minutes.fr/faits_divers/4196942-20260119-urssaf-victime-acces-frauduleux-donnees-12-millions-salaries-potentiellement-concernes",
       "formattedDate": "2026-01-19",
-      "index": 1214,
+      "index": 1216,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nDate de naissance\nSIRET employeur\nDate d’embauche]>\n\n",
@@ -49549,7 +49616,7 @@
       "slug": "conseiljuridique-net-fuite-du-2026-1-20",
       "path": "https://bonjourlafuite.eu.org/img/conseiljuridique.png",
       "formattedDate": "2026-01-20",
-      "index": 1215,
+      "index": 1217,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nSource\r\n              ]>\n\n",
@@ -49582,7 +49649,7 @@
       "slug": "delko-fuite-du-2026-1-20",
       "path": "https://bonjourlafuite.eu.org/img/delko.jpg",
       "formattedDate": "2026-01-20",
-      "index": 1216,
+      "index": 1218,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nAdresse email\nNuméro de téléphone\nCode postal\ncommune]>\n\n",
@@ -49615,7 +49682,7 @@
       "slug": "france-ducation-international-fuite-du-2026-1-20",
       "path": "https://www.france-education-international.fr/actualites/incident-sur-la-plateforme-gael-diplomes-delf-dalf",
       "formattedDate": "2026-01-20",
-      "index": 1217,
+      "index": 1219,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nVille de naissance et pays de naissance\nDate de naissance\nNationalité\nLangue maternelle\nCentre de rattachement]>\n\n",
@@ -49648,7 +49715,7 @@
       "slug": "ensam-fuite-du-2026-1-21",
       "path": "https://bonjourlafuite.eu.org/img/ensam.png",
       "formattedDate": "2026-01-21",
-      "index": 1218,
+      "index": 1220,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nNuméro de Sécurité Sociale\nDécision d’attribution de bourse et montant\nDate de début et de fin d’arrêt de travail]>\n\n",
@@ -49681,7 +49748,7 @@
       "slug": "baby-vista-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/babyvista.png",
       "formattedDate": "2026-01-23",
-      "index": 1219,
+      "index": 1221,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nAdresse mail\nNuméro de téléphone\nAdresse postale\nNom de l’enfant\nPays]>\n\n",
@@ -49714,7 +49781,7 @@
       "slug": "f-d-ration-fran-aise-de-chasse-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/ffchasse.png",
       "formattedDate": "2026-01-23",
-      "index": 1220,
+      "index": 1222,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nAdresse postale\nNuméro de permis\nAssurance\nQualification]>\n\n",
@@ -49747,7 +49814,7 @@
       "slug": "f-d-ration-fran-aise-de-golf-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/ffgolf.png",
       "formattedDate": "2026-01-23",
-      "index": 1221,
+      "index": 1223,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nAdresse mail\nCatégorie d’âge\nAdresse postale\nAdresse mail\nClub de rattachement\nDate de licence\nStatus sportif]>\n\n",
@@ -49780,7 +49847,7 @@
       "slug": "f-d-ration-fran-aise-de-volley-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/ffvolley.png",
       "formattedDate": "2026-01-23",
-      "index": 1222,
+      "index": 1224,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nAdresse email\nAdresse postale\nNuméro de téléphone\nCarte d’identité\nCertificat de naissance\nPhoto d’identité\nSignatures]>\n\n",
@@ -49813,7 +49880,7 @@
       "slug": "f-d-ration-fran-aise-des-sapeurs-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/ffpompiers.png",
       "formattedDate": "2026-01-23",
-      "index": 1223,
+      "index": 1225,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nAdresse mail\nNuméro de téléphone\nAdresse postale]>\n\n",
@@ -49846,7 +49913,7 @@
       "slug": "f-d-ration-fran-aise-d-escrime-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/ffe.png",
       "formattedDate": "2026-01-23",
-      "index": 1224,
+      "index": 1226,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nNationalité\nNuméro de téléphone\nAdresse postale\nAdresse mail\nType de licence\nClub\nCatégorie d’âge\nDiscipline]>\n\n",
@@ -49879,7 +49946,7 @@
       "slug": "grand-froid-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/grand-froid.png",
       "formattedDate": "2026-01-23",
-      "index": 1225,
+      "index": 1227,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nAdresse\nDate de commande]>\n\n",
@@ -49912,7 +49979,7 @@
       "slug": "orpi-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/orpi-1.png",
       "formattedDate": "2026-01-23",
-      "index": 1226,
+      "index": 1228,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nIBAN\nNom\nprénom\nQuittance de loyer\nAdresse postale\nIdentifiant extranet\nMot de passe extranet en clair\nLocataire]>\n\n",
@@ -49945,7 +50012,7 @@
       "slug": "too-easy-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/tooeasy.png",
       "formattedDate": "2026-01-23",
-      "index": 1227,
+      "index": 1229,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nAdresse mail\nTéléphone\nAdresse IP]>\n\n",
@@ -49978,7 +50045,7 @@
       "slug": "valorissimo-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/valo.png",
       "formattedDate": "2026-01-23",
-      "index": 1228,
+      "index": 1230,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nLogin\nAdresse mail\nNom\nprénom\nNuméro de téléphone\nAdresse\nEntreprise]>\n\n",
@@ -50011,7 +50078,7 @@
       "slug": "waltio-fuite-du-2026-1-23",
       "path": "https://www.waltio.com/fr/blog/actualite/security-notice-23-01/",
       "formattedDate": "2026-01-23",
-      "index": 1229,
+      "index": 1231,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nAdresse mail\nRapport fiscal 2024\nSolde bancaire]>\n\n",
@@ -50044,7 +50111,7 @@
       "slug": "f-d-ration-fran-aise-d-tudes-et-de-sports-sous-fuite-du-2026-1-24",
       "path": "https://bonjourlafuite.eu.org/img/ffessm-1.png",
       "formattedDate": "2026-01-24",
-      "index": 1230,
+      "index": 1232,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nDate et lieu de naissance\nDate de première licence\nStatus moniteur/éducateur\nAdresse postale\nCertificats médicaux]>\n\n",
@@ -50077,7 +50144,7 @@
       "slug": "guiot-de-bourg-fuite-du-2026-1-24",
       "path": "https://bonjourlafuite.eu.org/img/guiotdebourg.png",
       "formattedDate": "2026-01-24",
-      "index": 1231,
+      "index": 1233,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nAdresse mail\nMot de passe haché\nDate de naissance\nIP d’inscription à la newsletter\nSite internet\nMontant autorisé\nDélais de payment\nStatus invité\nCompte supprimé (😒)\nJeton de renouvellement du mot de passe\nClef secrète]>\n\n",
@@ -50110,7 +50177,7 @@
       "slug": "movida-fuite-du-2026-1-24",
       "path": "https://bonjourlafuite.eu.org/img/movida.png",
       "formattedDate": "2026-01-24",
-      "index": 1232,
+      "index": 1234,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nCoordonnées\nIBAN]>\n\n",
@@ -50143,7 +50210,7 @@
       "slug": "panorama-banques-fuite-du-2026-1-24",
       "path": "https://bonjourlafuite.eu.org/img/panoramabanques.png",
       "formattedDate": "2026-01-24",
-      "index": 1233,
+      "index": 1235,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nNationalité\nAdresse postale\nAdresse email\nNuméro de téléphone\nStatus marital\nRevenus\ncrédits en cours\nloyers\nBanque\nDate d’ouverture des comptes\nStatus propriétaire/locataire\nProfession\ntype de contrat de travail]>\n\n",
@@ -50176,7 +50243,7 @@
       "slug": "scoring-fit-fuite-du-2026-1-24",
       "path": "https://bonjourlafuite.eu.org/img/scoringfit.png",
       "formattedDate": "2026-01-24",
-      "index": 1234,
+      "index": 1236,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nAdresse postale\nAdresse email\nNuméro de téléphone\nOrganisation]>\n\n",
@@ -50209,7 +50276,7 @@
       "slug": "suzuki-fuite-du-2026-1-24",
       "path": "https://www.suzuki.fr/securite-donnees-personnelles",
       "formattedDate": "2026-01-24",
-      "index": 1235,
+      "index": 1237,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nAdresse email\nAdresse postale\nNuméro de téléphone]>\n\n",
@@ -50242,7 +50309,7 @@
       "slug": "f-d-ration-fran-aise-des-sports-pour-tous-fuite-du-2026-1-25",
       "path": "https://bonjourlafuite.eu.org/img/sportspourtous.png",
       "formattedDate": "2026-01-25",
-      "index": 1236,
+      "index": 1238,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nStatus\nStructure de rattachement\nAdresse postale\nNuméro de téléphone\nDiplômes\nActivité]>\n\n",
@@ -50275,7 +50342,7 @@
       "slug": "livrenpoche-fuite-du-2026-1-25",
       "path": "https://bonjourlafuite.eu.org/img/livrenpoche.png",
       "formattedDate": "2026-01-25",
-      "index": 1237,
+      "index": 1239,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nAdresse mail\nEntreprise\nNuméro de téléphone]>\n\n",
@@ -50308,7 +50375,7 @@
       "slug": "renault-fuite-du-2026-1-25",
       "path": "https://bonjourlafuite.eu.org/img/renault.png",
       "formattedDate": "2026-01-25",
-      "index": 1238,
+      "index": 1240,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nNuméro de téléphone\nModèle du véhicule\nImmatriculation]>\n\n",
@@ -50341,7 +50408,7 @@
       "slug": "sciences-po-fuite-du-2026-1-25",
       "path": "https://bonjourlafuite.eu.org/img/sciences-po-1.png",
       "formattedDate": "2026-01-25",
-      "index": 1239,
+      "index": 1241,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nDump SQL]>\n\n",
@@ -50374,7 +50441,7 @@
       "slug": "11-agences-immobili-res-fuite-du-2026-1-28",
       "path": "https://bonjourlafuite.eu.org/img/agences-immobilieres.png",
       "formattedDate": "2026-01-28",
-      "index": 1240,
+      "index": 1242,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nSCI Fonciere de la tourelle\nAix La Duranner Immo\nMARTEAU IMMOBILIER\n(Orpi) AFG IMMOBILIER\nOC INVESTISSEMENT\nTRENTA IMMOBILIER\nBLG PATRIMOINE\nSB IMMOBILIER\nSUN IMMOBILIA\nIMMOVALIE\nSAS Immo\nNom\nprénom\nAdresse postale\nLogin et mot de passe\nAdresse email\nQuittance de loyer\nfacture\nNuméro de téléphone\nDonnées contractuelles\nIBAN\nCarnets d’entretien\nCampagnes marketing\nRapports financiers\nCompte-rendu d’AG\nT·O·U·T]>\n\n",
@@ -50407,7 +50474,7 @@
       "slug": "centre-d-imagerie-m-dicale-de-puteaux-fuite-du-2026-1-28",
       "path": "https://bonjourlafuite.eu.org/img/cim-puteaux.png",
       "formattedDate": "2026-01-28",
-      "index": 1241,
+      "index": 1243,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nDate de naissance\nNuméro de téléphone\nAdresse email\nAdresse postale\nNombre de rendez-vous]>\n\n",
@@ -50440,7 +50507,7 @@
       "slug": "coriolis-fuite-du-2026-1-28",
       "path": "https://bonjourlafuite.eu.org/img/coriolis.png",
       "formattedDate": "2026-01-28",
-      "index": 1242,
+      "index": 1244,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nGenre\nNuméro de téléphone\nAdresse mail\nAdresse postale\nIBAN]>\n\n",
@@ -50473,7 +50540,7 @@
       "slug": "le-cnam-fuite-du-2026-1-28",
       "path": "https://bonjourlafuite.eu.org/img/cnam.png",
       "formattedDate": "2026-01-28",
-      "index": 1243,
+      "index": 1245,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nAdresse mail\nNuméro de téléphone\nPoste occupé et département\nAdresse postale\nDate de naissance\nSite Internet\nLoisirs]>\n\n",
@@ -50506,7 +50573,7 @@
       "slug": "lovys-fuite-du-2026-1-28",
       "path": "https://bonjourlafuite.eu.org/img/lovys.png",
       "formattedDate": "2026-01-28",
-      "index": 1244,
+      "index": 1246,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nSource\r\n              ]>\n\n",
@@ -50539,7 +50606,7 @@
       "slug": "lyleoo-fuite-du-2026-1-28",
       "path": "https://bonjourlafuite.eu.org/img/lyleoo.png",
       "formattedDate": "2026-01-28",
-      "index": 1245,
+      "index": 1247,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nDate de naissance\nAdresse postale\nAdresse email]>\n\n",
@@ -50572,7 +50639,7 @@
       "slug": "o-tacos-fuite-du-2026-1-28",
       "path": "https://bonjourlafuite.eu.org/img/o-tacos.png",
       "formattedDate": "2026-01-28",
-      "index": 1246,
+      "index": 1248,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nAdresse email\nCarte de fidélité\nPays\nDate de création]>\n\n",
@@ -50605,7 +50672,7 @@
       "slug": "techni-fuite-du-2026-1-28",
       "path": "https://bonjourlafuite.eu.org/img/techni-contact.pn/google",
       "formattedDate": "2026-01-28",
-      "index": 1247,
+      "index": 1249,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nMot de passe haché en MD5\nTitre\nSociété\nNuméro de téléphone\nNombre de salariés\nNAF\nSIRET\nnuméro de TVA\nAdresse postale\nSecteur\nNuméro de téléphone\nAdresse mail\nPersonne décédée\nOrigine\nSite Internet\nScore pub]>\n\n",
@@ -50638,7 +50705,7 @@
       "slug": "ugsel-fuite-du-2026-1-28",
       "path": "https://bonjourlafuite.eu.org/img/ugsel.png",
       "formattedDate": "2026-01-28",
-      "index": 1248,
+      "index": 1250,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nGenre\nDate de naissance\nCatégorie\nClasse]>\n\n",
@@ -50646,6 +50713,61 @@
       "lien": "https://haveibeenpwned.com/Breach/undefined",
       "oldindex": 1246,
       "title": "ugsel fuite du 2026-1-28"
+    },
+    {
+      "Name": "Figure",
+      "Title": "Figure",
+      "Domain": "figure.com",
+      "BreachDate": "2026-01-28",
+      "AddedDate": "2026-02-18T01:11:11Z",
+      "ModifiedDate": "2026-02-18T01:11:11Z",
+      "PwnCount": 967178,
+      "Description": "In February 2026, <a href=\"https://techcrunch.com/2026/02/13/fintech-lending-giant-figure-confirms-data-breach/\" target=\"_blank\" rel=\"noopener\">data obtained from the fintech lending platform Figure was publicly posted online</a>. The exposed data, dating back to January 2026, contained over 900k unique email addresses along with names, phone numbers, physical addresses and dates of birth. Figure confirmed the incident and attributed it to a social engineering attack in which an employee was tricked into providing access.",
+      "LogoPath": "https://logos.haveibeenpwned.com/Figure.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [
+        "Dates of birth",
+        "Email addresses",
+        "Names",
+        "Phone numbers",
+        "Physical addresses"
+      ],
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "index": 1251
+    },
+    {
+      "Name": "wemind fuite du 2026-1-28",
+      "Title": "wemind fuite du 2026-1-28",
+      "Domain": null,
+      "BreachDate": "2026-1-28",
+      "AddedDate": "2026-02-18T13:14:42.101Z",
+      "ModifiedDate": "2026-02-18T13:14:42.101Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse postale\nAdresse électronique\nNuméro de téléphone]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "wemind-fuite-du-2026-1-28",
+      "path": "https://bonjourlafuite.eu.org/img/wemind.png",
+      "formattedDate": "2026-01-28",
+      "index": 1252
     },
     {
       "Name": "match group (hinge fuite du 2026-1-29",
@@ -50671,7 +50793,7 @@
       "slug": "match-group-hinge-fuite-du-2026-1-29",
       "path": "https://bonjourlafuite.eu.org/img/match-group.png",
       "formattedDate": "2026-01-29",
-      "index": 1249,
+      "index": 1253,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nlogin\nMot de passe\nUser agent\nDate de naissance\nAdresse IP\nNuméro de téléphone]>\n\n",
@@ -50704,7 +50826,7 @@
       "slug": "r-seau-site-fuite-du-2026-1-29",
       "path": "https://bonjourlafuite.eu.org/img/reseau-site.png",
       "formattedDate": "2026-01-29",
-      "index": 1250,
+      "index": 1254,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nMot de passe\nNuméro de téléphone\nAdresse postale\nAchats]>\n\n",
@@ -50737,7 +50859,7 @@
       "slug": "sfr-fuite-du-2026-1-29",
       "path": "https://bonjourlafuite.eu.org/img/sfr-2.png",
       "formattedDate": "2026-01-29",
-      "index": 1251,
+      "index": 1255,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nAdresse email\nAdresse postale\nNuméro de téléphone\nDate de naissance\nIBAN]>\n\n",
@@ -50770,7 +50892,7 @@
       "slug": "verychic-fuite-du-2026-1-29",
       "path": "https://bonjourlafuite.eu.org/img/very-chic.png",
       "formattedDate": "2026-01-29",
-      "index": 1252,
+      "index": 1256,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nDate de naissance\nNuméro de téléphone\nAdresse postale\nNuméro de réservation\nDate du séjour]>\n\n",
@@ -50803,7 +50925,7 @@
       "slug": "code-rousseau-fuite-du-2026-1-30",
       "path": "https://bonjourlafuite.eu.org/img/code-rousseau.jpg",
       "formattedDate": "2026-01-30",
-      "index": 1253,
+      "index": 1257,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nAdresse postale\nAdresse mail\nNuméro de téléphone\nPhoto d’identité\nNuméro NEPH\nDonnées de l’ASR\nSignature]>\n\n",
@@ -50836,7 +50958,7 @@
       "slug": "mano-mano-fuite-du-2026-1-30",
       "path": "https://bonjourlafuite.eu.org/img/manomano.png",
       "formattedDate": "2026-01-30",
-      "index": 1254,
+      "index": 1258,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nAdresse mail\nNuméro de téléphone\nÉchanges avec le support]>\n\n",
@@ -50869,7 +50991,7 @@
       "slug": "opquast-fuite-du-2026-1-30",
       "path": "https://bonjourlafuite.eu.org/img/opquast.png",
       "formattedDate": "2026-01-30",
-      "index": 1255,
+      "index": 1259,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nAdresse mail]>\n\n",
@@ -50905,7 +51027,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1256,
+      "index": 1260,
       "source": "Manuel",
       "categories": [],
       "content": "In January 2026, <a href=\"https://x.com/justabreach/status/2017260468448981108/\" target=\"_blank\" rel=\"noopener\">a data breach impacting the French non-profit Association Nationale des Premiers Secours (ANPS) was posted to a hacking forum</a>. The breach exposed 5.6k unique email addresses along with names, dates of birth and places of birth. ANPS self-submitted the data to HIBP and advised the incident was traced back to a legacy system and did not impact health data, financial information or passwords.",
@@ -50938,7 +51060,7 @@
       "slug": "arm-e-de-terre-fuite-du-2026-1-31",
       "path": "https://bonjourlafuite.eu.org/img/armee-de-terre.png",
       "formattedDate": "2026-01-31",
-      "index": 1257,
+      "index": 1261,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nDocuments classifiés (diffusion restreinte)\nGuides techniques]>\n\n",
@@ -50971,7 +51093,7 @@
       "slug": "inria-fuite-du-2026-1-31",
       "path": "https://bonjourlafuite.eu.org/img/inria-1.png",
       "formattedDate": "2026-01-31",
-      "index": 1258,
+      "index": 1262,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nOrganisation\nAdresse email]>\n\n",
@@ -51004,7 +51126,7 @@
       "slug": "loxam-fuite-du-2026-2-4",
       "path": "https://bonjourlafuite.eu.org/img/loxam.png",
       "formattedDate": "2026-02-04",
-      "index": 1259,
+      "index": 1263,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nChauffeur\nNuméro de téléphone\nAdresse de livraison\nPlaque d’immatriculation\nDate de livraison\nCréneau horaire]>\n\n",
@@ -51037,7 +51159,7 @@
       "slug": "admr-fuite-du-2026-2-5",
       "path": "https://bonjourlafuite.eu.org/img/admr.png",
       "formattedDate": "2026-02-05",
-      "index": 1260,
+      "index": 1264,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nAdresse email\nAdresse postale\nOrganisation]>\n\n",
@@ -51070,7 +51192,7 @@
       "slug": "agence-r-gionale-de-sant-fuite-du-2026-2-5",
       "path": "https://bonjourlafuite.eu.org/img/ars.png",
       "formattedDate": "2026-02-05",
-      "index": 1261,
+      "index": 1265,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nFonction\nAdresse email\nManager\nStructure employeuse]>\n\n",
@@ -51103,7 +51225,7 @@
       "slug": "centre-communal-d-action-sociale-de-dunkerque-fuite-du-2026-2-5",
       "path": "https://bonjourlafuite.eu.org/img/ccas-dunkerque.png",
       "formattedDate": "2026-02-05",
-      "index": 1262,
+      "index": 1266,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nDate de naissance\nAdresse postale\nNuméro de téléphone\nAdresse email\nProfil du foyer\nSituation familiale]>\n\n",
@@ -51136,7 +51258,7 @@
       "slug": "centre-national-de-gestion-fuite-du-2026-2-5",
       "path": "https://bonjourlafuite.eu.org/img/cng.png",
       "formattedDate": "2026-02-05",
-      "index": 1263,
+      "index": 1267,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nLogin\nAdresse email\nAdresse postale\nNuméro de téléphone\nNom\nprénom]>\n\n",
@@ -51169,7 +51291,7 @@
       "slug": "choisir-le-service-public-fuite-du-2026-2-5",
       "path": "https://bonjourlafuite.eu.org/img/choisir-service-public.png",
       "formattedDate": "2026-02-05",
-      "index": 1264,
+      "index": 1268,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nDate de naissance\nAdresse email\nNuméro de téléphone\nNiveau d’étude\nSpécialité\nLangues maîtrisées\nSouhait géographique]>\n\n",
@@ -51202,7 +51324,7 @@
       "slug": "f-d-ration-fran-aise-de-randonn-e-p-destre-fuite-du-2026-2-5",
       "path": "https://bonjourlafuite.eu.org/img/ffrando.png",
       "formattedDate": "2026-02-05",
-      "index": 1265,
+      "index": 1269,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nNuméro de licence\nDate et lieu de naissance\nNuméro de téléphone\nAdresse mail\nAdresse postale\nStructure d’accueil]>\n\n",
@@ -51235,7 +51357,7 @@
       "slug": "protexia-france-fuite-du-2026-2-5",
       "path": "https://bonjourlafuite.eu.org/img/protexia.png",
       "formattedDate": "2026-02-05",
-      "index": 1266,
+      "index": 1270,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nDate de naissance\nAdresse postale\nAdresse email\nNuméro de téléphone\nNuméro d’adhérent]>\n\n",
@@ -51268,7 +51390,7 @@
       "slug": "substack-fuite-du-2026-2-5",
       "path": "https://lorichristian.substack.com/p/notice-of-data-breach",
       "formattedDate": "2026-02-05",
-      "index": 1267,
+      "index": 1271,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nAdresse mail\nNuméro de téléphone\nMétadonnées internes]>\n\n",
@@ -51301,7 +51423,7 @@
       "slug": "autoforever-fuite-du-2026-2-6",
       "path": "https://bonjourlafuite.eu.org/img/autoforever.png",
       "formattedDate": "2026-02-06",
-      "index": 1268,
+      "index": 1272,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nAdresse postale\nAdresse email\nNuméro de téléphone\nAdresse IP\nNom de l’entreprise\nNuméro de TVA]>\n\n",
@@ -51334,7 +51456,7 @@
       "slug": "cette-famille-fuite-du-2026-2-6",
       "path": "https://bonjourlafuite.eu.org/img/cette-famille.png",
       "formattedDate": "2026-02-06",
-      "index": 1269,
+      "index": 1273,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nAdresse email\nStatus compte]>\n\n",
@@ -51367,7 +51489,7 @@
       "slug": "flickr-fuite-du-2026-2-6",
       "path": "https://bonjourlafuite.eu.org/img/flickr.png",
       "formattedDate": "2026-02-06",
-      "index": 1270,
+      "index": 1274,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nAdresse mail\nAdresse IP\nLogin\nType de compte\nLocalisation\nActivité du compte]>\n\n",
@@ -51400,7 +51522,7 @@
       "slug": "f-d-ration-fran-aise-de-tennis-de-table-fuite-du-2026-2-6",
       "path": "https://bonjourlafuite.eu.org/img/fftt.png",
       "formattedDate": "2026-02-06",
-      "index": 1271,
+      "index": 1275,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nAdresse mail\nAdresse postale\nNuméro de téléphone\nDonnées de licence]>\n\n",
@@ -51433,7 +51555,7 @@
       "slug": "f-d-ration-fran-aise-de-voile-fuite-du-2026-2-6",
       "path": "https://www.letelegramme.fr/sports/voile/la-federation-francaise-de-voile-victime-dune-fuite-de-donnees-de-ses-licencies-6978517.php",
       "formattedDate": "2026-02-06",
-      "index": 1272,
+      "index": 1276,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nDate de naissance\nAdresse postale\nAdresse email\nNuméro de téléphone]>\n\n",
@@ -51466,7 +51588,7 @@
       "slug": "maire-de-paris-fuite-du-2026-2-6",
       "path": "https://bonjourlafuite.eu.org/img/mairie-paris.png",
       "formattedDate": "2026-02-06",
-      "index": 1273,
+      "index": 1277,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nPrénom\nDate de naissance\nAdresse postale\nNuméro de téléphone\nAdresse mail]>\n\n",
@@ -51501,7 +51623,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1274,
+      "index": 1278,
       "source": "Manuel",
       "categories": [],
       "content": "In February 2026, the online gaming community <a href=\"https://toybattles.net/\" target=\"_blank\" rel=\"noopener\">Toy Battles</a> suffered a data breach. The incident exposed 1k unique email addresses alongside usernames, IP addresses and chat logs. Following the breach, Toy Battles self-submitted the data to Have I Been Pwned.",
@@ -51534,7 +51656,7 @@
       "slug": "office-fran-ais-de-la-biodiversit-fuite-du-2026-2-7",
       "path": "https://ofb.gouv.fr/actualites/cyberattaque-visant-application-du-permis-de-chasser-ofb-informe-ses-usagers",
       "formattedDate": "2026-02-07",
-      "index": 1275,
+      "index": 1279,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénoms\nDate et ville de naissance\nAdresse postale\nNuméros de téléphone fixe et portable\nNationalité\nAdresse e-mail\nNuméro de permis de chasser\nInformations relatives à la demande\nl’instruction ou à l’examen du permis de chasser\nInscription au fichier national des personnes interdites d'acquisition et de détention d'armes\nConvocation\ndates\nprésence et résultat]>\n\n",
@@ -51567,7 +51689,7 @@
       "slug": "a-kan-fuite-du-2026-2-9",
       "path": "https://bonjourlafuite.eu.org/img/aikan-1.jpg",
       "formattedDate": "2026-02-09",
-      "index": 1276,
+      "index": 1280,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nÉtat civil\nDonnées d’identification\nIBAN]>\n\n",
@@ -51600,7 +51722,7 @@
       "slug": "commission-europ-enne-fuite-du-2026-2-9",
       "path": "https://ec.europa.eu/commission/presscorner/detail/fr/ip_26_342",
       "formattedDate": "2026-02-09",
-      "index": 1277,
+      "index": 1281,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nNuméro de téléphone]>\n\n",
@@ -51633,7 +51755,7 @@
       "slug": "darty-fuite-du-2026-2-9",
       "path": "https://bonjourlafuite.eu.org/img/darty.png",
       "formattedDate": "2026-02-09",
-      "index": 1278,
+      "index": 1282,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom et prénom\nAdresse postale\nAdresse e-mail\nNuméro de téléphone\nTypologie de logement pour l'ameublement d'une cuisine\nBudget maximum et minimum pour la conception d'une cuisine\nNombre d'électroménagers à acheter et à conserver]>\n\n",
@@ -51666,7 +51788,7 @@
       "slug": "la-carte-avantage-jeune-fuite-du-2026-2-9",
       "path": "https://bonjourlafuite.eu.org/img/carte-avantage-jeune.png",
       "formattedDate": "2026-02-09",
-      "index": 1279,
+      "index": 1283,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nDate de naissance\nAdresse postale\nNuméro de téléphone\nCarte d’identité\nActe de naissance\nSignature]>\n\n",
@@ -51699,7 +51821,7 @@
       "slug": "pharmashopi-fuite-du-2026-2-9",
       "path": "https://bonjourlafuite.eu.org/img/pharmashopi.jpg",
       "formattedDate": "2026-02-09",
-      "index": 1280,
+      "index": 1284,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNuméro de carte bleu\nDate d’expiration\nCVV]>\n\n",
@@ -51732,7 +51854,7 @@
       "slug": "sumsub-fuite-du-2026-2-9",
       "path": "https://cryptoast.fr/bitget-bybit-moonpay-bitpanda-donnees-personnelles-clients-pourraient-avoir-fuite-a-cause-fournisseur-kyc/",
       "formattedDate": "2026-02-09",
-      "index": 1281,
+      "index": 1285,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom\nNuméro de téléphone\nAdresse email]>\n\n",
@@ -51765,7 +51887,7 @@
       "slug": "relais-colis-fuite-du-2026-2-10",
       "path": "https://www.01net.com/actualites/nouvelle-fuite-de-donnees-chez-relais-colis-infos-personnelles-compromises.html",
       "formattedDate": "2026-02-10",
-      "index": 1282
+      "index": 1286
     },
     {
       "Name": "commune de bourg fuite du 2026-2-11",
@@ -51791,7 +51913,7 @@
       "slug": "commune-de-bourg-fuite-du-2026-2-11",
       "path": "https://bonjourlafuite.eu.org/img/bourg-achard.png",
       "formattedDate": "2026-02-11",
-      "index": 1283
+      "index": 1287
     },
     {
       "Name": "les restos du cœur fuite du 2026-2-13",
@@ -51817,7 +51939,7 @@
       "slug": "les-restos-du-c-ur-fuite-du-2026-2-13",
       "path": "https://bonjourlafuite.eu.org/img/resto-coeur.png",
       "formattedDate": "2026-02-13",
-      "index": 1284
+      "index": 1288
     },
     {
       "Name": "voyage privé fuite du 2026-2-13",
@@ -51843,7 +51965,7 @@
       "slug": "voyage-priv-fuite-du-2026-2-13",
       "path": "https://bonjourlafuite.eu.org/img/voyage-prive-1.jpg",
       "formattedDate": "2026-02-13",
-      "index": 1285
+      "index": 1289
     },
     {
       "Name": "cnrs fuite du 2026-2-16",
@@ -51869,100 +51991,7 @@
       "slug": "cnrs-fuite-du-2026-2-16",
       "path": "https://bonjourlafuite.eu.org/img/cnrs.png",
       "formattedDate": "2026-02-16",
-      "index": 1286
-    },
-    {
-      "Name": "UniversityOfPennsylvania",
-      "Title": "University of Pennsylvania",
-      "Domain": "upenn.edu",
-      "BreachDate": "2025-10-30",
-      "AddedDate": "2026-02-16T21:57:51Z",
-      "ModifiedDate": "2026-02-16T21:57:51Z",
-      "PwnCount": 623750,
-      "Description": "In October 2025, <a href=\"https://www.bleepingcomputer.com/news/security/university-of-pennsylvania-hacker-claims-1.2-million-donor-data-breach/\" target=\"_blank\" rel=\"noopener\">the University of Pennsylvania was the victim of a data breach followed by a ransom demand</a>, largely affecting its donor database. After the incident, the attackers sent inflammatory emails to some victims. <a href=\"https://www.thedp.com/article/2026/02/penn-hack-donor-data-ransom-one-million-shinyhunters-gse-emai\" target=\"_blank\" rel=\"noopener\">The data was later published online in February 2026</a> and included 624k unique email addresses alongside names and physical addresses. For some donor records, additional personal information was exposed, including gender and date of birth. A small subset of records also contained religion, spouse name, estimated income and donation history.",
-      "LogoPath": "https://logos.haveibeenpwned.com/UniversityOfPennsylvania.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [
-        "Charitable donations",
-        "Dates of birth",
-        "Email addresses",
-        "Genders",
-        "Income levels",
-        "Job titles",
-        "Names",
-        "Physical addresses",
-        "Religions",
-        "Salutations",
-        "Spouses names"
-      ],
-      "IsVerified": true,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false
-    },
-    {
-      "Name": "CanadaGoose",
-      "Title": "Canada Goose",
-      "Domain": "canadagoose.com",
-      "BreachDate": "2025-07-04",
-      "AddedDate": "2026-02-17T00:19:51Z",
-      "ModifiedDate": "2026-02-17T00:19:51Z",
-      "PwnCount": 581877,
-      "Description": "In February 2026, <a href=\"https://www.bleepingcomputer.com/news/security/canada-goose-investigating-as-hackers-leak-600k-customer-records/\" target=\"_blank\" rel=\"noopener\">a data breach allegedly containing data relating to Canada Goose customers was published publicly</a>. The data contained 920k records with 582k unique email addresses and included names, phone numbers, IP addresses, physical addresses and partial credit card data, specifically card type and last 4 digits. Canada Goose advised that the data \"appears to relate to past customer transactions\" and stated that it originated from a breach at a third party in August 2025. The most recent transaction date in the data is July 2025.",
-      "LogoPath": "https://logos.haveibeenpwned.com/CanadaGoose.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [
-        "Device information",
-        "Email addresses",
-        "IP addresses",
-        "Names",
-        "Partial credit card data",
-        "Phone numbers",
-        "Physical addresses",
-        "Purchases"
-      ],
-      "IsVerified": true,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false
-    },
-    {
-      "Name": "Figure",
-      "Title": "Figure",
-      "Domain": "figure.com",
-      "BreachDate": "2026-01-28",
-      "AddedDate": "2026-02-18T01:11:11Z",
-      "ModifiedDate": "2026-02-18T01:11:11Z",
-      "PwnCount": 967178,
-      "Description": "In February 2026, <a href=\"https://techcrunch.com/2026/02/13/fintech-lending-giant-figure-confirms-data-breach/\" target=\"_blank\" rel=\"noopener\">data obtained from the fintech lending platform Figure was publicly posted online</a>. The exposed data, dating back to January 2026, contained over 900k unique email addresses along with names, phone numbers, physical addresses and dates of birth. Figure confirmed the incident and attributed it to a social engineering attack in which an employee was tricked into providing access.",
-      "LogoPath": "https://logos.haveibeenpwned.com/Figure.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [
-        "Dates of birth",
-        "Email addresses",
-        "Names",
-        "Phone numbers",
-        "Physical addresses"
-      ],
-      "IsVerified": true,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false
+      "index": 1290
     }
   ]
 }
