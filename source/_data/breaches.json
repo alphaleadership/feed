@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-17T03:14:27.929Z",
-  "totalBreaches": 1289,
+  "lastUpdated": "2026-02-18T03:17:59.294Z",
+  "totalBreaches": 1290,
   "breaches": [
     {
       "Name": "gPotato",
@@ -51926,6 +51926,34 @@
         "Phone numbers",
         "Physical addresses",
         "Purchases"
+      ],
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false
+    },
+    {
+      "Name": "Figure",
+      "Title": "Figure",
+      "Domain": "figure.com",
+      "BreachDate": "2026-01-28",
+      "AddedDate": "2026-02-18T01:11:11Z",
+      "ModifiedDate": "2026-02-18T01:11:11Z",
+      "PwnCount": 967178,
+      "Description": "In February 2026, <a href=\"https://techcrunch.com/2026/02/13/fintech-lending-giant-figure-confirms-data-breach/\" target=\"_blank\" rel=\"noopener\">data obtained from the fintech lending platform Figure was publicly posted online</a>. The exposed data, dating back to January 2026, contained over 900k unique email addresses along with names, phone numbers, physical addresses and dates of birth. Figure confirmed the incident and attributed it to a social engineering attack in which an employee was tricked into providing access.",
+      "LogoPath": "https://logos.haveibeenpwned.com/Figure.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [
+        "Dates of birth",
+        "Email addresses",
+        "Names",
+        "Phone numbers",
+        "Physical addresses"
       ],
       "IsVerified": true,
       "IsFabricated": false,
