@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-18T18:08:54.870Z",
-  "totalBreaches": 1293,
+  "lastUpdated": "2026-02-18T20:58:22.000Z",
+  "totalBreaches": 1294,
   "breaches": [
     {
       "Name": "gPotato",
@@ -52044,6 +52044,32 @@
       "path": "https://presse.economie.gouv.fr/acces-illegitimes-au-fichier-national-des-comptes-bancaires-ficoba/",
       "formattedDate": "2026-02-18",
       "index": 1292
+    },
+    {
+      "Name": "espace ce fuite du 2026-2-18",
+      "Title": "espace ce fuite du 2026-2-18",
+      "Domain": null,
+      "BreachDate": "2026-2-18",
+      "AddedDate": "2026-02-18T20:58:21.998Z",
+      "ModifiedDate": "2026-02-18T20:58:21.998Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse email\nAdresse postale\nNuméro de téléphone\nDate de naissance\nMot de passe hashé]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "espace-ce-fuite-du-2026-2-18",
+      "path": "https://bonjourlafuite.eu.org/img/espacece.png",
+      "formattedDate": "2026-02-18",
+      "index": 1293
     }
   ]
 }
