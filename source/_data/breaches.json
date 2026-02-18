@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-18T15:07:33.834Z",
-  "totalBreaches": 1292,
+  "lastUpdated": "2026-02-18T18:08:54.870Z",
+  "totalBreaches": 1293,
   "breaches": [
     {
       "Name": "gPotato",
@@ -52018,6 +52018,32 @@
       "path": "https://bonjourlafuite.eu.org/img/cnrs.png",
       "formattedDate": "2026-02-16",
       "index": 1291
+    },
+    {
+      "Name": "direction générale des finances publiques fuite du 2026-2-18",
+      "Title": "direction générale des finances publiques fuite du 2026-2-18",
+      "Domain": null,
+      "BreachDate": "2026-2-18",
+      "AddedDate": "2026-02-18T18:08:54.868Z",
+      "ModifiedDate": "2026-02-18T18:08:54.868Z",
+      "PwnCount": 0,
+      "Description": "-\n\nIdentité des détenteurs\nAdresse postale\nIdentifiant fiscal\nIBAN]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "direction-g-n-rale-des-finances-publiques-fuite-du-2026-2-18",
+      "path": "https://presse.economie.gouv.fr/acces-illegitimes-au-fichier-national-des-comptes-bancaires-ficoba/",
+      "formattedDate": "2026-02-18",
+      "index": 1292
     }
   ]
 }

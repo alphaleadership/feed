@@ -1,9 +1,9 @@
 RAPPORT - FUITES SANS NOMBRE DE PERSONNES IMPACTÉES
 =================================================
 
-Total des fuites analysées: 1292
-Fuites sans nombre d'impactés: 320
-Pourcentage: 24.77%
+Total des fuites analysées: 1293
+Fuites sans nombre d'impactés: 321
+Pourcentage: 24.83%
 
 LISTE DES FUITES CONCERNÉES:
 ============================
@@ -2884,6 +2884,15 @@ LISTE DES FUITES CONCERNÉES:
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-16
    - Date d'ajout: 2026-02-16T12:01:57.318Z
+   - PwnCount: 0
+   - Lien: Non disponible
+   - Vérifié: Non
+
+321. direction générale des finances publiques fuite du 2026-2-18
+   - Titre: direction générale des finances publiques fuite du 2026-2-18
+   - Domaine: Non spécifié
+   - Date de fuite: 2026-2-18
+   - Date d'ajout: 2026-02-18T18:08:54.868Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
