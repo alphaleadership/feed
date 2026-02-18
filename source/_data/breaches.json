@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-18T13:14:42.102Z",
-  "totalBreaches": 1291,
+  "lastUpdated": "2026-02-18T15:07:33.834Z",
+  "totalBreaches": 1292,
   "breaches": [
     {
       "Name": "gPotato",
@@ -51968,6 +51968,32 @@
       "index": 1289
     },
     {
+      "Name": "grain de malice fuite du 2026-2-13",
+      "Title": "grain de malice fuite du 2026-2-13",
+      "Domain": null,
+      "BreachDate": "2026-2-13",
+      "AddedDate": "2026-02-18T15:07:33.832Z",
+      "ModifiedDate": "2026-02-18T15:07:33.832Z",
+      "PwnCount": 0,
+      "Description": "-\n\nNom\nprénom\nAdresse électronique\nNuméro de téléphone]>\n\n",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "grain-de-malice-fuite-du-2026-2-13",
+      "path": "https://bonjourlafuite.eu.org/img/grain-malice.png",
+      "formattedDate": "2026-02-13",
+      "index": 1290
+    },
+    {
       "Name": "cnrs fuite du 2026-2-16",
       "Title": "cnrs fuite du 2026-2-16",
       "Domain": null,
@@ -51991,7 +52017,7 @@
       "slug": "cnrs-fuite-du-2026-2-16",
       "path": "https://bonjourlafuite.eu.org/img/cnrs.png",
       "formattedDate": "2026-02-16",
-      "index": 1290
+      "index": 1291
     }
   ]
 }

@@ -1,9 +1,9 @@
 RAPPORT - FUITES SANS NOMBRE DE PERSONNES IMPACTÉES
 =================================================
 
-Total des fuites analysées: 1291
-Fuites sans nombre d'impactés: 319
-Pourcentage: 24.71%
+Total des fuites analysées: 1292
+Fuites sans nombre d'impactés: 320
+Pourcentage: 24.77%
 
 LISTE DES FUITES CONCERNÉES:
 ============================
@@ -2870,7 +2870,16 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: Non disponible
    - Vérifié: Non
 
-319. cnrs fuite du 2026-2-16
+319. grain de malice fuite du 2026-2-13
+   - Titre: grain de malice fuite du 2026-2-13
+   - Domaine: Non spécifié
+   - Date de fuite: 2026-2-13
+   - Date d'ajout: 2026-02-18T15:07:33.832Z
+   - PwnCount: 0
+   - Lien: Non disponible
+   - Vérifié: Non
+
+320. cnrs fuite du 2026-2-16
    - Titre: cnrs fuite du 2026-2-16
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-16
