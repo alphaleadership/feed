@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-18T20:58:22.000Z",
-  "totalBreaches": 1294,
+  "lastUpdated": "2026-02-20T04:49:21.849Z",
+  "totalBreaches": 1295,
   "breaches": [
     {
       "Name": "gPotato",
@@ -52070,6 +52070,33 @@
       "path": "https://bonjourlafuite.eu.org/img/espacece.png",
       "formattedDate": "2026-02-18",
       "index": 1293
+    },
+    {
+      "Name": "CarMax",
+      "Title": "CarMax",
+      "Domain": "carmax.com",
+      "BreachDate": "2026-01-24",
+      "AddedDate": "2026-02-20T03:48:30Z",
+      "ModifiedDate": "2026-02-20T03:48:30Z",
+      "PwnCount": 431371,
+      "Description": "In January 2026, <a href=\"https://undercodenews.com/massive-carmax-data-breach-sparks-alarm-across-us-500000-records-stolen-by-shinyhunters/\" target=\"_blank\" rel=\"noopener\">data allegedly sourced from US automotive retailer CarMax was published online following a failed extortion attempt</a>. The data included 431k unique email addresses along with names, phone numbers and physical addresses.",
+      "LogoPath": "https://logos.haveibeenpwned.com/CarMax.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [
+        "Email addresses",
+        "Names",
+        "Phone numbers",
+        "Physical addresses"
+      ],
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false
     }
   ]
 }
