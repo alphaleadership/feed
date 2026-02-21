@@ -1,7 +1,15 @@
-<div class="page-header bg-dark text-white rounded shadow-lg p-3 mb-4">
-  <h1 class="title text-uppercase letter-spacing-1">
+<div class="page-header bg-dark text-white rounded shadow-lg p-3 mb-4 d-flex justify-content-between align-items-center">
+  <h1 class="title text-uppercase letter-spacing-1 mb-0">
     <% if (config.subtitle){ %><%= config.subtitle %><% } else { %><%= config.title %><% } %>
   </h1>
+  <% if (site.data.breaches && site.data.breaches.breaches) { %>
+    <div class="breach-count">
+      <span class="badge badge-danger p-2" style="font-size: 1.2rem;">
+        <i class="fa fa-exclamation-triangle mr-2"></i>
+        <%= site.data.breaches.breaches.length %> fuites répertoriées
+      </span>
+    </div>
+  <% } %>
 </div>
 <script>
   window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };

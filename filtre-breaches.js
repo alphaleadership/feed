@@ -24,18 +24,6 @@ function saveData(data) {
     console.log(new chalk.Chalk().blue(`\nLe fichier ${DATA_FILE} a été mis à jour.`));
 }
 
-// Main menu
-async function promptMainMenu() {
-    const { actionInput } = await inquirer.default.prompt([
-        {
-            type: 'input',
-            name: 'actionInput',
-            message: 'Que souhaitez-vous faire ? (valider/éditer/quitter)',
-        }
-    ]);
-    return actionInput;
-}
-
 // --- Validation Logic ---
 async function validateEntries(breaches) {
     const entriesToValidate = breaches.filter(entry => entry.validated === undefined);
@@ -274,25 +262,35 @@ async function main() {
     const data = loadData();
     let breaches = data.breaches || [];
 
-    let exitApp = false;
-    while (!exitApp) {
-        const rawAction = await promptMainMenu();
-        const action = rawAction ? rawAction.toLowerCase().trim() : '';
+    const args = process.argv.slice(2);
+    const command = args[0] ? args[0].toLowerCase().trim() : '';
 
-        if (action === '') { // Handles empty input or cancellation of the input prompt
-            console.log(new chalk.Chalk().yellow('\nSélection annulée ou entrée vide. Opération interrompue.'));
-            exitApp = true; 
-        } else if (action.startsWith('v')) { // 'valider'
-            const { modifiedBreaches, stats } = await validateEntries(breaches);
-            data.breaches = modifiedBreaches;
-            data.lastUpdated = new Date().toISOString();
-            saveData(data);
-            console.log(new chalk.Chalk().cyan('\n----------------------------------------'));
-            console.log(new chalk.Chalk().bold.green('Validation terminée !'));
+    if (command === 'valider' || command === 'v') {
+        const { modifiedBreaches, stats } = await validateEntries(breaches);
+        data.breaches = modifiedBreaches;
+        data.lastUpdated = new Date().toISOString();
+        saveData(data);
+        console.log(new chalk.Chalk().cyan('\n----------------------------------------'));
+        console.log(new chalk.Chalk().bold.green('Validation terminée !'));
+        if (stats && stats.validatedCount !== undefined) {
             console.log(`- ${stats.validatedCount} entrées validées (dont ${stats.nsfwCount} NSFW)`);
             console.log(`- ${stats.rejectedCount} entrées supprimées`);
             console.log(`- ${stats.skippedCount} entrées sautées`);
-        } else if (action.startsWith('e')) { // 'éditer'
+        }
+    } else if (command === 'éditer' || command === 'editer' || command === 'e') {
+        if (args.length >= 3) {
+            const name = args[1];
+            const pwnCount = Number(args[2]);
+            const breach = breaches.find(b => b.Name === name);
+            if (!breach) {
+                console.error(new chalk.Chalk().red(`Erreur: Brèche "${name}" non trouvée.`));
+                process.exit(1);
+            }
+            breach.PwnCount = pwnCount;
+            data.lastUpdated = new Date().toISOString();
+            saveData(data);
+            console.log(new chalk.Chalk().green(`Brèche "${name}" mise à jour avec PwnCount: ${pwnCount}`));
+        } else {
             const modifiedBreaches = await editEntry(breaches);
             data.breaches = modifiedBreaches;
             data.lastUpdated = new Date().toISOString();
@@ -309,13 +307,15 @@ async function main() {
             } else {
                 console.log(new chalk.Chalk().yellow("Modifications annulées."));
             }
-        } else if (action.startsWith('q')) { // 'quitter'
-            console.log('Au revoir !');
-            exitApp = true;
-        } else {
-            console.log(new chalk.Chalk().red('\nChoix non reconnu. Veuillez taper "valider", "éditer" ou "quitter".'));
         }
-        console.log('\n'); // Add a newline for better spacing before next prompt
+    } else {
+        if (command && command !== 'quitter' && command !== 'q') {
+            console.log(new chalk.Chalk().red(`Commande non reconnue: ${command}`));
+        }
+        console.log(new chalk.Chalk().cyan('Usage:'));
+        console.log('  node filtre-breaches.js valider           - Lance la validation interactive');
+        console.log('  node filtre-breaches.js editer <nom> <pwn> - Édite le PwnCount d\'une brèche directement');
+        console.log('  node filtre-breaches.js editer            - Lance l\'édition interactive');
     }
 }
 main().catch(error => {

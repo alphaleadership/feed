@@ -20,6 +20,7 @@ hexo.extend.filter.register('before_generate', function() {
       // On évite d'ajouter si un post avec le même titre existe déjà (doublons potentiels)
       const virtualPost = {
         title: breach.Title || breach.Name,
+        slug: breach.slug || (breach.Name ? breach.Name.replace(/\s+/g, '-').toLowerCase() : breach.index),
         date: new Date(breach.BreachDate || breach.AddedDate),
         updated: new Date(breach.ModifiedDate || breach.AddedDate),
         content: breach.Description || '',
@@ -42,6 +43,6 @@ hexo.extend.filter.register('before_generate', function() {
 
     this.log.info(`Inject-Breaches: ${breaches.length} fuites injectées dans le flux de génération.`);
   } catch (err) {
-    this.log.error('Inject-Breaches: Erreur lors de l'injection', err);
+    this.log.error('Inject-Breaches: Erreur lors de l\'injection', err);
   }
 });
