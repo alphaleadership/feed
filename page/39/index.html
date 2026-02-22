@@ -1,0 +1,541 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+<script defer src="https://cloud.umami.is/script.js" data-website-id="3114a86e-6e66-4953-b19f-40491a63d444"></script>
+  <meta charset="utf-8">
+
+  
+  <title>Page 39 | veille</title>
+  <meta name="author" content="arbinger">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  
+  <meta property="og:site_name" content="veille"/>
+
+  
+    <meta property="og:image" content=""/>
+  
+
+  
+    <link rel="alternative" href="/atom.xml" title="veille" type="application/atom+xml">
+  
+  <link rel="alternate" type="application/atom+xml" title="veille" href="https://feed-blush.vercel.app/atom.xml" />
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/themes/cerulean.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight-default.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/comment.css" media="screen" type="text/css">
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.7/es5-sham.min.js"></script>
+  <![endif]-->
+    <script src="/js/search.js"></script>
+  <script src="/js/jquery-2.0.3.min.js"></script>
+  
+  
+  <!-- analytics -->
+  
+
+
+
+<!-- hexo injector head_end start --><script src="./func.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 8.1.1"></head>
+
+  <body class="bg-dark text-light">
+    <nav id="main-nav" class="navbar navbar-dark bg-dark shadow-lg navbar-expand-lg navbar-fixed-top" role="navigation">
+  <div class="container">
+  
+    <a class="navbar-brand text-uppercase fw-bold" href="/">veille</a>
+    <div class="collapse navbar-collapse nav-menu">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        
+          <li class="nav-item">
+            <a href="/archives" title="All the articles." class="nav-link text-light text-uppercase fw-bold">
+              <i class="fa fa-archive fs-5 me-2"></i>Archives
+            </a>
+          </li>
+        
+          <li class="nav-item">
+            <a href="/category" title="toute les catégorie " class="nav-link text-light text-uppercase fw-bold">
+              <i class="fa fa-archive fs-5 me-2"></i>catégorie
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+<div id="ecoindex-badge" data-theme="dark"></div>
+<script src="https://cdn.jsdelivr.net/gh/cnumr/ecoindex_badge@3/assets/js/ecoindex-badge.js" defer></script>
+    <div class="container">
+      <div class="page-header bg-dark text-white rounded shadow-lg p-3 mb-4 d-flex justify-content-between align-items-center">
+  <h1 class="title text-uppercase letter-spacing-1 mb-0">
+    fuites de donnée en cours
+  </h1>
+  
+    <div class="breach-count">
+      <span class="badge badge-danger p-2" style="font-size: 1.2rem;">
+        <i class="fa fa-exclamation-triangle mr-2"></i>
+        1386 fuites répertoriées
+      </span>
+    </div>
+  
+</div>
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
+<script>
+  window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/speed-insights/script.js"></script>
+<div class="row page">
+<script src="https://feed-blush.vercel.app/js/index.js"></script>
+
+	
+	<div class="col-md-9">
+	
+
+	<!-- Système de notes - Catégories les plus fréquentes -->
+	<div class="category-stats card shadow-sm mb-4">
+		<div class="card-header bg-dark text-white">
+			<h3 class="mb-0">📊 entreprise ayant eu le plus de fuite </h3>
+			<small class="text-muted" id="breach-count">Chargement...</small>
+		</div>
+		<div class="card-body">
+			<div class="row" id="category-container">
+				<div class="col-12 text-center py-5">
+					<div class="spinner-border text-primary" role="status">
+						<span class="visually-hidden">Chargement...</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		const invalidcategory=["hygiène numérique","sécurité","cybersécurité","cybercriminalité","cyberguerre"]
+		// Charger et analyser les données avec fetch
+		fetch('https://feed-blush.vercel.app/data/breaches.json')
+			.then(response => response.json())
+			.then(data => {
+				const categoryBreaches = {};
+				
+				// Associer chaque catégorie avec ses fuites
+				data.breaches.filter((item)=>{return ! item.isRetired}).forEach(breach => {
+					if (breach.categories && Array.isArray(breach.categories)) {
+						breach.categories.map(item=>{
+							return item.split("fuite")[0]
+						}).forEach(category => {
+							if(category==""){
+								return
+							}
+								if(!isNaN(parseInt(category))){
+								invalidcategory.push(category)
+							}
+							if(invalidcategory.includes(category.toLowerCase())){
+								return
+							}
+						
+							if (!categoryBreaches[category.toLowerCase()]) {
+								categoryBreaches[category.toLowerCase()] = [];
+							}
+							categoryBreaches[category.toLowerCase()].push({
+								name: breach.Name,
+								title: breach.Title,
+								slug: breach.slug,
+								path: breach.index,
+								pwnCount: breach.PwnCount,
+								date: breach.BreachDate,
+								nsfw:breach.isNSFW
+							});
+						});
+					}
+				});
+				console.log(categoryBreaches)
+				// Trier et prendre les 15 premiers
+				const sortedCategories = Object.entries(categoryBreaches)
+					.sort((a, b) => b[1].length - a[1].length)
+					.slice(0, 15)
+					.map(([name, breaches]) => ({ 
+						name:name||"inconnu", 
+						count: breaches.length,
+						breaches: breaches.sort((a, b) => b.pwnCount - a.pwnCount).slice(0, 50),
+						percentage: ((breaches.length / data.totalBreaches) * 100).toFixed(1) 
+					}));
+				
+				// Mettre à jour le compteur
+				document.getElementById('breach-count').textContent = 
+					`Basé sur ${data.totalBreaches.toLocaleString()} fuites analysées`;
+				
+				// Générer le HTML des catégories
+				const container = document.getElementById('category-container');
+				container.innerHTML = sortedCategories.map((cat, idx) => {
+					const borderClass = idx < 3 ? 'border-danger' : idx < 8 ? 'border-warning' : 'border-info';
+					const badgeClass = idx < 3 ? 'bg-danger' : idx < 8 ? 'bg-warning text-dark' : 'bg-info';
+					
+					const breachLinks = cat.breaches.map(breach => 
+						`<li class="breach-link-item ${breach.nsfw ? 'border-warning' : 'border-info'}">
+
+							<a href="https://feed-blush.vercel.app/fuites?id=${breach.path}" class="text-decoration-none">
+								${breach.title} <span class="text-muted small">(${(breach.pwnCount / 1000000).toFixed(1)}M)</span>
+							</a>
+						</li>`
+					).join('');
+					
+					return `
+						<div class="col-md-4 col-sm-6 mb-3">
+							<div class="note-card p-3 border rounded ${borderClass} h-100">
+								<div class="d-flex justify-content-between align-items-center mb-2">
+									<span class="badge ${badgeClass} fs-6">#${idx + 1}</span>
+									<span class="text-muted small">${cat.percentage}%</span>
+								</div>
+								<h5 class="mb-2">${cat.name}</h5>
+								<p class="mb-2 text-muted"><strong>${cat.count.toLocaleString()}</strong> fuites</p>
+								<details class="breach-details">
+									<summary class="text-primary" style="cursor: pointer;">Top 5 fuites</summary>
+									<ul class="breach-list mt-2 ps-3">
+										${breachLinks}
+									</ul>
+								</details>
+							</div>
+						</div>
+					`;
+				}).join('');
+			})
+			.catch(error => {
+				console.error('Erreur chargement des données:', error);
+				document.getElementById('category-container').innerHTML = 
+					'<div class="col-12 text-center text-danger">Erreur de chargement des données</div>';
+			});
+	</script>
+
+	<style>
+		.category-stats {
+			background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+			border: none;
+		}
+		.category-stats .card-header {
+			background: rgba(0,0,0,0.5) !important;
+			border-bottom: 2px solid rgba(255,255,255,0.1);
+		}
+		.category-stats .card-header h3 {
+			color: #fff;
+		}
+		.category-stats .card-header small {
+			color: #aaa !important;
+		}
+		.category-stats .card-body {
+			background: #1e1e2e;
+			padding: 1.5rem;
+		}
+		.note-card {
+			transition: transform 0.2s, box-shadow 0.2s;
+			background: linear-gradient(145deg, #252538 0%, #2a2a3e 100%);
+			border-color: rgba(255,255,255,0.1) !important;
+		}
+		.note-card:hover {
+			transform: translateY(-5px);
+			box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+			background: linear-gradient(145deg, #2a2a3e 0%, #2f2f48 100%);
+		}
+		.note-card h5 {
+			color: #e0e0e0;
+		}
+		.note-card .text-muted {
+			color: #999 !important;
+		}
+		.breach-details summary {
+			font-size: 0.9rem;
+			font-weight: 500;
+			margin-top: 0.5rem;
+			color: #6c9fff;
+		}
+		.breach-details[open] summary {
+			margin-bottom: 0.5rem;
+		}
+		.breach-list {
+			list-style: none;
+			padding-left: 0;
+			font-size: 0.85rem;
+		}
+		.breach-link-item {
+			padding: 0.25rem 0;
+			border-bottom: 1px solid rgba(255,255,255,0.05);
+		}
+		.breach-link-item:last-child {
+			border-bottom: none;
+		}
+		.breach-link-item a {
+			color: #b8b8d1;
+			transition: color 0.2s;
+		}
+		.breach-link-item a:hover {
+			color: #8ab4ff;
+		}
+		.breach-link-item .text-muted {
+			color: #666 !important;
+		}
+		.spinner-border {
+			color: #6c9fff !important;
+		}
+	</style>
+
+		
+<div class="slogan">
+      <i class="fa fa-heart"></i>
+      liste des fuites trouvées
+</div>
+
+
+		<div id="top_search"></div>
+		<div class="mypage">
+		
+		<!-- title and entry -->
+        <!-- render top articles firstly -->
+     
+		</div>
+
+		<!-- pagination -->
+		<div>
+  		<center>
+		<div class="pagination">
+<ul class="pagination">
+	 
+		
+		<li class="prev"><a href="/page/38/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i> Prev</a></li>
+  		
+
+        <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+
+		
+		   <li class="next"> <a href="/page/40/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a> </li>
+        
+	
+</ul>
+</div>
+
+  		</center>
+		</div>
+
+		
+		
+	</div> <!-- col-md-9 -->
+
+	
+		<div class="col-md-3">
+	<div id="sidebar">
+	
+			
+  <div id="site_search">
+   <div class="form-group">
+    <input type="text" id="local-search-input" name="q" results="0" placeholder="Search" class="st-search-input st-default-search-input form-control"/>
+   </div>  
+  <div id="local-search-result"></div>
+  </div>
+
+
+		
+			<div class="widget card border-0 shadow-lg mb-4 bg-gradient">
+  
+</div>
+
+		
+			
+
+		
+			
+
+		
+			
+  <div class="widget card border-0 shadow-lg mb-4 bg-gradient">
+    <div class="card-header bg-dark text-white d-flex align-items-center border-0">
+      <i class="bi bi-clock-history me-2 fs-4"></i>
+      <h5 class="mb-0 flex-grow-1 text-uppercase letter-spacing-1">Recent Posts</h5>
+    </div>
+    <div class="card-body p-3">
+      <ul class="list-group list-group-flush">
+        
+          <li class="list-group-item border-0 bg-transparent">
+            <a href="/2026/01/07/corse-gsm-fuite-du-2026-1-7/"  class="fw-bold text-primary text-uppercase text-decoration-none">
+              <i class="bi bi-file-earmark-text me-1"></i>corse gsm fuite du 2026-1-7
+            </a>
+          </li>
+        
+          <li class="list-group-item border-0 bg-transparent">
+            <a href="/2026/01/07/easycash-fuite-du-2026-1-7/"  class="fw-bold text-primary text-uppercase text-decoration-none">
+              <i class="bi bi-file-earmark-text me-1"></i>easycash fuite du 2026-1-7
+            </a>
+          </li>
+        
+          <li class="list-group-item border-0 bg-transparent">
+            <a href="/2026/01/07/f-d-ration-fran-aise-de-squash-fuite-du-2026-1-7/"  class="fw-bold text-primary text-uppercase text-decoration-none">
+              <i class="bi bi-file-earmark-text me-1"></i>fédération française de squash fuite du 2026-1-7
+            </a>
+          </li>
+        
+          <li class="list-group-item border-0 bg-transparent">
+            <a href="/2026/01/07/f-d-ration-fran-aise-d-ulm-fuite-du-2026-1-7/"  class="fw-bold text-primary text-uppercase text-decoration-none">
+              <i class="bi bi-file-earmark-text me-1"></i>fédération française d’ulm fuite du 2026-1-7
+            </a>
+          </li>
+        
+          <li class="list-group-item border-0 bg-transparent">
+            <a href="/2026/01/07/f-d-ration-sportive-et-gymnique-du-travail-fuite-du-2026-1-7/"  class="fw-bold text-primary text-uppercase text-decoration-none">
+              <i class="bi bi-file-earmark-text me-1"></i>fédération sportive et gymnique du travail fuite du 2026-1-7
+            </a>
+          </li>
+        
+          <li class="list-group-item border-0 bg-transparent">
+            <a href="/2026/01/07/philharmonie-de-paris-fuite-du-2026-1-7/"  class="fw-bold text-primary text-uppercase text-decoration-none">
+              <i class="bi bi-file-earmark-text me-1"></i>philharmonie de paris fuite du 2026-1-7
+            </a>
+          </li>
+        
+          <li class="list-group-item border-0 bg-transparent">
+            <a href="/2026/01/05/office-fran-ais-de-l-immigration-et-de-l-int-gration-fuite-du-2026-1-5/"  class="fw-bold text-primary text-uppercase text-decoration-none">
+              <i class="bi bi-file-earmark-text me-1"></i>office français de l’immigration et de l’intégration fuite du 2026-1-5
+            </a>
+          </li>
+        
+          <li class="list-group-item border-0 bg-transparent">
+            <a href="/2026/01/02/trescal-fuite-du-2026-1-2/"  class="fw-bold text-primary text-uppercase text-decoration-none">
+              <i class="bi bi-file-earmark-text me-1"></i>trescal fuite du 2026-1-2
+            </a>
+          </li>
+        
+          <li class="list-group-item border-0 bg-transparent">
+            <a href="/2026/01/02/afppcd-fuite-du-2026-1-2/"  class="fw-bold text-primary text-uppercase text-decoration-none">
+              <i class="bi bi-file-earmark-text me-1"></i>afppcd fuite du 2026-1-2
+            </a>
+          </li>
+        
+          <li class="list-group-item border-0 bg-transparent">
+            <a href="/2025/12/31/institut-polytechnique-de-paris-fuite-du-2025-12-31/"  class="fw-bold text-primary text-uppercase text-decoration-none">
+              <i class="bi bi-file-earmark-text me-1"></i>institut polytechnique de paris fuite du 2025-12-31
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+		
+			
+  <div class="widget card border-0 shadow-lg mb-4 bg-gradient">
+    <div class="card-header bg-dark text-white d-flex align-items-center border-0">
+      <i class="bi bi-link-45deg me-2 fs-4"></i>
+      <h5 class="mb-0 flex-grow-1 text-uppercase letter-spacing-1">Links</h5>
+    </div>
+    <div class="card-body p-3">
+      <ul class="list-group list-group-flush">
+        
+          <li class="list-group-item d-flex align-items-center border-0 bg-transparent">
+            <i class="fa fa-github me-2 fs-5"></i>
+            <a href="https://github.com/alphaleadership/feed/" title="le code ." target="_blank" class="fw-bold text-primary text-uppercase text-decoration-none">
+              code
+            </a>
+          </li>
+        
+          <li class="list-group-item d-flex align-items-center border-0 bg-transparent">
+            <i class="fa fa-github me-2 fs-5"></i>
+            <a href="https://github.com/alphaleadership/" title="My Github account." target="_blank" class="fw-bold text-primary text-uppercase text-decoration-none">
+              My Github
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+		
+			<div class="widget card border-0 shadow-lg mb-4 bg-gradient">
+  <div class="card-header bg-dark text-white d-flex align-items-center border-0">
+    <i class="bi bi-rss me-2 fs-4"></i>
+    <h5 class="mb-0 flex-grow-1 text-uppercase letter-spacing-1">RSS</h5>
+  </div>
+  <div class="card-body p-3">
+    <a href="/atom.xml" target="_blank" title="rss" class="btn btn-outline-warning w-100 text-uppercase fw-bold">
+      <i class="bi bi-rss me-1"></i> RSS Feed
+    </a>
+  </div>
+</div>
+
+		
+	</div> <!-- sidebar -->
+</div> <!-- col-md-3 -->
+
+	
+
+</div> <!-- row-fluid -->
+
+
+    </div>
+    <div class="container-narrow">
+      <footer> <p>
+  &copy; 2024-2028 arbinger
+  
+      
+</p> </footer>
+    </div> <!-- container-narrow -->
+    
+
+
+    
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/search.js"></script> 
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+
+   <script type="text/javascript">      
+     var search_path = "search.xml";
+	 if (search_path.length == 0) {
+	 	search_path = "search.xml";
+	 }
+	 var path = "/" + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+   </script>
+
+
+<!-- syntax highlighting -->
+
+
+    <script>
+      window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+    <script>
+      window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/speed-insights/script.js"></script>
+  </body>
+</html>
