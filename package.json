@@ -8,6 +8,7 @@
     "deploy": "hexo deploy --config build.yml",
     "server": "hexo server",
     "import": "node scripts/import.js",
+    "import:remote": "node import-remote-breaches.js",
     "add:breach": "node scripts/add-breach.js"
   },
   "hexo": {
@@ -19,6 +20,7 @@
     "chalk": "^5.6.2",
     "dotenv": "^17.2.4",
     "enquirer": "^2.4.1",
+    "fuse.js": "^7.1.0",
     "hexo": "^8.1.1",
     "hexo-abbrlink3": "^1.0.2",
     "hexo-bridge": "^2.0.4",
