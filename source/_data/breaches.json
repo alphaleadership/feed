@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-21T15:26:51.741Z",
-  "totalBreaches": 1496,
+  "lastUpdated": "2026-02-22T05:40:12.348Z",
+  "totalBreaches": 1497,
   "breaches": [
     {
       "Name": "gPotato",
@@ -55105,6 +55105,34 @@
       "LogoPath": "https://www.francebleu.fr/pikapi/images/a7eb5fe2-8fdb-471d-9e5d-b15bc751eda6/1200x680?webp=false",
       "slug": "innovorder",
       "index": 1495
+    },
+    {
+      "Name": "CarGurus",
+      "Title": "CarGurus",
+      "Domain": "cargurus.com",
+      "BreachDate": "2026-02-14",
+      "AddedDate": "2026-02-22T04:43:54Z",
+      "ModifiedDate": "2026-02-22T04:43:54Z",
+      "PwnCount": 12461887,
+      "Description": "In February 2026, <a href=\"https://www.theregister.com/2026/02/18/shinyhunters_cargurus_breach/\" target=\"_blank\" rel=\"noopener\">the automotive marketplace CarGurus was the target of a data breach attributed to the threat actor ShinyHunters</a>. Following an attempted extortion, the data was published publicly and contained more than 12M email addresses across multiple files including user account ID mappings, finance pre-qualification application data and dealer account and subscription information. Impacted data also included names, phone numbers, physical and IP addresses, and auto finance application outcomes.",
+      "LogoPath": "https://logos.haveibeenpwned.com/CarGurus.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [
+        "Email addresses",
+        "IP addresses",
+        "Names",
+        "Phone numbers",
+        "Physical addresses"
+      ],
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false
     }
   ]
 }
