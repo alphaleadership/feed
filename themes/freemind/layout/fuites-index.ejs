@@ -1,130 +1,288 @@
 <style>
+  :root {
+    --bg-main: #0f172a;
+    --bg-card: #1e293b;
+    --border-color: #334155;
+    --text-primary: #f8fafc;
+    --text-secondary: #cbd5e1;
+    --accent: #38bdf8;
+    --accent-hover: #7dd3fc;
+    --danger-bg: #450a0a;
+    --danger-border: #991b1b;
+    --danger-text: #fecaca;
+  }
+
   #fuites-container {
-    padding: 2em;
-    font-family: sans-serif;
+    padding: 2em 0;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    color: var(--text-primary);
+    max-width: 1200px;
+    margin: 0 auto;
   }
-  .fuite-list-item {
-    border-bottom: 1px solid #eee;
-    padding: 1em 0;
-  }
-  .fuite-list-item a {
-    font-size: 1.2em;
-    text-decoration: none;
-    color: #fa0505;
-  }
-  .fuite-list-item p {
-    color: #e00a0a;
-    margin: 0.5em 0 0 0;
-  }
-  .breach-details {
-    padding: 0;
-  }
-  .breach-header {
-    border-bottom: 2px solid #eee;
+  
+  .fuites-header {
+    margin-bottom: 2em;
+    border-bottom: 1px solid var(--border-color);
     padding-bottom: 1em;
-    margin-bottom: 1em;
   }
-  .breach-header h1 {
-    font-size: 2.5em;
-    margin: 0;
+
+  .fuites-header h1 {
+    font-size: 2em;
+    font-weight: 600;
+    margin: 0 0 0.5em 0;
   }
-  .breach-meta {
-    display: flex;
-    gap: 2em;
-    margin-top: 1em;
-    color: #555;
+
+  .fuite-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5em;
   }
-  .meta-item {
+
+  .fuite-card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.5em;
     display: flex;
     flex-direction: column;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   }
-  .meta-label {
-    font-weight: bold;
+
+  .fuite-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border-color: var(--accent);
+  }
+
+  .fuite-card a.title-link {
+    font-size: 1.25em;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--accent);
+    margin-bottom: 0.5em;
+    display: block;
+    word-break: break-word;
+  }
+
+  .fuite-card a.title-link:hover {
+    color: var(--accent-hover);
+  }
+
+  .fuite-card .date {
+    color: var(--text-secondary);
     font-size: 0.9em;
-    color: #f8f5f5;
+    margin-bottom: 1em;
   }
-  .meta-value {
-    font-size: 1.1em;
-  }
-  .breach-content {
-    margin-top: 2em;
-  }
-  .breach-content h2 {
-    font-size: 1.5em;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 0.5em;
-    margin-top: 1.5em;
-  }
-  .breach-content .description {
-    line-height: 1.6;
-  }
+
   .data-classes {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5em;
-    margin-top: 1em;
+    margin-top: auto;
   }
+
   .data-class {
-    background-color: #eef;
-    padding: 0.3em 0.8em;
-    border-radius: 15px;
-    font-size: 0.9em;
+    background-color: rgba(56, 189, 248, 0.1);
+    color: var(--accent);
+    padding: 0.2em 0.6em;
+    border-radius: 12px;
+    font-size: 0.8em;
+    border: 1px solid rgba(56, 189, 248, 0.2);
   }
+
   .nsfw-warning {
-    background-color: #fff3e0;
-    border: 1px solid #ff9800;
-    padding: 10px;
-    border-radius: 5px;
+    background-color: var(--danger-bg);
+    border: 1px solid var(--danger-border);
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+  }
+
+  .nsfw-warning h2, .nsfw-warning h3 {
+    margin: 0 0 10px 0;
+    color: var(--danger-text);
+    font-size: 1.1em;
+  }
+
+  .nsfw-warning p {
+    color: var(--danger-text);
+    font-size: 0.9em;
     margin-bottom: 10px;
+    opacity: 0.9;
   }
-  .nsfw-warning h2 {
-    margin: 0;
-    color: #ff5722;
-  }
-  .nsfw-link.hidden {
-    display: none;
-  }
+
   .show-nsfw-link {
-    background-color: #ff9800;
-    color: white;
+    background-color: var(--danger-border);
+    color: #fff;
     border: none;
-    padding: 5px 10px;
-    border-radius: 3px;
+    padding: 8px 12px;
+    border-radius: 4px;
     cursor: pointer;
     font-size: 0.9em;
+    font-weight: 500;
+    transition: background-color 0.2s;
+  }
+
+  .show-nsfw-link:hover {
+    background-color: #b91c1c;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+
+  /* Details View */
+  .breach-details {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 2em;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+
+  .breach-header {
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 1.5em;
+    margin-bottom: 1.5em;
+  }
+
+  .breach-header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: var(--text-primary);
+  }
+
+  .breach-meta-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5em;
+    margin-top: 1.5em;
+    background: var(--bg-main);
+    padding: 1.5em;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+  }
+
+  .meta-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .meta-label {
+    font-weight: 600;
+    font-size: 0.85em;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5em;
+  }
+
+  .meta-value {
+    font-size: 1.1em;
+    color: var(--text-primary);
+  }
+
+  .meta-value a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  .meta-value a:hover {
+    color: var(--accent-hover);
+    text-decoration: underline;
+  }
+
+  .breach-content {
+    margin-top: 2em;
+  }
+
+  .breach-content h2 {
+    font-size: 1.5em;
+    color: var(--text-primary);
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.5em;
+  }
+
+  .breach-content .description {
+    line-height: 1.7;
+    color: var(--text-secondary);
+    font-size: 1.05em;
+  }
+
+  .nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+    padding-top: 2em;
+    border-top: 1px solid var(--border-color);
+  }
+
+  .nav-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.7em 1.2em;
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.2s;
+    font-weight: 500;
+  }
+
+  .nav-btn:hover {
+    background-color: var(--border-color);
+    color: #fff;
+  }
+  
+  .nav-btn.primary {
+    background-color: rgba(56, 189, 248, 0.1);
+    color: var(--accent);
+    border-color: rgba(56, 189, 248, 0.2);
+  }
+  
+  .nav-btn.primary:hover {
+    background-color: var(--accent);
+    color: #0f172a;
   }
 </style>
 
 <div id="fuites-container">
   <h1>Chargement des données...</h1>
 </div>
-  <script> function confirmShowLink(event, index) {
-      event.preventDefault();
-      const userConfirmed = confirm("Ce lien mène vers un contenu NSFW. Êtes-vous sûr de vouloir l'afficher ?");
-      if (userConfirmed) {
-        const link = document.querySelector(`a[href="https://feed-blush.vercel.app/fuites?id=${index}"]`);
-        link.classList.remove('hidden');
-        event.target.style.display = 'none';
+
+<script>
+  function confirmShowLink(event, index) {
+    event.preventDefault();
+    const userConfirmed = confirm("Ce lien mène vers un contenu NSFW. Êtes-vous sûr de vouloir l'afficher ?");
+    if (userConfirmed) {
+      const link = document.querySelector(`a[data-nsfw-id="` + index + `"]`);
+      if (link) link.classList.remove('hidden');
+      event.target.style.display = 'none';
+      if(event.target.parentElement.querySelector('p')) {
+          event.target.parentElement.querySelector('p').style.display = 'none';
       }
     }
+  }
 
-    // Fonction pour afficher un lien externe NSFW dans les détails
-    function confirmShowExternalLink(event) {
-      event.preventDefault();
-      const userConfirmed = confirm("Ce lien mène vers un contenu NSFW. Êtes-vous sûr de vouloir l'ouvrir ?");
-      if (userConfirmed) {
-        const link = event.target.nextElementSibling;
-        link.classList.remove('hidden');
-        event.target.style.display = 'none';
-      }
-    }</script>
-<script>
+  function confirmShowExternalLink(event) {
+    event.preventDefault();
+    const userConfirmed = confirm("Ce lien mène vers un contenu NSFW. Êtes-vous sûr de vouloir l'ouvrir ?");
+    if (userConfirmed) {
+      const link = event.target.nextElementSibling;
+      if (link) link.classList.remove('hidden');
+      event.target.style.display = 'none';
+    }
+  }
+
   document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementById('fuites-container');
     const params = new URLSearchParams(window.location.search);
     const breachId = params.get('id');
 
-    // Le chemin vers le fichier JSON
     const dataUrl = '/data/breaches.json';
 
     fetch(dataUrl)
@@ -136,150 +294,151 @@
       })
       .then(data => {
         const invalidcategory=["hygiène numérique","sécurité","cybersécurité","cybercriminalité","cyberguerre"]
-        const breaches = data.breaches.filter((item) => !item.IsRetired)
+        const breaches = data.breaches.filter(item => !item.IsRetired);
         if (breachId !== null && breaches[breachId]) {
-          renderDetails(breaches[breachId], breachId);
+          renderDetails(breaches[breachId], breachId, breaches.length);
         } else {
           renderList(breaches);
         }
       })
       .catch(error => {
-        container.innerHTML = '<h1>Erreur</h1><p>Impossible de charger le fichier de données des fuites. Veuillez vérifier que le fichier <code>source/_data/breaches.json</code> existe et est accessible.</p><p>Détail de l\'erreur: ' + error + '</p>';
+        container.innerHTML = `<div class="breach-details">
+          <div class="nsfw-warning">
+            <h2>Erreur</h2>
+            <p>Impossible de charger le fichier de données des fuites. Veuillez vérifier que le fichier <code>source/_data/breaches.json</code> existe et est accessible.</p>
+            <p>Détail de l'erreur: ${error}</p>
+          </div>
+        </div>`;
       });
 
     function renderList(breaches) {
-      let html = '<h1>Liste des Fuites de Données</h1>';
-      if (!breaches || breaches.length === 0) {
-        html += '<p>Aucune fuite de données trouvée.</p>';
-        container.innerHTML = html;
+      const validBreaches = breaches.filter(item => !item.Name.includes('cve'));
+      
+      let html = `
+        <div class="fuites-header">
+          <h1>Liste des Fuites de Données</h1>
+          <p style="color: var(--text-secondary)">Total : ${validBreaches.length} incidents recensés</p>
+        </div>
+        <div class="fuite-grid">
+      `;
+      
+      if (!validBreaches || validBreaches.length === 0) {
+        container.innerHTML = '<div class="fuites-header"><h1>Liste des Fuites</h1><p>Aucune fuite trouvée.</p></div>';
         return;
       }
-      html += '<h1>Total : ' + breaches.length + '</h1>';
-      html += breaches.filter((item) => !item.Name.includes('cve'))
-        .map((breach, index) => `
-          <div class="fuite-list-item">
-            <script> function confirmShowLink(event, index) {
-      event.preventDefault();
-      const userConfirmed = confirm("Ce lien mène vers un contenu NSFW. Êtes-vous sûr de vouloir l'afficher ?");
-      if (userConfirmed) {
-        const link = document.querySelector(\`a[href="https://feed-blush.vercel.app/fuites?id=${index}"]\`);
-        link.classList.remove('hidden');
-        event.target.style.display = 'none';
-      }
-    }
 
-    // Fonction pour afficher un lien externe NSFW dans les détails
-    function confirmShowExternalLink(event) {
-      event.preventDefault();
-      const userConfirmed = confirm("Ce lien mène vers un contenu NSFW. Êtes-vous sûr de vouloir l'ouvrir ?");
-      if (userConfirmed) {
-        const link = event.target.nextElementSibling;
-        link.classList.remove('hidden');
-        event.target.style.display = 'none';
-      }
-    }<\/script>
-            ${breach.isNSFW ?
-              `
-              <div class="nsfw-warning">
-                <h2>⚠️ Attention : Lien potentiellement inadapté (NSFW)</h2>
-                <p>Ce lien peut contenir du contenu sensible.</p>
-                <button onclick="confirmShowLink(event, '${breach.index}')" class="show-nsfw-link">Afficher le lien</button>
-                <a href="https://feed-blush.vercel.app/fuites?id=${breach.index}" class="nsfw-link hidden">${breach.Title || breach.Name}</a>
-              </div>
-              ` :
-              `<a href="https://feed-blush.vercel.app/fuites?id=${breach.index}">${breach.Title || breach.Name}</a>`
-            }
-            <p>Date: ${new Date(breach.BreachDate).toLocaleDateString('fr-FR')}</p>
-            ${breach.DataClasses && breach.DataClasses.length > 0 ?
-              `
-              <h2>Données compromises</h2>
-              <div class="data-classes">
-                ${breach.DataClasses.map(item => `<span class="data-class">${item}</span>`).join('')}
-              </div>
-              ` : ''
-            }
+      html += validBreaches.map((breach) => {
+        let contentHtml = '';
+        if (breach.isNSFW) {
+          contentHtml = `
+            <div class="nsfw-warning">
+              <h3>⚠️ Contenu NSFW</h3>
+              <p>Ce lien peut contenir du contenu sensible.</p>
+              <button onclick="confirmShowLink(event, '${breach.index}')" class="show-nsfw-link">Révéler la fuite</button>
+              <a href="https://feed-blush.vercel.app/fuites?id=${breach.index}" data-nsfw-id="${breach.index}" class="title-link hidden">${breach.Title || breach.Name}</a>
+            </div>
+          `;
+        } else {
+          contentHtml = `<a href="https://feed-blush.vercel.app/fuites?id=${breach.index}" class="title-link">${breach.Title || breach.Name}</a>`;
+        }
+
+        let classesHtml = '';
+        if (breach.DataClasses && breach.DataClasses.length > 0) {
+          const displayClasses = breach.DataClasses.slice(0, 5);
+          const extra = breach.DataClasses.length > 5 ? `<span class="data-class">+${breach.DataClasses.length - 5}</span>` : '';
+          classesHtml = `
+            <div class="data-classes">
+              ${displayClasses.map(item => `<span class="data-class">${item}</span>`).join('')}
+              ${extra}
+            </div>
+          `;
+        }
+
+        return `
+          <div class="fuite-card">
+            ${contentHtml}
+            <div class="date">${new Date(breach.BreachDate).toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}</div>
+            ${classesHtml}
           </div>
-        `).join('');
+        `;
+      }).join('');
+      
+      html += '</div>';
       container.innerHTML = html;
     }
 
-    function renderDetails(breach, index) {
+    function renderDetails(breach, index, totalBreaches) {
+      const bIndex = parseInt(breach.index) || parseInt(index);
+
       let html = `
         <div class="breach-details">
           <div class="breach-header">
-            <h1>${breach.Title}</h1>
-            ${breach.isNSFW ?
-              `
-              <div class="nsfw-warning">
+            <h1>${breach.Title || breach.Name}</h1>
+            ${breach.isNSFW ? `
+              <div class="nsfw-warning" style="margin-top: 15px;">
                 <h2>⚠️ Attention : Contenu potentiellement inadapté (NSFW)</h2>
               </div>
-              ` : ''
-            }
-            <div class="breach-meta">
+            ` : ''}
+            
+            <div class="breach-meta-grid">
               <div class="meta-item">
                 <span class="meta-label">Date de la fuite</span>
                 <span class="meta-value">${new Date(breach.BreachDate).toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
-             
-                </div>
-              ${breach.PwnCount > 0 ?
-                `
+              </div>
+              
+              ${breach.PwnCount > 0 ? `
                 <div class="meta-item">
                   <span class="meta-label">Comptes affectés</span>
                   <span class="meta-value">${breach.PwnCount.toLocaleString('fr-FR')}</span>
                 </div>
-                ` : ''
-              }
-                    ${breach.Domain?
-                `
+              ` : ''}
+              
+              ${breach.Domain ? `
                 <div class="meta-item">
-                  <span class="meta-label">domaine</span>
-                  <a class="meta-value" href="http://${breach.Domain}">${breach.Domain}</span>
+                  <span class="meta-label">Domaine</span>
+                  <span class="meta-value"><a href="http://${breach.Domain}" target="_blank" rel="noopener noreferrer">${breach.Domain}</a></span>
                 </div>
-                ` : ` <div class="meta-item">
-                  <span class="meta-label">domaine</span>
-                  <span class="meta-value">${breach.Domain}</span>
-                </div>`
-              }
-
+              ` : `
+                <div class="meta-item">
+                  <span class="meta-label">Domaine</span>
+                  <span class="meta-value">Non spécifié</span>
+                </div>
+              `}
             </div>
           </div>
+          
           <div class="breach-content">
             <h2>Description</h2>
-            <div class="description">${breach.Description.replace("\n","</br>")}</div>
-            ${breach.DataClasses && breach.DataClasses.length > 0 ?
-              `
+            <div class="description">${breach.Description ? breach.Description.replace(/\\n/g, "<br/>") : 'Aucune description disponible.'}</div>
+            
+            ${breach.DataClasses && breach.DataClasses.length > 0 ? `
               <h2>Données compromises</h2>
               <div class="data-classes">
                 ${breach.DataClasses.map(item => `<span class="data-class">${item}</span>`).join('')}
               </div>
-              ` : ''
-            }
-            ${breach.lien ?
-              `
+            ` : ''}
+            
+            ${breach.lien || breach.path ? `
               <h2>Plus d'informations</h2>
               <p>
-                ${breach.isNSFW ?
-                  `
+                ${breach.isNSFW ? `
                   <button onclick="confirmShowExternalLink(event)" class="show-nsfw-link">Afficher le lien externe</button>
-                  <a href="${breach.lien||breach.path}" target="_blank" rel="noopener noreferrer" class="hidden">Annonce officielle de la fuite</a>
-                  ` :
-                  `<a href="${breach.lien||breach.path}" target="_blank" rel="noopener noreferrer">Annonce officielle de la fuite</a>`
-                }
+                  <a href="${breach.lien || breach.path}" target="_blank" rel="noopener noreferrer" class="hidden">Annonce officielle de la fuite</a>
+                ` : `
+                  <a href="${breach.lien || breach.path}" target="_blank" rel="noopener noreferrer">Annonce officielle de la fuite</a>
+                `}
               </p>
-              ` : ''
-            }
+            ` : ''}
+          </div>
+          
+          <div class="nav-buttons">
+            <a href="/fuites?id=${bIndex - 1}" class="nav-btn">&larr; Précédent</a>
+            <a href="/fuites/" class="nav-btn primary">Retour à la liste</a>
+            <a href="/fuites?id=${bIndex + 1}" class="nav-btn">Suivant &rarr;</a>
           </div>
         </div>
-        <hr>
-        <a href="/fuites?id=${parseInt(breach.index)-1}">Précédent</a>
-        <a href="/fuites/">Retour à la liste</a>
-        <a href="/fuites?id=${parseInt(breach.index)+1}">Suivant</a>
-      
       `;
       container.innerHTML = html;
     }
-
-    // Fonction pour afficher un lien NSFW dans la liste
-   
   });
 </script>

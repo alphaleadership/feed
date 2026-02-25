@@ -210,9 +210,11 @@ class breach {
           return dateA - dateB;
         });
 
-        // Ajouter l'index à chaque fuite
-        allBreaches.forEach((breach, idx) => {
-          breach.index = idx;
+        // Ajouter l'index à chaque fuite en ignorant les fuites retirées
+        let indexCounter = -1;
+        allBreaches.forEach((breach) => {
+          if (breach && !breach.IsRetired) indexCounter++;
+          if (breach) breach.index = indexCounter;
         });
 
         db.breaches = allBreaches;

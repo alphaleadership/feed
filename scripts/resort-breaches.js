@@ -55,9 +55,19 @@ db.breaches.forEach((breach, idx) => {
     }
     
     // Correction des liens HIBP
-    if (breach.lien && breach.lien.includes('undefined') && breach.path && breach.path.includes('breaches/')) {
-      const slug = breach.path.split('breaches/')[1];
-      if (slug) breach.lien = `https://haveibeenpwned.com/Breach/${slug}`;
+    if (!breach.lien || String(breach.lien).includes('undefined')) {
+      let slug = '';
+      if (breach.path && String(breach.path).includes('breaches/')) {
+        slug = breach.path.split('breaches/')[1];
+      } else if (breach.Name) {
+        slug = breach.Name;
+      }
+      
+      if (slug && slug !== 'undefined') {
+        breach.lien = `https://haveibeenpwned.com/Breach/${slug}`;
+      } else {
+        breach.lien = `https://haveibeenpwned.com/`;
+      }
     }
  if(!(breach.categories && Array.isArray(breach.categories))){
    
@@ -91,9 +101,12 @@ db.breaches.forEach((breach, idx) => {
       breach.isNSFW = nsfwTerms.some(term => descLower.includes(term.toLowerCase()));
     }
   }
-  if(!Object.keys(breach).includes("lien")){
-   // console.log("lien", breach.path)
-    breach.lien="https://haveibeenpwned.com/Breach/"+(breach.path||"").split("breaches/")[1]
+  if(!Object.keys(breach).includes("lien") || breach.lien === null || String(breach.lien).includes('undefined')){
+    let fixSlug = breach.Name;
+    if (breach.path && breach.path.includes("breaches/")) {
+       fixSlug = breach.path.split("breaches/")[1];
+    }
+    breach.lien = fixSlug && fixSlug !== 'undefined' ? "https://haveibeenpwned.com/Breach/" + fixSlug : "https://haveibeenpwned.com/";
   }
   if(breach?.validated){
     breach.IsRetired=false
