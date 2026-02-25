@@ -224,7 +224,7 @@ pre code {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding-right: 0.5em;
-  content: "\\f09e";
+  content: "\f09e";
 }
 
 /* Force sidebar to the side */
