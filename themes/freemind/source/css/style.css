@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
 /* =============================================================================
    Base structure for Freemind Theme
@@ -27,7 +27,7 @@ a {
 .post, .page {
   font-size: 1.2em;
   line-height: 1.5em;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
 pre code{
@@ -35,156 +35,200 @@ pre code{
 }
 
 /* =============================================================================
-   MATRIX THEME OVERRIDES
+   PROFESSIONAL DARK THEME OVERRIDES
    ========================================================================== */
 
 body {
-  color: #00FF41;
-  background-color: #000000;
+  color: #e2e8f0;
+  background-color: #0f172a;
 }
 
 a {
-  color: #39FF14;
+  color: #38bdf8;
+  transition: color 0.2s ease-in-out;
 }
 
 a:hover, a:focus {
-  color: #9effae;
+  color: #7dd3fc;
+  text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  color: #00FF41;
-  font-family: 'IBM Plex Mono', monospace;
-  text-shadow: 0 0 3px rgba(0, 255, 65, 0.4);
+  color: #f8fafc;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-weight: 600;
 }
 
 .navbar-default, .navbar-inverse {
-  background-color: #000000;
-  border-color: #005211;
+  background-color: #1e293b;
+  border-color: #334155;
   background-image: none;
-  box-shadow: none;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
-    color: #00FF41;
+    color: #e2e8f0;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #9effae;
-    background-color: #005211;
+    color: #38bdf8;
+    background-color: transparent;
+    font-weight: 500;
 }
 
 .btn-default {
-  color: #00FF41;
-  background-color: #1a1a1a;
-  border-color: #005211;
+  color: #e2e8f0;
+  background-color: #334155;
+  border-color: #475569;
   background-image: none;
+  border-radius: 6px;
+  transition: all 0.2s ease;
 }
 .btn-default:hover, .btn-default:focus {
-  color: #000000;
-  background-color: #9effae;
-  border-color: #9effae;
+  color: #f8fafc;
+  background-color: #475569;
+  border-color: #64748b;
 }
 
 .btn-primary {
-  color: #000000;
-  background-color: #39FF14;
-  border-color: #39FF14;
+  color: #0f172a;
+  background-color: #38bdf8;
+  border-color: #38bdf8;
   background-image: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.2s ease;
 }
 .btn-primary:hover, .btn-primary:focus {
-  color: #000000;
-  background-color: #9effae;
-  border-color: #9effae;
+  color: #0f172a;
+  background-color: #7dd3fc;
+  border-color: #7dd3fc;
 }
 
 .panel, .well, .list-group-item, .modal-content, .popover {
-    background-color: #000000;
-    color: #00FF41;
-    border-color: #005211;
+    background-color: #1e293b;
+    color: #e2e8f0;
+    border-color: #334155;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 .panel-heading {
-    background-color: #1a1a1a !important;
-    border-color: #005211 !important;
-    color: #00FF41 !important;
+    background-color: #334155 !important;
+    border-color: #475569 !important;
+    color: #f8fafc !important;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.list-group-item {
+    background-color: #1e293b;
+    border-color: #334155;
 }
 
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
-  background-color: #39FF14;
-  border-color: #39FF14;
-  color: #000;
+  background-color: #38bdf8;
+  border-color: #38bdf8;
+  color: #0f172a;
+  font-weight: 500;
 }
 
 .alert-info {
-  color: #9effae;
-  background-color: #005211;
-  border-color: #008a22;
+  color: #bae6fd;
+  background-color: #0c4a6e;
+  border-color: #0284c7;
+  border-radius: 6px;
 }
 
 .alert-success {
-  color: #39FF14;
-  background-color: #005211;
-  border-color: #008a22;
+  color: #bbf7d0;
+  background-color: #14532d;
+  border-color: #16a34a;
+  border-radius: 6px;
 }
 
 .alert-warning {
-  color: #E8D53A;
-  background-color: #2a2a00;
-  border-color: #E8D53A;
+  color: #fef08a;
+  background-color: #713f12;
+  border-color: #ca8a04;
+  border-radius: 6px;
 }
 
 .alert-danger {
-  color: #ff4136;
-  background-color: #581815;
-  border-color: #ff4136;
+  color: #fecaca;
+  background-color: #7f1d1d;
+  border-color: #dc2626;
+  border-radius: 6px;
 }
 
 code {
-  color: #9effae;
-  background-color: #1a1a1a;
+  color: #38bdf8;
+  background-color: #0f172a;
+  border-radius: 4px;
+  padding: 2px 4px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  border: 1px solid #334155;
 }
 
 pre {
-    background-color: #1a1a1a;
-    border: 1px solid #005211;
+    background-color: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 6px;
+    padding: 12px;
+}
+
+pre code {
+  color: #e2e8f0;
+  background-color: transparent;
+  padding: 0;
+  border: none;
 }
 
 .pagination > li > a, .pagination > li > span {
-    background-color: #000;
-    border-color: #005211;
+    background-color: #1e293b;
+    border-color: #334155;
+    color: #cbd5e1;
+}
+
+.pagination > li > a:hover, .pagination > li > span:hover {
+    background-color: #334155;
+    color: #f8fafc;
 }
 
 .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
-    background-color: #39FF14;
-    border-color: #39FF14;
-    color: #000;
+    background-color: #38bdf8;
+    border-color: #38bdf8;
+    color: #0f172a;
 }
 
 /* RSS button */
 .rsspart {
-  background: #39FF14;
+  background: #38bdf8;
+  border-radius: 6px;
+  transition: background-color 0.2s;
 }
 .rsspart a {
-  color: #fff;
+  color: #0f172a;
   display: block;
   padding: 0.625em 0;
   text-align: center;
   text-decoration: none;
+  font-weight: 600;
 }
 .rsspart a:hover {
-  color: #39FF14;
-  background: #fafafa;
+  background: #7dd3fc;
+  border-radius: 6px;
 }
 .rsspart a::before {
   font-family: "FontAwesome";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding-right: 0.5em;
-  content: "\f09e";
+  content: "\\f09e";
 }
 
 /* Force sidebar to the side */
-@media (min-width: 992px) { /* Apply for medium and larger devices */
+@media (min-width: 992px) {
   .row.page > .col-md-9,
   .row.post > .col-md-9 {
     float: left;
@@ -201,12 +245,12 @@ pre {
 /* Conseil Piratage Section */
 .piratage-advice {
   margin-top: 50px;
-  padding: 25px;
-  border: 1px solid #00ff00;
-  border-radius: 0;
-  background-color: #0d0d0d;
+  padding: 24px;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  background-color: #1e293b;
   text-align: center;
-  box-shadow: 0 0 10px #00ff00;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
 .piratage-advice h3 {
@@ -214,51 +258,63 @@ pre {
 }
 
 .piratage-advice h3 a {
-  color: #00ff00;
+  color: #38bdf8;
   text-decoration: none;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
   font-size: 1.5em;
-  text-shadow: 0 0 5px #00ff00;
+  font-weight: 600;
+}
+
+.piratage-advice h3 a:hover {
+  color: #7dd3fc;
 }
 
 .piratage-advice p {
-  color: #00cc00;
-  font-family: 'Courier New', Courier, monospace;
+  color: #cbd5e1;
+  font-size: 1.1em;
 }
 
 /* HIBP Search Form */
 .hibp-search-form {
   margin-top: 30px;
   margin-bottom: 30px;
-  padding: 20px;
-  border: 1px solid #00ff00;
-  background-color: #0d0d0d;
+  padding: 24px;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  background-color: #1e293b;
   text-align: center;
-  box-shadow: 0 0 10px #00ff00;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 .hibp-search-form input[type="email"] {
-  background-color: #000;
-  border: 1px solid #00ff00;
-  color: #00ff00;
-  padding: 10px;
+  background-color: #0f172a;
+  border: 1px solid #475569;
+  color: #f8fafc;
+  padding: 10px 14px;
   width: 70%;
-  font-family: 'Courier New', Courier, monospace;
+  border-radius: 6px;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
   margin-right: 10px;
+  transition: border-color 0.2s;
+}
+.hibp-search-form input[type="email"]:focus {
+  outline: none;
+  border-color: #38bdf8;
 }
 .hibp-search-form input[type="email"]::placeholder {
-  color: #009900;
+  color: #64748b;
 }
 .hibp-search-form button {
-  background-color: #00ff00;
-  border: 1px solid #00ff00;
-  color: #000;
-  padding: 10px 20px;
+  background-color: #38bdf8;
+  border: 1px solid #38bdf8;
+  border-radius: 6px;
+  color: #0f172a;
+  padding: 10px 24px;
   cursor: pointer;
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-weight: 600;
+  transition: all 0.2s ease;
 }
 .hibp-search-form button:hover {
-  background-color: #000;
-  color: #00ff00;
+  background-color: #7dd3fc;
+  border-color: #7dd3fc;
 }
