@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-24T12:38:10.476Z",
-  "totalBreaches": 1509,
+  "lastUpdated": "2026-02-25T07:32:52.015Z",
+  "totalBreaches": 1510,
   "breaches": [
     {
       "Name": "gPotato",
@@ -58518,6 +58518,37 @@
       "LogoPath": "https://logo-marque.com/wp-content/uploads/2020/11/Olympique-de-Marseille-Logo.png",
       "slug": "olympique-de-marseille",
       "index": 1508
+    },
+    {
+      "Name": "CanadianTire",
+      "Title": "Canadian Tire",
+      "Domain": "canadiantire.ca",
+      "BreachDate": "2025-10-02",
+      "AddedDate": "2026-02-25T06:53:25Z",
+      "ModifiedDate": "2026-02-25T06:53:25Z",
+      "PwnCount": 38306562,
+      "Description": "In October 2025, <a href=\"https://www.montechnicien.com/en/canadian-tire-in-crisis-42-million-accounts-exposed/\" target=\"_blank\" rel=\"noopener\">retailer Canadian Tire was the victim of a data breach</a> that exposed almost 42M records. The data contained 38M unique email addresses along with names, phone numbers and physical addresses. Passwords were stored as PBKDF2 hashes and for a subset of records, dates of birth and partial credit card data were also included (card type, expiry and masked card number). In <a href=\"https://corp.canadiantire.ca/English/Cyber-Incident/default.aspx\" target=\"_blank\" rel=\"noopener\">its disclosure notice</a>, Canadian Tire advised that the incident did not impact bank account information or loyalty program data.",
+      "LogoPath": "https://logos.haveibeenpwned.com/CanadianTire",
+      "Attribution": null,
+      "DisclosureUrl": "https://corp.canadiantire.ca/English/Cyber-Incident/default.aspx",
+      "DataClasses": [
+        "Dates of birth",
+        "Email addresses",
+        "Genders",
+        "Names",
+        "Partial credit card data",
+        "Passwords",
+        "Phone numbers",
+        "Physical addresses"
+      ],
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false
     }
   ]
 }
