@@ -33,10 +33,21 @@ async function updateHIBPBreaches() {
     });
 
     if (updated) {
+      db.breaches.sort((a, b) => {
+        const dateA = a && a.BreachDate ? new Date(a.BreachDate) : new Date(0);
+        const dateB = b && b.BreachDate ? new Date(b.BreachDate) : new Date(0);
+        return dateA - dateB;
+      });
+      let indexCounter = -1;
+      db.breaches.forEach((breach) => {
+        if (breach && !breach.IsRetired) indexCounter++;
+        if (breach) breach.index = indexCounter;
+      });
+      
       db.totalBreaches = db.breaches.length;
       db.lastUpdated = new Date().toISOString();
       fs.writeFileSync(breachesPath, JSON.stringify(db, null, 2));
-      console.log("✅ Base de données breaches.json mise à jour avec les données HIBP.");
+      console.log("✅ Base de données breaches.json mise à jour avec les données HIBP, triée et réindexée.");
     }
   } catch (err) {
     console.log("❌ Erreur lors de la récupération des données HIBP:", err.message);
