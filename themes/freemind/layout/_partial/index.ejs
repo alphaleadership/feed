@@ -79,18 +79,36 @@
 					}
 
 					// Stats pour les entreprises / sites
-					const compName = breach.Domain || breach.Title || breach.Name;
+					let compName = breach.Domain || breach.Title || breach.Name;
 					if (compName) {
-						if (!companyStats[compName]) {
-							companyStats[compName] = { 
+						let normName = compName.toLowerCase();
+						if (normName.includes('france travail') || normName.includes('pole emploi') || normName.includes('pôle emploi')) {
+							compName = 'France Travail';
+							breach.Domain = breach.Domain || 'francetravail.fr';
+						} else if (compName.toLowerCase().includes(' fuite du ')) {
+							compName = compName.replace(/ fuite du .*/i, '').trim();
+							// Capitaliser la première lettre si tout est en minuscules
+							if (compName === compName.toLowerCase()) {
+								compName = compName.charAt(0).toUpperCase() + compName.slice(1);
+							}
+						}
+
+						// Uniformiser la casse
+						const keyName = compName.toLowerCase();
+
+						if (!companyStats[keyName]) {
+							companyStats[keyName] = { 
 								name: compName, 
 								count: 0, 
 								pwnCount: 0,
 								domain: breach.Domain
 							};
 						}
-						companyStats[compName].count++;
-						companyStats[compName].pwnCount += (breach.PwnCount || 0);
+						companyStats[keyName].count++;
+						companyStats[keyName].pwnCount += (breach.PwnCount || 0);
+						if (breach.Domain && !companyStats[keyName].domain) {
+							companyStats[keyName].domain = breach.Domain;
+						}
 					}
 
 					if (breach.categories && Array.isArray(breach.categories)) {
