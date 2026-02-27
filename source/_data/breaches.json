@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-27T17:26:22.875Z",
+  "lastUpdated": "2026-02-27T17:38:48.479Z",
   "totalBreaches": 1401,
   "breaches": [
     {
@@ -27,7 +27,8 @@
       "IsRetired": false,
       "IsNative": true,
       "LogoPath": "https://w52.net.espci.fr/sites/www.espci.psl.eu/local/cache-vignettes/L600xH200/espci_baseline-couleur-copie-6aa60.png?1747763321",
-      "slug": "espci-paris"
+      "slug": "espci-paris",
+      "index": 1417
     },
     {
       "Name": "Westfield Club",
@@ -53,7 +54,8 @@
       "IsRetired": false,
       "IsNative": true,
       "LogoPath": "https://res.cloudinary.com/westfielddg/image/upload/w_3840/fl_sanitize/q_auto/v1731591483/Westfield%20Website%20-%20Global%20Repository/01%20-%20CORPORATE%20ASSETS/Logos%20Westfield%20Club/Logo_Westfield_club_mobile.svg",
-      "slug": "westfield-club"
+      "slug": "westfield-club",
+      "index": 1418
     },
     {
       "Name": "Cegedim",
