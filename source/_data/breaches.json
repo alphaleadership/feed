@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-27T22:59:44.992Z",
-  "totalBreaches": 1401,
+  "lastUpdated": "2026-02-27T23:35:00.534Z",
+  "totalBreaches": 1402,
   "breaches": [
     {
       "Name": "ESPCI Paris",
@@ -56,6 +56,31 @@
       "LogoPath": "https://res.cloudinary.com/westfielddg/image/upload/w_3840/fl_sanitize/q_auto/v1731591483/Westfield%20Website%20-%20Global%20Repository/01%20-%20CORPORATE%20ASSETS/Logos%20Westfield%20Club/Logo_Westfield_club_mobile.svg",
       "slug": "westfield-club",
       "index": 1418
+    },
+    {
+      "Name": "Eiffage (NextSend)",
+      "Title": "Eiffage (NextSend)",
+      "Domain": "eiffage.com",
+      "BreachDate": "2026-02-27",
+      "AddedDate": "2026-02-27T23:34:50.308Z",
+      "ModifiedDate": "2026-02-27T23:34:50.308Z",
+      "PwnCount": 175942,
+      "Description": "Le 25/02/2026, le groupe cybercriminel LAPSUS$ a revendiqué la publication d'une base de données de 175 942 enregistrements (collaborateurs et contacts externes) issue de la plateforme NextSend (Hegyd) utilisée par Eiffage contenus dans 77 fichiers issus du piratage. La fuite expose des informations d'identité, techniques, mais aussi des données commerciales et financières sensibles (SIRET, CA, niveau de satisfaction).\n\nStatut: Confirmée\nType de service: BTP / Concessions",
+      "DataClasses": [
+        "État civil (Nom, prénom, email, société)",
+        "Identifiants (Logins, mots de passe hachés bcrypt/SHA-512)",
+        "Données techniques (Adresse IP, User-Agent, logs de connexion)",
+        "Données commerciales (SIRET, n° TVA, CA, niveau de satisfaction, secteur d'activité)",
+        "Métadonnées (Historiques d'envois, carnets d'adresses, suivi des téléchargements)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://openmindconseil.fr/wp-content/uploads/2015/04/Eiffage.svg_.png",
+      "slug": "eiffage-nextsend"
     },
     {
       "Name": "Cegedim",
