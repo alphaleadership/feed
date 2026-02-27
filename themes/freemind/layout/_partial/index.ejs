@@ -7,6 +7,38 @@
 	<div class="col-md-12">
 	<% } %>
 
+	<!-- Données les plus fuitées -->
+	<div class="dataclass-stats card shadow-sm mb-4" style="background: linear-gradient(135deg, #2e1a1a 0%, #3e1616 100%); border: none;">
+		<div class="card-header bg-dark text-white" style="background: rgba(0,0,0,0.5) !important; border-bottom: 2px solid rgba(255,255,255,0.1);">
+			<h3 class="mb-0">🔐 Types de données les plus fuités </h3>
+		</div>
+		<div class="card-body" style="background: #2e1e1e; padding: 1.5rem;">
+			<div class="row" id="dataclass-container">
+				<div class="col-12 text-center py-5">
+					<div class="spinner-border text-danger" role="status">
+						<span class="visually-hidden">Chargement...</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Entreprises les plus touchées -->
+	<div class="company-stats card shadow-sm mb-4" style="background: linear-gradient(135deg, #1f2937 0%, #111827 100%); border: none;">
+		<div class="card-header bg-dark text-white" style="background: rgba(0,0,0,0.5) !important; border-bottom: 2px solid rgba(255,255,255,0.1);">
+			<h3 class="mb-0">🏢 Entreprises / Sites les plus touchés </h3>
+		</div>
+		<div class="card-body" style="background: #1f2937; padding: 1.5rem;">
+			<div class="row" id="company-container">
+				<div class="col-12 text-center py-5">
+					<div class="spinner-border text-success" role="status">
+						<span class="visually-hidden">Chargement...</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<!-- Système de notes - Catégories les plus fréquentes -->
 	<div class="category-stats card shadow-sm mb-4">
 		<div class="card-header bg-dark text-white">
@@ -31,9 +63,36 @@
 			.then(response => response.json())
 			.then(data => {
 				const categoryBreaches = {};
+				const dataClassStats = {};
+				const companyStats = {};
 				
 				// Associer chaque catégorie avec ses fuites
 				data.breaches.filter((item)=>{return ! item.isRetired}).forEach(breach => {
+					if (breach.DataClasses && Array.isArray(breach.DataClasses)) {
+						breach.DataClasses.forEach(dc => {
+							if (!dataClassStats[dc]) {
+								dataClassStats[dc] = { count: 0, pwnCount: 0 };
+							}
+							dataClassStats[dc].count++;
+							dataClassStats[dc].pwnCount += (breach.PwnCount || 0);
+						});
+					}
+
+					// Stats pour les entreprises / sites
+					const compName = breach.Domain || breach.Title || breach.Name;
+					if (compName) {
+						if (!companyStats[compName]) {
+							companyStats[compName] = { 
+								name: compName, 
+								count: 0, 
+								pwnCount: 0,
+								domain: breach.Domain
+							};
+						}
+						companyStats[compName].count++;
+						companyStats[compName].pwnCount += (breach.PwnCount || 0);
+					}
+
 					if (breach.categories && Array.isArray(breach.categories)) {
 						breach.categories.map(item=>{
 							return item.split("fuite")[0]
@@ -75,6 +134,64 @@
 						percentage: ((breaches.length / data.totalBreaches) * 100).toFixed(1) 
 					}));
 				
+				// Trier et préparer les stats DataClasses
+				const sortedDataClasses = Object.entries(dataClassStats)
+					.sort((a, b) => b[1].count - a[1].count)
+					.slice(0, 8)
+					.map(([name, stats]) => ({
+						name,
+						count: stats.count,
+						pwnCount: stats.pwnCount
+					}));
+
+				const dcContainer = document.getElementById('dataclass-container');
+				if (dcContainer) {
+					dcContainer.innerHTML = sortedDataClasses.map((dc, idx) => {
+						const borderClass = idx < 3 ? 'border-danger' : idx < 7 ? 'border-warning' : 'border-info';
+						const badgeClass = idx < 3 ? 'bg-danger' : idx < 7 ? 'bg-warning text-dark' : 'bg-info';
+						return `
+							<div class="col-md-3 col-sm-6 mb-3">
+								<div class="note-card p-3 border rounded ${borderClass} h-100" style="background: linear-gradient(145deg, #382525 0%, #3e2a2a 100%);">
+									<div class="d-flex justify-content-between align-items-center mb-2">
+										<span class="badge ${badgeClass} fs-6">#${idx + 1}</span>
+									</div>
+									<h5 class="mb-2" style="color:#e0e0e0; font-size: 1.1rem; word-break: break-word;">${dc.name}</h5>
+									<p class="mb-1 text-muted" style="font-size:0.9em;"><strong>${dc.count.toLocaleString()}</strong> fuites</p>
+									<p class="mb-0 text-muted" style="font-size:0.8em; opacity: 0.8;">Touches ~<strong>${(dc.pwnCount / 1000000).toFixed(1)}M</strong> de comptes</p>
+								</div>
+							</div>
+						`;
+					}).join('');
+				}
+
+				// Trier et préparer les stats Entreprises
+				const sortedCompanies = Object.values(companyStats)
+					.sort((a, b) => b.pwnCount - a.pwnCount)
+					.slice(0, 12);
+
+				const compContainer = document.getElementById('company-container');
+				if (compContainer) {
+					compContainer.innerHTML = sortedCompanies.map((comp, idx) => {
+						const borderClass = idx < 3 ? 'border-danger' : idx < 7 ? 'border-warning' : 'border-success';
+						const badgeClass = idx < 3 ? 'bg-danger' : idx < 7 ? 'bg-warning text-dark' : 'bg-success';
+						const domainLink = comp.domain && comp.domain !== comp.name ? `<br><a href="http://${comp.domain}" target="_blank" rel="noopener noreferrer" style="color:#a7f3d0; font-size: 0.8em; text-decoration: none;">${comp.domain}</a>` : '';
+						return `
+							<div class="col-md-3 col-sm-6 mb-3">
+								<div class="note-card p-3 border rounded ${borderClass} h-100" style="background: linear-gradient(145deg, #374151 0%, #1f2937 100%);">
+									<div class="d-flex justify-content-between align-items-center mb-2">
+										<span class="badge ${badgeClass} fs-6">#${idx + 1}</span>
+									</div>
+									<h5 class="mb-1" style="color:#f3f4f6; font-size: 1.1rem; word-break: break-word;">${comp.name}${domainLink}</h5>
+									<p class="mt-2 mb-0 text-muted" style="font-size:0.9em; color: #9ca3af !important;">
+										<strong>${(comp.pwnCount >= 1000000 ? (comp.pwnCount / 1000000).toFixed(1) + 'M' : comp.pwnCount.toLocaleString())}</strong> de comptes<br>
+										<span style="font-size:0.8em; opacity: 0.8;">via ${comp.count} fuite${comp.count > 1 ? 's' : ''}</span>
+									</p>
+								</div>
+							</div>
+						`;
+					}).join('');
+				}
+
 				// Mettre à jour le compteur
 				document.getElementById('breach-count').textContent = 
 					`Basé sur ${data.totalBreaches.toLocaleString()} fuites analysées`;
