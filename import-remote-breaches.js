@@ -32,7 +32,7 @@ function readLastImportDate() {
 }
 
 function writeNewImportDate() {
-    const data = { lastImport: new Date().toISOString() };
+    const data = { lastImport: new Date().setFullYear(new Date().getFullYear()-1).toISOString() };
     fs.writeFileSync(DATE_FILE, JSON.stringify(data, null, 2));
 }
 

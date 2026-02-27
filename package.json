@@ -3,7 +3,7 @@
   "version": "0.0.6",
   "private": true,
   "scripts": {
-    "build": " node index.js && node indexator.js && node scripts/import && node detecter-fuites-sans-nombre ",
+    "build": " node index.js && node indexator.js && node scripts/import && npm run import:remote && node detecter-fuites-sans-nombre ",
     "clean": "hexo clean",
     "deploy": "hexo deploy --config build.yml",
     "server": "hexo server",
