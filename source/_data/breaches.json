@@ -1,7 +1,38 @@
 {
-  "lastUpdated": "2026-02-27T23:57:37.919Z",
-  "totalBreaches": 1402,
+  "lastUpdated": "2026-02-28T02:33:32.571Z",
+  "totalBreaches": 1403,
   "breaches": [
+    {
+      "Name": "UNSS #2",
+      "Title": "UNSS #2",
+      "Domain": "unss.org",
+      "BreachDate": "2026-02-28",
+      "AddedDate": "2026-02-28T02:33:22.521Z",
+      "ModifiedDate": "2026-02-28T02:33:22.521Z",
+      "PwnCount": 3000000,
+      "Description": "9 700 000 enregistrements d'élèves (dont 1 557 000 photos) couvrant la période 2025-2026 et des archives, mis en vente par l'acteur DumpSec. Données concernant des mineurs sur plusieurs années à l'échelle nationale\n\nStatut: Revendiquée\nType de service: Fédération du sport scolaire",
+      "DataClasses": [
+        "Identifiant licencié",
+        "Genre",
+        "Nom de famille",
+        "Prénom",
+        "Date de naissance",
+        "Catégorie d'âge",
+        "Classe",
+        "Établissement scolaire (avec adresse)",
+        "Assurance",
+        "Date d'inscription",
+        "URL de la photo de l'élève"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://upload.wikimedia.org/wikipedia/fr/1/1d/Logo_UNSS_-_2017.svg",
+      "slug": "unss-2"
+    },
     {
       "Name": "ESPCI Paris",
       "Title": "ESPCI Paris",
