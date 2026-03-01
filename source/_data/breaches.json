@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-01T19:34:41.623Z",
+  "lastUpdated": "2026-03-01T19:55:08.477Z",
   "totalBreaches": 1404,
   "breaches": [
     {
@@ -27,7 +27,8 @@
       "IsRetired": false,
       "IsNative": true,
       "LogoPath": "https://adf-systemes.fr/wp-content/uploads/2020/10/Sans-titre-scaled.jpg",
-      "slug": "be-atex"
+      "slug": "be-atex",
+      "index": 1421
     },
     {
       "Name": "UNSS #2",
