@@ -1,7 +1,34 @@
 {
-  "lastUpdated": "2026-03-01T19:03:31.902Z",
-  "totalBreaches": 1403,
+  "lastUpdated": "2026-03-01T19:34:41.623Z",
+  "totalBreaches": 1404,
   "breaches": [
+    {
+      "Name": "BE ATEX",
+      "Title": "BE ATEX",
+      "Domain": "be-atex.com",
+      "BreachDate": "2026-03-01",
+      "AddedDate": "2026-03-01T19:34:31.753Z",
+      "ModifiedDate": "2026-03-01T19:34:31.753Z",
+      "PwnCount": 2500,
+      "Description": "Une base de données de 2500 enregistrements (+2200 clients et +300 employés) a été mise en vente en février 2026 par l'acteur 'toky019'.\n\nStatut: Revendiquée\nType de service: Sécurité et détection de gaz en atmosphères explosives",
+      "DataClasses": [
+        "Email (clients, employés)",
+        "Adresse IP (clients)",
+        "Nom de l'entreprise (clients, employés)",
+        "Prénom (clients, employés)",
+        "Nom de famille (clients, employés)",
+        "Adresse postale complète (clients)",
+        "Nom d'utilisateur (employés)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://adf-systemes.fr/wp-content/uploads/2020/10/Sans-titre-scaled.jpg",
+      "slug": "be-atex"
+    },
     {
       "Name": "UNSS #2",
       "Title": "UNSS #2",
