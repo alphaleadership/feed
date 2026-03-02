@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-02T16:06:33.204Z",
-  "totalBreaches": 1390,
+  "lastUpdated": "2026-03-02T16:09:51.765Z",
+  "totalBreaches": 1392,
   "breaches": [
     {
       "Name": "Tchap",
@@ -12066,6 +12066,31 @@
       "index": 956
     },
     {
+      "Name": "Zéphir (Groupe Zéphir)",
+      "Title": "Zéphir (Groupe Zéphir)",
+      "Domain": "groupe-zephir.fr",
+      "BreachDate": "2025-02-28",
+      "AddedDate": "2026-03-02T16:09:44.911Z",
+      "ModifiedDate": "2026-03-02T16:09:44.911Z",
+      "PwnCount": 67000,
+      "Description": "67 000\n\nStatut: Inconnu\nType de service: Immobilier",
+      "DataClasses": [
+        "Nom et prénom",
+        "Adresse email",
+        "Téléphone",
+        "IBAN"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://www.pagesjaunes.fr/media/newdam/preset-export-medium/57/70/61/00/00/3f/50/f2/e3/64/5e1c57706100003f50f2e364/5e1c57706100003f50f2e365.png",
+      "slug": "zphir-groupe-zphir",
+      "source": "https://bonjourlafuite.eu.org/img/zephir.jpg"
+    },
+    {
       "Name": "nord emploi fuite du 2025-2-26",
       "Title": "nord emploi fuite du 2025-2-26",
       "Domain": null,
@@ -12474,6 +12499,32 @@
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
       "index": 938
+    },
+    {
+      "Name": "Fédération Sportive et Culturelle de France",
+      "Title": "Fédération Sportive et Culturelle de France",
+      "Domain": "fscf.asso.fr",
+      "BreachDate": "2025-01-30",
+      "AddedDate": "2026-03-02T16:09:45.416Z",
+      "ModifiedDate": "2026-03-02T16:09:45.416Z",
+      "PwnCount": 0,
+      "Description": "797 MO (1.498.567 lignes) de données de licenciés de la Fédération Sportive et Culturelle de France (FSCF). La première publication date du 30 janvier 2025.\n\nStatut: Confirmée\nType de service: Fédération sportive et culturelle",
+      "DataClasses": [
+        "État civil (Civilité, Nom, Prénom, Sexe, Date de naissance)",
+        "Coordonnées (Adresse postale complète, Code postal, Ville)",
+        "Informations personnelles (Nationalité, Pays de naissance)",
+        "Informations de licence (Saison, Type, Dates de validité, Discipline, Nom du club)",
+        "Métadonnées techniques (Date de création et de mise à jour de l'enregistrement)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://www.fscf.asso.fr/sites/fscf/themes/fscf_theme/logo.png",
+      "slug": "fdration-sportive-et-culturelle-de-france",
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/federation-sportive-et-culturelle-de-France-leak-fuites-de-donnees.png"
     },
     {
       "Name": "aides fuite du 2025-1-27",
