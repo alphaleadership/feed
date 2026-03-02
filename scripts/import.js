@@ -189,6 +189,9 @@ class breach {
           fs.unlinkSync(filePath);
 
         } catch (e) {
+          if(fs.existsSync(filePath)){
+            fs.unlinkSync(filePath);
+          }
           console.error(`Erreur lors du traitement du fichier '${filename}':`, e.message);
           skippedCount++;
         }
