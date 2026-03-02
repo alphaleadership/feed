@@ -49,6 +49,6 @@ jobs:
         
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - run: npx hexo generate &&npx hexo deploy
+    - run: rm -rf source/_posts && npx hexo generate && npx hexo deploy
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
