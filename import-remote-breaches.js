@@ -198,7 +198,7 @@ async function main(REMOTE_URL ) {
 main(REMOTE_URL).catch(err => console.error("Erreur lors du processus d'importation:", err)).then(() => {
     console.log("Processus d'importation terminé.");
 main("https://haveibeenpwned.com/api/v3/breaches").catch(err => console.error("Erreur lors du processus d'importation:", err));
-});
+});/*
 fs.readdirSync(path.join(__dirname, 'source', '_posts'),{
     recursive: true,
     withFileTypes: true
@@ -209,4 +209,4 @@ fs.readdirSync(path.join(__dirname, 'source', '_posts'),{
         console.log(`Fichier supprimé : ${file.name}`);
     }   
 });
-
+*/
