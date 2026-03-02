@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-02T22:48:24.909Z",
-  "totalBreaches": 1392,
+  "lastUpdated": "2026-03-02T23:30:09.329Z",
+  "totalBreaches": 1393,
   "breaches": [
     {
       "Name": "Tchap",
@@ -13776,6 +13776,32 @@
       "lien": "https://haveibeenpwned.com/Breach/CreamsCafe",
       "oldindex": 996,
       "title": "Creams Cafe"
+    },
+    {
+      "Name": "Ville de Paris",
+      "Title": "Ville de Paris",
+      "Domain": "scap.paris.fr",
+      "BreachDate": "2025-05-01",
+      "AddedDate": "2026-03-02T23:30:02.577Z",
+      "ModifiedDate": "2026-03-02T23:30:02.577Z",
+      "PwnCount": 0,
+      "Description": "Un fichier contenant des données personnelles d'utilisateurs de la Plateforme des Cours d'Adultes (données antérieures à mai 2025) a été diffusé.\n\nStatut: Confirmée\nType de service: Cours pour adultes",
+      "DataClasses": [
+        "Nom et prénom",
+        "Date de naissance",
+        "Adresse électronique",
+        "Adresse postale",
+        "Numéro de téléphone"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://www.cap-com.org/sites/default/files/styles/image_grid_style/public/2019-01/nvlogoparis.jpg?itok=-7R9U5G_",
+      "slug": "ville-de-paris",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/cours-adultes-paris-ville-leak-fuites-de-donnees.png"
     },
     {
       "Name": "cerballiance fuite du 2025-4-30",

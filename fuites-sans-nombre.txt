@@ -1,9 +1,9 @@
 RAPPORT - FUITES SANS NOMBRE DE PERSONNES IMPACTÉES
 =================================================
 
-Total des fuites analysées: 1392
-Fuites sans nombre d'impactés: 329
-Pourcentage: 23.64%
+Total des fuites analysées: 1393
+Fuites sans nombre d'impactés: 330
+Pourcentage: 23.69%
 
 LISTE DES FUITES CONCERNÉES:
 ============================
@@ -2276,7 +2276,16 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://haveibeenpwned.com/Breach/Pulsy (GRADeS Grand Est)
    - Vérifié: Oui
 
-253. cerballiance fuite du 2025-4-30
+253. Ville de Paris
+   - Titre: Ville de Paris
+   - Domaine: scap.paris.fr
+   - Date de fuite: 2025-05-01
+   - Date d'ajout: 2026-03-02T23:30:02.577Z
+   - PwnCount: 0
+   - Lien: Non disponible
+   - Vérifié: Oui
+
+254. cerballiance fuite du 2025-4-30
    - Titre: cerballiance fuite du 2025-4-30
    - Domaine: Non spécifié
    - Date de fuite: 2025-4-30
@@ -2285,7 +2294,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{cerballiance - 2025-4-30
    - Vérifié: Non
 
-254. carrefour mobile fuite du 2025-4-24
+255. carrefour mobile fuite du 2025-4-24
    - Titre: carrefour mobile fuite du 2025-4-24
    - Domaine: Non spécifié
    - Date de fuite: 2025-4-24
@@ -2294,7 +2303,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{carrefour mobile - 2025-4-24
    - Vérifié: Non
 
-255. INDIGO (stationnement / Indigo Neo)
+256. INDIGO (stationnement / Indigo Neo)
    - Titre: INDIGO (stationnement / Indigo Neo)
    - Domaine: group-indigo.com
    - Date de fuite: 2025-04-24
@@ -2303,7 +2312,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://haveibeenpwned.com/Breach/INDIGO (stationnement / Indigo Neo)
    - Vérifié: Oui
 
-256. easy cash fuite du 2025-4-22
+257. easy cash fuite du 2025-4-22
    - Titre: easy cash fuite du 2025-4-22
    - Domaine: Non spécifié
    - Date de fuite: 2025-4-22
@@ -2312,7 +2321,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{easy cash - 2025-4-22
    - Vérifié: Non
 
-257. indigo fuite du 2025-4-18
+258. indigo fuite du 2025-4-18
    - Titre: indigo fuite du 2025-4-18
    - Domaine: Non spécifié
    - Date de fuite: 2025-4-18
@@ -2321,7 +2330,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{indigo - 2025-4-18
    - Vérifié: Non
 
-258. afflelou fuite du 2025-4-15
+259. afflelou fuite du 2025-4-15
    - Titre: afflelou fuite du 2025-4-15
    - Domaine: Non spécifié
    - Date de fuite: 2025-4-15
@@ -2330,7 +2339,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{afflelou - 2025-4-15
    - Vérifié: Non
 
-259. Alain Afflelou
+260. Alain Afflelou
    - Titre: Alain Afflelou
    - Domaine: afflelou.com
    - Date de fuite: 2025-04-15
@@ -2339,7 +2348,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://haveibeenpwned.com/Breach/Alain Afflelou
    - Vérifié: Oui
 
-260. harvest fuite du 2025-4-11
+261. harvest fuite du 2025-4-11
    - Titre: harvest fuite du 2025-4-11
    - Domaine: Non spécifié
    - Date de fuite: 2025-4-11
@@ -2348,7 +2357,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{harvest - 2025-4-11
    - Vérifié: Non
 
-261. utwin fuite du 2025-4-7
+262. utwin fuite du 2025-4-7
    - Titre: utwin fuite du 2025-4-7
    - Domaine: Non spécifié
    - Date de fuite: 2025-4-7
@@ -2357,7 +2366,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{utwin - 2025-4-7
    - Vérifié: Non
 
-262. reporterre fuite du 2025-4-1
+263. reporterre fuite du 2025-4-1
    - Titre: reporterre fuite du 2025-4-1
    - Domaine: Non spécifié
    - Date de fuite: 2025-4-1
@@ -2366,7 +2375,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{reporterre - 2025-4-1
    - Vérifié: Non
 
-263. maif & bpce fuite du 2025-3-28
+264. maif & bpce fuite du 2025-3-28
    - Titre: maif & bpce fuite du 2025-3-28
    - Domaine: Non spécifié
    - Date de fuite: 2025-3-28
@@ -2375,7 +2384,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{maif & bpce - 2025-3-28
    - Vérifié: Non
 
-264. oracle cloud fuite du 2025-3-27
+265. oracle cloud fuite du 2025-3-27
    - Titre: oracle cloud fuite du 2025-3-27
    - Domaine: Non spécifié
    - Date de fuite: 2025-3-27
@@ -2384,7 +2393,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{oracle cloud - 2025-3-27
    - Vérifié: Non
 
-265. centrale nantes fuite du 2025-3-26
+266. centrale nantes fuite du 2025-3-26
    - Titre: centrale nantes fuite du 2025-3-26
    - Domaine: Non spécifié
    - Date de fuite: 2025-3-26
@@ -2393,7 +2402,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{centrale nantes - 2025-3-26
    - Vérifié: Non
 
-266. cerballiance fuite du 2025-3-25
+267. cerballiance fuite du 2025-3-25
    - Titre: cerballiance fuite du 2025-3-25
    - Domaine: Non spécifié
    - Date de fuite: 2025-3-25
@@ -2402,7 +2411,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{cerballiance - 2025-3-25
    - Vérifié: Non
 
-267. intersport fuite du 2025-3-20
+268. intersport fuite du 2025-3-20
    - Titre: intersport fuite du 2025-3-20
    - Domaine: Non spécifié
    - Date de fuite: 2025-3-20
@@ -2411,7 +2420,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{intersport - 2025-3-20
    - Vérifié: Non
 
-268. éclaireuses et éclaireurs de france fuite du 2025-3-20
+269. éclaireuses et éclaireurs de france fuite du 2025-3-20
    - Titre: éclaireuses et éclaireurs de france fuite du 2025-3-20
    - Domaine: Non spécifié
    - Date de fuite: 2025-3-20
@@ -2420,7 +2429,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{éclaireuses et éclaireurs de france - 2025-3-20
    - Vérifié: Non
 
-269. direct assurance fuite du 2025-3-18
+270. direct assurance fuite du 2025-3-18
    - Titre: direct assurance fuite du 2025-3-18
    - Domaine: Non spécifié
    - Date de fuite: 2025-3-18
@@ -2429,7 +2438,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{direct assurance - 2025-3-18
    - Vérifié: Non
 
-270. laforêt fuite du 2025-3-13
+271. laforêt fuite du 2025-3-13
    - Titre: laforêt fuite du 2025-3-13
    - Domaine: Non spécifié
    - Date de fuite: 2025-3-13
@@ -2438,7 +2447,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{laforêt - 2025-3-13
    - Vérifié: Non
 
-271. utwin fuite du 2025-3-5
+272. utwin fuite du 2025-3-5
    - Titre: utwin fuite du 2025-3-5
    - Domaine: Non spécifié
    - Date de fuite: 2025-3-5
@@ -2447,7 +2456,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{utwin - 2025-3-5
    - Vérifié: Oui
 
-272. côté sushi fuite du 2025-3-4
+273. côté sushi fuite du 2025-3-4
    - Titre: côté sushi fuite du 2025-3-4
    - Domaine: Non spécifié
    - Date de fuite: 2025-3-4
@@ -2456,7 +2465,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{côté sushi - 2025-3-4
    - Vérifié: Non
 
-273. la poste fuite du 2025-3-4
+274. la poste fuite du 2025-3-4
    - Titre: la poste fuite du 2025-3-4
    - Domaine: Non spécifié
    - Date de fuite: 2025-3-4
@@ -2465,7 +2474,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{la poste - 2025-3-4
    - Vérifié: Non
 
-274. edf dpih fuite du 2025-2-28
+275. edf dpih fuite du 2025-2-28
    - Titre: edf dpih fuite du 2025-2-28
    - Domaine: Non spécifié
    - Date de fuite: 2025-2-28
@@ -2474,7 +2483,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{edf dpih - 2025-2-28
    - Vérifié: Non
 
-275. zephir fuite du 2025-2-28
+276. zephir fuite du 2025-2-28
    - Titre: zephir fuite du 2025-2-28
    - Domaine: Non spécifié
    - Date de fuite: 2025-2-28
@@ -2483,7 +2492,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{zephir - 2025-2-28
    - Vérifié: Non
 
-276. école nationale de la sécurité fuite du 2025-2-28
+277. école nationale de la sécurité fuite du 2025-2-28
    - Titre: école nationale de la sécurité fuite du 2025-2-28
    - Domaine: Non spécifié
    - Date de fuite: 2025-2-28
@@ -2492,7 +2501,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{école nationale de la sécurité - 2025-2-28
    - Vérifié: Non
 
-277. nord emploi fuite du 2025-2-26
+278. nord emploi fuite du 2025-2-26
    - Titre: nord emploi fuite du 2025-2-26
    - Domaine: Non spécifié
    - Date de fuite: 2025-2-26
@@ -2501,7 +2510,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{nord emploi - 2025-2-26
    - Vérifié: Non
 
-278. fédération française de foot fuite du 2025-2-21
+279. fédération française de foot fuite du 2025-2-21
    - Titre: fédération française de foot fuite du 2025-2-21
    - Domaine: Non spécifié
    - Date de fuite: 2025-2-21
@@ -2510,7 +2519,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{fédération française de foot - 2025-2-21
    - Vérifié: Non
 
-279. service départemental d'incendie et de secours de la vienne fuite du 2025-2-19
+280. service départemental d'incendie et de secours de la vienne fuite du 2025-2-19
    - Titre: service départemental d'incendie et de secours de la vienne fuite du 2025-2-19
    - Domaine: Non spécifié
    - Date de fuite: 2025-2-19
@@ -2519,7 +2528,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{service départemental d'incendie et de secours de la vienne - 2025-2-19
    - Vérifié: Non
 
-280. sport découverte fuite du 2025-2-17
+281. sport découverte fuite du 2025-2-17
    - Titre: sport découverte fuite du 2025-2-17
    - Domaine: Non spécifié
    - Date de fuite: 2025-2-17
@@ -2528,7 +2537,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{sport découverte - 2025-2-17
    - Vérifié: Non
 
-281. mutuelle des motards fuite du 2025-2-13
+282. mutuelle des motards fuite du 2025-2-13
    - Titre: mutuelle des motards fuite du 2025-2-13
    - Domaine: Non spécifié
    - Date de fuite: 2025-2-13
@@ -2537,7 +2546,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{mutuelle des motards - 2025-2-13
    - Vérifié: Non
 
-282. chronopost fuite du 2025-2-12
+283. chronopost fuite du 2025-2-12
    - Titre: chronopost fuite du 2025-2-12
    - Domaine: Non spécifié
    - Date de fuite: 2025-2-12
@@ -2546,7 +2555,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{chronopost - 2025-2-12
    - Vérifié: Non
 
-283. caisse des dépôts et des consignations fuite du 2025-2-12
+284. caisse des dépôts et des consignations fuite du 2025-2-12
    - Titre: caisse des dépôts et des consignations fuite du 2025-2-12
    - Domaine: Non spécifié
    - Date de fuite: 2025-2-12
@@ -2555,7 +2564,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{caisse des dépôts et des consignations - 2025-2-12
    - Vérifié: Non
 
-284. king jouet fuite du 2025-2-11
+285. king jouet fuite du 2025-2-11
    - Titre: king jouet fuite du 2025-2-11
    - Domaine: Non spécifié
    - Date de fuite: 2025-2-11
@@ -2564,7 +2573,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{king jouet - 2025-2-11
    - Vérifié: Non
 
-285. espace fuite du 2025-2-6
+286. espace fuite du 2025-2-6
    - Titre: espace fuite du 2025-2-6
    - Domaine: Non spécifié
    - Date de fuite: 2025-2-6
@@ -2573,7 +2582,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{espace - 2025-2-6
    - Vérifié: Non
 
-286. Fédération Sportive et Culturelle de France
+287. Fédération Sportive et Culturelle de France
    - Titre: Fédération Sportive et Culturelle de France
    - Domaine: fscf.asso.fr
    - Date de fuite: 2025-01-30
@@ -2582,7 +2591,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://haveibeenpwned.com/Breach/Fédération Sportive et Culturelle de France
    - Vérifié: Oui
 
-287. aides fuite du 2025-1-27
+288. aides fuite du 2025-1-27
    - Titre: aides fuite du 2025-1-27
    - Domaine: Non spécifié
    - Date de fuite: 2025-1-27
@@ -2591,7 +2600,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{aides - 2025-1-27
    - Vérifié: Non
 
-288. e.leclerc fuite du 2025-1-24
+289. e.leclerc fuite du 2025-1-24
    - Titre: e.leclerc fuite du 2025-1-24
    - Domaine: Non spécifié
    - Date de fuite: 2025-1-24
@@ -2600,7 +2609,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{e.leclerc - 2025-1-24
    - Vérifié: Oui
 
-289. fédération française montagne escalade fuite du 2025-1-24
+290. fédération française montagne escalade fuite du 2025-1-24
    - Titre: fédération française montagne escalade fuite du 2025-1-24
    - Domaine: Non spécifié
    - Date de fuite: 2025-1-24
@@ -2609,7 +2618,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{fédération française montagne escalade - 2025-1-24
    - Vérifié: Non
 
-290. fédération française de la montagne et de l'escalade fuite du 2025-1-23
+291. fédération française de la montagne et de l'escalade fuite du 2025-1-23
    - Titre: fédération française de la montagne et de l'escalade fuite du 2025-1-23
    - Domaine: Non spécifié
    - Date de fuite: 2025-1-23
@@ -2618,7 +2627,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{fédération française de la montagne et de l'escalade - 2025-1-23
    - Vérifié: Non
 
-291. fédération française de tir à l'arc fuite du 2025-1-20
+292. fédération française de tir à l'arc fuite du 2025-1-20
    - Titre: fédération française de tir à l'arc fuite du 2025-1-20
    - Domaine: Non spécifié
    - Date de fuite: 2025-1-20
@@ -2627,7 +2636,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{fédération française de tir à l'arc - 2025-1-20
    - Vérifié: Non
 
-292. fédération française de force fuite du 2025-1-14
+293. fédération française de force fuite du 2025-1-14
    - Titre: fédération française de force fuite du 2025-1-14
    - Domaine: Non spécifié
    - Date de fuite: 2025-1-14
@@ -2636,7 +2645,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{fédération française de force - 2025-1-14
    - Vérifié: Non
 
-293. fédération française de roller skateboard fuite du 2025-1-14
+294. fédération française de roller skateboard fuite du 2025-1-14
    - Titre: fédération française de roller skateboard fuite du 2025-1-14
    - Domaine: Non spécifié
    - Date de fuite: 2025-1-14
@@ -2645,7 +2654,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{fédération française de roller skateboard - 2025-1-14
    - Vérifié: Non
 
-294. kiabi fuite du 2025-1-14
+295. kiabi fuite du 2025-1-14
    - Titre: kiabi fuite du 2025-1-14
    - Domaine: Non spécifié
    - Date de fuite: 2025-1-14
@@ -2654,7 +2663,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{kiabi - 2025-1-14
    - Vérifié: Non
 
-295. cogitis fuite du 2024-12-31
+296. cogitis fuite du 2024-12-31
    - Titre: cogitis fuite du 2024-12-31
    - Domaine: Non spécifié
    - Date de fuite: 2024-12-31T00:00:00.000Z
@@ -2663,7 +2672,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{cogitis - 2024-12-31
    - Vérifié: Non
 
-296. atos fuite du 2024-12-30
+297. atos fuite du 2024-12-30
    - Titre: atos fuite du 2024-12-30
    - Domaine: Non spécifié
    - Date de fuite: 2024-12-30T00:00:00.000Z
@@ -2672,7 +2681,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{atos - 2024-12-30
    - Vérifié: Non
 
-297. arsoé fuite du 2024-12-27
+298. arsoé fuite du 2024-12-27
    - Titre: arsoé fuite du 2024-12-27
    - Domaine: Non spécifié
    - Date de fuite: 2024-12-27T00:00:00.000Z
@@ -2681,7 +2690,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{arsoé - 2024-12-27
    - Vérifié: Non
 
-298. volkswagen fuite du 2024-12-27
+299. volkswagen fuite du 2024-12-27
    - Titre: volkswagen fuite du 2024-12-27
    - Domaine: Non spécifié
    - Date de fuite: 2024-12-27T00:00:00.000Z
@@ -2690,7 +2699,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{volkswagen - 2024-12-27
    - Vérifié: Non
 
-299. peugeot fuite du 2024-12-26
+300. peugeot fuite du 2024-12-26
    - Titre: peugeot fuite du 2024-12-26
    - Domaine: Non spécifié
    - Date de fuite: 2024-12-26T00:00:00.000Z
@@ -2699,7 +2708,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{peugeot - 2024-12-26
    - Vérifié: Oui
 
-300. cyberhaven fuite du 2024-12-25
+301. cyberhaven fuite du 2024-12-25
    - Titre: cyberhaven fuite du 2024-12-25
    - Domaine: Non spécifié
    - Date de fuite: 2024-12-25T00:00:00.000Z
@@ -2708,7 +2717,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{cyberhaven - 2024-12-25
    - Vérifié: Non
 
-301. electro dépôt fuite du 2024-12-20
+302. electro dépôt fuite du 2024-12-20
    - Titre: electro dépôt fuite du 2024-12-20
    - Domaine: Non spécifié
    - Date de fuite: 2024-12-20T00:00:00.000Z
@@ -2717,7 +2726,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{electro dépôt - 2024-12-20
    - Vérifié: Non
 
-302. top achat fuite du 2024-12-12
+303. top achat fuite du 2024-12-12
    - Titre: top achat fuite du 2024-12-12
    - Domaine: Non spécifié
    - Date de fuite: 2024-12-12T00:00:00.000Z
@@ -2726,7 +2735,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{top achat - 2024-12-12
    - Vérifié: Non
 
-303. ldlc fuite du 2024-12-10
+304. ldlc fuite du 2024-12-10
    - Titre: ldlc fuite du 2024-12-10
    - Domaine: Non spécifié
    - Date de fuite: 2024-12-10T00:00:00.000Z
@@ -2735,7 +2744,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{ldlc - 2024-12-10
    - Vérifié: Non
 
-304. deloitte fuite du 2024-12-4
+305. deloitte fuite du 2024-12-4
    - Titre: deloitte fuite du 2024-12-4
    - Domaine: Non spécifié
    - Date de fuite: 2024-12-4
@@ -2744,7 +2753,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{deloitte - 2024-12-4
    - Vérifié: Non
 
-305. guy demarle fuite du 2024-12-3
+306. guy demarle fuite du 2024-12-3
    - Titre: guy demarle fuite du 2024-12-3
    - Domaine: Non spécifié
    - Date de fuite: 2024-12-3
@@ -2753,7 +2762,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{guy demarle - 2024-12-3
    - Vérifié: Non
 
-306. norauto fuite du 2024-12-2
+307. norauto fuite du 2024-12-2
    - Titre: norauto fuite du 2024-12-2
    - Domaine: Non spécifié
    - Date de fuite: 2024-12-2
@@ -2762,7 +2771,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{norauto - 2024-12-2
    - Vérifié: Non
 
-307. ze camping fuite du 2024-11-27
+308. ze camping fuite du 2024-11-27
    - Titre: ze camping fuite du 2024-11-27
    - Domaine: Non spécifié
    - Date de fuite: 2024-11-27T00:00:00.000Z
@@ -2771,7 +2780,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{ze camping - 2024-11-27
    - Vérifié: Non
 
-308. jvs fuite du 2024-11-26
+309. jvs fuite du 2024-11-26
    - Titre: jvs fuite du 2024-11-26
    - Domaine: Non spécifié
    - Date de fuite: 2024-11-26T00:00:00.000Z
@@ -2780,7 +2789,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{jvs - 2024-11-26
    - Vérifié: Non
 
-309. sfr fuite du 2024-11-24
+310. sfr fuite du 2024-11-24
    - Titre: sfr fuite du 2024-11-24
    - Domaine: Non spécifié
    - Date de fuite: 2024-11-24T00:00:00.000Z
@@ -2789,7 +2798,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{sfr - 2024-11-24
    - Vérifié: Non
 
-310. banque de france fuite du 2024-11-23
+311. banque de france fuite du 2024-11-23
    - Titre: banque de france fuite du 2024-11-23
    - Domaine: Non spécifié
    - Date de fuite: 2024-11-23T00:00:00.000Z
@@ -2798,7 +2807,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{banque de france - 2024-11-23
    - Vérifié: Non
 
-311. companie de transport strasbourgeoise fuite du 2024-11-22
+312. companie de transport strasbourgeoise fuite du 2024-11-22
    - Titre: companie de transport strasbourgeoise fuite du 2024-11-22
    - Domaine: Non spécifié
    - Date de fuite: 2024-11-22T00:00:00.000Z
@@ -2807,7 +2816,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{companie de transport strasbourgeoise - 2024-11-22
    - Vérifié: Non
 
-312. chambres d’agriculture fuite du 2024-11-21
+313. chambres d’agriculture fuite du 2024-11-21
    - Titre: chambres d’agriculture fuite du 2024-11-21
    - Domaine: Non spécifié
    - Date de fuite: 2024-11-21T00:00:00.000Z
@@ -2816,7 +2825,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{chambres d’agriculture - 2024-11-21
    - Vérifié: Non
 
-313. auchan fuite du 2024-11-19
+314. auchan fuite du 2024-11-19
    - Titre: auchan fuite du 2024-11-19
    - Domaine: Non spécifié
    - Date de fuite: 2024-11-19T00:00:00.000Z
@@ -2825,7 +2834,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{auchan - 2024-11-19
    - Vérifié: Non
 
-314. mediboard fuite du 2024-11-19
+315. mediboard fuite du 2024-11-19
    - Titre: mediboard fuite du 2024-11-19
    - Domaine: Non spécifié
    - Date de fuite: 2024-11-19T00:00:00.000Z
@@ -2834,7 +2843,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{mediboard - 2024-11-19
    - Vérifié: Non
 
-315. direct assurance fuite du 2024-11-19
+316. direct assurance fuite du 2024-11-19
    - Titre: direct assurance fuite du 2024-11-19
    - Domaine: Non spécifié
    - Date de fuite: 2024-11-19T00:00:00.000Z
@@ -2843,7 +2852,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{direct assurance - 2024-11-19
    - Vérifié: Non
 
-316. le point fuite du 2024-11-18
+317. le point fuite du 2024-11-18
    - Titre: le point fuite du 2024-11-18
    - Domaine: Non spécifié
    - Date de fuite: 2024-11-18T00:00:00.000Z
@@ -2852,7 +2861,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{le point - 2024-11-18
    - Vérifié: Non
 
-317. huttopia fuite du 2024-11-14
+318. huttopia fuite du 2024-11-14
    - Titre: huttopia fuite du 2024-11-14
    - Domaine: Non spécifié
    - Date de fuite: 2024-11-14T00:00:00.000Z
@@ -2861,7 +2870,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{huttopia - 2024-11-14
    - Vérifié: Non
 
-318. molotov fuite du 2024-11-13
+319. molotov fuite du 2024-11-13
    - Titre: molotov fuite du 2024-11-13
    - Domaine: Non spécifié
    - Date de fuite: 2024-11-13T00:00:00.000Z
@@ -2870,7 +2879,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{molotov - 2024-11-13
    - Vérifié: Non
 
-319. picard fuite du 2024-11-12
+320. picard fuite du 2024-11-12
    - Titre: picard fuite du 2024-11-12
    - Domaine: Non spécifié
    - Date de fuite: 2024-11-12T00:00:00.000Z
@@ -2879,7 +2888,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{picard - 2024-11-12
    - Vérifié: Non
 
-320. free fuite du 2024-10-25
+321. free fuite du 2024-10-25
    - Titre: free fuite du 2024-10-25
    - Domaine: Non spécifié
    - Date de fuite: 2024-10-25T00:00:00.000Z
@@ -2888,7 +2897,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{free - 2024-10-25
    - Vérifié: Oui
 
-321. ornikar fuite du 2024-10-24
+322. ornikar fuite du 2024-10-24
    - Titre: ornikar fuite du 2024-10-24
    - Domaine: Non spécifié
    - Date de fuite: 2024-10-24T00:00:00.000Z
@@ -2897,7 +2906,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{ornikar - 2024-10-24
    - Vérifié: Non
 
-322. meilleurtaux fuite du 2024-9-30
+323. meilleurtaux fuite du 2024-9-30
    - Titre: meilleurtaux fuite du 2024-9-30
    - Domaine: Non spécifié
    - Date de fuite: 2024-9-30
@@ -2906,7 +2915,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{meilleurtaux - 2024-9-30
    - Vérifié: Non
 
-323. red by sfr fuite du 2024-9-18
+324. red by sfr fuite du 2024-9-18
    - Titre: red by sfr fuite du 2024-9-18
    - Domaine: Non spécifié
    - Date de fuite: 2024-9-18
@@ -2915,7 +2924,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{red by sfr - 2024-9-18
    - Vérifié: Non
 
-324. assurance retraite fuite du 2024-9-13
+325. assurance retraite fuite du 2024-9-13
    - Titre: assurance retraite fuite du 2024-9-13
    - Domaine: Non spécifié
    - Date de fuite: 2024-9-13
@@ -2924,7 +2933,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{assurance retraite - 2024-9-13
    - Vérifié: Non
 
-325. cybertek fuite du 2024-9-12
+326. cybertek fuite du 2024-9-12
    - Titre: cybertek fuite du 2024-9-12
    - Domaine: Non spécifié
    - Date de fuite: 2024-9-12
@@ -2933,7 +2942,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{cybertek - 2024-9-12
    - Vérifié: Non
 
-326. ticketmaster fuite du 2024-4-28
+327. ticketmaster fuite du 2024-4-28
    - Titre: ticketmaster fuite du 2024-4-28
    - Domaine: Non spécifié
    - Date de fuite: 2024-4-28
@@ -2942,7 +2951,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{ticketmaster - 2024-4-28
    - Vérifié: Non
 
-327. le slip français fuite du 2024-4-15
+328. le slip français fuite du 2024-4-15
    - Titre: le slip français fuite du 2024-4-15
    - Domaine: Non spécifié
    - Date de fuite: 2024-4-15
@@ -2951,7 +2960,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{le slip français - 2024-4-15
    - Vérifié: Non
 
-328. france travail fuite du 2024-3-8
+329. france travail fuite du 2024-3-8
    - Titre: france travail fuite du 2024-3-8
    - Domaine: Non spécifié
    - Date de fuite: 2024-3-8
@@ -2960,7 +2969,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{france travail - 2024-3-8
    - Vérifié: Non
 
-329. almerys fuite du 2024-2-6
+330. almerys fuite du 2024-2-6
    - Titre: almerys fuite du 2024-2-6
    - Domaine: Non spécifié
    - Date de fuite: 2024-2-6
