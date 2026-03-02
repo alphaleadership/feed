@@ -29,10 +29,10 @@ let i=-1;
 const alreadyseen=new Set()
 db.breaches.forEach((breach, idx) => {
 //  console.log(breach)
-  if(alreadyseen.has(breach.Name)){
+  /*if(alreadyseen.has(breach.Name)){
     breach.IsRetired=true
-  }
-  alreadyseen.add(breach.Name)
+  }*/
+  //alreadyseen.add(breach.Name)
   if(breach==null){
     return
   }
@@ -51,7 +51,7 @@ db.breaches.forEach((breach, idx) => {
    }
 
    if(breach.Name.split("fuite")[0]==""){
-      breach.IsRetired=true
+   //   breach.IsRetired=true
     }
     
     // Correction des liens HIBP
@@ -88,7 +88,7 @@ db.breaches.forEach((breach, idx) => {
   }else{
         const category=breach.categories[0]||""
           if(category==""){
-								breach.IsRetired=true
+							//	breach.IsRetired=true
 							}
 								if(!isNaN(parseInt(category))){
 								invalidcategory.push(category)
@@ -132,10 +132,10 @@ db.breaches.forEach((breach, idx) => {
   breach.title=breach.Title
 });
 db.breaches=db.breaches.filter(breach=>!breach.IsRetired)
-
+/*
 console.log('Tri effectué. Première fuite:', db.breaches[0].Name, '- Date:', db.breaches[0].BreachDate);
 console.log('Dernière fuite:', db.breaches[db.breaches.length - 1].Name, '- Date:', db.breaches[db.breaches.length - 1].BreachDate);
-
+*/
 db.lastUpdated = new Date().toISOString();
 
 fs.writeFileSync(dataFile, JSON.stringify(db, null, 2));
