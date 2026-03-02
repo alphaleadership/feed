@@ -134,12 +134,14 @@ async function main(REMOTE_URL ) {
         if (remoteBreachDate <= lastLaunchDate) {
             skippedCount++;
             continue;
+        
         }
-        if (existingBreaches.some(b => b.Name.toLowerCase() === remote.name.toLowerCase())) {
+      //  console.log(remote)
+        if (existingBreaches.some(b => (b.Name||b.name|| b.Title|| b.title).toLowerCase() === (remote.name||remote.Name).toLowerCase())) {
             skippedCount++;
             continue;
         }
-        const results = importFuse.search(remote.name);
+        const results = importFuse.search(remote.name||remote.Name);
         if (results.some(result => Math.abs(remoteBreachDate.getTime() - new Date(result.item.BreachDate).getTime()) / (1000 * 3600 * 24) <= 7)) {
             skippedCount++;
             continue;
@@ -158,7 +160,7 @@ async function main(REMOTE_URL ) {
             IsSensitive: remote.status === "Sensible",
             IsVerified: true, IsFabricated: false, IsSpam: false, IsRetired: false, IsNative: true,
             LogoPath: remote.logo_url || "",
-            slug: slugify(remote.name)
+            slug: slugify(remote.name||remote.Name)
         };
         existingBreaches.push(newBreach);
         addedCount++;
