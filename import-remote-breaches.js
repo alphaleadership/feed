@@ -33,7 +33,7 @@ function readLastImportDate() {
 
 function writeNewImportDate() {
 const data = {
-  lastImport: new Date(Date.now() - 365 * 24 * 60 * 60 * 1000).toISOString()
+  lastImport: new Date(Date.now() - 2*365 * 24 * 60 * 60 * 1000).toISOString()
 };
 
     fs.writeFileSync(DATE_FILE, JSON.stringify(data, null, 2));
