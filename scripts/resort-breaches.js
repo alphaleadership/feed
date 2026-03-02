@@ -64,7 +64,11 @@ db.breaches.forEach((breach, idx) => {
       }
       
       if (slug && slug !== 'undefined') {
-        breach.lien = `https://haveibeenpwned.com/Breach/${slug}`;
+        if(slug.includes("fuite du")){
+          breach.lien=`https://bonjourlafuite.eu.org/{${slug.replaceAll("fuite du","-")}`
+        } else {
+          breach.lien = `https://haveibeenpwned.com/Breach/${slug}`;
+        }
       } else {
         breach.lien = `https://haveibeenpwned.com/`;
       }
