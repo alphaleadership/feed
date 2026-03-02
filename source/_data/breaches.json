@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-01T23:49:22.571Z",
-  "totalBreaches": 1404,
+  "lastUpdated": "2026-03-02T02:27:11.883Z",
+  "totalBreaches": 1405,
   "breaches": [
     {
       "Name": "BE ATEX",
@@ -28,7 +28,7 @@
       "IsNative": true,
       "LogoPath": "https://adf-systemes.fr/wp-content/uploads/2020/10/Sans-titre-scaled.jpg",
       "slug": "be-atex",
-      "index": 1421
+      "index": 1422
     },
     {
       "Name": "UNSS #2",
@@ -60,7 +60,7 @@
       "IsNative": true,
       "LogoPath": "https://upload.wikimedia.org/wikipedia/fr/1/1d/Logo_UNSS_-_2017.svg",
       "slug": "unss-2",
-      "index": 1420
+      "index": 1421
     },
     {
       "Name": "ESPCI Paris",
@@ -88,7 +88,7 @@
       "IsNative": true,
       "LogoPath": "https://w52.net.espci.fr/sites/www.espci.psl.eu/local/cache-vignettes/L600xH200/espci_baseline-couleur-copie-6aa60.png?1747763321",
       "slug": "espci-paris",
-      "index": 1417
+      "index": 1418
     },
     {
       "Name": "Westfield Club",
@@ -115,7 +115,7 @@
       "IsNative": true,
       "LogoPath": "https://res.cloudinary.com/westfielddg/image/upload/w_3840/fl_sanitize/q_auto/v1731591483/Westfield%20Website%20-%20Global%20Repository/01%20-%20CORPORATE%20ASSETS/Logos%20Westfield%20Club/Logo_Westfield_club_mobile.svg",
       "slug": "westfield-club",
-      "index": 1418
+      "index": 1419
     },
     {
       "Name": "Eiffage (NextSend)",
@@ -141,7 +141,7 @@
       "IsNative": true,
       "LogoPath": "https://openmindconseil.fr/wp-content/uploads/2015/04/Eiffage.svg_.png",
       "slug": "eiffage-nextsend",
-      "index": 1419
+      "index": 1420
     },
     {
       "Name": "Cegedim",
@@ -164,7 +164,7 @@
       "IsNative": true,
       "LogoPath": "https://www.comparateur-facturation-electronique.fr/wp-content/uploads/2024/09/cegedim-logo-HD.jpg.png",
       "slug": "cegedim",
-      "index": 1413
+      "index": 1414
     },
     {
       "Name": "Santeo",
@@ -188,7 +188,7 @@
       "IsNative": true,
       "LogoPath": "https://www.santeo.net/assets/img/logo.jpg",
       "slug": "santeo",
-      "index": 1414
+      "index": 1415
     },
     {
       "Name": "Fédération Française de Gymnastique",
@@ -214,7 +214,7 @@
       "IsNative": true,
       "LogoPath": "https://upload.wikimedia.org/wikipedia/fr/8/88/Logo_F%C3%A9d%C3%A9ration_Fran%C3%A7aise_Gymnastique_-_2013.svg",
       "slug": "fdration-franaise-de-gymnastique",
-      "index": 1415
+      "index": 1416
     },
     {
       "Name": "Fédération Française de Karaté",
@@ -239,7 +239,7 @@
       "IsNative": true,
       "LogoPath": "https://sites.ffkarate.fr/cdkvar83/wp-content/uploads/sites/102/2015/06/FFKarate_H_RVB.png",
       "slug": "fdration-franaise-de-karat",
-      "index": 1416
+      "index": 1417
     },
     {
       "Name": "Fédération Française d'Aïkido, Aïkibudo et Associées (FFAAA)",
@@ -316,6 +316,34 @@
       "LogoPath": "https://myconnectt.fr/wp-content/uploads/2024/05/LOGO-MYCONNECTT-EMAIL-1.png",
       "slug": "myconnect",
       "index": 1412
+    },
+    {
+      "Name": "KomikoAI",
+      "Title": "KomikoAI",
+      "Domain": "komiko.app",
+      "BreachDate": "2026-02-25",
+      "AddedDate": "2026-03-02T01:31:29Z",
+      "ModifiedDate": "2026-03-02T01:31:29Z",
+      "PwnCount": 1060191,
+      "Description": "In February, the AI-powered comic generation platform <a href=\"https://x.com/troyhunt/status/2028273847376765139\" target=\"_blank\" rel=\"noopener\">KomikoAI suffered a data breach</a>. The incident exposed 1M unique email addresses along with names, user posts and the AI prompts used to generate content. The exposed data enables the mapping of individual AI prompts to specific email addresses.",
+      "LogoPath": "https://logos.haveibeenpwned.com/KomikoAI.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [
+        "AI prompts",
+        "Email addresses",
+        "Forum posts",
+        "Names"
+      ],
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "index": 1413
     },
     {
       "Name": "Ayomi",
