@@ -76,7 +76,8 @@ class breach {
     })*/
     //console.log(await tempdata)
     const storage=[]
-    fs.readdirSync(path.join(baseDir, 'source', '_posts')).filter((file) => { return fs.statSync(path.join(baseDir, 'source', '_posts', file)).isDirectory() }).forEach((dir) => {
+    if(fs.existsSync(path.join(baseDir, 'source', '_posts'))){
+ fs.readdirSync(path.join(baseDir, 'source', '_posts')).filter((file) => { return fs.statSync(path.join(baseDir, 'source', '_posts', file)).isDirectory() }).forEach((dir) => {
       const importDir = path.join(baseDir, 'source', '_posts', dir);
       //console.log(importDir)
       const dataFile = path.join(baseDir, 'source', '_data', 'breaches.json');
@@ -240,14 +241,16 @@ class breach {
       console.log('-----------------------------');
       fs.rmdirSync(importDir)
     })
+    }
+   
   }
 
   // Lancer la fonction
-
+if(fs.existsSync(path.join(baseDir, 'source', '_posts'))){
 if (fs.readdirSync(path.join(baseDir, 'source', '_posts')).filter((file) => { return fs.statSync(path.join(baseDir, 'source', '_posts', file)).isDirectory() }).length != 0) {
 
   runImport();
-}
+}}
 
 
 
