@@ -72,9 +72,11 @@ db.breaches.forEach((breach, idx) => {
             if (res.statusCode === 200) {
               breach.lien = `https://haveibeenpwned.com/Breach/${slug}`; }}).on('error', (e) => {
               console.error(`Erreur lors de la vérification du lien HIBP pour ${slug}: ${e.message}`);
-              breach.lien = `undefined`;
-            })) 
-          breach.lien = `https://haveibeenpwned.com/Breach/${slug}`;
+              breach.lien = breach.source||"undefined";
+            })){
+              console.log(`Lien HIBP vérifié pour ${slug}`);
+            } 
+        //  breach.lien = `https://haveibeenpwned.com/Breach/${slug}`;
         }
       } else {
         breach.lien = `https://haveibeenpwned.com/`;
