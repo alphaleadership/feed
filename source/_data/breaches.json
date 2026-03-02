@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-02T13:35:37.997Z",
+  "lastUpdated": "2026-03-02T14:08:29.975Z",
   "totalBreaches": 1389,
   "breaches": [
     {
@@ -28,7 +28,8 @@
       "IsNative": true,
       "LogoPath": "https://adf-systemes.fr/wp-content/uploads/2020/10/Sans-titre-scaled.jpg",
       "slug": "be-atex",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/03/BE-Atex-leak-fuites-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/03/BE-Atex-leak-fuites-de-donnees.png",
+      "index": 1403
     },
     {
       "Name": "Fédération Française de Rugby à XIII",
@@ -51,7 +52,8 @@
       "IsNative": true,
       "LogoPath": "https://upload.wikimedia.org/wikipedia/fr/3/3a/Logo-FFRXIII-2017-02.png",
       "slug": "fdration-franaise-de-rugby-xiii",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/FF-rugby-13-leak-fuites-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/FF-rugby-13-leak-fuites-de-donnees.png",
+      "index": 1400
     },
     {
       "Name": "UNSS #2",
@@ -83,7 +85,8 @@
       "IsNative": true,
       "LogoPath": "https://upload.wikimedia.org/wikipedia/fr/1/1d/Logo_UNSS_-_2017.svg",
       "slug": "unss-2",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/UNSS-leak-fuites-de-donnees-scaled.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/UNSS-leak-fuites-de-donnees-scaled.png",
+      "index": 1401
     },
     {
       "Name": "Fédération Française d'Aéronautique",
@@ -107,7 +110,8 @@
       "IsNative": true,
       "LogoPath": "https://upload.wikimedia.org/wikipedia/fr/thumb/c/c6/F%C3%A9d%C3%A9ration_fran%C3%A7aise_a%C3%A9ronautique.svg/1280px-F%C3%A9d%C3%A9ration_fran%C3%A7aise_a%C3%A9ronautique.svg.png",
       "slug": "fdration-franaise-daronautique",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/federation-francais-aviation-leak-fuites-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/federation-francais-aviation-leak-fuites-de-donnees.png",
+      "index": 1402
     },
     {
       "Name": "Eiffage (NextSend)",
@@ -133,7 +137,8 @@
       "IsNative": true,
       "LogoPath": "https://openmindconseil.fr/wp-content/uploads/2015/04/Eiffage.svg_.png",
       "slug": "eiffage-nextsend",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Eiffage-leak-fuite-de-donnees.jpg"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Eiffage-leak-fuite-de-donnees.jpg",
+      "index": 1396
     },
     {
       "Name": "Fédération Française de Ski",
@@ -158,7 +163,8 @@
       "IsNative": true,
       "LogoPath": "https://upload.wikimedia.org/wikipedia/fr/8/81/Logo_F%C3%A9d%C3%A9ration_Fran%C3%A7aise_Ski.svg",
       "slug": "fdration-franaise-de-ski",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Federation-francaise-de-ski-leak-fuite-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Federation-francaise-de-ski-leak-fuite-de-donnees.png",
+      "index": 1397
     },
     {
       "Name": "ESPCI Paris",
@@ -186,7 +192,8 @@
       "IsNative": true,
       "LogoPath": "https://w52.net.espci.fr/sites/www.espci.psl.eu/local/cache-vignettes/L600xH200/espci_baseline-couleur-copie-6aa60.png?1747763321",
       "slug": "espci-paris",
-      "source": "https://next.ink/brief_article/fuite-de-donnees-personnelles-a-lecole-dingenieurs-espci/"
+      "source": "https://next.ink/brief_article/fuite-de-donnees-personnelles-a-lecole-dingenieurs-espci/",
+      "index": 1398
     },
     {
       "Name": "Westfield Club",
@@ -213,7 +220,8 @@
       "IsNative": true,
       "LogoPath": "https://res.cloudinary.com/westfielddg/image/upload/w_3840/fl_sanitize/q_auto/v1731591483/Westfield%20Website%20-%20Global%20Repository/01%20-%20CORPORATE%20ASSETS/Logos%20Westfield%20Club/Logo_Westfield_club_mobile.svg",
       "slug": "westfield-club",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/westfield-club-leak-fuites-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/westfield-club-leak-fuites-de-donnees.png",
+      "index": 1399
     },
     {
       "Name": "Cegedim",
@@ -236,7 +244,8 @@
       "IsNative": true,
       "LogoPath": "https://www.comparateur-facturation-electronique.fr/wp-content/uploads/2024/09/cegedim-logo-HD.jpg.png",
       "slug": "cegedim",
-      "source": "https://www.franceinfo.fr/sante/enquete-francetv-une-fuite-massive-de-donnees-medicales-inquiete-en-france_7831823.html"
+      "source": "https://www.franceinfo.fr/sante/enquete-francetv-une-fuite-massive-de-donnees-medicales-inquiete-en-france_7831823.html",
+      "index": 1392
     },
     {
       "Name": "Santeo",
@@ -260,7 +269,8 @@
       "IsNative": true,
       "LogoPath": "https://www.santeo.net/assets/img/logo.jpg",
       "slug": "santeo",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Santeo-Fuites-de-donnees-leak.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Santeo-Fuites-de-donnees-leak.png",
+      "index": 1393
     },
     {
       "Name": "Fédération Française de Gymnastique",
@@ -286,7 +296,8 @@
       "IsNative": true,
       "LogoPath": "https://upload.wikimedia.org/wikipedia/fr/8/88/Logo_F%C3%A9d%C3%A9ration_Fran%C3%A7aise_Gymnastique_-_2013.svg",
       "slug": "fdration-franaise-de-gymnastique",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Federation-gymnastique-leak-fuites-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Federation-gymnastique-leak-fuites-de-donnees.png",
+      "index": 1394
     },
     {
       "Name": "Fédération Française de Karaté",
@@ -311,7 +322,8 @@
       "IsNative": true,
       "LogoPath": "https://sites.ffkarate.fr/cdkvar83/wp-content/uploads/sites/102/2015/06/FFKarate_H_RVB.png",
       "slug": "fdration-franaise-de-karat",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Federation-francaise-karate-leak-fuite-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Federation-francaise-karate-leak-fuite-de-donnees.png",
+      "index": 1395
     },
     {
       "Name": "KomikoAI",
@@ -339,7 +351,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1257
+      "index": 1387
     },
     {
       "Name": "Lovora",
@@ -366,7 +378,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1258
+      "index": 1388
     },
     {
       "Name": "Fédération Française d'Aïkido, Aïkibudo et Associées (FFAAA)",
@@ -391,7 +403,8 @@
       "IsNative": true,
       "LogoPath": "https://aikido.com.fr/wp-content/uploads/2022/03/cropped-ffaaa_LOGOV2_site.png",
       "slug": "fdration-franaise-dakido-akibudo-et-associes-ffaaa",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/FFAAA-Aikido-leak-fuites-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/FFAAA-Aikido-leak-fuites-de-donnees.png",
+      "index": 1389
     },
     {
       "Name": "CAF (RSA)",
@@ -416,7 +429,8 @@
       "IsNative": true,
       "LogoPath": "https://www.watten.fr/wp-content/uploads/2022/01/CAF-logo-L.jpg",
       "slug": "caf-rsa",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Dinum-RSA-fuites-de-donnees-leak.jpg"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Dinum-RSA-fuites-de-donnees-leak.jpg",
+      "index": 1390
     },
     {
       "Name": "MyConnect",
@@ -442,7 +456,8 @@
       "IsNative": true,
       "LogoPath": "https://myconnectt.fr/wp-content/uploads/2024/05/LOGO-MYCONNECTT-EMAIL-1.png",
       "slug": "myconnect",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/MyConnect-interim-fuite-de-donnees-leak.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/MyConnect-interim-fuite-de-donnees-leak.png",
+      "index": 1391
     },
     {
       "Name": "Ayomi",
@@ -469,7 +484,8 @@
       "IsNative": true,
       "LogoPath": "https://media.licdn.com/dms/image/v2/C4E0BAQFJMe9B9IzzcA/company-logo_200_200/company-logo_200_200/0/1637325038893?e=2147483647&v=beta&t=OkRsg8L1Ve-ZoyYABgKbqFKB03ojhI6mphPFB1SxoBA",
       "slug": "ayomi",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Ayomi-Fuites-de-donnees-leak.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Ayomi-Fuites-de-donnees-leak.png",
+      "index": 1384
     },
     {
       "Name": "Fédération Française du Sport Automobile",
@@ -495,7 +511,8 @@
       "IsNative": true,
       "LogoPath": "https://laboratoire-droit-sport.fr/wp-content/uploads/2022/10/Logo-FFSA-2015-2048138985.jpg",
       "slug": "fdration-franaise-du-sport-automobile",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/federation-francaise-de-sport-automobile-leak-fuite-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/federation-francaise-de-sport-automobile-leak-fuite-de-donnees.png",
+      "index": 1385
     },
     {
       "Name": "Cegid",
@@ -521,7 +538,8 @@
       "IsNative": true,
       "LogoPath": "https://webikeo.fr/_next/image?url=https%3A%2F%2Fcdn.webikeo.com%2Fchannel_images%2F2022-07-20-56cdfd93501a490bb91901c7bc8f9faf.jpg&w=2048&q=100",
       "slug": "cegid",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Cegid-leak-fuites-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Cegid-leak-fuites-de-donnees.png",
+      "index": 1386
     },
     {
       "Name": "Unis Cité",
@@ -547,7 +565,8 @@
       "IsNative": true,
       "LogoPath": "https://upload.wikimedia.org/wikipedia/fr/b/b6/Unis-cit%C3%A9.jpg",
       "slug": "unis-cit",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/unis-cite-leak-fuite-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/unis-cite-leak-fuite-de-donnees.png",
+      "index": 1381
     },
     {
       "Name": "Mondial Relay #2",
@@ -571,7 +590,8 @@
       "IsNative": true,
       "LogoPath": "https://recycleriedugatinais.org/wp-content/uploads/logo_mondial_relay_rectangle_grand.png",
       "slug": "mondial-relay-2",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Mondial-relay-fuites-de-donnees-leak.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Mondial-relay-fuites-de-donnees-leak.png",
+      "index": 1382
     },
     {
       "Name": "Olympique de Marseille",
@@ -598,7 +618,8 @@
       "IsNative": true,
       "LogoPath": "https://logo-marque.com/wp-content/uploads/2020/11/Olympique-de-Marseille-Logo.png",
       "slug": "olympique-de-marseille",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/OM-Marseille-leak-fuites-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/OM-Marseille-leak-fuites-de-donnees.png",
+      "index": 1383
     },
     {
       "Name": "MaSalleDeSport (Basic-Fit, Fitness Park..)",
@@ -623,7 +644,8 @@
       "IsNative": true,
       "LogoPath": "https://cdn.prod.website-files.com/5c1922e22200fb24773c7093/5e95dc355b4dfe3e553bb11e_msds-image-13.png",
       "slug": "masalledesport-basic-fit-fitness-park",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Masalledesport-leak-fuite-de-donnees.jpg"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Masalledesport-leak-fuite-de-donnees.jpg",
+      "index": 1379
     },
     {
       "Name": "Fédération Française de Badminton",
@@ -648,7 +670,8 @@
       "IsNative": true,
       "LogoPath": "https://agir.telethon.fr/wp-content/uploads/2022/07/image_agir_ffbad-640x347.jpg",
       "slug": "fdration-franaise-de-badminton",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/ffbad-badminton-leak-fuites-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/ffbad-badminton-leak-fuites-de-donnees.png",
+      "index": 1380
     },
     {
       "Name": "Innovorder",
@@ -672,7 +695,8 @@
       "IsNative": true,
       "LogoPath": "https://www.francebleu.fr/pikapi/images/a7eb5fe2-8fdb-471d-9e5d-b15bc751eda6/1200x680?webp=false",
       "slug": "innovorder",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Innovorder-fuites-de-donnees-leak.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Innovorder-fuites-de-donnees-leak.png",
+      "index": 1377
     },
     {
       "Name": "IDmerit",
@@ -703,7 +727,8 @@
       "IsNative": true,
       "LogoPath": "https://www.idmerit.co.uk/wp-content/uploads/2023/04/IDMerit-LOGO-04-svg.png",
       "slug": "idmerit",
-      "source": "https://cybernews.com/security/global-data-leak-exposes-billion-records/"
+      "source": "https://cybernews.com/security/global-data-leak-exposes-billion-records/",
+      "index": 1378
     },
     {
       "Name": "OSAC (Aviation civile)",
@@ -729,7 +754,8 @@
       "IsNative": true,
       "LogoPath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGVSAIfdoQR_HpuBHaJdhFeQPnu-yzU-bqhA&s",
       "slug": "osac-aviation-civile",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/OSAC-Aviation-civile-leak-fuites-donnees.webp"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/OSAC-Aviation-civile-leak-fuites-donnees.webp",
+      "index": 1370
     },
     {
       "Name": "Police, Gendarmerie, CNIL (agents)",
@@ -755,7 +781,8 @@
       "IsNative": true,
       "LogoPath": "https://www.rubies.fr/wp-content/uploads/2024/01/170267-1.jpg",
       "slug": "police-gendarmerie-cnil-agents",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Leak-police-gendarmerie-fuites-de-donnees-hexdex.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Leak-police-gendarmerie-fuites-de-donnees-hexdex.png",
+      "index": 1371
     },
     {
       "Name": "Ministère de l'Intérieur & des Armées",
@@ -781,7 +808,8 @@
       "IsNative": true,
       "LogoPath": "https://www.ideation.fr/wp-content/uploads/2024/11/logo-police-nationale.png",
       "slug": "ministre-de-lintrieur-des-armes",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/intradefgouv-interieurgouv-leak-fuites-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/intradefgouv-interieurgouv-leak-fuites-de-donnees.png",
+      "index": 1372
     },
     {
       "Name": "Gendarmerie Nationale (RESANA)",
@@ -808,7 +836,8 @@
       "IsNative": true,
       "LogoPath": "https://www.designe.fr/wp-content/uploads/2020/10/gendarmerie-nationale-logo.jpg",
       "slug": "gendarmerie-nationale-resana",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Gendarmerie-leak-fuites-de-donnees-Rasana.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Gendarmerie-leak-fuites-de-donnees-Rasana.png",
+      "index": 1373
     },
     {
       "Name": "KeepCool",
@@ -834,7 +863,8 @@
       "IsNative": true,
       "LogoPath": "https://web.keepcool.fr/wp-content/uploads/2022/07/logo-keepcool-mobile.png",
       "slug": "keepcool",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Keepcool-sport-leak-fuites-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Keepcool-sport-leak-fuites-de-donnees.png",
+      "index": 1374
     },
     {
       "Name": "Azaé",
@@ -863,7 +893,8 @@
       "IsNative": true,
       "LogoPath": "https://www.azae.com/wp-content/uploads/2025/07/logo_baseline_200x200.webp",
       "slug": "aza",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/azae-leak-fuite-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/azae-leak-fuite-de-donnees.png",
+      "index": 1375
     },
     {
       "Name": "PayPal (Entreprise)",
@@ -887,7 +918,8 @@
       "IsNative": true,
       "LogoPath": "https://newsroom.fr.paypal-corp.com/image/pp_h_rgb_logo_tn.jpg",
       "slug": "paypal-entreprise",
-      "source": "https://www.01net.com/actualites/fuite-donnees-paypal-transactions-non-autorisees-touche-certains-comptes.html"
+      "source": "https://www.01net.com/actualites/fuite-donnees-paypal-transactions-non-autorisees-touche-certains-comptes.html",
+      "index": 1376
     },
     {
       "Name": "Ministère des Sports (plateforme FOROM)",
@@ -913,7 +945,8 @@
       "IsNative": true,
       "LogoPath": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Logo_edouard_sports.jpg/250px-Logo_edouard_sports.jpg",
       "slug": "ministre-des-sports-plateforme-forom",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Ministere-des-sports-leak-fuites-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Ministere-des-sports-leak-fuites-de-donnees.png",
+      "index": 1368
     },
     {
       "Name": "Valgo",
@@ -939,7 +972,8 @@
       "IsNative": true,
       "LogoPath": "https://www.valgo.com/wp-content/themes/valgo/dist/images/logo-green.svg",
       "slug": "valgo",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Valgo-leak-fuites-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Valgo-leak-fuites-de-donnees.png",
+      "index": 1369
     },
     {
       "Name": "direction générale des finances publiques fuite du 2026-2-18",
@@ -965,7 +999,7 @@
       "slug": "direction-g-n-rale-des-finances-publiques-fuite-du-2026-2-18",
       "path": "https://presse.economie.gouv.fr/acces-illegitimes-au-fichier-national-des-comptes-bancaires-ficoba/",
       "formattedDate": "2026-02-17",
-      "index": 1255
+      "index": 1359
     },
     {
       "Name": "espace ce fuite du 2026-2-18",
@@ -991,7 +1025,7 @@
       "slug": "espace-ce-fuite-du-2026-2-18",
       "path": "https://bonjourlafuite.eu.org/img/espacece.png",
       "formattedDate": "2026-02-17",
-      "index": 1256
+      "index": 1360
     },
     {
       "Name": "Cyrillus",
@@ -1014,7 +1048,8 @@
       "IsNative": true,
       "LogoPath": "https://cacheshopping.cosmopolitan.fr/data/photo/w1200_h630_c17/1uy/code-promo-cyrillus-logo.jpg",
       "slug": "cyrillus",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/cyrillus-fuites-de-donnees-leak.webp"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/cyrillus-fuites-de-donnees-leak.webp",
+      "index": 1361
     },
     {
       "Name": "RTL Group",
@@ -1039,7 +1074,8 @@
       "IsNative": true,
       "LogoPath": "https://www.mediaspecs.fr/wp-content/uploads/2022/10/RTL-Group-logo.png",
       "slug": "rtl-group",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/RTL-leak-fuites-de-donnees-.jpg"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/RTL-leak-fuites-de-donnees-.jpg",
+      "index": 1362
     },
     {
       "Name": "Lycée Carnot Paris",
@@ -1065,7 +1101,8 @@
       "IsNative": true,
       "LogoPath": "https://upload.wikimedia.org/wikipedia/commons/4/47/FACADEDULYCEE.jpg",
       "slug": "lyce-carnot-paris",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Leak-lycee-carnot-paris-fuites-donnees.jpg"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Leak-lycee-carnot-paris-fuites-donnees.jpg",
+      "index": 1363
     },
     {
       "Name": "FICOBA (Ministère de l'Économie et des Finances)",
@@ -1090,7 +1127,8 @@
       "IsNative": true,
       "LogoPath": "https://exag.fr/wp-content/uploads/2020/11/Logo_Ministe%CC%80re_de_le%CC%81conomie_et_des_finances_2020.png",
       "slug": "ficoba-ministre-de-lconomie-et-des-finances",
-      "source": "https://www.leparisien.fr/economie/les-donnees-d12-million-de-comptes-bancaires-francais-consultees-illegalement-les-usagers-concernes-vont-etre-alertes-18-02-2026-62KH3FTGINAQPPEEAKPQG4AONE.php"
+      "source": "https://www.leparisien.fr/economie/les-donnees-d12-million-de-comptes-bancaires-francais-consultees-illegalement-les-usagers-concernes-vont-etre-alertes-18-02-2026-62KH3FTGINAQPPEEAKPQG4AONE.php",
+      "index": 1364
     },
     {
       "Name": "On Air Fitness",
@@ -1116,7 +1154,8 @@
       "IsNative": true,
       "LogoPath": "https://files.iqcmanager.com/stores/1595404789000-LOGO-ROUGE.png",
       "slug": "on-air-fitness",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/On-Air-Leak-fitness-fuites-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/On-Air-Leak-fitness-fuites-de-donnees.png",
+      "index": 1365
     },
     {
       "Name": "CFDT",
@@ -1142,7 +1181,8 @@
       "IsNative": true,
       "LogoPath": "https://transparency-france.org/wp-content/uploads/2019/07/Logo-CFDT.png",
       "slug": "cfdt",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/CFDT-Fuites-de-donnees-leak.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/CFDT-Fuites-de-donnees-leak.png",
+      "index": 1366
     },
     {
       "Name": "Réglo Mobile (Leclerc)",
@@ -1169,7 +1209,8 @@
       "IsNative": true,
       "LogoPath": "https://cdn1.promotons.com/resize?fileName=production/promotons-fr/retailers/9b61808e-9994-41a1-a068-2c95a691ffdf/logoRegloMobile.png&q=50&f=webp&w=320",
       "slug": "rglo-mobile-leclerc",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/reglo-mobile-fuites-de-donnees-leak.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/reglo-mobile-fuites-de-donnees-leak.png",
+      "index": 1367
     },
     {
       "Name": "Quitbro",
@@ -1196,7 +1237,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1254
+      "index": 1357
     },
     {
       "Name": "Axa",
@@ -1225,7 +1266,8 @@
       "IsNative": true,
       "LogoPath": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/AXA_Logo.svg/500px-AXA_Logo.svg.png",
       "slug": "axa",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Axa-leak-fuite-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Axa-leak-fuite-de-donnees.png",
+      "index": 1358
     },
     {
       "Name": "cnrs fuite du 2026-2-16",
@@ -1251,7 +1293,7 @@
       "slug": "cnrs-fuite-du-2026-2-16",
       "path": "https://bonjourlafuite.eu.org/img/cnrs.png",
       "formattedDate": "2026-02-15",
-      "index": 1253
+      "index": 1354
     },
     {
       "Name": "Adidas",
@@ -1279,7 +1321,8 @@
       "IsNative": true,
       "LogoPath": "https://1000marcas.net/wp-content/uploads/2024/02/Adidas-Logo-1991.png",
       "slug": "adidas",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Adidas-leak-fuites-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Adidas-leak-fuites-donnees.png",
+      "index": 1355
     },
     {
       "Name": "Socloz (Apple, Nike etc...)",
@@ -1304,7 +1347,8 @@
       "IsNative": true,
       "LogoPath": "https://cdn.prod.website-files.com/66c87e97978dafad912e39d7/66dafff2410af8f32e37968b_socloz.svg",
       "slug": "socloz-apple-nike-etc",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/socloz-apple-lacoste-nike-leak-fuite-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/socloz-apple-lacoste-nike-leak-fuite-de-donnees.png",
+      "index": 1356
     },
     {
       "Name": "EPITA (École Pour l'Informatique et les Techniques Avancées)",
@@ -1329,7 +1373,8 @@
       "IsNative": true,
       "LogoPath": "https://epita.fr/wp-content/uploads/2018/06/inauguration_espace_programmes_internationaux_international_epita_campus_paris_etudiants_anciens_juin_2018_13.jpg",
       "slug": "epita-cole-pour-linformatique-et-les-techniques-avances",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/epita-cyber-school-leak-fuites-donnees-scaled.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/epita-cyber-school-leak-fuites-donnees-scaled.png",
+      "index": 1353
     },
     {
       "Name": "CarGurus",
@@ -1358,7 +1403,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1252
+      "index": 1350
     },
     {
       "Name": "Fédération française de voitures radio commandées (FFVRC)",
@@ -1386,7 +1431,8 @@
       "IsNative": true,
       "LogoPath": "https://www.ffvrc.fr/medias/fichiers/LOGOS%20DES%20DISCIPLINES-EFRA-IFMAR%20ET%20AUTRES/Image%20FFVRC%20site.png",
       "slug": "fdration-franaise-de-voitures-radio-commandes-ffvrc",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/FFVRC-federation-francaise-de-voitures-radio-commandees-leak-fuites-donnees-scaled.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/FFVRC-federation-francaise-de-voitures-radio-commandees-leak-fuites-donnees-scaled.png",
+      "index": 1351
     },
     {
       "Name": "Fédération Française d'Athlétisme",
@@ -1419,7 +1465,8 @@
       "IsNative": true,
       "LogoPath": "https://www.athle.fr/upload/news/39/20139_big.jpg",
       "slug": "fdration-franaise-dathltisme",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/federation-francaise-atlhetisme-leak-fuite-donneees-scaled.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/federation-francaise-atlhetisme-leak-fuite-donneees-scaled.png",
+      "index": 1352
     },
     {
       "Name": "grain de malice fuite du 2026-2-13",
@@ -1445,7 +1492,7 @@
       "slug": "grain-de-malice-fuite-du-2026-2-13",
       "path": "https://bonjourlafuite.eu.org/img/grain-malice.png",
       "formattedDate": "2026-02-12",
-      "index": 1249
+      "index": 1344
     },
     {
       "Name": "les restos du cœur fuite du 2026-2-13",
@@ -1471,7 +1518,7 @@
       "slug": "les-restos-du-c-ur-fuite-du-2026-2-13",
       "path": "https://bonjourlafuite.eu.org/img/resto-coeur.png",
       "formattedDate": "2026-02-12",
-      "index": 1250
+      "index": 1345
     },
     {
       "Name": "voyage privé fuite du 2026-2-13",
@@ -1497,7 +1544,7 @@
       "slug": "voyage-priv-fuite-du-2026-2-13",
       "path": "https://bonjourlafuite.eu.org/img/voyage-prive-1.jpg",
       "formattedDate": "2026-02-13",
-      "index": 1251
+      "index": 1346
     },
     {
       "Name": "Kimsufi (OVHcloud)",
@@ -1525,7 +1572,8 @@
       "IsNative": true,
       "LogoPath": "https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2019/05/kimsufi-logo-alt.png",
       "slug": "kimsufi-ovhcloud",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/OVH-Possible-leak.jpg"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/OVH-Possible-leak.jpg",
+      "index": 1347
     },
     {
       "Name": "Gustave-Auto",
@@ -1551,7 +1599,8 @@
       "IsNative": true,
       "LogoPath": "https://www.francenum.gouv.fr/files/ignimission/logo/techaction_gustave_1_3ff72648-a1a6-4a80-85e5-b487b0d49b21.png",
       "slug": "gustave-auto",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/gustave-auto-leak-fuite-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/gustave-auto-leak-fuite-de-donnees.png",
+      "index": 1348
     },
     {
       "Name": "Chez Switch",
@@ -1578,7 +1627,8 @@
       "IsNative": true,
       "LogoPath": "https://upload.wikimedia.org/wikipedia/commons/6/60/LOGOChezSwitch.jpg",
       "slug": "chez-switch",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/switch-energy-fuites-donnees-leak.jpg"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/switch-energy-fuites-donnees-leak.jpg",
+      "index": 1349
     },
     {
       "Name": "Odido",
@@ -1613,7 +1663,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1248
+      "index": 1343
     },
     {
       "Name": "commune de bourg fuite du 2026-2-11",
@@ -1639,7 +1689,7 @@
       "slug": "commune-de-bourg-fuite-du-2026-2-11",
       "path": "https://bonjourlafuite.eu.org/img/bourg-achard.png",
       "formattedDate": "2026-02-10",
-      "index": 1247
+      "index": 1342
     },
     {
       "Name": "relais colis fuite du 2026-2-10",
@@ -1665,7 +1715,7 @@
       "slug": "relais-colis-fuite-du-2026-2-10",
       "path": "https://www.01net.com/actualites/nouvelle-fuite-de-donnees-chez-relais-colis-infos-personnelles-compromises.html",
       "formattedDate": "2026-02-10",
-      "index": 1246
+      "index": 1338
     },
     {
       "Name": "Safran Group",
@@ -1691,7 +1741,8 @@
       "IsNative": true,
       "LogoPath": "https://www.logotheque-vectorielle.fr/wp-content/uploads/2022/10/logo-vectoriel-safran.jpg",
       "slug": "safran-group",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/safran-group-fuites-de-donnees-leak.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/safran-group-fuites-de-donnees-leak.png",
+      "index": 1339
     },
     {
       "Name": "Birdee",
@@ -1718,7 +1769,8 @@
       "IsNative": true,
       "LogoPath": "https://www.connectbanque.com/sites/default/files/inline-images/logo-birdee_0.png",
       "slug": "birdee",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/birdee-leak-fuites-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/birdee-leak-fuites-de-donnees.png",
+      "index": 1340
     },
     {
       "Name": "Ciffreo Bona",
@@ -1744,7 +1796,8 @@
       "IsNative": true,
       "LogoPath": "https://www.lecommercedubois.org/images/members/logo-image/ciffreo_bona.jpg",
       "slug": "ciffreo-bona",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/ciffrebona-leak-fuite-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/ciffrebona-leak-fuite-de-donnees.png",
+      "index": 1341
     },
     {
       "Name": "aïkan fuite du 2026-2-9",
@@ -1770,7 +1823,7 @@
       "slug": "a-kan-fuite-du-2026-2-9",
       "path": "https://bonjourlafuite.eu.org/img/aikan-1.jpg",
       "formattedDate": "2026-02-08",
-      "index": 1240
+      "index": 1329
     },
     {
       "Name": "commission européenne fuite du 2026-2-9",
@@ -1796,7 +1849,7 @@
       "slug": "commission-europ-enne-fuite-du-2026-2-9",
       "path": "https://ec.europa.eu/commission/presscorner/detail/fr/ip_26_342",
       "formattedDate": "2026-02-08",
-      "index": 1241
+      "index": 1330
     },
     {
       "Name": "darty fuite du 2026-2-9",
@@ -1822,7 +1875,7 @@
       "slug": "darty-fuite-du-2026-2-9",
       "path": "https://bonjourlafuite.eu.org/img/darty.png",
       "formattedDate": "2026-02-08",
-      "index": 1242
+      "index": 1331
     },
     {
       "Name": "la carte avantage jeune fuite du 2026-2-9",
@@ -1848,7 +1901,7 @@
       "slug": "la-carte-avantage-jeune-fuite-du-2026-2-9",
       "path": "https://bonjourlafuite.eu.org/img/carte-avantage-jeune.png",
       "formattedDate": "2026-02-08",
-      "index": 1243
+      "index": 1332
     },
     {
       "Name": "pharmashopi fuite du 2026-2-9",
@@ -1874,7 +1927,7 @@
       "slug": "pharmashopi-fuite-du-2026-2-9",
       "path": "https://bonjourlafuite.eu.org/img/pharmashopi.jpg",
       "formattedDate": "2026-02-09",
-      "index": 1244
+      "index": 1333
     },
     {
       "Name": "sumsub fuite du 2026-2-9",
@@ -1900,7 +1953,7 @@
       "slug": "sumsub-fuite-du-2026-2-9",
       "path": "https://cryptoast.fr/bitget-bybit-moonpay-bitpanda-donnees-personnelles-clients-pourraient-avoir-fuite-a-cause-fournisseur-kyc/",
       "formattedDate": "2026-02-09",
-      "index": 1245
+      "index": 1334
     },
     {
       "Name": "Renault (Réseau de concessions Sud-Est)",
@@ -1926,7 +1979,8 @@
       "IsNative": true,
       "LogoPath": "https://static.vecteezy.com/ti/vecteur-libre/p1/20500705-renault-marque-logo-voiture-symbole-avec-nom-blanc-conception-francais-voiture-vecteur-illustration-avec-noir-contexte-gratuit-vectoriel.jpg",
       "slug": "renault-rseau-de-concessions-sud-est",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Renault-fuite-de-donnees-leak.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Renault-fuite-de-donnees-leak.png",
+      "index": 1335
     },
     {
       "Name": "Prozon",
@@ -1952,7 +2006,8 @@
       "IsNative": true,
       "LogoPath": "https://prozon.com/img/cms/logo-prozon-2x.jpeg",
       "slug": "prozon",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/1770646660159.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/1770646660159.png",
+      "index": 1336
     },
     {
       "Name": "Groupe Atalian",
@@ -1980,7 +2035,8 @@
       "IsNative": true,
       "LogoPath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy5K3uiWg70BRoNJGE6ekH-RWMhs-vwzJ6Pw&s",
       "slug": "groupe-atalian",
-      "source": "https://atalian.com/wp-content/uploads/2025/12/Communique-de-presse.pdf"
+      "source": "https://atalian.com/wp-content/uploads/2025/12/Communique-de-presse.pdf",
+      "index": 1337
     },
     {
       "Name": "Rankfyt",
@@ -2007,7 +2063,8 @@
       "IsNative": true,
       "LogoPath": "https://rankfyt.com/rank_logo.png",
       "slug": "rankfyt",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/rankfyt-fuites-donnees-leak.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/rankfyt-fuites-donnees-leak.png",
+      "index": 1327
     },
     {
       "Name": "Immo-pop",
@@ -2033,7 +2090,8 @@
       "IsNative": true,
       "LogoPath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYmud0ZV6dZGKLEfevWTUImUSl2ucLk0zFHQ&s",
       "slug": "immo-pop",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Immo-pop-leak-fuites-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Immo-pop-leak-fuites-de-donnees.png",
+      "index": 1328
     },
     {
       "Name": "office français de la biodiversité fuite du 2026-2-7",
@@ -2059,7 +2117,7 @@
       "slug": "office-fran-ais-de-la-biodiversit-fuite-du-2026-2-7",
       "path": "https://ofb.gouv.fr/actualites/cyberattaque-visant-application-du-permis-de-chasser-ofb-informe-ses-usagers",
       "formattedDate": "2026-02-07",
-      "index": 1239
+      "index": 1325
     },
     {
       "Name": "Voyages Robin",
@@ -2085,7 +2143,8 @@
       "IsNative": true,
       "LogoPath": "https://cdn0.mariages.net/vendor/0979/3_2/960/jpeg/logo-2018-3-250979-163102620178510_3_250979-163161199865164.jpeg",
       "slug": "voyages-robin",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/voyages-robin-fuite-de-donnee-leak.jpg"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/voyages-robin-fuite-de-donnee-leak.jpg",
+      "index": 1326
     },
     {
       "Name": "cette famille fuite du 2026-2-6",
@@ -2111,7 +2170,7 @@
       "slug": "cette-famille-fuite-du-2026-2-6",
       "path": "https://bonjourlafuite.eu.org/img/cette-famille.png",
       "formattedDate": "2026-02-05",
-      "index": 1233
+      "index": 1318
     },
     {
       "Name": "flickr fuite du 2026-2-6",
@@ -2137,7 +2196,7 @@
       "slug": "flickr-fuite-du-2026-2-6",
       "path": "https://bonjourlafuite.eu.org/img/flickr.png",
       "formattedDate": "2026-02-05",
-      "index": 1234
+      "index": 1319
     },
     {
       "Name": "fédération française de tennis de table fuite du 2026-2-6",
@@ -2163,7 +2222,7 @@
       "slug": "f-d-ration-fran-aise-de-tennis-de-table-fuite-du-2026-2-6",
       "path": "https://bonjourlafuite.eu.org/img/fftt.png",
       "formattedDate": "2026-02-05",
-      "index": 1235
+      "index": 1320
     },
     {
       "Name": "fédération française de voile fuite du 2026-2-6",
@@ -2189,7 +2248,7 @@
       "slug": "f-d-ration-fran-aise-de-voile-fuite-du-2026-2-6",
       "path": "https://www.letelegramme.fr/sports/voile/la-federation-francaise-de-voile-victime-dune-fuite-de-donnees-de-ses-licencies-6978517.php",
       "formattedDate": "2026-02-05",
-      "index": 1236
+      "index": 1321
     },
     {
       "Name": "ToyBattles",
@@ -2217,7 +2276,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1237
+      "index": 1322
     },
     {
       "Name": "maire de paris fuite du 2026-2-6",
@@ -2243,7 +2302,7 @@
       "slug": "maire-de-paris-fuite-du-2026-2-6",
       "path": "https://bonjourlafuite.eu.org/img/mairie-paris.png",
       "formattedDate": "2026-02-06",
-      "index": 1238
+      "index": 1323
     },
     {
       "Name": "admr fuite du 2026-2-5",
@@ -2269,7 +2328,7 @@
       "slug": "admr-fuite-du-2026-2-5",
       "path": "https://bonjourlafuite.eu.org/img/admr.png",
       "formattedDate": "2026-02-04",
-      "index": 1224
+      "index": 1308
     },
     {
       "Name": "agence régionale de santé fuite du 2026-2-5",
@@ -2295,7 +2354,7 @@
       "slug": "agence-r-gionale-de-sant-fuite-du-2026-2-5",
       "path": "https://bonjourlafuite.eu.org/img/ars.png",
       "formattedDate": "2026-02-04",
-      "index": 1225
+      "index": 1309
     },
     {
       "Name": "centre communal d’action sociale de dunkerque fuite du 2026-2-5",
@@ -2321,7 +2380,7 @@
       "slug": "centre-communal-d-action-sociale-de-dunkerque-fuite-du-2026-2-5",
       "path": "https://bonjourlafuite.eu.org/img/ccas-dunkerque.png",
       "formattedDate": "2026-02-04",
-      "index": 1226
+      "index": 1310
     },
     {
       "Name": "centre national de gestion fuite du 2026-2-5",
@@ -2347,7 +2406,7 @@
       "slug": "centre-national-de-gestion-fuite-du-2026-2-5",
       "path": "https://bonjourlafuite.eu.org/img/cng.png",
       "formattedDate": "2026-02-04",
-      "index": 1227
+      "index": 1311
     },
     {
       "Name": "choisir le service public fuite du 2026-2-5",
@@ -2373,7 +2432,7 @@
       "slug": "choisir-le-service-public-fuite-du-2026-2-5",
       "path": "https://bonjourlafuite.eu.org/img/choisir-service-public.png",
       "formattedDate": "2026-02-04",
-      "index": 1228
+      "index": 1312
     },
     {
       "Name": "fédération française de randonnée pédestre fuite du 2026-2-5",
@@ -2399,7 +2458,7 @@
       "slug": "f-d-ration-fran-aise-de-randonn-e-p-destre-fuite-du-2026-2-5",
       "path": "https://bonjourlafuite.eu.org/img/ffrando.png",
       "formattedDate": "2026-02-04",
-      "index": 1229
+      "index": 1313
     },
     {
       "Name": "protexia france fuite du 2026-2-5",
@@ -2425,7 +2484,7 @@
       "slug": "protexia-france-fuite-du-2026-2-5",
       "path": "https://bonjourlafuite.eu.org/img/protexia.png",
       "formattedDate": "2026-02-05",
-      "index": 1230
+      "index": 1314
     },
     {
       "Name": "substack fuite du 2026-2-5",
@@ -2451,7 +2510,7 @@
       "slug": "substack-fuite-du-2026-2-5",
       "path": "https://lorichristian.substack.com/p/notice-of-data-breach",
       "formattedDate": "2026-02-05",
-      "index": 1231
+      "index": 1315
     },
     {
       "Name": "Asten Santé",
@@ -2478,7 +2537,8 @@
       "IsNative": true,
       "LogoPath": "https://www.pagesjaunes.fr/media/agc/21/d9/2e/00/00/47/00/a1/02/24/643921d92e00004700a10224/643921d92e00004a6aa10225.jpg",
       "slug": "asten-sant",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Astensante-data-leak-fuite-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Astensante-data-leak-fuite-de-donnees.png",
+      "index": 1316
     },
     {
       "Name": "Family Cinema",
@@ -2505,7 +2565,8 @@
       "IsNative": true,
       "LogoPath": "https://play-lh.googleusercontent.com/wGLtoC7PVaZZTD9-jkskE0UqXfIcBSluLlvULRsoXXr3pMgWaA6B18lq_uhNqAGQ1zw_",
       "slug": "family-cinema",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Family-cinema-leak-fuite-de-donnees.jpg"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Family-cinema-leak-fuite-de-donnees.jpg",
+      "index": 1317
     },
     {
       "Name": "loxam fuite du 2026-2-4",
@@ -2531,7 +2592,7 @@
       "slug": "loxam-fuite-du-2026-2-4",
       "path": "https://bonjourlafuite.eu.org/img/loxam.png",
       "formattedDate": "2026-02-03",
-      "index": 1223
+      "index": 1305
     },
     {
       "Name": "Collège-Lycée Notre-Dame des Dunes (Dunkerque)",
@@ -2558,7 +2619,8 @@
       "IsNative": true,
       "LogoPath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwR88r0Rw2Gy-r1kQULIpwK4Yn21sbA1MRWA&s",
       "slug": "collge-lyce-notre-dame-des-dunes-dunkerque",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Lycee-notre-dame-dunes-dunkerque-college-saint-charles-de-brest-leak-fuites-donnees-scaled.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Lycee-notre-dame-dunes-dunkerque-college-saint-charles-de-brest-leak-fuites-donnees-scaled.png",
+      "index": 1306
     },
     {
       "Name": "Collège Saint-Charles (Guipavas/Brest)",
@@ -2584,7 +2646,8 @@
       "IsNative": true,
       "LogoPath": "https://www.stcharles-guipavas.fr/wp-content/uploads/2020/03/saint-charles-logo.png",
       "slug": "collge-saint-charles-guipavasbrest",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Lycee-notre-dame-dunes-dunkerque-college-saint-charles-de-brest-leak-fuites-donnees-scaled.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Lycee-notre-dame-dunes-dunkerque-college-saint-charles-de-brest-leak-fuites-donnees-scaled.png",
+      "index": 1307
     },
     {
       "Name": "Darty.com (Cuisine)",
@@ -2610,7 +2673,8 @@
       "IsNative": true,
       "LogoPath": "https://sf1.mariefrance.fr/wp-content/uploads/sites/5/2020/05/darty-large-logo-750x410.jpg",
       "slug": "dartycom-cuisine",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Darty-fuites-de-donnees-leak.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Darty-fuites-de-donnees-leak.png",
+      "index": 1304
     },
     {
       "Name": "armée de terre fuite du 2026-1-31",
@@ -2636,7 +2700,7 @@
       "slug": "arm-e-de-terre-fuite-du-2026-1-31",
       "path": "https://bonjourlafuite.eu.org/img/armee-de-terre.png",
       "formattedDate": "2026-01-30",
-      "index": 1221
+      "index": 1299
     },
     {
       "Name": "inria fuite du 2026-1-31",
@@ -2662,7 +2726,7 @@
       "slug": "inria-fuite-du-2026-1-31",
       "path": "https://bonjourlafuite.eu.org/img/inria-1.png",
       "formattedDate": "2026-01-30",
-      "index": 1222
+      "index": 1300
     },
     {
       "Name": "Médecins Remplaçants (Base de données 2026)",
@@ -2687,7 +2751,8 @@
       "IsNative": true,
       "LogoPath": "https://www.girodmedical.com/blog/wp-content/uploads/2023/12/Banniere-home-girod-medical-1172x512-1-1024x448.png",
       "slug": "mdecins-remplaants-base-de-donnes-2026",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Medecins-remplacant-fuites-leak.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Medecins-remplacant-fuites-leak.png",
+      "index": 1301
     },
     {
       "Name": "Inria (Institut National de Recherche en Informatique et en Automatique)",
@@ -2713,7 +2778,8 @@
       "IsNative": true,
       "LogoPath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQZW1TVW6VgqGfYatNDtZaxxAyfZ32OGYH_A&s",
       "slug": "inria-institut-national-de-recherche-en-informatique-et-en-automatique",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Inria-fuites-donnees-leak.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Inria-fuites-donnees-leak.png",
+      "index": 1302
     },
     {
       "Name": "CCAS de Dunkerque",
@@ -2741,7 +2807,8 @@
       "IsNative": true,
       "LogoPath": "https://media.graphiline.com/src/images/news/articles/ima-image-22186.png",
       "slug": "ccas-de-dunkerque",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/CCAS-Dunkerque-leak-fuites-de-donnees.jpg"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/CCAS-Dunkerque-leak-fuites-de-donnees.jpg",
+      "index": 1303
     },
     {
       "Name": "code rousseau fuite du 2026-1-30",
@@ -2767,7 +2834,7 @@
       "slug": "code-rousseau-fuite-du-2026-1-30",
       "path": "https://bonjourlafuite.eu.org/img/code-rousseau.jpg",
       "formattedDate": "2026-01-29",
-      "index": 1217
+      "index": 1295
     },
     {
       "Name": "ANPS",
@@ -2796,7 +2863,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1218
+      "index": 1296
     },
     {
       "Name": "mano mano fuite du 2026-1-30",
@@ -2822,7 +2889,7 @@
       "slug": "mano-mano-fuite-du-2026-1-30",
       "path": "https://bonjourlafuite.eu.org/img/manomano.png",
       "formattedDate": "2026-01-30",
-      "index": 1219
+      "index": 1297
     },
     {
       "Name": "opquast fuite du 2026-1-30",
@@ -2848,7 +2915,7 @@
       "slug": "opquast-fuite-du-2026-1-30",
       "path": "https://bonjourlafuite.eu.org/img/opquast.png",
       "formattedDate": "2026-01-30",
-      "index": 1220
+      "index": 1298
     },
     {
       "Name": "match group (hinge fuite du 2026-1-29",
@@ -2874,7 +2941,7 @@
       "slug": "match-group-hinge-fuite-du-2026-1-29",
       "path": "https://bonjourlafuite.eu.org/img/match-group.png",
       "formattedDate": "2026-01-29",
-      "index": 1213
+      "index": 1289
     },
     {
       "Name": "réseau.site fuite du 2026-1-29",
@@ -2900,7 +2967,7 @@
       "slug": "r-seau-site-fuite-du-2026-1-29",
       "path": "https://bonjourlafuite.eu.org/img/reseau-site.png",
       "formattedDate": "2026-01-29",
-      "index": 1214
+      "index": 1290
     },
     {
       "Name": "sfr fuite du 2026-1-29",
@@ -2926,7 +2993,7 @@
       "slug": "sfr-fuite-du-2026-1-29",
       "path": "https://bonjourlafuite.eu.org/img/sfr-2.png",
       "formattedDate": "2026-01-29",
-      "index": 1215
+      "index": 1291
     },
     {
       "Name": "verychic fuite du 2026-1-29",
@@ -2952,7 +3019,7 @@
       "slug": "verychic-fuite-du-2026-1-29",
       "path": "https://bonjourlafuite.eu.org/img/very-chic.png",
       "formattedDate": "2026-01-29",
-      "index": 1216
+      "index": 1292
     },
     {
       "Name": "Multi-Agences Immobilières Françaises - 500gb",
@@ -2983,7 +3050,8 @@
       "IsNative": true,
       "LogoPath": "",
       "slug": "multi-agences-immobilires-franaises-500gb",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/real-estate-leak-fuites-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/real-estate-leak-fuites-donnees.png",
+      "index": 1293
     },
     {
       "Name": "FranceCasse.fr",
@@ -3014,7 +3082,8 @@
       "IsNative": true,
       "LogoPath": "https://www.francecasse.fr/userfiles/image/images/logo_1BD.png",
       "slug": "francecassefr",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/francecasse.fr-leak-fuites-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/francecasse.fr-leak-fuites-de-donnees.png",
+      "index": 1294
     },
     {
       "Name": "11 agences immobilières fuite du 2026-1-28",
@@ -3040,7 +3109,7 @@
       "slug": "11-agences-immobili-res-fuite-du-2026-1-28",
       "path": "https://bonjourlafuite.eu.org/img/agences-immobilieres.png",
       "formattedDate": "2026-01-27",
-      "index": 1202
+      "index": 1278
     },
     {
       "Name": "centre d’imagerie médicale de puteaux fuite du 2026-1-28",
@@ -3066,7 +3135,7 @@
       "slug": "centre-d-imagerie-m-dicale-de-puteaux-fuite-du-2026-1-28",
       "path": "https://bonjourlafuite.eu.org/img/cim-puteaux.png",
       "formattedDate": "2026-01-27",
-      "index": 1203
+      "index": 1279
     },
     {
       "Name": "coriolis fuite du 2026-1-28",
@@ -3092,7 +3161,7 @@
       "slug": "coriolis-fuite-du-2026-1-28",
       "path": "https://bonjourlafuite.eu.org/img/coriolis.png",
       "formattedDate": "2026-01-27",
-      "index": 1204
+      "index": 1280
     },
     {
       "Name": "le cnam fuite du 2026-1-28",
@@ -3118,7 +3187,7 @@
       "slug": "le-cnam-fuite-du-2026-1-28",
       "path": "https://bonjourlafuite.eu.org/img/cnam.png",
       "formattedDate": "2026-01-27",
-      "index": 1205
+      "index": 1281
     },
     {
       "Name": "lovys fuite du 2026-1-28",
@@ -3144,7 +3213,7 @@
       "slug": "lovys-fuite-du-2026-1-28",
       "path": "https://bonjourlafuite.eu.org/img/lovys.png",
       "formattedDate": "2026-01-27",
-      "index": 1206
+      "index": 1282
     },
     {
       "Name": "lyleoo fuite du 2026-1-28",
@@ -3170,7 +3239,7 @@
       "slug": "lyleoo-fuite-du-2026-1-28",
       "path": "https://bonjourlafuite.eu.org/img/lyleoo.png",
       "formattedDate": "2026-01-27",
-      "index": 1207
+      "index": 1283
     },
     {
       "Name": "Figure",
@@ -3199,7 +3268,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1208
+      "index": 1284
     },
     {
       "Name": "o’tacos fuite du 2026-1-28",
@@ -3225,7 +3294,7 @@
       "slug": "o-tacos-fuite-du-2026-1-28",
       "path": "https://bonjourlafuite.eu.org/img/o-tacos.png",
       "formattedDate": "2026-01-28",
-      "index": 1209
+      "index": 1285
     },
     {
       "Name": "techni fuite du 2026-1-28",
@@ -3251,7 +3320,7 @@
       "slug": "techni-fuite-du-2026-1-28",
       "path": "https://bonjourlafuite.eu.org/img/techni-contact.pn/google",
       "formattedDate": "2026-01-28",
-      "index": 1210
+      "index": 1286
     },
     {
       "Name": "ugsel fuite du 2026-1-28",
@@ -3277,7 +3346,7 @@
       "slug": "ugsel-fuite-du-2026-1-28",
       "path": "https://bonjourlafuite.eu.org/img/ugsel.png",
       "formattedDate": "2026-01-28",
-      "index": 1211
+      "index": 1287
     },
     {
       "Name": "wemind fuite du 2026-1-28",
@@ -3303,7 +3372,7 @@
       "slug": "wemind-fuite-du-2026-1-28",
       "path": "https://bonjourlafuite.eu.org/img/wemind.png",
       "formattedDate": "2026-01-28",
-      "index": 1212
+      "index": 1288
     },
     {
       "Name": "Techni-Contact",
@@ -3335,7 +3404,8 @@
       "IsNative": true,
       "LogoPath": "https://cdn.franceenvironnement.com/logo/e/39631.webp",
       "slug": "techni-contact",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/technicontact-leak-fuite-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/technicontact-leak-fuite-de-donnees.png",
+      "index": 1277
     },
     {
       "Name": "AutoForever",
@@ -3360,7 +3430,8 @@
       "IsNative": true,
       "LogoPath": "https://www.auto-forever.com/wp-content/uploads/2023/03/logo-auto-forever-noir-livrable.svg",
       "slug": "autoforever",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Autofever-fuites-leak-donnees.webp"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/02/Autofever-fuites-leak-donnees.webp",
+      "index": 1276
     },
     {
       "Name": "fédération française des sports pour tous fuite du 2026-1-25",
@@ -3386,7 +3457,7 @@
       "slug": "f-d-ration-fran-aise-des-sports-pour-tous-fuite-du-2026-1-25",
       "path": "https://bonjourlafuite.eu.org/img/sportspourtous.png",
       "formattedDate": "2026-01-24",
-      "index": 1198
+      "index": 1271
     },
     {
       "Name": "livrenpoche fuite du 2026-1-25",
@@ -3412,7 +3483,7 @@
       "slug": "livrenpoche-fuite-du-2026-1-25",
       "path": "https://bonjourlafuite.eu.org/img/livrenpoche.png",
       "formattedDate": "2026-01-24",
-      "index": 1199
+      "index": 1272
     },
     {
       "Name": "renault fuite du 2026-1-25",
@@ -3438,7 +3509,7 @@
       "slug": "renault-fuite-du-2026-1-25",
       "path": "https://bonjourlafuite.eu.org/img/renault.png",
       "formattedDate": "2026-01-25",
-      "index": 1200
+      "index": 1273
     },
     {
       "Name": "sciences po fuite du 2026-1-25",
@@ -3464,7 +3535,7 @@
       "slug": "sciences-po-fuite-du-2026-1-25",
       "path": "https://bonjourlafuite.eu.org/img/sciences-po-1.png",
       "formattedDate": "2026-01-25",
-      "index": 1201
+      "index": 1274
     },
     {
       "Name": "Coriolis Télécom",
@@ -3502,7 +3573,8 @@
       "IsNative": true,
       "LogoPath": "https://www.neomag.fr/images/actualite/2015/5099/New_logo_Coriolis.JPG",
       "slug": "coriolis-tlcom",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/coriolis-fuite-de-donnees-leak.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/coriolis-fuite-de-donnees-leak.png",
+      "index": 1275
     },
     {
       "Name": "fédération française d’études et de sports sous fuite du 2026-1-24",
@@ -3528,7 +3600,7 @@
       "slug": "f-d-ration-fran-aise-d-tudes-et-de-sports-sous-fuite-du-2026-1-24",
       "path": "https://bonjourlafuite.eu.org/img/ffessm-1.png",
       "formattedDate": "2026-01-23",
-      "index": 1191
+      "index": 1264
     },
     {
       "Name": "guiot de bourg fuite du 2026-1-24",
@@ -3554,7 +3626,7 @@
       "slug": "guiot-de-bourg-fuite-du-2026-1-24",
       "path": "https://bonjourlafuite.eu.org/img/guiotdebourg.png",
       "formattedDate": "2026-01-23",
-      "index": 1192
+      "index": 1265
     },
     {
       "Name": "CarMax",
@@ -3582,7 +3654,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1193
+      "index": 1266
     },
     {
       "Name": "movida fuite du 2026-1-24",
@@ -3608,7 +3680,7 @@
       "slug": "movida-fuite-du-2026-1-24",
       "path": "https://bonjourlafuite.eu.org/img/movida.png",
       "formattedDate": "2026-01-24",
-      "index": 1194
+      "index": 1267
     },
     {
       "Name": "panorama banques fuite du 2026-1-24",
@@ -3634,7 +3706,7 @@
       "slug": "panorama-banques-fuite-du-2026-1-24",
       "path": "https://bonjourlafuite.eu.org/img/panoramabanques.png",
       "formattedDate": "2026-01-24",
-      "index": 1195
+      "index": 1268
     },
     {
       "Name": "scoring fit fuite du 2026-1-24",
@@ -3660,7 +3732,7 @@
       "slug": "scoring-fit-fuite-du-2026-1-24",
       "path": "https://bonjourlafuite.eu.org/img/scoringfit.png",
       "formattedDate": "2026-01-24",
-      "index": 1196
+      "index": 1269
     },
     {
       "Name": "suzuki fuite du 2026-1-24",
@@ -3686,7 +3758,7 @@
       "slug": "suzuki-fuite-du-2026-1-24",
       "path": "https://www.suzuki.fr/securite-donnees-personnelles",
       "formattedDate": "2026-01-24",
-      "index": 1197
+      "index": 1270
     },
     {
       "Name": "baby vista fuite du 2026-1-23",
@@ -3712,7 +3784,7 @@
       "slug": "baby-vista-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/babyvista.png",
       "formattedDate": "2026-01-22",
-      "index": 1180
+      "index": 1253
     },
     {
       "Name": "fédération française de chasse fuite du 2026-1-23",
@@ -3738,7 +3810,7 @@
       "slug": "f-d-ration-fran-aise-de-chasse-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/ffchasse.png",
       "formattedDate": "2026-01-22",
-      "index": 1181
+      "index": 1254
     },
     {
       "Name": "fédération française de golf fuite du 2026-1-23",
@@ -3764,7 +3836,7 @@
       "slug": "f-d-ration-fran-aise-de-golf-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/ffgolf.png",
       "formattedDate": "2026-01-22",
-      "index": 1182
+      "index": 1255
     },
     {
       "Name": "fédération française de volley fuite du 2026-1-23",
@@ -3790,7 +3862,7 @@
       "slug": "f-d-ration-fran-aise-de-volley-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/ffvolley.png",
       "formattedDate": "2026-01-22",
-      "index": 1183
+      "index": 1256
     },
     {
       "Name": "fédération française des sapeurs fuite du 2026-1-23",
@@ -3816,7 +3888,7 @@
       "slug": "f-d-ration-fran-aise-des-sapeurs-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/ffpompiers.png",
       "formattedDate": "2026-01-22",
-      "index": 1184
+      "index": 1257
     },
     {
       "Name": "fédération française d’escrime fuite du 2026-1-23",
@@ -3842,7 +3914,7 @@
       "slug": "f-d-ration-fran-aise-d-escrime-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/ffe.png",
       "formattedDate": "2026-01-22",
-      "index": 1185
+      "index": 1258
     },
     {
       "Name": "grand froid fuite du 2026-1-23",
@@ -3868,7 +3940,7 @@
       "slug": "grand-froid-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/grand-froid.png",
       "formattedDate": "2026-01-22",
-      "index": 1186
+      "index": 1259
     },
     {
       "Name": "orpi fuite du 2026-1-23",
@@ -3894,7 +3966,7 @@
       "slug": "orpi-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/orpi-1.png",
       "formattedDate": "2026-01-23",
-      "index": 1187
+      "index": 1260
     },
     {
       "Name": "too easy fuite du 2026-1-23",
@@ -3920,7 +3992,7 @@
       "slug": "too-easy-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/tooeasy.png",
       "formattedDate": "2026-01-23",
-      "index": 1188
+      "index": 1261
     },
     {
       "Name": "valorissimo fuite du 2026-1-23",
@@ -3946,7 +4018,7 @@
       "slug": "valorissimo-fuite-du-2026-1-23",
       "path": "https://bonjourlafuite.eu.org/img/valo.png",
       "formattedDate": "2026-01-23",
-      "index": 1189
+      "index": 1262
     },
     {
       "Name": "waltio fuite du 2026-1-23",
@@ -3972,7 +4044,7 @@
       "slug": "waltio-fuite-du-2026-1-23",
       "path": "https://www.waltio.com/fr/blog/actualite/security-notice-23-01/",
       "formattedDate": "2026-01-23",
-      "index": 1190
+      "index": 1263
     },
     {
       "Name": "Fédération Nationale des Chasseurs (FNC) & OFB",
@@ -4002,7 +4074,8 @@
       "IsNative": true,
       "LogoPath": "https://www.fdc10.org/wp-content/uploads/2020/03/logo-fnc.png",
       "slug": "fdration-nationale-des-chasseurs-fnc-ofb",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/fuites-federation-francaise-de-chasse.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/fuites-federation-francaise-de-chasse.png",
+      "index": 1252
     },
     {
       "Name": "ensam fuite du 2026-1-21",
@@ -4028,7 +4101,7 @@
       "slug": "ensam-fuite-du-2026-1-21",
       "path": "https://bonjourlafuite.eu.org/img/ensam.png",
       "formattedDate": "2026-01-20",
-      "index": 1179
+      "index": 1250
     },
     {
       "Name": "École nationale supérieure d'arts et métiers (ENSAM)",
@@ -4055,7 +4128,8 @@
       "IsNative": true,
       "LogoPath": "https://www.sorbonne.fr/wp-content/uploads/Arts_et_m%C3%A9tiers_Logo_couleur_FR.png",
       "slug": "cole-nationale-suprieure-darts-et-mtiers-ensam",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/ensam-fuites-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/ensam-fuites-de-donnees.png",
+      "index": 1251
     },
     {
       "Name": "conseiljuridique.net fuite du 2026-1-20",
@@ -4081,7 +4155,7 @@
       "slug": "conseiljuridique-net-fuite-du-2026-1-20",
       "path": "https://bonjourlafuite.eu.org/img/conseiljuridique.png",
       "formattedDate": "2026-01-19",
-      "index": 1176
+      "index": 1246
     },
     {
       "Name": "delko fuite du 2026-1-20",
@@ -4107,7 +4181,7 @@
       "slug": "delko-fuite-du-2026-1-20",
       "path": "https://bonjourlafuite.eu.org/img/delko.jpg",
       "formattedDate": "2026-01-19",
-      "index": 1177
+      "index": 1247
     },
     {
       "Name": "france éducation international fuite du 2026-1-20",
@@ -4133,7 +4207,7 @@
       "slug": "france-ducation-international-fuite-du-2026-1-20",
       "path": "https://www.france-education-international.fr/actualites/incident-sur-la-plateforme-gael-diplomes-delf-dalf",
       "formattedDate": "2026-01-19",
-      "index": 1178
+      "index": 1248
     },
     {
       "Name": "Syma Mobile",
@@ -4163,7 +4237,8 @@
       "IsNative": true,
       "LogoPath": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Syma_Mobile_logo.png",
       "slug": "syma-mobile",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Syma-mobile-leak-fuites-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Syma-mobile-leak-fuites-de-donnees.png",
+      "index": 1249
     },
     {
       "Name": "dce conseil fuite du 2026-1-19",
@@ -4189,7 +4264,7 @@
       "slug": "dce-conseil-fuite-du-2026-1-19",
       "path": "https://www.01net.com/actualites/fuite-donnees-devoile-plans-plusieurs-prisons-base-militaire-francaise.html",
       "formattedDate": "2026-01-18",
-      "index": 1172
+      "index": 1241
     },
     {
       "Name": "info jeunes bourgogne franche fuite du 2026-1-19",
@@ -4215,7 +4290,7 @@
       "slug": "info-jeunes-bourgogne-franche-fuite-du-2026-1-19",
       "path": "https://bonjourlafuite.eu.org/img/info-jeunes-bourgogne-franche-comte.png",
       "formattedDate": "2026-01-18",
-      "index": 1173
+      "index": 1242
     },
     {
       "Name": "ioburo fuite du 2026-1-19",
@@ -4241,7 +4316,7 @@
       "slug": "ioburo-fuite-du-2026-1-19",
       "path": "https://bonjourlafuite.eu.org/img/ioburo.png",
       "formattedDate": "2026-01-18",
-      "index": 1174
+      "index": 1243
     },
     {
       "Name": "urssaf fuite du 2026-1-19",
@@ -4267,7 +4342,7 @@
       "slug": "urssaf-fuite-du-2026-1-19",
       "path": "https://www.20minutes.fr/faits_divers/4196942-20260119-urssaf-victime-acces-frauduleux-donnees-12-millions-salaries-potentiellement-concernes",
       "formattedDate": "2026-01-19",
-      "index": 1175
+      "index": 1244
     },
     {
       "Name": "Urssaf — DPAE",
@@ -4293,7 +4368,8 @@
       "IsNative": true,
       "LogoPath": "https://www.chateaulavalade.fr/wp-content/uploads/2016/11/URSSAF_Logo.svg_.png",
       "slug": "urssaf-dpae",
-      "source": "https://www.ouest-france.fr/societe/cyberattaque/urssaf-acces-frauduleux-aux-donnees-de-la-declaration-prealable-a-lembauche-12-millions-de-salaries-concernes-2e62f0f8-f548-11f0-9160-764ed90b3d12"
+      "source": "https://www.ouest-france.fr/societe/cyberattaque/urssaf-acces-frauduleux-aux-donnees-de-la-declaration-prealable-a-lembauche-12-millions-de-salaries-concernes-2e62f0f8-f548-11f0-9160-764ed90b3d12",
+      "index": 1245
     },
     {
       "Name": "euronature fuite du 2026-1-18",
@@ -4319,7 +4395,7 @@
       "slug": "euronature-fuite-du-2026-1-18",
       "path": "https://bonjourlafuite.eu.org/img/euronature-1.png",
       "formattedDate": "2026-01-17",
-      "index": 1171
+      "index": 1238
     },
     {
       "Name": "TooEasy Agence Web",
@@ -4355,7 +4431,8 @@
       "IsNative": true,
       "LogoPath": "https://www.tooeasy.fr/assets/uploads/social/b263f-logo_tooeasy_rvb.jpeg",
       "slug": "tooeasy-agence-web",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/tooeasy-agence-web-fuites-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/tooeasy-agence-web-fuites-de-donnees.png",
+      "index": 1239
     },
     {
       "Name": "Pix Orga (scolaire)",
@@ -4386,7 +4463,8 @@
       "IsNative": true,
       "LogoPath": "https://images.prismic.io/pix-site/9272e617-7939-4104-9449-f78fe6b265ea_logopixorga.png?auto=compress,format",
       "slug": "pix-orga-scolaire",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/pix-orga-fuites-donnees-leak.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/pix-orga-fuites-donnees-leak.png",
+      "index": 1240
     },
     {
       "Name": "Wobz (ex Dalvin)",
@@ -4415,7 +4493,8 @@
       "IsNative": true,
       "LogoPath": "https://wobz.com/wp-content/uploads/logo-wobz.png",
       "slug": "wobz-ex-dalvin",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/wobz-print-fuites-de-donnees-leak-infos-fuites.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/wobz-print-fuites-de-donnees-leak-infos-fuites.png",
+      "index": 1236
     },
     {
       "Name": "Le Bambou Castillonnais (Cartedepeche.fr)",
@@ -4456,7 +4535,8 @@
       "IsNative": true,
       "LogoPath": "https://morbihan.federationpeche.fr/uploads/Image/05/IMF_MEDIUM/GAB_DEPARTEMENT/1158_931_Cliqez-Imprimez-Pechez.jpg",
       "slug": "le-bambou-castillonnais-cartedepechefr",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/cartedepeche-fr-fuites-de-donnees-.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/cartedepeche-fr-fuites-de-donnees-.png",
+      "index": 1237
     },
     {
       "Name": "store pas cher fuite du 2026-1-16",
@@ -4482,7 +4562,7 @@
       "slug": "store-pas-cher-fuite-du-2026-1-16",
       "path": "https://bonjourlafuite.eu.org/img/storepascher.png",
       "formattedDate": "2026-01-16",
-      "index": 1170
+      "index": 1235
     },
     {
       "Name": "agro paris tech fuite du 2026-1-15",
@@ -4508,7 +4588,7 @@
       "slug": "agro-paris-tech-fuite-du-2026-1-15",
       "path": "https://bonjourlafuite.eu.org/img/agroparistech.png",
       "formattedDate": "2026-01-14",
-      "index": 1163
+      "index": 1224
     },
     {
       "Name": "fédération française de montagne escalade fuite du 2026-1-15",
@@ -4534,7 +4614,7 @@
       "slug": "f-d-ration-fran-aise-de-montagne-escalade-fuite-du-2026-1-15",
       "path": "https://www.ffme.fr/la-ffme-victime-dun-acte-de-cyber-malveillance/",
       "formattedDate": "2026-01-14",
-      "index": 1164
+      "index": 1225
     },
     {
       "Name": "fédération française de twirling bâton fuite du 2026-1-15",
@@ -4560,7 +4640,7 @@
       "slug": "f-d-ration-fran-aise-de-twirling-b-ton-fuite-du-2026-1-15",
       "path": "https://bonjourlafuite.eu.org/img/fftb.jpg",
       "formattedDate": "2026-01-14",
-      "index": 1165
+      "index": 1226
     },
     {
       "Name": "lire demain fuite du 2026-1-15",
@@ -4586,7 +4666,7 @@
       "slug": "lire-demain-fuite-du-2026-1-15",
       "path": "https://bonjourlafuite.eu.org/img/liredemain.png",
       "formattedDate": "2026-01-14",
-      "index": 1166
+      "index": 1227
     },
     {
       "Name": "relais colis fuite du 2026-1-15",
@@ -4612,7 +4692,7 @@
       "slug": "relais-colis-fuite-du-2026-1-15",
       "path": "https://bonjourlafuite.eu.org/img/relaiscolis-2.jpg",
       "formattedDate": "2026-01-15",
-      "index": 1167
+      "index": 1228
     },
     {
       "Name": "service public fuite du 2026-1-15",
@@ -4638,7 +4718,7 @@
       "slug": "service-public-fuite-du-2026-1-15",
       "path": "https://bonjourlafuite.eu.org/img/servicepublic.jpg",
       "formattedDate": "2026-01-15",
-      "index": 1168
+      "index": 1229
     },
     {
       "Name": "total énergies fuite du 2026-1-15",
@@ -4664,7 +4744,7 @@
       "slug": "total-nergies-fuite-du-2026-1-15",
       "path": "https://bonjourlafuite.eu.org/img/totalenergies.png",
       "formattedDate": "2026-01-15",
-      "index": 1169
+      "index": 1230
     },
     {
       "Name": "LBP Granville (Le Bureau de Prospection)",
@@ -4697,7 +4777,8 @@
       "IsNative": true,
       "LogoPath": "https://www.lbp-tm.fr/wp-content/uploads/2023/04/lbp-logo.png",
       "slug": "lbp-granville-le-bureau-de-prospection",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/LBP-Granville-Fuites-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/LBP-Granville-Fuites-de-donnees.png",
+      "index": 1231
     },
     {
       "Name": "Groupe Fondasol",
@@ -4727,7 +4808,8 @@
       "IsNative": true,
       "LogoPath": "https://www.winlassie.com/wp-content/uploads/2024/01/logo-fondasol.png",
       "slug": "groupe-fondasol",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Fondasol-fuites-donnees-.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Fondasol-fuites-donnees-.png",
+      "index": 1232
     },
     {
       "Name": "Force Ouvrière (UD 75)",
@@ -4758,7 +4840,8 @@
       "IsNative": true,
       "LogoPath": "https://www.force-ouvriere.fr/local/adapt-img/960/10x/IMG/jpg/logo_fo-nv_01-g.jpg?1763121901",
       "slug": "force-ouvrire-ud-75",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/FO-fuites-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/FO-fuites-de-donnees.png",
+      "index": 1233
     },
     {
       "Name": "Service-public.gouv.fr",
@@ -4781,7 +4864,8 @@
       "IsNative": true,
       "LogoPath": "https://www.dila.gouv.fr/local/cache-gd2/71/fef9fabffc44c351adebb0b44c9bcf.jpg?1765203455",
       "slug": "service-publicgouvfr",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Service-public-fuites-de-donnees.jpg"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Service-public-fuites-de-donnees.jpg",
+      "index": 1234
     },
     {
       "Name": "eurail fuite du 2026-1-13",
@@ -4807,7 +4891,7 @@
       "slug": "eurail-fuite-du-2026-1-13",
       "path": "https://bonjourlafuite.eu.org/img/eurail.png",
       "formattedDate": "2026-01-12",
-      "index": 1161
+      "index": 1221
     },
     {
       "Name": "zurflüh fuite du 2026-1-13",
@@ -4833,7 +4917,7 @@
       "slug": "zurfl-h-fuite-du-2026-1-13",
       "path": "https://bonjourlafuite.eu.org/img/zurfluh-feller.png",
       "formattedDate": "2026-01-13",
-      "index": 1162
+      "index": 1222
     },
     {
       "Name": "Eurail / Interrail",
@@ -4865,7 +4949,8 @@
       "IsNative": true,
       "LogoPath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmtcSdx0H2z2om4n9RTIK89UYlNNAswAELWuWPajlE94V-HvQHtmGYn706bV4&s&ec=121492228",
       "slug": "eurail-interrail",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Eurail-fuite-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Eurail-fuite-de-donnees.png",
+      "index": 1223
     },
     {
       "Name": "blackstore fuite du 2026-1-12",
@@ -4891,7 +4976,7 @@
       "slug": "blackstore-fuite-du-2026-1-12",
       "path": "https://bonjourlafuite.eu.org/img/blackstore.png",
       "formattedDate": "2026-01-11",
-      "index": 1155
+      "index": 1215
     },
     {
       "Name": "fédération française de tennis fuite du 2026-1-12",
@@ -4917,7 +5002,7 @@
       "slug": "f-d-ration-fran-aise-de-tennis-fuite-du-2026-1-12",
       "path": "https://bonjourlafuite.eu.org/img/fft.png",
       "formattedDate": "2026-01-11",
-      "index": 1156
+      "index": 1216
     },
     {
       "Name": "monlogicielmedical.com fuite du 2026-1-12",
@@ -4943,7 +5028,7 @@
       "slug": "monlogicielmedical-com-fuite-du-2026-1-12",
       "path": "https://bonjourlafuite.eu.org/img/monlogicielmedical.png",
       "formattedDate": "2026-01-12",
-      "index": 1158
+      "index": 1217
     },
     {
       "Name": "nephael.com & chloesanchez.com fuite du 2026-1-12",
@@ -4969,7 +5054,7 @@
       "slug": "nephael-com-chloesanchez-com-fuite-du-2026-1-12",
       "path": "https://bonjourlafuite.eu.org/img/nephael.png",
       "formattedDate": "2026-01-12",
-      "index": 1159
+      "index": 1218
     },
     {
       "Name": "relais colis fuite du 2026-1-12",
@@ -4995,7 +5080,7 @@
       "slug": "relais-colis-fuite-du-2026-1-12",
       "path": "https://bonjourlafuite.eu.org/img/relaiscolis.png",
       "formattedDate": "2026-01-12",
-      "index": 1160
+      "index": 1219
     },
     {
       "Name": "Audiophonics.fr",
@@ -5020,7 +5105,8 @@
       "IsNative": true,
       "LogoPath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK6wqWplarbiuGKzgBG2kSBqLtrpIFQuBAJg&s",
       "slug": "audiophonicsfr",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/audiophonics.fr-fuites-de-donnees.jpg"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/audiophonics.fr-fuites-de-donnees.jpg",
+      "index": 1210
     },
     {
       "Name": "ACRV.FR (Agence web)",
@@ -5088,7 +5174,8 @@
       "IsNative": true,
       "LogoPath": "https://www.acrv.fr/wp-content/uploads/2025/04/ico-logo-acrv-rouge.svg",
       "slug": "acrvfr-agence-web",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/ACRV-agence-web-fuites-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/ACRV-agence-web-fuites-de-donnees.png",
+      "index": 1211
     },
     {
       "Name": "BreachForums (2025)",
@@ -5112,7 +5199,8 @@
       "IsNative": true,
       "LogoPath": "https://logos.haveibeenpwned.com/BreachForums.png",
       "slug": "breachforums-2025",
-      "source": "https://haveibeenpwned.com/Breach/BreachForums2025"
+      "source": "https://haveibeenpwned.com/Breach/BreachForums2025",
+      "index": 1212
     },
     {
       "Name": "SOS Oxygène",
@@ -5141,7 +5229,8 @@
       "IsNative": true,
       "LogoPath": "https://www.label-emplitude.fr/wp-content/uploads/2025/11/cmcyncfgga6h207uwbtxedgu9.webp",
       "slug": "sos-oxygne",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/SOS-OXYGENE-FUITES-DE-DONNEES.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/SOS-OXYGENE-FUITES-DE-DONNEES.png",
+      "index": 1213
     },
     {
       "Name": "Panorabanques.com (2025)",
@@ -5188,7 +5277,8 @@
       "IsNative": true,
       "LogoPath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhRD5_Baf72L15O8d-XMqLY2Vl_beVdNLb6g&s",
       "slug": "panorabanquescom-2025",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Panorabanques.com-Fuites-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Panorabanques.com-Fuites-de-donnees.png",
+      "index": 1214
     },
     {
       "Name": "Betterment",
@@ -5221,7 +5311,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1154
+      "index": 1206
     },
     {
       "Name": "Apec Région Occitanie (Montpellier / Nîmes / Toulouse)",
@@ -5254,7 +5344,8 @@
       "IsNative": true,
       "LogoPath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAvITzQ493-lbUrzHesBIPryl3ytGtFz663Q&s",
       "slug": "apec-rgion-occitanie-montpellier-nmes-toulouse",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/APEC-Occitanie-Fuites-de-donnees-.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/APEC-Occitanie-Fuites-de-donnees-.png",
+      "index": 1207
     },
     {
       "Name": "Euronature (École de Naturopathie)",
@@ -5300,7 +5391,8 @@
       "IsNative": true,
       "LogoPath": "https://www.signadile.fr/wp-content/uploads/2022/09/logo-euronature.jpg",
       "slug": "euronature-cole-de-naturopathie",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Euronature-fuites-de-donnees.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Euronature-fuites-de-donnees.png",
+      "index": 1208
     },
     {
       "Name": "Paris à cœur ouvert (site Sarah Knafo)",
@@ -5328,7 +5420,8 @@
       "IsNative": true,
       "LogoPath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRQOilSs_cudeqa0dW2vtLRWsviZABRKZtAQ&s",
       "slug": "paris-cur-ouvert-site-sarah-knafo",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/paris-a-coeur-ouvert-knafo-breach.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/paris-a-coeur-ouvert-knafo-breach.png",
+      "index": 1209
     },
     {
       "Name": "casino de paris fuite du 2026-1-8",
@@ -5354,7 +5447,7 @@
       "slug": "casino-de-paris-fuite-du-2026-1-8",
       "path": "https://bonjourlafuite.eu.org/img/casino-paris.jpg",
       "formattedDate": "2026-01-07",
-      "index": 1153
+      "index": 1203
     },
     {
       "Name": "Carte Avantages Jeunes (CRIJ Bourgogne-Franche-Comté)",
@@ -5382,7 +5475,8 @@
       "IsNative": true,
       "LogoPath": "https://www.jeunes-bfc.fr/wp-content/uploads/2022/10/LOGO_CAJ_NOIR_SANS_DATE.png",
       "slug": "carte-avantages-jeunes-crij-bourgogne-franche-comt",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Fuites-de-donnees-avantagesjeunes.com_-scaled.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Fuites-de-donnees-avantagesjeunes.com_-scaled.png",
+      "index": 1204
     },
     {
       "Name": "Corse GSM (2025)",
@@ -5412,7 +5506,8 @@
       "IsNative": true,
       "LogoPath": "https://www.corsegsm.com/wp-content/uploads/2024/06/logo-cgsm-2024-RVB.jpg",
       "slug": "corse-gsm-2025",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Fuites-donnees-corse-GSM-2025.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Fuites-donnees-corse-GSM-2025.png",
+      "index": 1205
     },
     {
       "Name": "corse gsm fuite du 2026-1-7",
@@ -5438,7 +5533,7 @@
       "slug": "corse-gsm-fuite-du-2026-1-7",
       "path": "https://bonjourlafuite.eu.org/img/corsegsm.png",
       "formattedDate": "2026-01-06",
-      "index": 1144
+      "index": 1194
     },
     {
       "Name": "easycash fuite du 2026-1-7",
@@ -5464,7 +5559,7 @@
       "slug": "easycash-fuite-du-2026-1-7",
       "path": "https://bonjourlafuite.eu.org/img/easycash-1.jpg",
       "formattedDate": "2026-01-06",
-      "index": 1145
+      "index": 1195
     },
     {
       "Name": "fédération française de squash fuite du 2026-1-7",
@@ -5490,7 +5585,7 @@
       "slug": "f-d-ration-fran-aise-de-squash-fuite-du-2026-1-7",
       "path": "https://bonjourlafuite.eu.org/img/ffsquash.png",
       "formattedDate": "2026-01-06",
-      "index": 1146
+      "index": 1196
     },
     {
       "Name": "fédération française d’ulm fuite du 2026-1-7",
@@ -5516,7 +5611,7 @@
       "slug": "f-d-ration-fran-aise-d-ulm-fuite-du-2026-1-7",
       "path": "https://bonjourlafuite.eu.org/img/ffulm.png",
       "formattedDate": "2026-01-06",
-      "index": 1147
+      "index": 1197
     },
     {
       "Name": "fédération sportive et gymnique du travail fuite du 2026-1-7",
@@ -5542,7 +5637,7 @@
       "slug": "f-d-ration-sportive-et-gymnique-du-travail-fuite-du-2026-1-7",
       "path": "https://bonjourlafuite.eu.org/img/fsgt.png",
       "formattedDate": "2026-01-06",
-      "index": 1148
+      "index": 1198
     },
     {
       "Name": "ledger fuite du 2026-1-7",
@@ -5568,7 +5663,7 @@
       "slug": "ledger-fuite-du-2026-1-7",
       "path": "https://www.leparisien.fr/faits-divers/cryptomonnaies-des-clients-de-lentreprise-legder-victimes-dune-fuite-de-leurs-donnees-personnelles-07-01-2026-WSK45MAFQZENPOLJU3PXYYNKX4.php",
       "formattedDate": "2026-01-06",
-      "index": 1149
+      "index": 1199
     },
     {
       "Name": "Instagram",
@@ -5597,7 +5692,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1150
+      "index": 1200
     },
     {
       "Name": "PaneraBread",
@@ -5625,7 +5720,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1151
+      "index": 1201
     },
     {
       "Name": "philharmonie de paris fuite du 2026-1-7",
@@ -5651,7 +5746,7 @@
       "slug": "philharmonie-de-paris-fuite-du-2026-1-7",
       "path": "https://bonjourlafuite.eu.org/img/philharmonie-paris.png",
       "formattedDate": "2026-01-07",
-      "index": 1152
+      "index": 1202
     },
     {
       "Name": "L’Orange Bleue Fitness Club",
@@ -5687,7 +5782,8 @@
       "IsNative": true,
       "LogoPath": "https://www.lorangebleue.fr/wp-content/uploads/2023/06/logo-ob.png",
       "slug": "lorange-bleue-fitness-club",
-      "source": "https://x.com/seblatombe/status/2008369939023864165?s=20"
+      "source": "https://x.com/seblatombe/status/2008369939023864165?s=20",
+      "index": 1191
     },
     {
       "Name": "Fondation des Lions de France (Lions Clubs de France)",
@@ -5732,7 +5828,8 @@
       "IsNative": true,
       "LogoPath": "https://fldf.fr/wp-content/uploads/2023/06/FondationdesLionsdeFrance_1-01.png",
       "slug": "fondation-des-lions-de-france-lions-clubs-de-france",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Fuites-donnees-Lions-club-france-dati-rachida-scaled.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Fuites-donnees-Lions-club-france-dati-rachida-scaled.png",
+      "index": 1192
     },
     {
       "Name": "Loft by Denis Moines(salon de coiffure, Paris)",
@@ -5760,7 +5857,8 @@
       "IsNative": true,
       "LogoPath": "https://cdn1.treatwell.net/images/view/v2.i1404251.w1080.h720.x52F26B0C/",
       "slug": "loft-by-denis-moinessalon-de-coiffure-paris",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Fuites-donnees-coiffure-loft-by-denis-moines-scaled.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Fuites-donnees-coiffure-loft-by-denis-moines-scaled.png",
+      "index": 1193
     },
     {
       "Name": "office français de l’immigration et de l’intégration fuite du 2026-1-5",
@@ -5786,7 +5884,7 @@
       "slug": "office-fran-ais-de-l-immigration-et-de-l-int-gration-fuite-du-2026-1-5",
       "path": "https://www.lemonde.fr/pixels/article/2026/01/05/l-office-francais-de-l-immigration-et-de-l-integration-victime-d-une-fuite-de-donnees_6660632_4408996.html",
       "formattedDate": "2026-01-05",
-      "index": 1143
+      "index": 1187
     },
     {
       "Name": "DCE Conseil (Partenaires divers : Prisons, Armées, Luxe etc)",
@@ -5819,7 +5917,8 @@
       "IsNative": true,
       "LogoPath": "https://enov.eco/wp-content/uploads/2024/05/logo-partenaire-dce-recrutement.webp",
       "slug": "dce-conseil-partenaires-divers-prisons-armes-luxe-etc",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Dcconseil-scaled.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Dcconseil-scaled.png",
+      "index": 1188
     },
     {
       "Name": "Petits-fils",
@@ -5850,7 +5949,8 @@
       "IsNative": true,
       "LogoPath": "https://www.petits-fils.com/wp-content/uploads/2019/06/Logo-Petits-fils-web-500.jpg",
       "slug": "petits-fils",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/fuite-donnees-petits-fils-scaled.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/fuite-donnees-petits-fils-scaled.png",
+      "index": 1189
     },
     {
       "Name": "Ledger (via prestataire Global-e)",
@@ -5876,7 +5976,8 @@
       "IsNative": true,
       "LogoPath": "https://cryptoast.fr/wp-content/uploads/2024/10/france-ledger-contrainte-payer-amende-750-000-pour-fuites-donnees.jpg",
       "slug": "ledger-via-prestataire-global-e",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Globale-Ledger-fuites-donnees-message.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Globale-Ledger-fuites-donnees-message.png",
+      "index": 1190
     },
     {
       "Name": "AgroParisTech",
@@ -5906,7 +6007,8 @@
       "IsNative": true,
       "LogoPath": "https://grapheine.com/wp-content/uploads/2021/11/agroparistech_vignette-2560x1578.webp",
       "slug": "agroparistech",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Agro-1-scaled.png"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Agro-1-scaled.png",
+      "index": 1184
     },
     {
       "Name": "AXYON  (EDF, Eiffage, Bouygues, Engie, Renault, etc.)",
@@ -5934,7 +6036,8 @@
       "IsNative": true,
       "LogoPath": "https://christopheboutry.com/wp-content/uploads/2026/01/Axyon-fuite-de-donnees-.png",
       "slug": "axyon-edf-eiffage-bouygues-engie-renault-etc",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Axyon-fuites-effeigae-buygues-edf.jpg"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Axyon-fuites-effeigae-buygues-edf.jpg",
+      "index": 1185
     },
     {
       "Name": "Dream Up (LAPSUS$) 40go multi sites",
@@ -5969,7 +6072,8 @@
       "IsNative": true,
       "LogoPath": "https://experts.prestashop.com/partner_content/92/2118692/logo300x300.png?t=8dc1828846a3115",
       "slug": "dream-up-lapsus-40go-multi-sites",
-      "source": "https://greenhoster.fr/fr/news/piratage-lapsus-54-sites-francais-et-40-go-de-donnees-voles"
+      "source": "https://greenhoster.fr/fr/news/piratage-lapsus-54-sites-francais-et-40-go-de-donnees-voles",
+      "index": 1186
     },
     {
       "Name": "afppcd fuite du 2026-1-2",
@@ -5995,7 +6099,7 @@
       "slug": "afppcd-fuite-du-2026-1-2",
       "path": "https://bonjourlafuite.eu.org/img/afppcd.png",
       "formattedDate": "2026-01-01",
-      "index": 1141
+      "index": 1182
     },
     {
       "Name": "trescal fuite du 2026-1-2",
@@ -6021,7 +6125,7 @@
       "slug": "trescal-fuite-du-2026-1-2",
       "path": "https://bonjourlafuite.eu.org/img/trescal.png",
       "formattedDate": "2026-01-02",
-      "index": 1142
+      "index": 1183
     },
     {
       "Name": "OFII / ANEF (Portail \"Étrangers en France\" – Ministère de l’Intérieur)",
@@ -6058,7 +6162,8 @@
       "IsNative": true,
       "LogoPath": "https://christopheboutry.com/wp-content/uploads/2026/01/Fuite-ofii-ministere-interieur-etranger-christophe-boutry-scaled.jpg",
       "slug": "ofii-anef-portail-trangers-en-france-ministre-de-lintrieur",
-      "source": "https://infinity-area.com/article/piratage-ofii-2026-2-1-millions-de-donnees-fuitees-anef"
+      "source": "https://infinity-area.com/article/piratage-ofii-2026-2-1-millions-de-donnees-fuitees-anef",
+      "index": 1181
     },
     {
       "Name": "fédération française de spéléologie fuite du 2025-12-31",
@@ -6084,7 +6189,7 @@
       "slug": "f-d-ration-fran-aise-de-sp-l-ologie-fuite-du-2025-12-31",
       "path": "https://bonjourlafuite.eu.org/img/ffspeleo.jpg",
       "formattedDate": "2025-12-31",
-      "index": 1138
+      "index": 1178
     },
     {
       "Name": "institut polytechnique de paris fuite du 2025-12-31",
@@ -6110,7 +6215,7 @@
       "slug": "institut-polytechnique-de-paris-fuite-du-2025-12-31",
       "path": "https://bonjourlafuite.eu.org/img/ensae.png",
       "formattedDate": "2025-12-31",
-      "index": 1139
+      "index": 1179
     },
     {
       "Name": "école nationale de la statistique et de l’analyse de l’information fuite du 2025-12-31",
@@ -6136,7 +6241,7 @@
       "slug": "-cole-nationale-de-la-statistique-et-de-l-analyse-de-l-information-fuite-du-2025-12-31",
       "path": "https://bonjourlafuite.eu.org/img/ensai-1.png",
       "formattedDate": "2025-12-31",
-      "index": 1140
+      "index": 1180
     },
     {
       "Name": "CLYO Systems",
@@ -6163,7 +6268,8 @@
       "IsNative": true,
       "LogoPath": "https://www.clyosystems.com/wp-content/uploads/2025/01/logo-clyo-2024-2.png",
       "slug": "clyo-systems",
-      "source": "https://fr.linkedin.com/posts/christophe-boutry_alerte-fuite-de-donn%C3%A9es-clyo-systems-activity-7411600671621160960-lbDb"
+      "source": "https://fr.linkedin.com/posts/christophe-boutry_alerte-fuite-de-donn%C3%A9es-clyo-systems-activity-7411600671621160960-lbDb",
+      "index": 1177
     },
     {
       "Name": "WhiteDate",
@@ -6209,7 +6315,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1135
+      "index": 1171
     },
     {
       "Name": "université de lille fuite du 2025-12-29",
@@ -6235,7 +6341,7 @@
       "slug": "universit-de-lille-fuite-du-2025-12-29",
       "path": "https://bonjourlafuite.eu.org/img/universite-lille.png",
       "formattedDate": "2025-12-29",
-      "index": 1136
+      "index": 1172
     },
     {
       "Name": "école de management de grenoble fuite du 2025-12-29",
@@ -6261,7 +6367,7 @@
       "slug": "-cole-de-management-de-grenoble-fuite-du-2025-12-29",
       "path": "https://www.grenoble-em.com/actualites/information-relative-a-la-securite-de-vos-donnees",
       "formattedDate": "2025-12-29",
-      "index": 1137
+      "index": 1173
     },
     {
       "Name": "CNRS (projet NectarCam – CTA)",
@@ -6286,7 +6392,8 @@
       "IsNative": true,
       "LogoPath": "https://nowyouknowproject.com/wp-content/uploads/2021/05/cnrs-2.jpg",
       "slug": "cnrs-projet-nectarcam-cta",
-      "source": "https://incyber.org/article/le-cnrs-pirate-par-lapsus-des-donnees-liees-aux-telescopes-cta-compromises/"
+      "source": "https://incyber.org/article/le-cnrs-pirate-par-lapsus-des-donnees-liees-aux-telescopes-cta-compromises/",
+      "index": 1174
     },
     {
       "Name": "Université de Lille (IUT Informatique)",
@@ -6313,7 +6420,8 @@
       "IsNative": true,
       "LogoPath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQreXxyUiZnQtvs9FoRVPpfz45gwlruMyKbuQ&s",
       "slug": "universit-de-lille-iut-informatique",
-      "source": "https://www.zataz.com/fuite-de-donnees-a-liut-informatique-de-lille/"
+      "source": "https://www.zataz.com/fuite-de-donnees-a-liut-informatique-de-lille/",
+      "index": 1175
     },
     {
       "Name": "Grenoble École de Management (GEM Alpine Business School)",
@@ -6342,7 +6450,8 @@
       "IsNative": true,
       "LogoPath": "https://business-cool.com/wp-content/uploads/2025/11/maxresdefault.jpg",
       "slug": "grenoble-cole-de-management-gem-alpine-business-school",
-      "source": "https://www.it-connect.fr/cyberattaques-luniversite-de-lille-et-grenoble-ecole-de-management-victimes-dune-fuite-de-donnees/"
+      "source": "https://www.it-connect.fr/cyberattaques-luniversite-de-lille-et-grenoble-ecole-de-management-victimes-dune-fuite-de-donnees/",
+      "index": 1176
     },
     {
       "Name": "allegro musique fuite du 2025-12-28",
@@ -6368,7 +6477,7 @@
       "slug": "allegro-musique-fuite-du-2025-12-28",
       "path": "https://bonjourlafuite.eu.org/img/allegromusique.png",
       "formattedDate": "2025-12-28",
-      "index": 1131
+      "index": 1167
     },
     {
       "Name": "batterie de portable fuite du 2025-12-28",
@@ -6394,7 +6503,7 @@
       "slug": "batterie-de-portable-fuite-du-2025-12-28",
       "path": "https://bonjourlafuite.eu.org/img/batteriedeportable.png",
       "formattedDate": "2025-12-28",
-      "index": 1132
+      "index": 1168
     },
     {
       "Name": "europages fuite du 2025-12-28",
@@ -6420,7 +6529,7 @@
       "slug": "europages-fuite-du-2025-12-28",
       "path": "https://bonjourlafuite.eu.org/img/europages.png",
       "formattedDate": "2025-12-28",
-      "index": 1133
+      "index": 1169
     },
     {
       "Name": "ministère de l’agriculture et de l’alimentation fuite du 2025-12-28",
@@ -6446,7 +6555,7 @@
       "slug": "minist-re-de-l-agriculture-et-de-l-alimentation-fuite-du-2025-12-28",
       "path": "https://bonjourlafuite.eu.org/img/ministere-agriculture.png",
       "formattedDate": "2025-12-28",
-      "index": 1134
+      "index": 1170
     },
     {
       "Name": "acrv fuite du 2025-12-27",
@@ -6472,7 +6581,7 @@
       "slug": "acrv-fuite-du-2025-12-27",
       "path": "https://bonjourlafuite.eu.org/img/acrv.png",
       "formattedDate": "2025-12-27",
-      "index": 1126
+      "index": 1162
     },
     {
       "Name": "club de nation 95 fuite du 2025-12-27",
@@ -6498,7 +6607,7 @@
       "slug": "club-de-nation-95-fuite-du-2025-12-27",
       "path": "https://bonjourlafuite.eu.org/img/cn95.png",
       "formattedDate": "2025-12-27",
-      "index": 1127
+      "index": 1163
     },
     {
       "Name": "eni fuite du 2025-12-27",
@@ -6524,7 +6633,7 @@
       "slug": "eni-fuite-du-2025-12-27",
       "path": "https://bonjourlafuite.eu.org/img/eni.png",
       "formattedDate": "2025-12-27",
-      "index": 1128
+      "index": 1164
     },
     {
       "Name": "hellowork fuite du 2025-12-27",
@@ -6550,7 +6659,7 @@
       "slug": "hellowork-fuite-du-2025-12-27",
       "path": "https://bonjourlafuite.eu.org/img/hellowork.png",
       "formattedDate": "2025-12-27",
-      "index": 1129
+      "index": 1165
     },
     {
       "Name": "paytrip fuite du 2025-12-27",
@@ -6576,7 +6685,7 @@
       "slug": "paytrip-fuite-du-2025-12-27",
       "path": "https://bonjourlafuite.eu.org/img/paytrip.png",
       "formattedDate": "2025-12-27",
-      "index": 1130
+      "index": 1166
     },
     {
       "Name": "commune de lens fuite du 2025-12-26",
@@ -6602,7 +6711,7 @@
       "slug": "commune-de-lens-fuite-du-2025-12-26",
       "path": "https://www.francebleu.fr/infos/faits-divers-justice/la-ville-de-lens-victime-d-un-piratage-informatique-1926814",
       "formattedDate": "2025-12-26",
-      "index": 1122
+      "index": 1158
     },
     {
       "Name": "fédération française de kick boxing fuite du 2025-12-26",
@@ -6628,7 +6737,7 @@
       "slug": "f-d-ration-fran-aise-de-kick-boxing-fuite-du-2025-12-26",
       "path": "https://xcancel.com/Ced_haurus/status/2004524410774970615",
       "formattedDate": "2025-12-26",
-      "index": 1123
+      "index": 1159
     },
     {
       "Name": "mondial relay fuite du 2025-12-26",
@@ -6654,7 +6763,7 @@
       "slug": "mondial-relay-fuite-du-2025-12-26",
       "path": "https://bonjourlafuite.eu.org/img/mondial-relay.png",
       "formattedDate": "2025-12-26",
-      "index": 1124
+      "index": 1160
     },
     {
       "Name": "nouvelle lune fuite du 2025-12-26",
@@ -6680,7 +6789,7 @@
       "slug": "nouvelle-lune-fuite-du-2025-12-26",
       "path": "https://bonjourlafuite.eu.org/img/nouvellelune.png",
       "formattedDate": "2025-12-26",
-      "index": 1125
+      "index": 1161
     },
     {
       "Name": "adecco fuite du 2025-12-24",
@@ -6706,7 +6815,7 @@
       "slug": "adecco-fuite-du-2025-12-24",
       "path": "https://bonjourlafuite.eu.org/img/adecco.jpg",
       "formattedDate": "2025-12-24",
-      "index": 1121
+      "index": 1156
     },
     {
       "Name": "Adecco France",
@@ -6736,7 +6845,8 @@
       "IsNative": true,
       "LogoPath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCuivpTYAJOUbS9iCYnc4NRo1zpP9yBsmM0g&s",
       "slug": "adecco-france",
-      "source": "https://x.com/seblatombe/status/2003619120269693143?s=20"
+      "source": "https://x.com/seblatombe/status/2003619120269693143?s=20",
+      "index": 1157
     },
     {
       "Name": "fédération française de natation fuite du 2025-12-23",
@@ -6762,7 +6872,7 @@
       "slug": "f-d-ration-fran-aise-de-natation-fuite-du-2025-12-23",
       "path": "https://bonjourlafuite.eu.org/img/ffnatation.jpg",
       "formattedDate": "2025-12-23",
-      "index": 1120
+      "index": 1155
     },
     {
       "Name": "123 casting fuite du 2025-12-22",
@@ -6788,7 +6898,7 @@
       "slug": "123-casting-fuite-du-2025-12-22",
       "path": "https://xcancel.com/Ced_haurus/status/2002765103217746135",
       "formattedDate": "2025-12-22",
-      "index": 1117
+      "index": 1152
     },
     {
       "Name": "altitude infra fuite du 2025-12-22",
@@ -6814,7 +6924,7 @@
       "slug": "altitude-infra-fuite-du-2025-12-22",
       "path": "https://botcrawl.com/altitude-infra-data-breach-exposes-5-76-gb-of-french-fiber-infrastructure-files/",
       "formattedDate": "2025-12-22",
-      "index": 1118
+      "index": 1153
     },
     {
       "Name": "justice.fr fuite du 2025-12-22",
@@ -6840,7 +6950,7 @@
       "slug": "justice-fr-fuite-du-2025-12-22",
       "path": "https://xcancel.com/seblatombe/status/2003030362046304642/",
       "formattedDate": "2025-12-22",
-      "index": 1119
+      "index": 1154
     },
     {
       "Name": "chronopost fuite du 2025-12-20",
@@ -6866,7 +6976,7 @@
       "slug": "chronopost-fuite-du-2025-12-20",
       "path": "https://bonjourlafuite.eu.org/img/chronopost.png",
       "formattedDate": "2025-12-20",
-      "index": 1116
+      "index": 1150
     },
     {
       "Name": "Chronopost / Pickup",
@@ -6892,7 +7002,8 @@
       "IsNative": true,
       "LogoPath": "https://ameameame.fr/wp-content/uploads/2021/10/kisspng-chronopost-logistics-logo-delivery-brand-small-cube-5b61624b644a89.7093257415331088114108.jpg",
       "slug": "chronopost-pickup",
-      "source": "https://www.thesiteoueb.net/actualite/article-9359-nouvelle-fuite-de-donnees-sur-des-points-retraits-colis-chronopost-colissimo-pickup.html"
+      "source": "https://www.thesiteoueb.net/actualite/article-9359-nouvelle-fuite-de-donnees-sur-des-points-retraits-colis-chronopost-colissimo-pickup.html",
+      "index": 1151
     },
     {
       "Name": "france connect fuite du 2025-12-19",
@@ -6918,7 +7029,7 @@
       "slug": "france-connect-fuite-du-2025-12-19",
       "path": "https://bonjourlafuite.eu.org/img/franceconnect-1.png",
       "formattedDate": "2025-12-19",
-      "index": 1112
+      "index": 1145
     },
     {
       "Name": "la licra fuite du 2025-12-19",
@@ -6944,7 +7055,7 @@
       "slug": "la-licra-fuite-du-2025-12-19",
       "path": "https://bonjourlafuite.eu.org/img/licra.png",
       "formattedDate": "2025-12-19",
-      "index": 1113
+      "index": 1146
     },
     {
       "Name": "ministère des sports fuite du 2025-12-19",
@@ -6970,7 +7081,7 @@
       "slug": "minist-re-des-sports-fuite-du-2025-12-19",
       "path": "https://www.lindependant.fr/2025/12/19/nouvelle-cyberattaque-des-services-de-letat-35-millions-de-foyers-concernes-par-une-fuite-de-donnees-au-ministere-des-sports-13121276.php",
       "formattedDate": "2025-12-19",
-      "index": 1114
+      "index": 1147
     },
     {
       "Name": "red by sfr fuite du 2025-12-19",
@@ -6996,7 +7107,7 @@
       "slug": "red-by-sfr-fuite-du-2025-12-19",
       "path": "https://bonjourlafuite.eu.org/img/red.jpg",
       "formattedDate": "2025-12-19",
-      "index": 1115
+      "index": 1148
     },
     {
       "Name": "Ministère des Sports (Pass Sport)",
@@ -7028,7 +7139,8 @@
       "IsNative": true,
       "LogoPath": "https://aura-handball.fr/wp-content/uploads/2024/07/Visuel_Pass_Sport.png",
       "slug": "ministre-des-sports-pass-sport",
-      "source": "https://www.lesnumeriques.com/societe-numerique/exclusif-cyberattaque-massive-sur-la-caf-22-millions-de-victimes-dans-une-offensive-qui-frappe-l-etat-n248336.html"
+      "source": "https://www.lesnumeriques.com/societe-numerique/exclusif-cyberattaque-massive-sur-la-caf-22-millions-de-victimes-dans-une-offensive-qui-frappe-l-etat-n248336.html",
+      "index": 1149
     },
     {
       "Name": "PassSport",
@@ -7057,7 +7169,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1109
+      "index": 1141
     },
     {
       "Name": "parashop fuite du 2025-12-17",
@@ -7083,7 +7195,7 @@
       "slug": "parashop-fuite-du-2025-12-17",
       "path": "https://bonjourlafuite.eu.org/img/parashop.png",
       "formattedDate": "2025-12-17",
-      "index": 1110
+      "index": 1142
     },
     {
       "Name": "sfr fuite du 2025-12-17",
@@ -7109,7 +7221,7 @@
       "slug": "sfr-fuite-du-2025-12-17",
       "path": "https://bonjourlafuite.eu.org/img/sfr.png",
       "formattedDate": "2025-12-17",
-      "index": 1111
+      "index": 1143
     },
     {
       "Name": "SFR / RED by SFR",
@@ -7136,7 +7248,8 @@
       "IsNative": true,
       "LogoPath": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/SFR-2022-logo.svg/2048px-SFR-2022-logo.svg.png",
       "slug": "sfr-red-by-sfr",
-      "source": "https://bonjourlafuite.eu.org/img/sfr.png"
+      "source": "https://bonjourlafuite.eu.org/img/sfr.png",
+      "index": 1144
     },
     {
       "Name": "APOIAse",
@@ -7163,7 +7276,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1106
+      "index": 1138
     },
     {
       "Name": "pornhub fuite du 2025-12-16",
@@ -7189,7 +7302,7 @@
       "slug": "pornhub-fuite-du-2025-12-16",
       "path": "https://help.pornhub.com/hc/en-us/articles/47334442459283-Important-Message-From-Pornhub",
       "formattedDate": "2025-12-16",
-      "index": 1107
+      "index": 1139
     },
     {
       "Name": "Raaga",
@@ -7220,7 +7333,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1104
+      "index": 1136
     },
     {
       "Name": "SoundCloud",
@@ -7250,7 +7363,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1105
+      "index": 1137
     },
     {
       "Name": "ministère de l’intérieur fuite du 2025-12-13",
@@ -7276,7 +7389,7 @@
       "slug": "minist-re-de-l-int-rieur-fuite-du-2025-12-13",
       "path": "https://www.rtl.fr/actu/justice-faits-divers/un-assaillant-a-pu-penetrer-sur-un-certain-nombre-de-fichiers-sur-rtl-laurent-nu-ez-confirme-une-attaque-informatique-au-ministere-de-l-interieur-7900577003",
       "formattedDate": "2025-12-13",
-      "index": 1103
+      "index": 1135
     },
     {
       "Name": "euromatik fuite du 2025-12-12",
@@ -7302,7 +7415,7 @@
       "slug": "euromatik-fuite-du-2025-12-12",
       "path": "https://bonjourlafuite.eu.org/img/euromatik.png",
       "formattedDate": "2025-12-12",
-      "index": 1101
+      "index": 1133
     },
     {
       "Name": "france ventilation fuite du 2025-12-12",
@@ -7328,7 +7441,7 @@
       "slug": "france-ventilation-fuite-du-2025-12-12",
       "path": "https://bonjourlafuite.eu.org/img/france-ventilation-1.jpg",
       "formattedDate": "2025-12-12",
-      "index": 1102
+      "index": 1134
     },
     {
       "Name": "fédération française de cyclisme fuite du 2025-12-10",
@@ -7354,7 +7467,7 @@
       "slug": "f-d-ration-fran-aise-de-cyclisme-fuite-du-2025-12-10",
       "path": "https://bonjourlafuite.eu.org/img/ffcyclisme.png",
       "formattedDate": "2025-12-10",
-      "index": 1098
+      "index": 1130
     },
     {
       "Name": "résidence du parc (champdeniers fuite du 2025-12-10",
@@ -7380,7 +7493,7 @@
       "slug": "r-sidence-du-parc-champdeniers-fuite-du-2025-12-10",
       "path": "https://www.lanouvellerepublique.fr/deux-sevres/commune/champdeniers-saint-denis/une-demande-de-rancon-de-5-millions-de-dollars-une-maison-de-retraite-des-deux-sevres-visee-par-un-pirate-informatique-1765387940",
       "formattedDate": "2025-12-10",
-      "index": 1099
+      "index": 1131
     },
     {
       "Name": "ufolep fuite du 2025-12-10",
@@ -7406,7 +7519,7 @@
       "slug": "ufolep-fuite-du-2025-12-10",
       "path": "https://bonjourlafuite.eu.org/img/ufolep.jpg",
       "formattedDate": "2025-12-10",
-      "index": 1100
+      "index": 1132
     },
     {
       "Name": "asaf & afps fuite du 2025-12-5",
@@ -7432,7 +7545,7 @@
       "slug": "asaf-afps-fuite-du-2025-12-5",
       "path": "https://bonjourlafuite.eu.org/img/asaf-afps.jpg",
       "formattedDate": "2025-12-04",
-      "index": 1094
+      "index": 1124
     },
     {
       "Name": "cuisinella fuite du 2025-12-5",
@@ -7458,7 +7571,7 @@
       "slug": "cuisinella-fuite-du-2025-12-5",
       "path": "https://bonjourlafuite.eu.org/img/cuisinella.png",
       "formattedDate": "2025-12-04",
-      "index": 1095
+      "index": 1125
     },
     {
       "Name": "fédération française de handball fuite du 2025-12-5",
@@ -7484,7 +7597,7 @@
       "slug": "f-d-ration-fran-aise-de-handball-fuite-du-2025-12-5",
       "path": "https://bonjourlafuite.eu.org/img/ffhb.png",
       "formattedDate": "2025-12-04",
-      "index": 1096
+      "index": 1126
     },
     {
       "Name": "schmidt fuite du 2025-12-5",
@@ -7510,7 +7623,7 @@
       "slug": "schmidt-fuite-du-2025-12-5",
       "path": "https://bonjourlafuite.eu.org/img/schmidt.png",
       "formattedDate": "2025-12-05",
-      "index": 1097
+      "index": 1127
     },
     {
       "Name": "Schmidt Groupe (Cuisinella & Schmidt)",
@@ -7537,7 +7650,8 @@
       "IsNative": true,
       "LogoPath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYxCvwrNe6fbLUsSfQVtFjOLbHmhgfmL_ABQ&s",
       "slug": "schmidt-groupe-cuisinella-schmidt",
-      "source": "https://www.liberation.fr/economie/conso/piratage-les-donnees-personnelles-des-clients-des-cuisinistes-schmidt-et-cuisinella-divulguees-a-un-tiers-non-autorise-20251205_EHP4BZ5LKFD2TDHGQMCL2SH3WI/"
+      "source": "https://www.liberation.fr/economie/conso/piratage-les-donnees-personnelles-des-clients-des-cuisinistes-schmidt-et-cuisinella-divulguees-a-un-tiers-non-autorise-20251205_EHP4BZ5LKFD2TDHGQMCL2SH3WI/",
+      "index": 1128
     },
     {
       "Name": "ASAF & AFPS (Cluster Itelis)",
@@ -7564,7 +7678,8 @@
       "IsNative": true,
       "LogoPath": "https://www.aquaverde-assurance.fr/wp-content/uploads/2023/12/logo_asaf_afps.png",
       "slug": "asaf-afps-cluster-itelis",
-      "source": "https://ecura.fr/2025/12/05/cyberattaque-chez-itelis-quelles-donnees-ont-reellement-fuite/cyber-securite/sauvegarde/"
+      "source": "https://ecura.fr/2025/12/05/cyberattaque-chez-itelis-quelles-donnees-ont-reellement-fuite/cyber-securite/sauvegarde/",
+      "index": 1129
     },
     {
       "Name": "médecin direct fuite du 2025-12-3",
@@ -7590,7 +7705,7 @@
       "slug": "m-decin-direct-fuite-du-2025-12-3",
       "path": "https://bonjourlafuite.eu.org/img/medecin-direct.jpg",
       "formattedDate": "2025-12-03",
-      "index": 1093
+      "index": 1122
     },
     {
       "Name": "MédecinDirect (Teladoc Health)",
@@ -7618,7 +7733,8 @@
       "IsNative": true,
       "LogoPath": "https://cdn.prod.website-files.com/5e7313c19c973a70e6d8642b/663499d70c6b952dc7c80a8f_logo_MedecinDirect%402x.png",
       "slug": "mdecindirect-teladoc-health",
-      "source": "https://www.medecindirect.fr/blog/incident-securite-medecindirect-informations"
+      "source": "https://www.medecindirect.fr/blog/incident-securite-medecindirect-informations",
+      "index": 1123
     },
     {
       "Name": "leroy merlin fuite du 2025-12-2",
@@ -7644,7 +7760,7 @@
       "slug": "leroy-merlin-fuite-du-2025-12-2",
       "path": "https://bonjourlafuite.eu.org/img/leroy-merlin.jpg",
       "formattedDate": "2025-12-01",
-      "index": 1092
+      "index": 1121
     },
     {
       "Name": "france travail fuite du 2025-12-1",
@@ -7670,7 +7786,7 @@
       "slug": "france-travail-fuite-du-2025-12-1",
       "path": "https://www.francetravail.org/accueil/communiques/2025/le-reseau-des-missions-locales-et-france-travail-appellent-a-la-vigilance-apres-un-acte-de-cyber-malveillance.html?type=article",
       "formattedDate": "2025-11-30",
-      "index": 1091
+      "index": 1119
     },
     {
       "Name": "France Travail (Missions Locales / Jeunes)",
@@ -7698,7 +7814,8 @@
       "IsNative": true,
       "LogoPath": "https://upload.wikimedia.org/wikipedia/fr/thumb/8/8d/France-travail-2023.svg/2560px-France-travail-2023.svg.png",
       "slug": "france-travail-missions-locales-jeunes",
-      "source": "https://www.francetravail.org/accueil/communiques/2025/le-reseau-des-missions-locales-et-france-travail-appellent-a-la-vigilance-apres-un-acte-de-cyber-malveillance.html?type=article"
+      "source": "https://www.francetravail.org/accueil/communiques/2025/le-reseau-des-missions-locales-et-france-travail-appellent-a-la-vigilance-apres-un-acte-de-cyber-malveillance.html?type=article",
+      "index": 1120
     },
     {
       "Name": "la centrale du financement fuite du 2025-11-28",
@@ -7724,7 +7841,7 @@
       "slug": "la-centrale-du-financement-fuite-du-2025-11-28",
       "path": "https://bonjourlafuite.eu.org/img/centrale-financement.jpg",
       "formattedDate": "2025-11-28",
-      "index": 1090
+      "index": 1118
     },
     {
       "Name": "fédération française de foot fuite du 2025-11-27",
@@ -7750,7 +7867,7 @@
       "slug": "f-d-ration-fran-aise-de-foot-fuite-du-2025-11-27",
       "path": "https://www.fff.fr/article/15831-communique-du-26-novembre-relatif-au-vol-de-donnees.html",
       "formattedDate": "2025-11-27",
-      "index": 1087
+      "index": 1114
     },
     {
       "Name": "la rochelle fuite du 2025-11-27",
@@ -7776,7 +7893,7 @@
       "slug": "la-rochelle-fuite-du-2025-11-27",
       "path": "https://www.sudouest.fr/charente-maritime/la-rochelle/fuite-de-donnees-chez-synbird-la-rochelle-touchee-comme-1-300-communes-de-france-26875312.php",
       "formattedDate": "2025-11-27",
-      "index": 1088
+      "index": 1115
     },
     {
       "Name": "msp givors presqu’île fuite du 2025-11-27",
@@ -7802,7 +7919,7 @@
       "slug": "msp-givors-presqu-le-fuite-du-2025-11-27",
       "path": "https://bonjourlafuite.eu.org/img/msp-givors.png",
       "formattedDate": "2025-11-27",
-      "index": 1089
+      "index": 1116
     },
     {
       "Name": "La Rochelle (via SynBird)",
@@ -7828,7 +7945,8 @@
       "IsNative": true,
       "LogoPath": "https://www.challengecontrelafaim.org/wp-content/uploads/2019/03/logo-ville-la-rochelle-2018-039898300-0917-24092018.827.800.jpg",
       "slug": "la-rochelle-via-synbird",
-      "source": "https://inf-info.fr/la-rochelle-la-mairie-porte-plainte-apres-une-fuite-de-donnees-concernant-plusieurs-centaines-dusagers/"
+      "source": "https://inf-info.fr/la-rochelle-la-mairie-porte-plainte-apres-une-fuite-de-donnees-concernant-plusieurs-centaines-dusagers/",
+      "index": 1117
     },
     {
       "Name": "ag2r la mondiale fuite du 2025-11-25",
@@ -7854,7 +7972,7 @@
       "slug": "ag2r-la-mondiale-fuite-du-2025-11-25",
       "path": "https://bonjourlafuite.eu.org/img/ag2r.jpg",
       "formattedDate": "2025-11-25",
-      "index": 1081
+      "index": 1107
     },
     {
       "Name": "clinique du millénaire fuite du 2025-11-25",
@@ -7880,7 +7998,7 @@
       "slug": "clinique-du-mill-naire-fuite-du-2025-11-25",
       "path": "https://bonjourlafuite.eu.org/img/clinique-millenaire.png",
       "formattedDate": "2025-11-25",
-      "index": 1082
+      "index": 1108
     },
     {
       "Name": "fédération française de danse fuite du 2025-11-25",
@@ -7906,7 +8024,7 @@
       "slug": "f-d-ration-fran-aise-de-danse-fuite-du-2025-11-25",
       "path": "https://bonjourlafuite.eu.org/img/ffdanse.png",
       "formattedDate": "2025-11-25",
-      "index": 1083
+      "index": 1109
     },
     {
       "Name": "itelis fuite du 2025-11-25",
@@ -7932,7 +8050,7 @@
       "slug": "itelis-fuite-du-2025-11-25",
       "path": "https://www.bfmtv.com/tech/cybersecurite/la-plateforme-itelis-a-ete-victime-d-un-piratage-les-donnees-privees-d-utilisateurs-liees-aux-remboursements-de-frais-d-optique-ont-ete-derobees-attention-aux-campagnes-de-phishing_AV-202511240584.html",
       "formattedDate": "2025-11-25",
-      "index": 1084
+      "index": 1110
     },
     {
       "Name": "msp du pré vicinal fuite du 2025-11-25",
@@ -7958,7 +8076,7 @@
       "slug": "msp-du-pr-vicinal-fuite-du-2025-11-25",
       "path": "https://bonjourlafuite.eu.org/img/msp-pre-vicinal.png",
       "formattedDate": "2025-11-25",
-      "index": 1085
+      "index": 1111
     },
     {
       "Name": "proxiserve fuite du 2025-11-25",
@@ -7984,7 +8102,7 @@
       "slug": "proxiserve-fuite-du-2025-11-25",
       "path": "https://bonjourlafuite.eu.org/img/proxiserve.png",
       "formattedDate": "2025-11-25",
-      "index": 1086
+      "index": 1112
     },
     {
       "Name": "Itelis (Plateforme Santé)",
@@ -8011,7 +8129,8 @@
       "IsNative": true,
       "LogoPath": "https://media.licdn.com/dms/image/v2/D4E05AQGjIjr6Ap20-w/feedshare-thumbnail_720_1280/feedshare-thumbnail_720_1280/0/1714721410501?e=2147483647&v=beta&t=Vqzo5vV2fVog5kC_M4kv87ktOWnuE-glU4OxxgVQ21E",
       "slug": "itelis-plateforme-sant",
-      "source": "https://next.ink/brief_article/fuite-de-donnees-personnelles-chez-itelis-axa-nom-dossier-correction-numero-secu/"
+      "source": "https://next.ink/brief_article/fuite-de-donnees-personnelles-chez-itelis-axa-nom-dossier-correction-numero-secu/",
+      "index": 1113
     },
     {
       "Name": "aprs fuite du 2025-11-24",
@@ -8037,7 +8156,7 @@
       "slug": "aprs-fuite-du-2025-11-24",
       "path": "https://bonjourlafuite.eu.org/img/aprs.png",
       "formattedDate": "2025-11-24",
-      "index": 1076
+      "index": 1100
     },
     {
       "Name": "mairie de chatou fuite du 2025-11-24",
@@ -8063,7 +8182,7 @@
       "slug": "mairie-de-chatou-fuite-du-2025-11-24",
       "path": "https://bonjourlafuite.eu.org/img/chatou.png",
       "formattedDate": "2025-11-24",
-      "index": 1077
+      "index": 1101
     },
     {
       "Name": "mairie de quimper fuite du 2025-11-24",
@@ -8089,7 +8208,7 @@
       "slug": "mairie-de-quimper-fuite-du-2025-11-24",
       "path": "https://www.letelegramme.fr/finistere/quimper-29000/cartes-didentite-passeports-la-ville-de-quimper-cible-dune-cyberattaque-des-milliers-de-donnees-piratees-6931248.php",
       "formattedDate": "2025-11-24",
-      "index": 1078
+      "index": 1102
     },
     {
       "Name": "mairie de saint fuite du 2025-11-24",
@@ -8115,7 +8234,7 @@
       "slug": "mairie-de-saint-fuite-du-2025-11-24",
       "path": "https://bonjourlafuite.eu.org/img/saint-aubin-aubigne.jpg",
       "formattedDate": "2025-11-24",
-      "index": 1079
+      "index": 1103
     },
     {
       "Name": "malakoff humanis fuite du 2025-11-24",
@@ -8141,7 +8260,7 @@
       "slug": "malakoff-humanis-fuite-du-2025-11-24",
       "path": "https://bonjourlafuite.eu.org/img/malakoff.png",
       "formattedDate": "2025-11-24",
-      "index": 1080
+      "index": 1104
     },
     {
       "Name": "Mairie de Saint-Aubin-d’Aubigné",
@@ -8168,7 +8287,8 @@
       "IsNative": true,
       "LogoPath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFD88JMYd0ufqwp2PsGak8He_A1WyWRadxxA&s",
       "slug": "mairie-de-saint-aubin-daubign",
-      "source": "https://bonjourlafuite.eu.org/img/saint-aubin-aubigne.jpg"
+      "source": "https://bonjourlafuite.eu.org/img/saint-aubin-aubigne.jpg",
+      "index": 1105
     },
     {
       "Name": "Itelis (Impactant APRS/AXA, Malakoff Humanis, AG2R)",
@@ -8195,7 +8315,8 @@
       "IsNative": true,
       "LogoPath": "https://media.licdn.com/dms/image/v2/D4E05AQGjIjr6Ap20-w/feedshare-thumbnail_720_1280/feedshare-thumbnail_720_1280/0/1714721410501?e=2147483647&v=beta&t=Vqzo5vV2fVog5kC_M4kv87ktOWnuE-glU4OxxgVQ21E",
       "slug": "itelis-impactant-aprsaxa-malakoff-humanis-ag2r",
-      "source": "https://bonjourlafuite.eu.org/img/aprs.png"
+      "source": "https://bonjourlafuite.eu.org/img/aprs.png",
+      "index": 1106
     },
     {
       "Name": "colis privé fuite du 2025-11-21",
@@ -8221,7 +8342,7 @@
       "slug": "colis-priv-fuite-du-2025-11-21",
       "path": "https://bonjourlafuite.eu.org/img/colisprive.jpeg",
       "formattedDate": "2025-11-21",
-      "index": 1073
+      "index": 1097
     },
     {
       "Name": "michelin fuite du 2025-11-21",
@@ -8247,7 +8368,7 @@
       "slug": "michelin-fuite-du-2025-11-21",
       "path": "https://botcrawl.com/michelin-data-breach/",
       "formattedDate": "2025-11-21",
-      "index": 1074
+      "index": 1098
     },
     {
       "Name": "murfy fuite du 2025-11-21",
@@ -8273,7 +8394,7 @@
       "slug": "murfy-fuite-du-2025-11-21",
       "path": "https://bonjourlafuite.eu.org/img/murfy.jpg",
       "formattedDate": "2025-11-21",
-      "index": 1075
+      "index": 1099
     },
     {
       "Name": "Suzuki France",
@@ -8300,7 +8421,8 @@
       "IsNative": true,
       "LogoPath": "https://www.suzuki.fr/build/images/logo/logo_suzuki_horizontal_color.png",
       "slug": "suzuki-france",
-      "source": "https://www.suzuki.fr/securite-donnees-personnelles"
+      "source": "https://www.suzuki.fr/securite-donnees-personnelles",
+      "index": 1096
     },
     {
       "Name": "mairie d’alfortville fuite du 2025-11-19",
@@ -8326,7 +8448,7 @@
       "slug": "mairie-d-alfortville-fuite-du-2025-11-19",
       "path": "https://bonjourlafuite.eu.org/img/alfortville-1.jpg",
       "formattedDate": "2025-11-19",
-      "index": 1072
+      "index": 1095
     },
     {
       "Name": "resana fuite du 2025-11-18",
@@ -8352,7 +8474,7 @@
       "slug": "resana-fuite-du-2025-11-18",
       "path": "https://www.numerama.com/cyberguerre/2120401-chantage-en-cours-sur-des-agents-et-fonctionnaires-de-letat-francais-des-hackers-ont-exfiltre-des-donnees-dune-plateforme-interministerielle.html",
       "formattedDate": "2025-11-18",
-      "index": 1070
+      "index": 1091
     },
     {
       "Name": "synbird fuite du 2025-11-18",
@@ -8378,7 +8500,7 @@
       "slug": "synbird-fuite-du-2025-11-18",
       "path": "https://france3-regions.franceinfo.fr/bretagne/finistere/quimper/vol-massif-de-donnees-en-bretagne-au-moins-cinq-communes-touchees-l-enquete-s-accelere-voici-ce-que-l-on-sait-3252205.html",
       "formattedDate": "2025-11-18",
-      "index": 1071
+      "index": 1092
     },
     {
       "Name": "Resana (DINUM)",
@@ -8403,7 +8525,8 @@
       "IsNative": true,
       "LogoPath": "https://resana.zendesk.com/hc/article_attachments/31929160334237",
       "slug": "resana-dinum",
-      "source": "https://www.numerama.com/cyberguerre/2120401-chantage-en-cours-sur-des-agents-et-fonctionnaires-de-letat-francais-des-hackers-ont-exfiltre-des-donnees-dune-plateforme-interministerielle.html"
+      "source": "https://www.numerama.com/cyberguerre/2120401-chantage-en-cours-sur-des-agents-et-fonctionnaires-de-letat-francais-des-hackers-ont-exfiltre-des-donnees-dune-plateforme-interministerielle.html",
+      "index": 1093
     },
     {
       "Name": "Synbird (1300 Communes)",
@@ -8429,7 +8552,8 @@
       "IsNative": true,
       "LogoPath": "https://v3.synbird.com/synbird-logo.png",
       "slug": "synbird-1300-communes",
-      "source": "https://www.banquedesterritoires.fr/fuite-de-donnees-dans-1300-communes-les-prestataires-en-cause"
+      "source": "https://www.banquedesterritoires.fr/fuite-de-donnees-dans-1300-communes-les-prestataires-en-cause",
+      "index": 1094
     },
     {
       "Name": "UnderArmour",
@@ -8475,7 +8599,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1066
+      "index": 1086
     },
     {
       "Name": "mairie de brest fuite du 2025-11-17",
@@ -8501,7 +8625,7 @@
       "slug": "mairie-de-brest-fuite-du-2025-11-17",
       "path": "https://xcancel.com/_SaxX_/status/1990359988280152238",
       "formattedDate": "2025-11-17",
-      "index": 1068
+      "index": 1087
     },
     {
       "Name": "pajemploi fuite du 2025-11-17",
@@ -8527,7 +8651,7 @@
       "slug": "pajemploi-fuite-du-2025-11-17",
       "path": "https://www.urssaf.fr/accueil/actualites/pajemploi-vol-de-donnees.html",
       "formattedDate": "2025-11-17",
-      "index": 1069
+      "index": 1088
     },
     {
       "Name": "Pajemploi (Urssaf)",
@@ -8555,7 +8679,8 @@
       "IsNative": true,
       "LogoPath": "https://www.garder-mes-enfants.fr/images/posts/pajemploi-1.png",
       "slug": "pajemploi-urssaf",
-      "source": "https://www.rtl.fr/actu/sciences-tech/vol-de-donnees-chez-pajemploi-phishing-usurpation-d-identite-ce-que-risquent-les-1-2-million-de-personnes-concernees-7900568043"
+      "source": "https://www.rtl.fr/actu/sciences-tech/vol-de-donnees-chez-pajemploi-phishing-usurpation-d-identite-ce-que-risquent-les-1-2-million-de-personnes-concernees-7900568043",
+      "index": 1089
     },
     {
       "Name": "CodeStepByStep",
@@ -8582,7 +8707,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1065
+      "index": 1085
     },
     {
       "Name": "Ville de Brest (prestataire RDV)",
@@ -8610,7 +8735,8 @@
       "IsNative": true,
       "LogoPath": "https://upload.wikimedia.org/wikipedia/fr/7/78/Brest_logo.png",
       "slug": "ville-de-brest-prestataire-rdv",
-      "source": "https://brest.fr/actualites/fuite-de-donnees-personnelles-la-ville-de-brest-appelle-la-vigilance"
+      "source": "https://brest.fr/actualites/fuite-de-donnees-personnelles-la-ville-de-brest-appelle-la-vigilance",
+      "index": 1084
     },
     {
       "Name": "Eurofiber",
@@ -8637,7 +8763,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1063
+      "index": 1082
     },
     {
       "Name": "OperationEndgame3",
@@ -8663,7 +8789,7 @@
       "IsMalware": true,
       "IsSubscriptionFree": true,
       "IsStealerLog": false,
-      "index": 1064
+      "index": 1083
     },
     {
       "Name": "weda fuite du 2025-11-12",
@@ -8689,7 +8815,7 @@
       "slug": "weda-fuite-du-2025-11-12",
       "path": "https://bonjourlafuite.eu.org/img/weda-1.jpg",
       "formattedDate": "2025-11-12",
-      "index": 1062
+      "index": 1080
     },
     {
       "Name": "Weda (Softway Medical)",
@@ -8716,7 +8842,8 @@
       "IsNative": true,
       "LogoPath": "https://imed-conseil.com/wp-content/uploads/2024/10/weda-imed-conseils-medicaux-dentaires-1024x710.webp",
       "slug": "weda-softway-medical",
-      "source": "https://avecsantena.fr/cyberattaque-du-logiciel-weda-que-sest-il-passe-et-comment-reagir-pour-une-msp/"
+      "source": "https://avecsantena.fr/cyberattaque-du-logiciel-weda-que-sest-il-passe-et-comment-reagir-pour-une-msp/",
+      "index": 1081
     },
     {
       "Name": "IKO",
@@ -8744,7 +8871,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1060
+      "index": 1078
     },
     {
       "Name": "fédération française de cardiologie fuite du 2025-11-11",
@@ -8770,7 +8897,7 @@
       "slug": "f-d-ration-fran-aise-de-cardiologie-fuite-du-2025-11-11",
       "path": "https://next.ink/211477/fuite-de-donnees-a-la-federation-francaise-de-cardiologie-y-compris-des-mots-de-passe/",
       "formattedDate": "2025-11-11",
-      "index": 1061
+      "index": 1079
     },
     {
       "Name": "oui heberg fuite du 2025-11-10",
@@ -8796,7 +8923,7 @@
       "slug": "oui-heberg-fuite-du-2025-11-10",
       "path": "https://bonjourlafuite.eu.org/img/ouiheberg.png",
       "formattedDate": "2025-11-10",
-      "index": 1059
+      "index": 1077
     },
     {
       "Name": "Beckett",
@@ -8825,7 +8952,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1058
+      "index": 1076
     },
     {
       "Name": "mym fuite du 2025-11-7",
@@ -8851,7 +8978,7 @@
       "slug": "mym-fuite-du-2025-11-7",
       "path": "https://xcancel.com/_SaxX_/status/1986701724623548561",
       "formattedDate": "2025-11-07",
-      "index": 1057
+      "index": 1075
     },
     {
       "Name": "Zilvia",
@@ -8879,7 +9006,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1056
+      "index": 1074
     },
     {
       "Name": "UniversityOfPennsylvania",
@@ -8914,7 +9041,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1055
+      "index": 1073
     },
     {
       "Name": "france travail fuite du 2025-10-29",
@@ -8940,7 +9067,7 @@
       "slug": "france-travail-fuite-du-2025-10-29",
       "path": "https://www.francebleu.fr/infos/faits-divers-justice/le-site-de-france-travail-victime-d-une-cyberattaque-lundi-des-donnees-ont-ete-extraites-9504464",
       "formattedDate": "2025-10-29",
-      "index": 1054
+      "index": 1071
     },
     {
       "Name": "France Travail (Détournement KYC)",
@@ -8968,7 +9095,8 @@
       "IsNative": true,
       "LogoPath": "https://upload.wikimedia.org/wikipedia/fr/thumb/8/8d/France-travail-2023.svg/2560px-France-travail-2023.svg.png",
       "slug": "france-travail-dtournement-kyc",
-      "source": "https://www.bfmtv.com/tech/cybersecurite/france-travail-encore-une-fois-victime-d-un-piratage-massif-les-donnees-de-31-000-demandeurs-d-emplois-menacees_AN-202510290517.html"
+      "source": "https://www.bfmtv.com/tech/cybersecurite/france-travail-encore-une-fois-victime-d-un-piratage-massif-les-donnees-de-31-000-demandeurs-d-emplois-menacees_AN-202510290517.html",
+      "index": 1072
     },
     {
       "Name": "poltronesofa fuite du 2025-10-27",
@@ -8994,7 +9122,7 @@
       "slug": "poltronesofa-fuite-du-2025-10-27",
       "path": "https://bonjourlafuite.eu.org/img/poltronesofa.jpg",
       "formattedDate": "2025-10-27",
-      "index": 1053
+      "index": 1070
     },
     {
       "Name": "MyVidster2025",
@@ -9021,7 +9149,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1052
+      "index": 1069
     },
     {
       "Name": "Substack",
@@ -9047,7 +9175,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1050
+      "index": 1067
     },
     {
       "Name": "fédération française de tir fuite du 2025-10-23",
@@ -9073,7 +9201,7 @@
       "slug": "f-d-ration-fran-aise-de-tir-fuite-du-2025-10-23",
       "path": "https://www.fftir.org/communication-relative-a-un-incident-de-securite/",
       "formattedDate": "2025-10-23",
-      "index": 1051
+      "index": 1068
     },
     {
       "Name": "agences régionales de santé de l’île fuite du 2025-10-22",
@@ -9099,7 +9227,7 @@
       "slug": "agences-r-gionales-de-sant-de-l-le-fuite-du-2025-10-22",
       "path": "https://bonjourlafuite.eu.org/img/ars.jpg",
       "formattedDate": "2025-10-22",
-      "index": 1049
+      "index": 1066
     },
     {
       "Name": "centre hospitalier intercommunal de haute fuite du 2025-10-19",
@@ -9125,7 +9253,7 @@
       "slug": "centre-hospitalier-intercommunal-de-haute-fuite-du-2025-10-19",
       "path": "https://www.pleinair.net/actualites/item/17199-pontarlier-cyberattaque-le-centre-hospitalier-intercommunal-de-haute-comte-contraint-de-couper-son-systeme-informatique",
       "formattedDate": "2025-10-19",
-      "index": 1048
+      "index": 1065
     },
     {
       "Name": "mango fuite du 2025-10-15",
@@ -9151,7 +9279,7 @@
       "slug": "mango-fuite-du-2025-10-15",
       "path": "https://bonjourlafuite.eu.org/img/mango.jpg",
       "formattedDate": "2025-10-15",
-      "index": 1047
+      "index": 1064
     },
     {
       "Name": "agence régionale de santé des hauts fuite du 2025-10-14",
@@ -9177,7 +9305,7 @@
       "slug": "agence-r-gionale-de-sant-des-hauts-fuite-du-2025-10-14",
       "path": "https://info.inea.fr/",
       "formattedDate": "2025-10-14",
-      "index": 1046
+      "index": 1063
     },
     {
       "Name": "lycées des hauts fuite du 2025-10-12",
@@ -9203,7 +9331,7 @@
       "slug": "lyc-es-des-hauts-fuite-du-2025-10-12",
       "path": "https://www.hautsdefrance.fr/incident-de-cybersecurite-dans-plusieurs-lycees-de-la-region-hauts-de-france/",
       "formattedDate": "2025-10-12",
-      "index": 1045
+      "index": 1061
     },
     {
       "Name": "Lycées des Hauts-de-France",
@@ -9229,7 +9357,8 @@
       "IsNative": true,
       "LogoPath": "https://edifice.io/app/uploads/2023/08/hdf.svg",
       "slug": "lyces-des-hauts-de-france",
-      "source": "https://www.radiofrance.fr/francebleu/podcasts/l-info-d-ici-ici-nord/apres-une-cyberattaque-les-lycees-publics-des-hauts-de-france-prives-d-ordinateurs-c-est-comme-a-l-ancienne-6214246"
+      "source": "https://www.radiofrance.fr/francebleu/podcasts/l-info-d-ici-ici-nord/apres-une-cyberattaque-les-lycees-publics-des-hauts-de-france-prives-d-ordinateurs-c-est-comme-a-l-ancienne-6214246",
+      "index": 1062
     },
     {
       "Name": "france travail fuite du 2025-10-6",
@@ -9255,7 +9384,7 @@
       "slug": "france-travail-fuite-du-2025-10-6",
       "path": "https://bonjourlafuite.eu.org/img/pole-emploi.png",
       "formattedDate": "2025-10-05",
-      "index": 1043
+      "index": 1058
     },
     {
       "Name": "Tisza",
@@ -9284,7 +9413,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1044
+      "index": 1059
     },
     {
       "Name": "France Travail (Dump #3)",
@@ -9311,7 +9440,8 @@
       "IsNative": true,
       "LogoPath": "https://upload.wikimedia.org/wikipedia/fr/thumb/8/8d/France-travail-2023.svg/2560px-France-travail-2023.svg.png",
       "slug": "france-travail-dump-3",
-      "source": "https://bonjourlafuite.eu.org/img/pole-emploi.png"
+      "source": "https://bonjourlafuite.eu.org/img/pole-emploi.png",
+      "index": 1060
     },
     {
       "Name": "discord fuite du 2025-10-4",
@@ -9337,7 +9467,7 @@
       "slug": "discord-fuite-du-2025-10-4",
       "path": "https://next.ink/203013/discord-reconnait-une-fuite-de-donnees-personnelles-et-de-documents-internes/",
       "formattedDate": "2025-10-03",
-      "index": 1042
+      "index": 1057
     },
     {
       "Name": "CanadianTire",
@@ -9369,7 +9499,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1041
+      "index": 1056
     },
     {
       "Name": "france travail fuite du 2025-9-25",
@@ -9395,7 +9525,7 @@
       "slug": "france-travail-fuite-du-2025-9-25",
       "path": "https://bonjourlafuite.eu.org/img/france-travail-2.jpg",
       "formattedDate": "2025-09-24",
-      "index": 1039
+      "index": 1053
     },
     {
       "Name": "la nef fuite du 2025-9-25",
@@ -9421,7 +9551,7 @@
       "slug": "la-nef-fuite-du-2025-9-25",
       "path": "https://next.ink/201451/la-banque-cooperative-la-nef-alerte-ses-clients-au-sujet-dune-fuite-dadresses-email/",
       "formattedDate": "2025-09-24",
-      "index": 1040
+      "index": 1054
     },
     {
       "Name": "France Travail (Dump #2)",
@@ -9446,7 +9576,8 @@
       "IsNative": true,
       "LogoPath": "https://upload.wikimedia.org/wikipedia/fr/thumb/8/8d/France-travail-2023.svg/2560px-France-travail-2023.svg.png",
       "slug": "france-travail-dump-2",
-      "source": "https://bonjourlafuite.eu.org/img/france-travail-2.jpg"
+      "source": "https://bonjourlafuite.eu.org/img/france-travail-2.jpg",
+      "index": 1055
     },
     {
       "Name": "inovie labosud fuite du 2025-9-23",
@@ -9472,7 +9603,7 @@
       "slug": "inovie-labosud-fuite-du-2025-9-23",
       "path": "https://bonjourlafuite.eu.org/img/inovie.jpg",
       "formattedDate": "2025-09-22",
-      "index": 1038
+      "index": 1052
     },
     {
       "Name": "digital charging solutions fuite du 2025-9-20",
@@ -9498,7 +9629,7 @@
       "slug": "digital-charging-solutions-fuite-du-2025-9-20",
       "path": "https://bonjourlafuite.eu.org/img/dcs.jpg",
       "formattedDate": "2025-09-19",
-      "index": 1037
+      "index": 1051
     },
     {
       "Name": "fédération française de tennis de table fuite du 2025-9-19",
@@ -9524,7 +9655,7 @@
       "slug": "f-d-ration-fran-aise-de-tennis-de-table-fuite-du-2025-9-19",
       "path": "https://www.fftt.com/site/actualites/2025-09-19/communique-cyberattaque-et-vol-de-donnees",
       "formattedDate": "2025-09-18",
-      "index": 1036
+      "index": 1050
     },
     {
       "Name": "clarins fuite du 2025-9-18",
@@ -9550,7 +9681,7 @@
       "slug": "clarins-fuite-du-2025-9-18",
       "path": "https://www.usine-digitale.fr/article/clarins-victime-d-une-cyberattaque-les-donnees-personnelles-des-clients-exposees.N2237935",
       "formattedDate": "2025-09-17",
-      "index": 1035
+      "index": 1049
     },
     {
       "Name": "plex fuite du 2025-9-9",
@@ -9576,7 +9707,7 @@
       "slug": "plex-fuite-du-2025-9-9",
       "path": "https://bonjourlafuite.eu.org/img/plex.png",
       "formattedDate": "2025-09-09",
-      "index": 1034
+      "index": 1048
     },
     {
       "Name": "WIRED",
@@ -9608,7 +9739,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1033
+      "index": 1047
     },
     {
       "Name": "eklo fuite du 2025-9-3",
@@ -9634,7 +9765,7 @@
       "slug": "eklo-fuite-du-2025-9-3",
       "path": "https://bonjourlafuite.eu.org/img/eklo.jpg",
       "formattedDate": "2025-09-02",
-      "index": 1031
+      "index": 1045
     },
     {
       "Name": "syma mobile fuite du 2025-9-3",
@@ -9660,7 +9791,7 @@
       "slug": "syma-mobile-fuite-du-2025-9-3",
       "path": "https://www.clubic.com/actualite-577542-alerte-cybersecurite-des-bases-de-donnees-d-alain-afflelou-de-syma-mobile-et-du-snu-mises-en-vente-sur-le-dark-web.html",
       "formattedDate": "2025-09-03",
-      "index": 1032
+      "index": 1046
     },
     {
       "Name": "Prosper",
@@ -9694,7 +9825,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1030
+      "index": 1044
     },
     {
       "Name": "ArtistsNClients",
@@ -9722,7 +9853,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1029
+      "index": 1043
     },
     {
       "Name": "Miljodata",
@@ -9753,7 +9884,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1028
+      "index": 1042
     },
     {
       "Name": "auchan fuite du 2025-8-21",
@@ -9779,7 +9910,7 @@
       "slug": "auchan-fuite-du-2025-8-21",
       "path": "https://bonjourlafuite.eu.org/img/auchan.jpg",
       "formattedDate": "2025-08-20",
-      "index": 1027
+      "index": 1041
     },
     {
       "Name": "france link interactive fuite du 2025-8-13",
@@ -9805,7 +9936,7 @@
       "slug": "france-link-interactive-fuite-du-2025-8-13",
       "path": "https://bonjourlafuite.eu.org/img/francelink.png",
       "formattedDate": "2025-08-12",
-      "index": 1024
+      "index": 1037
     },
     {
       "Name": "google fuite du 2025-8-13",
@@ -9831,7 +9962,7 @@
       "slug": "google-fuite-du-2025-8-13",
       "path": "https://www.01net.com/actualites/fuite-donnees-chez-google-255-millions-dinformations-piratees.html",
       "formattedDate": "2025-08-12",
-      "index": 1025
+      "index": 1038
     },
     {
       "Name": "partner immo fuite du 2025-8-13",
@@ -9857,7 +9988,7 @@
       "slug": "partner-immo-fuite-du-2025-8-13",
       "path": "https://bonjourlafuite.eu.org/img/partnerimmo.jpg",
       "formattedDate": "2025-08-13",
-      "index": 1026
+      "index": 1039
     },
     {
       "Name": "Google (via Salesforce CRM)",
@@ -9883,7 +10014,8 @@
       "IsNative": true,
       "LogoPath": "https://foxglove-partner.com/wp-content/uploads/2022/10/logo-google.png",
       "slug": "google-via-salesforce-crm",
-      "source": "https://www.leparisien.fr/high-tech/fuite-massive-de-donnees-google-facebook-ou-apple-vos-identifiants-font-ils-partie-des-16-milliards-en-ligne-21-06-2025-OR5SC3CMLBAYDPIFVKDKAN7G64.php"
+      "source": "https://www.leparisien.fr/high-tech/fuite-massive-de-donnees-google-facebook-ou-apple-vos-identifiants-font-ils-partie-des-16-milliards-en-ligne-21-06-2025-OR5SC3CMLBAYDPIFVKDKAN7G64.php",
+      "index": 1040
     },
     {
       "Name": "alltricks fuite du 2025-8-12",
@@ -9909,7 +10041,7 @@
       "slug": "alltricks-fuite-du-2025-8-12",
       "path": "https://bonjourlafuite.eu.org/img/alltricks.png",
       "formattedDate": "2025-08-11",
-      "index": 1022
+      "index": 1035
     },
     {
       "Name": "france travail fuite du 2025-8-12",
@@ -9935,7 +10067,7 @@
       "slug": "france-travail-fuite-du-2025-8-12",
       "path": "https://bonjourlafuite.eu.org/img/france-travail.png",
       "formattedDate": "2025-08-11",
-      "index": 1023
+      "index": 1036
     },
     {
       "Name": "BreachForums2025",
@@ -9964,7 +10096,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1021
+      "index": 1034
     },
     {
       "Name": "Giglio",
@@ -9992,7 +10124,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1020
+      "index": 1033
     },
     {
       "Name": "optic 2000 fuite du 2025-8-8",
@@ -10018,7 +10150,7 @@
       "slug": "optic-2000-fuite-du-2025-8-8",
       "path": "https://bonjourlafuite.eu.org/img/optic2000.png",
       "formattedDate": "2025-08-08",
-      "index": 1019
+      "index": 1032
     },
     {
       "Name": "air france fuite du 2025-8-6",
@@ -10044,7 +10176,7 @@
       "slug": "air-france-fuite-du-2025-8-6",
       "path": "https://bonjourlafuite.eu.org/img/air-france.jpg",
       "formattedDate": "2025-08-05",
-      "index": 1017
+      "index": 1030
     },
     {
       "Name": "bouygues telecom fuite du 2025-8-6",
@@ -10070,7 +10202,7 @@
       "slug": "bouygues-telecom-fuite-du-2025-8-6",
       "path": "https://bonjourlafuite.eu.org/img/bouygues.png",
       "formattedDate": "2025-08-05",
-      "index": 1018
+      "index": 1031
     },
     {
       "Name": "pandora fuite du 2025-8-5",
@@ -10096,7 +10228,7 @@
       "slug": "pandora-fuite-du-2025-8-5",
       "path": "https://bonjourlafuite.eu.org/img/pandora.jpg",
       "formattedDate": "2025-08-05",
-      "index": 1016
+      "index": 1029
     },
     {
       "Name": "BouyguesTelecom",
@@ -10126,7 +10258,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1015
+      "index": 1028
     },
     {
       "Name": "ThePi-Hole",
@@ -10152,7 +10284,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1014
+      "index": 1027
     },
     {
       "Name": "centre d’études et de recherches sur les qualifications fuite du 2025-7-26",
@@ -10178,7 +10310,7 @@
       "slug": "centre-d-tudes-et-de-recherches-sur-les-qualifications-fuite-du-2025-7-26",
       "path": "https://bonjourlafuite.eu.org/img/cereq.png",
       "formattedDate": "2025-07-25",
-      "index": 1013
+      "index": 1026
     },
     {
       "Name": "HelloCake",
@@ -10208,7 +10340,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1011
+      "index": 1024
     },
     {
       "Name": "orange fuite du 2025-7-25",
@@ -10234,7 +10366,7 @@
       "slug": "orange-fuite-du-2025-7-25",
       "path": "https://newsroom.orange.com/le-groupe-orange-annonce-avoir-depose-plainte-lundi-28-juillet-pour-atteinte-a-un-de-ses-systemes-dinformation?lang=fra",
       "formattedDate": "2025-07-25",
-      "index": 1012
+      "index": 1025
     },
     {
       "Name": "france travail fuite du 2025-7-22",
@@ -10260,7 +10392,7 @@
       "slug": "france-travail-fuite-du-2025-7-22",
       "path": "https://bonjourlafuite.eu.org/img/france-travail.jpg",
       "formattedDate": "2025-07-21",
-      "index": 1009
+      "index": 1022
     },
     {
       "Name": "groupe 5àsec fuite du 2025-7-22",
@@ -10286,7 +10418,7 @@
       "slug": "groupe-5-sec-fuite-du-2025-7-22",
       "path": "https://xcancel.com/_SaxX_/status/1947579183875383378",
       "formattedDate": "2025-07-21",
-      "index": 1010
+      "index": 1023
     },
     {
       "Name": "AllianzLife",
@@ -10316,7 +10448,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1008
+      "index": 1021
     },
     {
       "Name": "centre national de la fonction publique territoriale fuite du 2025-7-11",
@@ -10342,7 +10474,7 @@
       "slug": "centre-national-de-la-fonction-publique-territoriale-fuite-du-2025-7-11",
       "path": "https://bonjourlafuite.eu.org/img/cnfpt.jpg",
       "formattedDate": "2025-07-10",
-      "index": 1005
+      "index": 1018
     },
     {
       "Name": "louis vuitton fuite du 2025-7-11",
@@ -10368,7 +10500,7 @@
       "slug": "louis-vuitton-fuite-du-2025-7-11",
       "path": "https://next.ink/brief_article/fuite-de-donnees-chez-louis-vuitton-la-france-est-aussi-concernee/",
       "formattedDate": "2025-07-10",
-      "index": 1006
+      "index": 1019
     },
     {
       "Name": "union nationale du sport scolaire fuite du 2025-7-7",
@@ -10394,7 +10526,7 @@
       "slug": "union-nationale-du-sport-scolaire-fuite-du-2025-7-7",
       "path": "https://xcancel.com/_SaxX_/status/1942139268962341112",
       "formattedDate": "2025-07-07",
-      "index": 1004
+      "index": 1016
     },
     {
       "Name": "Hôpital privé de la Loire (Ramsay Santé)",
@@ -10424,7 +10556,8 @@
       "IsNative": true,
       "LogoPath": "https://hopital-prive-de-la-loire-saint-etienne.ramsaysante.fr/sites/default/files/styles/624x280/public/2022-07/LOGO-RAMSAY%20SANTE-H%C3%B4pital%20priv%C3%A9%20de%20la%20Loire-Bleu-HD.jpg.webp?itok=fURY7z-k",
       "slug": "hpital-priv-de-la-loire-ramsay-sant",
-      "source": "https://www.lemonde.fr/pixels/article/2025/07/10/saint-etienne-une-clinique-victime-d-une-cyberattaque-les-donnees-de-126-000-patients-volees_6620547_4408996.html"
+      "source": "https://www.lemonde.fr/pixels/article/2025/07/10/saint-etienne-une-clinique-victime-d-une-cyberattaque-les-donnees-de-126-000-patients-volees_6620547_4408996.html",
+      "index": 1017
     },
     {
       "Name": "CanadaGoose",
@@ -10456,7 +10589,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1003
+      "index": 1014
     },
     {
       "Name": "CNFPT",
@@ -10486,7 +10619,8 @@
       "IsNative": true,
       "LogoPath": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Logo-CNFPT-2024-RVB.png",
       "slug": "cnfpt",
-      "source": "https://www.lagazettedescommunes.com/994359/victime-dune-cyberattaque-le-cnfpt-repond-aux-craintes-de-34-000-intervenants/"
+      "source": "https://www.lagazettedescommunes.com/994359/victime-dune-cyberattaque-le-cnfpt-repond-aux-craintes-de-34-000-intervenants/",
+      "index": 1015
     },
     {
       "Name": "Union Nationale du Sport Scolaire (UNSS)",
@@ -10514,7 +10648,8 @@
       "IsNative": true,
       "LogoPath": "https://upload.wikimedia.org/wikipedia/commons/d/de/Logo_UNSS.png",
       "slug": "union-nationale-du-sport-scolaire-unss",
-      "source": "https://www.leparisien.fr/high-tech/des-jeunes-hackers-piratent-le-site-de-lunss-pour-samuser-plus-de-7-millions-de-licencies-concernes-27-06-2025-4GA674U3AJHHJIOX55BQ64T4Q4.php"
+      "source": "https://www.leparisien.fr/high-tech/des-jeunes-hackers-piratent-le-site-de-lunss-pour-samuser-plus-de-7-millions-de-licencies-concernes-27-06-2025-4GA674U3AJHHJIOX55BQ64T4Q4.php",
+      "index": 1013
     },
     {
       "Name": "TheSquare",
@@ -10547,7 +10682,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1002
+      "index": 1012
     },
     {
       "Name": "MaReads",
@@ -10575,7 +10710,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1001
+      "index": 1011
     },
     {
       "Name": "disneyland fuite du 2025-6-21",
@@ -10601,7 +10736,7 @@
       "slug": "disneyland-fuite-du-2025-6-21",
       "path": "https://xcancel.com/_SaxX_/status/1936346269737173317",
       "formattedDate": "2025-06-20",
-      "index": 999
+      "index": 1009
     },
     {
       "Name": "hôpital privé de la loire fuite du 2025-6-21",
@@ -10627,7 +10762,7 @@
       "slug": "h-pital-priv-de-la-loire-fuite-du-2025-6-21",
       "path": "https://xcancel.com/_SaxX_/status/1940667859467645379",
       "formattedDate": "2025-06-20",
-      "index": 1000
+      "index": 1010
     },
     {
       "Name": "DataTrollStealerLogs",
@@ -10653,7 +10788,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": true,
-      "index": 997
+      "index": 1007
     },
     {
       "Name": "VietnamAirlines",
@@ -10682,7 +10817,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 998
+      "index": 1008
     },
     {
       "Name": "Catwatchful",
@@ -10708,7 +10843,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 996
+      "index": 1006
     },
     {
       "Name": "Omnicuris",
@@ -10736,7 +10871,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 995
+      "index": 1005
     },
     {
       "Name": "Sorbonne Université",
@@ -10762,7 +10897,8 @@
       "IsNative": true,
       "LogoPath": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Logo_of_Sorbonne_University.svg/1200px-Logo_of_Sorbonne_University.svg.png",
       "slug": "sorbonne-universit",
-      "source": "https://www.sorbonne-universite.fr/presse/informations-sur-la-cyberattaque-dont-sorbonne-universite-fait-lobjet"
+      "source": "https://www.sorbonne-universite.fr/presse/informations-sur-la-cyberattaque-dont-sorbonne-universite-fait-lobjet",
+      "index": 1004
     },
     {
       "Name": "cartier fuite du 2025-6-3",
@@ -10788,7 +10924,7 @@
       "slug": "cartier-fuite-du-2025-6-3",
       "path": "https://bonjourlafuite.eu.org/img/cartier.jpg",
       "formattedDate": "2025-06-02",
-      "index": 993
+      "index": 1002
     },
     {
       "Name": "kaviari fuite du 2025-6-3",
@@ -10814,7 +10950,7 @@
       "slug": "kaviari-fuite-du-2025-6-3",
       "path": "https://bonjourlafuite.eu.org/img/kaviari.png",
       "formattedDate": "2025-06-02",
-      "index": 994
+      "index": 1003
     },
     {
       "Name": "ColoCrossing",
@@ -10841,7 +10977,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 991
+      "index": 1000
     },
     {
       "Name": "OperationEndgame2",
@@ -10867,7 +11003,7 @@
       "IsMalware": true,
       "IsSubscriptionFree": true,
       "IsStealerLog": false,
-      "index": 990
+      "index": 999
     },
     {
       "Name": "dior fuite du 2025-5-13",
@@ -10893,7 +11029,7 @@
       "slug": "dior-fuite-du-2025-5-13",
       "path": "https://www.lemonde.fr/pixels/article/2025/05/13/dior-victime-d-un-vol-de-donnees-personnelles-de-clients_6605835_4408996.html",
       "formattedDate": "2025-05-12",
-      "index": 988
+      "index": 996
     },
     {
       "Name": "pulsy fuite du 2025-5-13",
@@ -10919,7 +11055,7 @@
       "slug": "pulsy-fuite-du-2025-5-13",
       "path": "https://bonjourlafuite.eu.org/img/pulsy.png",
       "formattedDate": "2025-05-13",
-      "index": 989
+      "index": 997
     },
     {
       "Name": "Pulsy (GRADeS Grand Est)",
@@ -10950,7 +11086,8 @@
       "IsNative": true,
       "LogoPath": "https://rapport-activite-2024.pulsy.fr/wp-content/uploads/2022/04/logo-pulsy-2022-1.svg",
       "slug": "pulsy-grades-grand-est",
-      "source": "https://bonjourlafuite.eu.org/img/pulsy.png"
+      "source": "https://bonjourlafuite.eu.org/img/pulsy.png",
+      "index": 998
     },
     {
       "Name": "Ualabee",
@@ -10979,7 +11116,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 987
+      "index": 995
     },
     {
       "Name": "CreamsCafe",
@@ -11007,7 +11144,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 986
+      "index": 994
     },
     {
       "Name": "cerballiance fuite du 2025-4-30",
@@ -11033,7 +11170,7 @@
       "slug": "cerballiance-fuite-du-2025-4-30",
       "path": "https://bonjourlafuite.eu.org/img/cerballiance.png",
       "formattedDate": "2025-04-29",
-      "index": 985
+      "index": 993
     },
     {
       "Name": "carrefour mobile fuite du 2025-4-24",
@@ -11059,7 +11196,7 @@
       "slug": "carrefour-mobile-fuite-du-2025-4-24",
       "path": "https://www.gondola.be/fr/news/64000-clients-de-carrefour-mobile-victimes-dune-fuite-de-donnees",
       "formattedDate": "2025-04-23",
-      "index": 984
+      "index": 991
     },
     {
       "Name": "INDIGO (stationnement / Indigo Neo)",
@@ -11085,7 +11222,8 @@
       "IsNative": true,
       "LogoPath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQczVBeLOnRGxdySiNymk1OuiM5nsg7zeP1Wg&s",
       "slug": "indigo-stationnement-indigo-neo",
-      "source": "https://www.solutions-numeriques.com/indigo-subit-une-nouvelle-attaque-du-groupe-world-leaks/"
+      "source": "https://www.solutions-numeriques.com/indigo-subit-une-nouvelle-attaque-du-groupe-world-leaks/",
+      "index": 992
     },
     {
       "Name": "easy cash fuite du 2025-4-22",
@@ -11111,7 +11249,7 @@
       "slug": "easy-cash-fuite-du-2025-4-22",
       "path": "https://bonjourlafuite.eu.org/img/easycash.png",
       "formattedDate": "2025-04-21",
-      "index": 983
+      "index": 990
     },
     {
       "Name": "indigo fuite du 2025-4-18",
@@ -11137,7 +11275,7 @@
       "slug": "indigo-fuite-du-2025-4-18",
       "path": "https://bonjourlafuite.eu.org/img/indigo.jpg",
       "formattedDate": "2025-04-17",
-      "index": 982
+      "index": 989
     },
     {
       "Name": "afflelou fuite du 2025-4-15",
@@ -11163,7 +11301,7 @@
       "slug": "afflelou-fuite-du-2025-4-15",
       "path": "https://bonjourlafuite.eu.org/img/afflelou-1.jpg",
       "formattedDate": "2025-04-14",
-      "index": 980
+      "index": 986
     },
     {
       "Name": "Alain Afflelou",
@@ -11192,7 +11330,8 @@
       "IsNative": true,
       "LogoPath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTarRX7zSZOqBgRYe2Tr7iJy7656xuc-Zy6Ww&s",
       "slug": "alain-afflelou",
-      "source": "https://www.clubic.com/actualite-562482-alain-afflelou-victime-d-une-cyberattaque-de-nombreuses-donnees-en-fuite.html"
+      "source": "https://www.clubic.com/actualite-562482-alain-afflelou-victime-d-une-cyberattaque-de-nombreuses-donnees-en-fuite.html",
+      "index": 987
     },
     {
       "Name": "harvest fuite du 2025-4-11",
@@ -11218,7 +11357,7 @@
       "slug": "harvest-fuite-du-2025-4-11",
       "path": "https://www.01net.com/actualites/fuite-massive-france-vol-donnees-bouscule-monde-finance-francaise.html",
       "formattedDate": "2025-04-10",
-      "index": 977
+      "index": 983
     },
     {
       "Name": "SynthientCredentialStuffingThreatData",
@@ -11244,7 +11383,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 978
+      "index": 984
     },
     {
       "Name": "SynthientStealerLogThreatData",
@@ -11270,7 +11409,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": true,
-      "index": 979
+      "index": 985
     },
     {
       "Name": "utwin fuite du 2025-4-7",
@@ -11296,7 +11435,7 @@
       "slug": "utwin-fuite-du-2025-4-7",
       "path": "https://bonjourlafuite.eu.org/img/utwin.jpg",
       "formattedDate": "2025-04-07",
-      "index": 976
+      "index": 982
     },
     {
       "Name": "Hertz",
@@ -11324,7 +11463,8 @@
       "IsNative": true,
       "LogoPath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD1fcccwsdmB0PGTXdgugZ27CDpSCUCISmeg&s",
       "slug": "hertz",
-      "source": "https://www.malwarebytes.com/blog/news/2025/04/hertz-data-breach-caused-by-cl0p-ransomware-attack-on-vendor"
+      "source": "https://www.malwarebytes.com/blog/news/2025/04/hertz-data-breach-caused-by-cl0p-ransomware-attack-on-vendor",
+      "index": 981
     },
     {
       "Name": "reporterre fuite du 2025-4-1",
@@ -11350,7 +11490,7 @@
       "slug": "reporterre-fuite-du-2025-4-1",
       "path": "https://bonjourlafuite.eu.org/img/reporterre.jpg",
       "formattedDate": "2025-04-01",
-      "index": 975
+      "index": 980
     },
     {
       "Name": "SamsungGermany",
@@ -11381,7 +11521,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 974
+      "index": 979
     },
     {
       "Name": "maif & bpce fuite du 2025-3-28",
@@ -11407,7 +11547,7 @@
       "slug": "maif-bpce-fuite-du-2025-3-28",
       "path": "https://bonjourlafuite.eu.org/img/maif.png",
       "formattedDate": "2025-03-28",
-      "index": 973
+      "index": 976
     },
     {
       "Name": "Groupe BPCE (via Harvest)",
@@ -11432,7 +11572,8 @@
       "IsNative": true,
       "LogoPath": "https://storage.googleapis.com/endurance-apps-liip/media/cache/bpce_channel_jumbotron_grid_fs/678f4a1e1d7b648df70a4d13",
       "slug": "groupe-bpce-via-harvest",
-      "source": "https://idprotect.fr/cyberattaque-chez-harvest-des-milliers-de-clients-maif-et-bpce-exposes-a-des-risques-dusurpation-didentite/"
+      "source": "https://idprotect.fr/cyberattaque-chez-harvest-des-milliers-de-clients-maif-et-bpce-exposes-a-des-risques-dusurpation-didentite/",
+      "index": 977
     },
     {
       "Name": "MAIF (via Harvest)",
@@ -11460,7 +11601,8 @@
       "IsNative": true,
       "LogoPath": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Logo_Maif_2019.svg/2560px-Logo_Maif_2019.svg.png",
       "slug": "maif-via-harvest",
-      "source": "https://idprotect.fr/cyberattaque-chez-harvest-des-milliers-de-clients-maif-et-bpce-exposes-a-des-risques-dusurpation-didentite/"
+      "source": "https://idprotect.fr/cyberattaque-chez-harvest-des-milliers-de-clients-maif-et-bpce-exposes-a-des-risques-dusurpation-didentite/",
+      "index": 978
     },
     {
       "Name": "GermanDonerKebab",
@@ -11488,7 +11630,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 971
+      "index": 974
     },
     {
       "Name": "oracle cloud fuite du 2025-3-27",
@@ -11514,7 +11656,7 @@
       "slug": "oracle-cloud-fuite-du-2025-3-27",
       "path": "https://www.lemondeinformatique.fr/actualites/lire-des-clients-confirment-la-fuite-de-donnees-oracle-cloud-96454.html",
       "formattedDate": "2025-03-27",
-      "index": 972
+      "index": 975
     },
     {
       "Name": "centrale nantes fuite du 2025-3-26",
@@ -11540,7 +11682,7 @@
       "slug": "centrale-nantes-fuite-du-2025-3-26",
       "path": "https://bonjourlafuite.eu.org/img/centrale-nantes.png",
       "formattedDate": "2025-03-25",
-      "index": 969
+      "index": 972
     },
     {
       "Name": "TehetsegKapu",
@@ -11567,7 +11709,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 970
+      "index": 973
     },
     {
       "Name": "cerballiance fuite du 2025-3-25",
@@ -11593,7 +11735,7 @@
       "slug": "cerballiance-fuite-du-2025-3-25",
       "path": "https://www.clubic.com/actualite-558117-les-laboratoires-francais-cerballiance-ont-ete-victimes-d-une-cyberattaque-voici-les-donnees-qui-ont-fuite.html",
       "formattedDate": "2025-03-24",
-      "index": 967
+      "index": 969
     },
     {
       "Name": "TroyHuntMailchimpList",
@@ -11620,7 +11762,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": true,
       "IsStealerLog": false,
-      "index": 968
+      "index": 970
     },
     {
       "Name": "Cerballiance (PACA)",
@@ -11650,7 +11792,8 @@
       "IsNative": true,
       "LogoPath": "https://espacepatient.cerballiance.fr/resources/images/Logo-vecto.png",
       "slug": "cerballiance-paca",
-      "source": "https://www.clubic.com/actualite-558117-les-laboratoires-francais-cerballiance-ont-ete-victimes-d-une-cyberattaque-voici-les-donnees-qui-ont-fuite.html"
+      "source": "https://www.clubic.com/actualite-558117-les-laboratoires-francais-cerballiance-ont-ete-victimes-d-une-cyberattaque-voici-les-donnees-qui-ont-fuite.html",
+      "index": 971
     },
     {
       "Name": "ADDA",
@@ -11678,7 +11821,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 966
+      "index": 967
     },
     {
       "Name": "intersport fuite du 2025-3-20",
@@ -11704,7 +11847,7 @@
       "slug": "intersport-fuite-du-2025-3-20",
       "path": "https://bonjourlafuite.eu.org/img/intersport.jpg",
       "formattedDate": "2025-03-19",
-      "index": 963
+      "index": 965
     },
     {
       "Name": "éclaireuses et éclaireurs de france fuite du 2025-3-20",
@@ -11730,7 +11873,7 @@
       "slug": "-claireuses-et-claireurs-de-france-fuite-du-2025-3-20",
       "path": "https://bonjourlafuite.eu.org/img/scoutsdefrance.jpg",
       "formattedDate": "2025-03-20",
-      "index": 964
+      "index": 966
     },
     {
       "Name": "direct assurance fuite du 2025-3-18",
@@ -11756,7 +11899,7 @@
       "slug": "direct-assurance-fuite-du-2025-3-18",
       "path": "https://bonjourlafuite.eu.org/img/directassurance.jpg",
       "formattedDate": "2025-03-17",
-      "index": 962
+      "index": 964
     },
     {
       "Name": "AUTOSUR",
@@ -11787,7 +11930,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 961
+      "index": 963
     },
     {
       "Name": "Blackstore",
@@ -11816,7 +11959,8 @@
       "IsNative": true,
       "LogoPath": "https://media.blackstore.fr/is/image/intersportfr/2311-BS-Vignette?wid=1200&fmt=webp",
       "slug": "blackstore",
-      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Blackstore-Fuites-de-donnees.webp"
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/01/Blackstore-Fuites-de-donnees.webp",
+      "index": 962
     },
     {
       "Name": "laforêt fuite du 2025-3-13",
@@ -11842,7 +11986,7 @@
       "slug": "lafor-t-fuite-du-2025-3-13",
       "path": "https://bonjourlafuite.eu.org/img/laforet.jpg",
       "formattedDate": "2025-03-12",
-      "index": 960
+      "index": 961
     },
     {
       "Name": "utwin fuite du 2025-3-5",
@@ -11868,7 +12012,7 @@
       "slug": "utwin-fuite-du-2025-3-5",
       "path": "https://bonjourlafuite.eu.org/img/utwin.png",
       "formattedDate": "2025-03-05",
-      "index": 959
+      "index": 960
     },
     {
       "Name": "côté sushi fuite du 2025-3-4",
@@ -11946,7 +12090,8 @@
       "IsNative": true,
       "LogoPath": "https://upload.wikimedia.org/wikipedia/fr/0/0d/La_Poste_2022.svg",
       "slug": "la-poste-lection-du-timbre",
-      "source": "https://www.01net.com/actualites/poste-previent-clients-fuite-donnees.html"
+      "source": "https://www.01net.com/actualites/poste-previent-clients-fuite-donnees.html",
+      "index": 959
     },
     {
       "Name": "edf dpih fuite du 2025-2-28",
@@ -15839,7 +15984,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 814
+      "index": 813
     },
     {
       "Name": "MrGreenGaming",
@@ -15868,7 +16013,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 815
+      "index": 814
     },
     {
       "Name": "DemandScience",
@@ -31292,7 +31437,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 287
+      "index": 286
     },
     {
       "Name": "JustDate",
@@ -33535,7 +33680,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 204
+      "index": 203
     },
     {
       "Name": "Lifeboat",
@@ -33562,7 +33707,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 205
+      "index": 204
     },
     {
       "Name": "MoDaCo",
@@ -33590,7 +33735,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 206
+      "index": 205
     },
     {
       "Name": "Onverse",
@@ -33618,7 +33763,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 207
+      "index": 206
     },
     {
       "Name": "ServerPact",
@@ -33647,7 +33792,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 208
+      "index": 207
     },
     {
       "Name": "XPGameSaves",
@@ -33675,7 +33820,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 209
+      "index": 208
     },
     {
       "Name": "Trillian",
