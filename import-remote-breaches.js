@@ -199,3 +199,14 @@ main(REMOTE_URL).catch(err => console.error("Erreur lors du processus d'importat
     console.log("Processus d'importation terminé.");
 main("https://haveibeenpwned.com/api/v3/breaches").catch(err => console.error("Erreur lors du processus d'importation:", err));
 });
+fs.readdirSync(path.join(__dirname, 'source', '_posts'),{
+    recursive: true,
+    withFileTypes: true
+}).forEach(file => {
+    if (file.isFile() && file.name.endsWith('.md')) {
+        const filePath = path.join(__dirname, 'source', '_posts', file.name);
+        fs.unlinkSync(filePath);
+        console.log(`Fichier supprimé : ${file.name}`);
+    }   
+});
+
