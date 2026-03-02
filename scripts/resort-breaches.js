@@ -56,6 +56,7 @@ db.breaches.forEach((breach, idx) => {
     
     // Correction des liens HIBP
     if (!breach.lien || String(breach.lien).includes('undefined')) {
+      const https=require('https')
       let slug = '';
       if (breach.path && String(breach.path).includes('breaches/')) {
         slug = breach.path.split('breaches/')[1];
@@ -67,6 +68,12 @@ db.breaches.forEach((breach, idx) => {
         if(slug.includes("fuite du")){
           breach.lien=`https://bonjourlafuite.eu.org/{${slug.replaceAll("fuite du","-")}`
         } else {
+          if(https.get(`https://haveibeenpwned.com/api/v3/breach/${slug}`, { headers: { 'User-Agent': 'Mozilla/5.0' } }, (res) => {
+            if (res.statusCode === 200) {
+              breach.lien = `https://haveibeenpwned.com/Breach/${slug}`; }}).on('error', (e) => {
+              console.error(`Erreur lors de la vérification du lien HIBP pour ${slug}: ${e.message}`);
+              breach.lien = `https://haveibeenpwned.com/`;
+            })) 
           breach.lien = `https://haveibeenpwned.com/Breach/${slug}`;
         }
       } else {
