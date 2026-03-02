@@ -1,6 +1,19 @@
-[?25l[36m?[39m [1mQue souhaitez-vous faire ?[22m [2m...[22m 
-[36m>[39m [36m[4m🕵️  Valider les nouvelles entrées[24m[39m
-  ✏️  Éditer une entrée existante
-  🚪 Quitter[3A[34G[3B[2K[F[2K[F[2K[F[2K[1G[32m√[39m [1mQue souhaitez-vous faire ?[22m [2m·[22m [36m🕵️  Valider les nouvelles entrées[39m[36D
-[?25hDEBUG: Action sélectionnée = undefined
-Au revoir !
+Démarrage de l'importation des nouvelles fuites...
+Démarrage de l'importation des nouvelles fuites...
+958 fuites trouvées dans la source distante.
+280 fuites existentes avant l'import.
+Date de référence pour l'importation : 2025-03-02T13:14:22.173Z
+Importation terminée: 950 fuite(s) ajoutée(s), 8 ignorée(s).
+
+Lancement du processus de déduplication post-importation...
+312 fuites trouvées dans la source distante.
+280 fuites existentes avant l'import.
+Date de référence pour l'importation : 2025-03-02T13:14:22.173Z
+Importation terminée: 8 fuite(s) ajoutée(s), 304 ignorée(s).
+
+Lancement du processus de déduplication post-importation...
+9 groupes de doublons potentiels à traiter.
+Déduplication terminée: 28 doublon(s) supprimé(s).
+
+Base de données finale sauvegardée avec 260 enregistrements.
+Date de l'importation actuelle enregistrée dans last_import_date.json.

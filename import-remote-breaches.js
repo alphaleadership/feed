@@ -45,6 +45,14 @@ function slugify(text) {
         .replace(/^-+/, '').replace(/-+$/, '');
 }
 
+function getBreachName(breach) {
+    return (breach.Name || breach.name || breach.Title || breach.title || '').toLowerCase();
+}
+
+function breachNameMatches(existingBreach, remoteBreach) {
+    return getBreachName(existingBreach) === (remoteBreach.name || remoteBreach.Name || '').toLowerCase();
+}
+
 // --- Deduplication Function ---
 function deduplicate(breaches) {
     console.log("\nLancement du processus de déduplication post-importation...");
@@ -56,7 +64,7 @@ function deduplicate(breaches) {
 
     breaches.forEach((breach, index) => {
         if (processedIndices.has(index)) return;
-        const searchResults = fuse.search(breach.Name);
+        const searchResults = fuse.search(breach.Name||breach.name||breach.Title||breach.title);
         const similarItems = searchResults.filter(result => result.score < 0.15 && result.refIndex !== index);
         if (similarItems.length === 0) return;
 
@@ -130,6 +138,10 @@ async function main(REMOTE_URL ) {
     let skippedCount = 0;
 
     for (const remote of remoteData) {
+        if (existingBreaches.some(b => breachNameMatches(b, remote))) {
+            skippedCount++;
+            continue;
+        }
         const remoteBreachDate = new Date(remote.date);
         if (remoteBreachDate <= lastLaunchDate) {
             skippedCount++;
@@ -137,10 +149,7 @@ async function main(REMOTE_URL ) {
         
         }
       //  console.log(remote)
-        if (existingBreaches.some(b => (b.Name||b.name|| b.Title|| b.title).toLowerCase() === (remote.name||remote.Name).toLowerCase())) {
-            skippedCount++;
-            continue;
-        }
+       
         const results = importFuse.search(remote.name||remote.Name);
         if (results.some(result => Math.abs(remoteBreachDate.getTime() - new Date(result.item.BreachDate).getTime()) / (1000 * 3600 * 24) <= 7)) {
             skippedCount++;
@@ -160,7 +169,8 @@ async function main(REMOTE_URL ) {
             IsSensitive: remote.status === "Sensible",
             IsVerified: true, IsFabricated: false, IsSpam: false, IsRetired: false, IsNative: true,
             LogoPath: remote.logo_url || "",
-            slug: slugify(remote.name||remote.Name)
+            slug: slugify(remote.name||remote.Name),
+            source:remote.source_url || "unknown",
         };
         existingBreaches.push(newBreach);
         addedCount++;
@@ -185,5 +195,7 @@ async function main(REMOTE_URL ) {
     console.log(`Date de l'importation actuelle enregistrée dans ${path.basename(DATE_FILE)}.`);
 }
 
-main(REMOTE_URL).catch(err => console.error("Erreur lors du processus d'importation:", err));
+main(REMOTE_URL).catch(err => console.error("Erreur lors du processus d'importation:", err)).then(() => {
+    console.log("Processus d'importation terminé.");
 main("https://haveibeenpwned.com/api/v3/breaches").catch(err => console.error("Erreur lors du processus d'importation:", err));
+});
