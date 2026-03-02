@@ -111,7 +111,7 @@ function deduplicate(breaches) {
 }
 
 // --- Main Function ---
-async function main() {
+async function main(REMOTE_URL ) {
     console.log("Démarrage de l'importation des nouvelles fuites...");
     const response = await fetch(REMOTE_URL);
     if (!response.ok) throw new Error(`Erreur HTTP ! statut: ${response.status}`);
@@ -183,4 +183,5 @@ async function main() {
     console.log(`Date de l'importation actuelle enregistrée dans ${path.basename(DATE_FILE)}.`);
 }
 
-main().catch(err => console.error("Erreur lors du processus d'importation:", err));
+main(REMOTE_URL).catch(err => console.error("Erreur lors du processus d'importation:", err));
+main("https://haveibeenpwned.com/api/v3/breaches").catch(err => console.error("Erreur lors du processus d'importation:", err));
