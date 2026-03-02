@@ -1,7 +1,32 @@
 {
-  "lastUpdated": "2026-03-02T14:08:29.975Z",
-  "totalBreaches": 1389,
+  "lastUpdated": "2026-03-02T15:01:24.241Z",
+  "totalBreaches": 1390,
   "breaches": [
+    {
+      "Name": "Tchap",
+      "Title": "Tchap",
+      "Domain": "tchap.gouv.fr",
+      "BreachDate": "2026-03-02",
+      "AddedDate": "2026-03-02T15:01:14.589Z",
+      "ModifiedDate": "2026-03-02T15:01:14.589Z",
+      "PwnCount": 10000,
+      "Description": "Revendication par l'acteur 'epi' d'un scraping de plus de 10 000 membres ('member scrape: 10K+') et 7 conversations ('conversation scrape: 7'). Les salons prétendument aspirés incluent : Forge MI, PC STORM Admins, Police Nationale, Tchap Retex, DTNUM Interieur, Gendarmerie Nationale, et Police Judiciaire.\n\nStatut: Revendiquée\nType de service: Messagerie de l'État",
+      "DataClasses": [
+        "Identifiants Matrix",
+        "Liste de membres",
+        "Contenu de conversations",
+        "Données administratives (Matricule, Service, Qualification OPJ)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://www.tchap.gouv.fr/vector-icons/620x300.png",
+      "slug": "tchap",
+      "source": "https://christopheboutry.com/wp-content/uploads/2026/03/Tchap-gouv-leak-fuites-de-donnees.png"
+    },
     {
       "Name": "BE ATEX",
       "Title": "BE ATEX",
