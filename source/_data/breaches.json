@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-02T06:38:12.870Z",
-  "totalBreaches": 1406,
+  "lastUpdated": "2026-03-02T07:39:19.317Z",
+  "totalBreaches": 1407,
   "breaches": [
     {
       "Name": "BE ATEX",
@@ -28,7 +28,7 @@
       "IsNative": true,
       "LogoPath": "https://adf-systemes.fr/wp-content/uploads/2020/10/Sans-titre-scaled.jpg",
       "slug": "be-atex",
-      "index": 1423
+      "index": 1424
     },
     {
       "Name": "UNSS #2",
@@ -60,7 +60,7 @@
       "IsNative": true,
       "LogoPath": "https://upload.wikimedia.org/wikipedia/fr/1/1d/Logo_UNSS_-_2017.svg",
       "slug": "unss-2",
-      "index": 1422
+      "index": 1423
     },
     {
       "Name": "ESPCI Paris",
@@ -88,7 +88,7 @@
       "IsNative": true,
       "LogoPath": "https://w52.net.espci.fr/sites/www.espci.psl.eu/local/cache-vignettes/L600xH200/espci_baseline-couleur-copie-6aa60.png?1747763321",
       "slug": "espci-paris",
-      "index": 1419
+      "index": 1420
     },
     {
       "Name": "Westfield Club",
@@ -115,7 +115,7 @@
       "IsNative": true,
       "LogoPath": "https://res.cloudinary.com/westfielddg/image/upload/w_3840/fl_sanitize/q_auto/v1731591483/Westfield%20Website%20-%20Global%20Repository/01%20-%20CORPORATE%20ASSETS/Logos%20Westfield%20Club/Logo_Westfield_club_mobile.svg",
       "slug": "westfield-club",
-      "index": 1420
+      "index": 1421
     },
     {
       "Name": "Eiffage (NextSend)",
@@ -141,7 +141,7 @@
       "IsNative": true,
       "LogoPath": "https://openmindconseil.fr/wp-content/uploads/2015/04/Eiffage.svg_.png",
       "slug": "eiffage-nextsend",
-      "index": 1421
+      "index": 1422
     },
     {
       "Name": "Cegedim",
@@ -164,7 +164,7 @@
       "IsNative": true,
       "LogoPath": "https://www.comparateur-facturation-electronique.fr/wp-content/uploads/2024/09/cegedim-logo-HD.jpg.png",
       "slug": "cegedim",
-      "index": 1415
+      "index": 1416
     },
     {
       "Name": "Santeo",
@@ -188,7 +188,7 @@
       "IsNative": true,
       "LogoPath": "https://www.santeo.net/assets/img/logo.jpg",
       "slug": "santeo",
-      "index": 1416
+      "index": 1417
     },
     {
       "Name": "Fédération Française de Gymnastique",
@@ -214,7 +214,7 @@
       "IsNative": true,
       "LogoPath": "https://upload.wikimedia.org/wikipedia/fr/8/88/Logo_F%C3%A9d%C3%A9ration_Fran%C3%A7aise_Gymnastique_-_2013.svg",
       "slug": "fdration-franaise-de-gymnastique",
-      "index": 1417
+      "index": 1418
     },
     {
       "Name": "Fédération Française de Karaté",
@@ -239,7 +239,7 @@
       "IsNative": true,
       "LogoPath": "https://sites.ffkarate.fr/cdkvar83/wp-content/uploads/sites/102/2015/06/FFKarate_H_RVB.png",
       "slug": "fdration-franaise-de-karat",
-      "index": 1418
+      "index": 1419
     },
     {
       "Name": "Fédération Française d'Aïkido, Aïkibudo et Associées (FFAAA)",
@@ -344,6 +344,33 @@
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
       "index": 1414
+    },
+    {
+      "Name": "Lovora",
+      "Title": "Lovora",
+      "Domain": "",
+      "BreachDate": "2026-02-25",
+      "AddedDate": "2026-03-02T07:23:06Z",
+      "ModifiedDate": "2026-03-02T07:23:06Z",
+      "PwnCount": 495556,
+      "Description": "In February 2026, the couples and relationship app Lovora allegedly suffered a data breach that exposed 496k unique email addresses. The data also included users’ display names and profile photos, along with other personal information collected through use of the app. The app’s maker, Plantake, did not respond to multiple attempts to contact them about the incident.",
+      "LogoPath": "https://logos.haveibeenpwned.com/Lovora.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [
+        "Display names",
+        "Email addresses",
+        "Profile photos"
+      ],
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "index": 1415
     },
     {
       "Name": "Ayomi",
