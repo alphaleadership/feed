@@ -125,16 +125,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://haveibeenpwned.com/Breach/Valgo
    - Vérifié: Oui
 
-14. Cyrillus
-   - Titre: Cyrillus
-   - Domaine: cyrillus.fr
-   - Date de fuite: 2026-02-18
-   - Date d'ajout: 2026-03-02T13:35:25.574Z
-   - PwnCount: 0
-   - Lien: https://haveibeenpwned.com/Breach/Cyrillus
-   - Vérifié: Oui
-
-15. direction générale des finances publiques fuite du 2026-2-18
+14. direction générale des finances publiques fuite du 2026-2-18
    - Titre: direction générale des finances publiques fuite du 2026-2-18
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-18
@@ -143,7 +134,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/#Direction%20G%C3%A9n%C3%A9rale%20des%20Finances%20Publiques-2026-02-18
    - Vérifié: Non
 
-16. espace ce fuite du 2026-2-18
+15. espace ce fuite du 2026-2-18
    - Titre: espace ce fuite du 2026-2-18
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-18
@@ -151,6 +142,15 @@ LISTE DES FUITES CONCERNÉES:
    - PwnCount: 0
    - Lien: https://bonjourlafuite.eu.org/{espace ce - 2026-2-18
    - Vérifié: Non
+
+16. Cyrillus
+   - Titre: Cyrillus
+   - Domaine: cyrillus.fr
+   - Date de fuite: 2026-02-18
+   - Date d'ajout: 2026-03-02T13:35:25.574Z
+   - PwnCount: 0
+   - Lien: https://haveibeenpwned.com/Breach/Cyrillus
+   - Vérifié: Oui
 
 17. cnrs fuite du 2026-2-16
    - Titre: cnrs fuite du 2026-2-16
@@ -161,16 +161,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{cnrs - 2026-2-16
    - Vérifié: Oui
 
-18. Kimsufi (OVHcloud)
-   - Titre: Kimsufi (OVHcloud)
-   - Domaine: kimsufi.com
-   - Date de fuite: 2026-02-13
-   - Date d'ajout: 2026-03-02T13:35:25.934Z
-   - PwnCount: 0
-   - Lien: https://haveibeenpwned.com/Breach/Kimsufi (OVHcloud)
-   - Vérifié: Oui
-
-19. grain de malice fuite du 2026-2-13
+18. grain de malice fuite du 2026-2-13
    - Titre: grain de malice fuite du 2026-2-13
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-13
@@ -179,7 +170,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{grain de malice - 2026-2-13
    - Vérifié: Non
 
-20. les restos du cœur fuite du 2026-2-13
+19. les restos du cœur fuite du 2026-2-13
    - Titre: les restos du cœur fuite du 2026-2-13
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-13
@@ -188,7 +179,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{les restos du cœur - 2026-2-13
    - Vérifié: Oui
 
-21. voyage privé fuite du 2026-2-13
+20. voyage privé fuite du 2026-2-13
    - Titre: voyage privé fuite du 2026-2-13
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-13
@@ -196,6 +187,15 @@ LISTE DES FUITES CONCERNÉES:
    - PwnCount: 0
    - Lien: https://bonjourlafuite.eu.org/{voyage privé - 2026-2-13
    - Vérifié: Non
+
+21. Kimsufi (OVHcloud)
+   - Titre: Kimsufi (OVHcloud)
+   - Domaine: kimsufi.com
+   - Date de fuite: 2026-02-13
+   - Date d'ajout: 2026-03-02T13:35:25.934Z
+   - PwnCount: 0
+   - Lien: https://haveibeenpwned.com/Breach/Kimsufi (OVHcloud)
+   - Vérifié: Oui
 
 22. commune de bourg fuite du 2026-2-11
    - Titre: commune de bourg fuite du 2026-2-11
@@ -206,16 +206,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{commune de bourg - 2026-2-11
    - Vérifié: Non
 
-23. Safran Group
-   - Titre: Safran Group
-   - Domaine: safran-group.com
-   - Date de fuite: 2026-02-10
-   - Date d'ajout: 2026-03-02T13:35:25.993Z
-   - PwnCount: 0
-   - Lien: https://haveibeenpwned.com/Breach/Safran Group
-   - Vérifié: Oui
-
-24. relais colis fuite du 2026-2-10
+23. relais colis fuite du 2026-2-10
    - Titre: relais colis fuite du 2026-2-10
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-10
@@ -224,16 +215,16 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{relais colis - 2026-2-10
    - Vérifié: Non
 
-25. Prozon
-   - Titre: Prozon
-   - Domaine: prozon.com
-   - Date de fuite: 2026-02-09
-   - Date d'ajout: 2026-03-02T15:22:45.680Z
+24. Safran Group
+   - Titre: Safran Group
+   - Domaine: safran-group.com
+   - Date de fuite: 2026-02-10
+   - Date d'ajout: 2026-03-02T13:35:25.993Z
    - PwnCount: 0
-   - Lien: https://haveibeenpwned.com/Breach/Prozon
+   - Lien: https://haveibeenpwned.com/Breach/Safran Group
    - Vérifié: Oui
 
-26. aïkan fuite du 2026-2-9
+25. aïkan fuite du 2026-2-9
    - Titre: aïkan fuite du 2026-2-9
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-9
@@ -242,7 +233,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{aïkan - 2026-2-9
    - Vérifié: Non
 
-27. commission européenne fuite du 2026-2-9
+26. commission européenne fuite du 2026-2-9
    - Titre: commission européenne fuite du 2026-2-9
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-9
@@ -251,7 +242,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{commission européenne - 2026-2-9
    - Vérifié: Non
 
-28. darty fuite du 2026-2-9
+27. darty fuite du 2026-2-9
    - Titre: darty fuite du 2026-2-9
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-9
@@ -260,7 +251,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{darty - 2026-2-9
    - Vérifié: Non
 
-29. la carte avantage jeune fuite du 2026-2-9
+28. la carte avantage jeune fuite du 2026-2-9
    - Titre: la carte avantage jeune fuite du 2026-2-9
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-9
@@ -269,7 +260,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{la carte avantage jeune - 2026-2-9
    - Vérifié: Non
 
-30. pharmashopi fuite du 2026-2-9
+29. pharmashopi fuite du 2026-2-9
    - Titre: pharmashopi fuite du 2026-2-9
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-9
@@ -278,7 +269,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{pharmashopi - 2026-2-9
    - Vérifié: Non
 
-31. sumsub fuite du 2026-2-9
+30. sumsub fuite du 2026-2-9
    - Titre: sumsub fuite du 2026-2-9
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-9
@@ -287,16 +278,16 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{sumsub - 2026-2-9
    - Vérifié: Non
 
-32. Voyages Robin
-   - Titre: Voyages Robin
-   - Domaine: voyages-robin.com
-   - Date de fuite: 2026-02-07
-   - Date d'ajout: 2026-03-02T13:35:26.125Z
+31. Prozon
+   - Titre: Prozon
+   - Domaine: prozon.com
+   - Date de fuite: 2026-02-09
+   - Date d'ajout: 2026-03-02T15:22:45.680Z
    - PwnCount: 0
-   - Lien: https://haveibeenpwned.com/Breach/Voyages Robin
+   - Lien: https://haveibeenpwned.com/Breach/Prozon
    - Vérifié: Oui
 
-33. office français de la biodiversité fuite du 2026-2-7
+32. office français de la biodiversité fuite du 2026-2-7
    - Titre: office français de la biodiversité fuite du 2026-2-7
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-7
@@ -304,6 +295,15 @@ LISTE DES FUITES CONCERNÉES:
    - PwnCount: 0
    - Lien: https://bonjourlafuite.eu.org/{office français de la biodiversité - 2026-2-7
    - Vérifié: Non
+
+33. Voyages Robin
+   - Titre: Voyages Robin
+   - Domaine: voyages-robin.com
+   - Date de fuite: 2026-02-07
+   - Date d'ajout: 2026-03-02T13:35:26.125Z
+   - PwnCount: 0
+   - Lien: https://haveibeenpwned.com/Breach/Voyages Robin
+   - Vérifié: Oui
 
 34. flickr fuite du 2026-2-6
    - Titre: flickr fuite du 2026-2-6
@@ -800,16 +800,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{orpi - 2026-1-23
    - Vérifié: Non
 
-89. École nationale supérieure d'arts et métiers (ENSAM)
-   - Titre: École nationale supérieure d'arts et métiers (ENSAM)
-   - Domaine: artsetmetiers.fr
-   - Date de fuite: 2026-01-21
-   - Date d'ajout: 2026-03-02T13:35:27.272Z
-   - PwnCount: 0
-   - Lien: https://haveibeenpwned.com/Breach/École nationale supérieure d'arts et métiers (ENSAM)
-   - Vérifié: Oui
-
-90. ensam fuite du 2026-1-21
+89. ensam fuite du 2026-1-21
    - Titre: ensam fuite du 2026-1-21
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-21
@@ -817,6 +808,15 @@ LISTE DES FUITES CONCERNÉES:
    - PwnCount: 0
    - Lien: https://bonjourlafuite.eu.org/{ensam - 2026-1-21
    - Vérifié: Non
+
+90. École nationale supérieure d'arts et métiers (ENSAM)
+   - Titre: École nationale supérieure d'arts et métiers (ENSAM)
+   - Domaine: artsetmetiers.fr
+   - Date de fuite: 2026-01-21
+   - Date d'ajout: 2026-03-02T13:35:27.272Z
+   - PwnCount: 0
+   - Lien: https://haveibeenpwned.com/Breach/École nationale supérieure d'arts et métiers (ENSAM)
+   - Vérifié: Oui
 
 91. conseiljuridique.net fuite du 2026-1-20
    - Titre: conseiljuridique.net fuite du 2026-1-20
@@ -899,16 +899,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{store pas cher - 2026-1-16
    - Vérifié: Non
 
-100. Service-public.gouv.fr
-   - Titre: Service-public.gouv.fr
-   - Domaine: service-public.fr
-   - Date de fuite: 2026-01-15
-   - Date d'ajout: 2026-03-02T15:22:47.016Z
-   - PwnCount: 0
-   - Lien: https://haveibeenpwned.com/Breach/Service-public.gouv.fr
-   - Vérifié: Oui
-
-101. agro paris tech fuite du 2026-1-15
+100. agro paris tech fuite du 2026-1-15
    - Titre: agro paris tech fuite du 2026-1-15
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-15
@@ -917,7 +908,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{agro paris tech - 2026-1-15
    - Vérifié: Non
 
-102. fédération française de montagne escalade fuite du 2026-1-15
+101. fédération française de montagne escalade fuite du 2026-1-15
    - Titre: fédération française de montagne escalade fuite du 2026-1-15
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-15
@@ -926,7 +917,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{fédération française de montagne escalade - 2026-1-15
    - Vérifié: Non
 
-103. fédération française de twirling bâton fuite du 2026-1-15
+102. fédération française de twirling bâton fuite du 2026-1-15
    - Titre: fédération française de twirling bâton fuite du 2026-1-15
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-15
@@ -935,7 +926,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{fédération française de twirling bâton - 2026-1-15
    - Vérifié: Non
 
-104. lire demain fuite du 2026-1-15
+103. lire demain fuite du 2026-1-15
    - Titre: lire demain fuite du 2026-1-15
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-15
@@ -944,7 +935,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{lire demain - 2026-1-15
    - Vérifié: Non
 
-105. relais colis fuite du 2026-1-15
+104. relais colis fuite du 2026-1-15
    - Titre: relais colis fuite du 2026-1-15
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-15
@@ -953,7 +944,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{relais colis - 2026-1-15
    - Vérifié: Non
 
-106. service public fuite du 2026-1-15
+105. service public fuite du 2026-1-15
    - Titre: service public fuite du 2026-1-15
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-15
@@ -962,7 +953,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{service public - 2026-1-15
    - Vérifié: Non
 
-107. total énergies fuite du 2026-1-15
+106. total énergies fuite du 2026-1-15
    - Titre: total énergies fuite du 2026-1-15
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-15
@@ -971,16 +962,16 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{total énergies - 2026-1-15
    - Vérifié: Non
 
-108. Eurail / Interrail
-   - Titre: Eurail / Interrail
-   - Domaine: eurail.com
-   - Date de fuite: 2026-01-13
-   - Date d'ajout: 2026-03-02T13:35:27.600Z
+107. Service-public.gouv.fr
+   - Titre: Service-public.gouv.fr
+   - Domaine: service-public.fr
+   - Date de fuite: 2026-01-15
+   - Date d'ajout: 2026-03-02T15:22:47.016Z
    - PwnCount: 0
-   - Lien: https://haveibeenpwned.com/Breach/Eurail / Interrail
+   - Lien: https://haveibeenpwned.com/Breach/Service-public.gouv.fr
    - Vérifié: Oui
 
-109. zurflüh fuite du 2026-1-13
+108. zurflüh fuite du 2026-1-13
    - Titre: zurflüh fuite du 2026-1-13
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-13
@@ -989,7 +980,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{zurflüh - 2026-1-13
    - Vérifié: Non
 
-110. eurail fuite du 2026-1-13
+109. eurail fuite du 2026-1-13
    - Titre: eurail fuite du 2026-1-13
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-13
@@ -997,6 +988,15 @@ LISTE DES FUITES CONCERNÉES:
    - PwnCount: 0
    - Lien: https://bonjourlafuite.eu.org/{eurail - 2026-1-13
    - Vérifié: Non
+
+110. Eurail / Interrail
+   - Titre: Eurail / Interrail
+   - Domaine: eurail.com
+   - Date de fuite: 2026-01-13
+   - Date d'ajout: 2026-03-02T13:35:27.600Z
+   - PwnCount: 0
+   - Lien: https://haveibeenpwned.com/Breach/Eurail / Interrail
+   - Vérifié: Oui
 
 111. fédération française de tennis fuite du 2026-1-12
    - Titre: fédération française de tennis fuite du 2026-1-12
@@ -1142,7 +1142,16 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://haveibeenpwned.com/Breach/L’Orange Bleue Fitness Club
    - Vérifié: Oui
 
-127. DCE Conseil (Partenaires divers : Prisons, Armées, Luxe etc)
+127. office français de l’immigration et de l’intégration fuite du 2026-1-5
+   - Titre: office français de l’immigration et de l’intégration fuite du 2026-1-5
+   - Domaine: Non spécifié
+   - Date de fuite: 2026-1-5
+   - Date d'ajout: 2026-03-02T13:35:21.226Z
+   - PwnCount: 0
+   - Lien: https://bonjourlafuite.eu.org/{office français de l’immigration et de l’intégration - 2026-1-5
+   - Vérifié: Non
+
+128. DCE Conseil (Partenaires divers : Prisons, Armées, Luxe etc)
    - Titre: DCE Conseil (Partenaires divers : Prisons, Armées, Luxe etc)
    - Domaine: dceconseil.fr
    - Date de fuite: 2026-01-05
@@ -1151,7 +1160,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://haveibeenpwned.com/Breach/DCE Conseil (Partenaires divers : Prisons, Armées, Luxe etc)
    - Vérifié: Oui
 
-128. Ledger (via prestataire Global-e)
+129. Ledger (via prestataire Global-e)
    - Titre: Ledger (via prestataire Global-e)
    - Domaine: ledger.com
    - Date de fuite: 2026-01-05
@@ -1159,15 +1168,6 @@ LISTE DES FUITES CONCERNÉES:
    - PwnCount: 0
    - Lien: https://haveibeenpwned.com/Breach/Ledger (via prestataire Global-e)
    - Vérifié: Oui
-
-129. office français de l’immigration et de l’intégration fuite du 2026-1-5
-   - Titre: office français de l’immigration et de l’intégration fuite du 2026-1-5
-   - Domaine: Non spécifié
-   - Date de fuite: 2026-1-5
-   - Date d'ajout: 2026-03-02T13:35:21.226Z
-   - PwnCount: 0
-   - Lien: https://bonjourlafuite.eu.org/{office français de l’immigration et de l’intégration - 2026-1-5
-   - Vérifié: Non
 
 130. AgroParisTech
    - Titre: AgroParisTech
@@ -2060,16 +2060,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{auchan - 2025-8-21
    - Vérifié: Non
 
-229. Google (via Salesforce CRM)
-   - Titre: Google (via Salesforce CRM)
-   - Domaine: about.google
-   - Date de fuite: 2025-08-13
-   - Date d'ajout: 2026-03-02T13:35:31.302Z
-   - PwnCount: 0
-   - Lien: https://haveibeenpwned.com/Breach/Google (via Salesforce CRM)
-   - Vérifié: Oui
-
-230. france link interactive fuite du 2025-8-13
+229. france link interactive fuite du 2025-8-13
    - Titre: france link interactive fuite du 2025-8-13
    - Domaine: Non spécifié
    - Date de fuite: 2025-8-13
@@ -2078,7 +2069,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{france link interactive - 2025-8-13
    - Vérifié: Non
 
-231. google fuite du 2025-8-13
+230. google fuite du 2025-8-13
    - Titre: google fuite du 2025-8-13
    - Domaine: Non spécifié
    - Date de fuite: 2025-8-13
@@ -2087,7 +2078,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{google - 2025-8-13
    - Vérifié: Non
 
-232. partner immo fuite du 2025-8-13
+231. partner immo fuite du 2025-8-13
    - Titre: partner immo fuite du 2025-8-13
    - Domaine: Non spécifié
    - Date de fuite: 2025-8-13
@@ -2095,6 +2086,15 @@ LISTE DES FUITES CONCERNÉES:
    - PwnCount: 0
    - Lien: https://bonjourlafuite.eu.org/{partner immo - 2025-8-13
    - Vérifié: Non
+
+232. Google (via Salesforce CRM)
+   - Titre: Google (via Salesforce CRM)
+   - Domaine: about.google
+   - Date de fuite: 2025-08-13
+   - Date d'ajout: 2026-03-02T13:35:31.302Z
+   - PwnCount: 0
+   - Lien: https://haveibeenpwned.com/Breach/Google (via Salesforce CRM)
+   - Vérifié: Oui
 
 233. alltricks fuite du 2025-8-12
    - Titre: alltricks fuite du 2025-8-12
@@ -2249,16 +2249,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{kaviari - 2025-6-3
    - Vérifié: Non
 
-250. Pulsy (GRADeS Grand Est)
-   - Titre: Pulsy (GRADeS Grand Est)
-   - Domaine: pulsy.fr
-   - Date de fuite: 2025-05-13
-   - Date d'ajout: 2026-03-02T13:35:31.619Z
-   - PwnCount: 0
-   - Lien: https://haveibeenpwned.com/Breach/Pulsy (GRADeS Grand Est)
-   - Vérifié: Oui
-
-251. dior fuite du 2025-5-13
+250. dior fuite du 2025-5-13
    - Titre: dior fuite du 2025-5-13
    - Domaine: Non spécifié
    - Date de fuite: 2025-5-13
@@ -2267,7 +2258,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{dior - 2025-5-13
    - Vérifié: Non
 
-252. pulsy fuite du 2025-5-13
+251. pulsy fuite du 2025-5-13
    - Titre: pulsy fuite du 2025-5-13
    - Domaine: Non spécifié
    - Date de fuite: 2025-5-13
@@ -2275,6 +2266,15 @@ LISTE DES FUITES CONCERNÉES:
    - PwnCount: 0
    - Lien: https://bonjourlafuite.eu.org/{pulsy - 2025-5-13
    - Vérifié: Non
+
+252. Pulsy (GRADeS Grand Est)
+   - Titre: Pulsy (GRADeS Grand Est)
+   - Domaine: pulsy.fr
+   - Date de fuite: 2025-05-13
+   - Date d'ajout: 2026-03-02T13:35:31.619Z
+   - PwnCount: 0
+   - Lien: https://haveibeenpwned.com/Breach/Pulsy (GRADeS Grand Est)
+   - Vérifié: Oui
 
 253. cerballiance fuite du 2025-4-30
    - Titre: cerballiance fuite du 2025-4-30
@@ -2285,16 +2285,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{cerballiance - 2025-4-30
    - Vérifié: Non
 
-254. INDIGO (stationnement / Indigo Neo)
-   - Titre: INDIGO (stationnement / Indigo Neo)
-   - Domaine: group-indigo.com
-   - Date de fuite: 2025-04-24
-   - Date d'ajout: 2026-03-02T13:35:31.684Z
-   - PwnCount: 0
-   - Lien: https://haveibeenpwned.com/Breach/INDIGO (stationnement / Indigo Neo)
-   - Vérifié: Oui
-
-255. carrefour mobile fuite du 2025-4-24
+254. carrefour mobile fuite du 2025-4-24
    - Titre: carrefour mobile fuite du 2025-4-24
    - Domaine: Non spécifié
    - Date de fuite: 2025-4-24
@@ -2302,6 +2293,15 @@ LISTE DES FUITES CONCERNÉES:
    - PwnCount: 0
    - Lien: https://bonjourlafuite.eu.org/{carrefour mobile - 2025-4-24
    - Vérifié: Non
+
+255. INDIGO (stationnement / Indigo Neo)
+   - Titre: INDIGO (stationnement / Indigo Neo)
+   - Domaine: group-indigo.com
+   - Date de fuite: 2025-04-24
+   - Date d'ajout: 2026-03-02T13:35:31.684Z
+   - PwnCount: 0
+   - Lien: https://haveibeenpwned.com/Breach/INDIGO (stationnement / Indigo Neo)
+   - Vérifié: Oui
 
 256. easy cash fuite du 2025-4-22
    - Titre: easy cash fuite du 2025-4-22
@@ -2321,16 +2321,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/{indigo - 2025-4-18
    - Vérifié: Non
 
-258. Alain Afflelou
-   - Titre: Alain Afflelou
-   - Domaine: afflelou.com
-   - Date de fuite: 2025-04-15
-   - Date d'ajout: 2026-03-02T13:35:31.698Z
-   - PwnCount: 0
-   - Lien: https://haveibeenpwned.com/Breach/Alain Afflelou
-   - Vérifié: Oui
-
-259. afflelou fuite du 2025-4-15
+258. afflelou fuite du 2025-4-15
    - Titre: afflelou fuite du 2025-4-15
    - Domaine: Non spécifié
    - Date de fuite: 2025-4-15
@@ -2338,6 +2329,15 @@ LISTE DES FUITES CONCERNÉES:
    - PwnCount: 0
    - Lien: https://bonjourlafuite.eu.org/{afflelou - 2025-4-15
    - Vérifié: Non
+
+259. Alain Afflelou
+   - Titre: Alain Afflelou
+   - Domaine: afflelou.com
+   - Date de fuite: 2025-04-15
+   - Date d'ajout: 2026-03-02T13:35:31.698Z
+   - PwnCount: 0
+   - Lien: https://haveibeenpwned.com/Breach/Alain Afflelou
+   - Vérifié: Oui
 
 260. harvest fuite du 2025-4-11
    - Titre: harvest fuite du 2025-4-11
