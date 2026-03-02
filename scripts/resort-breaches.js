@@ -72,7 +72,7 @@ db.breaches.forEach((breach, idx) => {
             if (res.statusCode === 200) {
               breach.lien = `https://haveibeenpwned.com/Breach/${slug}`; }}).on('error', (e) => {
               console.error(`Erreur lors de la vérification du lien HIBP pour ${slug}: ${e.message}`);
-              breach.lien = `https://haveibeenpwned.com/`;
+              breach.lien = `undefined`;
             })) 
           breach.lien = `https://haveibeenpwned.com/Breach/${slug}`;
         }
