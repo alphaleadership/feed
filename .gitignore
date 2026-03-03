@@ -15,3 +15,5 @@ _multiconfig.yml
 .augment/rules/byterover-rules.md
 .env
 archive/
+.gemini/
+gha-creds-*.json
