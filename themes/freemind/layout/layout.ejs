@@ -3,6 +3,21 @@
   <%- partial('_partial/head') %>
   <body class="bg-dark text-light">
     <%- partial('_partial/navigation') %>
+    	<div class="quick-links card shadow-sm mb-4" style="background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); border: none;">
+		<div class="card-body" style="padding: 1rem;">
+			<div class="d-flex justify-content-center gap-3 flex-wrap">
+				<a href="<%- config.root %>archives/" class="btn btn-outline-primary btn-lg" style="border: 2px solid #38bdf8; color: #38bdf8; transition: all 0.3s;">
+					<i class="fa fa-archive me-2"></i>Archives complètes
+				</a>
+				<a href="<%- config.root %>" class="btn btn-outline-success btn-lg" style="border: 2px solid #4ade80; color: #4ade80; transition: all 0.3s;">
+					<i class="fa fa-home me-2"></i>Accueil
+				</a>
+				<a href="<%- config.root %>fuites/" class="btn btn-outline-warning btn-lg" style="border: 2px solid #fbbf24; color: #fbbf24; transition: all 0.3s;">
+					<i class="fa fa-list me-2"></i>Liste des fuites
+				</a>
+			</div>
+		</div>
+	</div>
 <div id="ecoindex-badge" data-theme="dark"></div>
 <script src="https://cdn.jsdelivr.net/gh/cnumr/ecoindex_badge@3/assets/js/ecoindex-badge.js" defer></script>
     <div class="container">
