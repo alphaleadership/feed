@@ -46,6 +46,50 @@
 <div class="page-header <% if (theme.inverse){ %>page-header-inverse<% } %>">
   <h1 class="archive-title title <% if (theme.inverse){ %>title-inverse<% } %>"><%= title %></h1>
   <% if (filteredPosts && filteredPosts.length) { %>
+    <% 
+    // Calculer le moment où le nombre de fuites de l'année passée a été dépassé
+    var currentYear = new Date().getFullYear();
+    var lastYear = currentYear - 1;
+    var previousYear = currentYear - 2;
+    
+    var lastYearCount = 0;
+    var currentYearBreaches = [];
+    var surpassDate = null;
+    
+    if (archiveData.years[lastYear]) {
+      lastYearCount = Object.keys(archiveData.years[lastYear]).reduce(function(total, monthKey) {
+        return total + archiveData.years[lastYear][monthKey].length;
+      }, 0);
+    }
+    
+    if (archiveData.years[currentYear]) {
+      Object.keys(archiveData.years[currentYear]).forEach(function(monthKey) {
+        currentYearBreaches = currentYearBreaches.concat(archiveData.years[currentYear][monthKey]);
+      });
+      currentYearBreaches.sort((a, b) => new Date(a.BreachDate) - new Date(b.BreachDate));
+      
+      if (currentYearBreaches.length >= lastYearCount && lastYearCount > 0) {
+        surpassDate = new Date(currentYearBreaches[lastYearCount - 1].BreachDate);
+      }
+    }
+    %>
+    
+    <% if (surpassDate) { %>
+      <div class="alert alert-info" style="margin: 20px 0; padding: 15px; background-color: #d9edf7; border: 1px solid #bce8f1; border-radius: 4px;">
+        <strong>📊 Statistique de l'année :</strong> Le nombre de fuites de <%= lastYear %> (<%= lastYearCount %> fuites) a été dépassé le 
+        <strong><%= surpassDate.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }) %></strong>
+        (au bout de <%= Math.ceil((surpassDate - new Date(currentYear, 0, 1)) / (1000 * 60 * 60 * 24)) %> jours).
+      </div>
+    <% } else if (lastYearCount > 0 && currentYearBreaches.length > 0) { %>
+      <div class="alert alert-warning" style="margin: 20px 0; padding: 15px; background-color: #fcf8e3; border: 1px solid #faebcc; border-radius: 4px;">
+        <strong>📊 Statistique de l'année :</strong> <%= currentYear %> compte actuellement <%= currentYearBreaches.length %> fuites, 
+        contre <%= lastYearCount %> fuites en <%= lastYear %>. 
+        <% if (currentYearBreaches.length < lastYearCount) { %>
+          Il reste <%= lastYearCount - currentYearBreaches.length %> fuites avant d'atteindre le total de l'année précédente.
+        <% } %>
+      </div>
+    <% } %>
+    
     <div class="archive-year-nav">
       <% Object.keys(archiveData.years).sort((a, b) => a - b).forEach(function(year) { %>
         <% 
