@@ -64,7 +64,7 @@ function deduplicate(breaches) {
 
     breaches.forEach((breach, index) => {
         if (processedIndices.has(index)) return;
-        const searchResults = fuse.search(breach.Name||breach.name||breach.Title||breach.title);
+        const searchResults = fuse.search(getBreachName(breach));
         const similarItems = searchResults.filter(result => result.score < 0.15 && result.refIndex !== index);
         if (similarItems.length === 0) return;
 
