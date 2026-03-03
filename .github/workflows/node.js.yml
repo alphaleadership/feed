@@ -20,7 +20,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     strategy:
       matrix:
-        node-version: [ 23.x]
+        node-version: [ 25.x]
         # Voir le calendrier de sortie supporté de Node.js à https://nodejs.org/en/about/releases/
 
     steps:
@@ -49,6 +49,6 @@ jobs:
         
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - run: rm -rf source/_posts -r && npx hexo generate && npx hexo deploy
+    - run:  npx hexo generate && npx hexo deploy
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
