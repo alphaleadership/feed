@@ -31,6 +31,10 @@ menu:
     url: category
     intro: "toute les catégorie "
     icon: "fa fa-archive"
+  - title: Glossaire
+    url: glossaire
+    intro: "Niveaux de risque par type de données"
+    icon: "fa fa-shield"
 
 links:
   - title: code
