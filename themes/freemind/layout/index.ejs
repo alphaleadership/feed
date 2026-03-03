@@ -1,13 +1,37 @@
-<div class="page-header bg-dark text-white rounded shadow-lg p-3 mb-4 d-flex justify-content-between align-items-center">
-  <h1 class="title text-uppercase letter-spacing-1 mb-0">
-    <% if (config.subtitle){ %><%= config.subtitle %><% } else { %><%= config.title %><% } %>
-  </h1>
-  <% if (site.data.breaches && site.data.breaches.breaches) { %>
-    <div class="breach-count">
-      <span class="badge badge-danger p-2" style="font-size: 1.2rem;">
-        <i class="fa fa-exclamation-triangle mr-2"></i>
-        <%= site.data.breaches.breaches.length %> fuites répertoriées
-      </span>
+<div class="page-header bg-dark text-white rounded shadow-lg p-3 mb-4">
+  <div class="d-flex justify-content-between align-items-center flex-wrap">
+    <h1 class="title text-uppercase letter-spacing-1 mb-0">
+      <% if (config.subtitle){ %><%= config.subtitle %><% } else { %><%= config.title %><% } %>
+    </h1>
+    <% if (site.data.breaches && site.data.breaches.breaches) { %>
+      <div class="breach-stats d-flex gap-3 flex-wrap">
+        <span class="badge badge-danger p-2" style="font-size: 1.2rem;">
+          <i class="fa fa-exclamation-triangle mr-2"></i>
+          <%= site.data.breaches.breaches.length %> fuites
+        </span>
+        <% 
+        var totalPwn = site.data.breaches.breaches.reduce((sum, b) => sum + (b.PwnCount || 0), 0);
+        var currentYear = new Date().getFullYear();
+        var currentYearBreaches = site.data.breaches.breaches.filter(b => {
+          var year = new Date(b.BreachDate).getFullYear();
+          return year === currentYear;
+        });
+        %>
+        <span class="badge badge-warning p-2" style="font-size: 1.2rem;">
+          <i class="fa fa-users mr-2"></i>
+          <%= (totalPwn / 1000000000).toFixed(2) %>Md comptes
+        </span>
+        <span class="badge badge-info p-2" style="font-size: 1.2rem;">
+          <i class="fa fa-calendar mr-2"></i>
+          <%= currentYearBreaches.length %> en <%= currentYear %>
+        </span>
+      </div>
+    <% } %>
+  </div>
+  <% if (site.data.breaches && site.data.breaches.lastUpdated) { %>
+    <div class="text-muted mt-2" style="font-size: 0.9rem;">
+      <i class="fa fa-clock-o mr-1"></i>
+      Dernière mise à jour : <%= new Date(site.data.breaches.lastUpdated).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric', hour: '2-digit', minute: '2-digit' }) %>
     </div>
   <% } %>
 </div>

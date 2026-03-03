@@ -46,51 +46,43 @@
 <div class="page-header <% if (theme.inverse){ %>page-header-inverse<% } %>">
   <h1 class="archive-title title <% if (theme.inverse){ %>title-inverse<% } %>"><%= title %></h1>
   <% if (filteredPosts && filteredPosts.length) { %>
-    <% 
-    // Calculer le moment où le nombre de fuites de l'année passée a été dépassé
-    var currentYear = new Date().getFullYear();
-    var lastYear = currentYear - 1;
-    var previousYear = currentYear - 2;
-    
-    var lastYearCount = 0;
-    var currentYearBreaches = [];
-    var surpassDate = null;
-    
-    if (archiveData.years[lastYear]) {
-      lastYearCount = Object.keys(archiveData.years[lastYear]).reduce(function(total, monthKey) {
-        return total + archiveData.years[lastYear][monthKey].length;
-      }, 0);
-    }
-    
-    if (archiveData.years[currentYear]) {
-      Object.keys(archiveData.years[currentYear]).forEach(function(monthKey) {
-        currentYearBreaches = currentYearBreaches.concat(archiveData.years[currentYear][monthKey]);
-      });
-      currentYearBreaches.sort((a, b) => new Date(a.BreachDate) - new Date(b.BreachDate));
-      
-      if (currentYearBreaches.length >= lastYearCount && lastYearCount > 0) {
-        surpassDate = new Date(currentYearBreaches[lastYearCount - 1].BreachDate);
-      }
-    }
-    %>
-    
-    <% if (surpassDate) { %>
-      <div class="alert alert-info" style="margin: 20px 0; padding: 15px; background-color: #d9edf7; border: 1px solid #bce8f1; border-radius: 4px;">
-        <strong>📊 Statistique de l'année :</strong> Le nombre de fuites de <%= lastYear %> (<%= lastYearCount %> fuites) a été dépassé le 
-        <strong><%= surpassDate.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }) %></strong>
-        (au bout de <%= Math.ceil((surpassDate - new Date(currentYear, 0, 1)) / (1000 * 60 * 60 * 24)) %> jours).
-      </div>
-    <% } else if (lastYearCount > 0 && currentYearBreaches.length > 0) { %>
-      <div class="alert alert-warning" style="margin: 20px 0; padding: 15px; background-color: #fcf8e3; border: 1px solid #faebcc; border-radius: 4px;">
-        <strong>📊 Statistique de l'année :</strong> <%= currentYear %> compte actuellement <%= currentYearBreaches.length %> fuites, 
-        contre <%= lastYearCount %> fuites en <%= lastYear %>. 
-        <% if (currentYearBreaches.length < lastYearCount) { %>
-          Il reste <%= lastYearCount - currentYearBreaches.length %> fuites avant d'atteindre le total de l'année précédente.
-        <% } %>
-      </div>
-    <% } %>
-    
     <div class="archive-year-nav">
+      <% 
+      // Calculer les dates de dépassement pour toutes les années
+      var yearSurpassInfo = {};
+      Object.keys(archiveData.years).sort((a, b) => a - b).forEach(function(year) {
+        var yearCount = Object.keys(archiveData.years[year]).reduce(function(total, monthKey) { 
+          return total + archiveData.years[year][monthKey].length; 
+        }, 0);
+        
+        var allYearItems = [];
+        Object.keys(archiveData.years[year]).forEach(function(monthKey) {
+          allYearItems = allYearItems.concat(archiveData.years[year][monthKey]);
+        });
+        allYearItems.sort((a, b) => new Date(a.BreachDate) - new Date(b.BreachDate));
+        
+        var prevYear = parseInt(year) - 1;
+        var prevYearCount = 0;
+        
+        if (archiveData.years[prevYear]) {
+          prevYearCount = Object.keys(archiveData.years[prevYear]).reduce(function(total, monthKey) {
+            return total + archiveData.years[prevYear][monthKey].length;
+          }, 0);
+          
+          if (yearCount >= prevYearCount && prevYearCount > 0) {
+            var surpassDate = new Date(allYearItems[prevYearCount - 1].BreachDate);
+            var daysSinceStart = Math.ceil((surpassDate - new Date(year, 0, 1)) / (1000 * 60 * 60 * 24));
+            yearSurpassInfo[year] = {
+              date: surpassDate,
+              days: daysSinceStart,
+              prevYear: prevYear,
+              prevYearCount: prevYearCount
+            };
+          }
+        }
+      });
+      %>
+      
       <% Object.keys(archiveData.years).sort((a, b) => a - b).forEach(function(year) { %>
         <% 
         var yearCount = Object.keys(archiveData.years[year]).reduce(function(total, monthKey) { return total + archiveData.years[year][monthKey].length; }, 0);
@@ -112,7 +104,16 @@
         }
         %>
 
-        <a href="#year_heading_<%= year %>"><%= year %> (<%= yearCount %>) avec <%= totalPwnCount %> ligne cumulée de données fuitée<%= avgTimeStr %></a></br>
+        <a href="#year_heading_<%= year %>"><%= year %> (<%= yearCount %>) avec <%= totalPwnCount %> ligne cumulée de données fuitée<%= avgTimeStr %></a>
+        <% if (yearSurpassInfo[year]) { %>
+          <div style="margin-left: 20px; margin-top: 5px; margin-bottom: 10px; font-size: 0.9em; color: #666; font-style: italic;">
+            📊 Dépassement de <%= yearSurpassInfo[year].prevYear %> (<%= yearSurpassInfo[year].prevYearCount %> fuites) le 
+            <strong><%= yearSurpassInfo[year].date.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long' }) %></strong>
+            (au bout de <%= yearSurpassInfo[year].days %> jours)
+          </div>
+        <% } else { %>
+          </br>
+        <% } %>
       <% }); %>
     </div>
   <% } %>
@@ -149,6 +150,36 @@
           <h4 id="year_heading_<%= year %>" class="archive-ul" data-toggle="collapse" data-target="#year_<%= year %>"><%= year %> (<%= yearCount %>) <b class="caret"></b><%- avgTimeStr %></h4>
           <div id="year_<%= year %>" class="collapse in">
             <h1><%= totalPwnCount %> ligne cumulée </h1>
+            <% 
+            // Calculer quand cette année a dépassé l'année précédente
+            var prevYear = parseInt(year) - 1;
+            var prevYearCount = 0;
+            var yearSurpassDate = null;
+            
+            if (archiveData.years[prevYear]) {
+              prevYearCount = Object.keys(archiveData.years[prevYear]).reduce(function(total, monthKey) {
+                return total + archiveData.years[prevYear][monthKey].length;
+              }, 0);
+              
+              if (yearCount >= prevYearCount && prevYearCount > 0) {
+                var sortedYearBreaches = allYearItems.slice();
+                sortedYearBreaches.sort((a, b) => new Date(a.BreachDate) - new Date(b.BreachDate));
+                yearSurpassDate = new Date(sortedYearBreaches[prevYearCount - 1].BreachDate);
+              }
+            }
+            %>
+            <% if (yearSurpassDate) { %>
+              <p style="margin: 10px 0; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
+                <strong>📊</strong> Le nombre de fuites de <%= prevYear %> (<%= prevYearCount %> fuites) a été dépassé le 
+                <strong><%= yearSurpassDate.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }) %></strong>
+                (au bout de <%= Math.ceil((yearSurpassDate - new Date(year, 0, 1)) / (1000 * 60 * 60 * 24)) %> jours).
+              </p>
+            <% } else if (prevYearCount > 0 && yearCount < prevYearCount) { %>
+              <p style="margin: 10px 0; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
+                <strong>📊</strong> <%= year %> compte <%= yearCount %> fuites, contre <%= prevYearCount %> fuites en <%= prevYear %>.
+              </p>
+            <% } %>
+            
             <% Object.keys(archiveData.years[year]).sort((a, b) => b - a).forEach(function(month) { %>
               <% var monthCount = archiveData.years[year][month].length; %>
               <h5 class="archive-ul" data-toggle="collapse" data-target="#month_<%= year %>_<%= month %>"><%= archiveData.months[month] %> (<%= monthCount %>) <b class="caret"></b></h5>
