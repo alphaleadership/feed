@@ -1,6 +1,7 @@
 'use strict';
 
 const fs = require('fs');
+const { time } = require('hexo/dist/plugins/helper/date');
 const path = require('path');
 
 const baseDir = path.join(__dirname, '..');
@@ -68,7 +69,7 @@ db.breaches.forEach((breach, idx) => {
         if(slug.includes("fuite du")){
           breach.lien=`https://bonjourlafuite.eu.org/{${slug.replaceAll("fuite du","-")}`
         } else {
-          if(https.get(`https://haveibeenpwned.com/api/v3/breach/${slug}`, { headers: { 'User-Agent': 'Mozilla/5.0' } }, (res) => {
+          if(https.get(`https://haveibeenpwned.com/api/v3/breach/${slug}`, { headers: { 'User-Agent': 'Mozilla/5.0' },timeout:5000 }, (res) => {
             if (res.statusCode === 200) {
               breach.lien = `https://haveibeenpwned.com/Breach/${slug}`; }}).on('error', (e) => {
               console.error(`Erreur lors de la vérification du lien HIBP pour ${slug}: ${e.message}`);
