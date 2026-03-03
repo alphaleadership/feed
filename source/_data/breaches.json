@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-02T23:54:21.304Z",
+  "lastUpdated": "2026-03-03T02:29:49.857Z",
   "totalBreaches": 1394,
   "breaches": [
     {
@@ -56,7 +56,8 @@
       "IsNative": true,
       "LogoPath": "https://www.bioserveur.com/images/e378fc3.png",
       "slug": "bioserveur",
-      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/Bioserveur-fuites-de-donnees-leak.png"
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/Bioserveur-fuites-de-donnees-leak.png",
+      "index": 1408
     },
     {
       "Name": "BE ATEX",
