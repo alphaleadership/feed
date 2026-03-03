@@ -7,6 +7,23 @@
 	<div class="col-md-12">
 	<% } %>
 
+	<!-- Liens rapides -->
+	<div class="quick-links card shadow-sm mb-4" style="background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); border: none;">
+		<div class="card-body" style="padding: 1rem;">
+			<div class="d-flex justify-content-center gap-3 flex-wrap">
+				<a href="<%- config.root %>archives/" class="btn btn-outline-primary btn-lg" style="border: 2px solid #38bdf8; color: #38bdf8; transition: all 0.3s;">
+					<i class="fa fa-archive me-2"></i>Archives complètes
+				</a>
+				<a href="<%- config.root %>" class="btn btn-outline-success btn-lg" style="border: 2px solid #4ade80; color: #4ade80; transition: all 0.3s;">
+					<i class="fa fa-home me-2"></i>Accueil
+				</a>
+				<a href="<%- config.root %>fuites/" class="btn btn-outline-warning btn-lg" style="border: 2px solid #fbbf24; color: #fbbf24; transition: all 0.3s;">
+					<i class="fa fa-list me-2"></i>Liste des fuites
+				</a>
+			</div>
+		</div>
+	</div>
+
 	<!-- Statistiques globales -->
 	<div class="global-stats card shadow-sm mb-4" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border: none;">
 		<div class="card-header bg-dark text-white" style="background: rgba(0,0,0,0.5) !important; border-bottom: 2px solid rgba(255,255,255,0.1);">
@@ -368,6 +385,25 @@
 	</script>
 
 	<style>
+		.quick-links .btn {
+			transition: all 0.3s ease;
+		}
+		.quick-links .btn:hover {
+			transform: translateY(-2px);
+			box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+		}
+		.quick-links .btn-outline-primary:hover {
+			background-color: #38bdf8;
+			color: #0f172a;
+		}
+		.quick-links .btn-outline-success:hover {
+			background-color: #4ade80;
+			color: #0f172a;
+		}
+		.quick-links .btn-outline-warning:hover {
+			background-color: #fbbf24;
+			color: #0f172a;
+		}
 		.global-stats .stat-card {
 			transition: transform 0.2s, box-shadow 0.2s;
 		}
