@@ -29,8 +29,8 @@ menu:
     icon: "fa fa-archive"
   - title: catégorie
     url: category
-    intro: "toute les catégorie "
-    icon: "fa fa-archive"
+    intro: "Types de données fuitées"
+    icon: "fa fa-database"
   - title: Glossaire
     url: glossaire
     intro: "Niveaux de risque par type de données"

@@ -1,4 +1,4 @@
 ---
-title: about
-layout: categories
+title: Types de Données Fuitées
+layout: dataclasses
 ---

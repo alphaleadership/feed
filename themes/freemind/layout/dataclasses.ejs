@@ -1,0 +1,142 @@
+<%
+  // Charger les données de breaches
+  var breaches = site.data.breaches ? site.data.breaches.breaches : [];
+  
+  // Créer un objet pour regrouper par DataClass
+  var dataClassGroups = {};
+  
+  breaches.filter(breach => !breach.IsRetired).forEach(function(breach) {
+    if (breach.DataClasses && Array.isArray(breach.DataClasses)) {
+      breach.DataClasses.forEach(function(dataClass) {
+        if (!dataClassGroups[dataClass]) {
+          dataClassGroups[dataClass] = {
+            name: dataClass,
+            breaches: [],
+            totalPwnCount: 0
+          };
+        }
+        dataClassGroups[dataClass].breaches.push(breach);
+        dataClassGroups[dataClass].totalPwnCount += (breach.PwnCount || 0);
+      });
+    }
+  });
+  
+  // Convertir en tableau et trier par nombre de fuites
+  var sortedDataClasses = Object.values(dataClassGroups).sort((a, b) => b.breaches.length - a.breaches.length);
+%>
+
+<div class="dataclasses-wrapper">
+  <div class="card border-0 shadow-lg mb-4" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);">
+    <div class="card-header text-white d-flex align-items-center border-0" style="background: rgba(0,0,0,0.5) !important; border-bottom: 2px solid rgba(255,255,255,0.1);">
+      <i class="fa fa-database me-3 fs-4"></i>
+      <h2 class="mb-0 flex-grow-1 text-uppercase letter-spacing-1">
+        <%= sortedDataClasses.length %> Types de Données Fuitées
+      </h2>
+    </div>
+    <div class="card-body p-4" style="background: #1e1e2e;">
+      <p class="text-muted mb-4" style="font-size: 1.1rem;">
+        <i class="fa fa-info-circle me-2"></i>
+        Classification des fuites par type de données compromises. Cliquez sur une catégorie pour voir toutes les fuites concernées.
+      </p>
+      
+      <div class="row">
+        <% sortedDataClasses.forEach(function(dataClass, index) { 
+          var percentage = ((dataClass.breaches.length / breaches.length) * 100).toFixed(1);
+          var borderClass = index < 3 ? 'border-danger' : index < 10 ? 'border-warning' : 'border-info';
+          var badgeClass = index < 3 ? 'bg-danger' : index < 10 ? 'bg-warning text-dark' : 'bg-info';
+        %>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card h-100 border <%= borderClass %> dataclass-card" style="background: linear-gradient(145deg, #2a2a3e 0%, #1f1f2e 100%); transition: all 0.3s;">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-start mb-3">
+                  <span class="badge <%= badgeClass %> fs-6">#<%= index + 1 %></span>
+                  <span class="text-muted small"><%= percentage %>%</span>
+                </div>
+                
+                <h5 class="card-title mb-3" style="color: #e0e0e0; font-size: 1.1rem; min-height: 50px;">
+                  <i class="fa fa-shield me-2" style="color: #38bdf8;"></i>
+                  <%= dataClass.name %>
+                </h5>
+                
+                <div class="mb-3">
+                  <p class="mb-2" style="color: #cbd5e1;">
+                    <i class="fa fa-exclamation-triangle me-2" style="color: #fbbf24;"></i>
+                    <strong><%= dataClass.breaches.length.toLocaleString() %></strong> fuites
+                  </p>
+                  <p class="mb-0" style="color: #94a3b8; font-size: 0.9rem;">
+                    <i class="fa fa-users me-2"></i>
+                    ~<strong><%= dataClass.totalPwnCount >= 1000000000 ? (dataClass.totalPwnCount / 1000000000).toFixed(2) + 'Md' : (dataClass.totalPwnCount / 1000000).toFixed(1) + 'M' %></strong> comptes
+                  </p>
+                </div>
+                
+                <details class="breach-details-list">
+                  <summary class="text-primary" style="cursor: pointer; font-size: 0.95rem;">
+                    <i class="fa fa-list me-2"></i>
+                    Voir les fuites (<%= Math.min(10, dataClass.breaches.length) %>)
+                  </summary>
+                  <ul class="list-unstyled mt-3 ps-2" style="max-height: 300px; overflow-y: auto;">
+                    <% dataClass.breaches.sort((a, b) => (b.PwnCount || 0) - (a.PwnCount || 0)).slice(0, 10).forEach(function(breach) { %>
+                      <li class="mb-2 pb-2 border-bottom" style="border-color: rgba(255,255,255,0.1) !important;">
+                        <a href="<%- url_for('/fuites?id=' + breach.index) %>" class="text-decoration-none d-flex justify-content-between align-items-start" style="color: #b8b8d1;">
+                          <span class="flex-grow-1 me-2"><%= breach.Title || breach.Name %></span>
+                          <span class="text-muted small" style="white-space: nowrap;">
+                            <%= breach.PwnCount ? (breach.PwnCount >= 1000000 ? (breach.PwnCount / 1000000).toFixed(1) + 'M' : breach.PwnCount.toLocaleString()) : 'N/A' %>
+                          </span>
+                        </a>
+                      </li>
+                    <% }); %>
+                  </ul>
+                </details>
+              </div>
+            </div>
+          </div>
+        <% }); %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .dataclass-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .dataclass-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.4) !important;
+  }
+  
+  .breach-details-list summary {
+    transition: color 0.2s;
+  }
+  
+  .breach-details-list summary:hover {
+    color: #8ab4ff !important;
+  }
+  
+  .breach-details-list[open] summary {
+    margin-bottom: 0.5rem;
+  }
+  
+  .breach-details-list ul {
+    scrollbar-width: thin;
+    scrollbar-color: #38bdf8 #1e1e2e;
+  }
+  
+  .breach-details-list ul::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .breach-details-list ul::-webkit-scrollbar-track {
+    background: #1e1e2e;
+  }
+  
+  .breach-details-list ul::-webkit-scrollbar-thumb {
+    background: #38bdf8;
+    border-radius: 3px;
+  }
+  
+  .breach-details-list a:hover {
+    color: #8ab4ff !important;
+  }
+</style>
