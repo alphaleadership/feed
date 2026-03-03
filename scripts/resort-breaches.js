@@ -37,7 +37,7 @@ db.breaches.forEach((breach, idx) => {
   if(breach==null){
     return
   }
-  if(!breach.breachDate){
+  if(!breach.BreachDate){
     breach.IsRetired=true
   }
    const invalidcategory=["hygiène numérique","sécurité","cybersécurité","cybercriminalité","cyberguerre"]
