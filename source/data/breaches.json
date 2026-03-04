@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-04T05:34:29.881Z",
+  "lastUpdated": "2026-03-04T06:28:16.769Z",
   "totalBreaches": 1403,
   "breaches": [
     {
@@ -49672,7 +49672,8 @@
       "content": "Compromission d'un administrateur résultant en la fuite d'une archive de ~29 Go (plus de 5 400 fichiers), exposant des données sur ~6,6 millions d'utilisateurs. Le dump contient le code source complet (.php, .js), les bases de données (.sql), et révèle des pseudonymes, l'historique P2P complet, des identifiants internes en clair (mots de passe, clés SSH) et des scripts malveillants (infostealers).\n\nStatut: Confirmée\nType de service: Tracker BitTorrent",
       "isNSFW": false,
       "index": 1395,
-      "title": "YGG Torrent"
+      "title": "YGG Torrent",
+      "oldindex": 1412
     }
   ]
 }
