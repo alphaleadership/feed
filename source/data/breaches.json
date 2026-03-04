@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-04T22:35:44.436Z",
-  "totalBreaches": 1405,
+  "lastUpdated": "2026-03-04T23:03:49.281Z",
+  "totalBreaches": 1406,
   "breaches": [
     {
       "Name": "gPotato",
@@ -49749,6 +49749,37 @@
       "index": 1397,
       "title": "Agence Nationale de la Cohésion des Territoires (ANCT)",
       "oldindex": 1397
+    },
+    {
+      "Name": "Brouillon de culture",
+      "Title": "Brouillon de culture",
+      "Domain": "brouillondeculture.fr",
+      "BreachDate": "2026-03-04",
+      "AddedDate": "2026-03-04T22:35:59.479Z",
+      "ModifiedDate": "2026-03-04T22:35:59.480Z",
+      "PwnCount": 8220,
+      "Description": "8 220 utilisateurs revendiqués par l'acteur neurotoxine le 4 mars 2026 sur Breachforums.\n\nStatut: Revendiquée\nType de service: Librairie",
+      "DataClasses": [
+        "Informations personnelles (Noms complets, Adresses postales, Numéros de téléphone)",
+        "Identifiants (Adresses e-mail, Noms d'utilisateur)",
+        "Mots de passe (Mots de passe hachés)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://static.epagine.fr/mediaweb3/5184/logo_le_brouillon_de_culture.png",
+      "slug": "brouillon-de-culture",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/Brouillon-de-culture-Caen-leak-fuites-de-donnees.png",
+      "lien": "https://haveibeenpwned.com/Breach/Brouillon de culture",
+      "categories": [],
+      "content": "8 220 utilisateurs revendiqués par l'acteur neurotoxine le 4 mars 2026 sur Breachforums.\n\nStatut: Revendiquée\nType de service: Librairie",
+      "isNSFW": false,
+      "index": 1398,
+      "title": "Brouillon de culture",
+      "oldindex": 1398
     }
   ]
 }

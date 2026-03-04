@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-04T22:36:14.487Z",
+  "lastUpdated": "2026-03-04T23:04:19.706Z",
   "totalBreaches": 1406,
   "breaches": [
     {
@@ -135,7 +135,14 @@
       "IsNative": true,
       "LogoPath": "https://static.epagine.fr/mediaweb3/5184/logo_le_brouillon_de_culture.png",
       "slug": "brouillon-de-culture",
-      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/Brouillon-de-culture-Caen-leak-fuites-de-donnees.png"
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/Brouillon-de-culture-Caen-leak-fuites-de-donnees.png",
+      "lien": "https://haveibeenpwned.com/Breach/Brouillon de culture",
+      "categories": [],
+      "content": "8 220 utilisateurs revendiqués par l'acteur neurotoxine le 4 mars 2026 sur Breachforums.\n\nStatut: Revendiquée\nType de service: Librairie",
+      "isNSFW": false,
+      "index": 1415,
+      "title": "Brouillon de culture",
+      "oldindex": 1398
     },
     {
       "Name": "Be-bunk",
@@ -49841,8 +49848,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-04T22:36:08.952Z",
-      "ModifiedDate": "2026-03-04T22:36:08.952Z",
+      "AddedDate": "2026-03-04T23:04:14.032Z",
+      "ModifiedDate": "2026-03-04T23:04:14.032Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -49858,8 +49865,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-04T22:36:08.976Z",
-      "ModifiedDate": "2026-03-04T22:36:08.976Z",
+      "AddedDate": "2026-03-04T23:04:14.056Z",
+      "ModifiedDate": "2026-03-04T23:04:14.056Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -49875,8 +49882,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-04T22:36:09.003Z",
-      "ModifiedDate": "2026-03-04T22:36:09.003Z",
+      "AddedDate": "2026-03-04T23:04:14.084Z",
+      "ModifiedDate": "2026-03-04T23:04:14.084Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -49892,8 +49899,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-04T22:36:09.022Z",
-      "ModifiedDate": "2026-03-04T22:36:09.022Z",
+      "AddedDate": "2026-03-04T23:04:14.104Z",
+      "ModifiedDate": "2026-03-04T23:04:14.104Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -49909,8 +49916,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-04T22:36:09.028Z",
-      "ModifiedDate": "2026-03-04T22:36:09.028Z",
+      "AddedDate": "2026-03-04T23:04:14.111Z",
+      "ModifiedDate": "2026-03-04T23:04:14.111Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
