@@ -1,7 +1,36 @@
 {
-  "lastUpdated": "2026-03-04T02:46:42.576Z",
-  "totalBreaches": 1402,
+  "lastUpdated": "2026-03-04T04:43:30.588Z",
+  "totalBreaches": 1403,
   "breaches": [
+    {
+      "Name": "YGG Torrent",
+      "Title": "YGG Torrent",
+      "Domain": "",
+      "BreachDate": "2026-03-04",
+      "AddedDate": "2026-03-04T04:43:15.793Z",
+      "ModifiedDate": "2026-03-04T04:43:15.793Z",
+      "PwnCount": 6600000,
+      "Description": "Compromission d'un administrateur résultant en la fuite d'une archive de ~29 Go (plus de 5 400 fichiers), exposant des données sur ~6,6 millions d'utilisateurs. Le dump contient le code source complet (.php, .js), les bases de données (.sql), et révèle des pseudonymes, l'historique P2P complet, des identifiants internes en clair (mots de passe, clés SSH) et des scripts malveillants (infostealers).\n\nStatut: Confirmée\nType de service: Tracker BitTorrent",
+      "DataClasses": [
+        "Pseudonymes",
+        "Profils utilisateurs (âge, localisation)",
+        "Historique P2P complet (téléchargements, uploads)",
+        "Bases de données (SQL, TSV)",
+        "Code source complet (backend, frontend)",
+        "Données financières (logs de commandes, transactions PayPal)",
+        "Identifiants internes (mots de passe en clair, clés SSH, sessions Telegram)",
+        "Scripts malveillants (infostealers, intercepteurs de paiement)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://korben.info/yggtorrent-le-geant-francais-du-torrent-passe-en-mode-prive/yggtorrent-le-geant-francais-du-torrent-passe-en-mode-prive-1.webp",
+      "slug": "ygg-torrent",
+      "source": "https://x.com/Ced_haurus/status/2028980004722249821?s=20"
+    },
     {
       "Name": "Be-bunk",
       "Title": "Be-bunk",
@@ -49706,8 +49735,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-04T02:46:37.151Z",
-      "ModifiedDate": "2026-03-04T02:46:37.151Z",
+      "AddedDate": "2026-03-04T04:43:25.123Z",
+      "ModifiedDate": "2026-03-04T04:43:25.123Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -49723,8 +49752,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-04T02:46:37.174Z",
-      "ModifiedDate": "2026-03-04T02:46:37.174Z",
+      "AddedDate": "2026-03-04T04:43:25.146Z",
+      "ModifiedDate": "2026-03-04T04:43:25.146Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -49740,8 +49769,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-04T02:46:37.200Z",
-      "ModifiedDate": "2026-03-04T02:46:37.200Z",
+      "AddedDate": "2026-03-04T04:43:25.173Z",
+      "ModifiedDate": "2026-03-04T04:43:25.173Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -49757,8 +49786,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-04T02:46:37.218Z",
-      "ModifiedDate": "2026-03-04T02:46:37.218Z",
+      "AddedDate": "2026-03-04T04:43:25.192Z",
+      "ModifiedDate": "2026-03-04T04:43:25.192Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -49774,8 +49803,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-04T02:46:37.225Z",
-      "ModifiedDate": "2026-03-04T02:46:37.225Z",
+      "AddedDate": "2026-03-04T04:43:25.199Z",
+      "ModifiedDate": "2026-03-04T04:43:25.199Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
