@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": " npm run clean && node index.js && node indexator.js && node scripts/import && npm run import:remote && node detecter-fuites-sans-nombre ",
-    "clean": "hexo clean",
+    "clean": "node scripts/resort-breaches &&hexo clean",
     "deploy": "hexo deploy --config build.yml",
     "server": "hexo server",
     "import": "node scripts/import.js",
