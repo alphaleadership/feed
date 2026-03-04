@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-04T18:27:00.249Z",
-  "totalBreaches": 1404,
+  "lastUpdated": "2026-03-04T19:22:15.567Z",
+  "totalBreaches": 1405,
   "breaches": [
     {
       "Name": "gPotato",
@@ -49710,6 +49710,45 @@
       "index": 1396,
       "title": "Banque Alimentaire",
       "oldindex": 1396
+    },
+    {
+      "Name": "Agence Nationale de la Cohésion des Territoires (ANCT)",
+      "Title": "Agence Nationale de la Cohésion des Territoires (ANCT)",
+      "Domain": "agence-cohesion-territoires.gouv.fr",
+      "BreachDate": "2026-03-04",
+      "AddedDate": "2026-03-04T18:27:15.388Z",
+      "ModifiedDate": "2026-03-04T18:27:15.388Z",
+      "PwnCount": 15000,
+      "Description": "Environ 15 000 employés (14 973 e-mails uniques) de l'Agence Nationale de la Cohésion des Territoires (ANCT) ont été divulgués sur BreachForums par l'acteur HexDex le 4 mars 2026. La présence de données internes (groupes de travail, numéros directs) confirme qu'il ne s'agit pas d'un scraping de sources publiques.\n\nStatut: Revendiquée\nType de service: Agence gouvernementale",
+      "DataClasses": [
+        "Adresse e-mail (professionnelle et personnelle)",
+        "Employeur / Ministère de rattachement",
+        "Unité / Service d'affectation",
+        "Domaine d'expertise",
+        "Texte de présentation",
+        "Adresse postale professionnelle",
+        "Numéro de téléphone de bureau",
+        "Numéro de téléphone fixe (ligne directe)",
+        "Numéro de téléphone mobile professionnel",
+        "Numéro de téléphone du secrétariat",
+        "Groupes de travail internes"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://franceactive-seineetmarneessonne.org/wp-content/uploads/2020/12/logo_anct.jpg",
+      "slug": "agence-nationale-de-la-cohsion-des-territoires-anct",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/ANCT-Leak-fuites-de-donnees.png",
+      "lien": "https://haveibeenpwned.com/Breach/Agence Nationale de la Cohésion des Territoires (ANCT)",
+      "categories": [],
+      "content": "Environ 15 000 employés (14 973 e-mails uniques) de l'Agence Nationale de la Cohésion des Territoires (ANCT) ont été divulgués sur BreachForums par l'acteur HexDex le 4 mars 2026. La présence de données internes (groupes de travail, numéros directs) confirme qu'il ne s'agit pas d'un scraping de sources publiques.\n\nStatut: Revendiquée\nType de service: Agence gouvernementale",
+      "isNSFW": false,
+      "index": 1397,
+      "title": "Agence Nationale de la Cohésion des Territoires (ANCT)",
+      "oldindex": 1397
     }
   ]
 }
