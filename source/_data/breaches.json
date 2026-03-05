@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-05T03:10:05.899Z",
+  "lastUpdated": "2026-03-05T04:56:30.677Z",
   "totalBreaches": 1407,
   "breaches": [
     {
@@ -28,7 +28,14 @@
       "IsNative": true,
       "LogoPath": "https://sherpas.com/content/uploads/2021/10/logo-esag-penninghen-2.jpg",
       "slug": "penninghen",
-      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/Penninghen-ecole-fuites-de-donnees-leak.png"
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/Penninghen-ecole-fuites-de-donnees-leak.png",
+      "lien": "https://haveibeenpwned.com/Breach/Penninghen",
+      "categories": [],
+      "content": "La base de données de 25 000 étudiants, 7 868 photos, 5 363 documents sensibles, 18 360 factures et le code source complet (14 Go) de Penninghen ont été publiés par l'acteur de la menace Spirigatito. Une première mise en vente a été repérée fin 2024, toutefois malgré des similarités, impossible de dire si cette base est récente ou si elle correspond à l'annonce précédente.\n\nStatut: Revendiquée\nType de service: École d'art",
+      "isNSFW": false,
+      "index": 1416,
+      "title": "Penninghen",
+      "oldindex": 1399
     },
     {
       "Name": "YGG Torrent",
@@ -49876,8 +49883,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-05T03:10:00.187Z",
-      "ModifiedDate": "2026-03-05T03:10:00.187Z",
+      "AddedDate": "2026-03-05T04:56:25.165Z",
+      "ModifiedDate": "2026-03-05T04:56:25.165Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -49893,8 +49900,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-05T03:10:00.211Z",
-      "ModifiedDate": "2026-03-05T03:10:00.211Z",
+      "AddedDate": "2026-03-05T04:56:25.189Z",
+      "ModifiedDate": "2026-03-05T04:56:25.189Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -49910,8 +49917,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-05T03:10:00.239Z",
-      "ModifiedDate": "2026-03-05T03:10:00.239Z",
+      "AddedDate": "2026-03-05T04:56:25.216Z",
+      "ModifiedDate": "2026-03-05T04:56:25.216Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -49927,8 +49934,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-05T03:10:00.259Z",
-      "ModifiedDate": "2026-03-05T03:10:00.259Z",
+      "AddedDate": "2026-03-05T04:56:25.235Z",
+      "ModifiedDate": "2026-03-05T04:56:25.235Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -49944,8 +49951,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-05T03:10:00.265Z",
-      "ModifiedDate": "2026-03-05T03:10:00.265Z",
+      "AddedDate": "2026-03-05T04:56:25.241Z",
+      "ModifiedDate": "2026-03-05T04:56:25.241Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
