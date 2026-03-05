@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-05T13:12:59.090Z",
-  "totalBreaches": 1407,
+  "lastUpdated": "2026-03-05T14:08:02.100Z",
+  "totalBreaches": 1408,
   "breaches": [
     {
       "Name": "gPotato",
@@ -49815,6 +49815,40 @@
       "index": 1399,
       "title": "Penninghen",
       "oldindex": 1399
+    },
+    {
+      "Name": "ImmoJeune",
+      "Title": "ImmoJeune",
+      "Domain": "immojeune.com",
+      "BreachDate": "2026-03-05",
+      "AddedDate": "2026-03-05T13:13:13.726Z",
+      "ModifiedDate": "2026-03-05T13:13:13.726Z",
+      "PwnCount": 713814,
+      "Description": "Les données de 713 814 personnes, principalement des étudiants et jeunes actifs, ayant déposé un dossier de location sur la plateforme ImmoJeune, ont été mises en vente par l'acteur 'HexDex' le 5 mars 2026. La fuite est d'une sensibilité particulièrement élevée car elle expose des dossiers complets contenant des informations d'identité, de contact, financières et professionnelles détaillées, non seulement sur les candidats mais aussi sur leurs garants.\n\nStatut: Revendiquée\nType de service: Plateforme de location immobilière",
+      "DataClasses": [
+        "Identité (Nom, Prénom, Date et lieu de naissance, Nationalité)",
+        "Coordonnées (Adresse postale, E-mail, Numéro de téléphone)",
+        "Informations professionnelles (École ou entreprise)",
+        "Informations financières (Revenus du locataire)",
+        "Données personnelles (Lettre de motivation détaillée, centres d'intérêt, opinions)",
+        "Données des garants (Identité, Adresse, Situation familiale, Contrat de travail, Revenus, Situation patrimoniale)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://www.immojeune.com/uploads/article/mainImage/600x600/williamimmojeune-600x600.jpg",
+      "slug": "immojeune",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/ImmoJeune-leak-fuites-de-donnees.png",
+      "lien": "https://haveibeenpwned.com/Breach/ImmoJeune",
+      "categories": [],
+      "content": "Les données de 713 814 personnes, principalement des étudiants et jeunes actifs, ayant déposé un dossier de location sur la plateforme ImmoJeune, ont été mises en vente par l'acteur 'HexDex' le 5 mars 2026. La fuite est d'une sensibilité particulièrement élevée car elle expose des dossiers complets contenant des informations d'identité, de contact, financières et professionnelles détaillées, non seulement sur les candidats mais aussi sur leurs garants.\n\nStatut: Revendiquée\nType de service: Plateforme de location immobilière",
+      "isNSFW": false,
+      "index": 1400,
+      "title": "ImmoJeune",
+      "oldindex": 1400
     }
   ]
 }

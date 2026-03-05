@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-05T13:13:28.744Z",
+  "lastUpdated": "2026-03-05T14:08:33.571Z",
   "totalBreaches": 1408,
   "breaches": [
     {
@@ -62,7 +62,14 @@
       "IsNative": true,
       "LogoPath": "https://www.immojeune.com/uploads/article/mainImage/600x600/williamimmojeune-600x600.jpg",
       "slug": "immojeune",
-      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/ImmoJeune-leak-fuites-de-donnees.png"
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/ImmoJeune-leak-fuites-de-donnees.png",
+      "lien": "https://haveibeenpwned.com/Breach/ImmoJeune",
+      "categories": [],
+      "content": "Les données de 713 814 personnes, principalement des étudiants et jeunes actifs, ayant déposé un dossier de location sur la plateforme ImmoJeune, ont été mises en vente par l'acteur 'HexDex' le 5 mars 2026. La fuite est d'une sensibilité particulièrement élevée car elle expose des dossiers complets contenant des informations d'identité, de contact, financières et professionnelles détaillées, non seulement sur les candidats mais aussi sur leurs garants.\n\nStatut: Revendiquée\nType de service: Plateforme de location immobilière",
+      "isNSFW": false,
+      "index": 1417,
+      "title": "ImmoJeune",
+      "oldindex": 1400
     },
     {
       "Name": "YGG Torrent",
@@ -49910,8 +49917,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-05T13:13:23.165Z",
-      "ModifiedDate": "2026-03-05T13:13:23.165Z",
+      "AddedDate": "2026-03-05T14:08:28.024Z",
+      "ModifiedDate": "2026-03-05T14:08:28.024Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -49927,8 +49934,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-05T13:13:23.189Z",
-      "ModifiedDate": "2026-03-05T13:13:23.189Z",
+      "AddedDate": "2026-03-05T14:08:28.048Z",
+      "ModifiedDate": "2026-03-05T14:08:28.048Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -49944,8 +49951,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-05T13:13:23.217Z",
-      "ModifiedDate": "2026-03-05T13:13:23.217Z",
+      "AddedDate": "2026-03-05T14:08:28.076Z",
+      "ModifiedDate": "2026-03-05T14:08:28.076Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -49961,8 +49968,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-05T13:13:23.236Z",
-      "ModifiedDate": "2026-03-05T13:13:23.236Z",
+      "AddedDate": "2026-03-05T14:08:28.096Z",
+      "ModifiedDate": "2026-03-05T14:08:28.096Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -49978,8 +49985,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-05T13:13:23.243Z",
-      "ModifiedDate": "2026-03-05T13:13:23.243Z",
+      "AddedDate": "2026-03-05T14:08:28.106Z",
+      "ModifiedDate": "2026-03-05T14:08:28.106Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
