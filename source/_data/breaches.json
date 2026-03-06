@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-06T22:48:47.205Z",
-  "totalBreaches": 1409,
+  "lastUpdated": "2026-03-06T23:31:00.882Z",
+  "totalBreaches": 1410,
   "breaches": [
     {
       "Name": "Centre des Monuments Nationaux",
@@ -32,6 +32,33 @@
       "index": 1418,
       "title": "Centre des Monuments Nationaux",
       "oldindex": 1401
+    },
+    {
+      "Name": "TAJ (Traitement d'antécédents judiciaires)",
+      "Title": "TAJ (Traitement d'antécédents judiciaires)",
+      "Domain": "interieur.gouv.fr",
+      "BreachDate": "2026-03-06",
+      "AddedDate": "2026-03-06T23:30:45.909Z",
+      "ModifiedDate": "2026-03-06T23:30:45.909Z",
+      "PwnCount": 0,
+      "Description": "Package de 4 Go revendiqué par LAPSUS$ le 6 mars 2026, présenté comme une image système complète. L'ensemble permettrait de transformer un ordinateur en un poste de travail pleinement opérationnel pour la Police ou la Gendarmerie, incluant les accès VPN, les logiciels métiers pour consulter le TAJ et rédiger des procédures, ainsi que les outils pour configurer les smartphones 'Neo' des agents.\n\nStatut: Revendiquée\nType de service: Ministère de l'Intérieur",
+      "DataClasses": [
+        "Infrastructure réseau et accès (Installateurs VPN Cisco, profils de connexion, certificats d'autorité, clés cryptographiques)",
+        "Logiciels métiers (Modules CHEOPS NG, suite d'investigation Logi Server, APKs mobiles Logipol)",
+        "Gestion des terminaux mobiles (Firmware Samsung Xcover 4, utilitaires de flashage, pilotes)",
+        "Données opérationnelles (Archives de dossiers CA3 de 2025 contenant rapports PDF et images)",
+        "Documentation technique (Cartographie des ports réseau pour caméras-piétons)",
+        "Environnement système dédié (Navigateur Firefox ESR, pilotes de carte à puce)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://biodiv.mnhn.fr/sites/fr/files/styles/large/public/2020-09/MI.png?itok=Wj2OrNJt",
+      "slug": "taj-traitement-dantcdents-judiciaires",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/TAJ.png"
     },
     {
       "Name": "Penninghen",
@@ -49948,8 +49975,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-06T22:48:41.677Z",
-      "ModifiedDate": "2026-03-06T22:48:41.677Z",
+      "AddedDate": "2026-03-06T23:30:55.345Z",
+      "ModifiedDate": "2026-03-06T23:30:55.345Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -49965,8 +49992,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-06T22:48:41.701Z",
-      "ModifiedDate": "2026-03-06T22:48:41.701Z",
+      "AddedDate": "2026-03-06T23:30:55.369Z",
+      "ModifiedDate": "2026-03-06T23:30:55.369Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -49982,8 +50009,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-06T22:48:41.728Z",
-      "ModifiedDate": "2026-03-06T22:48:41.728Z",
+      "AddedDate": "2026-03-06T23:30:55.396Z",
+      "ModifiedDate": "2026-03-06T23:30:55.396Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -49999,8 +50026,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-06T22:48:41.747Z",
-      "ModifiedDate": "2026-03-06T22:48:41.747Z",
+      "AddedDate": "2026-03-06T23:30:55.415Z",
+      "ModifiedDate": "2026-03-06T23:30:55.415Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -50016,8 +50043,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-06T22:48:41.754Z",
-      "ModifiedDate": "2026-03-06T22:48:41.754Z",
+      "AddedDate": "2026-03-06T23:30:55.421Z",
+      "ModifiedDate": "2026-03-06T23:30:55.421Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
