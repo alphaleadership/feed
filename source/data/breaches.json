@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-06T13:17:20.152Z",
-  "totalBreaches": 1408,
+  "lastUpdated": "2026-03-06T14:06:38.978Z",
+  "totalBreaches": 1409,
   "breaches": [
     {
       "Name": "gPotato",
@@ -49849,6 +49849,37 @@
       "index": 1400,
       "title": "ImmoJeune",
       "oldindex": 1400
+    },
+    {
+      "Name": "Centre des Monuments Nationaux",
+      "Title": "Centre des Monuments Nationaux",
+      "Domain": "monuments-nationaux.fr",
+      "BreachDate": "2026-03-06",
+      "AddedDate": "2026-03-06T13:17:35.528Z",
+      "ModifiedDate": "2026-03-06T13:17:35.528Z",
+      "PwnCount": 0,
+      "Description": "Le volume n'est pas spécifié. La fuite provient d'une attaque par rançongiciel sur le prestataire de billetterie en ligne.\n\nStatut: Ransomware\nType de service: Gestion de monuments nationaux",
+      "DataClasses": [
+        "Données personnelles (Nom, prénom, pays, code postal)",
+        "Identifiants (Adresse e-mail, mot de passe chiffré)",
+        "Données d'activité (Historique d'achats)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://upload.wikimedia.org/wikipedia/fr/thumb/1/1e/Logo_Monuments_Nationaux_France.jpg/250px-Logo_Monuments_Nationaux_France.jpg",
+      "slug": "centre-des-monuments-nationaux",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/Centre-monument-nationaux-fuites-de-donnees-leak.jpg",
+      "lien": "https://haveibeenpwned.com/Breach/Centre des Monuments Nationaux",
+      "categories": [],
+      "content": "Le volume n'est pas spécifié. La fuite provient d'une attaque par rançongiciel sur le prestataire de billetterie en ligne.\n\nStatut: Ransomware\nType de service: Gestion de monuments nationaux",
+      "isNSFW": false,
+      "index": 1401,
+      "title": "Centre des Monuments Nationaux",
+      "oldindex": 1401
     }
   ]
 }
