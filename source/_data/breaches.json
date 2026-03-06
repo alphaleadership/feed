@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-06T23:31:00.882Z",
+  "lastUpdated": "2026-03-06T23:59:11.552Z",
   "totalBreaches": 1410,
   "breaches": [
     {
@@ -58,7 +58,14 @@
       "IsNative": true,
       "LogoPath": "https://biodiv.mnhn.fr/sites/fr/files/styles/large/public/2020-09/MI.png?itok=Wj2OrNJt",
       "slug": "taj-traitement-dantcdents-judiciaires",
-      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/TAJ.png"
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/TAJ.png",
+      "lien": "https://haveibeenpwned.com/Breach/TAJ (Traitement d'antécédents judiciaires)",
+      "categories": [],
+      "content": "Package de 4 Go revendiqué par LAPSUS$ le 6 mars 2026, présenté comme une image système complète. L'ensemble permettrait de transformer un ordinateur en un poste de travail pleinement opérationnel pour la Police ou la Gendarmerie, incluant les accès VPN, les logiciels métiers pour consulter le TAJ et rédiger des procédures, ainsi que les outils pour configurer les smartphones 'Neo' des agents.\n\nStatut: Revendiquée\nType de service: Ministère de l'Intérieur",
+      "isNSFW": false,
+      "index": 1419,
+      "title": "TAJ (Traitement d'antécédents judiciaires)",
+      "oldindex": 1402
     },
     {
       "Name": "Penninghen",
@@ -49975,8 +49982,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-06T23:30:55.345Z",
-      "ModifiedDate": "2026-03-06T23:30:55.345Z",
+      "AddedDate": "2026-03-06T23:59:05.863Z",
+      "ModifiedDate": "2026-03-06T23:59:05.863Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -49992,8 +49999,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-06T23:30:55.369Z",
-      "ModifiedDate": "2026-03-06T23:30:55.369Z",
+      "AddedDate": "2026-03-06T23:59:05.887Z",
+      "ModifiedDate": "2026-03-06T23:59:05.887Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -50009,8 +50016,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-06T23:30:55.396Z",
-      "ModifiedDate": "2026-03-06T23:30:55.396Z",
+      "AddedDate": "2026-03-06T23:59:05.917Z",
+      "ModifiedDate": "2026-03-06T23:59:05.917Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -50026,8 +50033,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-06T23:30:55.415Z",
-      "ModifiedDate": "2026-03-06T23:30:55.415Z",
+      "AddedDate": "2026-03-06T23:59:05.938Z",
+      "ModifiedDate": "2026-03-06T23:59:05.938Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -50043,8 +50050,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-06T23:30:55.421Z",
-      "ModifiedDate": "2026-03-06T23:30:55.421Z",
+      "AddedDate": "2026-03-06T23:59:05.944Z",
+      "ModifiedDate": "2026-03-06T23:59:05.944Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
