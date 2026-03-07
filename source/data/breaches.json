@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-07T15:56:03.871Z",
-  "totalBreaches": 1410,
+  "lastUpdated": "2026-03-07T16:34:15.097Z",
+  "totalBreaches": 1411,
   "breaches": [
     {
       "Name": "gPotato",
@@ -49914,6 +49914,38 @@
       "index": 1402,
       "title": "TAJ (Traitement d'antécédents judiciaires)",
       "oldindex": 1402
+    },
+    {
+      "Name": "SYNLAB France",
+      "Title": "SYNLAB France",
+      "Domain": "synlab.fr",
+      "BreachDate": "2026-03-07",
+      "AddedDate": "2026-03-07T15:56:19.713Z",
+      "ModifiedDate": "2026-03-07T15:56:19.713Z",
+      "PwnCount": 0,
+      "Description": "L'acteur HexDex revendique 161 Go de données de SYNLAB, un des leaders européens du diagnostic médical (analyses de sang, etc.). Bien qu'il affirme que les données sont internes (financières, industrielles) et non des données de patients, un impact indirect est possible : la fuite peut être utilisée pour des attaques de phishing très ciblées contre les clients et perturber les services en révélant des failles de sécurité.\n\nStatut: Revendiquée\nType de service: Diagnostic médical",
+      "DataClasses": [
+        "Données financières et industrielles",
+        "Documents (PDF, XLS, TXT)",
+        "Emails (EML)",
+        "Dump de bases de données (1000+ tables)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://upload.wikimedia.org/wikipedia/commons/8/85/SYNLAB_Logo.png",
+      "slug": "synlab-france",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/SynLab-fuites-de-donnees-leak.png",
+      "lien": "https://haveibeenpwned.com/Breach/SYNLAB France",
+      "categories": [],
+      "content": "L'acteur HexDex revendique 161 Go de données de SYNLAB, un des leaders européens du diagnostic médical (analyses de sang, etc.). Bien qu'il affirme que les données sont internes (financières, industrielles) et non des données de patients, un impact indirect est possible : la fuite peut être utilisée pour des attaques de phishing très ciblées contre les clients et perturber les services en révélant des failles de sécurité.\n\nStatut: Revendiquée\nType de service: Diagnostic médical",
+      "isNSFW": false,
+      "index": 1403,
+      "title": "SYNLAB France",
+      "oldindex": 1403
     }
   ]
 }

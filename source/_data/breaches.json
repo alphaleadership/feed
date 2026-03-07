@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-07T15:56:35.021Z",
+  "lastUpdated": "2026-03-07T16:34:45.573Z",
   "totalBreaches": 1411,
   "breaches": [
     {
@@ -25,7 +25,14 @@
       "IsNative": true,
       "LogoPath": "https://upload.wikimedia.org/wikipedia/commons/8/85/SYNLAB_Logo.png",
       "slug": "synlab-france",
-      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/SynLab-fuites-de-donnees-leak.png"
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/SynLab-fuites-de-donnees-leak.png",
+      "lien": "https://haveibeenpwned.com/Breach/SYNLAB France",
+      "categories": [],
+      "content": "L'acteur HexDex revendique 161 Go de données de SYNLAB, un des leaders européens du diagnostic médical (analyses de sang, etc.). Bien qu'il affirme que les données sont internes (financières, industrielles) et non des données de patients, un impact indirect est possible : la fuite peut être utilisée pour des attaques de phishing très ciblées contre les clients et perturber les services en révélant des failles de sécurité.\n\nStatut: Revendiquée\nType de service: Diagnostic médical",
+      "isNSFW": false,
+      "index": 1420,
+      "title": "SYNLAB France",
+      "oldindex": 1403
     },
     {
       "Name": "Centre des Monuments Nationaux",
@@ -50007,8 +50014,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-07T15:56:29.430Z",
-      "ModifiedDate": "2026-03-07T15:56:29.430Z",
+      "AddedDate": "2026-03-07T16:34:39.981Z",
+      "ModifiedDate": "2026-03-07T16:34:39.981Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -50024,8 +50031,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-07T15:56:29.454Z",
-      "ModifiedDate": "2026-03-07T15:56:29.454Z",
+      "AddedDate": "2026-03-07T16:34:40.005Z",
+      "ModifiedDate": "2026-03-07T16:34:40.005Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -50041,8 +50048,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-07T15:56:29.482Z",
-      "ModifiedDate": "2026-03-07T15:56:29.482Z",
+      "AddedDate": "2026-03-07T16:34:40.033Z",
+      "ModifiedDate": "2026-03-07T16:34:40.033Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -50058,8 +50065,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-07T15:56:29.502Z",
-      "ModifiedDate": "2026-03-07T15:56:29.502Z",
+      "AddedDate": "2026-03-07T16:34:40.052Z",
+      "ModifiedDate": "2026-03-07T16:34:40.052Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -50075,8 +50082,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-07T15:56:29.508Z",
-      "ModifiedDate": "2026-03-07T15:56:29.508Z",
+      "AddedDate": "2026-03-07T16:34:40.059Z",
+      "ModifiedDate": "2026-03-07T16:34:40.059Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
