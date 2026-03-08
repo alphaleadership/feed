@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-08T21:55:54.227Z",
-  "totalBreaches": 1415,
+  "lastUpdated": "2026-03-08T22:29:12.197Z",
+  "totalBreaches": 1416,
   "breaches": [
     {
       "Name": "gPotato",
@@ -49923,6 +49923,39 @@
       "index": 1407,
       "title": "FNATH",
       "oldindex": 1407
+    },
+    {
+      "Name": "Stych",
+      "Title": "Stych",
+      "Domain": "stych.fr",
+      "BreachDate": "2026-03-08",
+      "AddedDate": "2026-03-08T21:56:10.158Z",
+      "ModifiedDate": "2026-03-08T21:56:10.158Z",
+      "PwnCount": 1342952,
+      "Description": "Le cybercriminel 'keta' a mis en vente une base de données de 1 342 952 enregistrements, correspondant à environ 1 268 460 personnes uniques, provenant de l'auto-école en ligne Stych.fr. La fuite a été annoncée le 8 mars 2026 sur BreachForums. Confirmé par l'entreprise auprès des clients.\n\nStatut: Confirmée\nType de service: Auto-école en ligne",
+      "DataClasses": [
+        "État Civil (civilité, nom, prénoms, nom de naissance, date de naissance, nationalité)",
+        "Coordonnées (adresse email, numéro de téléphone mobile et fixe, adresse postale complète)",
+        "Informations Personnelles (profession)",
+        "Données Permis de Conduire (correction oculaire, handicap, titulaire de pension, véhicule aménagé)",
+        "Identifiants Internes (ID utilisateur)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsCmLlQGHTrEk5r6wk3pFWFXyufX5Yc-QEYw&s",
+      "slug": "stych",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/Stych-leak-fuites-de-donnees.png",
+      "lien": "https://haveibeenpwned.com/Breach/Stych",
+      "categories": [],
+      "content": "Le cybercriminel 'keta' a mis en vente une base de données de 1 342 952 enregistrements, correspondant à environ 1 268 460 personnes uniques, provenant de l'auto-école en ligne Stych.fr. La fuite a été annoncée le 8 mars 2026 sur BreachForums. Confirmé par l'entreprise auprès des clients.\n\nStatut: Confirmée\nType de service: Auto-école en ligne",
+      "isNSFW": false,
+      "index": 1408,
+      "title": "Stych",
+      "oldindex": 1408
     }
   ]
 }
