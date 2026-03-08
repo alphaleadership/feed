@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-08T13:50:28.660Z",
-  "totalBreaches": 1411,
+  "lastUpdated": "2026-03-08T14:28:07.601Z",
+  "totalBreaches": 1412,
   "breaches": [
     {
       "Name": "gPotato",
@@ -49789,6 +49789,38 @@
       "index": 1403,
       "title": "SYNLAB France",
       "oldindex": 1403
+    },
+    {
+      "Name": "Le Temps des Cerises",
+      "Title": "Le Temps des Cerises",
+      "Domain": "letempsdescerises.com",
+      "BreachDate": "2026-03-08",
+      "AddedDate": "2026-03-08T13:50:43.869Z",
+      "ModifiedDate": "2026-03-08T13:50:43.869Z",
+      "PwnCount": 800000,
+      "Description": "900 000 lignes (commandes clients), couvrant une période d'environ 6 ans (oct. 2019 - fév. 2026), ont été mises en vente par l'acteur 'DumpSec'.\n\nStatut: Revendiquée\nType de service: Prêt-à-porter",
+      "DataClasses": [
+        "Identité Client (civilité, nom, prénom, email, numéro de téléphone)",
+        "Adresse Client (livraison, facturation)",
+        "Détails de Commande (ID, magasin, statut, date, vendeur)",
+        "Informations de Paiement (montant, type, méthode, date, statut)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://www.jeanscenter.fr/public/img/big/A1814LOGo20ltcjpg_574577d248756.jpg",
+      "slug": "le-temps-des-cerises",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/Temps-des-cerises-leak-fuites-de-donnees.png",
+      "lien": "https://haveibeenpwned.com/Breach/Le Temps des Cerises",
+      "categories": [],
+      "content": "900 000 lignes (commandes clients), couvrant une période d'environ 6 ans (oct. 2019 - fév. 2026), ont été mises en vente par l'acteur 'DumpSec'.\n\nStatut: Revendiquée\nType de service: Prêt-à-porter",
+      "isNSFW": false,
+      "index": 1404,
+      "title": "Le Temps des Cerises",
+      "oldindex": 1404
     }
   ]
 }
