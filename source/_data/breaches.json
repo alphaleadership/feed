@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-08T21:33:26.734Z",
-  "totalBreaches": 1415,
+  "lastUpdated": "2026-03-08T21:56:25.464Z",
+  "totalBreaches": 1416,
   "breaches": [
     {
       "Name": "Le Temps des Cerises",
@@ -103,6 +103,32 @@
       "index": 1424,
       "title": "FNATH",
       "oldindex": 1407
+    },
+    {
+      "Name": "Stych",
+      "Title": "Stych",
+      "Domain": "stych.fr",
+      "BreachDate": "2026-03-08",
+      "AddedDate": "2026-03-08T21:56:10.158Z",
+      "ModifiedDate": "2026-03-08T21:56:10.158Z",
+      "PwnCount": 1342952,
+      "Description": "Le cybercriminel 'keta' a mis en vente une base de données de 1 342 952 enregistrements, correspondant à environ 1 268 460 personnes uniques, provenant de l'auto-école en ligne Stych.fr. La fuite a été annoncée le 8 mars 2026 sur BreachForums. Confirmé par l'entreprise auprès des clients.\n\nStatut: Confirmée\nType de service: Auto-école en ligne",
+      "DataClasses": [
+        "État Civil (civilité, nom, prénoms, nom de naissance, date de naissance, nationalité)",
+        "Coordonnées (adresse email, numéro de téléphone mobile et fixe, adresse postale complète)",
+        "Informations Personnelles (profession)",
+        "Données Permis de Conduire (correction oculaire, handicap, titulaire de pension, véhicule aménagé)",
+        "Identifiants Internes (ID utilisateur)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsCmLlQGHTrEk5r6wk3pFWFXyufX5Yc-QEYw&s",
+      "slug": "stych",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/Stych-leak-fuites-de-donnees.png"
     },
     {
       "Name": "SYNLAB France",
@@ -49991,8 +50017,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-08T21:33:21.115Z",
-      "ModifiedDate": "2026-03-08T21:33:21.115Z",
+      "AddedDate": "2026-03-08T21:56:19.854Z",
+      "ModifiedDate": "2026-03-08T21:56:19.854Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -50008,8 +50034,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-08T21:33:21.139Z",
-      "ModifiedDate": "2026-03-08T21:33:21.139Z",
+      "AddedDate": "2026-03-08T21:56:19.877Z",
+      "ModifiedDate": "2026-03-08T21:56:19.877Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -50025,8 +50051,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-08T21:33:21.165Z",
-      "ModifiedDate": "2026-03-08T21:33:21.165Z",
+      "AddedDate": "2026-03-08T21:56:19.908Z",
+      "ModifiedDate": "2026-03-08T21:56:19.908Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -50042,8 +50068,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-08T21:33:21.184Z",
-      "ModifiedDate": "2026-03-08T21:33:21.184Z",
+      "AddedDate": "2026-03-08T21:56:19.926Z",
+      "ModifiedDate": "2026-03-08T21:56:19.926Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -50059,8 +50085,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-08T21:33:21.191Z",
-      "ModifiedDate": "2026-03-08T21:33:21.191Z",
+      "AddedDate": "2026-03-08T21:56:19.933Z",
+      "ModifiedDate": "2026-03-08T21:56:19.933Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
