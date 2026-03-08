@@ -1,7 +1,32 @@
 {
-  "lastUpdated": "2026-03-08T13:07:24.052Z",
-  "totalBreaches": 1411,
+  "lastUpdated": "2026-03-08T13:50:59.238Z",
+  "totalBreaches": 1412,
   "breaches": [
+    {
+      "Name": "Le Temps des Cerises",
+      "Title": "Le Temps des Cerises",
+      "Domain": "letempsdescerises.com",
+      "BreachDate": "2026-03-08",
+      "AddedDate": "2026-03-08T13:50:43.869Z",
+      "ModifiedDate": "2026-03-08T13:50:43.869Z",
+      "PwnCount": 800000,
+      "Description": "900 000 lignes (commandes clients), couvrant une période d'environ 6 ans (oct. 2019 - fév. 2026), ont été mises en vente par l'acteur 'DumpSec'.\n\nStatut: Revendiquée\nType de service: Prêt-à-porter",
+      "DataClasses": [
+        "Identité Client (civilité, nom, prénom, email, numéro de téléphone)",
+        "Adresse Client (livraison, facturation)",
+        "Détails de Commande (ID, magasin, statut, date, vendeur)",
+        "Informations de Paiement (montant, type, méthode, date, statut)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://www.jeanscenter.fr/public/img/big/A1814LOGo20ltcjpg_574577d248756.jpg",
+      "slug": "le-temps-des-cerises",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/Temps-des-cerises-leak-fuites-de-donnees.png"
+    },
     {
       "Name": "SYNLAB France",
       "Title": "SYNLAB France",
@@ -49857,8 +49882,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-08T13:07:18.262Z",
-      "ModifiedDate": "2026-03-08T13:07:18.262Z",
+      "AddedDate": "2026-03-08T13:50:53.565Z",
+      "ModifiedDate": "2026-03-08T13:50:53.565Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -49874,8 +49899,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-08T13:07:18.297Z",
-      "ModifiedDate": "2026-03-08T13:07:18.297Z",
+      "AddedDate": "2026-03-08T13:50:53.589Z",
+      "ModifiedDate": "2026-03-08T13:50:53.589Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -49891,8 +49916,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-08T13:07:18.331Z",
-      "ModifiedDate": "2026-03-08T13:07:18.331Z",
+      "AddedDate": "2026-03-08T13:50:53.616Z",
+      "ModifiedDate": "2026-03-08T13:50:53.616Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -49908,8 +49933,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-08T13:07:18.357Z",
-      "ModifiedDate": "2026-03-08T13:07:18.357Z",
+      "AddedDate": "2026-03-08T13:50:53.635Z",
+      "ModifiedDate": "2026-03-08T13:50:53.635Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -49925,8 +49950,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-08T13:07:18.366Z",
-      "ModifiedDate": "2026-03-08T13:07:18.366Z",
+      "AddedDate": "2026-03-08T13:50:53.642Z",
+      "ModifiedDate": "2026-03-08T13:50:53.642Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
