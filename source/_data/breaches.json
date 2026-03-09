@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-09T20:38:51.990Z",
+  "lastUpdated": "2026-03-09T21:05:35.848Z",
   "totalBreaches": 1419,
   "breaches": [
     {
@@ -94,7 +94,14 @@
       "IsNative": true,
       "LogoPath": "https://www.francetransactions.com/IMG/moton2502.jpg?1667034062",
       "slug": "vatel-capital",
-      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/Vatel-Capital-leak-fuites-de-donnees.png"
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/Vatel-Capital-leak-fuites-de-donnees.png",
+      "lien": "https://haveibeenpwned.com/Breach/Vatel Capital",
+      "categories": [],
+      "content": "Le 9 mars 2026, la société de gestion Vatel Capital a notifié ses clients par mail d'une exposition accidentelle de fichiers survenue entre le 21 février et le 3 mars 2026. La cause est une erreur de configuration sur un nouveau serveur ayant laissé un port de communication ouvert. Le volume de données exfiltrées par des tiers non autorisés n'est pas précisé.\n\nStatut: Confirmée\nType de service: Gestion d'actifs",
+      "isNSFW": false,
+      "index": 1428,
+      "title": "Vatel Capital",
+      "oldindex": 1411
     },
     {
       "Name": "Le Temps des Cerises",
@@ -50118,8 +50125,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-09T20:38:46.037Z",
-      "ModifiedDate": "2026-03-09T20:38:46.037Z",
+      "AddedDate": "2026-03-09T21:05:30.435Z",
+      "ModifiedDate": "2026-03-09T21:05:30.435Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -50135,8 +50142,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-09T20:38:46.062Z",
-      "ModifiedDate": "2026-03-09T20:38:46.062Z",
+      "AddedDate": "2026-03-09T21:05:30.456Z",
+      "ModifiedDate": "2026-03-09T21:05:30.456Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -50152,8 +50159,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-09T20:38:46.090Z",
-      "ModifiedDate": "2026-03-09T20:38:46.090Z",
+      "AddedDate": "2026-03-09T21:05:30.483Z",
+      "ModifiedDate": "2026-03-09T21:05:30.483Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -50169,8 +50176,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-09T20:38:46.109Z",
-      "ModifiedDate": "2026-03-09T20:38:46.109Z",
+      "AddedDate": "2026-03-09T21:05:30.503Z",
+      "ModifiedDate": "2026-03-09T21:05:30.503Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -50186,8 +50193,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-09T20:38:46.116Z",
-      "ModifiedDate": "2026-03-09T20:38:46.116Z",
+      "AddedDate": "2026-03-09T21:05:30.509Z",
+      "ModifiedDate": "2026-03-09T21:05:30.509Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],

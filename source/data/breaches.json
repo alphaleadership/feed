@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-09T20:38:20.153Z",
-  "totalBreaches": 1418,
+  "lastUpdated": "2026-03-09T21:05:06.505Z",
+  "totalBreaches": 1419,
   "breaches": [
     {
       "Name": "gPotato",
@@ -50028,6 +50028,35 @@
       "index": 1410,
       "title": "Région Occitanie",
       "oldindex": 1410
+    },
+    {
+      "Name": "Vatel Capital",
+      "Title": "Vatel Capital",
+      "Domain": "vatelcapital.com",
+      "BreachDate": "2026-03-09",
+      "AddedDate": "2026-03-09T20:38:36.041Z",
+      "ModifiedDate": "2026-03-09T20:38:36.041Z",
+      "PwnCount": 0,
+      "Description": "Le 9 mars 2026, la société de gestion Vatel Capital a notifié ses clients par mail d'une exposition accidentelle de fichiers survenue entre le 21 février et le 3 mars 2026. La cause est une erreur de configuration sur un nouveau serveur ayant laissé un port de communication ouvert. Le volume de données exfiltrées par des tiers non autorisés n'est pas précisé.\n\nStatut: Confirmée\nType de service: Gestion d'actifs",
+      "DataClasses": [
+        "A determiner non préciser par Vatel Capital à ce stade."
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://www.francetransactions.com/IMG/moton2502.jpg?1667034062",
+      "slug": "vatel-capital",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/Vatel-Capital-leak-fuites-de-donnees.png",
+      "lien": "https://haveibeenpwned.com/Breach/Vatel Capital",
+      "categories": [],
+      "content": "Le 9 mars 2026, la société de gestion Vatel Capital a notifié ses clients par mail d'une exposition accidentelle de fichiers survenue entre le 21 février et le 3 mars 2026. La cause est une erreur de configuration sur un nouveau serveur ayant laissé un port de communication ouvert. Le volume de données exfiltrées par des tiers non autorisés n'est pas précisé.\n\nStatut: Confirmée\nType de service: Gestion d'actifs",
+      "isNSFW": false,
+      "index": 1411,
+      "title": "Vatel Capital",
+      "oldindex": 1411
     }
   ]
 }
