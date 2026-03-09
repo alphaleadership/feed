@@ -51,6 +51,10 @@
       <% 
       // Calculer les dates de dépassement pour toutes les années
       var yearSurpassInfo = {};
+      var totalYears = Object.keys(archiveData.years).length;
+      var totalBreaches = filteredPosts.length;
+      var avgBreachesPerYear = totalBreaches / totalYears;
+      
       Object.keys(archiveData.years).sort((a, b) => a - b).forEach(function(year) {
         var yearCount = Object.keys(archiveData.years[year]).reduce(function(total, monthKey) { 
           return total + archiveData.years[year][monthKey].length; 
@@ -77,9 +81,24 @@
               date: surpassDate,
               days: daysSinceStart,
               prevYear: prevYear,
-              prevYearCount: prevYearCount
+              prevYearCount: prevYearCount,
+              type: 'prevYear'
             };
           }
+        }
+        
+        // Calculer le dépassement de la moyenne
+        var avgBreachIndex = Math.ceil(avgBreachesPerYear);
+        if (yearCount >= avgBreachIndex && allYearItems.length >= avgBreachIndex) {
+          var avgSurpassDate = new Date(allYearItems[avgBreachIndex - 1].BreachDate);
+          var avgDaysSinceStart = Math.ceil((avgSurpassDate - new Date(year, 0, 1)) / (1000 * 60 * 60 * 24));
+          
+          if (!yearSurpassInfo[year]) {
+            yearSurpassInfo[year] = {};
+          }
+          yearSurpassInfo[year].avgDate = avgSurpassDate;
+          yearSurpassInfo[year].avgDays = avgDaysSinceStart;
+          yearSurpassInfo[year].avgCount = avgBreachIndex;
         }
       });
       %>
@@ -107,11 +126,20 @@
 
         <a href="#year_heading_<%= year %>"><%= year %> (<%= yearCount %>) avec <%= totalPwnCount %> ligne cumulée de données fuitée<%= avgTimeStr %></a>
         <% if (yearSurpassInfo[year]) { %>
-          <div style="margin-left: 20px; margin-top: 5px; margin-bottom: 10px; font-size: 0.9em; color: #666; font-style: italic;">
-            📊 Dépassement de <%= yearSurpassInfo[year].prevYear %> (<%= yearSurpassInfo[year].prevYearCount %> fuites) le 
-            <strong><%= yearSurpassInfo[year].date.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long' }) %></strong>
-            (au bout de <%= yearSurpassInfo[year].days %> jours)
+          <div style="margin-left: 20px; margin-top: 5px; margin-bottom: 5px; font-size: 0.9em; color: #666; font-style: italic;">
+            <% if (yearSurpassInfo[year].date) { %>
+              📊 Dépassement de <%= yearSurpassInfo[year].prevYear %> (<%= yearSurpassInfo[year].prevYearCount %> fuites) le 
+              <strong><%= yearSurpassInfo[year].date.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long' }) %></strong>
+              (au bout de <%= yearSurpassInfo[year].days %> jours)
+            <% } %>
           </div>
+          <% if (yearSurpassInfo[year].avgDate) { %>
+            <div style="margin-left: 20px; margin-top: 0; margin-bottom: 10px; font-size: 0.9em; color: #888; font-style: italic;">
+              📈 Dépassement de la moyenne annuelle (<%= Math.round(avgBreachesPerYear) %> fuites) le 
+              <strong><%= yearSurpassInfo[year].avgDate.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long' }) %></strong>
+              (au bout de <%= yearSurpassInfo[year].avgDays %> jours)
+            </div>
+          <% } %>
         <% } else { %>
           </br>
         <% } %>
