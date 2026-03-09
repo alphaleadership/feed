@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-09T11:50:02.160Z",
-  "totalBreaches": 1416,
+  "lastUpdated": "2026-03-09T13:11:03.844Z",
+  "totalBreaches": 1417,
   "breaches": [
     {
       "Name": "gPotato",
@@ -49956,6 +49956,45 @@
       "index": 1408,
       "title": "Stych",
       "oldindex": 1408
+    },
+    {
+      "Name": "Fédération Omnisports ASPTT",
+      "Title": "Fédération Omnisports ASPTT",
+      "Domain": "asptt.com",
+      "BreachDate": "2026-03-09",
+      "AddedDate": "2026-03-09T11:50:17.788Z",
+      "ModifiedDate": "2026-03-09T11:50:17.788Z",
+      "PwnCount": 1005361,
+      "Description": "L'acteur HexDex revendique la vente des informations de 1 005 361 membres uniques de l'ASPTT pour la période d'inscriptions de 2014 à 2026.\n\nStatut: Revendiquée\nType de service: Fédération sportive",
+      "DataClasses": [
+        "email (1 005 163)",
+        "téléphone (418 840)",
+        "IBAN (543 clubs)",
+        "données professionnelles (662 e-mails gouv.fr)",
+        "Identité (nom, prénom, genre, date de naissance)",
+        "Coordonnées (adresse postale complète)",
+        "Données d'état civil (lieu/pays de naissance, filiation)",
+        "Identifiants (numéro de licence, identifiant postier)",
+        "Informations personnelles (profession, statut de réfugié/bénévole)",
+        "Photo d'identité",
+        "Historique financier (détails des adhésions, factures, paiements)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/New_Logo-FSASPTT-Dor%C3%A9-F%C3%A9d%C3%A9ration-omnisports.png/250px-New_Logo-FSASPTT-Dor%C3%A9-F%C3%A9d%C3%A9ration-omnisports.png",
+      "slug": "fdration-omnisports-asptt",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/ASPTT-Fuites-de-donnees.png",
+      "lien": "https://haveibeenpwned.com/Breach/Fédération Omnisports ASPTT",
+      "categories": [],
+      "content": "L'acteur HexDex revendique la vente des informations de 1 005 361 membres uniques de l'ASPTT pour la période d'inscriptions de 2014 à 2026.\n\nStatut: Revendiquée\nType de service: Fédération sportive",
+      "isNSFW": false,
+      "index": 1409,
+      "title": "Fédération Omnisports ASPTT",
+      "oldindex": 1409
     }
   ]
 }
