@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-09T19:52:52.035Z",
-  "totalBreaches": 1417,
+  "lastUpdated": "2026-03-09T20:38:20.153Z",
+  "totalBreaches": 1418,
   "breaches": [
     {
       "Name": "gPotato",
@@ -49995,6 +49995,39 @@
       "index": 1409,
       "title": "Fédération Omnisports ASPTT",
       "oldindex": 1409
+    },
+    {
+      "Name": "Région Occitanie",
+      "Title": "Région Occitanie",
+      "Domain": "laregion.fr",
+      "BreachDate": "2026-03-09",
+      "AddedDate": "2026-03-09T19:53:06.882Z",
+      "ModifiedDate": "2026-03-09T19:53:06.882Z",
+      "PwnCount": 0,
+      "Description": "Environ 230 000 à 250 000 jeunes, bénéficiaires de la Carte Jeune Région, sont potentiellement concernés par l'accès non autorisé aux données.\n\nStatut: Confirmée\nType de service: Carte Jeunes",
+      "DataClasses": [
+        "Nom",
+        "Prénom",
+        "Date de naissance",
+        "Adresse de courriel",
+        "Numéro de téléphone"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://www.laregion.fr/IMG/png/oc-1706-instit-logo_carre-quadri-150x150-72dpi.png",
+      "slug": "rgion-occitanie",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/Carte-Jeunes-region-occitanie.png",
+      "lien": "https://haveibeenpwned.com/Breach/Région Occitanie",
+      "categories": [],
+      "content": "Environ 230 000 à 250 000 jeunes, bénéficiaires de la Carte Jeune Région, sont potentiellement concernés par l'accès non autorisé aux données.\n\nStatut: Confirmée\nType de service: Carte Jeunes",
+      "isNSFW": false,
+      "index": 1410,
+      "title": "Région Occitanie",
+      "oldindex": 1410
     }
   ]
 }

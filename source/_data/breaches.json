@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-09T19:53:22.037Z",
-  "totalBreaches": 1418,
+  "lastUpdated": "2026-03-09T20:38:51.990Z",
+  "totalBreaches": 1419,
   "breaches": [
     {
       "Name": "Fédération Omnisports ASPTT",
@@ -65,7 +65,36 @@
       "IsNative": true,
       "LogoPath": "https://www.laregion.fr/IMG/png/oc-1706-instit-logo_carre-quadri-150x150-72dpi.png",
       "slug": "rgion-occitanie",
-      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/Carte-Jeunes-region-occitanie.png"
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/Carte-Jeunes-region-occitanie.png",
+      "lien": "https://haveibeenpwned.com/Breach/Région Occitanie",
+      "categories": [],
+      "content": "Environ 230 000 à 250 000 jeunes, bénéficiaires de la Carte Jeune Région, sont potentiellement concernés par l'accès non autorisé aux données.\n\nStatut: Confirmée\nType de service: Carte Jeunes",
+      "isNSFW": false,
+      "index": 1427,
+      "title": "Région Occitanie",
+      "oldindex": 1410
+    },
+    {
+      "Name": "Vatel Capital",
+      "Title": "Vatel Capital",
+      "Domain": "vatelcapital.com",
+      "BreachDate": "2026-03-09",
+      "AddedDate": "2026-03-09T20:38:36.041Z",
+      "ModifiedDate": "2026-03-09T20:38:36.041Z",
+      "PwnCount": 0,
+      "Description": "Le 9 mars 2026, la société de gestion Vatel Capital a notifié ses clients par mail d'une exposition accidentelle de fichiers survenue entre le 21 février et le 3 mars 2026. La cause est une erreur de configuration sur un nouveau serveur ayant laissé un port de communication ouvert. Le volume de données exfiltrées par des tiers non autorisés n'est pas précisé.\n\nStatut: Confirmée\nType de service: Gestion d'actifs",
+      "DataClasses": [
+        "A determiner non préciser par Vatel Capital à ce stade."
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://www.francetransactions.com/IMG/moton2502.jpg?1667034062",
+      "slug": "vatel-capital",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/Vatel-Capital-leak-fuites-de-donnees.png"
     },
     {
       "Name": "Le Temps des Cerises",
@@ -50089,8 +50118,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-09T19:53:16.412Z",
-      "ModifiedDate": "2026-03-09T19:53:16.412Z",
+      "AddedDate": "2026-03-09T20:38:46.037Z",
+      "ModifiedDate": "2026-03-09T20:38:46.037Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -50106,8 +50135,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-09T19:53:16.437Z",
-      "ModifiedDate": "2026-03-09T19:53:16.437Z",
+      "AddedDate": "2026-03-09T20:38:46.062Z",
+      "ModifiedDate": "2026-03-09T20:38:46.062Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -50123,8 +50152,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-09T19:53:16.464Z",
-      "ModifiedDate": "2026-03-09T19:53:16.464Z",
+      "AddedDate": "2026-03-09T20:38:46.090Z",
+      "ModifiedDate": "2026-03-09T20:38:46.090Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -50140,8 +50169,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-09T19:53:16.484Z",
-      "ModifiedDate": "2026-03-09T19:53:16.484Z",
+      "AddedDate": "2026-03-09T20:38:46.109Z",
+      "ModifiedDate": "2026-03-09T20:38:46.109Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -50157,8 +50186,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-09T19:53:16.490Z",
-      "ModifiedDate": "2026-03-09T19:53:16.490Z",
+      "AddedDate": "2026-03-09T20:38:46.116Z",
+      "ModifiedDate": "2026-03-09T20:38:46.116Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
