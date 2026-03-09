@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-09T19:11:25.416Z",
-  "totalBreaches": 1417,
+  "lastUpdated": "2026-03-09T19:53:22.037Z",
+  "totalBreaches": 1418,
   "breaches": [
     {
       "Name": "Fédération Omnisports ASPTT",
@@ -40,6 +40,32 @@
       "index": 1426,
       "title": "Fédération Omnisports ASPTT",
       "oldindex": 1409
+    },
+    {
+      "Name": "Région Occitanie",
+      "Title": "Région Occitanie",
+      "Domain": "laregion.fr",
+      "BreachDate": "2026-03-09",
+      "AddedDate": "2026-03-09T19:53:06.882Z",
+      "ModifiedDate": "2026-03-09T19:53:06.882Z",
+      "PwnCount": 0,
+      "Description": "Environ 230 000 à 250 000 jeunes, bénéficiaires de la Carte Jeune Région, sont potentiellement concernés par l'accès non autorisé aux données.\n\nStatut: Confirmée\nType de service: Carte Jeunes",
+      "DataClasses": [
+        "Nom",
+        "Prénom",
+        "Date de naissance",
+        "Adresse de courriel",
+        "Numéro de téléphone"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://www.laregion.fr/IMG/png/oc-1706-instit-logo_carre-quadri-150x150-72dpi.png",
+      "slug": "rgion-occitanie",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/Carte-Jeunes-region-occitanie.png"
     },
     {
       "Name": "Le Temps des Cerises",
@@ -50063,8 +50089,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-09T19:11:19.799Z",
-      "ModifiedDate": "2026-03-09T19:11:19.799Z",
+      "AddedDate": "2026-03-09T19:53:16.412Z",
+      "ModifiedDate": "2026-03-09T19:53:16.412Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -50080,8 +50106,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-09T19:11:19.827Z",
-      "ModifiedDate": "2026-03-09T19:11:19.827Z",
+      "AddedDate": "2026-03-09T19:53:16.437Z",
+      "ModifiedDate": "2026-03-09T19:53:16.437Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -50097,8 +50123,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-09T19:11:19.854Z",
-      "ModifiedDate": "2026-03-09T19:11:19.854Z",
+      "AddedDate": "2026-03-09T19:53:16.464Z",
+      "ModifiedDate": "2026-03-09T19:53:16.464Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -50114,8 +50140,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-09T19:11:19.873Z",
-      "ModifiedDate": "2026-03-09T19:11:19.873Z",
+      "AddedDate": "2026-03-09T19:53:16.484Z",
+      "ModifiedDate": "2026-03-09T19:53:16.484Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -50131,8 +50157,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-09T19:11:19.880Z",
-      "ModifiedDate": "2026-03-09T19:11:19.880Z",
+      "AddedDate": "2026-03-09T19:53:16.490Z",
+      "ModifiedDate": "2026-03-09T19:53:16.490Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
