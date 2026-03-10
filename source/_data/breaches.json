@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-10T22:00:22.234Z",
+  "lastUpdated": "2026-03-10T22:40:46.542Z",
   "totalBreaches": 1442,
   "breaches": [
     {
@@ -2648,8 +2648,8 @@
       "Attribution": null,
       "DisclosureUrl": null,
       "DataClasses": [
-        "Numéros de carte bancaire",
-        "IBAN"
+        "IBAN",
+        "Numéros de carte bancaire"
       ],
       "IsVerified": false,
       "IsFabricated": false,
@@ -55526,8 +55526,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-10T22:00:16.049Z",
-      "ModifiedDate": "2026-03-10T22:00:16.049Z",
+      "AddedDate": "2026-03-10T22:40:40.447Z",
+      "ModifiedDate": "2026-03-10T22:40:40.447Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -55543,8 +55543,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-10T22:00:16.073Z",
-      "ModifiedDate": "2026-03-10T22:00:16.073Z",
+      "AddedDate": "2026-03-10T22:40:40.476Z",
+      "ModifiedDate": "2026-03-10T22:40:40.476Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -55560,8 +55560,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-10T22:00:16.101Z",
-      "ModifiedDate": "2026-03-10T22:00:16.101Z",
+      "AddedDate": "2026-03-10T22:40:40.505Z",
+      "ModifiedDate": "2026-03-10T22:40:40.505Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -55577,8 +55577,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-10T22:00:16.121Z",
-      "ModifiedDate": "2026-03-10T22:00:16.121Z",
+      "AddedDate": "2026-03-10T22:40:40.525Z",
+      "ModifiedDate": "2026-03-10T22:40:40.525Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -55594,8 +55594,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-10T22:00:16.127Z",
-      "ModifiedDate": "2026-03-10T22:00:16.127Z",
+      "AddedDate": "2026-03-10T22:40:40.532Z",
+      "ModifiedDate": "2026-03-10T22:40:40.532Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
