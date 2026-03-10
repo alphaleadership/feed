@@ -24,14 +24,14 @@ db.breaches.forEach((breach, index) => {
     const isImage = /\.(png|jpg|jpeg|gif|webp|svg)$/i.test(breach.source);
     const isPdf = /\.pdf$/i.test(breach.source);
     
-    if (!isImage && !isPdf) {
+
       // C'est une URL valide vers une page web
       if (!breach.lien || breach.lien === 'undefined' || breach.lien.includes('undefined') || breach.lien.includes('haveibeenpwned.com')) {
         breach.lien = breach.source;
         updatedCount++;
         console.log(`  ✓ Lien mis à jour pour: ${breach.Name || breach.Title}`);
       }
-    }
+    
   }
 });
 
