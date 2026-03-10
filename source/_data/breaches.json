@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-10T21:04:58.804Z",
+  "lastUpdated": "2026-03-10T21:07:29.930Z",
   "totalBreaches": 1420,
   "breaches": [
     {
@@ -2838,11 +2838,7 @@
         "Prénoms",
         "Types de produits",
         "Échéances de paiement)",
-        "État des dossiers",
-        "Identité des souscripteurs (Noms et prénoms)",
-        "Coordonnées de contact (Adresses postales, emails, numéros de téléphone)",
-        "Informations contractuelles (Numéros de contrat, types de produits, état des dossiers, échéances de paiement)",
-        "Détails sur les risques assurés (Marques et modèles de véhicules, plaques d'immatriculation)"
+        "État des dossiers"
       ],
       "IsSensitive": false,
       "IsVerified": true,
@@ -13128,19 +13124,7 @@
         "Purchases",
         "Quantités)",
         "SKU",
-        "User_id)",
-        "Nom",
-        "Prénom",
-        "Date de naissance",
-        "Adresse email",
-        "Numéro de téléphone",
-        "Adresse postale",
-        "Pays / Locale",
-        "Identifiants clients (subscriber_key, amperity_id, loyalty_id, user_id)",
-        "Historique d'achats détaillé (Produits, SKU, prix, quantités)",
-        "Identifiants d'appareils (Device IDs)",
-        "Historique d'activité marketing (clics, ouvertures)",
-        "Statuts d'abonnement et désinscriptions"
+        "User_id)"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -13366,8 +13350,7 @@
         "Identifiants techniques",
         "Noms",
         "Numéros de téléphone",
-        "Schémas d'infrastructure réseau",
-        "Adresse email"
+        "Schémas d'infrastructure réseau"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -15949,11 +15932,7 @@
         "Noms",
         "Numéros de téléphone",
         "Prénoms",
-        "Ville",
-        "Adresse email",
-        "Nom et prénom",
-        "Numéro de téléphone",
-        "Localisation (ville)"
+        "Ville"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -17681,11 +17660,7 @@
         "Prénoms",
         "VINs",
         "Vehicle details",
-        "Vehicle registration plates",
-        "Nom et prénom",
-        "Adresse email",
-        "Adresse postale",
-        "Numéro de téléphone"
+        "Vehicle registration plates"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -22543,6 +22518,37 @@
       "SeverityLevel": "FAIBLE"
     },
     {
+      "Name": "Sport2000",
+      "Title": "Sport 2000",
+      "Domain": "sport2000.fr",
+      "BreachDate": "2024-04-18",
+      "AddedDate": "2024-08-28T06:56:12Z",
+      "ModifiedDate": "2024-08-28T06:56:12Z",
+      "PwnCount": 3189643,
+      "Description": "In April 2024, <a href=\"https://www.clubic.com/actualite-525045-sport-2000-victime-d-une-cyberattaque-un-gang-de-pirates-francais-soupconne-de-vendre-les-donnees-de-4-millions-de-clients.html\" target=\"_blank\" rel=\"noopener\">the French sporting equipment manufacturer Sport 2000 announced it had suffered a data breach</a>. The data was subsequently put up for sale on a popular hacking forum and included 4.4M rows with 3.2M unique email addresses alongside names, physical addresses, phone numbers, dates of birth and purchases made by store name.",
+      "LogoPath": "https://logos.haveibeenpwned.com/Sport2000.png",
+      "Attribution": "oathnet.ru",
+      "DisclosureUrl": null,
+      "DataClasses": [
+        "Dates of birth",
+        "Email addresses",
+        "Names",
+        "Phone numbers",
+        "Physical addresses",
+        "Purchases",
+        "Salutations"
+      ],
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "index": 831
+    },
+    {
       "Name": "T2",
       "Title": "T2",
       "Domain": "t2tea.com",
@@ -22562,11 +22568,7 @@
         "Noms",
         "Numéros de téléphone",
         "Purchases",
-        "Salutations",
-        "Email addresses",
-        "Names",
-        "Phone numbers",
-        "Physical addresses"
+        "Salutations"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -30310,6 +30312,36 @@
       "SeverityLevel": "CRITIQUE"
     },
     {
+      "Name": "DucksUnlimited",
+      "Title": "Ducks Unlimited",
+      "Domain": "ducks.org",
+      "BreachDate": "2021-01-29",
+      "AddedDate": "2021-11-16T01:24:35Z",
+      "ModifiedDate": "2021-11-16T05:39:28Z",
+      "PwnCount": 1324364,
+      "Description": "In mid-2021, <a href=\"https://www.riskbasedsecurity.com/2021/06/14/dark-web-roundup-may-2021/\" target=\"_blank\" rel=\"noopener\">Risk Based Security reported on a database sourced from Ducks Unlimited being traded online</a>. The data dated back to January 2021 and contained 1.3M unique email addresses across both a membership list and a list of website users. Impacted data included names, phones numbers, physical addresses, dates of birth and passwords stored as unsalted MD5 hashes.",
+      "LogoPath": "https://logos.haveibeenpwned.com/DucksUnlimited.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [
+        "Dates of birth",
+        "Email addresses",
+        "Names",
+        "Passwords",
+        "Phone numbers",
+        "Physical addresses"
+      ],
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "index": 630
+    },
+    {
       "Name": "Bookchor",
       "Title": "Bookchor",
       "Domain": "bookchor.com",
@@ -30849,12 +30881,7 @@
         "Noms",
         "Numéros de sécurité sociale",
         "Numéros de téléphone",
-        "Professions",
-        "Email addresses",
-        "Names",
-        "Passwords",
-        "Phone numbers",
-        "Physical addresses"
+        "Professions"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -35873,11 +35900,7 @@
         "Adresses postales",
         "Dates of birth",
         "Noms",
-        "Numéros de téléphone",
-        "Email addresses",
-        "Names",
-        "Phone numbers",
-        "Physical addresses"
+        "Numéros de téléphone"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -35897,6 +35920,35 @@
       "title": "MGM Resorts",
       "IsCritical": false,
       "SeverityLevel": "MODÉRÉ"
+    },
+    {
+      "Name": "MGM2022Update",
+      "Title": "MGM Resorts (2022 Update)",
+      "Domain": "mgmresorts.com",
+      "BreachDate": "2019-07-25",
+      "AddedDate": "2022-05-29T01:43:46Z",
+      "ModifiedDate": "2022-05-29T01:43:46Z",
+      "PwnCount": 24842001,
+      "Description": "In July 2019, <a href=\"https://www.zdnet.com/article/exclusive-details-of-10-6-million-of-mgm-hotel-guests-posted-on-a-hacking-forum/\" target=\"_blank\" rel=\"noopener\">MGM Resorts discovered a data breach of one of their cloud services</a>. The breach included 10.6M guest records with 3.1M unique email addresses stemming back to 2017. In May 2022, <a href=\"https://www.vpnmentor.com/blog/mgm-leaked-on-telegram/\" target=\"_blank\" rel=\"noopener\">a superset of the data totalling almost 25M unique email addresses across 142M rows was extensively shared on Telegram</a>. On analysis, it's highly likely the data stems from the same incident <a href=\"https://www.zdnet.com/article/a-hacker-is-selling-details-of-142-million-mgm-hotel-guests-on-the-dark-web/\" target=\"_blank\" rel=\"noopener\">with 142M records having been discovered for sale on a dark web marketplace in mid-2020</a>. The exposed data included email and physical addresses, names, phone numbers and dates of birth.",
+      "LogoPath": "https://logos.haveibeenpwned.com/MGM.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [
+        "Dates of birth",
+        "Email addresses",
+        "Names",
+        "Phone numbers",
+        "Physical addresses"
+      ],
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "index": 488
     },
     {
       "Name": "CrackedTO",
@@ -46402,6 +46454,33 @@
       "SeverityLevel": "CRITIQUE"
     },
     {
+      "Name": "SkTorrent",
+      "Title": "SkTorrent",
+      "Domain": "sktorrent.eu",
+      "BreachDate": "2016-02-19",
+      "AddedDate": "2016-02-23T03:30:49Z",
+      "ModifiedDate": "2016-02-23T03:30:49Z",
+      "PwnCount": 117070,
+      "Description": "In February 2016, the Slovak torrent tracking site SkTorrent <a href=\"http://tech.sme.sk/c/20099331/hackeri-ukradli-na-slovensku-118-tisic-identit.html\" target=\"_blank\" rel=\"noopener\">was hacked and over 117k records leaked online</a>. The data dump included usernames, email addresses and passwords stored in plain text.",
+      "LogoPath": "https://logos.haveibeenpwned.com/SkTorrent.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [
+        "Email addresses",
+        "Passwords",
+        "Usernames"
+      ],
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "index": 216
+    },
+    {
       "Name": "VTightGel",
       "Title": "V-Tight Gel",
       "Domain": "vtightgel.com",
@@ -46531,11 +46610,7 @@
         "Adresses email",
         "Adresses postales",
         "Mots de passe",
-        "Noms",
-        "Email addresses",
-        "Passwords",
-        "Usernames",
-        "IP addresses"
+        "Noms"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -46897,6 +46972,34 @@
       "title": "XPG",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE"
+    },
+    {
+      "Name": "BitTorrent",
+      "Title": "BitTorrent",
+      "Domain": "bittorrent.com",
+      "BreachDate": "2016-01-01",
+      "AddedDate": "2016-06-08T10:49:24Z",
+      "ModifiedDate": "2016-06-08T10:49:24Z",
+      "PwnCount": 34235,
+      "Description": "In January 2016, the forum for the popular torrent software <a href=\"https://motherboard.vice.com/read/another-day-another-hack-user-accounts-for-bittorrents-forum-hacking\" target=\"_blank\" rel=\"noopener\">BitTorrent was hacked</a>. The IP.Board based forum stored passwords as weak SHA1 salted hashes and the breached data also included usernames, email and IP addresses.",
+      "LogoPath": "https://logos.haveibeenpwned.com/BitTorrent.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [
+        "Email addresses",
+        "IP addresses",
+        "Passwords",
+        "Usernames"
+      ],
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "index": 209
     },
     {
       "Name": "Trillian",
@@ -54739,91 +54842,6 @@
       "title": "gPotato",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE"
-    },
-    {
-      "Domain": "",
-      "AddedDate": "2026-03-10T21:04:52.966Z",
-      "ModifiedDate": "2026-03-10T21:04:52.966Z",
-      "PwnCount": 0,
-      "Description": "\n\nStatut: Inconnu\nType de service: N/A",
-      "DataClasses": [],
-      "IsSensitive": false,
-      "IsVerified": true,
-      "IsFabricated": false,
-      "IsSpam": false,
-      "IsRetired": false,
-      "IsNative": true,
-      "LogoPath": "",
-      "slug": "bittorrent",
-      "source": "unknown"
-    },
-    {
-      "Domain": "",
-      "AddedDate": "2026-03-10T21:04:52.990Z",
-      "ModifiedDate": "2026-03-10T21:04:52.990Z",
-      "PwnCount": 0,
-      "Description": "\n\nStatut: Inconnu\nType de service: N/A",
-      "DataClasses": [],
-      "IsSensitive": false,
-      "IsVerified": true,
-      "IsFabricated": false,
-      "IsSpam": false,
-      "IsRetired": false,
-      "IsNative": true,
-      "LogoPath": "",
-      "slug": "ducksunlimited",
-      "source": "unknown"
-    },
-    {
-      "Domain": "",
-      "AddedDate": "2026-03-10T21:04:53.018Z",
-      "ModifiedDate": "2026-03-10T21:04:53.018Z",
-      "PwnCount": 0,
-      "Description": "\n\nStatut: Inconnu\nType de service: N/A",
-      "DataClasses": [],
-      "IsSensitive": false,
-      "IsVerified": true,
-      "IsFabricated": false,
-      "IsSpam": false,
-      "IsRetired": false,
-      "IsNative": true,
-      "LogoPath": "",
-      "slug": "mgm2022update",
-      "source": "unknown"
-    },
-    {
-      "Domain": "",
-      "AddedDate": "2026-03-10T21:04:53.037Z",
-      "ModifiedDate": "2026-03-10T21:04:53.037Z",
-      "PwnCount": 0,
-      "Description": "\n\nStatut: Inconnu\nType de service: N/A",
-      "DataClasses": [],
-      "IsSensitive": false,
-      "IsVerified": true,
-      "IsFabricated": false,
-      "IsSpam": false,
-      "IsRetired": false,
-      "IsNative": true,
-      "LogoPath": "",
-      "slug": "sktorrent",
-      "source": "unknown"
-    },
-    {
-      "Domain": "",
-      "AddedDate": "2026-03-10T21:04:53.043Z",
-      "ModifiedDate": "2026-03-10T21:04:53.043Z",
-      "PwnCount": 0,
-      "Description": "\n\nStatut: Inconnu\nType de service: N/A",
-      "DataClasses": [],
-      "IsSensitive": false,
-      "IsVerified": true,
-      "IsFabricated": false,
-      "IsSpam": false,
-      "IsRetired": false,
-      "IsNative": true,
-      "LogoPath": "",
-      "slug": "sport2000",
-      "source": "unknown"
     }
   ]
 }
