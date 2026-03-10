@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-10T13:35:09.549Z",
+  "lastUpdated": "2026-03-10T13:46:55.213Z",
   "totalBreaches": 1419,
   "breaches": [
     {
@@ -53991,8 +53991,8 @@
       "index": 1402,
       "title": "TAJ (Traitement d'antécédents judiciaires)",
       "oldindex": 1402,
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "SYNLAB France",

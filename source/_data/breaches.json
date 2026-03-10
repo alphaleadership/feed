@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-10T13:35:41.376Z",
+  "lastUpdated": "2026-03-10T13:47:26.701Z",
   "totalBreaches": 1419,
   "breaches": [
     {
@@ -456,8 +456,8 @@
       "index": 1419,
       "title": "TAJ (Traitement d'antécédents judiciaires)",
       "oldindex": 1402,
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "ImmoJeune",
@@ -54473,8 +54473,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-10T13:35:35.649Z",
-      "ModifiedDate": "2026-03-10T13:35:35.649Z",
+      "AddedDate": "2026-03-10T13:47:20.974Z",
+      "ModifiedDate": "2026-03-10T13:47:20.974Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -54490,8 +54490,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-10T13:35:35.673Z",
-      "ModifiedDate": "2026-03-10T13:35:35.673Z",
+      "AddedDate": "2026-03-10T13:47:20.999Z",
+      "ModifiedDate": "2026-03-10T13:47:20.999Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -54507,8 +54507,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-10T13:35:35.702Z",
-      "ModifiedDate": "2026-03-10T13:35:35.702Z",
+      "AddedDate": "2026-03-10T13:47:21.026Z",
+      "ModifiedDate": "2026-03-10T13:47:21.026Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -54524,8 +54524,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-10T13:35:35.722Z",
-      "ModifiedDate": "2026-03-10T13:35:35.722Z",
+      "AddedDate": "2026-03-10T13:47:21.045Z",
+      "ModifiedDate": "2026-03-10T13:47:21.045Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -54541,8 +54541,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-10T13:35:35.728Z",
-      "ModifiedDate": "2026-03-10T13:35:35.728Z",
+      "AddedDate": "2026-03-10T13:47:21.052Z",
+      "ModifiedDate": "2026-03-10T13:47:21.052Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
