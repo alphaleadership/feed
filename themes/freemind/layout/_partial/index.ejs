@@ -148,7 +148,97 @@
 					const breachYear = new Date(breach.BreachDate).getFullYear();
 					if (breachYear === currentYear) currentYearCount++;
 					if (breachYear === lastYear) lastYearCount++;
+					
+					if (!yearStats[breachYear]) {
+						yearStats[breachYear] = { count: 0, pwnCount: 0 };
+					}
+					yearStats[breachYear].count++;
+					yearStats[breachYear].pwnCount += (breach.PwnCount || 0);
+					
+					if (breach.DataClasses && Array.isArray(breach.DataClasses)) {
+						breach.DataClasses.forEach(dc => {
+							if (!dataClassStats[dc]) {
+								dataClassStats[dc] = { count: 0, pwnCount: 0 };
+							}
+							dataClassStats[dc].count++;
+							dataClassStats[dc].pwnCount += (breach.PwnCount || 0);
+						});
+					}
 
+					// Stats pour les entreprises / sites
+					let compName = breach.Domain || breach.Title || breach.Name;
+					let compDomain = breach.Domain;
+					
+					if (compName) {
+						let normName = compName.toLowerCase();
+						
+						// Normaliser France Travail
+						if (normName.includes('france travail') || normName.includes('pole emploi') || normName.includes('pôle emploi') || normName.includes('francetravail')) {
+							compName = 'France Travail';
+							compDomain = 'francetravail.fr';
+						} else if (compName.toLowerCase().includes(' fuite du ')) {
+							compName = compName.replace(/ fuite du .*/i, '').trim();
+							// Capitaliser la première lettre si tout est en minuscules
+							if (compName === compName.toLowerCase()) {
+								compName = compName.charAt(0).toUpperCase() + compName.slice(1);
+							}
+						}
+
+						// Uniformiser la casse
+						const keyName = compName.toLowerCase();
+
+						if (!companyStats[keyName]) {
+							companyStats[keyName] = { 
+								name: compName, 
+								count: 0, 
+								pwnCount: 0,
+								domain: compDomain
+							};
+						}
+						companyStats[keyName].count++;
+						companyStats[keyName].pwnCount += (breach.PwnCount || 0);
+						if (compDomain && !companyStats[keyName].domain) {
+							companyStats[keyName].domain = compDomain;
+						}
+					}
+
+					if (breach.categories && Array.isArray(breach.categories)) {
+						breach.categories.map(item=>{
+							return item.split("fuite")[0]
+						}).forEach(category => {
+							if(category==""){
+								return
+							}
+								if(!isNaN(parseInt(category))){
+								invalidcategory.push(category)
+							}
+							if(invalidcategory.includes(category.toLowerCase())){
+								return
+							}
+						
+							if (!categoryBreaches[category.toLowerCase()]) {
+								categoryBreaches[category.toLowerCase()] = [];
+							}
+							categoryBreaches[category.toLowerCase()].push({
+								name: breach.Name,
+								title: breach.Title,
+								slug: breach.slug,
+								path: breach.index,
+								pwnCount: breach.PwnCount,
+								date: breach.BreachDate,
+								nsfw:breach.isNSFW,
+								severityLevel: breach.SeverityLevel
+							
+						
+							
+							
+							
+						
+							});
+						});
+					}
+				});
+				
 				// Afficher les 5 fuites critiques les plus récentes
 				const criticalBreaches = data.breaches
 					.filter(breach => breach.IsCritical && !breach.IsRetired)
@@ -200,92 +290,6 @@
 				} else if (criticalContainer) {
 					criticalContainer.innerHTML = '<p class="text-muted text-center py-4">Aucune fuite critique détectée.</p>';
 				}
-					
-					if (!yearStats[breachYear]) {
-						yearStats[breachYear] = { count: 0, pwnCount: 0 };
-					}
-					yearStats[breachYear].count++;
-					yearStats[breachYear].pwnCount += (breach.PwnCount || 0);
-					
-					if (breach.DataClasses && Array.isArray(breach.DataClasses)) {
-						breach.DataClasses.forEach(dc => {
-							if (!dataClassStats[dc]) {
-								dataClassStats[dc] = { count: 0, pwnCount: 0 };
-							}
-							dataClassStats[dc].count++;
-							dataClassStats[dc].pwnCount += (breach.PwnCount || 0);
-						});
-					}
-
-					// Stats pour les entreprises / sites
-					let compName = breach.Domain || breach.Title || breach.Name;
-					if (compName) {
-						let normName = compName.toLowerCase();
-						if (normName.includes('france travail') || normName.includes('pole emploi') || normName.includes('pôle emploi')) {
-							compName = 'France Travail';
-							breach.Domain = breach.Domain || 'francetravail.fr';
-						} else if (compName.toLowerCase().includes(' fuite du ')) {
-							compName = compName.replace(/ fuite du .*/i, '').trim();
-							// Capitaliser la première lettre si tout est en minuscules
-							if (compName === compName.toLowerCase()) {
-								compName = compName.charAt(0).toUpperCase() + compName.slice(1);
-							}
-						}
-
-						// Uniformiser la casse
-						const keyName = compName.toLowerCase();
-
-						if (!companyStats[keyName]) {
-							companyStats[keyName] = { 
-								name: compName, 
-								count: 0, 
-								pwnCount: 0,
-								domain: breach.Domain
-							};
-						}
-						companyStats[keyName].count++;
-						companyStats[keyName].pwnCount += (breach.PwnCount || 0);
-						if (breach.Domain && !companyStats[keyName].domain) {
-							companyStats[keyName].domain = breach.Domain;
-						}
-					}
-
-					if (breach.categories && Array.isArray(breach.categories)) {
-						breach.categories.map(item=>{
-							return item.split("fuite")[0]
-						}).forEach(category => {
-							if(category==""){
-								return
-							}
-								if(!isNaN(parseInt(category))){
-								invalidcategory.push(category)
-							}
-							if(invalidcategory.includes(category.toLowerCase())){
-								return
-							}
-						
-							if (!categoryBreaches[category.toLowerCase()]) {
-								categoryBreaches[category.toLowerCase()] = [];
-							}
-							categoryBreaches[category.toLowerCase()].push({
-								name: breach.Name,
-								title: breach.Title,
-								slug: breach.slug,
-								path: breach.index,
-								pwnCount: breach.PwnCount,
-								date: breach.BreachDate,
-								nsfw:breach.isNSFW,
-								severityLevel: breach.SeverityLevel
-							
-						
-							
-							
-							
-						
-							});
-						});
-					}
-				});
 				
 				// Afficher les statistiques globales
 				const globalStatsContainer = document.getElementById('global-stats-container');
