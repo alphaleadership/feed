@@ -315,6 +315,13 @@
     function renderList(breaches) {
       const validBreaches = breaches.filter(item => !item.Name.includes('cve'));
       
+      // Trier par date décroissante (plus récentes en premier)
+      validBreaches.sort((a, b) => {
+        const dateA = new Date(a.BreachDate || 0);
+        const dateB = new Date(b.BreachDate || 0);
+        return dateB - dateA;
+      });
+      
       let html = `
         <div class="fuites-header">
           <h1>Liste des Fuites de Données</h1>
