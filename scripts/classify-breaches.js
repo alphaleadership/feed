@@ -156,18 +156,58 @@ const dataClassMapping = {
   'santé': 'Données de santé'
 };
 
-// Fonction pour vérifier si une fuite contient des données critiques
-function isCriticalBreach(dataClasses) {
-  if (!dataClasses || !Array.isArray(dataClasses)) {
-    return false;
+// Fonction pour extraire les données critiques du contenu
+function extractCriticalDataFromContent(content) {
+  if (!content || typeof content !== 'string') {
+    return [];
   }
   
-  return dataClasses.some(dataClass => {
-    const lowerDataClass = dataClass.toLowerCase();
-    return criticalDataTypes.some(criticalType => 
-      lowerDataClass.includes(criticalType.toLowerCase())
-    );
+  const extracted = new Set();
+  const lowerContent = content.toLowerCase();
+  
+  criticalDataTypes.forEach(criticalType => {
+    if (lowerContent.includes(criticalType.toLowerCase())) {
+      // Trouver la clé de mapping correspondante
+      Object.entries(dataClassMapping).forEach(([key, value]) => {
+        if (key.toLowerCase().includes(criticalType.toLowerCase()) || 
+            criticalType.toLowerCase().includes(key.toLowerCase())) {
+          extracted.add(value);
+        }
+      });
+      
+      // Si pas de mapping trouvé, ajouter le type critique directement
+      if (extracted.size === 0) {
+        extracted.add(criticalType.charAt(0).toUpperCase() + criticalType.slice(1));
+      }
+    }
   });
+  
+  return Array.from(extracted);
+}
+
+// Fonction pour vérifier si une fuite contient des données critiques
+function isCriticalBreach(dataClasses, content) {
+  let isCritical = false;
+  
+  // Vérifier les DataClasses
+  if (dataClasses && Array.isArray(dataClasses)) {
+    isCritical = dataClasses.some(dataClass => {
+      const lowerDataClass = dataClass.toLowerCase();
+      return criticalDataTypes.some(criticalType => 
+        lowerDataClass.includes(criticalType.toLowerCase())
+      );
+    });
+  }
+  
+  // Vérifier aussi le contenu si pas encore critique
+  if (!isCritical && content && typeof content === 'string') {
+    const lowerContent = content.toLowerCase();
+    isCritical = criticalDataTypes.some(criticalType => 
+      lowerContent.includes(criticalType.toLowerCase())
+    );
+  }
+  
+  return isCritical;
 }
 
 // Fonction pour normaliser les DataClasses
@@ -258,11 +298,21 @@ async function classifyBreaches() {
       if (breach.DataClasses.length !== originalLength) {
         normalizedCount++;
       }
+    } else {
+      breach.DataClasses = [];
     }
+    
+    // Extraire les données critiques du contenu et les ajouter aux DataClasses
+    const extractedData = extractCriticalDataFromContent(breach.content || breach.Description);
+    extractedData.forEach(data => {
+      if (!breach.DataClasses.includes(data)) {
+        breach.DataClasses.push(data);
+      }
+    });
     
     // Vérifier si la fuite est critique
     const wasCritical = breach.IsCritical || false;
-    breach.IsCritical = isCriticalBreach(breach.DataClasses);
+    breach.IsCritical = isCriticalBreach(breach.DataClasses, breach.content || breach.Description);
     
     if (breach.IsCritical && !wasCritical) {
       criticalCount++;
