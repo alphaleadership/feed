@@ -91,6 +91,41 @@
     border: 1px solid rgba(56, 189, 248, 0.2);
   }
 
+  .severity-badge {
+    display: inline-block;
+    padding: 0.3em 0.8em;
+    border-radius: 12px;
+    font-size: 0.75em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5em;
+  }
+
+  .severity-critique {
+    background-color: rgba(220, 38, 38, 0.2);
+    color: #fca5a5;
+    border: 1px solid rgba(220, 38, 38, 0.4);
+  }
+
+  .severity-eleve {
+    background-color: rgba(251, 191, 36, 0.2);
+    color: #fcd34d;
+    border: 1px solid rgba(251, 191, 36, 0.4);
+  }
+
+  .severity-modere {
+    background-color: rgba(59, 130, 246, 0.2);
+    color: #93c5fd;
+    border: 1px solid rgba(59, 130, 246, 0.4);
+  }
+
+  .severity-faible {
+    background-color: rgba(107, 114, 128, 0.2);
+    color: #d1d5db;
+    border: 1px solid rgba(107, 114, 128, 0.4);
+  }
+
   .nsfw-warning {
     background-color: var(--danger-bg);
     border: 1px solid var(--danger-border);
@@ -366,6 +401,7 @@
           <div class="fuite-card">
             ${contentHtml}
             <div class="date">${new Date(breach.BreachDate).toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}</div>
+            ${breach.SeverityLevel ? `<span class="severity-badge severity-${breach.SeverityLevel.toLowerCase()}">${breach.SeverityLevel}</span>` : ''}
             ${classesHtml}
           </div>
         `;
@@ -387,6 +423,7 @@
                 <h2>⚠️ Attention : Contenu potentiellement inadapté (NSFW)</h2>
               </div>
             ` : ''}
+            ${breach.SeverityLevel ? `<span class="severity-badge severity-${breach.SeverityLevel.toLowerCase()}">${breach.SeverityLevel}</span>` : ''}
             
             <div class="breach-meta-grid">
               <div class="meta-item">
