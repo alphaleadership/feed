@@ -33,6 +33,25 @@
 			</div>
 		</div>
 	</div>
+
+	<!-- Fuites critiques récentes -->
+	<div class="critical-breaches card shadow-sm mb-4" style="background: linear-gradient(135deg, #450a0a 0%, #7f1d1d 100%); border: 2px solid #dc2626;">
+		<div class="card-header text-white d-flex align-items-center border-0" style="background: rgba(0,0,0,0.5) !important; border-bottom: 2px solid rgba(220, 38, 38, 0.5) !important;">
+			<i class="fa fa-exclamation-triangle me-3 fs-4" style="color: #fca5a5;"></i>
+			<h3 class="mb-0 text-uppercase letter-spacing-1">
+				⚠️ Fuites Critiques Récentes
+			</h3>
+		</div>
+		<div class="card-body" style="background: #3f0e0e; padding: 1.5rem;">
+			<div id="critical-breaches-container">
+				<div class="text-center py-5">
+					<div class="spinner-border text-danger" role="status">
+						<span class="visually-hidden">Chargement...</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	
 
 	<!-- Statistiques globales -->
@@ -265,7 +284,7 @@
 					.map(([name, breaches]) => ({ 
 						name:name||"inconnu", 
 						count: breaches.length,
-						breaches: breaches.sort((a, b) => b.pwnCount - a.pwnCount).slice(0, 50),
+						breaches: breaches.sort((a, b) => b.count - a.count).slice(0, 50),
 						percentage: ((breaches.length / data.totalBreaches) * 100).toFixed(1) 
 					}));
 				
