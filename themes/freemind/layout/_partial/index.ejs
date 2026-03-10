@@ -148,6 +148,58 @@
 					const breachYear = new Date(breach.BreachDate).getFullYear();
 					if (breachYear === currentYear) currentYearCount++;
 					if (breachYear === lastYear) lastYearCount++;
+
+				// Afficher les 5 fuites critiques les plus récentes
+				const criticalBreaches = data.breaches
+					.filter(breach => breach.IsCritical && !breach.IsRetired)
+					.sort((a, b) => new Date(b.BreachDate) - new Date(a.BreachDate))
+					.slice(0, 5);
+				
+				const criticalContainer = document.getElementById('critical-breaches-container');
+				if (criticalContainer && criticalBreaches.length > 0) {
+					criticalContainer.innerHTML = `
+						<div class="row">
+							${criticalBreaches.map((breach, idx) => {
+								const date = new Date(breach.BreachDate);
+								const formattedDate = date.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
+								const pwnDisplay = breach.PwnCount >= 1000000 ? (breach.PwnCount / 1000000).toFixed(1) + 'M' : breach.PwnCount.toLocaleString();
+								const dataClassesDisplay = breach.DataClasses && breach.DataClasses.length > 0 
+									? breach.DataClasses.slice(0, 3).join(', ') + (breach.DataClasses.length > 3 ? '...' : '')
+									: 'Données non spécifiées';
+								
+								return `
+									<div class="col-md-6 col-lg-4 mb-3">
+										<div class="card h-100" style="background: linear-gradient(145deg, #7f1d1d 0%, #5f0f0f 100%); border: 2px solid #dc2626;">
+											<div class="card-body">
+												<div class="d-flex justify-content-between align-items-start mb-2">
+													<span class="badge bg-danger fs-6">#${idx + 1}</span>
+													<span class="badge bg-dark" style="font-size: 0.7em;">
+														<i class="fa fa-calendar me-1"></i>${formattedDate}
+													</span>
+												</div>
+												<h5 class="card-title mb-2" style="color: #fca5a5;">
+													<i class="fa fa-exclamation-triangle me-2"></i>${breach.Title || breach.Name}
+												</h5>
+												<p class="mb-2" style="color: #fecaca; font-size: 0.9rem;">
+													<i class="fa fa-users me-2"></i><strong>${pwnDisplay}</strong> comptes compromis
+												</p>
+												<p class="mb-2" style="color: #fecaca; font-size: 0.85rem;">
+													<i class="fa fa-database me-2"></i>
+													${dataClassesDisplay}
+												</p>
+												<a href="<%- config.url %>/fuites?id=${breach.index}" class="btn btn-sm btn-danger mt-2 w-100">
+													<i class="fa fa-eye me-1"></i>Voir les détails
+												</a>
+											</div>
+										</div>
+									</div>
+								`;
+							}).join('')}
+						</div>
+					`;
+				} else if (criticalContainer) {
+					criticalContainer.innerHTML = '<p class="text-muted text-center py-4">Aucune fuite critique détectée.</p>';
+				}
 					
 					if (!yearStats[breachYear]) {
 						yearStats[breachYear] = { count: 0, pwnCount: 0 };
