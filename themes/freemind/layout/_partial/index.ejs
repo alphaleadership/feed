@@ -69,7 +69,21 @@
 			</div>
 		</div>
 	</div>
-
+	<div class="category-stats card shadow-sm mb-4">
+		<div class="card-header bg-dark text-white">
+			<h3 class="mb-0">Entreprises ayant le plus de fuites </h3>
+			<small class="text-muted" id="breach-count">Chargement...</small>
+		</div>
+		<div class="card-body">
+			<div class="row" id="category-container">
+				<div class="col-12 text-center py-5">
+					<div class="spinner-border text-primary" role="status">
+						<span class="visually-hidden">Chargement...</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<!-- Données les plus fuitées -->
 	<div class="dataclass-stats card shadow-sm mb-4" style="background: linear-gradient(135deg, #2e1a1a 0%, #3e1616 100%); border: none;">
 		<div class="card-header bg-dark text-white" style="background: rgba(0,0,0,0.5) !important; border-bottom: 2px solid rgba(255,255,255,0.1);">
@@ -103,21 +117,7 @@
 	</div>
 
 	<!-- Entreprises ayant le plus de fuites -->
-	<div class="category-stats card shadow-sm mb-4">
-		<div class="card-header bg-dark text-white">
-			<h3 class="mb-0">Entreprises ayant le plus de fuites </h3>
-			<small class="text-muted" id="breach-count">Chargement...</small>
-		</div>
-		<div class="card-body">
-			<div class="row" id="category-container">
-				<div class="col-12 text-center py-5">
-					<div class="spinner-border text-primary" role="status">
-						<span class="visually-hidden">Chargement...</span>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	
 
 	<script>
 		const invalidcategory=["hygiène numérique","sécurité","cybersécurité","cybercriminalité","cyberguerre"]
