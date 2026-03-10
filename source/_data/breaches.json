@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-10T12:40:33.397Z",
+  "lastUpdated": "2026-03-10T12:59:04.193Z",
   "totalBreaches": 1419,
   "breaches": [
     {
@@ -306,6 +306,7 @@
       "DataClasses": [
         "1000+ tables",
         "Adresses email",
+        "Adresses postales",
         "Documents (PDF",
         "Données financières et industrielles",
         "TXT)",
@@ -425,6 +426,7 @@
       "Description": "Package de 4 Go revendiqué par LAPSUS$ le 6 mars 2026, présenté comme une image système complète. L'ensemble permettrait de transformer un ordinateur en un poste de travail pleinement opérationnel pour la Police ou la Gendarmerie, incluant les accès VPN, les logiciels métiers pour consulter le TAJ et rédiger des procédures, ainsi que les outils pour configurer les smartphones 'Neo' des agents.\n\nStatut: Revendiquée\nType de service: Ministère de l'Intérieur",
       "DataClasses": [
         "Adresses IP",
+        "Adresses postales",
         "Cartographie des ports réseau pour caméras-piétons",
         "Certificats d'autorité",
         "Clés cryptographiques)",
@@ -606,6 +608,7 @@
       "Description": "Compromission d'un administrateur résultant en la fuite d'une archive de ~29 Go (plus de 5 400 fichiers), exposant des données sur ~6,6 millions d'utilisateurs. Le dump contient le code source complet (.php, .js), les bases de données (.sql), et révèle des pseudonymes, l'historique P2P complet, des identifiants internes en clair (mots de passe, clés SSH) et des scripts malveillants (infostealers).\n\nStatut: Confirmée\nType de service: Tracker BitTorrent",
       "DataClasses": [
         "Adresses IP",
+        "Adresses postales",
         "Bases de données (SQL",
         "Clés SSH",
         "Code source complet (backend",
@@ -1130,6 +1133,7 @@
         "Abonnements aux listes de diffusion)",
         "Adresses IP",
         "Adresses email",
+        "Adresses postales",
         "Affectation",
         "Corps",
         "Date de fin de contrat",
@@ -2907,6 +2911,7 @@
       "Description": "Environ 31 millions de lignes de données (réservations) exfiltrées début 2026. La fuite, revendiquée par 'DumpSec', impacte les clients de nombreuses marques partenaires dont Adidas Originals, Apple, Bonobo, Bréal, Cache Cache, Creeks, Kimbaloo, Lacoste, Licencias, Logitech, Morgan, Nike, Olyne, Pimkie, Sandro, Trappeur.\n\nStatut: Revendiquée\nType de service: Plateforme omnicanale de gestion de stock",
       "DataClasses": [
         "Adresses email",
+        "Adresses postales",
         "Attributs",
         "Date d'expiration)",
         "Détails de réservation (ID de réservation",
@@ -4759,6 +4764,7 @@
       "Description": "1 142 élèves inscrits à l'Association Sportive et 8 intervenants/professeurs. Données exfiltrées via une opération de scraping attribuée à RavenSec.\n\nStatut: Confirmée\nType de service: Éducation",
       "DataClasses": [
         "Adresses email",
+        "Adresses postales",
         "Classes de la 6ème à la Terminale",
         "Données de géolocalisation",
         "Format JJ-MM-AAAA",
@@ -4797,6 +4803,7 @@
       "Description": "553 profils d'élèves membres de l'Association Sportive. Données extraites d'une plateforme centralisée de gestion scolaire.\n\nStatut: Confirmée\nType de service: Éducation",
       "DataClasses": [
         "Adresses IP",
+        "Adresses postales",
         "Classes de la 6ème à la 3ème",
         "Membre de l'AS Saint-Charles",
         "Noms",
@@ -7353,6 +7360,7 @@
       "DataClasses": [
         "Adresses IP",
         "Adresses email",
+        "Adresses postales",
         "Classe",
         "Dates de naissance",
         "Groupe",
@@ -12593,6 +12601,7 @@
       "DataClasses": [
         "2020-2021",
         "Adresses IP",
+        "Adresses postales",
         "Dates de naissance",
         "NIR",
         "Noms",
@@ -54464,8 +54473,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-10T12:40:27.282Z",
-      "ModifiedDate": "2026-03-10T12:40:27.282Z",
+      "AddedDate": "2026-03-10T12:58:58.526Z",
+      "ModifiedDate": "2026-03-10T12:58:58.526Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -54481,8 +54490,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-10T12:40:27.307Z",
-      "ModifiedDate": "2026-03-10T12:40:27.307Z",
+      "AddedDate": "2026-03-10T12:58:58.551Z",
+      "ModifiedDate": "2026-03-10T12:58:58.551Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -54498,8 +54507,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-10T12:40:27.334Z",
-      "ModifiedDate": "2026-03-10T12:40:27.334Z",
+      "AddedDate": "2026-03-10T12:58:58.578Z",
+      "ModifiedDate": "2026-03-10T12:58:58.578Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -54515,8 +54524,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-10T12:40:27.354Z",
-      "ModifiedDate": "2026-03-10T12:40:27.354Z",
+      "AddedDate": "2026-03-10T12:58:58.598Z",
+      "ModifiedDate": "2026-03-10T12:58:58.598Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -54532,8 +54541,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-10T12:40:27.360Z",
-      "ModifiedDate": "2026-03-10T12:40:27.360Z",
+      "AddedDate": "2026-03-10T12:58:58.604Z",
+      "ModifiedDate": "2026-03-10T12:58:58.604Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
