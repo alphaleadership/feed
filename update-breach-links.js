@@ -18,20 +18,27 @@ db.breaches.forEach((breach, index) => {
     return;
   }
   
+  // Pour les fuites bonjourlafuite, utiliser le champ path comme lien
+  if (breach.lien && breach.lien.includes('bonjourlafuite.eu.org') && breach.path) {
+    // Construire l'URL bonjourlafuite
+    breach.lien = `${breach.path}`;
+    updatedCount++;
+    console.log(`  ✓ Lien bonjourlafuite mis à jour pour: ${breach.Name || breach.Title} ${breach.lien}`);
+  }
   // Vérifier si la source commence par https et n'est pas une image
-  if (breach.source && typeof breach.source === 'string' && breach.source.startsWith('https')) {
+  else if (breach.source && typeof breach.source === 'string' && breach.source.startsWith('https')) {
     // Vérifier que ce n'est pas une image ou un PDF
     const isImage = /\.(png|jpg|jpeg|gif|webp|svg)$/i.test(breach.source);
     const isPdf = /\.pdf$/i.test(breach.source);
     
-
+    if (!isImage && !isPdf) {
       // C'est une URL valide vers une page web
       if (!breach.lien || breach.lien === 'undefined' || breach.lien.includes('undefined') || breach.lien.includes('haveibeenpwned.com')) {
         breach.lien = breach.source;
         updatedCount++;
         console.log(`  ✓ Lien mis à jour pour: ${breach.Name || breach.Title}`);
       }
-    
+    }
   }
 });
 
