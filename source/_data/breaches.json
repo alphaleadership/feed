@@ -1,7 +1,32 @@
 {
-  "lastUpdated": "2026-03-10T15:11:21.361Z",
-  "totalBreaches": 1419,
+  "lastUpdated": "2026-03-10T15:13:25.303Z",
+  "totalBreaches": 1420,
   "breaches": [
+    {
+      "Name": "Vivaticket",
+      "Title": "Vivaticket",
+      "Domain": "vivaticket.com",
+      "BreachDate": "2026-03-10",
+      "AddedDate": "2026-03-10T15:13:10.237Z",
+      "ModifiedDate": "2026-03-10T15:13:10.237Z",
+      "PwnCount": 0,
+      "Description": "Vivaticket est une entreprise spécialisée dans les systèmes de billetterie intégrée et de contrôle d'accès pour les secteurs du spectacle, du sport, de la culture et des loisirs. Le 2 mars 2026, la société a notifié ses clients d'une attaque par ransomware ayant chiffré les serveurs de sa solution GAT. L'exfiltration de données n'est pas confirmée à ce stade.\n\nStatut: Ransomware\nType de service: Systèmes de billetterie",
+      "DataClasses": [
+        "Nom",
+        "Prénom",
+        "Adresse email",
+        "Données de compte utilisateur"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://shopcdn.vivaticket.com/shop/wms_images/logos/fbViva.jpg",
+      "slug": "vivaticket",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/vivaticket-leak-fuites-de-donnees.png"
+    },
     {
       "Name": "Fédération Omnisports ASPTT",
       "Title": "Fédération Omnisports ASPTT",
@@ -188,7 +213,8 @@
         "Numéros de téléphone",
         "Signatures)",
         "Âges",
-        "État civil (passeports"
+        "État civil (passeports",
+        "Passeport"
       ],
       "IsSensitive": false,
       "IsVerified": true,
@@ -623,7 +649,8 @@
         "TSV)",
         "Transactions PayPal)",
         "Uploads)",
-        "Âges"
+        "Âges",
+        "Mots de passe"
       ],
       "IsSensitive": false,
       "IsVerified": true,
@@ -855,7 +882,8 @@
         "Professions",
         "Prénoms",
         "Renseignements cliniques)",
-        "Résultats d'analyses"
+        "Résultats d'analyses",
+        "Données médicales"
       ],
       "IsSensitive": false,
       "IsVerified": true,
@@ -2398,7 +2426,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "IBAN"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -2418,8 +2448,8 @@
       "isNSFW": false,
       "oldindex": 1346,
       "title": "direction générale des finances publiques fuite du 2026-2-18",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "espace ce fuite du 2026-2-18",
@@ -2433,7 +2463,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Mots de passe"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -2453,8 +2485,8 @@
       "isNSFW": false,
       "oldindex": 1347,
       "title": "espace ce fuite du 2026-2-18",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "Cyrillus",
@@ -2832,7 +2864,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Numéros de sécurité sociale"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -2852,8 +2886,8 @@
       "isNSFW": false,
       "oldindex": 1341,
       "title": "cnrs fuite du 2026-2-16",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "Adidas",
@@ -3213,7 +3247,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Passeport"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -3233,8 +3269,8 @@
       "isNSFW": false,
       "oldindex": 1333,
       "title": "voyage privé fuite du 2026-2-13",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "Kimsufi (OVHcloud)",
@@ -3391,7 +3427,8 @@
         "Government issued IDs",
         "Noms",
         "Numéros de téléphone",
-        "Passport numbers"
+        "Passport numbers",
+        "Passport"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -3594,7 +3631,8 @@
         "Identifiants de connexion (Mots de passe stockés en clair",
         "Noms",
         "Numéros de téléphone",
-        "Prénoms"
+        "Prénoms",
+        "Mots de passe"
       ],
       "IsSensitive": false,
       "IsVerified": true,
@@ -3627,7 +3665,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "IBAN"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -3647,8 +3687,8 @@
       "isNSFW": false,
       "oldindex": 1316,
       "title": "aïkan fuite du 2026-2-9",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "commission européenne fuite du 2026-2-9",
@@ -3767,7 +3807,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Numéro de carte"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -3787,8 +3829,8 @@
       "isNSFW": false,
       "oldindex": 1320,
       "title": "pharmashopi fuite du 2026-2-9",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "sumsub fuite du 2026-2-9",
@@ -4105,7 +4147,8 @@
         "Recettes",
         "Signatures",
         "Zones MRZ)",
-        "Âges"
+        "Âges",
+        "Passeport"
       ],
       "IsSensitive": false,
       "IsVerified": true,
@@ -5105,7 +5148,9 @@
         "Dates of birth",
         "Noms",
         "Places of birth",
-        "Salutations"
+        "Salutations",
+        "Mots de passe",
+        "Données de santé"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -5123,8 +5168,8 @@
       "isNSFW": false,
       "oldindex": 1282,
       "title": "Association Nationale des Premiers Secours",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "Provecho",
@@ -5279,7 +5324,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Mots de passe"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -5299,8 +5346,8 @@
       "isNSFW": false,
       "oldindex": 1276,
       "title": "match group (hinge fuite du 2026-1-29",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "réseau.site fuite du 2026-1-29",
@@ -5314,7 +5361,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Mots de passe"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -5334,8 +5383,8 @@
       "isNSFW": false,
       "oldindex": 1277,
       "title": "réseau.site fuite du 2026-1-29",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "sfr fuite du 2026-1-29",
@@ -5349,7 +5398,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "IBAN"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -5369,8 +5420,8 @@
       "isNSFW": false,
       "oldindex": 1278,
       "title": "sfr fuite du 2026-1-29",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "verychic fuite du 2026-1-29",
@@ -5585,7 +5636,10 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Mots de passe",
+        "IBAN"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -5605,8 +5659,8 @@
       "isNSFW": false,
       "oldindex": 1266,
       "title": "11 agences immobilières fuite du 2026-1-28",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "centre d’imagerie médicale de puteaux fuite du 2026-1-28",
@@ -5655,7 +5709,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "IBAN"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -5675,8 +5731,8 @@
       "isNSFW": false,
       "oldindex": 1268,
       "title": "coriolis fuite du 2026-1-28",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "le cnam fuite du 2026-1-28",
@@ -5830,7 +5886,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Mots de passe"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -5850,8 +5908,8 @@
       "isNSFW": false,
       "oldindex": 1273,
       "title": "techni fuite du 2026-1-28",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "ugsel fuite du 2026-1-28",
@@ -5958,7 +6016,8 @@
         "SIRET",
         "Statut actif",
         "Types de produits)",
-        "Âges"
+        "Âges",
+        "Mots de passe"
       ],
       "IsSensitive": false,
       "IsVerified": true,
@@ -5976,8 +6035,8 @@
       "index": 1280,
       "title": "Techni-Contact",
       "oldindex": 1264,
-      "IsCritical": false,
-      "SeverityLevel": "MODÉRÉ"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "AutoForever",
@@ -6289,7 +6348,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Mots de passe"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -6309,8 +6370,8 @@
       "isNSFW": false,
       "oldindex": 1253,
       "title": "guiot de bourg fuite du 2026-1-24",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "movida fuite du 2026-1-24",
@@ -6324,7 +6385,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "IBAN"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -6344,8 +6407,8 @@
       "isNSFW": false,
       "oldindex": 1254,
       "title": "movida fuite du 2026-1-24",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "panorama banques fuite du 2026-1-24",
@@ -6709,7 +6772,10 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Mots de passe",
+        "IBAN"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -6729,8 +6795,8 @@
       "isNSFW": false,
       "oldindex": 1247,
       "title": "orpi fuite du 2026-1-23",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "too easy fuite du 2026-1-23",
@@ -6889,7 +6955,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Numéros de sécurité sociale"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -6909,8 +6977,8 @@
       "isNSFW": false,
       "oldindex": 1237,
       "title": "ensam fuite du 2026-1-21",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "École nationale supérieure d'arts et métiers (ENSAM)",
@@ -7279,7 +7347,10 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Passeport",
+        "IBAN"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -7299,8 +7370,8 @@
       "isNSFW": false,
       "oldindex": 1225,
       "title": "euronature fuite du 2026-1-18",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "TooEasy Agence Web",
@@ -7530,7 +7601,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Numéros de sécurité sociale"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -7550,8 +7623,8 @@
       "isNSFW": false,
       "oldindex": 1211,
       "title": "agro paris tech fuite du 2026-1-15",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "fédération française de montagne escalade fuite du 2026-1-15",
@@ -7740,7 +7813,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "IBAN"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -7760,8 +7835,8 @@
       "isNSFW": false,
       "oldindex": 1217,
       "title": "total énergies fuite du 2026-1-15",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "LBP Granville (Le Bureau de Prospection)",
@@ -7950,7 +8025,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Passeport"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -7970,8 +8047,8 @@
       "isNSFW": false,
       "oldindex": 1208,
       "title": "eurail fuite du 2026-1-13",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "zurflüh fuite du 2026-1-13",
@@ -8132,7 +8209,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Numéros de sécurité sociale"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -8152,8 +8231,8 @@
       "isNSFW": false,
       "oldindex": 1205,
       "title": "monlogicielmedical.com fuite du 2026-1-12",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "nephael.com & chloesanchez.com fuite du 2026-1-12",
@@ -8167,7 +8246,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Mots de passe"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -8187,8 +8268,8 @@
       "isNSFW": false,
       "oldindex": 1206,
       "title": "nephael.com & chloesanchez.com fuite du 2026-1-12",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "relais colis fuite du 2026-1-12",
@@ -8239,7 +8320,8 @@
         "Adresses postales",
         "Dates de naissance",
         "Noms",
-        "Numéros de téléphone"
+        "Numéros de téléphone",
+        "Mots de passe"
       ],
       "IsSensitive": false,
       "IsVerified": true,
@@ -8257,8 +8339,8 @@
       "index": 1213,
       "title": "Audiophonics.fr",
       "oldindex": 1198,
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "ACRV.FR (Agence web)",
@@ -8517,7 +8599,8 @@
         "Employers",
         "Noms",
         "Numéros de téléphone",
-        "Professions"
+        "Professions",
+        "Mots de passe"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -8535,8 +8618,8 @@
       "isNSFW": false,
       "oldindex": 1194,
       "title": "Betterment",
-      "IsCritical": false,
-      "SeverityLevel": "MODÉRÉ"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "Apec Région Occitanie (Montpellier / Nîmes / Toulouse)",
@@ -8819,7 +8902,8 @@
         "Adresses postales",
         "Données de géolocalisation",
         "Noms",
-        "Numéros de téléphone"
+        "Numéros de téléphone",
+        "Mots de passe"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -8837,8 +8921,8 @@
       "isNSFW": false,
       "oldindex": 1182,
       "title": "Instagram",
-      "IsCritical": false,
-      "SeverityLevel": "MODÉRÉ"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "PaneraBread",
@@ -8889,7 +8973,10 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "IBAN",
+        "BIC"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -8909,8 +8996,8 @@
       "isNSFW": false,
       "oldindex": 1184,
       "title": "corse gsm fuite du 2026-1-7",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "easycash fuite du 2026-1-7",
@@ -9627,7 +9714,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Numéros de sécurité sociale"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -9647,8 +9736,8 @@
       "isNSFW": false,
       "oldindex": 1170,
       "title": "afppcd fuite du 2026-1-2",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "trescal fuite du 2026-1-2",
@@ -9781,7 +9870,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "IBAN"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -9801,8 +9892,8 @@
       "isNSFW": false,
       "oldindex": 1167,
       "title": "institut polytechnique de paris fuite du 2025-12-31",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "école nationale de la statistique et de l’analyse de l’information fuite du 2025-12-31",
@@ -9816,7 +9907,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Cvv"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -9836,8 +9929,8 @@
       "isNSFW": false,
       "oldindex": 1168,
       "title": "école nationale de la statistique et de l’analyse de l’information fuite du 2025-12-31",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "CLYO Systems",
@@ -10130,7 +10223,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Numéros de sécurité sociale"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -10150,8 +10245,8 @@
       "isNSFW": false,
       "oldindex": 1155,
       "title": "allegro musique fuite du 2025-12-28",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "batterie de portable fuite du 2025-12-28",
@@ -10410,7 +10505,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "IBAN"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -10430,8 +10527,8 @@
       "isNSFW": false,
       "oldindex": 1154,
       "title": "paytrip fuite du 2025-12-27",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "commune de lens fuite du 2025-12-26",
@@ -10696,7 +10793,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Mots de passe"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -10716,8 +10815,8 @@
       "isNSFW": false,
       "oldindex": 1140,
       "title": "123 casting fuite du 2025-12-22",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "altitude infra fuite du 2025-12-22",
@@ -10766,7 +10865,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "IBAN"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -10786,8 +10887,8 @@
       "isNSFW": false,
       "oldindex": 1142,
       "title": "justice.fr fuite du 2025-12-22",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "chronopost fuite du 2025-12-20",
@@ -10872,7 +10973,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Mots de passe"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -10892,8 +10995,8 @@
       "isNSFW": false,
       "oldindex": 1133,
       "title": "france connect fuite du 2025-12-19",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "la licra fuite du 2025-12-19",
@@ -10907,7 +11010,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Mots de passe"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -10927,8 +11032,8 @@
       "isNSFW": false,
       "oldindex": 1134,
       "title": "la licra fuite du 2025-12-19",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "ministère des sports fuite du 2025-12-19",
@@ -10942,7 +11047,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Numéros de sécurité sociale"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -10962,8 +11069,8 @@
       "isNSFW": false,
       "oldindex": 1135,
       "title": "ministère des sports fuite du 2025-12-19",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "red by sfr fuite du 2025-12-19",
@@ -11386,7 +11493,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Mots de passe"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -11406,8 +11515,8 @@
       "isNSFW": false,
       "oldindex": 1122,
       "title": "euromatik fuite du 2025-12-12",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "france ventilation fuite du 2025-12-12",
@@ -11421,7 +11530,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Numéros de carte bancaire"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -11441,8 +11552,8 @@
       "isNSFW": false,
       "oldindex": 1123,
       "title": "france ventilation fuite du 2025-12-12",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "fédération française de cyclisme fuite du 2025-12-10",
@@ -11561,7 +11672,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Numéros de sécurité sociale"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -11581,8 +11694,8 @@
       "isNSFW": false,
       "oldindex": 1113,
       "title": "asaf & afps fuite du 2025-12-5",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "cuisinella fuite du 2025-12-5",
@@ -11778,7 +11891,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Numéros de sécurité sociale"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -11798,8 +11913,8 @@
       "isNSFW": false,
       "oldindex": 1111,
       "title": "médecin direct fuite du 2025-12-3",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "MédecinDirect (Teladoc Health)",
@@ -11888,7 +12003,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Numéros de sécurité sociale"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -11908,8 +12025,8 @@
       "isNSFW": false,
       "oldindex": 1108,
       "title": "france travail fuite du 2025-12-1",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "France Travail (Missions Locales / Jeunes)",
@@ -12069,7 +12186,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Données de santé"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -12089,8 +12208,8 @@
       "isNSFW": false,
       "oldindex": 1105,
       "title": "msp givors presqu’île fuite du 2025-11-27",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "La Rochelle (via SynBird)",
@@ -12108,7 +12227,8 @@
         "Noms",
         "Numéros de téléphone",
         "Prénoms",
-        "Type de demande administrative"
+        "Type de demande administrative",
+        "Passeport"
       ],
       "IsSensitive": false,
       "IsVerified": true,
@@ -12126,8 +12246,8 @@
       "index": 1120,
       "title": "La Rochelle (via SynBird)",
       "oldindex": 1106,
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "ag2r la mondiale fuite du 2025-11-25",
@@ -12141,7 +12261,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Numéros de sécurité sociale"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -12161,8 +12283,8 @@
       "isNSFW": false,
       "oldindex": 1096,
       "title": "ag2r la mondiale fuite du 2025-11-25",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "clinique du millénaire fuite du 2025-11-25",
@@ -12176,7 +12298,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Données de santé"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -12196,8 +12320,8 @@
       "isNSFW": false,
       "oldindex": 1097,
       "title": "clinique du millénaire fuite du 2025-11-25",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "fédération française de danse fuite du 2025-11-25",
@@ -12211,7 +12335,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Mots de passe"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -12231,8 +12357,8 @@
       "isNSFW": false,
       "oldindex": 1098,
       "title": "fédération française de danse fuite du 2025-11-25",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "itelis fuite du 2025-11-25",
@@ -12246,7 +12372,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Numéros de sécurité sociale"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -12266,8 +12394,8 @@
       "isNSFW": false,
       "oldindex": 1099,
       "title": "itelis fuite du 2025-11-25",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "msp du pré vicinal fuite du 2025-11-25",
@@ -12281,7 +12409,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Données de santé"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -12301,8 +12431,8 @@
       "isNSFW": false,
       "oldindex": 1100,
       "title": "msp du pré vicinal fuite du 2025-11-25",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "proxiserve fuite du 2025-11-25",
@@ -12389,7 +12519,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Numéros de sécurité sociale"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -12409,8 +12541,8 @@
       "isNSFW": false,
       "oldindex": 1089,
       "title": "aprs fuite du 2025-11-24",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "mairie de chatou fuite du 2025-11-24",
@@ -13065,7 +13197,10 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Numéros de sécurité sociale",
+        "IBAN"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -13085,8 +13220,8 @@
       "isNSFW": false,
       "oldindex": 1078,
       "title": "pajemploi fuite du 2025-11-17",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "Pajemploi (Urssaf)",
@@ -13393,7 +13528,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Mots de passe"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -13413,8 +13550,8 @@
       "isNSFW": false,
       "oldindex": 1069,
       "title": "fédération française de cardiologie fuite du 2025-11-11",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "oui heberg fuite du 2025-11-10",
@@ -13500,7 +13637,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Mots de passe"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -13520,8 +13659,8 @@
       "isNSFW": false,
       "oldindex": 1065,
       "title": "mym fuite du 2025-11-7",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "Zilvia",
@@ -13616,7 +13755,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Numéros de sécurité sociale"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -13636,8 +13777,8 @@
       "isNSFW": false,
       "oldindex": 1061,
       "title": "france travail fuite du 2025-10-29",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "France Travail (Détournement KYC)",
@@ -13938,7 +14079,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Numéros de sécurité sociale"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -13958,8 +14101,8 @@
       "isNSFW": true,
       "oldindex": 1053,
       "title": "agence régionale de santé des hauts fuite du 2025-10-14",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "lycées des hauts fuite du 2025-10-12",
@@ -14153,7 +14296,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Numéros de carte bancaire"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -14173,8 +14318,8 @@
       "isNSFW": false,
       "oldindex": 1047,
       "title": "discord fuite du 2025-10-4",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "CanadianTire",
@@ -14196,7 +14341,8 @@
         "Mots de passe",
         "Noms",
         "Numéros de carte bancaire",
-        "Numéros de téléphone"
+        "Numéros de téléphone",
+        "Comptes bancaires"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -14334,7 +14480,10 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Numéros de sécurité sociale",
+        "Données médicales"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -14354,8 +14503,8 @@
       "isNSFW": false,
       "oldindex": 1042,
       "title": "inovie labosud fuite du 2025-9-23",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "digital charging solutions fuite du 2025-9-20",
@@ -14474,7 +14623,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Mots de passe"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -14494,8 +14645,8 @@
       "isNSFW": false,
       "oldindex": 1038,
       "title": "plex fuite du 2025-9-9",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "WIRED",
@@ -14629,7 +14780,8 @@
         "Government issued IDs",
         "Income levels",
         "Noms",
-        "Âges"
+        "Âges",
+        "Numéros de sécurité sociale"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -14647,8 +14799,8 @@
       "isNSFW": false,
       "oldindex": 1034,
       "title": "Prosper",
-      "IsCritical": false,
-      "SeverityLevel": "MODÉRÉ"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "ArtistsNClients",
@@ -14740,7 +14892,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Numéro de carte"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -14760,8 +14914,8 @@
       "isNSFW": false,
       "oldindex": 1031,
       "title": "auchan fuite du 2025-8-21",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "france link interactive fuite du 2025-8-13",
@@ -15063,7 +15217,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Numéros de sécurité sociale"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -15083,8 +15239,8 @@
       "isNSFW": false,
       "oldindex": 1022,
       "title": "optic 2000 fuite du 2025-8-8",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "air france fuite du 2025-8-6",
@@ -15133,7 +15289,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "IBAN"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -15153,8 +15311,8 @@
       "isNSFW": false,
       "oldindex": 1021,
       "title": "bouygues telecom fuite du 2025-8-6",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "pandora fuite du 2025-8-5",
@@ -15209,7 +15367,8 @@
         "Comptes bancaires",
         "Dates of birth",
         "Noms",
-        "Numéros de téléphone"
+        "Numéros de téléphone",
+        "IBAN"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -15227,8 +15386,8 @@
       "isNSFW": false,
       "oldindex": 1018,
       "title": "Bouygues Telecom",
-      "IsCritical": false,
-      "SeverityLevel": "MODÉRÉ"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "ThePi-Hole",
@@ -15496,7 +15655,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "IBAN"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -15516,8 +15677,8 @@
       "isNSFW": false,
       "oldindex": 1009,
       "title": "centre national de la fonction publique territoriale fuite du 2025-7-11",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "louis vuitton fuite du 2025-7-11",
@@ -15881,7 +16042,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "NIR"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -15901,8 +16064,8 @@
       "isNSFW": false,
       "oldindex": 1001,
       "title": "hôpital privé de la loire fuite du 2025-6-21",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "DataTrollStealerLogs",
@@ -16139,7 +16302,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Mots de passe"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -16159,8 +16324,8 @@
       "isNSFW": false,
       "oldindex": 994,
       "title": "kaviari fuite du 2025-6-3",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "ColoCrossing",
@@ -16282,7 +16447,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Données médicales"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -16302,8 +16469,8 @@
       "isNSFW": false,
       "oldindex": 989,
       "title": "pulsy fuite du 2025-5-13",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "Pulsy (GRADeS Grand Est)",
@@ -16504,7 +16671,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Mots de passe"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -16524,8 +16693,8 @@
       "isNSFW": false,
       "oldindex": 982,
       "title": "carrefour mobile fuite du 2025-4-24",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "INDIGO (stationnement / Indigo Neo)",
@@ -17191,7 +17360,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Mots de passe"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -17211,8 +17382,8 @@
       "isNSFW": false,
       "oldindex": 965,
       "title": "centrale nantes fuite du 2025-3-26",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "TroyHuntMailchimpList",
@@ -17263,7 +17434,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Numéros de sécurité sociale"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -17283,8 +17456,8 @@
       "isNSFW": false,
       "oldindex": 962,
       "title": "cerballiance fuite du 2025-3-25",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "Cerballiance (PACA)",
@@ -17774,7 +17947,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "IBAN"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -17794,8 +17969,8 @@
       "isNSFW": false,
       "oldindex": 947,
       "title": "zephir fuite du 2025-2-28",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "école nationale de la sécurité fuite du 2025-2-28",
@@ -17809,7 +17984,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Numéros de sécurité sociale"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -17829,8 +18006,8 @@
       "isNSFW": false,
       "oldindex": 948,
       "title": "école nationale de la sécurité fuite du 2025-2-28",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "Zéphir (Groupe Zéphir)",
@@ -17880,7 +18057,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Permis de conduire"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -17900,8 +18079,8 @@
       "isNSFW": false,
       "oldindex": 945,
       "title": "nord emploi fuite du 2025-2-26",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "OrangeRomania",
@@ -17987,7 +18166,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Mots de passe"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -18007,8 +18188,8 @@
       "isNSFW": false,
       "oldindex": 942,
       "title": "service départemental d'incendie et de secours de la vienne fuite du 2025-2-19",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "sport découverte fuite du 2025-2-17",
@@ -18497,7 +18678,10 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Numéros de sécurité sociale",
+        "IBAN"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -18517,8 +18701,8 @@
       "isNSFW": false,
       "oldindex": 928,
       "title": "aides fuite du 2025-1-27",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "DoxbinScrape",
@@ -18815,7 +18999,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "IBAN"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -18835,8 +19021,8 @@
       "isNSFW": false,
       "oldindex": 921,
       "title": "kiabi fuite du 2025-1-14",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "StealerLogsJan2025",
@@ -19500,7 +19686,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Mots de passe"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -19520,8 +19708,8 @@
       "isNSFW": false,
       "oldindex": 900,
       "title": "ze camping fuite du 2024-11-27",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "jvs fuite du 2024-11-26",
@@ -19570,7 +19758,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "IBAN"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -19590,8 +19780,8 @@
       "isNSFW": false,
       "oldindex": 898,
       "title": "sfr fuite du 2024-11-24",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "SeniorDating",
@@ -19797,7 +19987,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Numéro de carte"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -19817,8 +20009,8 @@
       "isNSFW": false,
       "oldindex": 890,
       "title": "auchan fuite du 2024-11-19",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "direct assurance fuite du 2024-11-19",
@@ -19832,7 +20024,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "IBAN"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -19852,8 +20046,8 @@
       "isNSFW": false,
       "oldindex": 891,
       "title": "direct assurance fuite du 2024-11-19",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "mediboard fuite du 2024-11-19",
@@ -20120,7 +20314,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Numéro de carte"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -20140,8 +20336,8 @@
       "isNSFW": false,
       "oldindex": 883,
       "title": "picard fuite du 2024-11-12",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "Tibber",
@@ -20273,7 +20469,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "IBAN"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -20293,8 +20491,8 @@
       "isNSFW": false,
       "oldindex": 879,
       "title": "free fuite du 2024-10-25",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "ornikar fuite du 2024-10-24",
@@ -20391,7 +20589,8 @@
         "Dates of birth",
         "Genre",
         "Noms",
-        "Numéros de téléphone"
+        "Numéros de téléphone",
+        "IBAN"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -20409,8 +20608,8 @@
       "isNSFW": false,
       "oldindex": 876,
       "title": "Free",
-      "IsCritical": false,
-      "SeverityLevel": "MODÉRÉ"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "Earth2",
@@ -20427,7 +20626,8 @@
       "DataClasses": [
         "Adresses email",
         "Adresses postales",
-        "Noms"
+        "Noms",
+        "Mots de passe"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -20445,8 +20645,8 @@
       "isNSFW": false,
       "oldindex": 875,
       "title": "Earth 2",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "Finsure",
@@ -20464,7 +20664,8 @@
         "Adresses email",
         "Adresses postales",
         "Noms",
-        "Numéros de téléphone"
+        "Numéros de téléphone",
+        "Mots de passe"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -20482,8 +20683,8 @@
       "isNSFW": false,
       "oldindex": 873,
       "title": "Finsure",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "FlatEarthDave",
@@ -20763,7 +20964,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "IBAN"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -20783,8 +20986,8 @@
       "isNSFW": false,
       "oldindex": 866,
       "title": "red by sfr fuite du 2024-9-18",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "Muah",
@@ -20835,7 +21038,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Numéros de sécurité sociale"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -20855,8 +21060,8 @@
       "isNSFW": false,
       "oldindex": 864,
       "title": "assurance retraite fuite du 2024-9-13",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "InstitutoNacionalDeDeportesDeChile",
@@ -21361,7 +21566,8 @@
         "Adresses postales",
         "Noms",
         "Numéros de téléphone",
-        "Warranty claims"
+        "Warranty claims",
+        "Numéros de sécurité sociale"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -21379,8 +21585,8 @@
       "isNSFW": false,
       "oldindex": 850,
       "title": "MSI",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "LuLu",
@@ -21876,7 +22082,8 @@
         "Adresses email",
         "Adresses postales",
         "Noms",
-        "Photos"
+        "Photos",
+        "Numéros de carte bancaire"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -21894,8 +22101,8 @@
       "isNSFW": true,
       "oldindex": 837,
       "title": "mSpy (2024)",
-      "IsCritical": false,
-      "SeverityLevel": "ÉLEVÉ"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "AdvanceAutoParts",
@@ -22525,7 +22732,8 @@
         "Genre",
         "Government issued IDs",
         "Noms",
-        "Numéros de téléphone"
+        "Numéros de téléphone",
+        "Numéros de sécurité sociale"
       ],
       "IsVerified": false,
       "IsFabricated": false,
@@ -22543,8 +22751,8 @@
       "isNSFW": false,
       "oldindex": 821,
       "title": "National Public Data",
-      "IsCritical": false,
-      "SeverityLevel": "MODÉRÉ"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "SalvadoranCitizens",
@@ -22822,7 +23030,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Numéros de sécurité sociale"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -22842,8 +23052,8 @@
       "isNSFW": false,
       "oldindex": 814,
       "title": "france travail fuite du 2024-3-8",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "GiantTiger",
@@ -23274,7 +23484,9 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Numéros de sécurité sociale"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -23294,8 +23506,8 @@
       "isNSFW": false,
       "oldindex": 801,
       "title": "almerys fuite du 2024-2-6",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "SurveyLama",
@@ -24113,7 +24325,8 @@
       "DisclosureUrl": null,
       "DataClasses": [
         "Adresses email",
-        "Adresses postales"
+        "Adresses postales",
+        "Comptes bancaires"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -24131,8 +24344,8 @@
       "isNSFW": false,
       "oldindex": 779,
       "title": "Manipulated Caiman",
-      "IsCritical": false,
-      "SeverityLevel": "MODÉRÉ"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "Rightbiz",
@@ -24421,7 +24634,8 @@
         "Genre",
         "Government issued IDs",
         "Noms",
-        "Numéros de téléphone"
+        "Numéros de téléphone",
+        "Numéros de sécurité sociale"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -24439,8 +24653,8 @@
       "isNSFW": false,
       "oldindex": 770,
       "title": "Jobzone",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "RentoMojo",
@@ -26607,7 +26821,8 @@
         "Adresses email",
         "Adresses postales",
         "Mots de passe",
-        "Noms"
+        "Noms",
+        "Numéros de carte bancaire"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -27034,7 +27249,8 @@
         "Genre",
         "Government issued IDs",
         "Noms",
-        "Passport numbers"
+        "Passport numbers",
+        "Passport"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -27566,7 +27782,8 @@
         "Adresses email",
         "Adresses postales",
         "Mots de passe",
-        "Noms"
+        "Noms",
+        "Numéros de carte bancaire"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -28008,7 +28225,8 @@
         "Adresses postales",
         "Genre",
         "Mots de passe",
-        "Noms"
+        "Noms",
+        "BIC"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -28043,7 +28261,8 @@
       "DisclosureUrl": null,
       "DataClasses": [
         "Adresses email",
-        "Adresses postales"
+        "Adresses postales",
+        "Mots de passe"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -28061,8 +28280,8 @@
       "isNSFW": false,
       "oldindex": 678,
       "title": "CoinMarketCap",
-      "IsCritical": false,
-      "SeverityLevel": "MODÉRÉ"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "ActMobile",
@@ -28079,7 +28298,8 @@
       "DataClasses": [
         "Adresses IP",
         "Adresses email",
-        "Adresses postales"
+        "Adresses postales",
+        "Mots de passe"
       ],
       "IsVerified": false,
       "IsFabricated": false,
@@ -28097,8 +28317,8 @@
       "isNSFW": false,
       "oldindex": 677,
       "title": "ActMobile",
-      "IsCritical": false,
-      "SeverityLevel": "MODÉRÉ"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "Protemps",
@@ -28237,7 +28457,8 @@
         "Adresses postales",
         "Noms",
         "Numéros de téléphone",
-        "Purchases"
+        "Purchases",
+        "Mots de passe"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -28255,8 +28476,8 @@
       "isNSFW": false,
       "oldindex": 673,
       "title": "Epik",
-      "IsCritical": false,
-      "SeverityLevel": "MODÉRÉ"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "RepublicanPartyOfTexas",
@@ -28392,7 +28613,8 @@
         "Dates of birth",
         "Government issued IDs",
         "Noms",
-        "Numéros de téléphone"
+        "Numéros de téléphone",
+        "Numéros de sécurité sociale"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -28410,8 +28632,8 @@
       "isNSFW": true,
       "oldindex": 668,
       "title": "AT&T",
-      "IsCritical": false,
-      "SeverityLevel": "MODÉRÉ"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "Imavex",
@@ -28552,7 +28774,8 @@
         "Dates of birth",
         "Noms",
         "Numéros de téléphone",
-        "Social media profiles"
+        "Social media profiles",
+        "Mots de passe"
       ],
       "IsVerified": false,
       "IsFabricated": false,
@@ -28570,8 +28793,8 @@
       "isNSFW": false,
       "oldindex": 665,
       "title": "Misattributed Habib's Data",
-      "IsCritical": false,
-      "SeverityLevel": "MODÉRÉ"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "OpenSubtitles",
@@ -29528,7 +29751,8 @@
         "Adresses email",
         "Adresses postales",
         "Mots de passe",
-        "Noms"
+        "Noms",
+        "Numéros de carte bancaire"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -29869,8 +30093,8 @@
       "isNSFW": false,
       "oldindex": 632,
       "title": "Ticketcounter",
-      "IsCritical": false,
-      "SeverityLevel": "MODÉRÉ"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "Gemplex",
@@ -34201,7 +34425,8 @@
         "Physical attributes",
         "Political views",
         "Religions",
-        "Smoking habits"
+        "Smoking habits",
+        "Mots de passe"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -34219,8 +34444,8 @@
       "isNSFW": true,
       "oldindex": 522,
       "title": "Zoosk (2020)",
-      "IsCritical": false,
-      "SeverityLevel": "ÉLEVÉ"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "MobiFriends",
@@ -36171,7 +36396,8 @@
         "Adresses email",
         "Adresses postales",
         "Noms",
-        "Numéros de téléphone"
+        "Numéros de téléphone",
+        "Mots de passe"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -36189,8 +36415,8 @@
       "isNSFW": false,
       "oldindex": 471,
       "title": "Condo.com",
-      "IsCritical": false,
-      "SeverityLevel": "MODÉRÉ"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "Canva",
@@ -36487,7 +36713,8 @@
         "Genre",
         "Noms",
         "Numéros de téléphone",
-        "Telecommunications carrier"
+        "Telecommunications carrier",
+        "Mots de passe"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -36505,8 +36732,8 @@
       "isNSFW": false,
       "oldindex": 463,
       "title": "ApexSMS",
-      "IsCritical": false,
-      "SeverityLevel": "MODÉRÉ"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "InstantCheckmate",
@@ -36800,7 +37027,8 @@
         "Loyalty program details",
         "Noms",
         "Numéros de téléphone",
-        "Passport numbers"
+        "Passport numbers",
+        "Passport"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -36837,7 +37065,8 @@
         "Adresses email",
         "Adresses postales",
         "Dates of birth",
-        "Noms"
+        "Noms",
+        "Mots de passe"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -36855,8 +37084,8 @@
       "isNSFW": false,
       "oldindex": 454,
       "title": "Mindjolt",
-      "IsCritical": false,
-      "SeverityLevel": "MODÉRÉ"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "Hurb",
@@ -36957,7 +37186,8 @@
         "Noms",
         "Numéros de téléphone",
         "Passport numbers",
-        "Salutations"
+        "Salutations",
+        "Passport"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -37076,7 +37306,8 @@
         "Genre",
         "Noms",
         "Numéros de téléphone",
-        "Professions"
+        "Professions",
+        "Mots de passe"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -37094,8 +37325,8 @@
       "isNSFW": false,
       "oldindex": 448,
       "title": "Verifications.io",
-      "IsCritical": false,
-      "SeverityLevel": "MODÉRÉ"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "GameSalad",
@@ -37227,7 +37458,8 @@
         "Adresses email",
         "Adresses postales",
         "Noms",
-        "Social media profiles"
+        "Social media profiles",
+        "Mots de passe"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -37245,8 +37477,8 @@
       "isNSFW": false,
       "oldindex": 444,
       "title": "YouNow",
-      "IsCritical": false,
-      "SeverityLevel": "MODÉRÉ"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "LBB",
@@ -38252,7 +38484,8 @@
         "Numéros de téléphone",
         "Passport numbers",
         "Purchases",
-        "Security questions and answers"
+        "Security questions and answers",
+        "Mots de passe"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -38956,7 +39189,9 @@
         "Numéros de téléphone",
         "Professions",
         "Salutations",
-        "Social media profiles"
+        "Social media profiles",
+        "Mots de passe",
+        "Numéros de sécurité sociale"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -38974,8 +39209,8 @@
       "isNSFW": false,
       "oldindex": 400,
       "title": "Apollo",
-      "IsCritical": false,
-      "SeverityLevel": "MODÉRÉ"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "Animoto",
@@ -39585,7 +39820,8 @@
         "Adresses email",
         "Adresses postales",
         "Noms",
-        "Numéros de téléphone"
+        "Numéros de téléphone",
+        "Mots de passe"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -39603,8 +39839,8 @@
       "isNSFW": false,
       "oldindex": 384,
       "title": "Ticketfly",
-      "IsCritical": false,
-      "SeverityLevel": "MODÉRÉ"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "AdultFanFiction",
@@ -41895,7 +42131,8 @@
         "Noms",
         "Numéros de téléphone",
         "Security questions and answers",
-        "Social connections"
+        "Social connections",
+        "Données médicales"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -42660,7 +42897,8 @@
         "Adresses postales",
         "Dates of birth",
         "Noms",
-        "Numéros de téléphone"
+        "Numéros de téléphone",
+        "Mots de passe"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -42678,8 +42916,8 @@
       "isNSFW": false,
       "oldindex": 311,
       "title": "Victory Phones",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "DataEnrichment",
@@ -43092,7 +43330,8 @@
         "Employers",
         "Noms",
         "Numéros de téléphone",
-        "Professions"
+        "Professions",
+        "Mots de passe"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -43110,8 +43349,8 @@
       "isNSFW": false,
       "oldindex": 293,
       "title": "RankWatch",
-      "IsCritical": false,
-      "SeverityLevel": "MODÉRÉ"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "CashCrate",
@@ -43626,7 +43865,8 @@
         "Adresses email",
         "Adresses postales",
         "Noms",
-        "Numéros de téléphone"
+        "Numéros de téléphone",
+        "Mots de passe"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -43644,8 +43884,8 @@
       "isNSFW": false,
       "oldindex": 278,
       "title": "Real Estate Mogul",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "uuu9",
@@ -45745,7 +45985,8 @@
         "Numéros de téléphone",
         "Passport numbers",
         "Physical attributes",
-        "Professions"
+        "Professions",
+        "Fingerprint"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -49306,7 +49547,8 @@
         "Mots de passe",
         "Noms",
         "Numéros de téléphone",
-        "Passport numbers"
+        "Passport numbers",
+        "Passport"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -49383,7 +49625,8 @@
       "DataClasses": [
         "Adresses email",
         "Adresses postales",
-        "Government issued IDs"
+        "Government issued IDs",
+        "Numéros de sécurité sociale"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -49401,8 +49644,8 @@
       "isNSFW": false,
       "oldindex": 132,
       "title": "Flashback",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "PSX-Scene",
@@ -49647,7 +49890,8 @@
         "Adresses email",
         "Adresses postales",
         "Noms",
-        "Website activity"
+        "Website activity",
+        "Mots de passe"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -49665,8 +49909,8 @@
       "isNSFW": false,
       "oldindex": 125,
       "title": "Warframe",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "Malwarebytes",
@@ -51571,7 +51815,8 @@
         "Numéros de carte bancaire",
         "Numéros de téléphone",
         "Purchases",
-        "Âges"
+        "Âges",
+        "Numéros de sécurité sociale"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -52499,7 +52744,8 @@
         "Adresses postales",
         "Noms",
         "Website activity",
-        "Âges"
+        "Âges",
+        "Mots de passe"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -52517,8 +52763,8 @@
       "isNSFW": false,
       "oldindex": 51,
       "title": "Heroes of Gaia",
-      "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "IsCritical": true,
+      "SeverityLevel": "CRITIQUE"
     },
     {
       "Name": "FaceUP",
@@ -54473,8 +54719,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-10T15:11:15.561Z",
-      "ModifiedDate": "2026-03-10T15:11:15.561Z",
+      "AddedDate": "2026-03-10T15:13:19.585Z",
+      "ModifiedDate": "2026-03-10T15:13:19.585Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -54490,8 +54736,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-10T15:11:15.586Z",
-      "ModifiedDate": "2026-03-10T15:11:15.587Z",
+      "AddedDate": "2026-03-10T15:13:19.607Z",
+      "ModifiedDate": "2026-03-10T15:13:19.607Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -54507,8 +54753,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-10T15:11:15.615Z",
-      "ModifiedDate": "2026-03-10T15:11:15.615Z",
+      "AddedDate": "2026-03-10T15:13:19.634Z",
+      "ModifiedDate": "2026-03-10T15:13:19.634Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -54524,8 +54770,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-10T15:11:15.634Z",
-      "ModifiedDate": "2026-03-10T15:11:15.634Z",
+      "AddedDate": "2026-03-10T15:13:19.653Z",
+      "ModifiedDate": "2026-03-10T15:13:19.653Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -54541,8 +54787,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-10T15:11:15.641Z",
-      "ModifiedDate": "2026-03-10T15:11:15.641Z",
+      "AddedDate": "2026-03-10T15:13:19.659Z",
+      "ModifiedDate": "2026-03-10T15:13:19.659Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
