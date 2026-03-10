@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-10T15:13:25.303Z",
+  "lastUpdated": "2026-03-10T15:16:09.335Z",
   "totalBreaches": 1420,
   "breaches": [
     {
@@ -12,10 +12,11 @@
       "PwnCount": 0,
       "Description": "Vivaticket est une entreprise spécialisée dans les systèmes de billetterie intégrée et de contrôle d'accès pour les secteurs du spectacle, du sport, de la culture et des loisirs. Le 2 mars 2026, la société a notifié ses clients d'une attaque par ransomware ayant chiffré les serveurs de sa solution GAT. L'exfiltration de données n'est pas confirmée à ce stade.\n\nStatut: Ransomware\nType de service: Systèmes de billetterie",
       "DataClasses": [
-        "Nom",
-        "Prénom",
-        "Adresse email",
-        "Données de compte utilisateur"
+        "Adresses email",
+        "Adresses postales",
+        "Données de compte utilisateur",
+        "Noms",
+        "Prénoms"
       ],
       "IsSensitive": false,
       "IsVerified": true,
@@ -25,7 +26,16 @@
       "IsNative": true,
       "LogoPath": "https://shopcdn.vivaticket.com/shop/wms_images/logos/fbViva.jpg",
       "slug": "vivaticket",
-      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/vivaticket-leak-fuites-de-donnees.png"
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/03/vivaticket-leak-fuites-de-donnees.png",
+      "lien": "https://haveibeenpwned.com/Breach/Vivaticket",
+      "categories": [],
+      "content": "Vivaticket est une entreprise spécialisée dans les systèmes de billetterie intégrée et de contrôle d'accès pour les secteurs du spectacle, du sport, de la culture et des loisirs. Le 2 mars 2026, la société a notifié ses clients d'une attaque par ransomware ayant chiffré les serveurs de sa solution GAT. L'exfiltration de données n'est pas confirmée à ce stade.\n\nStatut: Ransomware\nType de service: Systèmes de billetterie",
+      "isNSFW": false,
+      "index": 1429,
+      "title": "Vivaticket",
+      "IsCritical": false,
+      "SeverityLevel": "FAIBLE",
+      "oldindex": 1412
     },
     {
       "Name": "Fédération Omnisports ASPTT",
@@ -211,10 +221,10 @@
         "Numéro de réservation)",
         "Numéro de vol",
         "Numéros de téléphone",
+        "Passeport",
         "Signatures)",
         "Âges",
-        "État civil (passeports",
-        "Passeport"
+        "État civil (passeports"
       ],
       "IsSensitive": false,
       "IsVerified": true,
@@ -644,13 +654,13 @@
         "Identifiants internes (mots de passe en clair",
         "Intercepteurs de paiement)",
         "Localisation)",
+        "Mots de passe",
         "Pseudonymes",
         "Sessions Telegram)",
         "TSV)",
         "Transactions PayPal)",
         "Uploads)",
-        "Âges",
-        "Mots de passe"
+        "Âges"
       ],
       "IsSensitive": false,
       "IsVerified": true,
@@ -877,13 +887,13 @@
         "Dates de naissance",
         "Diagnostics",
         "Données de santé",
+        "Données médicales",
         "Médecin en copie)",
         "Noms",
         "Professions",
         "Prénoms",
         "Renseignements cliniques)",
-        "Résultats d'analyses",
-        "Données médicales"
+        "Résultats d'analyses"
       ],
       "IsSensitive": false,
       "IsVerified": true,
@@ -3427,8 +3437,8 @@
         "Government issued IDs",
         "Noms",
         "Numéros de téléphone",
-        "Passport numbers",
-        "Passport"
+        "Passport",
+        "Passport numbers"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -3629,10 +3639,10 @@
         "Données transactionnelles et activités de 2009 à 2024",
         "Décryptés)",
         "Identifiants de connexion (Mots de passe stockés en clair",
+        "Mots de passe",
         "Noms",
         "Numéros de téléphone",
-        "Prénoms",
-        "Mots de passe"
+        "Prénoms"
       ],
       "IsSensitive": false,
       "IsVerified": true,
@@ -4143,12 +4153,12 @@
         "Marges",
         "Noms",
         "Partenariats logistiques (Détails liés aux prestataires Volotea",
+        "Passeport",
         "Prénoms",
         "Recettes",
         "Signatures",
         "Zones MRZ)",
-        "Âges",
-        "Passeport"
+        "Âges"
       ],
       "IsSensitive": false,
       "IsVerified": true,
@@ -5146,11 +5156,11 @@
         "Adresses email",
         "Adresses postales",
         "Dates of birth",
+        "Données de santé",
+        "Mots de passe",
         "Noms",
         "Places of birth",
-        "Salutations",
-        "Mots de passe",
-        "Données de santé"
+        "Salutations"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -5637,8 +5647,8 @@
       "Attribution": null,
       "DisclosureUrl": null,
       "DataClasses": [
-        "Mots de passe",
-        "IBAN"
+        "IBAN",
+        "Mots de passe"
       ],
       "IsVerified": false,
       "IsFabricated": false,
@@ -6008,6 +6018,7 @@
         "Historique des besoins (Détails des demandes de devis",
         "Id",
         "Login)",
+        "Mots de passe",
         "Métadonnées techniques (Origine",
         "Noms",
         "Numéros de téléphone",
@@ -6016,8 +6027,7 @@
         "SIRET",
         "Statut actif",
         "Types de produits)",
-        "Âges",
-        "Mots de passe"
+        "Âges"
       ],
       "IsSensitive": false,
       "IsVerified": true,
@@ -6773,8 +6783,8 @@
       "Attribution": null,
       "DisclosureUrl": null,
       "DataClasses": [
-        "Mots de passe",
-        "IBAN"
+        "IBAN",
+        "Mots de passe"
       ],
       "IsVerified": false,
       "IsFabricated": false,
@@ -7348,8 +7358,8 @@
       "Attribution": null,
       "DisclosureUrl": null,
       "DataClasses": [
-        "Passeport",
-        "IBAN"
+        "IBAN",
+        "Passeport"
       ],
       "IsVerified": false,
       "IsFabricated": false,
@@ -8319,9 +8329,9 @@
         "Adresses email",
         "Adresses postales",
         "Dates de naissance",
+        "Mots de passe",
         "Noms",
-        "Numéros de téléphone",
-        "Mots de passe"
+        "Numéros de téléphone"
       ],
       "IsSensitive": false,
       "IsVerified": true,
@@ -8597,10 +8607,10 @@
         "Device information",
         "Données de géolocalisation",
         "Employers",
+        "Mots de passe",
         "Noms",
         "Numéros de téléphone",
-        "Professions",
-        "Mots de passe"
+        "Professions"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -8901,9 +8911,9 @@
         "Adresses email",
         "Adresses postales",
         "Données de géolocalisation",
+        "Mots de passe",
         "Noms",
-        "Numéros de téléphone",
-        "Mots de passe"
+        "Numéros de téléphone"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -8974,8 +8984,8 @@
       "Attribution": null,
       "DisclosureUrl": null,
       "DataClasses": [
-        "IBAN",
-        "BIC"
+        "BIC",
+        "IBAN"
       ],
       "IsVerified": false,
       "IsFabricated": false,
@@ -12226,9 +12236,9 @@
         "Date et heure du rendez-vous",
         "Noms",
         "Numéros de téléphone",
+        "Passeport",
         "Prénoms",
-        "Type de demande administrative",
-        "Passeport"
+        "Type de demande administrative"
       ],
       "IsSensitive": false,
       "IsVerified": true,
@@ -13198,8 +13208,8 @@
       "Attribution": null,
       "DisclosureUrl": null,
       "DataClasses": [
-        "Numéros de sécurité sociale",
-        "IBAN"
+        "IBAN",
+        "Numéros de sécurité sociale"
       ],
       "IsVerified": false,
       "IsFabricated": false,
@@ -14336,13 +14346,13 @@
       "DataClasses": [
         "Adresses email",
         "Adresses postales",
+        "Comptes bancaires",
         "Dates of birth",
         "Genre",
         "Mots de passe",
         "Noms",
         "Numéros de carte bancaire",
-        "Numéros de téléphone",
-        "Comptes bancaires"
+        "Numéros de téléphone"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -14481,8 +14491,8 @@
       "Attribution": null,
       "DisclosureUrl": null,
       "DataClasses": [
-        "Numéros de sécurité sociale",
-        "Données médicales"
+        "Données médicales",
+        "Numéros de sécurité sociale"
       ],
       "IsVerified": false,
       "IsFabricated": false,
@@ -14780,8 +14790,8 @@
         "Government issued IDs",
         "Income levels",
         "Noms",
-        "Âges",
-        "Numéros de sécurité sociale"
+        "Numéros de sécurité sociale",
+        "Âges"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -15366,9 +15376,9 @@
         "Adresses postales",
         "Comptes bancaires",
         "Dates of birth",
+        "IBAN",
         "Noms",
-        "Numéros de téléphone",
-        "IBAN"
+        "Numéros de téléphone"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -18679,8 +18689,8 @@
       "Attribution": null,
       "DisclosureUrl": null,
       "DataClasses": [
-        "Numéros de sécurité sociale",
-        "IBAN"
+        "IBAN",
+        "Numéros de sécurité sociale"
       ],
       "IsVerified": false,
       "IsFabricated": false,
@@ -20588,9 +20598,9 @@
         "Comptes bancaires",
         "Dates of birth",
         "Genre",
+        "IBAN",
         "Noms",
-        "Numéros de téléphone",
-        "IBAN"
+        "Numéros de téléphone"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -20626,8 +20636,8 @@
       "DataClasses": [
         "Adresses email",
         "Adresses postales",
-        "Noms",
-        "Mots de passe"
+        "Mots de passe",
+        "Noms"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -20663,9 +20673,9 @@
       "DataClasses": [
         "Adresses email",
         "Adresses postales",
+        "Mots de passe",
         "Noms",
-        "Numéros de téléphone",
-        "Mots de passe"
+        "Numéros de téléphone"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -21565,9 +21575,9 @@
         "Adresses email",
         "Adresses postales",
         "Noms",
+        "Numéros de sécurité sociale",
         "Numéros de téléphone",
-        "Warranty claims",
-        "Numéros de sécurité sociale"
+        "Warranty claims"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -22082,8 +22092,8 @@
         "Adresses email",
         "Adresses postales",
         "Noms",
-        "Photos",
-        "Numéros de carte bancaire"
+        "Numéros de carte bancaire",
+        "Photos"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -22732,8 +22742,8 @@
         "Genre",
         "Government issued IDs",
         "Noms",
-        "Numéros de téléphone",
-        "Numéros de sécurité sociale"
+        "Numéros de sécurité sociale",
+        "Numéros de téléphone"
       ],
       "IsVerified": false,
       "IsFabricated": false,
@@ -24634,8 +24644,8 @@
         "Genre",
         "Government issued IDs",
         "Noms",
-        "Numéros de téléphone",
-        "Numéros de sécurité sociale"
+        "Numéros de sécurité sociale",
+        "Numéros de téléphone"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -27249,8 +27259,8 @@
         "Genre",
         "Government issued IDs",
         "Noms",
-        "Passport numbers",
-        "Passport"
+        "Passport",
+        "Passport numbers"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -28223,10 +28233,10 @@
       "DataClasses": [
         "Adresses email",
         "Adresses postales",
+        "BIC",
         "Genre",
         "Mots de passe",
-        "Noms",
-        "BIC"
+        "Noms"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -28455,10 +28465,10 @@
       "DataClasses": [
         "Adresses email",
         "Adresses postales",
+        "Mots de passe",
         "Noms",
         "Numéros de téléphone",
-        "Purchases",
-        "Mots de passe"
+        "Purchases"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -28613,8 +28623,8 @@
         "Dates of birth",
         "Government issued IDs",
         "Noms",
-        "Numéros de téléphone",
-        "Numéros de sécurité sociale"
+        "Numéros de sécurité sociale",
+        "Numéros de téléphone"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -28772,10 +28782,10 @@
         "Adresses email",
         "Adresses postales",
         "Dates of birth",
+        "Mots de passe",
         "Noms",
         "Numéros de téléphone",
-        "Social media profiles",
-        "Mots de passe"
+        "Social media profiles"
       ],
       "IsVerified": false,
       "IsFabricated": false,
@@ -34421,12 +34431,12 @@
         "Family structure",
         "Genre",
         "Income levels",
+        "Mots de passe",
         "Noms",
         "Physical attributes",
         "Political views",
         "Religions",
-        "Smoking habits",
-        "Mots de passe"
+        "Smoking habits"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -36395,9 +36405,9 @@
       "DataClasses": [
         "Adresses email",
         "Adresses postales",
+        "Mots de passe",
         "Noms",
-        "Numéros de téléphone",
-        "Mots de passe"
+        "Numéros de téléphone"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -36711,10 +36721,10 @@
         "Adresses postales",
         "Données de géolocalisation",
         "Genre",
+        "Mots de passe",
         "Noms",
         "Numéros de téléphone",
-        "Telecommunications carrier",
-        "Mots de passe"
+        "Telecommunications carrier"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -37027,8 +37037,8 @@
         "Loyalty program details",
         "Noms",
         "Numéros de téléphone",
-        "Passport numbers",
-        "Passport"
+        "Passport",
+        "Passport numbers"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -37065,8 +37075,8 @@
         "Adresses email",
         "Adresses postales",
         "Dates of birth",
-        "Noms",
-        "Mots de passe"
+        "Mots de passe",
+        "Noms"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -37185,9 +37195,9 @@
         "Nationalities",
         "Noms",
         "Numéros de téléphone",
+        "Passport",
         "Passport numbers",
-        "Salutations",
-        "Passport"
+        "Salutations"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -37304,10 +37314,10 @@
         "Données de géolocalisation",
         "Employers",
         "Genre",
+        "Mots de passe",
         "Noms",
         "Numéros de téléphone",
-        "Professions",
-        "Mots de passe"
+        "Professions"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -37457,9 +37467,9 @@
         "Adresses IP",
         "Adresses email",
         "Adresses postales",
+        "Mots de passe",
         "Noms",
-        "Social media profiles",
-        "Mots de passe"
+        "Social media profiles"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -38478,14 +38488,14 @@
         "Adresses email",
         "Adresses postales",
         "Comptes bancaires",
+        "Mots de passe",
         "Noms",
         "Numéros de carte bancaire",
         "Numéros de sécurité sociale",
         "Numéros de téléphone",
         "Passport numbers",
         "Purchases",
-        "Security questions and answers",
-        "Mots de passe"
+        "Security questions and answers"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -39185,13 +39195,13 @@
         "Adresses postales",
         "Données de géolocalisation",
         "Employers",
+        "Mots de passe",
         "Noms",
+        "Numéros de sécurité sociale",
         "Numéros de téléphone",
         "Professions",
         "Salutations",
-        "Social media profiles",
-        "Mots de passe",
-        "Numéros de sécurité sociale"
+        "Social media profiles"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -39819,9 +39829,9 @@
       "DataClasses": [
         "Adresses email",
         "Adresses postales",
+        "Mots de passe",
         "Noms",
-        "Numéros de téléphone",
-        "Mots de passe"
+        "Numéros de téléphone"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -42127,12 +42137,12 @@
         "Adresses postales",
         "Dates of birth",
         "Données de santé",
+        "Données médicales",
         "Genre",
         "Noms",
         "Numéros de téléphone",
         "Security questions and answers",
-        "Social connections",
-        "Données médicales"
+        "Social connections"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -42896,9 +42906,9 @@
         "Adresses email",
         "Adresses postales",
         "Dates of birth",
+        "Mots de passe",
         "Noms",
-        "Numéros de téléphone",
-        "Mots de passe"
+        "Numéros de téléphone"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -43328,10 +43338,10 @@
         "Adresses email",
         "Adresses postales",
         "Employers",
+        "Mots de passe",
         "Noms",
         "Numéros de téléphone",
-        "Professions",
-        "Mots de passe"
+        "Professions"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -43864,9 +43874,9 @@
       "DataClasses": [
         "Adresses email",
         "Adresses postales",
+        "Mots de passe",
         "Noms",
-        "Numéros de téléphone",
-        "Mots de passe"
+        "Numéros de téléphone"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -45979,14 +45989,14 @@
         "Adresses postales",
         "Biometric data",
         "Dates of birth",
+        "Fingerprint",
         "Genre",
         "Marital statuses",
         "Noms",
         "Numéros de téléphone",
         "Passport numbers",
         "Physical attributes",
-        "Professions",
-        "Fingerprint"
+        "Professions"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -49547,8 +49557,8 @@
         "Mots de passe",
         "Noms",
         "Numéros de téléphone",
-        "Passport numbers",
-        "Passport"
+        "Passport",
+        "Passport numbers"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -49889,9 +49899,9 @@
       "DataClasses": [
         "Adresses email",
         "Adresses postales",
+        "Mots de passe",
         "Noms",
-        "Website activity",
-        "Mots de passe"
+        "Website activity"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -51813,10 +51823,10 @@
         "Mots de passe",
         "Noms",
         "Numéros de carte bancaire",
+        "Numéros de sécurité sociale",
         "Numéros de téléphone",
         "Purchases",
-        "Âges",
-        "Numéros de sécurité sociale"
+        "Âges"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -52742,10 +52752,10 @@
         "Adresses IP",
         "Adresses email",
         "Adresses postales",
+        "Mots de passe",
         "Noms",
         "Website activity",
-        "Âges",
-        "Mots de passe"
+        "Âges"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -54719,8 +54729,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-10T15:13:19.585Z",
-      "ModifiedDate": "2026-03-10T15:13:19.585Z",
+      "AddedDate": "2026-03-10T15:16:03.593Z",
+      "ModifiedDate": "2026-03-10T15:16:03.593Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -54736,8 +54746,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-10T15:13:19.607Z",
-      "ModifiedDate": "2026-03-10T15:13:19.607Z",
+      "AddedDate": "2026-03-10T15:16:03.617Z",
+      "ModifiedDate": "2026-03-10T15:16:03.617Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -54753,8 +54763,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-10T15:13:19.634Z",
-      "ModifiedDate": "2026-03-10T15:13:19.634Z",
+      "AddedDate": "2026-03-10T15:16:03.645Z",
+      "ModifiedDate": "2026-03-10T15:16:03.645Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -54770,8 +54780,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-10T15:13:19.653Z",
-      "ModifiedDate": "2026-03-10T15:13:19.653Z",
+      "AddedDate": "2026-03-10T15:16:03.665Z",
+      "ModifiedDate": "2026-03-10T15:16:03.665Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -54787,8 +54797,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-10T15:13:19.659Z",
-      "ModifiedDate": "2026-03-10T15:13:19.659Z",
+      "AddedDate": "2026-03-10T15:16:03.671Z",
+      "ModifiedDate": "2026-03-10T15:16:03.671Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
