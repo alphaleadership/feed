@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-10T16:15:24.863Z",
+  "lastUpdated": "2026-03-10T17:11:28.734Z",
   "totalBreaches": 1420,
   "breaches": [
     {
@@ -13358,16 +13358,16 @@
       "Attribution": null,
       "DisclosureUrl": "https://www.eurofiber.com/fr-fr/actualites/incident-de-cybersecurite-chez-eurofiber-france",
       "DataClasses": [
+        "Accès VPN",
         "Adresses email",
         "Adresses postales",
+        "Certificats de sécurité",
+        "Exports SQL de configuration",
+        "Identifiants techniques",
         "Noms",
         "Numéros de téléphone",
-        "Adresse email",
-        "Accès VPN",
         "Schémas d'infrastructure réseau",
-        "Certificats de sécurité",
-        "Identifiants techniques",
-        "Exports SQL de configuration"
+        "Adresse email"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -17677,14 +17677,15 @@
         "Adresses postales",
         "Noms",
         "Numéros de téléphone",
+        "Plaque d'immatriculation",
+        "Prénoms",
         "VINs",
         "Vehicle details",
         "Vehicle registration plates",
         "Nom et prénom",
         "Adresse email",
         "Adresse postale",
-        "Numéro de téléphone",
-        "Plaque d'immatriculation"
+        "Numéro de téléphone"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -17703,7 +17704,7 @@
       "oldindex": 956,
       "title": "AUTOSUR",
       "IsCritical": false,
-      "SeverityLevel": "FAIBLE"
+      "SeverityLevel": "MODÉRÉ"
     },
     {
       "Name": "Blackstore",
@@ -54741,8 +54742,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-10T16:15:19.102Z",
-      "ModifiedDate": "2026-03-10T16:15:19.102Z",
+      "AddedDate": "2026-03-10T17:11:22.810Z",
+      "ModifiedDate": "2026-03-10T17:11:22.810Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -54758,8 +54759,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-10T16:15:19.126Z",
-      "ModifiedDate": "2026-03-10T16:15:19.126Z",
+      "AddedDate": "2026-03-10T17:11:22.836Z",
+      "ModifiedDate": "2026-03-10T17:11:22.836Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -54775,8 +54776,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-10T16:15:19.153Z",
-      "ModifiedDate": "2026-03-10T16:15:19.153Z",
+      "AddedDate": "2026-03-10T17:11:22.864Z",
+      "ModifiedDate": "2026-03-10T17:11:22.864Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -54792,8 +54793,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-10T16:15:19.172Z",
-      "ModifiedDate": "2026-03-10T16:15:19.172Z",
+      "AddedDate": "2026-03-10T17:11:22.883Z",
+      "ModifiedDate": "2026-03-10T17:11:22.883Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -54809,8 +54810,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-10T16:15:19.179Z",
-      "ModifiedDate": "2026-03-10T16:15:19.179Z",
+      "AddedDate": "2026-03-10T17:11:22.890Z",
+      "ModifiedDate": "2026-03-10T17:11:22.890Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
