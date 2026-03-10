@@ -44,7 +44,7 @@ const criticalDataTypes = [
   'empreinte',
   'fingerprint',
   'reconnaissance faciale',
-  'facial recognition'
+  'facial recognition','Certificats d\'autorité'
 ];
 
 // Mapping pour normaliser les noms de données
