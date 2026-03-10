@@ -1,4 +1,4 @@
-<div class="row page">
+﻿<div class="row page">
 <script src="<%- config.url %>/js/index.js"></script>
 
 	<% if (theme.widgets.length) { %>
@@ -102,10 +102,10 @@
 		</div>
 	</div>
 
-	<!-- Catégories les plus fréquentes -->
+	<!-- Entreprises ayant le plus de fuites -->
 	<div class="category-stats card shadow-sm mb-4">
 		<div class="card-header bg-dark text-white">
-			<h3 class="mb-0">📊 Catégories les plus fréquentes </h3>
+			<h3 class="mb-0">Entreprises ayant le plus de fuites </h3>
 			<small class="text-muted" id="breach-count">Chargement...</small>
 		</div>
 		<div class="card-body">
@@ -125,7 +125,6 @@
 		fetch('<%- config.url %>/data/breaches.json')
 			.then(response => response.json())
 			.then(data => {
-				const categoryBreaches = {};
 				const dataClassStats = {};
 				const companyStats = {};
 				const yearStats = {};
@@ -200,42 +199,6 @@
 						if (compDomain && !companyStats[keyName].domain) {
 							companyStats[keyName].domain = compDomain;
 						}
-					}
-
-					if (breach.categories && Array.isArray(breach.categories)) {
-						breach.categories.map(item=>{
-							return item.split("fuite")[0]
-						}).forEach(category => {
-							if(category==""){
-								return
-							}
-								if(!isNaN(parseInt(category))){
-								invalidcategory.push(category)
-							}
-							if(invalidcategory.includes(category.toLowerCase())){
-								return
-							}
-						
-							if (!categoryBreaches[category.toLowerCase()]) {
-								categoryBreaches[category.toLowerCase()] = [];
-							}
-							categoryBreaches[category.toLowerCase()].push({
-								name: breach.Name,
-								title: breach.Title,
-								slug: breach.slug,
-								path: breach.index,
-								pwnCount: breach.PwnCount,
-								date: breach.BreachDate,
-								nsfw:breach.isNSFW,
-								severityLevel: breach.SeverityLevel
-							
-						
-							
-							
-							
-						
-							});
-						});
 					}
 				});
 				
@@ -332,18 +295,6 @@
 					`;
 				}
 				
-				console.log(categoryBreaches)
-				// Trier et prendre les 15 premiers
-				const sortedCategories = Object.entries(categoryBreaches)
-					.sort((a, b) => b[1].length - a[1].length)
-					.slice(0, 15)
-					.map(([name, breaches]) => ({ 
-						name:name||"inconnu", 
-						count: breaches.length,
-						breaches: breaches.sort((a, b) => b.count - a.count).slice(0, 50),
-						percentage: ((breaches.length / data.totalBreaches) * 100).toFixed(1) 
-					}));
-				
 				// Trier et préparer les stats DataClasses
 				const sortedDataClasses = Object.entries(dataClassStats)
 					.sort((a, b) => b[1].count - a[1].count)
@@ -417,33 +368,57 @@
 				document.getElementById('breach-count').textContent = 
 					`Basé sur ${data.totalBreaches.toLocaleString()} fuites analysées`;
 				
-				// Générer le HTML des catégories
+				// Trier les entreprises par nombre de fuites
+				const sortedByBreachCount = Object.values(companyStats)
+					.sort((a, b) => b.count - a.count)
+					.slice(0, 12);
+				
+				// Générer le HTML des entreprises triées par nombre de fuites
 				const container = document.getElementById('category-container');
-				container.innerHTML = sortedCategories.map((cat, idx) => {
-					const borderClass = idx < 3 ? 'border-danger' : idx < 8 ? 'border-warning' : 'border-info';
-					const badgeClass = idx < 3 ? 'bg-danger' : idx < 8 ? 'bg-warning text-dark' : 'bg-info';
+				container.innerHTML = sortedByBreachCount.map((company, idx) => {
+					const borderClass = idx < 3 ? 'border-danger' : idx < 6 ? 'border-warning' : 'border-info';
+					const badgeClass = idx < 3 ? 'bg-danger' : idx < 6 ? 'bg-warning text-dark' : 'bg-info';
+					const percentage = ((company.count / data.totalBreaches) * 100).toFixed(1);
+					const avgPerBreach = company.count > 0 ? (company.pwnCount / company.count) : 0;
 					
-					const totalPwnInCategory = cat.breaches.reduce((sum, b) => sum + (b.pwnCount || 0), 0);
-					const avgPwnPerBreach = cat.count > 0 ? (totalPwnInCategory / cat.count) : 0;
+					// Récupérer les fuites pour cette entreprise
+					const companyBreaches = data.breaches.filter(b => {
+						if (b.IsRetired) return false;
+						let compName = b.Domain || b.Title || b.Name;
+						if (!compName) return false;
+						
+						let normName = compName.toLowerCase();
+						if (normName.includes('france travail') || normName.includes('pole emploi') || normName.includes('pôle emploi') || normName.includes('francetravail')) {
+							return company.name === 'France Travail';
+						} else if (compName.toLowerCase().includes(' fuite du ')) {
+							compName = compName.replace(/ fuite du .*/i, '').trim();
+							if (compName === compName.toLowerCase()) {
+								compName = compName.charAt(0).toUpperCase() + compName.slice(1);
+							}
+						}
+						
+						return compName.toLowerCase() === company.name.toLowerCase();
+					});
 					
-					const breachLinks = cat.breaches.slice(0, 10).map(breach => {
+					const breachLinks = companyBreaches.slice(0, 20).map(breach => {
 						const severityColors = {
 							'CRITIQUE': 'danger',
 							'ÉLEVÉ': 'warning',
 							'MODÉRÉ': 'info',
 							'FAIBLE': 'secondary'
 						};
-						const severityBadge = breach.severityLevel ? 
-							`<span class="badge bg-${severityColors[breach.severityLevel]} ms-1" style="font-size: 0.65em;">${breach.severityLevel}</span>` : '';
+						const severityBadge = breach.SeverityLevel ? 
+							`<span class="badge bg-${severityColors[breach.SeverityLevel]} ms-1" style="font-size: 0.65em;">${breach.SeverityLevel}</span>` : '';
+						const pwnDisplay = breach.PwnCount >= 1000000 ? (breach.PwnCount / 1000000).toFixed(1) + 'M' : breach.PwnCount.toLocaleString();
 						
-						return `<li class="breach-link-item ${breach.nsfw ? 'border-warning' : 'border-info'}">
-							<a href="<%- config.url %>/fuites?id=${breach.path}" class="text-decoration-none d-flex justify-content-between align-items-start">
+						return `<li class="breach-link-item">
+							<a href="<%- config.url %>/fuites?id=${breach.index}" class="text-decoration-none d-flex justify-content-between align-items-start">
 								<span class="flex-grow-1 me-2">
-									${breach.title}
+									${breach.Title || breach.Name}
 									${severityBadge}
 								</span>
 								<span class="text-muted small" style="white-space: nowrap;">
-									${breach.pwnCount ? (breach.pwnCount >= 1000000 ? (breach.pwnCount / 1000000).toFixed(1) + 'M' : breach.pwnCount.toLocaleString()) : 'N/A'}
+									${pwnDisplay}
 								</span>
 							</a>
 						</li>`;
@@ -454,24 +429,24 @@
 							<div class="note-card p-3 border rounded ${borderClass} h-100">
 								<div class="d-flex justify-content-between align-items-center mb-2">
 									<span class="badge ${badgeClass} fs-6">#${idx + 1}</span>
-									<span class="text-muted small">${cat.percentage}%</span>
+									<span class="text-muted small">${percentage}%</span>
 								</div>
-								<h5 class="mb-2">${cat.name}</h5>
+								<h5 class="mb-2" style="word-break: break-word;">${company.name}</h5>
 								<div class="mb-2">
 									<p class="mb-1 text-muted">
 										<i class="fa fa-warning" style="margin-right: 4px;"></i>
-										<strong>${cat.count.toLocaleString()}</strong> fuites
+										<strong>${company.count}</strong> fuite${company.count > 1 ? 's' : ''}
 									</p>
 									<p class="mb-0 text-muted" style="font-size: 0.85em; opacity: 0.8;">
 										<i class="fa fa-users" style="margin-right: 4px;"></i>
-										~${totalPwnInCategory >= 1000000000 ? (totalPwnInCategory / 1000000000).toFixed(2) + 'Md' : (totalPwnInCategory / 1000000).toFixed(1) + 'M'} comptes
-										<span style="opacity: 0.7;">(~${avgPwnPerBreach >= 1000000 ? (avgPwnPerBreach / 1000000).toFixed(1) + 'M' : avgPwnPerBreach.toLocaleString(undefined, {maximumFractionDigits: 0})} par fuite)</span>
+										~${company.pwnCount >= 1000000000 ? (company.pwnCount / 1000000000).toFixed(2) + 'Md' : (company.pwnCount / 1000000).toFixed(1) + 'M'} comptes
+										<span style="opacity: 0.7;">(~${avgPerBreach >= 1000000 ? (avgPerBreach / 1000000).toFixed(1) + 'M' : avgPerBreach.toLocaleString(undefined, {maximumFractionDigits: 0})} par fuite)</span>
 									</p>
 								</div>
 								<details class="breach-details">
 									<summary class="text-primary" style="cursor: pointer;">
 										<i class="fa fa-list" style="margin-right: 4px;"></i>
-										Top ${Math.min(10, cat.breaches.length)} fuites
+										Voir les ${Math.min(20, companyBreaches.length)} fuites
 									</summary>
 									<ul class="breach-list mt-2 ps-3">
 										${breachLinks}
@@ -481,6 +456,7 @@
 						</div>
 					`;
 				}).join('');
+
 			})
 			.catch(error => {
 				console.error('Erreur chargement des données:', error);
@@ -614,3 +590,4 @@
 	<% } %>
 
 </div> <!-- row-fluid -->
+
