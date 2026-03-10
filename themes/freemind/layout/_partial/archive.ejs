@@ -217,7 +217,27 @@
                   <% archiveData.years[year][month].forEach(function(item) { %>
                     <li class="listing-item">
                       <span class="date_class"><%= new Date(item.BreachDate).toISOString().split('T')[0] %></span> &raquo;
-                      <span class="title"><a href="<%- url_for('/fuites?id=' + item.index) %>" title="<%= item.Title||item.Name %>"><%= item.Title||item.Name %></a></span>
+                      <span class="title">
+                        <a href="<%- url_for('/fuites?id=' + item.index) %>" title="<%= item.Title||item.Name %>"><%= item.Title||item.Name %></a>
+                        <% if (item.SeverityLevel) { 
+                          var severityColors = {
+                            'CRITIQUE': 'danger',
+                            'ÉLEVÉ': 'warning',
+                            'MODÉRÉ': 'info',
+                            'FAIBLE': 'secondary'
+                          };
+                          var severityIcons = {
+                            'CRITIQUE': 'fa-exclamation-triangle',
+                            'ÉLEVÉ': 'fa-exclamation-circle',
+                            'MODÉRÉ': 'fa-info-circle',
+                            'FAIBLE': 'fa-check-circle'
+                          };
+                        %>
+                          <span class="badge badge-<%= severityColors[item.SeverityLevel] %> ms-2" style="font-size: 0.7em;">
+                            <i class="fa <%= severityIcons[item.SeverityLevel] %>"></i> <%= item.SeverityLevel %>
+                          </span>
+                        <% } %>
+                      </span>
                     </li>
                   <% }); %>
                 </ol>

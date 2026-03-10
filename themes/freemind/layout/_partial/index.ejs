@@ -203,7 +203,14 @@
 								path: breach.index,
 								pwnCount: breach.PwnCount,
 								date: breach.BreachDate,
-								nsfw:breach.isNSFW
+								nsfw:breach.isNSFW,
+								severityLevel: breach.SeverityLevel
+							
+						
+							
+							
+							
+						
 							});
 						});
 					}
@@ -344,16 +351,28 @@
 					const totalPwnInCategory = cat.breaches.reduce((sum, b) => sum + (b.pwnCount || 0), 0);
 					const avgPwnPerBreach = cat.count > 0 ? (totalPwnInCategory / cat.count) : 0;
 					
-					const breachLinks = cat.breaches.slice(0, 10).map(breach => 
-						`<li class="breach-link-item ${breach.nsfw ? 'border-warning' : 'border-info'}">
-							<a href="<%- config.url %>/fuites?id=${breach.path}" class="text-decoration-none d-flex justify-content-between align-items-center">
-								<span>${breach.title}</span>
-								<span class="text-muted small ms-2" style="white-space: nowrap;">
+					const breachLinks = cat.breaches.slice(0, 10).map(breach => {
+						const severityColors = {
+							'CRITIQUE': 'danger',
+							'ÉLEVÉ': 'warning',
+							'MODÉRÉ': 'info',
+							'FAIBLE': 'secondary'
+						};
+						const severityBadge = breach.severityLevel ? 
+							`<span class="badge bg-${severityColors[breach.severityLevel]} ms-1" style="font-size: 0.65em;">${breach.severityLevel}</span>` : '';
+						
+						return `<li class="breach-link-item ${breach.nsfw ? 'border-warning' : 'border-info'}">
+							<a href="<%- config.url %>/fuites?id=${breach.path}" class="text-decoration-none d-flex justify-content-between align-items-start">
+								<span class="flex-grow-1 me-2">
+									${breach.title}
+									${severityBadge}
+								</span>
+								<span class="text-muted small" style="white-space: nowrap;">
 									${breach.pwnCount ? (breach.pwnCount >= 1000000 ? (breach.pwnCount / 1000000).toFixed(1) + 'M' : breach.pwnCount.toLocaleString()) : 'N/A'}
 								</span>
 							</a>
-						</li>`
-					).join('');
+						</li>`;
+					}).join('');
 					
 					return `
 						<div class="col-md-4 col-sm-6 mb-3">

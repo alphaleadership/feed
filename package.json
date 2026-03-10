@@ -9,7 +9,8 @@
     "server": "hexo server",
     "import": "node scripts/import.js",
     "import:remote": "node import-remote-breaches.js",
-    "add:breach": "node scripts/add-breach.js"
+    "add:breach": "node scripts/add-breach.js",
+    "classify": "node scripts/classify-breaches.js"
   },
   "hexo": {
     "version": "8.1.1"
