@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-11T11:48:12.625Z",
+  "lastUpdated": "2026-03-11T13:08:06.213Z",
   "totalBreaches": 1386,
   "breaches": [
     {
@@ -48,14 +48,14 @@
       "oldindex": 1377
     },
     {
-      "Name": "pronote fuite du 2026-3-11",
+      "Name": "pronote ",
       "Title": "pronote fuite du 2026-3-11",
       "Domain": null,
       "BreachDate": "2026-3-11",
       "AddedDate": "2026-03-11T11:47:58.484Z",
       "ModifiedDate": "2026-03-11T11:47:58.484Z",
       "PwnCount": 0,
-      "Description": "-\n\nSource]>\n\n",
+      "Description": "-\n\nSource>\n\n",
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
@@ -71,7 +71,16 @@
       "slug": "pronote-fuite-du-2026-3-11",
       "path": "https://bonjourlafuite.eu.org/img/pronote.png",
       "formattedDate": "2026-03-11",
-      "index": 1434
+      "index": 1434,
+      "source": "Manuel",
+      "lien": "https://haveibeenpwned.com/Breach/pronote ",
+      "categories": [],
+      "content": "-\n\nSource>\n\n",
+      "isNSFW": false,
+      "oldindex": 1378,
+      "title": "pronote fuite du 2026-3-11",
+      "IsCritical": false,
+      "SeverityLevel": "FAIBLE"
     },
     {
       "Name": "Vivaticket",
@@ -2319,8 +2328,8 @@
       "Title": "uniscité fuite du 2026-2-23",
       "Domain": null,
       "BreachDate": "2026-2-23",
-      "AddedDate": "2026-03-11T11:47:58.813Z",
-      "ModifiedDate": "2026-03-11T11:47:58.813Z",
+      "AddedDate": "2026-03-11T13:07:51.928Z",
+      "ModifiedDate": "2026-03-11T13:07:51.928Z",
       "PwnCount": 0,
       "Description": "-\n\nIdentité (nom\nprénom\nstatut) • Coordonnées (adresse\nemail\ntéléphone) • Données de mission (dates\nstatut) • Documents (CNI\nphotos\ndocuments signés\nactes de naissance) • Source • Source]>\n\n",
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
@@ -2606,8 +2615,8 @@
       "Title": "fédération française d’athlétisme fuite du 2026-2-21",
       "Domain": null,
       "BreachDate": "2026-2-21",
-      "AddedDate": "2026-03-11T11:47:57.504Z",
-      "ModifiedDate": "2026-03-11T11:47:57.504Z",
+      "AddedDate": "2026-03-11T13:07:50.674Z",
+      "ModifiedDate": "2026-03-11T13:07:50.674Z",
       "PwnCount": 0,
       "Description": "-\n\nNom\nprénom • Adresse postale • Adresse email • Date et lieu de naissance • Numéro de téléphone • Type de licence • Fonction • Carte d’identité • Mot de passe en clair • Adresse IP • Source • Source • Source]>\n\n",
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
@@ -53974,8 +53983,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-11T11:48:08.915Z",
-      "ModifiedDate": "2026-03-11T11:48:08.915Z",
+      "AddedDate": "2026-03-11T13:08:02.423Z",
+      "ModifiedDate": "2026-03-11T13:08:02.423Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -53991,8 +54000,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-11T11:48:08.936Z",
-      "ModifiedDate": "2026-03-11T11:48:08.936Z",
+      "AddedDate": "2026-03-11T13:08:02.446Z",
+      "ModifiedDate": "2026-03-11T13:08:02.446Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -54008,8 +54017,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-11T11:48:08.961Z",
-      "ModifiedDate": "2026-03-11T11:48:08.961Z",
+      "AddedDate": "2026-03-11T13:08:02.471Z",
+      "ModifiedDate": "2026-03-11T13:08:02.471Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -54025,8 +54034,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-11T11:48:08.979Z",
-      "ModifiedDate": "2026-03-11T11:48:08.979Z",
+      "AddedDate": "2026-03-11T13:08:02.488Z",
+      "ModifiedDate": "2026-03-11T13:08:02.488Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
@@ -54042,8 +54051,8 @@
     },
     {
       "Domain": "",
-      "AddedDate": "2026-03-11T11:48:08.985Z",
-      "ModifiedDate": "2026-03-11T11:48:08.985Z",
+      "AddedDate": "2026-03-11T13:08:02.494Z",
+      "ModifiedDate": "2026-03-11T13:08:02.494Z",
       "PwnCount": 0,
       "Description": "\n\nStatut: Inconnu\nType de service: N/A",
       "DataClasses": [],
