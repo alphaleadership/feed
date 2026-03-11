@@ -91,27 +91,7 @@ async function processBreaches() {
     }
 
     // Correction des liens HIBP
-    if (!breach.lien || String(breach.lien).includes('undefined')) {
-      let slug = '';
-      if (breach.path && String(breach.path).includes('breaches/')) {
-        slug = breach.path.split('breaches/')[1];
-      } else if (breach.Name) {
-        slug = breach.Name;
-      }
 
-      if (slug && slug !== 'undefined') {
-        if (slug.includes("fuite du")) {
-          breach.lien = `https://bonjourlafuite.eu.org/{${slug.replaceAll("fuite du", "-")}}`;
-        } else {
-          // Définir le lien par défaut
-          breach.lien = `https://haveibeenpwned.com/Breach/${slug}`;
-          // Ajouter à la liste de vérification (optionnel, peut être désactivé pour plus de rapidité)
-           linkVerifications.push({ breach, slug });
-        }
-      } else {
-        breach.lien = `https://haveibeenpwned.com/`;
-      }
-    }
 
     if (!(breach.categories && Array.isArray(breach.categories))) {
       breach.categories = [];
