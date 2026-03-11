@@ -19,7 +19,7 @@ db.breaches.forEach((breach, index) => {
   }
   
   // Pour les fuites bonjourlafuite, utiliser le champ path comme lien
-  if (breach.lien && breach.lien.includes('bonjourlafuite.eu.org') && breach.path) {
+  if (breach.path && breach.path.includes('bonjourlafuite.eu.org') && breach.path) {
     // Construire l'URL bonjourlafuite
     breach.lien = `${breach.path}`;
     updatedCount++;
@@ -34,7 +34,7 @@ db.breaches.forEach((breach, index) => {
     if (!isImage && !isPdf) {
       // C'est une URL valide vers une page web
       if (!breach.lien || breach.lien === 'undefined' || breach.lien.includes('undefined') || breach.lien.includes('haveibeenpwned.com')) {
-        breach.lien = breach.source;
+        breach.lien = breach.source||breach.path;
         updatedCount++;
         console.log(`  ✓ Lien mis à jour pour: ${breach.Name || breach.Title}`);
       }
