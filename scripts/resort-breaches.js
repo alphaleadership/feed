@@ -72,8 +72,12 @@ async function processBreaches() {
     if (!breach.BreachDate) {
       breach.IsRetired = true;
     }
-
-    breach.Name = decodeURI(breach.Name).split("fuite")[0];
+    if(breach.Name.toLowerCase().includes("france")){
+      breach.Name = decodeURI(breach.Name)
+    }else{
+      breach.Name = decodeURI(breach.Name).split("fuite")[0];
+    }
+    
     
     if (!breach.Title || breach.Title.trim() === '') {
       breach.Title = breach.Name;
