@@ -69,10 +69,14 @@ async function processBreaches() {
       return;
     }
     
-    if (!breach.BreachDate) {
-      breach.IsRetired = true;
-    }
+ 
     if(breach.Name){
+         if (!breach.BreachDate) {
+      if(breach.Title
+.toLowerCase().includes("fuite")){
+  breach.BreachDate=new Date(breach.Title.split("fuite du ")[1])
+}
+    }
   if(breach.Name.toLowerCase().includes("france")){
       breach.Name = decodeURI(breach.Name)
     }else{
