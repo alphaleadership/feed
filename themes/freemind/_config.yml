@@ -35,6 +35,10 @@ menu:
     url: glossaire
     intro: "Niveaux de risque par type de données"
     icon: "fa fa-shield"
+  - title: Statistiques
+    url: stat
+    intro: "Analyse détaillée des fuites"
+    icon: "fa fa-bar-chart"
 
 links:
   - title: code

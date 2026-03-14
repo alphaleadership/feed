@@ -1,0 +1,189 @@
+<%- partial('_partial/head') %>
+<body class="bg-dark text-light">
+  <%- partial('_partial/navigation') %>
+  
+  <div class="container mt-4">
+    <div class="page-header mb-4 p-3 rounded" style="background: rgba(0, 255, 65, 0.05); border-left: 5px solid #00ff41;">
+      <h1 class="title text-uppercase" style="color: #00ff41; font-family: 'Courier New', Courier, monospace; letter-spacing: 2px;">
+        <i class="fa fa-bar-chart me-2"></i> Statistiques du Répertoire
+      </h1>
+      <p class="text-muted">Analyse détaillée de l'ensemble des fuites de données indexées.</p>
+    </div>
+
+    <div class="row">
+      <!-- Graphique d'évolution temporelle -->
+      <div class="col-12 mb-4">
+        <div class="card bg-black border-matrix shadow-matrix">
+          <div class="card-header border-matrix-bottom">
+            <h3 class="matrix-font mb-0"><i class="fa fa-line-chart"></i> Évolution temporelle cumulative</h3>
+          </div>
+          <div class="card-body">
+            <div id="evolution-chart"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Graphiques à barres -->
+      <div class="col-md-6 mb-4">
+        <div class="card bg-black border-matrix h-100 shadow-matrix">
+          <div class="card-header border-matrix-bottom">
+            <h3 class="matrix-font mb-0"><i class="fa fa-database"></i> Top 10 Types de données fuités</h3>
+          </div>
+          <div class="card-body">
+            <div id="dataclass-chart"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-4">
+        <div class="card bg-black border-matrix h-100 shadow-matrix">
+          <div class="card-header border-matrix-bottom">
+            <h3 class="matrix-font mb-0"><i class="fa fa-building"></i> Top 10 Entreprises les plus touchées</h3>
+          </div>
+          <div class="card-body">
+            <div id="company-chart"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="stats-tooltip" style="position: absolute; visibility: hidden; background: rgba(0,0,0,0.9); color: #00ff41; padding: 10px; border: 1px solid #00ff41; border-radius: 4px; pointer-events: none; font-family: 'Courier New', Courier, monospace; font-size: 0.9em; z-index: 1000; box-shadow: 0 0 10px rgba(0,255,65,0.3);"></div>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script>
+    fetch('<%- config.url %>/data/breaches.json')
+      .then(response => response.json())
+      .then(data => {
+        const breaches = data.breaches.filter(b => !b.IsRetired);
+        
+        // --- 1. Évolution Cumulative ---
+        const filteredForEvolution = breaches
+          .filter(b => b.Name && !b.Name.toLowerCase().includes('cve-'))
+          .sort((a, b) => new Date(a.BreachDate) - new Date(b.BreachDate));
+        
+        const evoData = [];
+        let cum = 0;
+        filteredForEvolution.forEach(b => {
+          cum++;
+          evoData.push({ date: new Date(b.BreachDate), value: cum });
+        });
+
+        renderEvolutionChart(evoData);
+
+        // --- 2. Top DataClasses ---
+        const dcStats = {};
+        breaches.forEach(b => {
+          if (b.DataClasses) {
+            b.DataClasses.forEach(dc => {
+              dcStats[dc] = (dcStats[dc] || 0) + 1;
+            });
+          }
+        });
+        const topDCs = Object.entries(dcStats)
+          .sort((a, b) => b[1] - a[1])
+          .slice(0, 10);
+        
+        renderBarChart("#dataclass-chart", topDCs, "#ff00ff");
+
+        // --- 3. Top Companies ---
+        const companyStats = {};
+        breaches.forEach(b => {
+          let name = b.Domain || b.Title || b.Name;
+          if (name) {
+            if (name.toLowerCase().includes('france travail') || name.toLowerCase().includes('pole emploi')) name = 'France Travail';
+            companyStats[name] = (companyStats[name] || 0) + 1;
+          }
+        });
+        const topComps = Object.entries(companyStats)
+          .sort((a, b) => b[1] - a[1])
+          .slice(0, 10);
+          
+        renderBarChart("#company-chart", topComps, "#ffff00");
+      });
+
+    const showTooltip = (event, content) => {
+      const tooltip = d3.select("#stats-tooltip");
+      tooltip.style("visibility", "visible").html(content);
+      const tNode = tooltip.node();
+      let tx = event.pageX + 10;
+      let ty = event.pageY - tNode.offsetHeight - 10;
+      if (tx + tNode.offsetWidth > window.innerWidth) tx = event.pageX - tNode.offsetWidth - 10;
+      if (ty < 0) ty = event.pageY + 10;
+      tooltip.style("top", ty + "px").style("left", tx + "px");
+    };
+
+    function renderEvolutionChart(data) {
+      const container = d3.select("#evolution-chart");
+      const margin = {top: 20, right: 30, bottom: 40, left: 60};
+      const width = container.node().offsetWidth - margin.left - margin.right;
+      const height = 300 - margin.top - margin.bottom;
+
+      const svg = container.append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g").attr("transform", `translate(${margin.left},${margin.top})`);
+
+      const x = d3.scaleTime().domain(d3.extent(data, d => d.date)).range([0, width]);
+      const y = d3.scaleLinear().domain([0, d3.max(data, d => d.value) * 1.1]).nice().range([height, 0]);
+
+      svg.append("g").attr("transform", `translate(0,${height})`).call(d3.axisBottom(x)).attr("color", "#008f11");
+      svg.append("g").call(d3.axisLeft(y)).attr("color", "#008f11");
+
+      svg.append("path").datum(data).attr("fill", "none").attr("stroke", "#00ff41").attr("stroke-width", 2)
+        .attr("d", d3.line().x(d => x(d.date)).y(d => y(d.value)).curve(d3.curveStepAfter));
+
+      svg.append("rect").attr("width", width).attr("height", height).style("fill", "none").style("pointer-events", "all")
+        .on("mouseover", () => d3.select("#stats-tooltip").style("visibility", "visible"))
+        .on("mouseout", () => d3.select("#stats-tooltip").style("visibility", "hidden"))
+        .on("mousemove", (event) => {
+          const x0 = x.invert(d3.pointer(event)[0]);
+          const i = d3.bisector(d => d.date).left(data, x0, 1);
+          const d = data[i - 1];
+          if (d) {
+            showTooltip(event, `Le ${d.date.toLocaleDateString('fr-FR')}<br/><strong>${d.value} fuites cumulées</strong>`);
+          }
+        });
+    }
+
+    function renderBarChart(selector, data, color) {
+      const container = d3.select(selector);
+      const margin = {top: 20, right: 20, bottom: 100, left: 50};
+      const width = container.node().offsetWidth - margin.left - margin.right;
+      const height = 400 - margin.top - margin.bottom;
+
+      const svg = container.append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g").attr("transform", `translate(${margin.left},${margin.top})`);
+
+      const x = d3.scaleBand().domain(data.map(d => d[0])).range([0, width]).padding(0.2);
+      const y = d3.scaleLinear().domain([0, d3.max(data, d => d[1])]).nice().range([height, 0]);
+
+      svg.append("g").attr("transform", `translate(0,${height})`).call(d3.axisBottom(x))
+        .attr("color", "#008f11")
+        .selectAll("text").attr("transform", "rotate(-45)").style("text-anchor", "end").style("font-size", "10px");
+
+      svg.append("g").call(d3.axisLeft(y)).attr("color", "#008f11");
+
+      svg.selectAll(".bar").data(data).enter().append("rect").attr("class", "bar")
+        .attr("x", d => x(d[0])).attr("y", d => y(d[1])).attr("width", x.bandwidth()).attr("height", d => height - y(d[1]))
+        .attr("fill", color)
+        .on("mouseover", (event, d) => showTooltip(event, `<strong>${d[0]}</strong><br/>${d[1]} incidents`))
+        .on("mouseout", () => d3.select("#stats-tooltip").style("visibility", "hidden"));
+    }
+  </script>
+
+  <style>
+    .matrix-font { font-family: 'Courier New', Courier, monospace; color: #00ff41; font-size: 1.1em; }
+    .border-matrix { border: 1px solid #00ff41 !important; }
+    .border-matrix-bottom { border-bottom: 1px solid #00ff41 !important; background: rgba(0, 255, 65, 0.1) !important; }
+    .shadow-matrix { box-shadow: 0 0 15px rgba(0, 255, 65, 0.2); }
+    .bg-black { background-color: #000 !important; }
+    text { font-family: 'Courier New', Courier, monospace; }
+  </style>
+
+  <%- partial('_partial/footer') %>
+  <%- partial('_partial/after_footer') %>
+</body>
+</html>
