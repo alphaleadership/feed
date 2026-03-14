@@ -1,9 +1,14 @@
 <div class="container mt-4">
-  <div class="page-header mb-4 p-3 rounded" style="background: rgba(0, 255, 65, 0.05); border-left: 5px solid #00ff41;">
+  <div class="page-header mb-4 p-3 rounded shadow-matrix" style="background: rgba(0, 255, 65, 0.05); border-left: 5px solid #00ff41;">
     <h1 class="title text-uppercase" style="color: #00ff41; font-family: 'Courier New', Courier, monospace; letter-spacing: 2px;">
-      <i class="fa fa-bar-chart me-2"></i> Statistiques du Répertoire
+      <i class="fa fa-terminal me-2"></i> ANALYSE SYSTÈME : STATISTIQUES GLOBALES
     </h1>
-    <p class="text-muted">Analyse détaillée de l'ensemble des fuites de données indexées.</p>
+    <p class="text-muted matrix-font">Exploration profonde des données de compromission indexées.</p>
+  </div>
+
+  <!-- Chiffres Clés (KPI) -->
+  <div class="row mb-4" id="kpi-container">
+    <!-- Sera rempli par JS -->
   </div>
 
   <div class="row">
@@ -19,14 +24,14 @@
       </div>
     </div>
 
-    <!-- Graphiques à barres -->
+    <!-- Répartition par Sévérité et Vérification -->
     <div class="col-md-6 mb-4">
       <div class="card bg-black border-matrix h-100 shadow-matrix">
         <div class="card-header border-matrix-bottom">
-          <h3 class="matrix-font mb-0"><i class="fa fa-database"></i> Top 10 Types de données fuités</h3>
+          <h3 class="matrix-font mb-0"><i class="fa fa-shield"></i> Niveaux de Sévérité</h3>
         </div>
-        <div class="card-body">
-          <div id="dataclass-chart"></div>
+        <div class="card-body d-flex justify-content-center">
+          <div id="severity-chart"></div>
         </div>
       </div>
     </div>
@@ -34,7 +39,43 @@
     <div class="col-md-6 mb-4">
       <div class="card bg-black border-matrix h-100 shadow-matrix">
         <div class="card-header border-matrix-bottom">
-          <h3 class="matrix-font mb-0"><i class="fa fa-building"></i> Top 10 Entreprises les plus touchées</h3>
+          <h3 class="matrix-font mb-0"><i class="fa fa-check-circle"></i> Statut de Vérification</h3>
+        </div>
+        <div class="card-body d-flex justify-content-center">
+          <div id="verification-chart"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Top DataClasses -->
+    <div class="col-md-12 mb-4">
+      <div class="card bg-black border-matrix shadow-matrix">
+        <div class="card-header border-matrix-bottom">
+          <h3 class="matrix-font mb-0"><i class="fa fa-database"></i> Top 15 Types de données fuités (DataClasses)</h3>
+        </div>
+        <div class="card-body">
+          <div id="dataclass-chart"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fuites par année -->
+    <div class="col-md-6 mb-4">
+      <div class="card bg-black border-matrix h-100 shadow-matrix">
+        <div class="card-header border-matrix-bottom">
+          <h3 class="matrix-font mb-0"><i class="fa fa-calendar"></i> Nombre de fuites par année</h3>
+        </div>
+        <div class="card-body">
+          <div id="year-count-chart"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Top Companies -->
+    <div class="col-md-6 mb-4">
+      <div class="card bg-black border-matrix h-100 shadow-matrix">
+        <div class="card-header border-matrix-bottom">
+          <h3 class="matrix-font mb-0"><i class="fa fa-building"></i> Top 10 Organisations les plus touchées</h3>
         </div>
         <div class="card-body">
           <div id="company-chart"></div>
@@ -54,50 +95,77 @@
       .then(data => {
         const breaches = data.breaches.filter(b => !b.IsRetired);
         
-        // --- 1. Évolution Cumulative ---
-        const filteredForEvolution = breaches
-          .filter(b => b.Name && !b.Name.toLowerCase().includes('cve-'))
-          .sort((a, b) => new Date(a.BreachDate) - new Date(b.BreachDate));
-        
-        const evoData = [];
-        let cum = 0;
-        filteredForEvolution.forEach(b => {
-          cum++;
-          evoData.push({ date: new Date(b.BreachDate), value: cum });
-        });
-
-        renderEvolutionChart(evoData);
-
-        // --- 2. Top DataClasses ---
+        // --- 0. Calcul des KPI ---
+        let totalPwn = 0;
+        let verifiedCount = 0;
+        let sensitiveCount = 0;
+        const severityStats = {};
+        const yearStats = {};
         const dcStats = {};
-        breaches.forEach(b => {
-          if (b.DataClasses) {
-            b.DataClasses.forEach(dc => {
-              dcStats[dc] = (dcStats[dc] || 0) + 1;
-            });
-          }
-        });
-        const topDCs = Object.entries(dcStats)
-          .sort((a, b) => b[1] - a[1])
-          .slice(0, 10);
-        
-        renderBarChart("#dataclass-chart", topDCs, "#ff00ff");
-
-        // --- 3. Top Companies ---
         const companyStats = {};
+
         breaches.forEach(b => {
+          totalPwn += (b.PwnCount || 0);
+          if (b.IsVerified) verifiedCount++;
+          if (b.IsSensitive) sensitiveCount++;
+          
+          const sev = b.SeverityLevel || "NON DÉFINI";
+          severityStats[sev] = (severityStats[sev] || 0) + 1;
+          
+          const year = new Date(b.BreachDate).getFullYear();
+          yearStats[year] = (yearStats[year] || 0) + 1;
+
+          if (b.DataClasses) {
+            b.DataClasses.forEach(dc => { dcStats[dc] = (dcStats[dc] || 0) + 1; });
+          }
+
           let name = b.Domain || b.Title || b.Name;
           if (name) {
             if (name.toLowerCase().includes('france travail') || name.toLowerCase().includes('pole emploi')) name = 'France Travail';
             companyStats[name] = (companyStats[name] || 0) + 1;
           }
         });
-        const topComps = Object.entries(companyStats)
-          .sort((a, b) => b[1] - a[1])
-          .slice(0, 10);
-          
-        renderBarChart("#company-chart", topComps, "#ffff00");
+
+        renderKPIs(breaches.length, totalPwn, verifiedCount, sensitiveCount);
+
+        // --- 1. Évolution Cumulative ---
+        const filteredForEvolution = breaches
+          .filter(b => b.Name && !b.Name.toLowerCase().includes('cve-'))
+          .sort((a, b) => new Date(a.BreachDate) - new Date(b.BreachDate));
+        const evoData = [];
+        let cum = 0;
+        filteredForEvolution.forEach(b => { cum++; evoData.push({ date: new Date(b.BreachDate), value: cum }); });
+        renderEvolutionChart(evoData);
+
+        // --- 2. Pie Charts ---
+        renderDonutChart("#severity-chart", Object.entries(severityStats), ["#dc3545", "#fd7e14", "#ffc107", "#0dcaf0", "#6c757d"]);
+        renderDonutChart("#verification-chart", [["Vérifié", verifiedCount], ["Non vérifié", breaches.length - verifiedCount]], ["#00ff41", "#333"]);
+
+        // --- 3. Bar Charts ---
+        renderBarChart("#dataclass-chart", Object.entries(dcStats).sort((a,b)=>b[1]-a[1]).slice(0, 15), "#00ff41");
+        renderBarChart("#year-count-chart", Object.entries(yearStats).sort((a,b)=>a[0]-b[0]), "#38bdf8");
+        renderBarChart("#company-chart", Object.entries(companyStats).sort((a,b)=>b[1]-a[1]).slice(0, 10), "#fbbf24");
       });
+
+    function renderKPIs(count, pwn, verified, sensitive) {
+      const format = (n) => n >= 1000000000 ? (n/1000000000).toFixed(2) + ' Md' : n >= 1000000 ? (n/1000000).toFixed(1) + ' M' : n.toLocaleString();
+      const container = document.getElementById('kpi-container');
+      const kpis = [
+        { label: "Total Fuites", value: count, icon: "fa-database", color: "#00ff41" },
+        { label: "Comptes Compromis", value: format(pwn), icon: "fa-users", color: "#38bdf8" },
+        { label: "Fuites Vérifiées", value: ((verified/count)*100).toFixed(1) + "%", icon: "fa-check-circle", color: "#4ade80" },
+        { label: "Données Sensibles", value: ((sensitive/count)*100).toFixed(1) + "%", icon: "fa-lock", color: "#f87171" }
+      ];
+      container.innerHTML = kpis.map(k => `
+        <div class="col-md-3 col-sm-6 mb-3">
+          <div class="card bg-black border-matrix p-3 text-center h-100 shadow-matrix">
+            <i class="fa ${k.icon} mb-2" style="color: ${k.color}; font-size: 1.5rem;"></i>
+            <h2 class="matrix-font mb-0" style="color: ${k.color}">${k.value}</h2>
+            <div class="text-muted small text-uppercase mt-1">${k.label}</div>
+          </div>
+        </div>
+      `).join('');
+    }
 
     const showTooltip = (event, content) => {
       const tooltip = d3.select("#stats-tooltip");
@@ -115,21 +183,12 @@
       const margin = {top: 20, right: 30, bottom: 40, left: 60};
       const width = container.node().offsetWidth - margin.left - margin.right;
       const height = 300 - margin.top - margin.bottom;
-
-      const svg = container.append("svg")
-        .attr("width", width + margin.left + margin.right)
-        .attr("height", height + margin.top + margin.bottom)
-        .append("g").attr("transform", `translate(${margin.left},${margin.top})`);
-
+      const svg = container.append("svg").attr("width", width + margin.left + margin.right).attr("height", height + margin.top + margin.bottom).append("g").attr("transform", `translate(${margin.left},${margin.top})`);
       const x = d3.scaleTime().domain(d3.extent(data, d => d.date)).range([0, width]);
       const y = d3.scaleLinear().domain([0, d3.max(data, d => d.value) * 1.1]).nice().range([height, 0]);
-
       svg.append("g").attr("transform", `translate(0,${height})`).call(d3.axisBottom(x)).attr("color", "#008f11");
       svg.append("g").call(d3.axisLeft(y)).attr("color", "#008f11");
-
-      svg.append("path").datum(data).attr("fill", "none").attr("stroke", "#00ff41").attr("stroke-width", 2)
-        .attr("d", d3.line().x(d => x(d.date)).y(d => y(d.value)).curve(d3.curveStepAfter));
-
+      svg.append("path").datum(data).attr("fill", "none").attr("stroke", "#00ff41").attr("stroke-width", 2).attr("d", d3.line().x(d => x(d.date)).y(d => y(d.value)).curve(d3.curveStepAfter));
       svg.append("rect").attr("width", width).attr("height", height).style("fill", "none").style("pointer-events", "all")
         .on("mouseover", () => d3.select("#stats-tooltip").style("visibility", "visible"))
         .on("mouseout", () => d3.select("#stats-tooltip").style("visibility", "hidden"))
@@ -137,35 +196,34 @@
           const x0 = x.invert(d3.pointer(event)[0]);
           const i = d3.bisector(d => d.date).left(data, x0, 1);
           const d = data[i - 1];
-          if (d) {
-            showTooltip(event, `Le ${d.date.toLocaleDateString('fr-FR')}<br/><strong>${d.value} fuites cumulées</strong>`);
-          }
+          if (d) showTooltip(event, `Le ${d.date.toLocaleDateString('fr-FR')}<br/><strong>${d.value} fuites cumulées</strong>`);
         });
     }
 
-    function renderBarChart(selector, data, color) {
+    function renderDonutChart(selector, data, colors) {
+      const width = 250, height = 250, margin = 20;
+      const radius = Math.min(width, height) / 2 - margin;
+      const svg = d3.select(selector).append("svg").attr("width", width).attr("height", height).append("g").attr("transform", `translate(${width/2},${height/2})`);
+      const color = d3.scaleOrdinal().domain(data.map(d => d[0])).range(colors);
+      const pie = d3.pie().value(d => d[1]).sort(null);
+      const arc = d3.arc().innerRadius(radius * 0.6).outerRadius(radius);
+      svg.selectAll('path').data(pie(data)).enter().append('path').attr('d', arc).attr('fill', d => color(d.data[0]))
+        .attr("stroke", "#000").style("stroke-width", "2px").style("opacity", 0.8)
+        .on("mouseover", (event, d) => showTooltip(event, `<strong>${d.data[0]}</strong><br/>${d.data[1]} incidents (${((d.data[1]/d3.sum(data, x=>x[1]))*100).toFixed(1)}%)`))
+        .on("mouseout", () => d3.select("#stats-tooltip").style("visibility", "hidden"));
+    }
+
+    function renderBarChart(selector, data, defaultColor) {
       const container = d3.select(selector);
-      const margin = {top: 20, right: 20, bottom: 100, left: 50};
+      const margin = {top: 20, right: 20, bottom: 80, left: 50};
       const width = container.node().offsetWidth - margin.left - margin.right;
-      const height = 400 - margin.top - margin.bottom;
-
-      const svg = container.append("svg")
-        .attr("width", width + margin.left + margin.right)
-        .attr("height", height + margin.top + margin.bottom)
-        .append("g").attr("transform", `translate(${margin.left},${margin.top})`);
-
+      const height = 300 - margin.top - margin.bottom;
+      const svg = container.append("svg").attr("width", width + margin.left + margin.right).attr("height", height + margin.top + margin.bottom).append("g").attr("transform", `translate(${margin.left},${margin.top})`);
       const x = d3.scaleBand().domain(data.map(d => d[0])).range([0, width]).padding(0.2);
       const y = d3.scaleLinear().domain([0, d3.max(data, d => d[1])]).nice().range([height, 0]);
-
-      svg.append("g").attr("transform", `translate(0,${height})`).call(d3.axisBottom(x))
-        .attr("color", "#008f11")
-        .selectAll("text").attr("transform", "rotate(-45)").style("text-anchor", "end").style("font-size", "10px");
-
+      svg.append("g").attr("transform", `translate(0,${height})`).call(d3.axisBottom(x)).attr("color", "#008f11").selectAll("text").attr("transform", "rotate(-45)").style("text-anchor", "end").style("font-size", "10px");
       svg.append("g").call(d3.axisLeft(y)).attr("color", "#008f11");
-
-      svg.selectAll(".bar").data(data).enter().append("rect").attr("class", "bar")
-        .attr("x", d => x(d[0])).attr("y", d => y(d[1])).attr("width", x.bandwidth()).attr("height", d => height - y(d[1]))
-        .attr("fill", color)
+      svg.selectAll(".bar").data(data).enter().append("rect").attr("class", "bar").attr("x", d => x(d[0])).attr("y", d => y(d[1])).attr("width", x.bandwidth()).attr("height", d => height - y(d[1])).attr("fill", defaultColor)
         .on("mouseover", (event, d) => showTooltip(event, `<strong>${d[0]}</strong><br/>${d[1]} incidents`))
         .on("mouseout", () => d3.select("#stats-tooltip").style("visibility", "hidden"));
     }
@@ -173,10 +231,12 @@
 </script>
 
 <style>
-  .matrix-font { font-family: 'Courier New', Courier, monospace; color: #00ff41; font-size: 1.1em; }
+  .matrix-font { font-family: 'Courier New', Courier, monospace; color: #00ff41; }
   .border-matrix { border: 1px solid #00ff41 !important; }
   .border-matrix-bottom { border-bottom: 1px solid #00ff41 !important; background: rgba(0, 255, 65, 0.1) !important; }
   .shadow-matrix { box-shadow: 0 0 15px rgba(0, 255, 65, 0.2); }
   .bg-black { background-color: #000 !important; }
-  text { font-family: 'Courier New', Courier, monospace; }
+  text { font-family: 'Courier New', Courier, monospace; font-size: 10px; fill: #00ff41; }
+  .axis path, .axis line { stroke: #008f11; }
+  .card-header h3 { font-size: 1.1rem; text-transform: uppercase; letter-spacing: 1px; }
 </style>
