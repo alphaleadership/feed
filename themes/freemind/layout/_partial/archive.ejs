@@ -102,6 +102,164 @@
         }
       });
       %>
+
+      <!-- Graphe D3.js -->
+      <div id="breach-chart-container" style="margin: 20px 0; padding: 20px; background: #000; border-radius: 8px; border: 1px solid #00ff41; position: relative; overflow: hidden; box-shadow: 0 0 15px rgba(0, 255, 65, 0.2);">
+        <h3 style="color: #00ff41; font-family: 'Courier New', Courier, monospace; margin-top: 0; margin-bottom: 20px; font-size: 1.2em; text-transform: uppercase; letter-spacing: 2px;">
+          <i class="fa fa-line-chart"></i> Évolution temporelle des fuites
+        </h3>
+        <div id="breach-chart"></div>
+        <div id="chart-tooltip" style="position: absolute; visibility: hidden; background: rgba(0,0,0,0.9); color: #00ff41; padding: 10px; border: 1px solid #00ff41; border-radius: 4px; pointer-events: none; font-family: 'Courier New', Courier, monospace; font-size: 0.9em; z-index: 1000; box-shadow: 0 0 10px rgba(0,255,65,0.3);"></div>
+      </div>
+
+      <script src="https://d3js.org/d3.v7.min.js"></script>
+      <script>
+        (function() {
+          const yearsData = <%- JSON.stringify(archiveData.years) %>;
+          const surpassInfo = <%- JSON.stringify(yearSurpassInfo) %>;
+          const currentYear = new Date().getFullYear();
+          
+          const allBreaches = [];
+          Object.keys(yearsData).forEach(year => {
+            Object.keys(yearsData[year]).forEach(month => {
+              yearsData[year][month].forEach(breach => {
+                allBreaches.push({
+                  date: new Date(breach.BreachDate),
+                  year: parseInt(year)
+                });
+              });
+            });
+          });
+          
+          allBreaches.sort((a, b) => a.date - b.date);
+          
+          let cumulative = 0;
+          const chartData = allBreaches.map(b => {
+            cumulative++;
+            return {
+              date: b.date,
+              value: cumulative,
+              year: b.year
+            };
+          });
+
+          const margin = {top: 20, right: 50, bottom: 40, left: 60};
+          const container = d3.select("#breach-chart");
+          const width = container.node().getBoundingClientRect().width - margin.left - margin.right;
+          const height = 300 - margin.top - margin.bottom;
+
+          const svg = container.append("svg")
+              .attr("width", width + margin.left + margin.right)
+              .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+              .attr("transform", `translate(${margin.left},${margin.top})`);
+
+          const x = d3.scaleTime()
+            .domain(d3.extent(chartData, d => d.date))
+            .range([0, width]);
+
+          const y = d3.scaleLinear()
+            .domain([0, d3.max(chartData, d => d.value) * 1.1])
+            .nice()
+            .range([height, 0]);
+
+          svg.append("g")
+            .attr("transform", `translate(0,${height})`)
+            .call(d3.axisBottom(x).ticks(width / 80).tickFormat(d3.timeFormat("%Y")))
+            .attr("color", "#008f11")
+            .selectAll("text")
+            .style("font-family", "'Courier New', Courier, monospace");
+
+          svg.append("g")
+            .call(d3.axisLeft(y))
+            .attr("color", "#008f11")
+            .selectAll("text")
+            .style("font-family", "'Courier New', Courier, monospace");
+
+          svg.append("path")
+            .datum(chartData)
+            .attr("fill", "none")
+            .attr("stroke", "#00ff41")
+            .attr("stroke-width", 2)
+            .attr("d", d3.line()
+              .x(d => x(d.date))
+              .y(d => y(d.value))
+              .curve(d3.curveStepAfter)
+            );
+
+          // Annotations de dÃ©passement
+          Object.keys(surpassInfo).forEach(year => {
+            const info = surpassInfo[year];
+            if (info.avgDate) {
+              const d = new Date(info.avgDate);
+              const point = chartData.find(p => p.date.getTime() === d.getTime());
+              if (point) {
+                svg.append("circle")
+                  .attr("cx", x(d))
+                  .attr("cy", y(point.value))
+                  .attr("r", 4)
+                  .attr("fill", "#ff00ff")
+                  .attr("stroke", "#fff")
+                  .on("mouseover", (event) => {
+                    d3.select("#chart-tooltip")
+                      .style("visibility", "visible")
+                      .html(`<strong>DÃ©passement Moyenne ${year}</strong><br/>Le ${d.toLocaleDateString('fr-FR')}<br/>Total: ${point.value}`)
+                      .style("top", (event.pageY - 80) + "px")
+                      .style("left", (event.pageX + 10) + "px");
+                  })
+                  .on("mouseout", () => d3.select("#chart-tooltip").style("visibility", "hidden"));
+              }
+            }
+            if (info.date) {
+              const d = new Date(info.date);
+              const point = chartData.find(p => p.date.getTime() === d.getTime());
+              if (point) {
+                svg.append("circle")
+                  .attr("cx", x(d))
+                  .attr("cy", y(point.value))
+                  .attr("r", 4)
+                  .attr("fill", "#ffff00")
+                  .attr("stroke", "#fff")
+                  .on("mouseover", (event) => {
+                    d3.select("#chart-tooltip")
+                      .style("visibility", "visible")
+                      .html(`<strong>DÃ©passement ${info.prevYear}</strong><br/>Le ${d.toLocaleDateString('fr-FR')}<br/>Total: ${point.value}`)
+                      .style("top", (event.pageY - 80) + "px")
+                      .style("left", (event.pageX + 10) + "px");
+                  })
+                  .on("mouseout", () => d3.select("#chart-tooltip").style("visibility", "hidden"));
+              }
+            }
+          });
+
+          const focus = svg.append("g").style("display", "none");
+          focus.append("circle").attr("r", 5).attr("fill", "#00ff41").attr("stroke", "#fff");
+          
+          svg.append("rect")
+            .attr("width", width)
+            .attr("height", height)
+            .style("fill", "none")
+            .style("pointer-events", "all")
+            .on("mouseover", () => focus.style("display", null))
+            .on("mouseout", () => {
+              focus.style("display", "none");
+              d3.select("#chart-tooltip").style("visibility", "hidden");
+            })
+            .on("mousemove", (event) => {
+              const x0 = x.invert(d3.pointer(event)[0]);
+              const i = d3.bisector(d => d.date).left(chartData, x0, 1);
+              const d = chartData[i - 1];
+              if (d) {
+                focus.attr("transform", `translate(${x(d.date)},${y(d.value)})`);
+                d3.select("#chart-tooltip")
+                  .style("visibility", "visible")
+                  .html(`Le ${d.date.toLocaleDateString('fr-FR')}<br/><strong>${d.value} fuites cumulÃ©es</strong>`)
+                  .style("top", (event.pageY - 80) + "px")
+                  .style("left", (event.pageX + 10) + "px");
+              }
+            });
+        })();
+      </script>
       
       <% Object.keys(archiveData.years).sort((a, b) => a - b).forEach(function(year) { %>
         <% 
