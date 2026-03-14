@@ -398,7 +398,8 @@
         }
 
         return `
-          <div class="fuite-card">
+          <div class="fuite-card ${breach.isBlocked ? 'blocked-card' : ''}">
+            ${breach.isBlocked ? `<span class="severity-badge" style="background-color: #450a0a; color: #fecaca; border: 1px solid #991b1b;">DOMAINE BLOQUÉ</span>` : ''}
             ${contentHtml}
             <div class="date">${new Date(breach.BreachDate).toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}</div>
             ${breach.SeverityLevel ? `<span class="severity-badge severity-${breach.SeverityLevel.toLowerCase()}">${breach.SeverityLevel}</span>` : ''}
@@ -418,6 +419,13 @@
         <div class="breach-details">
           <div class="breach-header">
             <h1>${breach.Title || breach.Name}</h1>
+            ${breach.isBlocked ? `
+              <div class="nsfw-warning" style="margin-top: 15px; background-color: #450a0a; border-color: #991b1b;">
+                <h2 style="color: #fecaca;">⚠️ Attention : Domaine bloqué ou indésirable</h2>
+                <p style="color: #fecaca;">Ce domaine (<strong>${breach.Domain}</strong>) est répertorié comme potentiellement malveillant ou indésirable.</p>
+                ${breach.blockedNote ? `<p style="color: #fecaca;"><strong>Notes :</strong> ${breach.blockedNote}</p>` : ''}
+              </div>
+            ` : ''}
             ${breach.isNSFW ? `
               <div class="nsfw-warning" style="margin-top: 15px;">
                 <h2>⚠️ Attention : Contenu potentiellement inadapté (NSFW)</h2>

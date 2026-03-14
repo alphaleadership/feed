@@ -57,6 +57,40 @@ async function processBreaches() {
     return dateA - dateB;
   });
 
+// Charger les domaines bloqués
+  const blockedFile = path.join(baseDir, 'blocked_domains.json');
+  let blockedDomains = new Map();
+  if (fs.existsSync(blockedFile)) {
+    try {
+      const blockedDataRaw = JSON.parse(fs.readFileSync(blockedFile, 'utf-8'));
+      const blockedData = Array.isArray(blockedDataRaw) ? blockedDataRaw : (blockedDataRaw.domains || []);
+      blockedData.forEach(d => {
+        if (d.domain) {
+          blockedDomains.set(d.domain.toLowerCase(), d.notes || '');
+        }
+      });
+      console.log(`${blockedDomains.size} domaines bloqués chargés.`);
+    } catch (err) {
+      console.error('Erreur lors de la lecture des domaines bloqués:', err);
+    }
+  }
+
+  function getBlockedNote(domain) {
+    if (!domain) return null;
+    domain = domain.toLowerCase().trim();
+    domain = domain.replace(/^https?:\/\//, '').split('/')[0];
+    
+    let parts = domain.split('.');
+    while (parts.length >= 2) {
+      let current = parts.join('.');
+      if (blockedDomains.has(current)) {
+        return blockedDomains.get(current);
+      }
+      parts.shift();
+    }
+    return null;
+  }
+
   let i = -1;
   const invalidcategory = ["hygiène numérique", "sécurité", "cybersécurité", "cybercriminalité", "cyberguerre"];
   
@@ -69,7 +103,10 @@ async function processBreaches() {
       return;
     }
     
- 
+    // Vérification domaine bloqué
+    const blockedNote = getBlockedNote(breach.Domain);
+    breach.isBlocked = !!blockedNote;
+    breach.blockedNote = blockedNote || null;
     if(breach.Name){
          if (!breach.BreachDate) {
       if(breach.Title
