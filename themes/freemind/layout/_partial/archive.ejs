@@ -187,6 +187,25 @@
               .curve(d3.curveStepAfter)
             );
 
+          const showTooltip = (event, content) => {
+            const [mX, mY] = d3.pointer(event, container.node());
+            const tooltip = d3.select("#chart-tooltip");
+            tooltip.style("visibility", "visible").html(content);
+            
+            const tNode = tooltip.node();
+            const tWidth = tNode.offsetWidth;
+            const tHeight = tNode.offsetHeight;
+            const cWidth = container.node().offsetWidth;
+            
+            let tx = mX + 10;
+            let ty = mY - tHeight - 10;
+            
+            if (tx + tWidth > cWidth) tx = mX - tWidth - 10;
+            if (ty < 0) ty = mY + 10;
+            
+            tooltip.style("top", ty + "px").style("left", tx + "px");
+          };
+
           // Annotations de dÃ©passement
           Object.keys(surpassInfo).forEach(year => {
             const info = surpassInfo[year];
@@ -201,11 +220,7 @@
                   .attr("fill", "#ff00ff")
                   .attr("stroke", "#fff")
                   .on("mouseover", (event) => {
-                    d3.select("#chart-tooltip")
-                      .style("visibility", "visible")
-                      .html(`<strong>DÃ©passement Moyenne ${year}</strong><br/>Le ${d.toLocaleDateString('fr-FR')}<br/>Total: ${point.value}`)
-                      .style("top", (event.pageY - 80) + "px")
-                      .style("left", (event.pageX + 10) + "px");
+                    showTooltip(event, `<strong>DÃ©passement Moyenne ${year}</strong><br/>Le ${d.toLocaleDateString('fr-FR')}<br/>Total: ${point.value}`);
                   })
                   .on("mouseout", () => d3.select("#chart-tooltip").style("visibility", "hidden"));
               }
@@ -221,11 +236,7 @@
                   .attr("fill", "#ffff00")
                   .attr("stroke", "#fff")
                   .on("mouseover", (event) => {
-                    d3.select("#chart-tooltip")
-                      .style("visibility", "visible")
-                      .html(`<strong>DÃ©passement ${info.prevYear}</strong><br/>Le ${d.toLocaleDateString('fr-FR')}<br/>Total: ${point.value}`)
-                      .style("top", (event.pageY - 80) + "px")
-                      .style("left", (event.pageX + 10) + "px");
+                    showTooltip(event, `<strong>DÃ©passement ${info.prevYear}</strong><br/>Le ${d.toLocaleDateString('fr-FR')}<br/>Total: ${point.value}`);
                   })
                   .on("mouseout", () => d3.select("#chart-tooltip").style("visibility", "hidden"));
               }
@@ -251,11 +262,7 @@
               const d = chartData[i - 1];
               if (d) {
                 focus.attr("transform", `translate(${x(d.date)},${y(d.value)})`);
-                d3.select("#chart-tooltip")
-                  .style("visibility", "visible")
-                  .html(`Le ${d.date.toLocaleDateString('fr-FR')}<br/><strong>${d.value} fuites cumulÃ©es</strong>`)
-                  .style("top", (event.pageY - 80) + "px")
-                  .style("left", (event.pageX + 10) + "px");
+                showTooltip(event, `Le ${d.date.toLocaleDateString('fr-FR')}<br/><strong>${d.value} fuites cumulÃ©es</strong>`);
               }
             });
         })();
