@@ -1,57 +1,54 @@
-<%- partial('_partial/head') %>
-<body class="bg-dark text-light">
-  <%- partial('_partial/navigation') %>
-  
-  <div class="container mt-4">
-    <div class="page-header mb-4 p-3 rounded" style="background: rgba(0, 255, 65, 0.05); border-left: 5px solid #00ff41;">
-      <h1 class="title text-uppercase" style="color: #00ff41; font-family: 'Courier New', Courier, monospace; letter-spacing: 2px;">
-        <i class="fa fa-bar-chart me-2"></i> Statistiques du Répertoire
-      </h1>
-      <p class="text-muted">Analyse détaillée de l'ensemble des fuites de données indexées.</p>
+<div class="container mt-4">
+  <div class="page-header mb-4 p-3 rounded" style="background: rgba(0, 255, 65, 0.05); border-left: 5px solid #00ff41;">
+    <h1 class="title text-uppercase" style="color: #00ff41; font-family: 'Courier New', Courier, monospace; letter-spacing: 2px;">
+      <i class="fa fa-bar-chart me-2"></i> Statistiques du Répertoire
+    </h1>
+    <p class="text-muted">Analyse détaillée de l'ensemble des fuites de données indexées.</p>
+  </div>
+
+  <div class="row">
+    <!-- Graphique d'évolution temporelle -->
+    <div class="col-12 mb-4">
+      <div class="card bg-black border-matrix shadow-matrix">
+        <div class="card-header border-matrix-bottom">
+          <h3 class="matrix-font mb-0"><i class="fa fa-line-chart"></i> Évolution temporelle cumulative</h3>
+        </div>
+        <div class="card-body">
+          <div id="evolution-chart"></div>
+        </div>
+      </div>
     </div>
 
-    <div class="row">
-      <!-- Graphique d'évolution temporelle -->
-      <div class="col-12 mb-4">
-        <div class="card bg-black border-matrix shadow-matrix">
-          <div class="card-header border-matrix-bottom">
-            <h3 class="matrix-font mb-0"><i class="fa fa-line-chart"></i> Évolution temporelle cumulative</h3>
-          </div>
-          <div class="card-body">
-            <div id="evolution-chart"></div>
-          </div>
+    <!-- Graphiques à barres -->
+    <div class="col-md-6 mb-4">
+      <div class="card bg-black border-matrix h-100 shadow-matrix">
+        <div class="card-header border-matrix-bottom">
+          <h3 class="matrix-font mb-0"><i class="fa fa-database"></i> Top 10 Types de données fuités</h3>
+        </div>
+        <div class="card-body">
+          <div id="dataclass-chart"></div>
         </div>
       </div>
+    </div>
 
-      <!-- Graphiques à barres -->
-      <div class="col-md-6 mb-4">
-        <div class="card bg-black border-matrix h-100 shadow-matrix">
-          <div class="card-header border-matrix-bottom">
-            <h3 class="matrix-font mb-0"><i class="fa fa-database"></i> Top 10 Types de données fuités</h3>
-          </div>
-          <div class="card-body">
-            <div id="dataclass-chart"></div>
-          </div>
+    <div class="col-md-6 mb-4">
+      <div class="card bg-black border-matrix h-100 shadow-matrix">
+        <div class="card-header border-matrix-bottom">
+          <h3 class="matrix-font mb-0"><i class="fa fa-building"></i> Top 10 Entreprises les plus touchées</h3>
         </div>
-      </div>
-
-      <div class="col-md-6 mb-4">
-        <div class="card bg-black border-matrix h-100 shadow-matrix">
-          <div class="card-header border-matrix-bottom">
-            <h3 class="matrix-font mb-0"><i class="fa fa-building"></i> Top 10 Entreprises les plus touchées</h3>
-          </div>
-          <div class="card-body">
-            <div id="company-chart"></div>
-          </div>
+        <div class="card-body">
+          <div id="company-chart"></div>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <div id="stats-tooltip" style="position: absolute; visibility: hidden; background: rgba(0,0,0,0.9); color: #00ff41; padding: 10px; border: 1px solid #00ff41; border-radius: 4px; pointer-events: none; font-family: 'Courier New', Courier, monospace; font-size: 0.9em; z-index: 1000; box-shadow: 0 0 10px rgba(0,255,65,0.3);"></div>
+<div id="stats-tooltip" style="position: absolute; visibility: hidden; background: rgba(0,0,0,0.9); color: #00ff41; padding: 10px; border: 1px solid #00ff41; border-radius: 4px; pointer-events: none; font-family: 'Courier New', Courier, monospace; font-size: 0.9em; z-index: 1000; box-shadow: 0 0 10px rgba(0,255,65,0.3);"></div>
 
-  <script src="https://d3js.org/d3.v7.min.js"></script>
-  <script>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+  (function() {
     fetch('<%- config.url %>/data/breaches.json')
       .then(response => response.json())
       .then(data => {
@@ -172,18 +169,14 @@
         .on("mouseover", (event, d) => showTooltip(event, `<strong>${d[0]}</strong><br/>${d[1]} incidents`))
         .on("mouseout", () => d3.select("#stats-tooltip").style("visibility", "hidden"));
     }
-  </script>
+  })();
+</script>
 
-  <style>
-    .matrix-font { font-family: 'Courier New', Courier, monospace; color: #00ff41; font-size: 1.1em; }
-    .border-matrix { border: 1px solid #00ff41 !important; }
-    .border-matrix-bottom { border-bottom: 1px solid #00ff41 !important; background: rgba(0, 255, 65, 0.1) !important; }
-    .shadow-matrix { box-shadow: 0 0 15px rgba(0, 255, 65, 0.2); }
-    .bg-black { background-color: #000 !important; }
-    text { font-family: 'Courier New', Courier, monospace; }
-  </style>
-
-  <%- partial('_partial/footer') %>
-  <%- partial('_partial/after_footer') %>
-</body>
-</html>
+<style>
+  .matrix-font { font-family: 'Courier New', Courier, monospace; color: #00ff41; font-size: 1.1em; }
+  .border-matrix { border: 1px solid #00ff41 !important; }
+  .border-matrix-bottom { border-bottom: 1px solid #00ff41 !important; background: rgba(0, 255, 65, 0.1) !important; }
+  .shadow-matrix { box-shadow: 0 0 15px rgba(0, 255, 65, 0.2); }
+  .bg-black { background-color: #000 !important; }
+  text { font-family: 'Courier New', Courier, monospace; }
+</style>
