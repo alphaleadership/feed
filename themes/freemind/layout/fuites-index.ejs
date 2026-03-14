@@ -348,7 +348,10 @@
       });
 
     function renderList(breaches) {
-      const validBreaches = breaches.filter(item => !item.Name.includes('cve'));
+      const validBreaches = breaches.filter(item => {
+        const name = (item.Name || item.Title || item.slug || '').toLowerCase();
+        return !name.includes('cve');
+      });
       
       // Trier par date décroissante (plus récentes en premier)
       validBreaches.sort((a, b) => {

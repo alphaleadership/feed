@@ -123,6 +123,10 @@ async function processBreaches() {
   
     
     
+    if (!breach.Name || breach.Name.trim() === '') {
+      breach.Name = breach.slug || 'Unknown';
+    }
+
     if (!breach.Title || breach.Title.trim() === '') {
       breach.Title = breach.Name;
     }
