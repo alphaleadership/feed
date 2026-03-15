@@ -4,7 +4,68 @@ const Fuse = require('fuse.js');
 
 const LOCAL_FILE = path.join(__dirname, 'source', '_data', 'breaches.json');
 const DATE_FILE = path.join(__dirname, 'source', '_data', 'last_import_date.json');
-const REMOTE_URL = 'https://christopheboutry.com/data/fuites-infos.json';
+
+const SOURCES = [
+    {
+        name: "Christophe Boutry",
+        url: 'https://christopheboutry.com/data/fuites-infos.json',
+        selector: (data) => data,
+        mapper: (remote) => ({
+            Name: remote.name,
+            Title: remote.name,
+            Domain: remote.site_url ? remote.site_url.replace(/https?:\/\/(www\.)?/, '').split('/')[0] : "",
+            BreachDate: remote.date || '1970-01-01',
+            PwnCount: remote.records_count || 0,
+            Description: `${remote.records_count_raw || ''}\n\nStatut: ${remote.status || 'Inconnu'}\nType de service: ${remote.service_type || 'N/A'}`,
+            DataClasses: remote.data_types || [],
+            IsSensitive: remote.status === "Sensible",
+            IsVerified: true, IsFabricated: false, IsSpam: false, IsRetired: false, IsNative: true,
+            LogoPath: remote.logo_url || "",
+            source: remote.source_url || "christopheboutry.com",
+        })
+    },
+    {
+        name: "Have I Been Pwned",
+        url: 'https://haveibeenpwned.com/api/v3/breaches',
+        selector: (data) => data,
+        mapper: (remote) => ({
+            Name: remote.Name,
+            Title: remote.Title,
+            Domain: remote.Domain,
+            BreachDate: remote.BreachDate,
+            PwnCount: remote.PwnCount,
+            Description: remote.Description,
+            DataClasses: remote.DataClasses,
+            IsSensitive: remote.IsSensitive,
+            IsVerified: remote.IsVerified,
+            IsFabricated: remote.IsFabricated,
+            IsSpam: remote.IsSpam,
+            IsRetired: remote.IsRetired,
+            IsNative: remote.IsNative,
+            LogoPath: remote.LogoPath,
+            source: "haveibeenpwned.com"
+        })
+    },
+    {
+        name: "XposedOrNot",
+        url: 'https://api.xposedornot.com/v1/breaches',
+        selector: (data) => data.exposedBreaches || [],
+        mapper: (remote) => ({
+            Name: remote.breachID,
+            Title: remote.breachID,
+            Domain: remote.domain || "",
+            BreachDate: remote.breachedDate ? remote.breachedDate.split('T')[0] : '1970-01-01',
+            PwnCount: remote.exposedRecords || 0,
+            Description: remote.exposureDescription || "",
+            DataClasses: remote.exposedData || [],
+            IsSensitive: remote.sensitive || false,
+            IsVerified: remote.verified || true,
+            IsFabricated: false, IsSpam: false, IsRetired: false, IsNative: true,
+            LogoPath: remote.logo || "",
+            source: "xposedornot.com"
+        })
+    }
+];
 
 // --- Utility Functions ---
 function loadJSON(filePath) {
@@ -32,14 +93,14 @@ function readLastImportDate() {
 }
 
 function writeNewImportDate() {
-const data = {
-  lastImport: new Date(Date.now() - 2*365 * 24 * 60 * 60 * 1000).toISOString()
-};
-
+    const data = {
+        lastImport: new Date().toISOString()
+    };
     fs.writeFileSync(DATE_FILE, JSON.stringify(data, null, 2));
 }
 
 function slugify(text) {
+    if (!text) return 'unknown';
     return text.toString().toLowerCase()
         .replace(/\s+/g, '-').replace(/[^\w\-]+/g, '').replace(/\-\-+/g, '-')
         .replace(/^-+/, '').replace(/-+$/, '');
@@ -49,13 +110,9 @@ function getBreachName(breach) {
     return (breach.Name || breach.name || breach.Title || breach.title || '').toLowerCase();
 }
 
-function breachNameMatches(existingBreach, remoteBreach) {
-    return getBreachName(existingBreach) === (remoteBreach.name || remoteBreach.Name || '').toLowerCase();
-}
-
 // --- Deduplication Function ---
 function deduplicate(breaches) {
-    console.log("\nLancement du processus de déduplication post-importation...");
+    console.log("\nLancement du processus de déduplication...");
     const originalCount = breaches.length;
 
     const fuse = new Fuse(breaches, { keys: ['Name'], threshold: 0.15, includeScore: true });
@@ -87,132 +144,120 @@ function deduplicate(breaches) {
     });
 
     if (fuzzyDuplicateGroups.length === 0) {
-        console.log("Aucun doublon trouvé. Le nettoyage n'est pas nécessaire.");
         return breaches;
     }
-    console.log(`${fuzzyDuplicateGroups.length} groupes de doublons potentiels à traiter.`);
 
     const indicesToRemove = new Set();
     fuzzyDuplicateGroups.forEach(group => {
-        group.sort((a, b) => a.item.Name.length - b.item.Name.length);
+        group.sort((a, b) => (b.item.PwnCount || 0) - (a.item.PwnCount || 0));
         const goldenRecordIndex = group[0].index;
         const duplicates = group.slice(1);
 
         duplicates.forEach(dupInfo => {
             const goldenRecord = breaches[goldenRecordIndex];
             const duplicateRecord = dupInfo.item;
-            if (duplicateRecord.PwnCount > goldenRecord.PwnCount) {
-                goldenRecord.PwnCount = duplicateRecord.PwnCount;
-            }
+            
             const goldenClasses = Array.isArray(goldenRecord.DataClasses) ? goldenRecord.DataClasses : [];
             const duplicateClasses = Array.isArray(duplicateRecord.DataClasses) ? duplicateRecord.DataClasses : [];
             goldenRecord.DataClasses = Array.from(new Set([...goldenClasses, ...duplicateClasses]));
+            
             indicesToRemove.add(dupInfo.index);
         });
     });
 
     const finalBreaches = breaches.filter((_, index) => !indicesToRemove.has(index));
-    const removedCount = originalCount - finalBreaches.length;
-    console.log(`Déduplication terminée: ${removedCount} doublon(s) supprimé(s).`);
+    console.log(`Déduplication terminée: ${originalCount - finalBreaches.length} doublon(s) supprimé(s).`);
     
     return finalBreaches;
 }
 
 // --- Main Function ---
-async function main(REMOTE_URL ) {
-    console.log("Démarrage de l'importation des nouvelles fuites...");
-    const response = await fetch(REMOTE_URL);
-    if (!response.ok) throw new Error(`Erreur HTTP ! statut: ${response.status}`);
-    const remoteData = await response.json();
-    console.log(`${remoteData.length} fuites trouvées dans la source distante.`);
-
+async function runImport() {
+    console.log("Démarrage du cycle d'importation multi-sources...");
+    
     const localData = loadJSON(LOCAL_FILE);
     let existingBreaches = localData.breaches || [];
-    console.log(`${existingBreaches.length} fuites existentes avant l'import.`);
-
     const lastLaunchDate = readLastImportDate();
-    console.log(`Date de référence pour l'importation : ${lastLaunchDate.toISOString()}`);
+    
+    console.log(`${existingBreaches.length} fuites existentes. Date de réf : ${lastLaunchDate.toISOString()}`);
 
-    const importFuse = new Fuse(existingBreaches, { keys: ['Name', 'Title'], threshold: 0.3 });
-    let addedCount = 0;
-    let skippedCount = 0;
+    let totalAdded = 0;
 
-    for (const remote of remoteData) {
-        if (existingBreaches.some(b => breachNameMatches(b, remote))) {
-            skippedCount++;
-            continue;
+    for (const source of SOURCES) {
+        console.log(`\n--- Importation depuis : ${source.name} ---`);
+        try {
+            const response = await fetch(source.url, {
+                headers: { 'User-Agent': 'DataBreachFeed-Bot/1.0' }
+            });
+            
+            if (!response.ok) {
+                console.error(`Erreur HTTP ${response.status} pour ${source.name}`);
+                continue;
+            }
+
+            const rawData = await response.json();
+            const remoteData = source.selector(rawData);
+            console.log(`${remoteData.length} fuites trouvées.`);
+
+            let addedFromSource = 0;
+            const importFuse = new Fuse(existingBreaches, { keys: ['Name', 'Title'], threshold: 0.2 });
+
+            for (const rawRemote of remoteData) {
+                const remote = source.mapper(rawRemote);
+                const rName = getBreachName(remote);
+
+                if (!rName) continue;
+
+                // Vérification existence exacte
+                if (existingBreaches.some(b => getBreachName(b) === rName)) continue;
+
+                const remoteDate = new Date(remote.BreachDate);
+                const validDate = isNaN(remoteDate.getTime()) ? new Date(0) : remoteDate;
+
+                // Filtre par date
+                if (validDate <= lastLaunchDate) continue;
+
+                // Vérification floue (doublons proches dans le temps)
+                const fuzzyMatches = importFuse.search(rName);
+                if (fuzzyMatches.some(m => {
+                    const mDate = new Date(m.item.BreachDate);
+                    return !isNaN(mDate.getTime()) && Math.abs(validDate - mDate) / (1000 * 3600 * 24) <= 7;
+                })) continue;
+
+                // Création de l'entrée finale
+                const newBreach = {
+                    ...remote,
+                    AddedDate: new Date().toISOString(),
+                    ModifiedDate: new Date().toISOString(),
+                    slug: slugify(remote.Name || remote.Title),
+                };
+
+                existingBreaches.push(newBreach);
+                addedFromSource++;
+            }
+            console.log(`${addedFromSource} nouvelles fuites ajoutées depuis cette source.`);
+            totalAdded += addedFromSource;
+
+        } catch (err) {
+            console.error(`Erreur lors de l'import ${source.name}:`, err.message);
         }
-        const remoteDateStr = remote.date || '';
-        const remoteBreachDate = new Date(remoteDateStr);
-        const finalBreachDate = isNaN(remoteBreachDate.getTime()) ? '1970-01-01' : remoteDateStr;
-        const validRemoteBreachDate = isNaN(remoteBreachDate.getTime()) ? new Date(0) : remoteBreachDate;
-
-        if (validRemoteBreachDate <= lastLaunchDate) {
-            skippedCount++;
-            continue;
-        }
-      //  console.log(remote)
-       
-        const results = importFuse.search(remote.name||remote.Name);
-        if (results.some(result => {
-            const existingDate = new Date(result.item.BreachDate || 0);
-            return Math.abs(validRemoteBreachDate.getTime() - existingDate.getTime()) / (1000 * 3600 * 24) <= 7;
-        })) {
-            skippedCount++;
-            continue;
-        }
-
-        const newBreach = {
-            Name: remote.name,
-            Title: remote.name,
-            Domain: remote.site_url ? remote.site_url.replace(/https?:\/\/(www\.)?/, '').split('/')[0] : "",
-            BreachDate: finalBreachDate,
-            AddedDate: new Date().toISOString(),
-            ModifiedDate: new Date().toISOString(),
-            PwnCount: remote.records_count || 0,
-            Description: `${remote.records_count_raw || ''}\n\nStatut: ${remote.status || 'Inconnu'}\nType de service: ${remote.service_type || 'N/A'}`,
-            DataClasses: remote.data_types || [],
-            IsSensitive: remote.status === "Sensible",
-            IsVerified: true, IsFabricated: false, IsSpam: false, IsRetired: false, IsNative: true,
-            LogoPath: remote.logo_url || "",
-            slug: slugify(remote.name||remote.Name),
-            source:remote.source_url || "unknown",
-        };
-        existingBreaches.push(newBreach);
-        addedCount++;
     }
-    console.log(`Importation terminée: ${addedCount} fuite(s) ajoutée(s), ${skippedCount} ignorée(s).`);
 
-    // --- Post-Import Processing ---
-    let finalBreaches = existingBreaches;
-    if (addedCount > 0) {
-        finalBreaches = deduplicate(existingBreaches);
+    if (totalAdded > 0) {
+        existingBreaches = deduplicate(existingBreaches);
+        existingBreaches.sort((a, b) => new Date(b.BreachDate) - new Date(a.BreachDate));
+        
+        localData.breaches = existingBreaches;
+        localData.totalBreaches = existingBreaches.length;
+        localData.lastUpdated = new Date().toISOString();
+        
+        saveJSON(LOCAL_FILE, localData);
+        console.log(`\nSauvegarde terminée : ${existingBreaches.length} enregistrements au total.`);
+        writeNewImportDate();
+    } else {
+        console.log("\nAucune nouvelle fuite trouvée sur l'ensemble des sources.");
     }
-    
-    finalBreaches.sort((a, b) => new Date(b.BreachDate) - new Date(a.BreachDate));
-    localData.breaches = finalBreaches;
-    localData.totalBreaches = finalBreaches.length;
-    localData.lastUpdated = new Date().toISOString();
-    
-    saveJSON(LOCAL_FILE, localData);
-    console.log(`\nBase de données finale sauvegardée avec ${finalBreaches.length} enregistrements.`);
-    
-    writeNewImportDate();
-    console.log(`Date de l'importation actuelle enregistrée dans ${path.basename(DATE_FILE)}.`);
 }
 
-main(REMOTE_URL).catch(err => console.error("Erreur lors du processus d'importation:", err)).then(() => {
-    console.log("Processus d'importation terminé.");
-main("https://haveibeenpwned.com/api/v3/breaches").catch(err => console.error("Erreur lors du processus d'importation:", err));
-});/*
-fs.readdirSync(path.join(__dirname, 'source', '_posts'),{
-    recursive: true,
-    withFileTypes: true
-}).forEach(file => {
-    if (file.isFile() && file.name.endsWith('.md')) {
-        const filePath = path.join(__dirname, 'source', '_posts', file.name);
-        fs.unlinkSync(filePath);
-        console.log(`Fichier supprimé : ${file.name}`);
-    }   
-});
-*/
+runImport().catch(console.error);
+
