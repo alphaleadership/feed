@@ -142,16 +142,22 @@ async function main(REMOTE_URL ) {
             skippedCount++;
             continue;
         }
-        const remoteBreachDate = new Date(remote.date);
-        if (remoteBreachDate <= lastLaunchDate) {
+        const remoteDateStr = remote.date || '';
+        const remoteBreachDate = new Date(remoteDateStr);
+        const finalBreachDate = isNaN(remoteBreachDate.getTime()) ? '1970-01-01' : remoteDateStr;
+        const validRemoteBreachDate = isNaN(remoteBreachDate.getTime()) ? new Date(0) : remoteBreachDate;
+
+        if (validRemoteBreachDate <= lastLaunchDate) {
             skippedCount++;
             continue;
-        
         }
       //  console.log(remote)
        
         const results = importFuse.search(remote.name||remote.Name);
-        if (results.some(result => Math.abs(remoteBreachDate.getTime() - new Date(result.item.BreachDate).getTime()) / (1000 * 3600 * 24) <= 7)) {
+        if (results.some(result => {
+            const existingDate = new Date(result.item.BreachDate || 0);
+            return Math.abs(validRemoteBreachDate.getTime() - existingDate.getTime()) / (1000 * 3600 * 24) <= 7;
+        })) {
             skippedCount++;
             continue;
         }
@@ -160,7 +166,7 @@ async function main(REMOTE_URL ) {
             Name: remote.name,
             Title: remote.name,
             Domain: remote.site_url ? remote.site_url.replace(/https?:\/\/(www\.)?/, '').split('/')[0] : "",
-            BreachDate: remote.date,
+            BreachDate: finalBreachDate,
             AddedDate: new Date().toISOString(),
             ModifiedDate: new Date().toISOString(),
             PwnCount: remote.records_count || 0,

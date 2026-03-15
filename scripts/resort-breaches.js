@@ -107,18 +107,34 @@ async function processBreaches() {
     const blockedNote = getBlockedNote(breach.Domain);
     breach.isBlocked = !!blockedNote;
     breach.blockedNote = blockedNote || null;
-    if(breach.Name){
-         if (!breach.BreachDate) {
-      if(breach.Title
-.toLowerCase().includes("fuite")){
-  breach.BreachDate=new Date(breach.Title.split("fuite du ")[1])
-}
+
+    // Normalisation des dates et noms
+    if (!breach.BreachDate) {
+      if (breach.Title && breach.Title.toLowerCase().includes("fuite du ")) {
+        const parts = breach.Title.split("fuite du ");
+        if (parts[1]) {
+          const d = new Date(parts[1]);
+          breach.BreachDate = isNaN(d.getTime()) ? '1970-01-01' : parts[1];
+        }
+      }
+      // Repli sur la date 0 si toujours pas de date
+      if (!breach.BreachDate) {
+        breach.BreachDate = '1970-01-01';
+      }
     }
-  if(breach.Name.toLowerCase().includes("france")){
-      breach.Name = decodeURI(breach.Name)
-    }else{
-      breach.Name = decodeURI(breach.Name).split("fuite")[0];
-    }
+
+    if (breach.Name) {
+      // Décodage et nettoyage du nom
+      try {
+        let cleanName = decodeURI(breach.Name);
+        if (cleanName.toLowerCase().includes("france")) {
+          breach.Name = cleanName;
+        } else {
+          breach.Name = cleanName.split("fuite")[0].trim();
+        }
+      } catch (e) {
+        // Garder le nom tel quel si erreur de décodage
+      }
     }
   
     

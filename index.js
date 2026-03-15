@@ -18,6 +18,9 @@ async function updateHIBPBreaches() {
     if (!Array.isArray(db.breaches)) db.breaches = [];
 
     res.data.forEach((breach) => {
+      if (breach && !breach.BreachDate) {
+        breach.BreachDate = '1970-01-01';
+      }
       // On ne cherche que par Name (objet)
       const index = db.breaches.findIndex((b) => b && typeof b === 'object' && b.Name === breach.Name);
       

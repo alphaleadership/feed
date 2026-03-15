@@ -62,8 +62,8 @@ function detectBreachesWithoutCount() {
             output += `${index + 1}. ${breach.Name || 'Nom inconnu'}\n`;
             output += `   - Titre: ${breach.Title || 'Non spécifié'}\n`;
             output += `   - Domaine: ${breach.Domain || 'Non spécifié'}\n`;
-            output += `   - Date de fuite: ${breach.BreachDate || 'Non spécifiée'}\n`;
-            output += `   - Date d'ajout: ${breach.AddedDate || 'Non spécifiée'}\n`;
+            output += `   - Date de fuite: ${breach.BreachDate || '1970-01-01'}\n`;
+            output += `   - Date d'ajout: ${breach.AddedDate || '1970-01-01'}\n`;
             output += `   - PwnCount: ${breach.PwnCount}\n`;
             output += `   - Lien: ${breach.lien || 'Non disponible'}\n`;
             output += `   - Vérifié: ${breach.IsVerified ? 'Oui' : 'Non'}\n`;

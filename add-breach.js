@@ -108,14 +108,14 @@ async function main() {
   }
 
   const now = new Date().toISOString();
-  const formattedDate = isValidIsoDate(breachDate) ? breachDate : '1970-01-01';
+  const finalBreachDate = isValidIsoDate(breachDate) ? breachDate : '1970-01-01';
   const slug = slugify(name);
   const newBreach = {
     Name: name,
     Title: title,
     source: sourceType === 'hibp' ? 'Have I Been Pwned' : 'Manuel',
     Domain: domain && domain.trim().length ? domain.trim() : null,
-    BreachDate: breachDate,
+    BreachDate: finalBreachDate,
     AddedDate: now,
     ModifiedDate: now,
     PwnCount: Number(pwnCountRaw),
@@ -134,7 +134,6 @@ async function main() {
     IsStealerLog: false,
     slug,
     path: pathValue,
-    formattedDate,
     categories: [category],
     isNSFW,
     lien,

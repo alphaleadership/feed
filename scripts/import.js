@@ -22,7 +22,7 @@ const defaultBreachSchema = {
   "Name": "",
   "Title": "",
   "Domain": null,
-  "BreachDate": null,
+  "BreachDate": "1970-01-01",
   "AddedDate": null, // Sera défini dynamiquement
   "ModifiedDate": null, // Sera défini dynamiquement
   "PwnCount": 0,
