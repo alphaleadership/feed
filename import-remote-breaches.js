@@ -243,7 +243,7 @@ async function runImport() {
         }
     }
 
-    if (totalAdded > 0) {
+    if (totalAdded >= 0) {
         existingBreaches = deduplicate(existingBreaches);
         existingBreaches.sort((a, b) => new Date(b.BreachDate) - new Date(a.BreachDate));
         
