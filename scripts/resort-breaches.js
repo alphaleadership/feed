@@ -177,9 +177,8 @@ async function processBreaches() {
     breach.content = breach.Description;
 
     // Détection automatique NSFW basée sur la description
-    if (!Object.keys(breach).includes("isNSFW")) {
+    if (!breach.manualNSFWOverride) { // Only run detector if not manually overridden
       breach.isNSFW = false; // Default to false
-      }
       breach.nsfwConfidence = 0; // Default confidence
 
       if (breach.Description || breach.Title) {
@@ -200,6 +199,7 @@ async function processBreaches() {
           // Continue with default isNSFW = false and confidence = 0 on error
         }
       }
+    }
     
 
     if (!Object.keys(breach).includes("lien") || breach.lien === null || String(breach.lien).includes('undefined')) {
