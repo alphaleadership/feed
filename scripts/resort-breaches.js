@@ -179,6 +179,7 @@ async function processBreaches() {
     // Détection automatique NSFW basée sur la description
     if (!Object.keys(breach).includes("isNSFW")) {
       breach.isNSFW = false; // Default to false
+      }
       breach.nsfwConfidence = 0; // Default confidence
 
       if (breach.Description || breach.Title) {
@@ -199,7 +200,7 @@ async function processBreaches() {
           // Continue with default isNSFW = false and confidence = 0 on error
         }
       }
-    }
+    
 
     if (!Object.keys(breach).includes("lien") || breach.lien === null || String(breach.lien).includes('undefined')) {
       let fixSlug = breach.Name;

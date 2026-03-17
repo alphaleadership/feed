@@ -17,3 +17,4 @@ _multiconfig.yml
 archive/
 .gemini/
 gha-creds-*.json
+db.json

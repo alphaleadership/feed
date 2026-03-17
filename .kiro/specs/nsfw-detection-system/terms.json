@@ -16,7 +16,13 @@
     { "term": "dildo", "baseConfidence": 0.9, "variations": ["dildos"] },
     { "term": "vibrator", "baseConfidence": 0.9, "variations": ["vibrators", "vibromasseur"] },
     { "term": "sexe", "baseConfidence": 0.9 },
-    { "term": "nu", "baseConfidence": 0.9, "variations": ["nue", "nus", "nues"] }
+    { "term": "nu", "baseConfidence": 0.9, "variations": ["nue", "nus", "nues"] },
+    { "term": "youporn", "baseConfidence": 0.9 },
+    { "term": "pornhub", "baseConfidence": 0.9 },
+    { "term": "brazzers", "baseConfidence": 0.9 },
+    { "term": "xhamster", "baseConfidence": 0.9 },
+    { "term": "naughty america", "baseConfidence": 0.9 },
+    { "term": "quitbro", "baseConfidence": 0.7 }
   ],
   "dating_services": [
     { "term": "hookup", "baseConfidence": 0.6, "variations": ["hookups", "hook up", "plan cul"] },

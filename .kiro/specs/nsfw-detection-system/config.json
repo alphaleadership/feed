@@ -8,5 +8,5 @@
     "nonNSFWContextPenalty": 0.3,
     "nsfwContextBonus": 0.2,
     "enabledCategories": ["all"],
-    "debug": false
+    "debug": true
 }
