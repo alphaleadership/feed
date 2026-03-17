@@ -44,7 +44,7 @@ const criticalDataTypes = [
   'empreinte',
   'fingerprint',
   'reconnaissance faciale',
-  'facial recognition','Certificats d\'autorité'
+  'facial recognition','Certificats d\'autorité'," Service gouvernemental"
 ];
 
 // Mapping pour normaliser les noms de données
@@ -153,7 +153,7 @@ const dataClassMapping = {
   'données médicales': 'Données médicales',
   'medical': 'Données médicales',
   'health': 'Données de santé',
-  'santé': 'Données de santé'
+  'santé': 'Données de santé',"Service gouvernemental":"Type de service: Service gouvernemental",
 };
 
 // Fonction pour extraire les données critiques du contenu
