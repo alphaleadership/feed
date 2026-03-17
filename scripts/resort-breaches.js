@@ -3,16 +3,18 @@
 const fs = require('fs');
 const https = require('https');
 const path = require('path');
+const { NSFWDetector } = require('./nsfw-detector');
 
 const baseDir = path.join(__dirname, '..');
 const dataFile = path.join(baseDir, 'source', '_data', 'breaches.json');
 
-// Termes NSFW à détecter dans les descriptions
-const nsfwTerms = [
-  'adult', 'porn', 'xxx', 'sex', 'nude', 'naked', 'erotic', 'fetish',
-  'escort', 'dating', 'hookup', 'affair', 'cheating', 'adultery',
-  'hentai', 'camgirl', 'webcam', 'onlyfans', 'patreon adult'
-];
+// Initialize the NSFWDetector
+const nsfwDetector = new NSFWDetector(
+  path.join(baseDir, '.kiro', 'specs', 'nsfw-detection-system', 'config.json'),
+  path.join(baseDir, '.kiro', 'specs', 'nsfw-detection-system', 'terms.json')
+);
+
+
 
 // Fonction pour vérifier un lien HIBP de manière asynchrone
 function verifyHibpLink(slug) {
@@ -176,12 +178,26 @@ async function processBreaches() {
 
     // Détection automatique NSFW basée sur la description
     if (!Object.keys(breach).includes("isNSFW")) {
-      breach.isNSFW = false;
+      breach.isNSFW = false; // Default to false
+      breach.nsfwConfidence = 0; // Default confidence
 
-      if (breach.Description) {
-        const descLower = breach.Description.toLowerCase();
-        breach.Description = breach.Description.replaceAll("[", "").replaceAll("]", "");
-        breach.isNSFW = nsfwTerms.some(term => descLower.includes(term.toLowerCase()));
+      if (breach.Description || breach.Title) {
+        let textToAnalyze = "";
+        if (breach.Title) {
+          textToAnalyze += breach.Title.replaceAll("[", "").replaceAll("]", "") + ". ";
+        }
+        if (breach.Description) {
+          textToAnalyze += breach.Description.replaceAll("[", "").replaceAll("]", "");
+        }
+        
+        try {
+          const analysisResult = nsfwDetector.analyze(textToAnalyze);
+          breach.isNSFW = analysisResult.isNSFW;
+          breach.nsfwConfidence = analysisResult.confidence;
+        } catch (error) {
+          console.error(`Error analyzing NSFW for breach ${breach.Name || breach.slug}: ${error.message}`);
+          // Continue with default isNSFW = false and confidence = 0 on error
+        }
       }
     }
 

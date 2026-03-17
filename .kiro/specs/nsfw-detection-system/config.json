@@ -1,0 +1,12 @@
+{
+    "threshold": 0.7,
+    "lazyContextAnalysis": false,
+    "contextWindowSize": 5,
+    "proximityDistance": 100,
+    "proximityMultiplier": 1.2,
+    "negationPenalty": 0.4,
+    "nonNSFWContextPenalty": 0.3,
+    "nsfwContextBonus": 0.2,
+    "enabledCategories": ["all"],
+    "debug": false
+}

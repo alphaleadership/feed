@@ -160,7 +160,7 @@ The implementation follows a modular approach: first establishing core infrastru
     - _Requirements: 5.4_
 
 - [ ] 10. Implement integration with resort-breaches.js
-  - [ ] 10.1 Modify `scripts/resort-breaches.js` to use NSFWDetector
+  - [x] 10.1 Modify `scripts/resort-breaches.js` to use NSFWDetector
     - Replace hardcoded NSFW term matching with detector instance
     - Initialize detector once at script start
     - Call detector.analyze() for each breach with Description

@@ -1,0 +1,71 @@
+{
+  "adult_content": [
+    { "term": "porn", "baseConfidence": 0.9, "variations": ["porno", "porns"], "synonyms": ["pornography", "pornographie"] },
+    { "term": "xxx", "baseConfidence": 0.9 },
+    { "term": "camgirl", "baseConfidence": 0.8, "variations": ["camgirls"] },
+    { "term": "onlyfans", "baseConfidence": 0.7, "variations": ["only fans"] },
+    { "term": "adult site", "baseConfidence": 0.8, "variations": ["adult sites", "adult dating", "site adulte"] },
+    { "term": "nsfw", "baseConfidence": 0.9 },
+    { "term": "erotica", "baseConfidence": 0.9, "variations": ["erotic", "érotisme", "érotique"] },
+    { "term": "hentai", "baseConfidence": 0.9 },
+    { "term": "bdsm", "baseConfidence": 0.9 },
+    { "term": "fetish", "baseConfidence": 0.8, "variations": ["fetishes", "fétiche", "fétichisme"] },
+    { "term": "kink", "baseConfidence": 0.7, "variations": ["kinks", "kinky", "bizarrerie", "pervers"] },
+    { "term": "masturbation", "baseConfidence": 0.8, "variations": ["masturbate", "masturbating", "masturber"] },
+    { "term": "sex toy", "baseConfidence": 0.9, "variations": ["sex toys", "jouet sexuel"] },
+    { "term": "dildo", "baseConfidence": 0.9, "variations": ["dildos"] },
+    { "term": "vibrator", "baseConfidence": 0.9, "variations": ["vibrators", "vibromasseur"] },
+    { "term": "sexe", "baseConfidence": 0.9 },
+    { "term": "nu", "baseConfidence": 0.9, "variations": ["nue", "nus", "nues"] }
+  ],
+  "dating_services": [
+    { "term": "hookup", "baseConfidence": 0.6, "variations": ["hookups", "hook up", "plan cul"] },
+    { "term": "casual sex", "baseConfidence": 0.9, "variations": ["sexe occasionnel"] },
+    { "term": "swingers", "baseConfidence": 0.8, "variations": ["swinger", "échangisme"] },
+    { "term": "adultery", "baseConfidence": 0.8, "variations": ["adulterer", "adulterous", "adultère"] },
+    { "term": "sugar daddy", "baseConfidence": 0.7, "variations": ["sugar baby", "sugar babies", "sugar daddies", "sugar dating"] },
+    { "term": "fuckbuddy", "baseConfidence": 0.9, "variations": ["fuck buddy", "fuck buddies"] },
+    { "term": "friends with benefits", "baseConfidence": 0.8, "variations": ["amis avec avantages", "sexfriend"] },
+    { "term": "affair", "baseConfidence": 0.7, "variations": ["affairs", "aventure extra-conjugale"] },
+    { "term": "cheating", "baseConfidence": 0.5, "variations": ["tromperie"] },
+    { "term": "rencontre libertine", "baseConfidence": 0.8 }
+  ],
+  "escort_services": [
+    { "term": "escort", "baseConfidence": 0.7, "variations": ["escorts", "escorte"] },
+    { "term": "prostitute", "baseConfidence": 0.9, "variations": ["prostitutes", "prostituée"] },
+    { "term": "prostitution", "baseConfidence": 0.9 },
+    { "term": "brothel", "baseConfidence": 0.9, "variations": ["brothels", "bordel", "maison close"] },
+    { "term": "call girl", "baseConfidence": 0.9, "variations": ["call girls", "fille de joie"] },
+    { "term": "stripper", "baseConfidence": 0.9, "variations": ["strippers", "strip-teaseuse"] },
+    { "term": "strip club", "baseConfidence": 0.9, "variations": ["strip clubs", "club de strip-tease"] },
+    { "term": "massage parlor", "baseConfidence": 0.8, "variations": ["massage parlours", "salon de massage"] },
+    { "term": "happy ending", "baseConfidence": 0.8, "variations": ["happy endings", "fin heureuse"] },
+    { "term": "sex worker", "baseConfidence": 0.9, "variations": ["sex workers", "travailleur du sexe"] },
+    { "term": "whore", "baseConfidence": 0.9, "variations": ["whores", "pute"] },
+    { "term": "hooker", "baseConfidence": 0.9, "variations": ["hookers"] },
+    { "term": "pimp", "baseConfidence": 0.8, "variations": ["pimps", "proxénète"] },
+    { "term": "sugar bowl", "baseConfidence": 0.6 }
+  ],
+  "explicit_anatomy": [
+    { "term": "dick", "baseConfidence": 0.9, "variations": ["dicks", "bite"] },
+    { "term": "cock", "baseConfidence": 0.8, "variations": ["cocks", "queue"] },
+    { "term": "pussy", "baseConfidence": 0.9, "variations": ["pussies", "chatte"] },
+    { "term": "vagina", "baseConfidence": 0.9, "variations": ["vaginas", "vagin"] },
+    { "term": "clitoris", "baseConfidence": 0.9 },
+    { "term": "cunt", "baseConfidence": 0.9, "variations": ["cunts"] },
+    { "term": "tits", "baseConfidence": 0.8, "variations": ["titties", "seins"] },
+    { "term": "boobs", "baseConfidence": 0.8, "variations": ["nichons"] },
+    { "term": "asshole", "baseConfidence": 0.9, "variations": ["assholes", "trou du cul"] },
+    { "term": "anus", "baseConfidence": 0.8 },
+    { "term": "cum", "baseConfidence": 0.9, "variations": ["cumming", "sperme", "éjaculer"] },
+    { "term": "semen", "baseConfidence": 0.8, "variations": ["sperme"] },
+    { "term": "sperm", "baseConfidence": 0.7 }
+  ],
+  "illicit_materials": [
+    { "term": "incest", "baseConfidence": 0.9 },
+    { "term": "bestiality", "baseConfidence": 0.9, "variations": ["zoophilie"] },
+    { "term": "rape", "baseConfidence": 0.9, "variations": ["rapist", "raping", "viol", "violée"] },
+    { "term": "pedophilia", "baseConfidence": 0.9, "variations": ["pedophile", "pedo", "pédophilie"] },
+    { "term": "child porn", "baseConfidence": 0.9, "variations": ["child pornography", "cp", "pédopornographie"] }
+  ]
+}
