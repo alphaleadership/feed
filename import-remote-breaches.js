@@ -94,7 +94,7 @@ function readLastImportDate() {
 
 function writeNewImportDate() {
     const data = {
-        lastImport: new Date().toISOString()
+        lastImport: new Date().toISOString()-2*365*24*3600*1000,
     };
     fs.writeFileSync(DATE_FILE, JSON.stringify(data, null, 2));
 }
@@ -120,6 +120,7 @@ function deduplicate(breaches) {
     const processedIndices = new Set();
 
     breaches.forEach((breach, index) => {
+
         if (processedIndices.has(index)) return;
         const searchResults = fuse.search(getBreachName(breach));
         const similarItems = searchResults.filter(result => result.score < 0.15 && result.refIndex !== index);
@@ -200,12 +201,14 @@ async function runImport() {
             console.log(`${remoteData.length} fuites trouvées.`);
 
             let addedFromSource = 0;
-            const importFuse = new Fuse(existingBreaches, { keys: ['Name', 'Title'], threshold: 0.2 });
+            const importFuse = new Fuse(existingBreaches, { keys: ['Name'], threshold: 0.2 });
 
             for (const rawRemote of remoteData) {
+                //console.log(rawRemote)
                 const remote = source.mapper(rawRemote);
                 const rName = getBreachName(remote);
-
+                console
+.log("Traitement de :", rName)
                 if (!rName) continue;
 
                 // Vérification existence exacte
@@ -215,6 +218,7 @@ async function runImport() {
                 const validDate = isNaN(remoteDate.getTime()) ? new Date(0) : remoteDate;
 
                 // Filtre par date
+                console.log(validDate <= lastLaunchDate)
                 if (validDate <= lastLaunchDate) continue;
 
                 // Vérification floue (doublons proches dans le temps)
@@ -222,7 +226,9 @@ async function runImport() {
                 if (fuzzyMatches.some(m => {
                     const mDate = new Date(m.item.BreachDate);
                     return !isNaN(mDate.getTime()) && Math.abs(validDate - mDate) / (1000 * 3600 * 24) <= 7;
-                })) continue;
+                })) {
+                    console.log("doublon")
+                    continue};
 
                 // Création de l'entrée finale
                 const newBreach = {
