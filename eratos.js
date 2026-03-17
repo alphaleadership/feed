@@ -26,8 +26,8 @@ const crible2=(n)=>{
     }
     return arr
 }
-console.log(crible2(1000))
+//console.log(crible2(1000))
 const i=crible2(1000)[Math.floor(Math.random()*crible2(1000).length)]
 const choix=crible2(i)[Math.floor(Math.random()*crible2(i).length)]
-console.log(choix)
+//console.log(choix)
 module.exports={estpremier,crible2,choix}
