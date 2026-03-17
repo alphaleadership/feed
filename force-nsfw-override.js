@@ -57,7 +57,7 @@ async function forceNsfwOverride() {
     db.breaches.forEach(breach => {
         if (breach.slug === identifier || breach.Name === identifier) {
             breach.isNSFW = args.isNSFW;
-            breach.nsfwConfidence = args.confidence;
+            breach.nsfwConfidence = parseInt(args.confidence);
             breach.manualNSFWOverride = true;
             found = true;
             console.log(`Override applied to breach: ${breach.Name || breach.slug}`);

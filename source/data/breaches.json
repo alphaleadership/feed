@@ -9223,7 +9223,7 @@
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nLogin • Mot de passe (MD5) • Adresse email • Adresse IP • Source>\n\n",
-      "isNSFW": false,
+      "isNSFW": true,
       "lien": "https://bonjourlafuite.eu.org/img/nephael.png",
       "oldindex": 1210,
       "title": "nephael.com & chloesanchez.com fuite du 2026-1-12",
@@ -9231,7 +9231,8 @@
       "SeverityLevel": "CRITIQUE",
       "isBlocked": false,
       "blockedNote": null,
-      "nsfwConfidence": 0
+      "manualNSFWOverride": true,
+      "nsfwConfidence": 1
     },
     {
       "Name": "relais colis",
