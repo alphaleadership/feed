@@ -122,9 +122,23 @@
           var avgDiffDays = Math.round(totalDiff / (allYearItems.length - 1) / (1000 * 60 * 60 * 24));
           avgTimeStr = " - en moyenne " + avgDiffDays + " j. entre 2 fuites";
         }
+
+        var predictionStr = "";
+        var currentYear = new Date().getFullYear();
+        if (parseInt(year) === currentYear) {
+          var now = new Date();
+          var startOfYear = new Date(currentYear, 0, 1);
+          var daysPassed = Math.ceil((now - startOfYear) / (1000 * 60 * 60 * 24));
+          if (daysPassed > 0) {
+            var isLeapYear = (currentYear % 4 === 0 && currentYear % 100 !== 0) || (currentYear % 400 === 0);
+            var daysInYear = isLeapYear ? 366 : 365;
+            var prediction = Math.round((yearCount / daysPassed) * daysInYear);
+            predictionStr = " - 🔮 prédiction fin d'année : " + prediction + " fuites";
+          }
+        }
         %>
 
-        <a href="#year_heading_<%= year %>"><%= year %> (<%= yearCount %>) avec <%= totalPwnCount %> ligne cumulée de données fuitée<%= avgTimeStr %></a>
+        <a href="#year_heading_<%= year %>"><%= year %> (<%= yearCount %>) avec <%= totalPwnCount %> ligne cumulée de données fuitée<%= avgTimeStr %><%= predictionStr %></a>
         <% if (yearSurpassInfo[year]) { %>
           <div style="margin-left: 20px; margin-top: 5px; margin-bottom: 5px; font-size: 0.9em; color: #666; font-style: italic;">
             <% if (yearSurpassInfo[year].date) { %>
@@ -175,8 +189,22 @@
             var avgDiffDays = Math.round(totalDiff / (allYearItems.length - 1) / (1000 * 60 * 60 * 24));
             avgTimeStr = " <small style='font-size:0.6em; color:#999;'>&nbsp;(moyenne " + avgDiffDays + " j. entre chaque fuite)</small>";
           }
+
+          var predictionStr = "";
+          var currentYear = new Date().getFullYear();
+          if (parseInt(year) === currentYear) {
+            var now = new Date();
+            var startOfYear = new Date(currentYear, 0, 1);
+            var daysPassed = Math.ceil((now - startOfYear) / (1000 * 60 * 60 * 24));
+            if (daysPassed > 0) {
+              var isLeapYear = (currentYear % 4 === 0 && currentYear % 100 !== 0) || (currentYear % 400 === 0);
+              var daysInYear = isLeapYear ? 366 : 365;
+              var prediction = Math.round((yearCount / daysPassed) * daysInYear);
+              predictionStr = " <small style='font-size:0.6em; color:#999;'>&nbsp;- 🔮 prédiction : " + prediction + " fuites</small>";
+            }
+          }
           %>
-          <h4 id="year_heading_<%= year %>" class="archive-ul" data-toggle="collapse" data-target="#year_<%= year %>"><%= year %> (<%= yearCount %>) <b class="caret"></b><%- avgTimeStr %></h4>
+          <h4 id="year_heading_<%= year %>" class="archive-ul" data-toggle="collapse" data-target="#year_<%= year %>"><%= year %> (<%= yearCount %>) <b class="caret"></b><%- avgTimeStr %><%- predictionStr %></h4>
           <div id="year_<%= year %>" class="collapse in">
             <h1><%= totalPwnCount %> ligne cumulée </h1>
             <% 

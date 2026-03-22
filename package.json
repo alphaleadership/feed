@@ -1,6 +1,6 @@
 {
   "name": "hexo-site",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "private": true,
   "scripts": {
     "build": " npm run clean && node index.js && node indexator.js && node scripts/import && npm run import:remote && node detecter-fuites-sans-nombre && node update-breach-links.js",
