@@ -4,7 +4,7 @@ const Fuse = require('fuse.js');
 
 const LOCAL_FILE = path.join(__dirname, 'source', '_data', 'breaches.json');
 const DATE_FILE = path.join(__dirname, 'source', '_data', 'last_import_date.json');
-
+const bad=new Set(fs.readFileSync(path.join(__dirname, 'slugs-a-supprimer.txt'), 'utf8').split("\n").filter(slug => slug.trim() !== '').map(slug => slug.trim().replace(/\r/g, '')));
 const SOURCES = [
     {
         name: "Christophe Boutry",
@@ -237,7 +237,11 @@ async function runImport() {
                     ModifiedDate: new Date().toISOString(),
                     slug: slugify(remote.Name || remote.Title),
                 };
-
+		 if (bad.has(newBreach.slug)) {
+            newBreach.IsRetired = true; // Marquer pour suppression
+            console.log(`  - Suppression : ${newBreach.Name} (slug: ${newBreach.slug})`);
+            
+        }
                 existingBreaches.push(newBreach);
                 addedFromSource++;
             }
