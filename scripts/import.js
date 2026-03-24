@@ -4,6 +4,8 @@ const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
 const fetch = require("axios")
+const bad=new Set(fs.readFileSync(path.join(__dirname, 'slugs-a-supprimer.txt'), 'utf8').split("\n").filter(slug => slug.trim() !== '').map(slug => slug.trim().replace(/\r/g, '')));
+
 const fetchjson = async (url) => {
   const getter = await fetch.get(url)
   //console.log(getter)
@@ -113,6 +115,11 @@ class breach {
             if (item.Titlee) {
               delete item.Titlee
             }
+ if (bad.has(item.slug)) {
+            item.IsRetired = true; // Marquer pour suppression
+            console.log(`  - Suppression : ${item.Name} (slug: ${item.slug})`);
+            
+        }
             return item
           })
           if (!Array.isArray(db.breaches)) {
@@ -181,7 +188,11 @@ class breach {
           newBreach.formattedDate = newBreach.BreachDate ? new Date(newBreach.BreachDate).toISOString().split('T')[0] : '1970-01-01';
           // Assurer que LogoPath a une valeur par défaut si non fourni
           newBreach.LogoPath = newBreach.LogoPath || "https://logos.haveibeenpwned.com/List.png";
-
+	 if (bad.has(newBreach.slug)) {
+            newBreach.IsRetired = true; // Marquer pour suppression
+            console.log(`  - Suppression : ${newBreach.Name} (slug: ${newBreach.slug})`);
+            
+        }
 
           newBreaches.push(newBreach); // Pousser l'objet enrichi
           existingNames.add(newBreach.Name);
