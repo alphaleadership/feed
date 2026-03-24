@@ -16,6 +16,8 @@
   // Ajouter l'index à chaque post et trier
   var filteredPosts = posts.filter((item)=>{
           return item && item.Name && !item.Name.includes('cve')
+        }).filter((item)=>{
+          return !item.IsRetired
         }).filter((c)=>{
           if(c && c.Name && c.Name.toLowerCase().includes("cve-")){
             return false
