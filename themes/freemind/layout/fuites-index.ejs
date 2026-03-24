@@ -351,6 +351,9 @@
       const validBreaches = breaches.filter(item => {
         const name = (item.Name || item.Title || item.slug || '').toLowerCase();
         return !name.includes('cve');
+      }).filter(item => {
+        
+        return !item.IsRetired;
       });
       
       // Trier par date décroissante (plus récentes en premier)
