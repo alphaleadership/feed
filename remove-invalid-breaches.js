@@ -28,7 +28,7 @@ async function removeInvalidBreaches() {
             return;
         }
         console.log(`${slugsToRemove.size} slug(s) à supprimer ont été chargés.`);
-
+        console.log(slugs)
     } catch (error) {
         console.error(`Erreur lors de la lecture du fichier des slugs : ${error.message}`);
         return;
