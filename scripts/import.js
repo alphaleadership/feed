@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
 const fetch = require("axios")
-const bad=new Set(fs.readFileSync(path.join(__dirname, 'slugs-a-supprimer.txt'), 'utf8').split("\n").filter(slug => slug.trim() !== '').map(slug => slug.trim().replace(/\r/g, '')));
+const bad=new Set(fs.readFileSync(path.join(__dirname,'..' ,'slugs-a-supprimer.txt'), 'utf8').split("\n").filter(slug => slug.trim() !== '').map(slug => slug.trim().replace(/\r/g, '')));
 
 const fetchjson = async (url) => {
   const getter = await fetch.get(url)
