@@ -21,14 +21,14 @@ async function removeInvalidBreaches() {
             return;
         }
         const slugsFileContent = fs.readFileSync(SLUGS_TO_REMOVE_PATH, 'utf8');
-        slugsToRemove = new Set(slugsFileContent.split("\n").filter(slug => slug.trim() !== ''));
+        slugsToRemove = new Set(slugsFileContent.split("\n").filter(slug => slug.trim() !== '').map(slug => slug.trim().replace(/\r/g, ''))); // Nettoyer les slugs
         
         if (slugsToRemove.size === 0) {
             console.log("Le fichier 'slugs-a-supprimer.txt' est vide. Aucune action n'est requise.");
             return;
         }
         console.log(`${slugsToRemove.size} slug(s) à supprimer ont été chargés.`);
-        console.log(slugs)
+        console.log(slugsToRemove)
     } catch (error) {
         console.error(`Erreur lors de la lecture du fichier des slugs : ${error.message}`);
         return;
