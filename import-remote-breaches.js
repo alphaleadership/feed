@@ -21,7 +21,7 @@ const SOURCES = [
             IsSensitive: remote.status === "Sensible",
             IsVerified: true, IsFabricated: false, IsSpam: false, IsRetired: false, IsNative: true,
             LogoPath: remote.logo_url || "",
-            source: remote.source_url || "christopheboutry.com",
+            source: remote.source === "manuel" ? `https://christopheboutry.com${remote.path}` : (remote.source_url || "christopheboutry.com"),
         })
     },
     {

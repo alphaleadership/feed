@@ -156,6 +156,11 @@ async function processBreaches() {
       else breach.source = 'Manuel';
     }
 
+    // Correction des liens pour les sources manuelles
+    if (breach.source.toLowerCase() === 'manuel' && breach.path) {
+      breach.lien = `${breach.path}`;
+    }
+
     // Correction des liens HIBP
 
 
