@@ -93,8 +93,10 @@ function readLastImportDate() {
 }
 
 function writeNewImportDate() {
+    const twoYearsAgo = new Date();
+    twoYearsAgo.setFullYear(twoYearsAgo.getFullYear() - 5);
     const data = {
-        lastImport: new Date().toISOString()-2*365*24*3600*1000,
+        lastImport: twoYearsAgo.toISOString(),
     };
     fs.writeFileSync(DATE_FILE, JSON.stringify(data, null, 2));
 }

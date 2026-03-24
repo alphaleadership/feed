@@ -8,6 +8,16 @@ if (!fs.existsSync(DATA_FILE)) {
     process.exit(1);
 }
 
+// 1. Charger les slugs déjà présents pour ne pas les supprimer
+let existingSlugs = new Set();
+if (fs.existsSync(OUTPUT_FILE)) {
+    const content = fs.readFileSync(OUTPUT_FILE, 'utf8');
+    content.split('\n').forEach(s => {
+        const trimmed = s.trim();
+        if (trimmed) existingSlugs.add(trimmed);
+    });
+}
+
 const data = fs.readFileSync(DATA_FILE, 'utf8');
 const lines = data.split('\n').filter(line => line.trim() !== '');
 
@@ -19,22 +29,23 @@ const entries = lines.map(line => {
     return { name, slug };
 }).filter(e => e && e.slug !== 'undefined' && e.slug !== '');
 
-const slugsToRemove = new Set();
+const newSlugsFound = new Set();
 
-// 1. Détection des doublons de slugs exacts
+// 2. Détection des doublons de slugs exacts (Exclusion France Travail)
 const seenSlugs = new Map();
 entries.forEach(e => {
-    // Exception France Travail : On garde toutes les fuites datées car elles sont distinctes
     if (e.slug.includes('france-travail')) return;
 
     if (seenSlugs.has(e.slug)) {
-        slugsToRemove.add(e.slug);
+        if (!existingSlugs.has(e.slug)) {
+            newSlugsFound.add(e.slug);
+        }
     } else {
         seenSlugs.set(e.slug, e.name);
     }
 });
 
-// 2. Détection par acronymes explicites : "Nom Complet (ACRO)"
+// 3. Détection par acronymes explicites
 entries.forEach(e => {
     const match = e.name.match(/^(.*?)\s*\((.*?)\)$/);
     if (match) {
@@ -42,32 +53,20 @@ entries.forEach(e => {
         entries.forEach(other => {
             if (other.slug === e.slug) return;
             if (other.name.toLowerCase() === acronym) {
-                // Supprime l'entrée courte (acronyme seul) car l'entrée complète existe
-                slugsToRemove.add(other.slug);
+                if (!existingSlugs.has(other.slug)) {
+                    newSlugsFound.add(other.slug);
+                }
             }
         });
     }
 });
 
-// 3. Cas spécifiques de doublons avec/sans date pour la même organisation
-// On ne traite que si le nom est EXACTEMENT le même (pour ne pas casser France Travail)
-const nameMap = new Map();
-entries.forEach(e => {
-    const nameLower = e.name.toLowerCase();
-    if (nameMap.has(nameLower)) {
-        const prev = nameMap.get(nameLower);
-        // Si l'un a une date et l'autre non, on pourrait vouloir nettoyer, 
-        // mais pour l'instant on se contente des doublons de SLUGS (point 1)
-    } else {
-        nameMap.set(nameLower, e);
-    }
-});
-
-if (slugsToRemove.size > 0) {
-    const result = Array.from(slugsToRemove).sort().join('\n');
+// 4. Fusion et sauvegarde (Ajout uniquement)
+if (newSlugsFound.size > 0) {
+    const allSlugs = new Set([...existingSlugs, ...newSlugsFound]);
+    const result = Array.from(allSlugs).sort().join('\n');
     fs.writeFileSync(OUTPUT_FILE, result + '\n');
-    console.log(`Mis à jour ${OUTPUT_FILE} : ${slugsToRemove.size} slugs identifiés.`);
+    console.log(`Ajouté ${newSlugsFound.size} nouveaux slugs à ${OUTPUT_FILE}.`);
 } else {
-    console.log('Aucun doublon à supprimer.');
-    if (fs.existsSync(OUTPUT_FILE)) fs.writeFileSync(OUTPUT_FILE, '');
+    console.log('Aucun nouveau doublon à ajouter.');
 }
