@@ -43,6 +43,7 @@
     "inquirer": "^13.3.2",
     "js-yaml": "^4.1.1",
     "jsonstream": "^1.0.3",
+    "lowdb": "^7.0.1",
     "resend": "^6.9.4",
     "rss-parser": "^3.13.0",
     "sudoku": "^0.0.3"
