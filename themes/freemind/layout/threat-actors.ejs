@@ -167,12 +167,22 @@
         return;
       }
 
+      function neutralize(text) {
+        if (!text) return '';
+        // Neutralize URLs (remove protocol, replace dots)
+        let neutral = text.replace(/https?:\/\//gi, '');
+        // Neutralize Email (replace @ and dots)
+        neutral = neutral.replace(/@/g, ' [at] ').replace(/\./g, '[.]');
+        return neutral;
+      }
+
       let html = '';
       actors.forEach(actor => {
+        const neutralizedName = neutralize(actor.name);
         html += `
           <div class="actor-card">
             <div class="actor-name">
-              <i class="fa fa-user-secret"></i> ${actor.name}
+              <i class="fa fa-user-secret"></i> ${neutralizedName}
             </div>
             <div class="stats">${actor.breaches.length} fuite(s) revendiquée(s)</div>
             <div class="breach-list">
