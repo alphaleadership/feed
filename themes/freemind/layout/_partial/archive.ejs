@@ -246,7 +246,7 @@
                 <ol>
                   <% archiveData.years[year][month].forEach(function(item) { %>
                     <li class="listing-item">
-                      <span class="date_class"><%= new Date(item.BreachDate).toISOString().split('T')[0] %></span> &raquo;
+                      <span class="date_class"><%= new Date(item.BreachDate).toISOString().split('T')[0] %> ajoutée le <%= new Date(item.AddedDate||item.BreachDate).toISOString().split('T')[0] %></span> &raquo;
                       <span class="title">
                         <a href="<%- url_for('/fuites?id=' + item.index) %>" title="<%= item.Title||item.Name %>"><%= item.Title||item.Name %></a>
                         <% if (item.SeverityLevel) { 
