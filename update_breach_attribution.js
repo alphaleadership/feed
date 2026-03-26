@@ -8,7 +8,8 @@ const dataFiles = [
 
 function cleanActorName(name) {
     if (!name || name === 'null') return null;
-    return name.trim().replace(/["']/g, '');
+    // Nettoyage complet incluant le passage en minuscules pour éviter les doublons
+    return name.trim().replace(/["']/g, '').toLowerCase();
 }
 
 function updateAttributions(filePath) {
@@ -24,7 +25,7 @@ function updateAttributions(filePath) {
     data.breaches.forEach(breach => {
         let changed = false;
 
-        // 1. Nettoyage de l'attribution existante
+        // 1. Nettoyage et mise en minuscules de l'attribution existante
         if (breach.Attribution && breach.Attribution !== 'null') {
             const cleaned = cleanActorName(breach.Attribution);
             if (cleaned !== breach.Attribution) {
@@ -61,7 +62,7 @@ function updateAttributions(filePath) {
 
     if (updatedCount > 0) {
         fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
-        console.log(`Mis à jour de ${updatedCount} fuites (nettoyage ou attribution) dans ${filePath}.`);
+        console.log(`Mis à jour de ${updatedCount} fuites (minuscules et nettoyage) dans ${filePath}.`);
     } else {
         console.log(`Aucune modification nécessaire pour ${filePath}.`);
     }
