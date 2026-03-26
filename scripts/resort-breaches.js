@@ -263,5 +263,5 @@ async function processBreaches() {
 // Exécuter la fonction principale
 processBreaches().catch(err => {
   console.error('Erreur fatale:', err);
-  process.exit(0);
+  process.exit(1);
 });

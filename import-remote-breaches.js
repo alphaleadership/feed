@@ -260,5 +260,8 @@ async function runImport() {
     }
 }
 
-runImport().catch(console.error);
+runImport().catch(err => {
+    console.error('Erreur fatale lors de l\'import:', err);
+    process.exit(1);
+});
 

@@ -257,12 +257,15 @@ class breach {
    
   }
 
-  // Lancer la fonction
+// Lancer la fonction
 if(fs.existsSync(path.join(baseDir, 'source', '_posts'))){
-if (fs.readdirSync(path.join(baseDir, 'source', '_posts')).filter((file) => { return fs.statSync(path.join(baseDir, 'source', '_posts', file)).isDirectory() }).length != 0) {
-
-  runImport();
-}}
+  if (fs.readdirSync(path.join(baseDir, 'source', '_posts')).filter((file) => { return fs.statSync(path.join(baseDir, 'source', '_posts', file)).isDirectory() }).length != 0) {
+    runImport().catch(err => {
+      console.error('Erreur fatale lors de l\'import script:', err);
+      process.exit(1);
+    });
+  }
+}
 
 
 
