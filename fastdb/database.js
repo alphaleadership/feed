@@ -6,10 +6,12 @@ export class FastDB {
   #indices = {}
   #filePath
   #defaultData
+  #primaryKeys = {}
 
-  constructor(filePath = 'db.json', defaultData = { posts: [] }) {
+  constructor(filePath = 'db.json', defaultData = { posts: [] }, options = {}) {
     this.#filePath = filePath
     this.#defaultData = defaultData
+    this.#primaryKeys = options.primaryKeys || {}
   }
 
   /**
@@ -21,12 +23,22 @@ export class FastDB {
     return this
   }
 
+  /**
+   * Accès direct aux données (pour compatibilité avec les anciens scripts)
+   */
+  get data() {
+    return this.#db.data
+  }
+
   async _buildIndices() {
     for (const collectionName in this.#db.data) {
       if (Array.isArray(this.#db.data[collectionName])) {
         this.#indices[collectionName] = new BinarySearchTree()
+        const pk = this.#primaryKeys[collectionName] || 'id'
         for (const item of this.#db.data[collectionName]) {
-          this.#indices[collectionName].insert(item.id, item)
+          if (item && item[pk] !== undefined) {
+            this.#indices[collectionName].insert(item[pk], item)
+          }
         }
       }
     }
@@ -35,9 +47,16 @@ export class FastDB {
   /**
    * Récupère les données d'une collection avec pagination
    */
-  async getAll(collection, { page = 1, pageSize = 10 } = {}) {
+  async getAll(collection, { page = 1, pageSize = 10, filter = null } = {}) {
     await this.#db.read()
-    const data = this.#db.data[collection] || []
+    let data = this.#db.data[collection] || []
+    
+    if (filter) {
+      data = data.filter(filter)
+    }
+
+    if (page === null) return data; // Retourne tout si page est null
+
     const start = (page - 1) * pageSize
     const end = start + pageSize
     return {
@@ -56,7 +75,8 @@ export class FastDB {
       return this.#indices[collection].find(id)
     }
     await this.#db.read()
-    return this.#db.data[collection]?.find(item => item.id === id)
+    const pk = this.#primaryKeys[collection] || 'id'
+    return this.#db.data[collection]?.find(item => item[pk] === id)
   }
 
   /**
@@ -69,14 +89,19 @@ export class FastDB {
       this.#indices[collection] = new BinarySearchTree()
     }
     
-    const newItem = { 
-      id: Date.now().toString() + Math.random().toString(36).substr(2, 5), 
-      ...item 
+    const pk = this.#primaryKeys[collection] || 'id'
+    const newItem = { ...item }
+    
+    if (newItem[pk] === undefined && pk === 'id') {
+      newItem.id = Date.now().toString() + Math.random().toString(36).substr(2, 5)
     }
+    
     this.#db.data[collection].push(newItem)
     
     // Mise à jour de l'index BST
-    this.#indices[collection].insert(newItem.id, newItem)
+    if (newItem[pk] !== undefined) {
+      this.#indices[collection].insert(newItem[pk], newItem)
+    }
     
     await this.#db.write()
     return newItem
@@ -87,14 +112,16 @@ export class FastDB {
    */
   async update(collection, id, updates) {
     await this.#db.read()
-    const index = this.#db.data[collection]?.findIndex(item => item.id === id)
+    const pk = this.#primaryKeys[collection] || 'id'
+    const index = this.#db.data[collection]?.findIndex(item => item[pk] === id)
+    
     if (index !== -1 && index !== undefined) {
       const updatedItem = { ...this.#db.data[collection][index], ...updates }
       this.#db.data[collection][index] = updatedItem
       
       // Mise à jour de l'index (Suppression + Insertion)
-      this.#indices[collection].remove(id)
-      this.#indices[collection].insert(id, updatedItem)
+      this.#indices[collection]?.remove(id)
+      this.#indices[collection]?.insert(id, updatedItem)
       
       await this.#db.write()
       return updatedItem
@@ -107,7 +134,9 @@ export class FastDB {
    */
   async delete(collection, id) {
     await this.#db.read()
-    const index = this.#db.data[collection]?.findIndex(item => item.id === id)
+    const pk = this.#primaryKeys[collection] || 'id'
+    const index = this.#db.data[collection]?.findIndex(item => item[pk] === id)
+    
     if (index !== -1 && index !== undefined) {
       const deleted = this.#db.data[collection].splice(index, 1)
       
@@ -118,6 +147,14 @@ export class FastDB {
       return deleted[0]
     }
     return null
+  }
+
+  /**
+   * Sauvegarde manuelle (utile pour les opérations en masse sur .data)
+   */
+  async save() {
+    await this.#db.write()
+    await this.refreshIndices()
   }
 
   /**
