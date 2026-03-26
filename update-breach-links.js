@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const { getBreachesDB } = require('./scripts/db');
 
-const baseDir = path.join(__dirname, '.');
+const baseDir = process.cwd();
 
 async function run() {
 console.log('Chargement des données...');

@@ -7,7 +7,7 @@ const { NSFWDetector } = require('./nsfw-detector');
 
 const { getBreachesDB } = require('./db');
 
-const baseDir = path.join(__dirname, '..');
+const baseDir = process.cwd();
 
 // Initialize the NSFWDetector
 const nsfwDetector = new NSFWDetector(

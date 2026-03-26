@@ -5,7 +5,7 @@ const path = require('path');
 const matter = require('gray-matter');
 const fetch = require("axios")
 const { getBreachesDB } = require('./db');
-const bad=new Set(fs.readFileSync(path.join(__dirname,'..' ,'slugs-a-supprimer.txt'), 'utf8').split("\n").filter(slug => slug.trim() !== '').map(slug => slug.trim().replace(/\r/g, '')));
+const bad=new Set(fs.readFileSync(path.join(process.cwd(),'slugs-a-supprimer.txt'), 'utf8').split("\n").filter(slug => slug.trim() !== '').map(slug => slug.trim().replace(/\r/g, '')));
 
 const fetchjson = async (url) => {
   const getter = await fetch.get(url)
@@ -14,7 +14,7 @@ const fetchjson = async (url) => {
 }
 
 // Définir les chemins manuellement car nous sommes hors du contexte de Hexo
-const baseDir = path.join(__dirname, '..');
+const baseDir = process.cwd();
 const getfile = (f) => {
   let content = fs.readFileSync(f).toString()
   if (content.startsWith("---")) {

@@ -5,7 +5,7 @@ const path = require('path');
 
 const { getBreachesDB } = require('./db');
 
-const baseDir = path.join(__dirname, '..');
+const baseDir = process.cwd();
 
 // Données considérées comme graves/critiques
 const criticalDataTypes = [

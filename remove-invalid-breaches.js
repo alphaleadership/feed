@@ -3,7 +3,7 @@ const path = require('path');
 const { getBreachesDB } = require('./scripts/db');
 
 // Chemin vers le fichier contenant les slugs à supprimer
-const SLUGS_TO_REMOVE_PATH = path.join(__dirname, 'slugs-a-supprimer.txt');
+const SLUGS_TO_REMOVE_PATH = path.join(process.cwd(), 'slugs-a-supprimer.txt');
 
 /**
  * Fonction principale pour supprimer les fuites invalides.

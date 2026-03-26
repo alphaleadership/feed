@@ -3,8 +3,8 @@ const path = require('path');
 const Fuse = require('fuse.js');
 const { getBreachesDB } = require('./scripts/db');
 
-const DATE_FILE = path.join(__dirname, 'source', '_data', 'last_import_date.json');
-const bad=new Set(fs.readFileSync(path.join(__dirname, 'slugs-a-supprimer.txt'), 'utf8').split("\n").filter(slug => slug.trim() !== '').map(slug => slug.trim().replace(/\r/g, '')));
+const DATE_FILE = path.join(process.cwd(), 'source', '_data', 'last_import_date.json');
+const bad=new Set(fs.readFileSync(path.join(process.cwd(), 'slugs-a-supprimer.txt'), 'utf8').split("\n").filter(slug => slug.trim() !== '').map(slug => slug.trim().replace(/\r/g, '')));
 const SOURCES = [
     {
         name: "Christophe Boutry",

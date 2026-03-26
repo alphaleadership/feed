@@ -14,7 +14,7 @@ async function getDB(filePath, defaultData = { breaches: [] }, options = {}) {
  * Instance spécifique pour breaches.json
  */
 async function getBreachesDB() {
-    const baseDir = path.join(__dirname, '..');
+    const baseDir = process.cwd();
     const breachesPath = path.join(baseDir, 'source', '_data', 'breaches.json');
     return getDB(breachesPath, { breaches: [], totalBreaches: 0, lastUpdated: new Date().toISOString() }, {
         primaryKeys: { breaches: 'Name' }
