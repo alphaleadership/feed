@@ -348,6 +348,6 @@ async function classifyBreaches() {
 
 // Exécuter
 classifyBreaches().catch(err => {
-  console.error('❌ Erreur:', err);
+  console.error('❌ Erreur fatale dans le classificateur:', err);
   process.exit(1);
 });
