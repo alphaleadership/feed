@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>veille</title>
+  
+  <subtitle>fuites de donnée en cours</subtitle>
+  <link href="https://feed-blush.vercel.app/atom.xml" rel="self"/>
+  
+  <link href="https://feed-blush.vercel.app/"/>
+  <updated>2026-03-26T10:12:42.018Z</updated>
+  <id>https://feed-blush.vercel.app/</id>
+  
+  <author>
+    <name>arbinger</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Fuites De Données</title>
+    <link href="https://feed-blush.vercel.app/2026/03/26/temp/"/>
+    <id>https://feed-blush.vercel.app/2026/03/26/temp/</id>
+    <published>2026-03-26T10:12:42.018Z</published>
+    <updated>2026-03-26T10:12:42.018Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>gPotato</title>
+    <link href="https://feed-blush.vercel.app/2007/07/12/gpotato/"/>
+    <id>https://feed-blush.vercel.app/2007/07/12/gpotato/</id>
+    <published>2007-07-12T00:00:00.000Z</published>
+    <updated>2016-09-24T21:37:43.000Z</updated>
+    
+    <content type="html"><![CDATA[In July 2007, the multiplayer game portal known as <a href="https://web.archive.org/web/20070710161412/http://gpotato.com/" target="_blank" rel="noopener">gPotato</a> (link to archive of the site at that time) suffered a data breach and over 2 million user accounts were exposed. The site later merged into the <a href="http://www.webzen.com/" target="_blank" rel="noopener">Webzen portal</a> where the original accounts still exist today. The exposed data included usernames, email and IP addresses, MD5 hashes and personal attributes such as gender, birth date, physical address and security questions and answers stored in plain text.
+    	  <a href="https://haveibeenpwned.com/Breach/gPotato" target="_blank">source</a>]]></content>
+    
+    
+    <summary type="html">In July 2007, the multiplayer game portal known as &lt;a href=&quot;https://web.archive.org/web/20070710161412/http://gpotato.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;gPotato&lt;/a&gt; (link to archive of the site at t...</summary>
+    
+    
+    
+    
+  </entry>
+  
+</feed>

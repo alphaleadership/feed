@@ -3,7 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const { getBreachesDB } = require('./db');
+const { getBreachesDB } = require('../scripts/db');
 
 const baseDir = process.cwd();
 

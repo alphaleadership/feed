@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
 const fetch = require("axios")
-const { getBreachesDB } = require('./db');
+const { getBreachesDB } = require('../scripts/db');
 const bad=new Set(fs.readFileSync(path.join(process.cwd(),'slugs-a-supprimer.txt'), 'utf8').split("\n").filter(slug => slug.trim() !== '').map(slug => slug.trim().replace(/\r/g, '')));
 
 const fetchjson = async (url) => {

@@ -1,4 +1,5 @@
-import { JSONFilePreset } from 'lowdb/node'
+import { JSONFile } from 'lowdb/node'
+import { Low } from 'lowdb'
 import { BinarySearchTree } from './bst.js'
 
 export class FastDB {
@@ -18,7 +19,15 @@ export class FastDB {
    * Initialise la connexion au fichier et construit les index BST
    */
   async init() {
-    this.#db = await JSONFilePreset(this.#filePath, this.#defaultData)
+    const adapter = new JSONFile(this.#filePath)
+    this.#db = new Low(adapter, this.#defaultData)
+    await this.#db.read()
+    
+    // Si le fichier n'existe pas, lowdb met .data à null ou garde le défaut
+    if (this.#db.data === null) {
+        this.#db.data = this.#defaultData;
+    }
+
     await this._buildIndices()
     return this
   }

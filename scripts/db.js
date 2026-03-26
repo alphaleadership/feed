@@ -10,15 +10,20 @@ async function getDB(filePath, defaultData = { breaches: [] }, options = {}) {
     return db;
 }
 
+let breachesDBInstance = null;
+
 /**
  * Instance spécifique pour breaches.json
  */
 async function getBreachesDB() {
+    if (breachesDBInstance) return breachesDBInstance;
+
     const baseDir = process.cwd();
     const breachesPath = path.join(baseDir, 'source', '_data', 'breaches.json');
-    return getDB(breachesPath, { breaches: [], totalBreaches: 0, lastUpdated: new Date().toISOString() }, {
+    breachesDBInstance = await getDB(breachesPath, { breaches: [], totalBreaches: 0, lastUpdated: new Date().toISOString() }, {
         primaryKeys: { breaches: 'Name' }
     });
+    return breachesDBInstance;
 }
 
 module.exports = {

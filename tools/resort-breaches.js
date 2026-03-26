@@ -3,9 +3,9 @@
 const fs = require('fs');
 const https = require('https');
 const path = require('path');
-const { NSFWDetector } = require('./nsfw-detector');
+const { NSFWDetector } = require('../scripts/nsfw-detector');
 
-const { getBreachesDB } = require('./db');
+const { getBreachesDB } = require('../scripts/db');
 
 const baseDir = process.cwd();
 

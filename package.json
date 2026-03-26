@@ -3,15 +3,15 @@
   "version": "0.1.6",
   "private": true,
   "scripts": {
-    "build": " npm run clean && node index.js && node indexator.js && node scripts/import && npm run import:remote && node detecter-fuites-sans-nombre && node update-breach-links.js && node remove-invalid-breaches.js ",
-    "clean": "node scripts/resort-breaches && npm run update-slugs && hexo clean",
+    "build": " npm run clean && node index.js && node indexator.js && node tools/import && npm run import:remote && node detecter-fuites-sans-nombre && node update-breach-links.js && node remove-invalid-breaches.js ",
+    "clean": "node tools/resort-breaches && npm run update-slugs && hexo clean",
     "deploy": "hexo deploy --config build.yml",
     "server": "hexo server",
-    "import": "node scripts/import.js",
+    "import": "node tools/import.js",
     "import:remote": "node import-remote-breaches.js",
     "update-slugs": "node update-slugs-to-delete.js",
     "add:breach": "node scripts/add-breach.js",
-    "classify": "node scripts/classify-breaches.js"
+    "classify": "node tools/classify-breaches.js"
   },
   "hexo": {
     "version": "8.1.1"
