@@ -35,6 +35,10 @@ menu:
     url: glossaire
     intro: "Niveaux de risque par type de données"
     icon: "fa fa-shield"
+  - title: Pirates
+    url: threat-actor
+    intro: "Groupes de hackers et pirates"
+    icon: "fa fa-user-secret"
   - title: Statistiques
     url: stat
     intro: "Analyse détaillée des fuites"
