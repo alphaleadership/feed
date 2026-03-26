@@ -1,9 +1,16 @@
-const data =require("./source/_data/breaches.json")
-const fs =require("fs")
-fs.writeFileSync("./data.txt","")
-data.breaches.filter((item)=>{
-    return !item.IsRetired
-}).map
-((item)=>{
-    fs.appendFileSync("./data.txt", `${item.Name}:${item.slug}\n`)
-})
+const { getBreachesDB } = require('./scripts/db');
+const fs = require('fs');
+
+async function run() {
+    const db = await getBreachesDB();
+    const data = db.data;
+    
+    fs.writeFileSync("./data.txt", "");
+    data.breaches
+        .filter((item) => !item.IsRetired)
+        .forEach((item) => {
+            fs.appendFileSync("./data.txt", `${item.Name}:${item.slug}\n`);
+        });
+}
+
+run().catch(console.error);

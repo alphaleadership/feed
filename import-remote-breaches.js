@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 const Fuse = require('fuse.js');
+const { getBreachesDB } = require('./scripts/db');
 
-const LOCAL_FILE = path.join(__dirname, 'source', '_data', 'breaches.json');
 const DATE_FILE = path.join(__dirname, 'source', '_data', 'last_import_date.json');
 const bad=new Set(fs.readFileSync(path.join(__dirname, 'slugs-a-supprimer.txt'), 'utf8').split("\n").filter(slug => slug.trim() !== '').map(slug => slug.trim().replace(/\r/g, '')));
 const SOURCES = [
@@ -68,17 +68,6 @@ const SOURCES = [
 ];
 
 // --- Utility Functions ---
-function loadJSON(filePath) {
-    if (!fs.existsSync(filePath)) {
-        return { breaches: [], totalBreaches: 0, lastUpdated: new Date(0).toISOString() };
-    }
-    return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-}
-
-function saveJSON(filePath, data) {
-    fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
-}
-
 function readLastImportDate() {
     if (fs.existsSync(DATE_FILE)) {
         try {
@@ -178,8 +167,8 @@ function deduplicate(breaches) {
 async function runImport() {
     console.log("Démarrage du cycle d'importation multi-sources...");
     
-    const localData = loadJSON(LOCAL_FILE);
-    let existingBreaches = localData.breaches || [];
+    const db = await getBreachesDB();
+    let existingBreaches = db.data.breaches || [];
     const lastLaunchDate = readLastImportDate();
     
     console.log(`${existingBreaches.length} fuites existentes. Date de réf : ${lastLaunchDate.toISOString()}`);
@@ -259,11 +248,11 @@ async function runImport() {
         existingBreaches = deduplicate(existingBreaches);
         existingBreaches.sort((a, b) => new Date(b.BreachDate) - new Date(a.BreachDate));
         
-        localData.breaches = existingBreaches;
-        localData.totalBreaches = existingBreaches.length;
-        localData.lastUpdated = new Date().toISOString();
+        db.data.breaches = existingBreaches;
+        db.data.totalBreaches = existingBreaches.length;
+        db.data.lastUpdated = new Date().toISOString();
         
-        saveJSON(LOCAL_FILE, localData);
+        await db.save();
         console.log(`\nSauvegarde terminée : ${existingBreaches.length} enregistrements au total.`);
         writeNewImportDate();
     } else {

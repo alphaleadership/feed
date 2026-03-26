@@ -1,8 +1,7 @@
 const fs = require('fs');
 const path = require('path');
+const { getBreachesDB } = require('./scripts/db');
 
-// Chemin vers le fichier de données principal
-const BREACHES_JSON_PATH = path.join(__dirname, 'source', '_data', 'breaches.json');
 // Chemin vers le fichier contenant les slugs à supprimer
 const SLUGS_TO_REMOVE_PATH = path.join(__dirname, 'slugs-a-supprimer.txt');
 
@@ -34,54 +33,37 @@ async function removeInvalidBreaches() {
         return;
     }
 
-    // 2. Lire et parser le fichier breaches.json
-    let data;
-    try {
-        const breachesFileContent = fs.readFileSync(BREACHES_JSON_PATH, 'utf8');
-        data = JSON.parse(breachesFileContent);
-    } catch (error) {
-        console.error(`Erreur lors de la lecture ou du parsing de '${BREACHES_JSON_PATH}': ${error.message}`);
-        return;
-    }
+    // 2. Charger la base de données
+    const db = await getBreachesDB();
+    const data = db.data;
 
     const originalCount = data.breaches.length;
-    console.log(`Nombre de fuites avant la suppression : ${originalCount}`);
+    console.log(`Nombre de fuites avant le traitement : ${originalCount}`);
 
-    // 3. Filtrer les fuites pour exclure les slugs spécifiés
-    const initialBreachesCount = data.breaches.length;
+    // 3. Marquer les fuites à retirer
+    let markedCount = 0;
     data.breaches = data.breaches.map(breach => {
-        if (slugsToRemove.has(breach.slug)) {
+        if (slugsToRemove.has(breach.slug) && !breach.IsRetired) {
             breach.IsRetired = true; // Marquer pour suppression
-            console.log(`  - Suppression : ${breach.Name} (slug: ${breach.slug})`);
-            
+            console.log(`  - Marqué comme retiré : ${breach.Name} (slug: ${breach.slug})`);
+            markedCount++;
         }
         return breach;
     });
 
-    const finalBreachesCount = data.breaches.length;
-    const removedCount = initialBreachesCount - finalBreachesCount;
-
-    if (removedCount > 0) {
-        // 4. Mettre à jour le compteur et la date de mise à jour
-        data.totalBreaches = finalBreachesCount;
+    if (markedCount > 0) {
+        // 4. Mettre à jour la date de mise à jour
         data.lastUpdated = new Date().toISOString();
 
         // 5. Sauvegarder les modifications
-        try {
-            const updatedJsonContent = JSON.stringify(data, null, 2);
-            fs.writeFileSync(BREACHES_JSON_PATH, updatedJsonContent, 'utf8');
-            console.log(`
-Opération terminée avec succès. ${removedCount} fuite(s) ont été supprimée(s).`);
-            console.log(`Nombre total de fuites restantes : ${finalBreachesCount}`);
-        } catch (error) {
-            console.error(`Erreur lors de l'écriture des modifications dans '${BREACHES_JSON_PATH}': ${error.message}`);
-        }
+        await db.save();
+        console.log(`\nOpération terminée avec succès. ${markedCount} fuite(s) ont été marquées comme retirées.`);
     } else {
-        console.log("Aucune fuite correspondante aux slugs fournis n'a été trouvée. Aucune modification n'a été apportée.");
+        console.log("Aucune nouvelle fuite correspondante aux slugs fournis n'a été trouvée. Aucune modification n'a été apportée.");
     }
     
     console.log("--- Fin du script ---");
 }
 
 // Exécuter la fonction
-removeInvalidBreaches();
+removeInvalidBreaches().catch(console.error);

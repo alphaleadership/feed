@@ -2,18 +2,20 @@
 
 const fs = require('fs');
 const path = require('path');
+const { getBreachesDB } = require('./scripts/db');
 
 const baseDir = path.join(__dirname, '.');
-const dataFile = path.join(baseDir, 'source', '_data', 'breaches.json');
 
+async function run() {
 console.log('Chargement des données...');
-const db = JSON.parse(fs.readFileSync(dataFile, 'utf-8'));
+const db = await getBreachesDB();
+const data = db.data;
 
 let updatedCount = 0;
 
-console.log(`Traitement de ${db.breaches.length} fuites...`);
+console.log(`Traitement de ${data.breaches.length} fuites...`);
 
-db.breaches.forEach((breach, index) => {
+data.breaches.forEach((breach, index) => {
   if (!breach || breach.IsRetired) {
     return;
   }
@@ -43,12 +45,20 @@ db.breaches.forEach((breach, index) => {
 });
 
 // Mettre à jour la date
-db.lastUpdated = new Date().toISOString();
+data.lastUpdated = new Date().toISOString();
 
 // Sauvegarder
 console.log('\nSauvegarde des modifications...');
-fs.writeFileSync(dataFile, JSON.stringify(db, null, 2));
-fs.writeFileSync(path.join(baseDir, 'source', 'data', 'breaches.json'), JSON.stringify(db, null, 2));
+await db.save();
+
+// Also update source/data/breaches.json if it exists and is used
+const publicDataFile = path.join(baseDir, 'source', 'data', 'breaches.json');
+if (fs.existsSync(path.dirname(publicDataFile))) {
+    fs.writeFileSync(publicDataFile, JSON.stringify(data, null, 2));
+}
 
 console.log('\n✅ Traitement terminé !');
 console.log(`   - ${updatedCount} liens mis à jour`);
+}
+
+run().catch(console.error);

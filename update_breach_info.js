@@ -1,8 +1,8 @@
 const fs = require('fs');
 const axios = require('axios');
 const cheerio = require('cheerio');
+const { getBreachesDB } = require('./scripts/db');
 
-const BREACHES_JSON_PATH = 'source/_data/breaches.json';
 const URL_TO_SCRAPE = 'https://bonjourlafuite.eu.org/';
 
 // Helper to normalize strings for matching
@@ -43,8 +43,9 @@ const run = async () => {
         console.log(`Found ${scrapedData.size} potential breaches with victim counts from the URL.`);
 
         // 3. Load the local breaches.json file
-        console.log(`Loading local data from ${BREACHES_JSON_PATH}...`);
-        const localData = JSON.parse(fs.readFileSync(BREACHES_JSON_PATH, 'utf-8'));
+        console.log(`Loading local data...`);
+        const db = await getBreachesDB();
+        const localData = db.data;
 
         // 4. Iterate and update local data
         let updatedCount = 0;
@@ -70,8 +71,8 @@ const run = async () => {
         console.log(`Updated ${updatedCount} records in the local data.`);
 
         // 5. Save the updated file
-        console.log(`Saving updated data back to ${BREACHES_JSON_PATH}...`);
-        fs.writeFileSync(BREACHES_JSON_PATH, JSON.stringify(localData, null, 2));
+        console.log(`Saving updated data...`);
+        await db.save();
 
         console.log('Update complete!');
 

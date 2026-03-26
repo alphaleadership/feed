@@ -2,30 +2,11 @@ const fs = require('fs');
 const path = require('path');
 const inquirer = require('inquirer');
 const chalk = require('chalk');
-
-const DATA_FILE = path.join(__dirname, 'source', '_data', 'breaches.json');
-
-
-// Helper to read data
-function loadData() {
-    try {
-        const fileContent = fs.readFileSync(DATA_FILE, 'utf-8');
-        return JSON.parse(fileContent);
-    } catch (error) {
-        console.error(new chalk.Chalk().red(`Erreur: Impossible de lire ou de parser le fichier ${DATA_FILE}`));
-        console.error(error);
-        process.exit(1);
-    }
-}
-
-// Helper to save data
-function saveData(data) {
-    fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2));
-    console.log(new chalk.Chalk().blue(`\nLe fichier ${DATA_FILE} a été mis à jour.`));
-}
+const { getBreachesDB } = require('./scripts/db');
 
 // --- Validation Logic ---
-async function validateEntries(breaches) {
+async function validateEntries(dbInstance) {
+    const breaches = dbInstance.data.breaches;
     const entriesToValidate = breaches.filter(entry => entry.validated === undefined);
 
     if (entriesToValidate.length === 0) {
@@ -38,14 +19,17 @@ async function validateEntries(breaches) {
     let validatedCount = 0, rejectedCount = 0, skippedCount = 0, nsfwCount = 0, interrupted = false;
     const rejectedForDeletion = [];
 
-    const saveAndExit = () => {
-        const finalBreaches = breaches.filter(entry => !rejectedForDeletion.includes(entry.Name));
+    const saveAndExit = async () => {
+        const finalBreaches = dbInstance.data.breaches.filter(entry => !rejectedForDeletion.includes(entry.Name));
         finalBreaches.forEach(entry => {
             if (entry.validated === null) delete entry.validated;
         });
         console.log(new chalk.Chalk().yellow('\n\nProgression sauvegardée.'));
         console.log(new chalk.Chalk().green(`Validées: ${validatedCount} (dont ${nsfwCount} NSFW)`), new chalk.Chalk().red(`Supprimées: ${rejectedCount}`), new chalk.Chalk().gray(`Sautées: ${skippedCount}`));
-        saveData({ breaches: finalBreaches, lastUpdated: new Date().toISOString() });
+        
+        dbInstance.data.breaches = finalBreaches;
+        dbInstance.data.lastUpdated = new Date().toISOString();
+        await dbInstance.save();
         process.exit(0);
     };
 
@@ -67,7 +51,7 @@ async function validateEntries(breaches) {
         console.log(new chalk.Chalk().white(`Description: ${entry.Description}\n`));
 
         let action;
-        if (entry.Name.includes("cve-")) {
+        if (entry.Name.toLowerCase().includes("cve-")) {
             console.log(new chalk.Chalk().yellow('⚠️  Cette entrée CVE sera automatiquement rejetée.'));
             action = "reject";
         } else {
@@ -88,7 +72,7 @@ async function validateEntries(breaches) {
             action = promptAction;
         }
 
-        if (action === 'reject' && !entry.Name.includes("cve-")) {
+        if (action === 'reject' && !entry.Name.toLowerCase().includes("cve-")) {
             const { confirm } = await inquirer.default.prompt([
                 {
                     type: 'confirm',
@@ -100,7 +84,9 @@ async function validateEntries(breaches) {
             if (!confirm) action = 'skip';
         }
 
-        fs.appendFileSync('filtre-breaches.log', `[${new Date().toISOString()}] Action: ${action} | Entry: ${entry.Name}\n`);
+        if (fs.existsSync('filtre-breaches.log')) {
+            fs.appendFileSync('filtre-breaches.log', `[${new Date().toISOString()}] Action: ${action} | Entry: ${entry.Name}\n`);
+        }
         
         switch (action) {
             case 'validate':
@@ -125,13 +111,13 @@ async function validateEntries(breaches) {
                 interrupted = true;
                 break;
             default:
-                 rejectedForDeletion.push(entry.Name);
+                rejectedForDeletion.push(entry.Name);
                 rejectedCount++;
                 break;
         }
     }
 
-    const finalBreaches = breaches.filter(entry => !rejectedForDeletion.includes(entry.Name));
+    const finalBreaches = dbInstance.data.breaches.filter(entry => !rejectedForDeletion.includes(entry.Name));
     finalBreaches.forEach(entry => {
         if (entry.validated === null) delete entry.validated;
     });
@@ -163,34 +149,22 @@ async function editEntry(breaches) {
 
     // Step 2: Filter breaches based on search term
     const matchedBreaches = breaches.filter(b => 
-        {
-            if(b.Name.toLowerCase().includes(searchTerm.toLowerCase())){
-                if(b.PwnCount === 0){
-                    return true
-            }
-            return false
-        }
-        return false
-        }
+        b.Name.toLowerCase().includes(searchTerm.toLowerCase())
     );
 
     let breachToEdit;
     if (matchedBreaches.length === 0) {
         console.log(new chalk.Chalk().red('Aucune entrée trouvée.'));
         return breaches;
-    } else { // I
-    //f 1 or more matches, ALWAYS show the list.
-    console.log(matchedBreaches)
-    console.log(matchedBreaches.map(b => {return {value:b.Name}}))
+    } else {
         const { selectedBreachName } = await inquirer.default.prompt([
             {
-                type: 'select',
+                type: 'list',
                 name: 'selectedBreachName',
                 message: 'Résultats de la recherche, veuillez en choisir un:',
-                choices: matchedBreaches.map(b => {return {value:b.Name, name: `${b.Name} - ${b.PwnCount.toLocaleString()} comptes affectés`}}),
+                choices: matchedBreaches.map(b => ({name: `${b.Name} - ${b.PwnCount.toLocaleString()} comptes affectés`, value: b.Name})),
             }
         ]);
-        console.log(selectedBreachName)
         breachToEdit = findBreach(selectedBreachName);
     }
 
@@ -206,49 +180,20 @@ async function editEntry(breaches) {
     console.log(new chalk.Chalk().yellow(JSON.stringify(breachToEdit, null, 2)));
     console.log('\n');
     
-   /* const { fieldToEdit } = await inquirer.default.prompt([
-        {
-            type: 'lselect',
-            name: 'fieldToEdit',
-            message: 'Quel champ éditer ?',
-            choices: Object.keys(breachToEdit).map(key => ({ name: key, value: key }))
-        }
-    ]);*/
-
-    const currentValue = breachToEdit[ "PwnCount"];
+    const currentValue = breachToEdit["PwnCount"];
     let newValue;
 
-    if (typeof currentValue === 'boolean') {
-        const { value } = await inquirer.default.prompt([
-            {
-                type: 'confirm',
-                name: 'value',
-                message: `Nouvelle valeur pour 'PwnCount' ?`,
-                default: currentValue
-            }
-        ]);
-        newValue = value;
-    } else {
-        const { value } = await inquirer.default.prompt([
-            {
-                type: 'input',
-                name: 'value',
-                message: `Nouvelle valeur pour 'PwnCount':`,
-                default: currentValue
-            }
-        ]);
-        newValue = value;
-    }
+    const { value } = await inquirer.default.prompt([
+        {
+            type: 'input',
+            name: 'value',
+            message: `Nouveau PwnCount pour '${breachToEdit.Name}':`,
+            default: currentValue
+        }
+    ]);
+    newValue = value;
     
-    // Type casting
-    if (typeof currentValue === 'number') {
-        breachToEdit["PwnCount"] = Number(newValue);
-    } else if (typeof currentValue === 'boolean') {
-         breachToEdit["PwnCount"] = newValue;
-    }
-    else {
-        breachToEdit["PwnCount"] = newValue;
-    }
+    breachToEdit["PwnCount"] = Number(newValue);
 
     console.log(new chalk.Chalk().green('\nEntrée mise à jour. Voici le nouvel objet:'));
     console.log(new chalk.Chalk().yellow(JSON.stringify(breachToEdit, null, 2)));
@@ -259,17 +204,18 @@ async function editEntry(breaches) {
 
 // --- Main Application ---
 async function main() {
-    const data = loadData();
+    const dbInstance = await getBreachesDB();
+    const data = dbInstance.data;
     let breaches = data.breaches || [];
 
     const args = process.argv.slice(2);
     const command = args[0] ? args[0].toLowerCase().trim() : '';
 
     if (command === 'valider' || command === 'v') {
-        const { modifiedBreaches, stats } = await validateEntries(breaches);
+        const { modifiedBreaches, stats } = await validateEntries(dbInstance);
         data.breaches = modifiedBreaches;
         data.lastUpdated = new Date().toISOString();
-        saveData(data);
+        await dbInstance.save();
         console.log(new chalk.Chalk().cyan('\n----------------------------------------'));
         console.log(new chalk.Chalk().bold.green('Validation terminée !'));
         if (stats && stats.validatedCount !== undefined) {
@@ -288,7 +234,7 @@ async function main() {
             }
             breach.PwnCount = pwnCount;
             data.lastUpdated = new Date().toISOString();
-            saveData(data);
+            await dbInstance.save();
             console.log(new chalk.Chalk().green(`Brèche "${name}" mise à jour avec PwnCount: ${pwnCount}`));
         } else {
             const modifiedBreaches = await editEntry(breaches);
@@ -303,7 +249,8 @@ async function main() {
                 }
             ]);
             if (confirmSave) {
-                saveData(data);
+                await dbInstance.save();
+                console.log(new chalk.Chalk().green("Modifications sauvegardées."));
             } else {
                 console.log(new chalk.Chalk().yellow("Modifications annulées."));
             }

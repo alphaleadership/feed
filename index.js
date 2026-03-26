@@ -4,52 +4,52 @@ const Parser = require('rss-parser');
 const yaml = require('js-yaml');
 const parser = new Parser();
 const axios = require('axios');
-const breachesPath = "./source/_data/breaches.json";
-const db = require(breachesPath);
+const { getBreachesDB } = require('./scripts/db');
 const rssUrl = 'https://thomas-iniguez-visioli.github.io/nodejs-news-feeder/feed.xml';
 const PostDir = './source/';
-
 async function updateHIBPBreaches() {
   try {
+    const db = await getBreachesDB();
+    const data = db.data;
     const res = await axios.default.get("https://haveibeenpwned.com/api/v3/breaches");
     let updated = false;
     
-    // S'assurer que db.breaches est un tableau d'objets
-    if (!Array.isArray(db.breaches)) db.breaches = [];
+    // S'assurer que data.breaches est un tableau d'objets
+    if (!Array.isArray(data.breaches)) data.breaches = [];
 
     res.data.forEach((breach) => {
       if (breach && !breach.BreachDate) {
         breach.BreachDate = '1970-01-01';
       }
       // On ne cherche que par Name (objet)
-      const index = db.breaches.findIndex((b) => b && typeof b === 'object' && b.Name === breach.Name);
+      const index = data.breaches.findIndex((b) => b && typeof b === 'object' && b.Name === breach.Name);
       
       if (index === -1) {
-        db.breaches.push(breach);
+        data.breaches.push(breach);
         updated = true;
         // console.log(`✨ Nouvelle fuite HIBP ajoutée: ${breach.Name}`);
-      } else if (typeof db.breaches[index] !== 'object') {
+      } else if (typeof data.breaches[index] !== 'object') {
         // Au cas où il y aurait une chaîne de caractères au lieu d'un objet
-        db.breaches[index] = breach;
+        data.breaches[index] = breach;
         updated = true;
       }
     });
 
     if (updated) {
-      db.breaches.sort((a, b) => {
+      data.breaches.sort((a, b) => {
         const dateA = a && a.BreachDate ? new Date(a.BreachDate) : new Date(0);
         const dateB = b && b.BreachDate ? new Date(b.BreachDate) : new Date(0);
         return dateA - dateB;
       });
       let indexCounter = -1;
-      db.breaches.forEach((breach) => {
+      data.breaches.forEach((breach) => {
         if (breach && !breach.IsRetired) indexCounter++;
         if (breach) breach.index = indexCounter;
       });
       
-      db.totalBreaches = db.breaches.length;
-      db.lastUpdated = new Date().toISOString();
-      fs.writeFileSync(breachesPath, JSON.stringify(db, null, 2));
+      data.totalBreaches = data.breaches.length;
+      data.lastUpdated = new Date().toISOString();
+      await db.save();
       console.log("✅ Base de données breaches.json mise à jour avec les données HIBP, triée et réindexée.");
     }
   } catch (err) {

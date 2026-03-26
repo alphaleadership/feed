@@ -2,13 +2,16 @@
 
 const fs = require('fs');
 const path = require('path');
+const { getBreachesDB } = require('./db');
 
-hexo.extend.filter.register('before_generate', function() {
-  const dataFile = path.join(this.source_dir, '_data', 'breaches.json');
+hexo.extend.filter.register('before_generate', async function() {
   const blockedFile = path.join(this.base_dir, 'blocked_domains.json');
   
-  if (!fs.existsSync(dataFile)) {
-    this.log.warn('Inject-Breaches: breaches.json non trouvé');
+  let dbInstance;
+  try {
+    dbInstance = await getBreachesDB();
+  } catch (err) {
+    this.log.error('Inject-Breaches: Erreur lors de l\'initialisation de FastDB', err);
     return;
   }
 
@@ -46,7 +49,7 @@ hexo.extend.filter.register('before_generate', function() {
   }
 
   try {
-    const data = JSON.parse(fs.readFileSync(dataFile, 'utf-8'));
+    const data = dbInstance.data;
     const breaches = data.breaches || [];
 
     breaches.forEach(breach => {

@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const { Input, Confirm, Select } = require('enquirer');
 const chalk = require('chalk');
+const { getBreachesDB } = require('./scripts/db');
 
 const baseDir = path.join(__dirname);
-const dataFile = path.join(baseDir, 'source', '_data', 'breaches.json');
 const dataFileSecondary = path.join(baseDir, 'source', 'data', 'breaches.json');
 
 function slugify(value) {
@@ -68,13 +68,8 @@ async function promptInput(message, initial, validate) {
 }
 
 async function main() {
-  let db;
-  try {
-    db = normalizeBreachesDb(JSON.parse(fs.readFileSync(dataFile, 'utf-8')));
-  } catch (e) {
-    console.error(new chalk.Chalk().red(`Erreur: impossible de lire ${dataFile}`));
-    process.exit(1);
-  }
+  const dbInstance = await getBreachesDB();
+  const db = dbInstance.data;
 
   const sourceType = await new Select({
     message: 'Type de source',
@@ -154,7 +149,7 @@ async function main() {
 
   resortAndReindex(db);
 
-  fs.writeFileSync(dataFile, JSON.stringify(db, null, 2));
+  await dbInstance.save();
   try {
     fs.mkdirSync(path.dirname(dataFileSecondary), { recursive: true });
     fs.writeFileSync(dataFileSecondary, JSON.stringify(db, null, 2));

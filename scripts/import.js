@@ -4,6 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
 const fetch = require("axios")
+const { getBreachesDB } = require('./db');
 const bad=new Set(fs.readFileSync(path.join(__dirname,'..' ,'slugs-a-supprimer.txt'), 'utf8').split("\n").filter(slug => slug.trim() !== '').map(slug => slug.trim().replace(/\r/g, '')));
 
 const fetchjson = async (url) => {
@@ -79,17 +80,20 @@ class breach {
     //console.log(await tempdata)
     const storage=[]
     if(fs.existsSync(path.join(baseDir, 'source', '_posts'))){
- fs.readdirSync(path.join(baseDir, 'source', '_posts')).filter((file) => { return fs.statSync(path.join(baseDir, 'source', '_posts', file)).isDirectory() }).forEach((dir) => {
+      const dbInstance = await getBreachesDB();
+      const db = dbInstance.data;
+      const dirs = fs.readdirSync(path.join(baseDir, 'source', '_posts')).filter((file) => { return fs.statSync(path.join(baseDir, 'source', '_posts', file)).isDirectory() });
+      
+      for (const dir of dirs) {
       const importDir = path.join(baseDir, 'source', '_posts', dir);
       //console.log(importDir)
-      const dataFile = path.join(baseDir, 'source', '_data', 'breaches.json');
       console.log("Démarrage du script d'importation autonome...");
 
       if (!fs.existsSync(importDir)) {
         console.log("Le dossier d'import 'source/_import' n'existe pas. Création du dossier.");
         fs.mkdirSync(importDir, { recursive: true });
         console.log("Veuillez placer les fichiers .md à importer dans 'source/_import' et relancer la commande.");
-        return;
+        continue;
       }
 
       const filesToImport = fs.readdirSync(importDir).filter(file => file.endsWith('.md'));
@@ -97,15 +101,13 @@ class breach {
       if (filesToImport.length === 0) {
         console.log("Aucun fichier .md à importer dans 'source/_import'." + importDir);
         fs.rmdirSync(importDir)
-        return;
+        continue;
       }
 
       console.log(`Trouvé ${filesToImport.length} fichier(s) à importer...`);
 
-      let db = { breaches: [] };
-      if (fs.existsSync(dataFile)) {
+      if (db.breaches) {
         try {
-          db = JSON.parse(fs.readFileSync(dataFile, 'utf-8'));
           db.breaches.map((
             item
           ) => {
@@ -132,8 +134,8 @@ class breach {
             return dateA - dateB;
           });
         } catch (e) {
-          console.error("Erreur lors de la lecture ou de l'analyse de 'data/breaches.json':", e.message);
-          return;
+          console.error("Erreur lors de l'analyse des données breaches:", e.message);
+          continue;
         }
       }
 
@@ -237,12 +239,11 @@ class breach {
         db.lastUpdated = new Date().toISOString();
 
         try {
-          fs.writeFileSync(dataFile, JSON.stringify(db, null, 2));
-          fs.writeFileSync(path.join(baseDir, 'source', '_data', 'breaches.json'), JSON.stringify(db, null, 2));
+          await dbInstance.save();
           console.log('Base de données mise à jour avec succès.');
         } catch (e) {
-          console.error("Erreur lors de l'écriture dans 'data/breaches.json':", e.message);
-          return;
+          console.error("Erreur lors de la sauvegarde des données:", e.message);
+          continue;
         }
       }
 
@@ -251,7 +252,7 @@ class breach {
       console.log(` ${skippedCount} fichier(s) ignoré(s) (doublon ou erreur).`);
       console.log('-----------------------------');
       fs.rmdirSync(importDir)
-    })
+    }
     }
    
   }

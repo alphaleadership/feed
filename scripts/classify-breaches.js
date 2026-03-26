@@ -3,8 +3,9 @@
 const fs = require('fs');
 const path = require('path');
 
+const { getBreachesDB } = require('./db');
+
 const baseDir = path.join(__dirname, '..');
-const dataFile = path.join(baseDir, 'source', '_data', 'breaches.json');
 
 // Données considérées comme graves/critiques
 const criticalDataTypes = [
@@ -278,7 +279,8 @@ function normalizeDataClasses(dataClasses) {
 // Fonction principale
 async function classifyBreaches() {
   console.log('Chargement des données...');
-  const db = JSON.parse(fs.readFileSync(dataFile, 'utf-8'));
+  const dbInstance = await getBreachesDB();
+  const db = dbInstance.data;
   
   let criticalCount = 0;
   let normalizedCount = 0;
@@ -336,8 +338,7 @@ async function classifyBreaches() {
   
   // Sauvegarder
   console.log('\nSauvegarde des modifications...');
-  fs.writeFileSync(dataFile, JSON.stringify(db, null, 2));
-  fs.writeFileSync(path.join(baseDir, 'source', 'data', 'breaches.json'), JSON.stringify(db, null, 2));
+  await dbInstance.save();
   
   console.log('\n✅ Traitement terminé !');
   console.log(`   - ${criticalCount} nouvelles fuites critiques détectées`);

@@ -5,8 +5,9 @@ const https = require('https');
 const path = require('path');
 const { NSFWDetector } = require('./nsfw-detector');
 
+const { getBreachesDB } = require('./db');
+
 const baseDir = path.join(__dirname, '..');
-const dataFile = path.join(baseDir, 'source', '_data', 'breaches.json');
 
 // Initialize the NSFWDetector
 const nsfwDetector = new NSFWDetector(
@@ -48,7 +49,8 @@ function verifyHibpLink(slug) {
 // Fonction principale asynchrone
 async function processBreaches() {
   console.log('Chargement des données...');
-  const db = JSON.parse(fs.readFileSync(dataFile, 'utf-8'));
+  const dbInstance = await getBreachesDB();
+  const db = dbInstance.data;
 
   console.log(`Nombre de fuites avant tri: ${db.breaches.length}`);
 
@@ -253,11 +255,9 @@ async function processBreaches() {
 
   db.lastUpdated = new Date().toISOString();
 
-  fs.writeFileSync(dataFile, JSON.stringify(db, null, 2));
-  fs.writeFileSync(path.join(baseDir, 'source', 'data', 'breaches.json'), JSON.stringify(db, null, 2));
-  fs.writeFileSync(path.join(baseDir, 'source', '_data', 'breaches.json'), JSON.stringify(db, null, 2));
+  await dbInstance.save();
 
-  console.log('Fichiers mis à jour avec succès!');
+  console.log('Données mises à jour avec succès!');
 }
 
 // Exécuter la fonction principale

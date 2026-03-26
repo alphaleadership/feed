@@ -1,25 +1,13 @@
 const fs = require('fs');
 const path = require('path');
+const { getBreachesDB } = require('./scripts/db');
 
-const DATA_FILE = path.join(__dirname, 'source', '_data', 'breaches.json');
 const OUTPUT_FILE = path.join(__dirname, 'fuites-sans-nombre.txt');
 
 /**
  * Algorithme pour détecter les fuites de données sans nombre de personnes impactées
  * Recherche les entrées où PwnCount est 0, null, undefined ou manquant
  */
-
-// Helper pour charger les données
-function loadBreachesData() {
-    try {
-        const data = fs.readFileSync(DATA_FILE, 'utf8');
-        const jsonData = JSON.parse(data);
-        return jsonData.breaches || [];
-    } catch (error) {
-        console.error('Erreur lors du chargement des données:', error.message);
-        return [];
-    }
-}
 
 // Fonction pour vérifier si une fuite n'a pas de nombre de personnes impactées
 function isPwnCountMissing(breach) {
@@ -30,9 +18,10 @@ function isPwnCountMissing(breach) {
 }
 
 // Fonction principale pour détecter les fuites sans nombre
-function detectBreachesWithoutCount() {
-    console.log('🔍 Chargement des données de fuites...');
-    const breaches = loadBreachesData();
+async function detectBreachesWithoutCount() {
+    console.log('🔍 Chargement des données de fuites via FastDB...');
+    const db = await getBreachesDB();
+    const breaches = db.data.breaches || [];
     
     if (breaches.length === 0) {
         console.log('❌ Aucune donnée trouvée ou erreur de chargement');
@@ -84,8 +73,9 @@ function detectBreachesWithoutCount() {
 }
 
 // Fonction pour afficher un résumé dans la console
-function displaySummary() {
-    const breaches = loadBreachesData();
+async function displaySummary() {
+    const db = await getBreachesDB();
+    const breaches = db.data.breaches || [];
     const breachesWithoutCount = breaches.filter(isPwnCountMissing);
     
     console.log('\n📋 RÉSUMÉ:');
@@ -98,14 +88,15 @@ function displaySummary() {
 
 // Exécution du programme
 if (require.main === module) {
-    console.log('🚀 Démarrage de la détection des fuites sans nombre de personnes impactées...\n');
-    detectBreachesWithoutCount();
-    displaySummary();
-    console.log('\n✨ Analyse terminée!');
+    (async () => {
+        console.log('🚀 Démarrage de la détection des fuites sans nombre de personnes impactées...\n');
+        await detectBreachesWithoutCount();
+        await displaySummary();
+        console.log('\n✨ Analyse terminée!');
+    })().catch(console.error);
 }
 
 module.exports = {
-    loadBreachesData,
     isPwnCountMissing,
     detectBreachesWithoutCount,
     displaySummary
