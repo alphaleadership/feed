@@ -76,16 +76,23 @@
             return total + archiveData.years[prevYear][monthKey].length;
           }, 0);
           
+          if (!yearSurpassInfo[year]) {
+            yearSurpassInfo[year] = {};
+          }
+          
+          var diff = yearCount - prevYearCount;
+          var percentage = (diff / prevYearCount * 100).toFixed(1);
+          yearSurpassInfo[year].percentage = (diff >= 0 ? "+" : "") + percentage + "%";
+          yearSurpassInfo[year].diff = diff;
+          yearSurpassInfo[year].prevYear = prevYear;
+          yearSurpassInfo[year].prevYearCount = prevYearCount;
+
           if (yearCount >= prevYearCount && prevYearCount > 0) {
             var surpassDate = new Date(allYearItems[prevYearCount - 1].BreachDate);
             var daysSinceStart = Math.ceil((surpassDate - new Date(year, 0, 1)) / (1000 * 60 * 60 * 24));
-            yearSurpassInfo[year] = {
-              date: surpassDate,
-              days: daysSinceStart,
-              prevYear: prevYear,
-              prevYearCount: prevYearCount,
-              type: 'prevYear'
-            };
+            yearSurpassInfo[year].date = surpassDate;
+            yearSurpassInfo[year].days = daysSinceStart;
+            yearSurpassInfo[year].type = 'prevYear';
           }
         }
         
@@ -140,7 +147,15 @@
         }
         %>
 
-        <a href="#year_heading_<%= year %>"><%= year %> (<%= yearCount %>) avec <%= totalPwnCount %> ligne cumulée de données fuitée<%= avgTimeStr %><%= predictionStr %></a>
+        <% 
+        var percentageStr = "";
+        if (yearSurpassInfo[year] && yearSurpassInfo[year].percentage) {
+          var color = yearSurpassInfo[year].diff >= 0 ? "#d9534f" : "#5cb85c";
+          percentageStr = " <span style='color: " + color + "; font-weight: bold;'>(" + yearSurpassInfo[year].percentage + ")</span>";
+        }
+        %>
+
+        <a href="#year_heading_<%= year %>"><%= year %> (<%= yearCount %>)<%- percentageStr %> avec <%= totalPwnCount %> ligne cumulée de données fuitée<%= avgTimeStr %><%= predictionStr %></a>
         <% if (yearSurpassInfo[year]) { %>
           <div style="margin-left: 20px; margin-top: 5px; margin-bottom: 5px; font-size: 0.9em; color: #666; font-style: italic;">
             <% if (yearSurpassInfo[year].date) { %>
@@ -206,7 +221,14 @@
             }
           }
           %>
-          <h4 id="year_heading_<%= year %>" class="archive-ul" data-toggle="collapse" data-target="#year_<%= year %>"><%= year %> (<%= yearCount %>) <b class="caret"></b><%- avgTimeStr %><%- predictionStr %></h4>
+          <% 
+          var percentageStr = "";
+          if (yearSurpassInfo[year] && yearSurpassInfo[year].percentage) {
+            var color = yearSurpassInfo[year].diff >= 0 ? "#d9534f" : "#5cb85c";
+            percentageStr = " <small style='font-size:0.6em; color: " + color + ";'>&nbsp;(" + yearSurpassInfo[year].percentage + ")</small>";
+          }
+          %>
+          <h4 id="year_heading_<%= year %>" class="archive-ul" data-toggle="collapse" data-target="#year_<%= year %>"><%= year %> (<%= yearCount %>)<%- percentageStr %> <b class="caret"></b><%- avgTimeStr %><%- predictionStr %></h4>
           <div id="year_<%= year %>" class="collapse in">
             <h1><%= totalPwnCount %> ligne cumulée </h1>
             <% 
@@ -235,7 +257,7 @@
               </p>
             <% } else if (prevYearCount > 0 && yearCount < prevYearCount) { %>
               <p style="margin: 10px 0; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
-                <strong>📊</strong> <%= year %> compte <%= yearCount %> fuites, contre <%= prevYearCount %> fuites en <%= prevYear %>.
+                <strong>📊</strong> <%= year %> compte <%= yearCount %> fuites, soit <strong><%= (yearCount/prevYearCount*100).toFixed(1) %>%</strong> de l'activité de <%= prevYear %> (<%= prevYearCount %> fuites).
               </p>
             <% } %>
             

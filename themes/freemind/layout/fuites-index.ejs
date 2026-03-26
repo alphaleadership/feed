@@ -329,10 +329,27 @@
         return response.json();
       })
       .then(data => {
-        const invalidcategory=["hygiène numérique","sécurité","cybersécurité","cybercriminalité","cyberguerre"]
-        const breaches = data.breaches.filter(item => !item.IsRetired);
-        if (breachId !== null && breaches[breachId]) {
-          renderDetails(breaches[breachId], breachId, breaches.length);
+        // Consistent filtering and sorting
+        const breaches = data.breaches.filter(item => {
+          if (!item || item.IsRetired) return false;
+          const name = (item.Name || item.Title || item.slug || '').toLowerCase();
+          return !name.includes('cve');
+        });
+
+        // Trier par date décroissante (plus récentes en premier)
+        breaches.sort((a, b) => {
+          const dateA = new Date(a.BreachDate || 0);
+          const dateB = new Date(b.BreachDate || 0);
+          return dateB - dateA;
+        });
+
+        if (breachId !== null) {
+          const currentIndex = breaches.findIndex(b => b.index == breachId || (b.oldindex && b.oldindex == breachId));
+          if (currentIndex !== -1) {
+            renderDetails(breaches, currentIndex);
+          } else {
+            renderList(breaches);
+          }
         } else {
           renderList(breaches);
         }
@@ -348,35 +365,20 @@
       });
 
     function renderList(breaches) {
-      const validBreaches = breaches.filter(item => {
-        const name = (item.Name || item.Title || item.slug || '').toLowerCase();
-        return !name.includes('cve');
-      }).filter(item => {
-        
-        return !item.IsRetired;
-      });
-      
-      // Trier par date décroissante (plus récentes en premier)
-      validBreaches.sort((a, b) => {
-        const dateA = new Date(a.BreachDate || 0);
-        const dateB = new Date(b.BreachDate || 0);
-        return dateB - dateA;
-      });
-      
       let html = `
         <div class="fuites-header">
           <h1>Liste des Fuites de Données</h1>
-          <p style="color: var(--text-secondary)">Total : ${validBreaches.length} incidents recensés</p>
+          <p style="color: var(--text-secondary)">Total : ${breaches.length} incidents recensés</p>
         </div>
         <div class="fuite-grid">
       `;
       
-      if (!validBreaches || validBreaches.length === 0) {
+      if (!breaches || breaches.length === 0) {
         container.innerHTML = '<div class="fuites-header"><h1>Liste des Fuites</h1><p>Aucune fuite trouvée.</p></div>';
         return;
       }
 
-      html += validBreaches.map((breach) => {
+      html += breaches.map((breach) => {
         let contentHtml = '';
         if (breach.isNSFW) {
           contentHtml = `
@@ -384,11 +386,11 @@
               <h3>⚠️ Contenu NSFW</h3>
               <p>Ce lien peut contenir du contenu sensible.</p>
               <button onclick="confirmShowLink(event, '${breach.index}')" class="show-nsfw-link">Révéler la fuite</button>
-              <a href="https://feed-blush.vercel.app/fuites?id=${breach.index}" data-nsfw-id="${breach.index}" class="title-link hidden">${breach.Title || breach.Name}</a>
+              <a href="/fuites?id=${breach.index}" data-nsfw-id="${breach.index}" class="title-link hidden">${breach.Title || breach.Name}</a>
             </div>
           `;
         } else {
-          contentHtml = `<a href="https://feed-blush.vercel.app/fuites?id=${breach.index}" class="title-link">${breach.Title || breach.Name}</a>`;
+          contentHtml = `<a href="/fuites?id=${breach.index}" class="title-link">${breach.Title || breach.Name}</a>`;
         }
 
         let classesHtml = '';
@@ -418,8 +420,10 @@
       container.innerHTML = html;
     }
 
-    function renderDetails(breach, index, totalBreaches) {
-      const bIndex = parseInt(breach.index) || parseInt(index);
+    function renderDetails(breaches, currentIndex) {
+      const breach = breaches[currentIndex];
+      const prevBreach = breaches[currentIndex - 1];
+      const nextBreach = breaches[currentIndex + 1];
 
       let html = `
         <div class="breach-details">
@@ -491,9 +495,9 @@
           </div>
           
           <div class="nav-buttons">
-            <a href="/fuites?id=${bIndex - 1}" class="nav-btn">&larr; Précédent</a>
+            ${prevBreach ? `<a href="/fuites?id=${prevBreach.index}" class="nav-btn">&larr; Précédent</a>` : '<span></span>'}
             <a href="/fuites/" class="nav-btn primary">Retour à la liste</a>
-            <a href="/fuites?id=${bIndex + 1}" class="nav-btn">Suivant &rarr;</a>
+            ${nextBreach ? `<a href="/fuites?id=${nextBreach.index}" class="nav-btn">Suivant &rarr;</a>` : '<span></span>'}
           </div>
         </div>
       `;
