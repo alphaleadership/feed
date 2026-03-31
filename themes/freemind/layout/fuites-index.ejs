@@ -344,7 +344,7 @@
         });
 
         if (breachId !== null) {
-          const currentIndex = breaches.findIndex(b => b.index == breachId || (b.oldindex && b.oldindex == breachId));
+          const currentIndex = breaches.findIndex(b => b.index == breachId );
           if (currentIndex !== -1) {
             renderDetails(breaches, currentIndex);
           } else {
