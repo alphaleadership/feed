@@ -22,7 +22,7 @@ for (const line of lines) {
 }
 
 if (duplicateSlugs.length > 0) {
-    fs.appendFileSync('slugs-a-supprimer.txt', '\n' + duplicateSlugs.join('\n') + '\n');
+    fs.appendFileSync('slugs-a-supprimer.txt', '\n' + duplicateSlugs.filter(s=>!s.includes('france')).join('\n') + '\n');
     console.log(`Ajouté ${duplicateSlugs.length} slugs en double à slugs-a-supprimer.txt`);
     console.log('Doublons trouvés:', duplicateSlugs);
 } else {
