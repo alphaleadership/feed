@@ -13,7 +13,7 @@ function isLienFromHaveIBeenPwned(lien) {
   }
   try {
     const parsed = new URL(lien);
-    return parsed.hostname === 'haveibeenpwned.com';
+    return parsed.hostname === 'haveibeenpwned.com' || parsed.hostname === 'www.haveibeenpwned.com';
   } catch (e) {
     // Not a valid URL; conservatively treat as not from haveibeenpwned.com
     return false;
