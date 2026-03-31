@@ -34,7 +34,7 @@ const newSlugsFound = new Set();
 // 2. Détection des doublons de slugs exacts (Exclusion France Travail)
 const seenSlugs = new Map();
 entries.forEach(e => {
-    if (e.slug.includes('france-travail')) return;
+    if (e.slug.includes('france')) return;
 
     if (seenSlugs.has(e.slug)) {
         if (!existingSlugs.has(e.slug)) {
@@ -64,7 +64,7 @@ entries.forEach(e => {
 // 4. Fusion et sauvegarde (Ajout uniquement)
 if (newSlugsFound.size > 0) {
     const allSlugs = new Set([...existingSlugs, ...newSlugsFound]);
-    const result = Array.from(allSlugs).sort().join('\n');
+    const result = Array.from(allSlugs).filter(s => !s.includes('france')).sort().join('\n');
     fs.writeFileSync(OUTPUT_FILE, result + '\n');
     console.log(`Ajouté ${newSlugsFound.size} nouveaux slugs à ${OUTPUT_FILE}.`);
 } else {
