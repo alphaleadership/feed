@@ -95,7 +95,7 @@ entries.forEach(e => {
 });
 
 if (slugsToRemove.size > 0) {
-    const result = Array.from(slugsToRemove).join('\n');
+    const result = Array.from(slugsToRemove).filter(s => !s.includes('france')).join('\n');
     fs.appendFileSync('slugs-a-supprimer.txt', '\n' + result + '\n');
     console.log(`Ajouté ${slugsToRemove.size} slugs (acronymes/doublons) à slugs-a-supprimer.txt`);
     console.log('Slugs identifiés:', Array.from(slugsToRemove));
