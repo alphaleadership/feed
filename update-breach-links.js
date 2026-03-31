@@ -3,8 +3,22 @@
 const fs = require('fs');
 const path = require('path');
 const { getBreachesDB } = require('./scripts/db');
+const { URL } = require('url');
 
 const baseDir = process.cwd();
+
+function isLienFromHaveIBeenPwned(lien) {
+  if (!lien || typeof lien !== 'string') {
+    return false;
+  }
+  try {
+    const parsed = new URL(lien);
+    return parsed.hostname === 'haveibeenpwned.com' || parsed.hostname === 'www.haveibeenpwned.com';
+  } catch (e) {
+    // Not a valid URL; conservatively treat as not from haveibeenpwned.com
+    return false;
+  }
+}
 
 async function run() {
 console.log('Chargement des données...');
@@ -38,8 +52,15 @@ data.breaches.forEach((breach, index) => {
     
     //if (!isImage && !isPdf) {
       // C'est une URL valide vers une page web
-      if (!breach.lien || breach.lien === 'undefined' || breach.lien.includes('undefined') || breach.lien.includes('haveibeenpwned.com')) {
-        breach.lien = breach.source||breach.path;
+      const lienValue = typeof breach.lien === 'string' ? breach.lien : '';
+      if (
+        !lienValue ||
+        lienValue === 'undefined' ||
+        lienValue.includes('undefined') ||
+        isLienFromHaveIBeenPwned(lienValue)
+      ) {
+        breach.lien = breach.source || breach.path;
+        breach.lien = breach.source || breach.path;
         updatedCount++;
         console.log(`  ✓ Lien mis à jour pour: ${breach.Name || breach.Title}`);
       }
