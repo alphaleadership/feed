@@ -19,7 +19,9 @@ data.breaches.forEach((breach, index) => {
   if (!breach || breach.IsRetired) {
     return;
   }
-  
+  if(breach.Name.startsWith("france travail") || breach.Name.startsWith("france-travail")) {
+    breach.Domain = "france-travail.fr";
+  }
   // Pour les fuites bonjourlafuite, utiliser le champ path comme lien
   if (breach.path && breach.path.includes('bonjourlafuite.eu.org') && breach.path) {
     // Construire l'URL bonjourlafuite
