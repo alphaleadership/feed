@@ -1,9 +1,9 @@
 RAPPORT - FUITES SANS NOMBRE DE PERSONNES IMPACTÉES
 =================================================
 
-Total des fuites analysées: 1464
-Fuites sans nombre d'impactés: 342
-Pourcentage: 23.36%
+Total des fuites analysées: 1461
+Fuites sans nombre d'impactés: 339
+Pourcentage: 23.20%
 
 LISTE DES FUITES CONCERNÉES:
 ============================
@@ -17,7 +17,25 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/minebleue.png
    - Vérifié: Non
 
-2. Belambra
+2. homair fuite du 2026-3-31
+   - Titre: homair fuite du 2026-3-31
+   - Domaine: Non spécifié
+   - Date de fuite: 2026-3-31
+   - Date d'ajout: 2026-03-31T16:07:13.983Z
+   - PwnCount: 0
+   - Lien: Non disponible
+   - Vérifié: Non
+
+3. vaucluse provence attractivité fuite du 2026-3-31
+   - Titre: vaucluse provence attractivité fuite du 2026-3-31
+   - Domaine: Non spécifié
+   - Date de fuite: 2026-3-31
+   - Date d'ajout: 2026-03-31T16:07:18.028Z
+   - PwnCount: 0
+   - Lien: Non disponible
+   - Vérifié: Non
+
+4. Belambra
    - Titre: Belambra
    - Domaine: belambra.fr
    - Date de fuite: 2026-03-30
@@ -26,7 +44,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://fuitesinfos.fr/wp-content/uploads/2026/03/Belambra-fuites-de-donnees-leak-scaled.png
    - Vérifié: Oui
 
-3. gdquest
+5. gdquest
    - Titre: gdquest fuite du 2026-3-30
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-30
@@ -35,7 +53,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/gdquest.png
    - Vérifié: Non
 
-4. La Centrale de Financement
+6. La Centrale de Financement
    - Titre: La Centrale de Financement
    - Domaine: lacentraledefinancement.fr
    - Date de fuite: 2026-03-29
@@ -44,7 +62,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://fuitesinfos.fr/wp-content/uploads/2026/03/Centrale-financement-leak-fuites-de-donnees.png
    - Vérifié: Oui
 
-5. Scalian
+7. Scalian
    - Titre: Scalian
    - Domaine: scalian.com
    - Date de fuite: 2026-03-27
@@ -53,25 +71,25 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://fuitesinfos.fr/wp-content/uploads/2026/03/Scalian-Fuites-infos-leak-.png
    - Vérifié: Oui
 
-6. allo pneus fuite du 2026-3-27
+8. allo pneus fuite du 2026-3-27
    - Titre: allo pneus fuite du 2026-3-27
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-27
-   - Date d'ajout: 2026-03-31T14:47:40.228Z
+   - Date d'ajout: 2026-03-31T16:07:10.005Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
 
-7. système d’information sur les armes fuite du 2026-3-27
+9. système d’information sur les armes fuite du 2026-3-27
    - Titre: système d’information sur les armes fuite du 2026-3-27
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-27
-   - Date d'ajout: 2026-03-31T14:47:47.573Z
+   - Date d'ajout: 2026-03-31T16:07:17.605Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
 
-8. les champs libres
+10. les champs libres
    - Titre: les champs libres fuite du 2026-3-26
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-26
@@ -80,25 +98,25 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/champs-libres.png
    - Vérifié: Non
 
-9. airsoft entrepot fuite du 2026-3-26
+11. airsoft entrepot fuite du 2026-3-26
    - Titre: airsoft entrepot fuite du 2026-3-26
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-26
-   - Date d'ajout: 2026-03-31T14:47:40.179Z
+   - Date d'ajout: 2026-03-31T16:07:09.954Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
 
-10. cerballiance fuite du 2026-3-25
+12. cerballiance fuite du 2026-3-25
    - Titre: cerballiance fuite du 2026-3-25
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-25
-   - Date d'ajout: 2026-03-31T14:47:41.171Z
+   - Date d'ajout: 2026-03-31T16:07:11.157Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
 
-11. CROUS
+13. CROUS
    - Titre: CROUS
    - Domaine: lescrous.fr
    - Date de fuite: 2026-03-24
@@ -107,7 +125,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://fuitesinfos.fr/wp-content/uploads/2026/03/Crous-leak-fuites-de-donnees.png
    - Vérifié: Oui
 
-12. crunchyroll
+14. crunchyroll
    - Titre: crunchyroll fuite du 2026-3-24
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-24
@@ -116,7 +134,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.tomsguide.fr/piratage-de-crunchyroll-des-cartes-bancaires-de-clients-seraient-compromises/
    - Vérifié: Non
 
-13. fédération française de vol libre
+15. fédération française de vol libre
    - Titre: fédération française de vol libre fuite du 2026-3-24
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-24
@@ -125,7 +143,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/ffvl.png
    - Vérifié: Non
 
-14. métropole marseille
+16. métropole marseille
    - Titre: métropole marseille fuite du 2026-3-24
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-24
@@ -134,7 +152,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/metropole-marseille-provence.png
    - Vérifié: Non
 
-15. europa (commission européenne)
+17. europa (commission européenne)
    - Titre: europa (commission européenne) fuite du 2026-3-24
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-24
@@ -143,16 +161,16 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://ec.europa.eu/commission/presscorner/detail/fr/ip_26_748
    - Vérifié: Non
 
-16. éducation nationale fuite du 2026-3-24
+18. éducation nationale fuite du 2026-3-24
    - Titre: éducation nationale fuite du 2026-3-24
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-24
-   - Date d'ajout: 2026-03-31T14:47:48.371Z
+   - Date d'ajout: 2026-03-31T16:07:18.456Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
 
-17. mingat
+19. mingat
    - Titre: mingat fuite du 2026-3-18
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-18
@@ -161,7 +179,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/mingat.png
    - Vérifié: Non
 
-18. musée des arts et métier
+20. musée des arts et métier
    - Titre: musée des arts et métier fuite du 2026-3-18
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-18
@@ -170,7 +188,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/muam.png
    - Vérifié: Non
 
-19. bibliothèque nationale de france fuite du 2026-3-17
+21. bibliothèque nationale de france fuite du 2026-3-17
    - Titre: bibliothèque nationale de france fuite du 2026-3-17
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-17
@@ -179,7 +197,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/bnf.png
    - Vérifié: Non
 
-20. Université Paris-Est
+22. Université Paris-Est
    - Titre: Université Paris-Est
    - Domaine: univ-paris-est.fr
    - Date de fuite: 2026-03-13
@@ -188,16 +206,16 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://fuitesinfos.fr/wp-content/uploads/2026/03/universite-paris-est-leak-fuites-de-donnees.png
    - Vérifié: Oui
 
-21. médoucine fuite du 2026-3-12
+23. médoucine fuite du 2026-3-12
    - Titre: médoucine fuite du 2026-3-12
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-12
-   - Date d'ajout: 2026-03-31T14:47:45.944Z
+   - Date d'ajout: 2026-03-31T16:07:15.889Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
 
-22. pronote
+24. pronote
    - Titre: pronote fuite du 2026-3-11
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-11
@@ -206,7 +224,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/pronote.png
    - Vérifié: Non
 
-23. région occitanie
+25. région occitanie
    - Titre: région occitanie fuite du 2026-3-10
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-10
@@ -215,7 +233,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/region-occitanie.png
    - Vérifié: Non
 
-24. vivaticket
+26. vivaticket
    - Titre: vivaticket fuite du 2026-3-10
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-10
@@ -224,7 +242,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/vivaticket.png
    - Vérifié: Non
 
-25. Vatel Capital
+27. Vatel Capital
    - Titre: Vatel Capital
    - Domaine: vatelcapital.com
    - Date de fuite: 2026-03-09
@@ -233,7 +251,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://fuitesinfos.fr/wp-content/uploads/2026/03/Vatel-Capital-leak-fuites-de-donnees.png
    - Vérifié: Oui
 
-26. SYNLAB France
+28. SYNLAB France
    - Titre: SYNLAB France
    - Domaine: synlab.fr
    - Date de fuite: 2026-03-07
@@ -242,7 +260,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://fuitesinfos.fr/wp-content/uploads/2026/03/SynLab-fuites-de-donnees-leak.png
    - Vérifié: Oui
 
-27. TAJ (Traitement d'antécédents judiciaires)
+29. TAJ (Traitement d'antécédents judiciaires)
    - Titre: TAJ (Traitement d'antécédents judiciaires)
    - Domaine: interieur.gouv.fr
    - Date de fuite: 2026-03-06
@@ -251,7 +269,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://fuitesinfos.fr/wp-content/uploads/2026/03/TAJ.png
    - Vérifié: Oui
 
-28. florajet
+30. florajet
    - Titre: florajet fuite du 2026-3-5
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-5
@@ -260,7 +278,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/florajet.png
    - Vérifié: Non
 
-29. penninghen
+31. penninghen
    - Titre: penninghen fuite du 2026-3-5
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-5
@@ -269,7 +287,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/penninghen.png
    - Vérifié: Non
 
-30. agence nationale de la cohésion des territoires (anct)
+32. agence nationale de la cohésion des territoires (anct)
    - Titre: agence nationale de la cohésion des territoires (anct) fuite du 2026-3-4
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-4
@@ -278,7 +296,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/anct.png
    - Vérifié: Non
 
-31. banque alimentaire
+33. banque alimentaire
    - Titre: banque alimentaire fuite du 2026-3-4
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-4
@@ -287,7 +305,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/banquesalimentaires.png
    - Vérifié: Non
 
-32. centre des monuments nationaux
+34. centre des monuments nationaux
    - Titre: centre des monuments nationaux fuite du 2026-3-2
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-2
@@ -296,7 +314,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/centre-monuments-nationaux.png
    - Vérifié: Non
 
-33. cloud imperium games
+35. cloud imperium games
    - Titre: cloud imperium games fuite du 2026-3-2
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-2
@@ -305,7 +323,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/rsi.png
    - Vérifié: Non
 
-34. lisi
+36. lisi
    - Titre: lisi fuite du 2026-3-2
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-2
@@ -314,7 +332,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/lisi.png
    - Vérifié: Non
 
-35. mdph 92
+37. mdph 92
    - Titre: mdph 92 fuite du 2026-3-2
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-2
@@ -323,7 +341,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/mdph-92.jpg
    - Vérifié: Non
 
-36. plateforme des cours d’adultes de paris
+38. plateforme des cours d’adultes de paris
    - Titre: plateforme des cours d’adultes de paris fuite du 2026-3-2
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-2
@@ -332,7 +350,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/cours-adultes-paris.png
    - Vérifié: Non
 
-37. tactis
+39. tactis
    - Titre: tactis fuite du 2026-3-2
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-2
@@ -341,7 +359,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/tactis.png
    - Vérifié: Non
 
-38. palais de la porte dorée
+40. palais de la porte dorée
    - Titre: palais de la porte dorée fuite du 2026-3-2
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-2
@@ -350,7 +368,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/palais-porte-doree.png
    - Vérifié: Non
 
-39. ayomi
+41. ayomi
    - Titre: ayomi fuite du 2026-3-1
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-1
@@ -359,7 +377,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/ayomi.png
    - Vérifié: Non
 
-40. fédération française d'aéronautique
+42. fédération française d'aéronautique
    - Titre: fédération française d'aéronautique fuite du 2026-2-28
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-28
@@ -368,16 +386,16 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/ffa.png
    - Vérifié: Non
 
-41. union nationale du sport scolaire fuite du 2026-2-28
+43. union nationale du sport scolaire fuite du 2026-2-28
    - Titre: union nationale du sport scolaire fuite du 2026-2-28
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-28
-   - Date d'ajout: 2026-03-31T14:47:47.815Z
+   - Date d'ajout: 2026-03-31T16:07:17.861Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
 
-42. cegedim
+44. cegedim
    - Titre: cegedim fuite du 2026-2-27
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-27
@@ -386,7 +404,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.cegedim.fr/Communique/Cegedim_Communique26022026.pdf
    - Vérifié: Non
 
-43. espci
+45. espci
    - Titre: espci fuite du 2026-2-27
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-27
@@ -395,7 +413,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://next.ink/brief_article/fuite-de-donnees-personnelles-a-lecole-dingenieurs-espci/
    - Vérifié: Non
 
-44. fédération française de gym
+46. fédération française de gym
    - Titre: fédération française de gym fuite du 2026-2-27
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-27
@@ -404,7 +422,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/ffg.png
    - Vérifié: Non
 
-45. fédération française de ski
+47. fédération française de ski
    - Titre: fédération française de ski fuite du 2026-2-27
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-27
@@ -413,7 +431,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/ffski.png
    - Vérifié: Non
 
-46. westfield club
+48. westfield club
    - Titre: westfield club fuite du 2026-2-27
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-27
@@ -422,7 +440,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/westfield.png
    - Vérifié: Non
 
-47. fédération sportive et culturelle de france fuite du 2026-2-26
+49. fédération sportive et culturelle de france fuite du 2026-2-26
    - Titre: fédération sportive et culturelle de france fuite du 2026-2-26
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-26
@@ -431,7 +449,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/fscf.png
    - Vérifié: Non
 
-48. CAF (RSA)
+50. CAF (RSA)
    - Titre: CAF (RSA)
    - Domaine: caf.fr
    - Date de fuite: 2026-02-25
@@ -440,7 +458,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://christopheboutry.com/wp-content/uploads/2026/02/Dinum-RSA-fuites-de-donnees-leak.jpg
    - Vérifié: Oui
 
-49. MyConnect
+51. MyConnect
    - Titre: MyConnect
    - Domaine: myconnectt.fr
    - Date de fuite: 2026-02-25
@@ -449,7 +467,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://christopheboutry.com/wp-content/uploads/2026/02/MyConnect-interim-fuite-de-donnees-leak.png
    - Vérifié: Oui
 
-50. fédération française d'aïkido
+52. fédération française d'aïkido
    - Titre: fédération française d'aïkido fuite du 2026-2-25
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-25
@@ -458,25 +476,25 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/ffaaa.png
    - Vérifié: Non
 
-51. caisse d'allocations familiales fuite du 2026-2-25
+53. caisse d'allocations familiales fuite du 2026-2-25
    - Titre: caisse d'allocations familiales fuite du 2026-2-25
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-25
-   - Date d'ajout: 2026-03-31T14:47:40.794Z
+   - Date d'ajout: 2026-03-31T16:07:10.604Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
 
-52. organisme pour la sécurité de l’aviation civile fuite du 2026-2-24
+54. organisme pour la sécurité de l’aviation civile fuite du 2026-2-24
    - Titre: organisme pour la sécurité de l’aviation civile fuite du 2026-2-24
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-24
-   - Date d'ajout: 2026-03-31T14:47:46.310Z
+   - Date d'ajout: 2026-03-31T16:07:16.270Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
 
-53. olympique de marseille
+55. olympique de marseille
    - Titre: olympique de marseille fuite du 2026-2-23
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-23
@@ -485,7 +503,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.butfootballclub.fr/1649828-om-le-club-victime-dune-cyberattaque-400-000-supporters-impactes/
    - Vérifié: Non
 
-54. uniscité
+56. uniscité
    - Titre: uniscité fuite du 2026-2-23
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-23
@@ -494,7 +512,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://x.com/_SaxX_/status/2026222843604726088
    - Vérifié: Non
 
-55. MaSalleDeSport (Basic-Fit, Fitness Park..)
+57. MaSalleDeSport (Basic-Fit, Fitness Park..)
    - Titre: MaSalleDeSport (Basic-Fit, Fitness Park..)
    - Domaine: masalledesport.com
    - Date de fuite: 2026-02-22
@@ -503,7 +521,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://christopheboutry.com/wp-content/uploads/2026/02/Masalledesport-leak-fuite-de-donnees.jpg
    - Vérifié: Oui
 
-56. fédération française de badminton
+58. fédération française de badminton
    - Titre: fédération française de badminton fuite du 2026-2-22
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-22
@@ -512,7 +530,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/ffbad.png
    - Vérifié: Non
 
-57. on air fitness
+59. on air fitness
    - Titre: on air fitness fuite du 2026-2-22
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-22
@@ -521,7 +539,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://x.com/_SaxX_/status/2025496600500404517
    - Vérifié: Non
 
-58. fédération française d’athlétisme
+60. fédération française d’athlétisme
    - Titre: fédération française d’athlétisme fuite du 2026-2-21
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-21
@@ -530,7 +548,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/la-federation-francaise-d-athletisme-victime-d-une-cyberattaque_7820777.html
    - Vérifié: Non
 
-59. innovorder
+61. innovorder
    - Titre: innovorder fuite du 2026-2-21
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-21
@@ -539,7 +557,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://x.com/justabreach/status/2025191149430808797
    - Vérifié: Non
 
-60. paypal
+62. paypal
    - Titre: paypal fuite du 2026-2-21
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-21
@@ -548,7 +566,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/paypal.png
    - Vérifié: Non
 
-61. OSAC (Aviation civile)
+63. OSAC (Aviation civile)
    - Titre: OSAC (Aviation civile)
    - Domaine: osac.aero
    - Date de fuite: 2026-02-20
@@ -557,7 +575,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://christopheboutry.com/wp-content/uploads/2026/02/OSAC-Aviation-civile-leak-fuites-donnees.webp
    - Vérifié: Oui
 
-62. fédération française de voitures radio
+64. fédération française de voitures radio
    - Titre: fédération française de voitures radio fuite du 2026-2-20
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-20
@@ -566,7 +584,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.ffvrc.fr/medias/fichiers/ACTUALITES/com-20260220-donnees.pdf
    - Vérifié: Non
 
-63. keep cool
+65. keep cool
    - Titre: keep cool fuite du 2026-2-20
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-20
@@ -575,7 +593,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://x.com/seblatombe/status/2024834322692293114
    - Vérifié: Non
 
-64. Valgo
+66. Valgo
    - Titre: Valgo
    - Domaine: valgo.com
    - Date de fuite: 2026-02-19
@@ -584,7 +602,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://christopheboutry.com/wp-content/uploads/2026/02/Valgo-leak-fuites-de-donnees.png
    - Vérifié: Oui
 
-65. cfdt
+67. cfdt
    - Titre: cfdt fuite du 2026-2-19
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-19
@@ -593,7 +611,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.cfdt.fr/sinformer/communiques-de-presse/securite-informatique-la-cfdt-victime-d-une-cyberattaque
    - Vérifié: Non
 
-66. ffck et sports de pagaie
+68. ffck et sports de pagaie
    - Titre: ffck et sports de pagaie fuite du 2026-2-19
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-19
@@ -602,7 +620,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/ffck.png
    - Vérifié: Non
 
-67. idmerit
+69. idmerit
    - Titre: idmerit fuite du 2026-2-19
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-19
@@ -611,7 +629,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.01net.com/actualites/1milliard-donnees-ultra-sensibles-exposees-internet.html
    - Vérifié: Non
 
-68. Cyrillus
+70. Cyrillus
    - Titre: Cyrillus
    - Domaine: cyrillus.fr
    - Date de fuite: 2026-02-18
@@ -620,7 +638,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://christopheboutry.com/wp-content/uploads/2026/02/cyrillus-fuites-de-donnees-leak.webp
    - Vérifié: Oui
 
-69. espace ce
+71. espace ce
    - Titre: espace ce fuite du 2026-2-18
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-18
@@ -629,16 +647,16 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/espacece.png
    - Vérifié: Non
 
-70. direction générale des finances publiques fuite du 2026-2-18
+72. direction générale des finances publiques fuite du 2026-2-18
    - Titre: direction générale des finances publiques fuite du 2026-2-18
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-18
-   - Date d'ajout: 2026-03-31T14:47:42.133Z
+   - Date d'ajout: 2026-03-31T16:07:12.102Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
 
-71. cnrs
+73. cnrs
    - Titre: cnrs fuite du 2026-2-16
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-16
@@ -647,7 +665,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/cnrs.png
    - Vérifié: Non
 
-72. fédération française du sport automobile (ffsa)
+74. fédération française du sport automobile (ffsa)
    - Titre: fédération française du sport automobile (ffsa) fuite du 2026-2-14
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-14
@@ -656,7 +674,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://x.com/_SaxX_/status/2022610505865589164
    - Vérifié: Non
 
-73. Kimsufi (OVHcloud)
+75. Kimsufi (OVHcloud)
    - Titre: Kimsufi (OVHcloud)
    - Domaine: kimsufi.com
    - Date de fuite: 2026-02-13
@@ -665,7 +683,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://christopheboutry.com/wp-content/uploads/2026/02/OVH-Possible-leak.jpg
    - Vérifié: Oui
 
-74. grain de malice
+76. grain de malice
    - Titre: grain de malice fuite du 2026-2-13
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-13
@@ -674,7 +692,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/grain-malice.png
    - Vérifié: Non
 
-75. les restos du cœur
+77. les restos du cœur
    - Titre: les restos du cœur fuite du 2026-2-13
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-13
@@ -683,7 +701,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/resto-coeur.png
    - Vérifié: Non
 
-76. voyage privé
+78. voyage privé
    - Titre: voyage privé fuite du 2026-2-13
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-13
@@ -692,7 +710,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/voyage-prive-1.jpg
    - Vérifié: Non
 
-77. commune de bourg
+79. commune de bourg
    - Titre: commune de bourg fuite du 2026-2-11
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-11
@@ -701,7 +719,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/bourg-achard.png
    - Vérifié: Non
 
-78. Safran Group
+80. Safran Group
    - Titre: Safran Group
    - Domaine: safran-group.com
    - Date de fuite: 2026-02-10
@@ -710,7 +728,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://christopheboutry.com/wp-content/uploads/2026/02/safran-group-fuites-de-donnees-leak.png
    - Vérifié: Oui
 
-79. Prozon
+81. Prozon
    - Titre: Prozon
    - Domaine: prozon.com
    - Date de fuite: 2026-02-09
@@ -719,7 +737,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://christopheboutry.com/wp-content/uploads/2026/02/1770646660159.png
    - Vérifié: Oui
 
-80. aïkan
+82. aïkan
    - Titre: aïkan fuite du 2026-2-9
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-9
@@ -728,7 +746,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/aikan-1.jpg
    - Vérifié: Non
 
-81. la carte avantage jeune
+83. la carte avantage jeune
    - Titre: la carte avantage jeune fuite du 2026-2-9
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-9
@@ -737,7 +755,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/carte-avantage-jeune.png
    - Vérifié: Non
 
-82. pharmashopi
+84. pharmashopi
    - Titre: pharmashopi fuite du 2026-2-9
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-9
@@ -746,7 +764,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/pharmashopi.jpg
    - Vérifié: Non
 
-83. sumsub
+85. sumsub
    - Titre: sumsub fuite du 2026-2-9
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-9
@@ -755,25 +773,16 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://cryptoast.fr/bitget-bybit-moonpay-bitpanda-donnees-personnelles-clients-pourraient-avoir-fuite-a-cause-fournisseur-kyc/
    - Vérifié: Non
 
-84. commission européenne fuite du 2026-2-9
+86. commission européenne fuite du 2026-2-9
    - Titre: commission européenne fuite du 2026-2-9
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-9
-   - Date d'ajout: 2026-03-31T14:47:41.537Z
+   - Date d'ajout: 2026-03-31T16:07:11.522Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
 
-85. darty fuite du 2026-2-9
-   - Titre: darty fuite du 2026-2-9
-   - Domaine: Non spécifié
-   - Date de fuite: 2026-2-9
-   - Date d'ajout: 2026-03-31T14:47:41.948Z
-   - PwnCount: 0
-   - Lien: Non disponible
-   - Vérifié: Non
-
-86. Voyages Robin
+87. Voyages Robin
    - Titre: Voyages Robin
    - Domaine: voyages-robin.com
    - Date de fuite: 2026-02-07
@@ -782,7 +791,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://christopheboutry.com/wp-content/uploads/2026/02/voyages-robin-fuite-de-donnee-leak.jpg
    - Vérifié: Oui
 
-87. office français de la biodiversité
+88. office français de la biodiversité
    - Titre: office français de la biodiversité fuite du 2026-2-7
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-7
@@ -791,7 +800,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://ofb.gouv.fr/actualites/cyberattaque-visant-application-du-permis-de-chasser-ofb-informe-ses-usagers
    - Vérifié: Non
 
-88. cette famille
+89. cette famille
    - Titre: cette famille fuite du 2026-2-6
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-6
@@ -800,7 +809,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/cette-famille.png
    - Vérifié: Non
 
-89. flickr
+90. flickr
    - Titre: flickr fuite du 2026-2-6
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-6
@@ -809,7 +818,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/flickr.png
    - Vérifié: Non
 
-90. fédération française de voile
+91. fédération française de voile
    - Titre: fédération française de voile fuite du 2026-2-6
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-6
@@ -818,7 +827,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.letelegramme.fr/sports/voile/la-federation-francaise-de-voile-victime-dune-fuite-de-donnees-de-ses-licencies-6978517.php
    - Vérifié: Non
 
-91. mairie de paris
+92. mairie de paris
    - Titre: mairie de paris fuite du 2026-2-6
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-6
@@ -827,7 +836,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/mairie-paris.png
    - Vérifié: Non
 
-92. admr
+93. admr
    - Titre: admr fuite du 2026-2-5
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-5
@@ -836,7 +845,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/admr.png
    - Vérifié: Non
 
-93. centre national de gestion
+94. centre national de gestion
    - Titre: centre national de gestion fuite du 2026-2-5
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-5
@@ -845,7 +854,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/cng.png
    - Vérifié: Non
 
-94. fédération française de randonnée pédestre
+95. fédération française de randonnée pédestre
    - Titre: fédération française de randonnée pédestre fuite du 2026-2-5
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-5
@@ -854,7 +863,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/ffrando.png
    - Vérifié: Non
 
-95. protexia france fuite du 2026-2-5
+96. protexia france fuite du 2026-2-5
    - Titre: protexia france fuite du 2026-2-5
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-5
@@ -863,7 +872,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/protexia.png
    - Vérifié: Non
 
-96. substack
+97. substack
    - Titre: substack fuite du 2026-2-5
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-5
@@ -872,34 +881,34 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://lorichristian.substack.com/p/notice-of-data-breach
    - Vérifié: Non
 
-97. agence régionale de santé fuite du 2026-2-5
+98. agence régionale de santé fuite du 2026-2-5
    - Titre: agence régionale de santé fuite du 2026-2-5
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-5
-   - Date d'ajout: 2026-03-31T14:47:40.052Z
+   - Date d'ajout: 2026-03-31T16:07:09.824Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
 
-98. centre communal d’action sociale de dunkerque fuite du 2026-2-5
+99. centre communal d’action sociale de dunkerque fuite du 2026-2-5
    - Titre: centre communal d’action sociale de dunkerque fuite du 2026-2-5
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-5
-   - Date d'ajout: 2026-03-31T14:47:40.988Z
+   - Date d'ajout: 2026-03-31T16:07:10.977Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
 
-99. choisir le service public fuite du 2026-2-5
+100. choisir le service public fuite du 2026-2-5
    - Titre: choisir le service public fuite du 2026-2-5
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-5
-   - Date d'ajout: 2026-03-31T14:47:41.270Z
+   - Date d'ajout: 2026-03-31T16:07:11.260Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
 
-100. loxam
+101. loxam
    - Titre: loxam fuite du 2026-2-4
    - Domaine: Non spécifié
    - Date de fuite: 2026-2-4
@@ -908,7 +917,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/loxam.png
    - Vérifié: Non
 
-101. armée de terre
+102. armée de terre
    - Titre: armée de terre fuite du 2026-1-31
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-31
@@ -917,7 +926,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/armee-de-terre.png
    - Vérifié: Non
 
-102. code rousseau
+103. code rousseau
    - Titre: code rousseau fuite du 2026-1-30
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-30
@@ -926,7 +935,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/code-rousseau.jpg
    - Vérifié: Non
 
-103. mano mano
+104. mano mano
    - Titre: mano mano fuite du 2026-1-30
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-30
@@ -935,7 +944,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/manomano.png
    - Vérifié: Non
 
-104. opquast
+105. opquast
    - Titre: opquast fuite du 2026-1-30
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-30
@@ -944,7 +953,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/opquast.png
    - Vérifié: Non
 
-105. match group (hinge
+106. match group (hinge
    - Titre: match group (hinge fuite du 2026-1-29
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-29
@@ -953,7 +962,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/match-group.png
    - Vérifié: Non
 
-106. verychic
+107. verychic
    - Titre: verychic fuite du 2026-1-29
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-29
@@ -962,16 +971,16 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/very-chic.png
    - Vérifié: Non
 
-107. réseau.site fuite du 2026-1-29
+108. réseau.site fuite du 2026-1-29
    - Titre: réseau.site fuite du 2026-1-29
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-29
-   - Date d'ajout: 2026-03-31T14:47:47.120Z
+   - Date d'ajout: 2026-03-31T16:07:17.113Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
 
-108. centre d’imagerie médicale de puteaux
+109. centre d’imagerie médicale de puteaux
    - Titre: centre d’imagerie médicale de puteaux fuite du 2026-1-28
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-28
@@ -980,7 +989,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/cim-puteaux.png
    - Vérifié: Non
 
-109. le cnam
+110. le cnam
    - Titre: le cnam fuite du 2026-1-28
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-28
@@ -989,7 +998,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/cnam.png
    - Vérifié: Non
 
-110. lovys
+111. lovys
    - Titre: lovys fuite du 2026-1-28
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-28
@@ -998,7 +1007,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/lovys.png
    - Vérifié: Non
 
-111. lyleoo
+112. lyleoo
    - Titre: lyleoo fuite du 2026-1-28
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-28
@@ -1007,7 +1016,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.acuite.fr/actualite/profession/328405/lyleoo-victime-dune-cyberattaque-une-fuite-de-donnees-personnelles
    - Vérifié: Non
 
-112. o’tacos
+113. o’tacos
    - Titre: o’tacos fuite du 2026-1-28
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-28
@@ -1016,7 +1025,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/o-tacos.png
    - Vérifié: Non
 
-113. ugsel
+114. ugsel
    - Titre: ugsel fuite du 2026-1-28
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-28
@@ -1025,7 +1034,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/ugsel.png
    - Vérifié: Non
 
-114. wemind
+115. wemind
    - Titre: wemind fuite du 2026-1-28
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-28
@@ -1034,16 +1043,16 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/wemind.png
    - Vérifié: Non
 
-115. 11 agences immobilières fuite du 2026-1-28
+116. 11 agences immobilières fuite du 2026-1-28
    - Titre: 11 agences immobilières fuite du 2026-1-28
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-28
-   - Date d'ajout: 2026-03-31T14:47:39.817Z
+   - Date d'ajout: 2026-03-31T16:07:09.586Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
 
-116. AutoForever
+117. AutoForever
    - Titre: AutoForever
    - Domaine: auto-forever.com
    - Date de fuite: 2026-01-26
@@ -1052,7 +1061,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://christopheboutry.com/wp-content/uploads/2026/02/Autofever-fuites-leak-donnees.webp
    - Vérifié: Oui
 
-117. fédération française des sports pour tous
+118. fédération française des sports pour tous
    - Titre: fédération française des sports pour tous fuite du 2026-1-25
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-25
@@ -1061,16 +1070,16 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/sportspourtous.png
    - Vérifié: Non
 
-118. sciences po fuite du 2026-1-25
+119. sciences po fuite du 2026-1-25
    - Titre: sciences po fuite du 2026-1-25
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-25
-   - Date d'ajout: 2026-03-31T14:47:47.198Z
+   - Date d'ajout: 2026-03-31T16:07:17.200Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
 
-119. fédération française d’études et de sports sous
+120. fédération française d’études et de sports sous
    - Titre: fédération française d’études et de sports sous fuite du 2026-1-24
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-24
@@ -1079,7 +1088,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/ffessm-1.png
    - Vérifié: Non
 
-120. guiot de bourg
+121. guiot de bourg
    - Titre: guiot de bourg fuite du 2026-1-24
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-24
@@ -1088,7 +1097,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/guiotdebourg.png
    - Vérifié: Non
 
-121. movida
+122. movida
    - Titre: movida fuite du 2026-1-24
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-24
@@ -1097,7 +1106,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/movida.png
    - Vérifié: Non
 
-122. panorama banques
+123. panorama banques
    - Titre: panorama banques fuite du 2026-1-24
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-24
@@ -1106,7 +1115,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/panoramabanques.png
    - Vérifié: Non
 
-123. scoring fit
+124. scoring fit
    - Titre: scoring fit fuite du 2026-1-24
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-24
@@ -1115,7 +1124,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/scoringfit.png
    - Vérifié: Non
 
-124. baby vista
+125. baby vista
    - Titre: baby vista fuite du 2026-1-23
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-23
@@ -1124,7 +1133,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/babyvista.png
    - Vérifié: Non
 
-125. fédération française de chasse
+126. fédération française de chasse
    - Titre: fédération française de chasse fuite du 2026-1-23
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-23
@@ -1133,7 +1142,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.chasseurdefrance.com/actualites/la-fnc-victime-dun-incident-de-securite-informatique/
    - Vérifié: Non
 
-126. fédération française de golf
+127. fédération française de golf
    - Titre: fédération française de golf fuite du 2026-1-23
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-23
@@ -1142,7 +1151,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/ffgolf.png
    - Vérifié: Non
 
-127. fédération française de volley
+128. fédération française de volley
    - Titre: fédération française de volley fuite du 2026-1-23
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-23
@@ -1151,7 +1160,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/ffvolley.png
    - Vérifié: Non
 
-128. fédération française des sapeurs
+129. fédération française des sapeurs
    - Titre: fédération française des sapeurs fuite du 2026-1-23
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-23
@@ -1160,7 +1169,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/ffpompiers.png
    - Vérifié: Non
 
-129. fédération française d’escrime
+130. fédération française d’escrime
    - Titre: fédération française d’escrime fuite du 2026-1-23
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-23
@@ -1169,7 +1178,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/ffe.png
    - Vérifié: Non
 
-130. grand froid
+131. grand froid
    - Titre: grand froid fuite du 2026-1-23
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-23
@@ -1178,7 +1187,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/grand-froid.png
    - Vérifié: Non
 
-131. orpi
+132. orpi
    - Titre: orpi fuite du 2026-1-23
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-23
@@ -1187,7 +1196,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/orpi-1.png
    - Vérifié: Non
 
-132. too easy
+133. too easy
    - Titre: too easy fuite du 2026-1-23
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-23
@@ -1196,7 +1205,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/tooeasy.png
    - Vérifié: Non
 
-133. valorissimo
+134. valorissimo
    - Titre: valorissimo fuite du 2026-1-23
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-23
@@ -1205,7 +1214,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/valo.png
    - Vérifié: Non
 
-134. waltio
+135. waltio
    - Titre: waltio fuite du 2026-1-23
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-23
@@ -1214,7 +1223,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.waltio.com/fr/blog/actualite/security-notice-23-01/
    - Vérifié: Non
 
-135. École nationale supérieure d'arts et métiers (ENSAM)
+136. École nationale supérieure d'arts et métiers (ENSAM)
    - Titre: École nationale supérieure d'arts et métiers (ENSAM)
    - Domaine: artsetmetiers.fr
    - Date de fuite: 2026-01-21
@@ -1223,16 +1232,16 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://christopheboutry.com/wp-content/uploads/2026/01/ensam-fuites-de-donnees.png
    - Vérifié: Oui
 
-136. ensam fuite du 2026-1-21
+137. ensam fuite du 2026-1-21
    - Titre: ensam fuite du 2026-1-21
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-21
-   - Date d'ajout: 2026-03-31T14:47:42.410Z
+   - Date d'ajout: 2026-03-31T16:07:12.367Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
 
-137. conseiljuridique.net
+138. conseiljuridique.net
    - Titre: conseiljuridique.net fuite du 2026-1-20
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-20
@@ -1241,7 +1250,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/conseiljuridique.png
    - Vérifié: Non
 
-138. delko
+139. delko
    - Titre: delko fuite du 2026-1-20
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-20
@@ -1250,7 +1259,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/delko.jpg
    - Vérifié: Non
 
-139. france éducation international fuite du 2026-1-20
+140. france éducation international fuite du 2026-1-20
    - Titre: france éducation international fuite du 2026-1-20
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-20
@@ -1259,7 +1268,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.france-education-international.fr/actualites/incident-sur-la-plateforme-gael-diplomes-delf-dalf
    - Vérifié: Non
 
-140. dce conseil
+141. dce conseil
    - Titre: dce conseil fuite du 2026-1-19
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-19
@@ -1268,7 +1277,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.01net.com/actualites/fuite-donnees-devoile-plans-plusieurs-prisons-base-militaire-francaise.html
    - Vérifié: Non
 
-141. info jeunes bourgogne franche
+142. info jeunes bourgogne franche
    - Titre: info jeunes bourgogne franche fuite du 2026-1-19
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-19
@@ -1277,7 +1286,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/info-jeunes-bourgogne-franche-comte.png
    - Vérifié: Non
 
-142. ioburo
+143. ioburo
    - Titre: ioburo fuite du 2026-1-19
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-19
@@ -1286,7 +1295,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/ioburo.png
    - Vérifié: Non
 
-143. store pas cher
+144. store pas cher
    - Titre: store pas cher fuite du 2026-1-16
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-16
@@ -1295,7 +1304,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/storepascher.png
    - Vérifié: Non
 
-144. agro paris tech
+145. agro paris tech
    - Titre: agro paris tech fuite du 2026-1-15
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-15
@@ -1304,7 +1313,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/agroparistech.png
    - Vérifié: Non
 
-145. fédération française de montagne escalade
+146. fédération française de montagne escalade
    - Titre: fédération française de montagne escalade fuite du 2026-1-15
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-15
@@ -1313,7 +1322,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.ffme.fr/la-ffme-victime-dun-acte-de-cyber-malveillance/
    - Vérifié: Non
 
-146. fédération française de twirling bâton
+147. fédération française de twirling bâton
    - Titre: fédération française de twirling bâton fuite du 2026-1-15
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-15
@@ -1322,7 +1331,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/fftb.jpg
    - Vérifié: Non
 
-147. lire demain
+148. lire demain
    - Titre: lire demain fuite du 2026-1-15
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-15
@@ -1331,7 +1340,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/liredemain.png
    - Vérifié: Non
 
-148. service public
+149. service public
    - Titre: service public fuite du 2026-1-15
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-15
@@ -1340,7 +1349,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.journaldugeek.com/2026/01/19/cyberattaque-sur-hubee-letat-reconnait-une-fuite-de-donnees-sensibles/
    - Vérifié: Non
 
-149. eurail
+150. eurail
    - Titre: eurail fuite du 2026-1-13
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-13
@@ -1349,7 +1358,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/eurail.png
    - Vérifié: Non
 
-150. zurflüh
+151. zurflüh
    - Titre: zurflüh fuite du 2026-1-13
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-13
@@ -1358,7 +1367,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/zurfluh-feller.png
    - Vérifié: Non
 
-151. fédération française de tennis
+152. fédération française de tennis
    - Titre: fédération française de tennis fuite du 2026-1-12
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-12
@@ -1367,7 +1376,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/fft.png
    - Vérifié: Non
 
-152. monlogicielmedical.com
+153. monlogicielmedical.com
    - Titre: monlogicielmedical.com fuite du 2026-1-12
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-12
@@ -1376,7 +1385,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/monlogicielmedical.png
    - Vérifié: Non
 
-153. nephael.com & chloesanchez.com
+154. nephael.com & chloesanchez.com
    - Titre: nephael.com & chloesanchez.com fuite du 2026-1-12
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-12
@@ -1385,7 +1394,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/nephael.png
    - Vérifié: Non
 
-154. relais colis
+155. relais colis
    - Titre: relais colis fuite du 2026-1-12
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-12
@@ -1394,16 +1403,16 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/relaiscolis.png
    - Vérifié: Non
 
-155. blackstore fuite du 2026-1-12
+156. blackstore fuite du 2026-1-12
    - Titre: blackstore fuite du 2026-1-12
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-12
-   - Date d'ajout: 2026-03-31T14:47:40.722Z
+   - Date d'ajout: 2026-03-31T16:07:10.527Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
 
-156. Apec Région Occitanie (Montpellier / Nîmes / Toulouse)
+157. Apec Région Occitanie (Montpellier / Nîmes / Toulouse)
    - Titre: Apec Région Occitanie (Montpellier / Nîmes / Toulouse)
    - Domaine: apec.fr
    - Date de fuite: 2026-01-09
@@ -1412,7 +1421,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://christopheboutry.com/wp-content/uploads/2026/01/APEC-Occitanie-Fuites-de-donnees-.png
    - Vérifié: Oui
 
-157. casino de paris
+158. casino de paris
    - Titre: casino de paris fuite du 2026-1-8
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-8
@@ -1421,7 +1430,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/casino-paris.jpg
    - Vérifié: Non
 
-158. easycash
+159. easycash
    - Titre: easycash fuite du 2026-1-7
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-7
@@ -1430,7 +1439,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/easycash-1.jpg
    - Vérifié: Non
 
-159. fédération française de squash
+160. fédération française de squash
    - Titre: fédération française de squash fuite du 2026-1-7
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-7
@@ -1439,7 +1448,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/ffsquash.png
    - Vérifié: Non
 
-160. fédération sportive et gymnique du travail
+161. fédération sportive et gymnique du travail
    - Titre: fédération sportive et gymnique du travail fuite du 2026-1-7
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-7
@@ -1448,7 +1457,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/fsgt.png
    - Vérifié: Non
 
-161. ledger
+162. ledger
    - Titre: ledger fuite du 2026-1-7
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-7
@@ -1457,25 +1466,25 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.leparisien.fr/faits-divers/cryptomonnaies-des-clients-de-lentreprise-legder-victimes-dune-fuite-de-leurs-donnees-personnelles-07-01-2026-WSK45MAFQZENPOLJU3PXYYNKX4.php
    - Vérifié: Non
 
-162. fédération française d’ulm fuite du 2026-1-7
+163. fédération française d’ulm fuite du 2026-1-7
    - Titre: fédération française d’ulm fuite du 2026-1-7
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-7
-   - Date d'ajout: 2026-03-31T14:47:43.721Z
+   - Date d'ajout: 2026-03-31T16:07:13.639Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
 
-163. philharmonie de paris fuite du 2026-1-7
+164. philharmonie de paris fuite du 2026-1-7
    - Titre: philharmonie de paris fuite du 2026-1-7
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-7
-   - Date d'ajout: 2026-03-31T14:47:46.725Z
+   - Date d'ajout: 2026-03-31T16:07:16.707Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
 
-164. L’Orange Bleue Fitness Club
+165. L’Orange Bleue Fitness Club
    - Titre: L’Orange Bleue Fitness Club
    - Domaine: lorangebleue.fr
    - Date de fuite: 2026-01-06
@@ -1484,7 +1493,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://x.com/seblatombe/status/2008369939023864165?s=20
    - Vérifié: Oui
 
-165. office français de l’immigration et de l’intégration
+166. office français de l’immigration et de l’intégration
    - Titre: office français de l’immigration et de l’intégration fuite du 2026-1-5
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-5
@@ -1493,7 +1502,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.lemonde.fr/pixels/article/2026/01/05/l-office-francais-de-l-immigration-et-de-l-integration-victime-d-une-fuite-de-donnees_6660632_4408996.html
    - Vérifié: Non
 
-166. AXYON  (EDF, Eiffage, Bouygues, Engie, Renault, etc.)
+167. AXYON  (EDF, Eiffage, Bouygues, Engie, Renault, etc.)
    - Titre: AXYON  (EDF, Eiffage, Bouygues, Engie, Renault, etc.)
    - Domaine: axyon.fr
    - Date de fuite: 2026-01-04
@@ -1502,7 +1511,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://christopheboutry.com/wp-content/uploads/2026/01/Axyon-fuites-effeigae-buygues-edf.jpg
    - Vérifié: Oui
 
-167. Dream Up (LAPSUS$) 40go multi sites
+168. Dream Up (LAPSUS$) 40go multi sites
    - Titre: Dream Up (LAPSUS$) 40go multi sites
    - Domaine: dream-me-up.fr
    - Date de fuite: 2026-01-04
@@ -1511,22 +1520,13 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://greenhoster.fr/fr/news/piratage-lapsus-54-sites-francais-et-40-go-de-donnees-voles
    - Vérifié: Oui
 
-168. trescal
+169. trescal
    - Titre: trescal fuite du 2026-1-2
    - Domaine: Non spécifié
    - Date de fuite: 2026-1-2
    - Date d'ajout: 2026-03-11T14:30:10.883Z
    - PwnCount: 0
    - Lien: https://bonjourlafuite.eu.org/img/trescal.png
-   - Vérifié: Non
-
-169. afppcd fuite du 2026-1-2
-   - Titre: afppcd fuite du 2026-1-2
-   - Domaine: Non spécifié
-   - Date de fuite: 2026-1-2
-   - Date d'ajout: 2026-03-31T14:47:39.978Z
-   - PwnCount: 0
-   - Lien: Non disponible
    - Vérifié: Non
 
 170. fédération française de spéléologie
@@ -1722,7 +1722,7 @@ LISTE DES FUITES CONCERNÉES:
    - Titre: chronopost fuite du 2025-12-20
    - Domaine: Non spécifié
    - Date de fuite: 2025-12-20T00:00:00.000Z
-   - Date d'ajout: 2026-03-31T14:47:41.295Z
+   - Date d'ajout: 2026-03-31T16:07:11.286Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
@@ -1740,7 +1740,7 @@ LISTE DES FUITES CONCERNÉES:
    - Titre: red by sfr fuite du 2025-12-19
    - Domaine: Non spécifié
    - Date de fuite: 2025-12-19T00:00:00.000Z
-   - Date d'ajout: 2026-03-31T14:47:46.960Z
+   - Date d'ajout: 2026-03-31T16:07:16.951Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
@@ -1758,7 +1758,7 @@ LISTE DES FUITES CONCERNÉES:
    - Titre: sfr fuite du 2025-12-17
    - Domaine: Non spécifié
    - Date de fuite: 2025-12-17T00:00:00.000Z
-   - Date d'ajout: 2026-03-31T14:47:47.305Z
+   - Date d'ajout: 2026-03-31T16:07:17.315Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
@@ -1848,7 +1848,7 @@ LISTE DES FUITES CONCERNÉES:
    - Titre: médecin direct fuite du 2025-12-3
    - Domaine: Non spécifié
    - Date de fuite: 2025-12-3
-   - Date d'ajout: 2026-03-31T14:47:45.915Z
+   - Date d'ajout: 2026-03-31T16:07:15.863Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
@@ -1884,7 +1884,7 @@ LISTE DES FUITES CONCERNÉES:
    - Titre: fédération française de foot fuite du 2025-11-27
    - Domaine: Non spécifié
    - Date de fuite: 2025-11-27T00:00:00.000Z
-   - Date d'ajout: 2026-03-31T14:47:42.996Z
+   - Date d'ajout: 2026-03-31T16:07:12.926Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
@@ -1893,7 +1893,7 @@ LISTE DES FUITES CONCERNÉES:
    - Titre: msp givors presqu’île fuite du 2025-11-27
    - Domaine: Non spécifié
    - Date de fuite: 2025-11-27T00:00:00.000Z
-   - Date d'ajout: 2026-03-31T14:47:45.783Z
+   - Date d'ajout: 2026-03-31T16:07:15.725Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
@@ -1929,7 +1929,7 @@ LISTE DES FUITES CONCERNÉES:
    - Titre: clinique du millénaire fuite du 2025-11-25
    - Domaine: Non spécifié
    - Date de fuite: 2025-11-25T00:00:00.000Z
-   - Date d'ajout: 2026-03-31T14:47:41.349Z
+   - Date d'ajout: 2026-03-31T16:07:11.338Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
@@ -1938,7 +1938,7 @@ LISTE DES FUITES CONCERNÉES:
    - Titre: msp du pré vicinal fuite du 2025-11-25
    - Domaine: Non spécifié
    - Date de fuite: 2025-11-25T00:00:00.000Z
-   - Date d'ajout: 2026-03-31T14:47:45.758Z
+   - Date d'ajout: 2026-03-31T16:07:15.698Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
@@ -1979,16 +1979,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/malakoff.png
    - Vérifié: Non
 
-220. mairie de saint fuite du 2025-11-24
-   - Titre: mairie de saint fuite du 2025-11-24
-   - Domaine: Non spécifié
-   - Date de fuite: 2025-11-24T00:00:00.000Z
-   - Date d'ajout: 2026-03-31T14:47:45.289Z
-   - PwnCount: 0
-   - Lien: Non disponible
-   - Vérifié: Non
-
-221. colis privé
+220. colis privé
    - Titre: colis privé fuite du 2025-11-21
    - Domaine: Non spécifié
    - Date de fuite: 2025-11-21T00:00:00.000Z
@@ -1997,7 +1988,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/colisprive.jpeg
    - Vérifié: Non
 
-222. michelin
+221. michelin
    - Titre: michelin fuite du 2025-11-21
    - Domaine: Non spécifié
    - Date de fuite: 2025-11-21T00:00:00.000Z
@@ -2006,7 +1997,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://botcrawl.com/michelin-data-breach/
    - Vérifié: Non
 
-223. murfy
+222. murfy
    - Titre: murfy fuite du 2025-11-21
    - Domaine: Non spécifié
    - Date de fuite: 2025-11-21T00:00:00.000Z
@@ -2015,7 +2006,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/murfy.jpg
    - Vérifié: Non
 
-224. suzuki
+223. suzuki
    - Titre: suzuki fuite du 2025-11-20
    - Domaine: Non spécifié
    - Date de fuite: 2025-11-20T00:00:00.000Z
@@ -2024,7 +2015,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.suzuki.fr/securite-donnees-personnelles
    - Vérifié: Non
 
-225. mairie d’alfortville
+224. mairie d’alfortville
    - Titre: mairie d’alfortville fuite du 2025-11-19
    - Domaine: Non spécifié
    - Date de fuite: 2025-11-19T00:00:00.000Z
@@ -2033,7 +2024,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/alfortville-1.jpg
    - Vérifié: Non
 
-226. Resana (DINUM)
+225. Resana (DINUM)
    - Titre: Resana (DINUM)
    - Domaine: resana.numerique.gouv.fr
    - Date de fuite: 2025-11-18
@@ -2042,16 +2033,16 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.numerama.com/cyberguerre/2120401-chantage-en-cours-sur-des-agents-et-fonctionnaires-de-letat-francais-des-hackers-ont-exfiltre-des-donnees-dune-plateforme-interministerielle.html
    - Vérifié: Oui
 
-227. resana fuite du 2025-11-18
+226. resana fuite du 2025-11-18
    - Titre: resana fuite du 2025-11-18
    - Domaine: Non spécifié
    - Date de fuite: 2025-11-18T00:00:00.000Z
-   - Date d'ajout: 2026-03-31T14:47:47.040Z
+   - Date d'ajout: 2026-03-31T16:07:17.031Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
 
-228. mairie de brest
+227. mairie de brest
    - Titre: mairie de brest fuite du 2025-11-17
    - Domaine: Non spécifié
    - Date de fuite: 2025-11-17T00:00:00.000Z
@@ -2060,7 +2051,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://xcancel.com/_SaxX_/status/1990359988280152238
    - Vérifié: Non
 
-229. fédération française de cardiologie
+228. fédération française de cardiologie
    - Titre: fédération française de cardiologie fuite du 2025-11-11
    - Domaine: Non spécifié
    - Date de fuite: 2025-11-11T00:00:00.000Z
@@ -2069,7 +2060,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://next.ink/211477/fuite-de-donnees-a-la-federation-francaise-de-cardiologie-y-compris-des-mots-de-passe/
    - Vérifié: Non
 
-230. oui heberg
+229. oui heberg
    - Titre: oui heberg fuite du 2025-11-10
    - Domaine: Non spécifié
    - Date de fuite: 2025-11-10T00:00:00.000Z
@@ -2078,7 +2069,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/ouiheberg.png
    - Vérifié: Non
 
-231. mym
+230. mym
    - Titre: mym fuite du 2025-11-7
    - Domaine: Non spécifié
    - Date de fuite: 2025-11-7
@@ -2087,7 +2078,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://xcancel.com/_SaxX_/status/1986701724623548561
    - Vérifié: Non
 
-232. france travail fuite du 2025-10-29
+231. france travail fuite du 2025-10-29
    - Titre: france travail fuite du 2025-10-29
    - Domaine: francetravail.fr
    - Date de fuite: 2025-10-29T00:00:00.000Z
@@ -2096,7 +2087,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.francebleu.fr/infos/faits-divers-justice/le-site-de-france-travail-victime-d-une-cyberattaque-lundi-des-donnees-ont-ete-extraites-9504464
    - Vérifié: Non
 
-233. poltronesofa
+232. poltronesofa
    - Titre: poltronesofa fuite du 2025-10-27
    - Domaine: Non spécifié
    - Date de fuite: 2025-10-27T00:00:00.000Z
@@ -2105,7 +2096,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/poltronesofa.jpg
    - Vérifié: Non
 
-234. fédération française de tir
+233. fédération française de tir
    - Titre: fédération française de tir fuite du 2025-10-23
    - Domaine: Non spécifié
    - Date de fuite: 2025-10-23T00:00:00.000Z
@@ -2114,7 +2105,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.fftir.org/communication-relative-a-un-incident-de-securite/
    - Vérifié: Non
 
-235. agences régionales de santé de l’île
+234. agences régionales de santé de l’île
    - Titre: agences régionales de santé de l’île fuite du 2025-10-22
    - Domaine: Non spécifié
    - Date de fuite: 2025-10-22T00:00:00.000Z
@@ -2123,7 +2114,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://xcancel.com/_SaxX_/status/1980875468774474221
    - Vérifié: Non
 
-236. centre hospitalier intercommunal de haute
+235. centre hospitalier intercommunal de haute
    - Titre: centre hospitalier intercommunal de haute fuite du 2025-10-19
    - Domaine: Non spécifié
    - Date de fuite: 2025-10-19T00:00:00.000Z
@@ -2132,7 +2123,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.pleinair.net/actualites/item/17199-pontarlier-cyberattaque-le-centre-hospitalier-intercommunal-de-haute-comte-contraint-de-couper-son-systeme-informatique
    - Vérifié: Non
 
-237. mango
+236. mango
    - Titre: mango fuite du 2025-10-15
    - Domaine: Non spécifié
    - Date de fuite: 2025-10-15T00:00:00.000Z
@@ -2141,7 +2132,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/mango.jpg
    - Vérifié: Non
 
-238. agence régionale de santé des hauts
+237. agence régionale de santé des hauts
    - Titre: agence régionale de santé des hauts fuite du 2025-10-14
    - Domaine: Non spécifié
    - Date de fuite: 2025-10-14T00:00:00.000Z
@@ -2150,16 +2141,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://info.inea.fr/
    - Vérifié: Non
 
-239. lycées des hauts fuite du 2025-10-12
-   - Titre: lycées des hauts fuite du 2025-10-12
-   - Domaine: Non spécifié
-   - Date de fuite: 2025-10-12T00:00:00.000Z
-   - Date d'ajout: 2026-03-31T14:47:45.108Z
-   - PwnCount: 0
-   - Lien: Non disponible
-   - Vérifié: Non
-
-240. france travail fuite du 2025-10-6
+238. france travail fuite du 2025-10-6
    - Titre: france travail fuite du 2025-10-6
    - Domaine: francetravail.fr
    - Date de fuite: 2025-10-6
@@ -2168,7 +2150,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/pole-emploi.png
    - Vérifié: Non
 
-241. discord
+239. discord
    - Titre: discord fuite du 2025-10-4
    - Domaine: Non spécifié
    - Date de fuite: 2025-10-4
@@ -2177,7 +2159,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://next.ink/203013/discord-reconnait-une-fuite-de-donnees-personnelles-et-de-documents-internes/
    - Vérifié: Non
 
-242. la nef
+240. la nef
    - Titre: la nef fuite du 2025-9-25
    - Domaine: Non spécifié
    - Date de fuite: 2025-9-25
@@ -2186,7 +2168,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://next.ink/201451/la-banque-cooperative-la-nef-alerte-ses-clients-au-sujet-dune-fuite-dadresses-email/
    - Vérifié: Non
 
-243. france travail fuite du 2025-9-25
+241. france travail fuite du 2025-9-25
    - Titre: france travail fuite du 2025-9-25
    - Domaine: francetravail.fr
    - Date de fuite: 2025-9-25
@@ -2195,7 +2177,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/france-travail-2.jpg
    - Vérifié: Non
 
-244. inovie labosud
+242. inovie labosud
    - Titre: inovie labosud fuite du 2025-9-23
    - Domaine: Non spécifié
    - Date de fuite: 2025-9-23
@@ -2204,7 +2186,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/inovie.jpg
    - Vérifié: Non
 
-245. digital charging solutions
+243. digital charging solutions
    - Titre: digital charging solutions fuite du 2025-9-20
    - Domaine: Non spécifié
    - Date de fuite: 2025-9-20
@@ -2213,7 +2195,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/dcs.jpg
    - Vérifié: Non
 
-246. fédération française de tennis de table
+244. fédération française de tennis de table
    - Titre: fédération française de tennis de table fuite du 2025-9-19
    - Domaine: Non spécifié
    - Date de fuite: 2025-9-19
@@ -2222,7 +2204,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.fftt.com/site/actualites/2025-09-19/communique-cyberattaque-et-vol-de-donnees
    - Vérifié: Non
 
-247. clarins
+245. clarins
    - Titre: clarins fuite du 2025-9-18
    - Domaine: Non spécifié
    - Date de fuite: 2025-9-18
@@ -2231,7 +2213,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.usine-digitale.fr/article/clarins-victime-d-une-cyberattaque-les-donnees-personnelles-des-clients-exposees.N2237935
    - Vérifié: Non
 
-248. plex
+246. plex
    - Titre: plex fuite du 2025-9-9
    - Domaine: Non spécifié
    - Date de fuite: 2025-9-9
@@ -2240,7 +2222,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/plex.png
    - Vérifié: Non
 
-249. eklo
+247. eklo
    - Titre: eklo fuite du 2025-9-3
    - Domaine: Non spécifié
    - Date de fuite: 2025-9-3
@@ -2249,16 +2231,16 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/eklo.jpg
    - Vérifié: Non
 
-250. syma mobile fuite du 2025-9-3
+248. syma mobile fuite du 2025-9-3
    - Titre: syma mobile fuite du 2025-9-3
    - Domaine: Non spécifié
    - Date de fuite: 2025-9-3
-   - Date d'ajout: 2026-03-31T14:47:47.520Z
+   - Date d'ajout: 2026-03-31T16:07:17.547Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
 
-251. auchan
+249. auchan
    - Titre: auchan fuite du 2025-8-21
    - Domaine: Non spécifié
    - Date de fuite: 2025-8-21
@@ -2267,7 +2249,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/auchan.jpg
    - Vérifié: Non
 
-252. france link interactive fuite du 2025-8-13
+250. france link interactive fuite du 2025-8-13
    - Titre: france link interactive fuite du 2025-8-13
    - Domaine: Non spécifié
    - Date de fuite: 2025-8-13
@@ -2276,7 +2258,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://status.francelink.net/rapport-dincident-cyberattaque-du-28-07-2025/
    - Vérifié: Non
 
-253. google
+251. google
    - Titre: google fuite du 2025-8-13
    - Domaine: Non spécifié
    - Date de fuite: 2025-8-13
@@ -2285,7 +2267,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.01net.com/actualites/fuite-donnees-chez-google-255-millions-dinformations-piratees.html
    - Vérifié: Non
 
-254. partner immo
+252. partner immo
    - Titre: partner immo fuite du 2025-8-13
    - Domaine: Non spécifié
    - Date de fuite: 2025-8-13
@@ -2294,7 +2276,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/partnerimmo.jpg
    - Vérifié: Non
 
-255. alltricks
+253. alltricks
    - Titre: alltricks fuite du 2025-8-12
    - Domaine: Non spécifié
    - Date de fuite: 2025-8-12
@@ -2303,7 +2285,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/alltricks.png
    - Vérifié: Non
 
-256. france travail fuite du 2025-8-12
+254. france travail fuite du 2025-8-12
    - Titre: france travail fuite du 2025-8-12
    - Domaine: francetravail.fr
    - Date de fuite: 2025-8-12
@@ -2312,7 +2294,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/france-travail.png
    - Vérifié: Non
 
-257. optic 2000
+255. optic 2000
    - Titre: optic 2000 fuite du 2025-8-8
    - Domaine: Non spécifié
    - Date de fuite: 2025-8-8
@@ -2321,7 +2303,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/optic2000.png
    - Vérifié: Non
 
-258. air france fuite du 2025-8-6
+256. air france fuite du 2025-8-6
    - Titre: air france fuite du 2025-8-6
    - Domaine: Non spécifié
    - Date de fuite: 2025-8-6
@@ -2330,16 +2312,16 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/air-france.jpg
    - Vérifié: Non
 
-259. bouygues telecom fuite du 2025-8-6
+257. bouygues telecom fuite du 2025-8-6
    - Titre: bouygues telecom fuite du 2025-8-6
    - Domaine: Non spécifié
    - Date de fuite: 2025-8-6
-   - Date d'ajout: 2026-03-31T14:47:40.770Z
+   - Date d'ajout: 2026-03-31T16:07:10.579Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
 
-260. pandora
+258. pandora
    - Titre: pandora fuite du 2025-8-5
    - Domaine: Non spécifié
    - Date de fuite: 2025-8-5
@@ -2348,7 +2330,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/pandora.jpg
    - Vérifié: Non
 
-261. centre d’études et de recherches sur les qualifications
+259. centre d’études et de recherches sur les qualifications
    - Titre: centre d’études et de recherches sur les qualifications fuite du 2025-7-26
    - Domaine: Non spécifié
    - Date de fuite: 2025-7-26
@@ -2357,7 +2339,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/cereq.png
    - Vérifié: Non
 
-262. orange
+260. orange
    - Titre: orange fuite du 2025-7-25
    - Domaine: Non spécifié
    - Date de fuite: 2025-7-25
@@ -2366,7 +2348,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://newsroom.orange.com/le-groupe-orange-annonce-avoir-depose-plainte-lundi-28-juillet-pour-atteinte-a-un-de-ses-systemes-dinformation?lang=fra
    - Vérifié: Non
 
-263. groupe 5àsec
+261. groupe 5àsec
    - Titre: groupe 5àsec fuite du 2025-7-22
    - Domaine: Non spécifié
    - Date de fuite: 2025-7-22
@@ -2375,7 +2357,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://xcancel.com/_SaxX_/status/1947579183875383378
    - Vérifié: Non
 
-264. france travail fuite du 2025-7-22
+262. france travail fuite du 2025-7-22
    - Titre: france travail fuite du 2025-7-22
    - Domaine: francetravail.fr
    - Date de fuite: 2025-7-22
@@ -2384,7 +2366,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/france-travail.jpg
    - Vérifié: Non
 
-265. centre national de la fonction publique territoriale
+263. centre national de la fonction publique territoriale
    - Titre: centre national de la fonction publique territoriale fuite du 2025-7-11
    - Domaine: Non spécifié
    - Date de fuite: 2025-7-11
@@ -2393,7 +2375,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.cnfpt.fr/nous-connaitre/nos-formateurs-formatrices/incident-cybersecurite/national
    - Vérifié: Non
 
-266. louis vuitton
+264. louis vuitton
    - Titre: louis vuitton fuite du 2025-7-11
    - Domaine: Non spécifié
    - Date de fuite: 2025-7-11
@@ -2402,7 +2384,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://next.ink/brief_article/fuite-de-donnees-chez-louis-vuitton-la-france-est-aussi-concernee/
    - Vérifié: Non
 
-267. disneyland
+265. disneyland
    - Titre: disneyland fuite du 2025-6-21
    - Domaine: Non spécifié
    - Date de fuite: 2025-6-21
@@ -2411,7 +2393,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://xcancel.com/_SaxX_/status/1936346269737173317
    - Vérifié: Non
 
-268. cartier
+266. cartier
    - Titre: cartier fuite du 2025-6-3
    - Domaine: Non spécifié
    - Date de fuite: 2025-6-3
@@ -2420,7 +2402,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/cartier.jpg
    - Vérifié: Non
 
-269. kaviari
+267. kaviari
    - Titre: kaviari fuite du 2025-6-3
    - Domaine: Non spécifié
    - Date de fuite: 2025-6-3
@@ -2429,7 +2411,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/kaviari.png
    - Vérifié: Non
 
-270. dior
+268. dior
    - Titre: dior fuite du 2025-5-13
    - Domaine: Non spécifié
    - Date de fuite: 2025-5-13
@@ -2438,7 +2420,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.lemonde.fr/pixels/article/2025/05/13/dior-victime-d-un-vol-de-donnees-personnelles-de-clients_6605835_4408996.html
    - Vérifié: Non
 
-271. pulsy
+269. pulsy
    - Titre: pulsy fuite du 2025-5-13
    - Domaine: Non spécifié
    - Date de fuite: 2025-5-13
@@ -2447,7 +2429,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/pulsy.png
    - Vérifié: Non
 
-272. Ville de Paris
+270. Ville de Paris
    - Titre: Ville de Paris
    - Domaine: scap.paris.fr
    - Date de fuite: 2025-05-01
@@ -2456,7 +2438,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://fuitesinfos.fr/wp-content/uploads/2026/03/cours-adultes-paris-ville-leak-fuites-de-donnees.png
    - Vérifié: Oui
 
-273. carrefour mobile
+271. carrefour mobile
    - Titre: carrefour mobile fuite du 2025-4-24
    - Domaine: Non spécifié
    - Date de fuite: 2025-4-24
@@ -2465,16 +2447,16 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.gondola.be/fr/news/64000-clients-de-carrefour-mobile-victimes-dune-fuite-de-donnees
    - Vérifié: Non
 
-274. easy cash fuite du 2025-4-22
+272. easy cash fuite du 2025-4-22
    - Titre: easy cash fuite du 2025-4-22
    - Domaine: Non spécifié
    - Date de fuite: 2025-4-22
-   - Date d'ajout: 2026-03-31T14:47:42.238Z
+   - Date d'ajout: 2026-03-31T16:07:12.209Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
 
-275. indigo
+273. indigo
    - Titre: indigo fuite du 2025-4-18
    - Domaine: Non spécifié
    - Date de fuite: 2025-4-18
@@ -2483,7 +2465,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/indigo.jpg
    - Vérifié: Non
 
-276. afflelou
+274. afflelou
    - Titre: afflelou fuite du 2025-4-15
    - Domaine: Non spécifié
    - Date de fuite: 2025-4-15
@@ -2492,7 +2474,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/afflelou-1.jpg
    - Vérifié: Non
 
-277. harvest
+275. harvest
    - Titre: harvest fuite du 2025-4-11
    - Domaine: Non spécifié
    - Date de fuite: 2025-4-11
@@ -2501,7 +2483,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.01net.com/actualites/fuite-massive-france-vol-donnees-bouscule-monde-finance-francaise.html
    - Vérifié: Non
 
-278. reporterre
+276. reporterre
    - Titre: reporterre fuite du 2025-4-1
    - Domaine: Non spécifié
    - Date de fuite: 2025-4-1
@@ -2510,7 +2492,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/reporterre.jpg
    - Vérifié: Non
 
-279. maif & bpce
+277. maif & bpce
    - Titre: maif & bpce fuite du 2025-3-28
    - Domaine: Non spécifié
    - Date de fuite: 2025-3-28
@@ -2519,7 +2501,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.leparisien.fr/economie/votre-argent/fuite-de-donnees-pour-les-clients-maif-et-banque-populaire-caisse-depargne-que-faire-si-vous-etes-concerne-22-03-2025-J56UD4GFSNELRANHK5ICRQ66I4.php
    - Vérifié: Non
 
-280. oracle cloud
+278. oracle cloud
    - Titre: oracle cloud fuite du 2025-3-27
    - Domaine: Non spécifié
    - Date de fuite: 2025-3-27
@@ -2528,7 +2510,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.lemondeinformatique.fr/actualites/lire-des-clients-confirment-la-fuite-de-donnees-oracle-cloud-96454.html
    - Vérifié: Non
 
-281. centrale nantes
+279. centrale nantes
    - Titre: centrale nantes fuite du 2025-3-26
    - Domaine: Non spécifié
    - Date de fuite: 2025-3-26
@@ -2537,7 +2519,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/centrale-nantes.png
    - Vérifié: Non
 
-282. éclaireuses et éclaireurs de france fuite du 2025-3-20
+280. éclaireuses et éclaireurs de france fuite du 2025-3-20
    - Titre: éclaireuses et éclaireurs de france fuite du 2025-3-20
    - Domaine: Non spécifié
    - Date de fuite: 2025-3-20
@@ -2546,16 +2528,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/scoutsdefrance.jpg
    - Vérifié: Non
 
-283. intersport fuite du 2025-3-20
-   - Titre: intersport fuite du 2025-3-20
-   - Domaine: Non spécifié
-   - Date de fuite: 2025-3-20
-   - Date d'ajout: 2026-03-31T14:47:44.331Z
-   - PwnCount: 0
-   - Lien: Non disponible
-   - Vérifié: Non
-
-284. direct assurance
+281. direct assurance
    - Titre: direct assurance fuite du 2025-3-18
    - Domaine: Non spécifié
    - Date de fuite: 2025-3-18
@@ -2564,7 +2537,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/directassurance.jpg
    - Vérifié: Non
 
-285. laforêt
+282. laforêt
    - Titre: laforêt fuite du 2025-3-13
    - Domaine: Non spécifié
    - Date de fuite: 2025-3-13
@@ -2573,7 +2546,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/laforet.jpg
    - Vérifié: Non
 
-286. utwin
+283. utwin
    - Titre: utwin fuite du 2025-3-5
    - Domaine: Non spécifié
    - Date de fuite: 2025-3-5
@@ -2582,7 +2555,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/utwin.png
    - Vérifié: Non
 
-287. côté sushi
+284. côté sushi
    - Titre: côté sushi fuite du 2025-3-4
    - Domaine: Non spécifié
    - Date de fuite: 2025-3-4
@@ -2591,7 +2564,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/cotesushi.png
    - Vérifié: Non
 
-288. edf dpih
+285. edf dpih
    - Titre: edf dpih fuite du 2025-2-28
    - Domaine: Non spécifié
    - Date de fuite: 2025-2-28
@@ -2600,7 +2573,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/edf-dpih.jpg
    - Vérifié: Non
 
-289. école nationale de la sécurité
+286. école nationale de la sécurité
    - Titre: école nationale de la sécurité fuite du 2025-2-28
    - Domaine: Non spécifié
    - Date de fuite: 2025-2-28
@@ -2609,16 +2582,16 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/ens.jpg
    - Vérifié: Non
 
-290. zephir fuite du 2025-2-28
+287. zephir fuite du 2025-2-28
    - Titre: zephir fuite du 2025-2-28
    - Domaine: Non spécifié
    - Date de fuite: 2025-2-28
-   - Date d'ajout: 2026-03-31T14:47:48.233Z
+   - Date d'ajout: 2026-03-31T16:07:18.307Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
 
-291. nord emploi
+288. nord emploi
    - Titre: nord emploi fuite du 2025-2-26
    - Domaine: Non spécifié
    - Date de fuite: 2025-2-26
@@ -2627,7 +2600,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/nordemploi.jpeg
    - Vérifié: Non
 
-292. fédération française de foot
+289. fédération française de foot
    - Titre: fédération française de foot fuite du 2025-2-21
    - Domaine: Non spécifié
    - Date de fuite: 2025-2-21
@@ -2636,7 +2609,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/fff.jpg
    - Vérifié: Non
 
-293. service départemental d'incendie et de secours de la vienne
+290. service départemental d'incendie et de secours de la vienne
    - Titre: service départemental d'incendie et de secours de la vienne fuite du 2025-2-19
    - Domaine: Non spécifié
    - Date de fuite: 2025-2-19
@@ -2645,7 +2618,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/sdis86.jpg
    - Vérifié: Non
 
-294. sport découverte
+291. sport découverte
    - Titre: sport découverte fuite du 2025-2-17
    - Domaine: Non spécifié
    - Date de fuite: 2025-2-17
@@ -2654,7 +2627,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/sportdecouverte.jpg
    - Vérifié: Non
 
-295. mutuelle des motards
+292. mutuelle des motards
    - Titre: mutuelle des motards fuite du 2025-2-13
    - Domaine: Non spécifié
    - Date de fuite: 2025-2-13
@@ -2663,7 +2636,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/motards.jpg
    - Vérifié: Non
 
-296. caisse des dépôts et des consignations
+293. caisse des dépôts et des consignations
    - Titre: caisse des dépôts et des consignations fuite du 2025-2-12
    - Domaine: Non spécifié
    - Date de fuite: 2025-2-12
@@ -2672,7 +2645,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.francetvinfo.fr/internet/securite-sur-internet/cyberattaques/vols-de-donnees-personnelles-a-la-caisse-des-depots-70-000-personnes-concernees-dont-1-000-elus_7070919.html
    - Vérifié: Non
 
-297. chronopost
+294. chronopost
    - Titre: chronopost fuite du 2025-2-12
    - Domaine: Non spécifié
    - Date de fuite: 2025-2-12
@@ -2681,7 +2654,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://next.ink/170278/chronopost-confirme-un-incident-ayant-conduit-a-un-vol-dune-partie-des-donnees-personnelles/
    - Vérifié: Non
 
-298. king jouet
+295. king jouet
    - Titre: king jouet fuite du 2025-2-11
    - Domaine: Non spécifié
    - Date de fuite: 2025-2-11
@@ -2690,7 +2663,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/kingjouet.png
    - Vérifié: Non
 
-299. espace
+296. espace
    - Titre: espace fuite du 2025-2-6
    - Domaine: Non spécifié
    - Date de fuite: 2025-2-6
@@ -2699,7 +2672,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/espace-recettes.png
    - Vérifié: Non
 
-300. Fédération Sportive et Culturelle de France
+297. Fédération Sportive et Culturelle de France
    - Titre: Fédération Sportive et Culturelle de France
    - Domaine: fscf.asso.fr
    - Date de fuite: 2025-01-30
@@ -2708,7 +2681,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://christopheboutry.com/wp-content/uploads/2026/02/federation-sportive-et-culturelle-de-France-leak-fuites-de-donnees.png
    - Vérifié: Oui
 
-301. aides
+298. aides
    - Titre: aides fuite du 2025-1-27
    - Domaine: Non spécifié
    - Date de fuite: 2025-1-27
@@ -2717,7 +2690,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://next.ink/167384/aides-org-pirate-donnees-personnelles-et-bancaires-iban-dans-la-nature/
    - Vérifié: Non
 
-302. e.leclerc
+299. e.leclerc
    - Titre: e.leclerc fuite du 2025-1-24
    - Domaine: Non spécifié
    - Date de fuite: 2025-1-24
@@ -2726,7 +2699,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/leclerc.jpg
    - Vérifié: Non
 
-303. fédération française montagne escalade
+300. fédération française montagne escalade
    - Titre: fédération française montagne escalade fuite du 2025-1-24
    - Domaine: Non spécifié
    - Date de fuite: 2025-1-24
@@ -2735,7 +2708,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/ffme.webp
    - Vérifié: Non
 
-304. fédération française de la montagne et de l'escalade
+301. fédération française de la montagne et de l'escalade
    - Titre: fédération française de la montagne et de l'escalade fuite du 2025-1-23
    - Domaine: Non spécifié
    - Date de fuite: 2025-1-23
@@ -2744,7 +2717,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/ffme.png
    - Vérifié: Non
 
-305. fédération française de tir à l'arc
+302. fédération française de tir à l'arc
    - Titre: fédération française de tir à l'arc fuite du 2025-1-20
    - Domaine: Non spécifié
    - Date de fuite: 2025-1-20
@@ -2753,7 +2726,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/ffta.jpg
    - Vérifié: Non
 
-306. fédération française de force
+303. fédération française de force
    - Titre: fédération française de force fuite du 2025-1-14
    - Domaine: Non spécifié
    - Date de fuite: 2025-1-14
@@ -2762,7 +2735,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/ffforce.jpg
    - Vérifié: Non
 
-307. fédération française de roller skateboard
+304. fédération française de roller skateboard
    - Titre: fédération française de roller skateboard fuite du 2025-1-14
    - Domaine: Non spécifié
    - Date de fuite: 2025-1-14
@@ -2771,7 +2744,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/ffrs.png
    - Vérifié: Non
 
-308. kiabi
+305. kiabi
    - Titre: kiabi fuite du 2025-1-14
    - Domaine: Non spécifié
    - Date de fuite: 2025-1-14
@@ -2780,7 +2753,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/kiabi.jpg
    - Vérifié: Non
 
-309. cogitis
+306. cogitis
    - Titre: cogitis fuite du 2024-12-31
    - Domaine: Non spécifié
    - Date de fuite: 2024-12-31T00:00:00.000Z
@@ -2789,7 +2762,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/cogitis.png
    - Vérifié: Non
 
-310. atos
+307. atos
    - Titre: atos fuite du 2024-12-30
    - Domaine: Non spécifié
    - Date de fuite: 2024-12-30T00:00:00.000Z
@@ -2798,7 +2771,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://next.ink/brief_article/le-groupe-de-rancongiciels-space-bears-affirme-avoir-compromis-la-securite-datos/
    - Vérifié: Non
 
-311. arsoé
+308. arsoé
    - Titre: arsoé fuite du 2024-12-27
    - Domaine: Non spécifié
    - Date de fuite: 2024-12-27T00:00:00.000Z
@@ -2807,7 +2780,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.ladepeche.fr/2024/12/27/agriculture-larsoe-specialiste-des-services-numeriques-aux-eleveurs-victime-dune-cyberattaque-12413861.php
    - Vérifié: Non
 
-312. volkswagen
+309. volkswagen
    - Titre: volkswagen fuite du 2024-12-27
    - Domaine: Non spécifié
    - Date de fuite: 2024-12-27T00:00:00.000Z
@@ -2816,7 +2789,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://cybersecuritynews.com/volkswagen-data-breach/
    - Vérifié: Non
 
-313. peugeot
+310. peugeot
    - Titre: peugeot fuite du 2024-12-26
    - Domaine: Non spécifié
    - Date de fuite: 2024-12-26T00:00:00.000Z
@@ -2825,7 +2798,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.20minutes.fr/high-tech/4130958-20241226-peugeot-sait-cyberattaque
    - Vérifié: Non
 
-314. cyberhaven
+311. cyberhaven
    - Titre: cyberhaven fuite du 2024-12-25
    - Domaine: Non spécifié
    - Date de fuite: 2024-12-25T00:00:00.000Z
@@ -2834,7 +2807,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.lemagit.fr/actualites/366617606/Chaine-logistique-du-logiciel-Cyberhaven-touche-par-une-cyberattaque
    - Vérifié: Non
 
-315. electro dépôt
+312. electro dépôt
    - Titre: electro dépôt fuite du 2024-12-20
    - Domaine: Non spécifié
    - Date de fuite: 2024-12-20T00:00:00.000Z
@@ -2843,7 +2816,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://cybernews.com/security/french-records-exposed-by-mysterious-data-hoarder/
    - Vérifié: Non
 
-316. top achat
+313. top achat
    - Titre: top achat fuite du 2024-12-12
    - Domaine: Non spécifié
    - Date de fuite: 2024-12-12T00:00:00.000Z
@@ -2852,7 +2825,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/topachat.jpg
    - Vérifié: Non
 
-317. ldlc
+314. ldlc
    - Titre: ldlc fuite du 2024-12-10
    - Domaine: Non spécifié
    - Date de fuite: 2024-12-10T00:00:00.000Z
@@ -2861,7 +2834,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.groupe-ldlc.com/information-relative-a-un-incident-de-cybersecurite-3/
    - Vérifié: Non
 
-318. deloitte
+315. deloitte
    - Titre: deloitte fuite du 2024-12-4
    - Domaine: Non spécifié
    - Date de fuite: 2024-12-4
@@ -2870,7 +2843,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://cybersecuritynews.com/deloitte-hacked/
    - Vérifié: Non
 
-319. guy demarle
+316. guy demarle
    - Titre: guy demarle fuite du 2024-12-3
    - Domaine: Non spécifié
    - Date de fuite: 2024-12-3
@@ -2879,7 +2852,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.01net.com/actualites/nouveau-hack-en-france-les-donnees-de-lenseigne-guy-demarle-ont-ete-volees.html
    - Vérifié: Non
 
-320. norauto
+317. norauto
    - Titre: norauto fuite du 2024-12-2
    - Domaine: Non spécifié
    - Date de fuite: 2024-12-2
@@ -2888,7 +2861,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/norauto.webp
    - Vérifié: Non
 
-321. ze camping
+318. ze camping
    - Titre: ze camping fuite du 2024-11-27
    - Domaine: Non spécifié
    - Date de fuite: 2024-11-27T00:00:00.000Z
@@ -2897,7 +2870,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/ze-camping.jpg
    - Vérifié: Non
 
-322. jvs
+319. jvs
    - Titre: jvs fuite du 2024-11-26
    - Domaine: Non spécifié
    - Date de fuite: 2024-11-26T00:00:00.000Z
@@ -2906,7 +2879,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/jvs.webp
    - Vérifié: Non
 
-323. sfr
+320. sfr
    - Titre: sfr fuite du 2024-11-24
    - Domaine: Non spécifié
    - Date de fuite: 2024-11-24T00:00:00.000Z
@@ -2915,7 +2888,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/sfr.webp
    - Vérifié: Non
 
-324. banque de france fuite du 2024-11-23
+321. banque de france fuite du 2024-11-23
    - Titre: banque de france fuite du 2024-11-23
    - Domaine: Non spécifié
    - Date de fuite: 2024-11-23T00:00:00.000Z
@@ -2924,7 +2897,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/banque-france.png
    - Vérifié: Non
 
-325. companie de transport strasbourgeoise
+322. companie de transport strasbourgeoise
    - Titre: companie de transport strasbourgeoise fuite du 2024-11-22
    - Domaine: Non spécifié
    - Date de fuite: 2024-11-22T00:00:00.000Z
@@ -2933,7 +2906,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/cts.jpg
    - Vérifié: Non
 
-326. chambres d’agriculture
+323. chambres d’agriculture
    - Titre: chambres d’agriculture fuite du 2024-11-21
    - Domaine: Non spécifié
    - Date de fuite: 2024-11-21T00:00:00.000Z
@@ -2942,7 +2915,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.ladepeche.fr/2024/11/21/info-la-depeche-les-chambres-dagriculture-doccitanie-victimes-dun-piratage-informatique-dampleur-dautres-instances-touchees-en-france-12338652.php
    - Vérifié: Non
 
-327. mediboard
+324. mediboard
    - Titre: mediboard fuite du 2024-11-19
    - Domaine: Non spécifié
    - Date de fuite: 2024-11-19T00:00:00.000Z
@@ -2951,25 +2924,25 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.clubic.com/actualite-544139-fichiers-et-dossiers-patients-sensibles-francais-en-fuite-sur-le-dark-web-que-se-passe-t-il.html
    - Vérifié: Non
 
-328. auchan fuite du 2024-11-19
+325. auchan fuite du 2024-11-19
    - Titre: auchan fuite du 2024-11-19
    - Domaine: Non spécifié
    - Date de fuite: 2024-11-19T00:00:00.000Z
-   - Date d'ajout: 2026-03-31T14:47:40.476Z
+   - Date d'ajout: 2026-03-31T16:07:10.261Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
 
-329. direct assurance fuite du 2024-11-19
+326. direct assurance fuite du 2024-11-19
    - Titre: direct assurance fuite du 2024-11-19
    - Domaine: Non spécifié
    - Date de fuite: 2024-11-19T00:00:00.000Z
-   - Date d'ajout: 2026-03-31T14:47:42.106Z
+   - Date d'ajout: 2026-03-31T16:07:12.077Z
    - PwnCount: 0
    - Lien: Non disponible
    - Vérifié: Non
 
-330. le point
+327. le point
    - Titre: le point fuite du 2024-11-18
    - Domaine: Non spécifié
    - Date de fuite: 2024-11-18T00:00:00.000Z
@@ -2978,7 +2951,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.lepoint.fr/high-tech-internet/apres-la-croix-et-liberation-le-point-victime-d-un-vol-de-donnees-personnelles-18-11-2024-2575566_47.php
    - Vérifié: Non
 
-331. huttopia
+328. huttopia
    - Titre: huttopia fuite du 2024-11-14
    - Domaine: Non spécifié
    - Date de fuite: 2024-11-14T00:00:00.000Z
@@ -2987,7 +2960,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/huttopia.jpg
    - Vérifié: Non
 
-332. molotov
+329. molotov
    - Titre: molotov fuite du 2024-11-13
    - Domaine: Non spécifié
    - Date de fuite: 2024-11-13T00:00:00.000Z
@@ -2996,7 +2969,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/molotov.jpg
    - Vérifié: Non
 
-333. picard
+330. picard
    - Titre: picard fuite du 2024-11-12
    - Domaine: Non spécifié
    - Date de fuite: 2024-11-12T00:00:00.000Z
@@ -3005,7 +2978,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/#Picard-2024-11-12
    - Vérifié: Non
 
-334. ornikar
+331. ornikar
    - Titre: ornikar fuite du 2024-10-24
    - Domaine: Non spécifié
    - Date de fuite: 2024-10-24T00:00:00.000Z
@@ -3014,7 +2987,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.numerama.com/cyberguerre/1832130-lauto-ecole-en-ligne-ornikar-victime-dune-cyberattaque-des-infos-personnelles-ont-fuite.html
    - Vérifié: Non
 
-335. meilleurtaux
+332. meilleurtaux
    - Titre: meilleurtaux fuite du 2024-9-30
    - Domaine: Non spécifié
    - Date de fuite: 2024-9-30
@@ -3023,7 +2996,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.numerama.com/cyberguerre/1817354-le-site-meilleurtaux-a-subi-une-cyberattaque-attention-aux-tentatives-de-phishing.html
    - Vérifié: Non
 
-336. red by sfr
+333. red by sfr
    - Titre: red by sfr fuite du 2024-9-18
    - Domaine: Non spécifié
    - Date de fuite: 2024-9-18
@@ -3032,7 +3005,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://next.ink/brief_article/red-by-sfr-informe-ses-clients-dune-nouvelle-fuite-avec-une-ribambelle-de-donnees/
    - Vérifié: Non
 
-337. assurance retraite
+334. assurance retraite
    - Titre: assurance retraite fuite du 2024-9-13
    - Domaine: Non spécifié
    - Date de fuite: 2024-9-13
@@ -3041,7 +3014,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.lemonde.fr/pixels/article/2024/09/13/l-assurance-retraite-s-est-fait-voler-des-donnees-de-370-000-personnes_6316212_4408996.html
    - Vérifié: Non
 
-338. cybertek
+335. cybertek
    - Titre: cybertek fuite du 2024-9-12
    - Domaine: Non spécifié
    - Date de fuite: 2024-9-12
@@ -3050,7 +3023,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://next.ink/149926/fuites-de-donnees-cybertek-et-grosbill-entrent-dans-la-danse-truffaut-refuse-de-donner-des-details/
    - Vérifié: Non
 
-339. ticketmaster
+336. ticketmaster
    - Titre: ticketmaster fuite du 2024-4-28
    - Domaine: Non spécifié
    - Date de fuite: 2024-4-28
@@ -3059,7 +3032,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.clubic.com/actualite-528357-millions-de-clients-ticketmaster-pirates-le-geant-mondial-de-la-vente-de-billets-dans-la-tourmente.html
    - Vérifié: Non
 
-340. le slip français
+337. le slip français
    - Titre: le slip français fuite du 2024-4-15
    - Domaine: Non spécifié
    - Date de fuite: 2024-4-15
@@ -3068,7 +3041,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.journaldugeek.com/2024/04/18/piratage-que-sait-on-du-hack-massif-de-cette-marque-francaise/
    - Vérifié: Non
 
-341. france travail fuite du 2024-3-8
+338. france travail fuite du 2024-3-8
    - Titre: france travail fuite du 2024-3-8
    - Domaine: francetravail.fr
    - Date de fuite: 2024-3-8
@@ -3077,7 +3050,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://www.cnil.fr/fr/france-travail-la-cnil-enquete-sur-la-fuite-de-donnees-et-donne-des-conseils-pour-se-proteger
    - Vérifié: Non
 
-342. almerys
+339. almerys
    - Titre: almerys fuite du 2024-2-6
    - Domaine: Non spécifié
    - Date de fuite: 2024-2-6
