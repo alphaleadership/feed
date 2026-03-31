@@ -29,6 +29,7 @@ data.breaches.forEach((breach, index) => {
     updatedCount++;
     console.log(`  ✓ Lien bonjourlafuite mis à jour pour: ${breach.Name || breach.Title} ${breach.lien}`);
   }
+ 
   // Vérifier si la source commence par https et n'est pas une image
   else if (breach.source && typeof breach.source === 'string' && breach.source.startsWith('https')) {
     // Vérifier que ce n'est pas une image ou un PDF
@@ -44,6 +45,7 @@ data.breaches.forEach((breach, index) => {
       }
     //}
   }
+   breach.Description = (breach.Description || '').trim().split("Source]")[0].trim(); // Supprimer la partie "Source]" si elle existe et nettoyer les espaces
 });
 
 // Mettre à jour la date
