@@ -52,12 +52,14 @@ data.breaches.forEach((breach, index) => {
     
     //if (!isImage && !isPdf) {
       // C'est une URL valide vers une page web
+      const lienValue = typeof breach.lien === 'string' ? breach.lien : '';
       if (
-        !breach.lien ||
-        breach.lien === 'undefined' ||
-        breach.lien.includes('undefined') ||
-        isLienFromHaveIBeenPwned(breach.lien)
+        !lienValue ||
+        lienValue === 'undefined' ||
+        lienValue.includes('undefined') ||
+        isLienFromHaveIBeenPwned(lienValue)
       ) {
+        breach.lien = breach.source || breach.path;
         breach.lien = breach.source || breach.path;
         updatedCount++;
         console.log(`  ✓ Lien mis à jour pour: ${breach.Name || breach.Title}`);
