@@ -6,7 +6,7 @@ const lines = data.split('\n').filter(line => line.trim() !== '');
 const entries = lines.map(line => {
     const parts = line.split(':');
     if (parts.length < 2) return null;
-    const name = parts[0].trim();
+    const name = parts[0].trim().split("(")[0].trim(); // On prend le nom avant les parenthèses
     const slug = parts.slice(1).join(':').trim();
     return { name, slug };
 }).filter(e => e && e.slug !== 'undefined');

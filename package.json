@@ -9,7 +9,7 @@
     "server": "hexo server",
     "import": "node tools/import.js",
     "import:remote": "node import-remote-breaches.js",
-    "update-slugs": "node update-slugs-to-delete.js",
+    "update-slugs": "node find-acronyms.js && node update-slugs-to-delete.js",
     "add:breach": "node scripts/add-breach.js",
     "classify": "node tools/classify-breaches.js"
   },
