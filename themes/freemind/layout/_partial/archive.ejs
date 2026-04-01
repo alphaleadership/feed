@@ -43,11 +43,24 @@
       }
       archiveData.years[year][month].push(item);
    });
+
+   // Calculer les fuites ajoutées aujourd'hui
+   var todayStr = new Date().toISOString().split('T')[0];
+   var addedTodayCount = filteredPosts.filter(function(item) {
+     return (new Date(item.AddedDate || item.BreachDate).toISOString().split('T')[0]) === todayStr;
+   }).length;
 %>
 
 <!-- title -->
 <div class="page-header <% if (theme.inverse){ %>page-header-inverse<% } %>">
-  <h1 class="archive-title title <% if (theme.inverse){ %>title-inverse<% } %>"><%= title %></h1>
+  <h1 class="archive-title title <% if (theme.inverse){ %>title-inverse<% } %>">
+    <%= title %>
+    <% if (addedTodayCount > 0) { %>
+      <span class="badge badge-success" style="font-size: 0.4em; vertical-align: middle; background-color: #28a745; margin-left: 10px; padding: 5px 10px;">
+        <%= addedTodayCount %> NOUVELLE<%= addedTodayCount > 1 ? 'S' : '' %> AUJOURD'HUI
+      </span>
+    <% } %>
+  </h1>
   <% if (filteredPosts && filteredPosts.length) { %>
     <div class="archive-year-nav">
       <% 
@@ -267,10 +280,16 @@
               <div id="month_<%= year %>_<%= month %>" class="collapse in">
                 <ol>
                   <% archiveData.years[year][month].forEach(function(item) { %>
+                    <% 
+                      var isNewToday = (new Date(item.AddedDate || item.BreachDate).toISOString().split('T')[0]) === todayStr;
+                    %>
                     <li class="listing-item">
                       <span class="date_class">fuite du <%= new Date(item.BreachDate).toISOString().split('T')[0] %> ajoutée le <%= new Date(item.AddedDate||item.BreachDate).toISOString().split('T')[0] %></span> &raquo;
                       <span class="title">
                         <a href="<%- url_for('/fuites?id=' + item.index) %>" title="<%= item.Title||item.Name %>"><%= item.Title||item.Name %></a>
+                        <% if (isNewToday) { %>
+                          <span class="badge badge-success" style="font-size: 0.7em; background-color: #28a745; margin-left: 5px;">NOUVEAU</span>
+                        <% } %>
                         <% if (item.SeverityLevel) { 
                           var severityColors = {
                             'CRITIQUE': 'danger',
