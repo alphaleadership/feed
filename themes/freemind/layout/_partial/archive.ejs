@@ -49,6 +49,44 @@
    var addedTodayCount = filteredPosts.filter(function(item) {
      return (new Date(item.AddedDate || item.BreachDate).toISOString().split('T')[0]) === todayStr;
    }).length;
+
+   // Calculer les statistiques de dépassement pour toutes les années à l'avance
+   var yearSurpassInfo = {};
+   var totalYearsCount = Object.keys(archiveData.years).length;
+   var totalBreachesCount = filteredPosts.length;
+   var avgBreachesPerYear = totalBreachesCount / totalYearsCount;
+   
+   Object.keys(archiveData.years).sort((a, b) => a - b).forEach(function(year) {
+      var yearCount = Object.keys(archiveData.years[year]).reduce(function(total, monthKey) { 
+        return total + archiveData.years[year][monthKey].length; 
+      }, 0);
+      
+      var prevYear = parseInt(year) - 1;
+      if (archiveData.years[prevYear]) {
+        var prevYearCount = Object.keys(archiveData.years[prevYear]).reduce(function(total, monthKey) {
+          return total + archiveData.years[prevYear][monthKey].length;
+        }, 0);
+        
+        yearSurpassInfo[year] = {
+          diff: yearCount - prevYearCount,
+          percentage: (((yearCount - prevYearCount) / prevYearCount * 100).toFixed(1)),
+          prevYearCount: prevYearCount,
+          prevYear: prevYear
+        };
+        yearSurpassInfo[year].percentage = (yearSurpassInfo[year].diff >= 0 ? "+" : "") + yearSurpassInfo[year].percentage + "%";
+        
+        if (yearCount >= prevYearCount && prevYearCount > 0) {
+           var allYearItems = [];
+           Object.keys(archiveData.years[year]).forEach(function(monthKey) {
+             allYearItems = allYearItems.concat(archiveData.years[year][monthKey]);
+           });
+           allYearItems.sort((a, b) => new Date(a.BreachDate) - new Date(b.BreachDate));
+           var surpassDate = new Date(allYearItems[prevYearCount - 1].BreachDate);
+           yearSurpassInfo[year].date = surpassDate;
+           yearSurpassInfo[year].days = Math.ceil((surpassDate - new Date(year, 0, 1)) / (1000 * 60 * 60 * 24));
+        }
+      }
+   });
 %>
 
 <!-- title -->
@@ -68,9 +106,9 @@
     Aucune fuite de données trouvée.
   </div>
 <% } else { %>
-  <!-- Liste détaillée des fuites -->
   <div class="row page">
     <div class="<% if (theme.widgets.length) { %>col-md-9<% } else { %>col-md-12<% } %>">
+      <!-- Liste détaillée des fuites -->
       <div class="archive">
         <% Object.keys(archiveData.years).sort((a, b) => b - a).forEach(function(year) { %>
           <% 
@@ -105,56 +143,25 @@
               predictionStr = " <small style='font-size:0.6em; color:#999;'>&nbsp;- 🔮 prédiction : " + prediction + " fuites</small>";
             }
           }
-          %>
 
-          <% 
-          // Calculer les dates de dépassement pour cette année (nécessaire ici car la navigation est en dessous)
-          var yearSurpassInfo = {};
-          var totalYearsCount = Object.keys(archiveData.years).length;
-          var totalBreachesCount = filteredPosts.length;
-          var avgBreachesPerYear = totalBreachesCount / totalYearsCount;
-          
-          var prevYear = parseInt(year) - 1;
-          var prevYearCount = 0;
-          
-          if (archiveData.years[prevYear]) {
-            prevYearCount = Object.keys(archiveData.years[prevYear]).reduce(function(total, monthKey) {
-              return total + archiveData.years[prevYear][monthKey].length;
-            }, 0);
-            
-            yearSurpassInfo.percentage = (((yearCount - prevYearCount) / prevYearCount * 100).toFixed(1));
-            yearSurpassInfo.percentage = (yearCount - prevYearCount >= 0 ? "+" : "") + yearSurpassInfo.percentage + "%";
-            yearSurpassInfo.diff = yearCount - prevYearCount;
-          }
-          %>
-
-          <% 
           var percentageStr = "";
-          if (yearSurpassInfo.percentage) {
-            var color = yearSurpassInfo.diff >= 0 ? "#d9534f" : "#5cb85c";
-            percentageStr = " <small style='font-size:0.6em; color: " + color + ";'>&nbsp;(" + yearSurpassInfo.percentage + ")</small>";
+          if (yearSurpassInfo[year] && yearSurpassInfo[year].percentage) {
+            var color = yearSurpassInfo[year].diff >= 0 ? "#d9534f" : "#5cb85c";
+            percentageStr = " <small style='font-size:0.6em; color: " + color + ";'>&nbsp;(" + yearSurpassInfo[year].percentage + ")</small>";
           }
           %>
           <h4 id="year_heading_<%= year %>" class="archive-ul" data-toggle="collapse" data-target="#year_<%= year %>"><%= year %> (<%= yearCount %>)<%- percentageStr %> <b class="caret"></b><%- avgTimeStr %><%- predictionStr %></h4>
           <div id="year_<%= year %>" class="collapse in">
             <h1><%= totalPwnCount %> ligne cumulée </h1>
-            <% 
-            var yearSurpassDate = null;
-            if (prevYearCount > 0 && yearCount >= prevYearCount) {
-              var sortedYearBreaches = allYearItems.slice();
-              sortedYearBreaches.sort((a, b) => new Date(a.BreachDate) - new Date(b.BreachDate));
-              yearSurpassDate = new Date(sortedYearBreaches[prevYearCount - 1].BreachDate);
-            }
-            %>
-            <% if (yearSurpassDate) { %>
+            <% if (yearSurpassInfo[year] && yearSurpassInfo[year].date) { %>
               <p style="margin: 10px 0; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
-                <strong>📊</strong> Le nombre de fuites de <%= prevYear %> (<%= prevYearCount %> fuites) a été dépassé le 
-                <strong><%= yearSurpassDate.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }) %></strong>
-                (au bout de <%= Math.ceil((yearSurpassDate - new Date(year, 0, 1)) / (1000 * 60 * 60 * 24)) %> jours).
+                <strong>📊</strong> Le nombre de fuites de <%= yearSurpassInfo[year].prevYear %> (<%= yearSurpassInfo[year].prevYearCount %> fuites) a été dépassé le 
+                <strong><%= yearSurpassInfo[year].date.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }) %></strong>
+                (au bout de <%= yearSurpassInfo[year].days %> jours).
               </p>
-            <% } else if (prevYearCount > 0 && yearCount < prevYearCount) { %>
+            <% } else if (yearSurpassInfo[year] && yearSurpassInfo[year].prevYearCount > 0 && yearCount < yearSurpassInfo[year].prevYearCount) { %>
               <p style="margin: 10px 0; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
-                <strong>📊</strong> <%= year %> compte <%= yearCount %> fuites, soit <strong><%= (yearCount/prevYearCount*100).toFixed(1) %>%</strong> de l'activité de <%= prevYear %> (<%= prevYearCount %> fuites).
+                <strong>📊</strong> <%= year %> compte <%= yearCount %> fuites, soit <strong><%= (yearCount/yearSurpassInfo[year].prevYearCount*100).toFixed(1) %>%</strong> de l'activité de <%= yearSurpassInfo[year].prevYear %> (<%= yearSurpassInfo[year].prevYearCount %> fuites).
               </p>
             <% } %>
             
@@ -201,61 +208,46 @@
           </div>
         <% }); %>
       </div>
+
+      <!-- Navigation par année (en bas de la liste) -->
+      <div class="archive-year-nav" style="margin-top: 50px; border-top: 1px solid #444; padding-top: 30px; margin-bottom: 30px;">
+        <h3 style="margin-bottom: 20px; color: #38bdf8;"><i class="fa fa-calendar me-2"></i>Navigation par année</h3>
+        <% Object.keys(archiveData.years).sort((a, b) => a - b).forEach(function(year) { 
+            var yearCount = Object.keys(archiveData.years[year]).reduce(function(total, monthKey) { return total + archiveData.years[year][monthKey].length; }, 0);
+            var totalPwnCount =  new Intl.NumberFormat(["EN-US"]).format(Object.keys(archiveData.years[year]).reduce(    (total, monthKey) => total + archiveData.years[year][monthKey].reduce(        (monthTotal, item) => monthTotal + (item.PwnCount || 0), 0 ), 0)); 
+            
+            var predictionStr = "";
+            var currentYear = new Date().getFullYear();
+            if (parseInt(year) === currentYear) {
+              var now = new Date();
+              var startOfYear = new Date(currentYear, 0, 1);
+              var daysPassed = Math.ceil((now - startOfYear) / (1000 * 60 * 60 * 24));
+              if (daysPassed > 0) {
+                var isLeapYear = (currentYear % 4 === 0 && currentYear % 100 !== 0) || (currentYear % 400 === 0);
+                var daysInYear = isLeapYear ? 366 : 365;
+                var prediction = Math.round((yearCount / daysPassed) * daysInYear);
+                predictionStr = " - 🔮 prédiction : " + prediction + " fuites";
+              }
+            }
+
+            var percentageStr = "";
+            if (yearSurpassInfo[year] && yearSurpassInfo[year].percentage) {
+              var color = yearSurpassInfo[year].diff >= 0 ? "#d9534f" : "#5cb85c";
+              percentageStr = " <span style='color: " + color + "; font-weight: bold;'>(" + yearSurpassInfo[year].percentage + ")</span>";
+            }
+        %>
+          <div style="margin-bottom: 10px;">
+            <a href="#year_heading_<%= year %>" style="font-size: 1.1em; color: #e2e8f0; text-decoration: none;">
+              <i class="fa fa-chevron-right me-2" style="font-size: 0.8em; color: #38bdf8;"></i>
+              <strong><%= year %></strong> (<%= yearCount %>)<%- percentageStr %> avec <%= totalPwnCount %> ligne cumulée<%= predictionStr %>
+            </a>
+          </div>
+        <% }); %>
+      </div>
     </div>
-  </div>
 
-  <!-- Navigation par année (déplacée en bas) -->
-  <div class="archive-year-nav" style="margin-top: 30px; border-top: 1px solid #eee; padding-top: 20px;">
-    <% 
-      var totalYears = Object.keys(archiveData.years).length;
-      var totalBreaches = filteredPosts.length;
-      var avgBreachesPerYear = totalBreaches / totalYears;
-      
-      Object.keys(archiveData.years).sort((a, b) => a - b).forEach(function(year) { 
-        var yearCount = Object.keys(archiveData.years[year]).reduce(function(total, monthKey) { return total + archiveData.years[year][monthKey].length; }, 0);
-        var totalPwnCount =  new Intl.NumberFormat(["EN-US"]).format(Object.keys(archiveData.years[year]).reduce(    (total, monthKey) => total + archiveData.years[year][monthKey].reduce(        (monthTotal, item) => monthTotal + (item.PwnCount || 0), 0 ), 0)); 
-        
-        var allYearItems = [];
-        Object.keys(archiveData.years[year]).forEach(function(monthKey) {
-          allYearItems = allYearItems.concat(archiveData.years[year][monthKey]);
-        });
-        allYearItems.sort((a, b) => new Date(a.BreachDate) - new Date(b.BreachDate));
-        
-        var avgTimeStr = "";
-        if (allYearItems.length > 1) {
-          var totalDiff = 0;
-          for (var i = 1; i < allYearItems.length; i++) {
-            totalDiff += new Date(allYearItems[i].BreachDate) - new Date(allYearItems[i-1].BreachDate);
-          }
-          var avgDiffDays = Math.round(totalDiff / (allYearItems.length - 1) / (1000 * 60 * 60 * 24));
-          avgTimeStr = " - en moyenne " + avgDiffDays + " j. entre 2 fuites";
-        }
-
-        var currentYear = new Date().getFullYear();
-        var predictionStr = "";
-        if (parseInt(year) === currentYear) {
-          var now = new Date();
-          var startOfYear = new Date(currentYear, 0, 1);
-          var daysPassed = Math.ceil((now - startOfYear) / (1000 * 60 * 60 * 24));
-          if (daysPassed > 0) {
-            var isLeapYear = (currentYear % 4 === 0 && currentYear % 100 !== 0) || (currentYear % 400 === 0);
-            var daysInYear = isLeapYear ? 366 : 365;
-            var prediction = Math.round((yearCount / daysPassed) * daysInYear);
-            predictionStr = " - 🔮 prédiction : " + prediction + " fuites";
-          }
-        }
-
-        var prevYear = parseInt(year) - 1;
-        var percentageStr = "";
-        if (archiveData.years[prevYear]) {
-          var prevYearCount = Object.keys(archiveData.years[prevYear]).reduce(function(total, monthKey) { return total + archiveData.years[prevYear][monthKey].length; }, 0);
-          var diff = yearCount - prevYearCount;
-          var percentage = (diff / prevYearCount * 100).toFixed(1);
-          var color = diff >= 0 ? "#d9534f" : "#5cb85c";
-          percentageStr = " <span style='color: " + color + "; font-weight: bold;'>(" + (diff >= 0 ? "+" : "") + percentage + "%)</span>";
-        }
-    %>
-      <a href="#year_heading_<%= year %>"><%= year %> (<%= yearCount %>)<%- percentageStr %> avec <%= totalPwnCount %> ligne cumulée<%= avgTimeStr %><%= predictionStr %></a><br/>
-    <% }); %>
+    <% if (theme.widgets.length) { %>
+      <%- partial('sidebar') %>
+    <% } %>
   </div>
 <% } %>
