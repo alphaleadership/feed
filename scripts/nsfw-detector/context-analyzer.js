@@ -16,7 +16,7 @@ class ContextAnalyzer {
         // Context words to reduce false positives in data breach contexts
         this.nonNSFWContextWords = new Set([
             'security', 'breach', 'hash', 'password', 'database', 'leak', 
-            'education', 'medical', 'health', 'forum', 'game', 'gaming', 'platform', // English
+            'education', 'medical', 'health', 'forum', 'game', 'gaming',// English
             'sécurité', 'fuite', 'hachage', 'mot de passe', 'base de données', 'fuite de données',
             'éducation', 'médical', 'santé', 'forum', 'jeu', 'plateforme' // French
         ]);
