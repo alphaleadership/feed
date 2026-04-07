@@ -37,11 +37,18 @@ data.breaches.forEach((breach, index) => {
     breach.Domain = "francetravail.fr";
   }
   // Pour les fuites bonjourlafuite, utiliser le champ path comme lien
-  if (breach.path && breach.path.includes('bonjourlafuite.eu.org') && breach.path) {
-    // Construire l'URL bonjourlafuite
-    breach.lien = `${breach.path}`;
-    updatedCount++;
-    console.log(`  ✓ Lien bonjourlafuite mis à jour pour: ${breach.Name || breach.Title} ${breach.lien}`);
+  if (breach.path) {
+    try {
+      const parsedBonjour = new URL(breach.path, 'https://bonjourlafuite.eu.org');
+      if (parsedBonjour.hostname === 'bonjourlafuite.eu.org') {
+        // Construire l'URL bonjourlafuite
+        breach.lien = `${breach.path}`;
+        updatedCount++;
+        console.log(`  ✓ Lien bonjourlafuite mis à jour pour: ${breach.Name || breach.Title} ${breach.lien}`);
+      }
+    } catch (e) {
+      // Si breach.path n'est pas une URL ou un chemin valide, on l'ignore simplement
+    }
   }
  
   // Vérifier si la source commence par https et n'est pas une image
