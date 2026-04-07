@@ -5,7 +5,7 @@ inverse: false
 show_title_in_excerpt: true
 feed:
   enable: true
-  type: rss2
+  type: atom
   path: atom.xml
   limit: 0
   hub:
