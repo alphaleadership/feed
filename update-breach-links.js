@@ -66,7 +66,7 @@ data.breaches.forEach((breach, index) => {
       }
     //}
   }
-   breach.Description = (breach.Description || '').trim().split("Source]")[0].trim(); // Supprimer la partie "Source]" si elle existe et nettoyer les espaces
+   breach.Description = (breach.Description || '').trim().split("Source]")[0].trim().replaceAll("amp;", ""); // Supprimer la partie "Source]" si elle existe et nettoyer les espaces
 });
 
 // Mettre à jour la date
