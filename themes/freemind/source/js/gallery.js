@@ -4,11 +4,14 @@
     $(this).find('img').each(function(){
       if (!$(this).hasClass('nofancybox')){
         var alt = this.alt;
+        var $link = $('<a></a>')
+          .attr('href', this.src)
+          .addClass('fancybox')
+          .attr('rel', 'gallery' + i);
         if (alt){
-          $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox" rel="gallery' + i + '" />');
-        } else {
-          $(this).wrap('<a href="' + this.src + '" class="fancybox" rel="gallery' + i + '" />');
-	    }
+          $link.attr('title', alt);
+        }
+        $(this).wrap($link);
       }
     });
   });
