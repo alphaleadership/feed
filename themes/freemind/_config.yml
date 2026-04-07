@@ -64,7 +64,7 @@ widgets:
 - links
 - rss  # uncomment this to show an RSS button in the sidebar
 
-rss: atom.rss
+rss: atom.xml
 fancybox: true
 favicon: favicon.png
 duoshuo_shortname: #freemindtheme
