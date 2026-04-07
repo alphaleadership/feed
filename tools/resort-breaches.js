@@ -9,6 +9,25 @@ const { getBreachesDB } = require('../scripts/db');
 
 const baseDir = process.cwd();
 
+/**
+ * Safely extract the hostname from a URL string.
+ * Returns an empty string if the URL is invalid or cannot be parsed.
+ */
+function getHostnameFromUrl(urlString) {
+  if (typeof urlString !== 'string' || urlString.trim() === '') {
+    return '';
+  }
+  try {
+    // Support both absolute and protocol-relative URLs by ensuring a scheme.
+    const hasScheme = /^[a-zA-Z][a-zA-Z0-9+.-]*:/.test(urlString);
+    const normalized = hasScheme ? urlString : 'https://' + urlString;
+    const parsed = new URL(normalized);
+    return parsed.hostname.toLowerCase();
+  } catch (e) {
+    return '';
+  }
+}
+
 // Initialize the NSFWDetector
 const nsfwDetector = new NSFWDetector(
   path.join(baseDir, '.kiro', 'specs', 'nsfw-detection-system', 'config.json'),
@@ -153,9 +172,19 @@ async function processBreaches() {
 
     // Détermination de la source
     if (!breach.source) {
-      if (breach.path && breach.path.includes('breaches/')) breach.source = 'Have I Been Pwned';
-      else if (breach.lien && breach.lien.includes('zataz.com')) breach.source = 'Zataz';
-      else breach.source = 'Manuel';
+      if (breach.path && breach.path.includes('breaches/')) {
+        breach.source = 'Have I Been Pwned';
+      } else if (breach.lien) {
+        const host = getHostnameFromUrl(breach.lien);
+        const allowedZatazHosts = ['zataz.com', 'www.zataz.com'];
+        if (allowedZatazHosts.includes(host)) {
+          breach.source = 'Zataz';
+        } else {
+          breach.source = 'Manuel';
+        }
+      } else {
+        breach.source = 'Manuel';
+      }
     }
 
     // Correction des liens pour les sources manuelles
