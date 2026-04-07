@@ -9,7 +9,7 @@ const dataFiles = [
 function cleanActorName(name) {
     if (!name || name === 'null') return null;
     // Nettoyage complet incluant le passage en minuscules pour éviter les doublons
-    return name.trim().replace(/["']/g, '').toLowerCase();
+    return name.trim().replace(/["'`]/g, '').toLowerCase();
 }
 
 function updateAttributions(filePath) {
