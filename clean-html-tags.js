@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const sanitizeHtml = require('sanitize-html');
 
 const baseDir = path.join(__dirname, '.');
 const dataFile = path.join(baseDir, 'source', '_data', 'breaches.json');
@@ -18,9 +19,12 @@ function removeHtmlTags(text) {
   if (!text || typeof text !== 'string') {
     return text;
   }
-  
-  // Enlever les balises HTML
-  return text.replace(/<[^>]*>/g, '').replaceAll("&gt;","");
+
+  // Enlever les balises HTML en utilisant une bibliothèque de sanitisation
+  return sanitizeHtml(text, {
+    allowedTags: [],
+    allowedAttributes: {}
+  });
 }
 
 db.breaches.forEach((breach, index) => {

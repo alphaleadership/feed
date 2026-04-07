@@ -46,7 +46,8 @@
     "lowdb": "^7.0.1",
     "resend": "^6.10.0",
     "rss-parser": "^3.13.0",
-    "sudoku": "^0.0.3"
+    "sudoku": "^0.0.3",
+    "sanitize-html": "^2.17.2"
   },
   "devDependencies": {
     "gray-matter": "^4.0.3"
