@@ -6,7 +6,7 @@ show_title_in_excerpt: true
 feed:
   enable: true
   type: atom
-  path: atom.xml
+  path: atom.rss
   limit: 0
   hub:
   content:
