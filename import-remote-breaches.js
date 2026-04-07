@@ -83,7 +83,7 @@ function readLastImportDate() {
 
 function writeNewImportDate() {
     const twoYearsAgo = new Date();
-    twoYearsAgo.setFullYear(twoYearsAgo.getFullYear() - 5);
+    twoYearsAgo.setFullYear(twoYearsAgo.getFullYear() - 7);
     const data = {
         lastImport: twoYearsAgo.toISOString(),
     };
