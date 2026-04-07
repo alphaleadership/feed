@@ -5,8 +5,8 @@ inverse: false
 show_title_in_excerpt: true
 feed:
   enable: true
-  type: atom
-  path: atom.rss
+  type: rss2
+  path: atom.xml
   limit: 0
   hub:
   content:
@@ -64,7 +64,7 @@ widgets:
 - links
 - rss  # uncomment this to show an RSS button in the sidebar
 
-rss: atom.xml
+rss: atom.rss
 fancybox: true
 favicon: favicon.png
 duoshuo_shortname: #freemindtheme
