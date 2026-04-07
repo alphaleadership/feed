@@ -3,7 +3,7 @@
 const fs = require('fs');
 const https = require('https');
 const path = require('path');
-const { NSFWDetector } = require('../scripts/nsfw-detector');
+const { NSFWDetector } = require('../nsfw-detector');
 
 const { getBreachesDB } = require('../scripts/db');
 
