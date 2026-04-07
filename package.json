@@ -3,7 +3,7 @@
   "version": "0.1.6",
   "private": true,
   "scripts": {
-    "build": " npm run clean && node index.js && node indexator.js && node tools/import && npm run import:remote && node detecter-fuites-sans-nombre && node update-breach-links.js && node remove-invalid-breaches.js ",
+    "build": " npm run clean && node index.js && node indexator.js && node tools/import && npm run import:remote && node detecter-fuites-sans-nombre && node update-breach-links.js && node remove-invalid-breaches.js && node clean-html-tags",
     "clean": "node manager && node update_breach_attribution&& node tools/resort-breaches && npm run update-slugs && hexo clean",
     "deploy": "hexo deploy --config build.yml",
     "server": "hexo server",

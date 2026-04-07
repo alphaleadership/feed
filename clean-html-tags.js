@@ -20,7 +20,7 @@ function removeHtmlTags(text) {
   }
   
   // Enlever les balises HTML
-  return text.replace(/<[^>]*>/g, '');
+  return text.replace(/<[^>]*>/g, '').replaceAll("&gt;","");
 }
 
 db.breaches.forEach((breach, index) => {
