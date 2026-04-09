@@ -32,6 +32,12 @@ const realIAKeywords = [
   'large language model'
 ];
 
+// Faux positifs à exclure
+const falsePositives = [
+  'taj',
+  'traitement d\'antécédents judiciaires'
+];
+
 async function tagIABreaches() {
   console.log('Démarrage du tagging automatique IA...');
   
@@ -58,7 +64,10 @@ async function tagIABreaches() {
         (breach.DataClasses || []).join(' ')
       ].join(' ').toLowerCase();
       
-      const hasRealIAKeyword = realIAKeywords.some(keyword => {
+      // Vérifier si c'est un faux positif
+      const isFalsePositive = falsePositives.some(fp => textToSearch.includes(fp.toLowerCase()));
+      
+      const hasRealIAKeyword = !isFalsePositive && realIAKeywords.some(keyword => {
         const regex = new RegExp(`\\b${keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i');
         return regex.test(textToSearch);
       });
