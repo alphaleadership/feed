@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T12:21:42.038Z",
+  "lastUpdated": "2026-04-09T12:22:59.732Z",
   "totalBreaches": 1447,
   "breaches": [
     {
@@ -4138,7 +4138,10 @@
       "SeverityLevel": "MODÉRÉ",
       "isBlocked": false,
       "blockedNote": null,
-      "nsfwConfidence": 0
+      "nsfwConfidence": 0,
+      "tags": [
+        "IA"
+      ]
     },
     {
       "Name": "Lovora",
@@ -7463,7 +7466,10 @@
       "lien": "https://haveibeenpwned.com/Breach/ParesAI",
       "index": 1531,
       "title": "ParesAI",
-      "oldindex": 1531
+      "oldindex": 1531,
+      "tags": [
+        "IA"
+      ]
     },
     {
       "Name": "Médecins Remplaçants (Base de données 2026)",
@@ -26142,7 +26148,10 @@
       "SeverityLevel": "CRITIQUE",
       "isBlocked": false,
       "blockedNote": null,
-      "nsfwConfidence": 0
+      "nsfwConfidence": 0,
+      "tags": [
+        "IA"
+      ]
     },
     {
       "Name": "Spyzie",
