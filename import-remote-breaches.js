@@ -228,11 +228,13 @@ async function runImport() {
                     ModifiedDate: new Date().toISOString(),
                     slug: slugify(remote.Name || remote.Title),
                 };
-		 if (bad.has(newBreach.slug)) {
-            newBreach.IsRetired = true; // Marquer pour suppression
-            console.log(`  - Suppression : ${newBreach.Name} (slug: ${newBreach.slug})`);
-            
-        }
+
+                // Vérifier si le slug est dans la liste de suppression
+                if (bad.has(newBreach.slug)) {
+                    console.log(`  ⊘ Ignorée (dans slugs-a-supprimer) : ${newBreach.Name} (slug: ${newBreach.slug})`);
+                    continue;
+                }
+
                 existingBreaches.push(newBreach);
                 addedFromSource++;
             }

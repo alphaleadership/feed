@@ -6,6 +6,7 @@ const { getBreachesDB } = require('./db');
 
 hexo.extend.filter.register('before_generate', async function() {
   const blockedFile = path.join(this.base_dir, 'blocked_domains.json');
+  const slugsToRemoveFile = path.join(this.base_dir, 'slugs-a-supprimer.txt');
   
   let dbInstance;
   try {
@@ -13,6 +14,23 @@ hexo.extend.filter.register('before_generate', async function() {
   } catch (err) {
     this.log.error('Inject-Breaches: Erreur lors de l\'initialisation de FastDB', err);
     return;
+  }
+
+  // Charger les slugs à supprimer
+  let slugsToRemove = new Set();
+  if (fs.existsSync(slugsToRemoveFile)) {
+    try {
+      const slugsContent = fs.readFileSync(slugsToRemoveFile, 'utf-8');
+      slugsContent.split('\n').forEach(slug => {
+        const trimmed = slug.trim().replace(/\r/g, '');
+        if (trimmed) {
+          slugsToRemove.add(trimmed);
+        }
+      });
+      this.log.info(`Inject-Breaches: ${slugsToRemove.size} slugs à supprimer chargés.`);
+    } catch (err) {
+      this.log.error('Inject-Breaches: Erreur lors de la lecture des slugs à supprimer', err);
+    }
   }
 
   let blockedDomains = new Map();
@@ -53,6 +71,12 @@ hexo.extend.filter.register('before_generate', async function() {
     const breaches = data.breaches || [];
 
     breaches.forEach(breach => {
+      // Vérifier si le slug est dans la liste de suppression
+      if (slugsToRemove.has(breach.slug)) {
+        this.log.debug(`Inject-Breaches: Fuite ignorée (dans slugs-a-supprimer) : ${breach.slug}`);
+        return;
+      }
+
       let content = breach.Description || '';
       const domain = breach.Domain || '';
       const blockedNote = getBlockedNote(domain);
