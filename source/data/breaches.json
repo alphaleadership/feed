@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T22:44:50.846Z",
+  "lastUpdated": "2026-04-09T23:27:32.753Z",
   "totalBreaches": 1449,
   "breaches": [
     {
@@ -31,7 +31,16 @@
       "AddedDate": "2026-04-09T22:44:42.955Z",
       "ModifiedDate": "2026-04-09T22:44:42.955Z",
       "slug": "db-telecom",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/DB-Telecom-leak-fuites-de-donnees.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/DB-Telecom-leak-fuites-de-donnees.png",
+      "Attribution": "normallevrai",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "41 470 fiches contacts clients uniques avec 30 410 emails, 44 202 numéros de téléphone et 41 470 mots de passe en clair, couvrant la période février 2019 à décembre 2025 (environ 6 ans et demi d'activité). Dump SQL de 455 Mo extrait le 7 avril 2026, totalisant ~2.8 millions de lignes réparties sur 61 tables, incluant 210 358 correspondances email intégrales, 55 652 documents référencés, 32 505 logs de connexion, 41 499 comptes WordPress et 23 comptes employés CRM. Mis en vente le 8 avril 2026 sur le forum spear[.]cx par l'acteur NormalLeVrai.\n\nStatut: Confirmée\nType de service: Opérateur télécom B2B",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1799,
+      "title": "DB Telecom"
     },
     {
       "Name": "DCL (Diplôme de Compétence en Langue)",
