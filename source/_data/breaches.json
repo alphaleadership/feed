@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T12:55:02.486Z",
+  "lastUpdated": "2026-04-09T13:49:37.033Z",
   "totalBreaches": 1447,
   "breaches": [
     {
@@ -1191,7 +1191,7 @@
     {
       "Name": "europa (commission européenne)",
       "Title": "europa (commission européenne) fuite du 2026-3-24",
-      "Domain": null,
+      "Domain": "ec.europa.eu",
       "BreachDate": "2026-3-24",
       "AddedDate": "2026-03-31T11:53:42.971Z",
       "ModifiedDate": "2026-03-31T11:53:42.971Z",
@@ -1692,7 +1692,7 @@
     {
       "Name": "Annuaire Administration",
       "Title": "Annuaire Administration",
-      "Domain": "",
+      "Domain": "fuitesinfos.fr",
       "BreachDate": "2026-03-17",
       "PwnCount": 60000,
       "Description": "L'acteur HexDex a publié sur le forum DarkForums les données de 60 000 agents du gouvernement français. La fuite, qui touche de nombreux secteurs régaliens (Défense, Justice, Intérieur, Finances...), semble provenir d'un annuaire centralisé de l'administration.\n\nStatut: Revendiquée\nType de service: Service gouvernemental",
@@ -2801,7 +2801,7 @@
     {
       "Name": "YGG Torrent",
       "Title": "YGG Torrent",
-      "Domain": "",
+      "Domain": "x.com",
       "BreachDate": "2026-03-04",
       "AddedDate": "2026-03-11T14:30:12.768Z",
       "ModifiedDate": "2026-03-11T14:30:12.768Z",
@@ -3805,7 +3805,7 @@
     {
       "Name": "cegedim",
       "Title": "cegedim fuite du 2026-2-27",
-      "Domain": null,
+      "Domain": "cegedim.fr",
       "BreachDate": "2026-2-27",
       "AddedDate": "2026-03-11T14:30:03.838Z",
       "ModifiedDate": "2026-03-11T14:30:03.838Z",
@@ -3845,7 +3845,7 @@
     {
       "Name": "espci",
       "Title": "espci fuite du 2026-2-27",
-      "Domain": null,
+      "Domain": "next.ink",
       "BreachDate": "2026-2-27",
       "AddedDate": "2026-03-11T14:30:05.395Z",
       "ModifiedDate": "2026-03-11T14:30:05.395Z",
@@ -4318,7 +4318,7 @@
     {
       "Name": "olympique de marseille",
       "Title": "olympique de marseille fuite du 2026-2-23",
-      "Domain": null,
+      "Domain": "butfootballclub.fr",
       "BreachDate": "2026-2-23",
       "AddedDate": "2026-03-11T14:30:09.206Z",
       "ModifiedDate": "2026-03-11T14:30:09.206Z",
@@ -4356,7 +4356,7 @@
     {
       "Name": "uniscité",
       "Title": "uniscité fuite du 2026-2-23",
-      "Domain": null,
+      "Domain": "x.com",
       "BreachDate": "2026-2-23",
       "AddedDate": "2026-03-11T14:30:10.999Z",
       "ModifiedDate": "2026-03-11T14:30:10.999Z",
@@ -4474,7 +4474,7 @@
     {
       "Name": "on air fitness",
       "Title": "on air fitness fuite du 2026-2-22",
-      "Domain": null,
+      "Domain": "x.com",
       "BreachDate": "2026-2-22",
       "AddedDate": "2026-03-11T14:30:09.232Z",
       "ModifiedDate": "2026-03-11T14:30:09.232Z",
@@ -4512,7 +4512,7 @@
     {
       "Name": "fédération française d’athlétisme",
       "Title": "fédération française d’athlétisme fuite du 2026-2-21",
-      "Domain": null,
+      "Domain": "franceinfo.fr",
       "BreachDate": "2026-2-21",
       "AddedDate": "2026-03-11T14:30:06.782Z",
       "ModifiedDate": "2026-03-11T14:30:06.782Z",
@@ -4552,7 +4552,7 @@
     {
       "Name": "innovorder",
       "Title": "innovorder fuite du 2026-2-21",
-      "Domain": null,
+      "Domain": "x.com",
       "BreachDate": "2026-2-21",
       "AddedDate": "2026-03-11T14:30:07.347Z",
       "ModifiedDate": "2026-03-11T14:30:07.347Z",
@@ -4640,7 +4640,7 @@
     {
       "Name": "réglo mobile",
       "Title": "réglo mobile fuite du 2026-2-21",
-      "Domain": null,
+      "Domain": "reglomobile.fr",
       "BreachDate": "2026-2-21",
       "AddedDate": "2026-03-11T14:30:10.230Z",
       "ModifiedDate": "2026-03-11T14:30:10.230Z",
@@ -4941,7 +4941,7 @@
     {
       "Name": "fédération française de voitures radio",
       "Title": "fédération française de voitures radio fuite du 2026-2-20",
-      "Domain": null,
+      "Domain": "ffvrc.fr",
       "BreachDate": "2026-2-20",
       "AddedDate": "2026-03-11T14:30:06.629Z",
       "ModifiedDate": "2026-03-11T14:30:06.629Z",
@@ -4979,7 +4979,7 @@
     {
       "Name": "keep cool",
       "Title": "keep cool fuite du 2026-2-20",
-      "Domain": null,
+      "Domain": "x.com",
       "BreachDate": "2026-2-20",
       "AddedDate": "2026-03-11T14:30:07.635Z",
       "ModifiedDate": "2026-03-11T14:30:07.635Z",
@@ -5062,7 +5062,7 @@
     {
       "Name": "cfdt",
       "Title": "cfdt fuite du 2026-2-19",
-      "Domain": null,
+      "Domain": "cfdt.fr",
       "BreachDate": "2026-2-19",
       "AddedDate": "2026-03-11T14:30:04.148Z",
       "ModifiedDate": "2026-03-11T14:30:04.148Z",
@@ -5138,7 +5138,7 @@
     {
       "Name": "idmerit",
       "Title": "idmerit fuite du 2026-2-19",
-      "Domain": null,
+      "Domain": "01net.com",
       "BreachDate": "2026-2-19",
       "AddedDate": "2026-03-11T14:30:07.265Z",
       "ModifiedDate": "2026-03-11T14:30:07.265Z",
@@ -5706,7 +5706,7 @@
     {
       "Name": "fédération française du sport automobile (ffsa)",
       "Title": "fédération française du sport automobile (ffsa) fuite du 2026-2-14",
-      "Domain": null,
+      "Domain": "x.com",
       "BreachDate": "2026-2-14",
       "AddedDate": "2026-03-11T14:30:06.754Z",
       "ModifiedDate": "2026-03-11T14:30:06.754Z",
@@ -6501,7 +6501,7 @@
     {
       "Name": "sumsub",
       "Title": "sumsub fuite du 2026-2-9",
-      "Domain": null,
+      "Domain": "cryptoast.fr",
       "BreachDate": "2026-2-9",
       "AddedDate": "2026-03-11T14:30:10.628Z",
       "ModifiedDate": "2026-03-11T14:30:10.628Z",
@@ -6680,7 +6680,7 @@
     {
       "Name": "office français de la biodiversité",
       "Title": "office français de la biodiversité fuite du 2026-2-7",
-      "Domain": null,
+      "Domain": "ofb.gouv.fr",
       "BreachDate": "2026-2-7",
       "AddedDate": "2026-03-11T14:30:09.151Z",
       "ModifiedDate": "2026-03-11T14:30:09.151Z",
@@ -6835,7 +6835,7 @@
     {
       "Name": "fédération française de voile",
       "Title": "fédération française de voile fuite du 2026-2-6",
-      "Domain": null,
+      "Domain": "letelegramme.fr",
       "BreachDate": "2026-2-6",
       "AddedDate": "2026-03-11T14:30:06.600Z",
       "ModifiedDate": "2026-03-11T14:30:06.600Z",
@@ -7170,7 +7170,7 @@
     {
       "Name": "substack",
       "Title": "substack fuite du 2026-2-5",
-      "Domain": null,
+      "Domain": "lorichristian.substack.com",
       "BreachDate": "2026-2-5",
       "AddedDate": "2026-03-11T14:30:10.599Z",
       "ModifiedDate": "2026-03-11T14:30:10.599Z",
@@ -7474,7 +7474,7 @@
     {
       "Name": "Médecins Remplaçants (Base de données 2026)",
       "Title": "Médecins Remplaçants (Base de données 2026)",
-      "Domain": "",
+      "Domain": "christopheboutry.com",
       "BreachDate": "2026-01-31",
       "AddedDate": "2026-03-11T14:30:14.593Z",
       "ModifiedDate": "2026-03-11T14:30:14.593Z",
@@ -7893,7 +7893,7 @@
     {
       "Name": "Multi-Agences Immobilières Françaises - 500gb",
       "Title": "Multi-Agences Immobilières Françaises - 500gb",
-      "Domain": "",
+      "Domain": "christopheboutry.com",
       "BreachDate": "2026-01-29",
       "AddedDate": "2026-03-11T14:30:14.882Z",
       "ModifiedDate": "2026-03-11T14:30:14.882Z",
@@ -8324,7 +8324,7 @@
     {
       "Name": "lyleoo",
       "Title": "lyleoo fuite du 2026-1-28",
-      "Domain": null,
+      "Domain": "acuite.fr",
       "BreachDate": "2026-1-28",
       "AddedDate": "2026-03-11T14:30:08.250Z",
       "ModifiedDate": "2026-03-11T14:30:08.250Z",
@@ -8994,7 +8994,7 @@
     {
       "Name": "fédération française de chasse",
       "Title": "fédération française de chasse fuite du 2026-1-23",
-      "Domain": null,
+      "Domain": "chasseurdefrance.com",
       "BreachDate": "2026-1-23",
       "AddedDate": "2026-03-11T14:30:05.930Z",
       "ModifiedDate": "2026-03-11T14:30:05.930Z",
@@ -9339,7 +9339,7 @@
     {
       "Name": "waltio",
       "Title": "waltio fuite du 2026-1-23",
-      "Domain": null,
+      "Domain": "waltio.com",
       "BreachDate": "2026-1-23",
       "AddedDate": "2026-03-11T14:30:11.255Z",
       "ModifiedDate": "2026-03-11T14:30:11.255Z",
@@ -9501,7 +9501,7 @@
     {
       "Name": "conseiljuridique.net",
       "Title": "conseiljuridique.net fuite du 2026-1-20",
-      "Domain": null,
+      "Domain": "conseiljuridique.net",
       "BreachDate": "2026-1-20",
       "AddedDate": "2026-03-11T14:30:04.597Z",
       "ModifiedDate": "2026-03-11T14:30:04.597Z",
@@ -9577,7 +9577,7 @@
     {
       "Name": "france éducation international fuite du 2026-1-20",
       "Title": "france éducation international fuite du 2026-1-20",
-      "Domain": null,
+      "Domain": "france-education-international.fr",
       "BreachDate": "2026-1-20",
       "AddedDate": "2026-03-11T14:30:05.754Z",
       "ModifiedDate": "2026-03-11T14:30:05.754Z",
@@ -9615,7 +9615,7 @@
     {
       "Name": "dce conseil",
       "Title": "dce conseil fuite du 2026-1-19",
-      "Domain": null,
+      "Domain": "01net.com",
       "BreachDate": "2026-1-19",
       "AddedDate": "2026-03-11T14:30:04.870Z",
       "ModifiedDate": "2026-03-11T14:30:04.870Z",
@@ -9767,7 +9767,7 @@
     {
       "Name": "urssaf",
       "Title": "urssaf fuite du 2026-1-19",
-      "Domain": null,
+      "Domain": "20minutes.fr",
       "BreachDate": "2026-1-19",
       "AddedDate": "2026-03-11T14:30:11.056Z",
       "ModifiedDate": "2026-03-11T14:30:11.056Z",
@@ -10365,7 +10365,7 @@
     {
       "Name": "fédération française de montagne escalade",
       "Title": "fédération française de montagne escalade fuite du 2026-1-15",
-      "Domain": null,
+      "Domain": "ffme.fr",
       "BreachDate": "2026-1-15",
       "AddedDate": "2026-03-11T14:30:06.215Z",
       "ModifiedDate": "2026-03-11T14:30:06.215Z",
@@ -10479,7 +10479,7 @@
     {
       "Name": "service public",
       "Title": "service public fuite du 2026-1-15",
-      "Domain": null,
+      "Domain": "journaldugeek.com",
       "BreachDate": "2026-1-15",
       "AddedDate": "2026-03-11T14:30:10.429Z",
       "ModifiedDate": "2026-03-11T14:30:10.429Z",
@@ -10700,7 +10700,7 @@
     {
       "Name": "monlogicielmedical.com",
       "Title": "monlogicielmedical.com fuite du 2026-1-12",
-      "Domain": null,
+      "Domain": "monlogicielmedical.com",
       "BreachDate": "2026-1-12",
       "AddedDate": "2026-03-11T14:30:08.818Z",
       "ModifiedDate": "2026-03-11T14:30:08.818Z",
@@ -10740,7 +10740,7 @@
     {
       "Name": "nephael.com & chloesanchez.com",
       "Title": "nephael.com & chloesanchez.com fuite du 2026-1-12",
-      "Domain": null,
+      "Domain": "nephael.com",
       "BreachDate": "2026-1-12",
       "AddedDate": "2026-03-11T14:30:09.040Z",
       "ModifiedDate": "2026-03-11T14:30:09.040Z",
@@ -11637,7 +11637,7 @@
     {
       "Name": "ledger",
       "Title": "ledger fuite du 2026-1-7",
-      "Domain": null,
+      "Domain": "leparisien.fr",
       "BreachDate": "2026-1-7",
       "AddedDate": "2026-03-11T14:30:08.008Z",
       "ModifiedDate": "2026-03-11T14:30:08.008Z",
@@ -11802,7 +11802,7 @@
     {
       "Name": "Loft by Denis Moines(salon de coiffure, Paris)",
       "Title": "Loft by Denis Moines(salon de coiffure, Paris)",
-      "Domain": "",
+      "Domain": "christopheboutry.com",
       "BreachDate": "2026-01-06",
       "AddedDate": "2026-03-11T14:30:16.543Z",
       "ModifiedDate": "2026-03-11T14:30:16.543Z",
@@ -11983,7 +11983,7 @@
     {
       "Name": "office français de l’immigration et de l’intégration",
       "Title": "office français de l’immigration et de l’intégration fuite du 2026-1-5",
-      "Domain": null,
+      "Domain": "lemonde.fr",
       "BreachDate": "2026-1-5",
       "AddedDate": "2026-03-11T14:30:09.178Z",
       "ModifiedDate": "2026-03-11T14:30:09.178Z",
@@ -12651,7 +12651,7 @@
     {
       "Name": "école de management de grenoble",
       "Title": "école de management de grenoble fuite du 2025-12-29",
-      "Domain": null,
+      "Domain": "grenoble-em.com",
       "BreachDate": "2025-12-29T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:11.490Z",
       "ModifiedDate": "2026-03-11T14:30:11.490Z",
@@ -13071,7 +13071,7 @@
     {
       "Name": "eni",
       "Title": "eni fuite du 2025-12-27",
-      "Domain": null,
+      "Domain": "clubic.com",
       "BreachDate": "2025-12-27T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:05.284Z",
       "ModifiedDate": "2026-03-11T14:30:05.284Z",
@@ -13187,7 +13187,7 @@
     {
       "Name": "commune de lens",
       "Title": "commune de lens fuite du 2025-12-26",
-      "Domain": null,
+      "Domain": "francebleu.fr",
       "BreachDate": "2025-12-26T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:04.540Z",
       "ModifiedDate": "2026-03-11T14:30:04.540Z",
@@ -13225,7 +13225,7 @@
     {
       "Name": "fédération française de kick boxing",
       "Title": "fédération française de kick boxing fuite du 2025-12-26",
-      "Domain": null,
+      "Domain": "xcancel.com",
       "BreachDate": "2025-12-26T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:06.158Z",
       "ModifiedDate": "2026-03-11T14:30:06.158Z",
@@ -13440,7 +13440,7 @@
     {
       "Name": "123 casting",
       "Title": "123 casting fuite du 2025-12-22",
-      "Domain": null,
+      "Domain": "xcancel.com",
       "BreachDate": "2025-12-22T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:02.702Z",
       "ModifiedDate": "2026-03-11T14:30:02.702Z",
@@ -13480,7 +13480,7 @@
     {
       "Name": "altitude infra",
       "Title": "altitude infra fuite du 2025-12-22",
-      "Domain": null,
+      "Domain": "botcrawl.com",
       "BreachDate": "2025-12-22T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:03.158Z",
       "ModifiedDate": "2026-03-11T14:30:03.158Z",
@@ -13518,7 +13518,7 @@
     {
       "Name": "justice.fr",
       "Title": "justice.fr fuite du 2025-12-22",
-      "Domain": null,
+      "Domain": "xcancel.com",
       "BreachDate": "2025-12-22T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:07.557Z",
       "ModifiedDate": "2026-03-11T14:30:07.557Z",
@@ -13637,7 +13637,7 @@
     {
       "Name": "ministère des sports",
       "Title": "ministère des sports fuite du 2025-12-19",
-      "Domain": null,
+      "Domain": "lindependant.fr",
       "BreachDate": "2025-12-19T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:08.732Z",
       "ModifiedDate": "2026-03-11T14:30:08.732Z",
@@ -13828,7 +13828,7 @@
     {
       "Name": "pornhub",
       "Title": "pornhub fuite du 2025-12-16",
-      "Domain": null,
+      "Domain": "help.pornhub.com",
       "BreachDate": "2025-12-16T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:09.946Z",
       "ModifiedDate": "2026-03-11T14:30:09.946Z",
@@ -13952,7 +13952,7 @@
     {
       "Name": "ministère de l’intérieur",
       "Title": "ministère de l’intérieur fuite du 2025-12-13",
-      "Domain": null,
+      "Domain": "rtl.fr",
       "BreachDate": "2025-12-13T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:08.706Z",
       "ModifiedDate": "2026-03-11T14:30:08.706Z",
@@ -14070,7 +14070,7 @@
     {
       "Name": "fédération française de cyclisme",
       "Title": "fédération française de cyclisme fuite du 2025-12-10",
-      "Domain": null,
+      "Domain": "structures.ffc.fr",
       "BreachDate": "2025-12-10T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:05.957Z",
       "ModifiedDate": "2026-03-11T14:30:05.957Z",
@@ -14108,7 +14108,7 @@
     {
       "Name": "résidence du parc (champdeniers",
       "Title": "résidence du parc (champdeniers fuite du 2025-12-10",
-      "Domain": null,
+      "Domain": "lanouvellerepublique.fr",
       "BreachDate": "2025-12-10T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:10.286Z",
       "ModifiedDate": "2026-03-11T14:30:10.286Z",
@@ -14406,7 +14406,7 @@
     {
       "Name": "leroy merlin",
       "Title": "leroy merlin fuite du 2025-12-2",
-      "Domain": null,
+      "Domain": "leroymerlin.fr",
       "BreachDate": "2025-12-2",
       "AddedDate": "2026-03-11T14:30:08.035Z",
       "ModifiedDate": "2026-03-11T14:30:08.035Z",
@@ -14556,7 +14556,7 @@
     {
       "Name": "la rochelle",
       "Title": "la rochelle fuite du 2025-11-27",
-      "Domain": null,
+      "Domain": "sudouest.fr",
       "BreachDate": "2025-11-27T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:07.848Z",
       "ModifiedDate": "2026-03-11T14:30:07.848Z",
@@ -14765,7 +14765,7 @@
     {
       "Name": "itelis",
       "Title": "itelis fuite du 2025-11-25",
-      "Domain": null,
+      "Domain": "bfmtv.com",
       "BreachDate": "2025-11-25T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:07.528Z",
       "ModifiedDate": "2026-03-11T14:30:07.528Z",
@@ -15018,7 +15018,7 @@
     {
       "Name": "mairie de quimper",
       "Title": "mairie de quimper fuite du 2025-11-24",
-      "Domain": null,
+      "Domain": "letelegramme.fr",
       "BreachDate": "2025-11-24T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:08.385Z",
       "ModifiedDate": "2026-03-11T14:30:08.385Z",
@@ -15172,7 +15172,7 @@
     {
       "Name": "michelin",
       "Title": "michelin fuite du 2025-11-21",
-      "Domain": null,
+      "Domain": "botcrawl.com",
       "BreachDate": "2025-11-21T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:08.654Z",
       "ModifiedDate": "2026-03-11T14:30:08.654Z",
@@ -15248,7 +15248,7 @@
     {
       "Name": "suzuki",
       "Title": "suzuki fuite du 2025-11-20",
-      "Domain": null,
+      "Domain": "suzuki.fr",
       "BreachDate": "2025-11-20T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:10.656Z",
       "ModifiedDate": "2026-03-11T14:30:10.656Z",
@@ -15336,7 +15336,7 @@
     {
       "Name": "synbird",
       "Title": "synbird fuite du 2025-11-18",
-      "Domain": null,
+      "Domain": "france3-regions.franceinfo.fr",
       "BreachDate": "2025-11-18T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:10.711Z",
       "ModifiedDate": "2026-03-11T14:30:10.711Z",
@@ -15424,7 +15424,7 @@
     {
       "Name": "mairie de brest",
       "Title": "mairie de brest fuite du 2025-11-17",
-      "Domain": null,
+      "Domain": "xcancel.com",
       "BreachDate": "2025-11-17T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:08.302Z",
       "ModifiedDate": "2026-03-11T14:30:08.302Z",
@@ -15462,7 +15462,7 @@
     {
       "Name": "pajemploi",
       "Title": "pajemploi fuite du 2025-11-17",
-      "Domain": null,
+      "Domain": "urssaf.fr",
       "BreachDate": "2025-11-17T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:09.518Z",
       "ModifiedDate": "2026-03-11T14:30:09.518Z",
@@ -15766,7 +15766,7 @@
     {
       "Name": "fédération française de cardiologie",
       "Title": "fédération française de cardiologie fuite du 2025-11-11",
-      "Domain": null,
+      "Domain": "next.ink",
       "BreachDate": "2025-11-11T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:05.898Z",
       "ModifiedDate": "2026-03-11T14:30:05.898Z",
@@ -15889,7 +15889,7 @@
     {
       "Name": "mym",
       "Title": "mym fuite du 2025-11-7",
-      "Domain": null,
+      "Domain": "xcancel.com",
       "BreachDate": "2025-11-7",
       "AddedDate": "2026-03-11T14:30:08.986Z",
       "ModifiedDate": "2026-03-11T14:30:08.986Z",
@@ -16205,7 +16205,7 @@
     {
       "Name": "fédération française de tir",
       "Title": "fédération française de tir fuite du 2025-10-23",
-      "Domain": null,
+      "Domain": "fftir.org",
       "BreachDate": "2025-10-23T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:06.507Z",
       "ModifiedDate": "2026-03-11T14:30:06.507Z",
@@ -16243,7 +16243,7 @@
     {
       "Name": "agences régionales de santé de l’île",
       "Title": "agences régionales de santé de l’île fuite du 2025-10-22",
-      "Domain": null,
+      "Domain": "xcancel.com",
       "BreachDate": "2025-10-22T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:02.974Z",
       "ModifiedDate": "2026-03-11T14:30:02.974Z",
@@ -16326,7 +16326,7 @@
     {
       "Name": "centre hospitalier intercommunal de haute",
       "Title": "centre hospitalier intercommunal de haute fuite du 2025-10-19",
-      "Domain": null,
+      "Domain": "pleinair.net",
       "BreachDate": "2025-10-19T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:04.007Z",
       "ModifiedDate": "2026-03-11T14:30:04.007Z",
@@ -16402,7 +16402,7 @@
     {
       "Name": "agence régionale de santé des hauts",
       "Title": "agence régionale de santé des hauts fuite du 2025-10-14",
-      "Domain": null,
+      "Domain": "info.inea.fr",
       "BreachDate": "2025-10-14T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:02.947Z",
       "ModifiedDate": "2026-03-11T14:30:02.947Z",
@@ -16593,7 +16593,7 @@
     {
       "Name": "discord",
       "Title": "discord fuite du 2025-10-4",
-      "Domain": null,
+      "Domain": "next.ink",
       "BreachDate": "2025-10-4",
       "AddedDate": "2026-03-11T14:30:05.063Z",
       "ModifiedDate": "2026-03-11T14:30:05.063Z",
@@ -16716,7 +16716,7 @@
     {
       "Name": "la nef",
       "Title": "la nef fuite du 2025-9-25",
-      "Domain": null,
+      "Domain": "next.ink",
       "BreachDate": "2025-9-25",
       "AddedDate": "2026-03-11T14:30:07.797Z",
       "ModifiedDate": "2026-03-11T14:30:07.797Z",
@@ -16869,7 +16869,7 @@
     {
       "Name": "fédération française de tennis de table",
       "Title": "fédération française de tennis de table fuite du 2025-9-19",
-      "Domain": null,
+      "Domain": "fftt.com",
       "BreachDate": "2025-9-19",
       "AddedDate": "2026-03-11T14:30:06.475Z",
       "ModifiedDate": "2026-03-11T14:30:06.475Z",
@@ -16907,7 +16907,7 @@
     {
       "Name": "clarins",
       "Title": "clarins fuite du 2025-9-18",
-      "Domain": null,
+      "Domain": "usine-digitale.fr",
       "BreachDate": "2025-9-18",
       "AddedDate": "2026-03-11T14:30:04.261Z",
       "ModifiedDate": "2026-03-11T14:30:04.261Z",
@@ -17237,7 +17237,7 @@
     {
       "Name": "france link interactive fuite du 2025-8-13",
       "Title": "france link interactive fuite du 2025-8-13",
-      "Domain": null,
+      "Domain": "status.francelink.net",
       "BreachDate": "2025-8-13",
       "AddedDate": "2026-03-11T14:30:05.668Z",
       "ModifiedDate": "2026-03-11T14:30:05.668Z",
@@ -17275,7 +17275,7 @@
     {
       "Name": "google",
       "Title": "google fuite du 2025-8-13",
-      "Domain": null,
+      "Domain": "01net.com",
       "BreachDate": "2025-8-13",
       "AddedDate": "2026-03-11T14:30:06.975Z",
       "ModifiedDate": "2026-03-11T14:30:06.975Z",
@@ -17837,7 +17837,7 @@
     {
       "Name": "orange",
       "Title": "orange fuite du 2025-7-25",
-      "Domain": null,
+      "Domain": "newsroom.orange.com",
       "BreachDate": "2025-7-25",
       "AddedDate": "2026-03-11T14:30:09.342Z",
       "ModifiedDate": "2026-03-11T14:30:09.342Z",
@@ -17875,7 +17875,7 @@
     {
       "Name": "groupe 5àsec",
       "Title": "groupe 5àsec fuite du 2025-7-22",
-      "Domain": null,
+      "Domain": "xcancel.com",
       "BreachDate": "2025-7-22",
       "AddedDate": "2026-03-11T14:30:07.053Z",
       "ModifiedDate": "2026-03-11T14:30:07.053Z",
@@ -17991,7 +17991,7 @@
     {
       "Name": "centre national de la fonction publique territoriale",
       "Title": "centre national de la fonction publique territoriale fuite du 2025-7-11",
-      "Domain": null,
+      "Domain": "cnfpt.fr",
       "BreachDate": "2025-7-11",
       "AddedDate": "2026-03-11T14:30:04.062Z",
       "ModifiedDate": "2026-03-11T14:30:04.062Z",
@@ -18031,7 +18031,7 @@
     {
       "Name": "louis vuitton",
       "Title": "louis vuitton fuite du 2025-7-11",
-      "Domain": null,
+      "Domain": "next.ink",
       "BreachDate": "2025-7-11",
       "AddedDate": "2026-03-11T14:30:08.141Z",
       "ModifiedDate": "2026-03-11T14:30:08.141Z",
@@ -18069,7 +18069,7 @@
     {
       "Name": "union nationale du sport scolaire",
       "Title": "union nationale du sport scolaire fuite du 2025-7-7",
-      "Domain": null,
+      "Domain": "xcancel.com",
       "BreachDate": "2025-7-7",
       "AddedDate": "2026-03-11T14:30:10.972Z",
       "ModifiedDate": "2026-03-11T14:30:10.972Z",
@@ -18254,7 +18254,7 @@
     {
       "Name": "disneyland",
       "Title": "disneyland fuite du 2025-6-21",
-      "Domain": null,
+      "Domain": "xcancel.com",
       "BreachDate": "2025-6-21",
       "AddedDate": "2026-03-11T14:30:05.091Z",
       "ModifiedDate": "2026-03-11T14:30:05.091Z",
@@ -18297,7 +18297,7 @@
     {
       "Name": "hôpital privé de la loire",
       "Title": "hôpital privé de la loire fuite du 2025-6-21",
-      "Domain": null,
+      "Domain": "xcancel.com",
       "BreachDate": "2025-6-21",
       "AddedDate": "2026-03-11T14:30:07.240Z",
       "ModifiedDate": "2026-03-11T14:30:07.240Z",
@@ -18714,7 +18714,7 @@
     {
       "Name": "dior",
       "Title": "dior fuite du 2025-5-13",
-      "Domain": null,
+      "Domain": "lemonde.fr",
       "BreachDate": "2025-5-13",
       "AddedDate": "2026-03-11T14:30:04.981Z",
       "ModifiedDate": "2026-03-11T14:30:04.981Z",
@@ -18928,7 +18928,7 @@
     {
       "Name": "carrefour mobile",
       "Title": "carrefour mobile fuite du 2025-4-24",
-      "Domain": null,
+      "Domain": "gondola.be",
       "BreachDate": "2025-4-24",
       "AddedDate": "2026-03-11T14:30:03.755Z",
       "ModifiedDate": "2026-03-11T14:30:03.755Z",
@@ -19151,7 +19151,7 @@
     {
       "Name": "harvest",
       "Title": "harvest fuite du 2025-4-11",
-      "Domain": null,
+      "Domain": "01net.com",
       "BreachDate": "2025-4-11",
       "AddedDate": "2026-03-11T14:30:07.132Z",
       "ModifiedDate": "2026-03-11T14:30:07.132Z",
@@ -19391,7 +19391,7 @@
     {
       "Name": "maif & bpce",
       "Title": "maif & bpce fuite du 2025-3-28",
-      "Domain": null,
+      "Domain": "leparisien.fr",
       "BreachDate": "2025-3-28",
       "AddedDate": "2026-03-11T14:30:08.276Z",
       "ModifiedDate": "2026-03-11T14:30:08.276Z",
@@ -19469,7 +19469,7 @@
     {
       "Name": "oracle cloud",
       "Title": "oracle cloud fuite du 2025-3-27",
-      "Domain": null,
+      "Domain": "lemondeinformatique.fr",
       "BreachDate": "2025-3-27",
       "AddedDate": "2026-03-11T14:30:09.315Z",
       "ModifiedDate": "2026-03-11T14:30:09.315Z",
@@ -19626,7 +19626,7 @@
     {
       "Name": "cerballiance",
       "Title": "cerballiance fuite du 2025-3-25",
-      "Domain": null,
+      "Domain": "clubic.com",
       "BreachDate": "2025-3-25",
       "AddedDate": "2026-03-11T14:30:04.090Z",
       "ModifiedDate": "2026-03-11T14:30:04.090Z",
@@ -20491,7 +20491,7 @@
     {
       "Name": "ALIEN TXTBASE Stealer Logs",
       "Title": "ALIEN TXTBASE Stealer Logs",
-      "Domain": "",
+      "Domain": "lemagit.fr",
       "BreachDate": "2025-02-15",
       "PwnCount": 284132969,
       "Description": "284 132 969\n\nStatut: confirmée\nType de service: Cybercrime dataset",
@@ -20680,7 +20680,7 @@
     {
       "Name": "caisse des dépôts et des consignations",
       "Title": "caisse des dépôts et des consignations fuite du 2025-2-12",
-      "Domain": null,
+      "Domain": "francetvinfo.fr",
       "BreachDate": "2025-2-12",
       "AddedDate": "2026-03-11T14:30:03.727Z",
       "ModifiedDate": "2026-03-11T14:30:03.727Z",
@@ -20718,7 +20718,7 @@
     {
       "Name": "chronopost",
       "Title": "chronopost fuite du 2025-2-12",
-      "Domain": null,
+      "Domain": "next.ink",
       "BreachDate": "2025-2-12",
       "AddedDate": "2026-03-11T14:30:04.233Z",
       "ModifiedDate": "2026-03-11T14:30:04.233Z",
@@ -20958,7 +20958,7 @@
     {
       "Name": "aides",
       "Title": "aides fuite du 2025-1-27",
-      "Domain": null,
+      "Domain": "next.ink",
       "BreachDate": "2025-1-27",
       "AddedDate": "2026-03-11T14:30:03.028Z",
       "ModifiedDate": "2026-03-11T14:30:03.028Z",
@@ -21037,7 +21037,7 @@
     {
       "Name": "e.leclerc",
       "Title": "e.leclerc fuite du 2025-1-24",
-      "Domain": null,
+      "Domain": "e.leclerc",
       "BreachDate": "2025-1-24",
       "AddedDate": "2026-03-11T14:30:05.119Z",
       "ModifiedDate": "2026-03-11T14:30:05.119Z",
@@ -21592,7 +21592,7 @@
     {
       "Name": "atos",
       "Title": "atos fuite du 2024-12-30",
-      "Domain": null,
+      "Domain": "next.ink",
       "BreachDate": "2024-12-30T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:03.321Z",
       "ModifiedDate": "2026-03-11T14:30:03.321Z",
@@ -21630,7 +21630,7 @@
     {
       "Name": "arsoé",
       "Title": "arsoé fuite du 2024-12-27",
-      "Domain": null,
+      "Domain": "ladepeche.fr",
       "BreachDate": "2024-12-27T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:03.241Z",
       "ModifiedDate": "2026-03-11T14:30:03.241Z",
@@ -21668,7 +21668,7 @@
     {
       "Name": "volkswagen",
       "Title": "volkswagen fuite du 2024-12-27",
-      "Domain": null,
+      "Domain": "cybersecuritynews.com",
       "BreachDate": "2024-12-27T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:11.199Z",
       "ModifiedDate": "2026-03-11T14:30:11.199Z",
@@ -21706,7 +21706,7 @@
     {
       "Name": "peugeot",
       "Title": "peugeot fuite du 2024-12-26",
-      "Domain": null,
+      "Domain": "20minutes.fr",
       "BreachDate": "2024-12-26T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:09.750Z",
       "ModifiedDate": "2026-03-11T14:30:09.750Z",
@@ -21744,7 +21744,7 @@
     {
       "Name": "cyberhaven",
       "Title": "cyberhaven fuite du 2024-12-25",
-      "Domain": null,
+      "Domain": "lemagit.fr",
       "BreachDate": "2024-12-25T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:04.737Z",
       "ModifiedDate": "2026-03-11T14:30:04.737Z",
@@ -21822,7 +21822,7 @@
     {
       "Name": "electro dépôt",
       "Title": "electro dépôt fuite du 2024-12-20",
-      "Domain": null,
+      "Domain": "cybernews.com",
       "BreachDate": "2024-12-20T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:05.257Z",
       "ModifiedDate": "2026-03-11T14:30:05.257Z",
@@ -21986,7 +21986,7 @@
     {
       "Name": "ldlc",
       "Title": "ldlc fuite du 2024-12-10",
-      "Domain": null,
+      "Domain": "groupe-ldlc.com",
       "BreachDate": "2024-12-10T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:07.900Z",
       "ModifiedDate": "2026-03-11T14:30:07.900Z",
@@ -22024,7 +22024,7 @@
     {
       "Name": "deloitte",
       "Title": "deloitte fuite du 2024-12-4",
-      "Domain": null,
+      "Domain": "cybersecuritynews.com",
       "BreachDate": "2024-12-4",
       "AddedDate": "2026-03-11T14:30:04.927Z",
       "ModifiedDate": "2026-03-11T14:30:04.927Z",
@@ -22062,7 +22062,7 @@
     {
       "Name": "guy demarle",
       "Title": "guy demarle fuite du 2024-12-3",
-      "Domain": null,
+      "Domain": "01net.com",
       "BreachDate": "2024-12-3",
       "AddedDate": "2026-03-11T14:30:07.105Z",
       "ModifiedDate": "2026-03-11T14:30:07.105Z",
@@ -22425,7 +22425,7 @@
     {
       "Name": "chambres d’agriculture",
       "Title": "chambres d’agriculture fuite du 2024-11-21",
-      "Domain": null,
+      "Domain": "ladepeche.fr",
       "BreachDate": "2024-11-21T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:04.177Z",
       "ModifiedDate": "2026-03-11T14:30:04.177Z",
@@ -22463,7 +22463,7 @@
     {
       "Name": "mediboard",
       "Title": "mediboard fuite du 2024-11-19",
-      "Domain": null,
+      "Domain": "clubic.com",
       "BreachDate": "2024-11-19T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:08.602Z",
       "ModifiedDate": "2026-03-11T14:30:08.602Z",
@@ -22542,7 +22542,7 @@
     {
       "Name": "le point",
       "Title": "le point fuite du 2024-11-18",
-      "Domain": null,
+      "Domain": "lepoint.fr",
       "BreachDate": "2024-11-18T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:07.957Z",
       "ModifiedDate": "2026-03-11T14:30:07.957Z",
@@ -22904,7 +22904,7 @@
     {
       "Name": "ornikar",
       "Title": "ornikar fuite du 2024-10-24",
-      "Domain": null,
+      "Domain": "numerama.com",
       "BreachDate": "2024-10-24T00:00:00.000Z",
       "AddedDate": "2026-03-11T14:30:09.406Z",
       "ModifiedDate": "2026-03-11T14:30:09.406Z",
@@ -23239,7 +23239,7 @@
     {
       "Name": "meilleurtaux",
       "Title": "meilleurtaux fuite du 2024-9-30",
-      "Domain": null,
+      "Domain": "numerama.com",
       "BreachDate": "2024-9-30",
       "AddedDate": "2026-03-11T14:30:08.627Z",
       "ModifiedDate": "2026-03-11T14:30:08.627Z",
@@ -23401,7 +23401,7 @@
     {
       "Name": "red by sfr",
       "Title": "red by sfr fuite du 2024-9-18",
-      "Domain": null,
+      "Domain": "next.ink",
       "BreachDate": "2024-9-18",
       "AddedDate": "2026-03-11T14:30:10.087Z",
       "ModifiedDate": "2026-03-11T14:30:10.087Z",
@@ -23484,7 +23484,7 @@
     {
       "Name": "assurance retraite",
       "Title": "assurance retraite fuite du 2024-9-13",
-      "Domain": null,
+      "Domain": "lemonde.fr",
       "BreachDate": "2024-9-13",
       "AddedDate": "2026-03-11T14:30:03.295Z",
       "ModifiedDate": "2026-03-11T14:30:03.295Z",
@@ -23566,7 +23566,7 @@
     {
       "Name": "cybertek",
       "Title": "cybertek fuite du 2024-9-12",
-      "Domain": null,
+      "Domain": "next.ink",
       "BreachDate": "2024-9-12",
       "AddedDate": "2026-03-11T14:30:04.764Z",
       "ModifiedDate": "2026-03-11T14:30:04.764Z",
@@ -23965,7 +23965,7 @@
     {
       "Name": "Alleged-SOCRadar",
       "Title": "Alleged-SOCRadar",
-      "Domain": "",
+      "Domain": "xposedornot.com",
       "BreachDate": "2024-08-01",
       "PwnCount": 282977267,
       "Description": "SOCRadar faced allegations from a threat actor, identified as USDoD, claiming a leak of over 330 million email addresses. However, SOCRadar's investigation revealed no breach of its internal systems. The actor had legitimately acquired access to SOCRadar's platform and utilized its capabilities to gather publicly available email addresses from Telegram channels. SOCRadar confirmed that no customer data or sensitive internal information was compromised.",
@@ -25046,7 +25046,7 @@
     {
       "Name": "ticketmaster",
       "Title": "ticketmaster fuite du 2024-4-28",
-      "Domain": null,
+      "Domain": "clubic.com",
       "BreachDate": "2024-4-28",
       "AddedDate": "2026-03-11T14:30:10.800Z",
       "ModifiedDate": "2026-03-11T14:30:10.800Z",
@@ -25260,7 +25260,7 @@
     {
       "Name": "le slip français",
       "Title": "le slip français fuite du 2024-4-15",
-      "Domain": null,
+      "Domain": "journaldugeek.com",
       "BreachDate": "2024-4-15",
       "AddedDate": "2026-03-11T14:30:07.982Z",
       "ModifiedDate": "2026-03-11T14:30:07.982Z",
@@ -26276,7 +26276,7 @@
     {
       "Name": "almerys",
       "Title": "almerys fuite du 2024-2-6",
-      "Domain": null,
+      "Domain": "cnil.fr",
       "BreachDate": "2024-2-6",
       "AddedDate": "2026-03-11T14:30:03.134Z",
       "ModifiedDate": "2026-03-11T14:30:03.134Z",
@@ -26985,7 +26985,7 @@
     {
       "Name": "Naz.API",
       "Title": "Naz.API",
-      "Domain": "",
+      "Domain": "xposedornot.com",
       "BreachDate": "2023-09-01",
       "PwnCount": 71064705,
       "Description": "The Naz.API Data Breach in September 2023 involved the publication of over 100GB of stealer logs and credential stuffing lists on a popular hacking forum. The data included 71 million unique email addresses and 100 million unique passwords, combining email and plain text password pairs linked to specific services, as well as standalone credentials from unnamed sources.",
@@ -32265,7 +32265,7 @@
     {
       "Name": "ATT-Speculated",
       "Title": "ATT-Speculated",
-      "Domain": "",
+      "Domain": "xposedornot.com",
       "BreachDate": "2021-08-01",
       "PwnCount": 49102843,
       "Description": "The speculated 2021 AT&amp;T Data Breach refers to claims of 71 million customer records being leaked. AT&amp;T denies these records came from their systems, citing a lack of evidence for a breach. However, some of the data has been verified as accurate, implicating it may concern AT&amp;T customers. The precise origin of the data is still uncertain, with AT&amp;T indicating it might not have directly originated from their databases.",
@@ -46980,7 +46980,7 @@
     {
       "Name": "1.4BillionRecords",
       "Title": "1.4BillionRecords",
-      "Domain": "",
+      "Domain": "xposedornot.com",
       "BreachDate": "2017-03-01",
       "PwnCount": 1114303554,
       "Description": "A company called 4iQ in 2017, discovered a massive database of stolen usernames and passwords that was being traded on the dark web. The database, which was referred to as the \"\"largest-ever\"\" breach at the time, contained over 1.4 billion unique username and password combinations, as well as other personal information such as email addresses and IP addresses.",
