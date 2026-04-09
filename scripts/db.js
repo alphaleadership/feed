@@ -2,22 +2,37 @@ const path = require('path');
 const fs = require('fs');
 
 /**
- * Charge les slugs à supprimer depuis le fichier
+ * Charge les slugs à supprimer depuis le fichier et nettoie les lignes vides
  */
 function loadBlacklistedSlugs() {
     const baseDir = process.cwd();
     const slugsFile = path.join(baseDir, 'slugs-a-supprimer.txt');
     
     const slugsToRemove = new Set();
+    let cleanedSlugs = [];
+    let hadEmptyLines = false;
+    
     if (fs.existsSync(slugsFile)) {
         try {
             const content = fs.readFileSync(slugsFile, 'utf-8');
-            content.split('\n').forEach(slug => {
+            const lines = content.split('\n');
+            
+            lines.forEach(slug => {
                 const trimmed = slug.trim().replace(/\r/g, '');
                 if (trimmed) {
                     slugsToRemove.add(trimmed);
+                    cleanedSlugs.push(trimmed);
+                } else if (slug.length > 0) {
+                    hadEmptyLines = true;
                 }
             });
+            
+            // Si le fichier avait des lignes vides, le réécrire propre
+            if (hadEmptyLines && cleanedSlugs.length > 0) {
+                const cleanedContent = cleanedSlugs.join('\n') + '\n';
+                fs.writeFileSync(slugsFile, cleanedContent, 'utf-8');
+                console.log(`[DB] Fichier slugs-a-supprimer.txt nettoyé (lignes vides supprimées)`);
+            }
         } catch (err) {
             console.warn('Avertissement: Impossible de charger les slugs à supprimer', err.message);
         }
