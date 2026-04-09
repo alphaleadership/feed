@@ -100,6 +100,24 @@
         </div>
       </div>
     </div>
+
+    <!-- Statistiques Sites Fermés -->
+    <div class="col-md-12 mb-4">
+      <div class="card bg-black border-matrix shadow-matrix" style="border-color: #6c757d !important;">
+        <div class="card-header border-matrix-bottom" style="border-bottom-color: #6c757d !important; background: rgba(108, 117, 125, 0.1) !important;">
+          <h3 class="matrix-font mb-0" style="color: #adb5bd;"><i class="fa fa-ban me-2"></i>🚫 Statistiques des Sites Fermés</h3>
+        </div>
+        <div class="card-body">
+          <div class="row" id="closed-sites-stats-container">
+            <div class="col-12 text-center py-5">
+              <div class="spinner-border" role="status" style="color: #6c757d;">
+                <span class="visually-hidden">Chargement...</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -175,6 +193,18 @@
           .slice(0, 5);
         
         renderIAStats(iaBreaches.length, iaCompromisedAccounts, iaPercentage, recentIABreaches);
+
+        // --- 5. Closed Sites Statistics ---
+        const closedSitesKeywords = ['site fermé', 'n\'existe plus', 'n existe plus', 'disparu', 'arrêté', 'cessation', 'fermeture', 'site closed', 'no longer exists', 'defunct', 'discontinued', 'ceased', 'shutdown', 'shut down'];
+        const closedBreaches = breaches.filter(b => {
+          const isSiteBlocked = b.isBlocked;
+          const descriptionHasKeyword = b.Description && closedSitesKeywords.some(kw => b.Description.toLowerCase().includes(kw));
+          const contentHasKeyword = b.content && closedSitesKeywords.some(kw => b.content.toLowerCase().includes(kw));
+          return isSiteBlocked || descriptionHasKeyword || contentHasKeyword;
+        });
+        const closedPercentage = ((closedBreaches.length / breaches.length) * 100).toFixed(2);
+        
+        renderClosedSitesStats(closedBreaches.length, closedPercentage);
       });
 
     function renderKPIs(count, pwn, verified, sensitive) {
@@ -250,6 +280,29 @@
       
       html += `
             </div>
+          </div>
+        </div>
+      `;
+      
+      container.innerHTML = html;
+    }
+
+    function renderClosedSitesStats(count, percentage) {
+      const container = document.getElementById('closed-sites-stats-container');
+      
+      let html = `
+        <div class="col-md-6 mb-3">
+          <div class="card bg-black p-3 text-center h-100" style="border: 1px solid #6c757d; background: rgba(108, 117, 125, 0.05);">
+            <i class="fa fa-ban mb-2" style="color: #adb5bd; font-size: 1.5rem;"></i>
+            <h3 class="matrix-font mb-0" style="color: #adb5bd;">${count}</h3>
+            <div class="text-muted small text-uppercase mt-1">Sites fermés détectés</div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <div class="card bg-black p-3 text-center h-100" style="border: 1px solid #6c757d; background: rgba(108, 117, 125, 0.05);">
+            <i class="fa fa-percent mb-2" style="color: #adb5bd; font-size: 1.5rem;"></i>
+            <h3 class="matrix-font mb-0" style="color: #adb5bd;">${percentage}%</h3>
+            <div class="text-muted small text-uppercase mt-1">Du total des fuites</div>
           </div>
         </div>
       `;
