@@ -1,7 +1,38 @@
 {
-  "lastUpdated": "2026-04-09T21:48:59.364Z",
-  "totalBreaches": 1448,
+  "lastUpdated": "2026-04-09T22:44:50.846Z",
+  "totalBreaches": 1449,
   "breaches": [
+    {
+      "Name": "DB Telecom",
+      "Title": "DB Telecom",
+      "Domain": "db-telecom.fr",
+      "BreachDate": "2026-04-10",
+      "PwnCount": 41470,
+      "Description": "41 470 fiches contacts clients uniques avec 30 410 emails, 44 202 numéros de téléphone et 41 470 mots de passe en clair, couvrant la période février 2019 à décembre 2025 (environ 6 ans et demi d'activité). Dump SQL de 455 Mo extrait le 7 avril 2026, totalisant ~2.8 millions de lignes réparties sur 61 tables, incluant 210 358 correspondances email intégrales, 55 652 documents référencés, 32 505 logs de connexion, 41 499 comptes WordPress et 23 comptes employés CRM. Mis en vente le 8 avril 2026 sur le forum spear[.]cx par l'acteur NormalLeVrai.\n\nStatut: Confirmée\nType de service: Opérateur télécom B2B",
+      "DataClasses": [
+        "Identité et coordonnées (civilité, nom, prénom, email, téléphone, fax, adresse postale complète)",
+        "Mots de passe en clair (41 470 contacts) et hash WordPress (41 499 comptes)",
+        "Données entreprises (raison sociale, SIRET, forme juridique, chiffre d'affaires)",
+        "Données commerciales et contractuelles (dossiers, forfaits, offres, matériel, codes RIO, engagements)",
+        "Correspondances email intégrales (210 358 échanges avec clients et tiers)",
+        "Documents référencés (55 652 factures, contrats PDF)",
+        "Logs et sécurité (sessions, IP, navigateur, OS, géolocalisation, empreintes, lockouts)",
+        "Comptes employés CRM (23 comptes avec profil, équipe, IP de connexion)",
+        "Configuration serveur (clés API, paramètres SMTP, options WordPress)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://media.licdn.com/dms/image/v2/C4D0BAQF6dOeKP3ftNw/company-logo_200_200/company-logo_200_200/0/1630548709738?e=2147483647&v=beta&t=Q8ty6oOD1Bi81sJUHkDyjVuwywBgLvaVgQ9adnRd3s8",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/04/DB-Telecom-leak-fuites-de-donnees.png",
+      "AddedDate": "2026-04-09T22:44:42.955Z",
+      "ModifiedDate": "2026-04-09T22:44:42.955Z",
+      "slug": "db-telecom",
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/DB-Telecom-leak-fuites-de-donnees.png"
+    },
     {
       "Name": "DCL (Diplôme de Compétence en Langue)",
       "Title": "DCL (Diplôme de Compétence en Langue)",
