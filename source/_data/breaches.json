@@ -15906,7 +15906,7 @@
       "source": "Manuel",
       "categories": [],
       "content": "-\n\npseudo • nom &amp; prénom • entreprise • adresse postale • date de naissance • mot de passe (hashé en MD5) • email • numéro de téléphone • adresse IP • réseaux sociaux (instagram\nfacebook\ntwitter\nsnapchat) • date d’inscription et de dernière connexion • Source&gt;",
-      "isNSFW": false,
+      "isNSFW": true,
       "lien": "https://xcancel.com/_SaxX_/status/1986701724623548561",
       "oldindex": 1215,
       "title": "mym fuite du 2025-11-7",
@@ -15914,7 +15914,8 @@
       "SeverityLevel": "CRITIQUE",
       "isBlocked": false,
       "blockedNote": null,
-      "nsfwConfidence": 0
+      "nsfwConfidence": null,
+      "manualNSFWOverride": true
     },
     {
       "Name": "Zilvia",
