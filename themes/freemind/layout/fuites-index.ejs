@@ -126,6 +126,20 @@
     border: 1px solid rgba(107, 114, 128, 0.4);
   }
 
+  .ia-badge {
+    display: inline-block;
+    padding: 0.3em 0.8em;
+    border-radius: 12px;
+    font-size: 0.75em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    background-color: rgba(139, 92, 246, 0.2);
+    color: #d8b4fe;
+    border: 1px solid rgba(139, 92, 246, 0.4);
+    margin-left: 0.5em;
+  }
+
   .nsfw-warning {
     background-color: var(--danger-bg);
     border: 1px solid var(--danger-border);
@@ -411,6 +425,7 @@
             ${contentHtml}
             <div class="date">${new Date(breach.BreachDate).toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}</div>
             ${breach.SeverityLevel ? `<span class="severity-badge severity-${breach.SeverityLevel.toLowerCase()}">${breach.SeverityLevel}</span>` : ''}
+            ${breach.tags && breach.tags.includes('IA') ? `<span class="ia-badge">🤖 IA</span>` : ''}
             ${classesHtml}
           </div>
         `;
@@ -429,6 +444,7 @@
         <div class="breach-details">
           <div class="breach-header">
             <h1>${breach.Title || breach.Name}</h1>
+            ${breach.tags && breach.tags.includes('IA') ? `<span class="ia-badge">🤖 IA</span>` : ''}
             ${breach.isBlocked ? `
               <div class="nsfw-warning" style="margin-top: 15px; background-color: #450a0a; border-color: #991b1b;">
                 <h2 style="color: #fecaca;">⚠️ Attention : Domaine bloqué ou indésirable</h2>

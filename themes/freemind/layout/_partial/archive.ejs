@@ -217,6 +217,11 @@
                         <% if (isNewToday) { %>
                           <span class="badge badge-success" style="font-size: 0.7em; background-color: #28a745; margin-left: 5px;">NOUVEAU</span>
                         <% } %>
+                        <% if (item.tags && item.tags.includes('IA')) { %>
+                          <span class="badge badge-info ms-2" style="font-size: 0.7em; background-color: #8b5cf6;">
+                            <i class="fa fa-robot"></i> IA
+                          </span>
+                        <% } %>
                         <% if (item.SeverityLevel) { 
                           var severityColors = {
                             'CRITIQUE': 'danger',

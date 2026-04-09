@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const Fuse = require('fuse.js');
 const { getBreachesDB } = require('./scripts/db');
+const { tagIABreaches } = require('./scripts/tag-ia-auto');
 
 const DATE_FILE = path.join(process.cwd(), 'source', '_data', 'last_import_date.json');
 const bad=new Set(fs.readFileSync(path.join(process.cwd(), 'slugs-a-supprimer.txt'), 'utf8').split("\n").filter(slug => slug.trim() !== '').map(slug => slug.trim().replace(/\r/g, '')));
@@ -271,6 +272,10 @@ async function runImport() {
         await db.save();
         console.log(`\nSauvegarde terminée : ${existingBreaches.length} enregistrements au total.`);
         writeNewImportDate();
+        
+        // Appliquer le tagging IA automatique
+        console.log('\nApplication du tagging IA automatique...');
+        await tagIABreaches();
     } else {
         console.log("\nAucune nouvelle fuite trouvée sur l'ensemble des sources.");
     }

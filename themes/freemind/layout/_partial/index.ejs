@@ -784,3 +784,114 @@
 
 </div> <!-- row-fluid -->
 
+
+
+<style>
+	.ia-stats-card {
+		background: linear-gradient(135deg, #6d28d9 0%, #4c1d95 100%);
+		border: 2px solid #a78bfa;
+		border-radius: 8px;
+		padding: 1.5rem;
+		color: #e9d5ff;
+	}
+	
+	.ia-stats-card h3 {
+		color: #c4b5fd;
+		margin-bottom: 1rem;
+	}
+	
+	.ia-breach-item {
+		background: rgba(139, 92, 246, 0.1);
+		border-left: 3px solid #a78bfa;
+		padding: 0.75rem;
+		margin-bottom: 0.5rem;
+		border-radius: 4px;
+	}
+	
+	.ia-breach-item a {
+		color: #d8b4fe;
+		text-decoration: none;
+	}
+	
+	.ia-breach-item a:hover {
+		color: #e9d5ff;
+		text-decoration: underline;
+	}
+</style>
+
+<!-- Statistiques IA -->
+<div class="ia-stats-card mb-4">
+	<h3><i class="fa fa-robot me-2"></i>🤖 Brèches liées à l'IA</h3>
+	<div id="ia-stats-container">
+		<div class="text-center py-3">
+			<div class="spinner-border" role="status">
+				<span class="visually-hidden">Chargement...</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+	// Charger et afficher les statistiques IA
+	fetch('<%- config.url %>/data/breaches.json')
+		.then(response => response.json())
+		.then(data => {
+			const iaBreaches = data.breaches
+				.filter(breach => breach.tags && breach.tags.includes('IA') && !breach.IsRetired)
+				.sort((a, b) => new Date(b.BreachDate) - new Date(a.BreachDate));
+			
+			const iaContainer = document.getElementById('ia-stats-container');
+			
+			if (iaBreaches.length > 0) {
+				const totalIAPwnCount = iaBreaches.reduce((sum, b) => sum + (b.PwnCount || 0), 0);
+				const iaPercentage = ((iaBreaches.length / data.totalBreaches) * 100).toFixed(1);
+				
+				let html = `
+					<div class="row mb-3">
+						<div class="col-md-6 mb-2">
+							<div style="background: rgba(139, 92, 246, 0.2); padding: 1rem; border-radius: 6px;">
+								<p class="mb-1" style="color: #a78bfa; font-size: 0.9em;">Brèches IA détectées</p>
+								<h4 style="color: #e9d5ff; margin: 0;">${iaBreaches.length} <span style="font-size: 0.7em; color: #a78bfa;">(${iaPercentage}% du total)</span></h4>
+							</div>
+						</div>
+						<div class="col-md-6 mb-2">
+							<div style="background: rgba(139, 92, 246, 0.2); padding: 1rem; border-radius: 6px;">
+								<p class="mb-1" style="color: #a78bfa; font-size: 0.9em;">Comptes compromis</p>
+								<h4 style="color: #e9d5ff; margin: 0;">${totalIAPwnCount >= 1000000 ? (totalIAPwnCount / 1000000).toFixed(1) + 'M' : totalIAPwnCount.toLocaleString()}</h4>
+							</div>
+						</div>
+					</div>
+					<div>
+						<p style="color: #a78bfa; font-weight: 600; margin-bottom: 0.75rem;">Brèches récentes :</p>
+						${iaBreaches.slice(0, 5).map((breach, idx) => {
+							const date = new Date(breach.BreachDate).toLocaleDateString('fr-FR', { day: 'numeric', month: 'short', year: 'numeric' });
+							const pwnDisplay = breach.PwnCount >= 1000000 ? (breach.PwnCount / 1000000).toFixed(1) + 'M' : breach.PwnCount.toLocaleString();
+							return `
+								<div class="ia-breach-item">
+									<div class="d-flex justify-content-between align-items-start">
+										<div class="flex-grow-1">
+											<a href="<%- config.url %>/fuites?id=${breach.index}">
+												<strong>${breach.Title || breach.Name}</strong>
+											</a>
+											<div style="font-size: 0.85em; color: #c4b5fd; margin-top: 0.25rem;">
+												<i class="fa fa-calendar me-1"></i>${date}
+												<span class="ms-2"><i class="fa fa-users me-1"></i>${pwnDisplay}</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							`;
+						}).join('')}
+					</div>
+				`;
+				
+				iaContainer.innerHTML = html;
+			} else {
+				iaContainer.innerHTML = '<p class="text-muted text-center py-3">Aucune brèche liée à l\'IA détectée pour le moment.</p>';
+			}
+		})
+		.catch(error => {
+			console.error('Erreur lors du chargement des statistiques IA:', error);
+			document.getElementById('ia-stats-container').innerHTML = '<p class="text-danger text-center py-3">Erreur lors du chargement des données.</p>';
+		});
+</script>
