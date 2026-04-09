@@ -328,6 +328,10 @@ async function runImport() {
         // Appliquer le tagging IA automatique
         console.log('\nApplication du tagging IA automatique...');
         await tagIABreaches();
+        
+        // Extraire les domaines manquants
+        extractMissingDomains(db.data.breaches);
+        await db.save();
     } else {
         console.log("\nAucune nouvelle fuite trouvée sur l'ensemble des sources.");
     }
