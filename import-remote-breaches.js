@@ -248,6 +248,20 @@ async function runImport() {
 
     if (totalAdded >= 0) {
         existingBreaches = deduplicate(existingBreaches);
+        
+        // Filtre final : supprimer les brèches avec des slugs à supprimer
+        const beforeFilter = existingBreaches.length;
+        existingBreaches = existingBreaches.filter(breach => {
+            if (bad.has(breach.slug)) {
+                console.log(`  ⊘ Filtre final : ${breach.Name} (slug: ${breach.slug})`);
+                return false;
+            }
+            return true;
+        });
+        if (existingBreaches.length < beforeFilter) {
+            console.log(`Filtre final : ${beforeFilter - existingBreaches.length} brèche(s) supprimée(s)`);
+        }
+        
         existingBreaches.sort((a, b) => new Date(b.BreachDate) - new Date(a.BreachDate));
         
         db.data.breaches = existingBreaches;
