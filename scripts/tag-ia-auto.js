@@ -29,7 +29,7 @@ const realIAKeywords = [
   'neural network',
   'transformer',
   'llm',
-  'large language model'
+  'large language model','nsfw ai '
 ];
 
 // Faux positifs à exclure

@@ -232,15 +232,19 @@
       recentBreaches.forEach(breach => {
         const date = new Date(breach.BreachDate).toLocaleDateString('fr-FR');
         const pwn = breach.PwnCount ? breach.PwnCount.toLocaleString() : '0';
+        const breachUrl = `<%- config.url %>/fuites/${breach.slug}/`;
         html += `
-              <div class="list-group-item bg-black border-matrix-bottom py-2" style="border-color: #a78bfa !important;">
-                <div class="d-flex justify-content-between align-items-start">
-                  <div>
-                    <h6 class="mb-1" style="color: #d8b4fe;"><i class="fa fa-robot me-1" style="color: #a78bfa;"></i>${breach.Name || breach.Title}</h6>
-                    <small class="text-muted">${date} • ${pwn} comptes</small>
+              <a href="${breachUrl}" style="text-decoration: none; color: inherit;">
+                <div class="list-group-item bg-black border-matrix-bottom py-2" style="border-color: #a78bfa !important; cursor: pointer; transition: background-color 0.2s;">
+                  <div class="d-flex justify-content-between align-items-start">
+                    <div>
+                      <h6 class="mb-1" style="color: #d8b4fe;"><i class="fa fa-robot me-1" style="color: #a78bfa;"></i>${breach.Name || breach.Title}</h6>
+                      <small class="text-muted">${date} • ${pwn} comptes</small>
+                    </div>
+                    <i class="fa fa-external-link" style="color: #a78bfa; margin-left: 10px;"></i>
                   </div>
                 </div>
-              </div>
+              </a>
         `;
       });
       
