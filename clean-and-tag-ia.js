@@ -37,6 +37,12 @@ const realIAKeywords = [
   'large language model'
 ];
 
+// Faux positifs à exclure
+const falsePositives = [
+  'taj',
+  'traitement d\'antécédents judiciaires'
+];
+
 let removedCount = 0;
 let addedCount = 0;
 
@@ -56,7 +62,10 @@ db.breaches.forEach((breach, index) => {
     (breach.DataClasses || []).join(' ')
   ].join(' ').toLowerCase();
 
-  const hasRealIAKeyword = realIAKeywords.some(keyword => {
+  // Vérifier si c'est un faux positif
+  const isFalsePositive = falsePositives.some(fp => textToSearch.includes(fp.toLowerCase()));
+
+  const hasRealIAKeyword = !isFalsePositive && realIAKeywords.some(keyword => {
     const regex = new RegExp(`\\b${keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i');
     return regex.test(textToSearch);
   });
@@ -95,3 +104,4 @@ fs.writeFileSync(path.join(baseDir, 'source', 'data', 'breaches.json'), JSON.str
 console.log('\n✅ Nettoyage et tagging IA terminé !');
 console.log(`   - ${removedCount} tag(s) IA supprimé(s)`);
 console.log(`   - ${addedCount} tag(s) IA ajouté(s) (brèches vraiment liées à l'IA)`);
+

@@ -82,6 +82,24 @@
         </div>
       </div>
     </div>
+
+    <!-- Statistiques IA -->
+    <div class="col-md-12 mb-4">
+      <div class="card bg-black border-matrix shadow-matrix" style="border-color: #a78bfa !important;">
+        <div class="card-header border-matrix-bottom" style="border-bottom-color: #a78bfa !important; background: rgba(139, 92, 246, 0.1) !important;">
+          <h3 class="matrix-font mb-0" style="color: #d8b4fe;"><i class="fa fa-robot me-2"></i>🤖 Statistiques des Brèches liées à l'IA</h3>
+        </div>
+        <div class="card-body">
+          <div class="row" id="ia-stats-container">
+            <div class="col-12 text-center py-5">
+              <div class="spinner-border" role="status" style="color: #a78bfa;">
+                <span class="visually-hidden">Chargement...</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -145,6 +163,18 @@
         renderBarChart("#dataclass-chart", Object.entries(dcStats).sort((a,b)=>b[1]-a[1]).slice(0, 15), "#00ff41");
         renderBarChart("#year-count-chart", Object.entries(yearStats).sort((a,b)=>a[0]-b[0]), "#38bdf8");
         renderBarChart("#company-chart", Object.entries(companyStats).sort((a,b)=>b[1]-a[1]).slice(0, 10), "#fbbf24");
+
+        // --- 4. IA Statistics ---
+        const iaBreaches = breaches.filter(b => b.tags && Array.isArray(b.tags) && b.tags.includes('IA'));
+        const iaCompromisedAccounts = iaBreaches.reduce((sum, b) => sum + (b.PwnCount || 0), 0);
+        const iaPercentage = ((iaBreaches.length / breaches.length) * 100).toFixed(2);
+        
+        // Sort IA breaches by date (most recent first)
+        const recentIABreaches = iaBreaches
+          .sort((a, b) => new Date(b.BreachDate) - new Date(a.BreachDate))
+          .slice(0, 5);
+        
+        renderIAStats(iaBreaches.length, iaCompromisedAccounts, iaPercentage, recentIABreaches);
       });
 
     function renderKPIs(count, pwn, verified, sensitive) {
@@ -166,6 +196,63 @@
         </div>
       `).join('');
     }
+
+    function renderIAStats(count, compromisedAccounts, percentage, recentBreaches) {
+      const format = (n) => n >= 1000000000 ? (n/1000000000).toFixed(2) + ' Md' : n >= 1000000 ? (n/1000000).toFixed(1) + ' M' : n.toLocaleString();
+      const container = document.getElementById('ia-stats-container');
+      
+      let html = `
+        <div class="col-md-4 mb-3">
+          <div class="card bg-black p-3 text-center h-100" style="border: 1px solid #a78bfa; background: rgba(139, 92, 246, 0.05);">
+            <i class="fa fa-robot mb-2" style="color: #d8b4fe; font-size: 1.5rem;"></i>
+            <h3 class="matrix-font mb-0" style="color: #d8b4fe;">${count}</h3>
+            <div class="text-muted small text-uppercase mt-1">Brèches IA détectées</div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card bg-black p-3 text-center h-100" style="border: 1px solid #a78bfa; background: rgba(139, 92, 246, 0.05);">
+            <i class="fa fa-percent mb-2" style="color: #d8b4fe; font-size: 1.5rem;"></i>
+            <h3 class="matrix-font mb-0" style="color: #d8b4fe;">${percentage}%</h3>
+            <div class="text-muted small text-uppercase mt-1">Du total des fuites</div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card bg-black p-3 text-center h-100" style="border: 1px solid #a78bfa; background: rgba(139, 92, 246, 0.05);">
+            <i class="fa fa-users mb-2" style="color: #d8b4fe; font-size: 1.5rem;"></i>
+            <h3 class="matrix-font mb-0" style="color: #d8b4fe;">${format(compromisedAccounts)}</h3>
+            <div class="text-muted small text-uppercase mt-1">Comptes compromis</div>
+          </div>
+        </div>
+        <div class="col-12 mt-3">
+          <div class="card bg-black p-3" style="border: 1px solid #a78bfa; background: rgba(139, 92, 246, 0.05);">
+            <h4 class="matrix-font mb-3" style="color: #d8b4fe;"><i class="fa fa-clock-o me-2"></i>5 Brèches IA les plus récentes</h4>
+            <div class="list-group list-group-flush">
+      `;
+      
+      recentBreaches.forEach(breach => {
+        const date = new Date(breach.BreachDate).toLocaleDateString('fr-FR');
+        const pwn = breach.PwnCount ? breach.PwnCount.toLocaleString() : '0';
+        html += `
+              <div class="list-group-item bg-black border-matrix-bottom py-2" style="border-color: #a78bfa !important;">
+                <div class="d-flex justify-content-between align-items-start">
+                  <div>
+                    <h6 class="mb-1" style="color: #d8b4fe;"><i class="fa fa-robot me-1" style="color: #a78bfa;"></i>${breach.Name || breach.Title}</h6>
+                    <small class="text-muted">${date} • ${pwn} comptes</small>
+                  </div>
+                </div>
+              </div>
+        `;
+      });
+      
+      html += `
+            </div>
+          </div>
+        </div>
+      `;
+      
+      container.innerHTML = html;
+    }
+
 
     const showTooltip = (event, content) => {
       const tooltip = d3.select("#stats-tooltip");

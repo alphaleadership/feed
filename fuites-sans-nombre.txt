@@ -26,16 +26,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/kfc.png
    - Vérifié: Non
 
-3. contrat d’intégration républicaine
-   - Titre: contrat d’intégration républicaine fuite du 2026-4-4
-   - Domaine: Non spécifié
-   - Date de fuite: 2026-4-4
-   - Date d'ajout: 2026-04-04T20:36:14.102Z
-   - PwnCount: 0
-   - Lien: https://bonjourlafuite.eu.org/img/ofii.jpg
-   - Vérifié: Non
-
-4. Veuve Clicquot
+3. Veuve Clicquot
    - Titre: Veuve Clicquot
    - Domaine: veuveclicquot.com
    - Date de fuite: 2026-04-04
@@ -43,6 +34,15 @@ LISTE DES FUITES CONCERNÉES:
    - PwnCount: 0
    - Lien: https://france3-regions.franceinfo.fr/grand-est/marne/reims/la-maison-de-champagne-veuve-clicquot-victime-d-une-attaque-informatique-les-donnees-personnelles-des-visiteurs-pourraient-etre-utilisees-a-des-fins-frauduleuses-3329447.html
    - Vérifié: Oui
+
+4. contrat d’intégration républicaine
+   - Titre: contrat d’intégration républicaine fuite du 2026-4-4
+   - Domaine: Non spécifié
+   - Date de fuite: 2026-4-4
+   - Date d'ajout: 2026-04-04T20:36:14.102Z
+   - PwnCount: 0
+   - Lien: https://bonjourlafuite.eu.org/img/ofii.jpg
+   - Vérifié: Non
 
 5. La Quiberonnaise
    - Titre: La Quiberonnaise
@@ -62,7 +62,16 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/gold-union.png
    - Vérifié: Non
 
-7. la mine bleue
+7. Vacancéole
+   - Titre: Vacancéole
+   - Domaine: vacanceole.com
+   - Date de fuite: 2026-03-31
+   - Date d'ajout: 2026-03-31T21:50:29.119Z
+   - PwnCount: 0
+   - Lien: https://fuitesinfos.fr/wp-content/uploads/2026/03/Vacanceole-fuite-de-donnees-leak.webp
+   - Vérifié: Oui
+
+8. la mine bleue
    - Titre: la mine bleue fuite du 2026-3-31
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-31
@@ -71,7 +80,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/minebleue.png
    - Vérifié: Non
 
-8. homair
+9. homair
    - Titre: homair fuite du 2026-3-31
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-31
@@ -80,7 +89,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/homair.png
    - Vérifié: Non
 
-9. vaucluse provence attractivité
+10. vaucluse provence attractivité
    - Titre: vaucluse provence attractivité fuite du 2026-3-31
    - Domaine: Non spécifié
    - Date de fuite: 2026-3-31
@@ -88,15 +97,6 @@ LISTE DES FUITES CONCERNÉES:
    - PwnCount: 0
    - Lien: https://bonjourlafuite.eu.org/img/vaucluse-provence-attractivite.png
    - Vérifié: Non
-
-10. Vacancéole
-   - Titre: Vacancéole
-   - Domaine: vacanceole.com
-   - Date de fuite: 2026-03-31
-   - Date d'ajout: 2026-03-31T21:50:29.119Z
-   - PwnCount: 0
-   - Lien: https://fuitesinfos.fr/wp-content/uploads/2026/03/Vacanceole-fuite-de-donnees-leak.webp
-   - Vérifié: Oui
 
 11. Belambra
    - Titre: Belambra
