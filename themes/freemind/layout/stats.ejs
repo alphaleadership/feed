@@ -262,7 +262,7 @@
       recentBreaches.forEach(breach => {
         const date = new Date(breach.BreachDate).toLocaleDateString('fr-FR');
         const pwn = breach.PwnCount ? breach.PwnCount.toLocaleString() : '0';
-        const breachUrl = `<%- config.url %>/fuites/${breach.slug}/`;
+        const breachUrl = `<%- config.url %>/fuites?index=${breach.index}`;
         html += `
               <a href="${breachUrl}" style="text-decoration: none; color: inherit;">
                 <div class="list-group-item bg-black border-matrix-bottom py-2" style="border-color: #a78bfa !important; cursor: pointer; transition: background-color 0.2s;">
