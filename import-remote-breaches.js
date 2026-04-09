@@ -102,6 +102,58 @@ function getBreachName(breach) {
     return (breach.Name || breach.name || breach.Title || breach.title || '').toLowerCase();
 }
 
+// --- Domain Extraction Functions ---
+function extractDomainFromUrl(url) {
+    if (!url) return null;
+    try {
+        let cleanUrl = url.replace(/^(https?:\/\/)?(www\.)?/, '').split('/')[0].split(':')[0].split('?')[0];
+        return cleanUrl.toLowerCase();
+    } catch (err) {
+        return null;
+    }
+}
+
+function extractDomainFromName(name) {
+    if (!name) return null;
+    const domainPattern = /([a-zA-Z0-9]([a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,}/g;
+    const matches = name.match(domainPattern);
+    return matches && matches.length > 0 ? matches[0].toLowerCase() : null;
+}
+
+function extractMissingDomains(breaches) {
+    console.log('\nExtraction des domaines manquants...');
+    let updatedCount = 0;
+    let missingCount = 0;
+    
+    breaches.forEach((breach) => {
+        if (!breach || breach.IsRetired || breach.Domain) return;
+        
+        missingCount++;
+        let extractedDomain = null;
+        
+        if (breach.lien && !breach.lien.includes('haveibeenpwned') && !breach.lien.includes('bonjourlafuite')) {
+            extractedDomain = extractDomainFromUrl(breach.lien);
+        }
+        
+        if (!extractedDomain && breach.source && !breach.source.includes('Manuel')) {
+            extractedDomain = extractDomainFromUrl(breach.source);
+        }
+        
+        if (!extractedDomain) {
+            extractedDomain = extractDomainFromName(breach.Name || breach.Title);
+        }
+        
+        if (extractedDomain) {
+            breach.Domain = extractedDomain;
+            updatedCount++;
+        }
+    });
+    
+    if (updatedCount > 0) {
+        console.log(`  ✓ ${updatedCount}/${missingCount} domaines extraits et mis à jour`);
+    }
+}
+
 // --- Deduplication Function ---
 function deduplicate(breaches) {
     console.log("\nLancement du processus de déduplication...");
