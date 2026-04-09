@@ -217,6 +217,16 @@
                         <% if (isNewToday) { %>
                           <span class="badge badge-success" style="font-size: 0.7em; background-color: #28a745; margin-left: 5px;">NOUVEAU</span>
                         <% } %>
+                        <% 
+                          var isSiteClosed = item.isBlocked || 
+                            (item.Description && (item.Description.toLowerCase().includes('site fermé') || item.Description.toLowerCase().includes('n\'existe plus') || item.Description.toLowerCase().includes('n existe plus') || item.Description.toLowerCase().includes('disparu') || item.Description.toLowerCase().includes('arrêté') || item.Description.toLowerCase().includes('cessation') || item.Description.toLowerCase().includes('fermeture') || item.Description.toLowerCase().includes('site closed') || item.Description.toLowerCase().includes('no longer exists') || item.Description.toLowerCase().includes('defunct') || item.Description.toLowerCase().includes('discontinued') || item.Description.toLowerCase().includes('ceased') || item.Description.toLowerCase().includes('shutdown') || item.Description.toLowerCase().includes('shut down'))) ||
+                            (item.content && (item.content.toLowerCase().includes('site fermé') || item.content.toLowerCase().includes('n\'existe plus') || item.content.toLowerCase().includes('n existe plus') || item.content.toLowerCase().includes('disparu') || item.content.toLowerCase().includes('arrêté') || item.content.toLowerCase().includes('cessation') || item.content.toLowerCase().includes('fermeture') || item.content.toLowerCase().includes('site closed') || item.content.toLowerCase().includes('no longer exists') || item.content.toLowerCase().includes('defunct') || item.content.toLowerCase().includes('discontinued') || item.content.toLowerCase().includes('ceased') || item.content.toLowerCase().includes('shutdown') || item.content.toLowerCase().includes('shut down')));
+                        %>
+                        <% if (isSiteClosed) { %>
+                          <span class="badge badge-secondary ms-2" style="font-size: 0.7em; background-color: #6c757d;">
+                            <i class="fa fa-ban"></i> SITE FERMÉ
+                          </span>
+                        <% } %>
                         <% if (item.isNSFW) { %>
                           <span class="badge badge-danger ms-2" style="font-size: 0.7em; background-color: #dc3545;">
                             <i class="fa fa-exclamation-circle"></i> NSFW

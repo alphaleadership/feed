@@ -44342,7 +44342,7 @@
       "source": "Manuel",
       "categories": [],
       "content": "In May 2018, the website for sharing adult-orientated works of fiction known as Adult-FanFiction.Org had 186k records exposed in a data breach. The data contained names, email addresses, dates of birth and passwords stored as both MD5 hashes and plain text. AFF did not respond when contacted about the breach and the site was previously reported as compromised on the Vigilante.pw breached database directory.",
-      "isNSFW": false,
+      "isNSFW": true,
       "lien": "https://haveibeenpwned.com/Breach/AdultFanFiction",
       "oldindex": 404,
       "title": "Adult-FanFiction.Org",
@@ -44350,7 +44350,8 @@
       "SeverityLevel": "CRITIQUE",
       "isBlocked": false,
       "blockedNote": null,
-      "nsfwConfidence": 0
+      "nsfwConfidence": null,
+      "manualNSFWOverride": true
     },
     {
       "Name": "Houzz",
@@ -48361,7 +48362,7 @@
       "source": "Manuel",
       "categories": [],
       "content": "In October 2016, the adult entertainment company Friend Finder Networks suffered a massive data breach. The incident impacted multiple separate online assets owned by the company, the largest of which was the Adult FriendFinder website alleged to be \"the world's largest sex &amp; swinger community\". Exposed data included usernames, passwords stored as SHA-1 hashes and 170 million unique email addresses. This incident is separate to the 2015 data breach Adult FriendFinder also suffered. The data was provided to HIBP by dehashed.com.",
-      "isNSFW": false,
+      "isNSFW": true,
       "lien": "https://haveibeenpwned.com/Breach/AdultFriendFinder2016",
       "oldindex": 307,
       "title": "Adult FriendFinder (2016)",
@@ -48369,7 +48370,8 @@
       "SeverityLevel": "CRITIQUE",
       "isBlocked": false,
       "blockedNote": null,
-      "nsfwConfidence": 0
+      "nsfwConfidence": null,
+      "manualNSFWOverride": true
     },
     {
       "Name": "ExploitIn",
@@ -58329,7 +58331,7 @@
       "source": "Manuel",
       "categories": [],
       "content": "In May 2013, the non-consensual voyeurism site \"Non Nude Girls\" suffered a data breach. The hack of the vBulletin forum led to the exposure of over 75k accounts along with email and IP addresses, names and plain text passwords.",
-      "isNSFW": false,
+      "isNSFW": true,
       "lien": "https://haveibeenpwned.com/Breach/NonNudeGirls",
       "oldindex": 59,
       "title": "Non Nude Girls",
@@ -58337,7 +58339,8 @@
       "SeverityLevel": "CRITIQUE",
       "isBlocked": false,
       "blockedNote": null,
-      "nsfwConfidence": 0
+      "nsfwConfidence": null,
+      "manualNSFWOverride": true
     },
     {
       "Name": "Neopets",
