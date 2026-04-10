@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T23:27:32.753Z",
+  "lastUpdated": "2026-04-10T00:04:19.262Z",
   "totalBreaches": 1449,
   "breaches": [
     {
@@ -40,7 +40,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1799,
-      "title": "DB Telecom"
+      "title": "DB Telecom",
+      "oldindex": 1799
     },
     {
       "Name": "DCL (Diplôme de Compétence en Langue)",
