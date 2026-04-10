@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-10T10:18:33.104Z",
+  "lastUpdated": "2026-04-10T11:26:14.542Z",
   "totalBreaches": 1450,
   "breaches": [
     {
@@ -39,7 +39,7 @@
       "content": "41 470 fiches contacts clients uniques avec 30 410 emails, 44 202 numéros de téléphone et 41 470 mots de passe en clair, couvrant la période février 2019 à décembre 2025 (environ 6 ans et demi d'activité). Dump SQL de 455 Mo extrait le 7 avril 2026, totalisant ~2.8 millions de lignes réparties sur 61 tables, incluant 210 358 correspondances email intégrales, 55 652 documents référencés, 32 505 logs de connexion, 41 499 comptes WordPress et 23 comptes employés CRM. Mis en vente le 8 avril 2026 sur le forum spear[.]cx par l'acteur NormalLeVrai.\n\nStatut: Confirmée\nType de service: Opérateur télécom B2B",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1799,
+      "index": 1800,
       "title": "DB Telecom",
       "oldindex": 1799
     },
@@ -102,7 +102,15 @@
       "AddedDate": "2026-04-10T10:18:24.719Z",
       "ModifiedDate": "2026-04-10T10:18:24.719Z",
       "slug": "fdration-franaise-du-sport-universitaire",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/FFSU-leak-fuite-de-donnees-scaled.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/FFSU-leak-fuite-de-donnees-scaled.png",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "L'acteur de la menace HexDex a mis en vente les données personnelles de 1,133,731 adhérents de la Fédération Française du Sport Universitaire, détaillant un total de 1,023,774 adresses postales, 889,383 emails et 521,342 numéros de téléphone uniques.\n\nStatut: Revendiquée\nType de service: Fédération sportive",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1799,
+      "title": "Fédération Française du Sport Universitaire"
     },
     {
       "Name": "alumni université de strasbourg",
