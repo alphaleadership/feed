@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-10T11:26:14.542Z",
+  "lastUpdated": "2026-04-10T12:06:55.281Z",
   "totalBreaches": 1450,
   "breaches": [
     {
@@ -41,7 +41,7 @@
       "nsfwConfidence": 0,
       "index": 1800,
       "title": "DB Telecom",
-      "oldindex": 1799
+      "oldindex": 1800
     },
     {
       "Name": "DCL (Diplôme de Compétence en Langue)",
@@ -110,7 +110,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1799,
-      "title": "Fédération Française du Sport Universitaire"
+      "title": "Fédération Française du Sport Universitaire",
+      "oldindex": 1799
     },
     {
       "Name": "alumni université de strasbourg",
