@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-10T17:53:11.730Z",
+  "lastUpdated": "2026-04-10T18:59:31.411Z",
   "totalBreaches": 1452,
   "breaches": [
     {
@@ -91,7 +91,11 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Informations d'identité (Nom, prénom, civilité)",
+        "Coordonnées (Adresse email, numéro de téléphone, adresse postale)",
+        "Données commerciales (Historique des commandes)"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
