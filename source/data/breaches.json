@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-10T14:52:11.899Z",
+  "lastUpdated": "2026-04-10T15:57:10.658Z",
   "totalBreaches": 1452,
   "breaches": [
     {
@@ -44,7 +44,7 @@
       "oldindex": 1800
     },
     {
-      "Name": "easy lounge fuite du 2026-4-10",
+      "Name": "easy lounge",
       "Title": "easy lounge fuite du 2026-4-10",
       "Domain": null,
       "BreachDate": "2026-4-10",
@@ -68,10 +68,19 @@
       "path": "https://bonjourlafuite.eu.org/img/easy-lounge.png",
       "formattedDate": "2026-04-10",
       "index": 1801,
-      "lien": "https://bonjourlafuite.eu.org/img/easy-lounge.png"
+      "lien": "https://bonjourlafuite.eu.org/img/easy-lounge.png",
+      "isBlocked": false,
+      "blockedNote": null,
+      "source": "Manuel",
+      "categories": [],
+      "content": "-\n\nNom\nprénom • Adresse email • Adresse postale • Numéro de téléphone • Historique des commandes •",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "oldindex": 1801,
+      "title": "easy lounge fuite du 2026-4-10"
     },
     {
-      "Name": "son fuite du 2026-4-10",
+      "Name": "son",
       "Title": "son fuite du 2026-4-10",
       "Domain": null,
       "BreachDate": "2026-4-10",
@@ -95,7 +104,16 @@
       "path": "https://bonjourlafuite.eu.org/img/son-video.png",
       "formattedDate": "2026-04-10",
       "index": 1802,
-      "lien": "https://bonjourlafuite.eu.org/img/son-video.png"
+      "lien": "https://bonjourlafuite.eu.org/img/son-video.png",
+      "isBlocked": false,
+      "blockedNote": null,
+      "source": "Manuel",
+      "categories": [],
+      "content": "-\n\nNom\nprénom • Adresse email • Adresse postale • Numéro de téléphone • Historique des commandes •",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "oldindex": 1802,
+      "title": "son fuite du 2026-4-10"
     },
     {
       "Name": "DCL (Diplôme de Compétence en Langue)",
