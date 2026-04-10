@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-10T09:14:32.727Z",
-  "totalBreaches": 1449,
+  "lastUpdated": "2026-04-10T10:18:33.104Z",
+  "totalBreaches": 1450,
   "breaches": [
     {
       "Name": "DB Telecom",
@@ -78,6 +78,31 @@
       "index": 1798,
       "title": "DCL (Diplôme de Compétence en Langue)",
       "oldindex": 1798
+    },
+    {
+      "Name": "Fédération Française du Sport Universitaire",
+      "Title": "Fédération Française du Sport Universitaire",
+      "Domain": "sport-u.com",
+      "BreachDate": "2026-04-09",
+      "PwnCount": 1133731,
+      "Description": "L'acteur de la menace HexDex a mis en vente les données personnelles de 1,133,731 adhérents de la Fédération Française du Sport Universitaire, détaillant un total de 1,023,774 adresses postales, 889,383 emails et 521,342 numéros de téléphone uniques.\n\nStatut: Revendiquée\nType de service: Fédération sportive",
+      "DataClasses": [
+        "État civil (nom, prénom, date de naissance)",
+        "Coordonnées (email, numéro de téléphone, adresse postale complète)",
+        "Données des parents (nom, prénom, email, téléphone)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://sport-u-occitanie.com/wp-content/uploads/sites/11/2025/08/my-sport-u-logo-baseline-1-e1756370268679.png",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/04/FFSU-leak-fuite-de-donnees-scaled.png",
+      "AddedDate": "2026-04-10T10:18:24.719Z",
+      "ModifiedDate": "2026-04-10T10:18:24.719Z",
+      "slug": "fdration-franaise-du-sport-universitaire",
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/FFSU-leak-fuite-de-donnees-scaled.png"
     },
     {
       "Name": "alumni université de strasbourg",
