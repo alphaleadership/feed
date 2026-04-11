@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11T14:22:46.386Z",
+  "lastUpdated": "2026-04-11T15:03:37.510Z",
   "totalBreaches": 1457,
   "breaches": [
     {
@@ -34,7 +34,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1813,
-      "title": "Base véhicules d’occasion France"
+      "title": "Base véhicules d’occasion France",
+      "oldindex": 1813
     },
     {
       "Name": "DB Telecom",
