@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11T21:36:54.391Z",
+  "lastUpdated": "2026-04-11T22:03:03.117Z",
   "totalBreaches": 1459,
   "breaches": [
     {
@@ -73,7 +73,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1814,
-      "title": "FranceVerif.fr"
+      "title": "FranceVerif.fr",
+      "oldindex": 1814
     },
     {
       "Name": "Académie de Paris",
@@ -107,7 +108,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1815,
-      "title": "Académie de Paris"
+      "title": "Académie de Paris",
+      "oldindex": 1815
     },
     {
       "Name": "DB Telecom",
