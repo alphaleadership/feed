@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11T13:31:39.200Z",
+  "lastUpdated": "2026-04-11T14:22:46.386Z",
   "totalBreaches": 1457,
   "breaches": [
     {
@@ -26,7 +26,15 @@
       "AddedDate": "2026-04-11T13:31:31.227Z",
       "ModifiedDate": "2026-04-11T13:31:31.227Z",
       "slug": "base-vhicules-doccasion-france",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Vehicule-argus-plaque-leak-fuites-de-donnees-scaled.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Vehicule-argus-plaque-leak-fuites-de-donnees-scaled.png",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Le 10 avril 2026, le cybercriminel « HexDex » a revendiqué la mise en vente d’une base portant sur 70 551 véhicules uniques en France. Les échantillons diffusés montrent un export très détaillé issu vraisemblablement d’un environnement professionnel de gestion de véhicules d’occasion. Les enregistrements exposent notamment des coordonnées d’acheteurs ou fournisseurs, des plaques d’immatriculation, des numéros de châssis (VIN), des informations de concession, des prix d’achat et de revente, des marges, des dates de transaction et plusieurs champs internes de suivi commercial.\n\nStatut: Revendiquée\nType de service: Distribution automobile / gestion VO",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1813,
+      "title": "Base véhicules d’occasion France"
     },
     {
       "Name": "DB Telecom",
