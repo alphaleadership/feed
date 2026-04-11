@@ -1,7 +1,33 @@
 {
-  "lastUpdated": "2026-04-11T12:01:14.478Z",
-  "totalBreaches": 1456,
+  "lastUpdated": "2026-04-11T13:31:39.200Z",
+  "totalBreaches": 1457,
   "breaches": [
+    {
+      "Name": "Base véhicules d’occasion France",
+      "Title": "Base véhicules d’occasion France",
+      "Domain": "fuitesinfos.fr",
+      "BreachDate": "2026-04-11",
+      "PwnCount": 70551,
+      "Description": "Le 10 avril 2026, le cybercriminel « HexDex » a revendiqué la mise en vente d’une base portant sur 70 551 véhicules uniques en France. Les échantillons diffusés montrent un export très détaillé issu vraisemblablement d’un environnement professionnel de gestion de véhicules d’occasion. Les enregistrements exposent notamment des coordonnées d’acheteurs ou fournisseurs, des plaques d’immatriculation, des numéros de châssis (VIN), des informations de concession, des prix d’achat et de revente, des marges, des dates de transaction et plusieurs champs internes de suivi commercial.\n\nStatut: Revendiquée\nType de service: Distribution automobile / gestion VO",
+      "DataClasses": [
+        "Informations personnelles (nom de l’acheteur ou du fournisseur, adresse postale, code postal, ville, numéro de téléphone)",
+        "Informations véhicule (plaque d’immatriculation, numéro de châssis VIN, marque, gamme, modèle, année, couleur, kilométrage, énergie, carrosserie, date de première mise en circulation)",
+        "Données transactionnelles (date d’achat, date de vente, prix d’achat HT/TTC, prix de vente HT/TTC, prix de revient TTC, marge, frais réels, valeur neuf)",
+        "Données internes et commerciales (nom du vendeur, nom du vendeur repreneur, concession, type de garantie, nombre de jours en stock, provenance, destination, statut, clé Argus, numéro de police)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://s1.medias-norauto.fr/images_produits/Plaque%20moto%20plastique/900x900/plaque-d-immatriculation-plastique-2-roues--F5011.jpg",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Vehicule-argus-plaque-leak-fuites-de-donnees-scaled.png",
+      "AddedDate": "2026-04-11T13:31:31.227Z",
+      "ModifiedDate": "2026-04-11T13:31:31.227Z",
+      "slug": "base-vhicules-doccasion-france",
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Vehicule-argus-plaque-leak-fuites-de-donnees-scaled.png"
+    },
     {
       "Name": "DB Telecom",
       "Title": "DB Telecom",
