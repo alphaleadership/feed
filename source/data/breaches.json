@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-11T17:58:45.974Z",
-  "totalBreaches": 1457,
+  "lastUpdated": "2026-04-11T19:00:36.028Z",
+  "totalBreaches": 1456,
   "breaches": [
     {
       "Name": "Base véhicules d’occasion France",
@@ -113,46 +113,6 @@
       "nsfwConfidence": 0,
       "oldindex": 1801,
       "title": "easy lounge fuite du 2026-4-10"
-    },
-    {
-      "Name": "son",
-      "Title": "son fuite du 2026-4-10",
-      "Domain": null,
-      "BreachDate": "2026-4-10",
-      "AddedDate": "2026-04-10T14:52:01.400Z",
-      "ModifiedDate": "2026-04-10T14:52:01.400Z",
-      "PwnCount": 0,
-      "Description": "-\n\nNom\nprénom • Adresse email • Adresse postale • Numéro de téléphone • Historique des commandes •",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [
-        "Informations d'identité (Nom, prénom, civilité)",
-        "Coordonnées (Adresse email, numéro de téléphone, adresse postale)",
-        "Données commerciales (Historique des commandes)"
-      ],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "son-fuite-du-2026-4-10",
-      "path": "https://bonjourlafuite.eu.org/img/son-video.png",
-      "formattedDate": "2026-04-10",
-      "index": 1802,
-      "lien": "https://bonjourlafuite.eu.org/img/son-video.png",
-      "isBlocked": false,
-      "blockedNote": null,
-      "source": "Manuel",
-      "categories": [],
-      "content": "-\n\nNom\nprénom • Adresse email • Adresse postale • Numéro de téléphone • Historique des commandes •",
-      "isNSFW": false,
-      "nsfwConfidence": 0,
-      "oldindex": 1802,
-      "title": "son fuite du 2026-4-10"
     },
     {
       "Name": "alumni université côte d’azur",
@@ -788,7 +748,10 @@
         "Usernames",
         "Comptes utilisateurs (ID, email, hash de mot de passe, date de création/connexion, méthode d'authentification)",
         "Données techniques (sessions utilisateur, clés API hachées, tokens d'authentification)",
-        "Données d'activité (quiz, questions, morceaux musicaux)"
+        "Données d'activité (quiz, questions, morceaux musicaux)",
+        "Informations d'identité (Nom, prénom, civilité)",
+        "Coordonnées (Adresse email, numéro de téléphone, adresse postale)",
+        "Données commerciales (Historique des commandes)"
       ],
       "IsVerified": true,
       "IsFabricated": false,
