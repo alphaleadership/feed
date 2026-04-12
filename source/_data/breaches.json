@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T11:44:17.090Z",
+  "lastUpdated": "2026-04-12T12:27:45.026Z",
   "totalBreaches": 1460,
   "breaches": [
     {
@@ -33,9 +33,9 @@
       "content": "Le 10 avril 2026, le cybercriminel « HexDex » a revendiqué la mise en vente d’une base portant sur 70 551 véhicules uniques en France. Les échantillons diffusés montrent un export très détaillé issu vraisemblablement d’un environnement professionnel de gestion de véhicules d’occasion. Les enregistrements exposent notamment des coordonnées d’acheteurs ou fournisseurs, des plaques d’immatriculation, des numéros de châssis (VIN), des informations de concession, des prix d’achat et de revente, des marges, des dates de transaction et plusieurs champs internes de suivi commercial.\n\nStatut: Revendiquée\nType de service: Distribution automobile / gestion VO",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1813,
+      "index": 1814,
       "title": "Base véhicules d’occasion France",
-      "oldindex": 1814
+      "oldindex": 1813
     },
     {
       "Name": "FranceVerif.fr",
@@ -72,9 +72,9 @@
       "content": "Le 2026-04-11, l'acteur ChimeraZ a revendiqué sur DarkForums une fuite intitulée DATABASE | 35.820 FranceVerif.fr ; l'analyse des fichiers fournis (json/jsonl/csv) indique qu'au moins 3 204 personnes/comptes uniques sont concernées, sur la base d'une déduplication conservatrice par email normalisé entre les auteurs d'avis et les comptes utilisateurs de boutiques, tandis que la borne haute atteint 4 387 adresses email uniques si l'on inclut aussi les emails génériques de contact boutique ; les échantillons et fichiers observés couvrent notamment avis utilisateurs, fiches boutiques, offres, cartes cadeaux, catégories/domaines et données internes du service FranceVerif.fr.\n\nStatut: Revendiquée\nType de service: Vérification de sites e-commerce",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1814,
+      "index": 1815,
       "title": "FranceVerif.fr",
-      "oldindex": 1815
+      "oldindex": 1814
     },
     {
       "Name": "Académie de Paris",
@@ -107,9 +107,9 @@
       "content": "5 512 enregistrements ont été mis en vente par l'acteur Cybernox, comprenant les données très sensibles de 1 701 étudiants (dont potentiellement des mineurs), incluant leurs photos d'identité, et de 3 811 responsables légaux ou personnels.\n\nStatut: Revendiquée\nType de service: Éducation",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1815,
+      "index": 1816,
       "title": "Académie de Paris",
-      "oldindex": 1816
+      "oldindex": 1815
     },
     {
       "Name": "DB Telecom",
@@ -333,7 +333,7 @@
       "title": "uppa alumni fuite du 2026-4-10"
     },
     {
-      "Name": "son fuite du 2026-4-10",
+      "Name": "son",
       "Title": "son fuite du 2026-4-10",
       "Domain": null,
       "BreachDate": "2026-4-10",
@@ -344,7 +344,11 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Informations d'identité (Nom, prénom, civilité)",
+        "Coordonnées (Adresse email, numéro de téléphone, adresse postale)",
+        "Données commerciales (Historique des commandes)"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -356,8 +360,17 @@
       "slug": "son-fuite-du-2026-4-10",
       "path": "https://bonjourlafuite.eu.org/img/son-video.png",
       "formattedDate": "2026-04-10",
-      "index": 1811,
-      "lien": "https://bonjourlafuite.eu.org/img/son-video.png"
+      "index": 1807,
+      "lien": "https://bonjourlafuite.eu.org/img/son-video.png",
+      "isBlocked": false,
+      "blockedNote": null,
+      "source": "Manuel",
+      "categories": [],
+      "content": "-\n\nNom\nprénom • Adresse email • Adresse postale • Numéro de téléphone • Historique des commandes •",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "oldindex": 1811,
+      "title": "son fuite du 2026-4-10"
     },
     {
       "Name": "DCL (Diplôme de Compétence en Langue)",
