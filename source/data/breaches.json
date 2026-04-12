@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T18:02:09.318Z",
+  "lastUpdated": "2026-04-12T19:09:27.759Z",
   "totalBreaches": 1462,
   "breaches": [
     {
@@ -79,7 +79,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1818,
-      "title": "Département de l'Ardèche"
+      "title": "Département de l'Ardèche",
+      "oldindex": 1818
     },
     {
       "Name": "Base véhicules d’occasion France",
