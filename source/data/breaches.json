@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-04-12T17:21:26.113Z",
-  "totalBreaches": 1463,
+  "lastUpdated": "2026-04-12T18:02:09.318Z",
+  "totalBreaches": 1462,
   "breaches": [
     {
-      "Name": "booking fuite du 2026-4-12",
+      "Name": "booking",
       "Title": "booking fuite du 2026-4-12",
       "Domain": null,
       "BreachDate": "2026-4-12",
@@ -14,7 +14,13 @@
       "LogoPath": "https://logos.haveibeenpwned.com/List.png",
       "Attribution": null,
       "DisclosureUrl": null,
-      "DataClasses": [],
+      "DataClasses": [
+        "Détails de réservation",
+        "Nom et Prénom",
+        "Adresse e-mail",
+        "Adresse postale",
+        "Numéro de téléphone"
+      ],
       "IsVerified": false,
       "IsFabricated": false,
       "IsSensitive": false,
@@ -27,7 +33,16 @@
       "path": "https://bonjourlafuite.eu.org/img/booking.png",
       "formattedDate": "2026-04-12",
       "index": 1817,
-      "lien": "https://bonjourlafuite.eu.org/img/booking.png"
+      "lien": "https://bonjourlafuite.eu.org/img/booking.png",
+      "isBlocked": false,
+      "blockedNote": null,
+      "source": "Manuel",
+      "categories": [],
+      "content": "-\n\nNom\nprénom • Adresse email • Adresse postale • Numéro de téléphone • Toute information communiquée •",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "oldindex": 1817,
+      "title": "booking fuite du 2026-4-12"
     },
     {
       "Name": "Département de l'Ardèche",
@@ -55,34 +70,16 @@
       "AddedDate": "2026-04-12T17:21:18.350Z",
       "ModifiedDate": "2026-04-12T17:21:18.350Z",
       "slug": "dpartement-de-lardche",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/departement-ardeche-rsa-leak-fuite-de-donnees-scaled.png"
-    },
-    {
-      "Name": "Booking.com",
-      "Title": "Booking.com",
-      "Domain": "booking.com",
-      "BreachDate": "2026-04-12",
-      "PwnCount": 0,
-      "Description": "Booking informe par email ses clients qu'un tiers non autorisé a eu accès aux informations de leur réservation, les exposant à des campagnes de phishing ciblées pour voler leurs coordonnées bancaires.\n\nStatut: Confirmée\nType de service: Plateforme de réservation d'hôtels",
-      "DataClasses": [
-        "Détails de réservation",
-        "Nom et Prénom",
-        "Adresse e-mail",
-        "Adresse postale",
-        "Numéro de téléphone"
-      ],
-      "IsSensitive": false,
-      "IsVerified": true,
-      "IsFabricated": false,
-      "IsSpam": false,
-      "IsRetired": false,
-      "IsNative": true,
-      "LogoPath": "https://logo-marque.com/wp-content/uploads/2021/08/Booking-Embleme.jpg",
-      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/04/booking-fuite-de-donnees-leak.png",
-      "AddedDate": "2026-04-12T17:21:18.357Z",
-      "ModifiedDate": "2026-04-12T17:21:18.357Z",
-      "slug": "bookingcom",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/booking-fuite-de-donnees-leak.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/departement-ardeche-rsa-leak-fuite-de-donnees-scaled.png",
+      "Attribution": "angel_batista",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "88 614 fichiers (26.3 Gb) composés exclusivement de documents de bénéficiaires du RSA (datation 2024) stockés par le département. Revendiqués par l'acteur Angel_Batista, provenant du site ardeche.fr.\n\nStatut: Revendiquée\nType de service: Collectivité territoriale",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1818,
+      "title": "Département de l'Ardèche"
     },
     {
       "Name": "Base véhicules d’occasion France",
