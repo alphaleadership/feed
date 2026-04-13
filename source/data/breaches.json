@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T21:56:57.951Z",
+  "lastUpdated": "2026-04-13T22:51:55.956Z",
   "totalBreaches": 1466,
   "breaches": [
     {
@@ -26,7 +26,7 @@
       "slug": "basic-fit-fuite-du-2026-4-13",
       "path": "https://bonjourlafuite.eu.org/img/basic-fit.png",
       "formattedDate": "2026-04-13",
-      "index": 1820,
+      "index": 1821,
       "lien": "https://bonjourlafuite.eu.org/img/basic-fit.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -62,7 +62,7 @@
       "slug": "iae-grenoble-fuite-du-2026-4-13",
       "path": "https://bonjourlafuite.eu.org/img/iae-grenoble.png",
       "formattedDate": "2026-04-13",
-      "index": 1821,
+      "index": 1822,
       "lien": "https://bonjourlafuite.eu.org/img/iae-grenoble.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -98,7 +98,7 @@
       "slug": "maison-de-la-magie-fuite-du-2026-4-13",
       "path": "https://bonjourlafuite.eu.org/img/chateau-blois.png",
       "formattedDate": "2026-04-13",
-      "index": 1822,
+      "index": 1823,
       "lien": "https://bonjourlafuite.eu.org/img/chateau-blois.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -220,7 +220,15 @@
       "AddedDate": "2026-04-13T21:56:49.787Z",
       "ModifiedDate": "2026-04-13T21:56:49.787Z",
       "slug": "insei-inshea",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/INSEI-Leak-fuites-de-donnees-scaled.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/INSEI-Leak-fuites-de-donnees-scaled.png",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Le cybercriminel 'ChimeraZ' a publié les données de 1 303 personnes, principalement des personnels de l'Éducation Nationale inscrits à l'INSEI (Institut national supérieur de l'éducation inclusive). La fuite, provenant du portail de l'INSHEA, expose un état civil complet et plus de 1300 documents personnels critiques : CV, fiches de paie, relevés de notes et surtout des pièces d'identité numérisées (Passeports, CNI, Cartes Vitale).\n\nStatut: Revendiquée\nType de service: Institut de formation (Éducation Nationale)",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1819,
+      "title": "INSEI / INSHEA"
     },
     {
       "Name": "Base véhicules d’occasion France",
