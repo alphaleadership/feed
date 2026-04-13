@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-13T20:58:57.657Z",
-  "totalBreaches": 1465,
+  "lastUpdated": "2026-04-13T21:56:57.951Z",
+  "totalBreaches": 1466,
   "breaches": [
     {
       "Name": "basic fit",
@@ -189,6 +189,38 @@
       "index": 1818,
       "title": "Département de l'Ardèche",
       "oldindex": 1818
+    },
+    {
+      "Name": "INSEI / INSHEA",
+      "Title": "INSEI / INSHEA",
+      "Domain": "insei.fr",
+      "BreachDate": "2026-04-12",
+      "PwnCount": 1303,
+      "Description": "Le cybercriminel 'ChimeraZ' a publié les données de 1 303 personnes, principalement des personnels de l'Éducation Nationale inscrits à l'INSEI (Institut national supérieur de l'éducation inclusive). La fuite, provenant du portail de l'INSHEA, expose un état civil complet et plus de 1300 documents personnels critiques : CV, fiches de paie, relevés de notes et surtout des pièces d'identité numérisées (Passeports, CNI, Cartes Vitale).\n\nStatut: Revendiquée\nType de service: Institut de formation (Éducation Nationale)",
+      "DataClasses": [
+        "État civil complet",
+        "Date de naissance",
+        "Lieu de naissance",
+        "Coordonnées postales",
+        "Numéro de téléphone",
+        "Adresse e-mail",
+        "Photo d'identité (URL)",
+        "Situation professionnelle",
+        "Documents personnels (CV, fiches de paie)",
+        "Pièces d'identité numérisées (Passeport, CNI, Carte Vitale)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://pbs.twimg.com/profile_images/1698619236048928768/U6Y19l9s_400x400.jpg",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/04/INSEI-Leak-fuites-de-donnees-scaled.png",
+      "AddedDate": "2026-04-13T21:56:49.787Z",
+      "ModifiedDate": "2026-04-13T21:56:49.787Z",
+      "slug": "insei-inshea",
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/INSEI-Leak-fuites-de-donnees-scaled.png"
     },
     {
       "Name": "Base véhicules d’occasion France",
