@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T22:51:55.956Z",
+  "lastUpdated": "2026-04-13T23:47:23.757Z",
   "totalBreaches": 1466,
   "breaches": [
     {
@@ -35,7 +35,7 @@
       "content": "-\n\nAdresse e-mail • Prénom et nom de famille • Adresse et ville • Numéro de téléphone • Numéro de compte bancaire • Titulaire du compte bancaire • Date de naissance • Informations sur les membres • Frais d'adhésion impayés •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1820,
+      "oldindex": 1821,
       "title": "basic fit fuite du 2026-4-13"
     },
     {
@@ -71,7 +71,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Numéro de téléphone • Code postal\nville • Titre courant du poste • Souhait professionnel • Expérience professionnelle • Parcours au sein du réseau • Diplôme obtenu\nannée • Compétence •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1821,
+      "oldindex": 1822,
       "title": "iae grenoble fuite du 2026-4-13"
     },
     {
@@ -107,7 +107,7 @@
       "content": "-\n\nNom\npréno • Adresse email • Date de naissance • Numéro de téléphone • Numéro de fax • Adresse postale • Numéro de TVA •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1822,
+      "oldindex": 1823,
       "title": "maison de la magie fuite du 2026-4-13"
     },
     {
@@ -228,7 +228,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1819,
-      "title": "INSEI / INSHEA"
+      "title": "INSEI / INSHEA",
+      "oldindex": 1819
     },
     {
       "Name": "Base véhicules d’occasion France",
