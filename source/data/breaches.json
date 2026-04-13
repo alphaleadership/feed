@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T19:41:22.390Z",
+  "lastUpdated": "2026-04-13T19:48:37.066Z",
   "totalBreaches": 1465,
   "breaches": [
     {
@@ -39,7 +39,7 @@
       "title": "basic fit fuite du 2026-4-13"
     },
     {
-      "Name": "iae grenoble fuite du 2026-4-13",
+      "Name": "iae grenoble",
       "Title": "iae grenoble fuite du 2026-4-13",
       "Domain": null,
       "BreachDate": "2026-4-13",
@@ -62,11 +62,20 @@
       "slug": "iae-grenoble-fuite-du-2026-4-13",
       "path": "https://bonjourlafuite.eu.org/img/iae-grenoble.png",
       "formattedDate": "2026-04-13",
-      "index": 1822,
-      "lien": "https://bonjourlafuite.eu.org/img/iae-grenoble.png"
+      "index": 1821,
+      "lien": "https://bonjourlafuite.eu.org/img/iae-grenoble.png",
+      "isBlocked": false,
+      "blockedNote": null,
+      "source": "Manuel",
+      "categories": [],
+      "content": "-\n\nNom\nprénom • Adresse email • Numéro de téléphone • Code postal\nville • Titre courant du poste • Souhait professionnel • Expérience professionnelle • Parcours au sein du réseau • Diplôme obtenu\nannée • Compétence •",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "oldindex": 1822,
+      "title": "iae grenoble fuite du 2026-4-13"
     },
     {
-      "Name": "maison de la magie fuite du 2026-4-13",
+      "Name": "maison de la magie",
       "Title": "maison de la magie fuite du 2026-4-13",
       "Domain": null,
       "BreachDate": "2026-4-13",
@@ -89,8 +98,17 @@
       "slug": "maison-de-la-magie-fuite-du-2026-4-13",
       "path": "https://bonjourlafuite.eu.org/img/chateau-blois.png",
       "formattedDate": "2026-04-13",
-      "index": 1824,
-      "lien": "https://bonjourlafuite.eu.org/img/chateau-blois.png"
+      "index": 1822,
+      "lien": "https://bonjourlafuite.eu.org/img/chateau-blois.png",
+      "isBlocked": false,
+      "blockedNote": null,
+      "source": "Manuel",
+      "categories": [],
+      "content": "-\n\nNom\npréno • Adresse email • Date de naissance • Numéro de téléphone • Numéro de fax • Adresse postale • Numéro de TVA •",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "oldindex": 1824,
+      "title": "maison de la magie fuite du 2026-4-13"
     },
     {
       "Name": "booking",
