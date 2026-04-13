@@ -8,7 +8,16 @@ Pourcentage: 21.75%
 LISTE DES FUITES CONCERNÉES:
 ============================
 
-1. booking
+1. basic fit fuite du 2026-4-13
+   - Titre: basic fit fuite du 2026-4-13
+   - Domaine: Non spécifié
+   - Date de fuite: 2026-4-13
+   - Date d'ajout: 2026-04-13T10:49:30.214Z
+   - PwnCount: 0
+   - Lien: Non disponible
+   - Vérifié: Non
+
+2. booking
    - Titre: booking fuite du 2026-4-12
    - Domaine: Non spécifié
    - Date de fuite: 2026-4-12
@@ -17,7 +26,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/booking.png
    - Vérifié: Non
 
-2. Département de l'Ardèche
+3. Département de l'Ardèche
    - Titre: Département de l'Ardèche
    - Domaine: ardeche.fr
    - Date de fuite: 2026-04-12
@@ -26,7 +35,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://fuitesinfos.fr/wp-content/uploads/2026/04/departement-ardeche-rsa-leak-fuite-de-donnees-scaled.png
    - Vérifié: Oui
 
-3. easy lounge
+4. easy lounge
    - Titre: easy lounge fuite du 2026-4-10
    - Domaine: Non spécifié
    - Date de fuite: 2026-4-10
@@ -35,7 +44,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/easy-lounge.png
    - Vérifié: Non
 
-4. alumni université côte d’azur
+5. alumni université côte d’azur
    - Titre: alumni université côte d’azur fuite du 2026-4-10
    - Domaine: Non spécifié
    - Date de fuite: 2026-4-10
@@ -44,7 +53,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/alumni-universite-cote-azur.png
    - Vérifié: Non
 
-5. ensai network
+6. ensai network
    - Titre: ensai network fuite du 2026-4-10
    - Domaine: Non spécifié
    - Date de fuite: 2026-4-10
@@ -53,7 +62,7 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/ensai-network.png
    - Vérifié: Non
 
-6. lilagora
+7. lilagora
    - Titre: lilagora fuite du 2026-4-10
    - Domaine: Non spécifié
    - Date de fuite: 2026-4-10
@@ -62,22 +71,13 @@ LISTE DES FUITES CONCERNÉES:
    - Lien: https://bonjourlafuite.eu.org/img/lilagora.png
    - Vérifié: Non
 
-7. uppa alumni
+8. uppa alumni
    - Titre: uppa alumni fuite du 2026-4-10
    - Domaine: Non spécifié
    - Date de fuite: 2026-4-10
    - Date d'ajout: 2026-04-10T22:04:07.022Z
    - PwnCount: 0
    - Lien: https://bonjourlafuite.eu.org/img/uppa-alumni.png
-   - Vérifié: Non
-
-8. son
-   - Titre: son fuite du 2026-4-10
-   - Domaine: Non spécifié
-   - Date de fuite: 2026-4-10
-   - Date d'ajout: 2026-04-12T11:44:08.728Z
-   - PwnCount: 0
-   - Lien: https://bonjourlafuite.eu.org/img/son-video.png
    - Vérifié: Non
 
 9. alumni université de strasbourg
