@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-14T18:48:11.351Z",
+  "lastUpdated": "2026-04-14T20:06:56.133Z",
   "totalBreaches": 1469,
   "breaches": [
     {
@@ -72,7 +72,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1829,
-      "title": "EduConnect"
+      "title": "EduConnect",
+      "oldindex": 1829
     },
     {
       "Name": "CNAOC (Confédération Nationale des Appellations d'Origine Contrôlée)",
@@ -98,7 +99,15 @@
       "AddedDate": "2026-04-14T18:48:03.113Z",
       "ModifiedDate": "2026-04-14T18:48:03.113Z",
       "slug": "cnaoc-confdration-nationale-des-appellations-dorigine-contrle",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/cnaoc-leak-fuite-de-donnees-ransomware-scaled.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/cnaoc-leak-fuite-de-donnees-ransomware-scaled.png",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Une archive de 52.6 Go contenant environ 41 000 fichiers internes (1994-2025) a été publiée par un nouveau groupe de ransomware se présentant sous le nom Lamashtu.\n\nStatut: Confirmée\nType de service: Organisation viticole",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1830,
+      "title": "CNAOC (Confédération Nationale des Appellations d'Origine Contrôlée)"
     },
     {
       "Name": "basic fit",
