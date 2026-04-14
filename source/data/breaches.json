@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-14T17:35:06.844Z",
-  "totalBreaches": 1468,
+  "lastUpdated": "2026-04-14T18:48:11.351Z",
+  "totalBreaches": 1469,
   "breaches": [
     {
       "Name": "Logis Hôtels",
@@ -64,7 +64,41 @@
       "AddedDate": "2026-04-14T17:34:58.705Z",
       "ModifiedDate": "2026-04-14T17:34:58.705Z",
       "slug": "educonnect",
-      "lien": "https://www.numerama.com/cyberguerre/2232941-prenom-nom-etablissement-classe-leducation-nationale-victime-dune-cyberattaque-ciblant-les-comptes-educonnect-deleves.html"
+      "lien": "https://www.numerama.com/cyberguerre/2232941-prenom-nom-etablissement-classe-leducation-nationale-victime-dune-cyberattaque-ciblant-les-comptes-educonnect-deleves.html",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Le groupe de hackers DumpSec revendique une fuite de 3,5 millions de comptes élèves. L'incident a été confirmé par le ministère de l'Éducation nationale le 14 avril 2026, résultant de l'usurpation d'un compte administrateur fin 2025, bien que le volume exact n'ait pas été officiellement validé.\n\nStatut: Confirmée\nType de service: Education nationale",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1829,
+      "title": "EduConnect"
+    },
+    {
+      "Name": "CNAOC (Confédération Nationale des Appellations d'Origine Contrôlée)",
+      "Title": "CNAOC (Confédération Nationale des Appellations d'Origine Contrôlée)",
+      "Domain": "cnaoc.org",
+      "BreachDate": "2026-04-14",
+      "PwnCount": 0,
+      "Description": "Une archive de 52.6 Go contenant environ 41 000 fichiers internes (1994-2025) a été publiée par un nouveau groupe de ransomware se présentant sous le nom Lamashtu.\n\nStatut: Confirmée\nType de service: Organisation viticole",
+      "DataClasses": [
+        "Financier (archives comptables, factures, budgets, virements bancaires, cotisations)",
+        "Ressources Humaines (bulletins de salaire nominatifs, dossiers de recrutement, paie)",
+        "Juridique (décrets officiels, correspondances réglementaires)",
+        "Gouvernance (procès-verbaux de conseils d'administration, planification stratégique, communications internes)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://www.cavb.fr/wp-content/uploads/2024/01/logo-cnaoc.jpg",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/04/cnaoc-leak-fuite-de-donnees-ransomware-scaled.png",
+      "AddedDate": "2026-04-14T18:48:03.113Z",
+      "ModifiedDate": "2026-04-14T18:48:03.113Z",
+      "slug": "cnaoc-confdration-nationale-des-appellations-dorigine-contrle",
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/cnaoc-leak-fuite-de-donnees-ransomware-scaled.png"
     },
     {
       "Name": "basic fit",
