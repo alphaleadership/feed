@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-15T22:46:22.463Z",
-  "totalBreaches": 1472,
+  "lastUpdated": "2026-04-15T23:45:20.351Z",
+  "totalBreaches": 1473,
   "breaches": [
     {
       "Name": "Assurea",
@@ -1867,6 +1867,33 @@
       "title": "Sound Radix",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE"
+    },
+    {
+      "Name": "Ministère de l'Intérieur (E-campus)",
+      "Title": "Ministère de l'Intérieur (E-campus)",
+      "Domain": "e-campus.interieur.gouv.fr",
+      "BreachDate": "2026-03-25",
+      "PwnCount": 176317,
+      "Description": "Une base de données contenant les informations de 176 317 agents du gouvernement français (fonctionnaires, policiers, personnel administratif) a été publiée par l'acteur de la menace HexDex le 25 mars 2026.\n\nStatut: Confirmée\nType de service: Plateforme de formation en ligne",
+      "DataClasses": [
+        "Identité (Nom, Prénom)",
+        "Email professionnel",
+        "Localisation (Ville, Pays)",
+        "Historique de formation (Cours suivis, Badges obtenus)",
+        "Activité sur la plateforme (Première et dernière connexion)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://upload.wikimedia.org/wikipedia/fr/thumb/0/02/Logo_du_Minist%C3%A8re_de_l%27Int%C3%A9rieur_%282020%29.svg/3840px-Logo_du_Minist%C3%A8re_de_l%27Int%C3%A9rieur_%282020%29.svg.png",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/04/ecampus-police-leak-fuite-de-donnees-scaled.png",
+      "AddedDate": "2026-04-15T23:45:12.162Z",
+      "ModifiedDate": "2026-04-15T23:45:12.162Z",
+      "slug": "ministre-de-lintrieur-e-campus",
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/ecampus-police-leak-fuite-de-donnees-scaled.png"
     },
     {
       "Name": "CROUS",
