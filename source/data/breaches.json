@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T10:43:46.398Z",
+  "lastUpdated": "2026-04-15T11:42:41.523Z",
   "totalBreaches": 1471,
   "breaches": [
     {
@@ -29,7 +29,16 @@
       "AddedDate": "2026-04-15T10:43:38.146Z",
       "ModifiedDate": "2026-04-15T10:43:38.146Z",
       "slug": "assurea",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Assurea-scaled.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Assurea-scaled.png",
+      "Attribution": "dumpsecv2",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Mise en vente par l'acteur DumpsecV2 d'une base de données de 150 Go (2018-2026), exposant des données d'assurance extrêmement sensibles : 139 000 contrats (sinistres, bonus/malus, condamnations, tests d'alcoolémie), 11 000 fiches de conseil avec IBAN et plus de 2 millions de messages.\n\nStatut: Revendiquée\nType de service: Courtier en assurance",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1831,
+      "title": "Assurea"
     },
     {
       "Name": "Brit Hotel",
@@ -57,7 +66,16 @@
       "AddedDate": "2026-04-15T10:43:38.157Z",
       "ModifiedDate": "2026-04-15T10:43:38.157Z",
       "slug": "brit-hotel",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Brit-hotel-leak-de-donnees-scaled.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Brit-hotel-leak-de-donnees-scaled.png",
+      "Attribution": "hexdex",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Les données personnelles de 682 662 membres du programme de fidélité de BritHotel, couvrant la période de réservation de 2016 à 2026, ont été mises en vente par l'acteur de la menace HexDex.\n\nStatut: Revendiquée\nType de service: Chaîne hôtelière",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1832,
+      "title": "Brit Hotel"
     },
     {
       "Name": "Logis Hôtels",
