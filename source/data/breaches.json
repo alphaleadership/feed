@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T19:53:23.374Z",
+  "lastUpdated": "2026-04-15T20:55:10.284Z",
   "totalBreaches": 1472,
   "breaches": [
     {
@@ -37,9 +37,9 @@
       "content": "Mise en vente par l'acteur DumpsecV2 d'une base de données de 150 Go (2018-2026), exposant des données d'assurance extrêmement sensibles : 139 000 contrats (sinistres, bonus/malus, condamnations, tests d'alcoolémie), 11 000 fiches de conseil avec IBAN et plus de 2 millions de messages.\n\nStatut: Revendiquée\nType de service: Courtier en assurance",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1832,
+      "index": 1833,
       "title": "Assurea",
-      "oldindex": 1831
+      "oldindex": 1832
     },
     {
       "Name": "Brit Hotel",
@@ -75,9 +75,9 @@
       "content": "Les données personnelles de 682 662 membres du programme de fidélité de BritHotel, couvrant la période de réservation de 2016 à 2026, ont été mises en vente par l'acteur de la menace HexDex.\n\nStatut: Revendiquée\nType de service: Chaîne hôtelière",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1833,
+      "index": 1834,
       "title": "Brit Hotel",
-      "oldindex": 1832
+      "oldindex": 1833
     },
     {
       "Name": "Logis Hôtels",
@@ -188,9 +188,9 @@
       "oldindex": 1830
     },
     {
-      "Name": "éducation nationale (éduconnect) fuite du 2026-4-14",
+      "Name": "éducation nationale (éduconnect)",
       "Title": "éducation nationale (éduconnect) fuite du 2026-4-14",
-      "Domain": null,
+      "Domain": "education.gouv.fr",
       "BreachDate": "2026-4-14",
       "AddedDate": "2026-04-15T19:53:13.626Z",
       "ModifiedDate": "2026-04-15T19:53:13.626Z",
@@ -211,7 +211,17 @@
       "slug": "-ducation-nationale-duconnect-fuite-du-2026-4-14",
       "path": "https://www.education.gouv.fr/incident-de-securite-affectant-les-donnees-de-certains-eleves-de-l-education-nationale-504443",
       "formattedDate": "2026-04-14",
-      "index": 1831
+      "index": 1831,
+      "isBlocked": false,
+      "blockedNote": null,
+      "source": "Manuel",
+      "lien": "https://www.education.gouv.fr/incident-de-securite-affectant-les-donnees-de-certains-eleves-de-l-education-nationale-504443",
+      "categories": [],
+      "content": "-\n\nNom\nprénom • Identifiant ÉduConnect • Établissement et classe • Adresse email • Code d’activation •",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "oldindex": 1831,
+      "title": "éducation nationale (éduconnect) fuite du 2026-4-14"
     },
     {
       "Name": "basic fit",
