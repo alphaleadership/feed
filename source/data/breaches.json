@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T11:42:41.523Z",
+  "lastUpdated": "2026-04-15T12:47:55.982Z",
   "totalBreaches": 1471,
   "breaches": [
     {
@@ -38,7 +38,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1831,
-      "title": "Assurea"
+      "title": "Assurea",
+      "oldindex": 1831
     },
     {
       "Name": "Brit Hotel",
@@ -75,7 +76,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1832,
-      "title": "Brit Hotel"
+      "title": "Brit Hotel",
+      "oldindex": 1832
     },
     {
       "Name": "Logis Hôtels",
