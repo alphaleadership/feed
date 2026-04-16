@@ -78,6 +78,7 @@ async function main() {
   const args = getArgs();
   const dbInstance = await getBreachesDB();
   const db = dbInstance.data;
+  const ck = new chalk.Chalk();
 
   // 1. Type de source
   let sourceType = args.source;
@@ -161,7 +162,7 @@ async function main() {
   if (existingIndex !== -1) {
     const overwrite = args.force || await new Confirm({ message: `Une entrée '${name}' existe déjà. Remplacer ?`, initial: false }).run();
     if (!overwrite) {
-      console.log(chalk.yellow('Aucune modification.'));
+      console.log(ck.yellow('Aucune modification.'));
       return;
     }
     db.breaches[existingIndex] = newBreach;
@@ -180,11 +181,12 @@ async function main() {
     fs.writeFileSync(dataFileSecondary, JSON.stringify(db, null, 2));
   } catch (err) {}
 
-  console.log(chalk.green(`OK: entrée enregistrée (${name})`));
+  console.log(ck.green(`OK: entrée enregistrée (${name})`));
 }
 
 main().catch((e) => {
-  console.error(chalk.red('Erreur inattendue'));
+  const ck = new chalk.Chalk();
+  console.error(ck.red('Erreur inattendue'));
   console.error(e);
   process.exit(1);
 });
