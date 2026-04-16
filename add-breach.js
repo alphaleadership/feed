@@ -4,8 +4,26 @@ const { Input, Confirm, Select } = require('enquirer');
 const chalk = require('chalk');
 const { getBreachesDB } = require('./scripts/db');
 
-const baseDir = path.join(__dirname);
-const dataFileSecondary = path.join(baseDir, 'source', 'data', 'breaches.json');
+/**
+ * Parseur d'arguments simple pour éviter d'ajouter une dépendance
+ */
+function getArgs() {
+  const args = {};
+  const argv = process.argv.slice(2);
+  for (let i = 0; i < argv.length; i++) {
+    if (argv[i].startsWith('--')) {
+      const key = argv[i].slice(2);
+      const value = argv[i + 1];
+      if (value && !value.startsWith('--')) {
+        args[key] = value;
+        i++;
+      } else {
+        args[key] = true;
+      }
+    }
+  }
+  return args;
+}
 
 function slugify(value) {
   return String(value || '')
@@ -21,12 +39,6 @@ function isValidIsoDate(value) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(value)) return false;
   const d = new Date(value);
   return !Number.isNaN(d.getTime());
-}
-
-function normalizeBreachesDb(db) {
-  if (!db || typeof db !== 'object') return { breaches: [] };
-  if (!Array.isArray(db.breaches)) db.breaches = [];
-  return db;
 }
 
 function resortAndReindex(db) {
@@ -62,49 +74,59 @@ function resortAndReindex(db) {
   db.lastUpdated = new Date().toISOString();
 }
 
-async function promptInput(message, initial, validate) {
-  const prompt = new Input({ message, initial, validate });
-  return prompt.run();
-}
-
 async function main() {
+  const args = getArgs();
   const dbInstance = await getBreachesDB();
   const db = dbInstance.data;
 
-  const sourceType = await new Select({
-    message: 'Type de source',
-    choices: [
-      { name: 'Have I Been Pwned', value: 'hibp' },
-      { name: 'Manuel / autre source', value: 'custom' }
-    ]
-  }).run();
+  // 1. Type de source
+  let sourceType = args.source;
+  if (!sourceType) {
+    sourceType = await new Select({
+      message: 'Type de source',
+      choices: [
+        { name: 'Have I Been Pwned', value: 'hibp' },
+        { name: 'Manuel / autre source', value: 'custom' }
+      ]
+    }).run();
+  }
 
-  const title = await promptInput('Titre', '', (v) => (v && v.trim().length ? true : 'Le titre est requis'));
-  const name = await promptInput('Nom', title, (v) => (v && v.trim().length ? true : 'Le nom est requis'));
-  const breachDate = await promptInput('Date (YYYY-MM-DD)', new Date().toISOString().slice(0, 10), (v) => (isValidIsoDate(v) ? true : 'Format attendu: YYYY-MM-DD'));
-  const domain = await promptInput('Domaine (optionnel)', '', () => true);
-  const pwnCountRaw = await promptInput('Comptes affectés (nombre)', '0', (v) => (!Number.isNaN(Number(v)) && Number(v) >= 0 ? true : 'Entrez un nombre >= 0'));
-  const category = await promptInput('Catégorie (obligatoire)', '', (v) => (v && v.trim().length ? true : 'La catégorie est requise'));
-  const description = await promptInput('Description', '', () => true);
-  const isNSFW = await new Confirm({ message: 'Marquer comme NSFW ?', initial: false }).run();
-  const validated = await new Confirm({ message: 'Marquer comme validée ?', initial: true }).run();
+  // Helper pour demander ou utiliser l'argument
+  async function getVal(key, message, initial = '', validate = (v) => true) {
+    if (args[key]) return args[key];
+    const prompt = new Input({ message, initial, validate });
+    return prompt.run();
+  }
 
-  let lien = null;
-  let pathValue = null;
+  // 2. Informations de base
+  const title = await getVal('title', 'Titre', '', (v) => (v && v.trim().length ? true : 'Le titre est requis'));
+  const name = await getVal('name', 'Nom', title, (v) => (v && v.trim().length ? true : 'Le nom est requis'));
+  const breachDate = await getVal('date', 'Date (YYYY-MM-DD)', new Date().toISOString().slice(0, 10), (v) => (isValidIsoDate(v) ? true : 'Format attendu: YYYY-MM-DD'));
+  const domain = await getVal('domain', 'Domaine (optionnel)', '');
+  const pwnCountRaw = await getVal('count', 'Comptes affectés (nombre)', '0', (v) => (!Number.isNaN(Number(v)) && Number(v) >= 0 ? true : 'Entrez un nombre >= 0'));
+  const category = await getVal('category', 'Catégorie (obligatoire)', '', (v) => (v && v.trim().length ? true : 'La catégorie est requise'));
+  const description = await getVal('description', 'Description', '');
+  
+  const isNSFW = args.nsfw !== undefined ? (args.nsfw === 'true' || args.nsfw === true) : await new Confirm({ message: 'Marquer comme NSFW ?', initial: false }).run();
+  const validated = args.validated !== undefined ? (args.validated === 'true' || args.validated === true) : await new Confirm({ message: 'Marquer comme validée ?', initial: true }).run();
+
+  let lien = args.link || null;
+  let pathValue = args.path || null;
 
   if (sourceType === 'hibp') {
-    const hibpSlug = await promptInput('Slug HIBP (ex: gpotato)', slugify(name), (v) => (v && v.trim().length ? true : 'Le slug est requis'));
+    const hibpSlug = await getVal('hibp-slug', 'Slug HIBP (ex: gpotato)', slugify(name), (v) => (v && v.trim().length ? true : 'Le slug est requis'));
     pathValue = `breaches/${hibpSlug}`;
-    lien = `https://haveibeenpwned.com/Breach/${hibpSlug}`;
+    if (!lien) lien = `https://haveibeenpwned.com/Breach/${hibpSlug}`;
   } else {
-    lien = await promptInput('Lien externe (optionnel)', '', () => true);
-    pathValue = `custom/${slugify(name)}`;
+    if (!lien) lien = await getVal('link', 'Lien externe (optionnel)', '');
+    if (!pathValue) pathValue = `custom/${slugify(name)}`;
     if (!lien || !String(lien).trim().length) lien = null;
   }
 
   const now = new Date().toISOString();
   const finalBreachDate = isValidIsoDate(breachDate) ? breachDate : '1970-01-01';
   const slug = slugify(name);
+  
   const newBreach = {
     Name: name,
     Title: title,
@@ -137,9 +159,9 @@ async function main() {
 
   const existingIndex = db.breaches.findIndex((b) => b && b.Name === name);
   if (existingIndex !== -1) {
-    const overwrite = await new Confirm({ message: `Une entrée '${name}' existe déjà. Remplacer ?`, initial: false }).run();
+    const overwrite = args.force || await new Confirm({ message: `Une entrée '${name}' existe déjà. Remplacer ?`, initial: false }).run();
     if (!overwrite) {
-      console.log(new chalk.Chalk().yellow('Aucune modification.'));
+      console.log(chalk.yellow('Aucune modification.'));
       return;
     }
     db.breaches[existingIndex] = newBreach;
@@ -150,17 +172,19 @@ async function main() {
   resortAndReindex(db);
 
   await dbInstance.save();
+  
+  // Synchronisation avec le fichier secondaire si nécessaire
+  const dataFileSecondary = path.join(__dirname, 'source', 'data', 'breaches.json');
   try {
     fs.mkdirSync(path.dirname(dataFileSecondary), { recursive: true });
     fs.writeFileSync(dataFileSecondary, JSON.stringify(db, null, 2));
-  } catch {
-  }
+  } catch (err) {}
 
-  console.log(new chalk.Chalk().green(`OK: entrée enregistrée (${name})`));
+  console.log(chalk.green(`OK: entrée enregistrée (${name})`));
 }
 
 main().catch((e) => {
-  console.error(new chalk.Chalk().red('Erreur inattendue'));
+  console.error(chalk.red('Erreur inattendue'));
   console.error(e);
   process.exit(1);
 });
