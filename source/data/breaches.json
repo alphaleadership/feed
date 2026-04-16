@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-04-16T17:25:13.302Z",
+  "lastUpdated": "2026-04-16T18:44:30.840Z",
   "totalBreaches": 1474,
   "breaches": [
     {
-      "Name": "police nationale fuite du 2026-4-16",
+      "Name": "police nationale",
       "Title": "police nationale fuite du 2026-4-16",
       "Domain": null,
       "BreachDate": "2026-4-16",
@@ -27,7 +27,16 @@
       "path": "https://bonjourlafuite.eu.org/img/police-nationale.jpg",
       "formattedDate": "2026-04-16",
       "index": 1835,
-      "lien": "https://bonjourlafuite.eu.org/img/police-nationale.jpg"
+      "lien": "https://bonjourlafuite.eu.org/img/police-nationale.jpg",
+      "isBlocked": false,
+      "blockedNote": null,
+      "source": "Manuel",
+      "categories": [],
+      "content": "-\n\nNom\nprénom • Adresse email • Ville • Informations utilisateurs • Login • Premières et dernières connexions • modules suivis • Badges obtenus • Outils et portails utilisés •",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "oldindex": 1835,
+      "title": "police nationale fuite du 2026-4-16"
     },
     {
       "Name": "Assurea",
