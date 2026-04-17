@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T18:06:37.336Z",
+  "lastUpdated": "2026-04-17T19:32:47.395Z",
   "totalBreaches": 1479,
   "breaches": [
     {
@@ -70,7 +70,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1841,
-      "title": "Fédération Française de Basket-Ball"
+      "title": "Fédération Française de Basket-Ball",
+      "oldindex": 1841
     },
     {
       "Name": "police nationale",
