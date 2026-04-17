@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T17:08:00.071Z",
+  "lastUpdated": "2026-04-17T18:06:37.336Z",
   "totalBreaches": 1479,
   "breaches": [
     {
@@ -62,7 +62,15 @@
       "AddedDate": "2026-04-17T17:07:51.715Z",
       "ModifiedDate": "2026-04-17T17:07:51.715Z",
       "slug": "fdration-franaise-de-basket-ball",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Federation-francaise-de-basket-leak-fuite-de-donnees-scaled.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Federation-francaise-de-basket-leak-fuite-de-donnees-scaled.png",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Le cybercriminel 'HexDex' a annoncé la mise en vente des données de 2.7 millions de licenciés et proches (1.9M de licenciés et 800k de parents) de la Fédération Française de Basket-Ball.\n\nStatut: Revendiquée\nType de service: Fédération sportive",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1841,
+      "title": "Fédération Française de Basket-Ball"
     },
     {
       "Name": "police nationale",
