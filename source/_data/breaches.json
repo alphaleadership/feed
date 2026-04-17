@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T00:07:58.168Z",
+  "lastUpdated": "2026-04-17T03:46:28.457Z",
   "totalBreaches": 1477,
   "breaches": [
     {
@@ -35,7 +35,8 @@
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Gauthier Tissus",
       "index": 1839,
-      "title": "Gauthier Tissus"
+      "title": "Gauthier Tissus",
+      "oldindex": 1839
     },
     {
       "Name": "police nationale",
@@ -70,7 +71,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Ville • Informations utilisateurs • Login • Premières et dernières connexions • modules suivis • Badges obtenus • Outils et portails utilisés •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1835,
+      "oldindex": 1836,
       "title": "police nationale fuite du 2026-4-16"
     },
     {
@@ -106,7 +107,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1837,
-      "title": "Filair"
+      "title": "Filair",
+      "oldindex": 1837
     },
     {
       "Name": "Assurea",
@@ -217,7 +219,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1835,
-      "title": "Pompes Funèbres Musulmanes Toulouse"
+      "title": "Pompes Funèbres Musulmanes Toulouse",
+      "oldindex": 1835
     },
     {
       "Name": "Logis Hôtels",
