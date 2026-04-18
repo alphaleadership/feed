@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18T15:49:14.876Z",
+  "lastUpdated": "2026-04-18T16:46:30.849Z",
   "totalBreaches": 1483,
   "breaches": [
     {
@@ -36,7 +36,7 @@
       "lien": "https://haveibeenpwned.com/Breach/Gauthier Tissus",
       "index": 1841,
       "title": "Gauthier Tissus",
-      "oldindex": 1840
+      "oldindex": 1841
     },
     {
       "Name": "Fédération Française de Basket-Ball",
@@ -71,7 +71,7 @@
       "nsfwConfidence": 0,
       "index": 1842,
       "title": "Fédération Française de Basket-Ball",
-      "oldindex": 1841
+      "oldindex": 1842
     },
     {
       "Name": "bazar du manga",
@@ -106,7 +106,7 @@
       "content": "-",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1842,
+      "oldindex": 1843,
       "title": "bazar du manga fuite du 2026-4-17"
     },
     {
@@ -142,7 +142,7 @@
       "content": "-",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1843,
+      "oldindex": 1844,
       "title": "jeu jouet fuite du 2026-4-17"
     },
     {
@@ -178,7 +178,7 @@
       "content": "-",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1844,
+      "oldindex": 1845,
       "title": "moulin roty fuite du 2026-4-17"
     },
     {
@@ -285,7 +285,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1839,
-      "title": "Imagerie Clinique Yvette"
+      "title": "Imagerie Clinique Yvette",
+      "oldindex": 1839
     },
     {
       "Name": "Assurea",
