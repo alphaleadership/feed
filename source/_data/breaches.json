@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-18T14:06:26.075Z",
-  "totalBreaches": 1482,
+  "lastUpdated": "2026-04-18T14:59:10.035Z",
+  "totalBreaches": 1483,
   "breaches": [
     {
       "Name": "Gauthier Tissus",
@@ -252,6 +252,31 @@
       "index": 1838,
       "title": "Filair",
       "oldindex": 1838
+    },
+    {
+      "Name": "Imagerie Clinique Yvette",
+      "Title": "Imagerie Clinique Yvette",
+      "Domain": "clinique-yvette.com",
+      "BreachDate": "2026-04-16",
+      "PwnCount": 0,
+      "Description": "Un échantillon de données de patients et un accès administrateur de la clinique située à Longjumeau (France) ont été publiés par l'acteur de la menace 'ntmpd' le 16 avril 2026.\n\nStatut: Revendiquée\nType de service: Imagerie médicale",
+      "DataClasses": [
+        "Informations personnelles (nom du patient)",
+        "Données de santé (identifiants patients, numéros de dossier, date et description des examens médicaux)",
+        "Identifiants (accès administrateur)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK0iX0xEvBA6NIN9vrYdjMM8DQb6NpRuRmfw&s",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Clinique-de-lyvette-leak-fuite-de-donnees-scaled.png",
+      "AddedDate": "2026-04-18T14:59:01.822Z",
+      "ModifiedDate": "2026-04-18T14:59:01.822Z",
+      "slug": "imagerie-clinique-yvette",
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Clinique-de-lyvette-leak-fuite-de-donnees-scaled.png"
     },
     {
       "Name": "Assurea",
