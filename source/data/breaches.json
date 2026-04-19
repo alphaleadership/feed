@@ -1,7 +1,32 @@
 {
-  "lastUpdated": "2026-04-19T15:49:55.553Z",
-  "totalBreaches": 1483,
+  "lastUpdated": "2026-04-19T16:46:38.212Z",
+  "totalBreaches": 1484,
   "breaches": [
+    {
+      "Name": "Comptoir du Rêve",
+      "Title": "Comptoir du Rêve",
+      "Domain": "comptoirdureve.fr",
+      "BreachDate": "2026-04-18",
+      "PwnCount": 38085,
+      "Description": "Publication par l'acteur 'ChimeraZ' de la base de données de 42 606 enregistrements clients du site comptoirdureve.fr, correspondant à 38 085 individus uniques.\n\nStatut: Revendiquée\nType de service: Librairie en ligne",
+      "DataClasses": [
+        "Identité (Civilité, Prénom, Nom, Raison sociale)",
+        "Adresse postale (Adresse, Complément d'adresse, Code postal, Ville, Pays, Libellé d'adresse)",
+        "Données techniques (ID client)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://static.epagine.fr/mediaweb3/6607/comptoirdureve_logo.png",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Comptoir-du-reve-leak-fuite-de-donnees-scaled.png",
+      "AddedDate": "2026-04-19T16:46:29.857Z",
+      "ModifiedDate": "2026-04-19T16:46:29.857Z",
+      "slug": "comptoir-du-rve",
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Comptoir-du-reve-leak-fuite-de-donnees-scaled.png"
+    },
     {
       "Name": "Gauthier Tissus",
       "Title": "Gauthier Tissus",
