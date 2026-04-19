@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T16:46:38.212Z",
+  "lastUpdated": "2026-04-19T17:38:36.608Z",
   "totalBreaches": 1484,
   "breaches": [
     {
@@ -25,7 +25,16 @@
       "AddedDate": "2026-04-19T16:46:29.857Z",
       "ModifiedDate": "2026-04-19T16:46:29.857Z",
       "slug": "comptoir-du-rve",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Comptoir-du-reve-leak-fuite-de-donnees-scaled.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Comptoir-du-reve-leak-fuite-de-donnees-scaled.png",
+      "Attribution": "chimeraz",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Publication par l'acteur 'ChimeraZ' de la base de données de 42 606 enregistrements clients du site comptoirdureve.fr, correspondant à 38 085 individus uniques.\n\nStatut: Revendiquée\nType de service: Librairie en ligne",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1850,
+      "title": "Comptoir du Rêve"
     },
     {
       "Name": "Gauthier Tissus",
