@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T17:38:36.608Z",
+  "lastUpdated": "2026-04-19T18:25:30.402Z",
   "totalBreaches": 1484,
   "breaches": [
     {
@@ -34,7 +34,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1850,
-      "title": "Comptoir du Rêve"
+      "title": "Comptoir du Rêve",
+      "oldindex": 1850
     },
     {
       "Name": "Gauthier Tissus",
