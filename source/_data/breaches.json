@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-19T07:49:39.595Z",
-  "totalBreaches": 1483,
+  "lastUpdated": "2026-04-19T08:58:37.785Z",
+  "totalBreaches": 1482,
   "breaches": [
     {
       "Name": "Gauthier Tissus",
@@ -1140,46 +1140,6 @@
       "lien": "https://haveibeenpwned.com/Breach/McGrawHill",
       "oldindex": 1807,
       "title": "McGraw Hill"
-    },
-    {
-      "Name": "son",
-      "Title": "son fuite du 2026-4-10",
-      "Domain": null,
-      "BreachDate": "2026-4-10",
-      "AddedDate": "2026-04-18T21:39:18.464Z",
-      "ModifiedDate": "2026-04-18T21:39:18.464Z",
-      "PwnCount": 0,
-      "Description": "-\n\nNom\nprénom • Adresse email • Adresse postale • Numéro de téléphone • Historique des commandes •",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [
-        "Informations d'identité (Nom, prénom, civilité)",
-        "Coordonnées (Adresse email, numéro de téléphone, adresse postale)",
-        "Données commerciales (Historique des commandes)"
-      ],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "son-fuite-du-2026-4-10",
-      "path": "https://bonjourlafuite.eu.org/img/son-video.png",
-      "formattedDate": "2026-04-10",
-      "index": 1808,
-      "lien": "https://bonjourlafuite.eu.org/img/son-video.png",
-      "isBlocked": false,
-      "blockedNote": null,
-      "source": "Manuel",
-      "categories": [],
-      "content": "-\n\nNom\nprénom • Adresse email • Adresse postale • Numéro de téléphone • Historique des commandes •",
-      "isNSFW": false,
-      "nsfwConfidence": 0,
-      "oldindex": 1808,
-      "title": "son fuite du 2026-4-10"
     },
     {
       "Name": "DCL (Diplôme de Compétence en Langue)",
