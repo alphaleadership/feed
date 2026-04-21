@@ -56,52 +56,20 @@ class breach {
 
 
   async function runImport() {
-    /*const tempdata = disdata.then((data) => {
-      //console.log(data)
-      return data.data.map((item) => {
-        let morph = item
-        morph.Name = item.name
-        morph.Description = item.records_count_raw || "aucune information "
-        morph.BreachDate = new Date(item.date)
-        morph.AddedDate = new Date(item.date)
-        morph.PwnCount = item.records_count || 0
-        morph.categories=[]
-        morph.categories.push(item.Name)
-        Object.keys(item).forEach((key) => {
-          if (!Object.keys(defaultBreachSchema).includes(key)) {
-            delete morph[key]
-          }
-        })
-        return morph
-
-      })
-
-    })*/
-    //console.log(await tempdata)
+    // ... (commentaires inchangés)
     const storage=[]
-    if(fs.existsSync(path.join(baseDir, 'source', '_posts'))){
+    if(fs.existsSync(path.join(baseDir, 'source', '_import'))){
       const dbInstance = await getBreachesDB();
       const db = dbInstance.data;
-      const dirs = fs.readdirSync(path.join(baseDir, 'source', '_posts')).filter((file) => { return fs.statSync(path.join(baseDir, 'source', '_posts', file)).isDirectory() });
+      const importDir = path.join(baseDir, 'source', '_import');
       
-      for (const dir of dirs) {
-      const importDir = path.join(baseDir, 'source', '_posts', dir);
-      //console.log(importDir)
       console.log("Démarrage du script d'importation autonome...");
-
-      if (!fs.existsSync(importDir)) {
-        console.log("Le dossier d'import 'source/_import' n'existe pas. Création du dossier.");
-        fs.mkdirSync(importDir, { recursive: true });
-        console.log("Veuillez placer les fichiers .md à importer dans 'source/_import' et relancer la commande.");
-        continue;
-      }
 
       const filesToImport = fs.readdirSync(importDir).filter(file => file.endsWith('.md'));
 
       if (filesToImport.length === 0) {
-        console.log("Aucun fichier .md à importer dans 'source/_import'." + importDir);
-        fs.rmdirSync(importDir)
-        continue;
+        console.log("Aucun fichier .md à importer dans 'source/_import'.");
+        return;
       }
 
       console.log(`Trouvé ${filesToImport.length} fichier(s) à importer...`);
@@ -135,7 +103,7 @@ class breach {
           });
         } catch (e) {
           console.error("Erreur lors de l'analyse des données breaches:", e.message);
-          continue;
+          return;
         }
       }
 
@@ -243,7 +211,7 @@ class breach {
           console.log('Base de données mise à jour avec succès.');
         } catch (e) {
           console.error("Erreur lors de la sauvegarde des données:", e.message);
-          continue;
+          return;
         }
       }
 
@@ -252,7 +220,6 @@ class breach {
       console.log(` ${skippedCount} fichier(s) ignoré(s) (doublon ou erreur).`);
       console.log('-----------------------------');
       fs.rmdirSync(importDir)
-    }
     }
    
   }

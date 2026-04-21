@@ -70,7 +70,7 @@ const removeNunjucks = (content) => {
 
 const l = (title, cat = []) => {
   if(title.startsWith("CVE")){
-    return "_posts"
+    return "_posts/fuites"
   }
   const validCategories = [].map((item)=>{return item.toLowerCase()});
   
@@ -78,7 +78,7 @@ const l = (title, cat = []) => {
   
   if (hasValidCategory) {
     console.log('✅ Catégorie valide trouvée:', cat.find(c => validCategories.includes(c.toLowerCase())));
-    return "_posts";
+    return "_posts/fuites";
   }
   
   const ignoredUrls = [
@@ -94,7 +94,7 @@ const l = (title, cat = []) => {
     }
   }
   
-  return "_posts";
+  return "_posts/fuites";
 };
 
 const checklink=(table,lien)=>{
