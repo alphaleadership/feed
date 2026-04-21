@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-21T18:26:27.711Z",
-  "totalBreaches": 1489,
+  "lastUpdated": "2026-04-21T18:47:14.143Z",
+  "totalBreaches": 1488,
   "breaches": [
     {
       "Name": "Magasins U",
@@ -133,7 +133,16 @@
       "AddedDate": "2026-04-21T18:26:20.569Z",
       "ModifiedDate": "2026-04-21T18:26:20.569Z",
       "slug": "ledil-immobilier",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Ledil-immobilier-leak-fuites-de-donnees-scaled.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Ledil-immobilier-leak-fuites-de-donnees-scaled.png",
+      "Attribution": "888",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Publication d'une base de données de 6 700 enregistrements concernant Ledil Immobilier, un réseau français de mandataires immobiliers dont le siège est à Agen. La fuite, datée d'avril 2026, est revendiquée par l'acteur 888.\n\nStatut: Revendiquée\nType de service: Immobilier",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1522,
+      "title": "Ledil Immobilier"
     },
     {
       "Name": "ANTS (France titres)",
@@ -238,7 +247,7 @@
       "lien": "https://haveibeenpwned.com/Breach/Gauthier Tissus",
       "index": 1512,
       "title": "Gauthier Tissus",
-      "oldindex": 1515
+      "oldindex": 1512
     },
     {
       "Name": "Fédération Française de Basket-Ball",
@@ -273,7 +282,7 @@
       "nsfwConfidence": 0,
       "index": 1513,
       "title": "Fédération Française de Basket-Ball",
-      "oldindex": 1516
+      "oldindex": 1513
     },
     {
       "Name": "bazar du manga",
@@ -308,7 +317,7 @@
       "content": "-",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1512,
+      "oldindex": 1514,
       "title": "bazar du manga fuite du 2026-4-17"
     },
     {
@@ -344,7 +353,7 @@
       "content": "-",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1513,
+      "oldindex": 1515,
       "title": "jeu jouet fuite du 2026-4-17"
     },
     {
@@ -380,7 +389,7 @@
       "content": "-",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1514,
+      "oldindex": 1516,
       "title": "moulin roty fuite du 2026-4-17"
     },
     {
@@ -417,7 +426,7 @@
       "nsfwConfidence": 0,
       "index": 1509,
       "title": "Filair",
-      "oldindex": 1510
+      "oldindex": 1509
     },
     {
       "Name": "Imagerie Clinique Yvette",
@@ -452,7 +461,7 @@
       "nsfwConfidence": 0,
       "index": 1510,
       "title": "Imagerie Clinique Yvette",
-      "oldindex": 1511
+      "oldindex": 1510
     },
     {
       "Name": "police nationale",
@@ -487,7 +496,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Ville • Informations utilisateurs • Login • Premières et dernières connexions • modules suivis • Badges obtenus • Outils et portails utilisés •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1509,
+      "oldindex": 1511,
       "title": "police nationale fuite du 2026-4-16"
     },
     {
@@ -639,7 +648,7 @@
       "nsfwConfidence": 0,
       "index": 1502,
       "title": "Logis Hôtels",
-      "oldindex": 1503
+      "oldindex": 1502
     },
     {
       "Name": "EduConnect",
@@ -673,7 +682,7 @@
       "nsfwConfidence": 0,
       "index": 1503,
       "title": "EduConnect",
-      "oldindex": 1504
+      "oldindex": 1503
     },
     {
       "Name": "CNAOC (Confédération Nationale des Appellations d'Origine Contrôlée)",
@@ -708,7 +717,7 @@
       "nsfwConfidence": 0,
       "index": 1504,
       "title": "CNAOC (Confédération Nationale des Appellations d'Origine Contrôlée)",
-      "oldindex": 1505
+      "oldindex": 1504
     },
     {
       "Name": "éducation nationale (éduconnect)",
@@ -743,7 +752,7 @@
       "content": "-\n\nNom\nprénom • Identifiant ÉduConnect • Établissement et classe • Adresse email • Code d’activation •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1502,
+      "oldindex": 1505,
       "title": "éducation nationale (éduconnect) fuite du 2026-4-14"
     },
     {
@@ -890,7 +899,7 @@
       "nsfwConfidence": 0,
       "index": 1496,
       "title": "Département de l'Ardèche",
-      "oldindex": 1497
+      "oldindex": 1496
     },
     {
       "Name": "INSEI / INSHEA",
@@ -931,7 +940,7 @@
       "nsfwConfidence": 0,
       "index": 1497,
       "title": "INSEI / INSHEA",
-      "oldindex": 1498
+      "oldindex": 1497
     },
     {
       "Name": "booking",
@@ -972,7 +981,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Adresse postale • Numéro de téléphone • Toute information communiquée •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1496,
+      "oldindex": 1498,
       "title": "booking fuite du 2026-4-12"
     },
     {
@@ -1123,7 +1132,7 @@
       "nsfwConfidence": 0,
       "index": 1485,
       "title": "DB Telecom",
-      "oldindex": 1491
+      "oldindex": 1485
     },
     {
       "Name": "McGrawHill",
@@ -1160,7 +1169,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/McGrawHill",
-      "oldindex": 1492,
+      "oldindex": 1486,
       "title": "McGraw Hill"
     },
     {
@@ -1196,7 +1205,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Adresse postale • Numéro de téléphone • Historique des commandes •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1485,
+      "oldindex": 1487,
       "title": "easy lounge fuite du 2026-4-10"
     },
     {
@@ -1232,7 +1241,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Numéro de téléphone • Code postal\nville • Titre courant du poste • Souhait professionnel • Expérience professionnelle • Parcours au sein du réseau • Diplôme obtenu\nannée • Compétence •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1486,
+      "oldindex": 1488,
       "title": "alumni université côte d’azur fuite du 2026-4-10"
     },
     {
@@ -1268,7 +1277,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Numéro de téléphone • Code postal\nville • Titre courant du poste • Souhait professionnel • Expérience professionnelle • Parcours au sein du réseau • Diplôme obtenu\nannée • Compétence •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1487,
+      "oldindex": 1489,
       "title": "ensai network fuite du 2026-4-10"
     },
     {
@@ -1304,7 +1313,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Numéro de téléphone • Code postal\nville • Titre courant du poste • Souhait professionnel • Expérience professionnelle • Parcours au sein du réseau • Diplôme obtenu\nannée • Compétence •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1488,
+      "oldindex": 1490,
       "title": "lilagora fuite du 2026-4-10"
     },
     {
@@ -1340,48 +1349,8 @@
       "content": "-\n\nNom\nprénom • Adresse email • Numéro de téléphone • Code postal\nville • Titre courant du poste • Souhait professionnel • Expérience professionnelle • Parcours au sein du réseau • Diplôme obtenu\nannée • Compétence •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1489,
+      "oldindex": 1491,
       "title": "uppa alumni fuite du 2026-4-10"
-    },
-    {
-      "Name": "son",
-      "Title": "son fuite du 2026-4-10",
-      "Domain": null,
-      "BreachDate": "2026-4-10",
-      "AddedDate": "2026-04-21T16:36:39.197Z",
-      "ModifiedDate": "2026-04-21T16:36:39.197Z",
-      "PwnCount": 0,
-      "Description": "-\n\nNom\nprénom • Adresse email • Adresse postale • Numéro de téléphone • Historique des commandes •",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [
-        "Informations d'identité (Nom, prénom, civilité)",
-        "Coordonnées (Adresse email, numéro de téléphone, adresse postale)",
-        "Données commerciales (Historique des commandes)"
-      ],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "son-fuite-du-2026-4-10",
-      "path": "https://bonjourlafuite.eu.org/img/son-video.png",
-      "formattedDate": "2026-04-10",
-      "index": 1492,
-      "lien": "https://bonjourlafuite.eu.org/img/son-video.png",
-      "isBlocked": false,
-      "blockedNote": null,
-      "source": "Manuel",
-      "categories": [],
-      "content": "-\n\nNom\nprénom • Adresse email • Adresse postale • Numéro de téléphone • Historique des commandes •",
-      "isNSFW": false,
-      "nsfwConfidence": 0,
-      "oldindex": 1490,
-      "title": "son fuite du 2026-4-10"
     },
     {
       "Name": "DCL (Diplôme de Compétence en Langue)",
@@ -1522,7 +1491,7 @@
       "isNSFW": true,
       "nsfwConfidence": 0.9,
       "lien": "https://haveibeenpwned.com/Breach/MyLovelyAI",
-      "oldindex": 1481,
+      "oldindex": 1480,
       "title": "My Lovely AI",
       "tags": [
         "IA"
@@ -1566,7 +1535,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Numéro de téléphone • Numéro de fidélité •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1480,
+      "oldindex": 1481,
       "title": "kfc fuite du 2026-4-7"
     },
     {
@@ -1711,7 +1680,7 @@
       "nsfwConfidence": 0,
       "index": 1474,
       "title": "Or en Cash",
-      "oldindex": 1475
+      "oldindex": 1474
     },
     {
       "Name": "Veuve Clicquot",
@@ -1745,7 +1714,7 @@
       "nsfwConfidence": 0,
       "index": 1475,
       "title": "Veuve Clicquot",
-      "oldindex": 1476
+      "oldindex": 1475
     },
     {
       "Name": "contrat d’intégration républicaine",
@@ -1780,7 +1749,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Adresse postale • Numéro de téléphone •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1474,
+      "oldindex": 1476,
       "title": "contrat d’intégration républicaine fuite du 2026-4-4"
     },
     {
@@ -1897,7 +1866,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/SongTrivia2",
-      "oldindex": 1471,
+      "oldindex": 1470,
       "title": "SongTrivia2"
     },
     {
@@ -1933,7 +1902,7 @@
       "content": "-\n\nNom\nprénom • Adresse postale • Carte d’identité • Factures • IBAN •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1470,
+      "oldindex": 1471,
       "title": "gold union fuite du 2026-4-2"
     },
     {
@@ -2025,7 +1994,7 @@
       "nsfwConfidence": 0,
       "index": 1464,
       "title": "Vacancéole",
-      "oldindex": 1467
+      "oldindex": 1464
     },
     {
       "Name": "Hallmark",
@@ -2063,7 +2032,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Hallmark",
-      "oldindex": 1468,
+      "oldindex": 1465,
       "title": "Hallmark"
     },
     {
@@ -2099,7 +2068,7 @@
       "content": "-\n\nNom\nprénom • Code postal\npays • Adresse email • Historique des achats •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1464,
+      "oldindex": 1466,
       "title": "la mine bleue fuite du 2026-3-31"
     },
     {
@@ -2135,7 +2104,7 @@
       "content": "-\n\nNom\nprénom • Numéro de téléphone • Adresse email • Destination • Date d’arrivée et de départ • Montant de la réservation •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1465,
+      "oldindex": 1467,
       "title": "homair fuite du 2026-3-31"
     },
     {
@@ -2171,7 +2140,7 @@
       "content": "-\n\nMalware •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1466,
+      "oldindex": 1468,
       "title": "vaucluse provence attractivité fuite du 2026-3-31"
     },
     {
@@ -2206,7 +2175,7 @@
       "nsfwConfidence": 0,
       "index": 1462,
       "title": "Belambra",
-      "oldindex": 1463
+      "oldindex": 1462
     },
     {
       "Name": "gdquest",
@@ -2241,7 +2210,7 @@
       "content": "-\n\nAdresse email • Titre et tarif des cours suivi • Pseudo et slug du compte •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1462,
+      "oldindex": 1463,
       "title": "gdquest fuite du 2026-3-30"
     },
     {
@@ -2510,7 +2479,7 @@
       "title": "CROUS",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
-      "oldindex": 1452,
+      "oldindex": 1449,
       "Attribution": "dumpsec"
     },
     {
@@ -2554,7 +2523,7 @@
       "title": "Mondial Tissus",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1453,
+      "oldindex": 1450,
       "Attribution": "dumpsec"
     },
     {
@@ -2604,7 +2573,7 @@
       "title": "Système d'Information sur les Armes (SIA)",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1454,
+      "oldindex": 1451,
       "Attribution": "hexdex"
     },
     {
@@ -2640,7 +2609,7 @@
       "content": "-\n\nNom\nprénom\n• Numéro de licence fédérale • Structure de rattachement • Sports pratiqués • Âge et date de naissance • Qualifications éventuelles •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1449,
+      "oldindex": 1452,
       "title": "fédération française de vol libre fuite du 2026-3-24",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE"
@@ -2678,7 +2647,7 @@
       "content": "-\n\nAdresse email •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1450,
+      "oldindex": 1453,
       "title": "métropole marseille fuite du 2026-3-24",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE"
@@ -2716,7 +2685,7 @@
       "content": "-\n\nSource •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1451,
+      "oldindex": 1454,
       "title": "europa (commission européenne) fuite du 2026-3-24"
     },
     {
@@ -3019,7 +2988,7 @@
       "title": "Canada Goose",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1442
+      "oldindex": 1440
     },
     {
       "Name": "mingat",
@@ -3054,7 +3023,7 @@
       "content": "-\n\nRansomware •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1440,
+      "oldindex": 1441,
       "title": "mingat fuite du 2026-3-18",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE"
@@ -3092,7 +3061,7 @@
       "content": "-\n\nNom\nprénom • Adresse mail • Information liés au compte utilisateur • Commandes •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1441,
+      "oldindex": 1442,
       "title": "musée des arts et métier fuite du 2026-3-18",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE"
@@ -3140,7 +3109,7 @@
       "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/03/Rugby-federation-fuites-de-donnees-leak.png",
       "index": 1437,
       "title": "Fédération Française de Rugby",
-      "oldindex": 1438,
+      "oldindex": 1437,
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
       "nsfwConfidence": 0,
@@ -3182,7 +3151,7 @@
       "lien": "https://fuitesinfos.fr/#annuaire-administration-2026-03-17",
       "index": 1438,
       "title": "Annuaire Administration",
-      "oldindex": 1439
+      "oldindex": 1438
     },
     {
       "Name": "bibliothèque nationale de france fuite du 2026-3-17",
@@ -3217,7 +3186,7 @@
       "content": "-\n\nNom\nprénom • Adresse électronique •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1437,
+      "oldindex": 1439,
       "title": "bibliothèque nationale de france fuite du 2026-3-17",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE"
@@ -3540,7 +3509,7 @@
       "title": "Intersport Rent",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1429,
+      "oldindex": 1428,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0,
@@ -3576,7 +3545,7 @@
       "content": "-\n\nSource&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/pronote.png",
-      "oldindex": 1428,
+      "oldindex": 1429,
       "title": "pronote fuite du 2026-3-11",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -4208,7 +4177,7 @@
       "title": "ImmoJeune",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1414,
+      "oldindex": 1412,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0,
@@ -4244,7 +4213,7 @@
       "content": "-\n\nNom\nprénom • Numéro de téléphone • Adresse postale • Achat effectué • Message d’accompagnement • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/florajet.png",
-      "oldindex": 1412,
+      "oldindex": 1413,
       "title": "florajet fuite du 2026-3-5",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -4285,7 +4254,7 @@
       "content": "-\n\nNom\nprénom • Date de naissance • Numéro de sécurité sociale • Numéros de téléphone (étudiant + parents) • Adresses postales (étudiant + parents) • Adresses email (étudiant + parents) • Situation familiale • Nom\nprénom\nprofession de la fratrie • Établissement scolaire • Photo d'identité • Pièce d'identité (passeport ou CNI) • IBAN • Bulletin de notes • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/penninghen.png",
-      "oldindex": 1413,
+      "oldindex": 1414,
       "title": "penninghen fuite du 2026-3-5",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
@@ -4339,7 +4308,7 @@
       "title": "YGG Torrent",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
-      "oldindex": 1409,
+      "oldindex": 1407,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -4377,7 +4346,7 @@
       "title": "Brouillon de culture",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
-      "oldindex": 1410,
+      "oldindex": 1408,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0,
@@ -4422,7 +4391,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/SUCCESS",
-      "oldindex": 1411,
+      "oldindex": 1409,
       "title": "SUCCESS"
     },
     {
@@ -4455,7 +4424,7 @@
       "content": "-\n\nNom\nprénom • Employeur • Adresse email (pro) • Numéro de téléphone (pro) • Adresse postale (pro) • Présentation et domaine d'expertise • Groupes de travail • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/anct.png",
-      "oldindex": 1407,
+      "oldindex": 1410,
       "title": "agence nationale de la cohésion des territoires (anct) fuite du 2026-3-4",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -4495,7 +4464,7 @@
       "content": "-\n\nnom\nprénom • date de naissance (adultes et mineurs) • adresse postale\ntéléphone • noms\nprénoms des enfants • situation familiale • situation professionnelle • quotient familial\nreste à vivre • historique de passages et de paiements • commentaires de travailleurs sociaux • identifiants et mots de passe d'associations partenaires • noms\nprénoms des travailleurs sociaux • adresses mails des travailleurs sociaux • téléphones de travailleurs sociaux • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/banquesalimentaires.png",
-      "oldindex": 1408,
+      "oldindex": 1411,
       "title": "banque alimentaire fuite du 2026-3-4",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
@@ -4579,7 +4548,7 @@
       "title": "Tchap",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1404,
+      "oldindex": 1397,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0,
@@ -4625,7 +4594,7 @@
       "title": "Bioserveur",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
-      "oldindex": 1405,
+      "oldindex": 1398,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0,
@@ -4663,7 +4632,7 @@
       "content": "-\n\nNom\nprénom • Adresse mail • Historique d’achat • Code postal\npays • Mot de passe chiffré (???) • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/centre-monuments-nationaux.png",
-      "oldindex": 1397,
+      "oldindex": 1399,
       "title": "centre des monuments nationaux fuite du 2026-3-2",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
@@ -4701,7 +4670,7 @@
       "content": "-\n\nNom\nprénom • Pseudo • Date de naissance • Données de contact • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/rsi.png",
-      "oldindex": 1398,
+      "oldindex": 1400,
       "title": "cloud imperium games fuite du 2026-3-2",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -4741,7 +4710,7 @@
       "content": "-\n\nIBAN • Contrat • Données d’entreprise • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/lisi.png",
-      "oldindex": 1399,
+      "oldindex": 1401,
       "title": "lisi fuite du 2026-3-2",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
@@ -4779,7 +4748,7 @@
       "content": "-\n\nAdresse mail • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/mdph-92.jpg",
-      "oldindex": 1400,
+      "oldindex": 1402,
       "title": "mdph 92 fuite du 2026-3-2",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -4817,7 +4786,7 @@
       "content": "-\n\nNom et prénom • Date de naissance • Adresse électronique • Adresse postale • Numéro de téléphone • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/cours-adultes-paris.png",
-      "oldindex": 1401,
+      "oldindex": 1403,
       "title": "plateforme des cours d’adultes de paris fuite du 2026-3-2",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -4855,7 +4824,7 @@
       "content": "-\n\nRansomware • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/tactis.png",
-      "oldindex": 1402,
+      "oldindex": 1404,
       "title": "tactis fuite du 2026-3-2",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -4897,7 +4866,7 @@
       "categories": [],
       "content": "-\n\nNom\nprénom • Adresse email • Adresse postale • Numéro de téléphone • Date de naissance • Historique des achats • Mot de passe chiffré (??? 🤷) • Source",
       "isNSFW": false,
-      "oldindex": 1403,
+      "oldindex": 1405,
       "title": "palais de la porte dorée fuite du 2026-3-2",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
@@ -4937,7 +4906,7 @@
       "title": "BE ATEX",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1391,
+      "oldindex": 1390,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0,
@@ -4975,7 +4944,7 @@
       "lien": "https://haveibeenpwned.com/Breach/Breachforums.V5",
       "index": 1391,
       "title": "Breachforums.V5",
-      "oldindex": 1392
+      "oldindex": 1391
     },
     {
       "Name": "CFGI",
@@ -5013,7 +4982,7 @@
       "lien": "https://haveibeenpwned.com/Breach/CFGI",
       "index": 1392,
       "title": "CFGI",
-      "oldindex": 1393
+      "oldindex": 1392
     },
     {
       "Name": "InfiniteCampus",
@@ -5053,7 +5022,7 @@
       "lien": "https://haveibeenpwned.com/Breach/InfiniteCampus",
       "index": 1393,
       "title": "InfiniteCampus",
-      "oldindex": 1394
+      "oldindex": 1393
     },
     {
       "Name": "HumanizerPro",
@@ -5087,7 +5056,7 @@
       "lien": "https://haveibeenpwned.com/Breach/HumanizerPro",
       "index": 1394,
       "title": "HumanizerPro",
-      "oldindex": 1395
+      "oldindex": 1394
     },
     {
       "Name": "TLDRtech",
@@ -5123,7 +5092,7 @@
       "lien": "https://haveibeenpwned.com/Breach/TLDRtech",
       "index": 1395,
       "title": "TLDRtech",
-      "oldindex": 1396
+      "oldindex": 1395
     },
     {
       "Name": "ayomi",
@@ -5155,7 +5124,7 @@
       "content": "-\n\nphoto de pièce d'identité • extrait Kbis • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/ayomi.png",
-      "oldindex": 1390,
+      "oldindex": 1396,
       "title": "ayomi fuite du 2026-3-1",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -5202,7 +5171,7 @@
       "title": "UNSS #2",
       "IsCritical": false,
       "SeverityLevel": "MODÉRÉ",
-      "oldindex": 1389,
+      "oldindex": 1388,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0,
@@ -5238,7 +5207,7 @@
       "content": "-\n\nnom\nprénom • date de naissance • adresse postale • adresse email • numéro de téléphone • numéro et type de licence • Source • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/ffa.png",
-      "oldindex": 1388,
+      "oldindex": 1389,
       "title": "fédération française d'aéronautique fuite du 2026-2-28",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -5292,7 +5261,7 @@
       "title": "Eiffage (NextSend)",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
-      "oldindex": 1387,
+      "oldindex": 1382,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -5329,7 +5298,7 @@
       "content": "-\n\nnom\nprénom • coordonnées • dossier médical (commentaires médecins\npathologies\nantécédents) • orientation sexuelle • convictions religieuses • Source • Source&gt;",
       "isNSFW": false,
       "lien": "https://www.cegedim.fr/Communique/Cegedim_Communique26022026.pdf",
-      "oldindex": 1382,
+      "oldindex": 1383,
       "title": "cegedim fuite du 2026-2-27",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
@@ -5391,7 +5360,7 @@
       "content": "-\n\nCivilité\nnom et prénom d’usage • Courriel pro\net éventuellement personnel s’il a été renseigné • Données d’identification: nom d’utilisateur\nmais pas le mot de passe • Fonction et affectation • Photo\nsauf si il avait été indiqué qu’elle ne devait servir qu’au badge • Permissions d’accès aux services et aux locaux • Abonnements aux listes de diffusion • Pour les étudiants: inscriptions pédagogiques • Pour le personnel: employeur\ndomaine d’activité (BAP\nsection CNRS et CNU) • Pour le personnel salarié de la régie: corps\ndate de fin de contrat • Pour les prestataires\npartenaires et extérieurs: employeur\ncatégorie socioprofessionnelle • Source&gt;",
       "isNSFW": false,
       "lien": "https://next.ink/brief_article/fuite-de-donnees-personnelles-a-lecole-dingenieurs-espci/",
-      "oldindex": 1383,
+      "oldindex": 1384,
       "title": "espci fuite du 2026-2-27",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
@@ -5429,7 +5398,7 @@
       "content": "-\n\nNom\nprénom • Date de naissance • Genre • Adresse postale • Adresse mail • Numéro de téléphone • N° de licence • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/ffg.png",
-      "oldindex": 1384,
+      "oldindex": 1385,
       "title": "fédération française de gym fuite du 2026-2-27",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -5467,7 +5436,7 @@
       "content": "-\n\nnom de naissance\nprénom\ngenre • date de naissance • pays et ville de naissance • adresse postale • adresse email • numéro de téléphone • membres de la famille associés • type de licence\nassurance\nclub • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/ffski.png",
-      "oldindex": 1385,
+      "oldindex": 1386,
       "title": "fédération française de ski fuite du 2026-2-27",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -5505,7 +5474,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Numéro de téléphone • Code postal • Date de naissance • Plaque d’immatriculation • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/westfield.png",
-      "oldindex": 1386,
+      "oldindex": 1387,
       "title": "westfield club fuite du 2026-2-27",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -5552,7 +5521,7 @@
       "title": "Santeo",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1381,
+      "oldindex": 1380,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0,
@@ -5591,7 +5560,7 @@
       "content": "-\n\ncivilité\nnom\nprénom\ngenre • date de naissance • nationalité • pays de naissance • adresse postale • numéro de licence\ncode adhérent • discipline sportive • structure d'appartenance •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1380,
+      "oldindex": 1381,
       "title": "fédération sportive et culturelle de france fuite du 2026-2-26"
     },
     {
@@ -5627,7 +5596,7 @@
       "content": "In February, the AI-powered comic generation platform KomikoAI suffered a data breach. The incident exposed 1M unique email addresses along with names, user posts and the AI prompts used to generate content. The exposed data enables the mapping of individual AI prompts to specific email addresses.",
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/KomikoAI",
-      "oldindex": 1376,
+      "oldindex": 1375,
       "title": "KomikoAI",
       "IsCritical": false,
       "SeverityLevel": "MODÉRÉ",
@@ -5670,7 +5639,7 @@
       "content": "In February 2026, the couples and relationship app Lovora allegedly suffered a data breach that exposed 496k unique email addresses. The data also included users’ display names and profile photos, along with other personal information collected through use of the app. The app’s maker, Plantake, did not respond to multiple attempts to contact them about the incident.",
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/Lovora",
-      "oldindex": 1377,
+      "oldindex": 1376,
       "title": "Lovora",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -5715,7 +5684,7 @@
       "title": "CAF (RSA)",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
-      "oldindex": 1378,
+      "oldindex": 1377,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -5766,7 +5735,7 @@
       "title": "MyConnect",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
-      "oldindex": 1379,
+      "oldindex": 1378,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0,
@@ -5802,7 +5771,7 @@
       "content": "-\n\ncivilité\nnom\nprénom\nnom de naissance • date de naissance • profession • ville\ndépartement et pays de naissance • adresse email • numéro de téléphone • adresse postale • noms et prénoms des parents • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/ffaaa.png",
-      "oldindex": 1375,
+      "oldindex": 1379,
       "title": "fédération française d'aïkido fuite du 2026-2-25",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -5959,7 +5928,7 @@
       "title": "MaSalleDeSport (Basic-Fit, Fitness Park..)",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
-      "oldindex": 1371,
+      "oldindex": 1369,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -5994,7 +5963,7 @@
       "content": "-\n\nNom\nprénom • Adresse postale • Adresse email • Date de naissance • Numéro de téléphone • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/ffbad.png",
-      "oldindex": 1369,
+      "oldindex": 1370,
       "title": "fédération française de badminton fuite du 2026-2-22",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -6032,7 +6001,7 @@
       "content": "-\n\nSource • Source • Source&gt;",
       "isNSFW": false,
       "lien": "https://x.com/_SaxX_/status/2025496600500404517",
-      "oldindex": 1370,
+      "oldindex": 1371,
       "title": "on air fitness fuite du 2026-2-22",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -6262,7 +6231,7 @@
       "title": "OSAC (Aviation civile)",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
-      "oldindex": 1360,
+      "oldindex": 1358,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -6313,7 +6282,7 @@
       "title": "Police, Gendarmerie, CNIL (agents)",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1361,
+      "oldindex": 1359,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0,
@@ -6366,7 +6335,7 @@
       "title": "Ministère de l'Intérieur & des Armées",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1362,
+      "oldindex": 1360,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0,
@@ -6419,7 +6388,7 @@
       "title": "Gendarmerie Nationale (RESANA)",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1363,
+      "oldindex": 1361,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0,
@@ -6464,7 +6433,7 @@
       "title": "Azaé",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1364,
+      "oldindex": 1362,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -6499,7 +6468,7 @@
       "content": "-\n\nnom\nprénom • date de naissance • numéro de téléphone • adresse email • adresse postale • Source&gt;",
       "isNSFW": false,
       "lien": "https://www.ffvrc.fr/medias/fichiers/ACTUALITES/com-20260220-donnees.pdf",
-      "oldindex": 1358,
+      "oldindex": 1363,
       "title": "fédération française de voitures radio fuite du 2026-2-20",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -6537,7 +6506,7 @@
       "content": "-\n\nnom\nprénom • adresse email • numéro de téléphone • date de naissance • genre • numéro d'adhérent • nom du club • données d'adhésion • photo d'identité • Source • Source&gt;",
       "isNSFW": false,
       "lien": "https://x.com/seblatombe/status/2024834322692293114",
-      "oldindex": 1359,
+      "oldindex": 1364,
       "title": "keep cool fuite du 2026-2-20",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -6585,7 +6554,7 @@
       "title": "Valgo",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1357,
+      "oldindex": 1354,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -6620,7 +6589,7 @@
       "content": "-\n\nSource • Source&gt;",
       "isNSFW": false,
       "lien": "https://www.cfdt.fr/sinformer/communiques-de-presse/securite-informatique-la-cfdt-victime-d-une-cyberattaque",
-      "oldindex": 1354,
+      "oldindex": 1355,
       "title": "cfdt fuite du 2026-2-19",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -6658,7 +6627,7 @@
       "content": "-\n\nNom\nPrénom • Sexe • Date de naissance • Nom du club\nNom du comité départemental\nCode du comité départemental\nNom du comité régional\nCode du comité régional • Couleur de pagaie\nType de licence • Source&gt;",
       "isNSFW": true,
       "lien": "https://bonjourlafuite.eu.org/img/ffck.png",
-      "oldindex": 1355,
+      "oldindex": 1356,
       "title": "ffck et sports de pagaie fuite du 2026-2-19",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -6698,7 +6667,7 @@
       "content": "-\n\nNom\nprénom • Adresse postale • Date de naissance • NIR • Numéro de téléphone • Adresse email • Métadonnées de télécommunication • Profils de réseaux sociaux • Source&gt;",
       "isNSFW": false,
       "lien": "https://www.01net.com/actualites/1milliard-donnees-ultra-sensibles-exposees-internet.html",
-      "oldindex": 1356,
+      "oldindex": 1357,
       "title": "idmerit fuite du 2026-2-19",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
@@ -6739,7 +6708,7 @@
       "title": "Cyrillus",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1350,
+      "oldindex": 1349,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -6777,7 +6746,7 @@
       "title": "RTL Group",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1351,
+      "oldindex": 1350,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -6822,7 +6791,7 @@
       "title": "Lycée Carnot Paris",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1352,
+      "oldindex": 1351,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -6861,7 +6830,7 @@
       "title": "FICOBA (Ministère de l'Économie et des Finances)",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
-      "oldindex": 1353,
+      "oldindex": 1352,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -6898,7 +6867,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Adresse postale • Numéro de téléphone • Date de naissance • Mot de passe hashé • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/espacece.png",
-      "oldindex": 1349,
+      "oldindex": 1353,
       "title": "espace ce fuite du 2026-2-18",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
@@ -7044,7 +7013,7 @@
       "title": "Adidas",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
-      "oldindex": 1345,
+      "oldindex": 1344,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -7091,7 +7060,7 @@
       "title": "Socloz (Apple, Nike etc...)",
       "IsCritical": false,
       "SeverityLevel": "MODÉRÉ",
-      "oldindex": 1346,
+      "oldindex": 1345,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -7143,7 +7112,7 @@
       "content": "-\n\nNom\nprénom • Date de naissance • Adresse postale • Numéro de sécurité sociale • RIB • Statut\ntype de contrat • Structure d’affectation • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/cnrs.png",
-      "oldindex": 1344,
+      "oldindex": 1346,
       "title": "cnrs fuite du 2026-2-16",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
@@ -7226,7 +7195,7 @@
       "content": "In February 2026, the automotive marketplace CarGurus was the target of a data breach attributed to the threat actor ShinyHunters. Following an attempted extortion, the data was published publicly and contained more than 12M email addresses across multiple files including user account ID mappings, finance pre-qualification application data and dealer account and subscription information. Impacted data also included names, phone numbers, physical and IP addresses, and auto finance application outcomes.",
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/CarGurus",
-      "oldindex": 1342,
+      "oldindex": 1341,
       "title": "CarGurus",
       "IsCritical": false,
       "SeverityLevel": "MODÉRÉ",
@@ -7264,7 +7233,7 @@
       "content": "-\n\nNom\nprénom • Adresse postale • Adresse email • Numéro de téléphone • Source&gt;",
       "isNSFW": false,
       "lien": "https://x.com/_SaxX_/status/2022610505865589164",
-      "oldindex": 1341,
+      "oldindex": 1342,
       "title": "fédération française du sport automobile (ffsa) fuite du 2026-2-14",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -7316,7 +7285,7 @@
       "title": "Kimsufi (OVHcloud)",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1338,
+      "oldindex": 1335,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0,
@@ -7359,7 +7328,7 @@
       "title": "Gustave-Auto",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
-      "oldindex": 1339,
+      "oldindex": 1336,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0,
@@ -7410,7 +7379,7 @@
       "title": "Chez Switch",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
-      "oldindex": 1340,
+      "oldindex": 1337,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0,
@@ -7446,7 +7415,7 @@
       "content": "-\n\nNom\nprénom • Adresse électronique • Numéro de téléphone • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/grain-malice.png",
-      "oldindex": 1335,
+      "oldindex": 1338,
       "title": "grain de malice fuite du 2026-2-13",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -7484,7 +7453,7 @@
       "content": "-\n\nNom\nprénom • Fonction et statut • Adresse email • Numéro de téléphone • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/resto-coeur.png",
-      "oldindex": 1336,
+      "oldindex": 1339,
       "title": "les restos du cœur fuite du 2026-2-13",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -7524,7 +7493,7 @@
       "content": "-\n\nNom\nprénom • Pays de résidence • Adresse email • Numéro de téléphone • Numéro et date d’expiration du passeport • Source • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/voyage-prive-1.jpg",
-      "oldindex": 1337,
+      "oldindex": 1340,
       "title": "voyage privé fuite du 2026-2-13",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
@@ -7806,7 +7775,7 @@
       "title": "Renault (Réseau de concessions Sud-Est)",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1327,
+      "oldindex": 1323,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0,
@@ -7847,7 +7816,7 @@
       "title": "Prozon",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1328,
+      "oldindex": 1324,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -7905,7 +7874,7 @@
       "title": "Groupe Atalian",
       "IsCritical": false,
       "SeverityLevel": "MODÉRÉ",
-      "oldindex": 1329,
+      "oldindex": 1325,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0,
@@ -7943,7 +7912,7 @@
       "content": "-\n\nÉtat civil • Données d’identification • IBAN • Source • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/aikan-1.jpg",
-      "oldindex": 1323,
+      "oldindex": 1326,
       "title": "aïkan fuite du 2026-2-9",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
@@ -7981,7 +7950,7 @@
       "content": "-\n\nNom\nprénom • Date de naissance • Adresse postale • Numéro de téléphone • Carte d’identité • Acte de naissance • Signature • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/carte-avantage-jeune.png",
-      "oldindex": 1324,
+      "oldindex": 1327,
       "title": "la carte avantage jeune fuite du 2026-2-9",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -8021,7 +7990,7 @@
       "content": "-\n\nNuméro de carte bleu • Date d’expiration • CVV • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/pharmashopi.jpg",
-      "oldindex": 1325,
+      "oldindex": 1328,
       "title": "pharmashopi fuite du 2026-2-9",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
@@ -8059,7 +8028,7 @@
       "content": "-\n\nNom\nprénom • Numéro de téléphone • Adresse email • Source&gt;",
       "isNSFW": false,
       "lien": "https://cryptoast.fr/bitget-bybit-moonpay-bitpanda-donnees-personnelles-clients-pourraient-avoir-fuite-a-cause-fournisseur-kyc/",
-      "oldindex": 1326,
+      "oldindex": 1329,
       "title": "sumsub fuite du 2026-2-9",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -8203,7 +8172,7 @@
       "title": "Voyages Robin",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
-      "oldindex": 1320,
+      "oldindex": 1319,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -8238,7 +8207,7 @@
       "content": "-\n\nNom\nprénoms • Date et ville de naissance • Adresse postale • Numéros de téléphone fixe et portable • Nationalité • Adresse e-mail • Numéro de permis de chasser • Informations relatives à la demande\nl’instruction ou à l’examen du permis de chasser • Inscription au fichier national des personnes interdites d'acquisition et de détention d'armes • Convocation\ndates\nprésence et résultat • Source&gt;",
       "isNSFW": false,
       "lien": "https://ofb.gouv.fr/actualites/cyberattaque-visant-application-du-permis-de-chasser-ofb-informe-ses-usagers",
-      "oldindex": 1319,
+      "oldindex": 1320,
       "title": "office français de la biodiversité fuite du 2026-2-7",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -8279,7 +8248,7 @@
       "content": "In February 2026, the online gaming community Toy Battles suffered a data breach. The incident exposed 1k unique email addresses alongside usernames, IP addresses and chat logs. Following the breach, Toy Battles self-submitted the data to Have I Been Pwned.",
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/ToyBattles",
-      "oldindex": 1318,
+      "oldindex": 1314,
       "title": "Toy Battles",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -8317,7 +8286,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Status compte • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/cette-famille.png",
-      "oldindex": 1314,
+      "oldindex": 1315,
       "title": "cette famille fuite du 2026-2-6",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -8355,7 +8324,7 @@
       "content": "-\n\nNom • Adresse mail • Adresse IP • Login • Type de compte • Localisation • Activité du compte • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/flickr.png",
-      "oldindex": 1315,
+      "oldindex": 1316,
       "title": "flickr fuite du 2026-2-6",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -8393,7 +8362,7 @@
       "content": "-\n\nNom\nprénom • Date de naissance • Adresse postale • Adresse email • Numéro de téléphone • Source • Source&gt;",
       "isNSFW": false,
       "lien": "https://www.letelegramme.fr/sports/voile/la-federation-francaise-de-voile-victime-dune-fuite-de-donnees-de-ses-licencies-6978517.php",
-      "oldindex": 1316,
+      "oldindex": 1317,
       "title": "fédération française de voile fuite du 2026-2-6",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -8431,7 +8400,7 @@
       "content": "-\n\nNom\nPrénom • Date de naissance • Adresse postale • Numéro de téléphone • Adresse mail • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/mairie-paris.png",
-      "oldindex": 1317,
+      "oldindex": 1318,
       "title": "mairie de paris fuite du 2026-2-6",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -8486,7 +8455,7 @@
       "title": "Asten Santé",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1312,
+      "oldindex": 1307,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0,
@@ -8540,7 +8509,7 @@
       "title": "Family Cinema",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1313,
+      "oldindex": 1308,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0,
@@ -8576,7 +8545,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Adresse postale • Organisation • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/admr.png",
-      "oldindex": 1307,
+      "oldindex": 1309,
       "title": "admr fuite du 2026-2-5",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -8614,7 +8583,7 @@
       "content": "-\n\nLogin • Adresse email • Adresse postale • Numéro de téléphone • Nom\nprénom • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/cng.png",
-      "oldindex": 1308,
+      "oldindex": 1310,
       "title": "centre national de gestion fuite du 2026-2-5",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -8652,7 +8621,7 @@
       "content": "-\n\nNom\nprénom • Numéro de licence • Date et lieu de naissance • Numéro de téléphone • Adresse mail • Adresse postale • Structure d’accueil • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/ffrando.png",
-      "oldindex": 1309,
+      "oldindex": 1311,
       "title": "fédération française de randonnée pédestre fuite du 2026-2-5",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -8690,7 +8659,7 @@
       "content": "-\n\nNom\nprénom • Date de naissance • Adresse postale • Adresse email • Numéro de téléphone • Numéro d’adhérent • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/protexia.png",
-      "oldindex": 1310,
+      "oldindex": 1312,
       "title": "protexia france fuite du 2026-2-5",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -8728,7 +8697,7 @@
       "content": "-\n\nAdresse mail • Numéro de téléphone • Métadonnées internes • Source&gt;",
       "isNSFW": false,
       "lien": "https://lorichristian.substack.com/p/notice-of-data-breach",
-      "oldindex": 1311,
+      "oldindex": 1313,
       "title": "substack fuite du 2026-2-5",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -8773,7 +8742,7 @@
       "title": "Collège-Lycée Notre-Dame des Dunes (Dunkerque)",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1305,
+      "oldindex": 1304,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -8813,7 +8782,7 @@
       "title": "Collège Saint-Charles (Guipavas/Brest)",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1306,
+      "oldindex": 1305,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -8848,7 +8817,7 @@
       "content": "-\n\nChauffeur • Numéro de téléphone • Adresse de livraison • Plaque d’immatriculation • Date de livraison • Créneau horaire • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/loxam.png",
-      "oldindex": 1304,
+      "oldindex": 1306,
       "title": "loxam fuite du 2026-2-4",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -9041,7 +9010,7 @@
       "title": "Médecins Remplaçants (Base de données 2026)",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1299,
+      "oldindex": 1297,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -9096,7 +9065,7 @@
       "title": "CCAS de Dunkerque",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
-      "oldindex": 1300,
+      "oldindex": 1298,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -9131,7 +9100,7 @@
       "content": "-\n\nDocuments classifiés (diffusion restreinte) • Guides techniques • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/armee-de-terre.png",
-      "oldindex": 1297,
+      "oldindex": 1299,
       "title": "armée de terre fuite du 2026-1-31",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -9192,7 +9161,7 @@
       "content": "-\n\nNom\nprénom • Organisation • Adresse email • Source • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/inria-1.png",
-      "oldindex": 1298,
+      "oldindex": 1300,
       "title": "inria fuite du 2026-1-31",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -9260,7 +9229,7 @@
       "content": "In January 2026, a data breach impacting the French non-profit Association Nationale des Premiers Secours (ANPS) was posted to a hacking forum. The breach exposed 5.6k unique email addresses along with names, dates of birth and places of birth. ANPS self-submitted the data to HIBP and advised the incident was traced back to a legacy system and did not impact health data, financial information or passwords.",
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/ANPS",
-      "oldindex": 1295,
+      "oldindex": 1292,
       "title": "Association Nationale des Premiers Secours",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
@@ -9299,7 +9268,7 @@
       "content": "In early 2026, data purportedly sourced from the recipe and meal planning service Provecho was alleged to have been obtained in a breach. The exposed data included 713k unique email address along with username and the creator account holders followed. Provecho has been notified and is aware of the claims surrounding the incident.",
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/Provecho",
-      "oldindex": 1296,
+      "oldindex": 1293,
       "title": "Provecho",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -9337,7 +9306,7 @@
       "content": "-\n\nNom\nprénom • Adresse postale • Adresse mail • Numéro de téléphone • Photo d’identité • Numéro NEPH • Données de l’ASR • Signature • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/code-rousseau.jpg",
-      "oldindex": 1292,
+      "oldindex": 1294,
       "title": "code rousseau fuite du 2026-1-30",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -9375,7 +9344,7 @@
       "content": "-\n\nNom\nprénom • Adresse mail • Numéro de téléphone • Échanges avec le support • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/manomano.png",
-      "oldindex": 1293,
+      "oldindex": 1295,
       "title": "mano mano fuite du 2026-1-30",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -9413,7 +9382,7 @@
       "content": "-\n\nAdresse mail • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/opquast.png",
-      "oldindex": 1294,
+      "oldindex": 1296,
       "title": "opquast fuite du 2026-1-30",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -9491,7 +9460,7 @@
       "title": "Multi-Agences Immobilières Françaises - 500gb",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
-      "oldindex": 1289,
+      "oldindex": 1287,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -9550,7 +9519,7 @@
       "title": "FranceCasse.fr",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
-      "oldindex": 1290,
+      "oldindex": 1288,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -9594,7 +9563,7 @@
       "nsfwConfidence": 0,
       "index": 1289,
       "title": "Reseau.site",
-      "oldindex": 1291
+      "oldindex": 1289
     },
     {
       "Name": "match group (hinge",
@@ -9628,7 +9597,7 @@
       "content": "-\n\nNom\nprénom\nlogin • Mot de passe • User agent • Date de naissance • Adresse IP • Numéro de téléphone • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/match-group.png",
-      "oldindex": 1287,
+      "oldindex": 1290,
       "title": "match group (hinge fuite du 2026-1-29",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
@@ -9666,7 +9635,7 @@
       "content": "-\n\nNom • Date de naissance • Numéro de téléphone • Adresse postale • Numéro de réservation • Date du séjour • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/very-chic.png",
-      "oldindex": 1288,
+      "oldindex": 1291,
       "title": "verychic fuite du 2026-1-29",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -10161,7 +10130,7 @@
       "title": "Livre en Poche",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1275,
+      "oldindex": 1274,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -10196,7 +10165,7 @@
       "content": "-\n\nNom\nprénom • Status • Structure de rattachement • Adresse postale • Numéro de téléphone • Diplômes • Activité • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/sportspourtous.png",
-      "oldindex": 1274,
+      "oldindex": 1275,
       "title": "fédération française des sports pour tous fuite du 2026-1-25",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -10236,7 +10205,7 @@
       "content": "In January 2026, data allegedly sourced from US automotive retailer CarMax was published online following a failed extortion attempt. The data included 431k unique email addresses along with names, phone numbers and physical addresses.",
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/CarMax",
-      "oldindex": 1272,
+      "oldindex": 1267,
       "title": "CarMax",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -10287,7 +10256,7 @@
       "title": "FFESSM (Fédération Française d’Études et de Sports Sous-Marins)",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1273,
+      "oldindex": 1268,
       "nsfwConfidence": 0
     },
     {
@@ -10320,7 +10289,7 @@
       "content": "-\n\nNom\nprénom • Date et lieu de naissance • Date de première licence • Status moniteur/éducateur • Adresse postale • Certificats médicaux • Source • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/ffessm-1.png",
-      "oldindex": 1267,
+      "oldindex": 1269,
       "title": "fédération française d’études et de sports sous fuite du 2026-1-24",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -10360,7 +10329,7 @@
       "content": "-\n\nNom\nprénom • Adresse mail • Mot de passe haché • Date de naissance • IP d’inscription à la newsletter • Site internet • Montant autorisé • Délais de payment • Status invité • Compte supprimé (😒) • Jeton de renouvellement du mot de passe • Clef secrète • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/guiotdebourg.png",
-      "oldindex": 1268,
+      "oldindex": 1270,
       "title": "guiot de bourg fuite du 2026-1-24",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
@@ -10400,7 +10369,7 @@
       "content": "-\n\nNom\nprénom • Coordonnées • IBAN • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/movida.png",
-      "oldindex": 1269,
+      "oldindex": 1271,
       "title": "movida fuite du 2026-1-24",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
@@ -10438,7 +10407,7 @@
       "content": "-\n\nNom\nprénom • Nationalité • Adresse postale • Adresse email • Numéro de téléphone • Status marital • Revenus\ncrédits en cours\nloyers • Banque • Date d’ouverture des comptes • Status propriétaire/locataire • Profession\ntype de contrat de travail • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/panoramabanques.png",
-      "oldindex": 1270,
+      "oldindex": 1272,
       "title": "panorama banques fuite du 2026-1-24",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -10476,7 +10445,7 @@
       "content": "-\n\nNom\nprénom • Adresse postale • Adresse email • Numéro de téléphone • Organisation • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/scoringfit.png",
-      "oldindex": 1271,
+      "oldindex": 1273,
       "title": "scoring fit fuite du 2026-1-24",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -11024,7 +10993,7 @@
       "title": "Syma Mobile",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1253,
+      "oldindex": 1250,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -11059,7 +11028,7 @@
       "content": "-\n\nSource&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/conseiljuridique.png",
-      "oldindex": 1250,
+      "oldindex": 1251,
       "title": "conseiljuridique.net fuite du 2026-1-20",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -11097,7 +11066,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Numéro de téléphone • Code postal\ncommune • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/delko.jpg",
-      "oldindex": 1251,
+      "oldindex": 1252,
       "title": "delko fuite du 2026-1-20",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -11135,7 +11104,7 @@
       "content": "-\n\nNom\nprénom • Ville de naissance et pays de naissance • Date de naissance • Nationalité • Langue maternelle • Centre de rattachement • Source&gt;",
       "isNSFW": false,
       "lien": "https://www.france-education-international.fr/actualites/incident-sur-la-plateforme-gael-diplomes-delf-dalf",
-      "oldindex": 1252,
+      "oldindex": 1253,
       "title": "france éducation international fuite du 2026-1-20",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -11386,7 +11355,7 @@
       "title": "TooEasy Agence Web",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1243,
+      "oldindex": 1242,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -11434,7 +11403,7 @@
       "title": "Pix Orga (scolaire)",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1244,
+      "oldindex": 1243,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -11500,7 +11469,7 @@
       "title": "Under Armour",
       "IsCritical": false,
       "SeverityLevel": "MODÉRÉ",
-      "oldindex": 1245,
+      "oldindex": 1244,
       "nsfwConfidence": 0
     },
     {
@@ -11593,7 +11562,7 @@
       "content": "-\n\nNom\nprénom • IBAN • Passeport • Photo d’identité • Diplômes • Carte vitale • Casier judiciaire • Source • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/euronature-1.png",
-      "oldindex": 1242,
+      "oldindex": 1245,
       "title": "euronature fuite du 2026-1-18",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
@@ -11776,7 +11745,7 @@
       "title": "LBP Granville (Le Bureau de Prospection)",
       "IsCritical": false,
       "SeverityLevel": "MODÉRÉ",
-      "oldindex": 1236,
+      "oldindex": 1231,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -11827,7 +11796,7 @@
       "title": "Groupe Fondasol",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
-      "oldindex": 1237,
+      "oldindex": 1232,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -11871,7 +11840,7 @@
       "nsfwConfidence": 0,
       "index": 1233,
       "title": "Force Ouvrière (UD 75)",
-      "oldindex": 1238
+      "oldindex": 1233
     },
     {
       "Name": "agro paris tech",
@@ -11926,7 +11895,7 @@
       "content": "-\n\nNom\nprénom • Photo d’identité • Numéro de Sécurité Sociale • Fiche de renseignement • Signature • RIB • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/agroparistech.png",
-      "oldindex": 1231,
+      "oldindex": 1234,
       "title": "agro paris tech fuite du 2026-1-15",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
@@ -11964,7 +11933,7 @@
       "content": "-\n\nNom\nprénom • Date de naissance • Coordonnées • Type de licence • Structure d’affiliation • Source&gt;",
       "isNSFW": false,
       "lien": "https://www.ffme.fr/la-ffme-victime-dun-acte-de-cyber-malveillance/",
-      "oldindex": 1232,
+      "oldindex": 1235,
       "title": "fédération française de montagne escalade fuite du 2026-1-15",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -12002,7 +11971,7 @@
       "content": "-\n\nNom\nprénom • Adresse postale • Date de naissance • Adresse mail • Numéro de téléphone • Nationalité • Profession • Catégorie socio-professionnelle • Situation familiale • Club • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/fftb.jpg",
-      "oldindex": 1233,
+      "oldindex": 1236,
       "title": "fédération française de twirling bâton fuite du 2026-1-15",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -12040,7 +12009,7 @@
       "content": "-\n\nNom\nprénom • Adresse mail • Adresse postale • Commandes • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/liredemain.png",
-      "oldindex": 1234,
+      "oldindex": 1237,
       "title": "lire demain fuite du 2026-1-15",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -12084,7 +12053,7 @@
       "content": "-\n\nDonnées d’identification • Pièces justificatives • Source • Source&gt;",
       "isNSFW": false,
       "lien": "https://www.journaldugeek.com/2026/01/19/cyberattaque-sur-hubee-letat-reconnait-une-fuite-de-donnees-sensibles/",
-      "oldindex": 1235,
+      "oldindex": 1238,
       "title": "service public fuite du 2026-1-15",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -12720,7 +12689,7 @@
       "title": "Carte Avantages Jeunes (CRIJ Bourgogne-Franche-Comté)",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1216,
+      "oldindex": 1215,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -12772,7 +12741,7 @@
       "title": "Fédération Française de Bridge (FFB)",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1217,
+      "oldindex": 1216,
       "nsfwConfidence": 0
     },
     {
@@ -12805,7 +12774,7 @@
       "content": "-\n\nNom\nprénom • Email • Date de naissance • Code postal • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/casino-paris.jpg",
-      "oldindex": 1215,
+      "oldindex": 1217,
       "title": "casino de paris fuite du 2026-1-8",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -12847,7 +12816,7 @@
       "content": "In January 2026, data allegedly scraped via an Instagram API was posted to a popular hacking forum. The dataset contained 17M rows of public Instagram information, including usernames, display names, account IDs, and in some cases, geolocation data. Of these records, 6.2M included an associated email address, and some also contained a phone number. The scraped data appears to be unrelated to password reset requests initiated on the platform, despite coinciding in timeframe. There is no evidence that passwords or other sensitive data were compromised.",
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/Instagram",
-      "oldindex": 1211,
+      "oldindex": 1206,
       "title": "Instagram",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
@@ -12887,7 +12856,7 @@
       "content": "In January 2026, Panera Bread suffered a data breach that exposed 14M records. After an attempted extortion failed, the attackers published the data publicly, which included 5.1M unique email addresses along with associated account information such as names, phone numbers and physical addresses. Panera Bread subsequently confirmed that \"the data involved is contact information\" and that authorities were notified.",
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/PaneraBread",
-      "oldindex": 1212,
+      "oldindex": 1207,
       "title": "Panera Bread",
       "IsCritical": false,
       "SeverityLevel": "MODÉRÉ",
@@ -12940,7 +12909,7 @@
       "title": "Fédération Française de Roller et Skateboard (FFRS) #2",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1213,
+      "oldindex": 1208,
       "nsfwConfidence": 0
     },
     {
@@ -12992,7 +12961,7 @@
       "title": "Fédération Française de Canoë-Kayak (FFCK)",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
-      "oldindex": 1214,
+      "oldindex": 1209,
       "nsfwConfidence": 0
     },
     {
@@ -13046,7 +13015,7 @@
       "content": "-\n\nNom\nprénom • Adresse postale • Adresse mail • Numéro de Téléphone • Status • IBAN / BIC • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/corsegsm.png",
-      "oldindex": 1206,
+      "oldindex": 1210,
       "title": "corse gsm fuite du 2026-1-7",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
@@ -13084,7 +13053,7 @@
       "content": "-\n\nNom\nprénom • Date de naissance • Adresse postale • Numéro de téléphone • Adresse email • Source • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/easycash-1.jpg",
-      "oldindex": 1207,
+      "oldindex": 1211,
       "title": "easycash fuite du 2026-1-7",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -13122,7 +13091,7 @@
       "content": "-\n\nNom\nprénom • Date de naissance • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/ffsquash.png",
-      "oldindex": 1208,
+      "oldindex": 1212,
       "title": "fédération française de squash fuite du 2026-1-7",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -13160,7 +13129,7 @@
       "content": "-\n\nNom\nprénom • Date de naissance • Type de licence • Catégorie • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/fsgt.png",
-      "oldindex": 1209,
+      "oldindex": 1213,
       "title": "fédération sportive et gymnique du travail fuite du 2026-1-7",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -13210,7 +13179,7 @@
       "content": "-\n\nSource&gt;",
       "isNSFW": false,
       "lien": "https://www.leparisien.fr/faits-divers/cryptomonnaies-des-clients-de-lentreprise-legder-victimes-dune-fuite-de-leurs-donnees-personnelles-07-01-2026-WSK45MAFQZENPOLJU3PXYYNKX4.php",
-      "oldindex": 1210,
+      "oldindex": 1214,
       "title": "ledger fuite du 2026-1-7",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -13509,7 +13478,7 @@
       "title": "Petits-fils",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1200,
+      "oldindex": 1199,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -13544,7 +13513,7 @@
       "content": "-\n\nNom\nprénom • Adresse postale • Numéro de téléphone • Date de naissance • Numéro de sécurité social • Nationalité • Langues maîtrisées • Situation familiale • Numéro de famille • Date de naissance des enfants • Nature du séjour • Préfecture instructrice • Date de décision • Source&gt;",
       "isNSFW": false,
       "lien": "https://www.lemonde.fr/pixels/article/2026/01/05/l-office-francais-de-l-immigration-et-de-l-integration-victime-d-une-fuite-de-donnees_6660632_4408996.html",
-      "oldindex": 1199,
+      "oldindex": 1200,
       "title": "office français de l’immigration et de l’intégration fuite du 2026-1-5",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -13738,7 +13707,7 @@
       "title": "AFPPCD-IDF",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
-      "oldindex": 1196,
+      "oldindex": 1195,
       "nsfwConfidence": 0
     },
     {
@@ -13771,7 +13740,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Adresse postale • Fonction • SIRET\nnuméro de TVA • Clients sensibles (ministères\nsites sensibles…) • Gestion des actifs (matériel de métrologie) • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/trescal.png",
-      "oldindex": 1195,
+      "oldindex": 1196,
       "title": "trescal fuite du 2026-1-2",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -16011,7 +15980,7 @@
       "nsfwConfidence": 0,
       "index": 1142,
       "title": "France Travail (Missions Locales / Jeunes)",
-      "oldindex": 1143
+      "oldindex": 1142
     },
     {
       "Name": "france travail fuite du 2025-12-1",
@@ -16046,7 +16015,7 @@
       "content": "-\n\nnom\nprénom • date de naissance • numéro de sécurité sociale • identifiant France Travail •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1142,
+      "oldindex": 1143,
       "title": "france travail fuite du 2025-12-1"
     },
     {
@@ -18043,7 +18012,7 @@
       "content": "In late October 2025, data breached from the Hungarian political party TISZA was published online before being extensively redistributed. Stemming from a compromise of the TISZA Világ service earlier in the month, the breach exposed 200k records of personal data including email addresses along with names, phone numbers and physical addresses.",
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/Tisza",
-      "oldindex": 1091,
+      "oldindex": 1090,
       "title": "TISZA Világ",
       "IsCritical": false,
       "SeverityLevel": "ÉLEVÉ",
@@ -18086,7 +18055,7 @@
       "nsfwConfidence": 0,
       "index": 1091,
       "title": "France Travail (Dump #3)",
-      "oldindex": 1092
+      "oldindex": 1091
     },
     {
       "Name": "france travail fuite du 2025-10-6",
@@ -18121,7 +18090,7 @@
       "content": "-\n\nnom\nprénom • identifiant France Travail • catégorie d’inscription • adresse mail • statut RSA • identifiant CIR •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1090,
+      "oldindex": 1092,
       "title": "france travail fuite du 2025-10-6"
     },
     {
@@ -18242,7 +18211,7 @@
       "title": "France Travail (Dump #2)",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1087,
+      "oldindex": 1085,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -18277,7 +18246,7 @@
       "content": "-\n\nadresse mail • Source&gt;",
       "isNSFW": false,
       "lien": "https://next.ink/201451/la-banque-cooperative-la-nef-alerte-ses-clients-au-sujet-dune-fuite-dadresses-email/",
-      "oldindex": 1085,
+      "oldindex": 1086,
       "title": "la nef fuite du 2025-9-25",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -18318,7 +18287,7 @@
       "content": "-\n\nadresse mail • civilité\nprénom\nnom • email du conseiller •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1086,
+      "oldindex": 1087,
       "title": "france travail fuite du 2025-9-25"
     },
     {
@@ -19127,7 +19096,7 @@
       "title": "Air France-KLM",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1065,
+      "oldindex": 1064,
       "nsfwConfidence": 0
     },
     {
@@ -19160,7 +19129,7 @@
       "content": "-\n\nnom\nprénom • information de contact • n° et status flying blue • objet des demandes formulées • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/air-france.jpg",
-      "oldindex": 1064,
+      "oldindex": 1065,
       "title": "air france fuite du 2025-8-6",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -19360,7 +19329,7 @@
       "content": "In July 2025, the sexual healthcare product maker Hello Cake suffered a data breach. The data was subsequently posted on a public hacking forum and included 23k unique email addresses along with names, phone numbers, physical addresses, dates of birth and purchases.",
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/HelloCake",
-      "oldindex": 1059,
+      "oldindex": 1058,
       "title": "Hello Cake",
       "IsCritical": false,
       "SeverityLevel": "ÉLEVÉ",
@@ -19398,7 +19367,7 @@
       "content": "-\n\nSource&gt;",
       "isNSFW": false,
       "lien": "https://newsroom.orange.com/le-groupe-orange-annonce-avoir-depose-plainte-lundi-28-juillet-pour-atteinte-a-un-de-ses-systemes-dinformation?lang=fra",
-      "oldindex": 1058,
+      "oldindex": 1059,
       "title": "orange fuite du 2025-7-25",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -20635,7 +20604,7 @@
       "content": "During 2025, the threat-intelligence firm Synthient aggregated 2 billion unique email addresses disclosed in credential-stuffing lists found across multiple malicious internet sources. Comprised of email addresses and passwords from previous data breaches, these lists are used by attackers to compromise other, unrelated accounts of victims who have reused their passwords. The data also included 1.3 billion unique passwords, which are now searchable in Pwned Passwords. Working to turn breached data into awareness, Synthient partnered with HIBP to help victims of cybercrime understand their exposure.",
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/SynthientCredentialStuffingThreatData",
-      "oldindex": 1028,
+      "oldindex": 1027,
       "title": "Synthient Credential Stuffing Threat Data",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
@@ -20674,7 +20643,7 @@
       "content": "During 2025, Synthient aggregated billions of records of \"threat data\" from various internet sources. The data contained 183M unique email addresses alongside the websites they were entered into and the passwords used. After normalising and deduplicating the data, 183 million unique email addresses remained, each linked to the website where the credentials were captured, and the password used. This dataset is now searchable in HIBP by email address, password, domain, and the site on which the credentials were entered.",
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/SynthientStealerLogThreatData",
-      "oldindex": 1029,
+      "oldindex": 1028,
       "title": "Synthient Stealer Log Threat Data",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
@@ -20712,7 +20681,7 @@
       "content": "-\n\ngestion de patrimoine • Source&gt;",
       "isNSFW": false,
       "lien": "https://www.01net.com/actualites/fuite-massive-france-vol-donnees-bouscule-monde-finance-francaise.html",
-      "oldindex": 1027,
+      "oldindex": 1029,
       "title": "harvest fuite du 2025-4-11",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -20876,7 +20845,7 @@
       "title": "Groupe BPCE (via Harvest)",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1022,
+      "oldindex": 1021,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -20917,7 +20886,7 @@
       "title": "MAIF (via Harvest)",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1023,
+      "oldindex": 1022,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -20952,7 +20921,7 @@
       "content": "-\n\nnom\ngenre\ndate de naissance • situation matrimoniale et professionnelle • adresse postale\nadresse email • numéro de téléphone • revenus\npatrimoine • numéro de sociétaire • Source • Source&gt;",
       "isNSFW": false,
       "lien": "https://www.leparisien.fr/economie/votre-argent/fuite-de-donnees-pour-les-clients-maif-et-banque-populaire-caisse-depargne-que-faire-si-vous-etes-concerne-22-03-2025-J56UD4GFSNELRANHK5ICRQ66I4.php",
-      "oldindex": 1021,
+      "oldindex": 1023,
       "title": "maif & bpce fuite du 2025-3-28",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -20992,7 +20961,7 @@
       "content": "In March 2025, data allegedly sourced from German Doner Kebab was published on a popular hacking forum. The data included 162k unique email addresses alongside names, phone numbers and physical addresses. German Doner Kebab subsequently sent a disclosure notice to impacted individuals.",
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/GermanDonerKebab",
-      "oldindex": 1020,
+      "oldindex": 1019,
       "title": "German Doner Kebab",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -21030,7 +20999,7 @@
       "content": "-\n\nauthentification LDAP • serveur SSO • clefs d’authentification • Source&gt;",
       "isNSFW": false,
       "lien": "https://www.lemondeinformatique.fr/actualites/lire-des-clients-confirment-la-fuite-de-donnees-oracle-cloud-96454.html",
-      "oldindex": 1019,
+      "oldindex": 1020,
       "title": "oracle cloud fuite du 2025-3-27",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -21069,7 +21038,7 @@
       "content": "In March 2025, almost 55k records were breached from the Hungarian education office website TehetségKapu. The data was subsequently published to a popular hacking forum and included email addresses, names and usernames.",
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/TehetsegKapu",
-      "oldindex": 1018,
+      "oldindex": 1017,
       "title": "TehetségKapu",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -21109,7 +21078,7 @@
       "content": "-\n\nrapports &amp; projets privés • login et hash des mots de passe utilisateurs • code sources • documents administratifs • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/centrale-nantes.png",
-      "oldindex": 1017,
+      "oldindex": 1018,
       "title": "centrale nantes fuite du 2025-3-26",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
@@ -21149,7 +21118,7 @@
       "content": "In March 2025, a phishing attack successfully gained access to Troy Hunt's Mailchimp account and automatically exported a list of people who had subscribed to the newsletter for his personal blog. The exported list contained 16k email addresses and other data automatically collected by Mailchimp including IP address and a derived latitude, longitude and time zone.",
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/TroyHuntMailchimpList",
-      "oldindex": 1016,
+      "oldindex": 1015,
       "title": "Troy Hunt's Mailchimp List",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -21205,7 +21174,7 @@
       "content": "-\n\nnom\nprénom • date de naissance • adresse postale • numéro de sécurité sociale • régime de mutuelle\ncaisse de mutuelle\ndate de fin de droit • Source&gt;",
       "isNSFW": false,
       "lien": "https://www.clubic.com/actualite-558117-les-laboratoires-francais-cerballiance-ont-ete-victimes-d-une-cyberattaque-voici-les-donnees-qui-ont-fuite.html",
-      "oldindex": 1015,
+      "oldindex": 1016,
       "title": "cerballiance fuite du 2025-3-25",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
@@ -21382,7 +21351,7 @@
       "lien": "https://bonjourlafuite.eu.org/img/intersport.jpg",
       "index": 1010,
       "title": "Intersport.fr",
-      "oldindex": 1011,
+      "oldindex": 1010,
       "IsCritical": false,
       "SeverityLevel": "MODÉRÉ",
       "nsfwConfidence": 0
@@ -21417,7 +21386,7 @@
       "content": "-\n\nnom\nprénom\ngenre • date et lieu de naissance • adresse • profession • email\ntéléphone fixe et mobile • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/scoutsdefrance.jpg",
-      "oldindex": 1010,
+      "oldindex": 1011,
       "title": "éclaireuses et éclaireurs de france fuite du 2025-3-20",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -21704,7 +21673,7 @@
       "title": "Zéphir (Groupe Zéphir)",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
-      "oldindex": 1002,
+      "oldindex": 1000,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -21739,7 +21708,7 @@
       "content": "-\n\nplan d’intervention et de maintenance des centrales • résultats des contrôles et opérations de sécurité • identifiants des agents de maintenance • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/edf-dpih.jpg",
-      "oldindex": 1000,
+      "oldindex": 1001,
       "title": "edf dpih fuite du 2025-2-28",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -21779,7 +21748,7 @@
       "content": "-\n\ncivilité\nnom\nprénom • date de naissance • adresse • téléphone\nemail • ville et payes de naissance • nationalité • numéro de sécurité sociale • numéro Pôle Emploi • numéro carte VTC • diplôme\nniveau d’étude • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/ens.jpg",
-      "oldindex": 1001,
+      "oldindex": 1002,
       "title": "école nationale de la sécurité fuite du 2025-2-28",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
@@ -22320,7 +22289,7 @@
       "content": "In February 2025, the public safety policy management systems company Lexipol suffered a data breach. Attributed to the self-proclaimed \"Puppygirl Hacker Polycule\", the breach exposed an extensive number of documents and user records which were subsequently published publicly. The breach included over 670k unique email addresses in the user records, along with names, phone numbers, system-generated usernames and passwords stored as either MD5 or SHA-256 hashes.",
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/Lexipol",
-      "oldindex": 986,
+      "oldindex": 985,
       "title": "Lexipol",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
@@ -22358,7 +22327,7 @@
       "content": "-\n\nnom\nprénom • email • numéro de téléphone • détail de la commande • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/kingjouet.png",
-      "oldindex": 985,
+      "oldindex": 986,
       "title": "king jouet fuite du 2025-2-11",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -22560,7 +22529,7 @@
       "content": "In January 2025, 435k email addresses were scraped from the \"doxing\" service Doxbin. Posts to the service are usually intended to disclose the personal information of non-consensually third parties.",
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/DoxbinScrape",
-      "oldindex": 979,
+      "oldindex": 977,
       "title": "Doxbin Scrape",
       "IsCritical": false,
       "SeverityLevel": "ÉLEVÉ",
@@ -22598,7 +22567,7 @@
       "content": "-\n\nnom\nprénom • adresse email • identifiant d’accès • numéro de dossier • montant de prime • libellé de prestation • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/leclerc.jpg",
-      "oldindex": 977,
+      "oldindex": 978,
       "title": "e.leclerc fuite du 2025-1-24",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -22636,7 +22605,7 @@
       "content": "-\n\nnom\nprénom • adresse postale • adresse email • identifiant • date de naissance • numéro de téléphone • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/ffme.webp",
-      "oldindex": 978,
+      "oldindex": 979,
       "title": "fédération française montagne escalade fuite du 2025-1-24",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -25089,7 +25058,7 @@
       "content": "In September 2024, the Instituto Nacional de Deportes de Chile (Chile's National Sports Institute) suffered a data breach. The incident exposed 1.7M rows of data with 320k unique email addresses alongside names, dates of birth, genders and bcrypt password hashes. The newest records in the data date back to August 2022, suggesting the breach may be of an older data set.",
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/InstitutoNacionalDeDeportesDeChile",
-      "oldindex": 915,
+      "oldindex": 914,
       "title": "Instituto Nacional de Deportes de Chile",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
@@ -25127,7 +25096,7 @@
       "content": "-\n\nnom\nprénom • adresse email • adresse postale • numéro de téléphone • Source&gt;",
       "isNSFW": false,
       "lien": "https://next.ink/149926/fuites-de-donnees-cybertek-et-grosbill-entrent-dans-la-danse-truffaut-refuse-de-donner-des-details/",
-      "oldindex": 914,
+      "oldindex": 915,
       "title": "cybertek fuite du 2024-9-12",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -26783,7 +26752,7 @@
       "content": "In April 2024, over 6M records from the streaming service MovieBoxPro were scraped from a vulnerable API. Of questionable legality, the service provided no contact information to disclose the incident, although reportedly the vulnerability was rectified after being mass enumerated.",
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/MovieBoxPro",
-      "oldindex": 871,
+      "oldindex": 870,
       "title": "MovieBoxPro",
       "IsCritical": false,
       "SeverityLevel": "MODÉRÉ",
@@ -26821,7 +26790,7 @@
       "content": "-\n\nnom • prénom • téléphones • adresse postale • adresse email • numéros de commandes • Source&gt;",
       "isNSFW": false,
       "lien": "https://www.journaldugeek.com/2024/04/18/piratage-que-sait-on-du-hack-massif-de-cette-marque-francaise/",
-      "oldindex": 870,
+      "oldindex": 871,
       "title": "le slip français fuite du 2024-4-15",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -27272,7 +27241,7 @@
       "content": "In March 2024, millions of records scraped from the hunting and land management service HuntStand were publicly posted to a popular hacking forum. The data included 2.8M unique email addresses with many records also containing name, date of birth and country.",
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/HuntStand",
-      "oldindex": 859,
+      "oldindex": 858,
       "title": "HuntStand",
       "IsCritical": false,
       "SeverityLevel": "MODÉRÉ",
@@ -27313,7 +27282,7 @@
       "content": "-\n\nnom\nprénom • numéro de sécurité sociale • adresse email • adresse postale • numéro de téléphone • identifiants France Travail •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 858,
+      "oldindex": 859,
       "title": "france travail fuite du 2024-3-8"
     },
     {
