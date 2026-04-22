@@ -3,11 +3,7 @@ date: 2026-04-21
 categories:
   - Actualités
   - Cybersécurité
-tags:
-  - Hexdex
-  - J3 Paris
-  - Arrestation
-  - Justice
+
 ---
 
 La section J3 du parquet de Paris, spécialisée dans la lutte contre la cybercriminalité (JUNALCO), a procédé à l'arrestation de l'individu connu sous le pseudonyme de **Hexdex**.
