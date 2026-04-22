@@ -1,9 +1,349 @@
 {
   "actors": [
     {
-      "name": "hexdex",
-      "status": "en taule",
-      "note": "Arrêté par la section J3 du parquet de Paris en avril 2026."
+      "name": "0xkirigaya",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "888",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "aegis",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "all3in",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "angel_batista",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "ank (veles)",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "atix",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "ayame@xmpp.jp",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "badhou3a",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "benjaminblue@exploit.im",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "breachdirectory",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "breaches.net",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "burger vault",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "chimeraz",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "clerk/anthrax/soontoberichh",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "cry1ngb1tch6x6",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "cybernox",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "discord.gg/gn9c9em",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "dorian dali",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "DumpSec",
+      "status": "Actif",
+      "note": "Acteur ou groupe très prolifique sur BreachForums et DarkForums. Revendique des fuites massives touchant l'Éducation Nationale (3,5M comptes), le CROUS (198 Go), la Fédération du sport scolaire (9,7M enregistrements), ainsi que de nombreuses entreprises privées (Mondial Tissus, GPS Santé, MyConnect)."
+    },
+    {
+      "name": "dumpsecv2",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "emo.rip",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "epi",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "Everest",
+      "status": "Actif",
+      "note": "Groupe de ransomware et d'exfiltration de données. A revendiqué en novembre 2025 une fuite massive de 72 millions de clients, dont 6,7 millions localisés en France, provenant d'exports CRM et de bases transactionnelles."
+    },
+    {
+      "name": "fall1984@protonmail.com",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "HexDex",
+      "status": "Incarcéré",
+      "note": "Arrêté par la section J3 du parquet de Paris en avril 2026. Impliqué dans de nombreuses intrusions et reventes de données, notamment celle du Service Civique en collaboration avec DumpSec."
+    },
+    {
+      "name": "hiron",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "https://discord.gg/gn9c9em",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "https://t.me/all3in",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "imvec4",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "intelbroker",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "intelbroker, almighty444 & energyweaponuser",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "international cyber digest",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "jarand moen romtviet",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "jimscott.sec@protonmail.com",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "kazutlg",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "kuroish or gabriel kimiaie-asadi bildstein",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "LAPSUS$",
+      "status": "Inconnu",
+      "note": "Groupe de hackers connu pour ses attaques par ingénierie sociale et exfiltration. Dans ce projet, il est lié à la compromission de dossiers du CNRS (7 244 dossiers) et du Ministère de l'Agriculture (97 210 fichiers)."
+    },
+    {
+      "name": "leidhall",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "maxime thalet",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "metamorphosint",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "nano@databases.pw",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "neurotoxine",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "nmapthis@protonmail.com",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "normallevrai",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "ntmpd",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "oathnet.ru",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "p0ppin",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "placenta",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "pom@pompur.in",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "redredred@riseup.net",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "s1n0xy",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "selluk",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "shenron",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "sorb",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "Space Bears",
+      "status": "Actif",
+      "note": "Groupe de ransomware ayant revendiqué la compromission des systèmes de l'entreprise Atos en 2026."
+    },
+    {
+      "name": "spirigatito",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "sux1337",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "threat actor 888",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "toky019",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "undef",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "vrairhead and xfuey",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "white_peacock@riseup.net",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "World Leaks",
+      "status": "Actif",
+      "note": "Acteur spécialisé dans la publication de documents gouvernementaux. A revendiqué une fuite de 50 Go de fichiers interministériels français."
+    },
+    {
+      "name": "yneov18",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "z-sh4dowspeech",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "zan @ bf",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "zathienaephi@proton.me",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "zoro",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
     }
   ]
 }

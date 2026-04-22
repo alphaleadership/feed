@@ -1,10 +1,10 @@
 {
   "name": "hexo-site",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "private": true,
   "scripts": {
-    "build": " npm run clean && node index.js && node indexator.js && node tools/import && npm run import:remote && node detecter-fuites-sans-nombre && node update-breach-links.js && node remove-invalid-breaches.js && node clean-html-tags",
-    "clean": "node manager && node update_breach_attribution&& node tools/resort-breaches && npm run update-slugs && hexo clean",
+    "build": " npm run clean && node index.js && node indexator.js && node tools/import && npm run import:remote && node detecter-fuites-sans-nombre && node update-breach-links.js && node remove-invalid-breaches.js && node clean-html-tags && node tools/update-actors.js",
+    "clean": "node manager && node update_breach_attribution && node tools/update-actors.js && node tools/resort-breaches && npm run update-slugs && hexo clean",
     "deploy": "hexo deploy --config build.yml",
     "server": "hexo server",
     "import": "node tools/import.js",
