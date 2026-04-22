@@ -195,7 +195,7 @@
       actors.forEach(actor => {
         const neutralizedName = neutralize(actor.name);
         const statusBadge = actor.status === 'en taule' 
-          ? `<span class="badge" style="background-color: #450a0a; color: #fecaca; border: 1px solid #991b1b; padding: 0.3em 0.8em; border-radius: 12px; font-size: 0.6em; display: inline-flex; align-items: center; gap: 4px;"><i class="fa fa-gavel"></i> EN TAULE</span>` 
+          ? `<span class="badge" style="background-color: #450a0a; color: #fecaca; border: 1px solid #991b1b; padding: 0.3em 0.8em; border-radius: 12px; font-size: 0.6em; display: inline-flex; align-items: center; gap: 4px;"><i class="fa fa-gavel"></i> EN prison</span>` 
           : '';
         
         const noteHtml = actor.note ? `<div style="font-size: 0.85em; color: #94a3b8; font-style: italic; margin-top: 4px;">Note: ${actor.note}</div>` : '';
