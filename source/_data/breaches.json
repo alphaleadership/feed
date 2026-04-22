@@ -1,7 +1,32 @@
 {
-  "lastUpdated": "2026-04-22T10:01:27.747Z",
-  "totalBreaches": 1489,
+  "lastUpdated": "2026-04-22T11:32:06.396Z",
+  "totalBreaches": 1490,
   "breaches": [
+    {
+      "Name": "Rituals",
+      "Title": "Rituals",
+      "Domain": "rituals.com",
+      "BreachDate": "2026-04-22",
+      "PwnCount": 0,
+      "Description": "Un volume non spécifié de données clients a été exfiltré suite à un accès non autorisé aux systèmes de Rituals, d'après une notification officielle de l'entreprise. Information SaxX.\n\nStatut: Confirmée\nType de service: Cosmétiques",
+      "DataClasses": [
+        "Identité (Nom complet, Date de naissance, Sexe)",
+        "Contact (Adresse e-mail, Adresse postale, Numéro de téléphone)",
+        "Informations de compte (Magasin préféré, Type de compte)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://www.pascalevenot.fr/wp-content/uploads/2016/01/Rituals-logo-300x286.png",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Rituals-Leak-Fuite-de-donnees.jpg",
+      "AddedDate": "2026-04-22T11:31:59.247Z",
+      "ModifiedDate": "2026-04-22T11:31:59.247Z",
+      "slug": "rituals",
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Rituals-Leak-Fuite-de-donnees.jpg"
+    },
     {
       "Name": "Magasins U",
       "Title": "Magasins U",
