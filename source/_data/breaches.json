@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23T11:33:29.483Z",
+  "lastUpdated": "2026-04-23T12:46:10.262Z",
   "totalBreaches": 1491,
   "breaches": [
     {
@@ -24,7 +24,15 @@
       "AddedDate": "2026-04-23T11:33:22.538Z",
       "ModifiedDate": "2026-04-23T11:33:22.538Z",
       "slug": "wazari",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Wazari-leak-fuite-de-donnees.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Wazari-leak-fuite-de-donnees.png",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Le volume n'est pas spécifié dans la notification envoyée par le courtier en assurance Wazari, qui confirme une fuite de données suite à une attaque externe sur un de ses outils de gestion.\n\nStatut: Confirmée\nType de service: Assurance",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1524,
+      "title": "Wazari"
     },
     {
       "Name": "Rituals",
