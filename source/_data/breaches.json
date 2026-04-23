@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-23T12:46:10.262Z",
-  "totalBreaches": 1491,
+  "lastUpdated": "2026-04-23T15:14:35.079Z",
+  "totalBreaches": 1492,
   "breaches": [
     {
       "Name": "Wazari",
@@ -32,7 +32,34 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1524,
-      "title": "Wazari"
+      "title": "Wazari",
+      "oldindex": 1524
+    },
+    {
+      "Name": "Parcoursup",
+      "Title": "Parcoursup",
+      "Domain": "parcoursup.fr",
+      "BreachDate": "2026-04-23",
+      "PwnCount": 705000,
+      "Description": "Selon le ministère de l'Enseignement supérieur, les données d'environ 705 000 candidats des sessions 2023 et 2025 (région Occitanie) ont été exfiltrées en octobre 2025 suite à l'usurpation du compte d'un personnel sur un module de gestion. Détecté en mars 2026, le ministère a répondu en anonymisant le module et en renforçant les contrôles d'accès.\n\nStatut: Confirmée\nType de service: Service public d'orientation",
+      "DataClasses": [
+        "Identité (nom, prénom, date de naissance, nationalité)",
+        "Coordonnées (adresse postale, adresse email, numéro de téléphone)",
+        "Informations de scolarité (parcours de formation, statut de boursier)",
+        "Données familiales pour les mineurs (lien de parenté, catégorie socio-professionnelle des responsables légaux)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://www.ecoles-commerce.com/wp-content/uploads/2024/12/parcoursup.jpg",
+      "source": "https://www.enseignementsup-recherche.gouv.fr/fr/incident-de-securite-affectant-les-donnees-de-certains-candidats-des-sessions-parcoursup-2023-et-101350",
+      "AddedDate": "2026-04-23T15:14:27.905Z",
+      "ModifiedDate": "2026-04-23T15:14:27.905Z",
+      "slug": "parcoursup",
+      "lien": "https://www.enseignementsup-recherche.gouv.fr/fr/incident-de-securite-affectant-les-donnees-de-certains-candidats-des-sessions-parcoursup-2023-et-101350"
     },
     {
       "Name": "Rituals",
