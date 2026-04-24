@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-23T23:25:37.013Z",
-  "totalBreaches": 1492,
+  "lastUpdated": "2026-04-24T00:09:21.254Z",
+  "totalBreaches": 1493,
   "breaches": [
     {
       "Name": "Wazari",
@@ -69,6 +69,32 @@
       "index": 1525,
       "title": "Parcoursup",
       "oldindex": 1525
+    },
+    {
+      "Name": "Bodyhit",
+      "Title": "Bodyhit",
+      "Domain": "bodyhit.fr",
+      "BreachDate": "2026-04-23",
+      "PwnCount": 218542,
+      "Description": "Une base de données de 218 542 clients de Bodyhit, incluant 42 480 enregistrements IBAN/BIC, a été mise en vente le 23 avril 2026 par l'acteur 'under' sur un forum du dark web.\n\nStatut: Revendiquée\nType de service: Fitness",
+      "DataClasses": [
+        "Identité (ID, nom complet, date de naissance, genre)",
+        "Coordonnées (email, téléphone, contact d'urgence, adresse postale)",
+        "Données bancaires (IBAN, BIC)",
+        "Informations client (code membre, catégorie client, date de dernière entrée)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://lexpress-franchise.com/wp-content/uploads/2023/06/bodyhit.png",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/04/BodyHit-leak-fuite-de-donnes.png",
+      "AddedDate": "2026-04-24T00:09:14.259Z",
+      "ModifiedDate": "2026-04-24T00:09:14.259Z",
+      "slug": "bodyhit",
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/BodyHit-leak-fuite-de-donnes.png"
     },
     {
       "Name": "Rituals",
