@@ -1,7 +1,34 @@
 {
-  "lastUpdated": "2026-04-24T11:35:15.219Z",
-  "totalBreaches": 1494,
+  "lastUpdated": "2026-04-24T12:44:42.901Z",
+  "totalBreaches": 1495,
   "breaches": [
+    {
+      "Name": "Agence de Services et de Paiement",
+      "Title": "Agence de Services et de Paiement",
+      "Domain": "asp-public.fr",
+      "BreachDate": "2026-04-24",
+      "PwnCount": 0,
+      "Description": "L'information sur la fuite de données a été communiquée par l'Agence de Services et de Paiement (ASP) via une notification par courriel. Cet organisme public français a indiqué que l'incident impacte les stagiaires de la formation professionnelle.\n\nStatut: Confirmée\nType de service: Agence gouvernementale de paiement",
+      "DataClasses": [
+        "État civil (Prénom, Nom)",
+        "Numéro de sécurité sociale (NIR)",
+        "Coordonnées (Adresse postale)",
+        "Données financières (Montant de l'aide, Avis de paiement)",
+        "Données bancaires (RIB, Avis de paiement)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/ASP_logo.svg/1280px-ASP_logo.svg.png",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/04/ASP-Leak-fuite-de-donnees.jpeg",
+      "AddedDate": "2026-04-24T12:44:35.604Z",
+      "ModifiedDate": "2026-04-24T12:44:35.604Z",
+      "slug": "agence-de-services-et-de-paiement",
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/ASP-Leak-fuite-de-donnees.jpeg"
+    },
     {
       "Name": "Wazari",
       "Title": "Wazari",
