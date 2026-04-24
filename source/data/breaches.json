@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-24T00:09:21.254Z",
-  "totalBreaches": 1493,
+  "lastUpdated": "2026-04-24T03:51:52.190Z",
+  "totalBreaches": 1494,
   "breaches": [
     {
       "Name": "Wazari",
@@ -31,7 +31,7 @@
       "content": "Le volume n'est pas spécifié dans la notification envoyée par le courtier en assurance Wazari, qui confirme une fuite de données suite à une attaque externe sur un de ses outils de gestion.\n\nStatut: Confirmée\nType de service: Assurance",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1524,
+      "index": 1525,
       "title": "Wazari",
       "oldindex": 1524
     },
@@ -66,7 +66,7 @@
       "content": "Selon le ministère de l'Enseignement supérieur, les données d'environ 705 000 candidats des sessions 2023 et 2025 (région Occitanie) ont été exfiltrées en octobre 2025 suite à l'usurpation du compte d'un personnel sur un module de gestion. Détecté en mars 2026, le ministère a répondu en anonymisant le module et en renforçant les contrôles d'accès.\n\nStatut: Confirmée\nType de service: Service public d'orientation",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1525,
+      "index": 1526,
       "title": "Parcoursup",
       "oldindex": 1525
     },
@@ -94,7 +94,16 @@
       "AddedDate": "2026-04-24T00:09:14.259Z",
       "ModifiedDate": "2026-04-24T00:09:14.259Z",
       "slug": "bodyhit",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/BodyHit-leak-fuite-de-donnes.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/BodyHit-leak-fuite-de-donnes.png",
+      "Attribution": "under",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Une base de données de 218 542 clients de Bodyhit, incluant 42 480 enregistrements IBAN/BIC, a été mise en vente le 23 avril 2026 par l'acteur 'under' sur un forum du dark web.\n\nStatut: Revendiquée\nType de service: Fitness",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1527,
+      "title": "Bodyhit"
     },
     {
       "Name": "Rituals",
@@ -126,7 +135,7 @@
       "content": "Un volume non spécifié de données clients a été exfiltré suite à un accès non autorisé aux systèmes de Rituals, d'après une notification officielle de l'entreprise. Information SaxX.\n\nStatut: Confirmée\nType de service: Cosmétiques",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1523,
+      "index": 1524,
       "title": "Rituals",
       "oldindex": 1523
     },
@@ -164,7 +173,7 @@
       "content": "Suite à une attaque informatique, Magasins U a informé ses clients par email d'une violation de données concernant les comptes de fidélité. Le volume exact de comptes affectés n'a pas été communiqué dans cette notification.Information : SaxX\n\nStatut: Confirmée\nType de service: Grande distribution",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1519,
+      "index": 1520,
       "title": "Magasins U",
       "oldindex": 1519
     },
@@ -191,7 +200,7 @@
       "IsStealerLog": false,
       "slug": "arrestation-de-hexdex-par-la-section-j3-du-parquet-de-paris",
       "formattedDate": "2026-04-21",
-      "index": 1520,
+      "index": 1521,
       "isBlocked": false,
       "blockedNote": null,
       "source": "Manuel",
@@ -226,7 +235,7 @@
       "IsStealerLog": false,
       "slug": "bienvenue-sur-le-nouveau-syst-me-d-actualit-s",
       "formattedDate": "2026-04-21",
-      "index": 1521,
+      "index": 1522,
       "isBlocked": false,
       "blockedNote": null,
       "source": "Manuel",
@@ -269,7 +278,7 @@
       "content": "Publication d'une base de données de 6 700 enregistrements concernant Ledil Immobilier, un réseau français de mandataires immobiliers dont le siège est à Agen. La fuite, datée d'avril 2026, est revendiquée par l'acteur 888.\n\nStatut: Revendiquée\nType de service: Immobilier",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1522,
+      "index": 1523,
       "title": "Ledil Immobilier",
       "oldindex": 1522
     },
@@ -303,7 +312,7 @@
       "content": "Mise en vente de 18 à 19 millions d'enregistrements de l'ANTS (France Titres) par 'breach3d' le 16/04/2026. Ces comptes, dont le rôle est de gérer les titres sécurisés (passeport, CNI), ont fait l'objet d'une communication de France Titres par mail le 19 avril 2026 confirmant un accès non-autorisé en date du 15 avril 2026.\n\nStatut: Confirmée\nType de service: Agence gouvernementale",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1518,
+      "index": 1519,
       "title": "ANTS (France titres)",
       "oldindex": 1518
     },
@@ -341,6 +350,37 @@
       "index": 1517,
       "title": "Comptoir du Rêve",
       "oldindex": 1517
+    },
+    {
+      "Name": "Carnival",
+      "Title": "Carnival",
+      "Domain": "carnivalcorp.com",
+      "BreachDate": "2026-04-18",
+      "AddedDate": "2026-04-24T01:58:19Z",
+      "ModifiedDate": "2026-04-24T01:58:19Z",
+      "PwnCount": 7531359,
+      "Description": "In April 2026, the notorious hacking collective ShinyHunters claimed they had obtained a substantial volume of data belonging to the Carnival cruise operator and attempted to extort the organisation to prevent the data from being leaked. The following week, the group published the data publicly, which contained 8.7M records with 7.5M unique email addresses. The data contained fields indicating it related to the Mariner Society loyalty program run by Holland America, a cruise line brand under Carnival, and included names, dates of birth, genders and data relating to status within the loyalty program. Carnival acknowledged a phishing incident involving a single user account and advised they were working to better understand the scope of the unauthorised activity.",
+      "LogoPath": "https://logos.haveibeenpwned.com/Carnival.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [
+        "Dates of birth",
+        "Email addresses",
+        "Genders",
+        "Geographic locations",
+        "Loyalty program details",
+        "Names",
+        "Salutations"
+      ],
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "index": 1518
     },
     {
       "Name": "Gauthier Tissus",
