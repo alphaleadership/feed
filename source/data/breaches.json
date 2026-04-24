@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-24T17:00:44.627Z",
+  "lastUpdated": "2026-04-24T17:59:52.380Z",
   "totalBreaches": 1496,
   "breaches": [
     {
@@ -62,7 +62,15 @@
       "AddedDate": "2026-04-24T17:00:37.571Z",
       "ModifiedDate": "2026-04-24T17:00:37.571Z",
       "slug": "anfr-radiomaritime",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/ANF-leak-fuites-de-donnees.jpeg"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/ANF-leak-fuites-de-donnees.jpeg",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Les données d'environ 330 000 usagers du téléservice Radiomaritime de l'ANFR, dédié à la gestion des licences radio pour les navires, ont été compromises. L'incident a été confirmé suite à un signalement de l'ANSSI concernant la mise en vente en ligne d'un extrait des données.\n\nStatut: Confirmée\nType de service: Service public (Fréquences radio)",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1530,
+      "title": "ANFR (Radiomaritime)"
     },
     {
       "Name": "Wazari",
