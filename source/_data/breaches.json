@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-24T15:47:46.911Z",
-  "totalBreaches": 1495,
+  "lastUpdated": "2026-04-24T17:00:44.627Z",
+  "totalBreaches": 1496,
   "breaches": [
     {
       "Name": "Agence de Services et de Paiement",
@@ -36,7 +36,33 @@
       "nsfwConfidence": 0,
       "index": 1529,
       "title": "Agence de Services et de Paiement",
-      "oldindex": 1528
+      "oldindex": 1529
+    },
+    {
+      "Name": "ANFR (Radiomaritime)",
+      "Title": "ANFR (Radiomaritime)",
+      "Domain": "anfr.fr",
+      "BreachDate": "2026-04-24",
+      "PwnCount": 330000,
+      "Description": "Les données d'environ 330 000 usagers du téléservice Radiomaritime de l'ANFR, dédié à la gestion des licences radio pour les navires, ont été compromises. L'incident a été confirmé suite à un signalement de l'ANSSI concernant la mise en vente en ligne d'un extrait des données.\n\nStatut: Confirmée\nType de service: Service public (Fréquences radio)",
+      "DataClasses": [
+        "Nom",
+        "Prénom",
+        "Adresse postale",
+        "Numéro de téléphone"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://www.degrouptest.com/uploads/media/anfr-smallcell-4g-5g-iot-00.jpg",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/04/ANF-leak-fuites-de-donnees.jpeg",
+      "AddedDate": "2026-04-24T17:00:37.571Z",
+      "ModifiedDate": "2026-04-24T17:00:37.571Z",
+      "slug": "anfr-radiomaritime",
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/ANF-leak-fuites-de-donnees.jpeg"
     },
     {
       "Name": "Wazari",
@@ -69,7 +95,7 @@
       "nsfwConfidence": 0,
       "index": 1526,
       "title": "Wazari",
-      "oldindex": 1525
+      "oldindex": 1526
     },
     {
       "Name": "Parcoursup",
@@ -104,7 +130,7 @@
       "nsfwConfidence": 0,
       "index": 1527,
       "title": "Parcoursup",
-      "oldindex": 1526
+      "oldindex": 1527
     },
     {
       "Name": "Bodyhit",
@@ -140,7 +166,7 @@
       "nsfwConfidence": 0,
       "index": 1528,
       "title": "Bodyhit",
-      "oldindex": 1527
+      "oldindex": 1528
     },
     {
       "Name": "Rituals",
@@ -174,7 +200,7 @@
       "nsfwConfidence": 0,
       "index": 1525,
       "title": "Rituals",
-      "oldindex": 1524
+      "oldindex": 1525
     },
     {
       "Name": "Magasins U",
@@ -212,7 +238,7 @@
       "nsfwConfidence": 0,
       "index": 1521,
       "title": "Magasins U",
-      "oldindex": 1520
+      "oldindex": 1521
     },
     {
       "Name": "Arrestation de Hexdex par la section J3 du parquet de Paris",
@@ -246,7 +272,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Arrestation de Hexdex par la section J3 du parquet de Paris",
-      "oldindex": 1521,
+      "oldindex": 1522,
       "title": "Arrestation de Hexdex par la section J3 du parquet de Paris"
     },
     {
@@ -281,7 +307,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Bienvenue sur le nouveau système d'actualités",
-      "oldindex": 1522,
+      "oldindex": 1523,
       "title": "Bienvenue sur le nouveau système d'actualités"
     },
     {
@@ -317,7 +343,7 @@
       "nsfwConfidence": 0,
       "index": 1524,
       "title": "Ledil Immobilier",
-      "oldindex": 1523
+      "oldindex": 1524
     },
     {
       "Name": "ANTS (France titres)",
@@ -351,7 +377,7 @@
       "nsfwConfidence": 0,
       "index": 1520,
       "title": "ANTS (France titres)",
-      "oldindex": 1519
+      "oldindex": 1520
     },
     {
       "Name": "Comptoir du Rêve",
@@ -386,7 +412,7 @@
       "nsfwConfidence": 0,
       "index": 1518,
       "title": "Comptoir du Rêve",
-      "oldindex": 1517
+      "oldindex": 1518
     },
     {
       "Name": "Gauthier Tissus",
@@ -422,7 +448,7 @@
       "lien": "https://haveibeenpwned.com/Breach/Gauthier Tissus",
       "index": 1513,
       "title": "Gauthier Tissus",
-      "oldindex": 1512
+      "oldindex": 1513
     },
     {
       "Name": "Fédération Française de Basket-Ball",
@@ -457,7 +483,7 @@
       "nsfwConfidence": 0,
       "index": 1514,
       "title": "Fédération Française de Basket-Ball",
-      "oldindex": 1513
+      "oldindex": 1514
     },
     {
       "Name": "bazar du manga",
@@ -492,7 +518,7 @@
       "content": "-",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1514,
+      "oldindex": 1515,
       "title": "bazar du manga fuite du 2026-4-17"
     },
     {
@@ -528,7 +554,7 @@
       "content": "-",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1515,
+      "oldindex": 1516,
       "title": "jeu jouet fuite du 2026-4-17"
     },
     {
@@ -564,7 +590,7 @@
       "content": "-",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1516,
+      "oldindex": 1517,
       "title": "moulin roty fuite du 2026-4-17"
     },
     {
@@ -601,7 +627,7 @@
       "nsfwConfidence": 0,
       "index": 1510,
       "title": "Filair",
-      "oldindex": 1509
+      "oldindex": 1510
     },
     {
       "Name": "Imagerie Clinique Yvette",
@@ -636,7 +662,7 @@
       "nsfwConfidence": 0,
       "index": 1511,
       "title": "Imagerie Clinique Yvette",
-      "oldindex": 1510
+      "oldindex": 1511
     },
     {
       "Name": "police nationale",
@@ -671,7 +697,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Ville • Informations utilisateurs • Login • Premières et dernières connexions • modules suivis • Badges obtenus • Outils et portails utilisés •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1511,
+      "oldindex": 1512,
       "title": "police nationale fuite du 2026-4-16"
     },
     {
@@ -711,7 +737,7 @@
       "nsfwConfidence": 0,
       "index": 1507,
       "title": "Assurea",
-      "oldindex": 1506
+      "oldindex": 1507
     },
     {
       "Name": "Brit Hotel",
@@ -749,7 +775,7 @@
       "nsfwConfidence": 0,
       "index": 1508,
       "title": "Brit Hotel",
-      "oldindex": 1507
+      "oldindex": 1508
     },
     {
       "Name": "Pompes Funèbres Musulmanes Toulouse",
@@ -784,7 +810,7 @@
       "nsfwConfidence": 0,
       "index": 1509,
       "title": "Pompes Funèbres Musulmanes Toulouse",
-      "oldindex": 1508
+      "oldindex": 1509
     },
     {
       "Name": "Logis Hôtels",
@@ -823,7 +849,7 @@
       "nsfwConfidence": 0,
       "index": 1503,
       "title": "Logis Hôtels",
-      "oldindex": 1502
+      "oldindex": 1503
     },
     {
       "Name": "EduConnect",
@@ -857,7 +883,7 @@
       "nsfwConfidence": 0,
       "index": 1504,
       "title": "EduConnect",
-      "oldindex": 1503
+      "oldindex": 1504
     },
     {
       "Name": "CNAOC (Confédération Nationale des Appellations d'Origine Contrôlée)",
@@ -892,7 +918,7 @@
       "nsfwConfidence": 0,
       "index": 1505,
       "title": "CNAOC (Confédération Nationale des Appellations d'Origine Contrôlée)",
-      "oldindex": 1504
+      "oldindex": 1505
     },
     {
       "Name": "éducation nationale (éduconnect)",
@@ -927,7 +953,7 @@
       "content": "-\n\nNom\nprénom • Identifiant ÉduConnect • Établissement et classe • Adresse email • Code d’activation •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1505,
+      "oldindex": 1506,
       "title": "éducation nationale (éduconnect) fuite du 2026-4-14"
     },
     {
@@ -963,7 +989,7 @@
       "content": "-\n\nAdresse e-mail • Prénom et nom de famille • Adresse et ville • Numéro de téléphone • Numéro de compte bancaire • Titulaire du compte bancaire • Date de naissance • Informations sur les membres • Frais d'adhésion impayés •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1499,
+      "oldindex": 1500,
       "title": "basic fit fuite du 2026-4-13"
     },
     {
@@ -999,7 +1025,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Numéro de téléphone • Code postal\nville • Titre courant du poste • Souhait professionnel • Expérience professionnelle • Parcours au sein du réseau • Diplôme obtenu\nannée • Compétence •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1500,
+      "oldindex": 1501,
       "title": "iae grenoble fuite du 2026-4-13"
     },
     {
@@ -1035,7 +1061,7 @@
       "content": "-\n\nNom\npréno • Adresse email • Date de naissance • Numéro de téléphone • Numéro de fax • Adresse postale • Numéro de TVA •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1501,
+      "oldindex": 1502,
       "title": "maison de la magie fuite du 2026-4-13"
     },
     {
@@ -1074,7 +1100,7 @@
       "nsfwConfidence": 0,
       "index": 1497,
       "title": "Département de l'Ardèche",
-      "oldindex": 1496
+      "oldindex": 1497
     },
     {
       "Name": "INSEI / INSHEA",
@@ -1115,7 +1141,7 @@
       "nsfwConfidence": 0,
       "index": 1498,
       "title": "INSEI / INSHEA",
-      "oldindex": 1497
+      "oldindex": 1498
     },
     {
       "Name": "booking",
@@ -1156,7 +1182,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Adresse postale • Numéro de téléphone • Toute information communiquée •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1498,
+      "oldindex": 1499,
       "title": "booking fuite du 2026-4-12"
     },
     {
@@ -1192,7 +1218,7 @@
       "nsfwConfidence": 0,
       "index": 1494,
       "title": "Base véhicules d’occasion France",
-      "oldindex": 1493
+      "oldindex": 1494
     },
     {
       "Name": "FranceVerif.fr",
@@ -1231,7 +1257,7 @@
       "nsfwConfidence": 0,
       "index": 1495,
       "title": "FranceVerif.fr",
-      "oldindex": 1494
+      "oldindex": 1495
     },
     {
       "Name": "Académie de Paris",
@@ -1266,7 +1292,7 @@
       "nsfwConfidence": 0,
       "index": 1496,
       "title": "Académie de Paris",
-      "oldindex": 1495
+      "oldindex": 1496
     },
     {
       "Name": "DB Telecom",
@@ -1307,7 +1333,7 @@
       "nsfwConfidence": 0,
       "index": 1487,
       "title": "DB Telecom",
-      "oldindex": 1486
+      "oldindex": 1487
     },
     {
       "Name": "McGrawHill",
@@ -1344,7 +1370,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/McGrawHill",
-      "oldindex": 1487,
+      "oldindex": 1488,
       "title": "McGraw Hill"
     },
     {
@@ -1380,7 +1406,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Adresse postale • Numéro de téléphone • Historique des commandes •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1488,
+      "oldindex": 1489,
       "title": "easy lounge fuite du 2026-4-10"
     },
     {
@@ -1416,7 +1442,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Numéro de téléphone • Code postal\nville • Titre courant du poste • Souhait professionnel • Expérience professionnelle • Parcours au sein du réseau • Diplôme obtenu\nannée • Compétence •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1489,
+      "oldindex": 1490,
       "title": "alumni université côte d’azur fuite du 2026-4-10"
     },
     {
@@ -1452,7 +1478,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Numéro de téléphone • Code postal\nville • Titre courant du poste • Souhait professionnel • Expérience professionnelle • Parcours au sein du réseau • Diplôme obtenu\nannée • Compétence •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1490,
+      "oldindex": 1491,
       "title": "ensai network fuite du 2026-4-10"
     },
     {
@@ -1488,7 +1514,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Numéro de téléphone • Code postal\nville • Titre courant du poste • Souhait professionnel • Expérience professionnelle • Parcours au sein du réseau • Diplôme obtenu\nannée • Compétence •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1491,
+      "oldindex": 1492,
       "title": "lilagora fuite du 2026-4-10"
     },
     {
@@ -1524,7 +1550,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Numéro de téléphone • Code postal\nville • Titre courant du poste • Souhait professionnel • Expérience professionnelle • Parcours au sein du réseau • Diplôme obtenu\nannée • Compétence •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1492,
+      "oldindex": 1493,
       "title": "uppa alumni fuite du 2026-4-10"
     },
     {
@@ -1561,7 +1587,7 @@
       "nsfwConfidence": 0,
       "index": 1485,
       "title": "DCL (Diplôme de Compétence en Langue)",
-      "oldindex": 1484
+      "oldindex": 1485
     },
     {
       "Name": "Fédération Française du Sport Universitaire",
@@ -1595,7 +1621,7 @@
       "nsfwConfidence": 0,
       "index": 1486,
       "title": "Fédération Française du Sport Universitaire",
-      "oldindex": 1485
+      "oldindex": 1486
     },
     {
       "Name": "alumni université de strasbourg",
@@ -1630,7 +1656,7 @@
       "content": "-\n\nPrénom\nnom • Adresse email • Numéro de téléphone • Code postal\nville • Titre courant du poste • Souhaits professionnels : Secteurs\nrémunérations recherchés\npays ou villes + codes postaux recherchés\nposte recherché\nniveau d’expérience • Expérience professionnelle : mois et anné\ntitre du poste\nentreprise\nville • Parcours au sein du réseau : diplôme obtenu en année\nnom du diplôme) • Compétences •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1483,
+      "oldindex": 1484,
       "title": "alumni université de strasbourg fuite du 2026-4-8"
     },
     {
@@ -1666,7 +1692,7 @@
       "isNSFW": true,
       "nsfwConfidence": 0.9,
       "lien": "https://haveibeenpwned.com/Breach/MyLovelyAI",
-      "oldindex": 1481,
+      "oldindex": 1482,
       "title": "My Lovely AI",
       "tags": [
         "IA"
@@ -1710,7 +1736,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Numéro de téléphone • Numéro de fidélité •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1482,
+      "oldindex": 1483,
       "title": "kfc fuite du 2026-4-7"
     },
     {
@@ -1744,7 +1770,7 @@
       "nsfwConfidence": 0,
       "index": 1479,
       "title": "Nosho",
-      "oldindex": 1478
+      "oldindex": 1479
     },
     {
       "Name": "YMED (SOONCARE®)",
@@ -1779,7 +1805,7 @@
       "nsfwConfidence": 0,
       "index": 1480,
       "title": "YMED (SOONCARE®)",
-      "oldindex": 1479
+      "oldindex": 1480
     },
     {
       "Name": "AlumnForce",
@@ -1818,7 +1844,7 @@
       "lien": "https://haveibeenpwned.com/Breach/AlumnForce",
       "index": 1481,
       "title": "AlumnForce",
-      "oldindex": 1480
+      "oldindex": 1481
     },
     {
       "Name": "Or en Cash",
@@ -1855,7 +1881,7 @@
       "nsfwConfidence": 0,
       "index": 1476,
       "title": "Or en Cash",
-      "oldindex": 1475
+      "oldindex": 1476
     },
     {
       "Name": "Veuve Clicquot",
@@ -1889,7 +1915,7 @@
       "nsfwConfidence": 0,
       "index": 1477,
       "title": "Veuve Clicquot",
-      "oldindex": 1476
+      "oldindex": 1477
     },
     {
       "Name": "contrat d’intégration républicaine",
@@ -1924,7 +1950,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Adresse postale • Numéro de téléphone •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1477,
+      "oldindex": 1478,
       "title": "contrat d’intégration républicaine fuite du 2026-4-4"
     },
     {
@@ -1958,7 +1984,7 @@
       "nsfwConfidence": 0,
       "index": 1474,
       "title": "La Quiberonnaise",
-      "oldindex": 1473
+      "oldindex": 1474
     },
     {
       "Name": "Amtrak",
@@ -1995,7 +2021,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Amtrak",
-      "oldindex": 1474,
+      "oldindex": 1475,
       "title": "Amtrak"
     },
     {
@@ -2041,7 +2067,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/SongTrivia2",
-      "oldindex": 1471,
+      "oldindex": 1472,
       "title": "SongTrivia2"
     },
     {
@@ -2077,7 +2103,7 @@
       "content": "-\n\nNom\nprénom • Adresse postale • Carte d’identité • Factures • IBAN •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1472,
+      "oldindex": 1473,
       "title": "gold union fuite du 2026-4-2"
     },
     {
@@ -2172,7 +2198,8 @@
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/CarnivalCorporation",
       "index": 1471,
-      "title": "CarnivalCorporation"
+      "title": "CarnivalCorporation",
+      "oldindex": 1471
     },
     {
       "Name": "Vacancéole",
