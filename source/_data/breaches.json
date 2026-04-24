@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-24T12:44:42.901Z",
+  "lastUpdated": "2026-04-24T14:23:00.498Z",
   "totalBreaches": 1495,
   "breaches": [
     {
@@ -27,7 +27,15 @@
       "AddedDate": "2026-04-24T12:44:35.604Z",
       "ModifiedDate": "2026-04-24T12:44:35.604Z",
       "slug": "agence-de-services-et-de-paiement",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/ASP-Leak-fuite-de-donnees.jpeg"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/ASP-Leak-fuite-de-donnees.jpeg",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "L'information sur la fuite de données a été communiquée par l'Agence de Services et de Paiement (ASP) via une notification par courriel. Cet organisme public français a indiqué que l'incident impacte les stagiaires de la formation professionnelle.\n\nStatut: Confirmée\nType de service: Agence gouvernementale de paiement",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1528,
+      "title": "Agence de Services et de Paiement"
     },
     {
       "Name": "Wazari",
@@ -378,47 +386,6 @@
       "index": 1517,
       "title": "Comptoir du Rêve",
       "oldindex": 1517
-    },
-    {
-      "Name": "Carnival",
-      "Title": "Carnival",
-      "Domain": "carnivalcorp.com",
-      "BreachDate": "2026-04-18",
-      "AddedDate": "2026-04-24T01:58:19Z",
-      "ModifiedDate": "2026-04-24T01:58:19Z",
-      "PwnCount": 7531359,
-      "Description": "In April 2026, the notorious hacking collective ShinyHunters claimed they had obtained a substantial volume of data belonging to the Carnival cruise operator and attempted to extort the organisation to prevent the data from being leaked. The following week, the group published the data publicly, which contained 8.7M records with 7.5M unique email addresses. The data contained fields indicating it related to the Mariner Society loyalty program run by Holland America, a cruise line brand under Carnival, and included names, dates of birth, genders and data relating to status within the loyalty program. Carnival acknowledged a phishing incident involving a single user account and advised they were working to better understand the scope of the unauthorised activity.",
-      "LogoPath": "https://logos.haveibeenpwned.com/Carnival.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [
-        "Dates of birth",
-        "Email addresses",
-        "Genders",
-        "Geographic locations",
-        "Loyalty program details",
-        "Names",
-        "Salutations"
-      ],
-      "IsVerified": true,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "index": 1518,
-      "isBlocked": false,
-      "blockedNote": null,
-      "source": "Manuel",
-      "categories": [],
-      "content": "In April 2026, the notorious hacking collective ShinyHunters claimed they had obtained a substantial volume of data belonging to the Carnival cruise operator and attempted to extort the organisation to prevent the data from being leaked. The following week, the group published the data publicly, which contained 8.7M records with 7.5M unique email addresses. The data contained fields indicating it related to the Mariner Society loyalty program run by Holland America, a cruise line brand under Carnival, and included names, dates of birth, genders and data relating to status within the loyalty program. Carnival acknowledged a phishing incident involving a single user account and advised they were working to better understand the scope of the unauthorised activity.",
-      "isNSFW": false,
-      "nsfwConfidence": 0,
-      "lien": "https://haveibeenpwned.com/Breach/Carnival",
-      "oldindex": 1518,
-      "title": "Carnival"
     },
     {
       "Name": "Gauthier Tissus",
@@ -2168,6 +2135,34 @@
       "index": 1470,
       "title": "Force Ouvrière #2",
       "oldindex": 1470
+    },
+    {
+      "Name": "CarnivalCorporation",
+      "Title": "CarnivalCorporation",
+      "Domain": "carnivalcorp.com",
+      "BreachDate": "2026-04-01",
+      "PwnCount": 7549706,
+      "Description": "Carnival Corporation, a cruise operator, was allegedly breached by the ShinyHunters group in April 2026, with data later published exposing 8.7M records containing 7.5M unique email addresses, along with names, dates of birth, genders, and loyalty program details related to the Holland America Mariner Society.",
+      "DataClasses": [
+        "Email addresses",
+        "Names",
+        "Genders",
+        "Dates of birth",
+        "Geographic locations",
+        "Loyalty program details",
+        "Salutations"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://xposedornot.com/static/logos/Carnival.png",
+      "source": "xposedornot.com",
+      "AddedDate": "2026-04-24T14:22:54.988Z",
+      "ModifiedDate": "2026-04-24T14:22:54.988Z",
+      "slug": "carnivalcorporation"
     },
     {
       "Name": "Vacancéole",
@@ -21571,7 +21566,12 @@
         "Prénoms",
         "Pseudo)",
         "Statuts",
-        "Transactions PayPal (références"
+        "Transactions PayPal (références",
+        "Email addresses",
+        "Names",
+        "Phone numbers",
+        "Physical addresses",
+        "Purchases"
       ],
       "IsSensitive": false,
       "IsVerified": true,
