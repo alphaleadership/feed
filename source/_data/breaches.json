@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-24T03:51:52.190Z",
+  "lastUpdated": "2026-04-24T06:09:53.838Z",
   "totalBreaches": 1494,
   "breaches": [
     {
@@ -33,7 +33,7 @@
       "nsfwConfidence": 0,
       "index": 1525,
       "title": "Wazari",
-      "oldindex": 1524
+      "oldindex": 1525
     },
     {
       "Name": "Parcoursup",
@@ -68,7 +68,7 @@
       "nsfwConfidence": 0,
       "index": 1526,
       "title": "Parcoursup",
-      "oldindex": 1525
+      "oldindex": 1526
     },
     {
       "Name": "Bodyhit",
@@ -103,7 +103,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1527,
-      "title": "Bodyhit"
+      "title": "Bodyhit",
+      "oldindex": 1527
     },
     {
       "Name": "Rituals",
@@ -137,7 +138,7 @@
       "nsfwConfidence": 0,
       "index": 1524,
       "title": "Rituals",
-      "oldindex": 1523
+      "oldindex": 1524
     },
     {
       "Name": "Magasins U",
@@ -175,7 +176,7 @@
       "nsfwConfidence": 0,
       "index": 1520,
       "title": "Magasins U",
-      "oldindex": 1519
+      "oldindex": 1520
     },
     {
       "Name": "Arrestation de Hexdex par la section J3 du parquet de Paris",
@@ -209,7 +210,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Arrestation de Hexdex par la section J3 du parquet de Paris",
-      "oldindex": 1520,
+      "oldindex": 1521,
       "title": "Arrestation de Hexdex par la section J3 du parquet de Paris"
     },
     {
@@ -244,7 +245,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Bienvenue sur le nouveau système d'actualités",
-      "oldindex": 1521,
+      "oldindex": 1522,
       "title": "Bienvenue sur le nouveau système d'actualités"
     },
     {
@@ -280,7 +281,7 @@
       "nsfwConfidence": 0,
       "index": 1523,
       "title": "Ledil Immobilier",
-      "oldindex": 1522
+      "oldindex": 1523
     },
     {
       "Name": "ANTS (France titres)",
@@ -314,7 +315,7 @@
       "nsfwConfidence": 0,
       "index": 1519,
       "title": "ANTS (France titres)",
-      "oldindex": 1518
+      "oldindex": 1519
     },
     {
       "Name": "Comptoir du Rêve",
@@ -380,7 +381,17 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1518
+      "index": 1518,
+      "isBlocked": false,
+      "blockedNote": null,
+      "source": "Manuel",
+      "categories": [],
+      "content": "In April 2026, the notorious hacking collective ShinyHunters claimed they had obtained a substantial volume of data belonging to the Carnival cruise operator and attempted to extort the organisation to prevent the data from being leaked. The following week, the group published the data publicly, which contained 8.7M records with 7.5M unique email addresses. The data contained fields indicating it related to the Mariner Society loyalty program run by Holland America, a cruise line brand under Carnival, and included names, dates of birth, genders and data relating to status within the loyalty program. Carnival acknowledged a phishing incident involving a single user account and advised they were working to better understand the scope of the unauthorised activity.",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "lien": "https://haveibeenpwned.com/Breach/Carnival",
+      "oldindex": 1518,
+      "title": "Carnival"
     },
     {
       "Name": "Gauthier Tissus",
