@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-25T13:11:51.047Z",
-  "totalBreaches": 1497,
+  "lastUpdated": "2026-04-25T14:09:04.870Z",
+  "totalBreaches": 1498,
   "breaches": [
     {
       "Name": "IFprofs",
@@ -33,7 +33,35 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1531,
-      "title": "IFprofs"
+      "title": "IFprofs",
+      "oldindex": 1531
+    },
+    {
+      "Name": "Adele.org",
+      "Title": "Adele.org",
+      "Domain": "adele.org",
+      "BreachDate": "2026-04-25",
+      "PwnCount": 103000,
+      "Description": "Publication sur un forum de cybercriminalité d'une base de données de 560 Mo provenant de la plateforme Adele.org. La fuite contient 233 000 dossiers de location, 28 000 factures B2B et 113 archives de documents d'identité, affectant environ 103 000 étudiants.\n\nStatut: Revendiquée\nType de service: Plateforme de logement étudiant",
+      "DataClasses": [
+        "Dossiers de location",
+        "Informations d'identification personnelle (PII)",
+        "Coordonnées (Email, Téléphone, Adresse)",
+        "Données financières (revenus, factures B2B)",
+        "Documents d'identité (Passeports, CNI)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://www.pagesjaunes.fr/media/agc/d0/46/30/00/00/cc/8b/c0/9b/8d/6728d046300000cc8bc09b8d/6728d046300000cc8bc09b8e.png",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/04/adele-org-logement-etudiant-leak-fuites-de-donnees-scaled.png",
+      "AddedDate": "2026-04-25T14:08:57.643Z",
+      "ModifiedDate": "2026-04-25T14:08:57.643Z",
+      "slug": "adeleorg",
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/adele-org-logement-etudiant-leak-fuites-de-donnees-scaled.png"
     },
     {
       "Name": "Agence de Services et de Paiement",
