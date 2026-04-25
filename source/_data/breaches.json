@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-25T15:01:58.548Z",
+  "lastUpdated": "2026-04-25T15:56:41.512Z",
   "totalBreaches": 1498,
   "breaches": [
     {
@@ -69,7 +69,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1532,
-      "title": "Adele.org"
+      "title": "Adele.org",
+      "oldindex": 1532
     },
     {
       "Name": "Agence de Services et de Paiement",
