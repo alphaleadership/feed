@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-25T11:55:02.577Z",
+  "lastUpdated": "2026-04-25T13:11:51.047Z",
   "totalBreaches": 1497,
   "breaches": [
     {
@@ -25,7 +25,15 @@
       "AddedDate": "2026-04-25T11:54:55.557Z",
       "ModifiedDate": "2026-04-25T11:54:55.557Z",
       "slug": "ifprofs",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Ifprofs-leak-fuites-de-donnees-scaled.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Ifprofs-leak-fuites-de-donnees-scaled.png",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Réseau collaboratif pour professeurs de français. 90 765 comptes utilisateurs et 20 514 publications/contenus (entre octobre 2015 et avril 2026), publiés par le cybercriminel ChimeraZ.\n\nStatut: Confirmée\nType de service: Réseau collaboratif enseignants",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1531,
+      "title": "IFprofs"
     },
     {
       "Name": "Agence de Services et de Paiement",
