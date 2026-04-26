@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-26T22:42:17.631Z",
-  "totalBreaches": 1499,
+  "lastUpdated": "2026-04-26T23:25:01.119Z",
+  "totalBreaches": 1500,
   "breaches": [
     {
       "Name": "Sejourneur",
@@ -34,7 +34,7 @@
       "content": "L'acteur ChimeraZ a publié une base de données de Sejourneur.com, un service de conciergerie et de gestion de locations saisonnières, contenant 46 689 réservations et 6 678 factures PDF, exposant les données de 39 285 clients uniques.\n\nStatut: Confirmée\nType de service: Gestion de locations saisonnières",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1533,
+      "index": 1534,
       "title": "Sejourneur",
       "oldindex": 1533
     },
@@ -68,7 +68,7 @@
       "content": "Réseau collaboratif pour professeurs de français. 90 765 comptes utilisateurs et 20 514 publications/contenus (entre octobre 2015 et avril 2026), publiés par le cybercriminel ChimeraZ.\n\nStatut: Confirmée\nType de service: Réseau collaboratif enseignants",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1531,
+      "index": 1532,
       "title": "IFprofs",
       "oldindex": 1531
     },
@@ -104,7 +104,7 @@
       "content": "Publication sur un forum de cybercriminalité d'une base de données de 560 Mo provenant de la plateforme Adele.org. La fuite contient 233 000 dossiers de location, 28 000 factures B2B et 113 archives de documents d'identité, affectant environ 103 000 étudiants.\n\nStatut: Revendiquée\nType de service: Plateforme de logement étudiant",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1532,
+      "index": 1533,
       "title": "Adele.org",
       "oldindex": 1532
     },
@@ -178,6 +178,37 @@
       "index": 1530,
       "title": "ANFR (Radiomaritime)",
       "oldindex": 1530
+    },
+    {
+      "Name": "Udemy",
+      "Title": "Udemy",
+      "Domain": "udemy.com",
+      "BreachDate": "2026-04-24",
+      "AddedDate": "2026-04-26T23:01:50Z",
+      "ModifiedDate": "2026-04-26T23:01:50Z",
+      "PwnCount": 1401259,
+      "Description": "In April 2026, online training company Udemy was the victim of a “pay or leak” extortion attempt perpetrated by the ShinyHunters group. The data was subsequently leaked publicly and contained 1.4M unique email addresses belonging to customers and instructors. The data also included names, physical addresses, phone numbers, employer information and instructor payout methods including PayPal, cheque and bank transfer.",
+      "LogoPath": "https://logos.haveibeenpwned.com/Udemy.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [
+        "Email addresses",
+        "Employers",
+        "Job titles",
+        "Names",
+        "Payment methods",
+        "Phone numbers",
+        "Physical addresses"
+      ],
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "index": 1531
     },
     {
       "Name": "Wazari",
