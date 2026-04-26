@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T13:20:18.200Z",
+  "lastUpdated": "2026-04-26T14:23:11.953Z",
   "totalBreaches": 1499,
   "breaches": [
     {
@@ -26,7 +26,16 @@
       "AddedDate": "2026-04-26T13:20:11.085Z",
       "ModifiedDate": "2026-04-26T13:20:11.085Z",
       "slug": "sejourneur",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Sejourneur-leak-fuite-de-donnees.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Sejourneur-leak-fuite-de-donnees.png",
+      "Attribution": "chimeraz",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "L'acteur ChimeraZ a publié une base de données de Sejourneur.com, un service de conciergerie et de gestion de locations saisonnières, contenant 46 689 réservations et 6 678 factures PDF, exposant les données de 39 285 clients uniques.\n\nStatut: Confirmée\nType de service: Gestion de locations saisonnières",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1533,
+      "title": "Sejourneur"
     },
     {
       "Name": "IFprofs",
