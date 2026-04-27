@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T11:18:15.687Z",
+  "lastUpdated": "2026-04-27T13:05:19.288Z",
   "totalBreaches": 1502,
   "breaches": [
     {
@@ -27,7 +27,15 @@
       "AddedDate": "2026-04-27T11:18:08.125Z",
       "ModifiedDate": "2026-04-27T11:18:08.125Z",
       "slug": "bordeaux-mtropole",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/taxes-sejours-bordeaux-metropole-leak-fuite-de-donnees-scaled.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/taxes-sejours-bordeaux-metropole-leak-fuite-de-donnees-scaled.png",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "La fuite de données concerne 11 666 enregistrements issus du registre d'inventaire des hébergements touristiques du service taxedesejour.bordeaux.metropole.fr, impactant 9 390 déclarants uniques. Revendiquée sur PwnForums comme une base de données partielle, elle contient la liste des biens déclarés et non l'historique des transactions financières.\n\nStatut: Revendiquée\nType de service: Déclaration de taxe de séjour",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1536,
+      "title": "Bordeaux Métropole"
     },
     {
       "Name": "Sejourneur",
