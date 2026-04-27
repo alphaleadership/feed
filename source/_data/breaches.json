@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-27T06:41:59.044Z",
-  "totalBreaches": 1500,
+  "lastUpdated": "2026-04-27T09:09:35.802Z",
+  "totalBreaches": 1501,
   "breaches": [
     {
       "Name": "Sejourneur",
@@ -34,7 +34,7 @@
       "content": "L'acteur ChimeraZ a publié une base de données de Sejourneur.com, un service de conciergerie et de gestion de locations saisonnières, contenant 46 689 réservations et 6 678 factures PDF, exposant les données de 39 285 clients uniques.\n\nStatut: Confirmée\nType de service: Gestion de locations saisonnières",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1534,
+      "index": 1535,
       "title": "Sejourneur",
       "oldindex": 1534
     },
@@ -68,7 +68,7 @@
       "content": "Réseau collaboratif pour professeurs de français. 90 765 comptes utilisateurs et 20 514 publications/contenus (entre octobre 2015 et avril 2026), publiés par le cybercriminel ChimeraZ.\n\nStatut: Confirmée\nType de service: Réseau collaboratif enseignants",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1532,
+      "index": 1533,
       "title": "IFprofs",
       "oldindex": 1532
     },
@@ -104,7 +104,7 @@
       "content": "Publication sur un forum de cybercriminalité d'une base de données de 560 Mo provenant de la plateforme Adele.org. La fuite contient 233 000 dossiers de location, 28 000 factures B2B et 113 archives de documents d'identité, affectant environ 103 000 étudiants.\n\nStatut: Revendiquée\nType de service: Plateforme de logement étudiant",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1533,
+      "index": 1534,
       "title": "Adele.org",
       "oldindex": 1533
     },
@@ -140,7 +140,7 @@
       "content": "L'information sur la fuite de données a été communiquée par l'Agence de Services et de Paiement (ASP) via une notification par courriel. Cet organisme public français a indiqué que l'incident impacte les stagiaires de la formation professionnelle.\n\nStatut: Confirmée\nType de service: Agence gouvernementale de paiement",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1529,
+      "index": 1530,
       "title": "Agence de Services et de Paiement",
       "oldindex": 1529
     },
@@ -175,7 +175,7 @@
       "content": "Les données d'environ 330 000 usagers du téléservice Radiomaritime de l'ANFR, dédié à la gestion des licences radio pour les navires, ont été compromises. L'incident a été confirmé suite à un signalement de l'ANSSI concernant la mise en vente en ligne d'un extrait des données.\n\nStatut: Confirmée\nType de service: Service public (Fréquences radio)",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1530,
+      "index": 1531,
       "title": "ANFR (Radiomaritime)",
       "oldindex": 1530
     },
@@ -208,7 +208,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1531,
+      "index": 1532,
       "isBlocked": false,
       "blockedNote": null,
       "source": "Manuel",
@@ -249,7 +249,7 @@
       "content": "Le volume n'est pas spécifié dans la notification envoyée par le courtier en assurance Wazari, qui confirme une fuite de données suite à une attaque externe sur un de ses outils de gestion.\n\nStatut: Confirmée\nType de service: Assurance",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1526,
+      "index": 1527,
       "title": "Wazari",
       "oldindex": 1526
     },
@@ -284,7 +284,7 @@
       "content": "Selon le ministère de l'Enseignement supérieur, les données d'environ 705 000 candidats des sessions 2023 et 2025 (région Occitanie) ont été exfiltrées en octobre 2025 suite à l'usurpation du compte d'un personnel sur un module de gestion. Détecté en mars 2026, le ministère a répondu en anonymisant le module et en renforçant les contrôles d'accès.\n\nStatut: Confirmée\nType de service: Service public d'orientation",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1527,
+      "index": 1528,
       "title": "Parcoursup",
       "oldindex": 1527
     },
@@ -320,7 +320,7 @@
       "content": "Une base de données de 218 542 clients de Bodyhit, incluant 42 480 enregistrements IBAN/BIC, a été mise en vente le 23 avril 2026 par l'acteur 'under' sur un forum du dark web.\n\nStatut: Revendiquée\nType de service: Fitness",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1528,
+      "index": 1529,
       "title": "Bodyhit",
       "oldindex": 1528
     },
@@ -354,7 +354,7 @@
       "content": "Un volume non spécifié de données clients a été exfiltré suite à un accès non autorisé aux systèmes de Rituals, d'après une notification officielle de l'entreprise. Information SaxX.\n\nStatut: Confirmée\nType de service: Cosmétiques",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1525,
+      "index": 1526,
       "title": "Rituals",
       "oldindex": 1525
     },
@@ -392,7 +392,7 @@
       "content": "Suite à une attaque informatique, Magasins U a informé ses clients par email d'une violation de données concernant les comptes de fidélité. Le volume exact de comptes affectés n'a pas été communiqué dans cette notification.Information : SaxX\n\nStatut: Confirmée\nType de service: Grande distribution",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1521,
+      "index": 1522,
       "title": "Magasins U",
       "oldindex": 1521
     },
@@ -419,7 +419,7 @@
       "IsStealerLog": false,
       "slug": "arrestation-de-hexdex-par-la-section-j3-du-parquet-de-paris",
       "formattedDate": "2026-04-21",
-      "index": 1522,
+      "index": 1523,
       "isBlocked": false,
       "blockedNote": null,
       "source": "Manuel",
@@ -454,7 +454,7 @@
       "IsStealerLog": false,
       "slug": "bienvenue-sur-le-nouveau-syst-me-d-actualit-s",
       "formattedDate": "2026-04-21",
-      "index": 1523,
+      "index": 1524,
       "isBlocked": false,
       "blockedNote": null,
       "source": "Manuel",
@@ -497,7 +497,7 @@
       "content": "Publication d'une base de données de 6 700 enregistrements concernant Ledil Immobilier, un réseau français de mandataires immobiliers dont le siège est à Agen. La fuite, datée d'avril 2026, est revendiquée par l'acteur 888.\n\nStatut: Revendiquée\nType de service: Immobilier",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1524,
+      "index": 1525,
       "title": "Ledil Immobilier",
       "oldindex": 1524
     },
@@ -534,6 +534,36 @@
       "index": 1520,
       "title": "ANTS (France titres)",
       "oldindex": 1520
+    },
+    {
+      "Name": "ADT",
+      "Title": "ADT",
+      "Domain": "adt.com",
+      "BreachDate": "2026-04-20",
+      "AddedDate": "2026-04-27T07:36:42Z",
+      "ModifiedDate": "2026-04-27T07:36:42Z",
+      "PwnCount": 5488888,
+      "Description": "In April 2026, home security firm ADT confirmed a data breach by ShinyHunters, which listed the company on its website as part of a \"pay or leak\" extortion attempt. The breach impacted 5.5M unique email addresses along with names, phone numbers and physical addresses. ADT also advised that \"in a small percentage of cases, dates of birth and the last four digits of Social Security numbers or Tax IDs were included\" and that it had contacted all affected people.",
+      "LogoPath": "https://logos.haveibeenpwned.com/ADT.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [
+        "Dates of birth",
+        "Email addresses",
+        "Names",
+        "Partial government issued IDs",
+        "Phone numbers",
+        "Physical addresses"
+      ],
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "index": 1521
     },
     {
       "Name": "Comptoir du Rêve",
