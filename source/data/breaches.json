@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T13:05:19.288Z",
+  "lastUpdated": "2026-04-27T15:19:42.366Z",
   "totalBreaches": 1502,
   "breaches": [
     {
@@ -35,7 +35,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1536,
-      "title": "Bordeaux Métropole"
+      "title": "Bordeaux Métropole",
+      "oldindex": 1536
     },
     {
       "Name": "Sejourneur",
