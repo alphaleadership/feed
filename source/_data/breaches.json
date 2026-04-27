@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T23:25:01.119Z",
+  "lastUpdated": "2026-04-27T00:05:59.820Z",
   "totalBreaches": 1500,
   "breaches": [
     {
@@ -36,7 +36,7 @@
       "nsfwConfidence": 0,
       "index": 1534,
       "title": "Sejourneur",
-      "oldindex": 1533
+      "oldindex": 1534
     },
     {
       "Name": "IFprofs",
@@ -70,7 +70,7 @@
       "nsfwConfidence": 0,
       "index": 1532,
       "title": "IFprofs",
-      "oldindex": 1531
+      "oldindex": 1532
     },
     {
       "Name": "Adele.org",
@@ -106,7 +106,7 @@
       "nsfwConfidence": 0,
       "index": 1533,
       "title": "Adele.org",
-      "oldindex": 1532
+      "oldindex": 1533
     },
     {
       "Name": "Agence de Services et de Paiement",
@@ -208,7 +208,17 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1531
+      "index": 1531,
+      "isBlocked": false,
+      "blockedNote": null,
+      "source": "Manuel",
+      "categories": [],
+      "content": "In April 2026, online training company Udemy was the victim of a “pay or leak” extortion attempt perpetrated by the ShinyHunters group. The data was subsequently leaked publicly and contained 1.4M unique email addresses belonging to customers and instructors. The data also included names, physical addresses, phone numbers, employer information and instructor payout methods including PayPal, cheque and bank transfer.",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "lien": "https://haveibeenpwned.com/Breach/Udemy",
+      "oldindex": 1531,
+      "title": "Udemy"
     },
     {
       "Name": "Wazari",
