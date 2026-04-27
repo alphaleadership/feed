@@ -1,7 +1,34 @@
 {
-  "lastUpdated": "2026-04-27T09:09:35.802Z",
-  "totalBreaches": 1501,
+  "lastUpdated": "2026-04-27T11:18:15.687Z",
+  "totalBreaches": 1502,
   "breaches": [
+    {
+      "Name": "Bordeaux Métropole",
+      "Title": "Bordeaux Métropole",
+      "Domain": "taxedesejour.bordeaux.metropole.fr",
+      "BreachDate": "2026-04-27",
+      "PwnCount": 9390,
+      "Description": "La fuite de données concerne 11 666 enregistrements issus du registre d'inventaire des hébergements touristiques du service taxedesejour.bordeaux.metropole.fr, impactant 9 390 déclarants uniques. Revendiquée sur PwnForums comme une base de données partielle, elle contient la liste des biens déclarés et non l'historique des transactions financières.\n\nStatut: Revendiquée\nType de service: Déclaration de taxe de séjour",
+      "DataClasses": [
+        "Identité (Civilité, Nom, Prénom)",
+        "Coordonnées (Adresse e-mail, Téléphone)",
+        "Adresse postale du bien locatif",
+        "Numéro d'enregistrement officiel",
+        "Date de déclaration"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://grapheine.com/wp-content/uploads/2015/01/logo-bordeaux-metropole1-2560x1064.webp",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/04/taxes-sejours-bordeaux-metropole-leak-fuite-de-donnees-scaled.png",
+      "AddedDate": "2026-04-27T11:18:08.125Z",
+      "ModifiedDate": "2026-04-27T11:18:08.125Z",
+      "slug": "bordeaux-mtropole",
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/taxes-sejours-bordeaux-metropole-leak-fuite-de-donnees-scaled.png"
+    },
     {
       "Name": "Sejourneur",
       "Title": "Sejourneur",
@@ -36,7 +63,7 @@
       "nsfwConfidence": 0,
       "index": 1535,
       "title": "Sejourneur",
-      "oldindex": 1534
+      "oldindex": 1535
     },
     {
       "Name": "IFprofs",
@@ -70,7 +97,7 @@
       "nsfwConfidence": 0,
       "index": 1533,
       "title": "IFprofs",
-      "oldindex": 1532
+      "oldindex": 1533
     },
     {
       "Name": "Adele.org",
@@ -106,7 +133,7 @@
       "nsfwConfidence": 0,
       "index": 1534,
       "title": "Adele.org",
-      "oldindex": 1533
+      "oldindex": 1534
     },
     {
       "Name": "Agence de Services et de Paiement",
@@ -142,7 +169,7 @@
       "nsfwConfidence": 0,
       "index": 1530,
       "title": "Agence de Services et de Paiement",
-      "oldindex": 1529
+      "oldindex": 1530
     },
     {
       "Name": "ANFR (Radiomaritime)",
@@ -177,7 +204,7 @@
       "nsfwConfidence": 0,
       "index": 1531,
       "title": "ANFR (Radiomaritime)",
-      "oldindex": 1530
+      "oldindex": 1531
     },
     {
       "Name": "Udemy",
@@ -217,7 +244,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Udemy",
-      "oldindex": 1531,
+      "oldindex": 1532,
       "title": "Udemy"
     },
     {
@@ -251,7 +278,7 @@
       "nsfwConfidence": 0,
       "index": 1527,
       "title": "Wazari",
-      "oldindex": 1526
+      "oldindex": 1527
     },
     {
       "Name": "Parcoursup",
@@ -286,7 +313,7 @@
       "nsfwConfidence": 0,
       "index": 1528,
       "title": "Parcoursup",
-      "oldindex": 1527
+      "oldindex": 1528
     },
     {
       "Name": "Bodyhit",
@@ -322,7 +349,7 @@
       "nsfwConfidence": 0,
       "index": 1529,
       "title": "Bodyhit",
-      "oldindex": 1528
+      "oldindex": 1529
     },
     {
       "Name": "Rituals",
@@ -356,7 +383,7 @@
       "nsfwConfidence": 0,
       "index": 1526,
       "title": "Rituals",
-      "oldindex": 1525
+      "oldindex": 1526
     },
     {
       "Name": "Magasins U",
@@ -394,7 +421,7 @@
       "nsfwConfidence": 0,
       "index": 1522,
       "title": "Magasins U",
-      "oldindex": 1521
+      "oldindex": 1522
     },
     {
       "Name": "Arrestation de Hexdex par la section J3 du parquet de Paris",
@@ -428,7 +455,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Arrestation de Hexdex par la section J3 du parquet de Paris",
-      "oldindex": 1522,
+      "oldindex": 1523,
       "title": "Arrestation de Hexdex par la section J3 du parquet de Paris"
     },
     {
@@ -463,7 +490,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Bienvenue sur le nouveau système d'actualités",
-      "oldindex": 1523,
+      "oldindex": 1524,
       "title": "Bienvenue sur le nouveau système d'actualités"
     },
     {
@@ -499,7 +526,7 @@
       "nsfwConfidence": 0,
       "index": 1525,
       "title": "Ledil Immobilier",
-      "oldindex": 1524
+      "oldindex": 1525
     },
     {
       "Name": "ANTS (France titres)",
@@ -563,7 +590,17 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1521
+      "index": 1521,
+      "isBlocked": false,
+      "blockedNote": null,
+      "source": "Manuel",
+      "categories": [],
+      "content": "In April 2026, home security firm ADT confirmed a data breach by ShinyHunters, which listed the company on its website as part of a \"pay or leak\" extortion attempt. The breach impacted 5.5M unique email addresses along with names, phone numbers and physical addresses. ADT also advised that \"in a small percentage of cases, dates of birth and the last four digits of Social Security numbers or Tax IDs were included\" and that it had contacted all affected people.",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "lien": "https://haveibeenpwned.com/Breach/ADT",
+      "oldindex": 1521,
+      "title": "ADT"
     },
     {
       "Name": "Comptoir du Rêve",
