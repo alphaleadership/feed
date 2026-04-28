@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T23:11:36.022Z",
+  "lastUpdated": "2026-04-28T00:07:54.715Z",
   "totalBreaches": 1503,
   "breaches": [
     {
@@ -36,7 +36,7 @@
       "nsfwConfidence": 0,
       "index": 1537,
       "title": "Bordeaux Métropole",
-      "oldindex": 1536
+      "oldindex": 1537
     },
     {
       "Name": "Sejourneur",
@@ -72,7 +72,7 @@
       "nsfwConfidence": 0,
       "index": 1536,
       "title": "Sejourneur",
-      "oldindex": 1535
+      "oldindex": 1536
     },
     {
       "Name": "IFprofs",
@@ -106,7 +106,7 @@
       "nsfwConfidence": 0,
       "index": 1534,
       "title": "IFprofs",
-      "oldindex": 1533
+      "oldindex": 1534
     },
     {
       "Name": "Adele.org",
@@ -142,7 +142,7 @@
       "nsfwConfidence": 0,
       "index": 1535,
       "title": "Adele.org",
-      "oldindex": 1534
+      "oldindex": 1535
     },
     {
       "Name": "Agence de Services et de Paiement",
@@ -178,7 +178,7 @@
       "nsfwConfidence": 0,
       "index": 1531,
       "title": "Agence de Services et de Paiement",
-      "oldindex": 1530
+      "oldindex": 1531
     },
     {
       "Name": "ANFR (Radiomaritime)",
@@ -213,7 +213,7 @@
       "nsfwConfidence": 0,
       "index": 1532,
       "title": "ANFR (Radiomaritime)",
-      "oldindex": 1531
+      "oldindex": 1532
     },
     {
       "Name": "Udemy",
@@ -253,7 +253,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Udemy",
-      "oldindex": 1532,
+      "oldindex": 1533,
       "title": "Udemy"
     },
     {
@@ -287,7 +287,7 @@
       "nsfwConfidence": 0,
       "index": 1528,
       "title": "Wazari",
-      "oldindex": 1527
+      "oldindex": 1528
     },
     {
       "Name": "Parcoursup",
@@ -322,7 +322,7 @@
       "nsfwConfidence": 0,
       "index": 1529,
       "title": "Parcoursup",
-      "oldindex": 1528
+      "oldindex": 1529
     },
     {
       "Name": "Bodyhit",
@@ -358,7 +358,7 @@
       "nsfwConfidence": 0,
       "index": 1530,
       "title": "Bodyhit",
-      "oldindex": 1529
+      "oldindex": 1530
     },
     {
       "Name": "Rituals",
@@ -392,7 +392,7 @@
       "nsfwConfidence": 0,
       "index": 1527,
       "title": "Rituals",
-      "oldindex": 1526
+      "oldindex": 1527
     },
     {
       "Name": "Magasins U",
@@ -430,7 +430,7 @@
       "nsfwConfidence": 0,
       "index": 1523,
       "title": "Magasins U",
-      "oldindex": 1522
+      "oldindex": 1523
     },
     {
       "Name": "Arrestation de Hexdex par la section J3 du parquet de Paris",
@@ -464,7 +464,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Arrestation de Hexdex par la section J3 du parquet de Paris",
-      "oldindex": 1523,
+      "oldindex": 1524,
       "title": "Arrestation de Hexdex par la section J3 du parquet de Paris"
     },
     {
@@ -499,7 +499,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Bienvenue sur le nouveau système d'actualités",
-      "oldindex": 1524,
+      "oldindex": 1525,
       "title": "Bienvenue sur le nouveau système d'actualités"
     },
     {
@@ -535,7 +535,7 @@
       "nsfwConfidence": 0,
       "index": 1526,
       "title": "Ledil Immobilier",
-      "oldindex": 1525
+      "oldindex": 1526
     },
     {
       "Name": "ANTS (France titres)",
@@ -638,7 +638,17 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1522
+      "index": 1522,
+      "isBlocked": false,
+      "blockedNote": null,
+      "source": "Manuel",
+      "categories": [],
+      "content": "In April 2026, the hacking collective ShinyHunters claimed to have obtained data from Pitney Bowes as part of a broader extortion campaign that also named several other organisations. After negotiations allegedly failed, the group publicly released the data which included 8.2M unique email addresses, along with names, phone numbers and physical addresses. A subset of the data also included Pitney Bowes employee records with job titles.",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "lien": "https://haveibeenpwned.com/Breach/PitneyBowes",
+      "oldindex": 1522,
+      "title": "Pitney Bowes"
     },
     {
       "Name": "Comptoir du Rêve",
