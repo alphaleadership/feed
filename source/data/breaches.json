@@ -1,7 +1,34 @@
 {
-  "lastUpdated": "2026-04-28T11:18:21.726Z",
-  "totalBreaches": 1503,
+  "lastUpdated": "2026-04-28T11:35:43.423Z",
+  "totalBreaches": 1504,
   "breaches": [
+    {
+      "Name": "MyPiscine",
+      "Title": "MyPiscine",
+      "Domain": "mypiscine.com",
+      "BreachDate": "2026-04-28",
+      "PwnCount": 0,
+      "Description": "Le site informe ses clients par email, d'une compromission de donnée.\n\nStatut: Confirmée\nType de service: E-commerce",
+      "DataClasses": [
+        "Noms complets",
+        "Adresses email",
+        "Adresses postales",
+        "Historiques de commandes",
+        "Mots de passe (hachés)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://s3-eu-west-1.amazonaws.com/tpd/logos/4bbe8fc20000640005055064/0x0.png",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/04/mypiscine-leak-fuite-de-donnees-scaled.png",
+      "AddedDate": "2026-04-28T11:35:36.125Z",
+      "ModifiedDate": "2026-04-28T11:35:36.125Z",
+      "slug": "mypiscine",
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/mypiscine-leak-fuite-de-donnees-scaled.png"
+    },
     {
       "Name": "Bordeaux Métropole",
       "Title": "Bordeaux Métropole",
