@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-28T11:35:43.423Z",
-  "totalBreaches": 1504,
+  "lastUpdated": "2026-04-28T13:14:19.495Z",
+  "totalBreaches": 1505,
   "breaches": [
     {
       "Name": "MyPiscine",
@@ -27,7 +27,43 @@
       "AddedDate": "2026-04-28T11:35:36.125Z",
       "ModifiedDate": "2026-04-28T11:35:36.125Z",
       "slug": "mypiscine",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/mypiscine-leak-fuite-de-donnees-scaled.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/mypiscine-leak-fuite-de-donnees-scaled.png",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Le site informe ses clients par email, d'une compromission de donnée.\n\nStatut: Confirmée\nType de service: E-commerce",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1538,
+      "title": "MyPiscine"
+    },
+    {
+      "Name": "Nemea",
+      "Title": "Nemea",
+      "Domain": "nemea-groupe.com",
+      "BreachDate": "2026-04-28",
+      "PwnCount": 12590,
+      "Description": "Le groupe Nemea est un opérateur français majeur spécialisé dans la gestion de résidences (tourisme, étudiantes, affaires). Une compromission a entraîné la fuite de l'export d'un de leurs outils de gestion locative. Bien que l'acteur malveillant revendique 330 000 enregistrements (baux, quittances, relances cumulées), cet incident concerne avec précision 12 590 personnes physiques et morales uniques. Les victimes sont des locataires du groupe Nemea, des propriétaires bailleurs, ainsi que des garants (cautions solidaires). L'impact est critique en raison de l'exposition de mots de passe non chiffrés et du vol de 1 000 documents d'identité numérisés, exposant ces personnes à des risques majeurs d'usurpation d'identité et de fraude ciblée.\n\nStatut: Revendiquée\nType de service: Gestion de résidences immobilières",
+      "DataClasses": [
+        "Identité Civile (Nom, prénom, date et lieu de naissance, adresse postale)",
+        "Coordonnées (Adresses e-mail, numéros de téléphone)",
+        "Authentification (Mots de passe en texte clair)",
+        "Données Locatives (Adresse du bien, montant du loyer, quittances)",
+        "Données Financières (Références de mandats SEPA, informations de masquage IBAN)",
+        "Documents Scannés (Pièces d'identité, passeports, justificatifs de revenus et de domicile)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://i.ytimg.com/vi/EYrKj7w8B00/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBdMb5GDFu9NFVwKfoYocJvwXeE6g",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Nemea-leak-fuites-de-donnees.png",
+      "AddedDate": "2026-04-28T13:14:12.277Z",
+      "ModifiedDate": "2026-04-28T13:14:12.277Z",
+      "slug": "nemea",
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Nemea-leak-fuites-de-donnees.png"
     },
     {
       "Name": "Bordeaux Métropole",
