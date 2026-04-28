@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T13:14:19.495Z",
+  "lastUpdated": "2026-04-28T14:15:55.388Z",
   "totalBreaches": 1505,
   "breaches": [
     {
@@ -35,7 +35,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1538,
-      "title": "MyPiscine"
+      "title": "MyPiscine",
+      "oldindex": 1538
     },
     {
       "Name": "Nemea",
@@ -63,7 +64,16 @@
       "AddedDate": "2026-04-28T13:14:12.277Z",
       "ModifiedDate": "2026-04-28T13:14:12.277Z",
       "slug": "nemea",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Nemea-leak-fuites-de-donnees.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Nemea-leak-fuites-de-donnees.png",
+      "Attribution": "malveillant",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Le groupe Nemea est un opérateur français majeur spécialisé dans la gestion de résidences (tourisme, étudiantes, affaires). Une compromission a entraîné la fuite de l'export d'un de leurs outils de gestion locative. Bien que l'acteur malveillant revendique 330 000 enregistrements (baux, quittances, relances cumulées), cet incident concerne avec précision 12 590 personnes physiques et morales uniques. Les victimes sont des locataires du groupe Nemea, des propriétaires bailleurs, ainsi que des garants (cautions solidaires). L'impact est critique en raison de l'exposition de mots de passe non chiffrés et du vol de 1 000 documents d'identité numérisés, exposant ces personnes à des risques majeurs d'usurpation d'identité et de fraude ciblée.\n\nStatut: Revendiquée\nType de service: Gestion de résidences immobilières",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1539,
+      "title": "Nemea"
     },
     {
       "Name": "Bordeaux Métropole",
