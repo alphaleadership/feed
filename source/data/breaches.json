@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T14:15:55.388Z",
+  "lastUpdated": "2026-04-28T15:40:03.202Z",
   "totalBreaches": 1505,
   "breaches": [
     {
@@ -73,7 +73,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1539,
-      "title": "Nemea"
+      "title": "Nemea",
+      "oldindex": 1539
     },
     {
       "Name": "Bordeaux Métropole",
