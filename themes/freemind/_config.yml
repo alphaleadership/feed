@@ -87,7 +87,7 @@ baidu_tongji:
 
 # share widgets
 bdshare: false
-jiathis: false
+jiathis: true
 
 # built-in comment system
 #comment_js:
