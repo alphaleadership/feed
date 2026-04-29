@@ -1,7 +1,33 @@
 {
-  "lastUpdated": "2026-04-29T09:34:24.061Z",
-  "totalBreaches": 1505,
+  "lastUpdated": "2026-04-29T11:20:23.977Z",
+  "totalBreaches": 1506,
   "breaches": [
+    {
+      "Name": "Areli",
+      "Title": "Areli",
+      "Domain": "areli.fr",
+      "BreachDate": "2026-04-29",
+      "PwnCount": 0,
+      "Description": "Areli, une association spécialisée dans le logement social, a notifié ses partenaires par courrier le 8 avril 2026 avoir été victime d'une cyberattaque le 12 janvier 2026. Moins de 2% des données stockées sur ses serveurs ont été affectées.\n\nStatut: Confirmée\nType de service: Association / Logement social",
+      "DataClasses": [
+        "Nom et prénom (contact professionnel)",
+        "Email (contact professionnel)",
+        "Numéro de téléphone (contact professionnel)",
+        "RIB (partenaires/fournisseurs)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://media.licdn.com/dms/image/v2/D560BAQHHICIcNA0c3A/company-logo_200_200/company-logo_200_200/0/1714550369943/adomabd_logo?e=2147483647&v=beta&t=qyK0bYzbec-6w-FAbth_DTbqXeyGwCWwrU1wOzGtGA8",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Areli-leak-fuite-de-donnees.jpeg",
+      "AddedDate": "2026-04-29T11:20:16.926Z",
+      "ModifiedDate": "2026-04-29T11:20:16.926Z",
+      "slug": "areli",
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Areli-leak-fuite-de-donnees.jpeg"
+    },
     {
       "Name": "MyPiscine",
       "Title": "MyPiscine",
