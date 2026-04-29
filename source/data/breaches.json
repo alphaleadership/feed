@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T20:12:03.361Z",
+  "lastUpdated": "2026-04-29T21:20:04.549Z",
   "totalBreaches": 1508,
   "breaches": [
     {
@@ -61,7 +61,15 @@
       "AddedDate": "2026-04-29T20:11:56.119Z",
       "ModifiedDate": "2026-04-29T20:11:56.119Z",
       "slug": "campus-france",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/campus-org-leak-fuite-de-donnees-scaled.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/campus-org-leak-fuite-de-donnees-scaled.png",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "16 006 dossiers d'étudiants (pour 18 637 candidatures) de la plateforme CampusArt de Campus France, couvrant la période de 2014 à 2026, ont été publiés par un cybercriminel sur le forum de hacking PwnForums.\n\nStatut: Confirmée\nType de service: Plateforme de candidatures étudiantes",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1541,
+      "title": "Campus France"
     },
     {
       "Name": "Saint-Étienne Métropole",
@@ -85,7 +93,15 @@
       "AddedDate": "2026-04-29T20:11:56.129Z",
       "ModifiedDate": "2026-04-29T20:11:56.129Z",
       "slug": "saint-tienne-mtropole",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/metropole-saint-etienne-leak-fuite-de-donnees.webp"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/metropole-saint-etienne-leak-fuite-de-donnees.webp",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Par email, la ville et la métropole de Saint-Étienne informent qu'un incident de sécurité a impacté l'un de leurs prestataires de billetterie en ligne. En conséquence, les mots de passe des comptes utilisateurs ont été préventivement désactivés et les usagers sont invités à les réinitialiser.\n\nStatut: Confirmée\nType de service: Collectivité territoriale",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1542,
+      "title": "Saint-Étienne Métropole"
     },
     {
       "Name": "MyPiscine",
