@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T21:20:04.549Z",
+  "lastUpdated": "2026-04-29T22:32:03.768Z",
   "totalBreaches": 1508,
   "breaches": [
     {
@@ -69,7 +69,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1541,
-      "title": "Campus France"
+      "title": "Campus France",
+      "oldindex": 1541
     },
     {
       "Name": "Saint-Étienne Métropole",
@@ -101,7 +102,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1542,
-      "title": "Saint-Étienne Métropole"
+      "title": "Saint-Étienne Métropole",
+      "oldindex": 1542
     },
     {
       "Name": "MyPiscine",
