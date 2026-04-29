@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-29T18:48:49.407Z",
-  "totalBreaches": 1506,
+  "lastUpdated": "2026-04-29T20:12:03.361Z",
+  "totalBreaches": 1508,
   "breaches": [
     {
       "Name": "Areli",
@@ -36,6 +36,56 @@
       "index": 1540,
       "title": "Areli",
       "oldindex": 1540
+    },
+    {
+      "Name": "Campus France",
+      "Title": "Campus France",
+      "Domain": "campusfrance.org",
+      "BreachDate": "2026-04-29",
+      "PwnCount": 16006,
+      "Description": "16 006 dossiers d'étudiants (pour 18 637 candidatures) de la plateforme CampusArt de Campus France, couvrant la période de 2014 à 2026, ont été publiés par un cybercriminel sur le forum de hacking PwnForums.\n\nStatut: Confirmée\nType de service: Plateforme de candidatures étudiantes",
+      "DataClasses": [
+        "Données personnelles (Noms, prénoms, adresses e-mail, numéros de téléphone, pays de naissance et de résidence)",
+        "Dossier académique (Écoles et formations visées, niveau d'études, état d'acceptation)",
+        "Informations administratives (Mode de financement, niveau de français, statut des pièces justificatives, commentaires des évaluateurs)",
+        "Données de tiers (Noms et contacts pour lettres de recommandation)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://www.turquie.campusfrance.org/modules/custom/campus_common/img/logo-campus-france.png",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/04/campus-org-leak-fuite-de-donnees-scaled.png",
+      "AddedDate": "2026-04-29T20:11:56.119Z",
+      "ModifiedDate": "2026-04-29T20:11:56.119Z",
+      "slug": "campus-france",
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/campus-org-leak-fuite-de-donnees-scaled.png"
+    },
+    {
+      "Name": "Saint-Étienne Métropole",
+      "Title": "Saint-Étienne Métropole",
+      "Domain": "saint-etienne-metropole.fr",
+      "BreachDate": "2026-04-29",
+      "PwnCount": 0,
+      "Description": "Par email, la ville et la métropole de Saint-Étienne informent qu'un incident de sécurité a impacté l'un de leurs prestataires de billetterie en ligne. En conséquence, les mots de passe des comptes utilisateurs ont été préventivement désactivés et les usagers sont invités à les réinitialiser.\n\nStatut: Confirmée\nType de service: Collectivité territoriale",
+      "DataClasses": [
+        "Comptes utilisateurs",
+        "Mots de passe"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://www.immatriculation-autocollant.fr/37002-large_default/saint-etienne-42-ville-stickers-blason-autocollant-adhesif.jpg",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/04/metropole-saint-etienne-leak-fuite-de-donnees.webp",
+      "AddedDate": "2026-04-29T20:11:56.129Z",
+      "ModifiedDate": "2026-04-29T20:11:56.129Z",
+      "slug": "saint-tienne-mtropole",
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/metropole-saint-etienne-leak-fuite-de-donnees.webp"
     },
     {
       "Name": "MyPiscine",
