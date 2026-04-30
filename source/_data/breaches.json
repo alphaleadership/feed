@@ -1,7 +1,58 @@
 {
-  "lastUpdated": "2026-04-30T09:58:04.938Z",
-  "totalBreaches": 1509,
+  "lastUpdated": "2026-04-30T11:39:42.731Z",
+  "totalBreaches": 1510,
   "breaches": [
+    {
+      "Name": "Ankama",
+      "Title": "Ankama",
+      "Domain": "ankama.com",
+      "BreachDate": "2026-04-30",
+      "PwnCount": 0,
+      "Description": "Fin avril 2026, l'éditeur de jeux vidéo Ankama a notifié par e-mail ses utilisateurs avoir été victime d'une cyberattaque résultant en un accès non autorisé à une partie des données des comptes.\n\nStatut: Confirmée\nType de service: Éditeur de jeux vidéo",
+      "DataClasses": [
+        "État civil (nom, prénom)",
+        "Coordonnées (adresse e-mail, ville, adresse IP)",
+        "Données de commande (historique d'achat)",
+        "Données financières (6 premiers et 4 derniers chiffres de la carte bancaire)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://upload.wikimedia.org/wikipedia/fr/thumb/9/96/Ankama_Games_Logo_3.png/330px-Ankama_Games_Logo_3.png",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/04/ankama-leak-fuites-de-donnees.jpg",
+      "AddedDate": "2026-04-30T11:39:35.364Z",
+      "ModifiedDate": "2026-04-30T11:39:35.364Z",
+      "slug": "ankama",
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/ankama-leak-fuites-de-donnees.jpg"
+    },
+    {
+      "Name": "Deltadore",
+      "Title": "Deltadore",
+      "Domain": "formation-pro.deltadore.fr",
+      "BreachDate": "2026-04-30",
+      "PwnCount": 374,
+      "Description": "Le 29 avril 2026, l'entreprise Deltadore, spécialisée dans les solutions de maison connectée (gestion d'énergie, sécurité), a notifié par e-mail au moins 374 clients de son site de formation (formation-pro.deltadore.fr) d'une violation de données. Une vulnérabilité Magento a été exploitée. Le mail de notification aux utilisateurs a été envoyé à tous les concernés avec leur adresse en copie.\n\nStatut: Confirmée\nType de service: Formation professionnelle en ligne",
+      "DataClasses": [
+        "Identité (Nom, Prénom)",
+        "Contact (Adresse e-mail, Numéro de téléphone, Adresse postale)",
+        "Financier (Numéro de carte bancaire, Date d'expiration)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Logo_DeltaDore_RVB.jpg",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Deltadore-leak-fuites-de-donnees.jpg",
+      "AddedDate": "2026-04-30T11:39:35.368Z",
+      "ModifiedDate": "2026-04-30T11:39:35.368Z",
+      "slug": "deltadore",
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Deltadore-leak-fuites-de-donnees.jpg"
+    },
     {
       "Name": "Areli",
       "Title": "Areli",
@@ -3122,33 +3173,6 @@
       "title": "Sound Radix",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE"
-    },
-    {
-      "Name": "Ministère de l'Intérieur (E-campus)",
-      "Title": "Ministère de l'Intérieur (E-campus)",
-      "Domain": "e-campus.interieur.gouv.fr",
-      "BreachDate": "2026-03-25",
-      "PwnCount": 176317,
-      "Description": "Une base de données contenant les informations de 176 317 agents du gouvernement français (fonctionnaires, policiers, personnel administratif) a été publiée par l'acteur de la menace HexDex le 25 mars 2026.\n\nStatut: Confirmée\nType de service: Plateforme de formation en ligne",
-      "DataClasses": [
-        "Identité (Nom, Prénom)",
-        "Email professionnel",
-        "Localisation (Ville, Pays)",
-        "Historique de formation (Cours suivis, Badges obtenus)",
-        "Activité sur la plateforme (Première et dernière connexion)"
-      ],
-      "IsSensitive": false,
-      "IsVerified": true,
-      "IsFabricated": false,
-      "IsSpam": false,
-      "IsRetired": false,
-      "IsNative": true,
-      "LogoPath": "https://upload.wikimedia.org/wikipedia/fr/thumb/0/02/Logo_du_Minist%C3%A8re_de_l%27Int%C3%A9rieur_%282020%29.svg/3840px-Logo_du_Minist%C3%A8re_de_l%27Int%C3%A9rieur_%282020%29.svg.png",
-      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/04/ecampus-police-leak-fuite-de-donnees-scaled.png",
-      "AddedDate": "2026-04-30T09:57:57.488Z",
-      "ModifiedDate": "2026-04-30T09:57:57.488Z",
-      "slug": "ministre-de-lintrieur-e-campus",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/ecampus-police-leak-fuite-de-donnees-scaled.png"
     },
     {
       "Name": "CROUS",
