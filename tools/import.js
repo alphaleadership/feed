@@ -58,10 +58,10 @@ class breach {
   async function runImport() {
     // ... (commentaires inchangés)
     const storage=[]
-    if(fs.existsSync(path.join(baseDir, 'source', '_import'))){
+    if(fs.existsSync(path.join(baseDir,  '_posts'))){
       const dbInstance = await getBreachesDB();
       const db = dbInstance.data;
-      const importDir = path.join(baseDir, 'source', '_import');
+      const importDir = path.join(baseDir, '_posts');
       
       console.log("Démarrage du script d'importation autonome...");
 
