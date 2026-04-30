@@ -13,7 +13,7 @@ const BLACKLIST = new Set([
   'dehashed', 'breaches.net', 'unknown', 'null', 'tbd', 'none', 'n/a', 
   'under investigation', 'hacker', 'admin', 'anonymous', 'various',
   'leak', 'leaked', 'database', 'private', 'verified', 'unverified',
-  'threat actor', 'hacker group', 'hibp', 'pwned', 'security','International Cyber Digest'
+  'threat actor', 'hacker group', 'hibp', 'pwned', 'security','International Cyber Digest','malveillant '
 ]);
 
 /**
