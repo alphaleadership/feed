@@ -6,7 +6,7 @@ const parser = new Parser();
 const axios = require('axios');
 const { getBreachesDB } = require('./scripts/db');
 const rssUrl = 'https://thomas-iniguez-visioli.github.io/nodejs-news-feeder/feed.xml';
-const PostDir = './source/';
+const PostDir = './';
 
 async function updateHIBPBreaches() {
   try {
