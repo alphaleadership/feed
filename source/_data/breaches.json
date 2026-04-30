@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T11:52:57.906Z",
+  "lastUpdated": "2026-04-30T12:02:06.083Z",
   "totalBreaches": 1510,
   "breaches": [
     {
@@ -34,7 +34,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1543,
-      "title": "Ankama"
+      "title": "Ankama",
+      "oldindex": 1543
     },
     {
       "Name": "Deltadore",
@@ -67,7 +68,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1544,
-      "title": "Deltadore"
+      "title": "Deltadore",
+      "oldindex": 1544
     },
     {
       "Name": "Areli",
