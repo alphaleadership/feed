@@ -70,8 +70,9 @@ function updateThreatActors() {
     
     breachesData.breaches.forEach(breach => {
       if (breach.Attribution && typeof breach.Attribution === 'string') {
-        // Gérer les attributions multiples (virgules, &, and)
-        const parts = breach.Attribution.split(/, | & | and /i);
+        // Gérer les attributions multiples (virgules, &, and, or, slashes)
+        // On split par virgule, ampersand, " and ", " or ", ou slash
+        const parts = breach.Attribution.split(/[,&/]| and | or /i);
         
         parts.forEach(part => {
           const normalized = normalizeActorName(part);
@@ -101,27 +102,36 @@ function updateThreatActors() {
       actorsDict[actor.name.toLowerCase()] = actor;
     });
 
-    // 3. Ajouter les nouveaux acteurs trouvés
+    // 3. Synchroniser la liste (Ajouter les nouveaux, supprimer les disparus)
+    const finalActorsList = [];
     let addedCount = 0;
+    const initialCount = actorsList.length;
+
     actorsInBreaches.forEach(actorName => {
       const lowerName = actorName.toLowerCase();
-      if (!actorsDict[lowerName]) {
+      if (actorsDict[lowerName]) {
+        // L'acteur existe déjà dans threat_actors.json, on le garde tel quel
+        // (Cela permet de préserver ses métadonnées : status, notes personnalisées, etc.)
+        finalActorsList.push(actorsDict[lowerName]);
+      } else {
+        // Nouvel acteur trouvé dans breaches.json
         const newActor = {
           name: actorName,
           status: "Actif",
           note: "Identifié comme auteur de fuites de données dans la base."
         };
-        actorsList.push(newActor);
-        actorsDict[lowerName] = newActor;
+        finalActorsList.push(newActor);
         addedCount++;
       }
     });
 
+    const removedCount = initialCount - (finalActorsList.length - addedCount);
+
     // 4. Trier par nom pour la lisibilité
-    actorsList.sort((a, b) => a.name.localeCompare(b.name));
+    finalActorsList.sort((a, b) => a.name.localeCompare(b.name));
 
     // 5. Sauvegarder dans les deux emplacements
-    const finalData = { actors: actorsList };
+    const finalData = { actors: finalActorsList };
     const jsonString = JSON.stringify(finalData, null, 2);
 
     // S'assurer que les répertoires existent
@@ -137,7 +147,8 @@ function updateThreatActors() {
 
     console.log(`[OK] Mise à jour terminée.`);
     console.log(`[+] ${addedCount} nouveaux acteurs ajoutés.`);
-    console.log(`[*] Total : ${actorsList.length} acteurs enregistrés.`);
+    console.log(`[-] ${removedCount} anciens acteurs supprimés (plus présents dans les fuites).`);
+    console.log(`[*] Total : ${finalActorsList.length} acteurs enregistrés.`);
 
   } catch (error) {
     console.error(`Erreur lors de la mise à jour : ${error.message}`);
