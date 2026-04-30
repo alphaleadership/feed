@@ -47,6 +47,7 @@ const sortedNames = [...new Set(breaches.map(b => b.Name))].sort((a, b) => a.len
 
 // Pour éviter trop de faux positifs, on limite la recherche.
 // On cherche si un nom plus long contient un nom plus court (ex: "Facebook" et "Facebook 2019")
+const similarities = [];
 for (let i = 0; i < sortedNames.length; i++) {
     const shortName = sortedNames[i];
     if (shortName.length < 5) continue; // Ignorer les mots très courts
@@ -54,17 +55,11 @@ for (let i = 0; i < sortedNames.length; i++) {
     for (let j = i + 1; j < sortedNames.length; j++) {
         const longName = sortedNames[j];
         if (longName.toLowerCase().includes(shortName.toLowerCase())) {
-            // Afficher seulement un échantillon pour ne pas inonder le terminal
-            if (similarityCount < 20) {
-                console.log(`  - Similitude possible: '${shortName}' est dans '${longName}'`);
-            }
-            similarityCount++;
+            similarities.push(`'${shortName}' est dans '${longName}'`);
         }
     }
 }
-if (similarityCount > 20) {
-    console.log(`  ... et ${similarityCount - 20} autres similitudes trouvées (non affichées).`);
-}
-if (similarityCount === 0) {
-    console.log('Aucune similitude évidente trouvée.');
-}
+
+similarities.sort();
+console.log(`\n[?] ${similarities.length} similitudes trouvées (triées) :`);
+similarities.forEach(s => console.log(`  - Similitude possible: ${s}`));
