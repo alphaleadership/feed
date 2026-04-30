@@ -14,7 +14,10 @@ const fetchjson = async (url) => {
 }
 
 // Définir les chemins manuellement car nous sommes hors du contexte de Hexo
+const PostDir = './';
+const destinationDir = "_posts/fuites";
 const baseDir = process.cwd();
+
 const getfile = (f) => {
   let content = fs.readFileSync(f).toString()
   if (content.startsWith("---")) {
@@ -58,17 +61,34 @@ class breach {
   async function runImport() {
     // ... (commentaires inchangés)
     const storage=[]
-    if(fs.existsSync(path.join(baseDir,  '_posts'))){
+    const importDir = path.join(PostDir, destinationDir);
+    
+    if(fs.existsSync(importDir)){
       const dbInstance = await getBreachesDB();
       const db = dbInstance.data;
-      const importDir = path.join(baseDir, '_posts');
       
       console.log("Démarrage du script d'importation autonome...");
 
-      const filesToImport = fs.readdirSync(importDir).filter(file => file.endsWith('.md'));
+      // Fonction pour récupérer récursivement les fichiers .md
+      const getFilesRecursively = (dir) => {
+        let results = [];
+        const list = fs.readdirSync(dir);
+        list.forEach(file => {
+          const filePath = path.join(dir, file);
+          const stat = fs.statSync(filePath);
+          if (stat && stat.isDirectory()) {
+            results = results.concat(getFilesRecursively(filePath));
+          } else if (file.endsWith('.md')) {
+            results.push(filePath);
+          }
+        });
+        return results;
+      };
+
+      const filesToImport = getFilesRecursively(importDir);
 
       if (filesToImport.length === 0) {
-        console.log("Aucun fichier .md à importer dans 'source/_import'.");
+        console.log(`Aucun fichier .md à importer dans '${importDir}'.`);
         return;
       }
 
@@ -111,8 +131,8 @@ class breach {
       const newBreaches = [...storage];
       let skippedCount = 0;
 
-      filesToImport.forEach(filename => {
-        const filePath = path.join(importDir, filename);
+      filesToImport.forEach(filePath => {
+        const filename = path.basename(filePath);
         const fileContent = getfile(filePath, 'utf-8');
 
         try {
@@ -124,6 +144,7 @@ class breach {
             console.error(`Erreur lors de l'analyse du front-matter dans le fichier '${filename}':`, error.message);
             skippedCount++;
             fs.unlinkSync(filePath);
+            return;
           }
 
 
@@ -131,14 +152,14 @@ class breach {
           const newBreach = Object.assign({}, defaultBreachSchema, breachDataFromMatter);
 
           if (!newBreach.title) {
-            console.warn(`Fichier '${filename}' ignoré: le champ 'Name' est manquant.`);
+            console.warn(`Fichier '${filename}' ignoré: le champ 'title' est manquant dans le front-matter.`);
             skippedCount++;
             fs.unlinkSync(filePath);
             return;
           }
 
           if (existingNames.has(newBreach.title)) {
-            console.warn(`Fuite '${newBreach.Name}' (depuis ${filename}) existe déjà. Ignorée.`);
+            console.warn(`Fuite '${newBreach.title}' (depuis ${filename}) existe déjà. Ignorée.`);
             skippedCount++;
             fs.unlinkSync(filePath);
             return;
@@ -151,7 +172,7 @@ class breach {
           newBreach.Name = breachDataFromMatter.title
           newBreach.Title = breachDataFromMatter.title
           newBreach.BreachDate = breachDataFromMatter.date
-          newBreach.Description = fileContent.split("--")[2]
+          newBreach.Description = fileContent.split("---")[2]?.trim() || "pas d'information actuellement";
           const slug = newBreach.Name.toLowerCase().replace(/[^a-z0-9-]/g, '-').replace(/--+/g, '-');
           newBreach.slug = slug;
           newBreach.path = breachDataFromMatter.lien;
@@ -219,20 +240,34 @@ class breach {
       console.log(` ${newBreaches.length} nouvelle(s) fuite(s) importée(s).`);
       console.log(` ${skippedCount} fichier(s) ignoré(s) (doublon ou erreur).`);
       console.log('-----------------------------');
-      fs.rmdirSync(importDir)
+      
+      // Supprimer récursivement le dossier d'importation s'il est vide ou si on veut tout nettoyer
+      try {
+        if (fs.existsSync(importDir)) {
+          fs.rmSync(importDir, { recursive: true, force: true });
+        }
+      } catch (rmErr) {
+        console.warn(`Avertissement : impossible de supprimer le dossier '${importDir}':`, rmErr.message);
+      }
     }
    
   }
 
 // Lancer la fonction
-if(fs.existsSync(path.join(baseDir, 'source', '_posts'))){
-  if (fs.readdirSync(path.join(baseDir, 'source', '_posts')).filter((file) => { return fs.statSync(path.join(baseDir, 'source', '_posts', file)).isDirectory() }).length != 0) {
+const checkDir = path.join(PostDir, destinationDir);
+if(fs.existsSync(checkDir)){
+  const subDirs = fs.readdirSync(checkDir).filter((file) => { 
+    return fs.statSync(path.join(checkDir, file)).isDirectory() 
+  });
+  
+  if (subDirs.length !== 0) {
     runImport().catch(err => {
       console.error('Erreur fatale lors de l\'import script:', err);
       process.exit(1);
     });
   }
 }
+
 
 
 
