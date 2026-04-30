@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T11:39:42.731Z",
+  "lastUpdated": "2026-04-30T11:52:57.906Z",
   "totalBreaches": 1510,
   "breaches": [
     {
@@ -26,7 +26,15 @@
       "AddedDate": "2026-04-30T11:39:35.364Z",
       "ModifiedDate": "2026-04-30T11:39:35.364Z",
       "slug": "ankama",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/ankama-leak-fuites-de-donnees.jpg"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/ankama-leak-fuites-de-donnees.jpg",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Fin avril 2026, l'éditeur de jeux vidéo Ankama a notifié par e-mail ses utilisateurs avoir été victime d'une cyberattaque résultant en un accès non autorisé à une partie des données des comptes.\n\nStatut: Confirmée\nType de service: Éditeur de jeux vidéo",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1543,
+      "title": "Ankama"
     },
     {
       "Name": "Deltadore",
@@ -51,7 +59,15 @@
       "AddedDate": "2026-04-30T11:39:35.368Z",
       "ModifiedDate": "2026-04-30T11:39:35.368Z",
       "slug": "deltadore",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Deltadore-leak-fuites-de-donnees.jpg"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/04/Deltadore-leak-fuites-de-donnees.jpg",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Le 29 avril 2026, l'entreprise Deltadore, spécialisée dans les solutions de maison connectée (gestion d'énergie, sécurité), a notifié par e-mail au moins 374 clients de son site de formation (formation-pro.deltadore.fr) d'une violation de données. Une vulnérabilité Magento a été exploitée. Le mail de notification aux utilisateurs a été envoyé à tous les concernés avec leur adresse en copie.\n\nStatut: Confirmée\nType de service: Formation professionnelle en ligne",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1544,
+      "title": "Deltadore"
     },
     {
       "Name": "Areli",
