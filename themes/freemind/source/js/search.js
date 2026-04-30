@@ -20,6 +20,17 @@
 
 var searchFunc = function(path, search_id, content_id) {
     'use strict';
+    var escapeHtml = function(str) {
+        return String(str)
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;")
+            .replace(/'/g, "&#39;");
+    };
+    var escapeRegExp = function(str) {
+        return String(str).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    };
     $.ajax({
         url: path,
         dataType: "xml",
@@ -52,8 +63,8 @@ var searchFunc = function(path, search_id, content_id) {
                             data.title = "Untitled";
                         }
                         var data_title = data.title.trim().toLowerCase();
-                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
-                        var data_url = data.url;
+                        var data_content = escapeHtml(data.content.trim()).toLowerCase();
+                        var data_url = escapeHtml(data.url);
                         var index_title = -1;
                         var index_content = -1;
                         var first_occur = -1;
@@ -80,8 +91,8 @@ var searchFunc = function(path, search_id, content_id) {
                         }
                         // show search results
                         if (isMatch) {
-                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
-                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + escapeHtml(data.title.trim()) + "</a>";
+                            var content = escapeHtml(data.content.trim());
                             if (first_occur >= 0) {
                                 // cut out 100 characters
                                 var start = first_occur - 20;
@@ -103,8 +114,9 @@ var searchFunc = function(path, search_id, content_id) {
 
                                 // highlight all keywords
                                 keywords.forEach(function (keyword) {
-                                    var regS = new RegExp(keyword, "gi");
-                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                    var safeKeyword = escapeRegExp(keyword);
+                                    var regS = new RegExp(safeKeyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + escapeHtml(keyword) + "</em>");
                                 });
 
                                 str += "<p class=\"search-result\">" + match_content + "...</p>"
