@@ -3,7 +3,16 @@
   <p style="color: #94a3b8; font-size: 1.1em; margin-bottom: 10px;">
     Explorez visuellement les liens entre les différentes fuites, les types de données compromises, les catégories d'entreprises et les groupes de pirates.
   </p>
-  <div style="display: flex; gap: 15px; margin-top: 15px; flex-wrap: wrap;">
+  
+  <div style="display: flex; gap: 15px; align-items: center; margin-bottom: 20px; flex-wrap: wrap; background: rgba(15, 23, 42, 0.5); padding: 15px; border-radius: 6px;">
+    <label for="category-filter" style="color: #00ff41; margin-bottom: 0; font-weight: bold;"><i class="fa fa-filter me-2"></i>Filtrer par catégorie :</label>
+    <select id="category-filter" style="background: #0f172a; color: #fff; border: 1px solid #00ff41; padding: 5px 10px; border-radius: 4px; min-width: 200px;">
+      <option value="all">Toutes les catégories</option>
+    </select>
+    <div id="node-count" style="color: #94a3b8; font-size: 0.9em; margin-left: auto;">Chargement...</div>
+  </div>
+
+  <div style="display: flex; gap: 15px; flex-wrap: wrap;">
      <span class="badge" style="background-color: #ef4444; color: white; padding: 8px 12px; font-size: 0.9em;"><i class="fa fa-database me-1"></i> Fuite de données</span>
      <span class="badge" style="background-color: #3b82f6; color: white; padding: 8px 12px; font-size: 0.9em;"><i class="fa fa-tags me-1"></i> Type de donnée</span>
      <span class="badge" style="background-color: #10b981; color: white; padding: 8px 12px; font-size: 0.9em;"><i class="fa fa-folder-open me-1"></i> Secteur / Catégorie</span>
@@ -41,52 +50,103 @@
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const elem = document.getElementById('3d-graph');
+    const filterSelect = document.getElementById('category-filter');
+    const countDisplay = document.getElementById('node-count');
     if (!elem) return;
+
+    let fullData = { nodes: [], links: [] };
+    let Graph = null;
+
+    function initGraph(data) {
+      Graph = ForceGraph3D()(elem)
+        .graphData(data)
+        .nodeLabel(node => `<div class="graph-tooltip"><strong>${node.name || 'Inconnu'}</strong><br><small>${node.type || 'Non défini'}</small></div>`)
+        .nodeColor(node => {
+          if (node.group === 1) return '#ef4444'; // Fuites (Rouge)
+          if (node.group === 2) return '#3b82f6'; // DataClasses (Bleu)
+          if (node.group === 3) return '#10b981'; // Categories (Vert)
+          if (node.group === 4) return '#f59e0b'; // Acteurs (Orange)
+          return '#64748b'; // Defaut
+        })
+        .nodeVal('val')
+        .linkColor(() => 'rgba(255, 255, 255, 0.15)')
+        .linkWidth(0.5)
+        .backgroundColor('#0f172a')
+        .onNodeClick(node => {
+          if (node.url) {
+            window.location.href = node.url;
+          } else {
+            const distance = 40;
+            const distRatio = 1 + distance/Math.hypot(node.x, node.y, node.z);
+            Graph.cameraPosition(
+              { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio },
+              node, 
+              3000
+            );
+          }
+        })
+        .onNodeHover(node => {
+           elem.style.cursor = node && node.url ? 'pointer' : node ? 'crosshair' : 'grab';
+        });
+
+      // Rotation douce
+      let angle = 0;
+      setInterval(() => {
+        if (!Graph) return;
+        const pos = Graph.cameraPosition();
+        const dist = Math.hypot(pos.x, pos.y, pos.z);
+        Graph.cameraPosition({
+          x: dist * Math.sin(angle),
+          z: dist * Math.cos(angle)
+        });
+        angle += Math.PI / 10000;
+      }, 10);
+    }
+
+    function updateFilter(category) {
+      if (category === 'all') {
+        Graph.graphData(fullData);
+        countDisplay.textContent = `${fullData.nodes.length} nœuds affichés`;
+        return;
+      }
+
+      const filteredNodes = fullData.nodes.filter(node => 
+        node.cats && node.cats.includes(category)
+      );
+      
+      const nodeIds = new Set(filteredNodes.map(n => n.id));
+      const filteredLinks = fullData.links.filter(link => 
+        nodeIds.has(link.source.id || link.source) && nodeIds.has(link.target.id || link.target)
+      );
+
+      Graph.graphData({ nodes: filteredNodes, links: filteredLinks });
+      countDisplay.textContent = `${filteredNodes.length} nœuds affichés`;
+    }
 
     fetch('/graph/data.json')
       .then(res => res.json())
       .then(data => {
-        const Graph = ForceGraph3D()(elem)
-          .graphData(data)
-          .nodeLabel(node => `<div class="graph-tooltip"><strong>${node.name || 'Inconnu'}</strong><br><small>${node.type || 'Non défini'}</small></div>`)
-          .nodeColor(node => {
-            if (node.group === 1) return '#ef4444'; // Fuites (Rouge)
-            if (node.group === 2) return '#3b82f6'; // DataClasses (Bleu)
-            if (node.group === 3) return '#10b981'; // Categories (Vert)
-            if (node.group === 4) return '#f59e0b'; // Acteurs (Orange)
-            return '#64748b'; // Defaut
-          })
-          .nodeVal('val')
-          .linkColor(() => 'rgba(255, 255, 255, 0.15)')
-          .linkWidth(0.5)
-          .backgroundColor('#0f172a')
-          .onNodeClick(node => {
-            if (node.url) {
-              window.location.href = node.url;
-            } else {
-              // Centrer la caméra sur le nœud si pas d'URL
-              const distance = 40;
-              const distRatio = 1 + distance/Math.hypot(node.x, node.y, node.z);
-              Graph.cameraPosition(
-                { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio },
-                node, 
-                3000
-              );
-            }
-          })
-          .onNodeHover(node => {
-             elem.style.cursor = node && node.url ? 'pointer' : node ? 'crosshair' : 'grab';
-          });
-          
-        // Animation légère de la caméra pour l'effet "vivant"
-        let angle = 0;
-        setInterval(() => {
-          Graph.cameraPosition({
-            x: 800 * Math.sin(angle),
-            z: 800 * Math.cos(angle)
-          });
-          angle += Math.PI / 8000;
-        }, 10);
+        fullData = data;
+        
+        // Extraire les catégories uniques pour le filtre
+        const categories = new Set();
+        data.nodes.forEach(node => {
+          if (node.group === 3) categories.add(node.name);
+        });
+
+        Array.from(categories).sort().forEach(cat => {
+          const opt = document.createElement('option');
+          opt.value = cat;
+          opt.textContent = cat;
+          filterSelect.appendChild(opt);
+        });
+
+        initGraph(data);
+        countDisplay.textContent = `${data.nodes.length} nœuds affichés`;
+
+        filterSelect.addEventListener('change', (e) => {
+          updateFilter(e.target.value);
+        });
       })
       .catch(err => {
         console.error("Erreur de chargement du graphe:", err);

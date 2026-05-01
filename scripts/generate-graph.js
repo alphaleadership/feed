@@ -1,53 +1,64 @@
 const fs = require('fs');
 const path = require('path');
 
+/**
+ * Générateur de données pour le graphe 3D.
+ * Optimisé pour traiter TOUTES les fuites sans faire exploser la mémoire.
+ */
 hexo.extend.generator.register('graph-data', function(locals) {
     const dataPath = path.join(this.source_dir, 'data', 'breaches.json');
     if (!fs.existsSync(dataPath)) return null;
 
+    // Lecture synchrone directe pour éviter de passer par Hexo locals (qui sont lourds)
     const raw = fs.readFileSync(dataPath, 'utf8');
     const data = JSON.parse(raw);
     const breaches = data.breaches || [];
 
     const nodes = [];
     const links = [];
-    const entityMap = new Map(); // entityName -> index
-    let nodeIndex = 0;
+    
+    // Map pour éviter les doublons de nœuds (entités partagées)
+    // On utilise des préfixes pour éviter les collisions entre types (ex: cat_ vs dc_)
+    const entityMap = new Map(); 
 
-    // Helper
-    function addNode(id, name, group, type, val, url = null) {
+    function addNode(id, name, group, url = null, cats = []) {
         if (!entityMap.has(id)) {
-            entityMap.set(id, nodeIndex++);
-            nodes.push({ id, name, group, type, val, url });
+            entityMap.set(id, true);
+            nodes.push({ id, name, group, url, cats });
         }
     }
 
-    // Add nodes for breaches
     breaches.forEach(b => {
-        const id = b.slug || b.Name;
-        addNode(id, b.Title || b.Name, 1, 'Fuite de données', 5, `/fuites/${b.slug}/`);
+        // L'utilisateur demande d'utiliser le champ 'id' (ou 'index' si absent)
+        const bId = String(b.id || b.index);
+        const bCats = b.categories || [];
+        
+        // Nœud principal (Fuite)
+        addNode(bId, b.Title || b.Name, 1, `/fuites?id=${b.id || b.index}/`, bCats);
 
-        if (b.DataClasses && Array.isArray(b.DataClasses)) {
-            b.DataClasses.forEach(dc => {
-                const dcId = 'dc_' + dc.replace(/\s+/g, '-').toLowerCase();
-                addNode(dcId, dc, 2, 'Type de donnée', 3);
-                links.push({ source: id, target: dcId, value: 1 });
-            });
-        }
-        
-        if (b.categories && Array.isArray(b.categories)) {
+        // Liens avec les Catégories
+        if (b.categories) {
             b.categories.forEach(c => {
-                const cId = 'cat_' + c.replace(/\s+/g, '-').toLowerCase();
-                addNode(cId, c, 3, 'Catégorie', 4, `/category/${c.replace(/\s+/g, '-').toLowerCase()}/`);
-                links.push({ source: id, target: cId, value: 1 });
+                const cId = 'cat_' + c.toLowerCase().replace(/\s+/g, '-');
+                addNode(cId, c, 3, `/category/${c.toLowerCase().replace(/\s+/g, '-')}/`, [c]);
+                links.push({ source: bId, target: cId });
+            });
+        }
+
+        // Liens avec les DataClasses (limités pour la lisibilité mais inclus pour tous si demandé)
+        if (b.DataClasses) {
+            b.DataClasses.forEach(dc => {
+                const dcId = 'dc_' + dc.toLowerCase().replace(/\s+/g, '-');
+                addNode(dcId, dc, 2, null, bCats);
+                links.push({ source: bId, target: dcId });
             });
         }
         
-        if (b.Attribution && typeof b.Attribution === 'string') {
-            const attr = b.Attribution;
-            const attrId = 'attr_' + attr.replace(/\s+/g, '-').toLowerCase();
-            addNode(attrId, attr, 4, 'Groupe Pirate', 6, `/threat-actor/${attr.replace(/\s+/g, '-').toLowerCase()}/`);
-            links.push({ source: id, target: attrId, value: 2 });
+        // Liens avec les Groupes Pirates (Attribution)
+        if (b.Attribution) {
+            const aId = 'attr_' + b.Attribution.toLowerCase().replace(/\s+/g, '-');
+            addNode(aId, b.Attribution, 4, `/threat-actor#${b.Attribution.toLowerCase().replace(/\s+/g, '-')}/`, bCats);
+            links.push({ source: bId, target: aId });
         }
     });
 
