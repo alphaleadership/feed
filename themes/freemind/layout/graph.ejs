@@ -1,0 +1,96 @@
+<div style="background: #1e293b; padding: 20px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #334155;">
+  <h1 style="color: #00ff41; margin-top: 0;"><i class="fa fa-share-alt me-2"></i> Réseau des Fuites de Données</h1>
+  <p style="color: #94a3b8; font-size: 1.1em; margin-bottom: 10px;">
+    Explorez visuellement les liens entre les différentes fuites, les types de données compromises, les catégories d'entreprises et les groupes de pirates.
+  </p>
+  <div style="display: flex; gap: 15px; margin-top: 15px; flex-wrap: wrap;">
+     <span class="badge" style="background-color: #ef4444; color: white; padding: 8px 12px; font-size: 0.9em;"><i class="fa fa-database me-1"></i> Fuite de données</span>
+     <span class="badge" style="background-color: #3b82f6; color: white; padding: 8px 12px; font-size: 0.9em;"><i class="fa fa-tags me-1"></i> Type de donnée</span>
+     <span class="badge" style="background-color: #10b981; color: white; padding: 8px 12px; font-size: 0.9em;"><i class="fa fa-folder-open me-1"></i> Secteur / Catégorie</span>
+     <span class="badge" style="background-color: #f59e0b; color: white; padding: 8px 12px; font-size: 0.9em;"><i class="fa fa-user-secret me-1"></i> Groupe Pirate</span>
+  </div>
+</div>
+
+<div id="3d-graph" style="width: 100%; height: 75vh; border: 2px solid #00ff41; border-radius: 8px; box-shadow: 0 0 15px rgba(0, 255, 65, 0.2); overflow: hidden; background-color: #0f172a;"></div>
+
+<style>
+  .graph-tooltip {
+    background: rgba(15, 23, 42, 0.9);
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 14px;
+    border: 1px solid #00ff41;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+  }
+  .graph-tooltip strong {
+    color: #00ff41;
+    font-size: 1.1em;
+    display: block;
+    margin-bottom: 5px;
+  }
+  .graph-tooltip small {
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+</style>
+
+<script src="//unpkg.com/3d-force-graph"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const elem = document.getElementById('3d-graph');
+    if (!elem) return;
+
+    fetch('/graph/data.json')
+      .then(res => res.json())
+      .then(data => {
+        const Graph = ForceGraph3D()(elem)
+          .graphData(data)
+          .nodeLabel(node => `<div class="graph-tooltip"><strong>${node.name || 'Inconnu'}</strong><br><small>${node.type || 'Non défini'}</small></div>`)
+          .nodeColor(node => {
+            if (node.group === 1) return '#ef4444'; // Fuites (Rouge)
+            if (node.group === 2) return '#3b82f6'; // DataClasses (Bleu)
+            if (node.group === 3) return '#10b981'; // Categories (Vert)
+            if (node.group === 4) return '#f59e0b'; // Acteurs (Orange)
+            return '#64748b'; // Defaut
+          })
+          .nodeVal('val')
+          .linkColor(() => 'rgba(255, 255, 255, 0.15)')
+          .linkWidth(0.5)
+          .backgroundColor('#0f172a')
+          .onNodeClick(node => {
+            if (node.url) {
+              window.location.href = node.url;
+            } else {
+              // Centrer la caméra sur le nœud si pas d'URL
+              const distance = 40;
+              const distRatio = 1 + distance/Math.hypot(node.x, node.y, node.z);
+              Graph.cameraPosition(
+                { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio },
+                node, 
+                3000
+              );
+            }
+          })
+          .onNodeHover(node => {
+             elem.style.cursor = node && node.url ? 'pointer' : node ? 'crosshair' : 'grab';
+          });
+          
+        // Animation légère de la caméra pour l'effet "vivant"
+        let angle = 0;
+        setInterval(() => {
+          Graph.cameraPosition({
+            x: 800 * Math.sin(angle),
+            z: 800 * Math.cos(angle)
+          });
+          angle += Math.PI / 8000;
+        }, 10);
+      })
+      .catch(err => {
+        console.error("Erreur de chargement du graphe:", err);
+        elem.innerHTML = '<div style="color: #ef4444; padding: 20px;">Erreur de chargement des données du graphe.</div>';
+      });
+  });
+</script>

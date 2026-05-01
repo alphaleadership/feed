@@ -23,6 +23,10 @@ abbrlink:
   allow: ['post','school','cpp',"java","blog"] #Allowed template types. The default is (" post ")
   disallow: [] #Unallowed template type. Default is an empty list
 menu:
+  - title: Graphe
+    url: graph
+    intro: "Vue réseau des fuites"
+    icon: "fa fa-share-alt"
   - title: Archives
     url: archives
     intro: "All the articles."
