@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-01T22:06:45.856Z",
-  "totalBreaches": 1519,
+  "lastUpdated": "2026-05-01T23:09:25.688Z",
+  "totalBreaches": 1520,
   "breaches": [
     {
       "Name": "Madeindesign",
@@ -113,7 +113,33 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1895,
-      "title": "Faco Paris"
+      "title": "Faco Paris",
+      "oldindex": 1895
+    },
+    {
+      "Name": "Easy Cash #2",
+      "Title": "Easy Cash #2",
+      "Domain": "easycash.fr",
+      "BreachDate": "2026-05-01",
+      "PwnCount": 17861681,
+      "Description": "Un cybercriminel a mis en vente une base de données contenant 17 861 681 enregistrements d'utilisateurs de l'enseigne Easy Cash le 29 avril 2026. Il s’agit probablement d’une compromission d’un compte utilisateur interne. L'enseigne a déjà fait l’objet d’une fuite de données en 2025.\n\nStatut: Revendiquée\nType de service: Achat-vente de produits d'occasion",
+      "DataClasses": [
+        "Identité (nom complet, prénom, nom)",
+        "Date de naissance",
+        "Coordonnées (adresse postale complète, e-mail)",
+        "Identifiants uniques (UUID, numéro de carte de fidélité)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://officieldelafranchise.fr/wp-content/uploads/site//3/easy-cash3-3.jpg",
+      "source": "christopheboutry.com",
+      "AddedDate": "2026-05-01T23:09:16.750Z",
+      "ModifiedDate": "2026-05-01T23:09:16.750Z",
+      "slug": "easy-cash-2"
     },
     {
       "Name": "umanens",
