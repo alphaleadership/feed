@@ -40,13 +40,23 @@ hexo.extend.generator.register('graph-data', function(locals) {
                 const newCats = new Set([...(node.cats || []), ...cats]);
                 node.cats = Array.from(newCats);
             }
-            // Si c'est une fuite et qu'on lui trouve une couleur de catégorie, on l'applique si pas déjà présente
-            if (group === 1 && color && !node.color) {
+            // Priorité à la couleur passée (souvent celle de la catégorie)
+            if (color && !node.color) {
                 node.color = color;
             }
             return;
         }
-        nodeMap.set(id, { id, name, group, type, val, url, cats: [...cats], color });
+        
+        // Couleurs par défaut si non spécifié
+        let finalColor = color;
+        if (!finalColor) {
+            if (group === 1) finalColor = '#ef4444'; // Fuite (Rouge)
+            if (group === 2) finalColor = '#3b82f6'; // Type de donnée (Bleu)
+            if (group === 3) finalColor = '#10b981'; // Catégorie (Vert)
+            if (group === 4) finalColor = '#f59e0b'; // Acteur (Orange)
+        }
+        
+        nodeMap.set(id, { id, name, group, type, val, url, cats: [...cats], color: finalColor });
     }
 
     breaches.forEach(b => {
@@ -54,9 +64,7 @@ hexo.extend.generator.register('graph-data', function(locals) {
 
         const bId = String(b.index);
         const bCats = b.categories || [];
-        
-        // Déterminer la couleur principale de la fuite basée sur sa première catégorie
-        const bColor = bCats.length > 0 ? getCatColor(bCats[0]) : null;
+        const bColor = bCats.length > 0 ? getCatColor(bCats[0]) : '#ef4444';
         
         addOrUpdateNode(bId, b.Title || b.Name, 1, 'Fuite de données', 10, `/fuites?id=${bId}/`, bCats, bColor);
 
@@ -70,24 +78,22 @@ hexo.extend.generator.register('graph-data', function(locals) {
             });
         }
 
-        // Liens avec les DataClasses (val: 5)
         if (b.DataClasses) {
             b.DataClasses.forEach(dc => {
                 if (!dc) return;
                 const dcId = 'dc_' + dc.toLowerCase().replace(/\s+/g, '-');
-                addOrUpdateNode(dcId, dc, 2, 'Type de donnée', 5, null, bCats);
+                // Pour les types de données, on peut utiliser une couleur neutre ou celle de la fuite
+                addOrUpdateNode(dcId, dc, 2, 'Type de donnée', 5, null, bCats, '#3b82f6');
                 links.push({ source: bId, target: dcId });
             });
         }
         
-        // Liens avec les Groupes Pirates (Attribution) (val: 8)
         if (b.Attribution) {
-            // Gérer les cas où Attribution est une liste séparée par des virgules
             const actors = typeof b.Attribution === 'string' ? b.Attribution.split(',').map(s => s.trim()) : [b.Attribution];
             actors.forEach(actor => {
                 if (!actor) return;
                 const aId = 'attr_' + actor.toLowerCase().replace(/\s+/g, '-');
-                addOrUpdateNode(aId, actor, 4, 'Groupe Pirate', 8, `/threat-actor#${actor.toLowerCase().replace(/\s+/g, '-')}/`, bCats);
+                addOrUpdateNode(aId, actor, 4, 'Groupe Pirate', 8, `/threat-actor#${actor.toLowerCase().replace(/\s+/g, '-')}/`, bCats, '#f59e0b');
                 links.push({ source: bId, target: aId });
             });
         }

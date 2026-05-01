@@ -126,15 +126,15 @@
                if (node.group === 1 || node.group === 4) {
                  const sprite = new SpriteText(node.name);
                  sprite.color = node.color || (node.group === 1 ? '#ef4444' : '#f59e0b');
-                 sprite.textHeight = 6;
+                 sprite.textHeight = 8;
                  sprite.padding = 2;
-                 sprite.backgroundColor = 'rgba(15, 23, 42, 0.7)';
-                 sprite.borderRadius = 2;
+                 sprite.backgroundColor = 'rgba(15, 23, 42, 0.8)';
+                 sprite.borderRadius = 4;
                  return sprite;
                }
-               return false; // Utilise la sphère par défaut pour les autres
+               return false; // Utilise la sphère par défaut pour les autres (colorée par nodeColor)
             })
-            .nodeThreeObjectExtend(true);
+            .nodeThreeObjectExtend(false); // IMPORTANT : ne pas ajouter l'objet à la sphère par défaut pour éviter le blanc
 
           const controls = Graph.controls();
           if (controls) {
