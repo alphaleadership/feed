@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T10:08:10.222Z",
+  "lastUpdated": "2026-05-01T10:44:59.170Z",
   "totalBreaches": 1516,
   "breaches": [
     {
@@ -27,7 +27,16 @@
       "source": "christopheboutry.com",
       "AddedDate": "2026-05-01T10:08:01.371Z",
       "ModifiedDate": "2026-05-01T10:08:01.371Z",
-      "slug": "madeindesign"
+      "slug": "madeindesign",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Données de juin 2013 à juin 2022. Publication d'une base de données du site de vente en ligne spécialisé dans le design et la décoration Madeindesign.com. La base de données publiée contient 464 662 commandes, impactant environ 228 600 clients uniques sur une période de 9 ans.\n\nStatut: Revendiquée\nType de service: Vente en ligne",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "lien": "https://haveibeenpwned.com/Breach/Madeindesign",
+      "index": 1891,
+      "title": "Madeindesign"
     },
     {
       "Name": "umanens",
