@@ -46,6 +46,7 @@
   }
 </style>
 
+<script src="//unpkg.com/force-graph"></script>
 <script src="//unpkg.com/3d-force-graph"></script>
 <script>
   document.addEventListener("DOMContentLoaded", () => {
@@ -56,26 +57,80 @@
 
     let fullData = { nodes: [], links: [] };
     let Graph = null;
+    let is3D = true;
+
+    function isWebGLAvailable() {
+      try {
+        const canvas = document.createElement('canvas');
+        return !!(window.WebGLRenderingContext && (canvas.getContext('webgl') || canvas.getContext('experimental-webgl')));
+      } catch (e) {
+        return false;
+      }
+    }
 
     function initGraph(data) {
-      Graph = ForceGraph3D()(elem)
-        .graphData(data)
-        .nodeLabel(node => `<div class="graph-tooltip"><strong>${node.name || 'Inconnu'}</strong><br><small>${node.type || 'Non défini'}</small></div>`)
-        .nodeColor(node => {
-          if (node.group === 1) return '#ef4444'; // Fuites (Rouge)
-          if (node.group === 2) return '#3b82f6'; // DataClasses (Bleu)
-          if (node.group === 3) return '#10b981'; // Categories (Vert)
-          if (node.group === 4) return '#f59e0b'; // Acteurs (Orange)
-          return '#64748b'; // Defaut
-        })
-        .nodeVal('val')
-        .linkColor(() => 'rgba(255, 255, 255, 0.15)')
-        .linkWidth(0.5)
-        .backgroundColor('#0f172a')
-        .onNodeClick(node => {
+      const use3D = isWebGLAvailable();
+      is3D = use3D;
+
+      try {
+        if (use3D) {
+          Graph = ForceGraph3D()(elem);
+        } else {
+          console.warn("WebGL non disponible, basculement en mode 2D.");
+          Graph = ForceGraph()(elem);
+        }
+
+        Graph.graphData(data)
+          .nodeLabel(node => `<div class="graph-tooltip"><strong>${node.name || 'Inconnu'}</strong><br><small>${node.type || 'Non défini'}</small></div>`)
+          .nodeColor(node => {
+            if (node.group === 1) return '#ef4444'; // Fuites (Rouge)
+            if (node.group === 2) return '#3b82f6'; // DataClasses (Bleu)
+            if (node.group === 3) return '#10b981'; // Categories (Vert)
+            if (node.group === 4) return '#f59e0b'; // Acteurs (Orange)
+            return '#64748b'; // Defaut
+          })
+          .nodeVal(node => node.val || 1)
+          .linkColor(() => 'rgba(0, 255, 65, 0.3)') // Vert Matrix plus visible en 2D
+          .linkWidth(0.5);
+
+        if (use3D) {
+          Graph.backgroundColor('#0f172a');
+          // Rotation automatique via les contrôles pour permettre l'interaction
+          const controls = Graph.controls();
+          if (controls) {
+            controls.autoRotate = true;
+            controls.autoRotateSpeed = 0.5;
+          }
+        } else {
+          // Configuration spécifique 2D
+          Graph.nodeCanvasObject((node, ctx, globalScale) => {
+            const label = node.name;
+            const fontSize = 12/globalScale;
+            ctx.font = `${fontSize}px Sans-Serif`;
+            const textWidth = ctx.measureText(label).width;
+            const bckgDimensions = [textWidth, fontSize].map(n => n + fontSize * 0.2);
+
+            ctx.fillStyle = 'rgba(15, 23, 42, 0.8)';
+            ctx.fillRect(node.x - bckgDimensions[0] / 2, node.y - bckgDimensions[1] / 2, ...bckgDimensions);
+
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillStyle = node.color;
+            ctx.fillText(label, node.x, node.y);
+
+            node.__bckgDimensions = bckgDimensions; // pour la détection de collision
+          })
+          .nodePointerAreaPaint((node, color, ctx) => {
+            ctx.fillStyle = color;
+            const bckgDimensions = node.__bckgDimensions;
+            bckgDimensions && ctx.fillRect(node.x - bckgDimensions[0] / 2, node.y - bckgDimensions[1] / 2, ...bckgDimensions);
+          });
+        }
+
+        Graph.onNodeClick(node => {
           if (node.url) {
             window.location.href = node.url;
-          } else {
+          } else if (use3D) {
             const distance = 40;
             const distRatio = 1 + distance/Math.hypot(node.x, node.y, node.z);
             Graph.cameraPosition(
@@ -89,18 +144,16 @@
            elem.style.cursor = node && node.url ? 'pointer' : node ? 'crosshair' : 'grab';
         });
 
-      // Rotation douce
-      let angle = 0;
-      setInterval(() => {
-        if (!Graph) return;
-        const pos = Graph.cameraPosition();
-        const dist = Math.hypot(pos.x, pos.y, pos.z);
-        Graph.cameraPosition({
-          x: dist * Math.sin(angle),
-          z: dist * Math.cos(angle)
-        });
-        angle += Math.PI / 10000;
-      }, 10);
+      } catch (err) {
+        console.error("Erreur d'initialisation du graphe:", err);
+        if (use3D) {
+          console.log("Tentative de repli sur la version 2D après erreur 3D...");
+          elem.innerHTML = ''; // Nettoyer
+          initGraph(data); // Réessayer (isWebGLAvailable pourra être forcé à false si besoin)
+        } else {
+          elem.innerHTML = '<div style="color: #ef4444; padding: 20px;">Erreur critique lors de l\'affichage du graphe.</div>';
+        }
+      }
     }
 
     function updateFilter(category) {
