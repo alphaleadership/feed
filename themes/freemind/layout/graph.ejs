@@ -114,9 +114,12 @@
              return sourceNode && sourceNode.color ? sourceNode.color : '#00ff41';
           });
 
-        // Ajustement des forces pour mieux espacer
-        Graph.d3Force('charge').strength(-150);
-        Graph.d3Force('link').distance(50);
+        // Ajustement des forces pour mieux espacer (Espace minimum accru)
+        Graph.d3Force('charge')
+          .strength(-400)
+          .distanceMax(500)
+          .distanceMin(30); 
+        Graph.d3Force('link').distance(100);
 
         if (use3D) {
           Graph.backgroundColor('#0f172a')
