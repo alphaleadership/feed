@@ -31,7 +31,7 @@ hexo.extend.generator.register('graph-data', function(locals) {
 
     breaches.forEach(b => {
         // Gestion robuste de l'ID (y compris l'index 0)
-        const bId = String(b.id !== undefined ? b.id : (b.index !== undefined ? b.index : b.Name));
+        const bId = String(b.index !== undefined ? b.index : (b.index !== undefined ? b.index : b.Name));
         const bCats = b.categories || [];
         
         // Nœud principal (Fuite) - Plus gros (val: 10)
