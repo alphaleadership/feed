@@ -1,7 +1,34 @@
 {
-  "lastUpdated": "2026-05-01T09:12:58.350Z",
-  "totalBreaches": 1515,
+  "lastUpdated": "2026-05-01T10:08:10.222Z",
+  "totalBreaches": 1516,
   "breaches": [
+    {
+      "Name": "Madeindesign",
+      "Title": "Madeindesign",
+      "Domain": "madeindesign.com",
+      "BreachDate": "2026-05-01",
+      "PwnCount": 228600,
+      "Description": "Données de juin 2013 à juin 2022. Publication d'une base de données du site de vente en ligne spécialisé dans le design et la décoration Madeindesign.com. La base de données publiée contient 464 662 commandes, impactant environ 228 600 clients uniques sur une période de 9 ans.\n\nStatut: Revendiquée\nType de service: Vente en ligne",
+      "DataClasses": [
+        "Nom complet",
+        "Adresse postale complète",
+        "Numéro de téléphone",
+        "Détails des commandes (ID, montant, produits)",
+        "Moyen de paiement (type)",
+        "Mode de livraison"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://consumersiteimages.trustpilot.net/business-units/4acb3ca5000064000504bf1b-198x149-1x.jpg",
+      "source": "christopheboutry.com",
+      "AddedDate": "2026-05-01T10:08:01.371Z",
+      "ModifiedDate": "2026-05-01T10:08:01.371Z",
+      "slug": "madeindesign"
+    },
     {
       "Name": "umanens",
       "Title": "umanens fuite du 2026-4-30",
