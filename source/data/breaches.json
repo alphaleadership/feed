@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T10:44:59.170Z",
+  "lastUpdated": "2026-05-01T11:45:58.401Z",
   "totalBreaches": 1516,
   "breaches": [
     {
@@ -36,7 +36,8 @@
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Madeindesign",
       "index": 1891,
-      "title": "Madeindesign"
+      "title": "Madeindesign",
+      "oldindex": 1891
     },
     {
       "Name": "umanens",
