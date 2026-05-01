@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-01T20:05:43.724Z",
-  "totalBreaches": 1518,
+  "lastUpdated": "2026-05-01T21:08:39.795Z",
+  "totalBreaches": 1519,
   "breaches": [
     {
       "Name": "Madeindesign",
@@ -62,7 +62,49 @@
       "AddedDate": "2026-05-01T20:05:35.098Z",
       "ModifiedDate": "2026-05-01T20:05:35.098Z",
       "slug": "la-pizza-de-nico",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/05/la-pizza-de-nico-leak-fuites-de-donnees-scaled.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/05/la-pizza-de-nico-leak-fuites-de-donnees-scaled.png",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Un cybercriminel a publié une base de données de 67 767 clients de la chaîne de pizzerias 'La Pizza de Nico', couvrant la période d'avril 2017 à août 2025.\n\nStatut: Revendiquée\nType de service: Restauration",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1894,
+      "title": "La Pizza de Nico"
+    },
+    {
+      "Name": "Faco Paris",
+      "Title": "Faco Paris",
+      "Domain": "facoparis.com",
+      "BreachDate": "2026-05-01",
+      "PwnCount": 11447,
+      "Description": "L'acteur de la menace 'Spirigatito' revendique une fuite de 12 Go. La fuite, qui daterait de 2025, concernerait les promotions 2021 à 2024 et inclurait 11 447 documents personnels (pièces d'identité, passeports, IBANs, diplômes).\n\nStatut: Revendiquée\nType de service: Faculté privée de Droit, Économie, Gestion",
+      "DataClasses": [
+        "Nom complet (étudiants et parents/tuteurs)",
+        "Coordonnées complètes (adresses postales, emails, numéros de téléphone)",
+        "Date et lieu de naissance",
+        "Nationalité",
+        "Numéro INE (Identifiant National Élève)",
+        "Historique scolaire complet (lycée, spécialités du baccalauréat)",
+        "Documents d'identité (Passeports, Cartes Nationales d'Identité)",
+        "Coordonnées bancaires (IBANs)",
+        "Photos d'identité (étudiants et professeurs)",
+        "Diplômes et bulletins scolaires",
+        "Logs de connexion",
+        "Code source complet de l'application"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://facoparis.com/wp-content/uploads/2021/02/LOGO-FACO-rouge-blanc.png",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/05/faco-paris-leak-fuites-de-donnees-scaled.png",
+      "AddedDate": "2026-05-01T21:08:30.996Z",
+      "ModifiedDate": "2026-05-01T21:08:30.996Z",
+      "slug": "faco-paris",
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/05/faco-paris-leak-fuites-de-donnees-scaled.png"
     },
     {
       "Name": "umanens",
