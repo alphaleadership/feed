@@ -346,6 +346,9 @@
         // Consistent filtering and sorting
         const breaches = data.breaches.filter(item => {
           if (!item || item.IsRetired) return false;
+          // Filtrer les fuites sans DataClasses (types de données)
+         // if (!item.DataClasses || item.DataClasses.length === 0) return false;
+          
           const name = (item.Name || item.Title || item.slug || '').toLowerCase();
           return !name.includes('cve');
         });

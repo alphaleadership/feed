@@ -30,8 +30,13 @@ hexo.extend.generator.register('graph-data', function(locals) {
     }
 
     breaches.forEach(b => {
-        // Gestion robuste de l'ID (y compris l'index 0)
-        const bId = String(b.index !== undefined ? b.index : (b.index !== undefined ? b.index : b.Name));
+        // Filtrer les fuites sans DataClasses (types de données)
+        if (!b.DataClasses || b.DataClasses.length === 0) {
+            return;
+        }
+
+        // Utilisation de 'index' comme identifiant unique (plus robuste dans ce projet)
+        const bId = String(b.index);
         const bCats = b.categories || [];
         
         // Nœud principal (Fuite) - Plus gros (val: 10)
