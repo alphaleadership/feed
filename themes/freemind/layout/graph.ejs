@@ -93,19 +93,27 @@
         Graph.graphData(data)
           .nodeLabel(node => `<div class="graph-tooltip"><strong>${node.name || 'Inconnu'}</strong><br><small>${node.type || 'Non défini'}</small></div>`)
           .nodeColor(node => {
-            if (node.group === 1) return '#ef4444'; // Fuites (Rouge)
+            if (node.color) return node.color; // Utilise la couleur de catégorie si disponible
+            if (node.group === 1) return '#ef4444'; // Fuites (Rouge par défaut)
             if (node.group === 2) return '#3b82f6'; // DataClasses (Bleu)
             if (node.group === 3) return '#10b981'; // Categories (Vert)
             if (node.group === 4) return '#f59e0b'; // Acteurs (Orange)
             return '#64748b'; // Defaut
           })
           .nodeVal(node => (node.val || 1) * (use3D ? 1 : 2))
-          .linkColor(() => 'rgba(0, 255, 65, 0.2)')
+          .linkColor(link => {
+             // Utilise la couleur de la source (fuite) pour le lien si dispo
+             const sourceNode = typeof link.source === 'object' ? link.source : data.nodes.find(n => n.id === link.source);
+             return sourceNode && sourceNode.color ? `${sourceNode.color}44` : 'rgba(0, 255, 65, 0.2)';
+          })
           .linkWidth(0.5)
           .linkDirectionalParticles(2)
           .linkDirectionalParticleSpeed(d => Math.random() * 0.01 + 0.002)
           .linkDirectionalParticleWidth(1.5)
-          .linkDirectionalParticleColor(() => '#00ff41');
+          .linkDirectionalParticleColor(link => {
+             const sourceNode = typeof link.source === 'object' ? link.source : data.nodes.find(n => n.id === link.source);
+             return sourceNode && sourceNode.color ? sourceNode.color : '#00ff41';
+          });
 
         // Ajustement des forces pour mieux espacer
         Graph.d3Force('charge').strength(-150);
@@ -117,7 +125,7 @@
                // Rendu des labels en 3D pour les gros nœuds (Fuites et Acteurs)
                if (node.group === 1 || node.group === 4) {
                  const sprite = new SpriteText(node.name);
-                 sprite.color = node.group === 1 ? '#ef4444' : '#f59e0b';
+                 sprite.color = node.color || (node.group === 1 ? '#ef4444' : '#f59e0b');
                  sprite.textHeight = 6;
                  sprite.padding = 2;
                  sprite.backgroundColor = 'rgba(15, 23, 42, 0.7)';

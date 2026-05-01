@@ -15,39 +15,57 @@ hexo.extend.generator.register('graph-data', function(locals) {
 
     const nodeMap = new Map();
     const links = [];
+
+    // Palette de couleurs pour les catégories (Secteurs)
+    const categoryColors = [
+        '#10b981', '#3b82f6', '#f59e0b', '#ef4444', '#8b5cf6', 
+        '#ec4899', '#06b6d4', '#f97316', '#a855f7', '#14b8a6',
+        '#fbbf24', '#2dd4bf', '#60a5fa', '#f472b6', '#fb7185'
+    ];
+    const catColorMap = new Map();
+    let catColorIdx = 0;
+
+    function getCatColor(catName) {
+        if (!catColorMap.has(catName)) {
+            catColorMap.set(catName, categoryColors[catColorIdx % categoryColors.length]);
+            catColorIdx++;
+        }
+        return catColorMap.get(catName);
+    }
     
-    function addOrUpdateNode(id, name, group, type, val, url = null, cats = []) {
+    function addOrUpdateNode(id, name, group, type, val, url = null, cats = [], color = null) {
         if (nodeMap.has(id)) {
             const node = nodeMap.get(id);
-            // Fusion des catégories pour que le filtrage fonctionne globalement
             if (cats && cats.length > 0) {
                 const newCats = new Set([...(node.cats || []), ...cats]);
                 node.cats = Array.from(newCats);
             }
+            // Si c'est une fuite et qu'on lui trouve une couleur de catégorie, on l'applique si pas déjà présente
+            if (group === 1 && color && !node.color) {
+                node.color = color;
+            }
             return;
         }
-        nodeMap.set(id, { id, name, group, type, val, url, cats: [...cats] });
+        nodeMap.set(id, { id, name, group, type, val, url, cats: [...cats], color });
     }
 
     breaches.forEach(b => {
-        // Filtrer les fuites sans DataClasses (types de données)
-        if (!b.DataClasses || b.DataClasses.length === 0) {
-            return;
-        }
+        if (!b.DataClasses || b.DataClasses.length === 0) return;
 
-        // Utilisation de 'index' comme identifiant unique (plus robuste dans ce projet)
         const bId = String(b.index);
         const bCats = b.categories || [];
         
-        // Nœud principal (Fuite) - Plus gros (val: 10)
-        addOrUpdateNode(bId, b.Title || b.Name, 1, 'Fuite de données', 10, `/fuites?id=${bId}/`, bCats);
+        // Déterminer la couleur principale de la fuite basée sur sa première catégorie
+        const bColor = bCats.length > 0 ? getCatColor(bCats[0]) : null;
+        
+        addOrUpdateNode(bId, b.Title || b.Name, 1, 'Fuite de données', 10, `/fuites?id=${bId}/`, bCats, bColor);
 
-        // Liens avec les Catégories (val: 7)
         if (b.categories) {
             b.categories.forEach(c => {
                 if (!c) return;
                 const cId = 'cat_' + c.toLowerCase().replace(/\s+/g, '-');
-                addOrUpdateNode(cId, c, 3, 'Secteur / Catégorie', 7, `/category/${c.toLowerCase().replace(/\s+/g, '-')}/`, [c]);
+                const cColor = getCatColor(c);
+                addOrUpdateNode(cId, c, 3, 'Secteur / Catégorie', 7, `/category/${c.toLowerCase().replace(/\s+/g, '-')}/`, [c], cColor);
                 links.push({ source: bId, target: cId });
             });
         }
