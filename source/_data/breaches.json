@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T21:08:39.795Z",
+  "lastUpdated": "2026-05-01T22:06:45.856Z",
   "totalBreaches": 1519,
   "breaches": [
     {
@@ -70,7 +70,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1894,
-      "title": "La Pizza de Nico"
+      "title": "La Pizza de Nico",
+      "oldindex": 1894
     },
     {
       "Name": "Faco Paris",
@@ -104,7 +105,15 @@
       "AddedDate": "2026-05-01T21:08:30.996Z",
       "ModifiedDate": "2026-05-01T21:08:30.996Z",
       "slug": "faco-paris",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/05/faco-paris-leak-fuites-de-donnees-scaled.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/05/faco-paris-leak-fuites-de-donnees-scaled.png",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "L'acteur de la menace 'Spirigatito' revendique une fuite de 12 Go. La fuite, qui daterait de 2025, concernerait les promotions 2021 à 2024 et inclurait 11 447 documents personnels (pièces d'identité, passeports, IBANs, diplômes).\n\nStatut: Revendiquée\nType de service: Faculté privée de Droit, Économie, Gestion",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1895,
+      "title": "Faco Paris"
     },
     {
       "Name": "umanens",
