@@ -12,11 +12,11 @@
     <div id="node-count" style="color: #94a3b8; font-size: 0.9em; margin-left: auto;">Chargement...</div>
   </div>
 
-  <div style="display: flex; gap: 15px; flex-wrap: wrap;">
-     <span class="badge" style="background-color: #ef4444; color: white; padding: 8px 12px; font-size: 0.9em;"><i class="fa fa-database me-1"></i> Fuite de données</span>
-     <span class="badge" style="background-color: #3b82f6; color: white; padding: 8px 12px; font-size: 0.9em;"><i class="fa fa-tags me-1"></i> Type de donnée</span>
-     <span class="badge" style="background-color: #10b981; color: white; padding: 8px 12px; font-size: 0.9em;"><i class="fa fa-folder-open me-1"></i> Secteur / Catégorie</span>
-     <span class="badge" style="background-color: #f59e0b; color: white; padding: 8px 12px; font-size: 0.9em;"><i class="fa fa-user-secret me-1"></i> Groupe Pirate</span>
+  <div id="graph-legend" style="display: flex; gap: 15px; flex-wrap: wrap;">
+     <span class="badge legend-item" data-group="1" style="background-color: #ef4444; color: white; padding: 8px 12px; font-size: 0.9em; cursor: pointer; transition: opacity 0.2s;"><i class="fa fa-database me-1"></i> Fuite de données</span>
+     <span class="badge legend-item" data-group="2" style="background-color: #3b82f6; color: white; padding: 8px 12px; font-size: 0.9em; cursor: pointer; transition: opacity 0.2s;"><i class="fa fa-tags me-1"></i> Type de donnée</span>
+     <span class="badge legend-item" data-group="3" style="background-color: #10b981; color: white; padding: 8px 12px; font-size: 0.9em; cursor: pointer; transition: opacity 0.2s;"><i class="fa fa-folder-open me-1"></i> Secteur / Catégorie</span>
+     <span class="badge legend-item" data-group="4" style="background-color: #f59e0b; color: white; padding: 8px 12px; font-size: 0.9em; cursor: pointer; transition: opacity 0.2s;"><i class="fa fa-user-secret me-1"></i> Groupe Pirate</span>
   </div>
 </div>
 
@@ -24,28 +24,36 @@
 
 <style>
   .graph-tooltip {
-    background: rgba(15, 23, 42, 0.9);
+    background: rgba(15, 23, 42, 0.95);
     color: #fff;
-    padding: 10px 15px;
-    border-radius: 6px;
+    padding: 12px 16px;
+    border-radius: 8px;
     font-size: 14px;
     border: 1px solid #00ff41;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
     pointer-events: none;
+    max-width: 300px;
   }
   .graph-tooltip strong {
     color: #00ff41;
-    font-size: 1.1em;
+    font-size: 1.2em;
     display: block;
     margin-bottom: 5px;
   }
   .graph-tooltip small {
     color: #94a3b8;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+  }
+  .legend-item.inactive {
+    opacity: 0.3;
+    filter: grayscale(0.5);
   }
 </style>
 
+<script src="//unpkg.com/three"></script>
+<script src="//unpkg.com/three-spritetext"></script>
 <script src="//unpkg.com/force-graph"></script>
 <script src="//unpkg.com/3d-force-graph"></script>
 <script>
@@ -53,11 +61,13 @@
     const elem = document.getElementById('3d-graph');
     const filterSelect = document.getElementById('category-filter');
     const countDisplay = document.getElementById('node-count');
+    const legendItems = document.querySelectorAll('.legend-item');
     if (!elem) return;
 
     let fullData = { nodes: [], links: [] };
     let Graph = null;
     let is3D = true;
+    let hiddenGroups = new Set();
 
     function isWebGLAvailable() {
       try {
@@ -89,41 +99,64 @@
             if (node.group === 4) return '#f59e0b'; // Acteurs (Orange)
             return '#64748b'; // Defaut
           })
-          .nodeVal(node => node.val || 1)
-          .linkColor(() => 'rgba(0, 255, 65, 0.3)') // Vert Matrix plus visible en 2D
-          .linkWidth(0.5);
+          .nodeVal(node => (node.val || 1) * (use3D ? 1 : 2))
+          .linkColor(() => 'rgba(0, 255, 65, 0.2)')
+          .linkWidth(0.5)
+          .linkDirectionalParticles(2)
+          .linkDirectionalParticleSpeed(d => Math.random() * 0.01 + 0.002)
+          .linkDirectionalParticleWidth(1.5)
+          .linkDirectionalParticleColor(() => '#00ff41');
+
+        // Ajustement des forces pour mieux espacer
+        Graph.d3Force('charge').strength(-150);
+        Graph.d3Force('link').distance(50);
 
         if (use3D) {
-          Graph.backgroundColor('#0f172a');
-          // Rotation automatique via les contrôles pour permettre l'interaction
+          Graph.backgroundColor('#0f172a')
+            .nodeThreeObject(node => {
+               // Rendu des labels en 3D pour les gros nœuds (Fuites et Acteurs)
+               if (node.group === 1 || node.group === 4) {
+                 const sprite = new SpriteText(node.name);
+                 sprite.color = node.group === 1 ? '#ef4444' : '#f59e0b';
+                 sprite.textHeight = 6;
+                 sprite.padding = 2;
+                 sprite.backgroundColor = 'rgba(15, 23, 42, 0.7)';
+                 sprite.borderRadius = 2;
+                 return sprite;
+               }
+               return false; // Utilise la sphère par défaut pour les autres
+            })
+            .nodeThreeObjectExtend(true);
+
           const controls = Graph.controls();
           if (controls) {
             controls.autoRotate = true;
-            controls.autoRotateSpeed = 0.5;
+            controls.autoRotateSpeed = 0.3;
           }
         } else {
           // Configuration spécifique 2D
           Graph.nodeCanvasObject((node, ctx, globalScale) => {
             const label = node.name;
-            const fontSize = 12/globalScale;
+            const fontSize = (node.group === 1 ? 14 : 10) / globalScale;
             ctx.font = `${fontSize}px Sans-Serif`;
             const textWidth = ctx.measureText(label).width;
-            const bckgDimensions = [textWidth, fontSize].map(n => n + fontSize * 0.2);
+            const bckgDimensions = [textWidth, fontSize].map(n => n + fontSize * 0.3);
 
-            ctx.fillStyle = 'rgba(15, 23, 42, 0.8)';
-            ctx.fillRect(node.x - bckgDimensions[0] / 2, node.y - bckgDimensions[1] / 2, ...bckgDimensions);
-
-            ctx.textAlign = 'center';
-            ctx.textBaseline = 'middle';
+            // Cercle de fond
+            ctx.beginPath();
+            ctx.arc(node.x, node.y, (node.val || 1) * 1.5, 0, 2 * Math.PI, false);
             ctx.fillStyle = node.color;
-            ctx.fillText(label, node.x, node.y);
+            ctx.fill();
 
-            node.__bckgDimensions = bckgDimensions; // pour la détection de collision
-          })
-          .nodePointerAreaPaint((node, color, ctx) => {
-            ctx.fillStyle = color;
-            const bckgDimensions = node.__bckgDimensions;
-            bckgDimensions && ctx.fillRect(node.x - bckgDimensions[0] / 2, node.y - bckgDimensions[1] / 2, ...bckgDimensions);
+            // Label
+            if (globalScale > 1.5 || node.group === 1 || node.group === 4) {
+              ctx.fillStyle = 'rgba(15, 23, 42, 0.9)';
+              ctx.fillRect(node.x - bckgDimensions[0] / 2, node.y - fontSize * 1.5, bckgDimensions[0], bckgDimensions[1]);
+              ctx.textAlign = 'center';
+              ctx.textBaseline = 'middle';
+              ctx.fillStyle = '#fff';
+              ctx.fillText(label, node.x, node.y - fontSize * 1.1);
+            }
           });
         }
 
@@ -131,12 +164,12 @@
           if (node.url) {
             window.location.href = node.url;
           } else if (use3D) {
-            const distance = 40;
+            const distance = 60;
             const distRatio = 1 + distance/Math.hypot(node.x, node.y, node.z);
             Graph.cameraPosition(
               { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio },
               node, 
-              3000
+              2000
             );
           }
         })
@@ -147,25 +180,22 @@
       } catch (err) {
         console.error("Erreur d'initialisation du graphe:", err);
         if (use3D) {
-          console.log("Tentative de repli sur la version 2D après erreur 3D...");
-          elem.innerHTML = ''; // Nettoyer
-          initGraph(data); // Réessayer (isWebGLAvailable pourra être forcé à false si besoin)
-        } else {
-          elem.innerHTML = '<div style="color: #ef4444; padding: 20px;">Erreur critique lors de l\'affichage du graphe.</div>';
+          elem.innerHTML = '';
+          initGraph(data); 
         }
       }
     }
 
-    function updateFilter(category) {
-      if (category === 'all') {
-        Graph.graphData(fullData);
-        countDisplay.textContent = `${fullData.nodes.length} nœuds affichés`;
-        return;
+    function applyFilters() {
+      const category = filterSelect.value;
+      
+      let filteredNodes = fullData.nodes.filter(node => !hiddenGroups.has(node.group));
+      
+      if (category !== 'all') {
+        filteredNodes = filteredNodes.filter(node => 
+          node.cats && node.cats.includes(category)
+        );
       }
-
-      const filteredNodes = fullData.nodes.filter(node => 
-        node.cats && node.cats.includes(category)
-      );
       
       const nodeIds = new Set(filteredNodes.map(n => n.id));
       const filteredLinks = fullData.links.filter(link => 
@@ -176,12 +206,27 @@
       countDisplay.textContent = `${filteredNodes.length} nœuds affichés`;
     }
 
+    // Gestion de la légende interactive
+    legendItems.forEach(item => {
+      item.addEventListener('click', () => {
+        const group = parseInt(item.getAttribute('data-group'));
+        if (hiddenGroups.has(group)) {
+          hiddenGroups.delete(group);
+          item.classList.remove('inactive');
+        } else {
+          hiddenGroups.add(group);
+          item.classList.add('inactive');
+        }
+        applyFilters();
+      });
+    });
+
+    filterSelect.addEventListener('change', applyFilters);
+
     fetch('/graph/data.json')
       .then(res => res.json())
       .then(data => {
         fullData = data;
-        
-        // Extraire les catégories uniques pour le filtre
         const categories = new Set();
         data.nodes.forEach(node => {
           if (node.group === 3) categories.add(node.name);
@@ -196,14 +241,10 @@
 
         initGraph(data);
         countDisplay.textContent = `${data.nodes.length} nœuds affichés`;
-
-        filterSelect.addEventListener('change', (e) => {
-          updateFilter(e.target.value);
-        });
       })
       .catch(err => {
         console.error("Erreur de chargement du graphe:", err);
-        elem.innerHTML = '<div style="color: #ef4444; padding: 20px;">Erreur de chargement des données du graphe.</div>';
+        elem.innerHTML = '<div style="color: #ef4444; padding: 20px;">Erreur de chargement des données.</div>';
       });
   });
 </script>
