@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-02T00:06:53.301Z",
-  "totalBreaches": 1520,
+  "lastUpdated": "2026-05-02T03:52:24.051Z",
+  "totalBreaches": 1519,
   "breaches": [
     {
       "Name": "Madeindesign",
@@ -148,7 +148,8 @@
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Easy Cash #2",
       "index": 1896,
-      "title": "Easy Cash #2"
+      "title": "Easy Cash #2",
+      "oldindex": 1896
     },
     {
       "Name": "umanens",
@@ -2439,46 +2440,6 @@
       "lien": "https://haveibeenpwned.com/Breach/McGrawHill",
       "oldindex": 1804,
       "title": "McGraw Hill"
-    },
-    {
-      "Name": "son",
-      "Title": "son fuite du 2026-4-10",
-      "Domain": null,
-      "BreachDate": "2026-4-10",
-      "AddedDate": "2026-05-01T17:43:02.487Z",
-      "ModifiedDate": "2026-05-01T17:43:02.487Z",
-      "PwnCount": 0,
-      "Description": "Nom\nprénom • Adresse email • Adresse postale • Numéro de téléphone • Historique des commandes •",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [
-        "Informations d'identité (Nom, prénom, civilité)",
-        "Coordonnées (Adresse email, numéro de téléphone, adresse postale)",
-        "Données commerciales (Historique des commandes)"
-      ],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "son-fuite-du-2026-4-10",
-      "path": "https://bonjourlafuite.eu.org/img/son-video.png",
-      "formattedDate": "2026-04-10",
-      "index": 1805,
-      "lien": "https://bonjourlafuite.eu.org/img/son-video.png",
-      "isBlocked": false,
-      "blockedNote": null,
-      "source": "Manuel",
-      "categories": [],
-      "content": "Nom\nprénom • Adresse email • Adresse postale • Numéro de téléphone • Historique des commandes •",
-      "isNSFW": false,
-      "nsfwConfidence": 0,
-      "oldindex": 1805,
-      "title": "son fuite du 2026-4-10"
     },
     {
       "Name": "DCL (Diplôme de Compétence en Langue)",
