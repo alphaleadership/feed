@@ -52,6 +52,7 @@
   }
 </style>
 
+<script src="//unpkg.com/three"></script>
 <script src="//unpkg.com/force-graph"></script>
 <script src="//unpkg.com/3d-force-graph"></script>
 <script src="//unpkg.com/three-spritetext"></script>
@@ -125,7 +126,7 @@
           Graph.backgroundColor('#0f172a')
             .nodeThreeObject(node => {
                // Rendu des labels en 3D pour les gros nœuds (Fuites et Acteurs)
-               if (node.group === 1 || node.group === 4) {
+               if ((node.group === 1 || node.group === 4) && typeof SpriteText !== 'undefined') {
                  const sprite = new SpriteText(node.name);
                  sprite.color = node.color || (node.group === 1 ? '#ef4444' : '#f59e0b');
                  sprite.textHeight = 8;
