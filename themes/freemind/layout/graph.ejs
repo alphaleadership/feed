@@ -64,54 +64,68 @@
     let fullData = { nodes: [], links: [] };
     let Graph = null;
     let hiddenGroups = new Set();
+    
+    // Variables pour l'optimisation au survol
+    let hoveredNode = null;
+    let hoveredLink = null;
 
     function initGraph(data) {
       try {
         Graph = ForceGraph()(elem);
 
+        // Optimisation 1 : Pré-calculer les couleurs des nœuds pour éviter de réévaluer à chaque frame
+        data.nodes.forEach(node => {
+          if (!node.color) {
+            if (node.group === 1) node.color = '#ef4444';
+            else if (node.group === 2) node.color = '#3b82f6';
+            else if (node.group === 3) node.color = '#10b981';
+            else if (node.group === 4) node.color = '#f59e0b';
+            else node.color = '#64748b';
+          }
+        });
+
         Graph.graphData(data)
           .nodeLabel(node => `<div class="graph-tooltip"><strong>${node.name || 'Inconnu'}</strong><br><small>${node.type || 'Non défini'}</small></div>`)
-          .nodeColor(node => {
-            if (node.color) return node.color;
-            if (node.group === 1) return '#ef4444';
-            if (node.group === 2) return '#3b82f6';
-            if (node.group === 3) return '#10b981';
-            if (node.group === 4) return '#f59e0b';
-            return '#64748b';
-          })
+          .nodeColor(node => node.color)
           .nodeVal(node => (node.val || 1) * 2)
-          .linkColor(link => {
-             const sourceNode = typeof link.source === 'object' ? link.source : data.nodes.find(n => n.id === link.source);
-             return sourceNode && sourceNode.color ? `${sourceNode.color}44` : 'rgba(0, 255, 65, 0.2)';
-          })
-          .linkWidth(0.5)
-          .linkDirectionalParticles(2)
-          .linkDirectionalParticleSpeed(d => Math.random() * 0.01 + 0.002)
-          .linkDirectionalParticleWidth(1.5)
-          .linkDirectionalParticleColor(link => {
-             const sourceNode = typeof link.source === 'object' ? link.source : data.nodes.find(n => n.id === link.source);
-             return sourceNode && sourceNode.color ? sourceNode.color : '#00ff41';
-          });
+          .linkColor(link => link === hoveredLink ? '#00ff41' : 'rgba(0, 255, 65, 0.15)')
+          .linkWidth(link => link === hoveredLink ? 2 : 0.5)
+          // Optimisation 2 : Désactiver les particules animées par défaut (très gourmandes)
+          // On ne les active que sur le lien survolé
+          .linkDirectionalParticles(link => link === hoveredLink ? 4 : 0)
+          .linkDirectionalParticleSpeed(0.01)
+          .linkDirectionalParticleWidth(2)
+          .linkDirectionalParticleColor(() => '#00ff41');
 
-        Graph.d3Force('charge').strength(-400).distanceMax(500);
-        Graph.d3Force('link').distance(100);
+        // Optimisation 3 : Alléger les forces pour une stabilisation plus rapide
+        Graph.d3Force('charge').strength(-300).distanceMax(300);
+        Graph.d3Force('link').distance(80);
 
-        // Configuration spécifique 2D avec labels
+        // Optimisation 4 : Rendu Custom ultra-rapide
         Graph.nodeCanvasObject((node, ctx, globalScale) => {
-          const label = node.name;
-          const fontSize = (node.group === 1 ? 14 : 10) / globalScale;
-          ctx.font = `${fontSize}px Sans-Serif`;
-          const textWidth = ctx.measureText(label).width;
-          const bckgDimensions = [textWidth, fontSize].map(n => n + fontSize * 0.3);
-
+          const isHovered = node === hoveredNode;
+          
           // Cercle de fond
           ctx.beginPath();
-          ctx.arc(node.x, node.y, (node.val || 1) * 3, 0, 2 * Math.PI, false);
-          ctx.fillStyle = node.color || '#64748b';
+          ctx.arc(node.x, node.y, (node.val || 1) * (isHovered ? 4 : 3), 0, 2 * Math.PI, false);
+          ctx.fillStyle = node.color;
           ctx.fill();
 
-          // Label si assez zoomé ou nœud important
-          if (globalScale > 1.5 || node.group === 1 || node.group === 4) {
+          // N'afficher le texte que si on est zoomé, ou si c'est un nœud majeur, ou survolé
+          const showLabel = isHovered || globalScale > 2 || (globalScale > 0.8 && (node.group === 1 || node.group === 4));
+          
+          if (showLabel) {
+            const label = node.name;
+            const fontSize = (node.group === 1 ? 14 : 10) / globalScale;
+            ctx.font = `${fontSize}px Sans-Serif`;
+            
+            // Optimisation MAJEURE : Mettre en cache la taille du texte pour éviter measureText (très lent)
+            if (!node.__textWidth) {
+              node.__textWidth = ctx.measureText(label).width;
+            }
+            
+            const bckgDimensions = [node.__textWidth, fontSize].map(n => n + fontSize * 0.3);
+
             ctx.fillStyle = 'rgba(15, 23, 42, 0.9)';
             ctx.fillRect(node.x - bckgDimensions[0] / 2, node.y - fontSize * 2.2, bckgDimensions[0], bckgDimensions[1]);
             ctx.textAlign = 'center';
@@ -131,6 +145,15 @@
         })
         .onNodeHover(node => {
            elem.style.cursor = node && node.url ? 'pointer' : node ? 'crosshair' : 'grab';
+           hoveredNode = node;
+        })
+        .onLinkHover(link => {
+           hoveredLink = link;
+        })
+        // Optimisation 5 : Limiter la simulation physique et figer le graphe une fois stable (épargne le CPU/Batterie)
+        .cooldownTicks(150)
+        .onEngineStop(() => {
+           Graph.zoomToFit(400, 20);
         });
 
       } catch (err) {
@@ -153,6 +176,17 @@
       const filteredLinks = fullData.links.filter(link => 
         nodeIds.has(link.source.id || link.source) && nodeIds.has(link.target.id || link.target)
       );
+
+      // On réapplique la logique de couleur aux nouveaux noeuds au cas où
+      filteredNodes.forEach(node => {
+        if (!node.color) {
+          if (node.group === 1) node.color = '#ef4444';
+          else if (node.group === 2) node.color = '#3b82f6';
+          else if (node.group === 3) node.color = '#10b981';
+          else if (node.group === 4) node.color = '#f59e0b';
+          else node.color = '#64748b';
+        }
+      });
 
       Graph.graphData({ nodes: filteredNodes, links: filteredLinks });
       countDisplay.textContent = `${filteredNodes.length} nœuds affichés`;
