@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T23:09:25.688Z",
+  "lastUpdated": "2026-05-02T00:06:53.301Z",
   "totalBreaches": 1520,
   "breaches": [
     {
@@ -139,7 +139,16 @@
       "source": "christopheboutry.com",
       "AddedDate": "2026-05-01T23:09:16.750Z",
       "ModifiedDate": "2026-05-01T23:09:16.750Z",
-      "slug": "easy-cash-2"
+      "slug": "easy-cash-2",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Un cybercriminel a mis en vente une base de données contenant 17 861 681 enregistrements d'utilisateurs de l'enseigne Easy Cash le 29 avril 2026. Il s’agit probablement d’une compromission d’un compte utilisateur interne. L'enseigne a déjà fait l’objet d’une fuite de données en 2025.\n\nStatut: Revendiquée\nType de service: Achat-vente de produits d'occasion",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "lien": "https://haveibeenpwned.com/Breach/Easy Cash #2",
+      "index": 1896,
+      "title": "Easy Cash #2"
     },
     {
       "Name": "umanens",
