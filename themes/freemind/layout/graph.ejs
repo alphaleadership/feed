@@ -20,7 +20,7 @@
   </div>
 </div>
 
-<div id="3d-graph" style="width: 100%; height: 75vh; border: 2px solid #00ff41; border-radius: 8px; box-shadow: 0 0 15px rgba(0, 255, 65, 0.2); overflow: hidden; background-color: #0f172a;"></div>
+<div id="graph-container" style="width: 100%; height: 75vh; border: 2px solid #00ff41; border-radius: 8px; box-shadow: 0 0 15px rgba(0, 255, 65, 0.2); overflow: hidden; background-color: #0f172a;"></div>
 
 <style>
   .graph-tooltip {
@@ -52,13 +52,10 @@
   }
 </style>
 
-<script src="//unpkg.com/three@0.183.0/build/three.min.js"></script>
 <script src="//unpkg.com/force-graph"></script>
-<script src="//unpkg.com/3d-force-graph"></script>
-<script src="//unpkg.com/three-spritetext"></script>
 <script>
   document.addEventListener("DOMContentLoaded", () => {
-    const elem = document.getElementById('3d-graph');
+    const elem = document.getElementById('graph-container');
     const filterSelect = document.getElementById('category-filter');
     const countDisplay = document.getElementById('node-count');
     const legendItems = document.querySelectorAll('.legend-item');
@@ -66,43 +63,24 @@
 
     let fullData = { nodes: [], links: [] };
     let Graph = null;
-    let is3D = true;
     let hiddenGroups = new Set();
 
-    function isWebGLAvailable() {
-      try {
-        const canvas = document.createElement('canvas');
-        return !!(window.WebGLRenderingContext && (canvas.getContext('webgl') || canvas.getContext('experimental-webgl')));
-      } catch (e) {
-        return false;
-      }
-    }
-
     function initGraph(data) {
-      const use3D = isWebGLAvailable();
-      is3D = use3D;
-
       try {
-        if (use3D) {
-          Graph = ForceGraph3D()(elem);
-        } else {
-          console.warn("WebGL non disponible, basculement en mode 2D.");
-          Graph = ForceGraph()(elem);
-        }
+        Graph = ForceGraph()(elem);
 
         Graph.graphData(data)
           .nodeLabel(node => `<div class="graph-tooltip"><strong>${node.name || 'Inconnu'}</strong><br><small>${node.type || 'Non défini'}</small></div>`)
           .nodeColor(node => {
-            if (node.color) return node.color; // Utilise la couleur de catégorie si disponible
-            if (node.group === 1) return '#ef4444'; // Fuites (Rouge par défaut)
-            if (node.group === 2) return '#3b82f6'; // DataClasses (Bleu)
-            if (node.group === 3) return '#10b981'; // Categories (Vert)
-            if (node.group === 4) return '#f59e0b'; // Acteurs (Orange)
-            return '#64748b'; // Defaut
+            if (node.color) return node.color;
+            if (node.group === 1) return '#ef4444';
+            if (node.group === 2) return '#3b82f6';
+            if (node.group === 3) return '#10b981';
+            if (node.group === 4) return '#f59e0b';
+            return '#64748b';
           })
-          .nodeVal(node => (node.val || 1) * (use3D ? 1 : 2))
+          .nodeVal(node => (node.val || 1) * 2)
           .linkColor(link => {
-             // Utilise la couleur de la source (fuite) pour le lien si dispo
              const sourceNode = typeof link.source === 'object' ? link.source : data.nodes.find(n => n.id === link.source);
              return sourceNode && sourceNode.color ? `${sourceNode.color}44` : 'rgba(0, 255, 65, 0.2)';
           })
@@ -115,73 +93,40 @@
              return sourceNode && sourceNode.color ? sourceNode.color : '#00ff41';
           });
 
-        // Ajustement des forces pour mieux espacer (Espace minimum accru)
-        Graph.d3Force('charge')
-          .strength(-400)
-          .distanceMax(500)
-          .distanceMin(30); 
+        Graph.d3Force('charge').strength(-400).distanceMax(500);
         Graph.d3Force('link').distance(100);
 
-        if (use3D) {
-          Graph.backgroundColor('#0f172a')
-            .nodeThreeObject(node => {
-               // Rendu des labels en 3D pour les gros nœuds (Fuites et Acteurs)
-               if ((node.group === 1 || node.group === 4) && typeof SpriteText !== 'undefined') {
-                 const sprite = new SpriteText(node.name);
-                 sprite.color = node.color || (node.group === 1 ? '#ef4444' : '#f59e0b');
-                 sprite.textHeight = 8;
-                 sprite.padding = 2;
-                 sprite.backgroundColor = 'rgba(15, 23, 42, 0.8)';
-                 sprite.borderRadius = 4;
-                 return sprite;
-               }
-               return false; // Utilise la sphère par défaut pour les autres (colorée par nodeColor)
-            })
-            .nodeThreeObjectExtend(false); // IMPORTANT : ne pas ajouter l'objet à la sphère par défaut pour éviter le blanc
+        // Configuration spécifique 2D avec labels
+        Graph.nodeCanvasObject((node, ctx, globalScale) => {
+          const label = node.name;
+          const fontSize = (node.group === 1 ? 14 : 10) / globalScale;
+          ctx.font = `${fontSize}px Sans-Serif`;
+          const textWidth = ctx.measureText(label).width;
+          const bckgDimensions = [textWidth, fontSize].map(n => n + fontSize * 0.3);
 
-          const controls = Graph.controls();
-          if (controls) {
-            controls.autoRotate = true;
-            controls.autoRotateSpeed = 0.3;
+          // Cercle de fond
+          ctx.beginPath();
+          ctx.arc(node.x, node.y, (node.val || 1) * 3, 0, 2 * Math.PI, false);
+          ctx.fillStyle = node.color || '#64748b';
+          ctx.fill();
+
+          // Label si assez zoomé ou nœud important
+          if (globalScale > 1.5 || node.group === 1 || node.group === 4) {
+            ctx.fillStyle = 'rgba(15, 23, 42, 0.9)';
+            ctx.fillRect(node.x - bckgDimensions[0] / 2, node.y - fontSize * 2.2, bckgDimensions[0], bckgDimensions[1]);
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillStyle = '#fff';
+            ctx.fillText(label, node.x, node.y - fontSize * 1.8);
           }
-        } else {
-          // Configuration spécifique 2D
-          Graph.nodeCanvasObject((node, ctx, globalScale) => {
-            const label = node.name;
-            const fontSize = (node.group === 1 ? 14 : 10) / globalScale;
-            ctx.font = `${fontSize}px Sans-Serif`;
-            const textWidth = ctx.measureText(label).width;
-            const bckgDimensions = [textWidth, fontSize].map(n => n + fontSize * 0.3);
-
-            // Cercle de fond
-            ctx.beginPath();
-            ctx.arc(node.x, node.y, (node.val || 1) * 1.5, 0, 2 * Math.PI, false);
-            ctx.fillStyle = node.color;
-            ctx.fill();
-
-            // Label
-            if (globalScale > 1.5 || node.group === 1 || node.group === 4) {
-              ctx.fillStyle = 'rgba(15, 23, 42, 0.9)';
-              ctx.fillRect(node.x - bckgDimensions[0] / 2, node.y - fontSize * 1.5, bckgDimensions[0], bckgDimensions[1]);
-              ctx.textAlign = 'center';
-              ctx.textBaseline = 'middle';
-              ctx.fillStyle = '#fff';
-              ctx.fillText(label, node.x, node.y - fontSize * 1.1);
-            }
-          });
-        }
+        });
 
         Graph.onNodeClick(node => {
           if (node.url) {
             window.location.href = node.url;
-          } else if (use3D) {
-            const distance = 60;
-            const distRatio = 1 + distance/Math.hypot(node.x, node.y, node.z);
-            Graph.cameraPosition(
-              { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio },
-              node, 
-              2000
-            );
+          } else {
+            Graph.centerAt(node.x, node.y, 1000);
+            Graph.zoom(3, 1000);
           }
         })
         .onNodeHover(node => {
@@ -190,10 +135,6 @@
 
       } catch (err) {
         console.error("Erreur d'initialisation du graphe:", err);
-        if (use3D) {
-          elem.innerHTML = '';
-          initGraph(data); 
-        }
       }
     }
 
@@ -217,7 +158,6 @@
       countDisplay.textContent = `${filteredNodes.length} nœuds affichés`;
     }
 
-    // Gestion de la légende interactive
     legendItems.forEach(item => {
       item.addEventListener('click', () => {
         const group = parseInt(item.getAttribute('data-group'));
