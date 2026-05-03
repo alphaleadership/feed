@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-03T09:50:05.942Z",
+  "lastUpdated": "2026-05-03T10:56:26.338Z",
   "totalBreaches": 1524,
   "breaches": [
     {
-      "Name": "fédération française de basketball fuite du 2026-5-3",
+      "Name": "fédération française de basketball",
       "Title": "fédération française de basketball fuite du 2026-5-3",
-      "Domain": null,
+      "Domain": "ffbb.com",
       "BreachDate": "2026-5-3",
       "AddedDate": "2026-05-03T09:49:55.425Z",
       "ModifiedDate": "2026-05-03T09:49:55.425Z",
@@ -26,10 +26,20 @@
       "slug": "f-d-ration-fran-aise-de-basketball-fuite-du-2026-5-3",
       "path": "https://www.ffbb.com/actualites/la-ffbb-informe-dun-acces-non-autorise-a-ses-donnees-licencies",
       "formattedDate": "2026-05-03",
-      "index": 1899
+      "index": 1899,
+      "isBlocked": false,
+      "blockedNote": null,
+      "source": "Manuel",
+      "lien": "https://www.ffbb.com/actualites/la-ffbb-informe-dun-acces-non-autorise-a-ses-donnees-licencies",
+      "categories": [],
+      "content": "Nom\nprénom • Date de naissance • Adresse postale • Adresse électronique • Numéro de téléphone • Numéro de licence • Club •",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "oldindex": 1899,
+      "title": "fédération française de basketball fuite du 2026-5-3"
     },
     {
-      "Name": "interrail fuite du 2026-5-3",
+      "Name": "interrail",
       "Title": "interrail fuite du 2026-5-3",
       "Domain": null,
       "BreachDate": "2026-5-3",
@@ -53,7 +63,16 @@
       "path": "https://bonjourlafuite.eu.org/img/interrail.png",
       "formattedDate": "2026-05-03",
       "index": 1900,
-      "lien": "https://bonjourlafuite.eu.org/img/interrail.png"
+      "lien": "https://bonjourlafuite.eu.org/img/interrail.png",
+      "isBlocked": false,
+      "blockedNote": null,
+      "source": "Manuel",
+      "categories": [],
+      "content": "Nome\nprénom • Adresse email • Adresse postale • Numéro de téléphone • Numéro de passport\ndate de délivrance\ndate d’expiration • Accompagnants •",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "oldindex": 1900,
+      "title": "interrail fuite du 2026-5-3"
     },
     {
       "Name": "ObjetRama",
