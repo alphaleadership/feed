@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T19:19:21.154Z",
+  "lastUpdated": "2026-05-03T20:06:36.268Z",
   "totalBreaches": 1525,
   "breaches": [
     {
@@ -99,7 +99,15 @@
       "AddedDate": "2026-05-03T19:19:12.330Z",
       "ModifiedDate": "2026-05-03T19:19:12.330Z",
       "slug": "actradis",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/05/actradis-leak-fuites-de-donnees-scaled.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/05/actradis-leak-fuites-de-donnees-scaled.png",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Le 3 mai 2026, une fuite de données de la plateforme Actradis, service français de gestion de conformité documentaire client-fournisseur, a été publiée par un cybercriminel. Elle contient 305 082 fiches d'entreprises, exposant des données CRM, des contacts (noms, emails, téléphones), des détails de facturation et le statut de documents légaux (Kbis, URSSAF).\n\nStatut: Confirmée\nType de service: Plateforme de gestion de conformité client-fournisseur",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1901,
+      "title": "Actradis"
     },
     {
       "Name": "ObjetRama",
