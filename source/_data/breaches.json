@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T22:40:36.069Z",
+  "lastUpdated": "2026-05-04T23:37:17.689Z",
   "totalBreaches": 1533,
   "breaches": [
     {
@@ -140,7 +140,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1908,
-      "title": "Newdeal Institut"
+      "title": "Newdeal Institut",
+      "oldindex": 1908
     },
     {
       "Name": "École de conduite Vincent",
@@ -175,7 +176,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1909,
-      "title": "École de conduite Vincent"
+      "title": "École de conduite Vincent",
+      "oldindex": 1909
     },
     {
       "Name": "Auto École du Lys",
@@ -215,7 +217,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1910,
-      "title": "Auto École du Lys"
+      "title": "Auto École du Lys",
+      "oldindex": 1910
     },
     {
       "Name": "Auto École du Moulin",
@@ -248,7 +251,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1911,
-      "title": "Auto École du Moulin"
+      "title": "Auto École du Moulin",
+      "oldindex": 1911
     },
     {
       "Name": "fédération française de basketball",
