@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-04T18:56:58.104Z",
-  "totalBreaches": 1528,
+  "lastUpdated": "2026-05-04T20:21:19.588Z",
+  "totalBreaches": 1529,
   "breaches": [
     {
       "Name": "Smallable",
@@ -60,7 +60,41 @@
       "AddedDate": "2026-05-04T18:56:48.988Z",
       "ModifiedDate": "2026-05-04T18:56:48.988Z",
       "slug": "groupe-gca",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/05/GCA-group-leak-fuites-de-donnees-scaled.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/05/GCA-group-leak-fuites-de-donnees-scaled.png",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Le 4 mai 2026, le groupe Dumpsec a mis en vente sur un forum les données du Groupe GCA, un réseau de concessions automobiles, concernant 65 000 clients et 2 500 employés. Les données les plus récentes datent du 20 avril 2026.\n\nStatut: Revendiquée\nType de service: Concessionnaire automobile",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1906,
+      "title": "Groupe GCA"
+    },
+    {
+      "Name": "La Redoute",
+      "Title": "La Redoute",
+      "Domain": "laredoute.fr",
+      "BreachDate": "2026-05-04",
+      "PwnCount": 66800,
+      "Description": "Fuite de données logistiques impactant environ 66 800 clients uniques, publiée par un cybercriminel. Les données proviendraient d'un export d'un partenaire logistique, potentiellement Relais Colis, et concernent des commandes passées entre avril 2025 et février 2026.\n\nStatut: Revendiquée\nType de service: E-commerce &amp; Mode",
+      "DataClasses": [
+        "Informations personnelles (nom, prénom, adresse postale, email, numéro de téléphone)",
+        "Informations client (idClient)",
+        "Détails de commande",
+        "Historique de suivi logistique"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://prmeng.rosselcdn.net/sites/default/files/dpistyles_v2/prm_16_9_856w/2022/10/04/node_347967/39183919/public/2022/10/04/B9732298682Z.1_20221004114032_000%2BGR7LCQK0U.2-0.jpg?itok=VMuRxLGF1664876438",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/05/la-redoute-leak-fuites-de-donnees-scaled.png",
+      "AddedDate": "2026-05-04T20:21:10.787Z",
+      "ModifiedDate": "2026-05-04T20:21:10.787Z",
+      "slug": "la-redoute",
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/05/la-redoute-leak-fuites-de-donnees-scaled.png"
     },
     {
       "Name": "fédération française de basketball",
