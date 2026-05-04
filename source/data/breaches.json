@@ -1,7 +1,32 @@
 {
-  "lastUpdated": "2026-05-04T13:10:25.173Z",
-  "totalBreaches": 1526,
+  "lastUpdated": "2026-05-04T15:22:50.139Z",
+  "totalBreaches": 1527,
   "breaches": [
+    {
+      "Name": "Smallable",
+      "Title": "Smallable",
+      "Domain": "smallable.com",
+      "BreachDate": "2026-05-04",
+      "PwnCount": 677023,
+      "Description": "La fuite de données du site e-commerce Smallable.com (mode pour enfants) expose 677 023 profils d'enfants. Ces informations, généralement renseignées par les parents pour des offres d'anniversaire, ont été publiées sur un forum cybercriminel. Le fichier ne contient pas d'informations de contact directes (email, nom des parents).\n\nStatut: Revendiquée\nType de service: E-commerce (mode enfant)",
+      "DataClasses": [
+        "Prénom",
+        "Sexe",
+        "Date de naissance"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://www.unenfantparlamain.org/files/2019/11/760px-%C3%97-460px-%E2%80%93-image-dans-page-Word-press.png",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/05/smallable-fuites-de-donnees-leak.png",
+      "AddedDate": "2026-05-04T15:22:40.856Z",
+      "ModifiedDate": "2026-05-04T15:22:40.856Z",
+      "slug": "smallable",
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/05/smallable-fuites-de-donnees-leak.png"
+    },
     {
       "Name": "fédération française de basketball",
       "Title": "fédération française de basketball fuite du 2026-5-3",
