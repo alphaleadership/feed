@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-04T17:11:42.119Z",
-  "totalBreaches": 1527,
+  "lastUpdated": "2026-05-04T18:56:58.104Z",
+  "totalBreaches": 1528,
   "breaches": [
     {
       "Name": "Smallable",
@@ -33,7 +33,34 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1905,
-      "title": "Smallable"
+      "title": "Smallable",
+      "oldindex": 1905
+    },
+    {
+      "Name": "Groupe GCA",
+      "Title": "Groupe GCA",
+      "Domain": "groupegca.com",
+      "BreachDate": "2026-05-04",
+      "PwnCount": 67500,
+      "Description": "Le 4 mai 2026, le groupe Dumpsec a mis en vente sur un forum les données du Groupe GCA, un réseau de concessions automobiles, concernant 65 000 clients et 2 500 employés. Les données les plus récentes datent du 20 avril 2026.\n\nStatut: Revendiquée\nType de service: Concessionnaire automobile",
+      "DataClasses": [
+        "Identité (Nom, Prénom, Adresse postale, E-mail, Téléphone)",
+        "Données véhicule (Marque, Modèle, Immatriculation, Numéro de série VIN, Kilométrage)",
+        "Informations contractuelles (Dates, Montants, Concession)",
+        "Données employés (Coordonnées, Identifiants internes)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://yt3.googleusercontent.com/2amYe-CRqIdlgoWXvJ-WhRIlGcuacOqH8z_GL5FV703nKN82GAqkvRsgyEakySwDVgueSABAAg=s900-c-k-c0x00ffffff-no-rj",
+      "source": "https://fuitesinfos.fr/wp-content/uploads/2026/05/GCA-group-leak-fuites-de-donnees-scaled.png",
+      "AddedDate": "2026-05-04T18:56:48.988Z",
+      "ModifiedDate": "2026-05-04T18:56:48.988Z",
+      "slug": "groupe-gca",
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/05/GCA-group-leak-fuites-de-donnees-scaled.png"
     },
     {
       "Name": "fédération française de basketball",
