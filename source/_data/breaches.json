@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T21:38:20.890Z",
+  "lastUpdated": "2026-05-04T22:40:36.069Z",
   "totalBreaches": 1533,
   "breaches": [
     {
@@ -103,7 +103,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1907,
-      "title": "La Redoute"
+      "title": "La Redoute",
+      "oldindex": 1907
     },
     {
       "Name": "Newdeal Institut",
@@ -131,7 +132,15 @@
       "AddedDate": "2026-05-04T21:38:11.547Z",
       "ModifiedDate": "2026-05-04T21:38:11.547Z",
       "slug": "newdeal-institut",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/05/newdealinstitute-leak-fuites-de-donnees-scaled.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/05/newdealinstitute-leak-fuites-de-donnees-scaled.png",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Le 4 mai 2026, l'acteur de la menace ChimeraZ a publié une base de données de 34 Mo appartenant à Newdeal Institut, un centre de formation en langues. Cette fuite, se présentant comme une extraction applicative complète, contient les informations de 3058 personnes et 4531 organisations, et expose notamment 85 mots de passe en clair, 52 CV et des signatures numériques.\n\nStatut: Revendiquée\nType de service: Centre de formation en langues",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1908,
+      "title": "Newdeal Institut"
     },
     {
       "Name": "École de conduite Vincent",
@@ -158,7 +167,15 @@
       "AddedDate": "2026-05-04T21:38:11.558Z",
       "ModifiedDate": "2026-05-04T21:38:11.558Z",
       "slug": "cole-de-conduite-vincent",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/05/auto-ecole-leak-fuite-de-donnees-scaled.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/05/auto-ecole-leak-fuite-de-donnees-scaled.png",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Une fuite de données a exposé les informations de 1 556 candidats de l'auto-école École de conduite Vincent, située à Ancenis-Saint-Géréon. La fuite provient vraisemblablement d'un logiciel de gestion des candidats et contient des informations détaillées et très récentes sur le suivi des examens.\n\nStatut: Confirmée\nType de service: Auto-école / Formation à la conduite",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1909,
+      "title": "École de conduite Vincent"
     },
     {
       "Name": "Auto École du Lys",
@@ -190,7 +207,15 @@
       "AddedDate": "2026-05-04T21:38:11.567Z",
       "ModifiedDate": "2026-05-04T21:38:11.567Z",
       "slug": "auto-cole-du-lys",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/05/auto-ecole-leak-fuite-de-donnees-scaled.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/05/auto-ecole-leak-fuite-de-donnees-scaled.png",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Fuite de données concernant 220 candidats de l'Auto École du Lys. Les données sont très récentes, avec des dates d'examens allant jusqu'en avril 2026, et semblent provenir d'un export d'un logiciel de gestion.\n\nStatut: confirmée\nType de service: Auto-école",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1910,
+      "title": "Auto École du Lys"
     },
     {
       "Name": "Auto École du Moulin",
@@ -215,7 +240,15 @@
       "AddedDate": "2026-05-04T21:38:11.577Z",
       "ModifiedDate": "2026-05-04T21:38:11.577Z",
       "slug": "auto-cole-du-moulin",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/05/auto-ecole-leak-fuite-de-donnees-scaled.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/05/auto-ecole-leak-fuite-de-donnees-scaled.png",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Fuite de données de 428 candidats de l'Auto École du Moulin (La Rochelle). L'historique des examens s'étend jusqu'en 2026.\n\nStatut: Confirmée\nType de service: Auto-école",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1911,
+      "title": "Auto École du Moulin"
     },
     {
       "Name": "fédération française de basketball",
