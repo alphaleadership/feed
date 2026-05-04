@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T04:10:08.545Z",
+  "lastUpdated": "2026-05-04T07:25:00.557Z",
   "totalBreaches": 1526,
   "breaches": [
     {
@@ -35,7 +35,7 @@
       "content": "Nom\nprénom • Date de naissance • Adresse postale • Adresse électronique • Numéro de téléphone • Numéro de licence • Club •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1899,
+      "oldindex": 1900,
       "title": "fédération française de basketball fuite du 2026-5-3"
     },
     {
@@ -71,7 +71,7 @@
       "content": "Nome\nprénom • Adresse email • Adresse postale • Numéro de téléphone • Numéro de passport\ndate de délivrance\ndate d’expiration • Accompagnants •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1900,
+      "oldindex": 1901,
       "title": "interrail fuite du 2026-5-3"
     },
     {
@@ -108,7 +108,7 @@
       "nsfwConfidence": 0,
       "index": 1902,
       "title": "Actradis",
-      "oldindex": 1901
+      "oldindex": 1902
     },
     {
       "Name": "ObjetRama",
@@ -143,7 +143,7 @@
       "nsfwConfidence": 0,
       "index": 1899,
       "title": "ObjetRama",
-      "oldindex": 1898
+      "oldindex": 1899
     },
     {
       "Name": "Madeindesign",
@@ -180,7 +180,7 @@
       "lien": "https://haveibeenpwned.com/Breach/Madeindesign",
       "index": 1895,
       "title": "Madeindesign",
-      "oldindex": 1894
+      "oldindex": 1895
     },
     {
       "Name": "La Pizza de Nico",
@@ -214,7 +214,7 @@
       "nsfwConfidence": 0,
       "index": 1896,
       "title": "La Pizza de Nico",
-      "oldindex": 1895
+      "oldindex": 1896
     },
     {
       "Name": "Faco Paris",
@@ -257,7 +257,7 @@
       "nsfwConfidence": 0,
       "index": 1897,
       "title": "Faco Paris",
-      "oldindex": 1896
+      "oldindex": 1897
     },
     {
       "Name": "Easy Cash #2",
@@ -292,7 +292,7 @@
       "lien": "https://haveibeenpwned.com/Breach/Easy Cash #2",
       "index": 1898,
       "title": "Easy Cash #2",
-      "oldindex": 1897
+      "oldindex": 1898
     },
     {
       "Name": "umanens",
@@ -423,7 +423,17 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1892
+      "index": 1892,
+      "isBlocked": false,
+      "blockedNote": null,
+      "source": "Manuel",
+      "categories": [],
+      "content": "In April 2026, the gaming community Reborn Gaming suffered a data breach due to a vulnerability in cPanel and WebHost Manager (WHM). The breach exposed 126 unique email addresses along with IP addresses and Steam IDs. Reborn Gaming self-submitted the data to Have I Been Pwned.",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "lien": "https://haveibeenpwned.com/Breach/RebornGaming",
+      "oldindex": 1892,
+      "title": "Reborn Gaming"
     },
     {
       "Name": "métropole de bordeaux",
