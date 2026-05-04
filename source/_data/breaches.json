@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-04T00:04:23.146Z",
-  "totalBreaches": 1525,
+  "lastUpdated": "2026-05-04T04:10:08.545Z",
+  "totalBreaches": 1526,
   "breaches": [
     {
       "Name": "fédération française de basketball",
@@ -26,7 +26,7 @@
       "slug": "f-d-ration-fran-aise-de-basketball-fuite-du-2026-5-3",
       "path": "https://www.ffbb.com/actualites/la-ffbb-informe-dun-acces-non-autorise-a-ses-donnees-licencies",
       "formattedDate": "2026-05-03",
-      "index": 1899,
+      "index": 1900,
       "isBlocked": false,
       "blockedNote": null,
       "source": "Manuel",
@@ -62,7 +62,7 @@
       "slug": "interrail-fuite-du-2026-5-3",
       "path": "https://bonjourlafuite.eu.org/img/interrail.png",
       "formattedDate": "2026-05-03",
-      "index": 1900,
+      "index": 1901,
       "lien": "https://bonjourlafuite.eu.org/img/interrail.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -106,7 +106,7 @@
       "content": "Le 3 mai 2026, une fuite de données de la plateforme Actradis, service français de gestion de conformité documentaire client-fournisseur, a été publiée par un cybercriminel. Elle contient 305 082 fiches d'entreprises, exposant des données CRM, des contacts (noms, emails, téléphones), des détails de facturation et le statut de documents légaux (Kbis, URSSAF).\n\nStatut: Confirmée\nType de service: Plateforme de gestion de conformité client-fournisseur",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1901,
+      "index": 1902,
       "title": "Actradis",
       "oldindex": 1901
     },
@@ -141,7 +141,7 @@
       "content": "Un cybercriminel a publié 209 410 commandes appartenant à ObjetRama, spécialiste des objets publicitaires. Cette fuite, couvrant la période de mai 2019 à avril 2026, impacterait environ 80 300 clients uniques.\n\nStatut: Revendiquée\nType de service: Objets publicitaires",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1898,
+      "index": 1899,
       "title": "ObjetRama",
       "oldindex": 1898
     },
@@ -178,7 +178,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Madeindesign",
-      "index": 1894,
+      "index": 1895,
       "title": "Madeindesign",
       "oldindex": 1894
     },
@@ -212,7 +212,7 @@
       "content": "Un cybercriminel a publié une base de données de 67 767 clients de la chaîne de pizzerias 'La Pizza de Nico', couvrant la période d'avril 2017 à août 2025.\n\nStatut: Revendiquée\nType de service: Restauration",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1895,
+      "index": 1896,
       "title": "La Pizza de Nico",
       "oldindex": 1895
     },
@@ -255,7 +255,7 @@
       "content": "L'acteur de la menace 'Spirigatito' revendique une fuite de 12 Go. La fuite, qui daterait de 2025, concernerait les promotions 2021 à 2024 et inclurait 11 447 documents personnels (pièces d'identité, passeports, IBANs, diplômes).\n\nStatut: Revendiquée\nType de service: Faculté privée de Droit, Économie, Gestion",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1896,
+      "index": 1897,
       "title": "Faco Paris",
       "oldindex": 1896
     },
@@ -290,7 +290,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Easy Cash #2",
-      "index": 1897,
+      "index": 1898,
       "title": "Easy Cash #2",
       "oldindex": 1897
     },
@@ -398,6 +398,32 @@
       "index": 1891,
       "title": "Deltadore",
       "oldindex": 1891
+    },
+    {
+      "Name": "RebornGaming",
+      "Title": "Reborn Gaming",
+      "Domain": "reborngaming.net",
+      "BreachDate": "2026-04-30",
+      "AddedDate": "2026-05-04T03:43:06Z",
+      "ModifiedDate": "2026-05-04T03:43:06Z",
+      "PwnCount": 126,
+      "Description": "In April 2026, the gaming community Reborn Gaming suffered a data breach due to a vulnerability in cPanel and WebHost Manager (WHM). The breach exposed 126 unique email addresses along with IP addresses and Steam IDs. Reborn Gaming self-submitted the data to Have I Been Pwned.",
+      "LogoPath": "https://logos.haveibeenpwned.com/RebornGaming.png",
+      "Attribution": null,
+      "DisclosureUrl": "https://reborngaming.net/threads/6120/",
+      "DataClasses": [
+        "Email addresses",
+        "IP addresses"
+      ],
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "index": 1892
     },
     {
       "Name": "métropole de bordeaux",
