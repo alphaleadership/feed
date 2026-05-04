@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T15:22:50.139Z",
+  "lastUpdated": "2026-05-04T17:11:42.119Z",
   "totalBreaches": 1527,
   "breaches": [
     {
@@ -25,7 +25,15 @@
       "AddedDate": "2026-05-04T15:22:40.856Z",
       "ModifiedDate": "2026-05-04T15:22:40.856Z",
       "slug": "smallable",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/05/smallable-fuites-de-donnees-leak.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/05/smallable-fuites-de-donnees-leak.png",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "La fuite de données du site e-commerce Smallable.com (mode pour enfants) expose 677 023 profils d'enfants. Ces informations, généralement renseignées par les parents pour des offres d'anniversaire, ont été publiées sur un forum cybercriminel. Le fichier ne contient pas d'informations de contact directes (email, nom des parents).\n\nStatut: Revendiquée\nType de service: E-commerce (mode enfant)",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1905,
+      "title": "Smallable"
     },
     {
       "Name": "fédération française de basketball",
