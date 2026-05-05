@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-05T14:30:11.279Z",
-  "totalBreaches": 1533,
+  "lastUpdated": "2026-05-05T15:01:54.193Z",
+  "totalBreaches": 1532,
   "breaches": [
     {
       "Name": "Smallable",
@@ -2835,46 +2835,6 @@
       "lien": "https://haveibeenpwned.com/Breach/McGrawHill",
       "oldindex": 1806,
       "title": "McGraw Hill"
-    },
-    {
-      "Name": "son",
-      "Title": "son fuite du 2026-4-10",
-      "Domain": null,
-      "BreachDate": "2026-4-10",
-      "AddedDate": "2026-05-02T09:16:57.107Z",
-      "ModifiedDate": "2026-05-02T09:16:57.107Z",
-      "PwnCount": 0,
-      "Description": "Nom\nprénom • Adresse email • Adresse postale • Numéro de téléphone • Historique des commandes •",
-      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
-      "Attribution": null,
-      "DisclosureUrl": null,
-      "DataClasses": [
-        "Informations d'identité (Nom, prénom, civilité)",
-        "Coordonnées (Adresse email, numéro de téléphone, adresse postale)",
-        "Données commerciales (Historique des commandes)"
-      ],
-      "IsVerified": false,
-      "IsFabricated": false,
-      "IsSensitive": false,
-      "IsRetired": false,
-      "IsSpamList": false,
-      "IsMalware": false,
-      "IsSubscriptionFree": false,
-      "IsStealerLog": false,
-      "slug": "son-fuite-du-2026-4-10",
-      "path": "https://bonjourlafuite.eu.org/img/son-video.png",
-      "formattedDate": "2026-04-10",
-      "index": 1807,
-      "lien": "https://bonjourlafuite.eu.org/img/son-video.png",
-      "isBlocked": false,
-      "blockedNote": null,
-      "source": "Manuel",
-      "categories": [],
-      "content": "Nom\nprénom • Adresse email • Adresse postale • Numéro de téléphone • Historique des commandes •",
-      "isNSFW": false,
-      "nsfwConfidence": 0,
-      "oldindex": 1807,
-      "title": "son fuite du 2026-4-10"
     },
     {
       "Name": "DCL (Diplôme de Compétence en Langue)",
