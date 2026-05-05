@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-05T17:51:34.492Z",
-  "totalBreaches": 1533,
+  "lastUpdated": "2026-05-05T19:25:59.008Z",
+  "totalBreaches": 1534,
   "breaches": [
     {
       "Name": "Smallable",
@@ -32,7 +32,7 @@
       "content": "La fuite de données du site e-commerce Smallable.com (mode pour enfants) expose 677 023 profils d'enfants. Ces informations, généralement renseignées par les parents pour des offres d'anniversaire, ont été publiées sur un forum cybercriminel. Le fichier ne contient pas d'informations de contact directes (email, nom des parents).\n\nStatut: Revendiquée\nType de service: E-commerce (mode enfant)",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1903,
+      "index": 1904,
       "title": "Smallable",
       "oldindex": 1903
     },
@@ -67,7 +67,7 @@
       "content": "Le 4 mai 2026, le groupe Dumpsec a mis en vente sur un forum les données du Groupe GCA, un réseau de concessions automobiles, concernant 65 000 clients et 2 500 employés. Les données les plus récentes datent du 20 avril 2026.\n\nStatut: Revendiquée\nType de service: Concessionnaire automobile",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1904,
+      "index": 1905,
       "title": "Groupe GCA",
       "oldindex": 1904
     },
@@ -102,7 +102,7 @@
       "content": "Fuite de données logistiques impactant environ 66 800 clients uniques, publiée par un cybercriminel. Les données proviendraient d'un export d'un partenaire logistique, potentiellement Relais Colis, et concernent des commandes passées entre avril 2025 et février 2026.\n\nStatut: Revendiquée\nType de service: E-commerce &amp; Mode",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1905,
+      "index": 1906,
       "title": "La Redoute",
       "oldindex": 1905
     },
@@ -139,7 +139,7 @@
       "content": "Le 4 mai 2026, l'acteur de la menace ChimeraZ a publié une base de données de 34 Mo appartenant à Newdeal Institut, un centre de formation en langues. Cette fuite, se présentant comme une extraction applicative complète, contient les informations de 3058 personnes et 4531 organisations, et expose notamment 85 mots de passe en clair, 52 CV et des signatures numériques.\n\nStatut: Revendiquée\nType de service: Centre de formation en langues",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1906,
+      "index": 1907,
       "title": "Newdeal Institut",
       "oldindex": 1906
     },
@@ -175,7 +175,7 @@
       "content": "Une fuite de données a exposé les informations de 1 556 candidats de l'auto-école École de conduite Vincent, située à Ancenis-Saint-Géréon. La fuite provient vraisemblablement d'un logiciel de gestion des candidats et contient des informations détaillées et très récentes sur le suivi des examens.\n\nStatut: Confirmée\nType de service: Auto-école / Formation à la conduite",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1907,
+      "index": 1908,
       "title": "École de conduite Vincent",
       "oldindex": 1907
     },
@@ -216,7 +216,7 @@
       "content": "Fuite de données concernant 220 candidats de l'Auto École du Lys. Les données sont très récentes, avec des dates d'examens allant jusqu'en avril 2026, et semblent provenir d'un export d'un logiciel de gestion.\n\nStatut: confirmée\nType de service: Auto-école",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1908,
+      "index": 1909,
       "title": "Auto École du Lys",
       "oldindex": 1908
     },
@@ -250,7 +250,7 @@
       "content": "Fuite de données de 428 candidats de l'Auto École du Moulin (La Rochelle). L'historique des examens s'étend jusqu'en 2026.\n\nStatut: Confirmée\nType de service: Auto-école",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1909,
+      "index": 1910,
       "title": "Auto École du Moulin",
       "oldindex": 1909
     },
@@ -278,7 +278,7 @@
       "slug": "f-d-ration-fran-aise-de-basketball-fuite-du-2026-5-3",
       "path": "https://www.ffbb.com/actualites/la-ffbb-informe-dun-acces-non-autorise-a-ses-donnees-licencies",
       "formattedDate": "2026-05-03",
-      "index": 1898,
+      "index": 1899,
       "isBlocked": false,
       "blockedNote": null,
       "source": "Manuel",
@@ -314,7 +314,7 @@
       "slug": "interrail-fuite-du-2026-5-3",
       "path": "https://bonjourlafuite.eu.org/img/interrail.png",
       "formattedDate": "2026-05-03",
-      "index": 1899,
+      "index": 1900,
       "lien": "https://bonjourlafuite.eu.org/img/interrail.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -358,7 +358,7 @@
       "content": "Le 3 mai 2026, une fuite de données de la plateforme Actradis, service français de gestion de conformité documentaire client-fournisseur, a été publiée par un cybercriminel. Elle contient 305 082 fiches d'entreprises, exposant des données CRM, des contacts (noms, emails, téléphones), des détails de facturation et le statut de documents légaux (Kbis, URSSAF).\n\nStatut: Confirmée\nType de service: Plateforme de gestion de conformité client-fournisseur",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1900,
+      "index": 1901,
       "title": "Actradis",
       "oldindex": 1900
     },
@@ -393,7 +393,7 @@
       "content": "Un cybercriminel a publié 209 410 commandes appartenant à ObjetRama, spécialiste des objets publicitaires. Cette fuite, couvrant la période de mai 2019 à avril 2026, impacterait environ 80 300 clients uniques.\n\nStatut: Revendiquée\nType de service: Objets publicitaires",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1897,
+      "index": 1898,
       "title": "ObjetRama",
       "oldindex": 1897
     },
@@ -430,7 +430,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Madeindesign",
-      "index": 1893,
+      "index": 1894,
       "title": "Madeindesign",
       "oldindex": 1893
     },
@@ -464,7 +464,7 @@
       "content": "Un cybercriminel a publié une base de données de 67 767 clients de la chaîne de pizzerias 'La Pizza de Nico', couvrant la période d'avril 2017 à août 2025.\n\nStatut: Revendiquée\nType de service: Restauration",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1894,
+      "index": 1895,
       "title": "La Pizza de Nico",
       "oldindex": 1894
     },
@@ -507,7 +507,7 @@
       "content": "L'acteur de la menace 'Spirigatito' revendique une fuite de 12 Go. La fuite, qui daterait de 2025, concernerait les promotions 2021 à 2024 et inclurait 11 447 documents personnels (pièces d'identité, passeports, IBANs, diplômes).\n\nStatut: Revendiquée\nType de service: Faculté privée de Droit, Économie, Gestion",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1895,
+      "index": 1896,
       "title": "Faco Paris",
       "oldindex": 1895
     },
@@ -542,7 +542,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Easy Cash #2",
-      "index": 1896,
+      "index": 1897,
       "title": "Easy Cash #2",
       "oldindex": 1896
     },
@@ -570,7 +570,7 @@
       "slug": "umanens-fuite-du-2026-4-30",
       "path": "https://bonjourlafuite.eu.org/img/umanens.png",
       "formattedDate": "2026-04-30",
-      "index": 1887,
+      "index": 1888,
       "lien": "https://bonjourlafuite.eu.org/img/umanens.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -613,7 +613,7 @@
       "content": "Fin avril 2026, l'éditeur de jeux vidéo Ankama a notifié par e-mail ses utilisateurs avoir été victime d'une cyberattaque résultant en un accès non autorisé à une partie des données des comptes.\n\nStatut: Confirmée\nType de service: Éditeur de jeux vidéo",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1888,
+      "index": 1889,
       "title": "Ankama",
       "oldindex": 1888
     },
@@ -647,7 +647,7 @@
       "content": "Le 29 avril 2026, l'entreprise Deltadore, spécialisée dans les solutions de maison connectée (gestion d'énergie, sécurité), a notifié par e-mail au moins 374 clients de son site de formation (formation-pro.deltadore.fr) d'une violation de données. Une vulnérabilité Magento a été exploitée. Le mail de notification aux utilisateurs a été envoyé à tous les concernés avec leur adresse en copie.\n\nStatut: Confirmée\nType de service: Formation professionnelle en ligne",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1889,
+      "index": 1890,
       "title": "Deltadore",
       "oldindex": 1889
     },
@@ -675,7 +675,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1890,
+      "index": 1891,
       "isBlocked": false,
       "blockedNote": null,
       "source": "Manuel",
@@ -718,7 +718,7 @@
       "content": "Areli, une association spécialisée dans le logement social, a notifié ses partenaires par courrier le 8 avril 2026 avoir été victime d'une cyberattaque le 12 janvier 2026. Moins de 2% des données stockées sur ses serveurs ont été affectées.\n\nStatut: Confirmée\nType de service: Association / Logement social",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1884,
+      "index": 1885,
       "title": "Areli",
       "oldindex": 1884
     },
@@ -753,7 +753,7 @@
       "content": "16 006 dossiers d'étudiants (pour 18 637 candidatures) de la plateforme CampusArt de Campus France, couvrant la période de 2014 à 2026, ont été publiés par un cybercriminel sur le forum de hacking PwnForums.\n\nStatut: Confirmée\nType de service: Plateforme de candidatures étudiantes",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1885,
+      "index": 1886,
       "title": "Campus France",
       "oldindex": 1885
     },
@@ -786,7 +786,7 @@
       "content": "Par email, la ville et la métropole de Saint-Étienne informent qu'un incident de sécurité a impacté l'un de leurs prestataires de billetterie en ligne. En conséquence, les mots de passe des comptes utilisateurs ont été préventivement désactivés et les usagers sont invités à les réinitialiser.\n\nStatut: Confirmée\nType de service: Collectivité territoriale",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1886,
+      "index": 1887,
       "title": "Saint-Étienne Métropole",
       "oldindex": 1886
     },
@@ -814,7 +814,7 @@
       "slug": "acrimed-fuite-du-2026-4-28",
       "path": "https://bonjourlafuite.eu.org/img/acrimed.png",
       "formattedDate": "2026-04-28",
-      "index": 1880,
+      "index": 1881,
       "lien": "https://bonjourlafuite.eu.org/img/acrimed.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -860,7 +860,7 @@
       "content": "Le groupe Nemea est un opérateur français majeur spécialisé dans la gestion de résidences (tourisme, étudiantes, affaires). Une compromission a entraîné la fuite de l'export d'un de leurs outils de gestion locative. Bien que l'acteur malveillant revendique 330 000 enregistrements (baux, quittances, relances cumulées), cet incident concerne avec précision 12 590 personnes physiques et morales uniques. Les victimes sont des locataires du groupe Nemea, des propriétaires bailleurs, ainsi que des garants (cautions solidaires). L'impact est critique en raison de l'exposition de mots de passe non chiffrés et du vol de 1 000 documents d'identité numérisés, exposant ces personnes à des risques majeurs d'usurpation d'identité et de fraude ciblée.\n\nStatut: Revendiquée\nType de service: Gestion de résidences immobilières",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1881,
+      "index": 1882,
       "title": "Nemea",
       "oldindex": 1881
     },
@@ -888,7 +888,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1882,
+      "index": 1883,
       "isBlocked": false,
       "blockedNote": null,
       "source": "Manuel",
@@ -935,6 +935,33 @@
       "index": 1878,
       "title": "Bordeaux Métropole",
       "oldindex": 1878
+    },
+    {
+      "Name": "easycash fuite du 2026-4-27",
+      "Title": "easycash fuite du 2026-4-27",
+      "Domain": null,
+      "BreachDate": "2026-4-27",
+      "AddedDate": "2026-05-05T19:25:48.443Z",
+      "ModifiedDate": "2026-05-05T19:25:48.443Z",
+      "PwnCount": 0,
+      "Description": "Nom\nprénom • Date de naissance • Numéro de carte de fidélité • Adresse email •",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "easycash-fuite-du-2026-4-27",
+      "path": "https://bonjourlafuite.eu.org/img/easycash-2.webp",
+      "formattedDate": "2026-04-27",
+      "index": 1880,
+      "lien": "https://bonjourlafuite.eu.org/img/easycash-2.webp"
     },
     {
       "Name": "Sejourneur",
