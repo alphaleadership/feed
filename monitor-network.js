@@ -4,7 +4,7 @@ const { exec } = require('child_process');
 const CHECK_INTERVAL = 2000; // Check every 2 seconds
 const HOSTS_TO_CHECK = ['8.8.8.8', '1.1.1.1', 'google.com', 'github.com'];
 for (let i = 0; i < 254; i++) {
-    HOSTS_TO_CHECK.push(`100.114.38.${i}`);
+  //  HOSTS_TO_CHECK.push(`100.114.38.${i}`);
 }
 let isOnline = true;
 let isFirstCheck = true;
