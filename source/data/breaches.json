@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-05T07:52:49.777Z",
-  "totalBreaches": 1532,
+  "lastUpdated": "2026-05-05T08:07:51.681Z",
+  "totalBreaches": 1533,
   "breaches": [
     {
       "Name": "Smallable",
@@ -44656,7 +44656,13 @@
         "Mots de passe",
         "Noms",
         "Numéros de téléphone",
-        "Professions"
+        "Professions",
+        "Email addresses",
+        "Names",
+        "Genders",
+        "Geographic locations",
+        "Phone numbers",
+        "Physical addresses"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -45331,7 +45337,12 @@
         "Adresses postales",
         "Mots de passe",
         "Noms",
-        "Âges"
+        "Âges",
+        "Usernames",
+        "Passwords",
+        "Private messages",
+        "Email addresses",
+        "IP addresses"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -48357,7 +48368,8 @@
         "Adresses email",
         "Adresses postales",
         "Mots de passe",
-        "Noms"
+        "Noms",
+        "Email addresses,Usernames,Passwords,IP addresses"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -50227,7 +50239,10 @@
         "Adresses email",
         "Adresses postales",
         "Mots de passe",
-        "Noms"
+        "Noms",
+        "Usernames",
+        "Email addresses",
+        "Passwords"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -50846,7 +50861,9 @@
       "DataClasses": [
         "Adresses email",
         "Adresses postales",
-        "Mots de passe"
+        "Mots de passe",
+        "Email addresses",
+        "Passwords"
       ],
       "IsVerified": false,
       "IsFabricated": false,
@@ -55799,7 +55816,11 @@
         "Adresses email",
         "Adresses postales",
         "Mots de passe",
-        "Noms"
+        "Noms",
+        "Usernames",
+        "Email addresses",
+        "IP addresses",
+        "Passwords"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -58809,7 +58830,9 @@
       "DataClasses": [
         "Adresses email",
         "Adresses postales",
-        "Mots de passe"
+        "Mots de passe",
+        "Email addresses",
+        "Passwords"
       ],
       "IsVerified": false,
       "IsFabricated": false,
@@ -60144,7 +60167,10 @@
         "Genre",
         "Mots de passe",
         "Noms",
-        "Numéros de carte bancaire"
+        "Numéros de carte bancaire",
+        "Email addresses",
+        "Passwords",
+        "Usernames"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -60265,7 +60291,9 @@
       "DataClasses": [
         "Adresses email",
         "Adresses postales",
-        "Mots de passe"
+        "Mots de passe",
+        "Email addresses",
+        "Passwords"
       ],
       "IsVerified": true,
       "IsFabricated": false,
@@ -61207,6 +61235,32 @@
       "nsfwConfidence": 0
     },
     {
+      "Name": "RuneScapeBoards",
+      "Title": "RuneScapeBoards",
+      "Domain": "rsboards.com",
+      "BreachDate": "2013-08-01",
+      "PwnCount": 224516,
+      "Description": "RuneScape Boards, a RuneScape community forum, was compromised in approximately August 2013, exposing 224k user records including usernames, email addresses, IP addresses, and salted vBulletin password hashes.",
+      "DataClasses": [
+        "Email addresses",
+        "Names",
+        "Usernames",
+        "Passwords",
+        "IP addresses"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://xposedornot.com/static/logos/RunescapeBoards.png",
+      "source": "xposedornot.com",
+      "AddedDate": "2026-05-05T08:07:44.757Z",
+      "ModifiedDate": "2026-05-05T08:07:44.757Z",
+      "slug": "runescapeboards"
+    },
+    {
       "Name": "NexusMods",
       "Title": "Nexus Mods",
       "Domain": "nexusmods.com",
@@ -62012,7 +62066,11 @@
         "Adresses email",
         "Adresses postales",
         "Mots de passe",
-        "Noms"
+        "Noms",
+        "Usernames",
+        "Passwords",
+        "Email addresses",
+        "IP addresses"
       ],
       "IsVerified": false,
       "IsFabricated": false,
