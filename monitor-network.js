@@ -2,7 +2,7 @@ const dns = require('dns');
 const { exec } = require('child_process');
 
 // Configuration
-const CHECK_INTERVAL = 1000; // Check every 5 seconds
+const CHECK_INTERVAL = 1000; // Check every 1 second
 const HOST_TO_CHECK = 'google.com';
 
 let isOnline = true;
@@ -32,8 +32,9 @@ function notify(title, message, iconType = 'Info') {
  * Checks connectivity by attempting to resolve a host
  */
 function checkConnection() {
-    dns.lookup(HOST_TO_CHECK, (err) => {
-        console.log(`Checking connectivity to '${HOST_TO_CHECK}'...`);
+    // Use dns.resolve instead of dns.lookup to bypass OS cache and force a network query
+    dns.resolve(HOST_TO_CHECK, (err, addresses) => {
+        console.log(`Checking connectivity to '${HOST_TO_CHECK}'...: ${err ? 'Offline' : 'Online'}, Addresses: ${addresses ? addresses.join(', ') : 'N/A'}`);
         const currentlyOnline = !err;
 
         if (currentlyOnline !== isOnline) {
