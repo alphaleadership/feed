@@ -15,7 +15,7 @@
     "monitor": "node monitor-network.js"
   },
   "hexo": {
-    "version": "8.1.1"
+    "version": "8.1.2"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
