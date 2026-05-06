@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T14:47:47.212Z",
+  "lastUpdated": "2026-05-06T16:44:12.762Z",
   "totalBreaches": 1537,
   "breaches": [
     {
@@ -66,7 +66,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1912,
-      "title": "Cetelem"
+      "title": "Cetelem",
+      "oldindex": 1912
     },
     {
       "Name": "Book MyName",
@@ -94,7 +95,15 @@
       "AddedDate": "2026-05-06T14:47:38.354Z",
       "ModifiedDate": "2026-05-06T14:47:38.354Z",
       "slug": "book-myname",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/05/bookmyname-leak-fuites-de-donnees.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/05/bookmyname-leak-fuites-de-donnees.png",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Le 5 mai 2026, BookMyName a informé par email ses clients qu'un tiers non autorisé avait exploité une vulnérabilité, permettant la consultation et la modification des données de contact associées aux comptes clients. Le volume de comptes affectés n'a pas été communiqué.\n\nStatut: Confirmée\nType de service: Registrar de noms de domaine",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1913,
+      "title": "Book MyName"
     },
     {
       "Name": "Smallable",
