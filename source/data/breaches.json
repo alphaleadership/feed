@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05T23:34:16.528Z",
+  "lastUpdated": "2026-05-06T01:18:20.562Z",
   "totalBreaches": 1534,
   "breaches": [
     {
@@ -26,7 +26,15 @@
       "AddedDate": "2026-05-05T23:34:07.620Z",
       "ModifiedDate": "2026-05-05T23:34:07.620Z",
       "slug": "bouygues-telecom-fibre",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/05/Bouygues-Telecom-leak-fuites-de-donnees.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/05/Bouygues-Telecom-leak-fuites-de-donnees.png",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Une base de données de 80.9 Go (JSONL) mise en vente le 4 mai 2026 par le groupe OverSec. La fuite, datée du 1er mai, proviendrait d'un outil de gestion des interventions terrain utilisé par des prestataires et concernerait une partie des clients Bbox FTTH, sur une base totale estimée à 4,1 millions d'abonnés fibre.\n\nStatut: Revendiquée\nType de service: Opérateur télécom",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1910,
+      "title": "Bouygues Telecom (Fibre)"
     },
     {
       "Name": "Smallable",
