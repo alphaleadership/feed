@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T20:22:09.895Z",
+  "lastUpdated": "2026-05-07T21:30:59.846Z",
   "totalBreaches": 1539,
   "breaches": [
     {
@@ -35,7 +35,8 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "index": 1915,
-      "title": "Action populaire (La France Insoumise)"
+      "title": "Action populaire (La France Insoumise)",
+      "oldindex": 1915
     },
     {
       "Name": "Bouygues Telecom (Fibre)",
