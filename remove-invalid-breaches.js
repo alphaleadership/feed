@@ -21,7 +21,7 @@ async function removeInvalidBreaches() {
         }
         const slugsFileContent = fs.readFileSync(SLUGS_TO_REMOVE_PATH, 'utf8');
         slugsToRemove = new Set(slugsFileContent.split("\n").filter(slug => slug.trim() !== '').map(slug => slug.trim().replace(/\r/g, ''))); // Nettoyer les slugs
-        
+        fs.writeFileSync(SLUGS_TO_REMOVE_PATH,[...slugsToRemove].join("\n"))
         if (slugsToRemove.size === 0) {
             console.log("Le fichier 'slugs-a-supprimer.txt' est vide. Aucune action n'est requise.");
             return;
