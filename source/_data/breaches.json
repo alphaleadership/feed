@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T18:59:49.545Z",
+  "lastUpdated": "2026-05-07T20:22:09.895Z",
   "totalBreaches": 1539,
   "breaches": [
     {
@@ -26,7 +26,16 @@
       "AddedDate": "2026-05-07T18:59:40.518Z",
       "ModifiedDate": "2026-05-07T18:59:40.518Z",
       "slug": "action-populaire-la-france-insoumise",
-      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/05/action-populaire-leak-fuites-de-donnees-scaled.png"
+      "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/05/action-populaire-leak-fuites-de-donnees-scaled.png",
+      "Attribution": "fuzzeddffmepg",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Fuite de données concernant la plateforme Action Populaire, le réseau social militant de La France Insoumise. Environ 123 179 personnes (emails uniques) et 25 818 numéros de téléphone. Fuite de données revendiquée par l'acteur fuzzeddffmepg le 7 mai 2026..\n\nStatut: Revendiquée\nType de service: Organisation politique",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1915,
+      "title": "Action populaire (La France Insoumise)"
     },
     {
       "Name": "Bouygues Telecom (Fibre)",
