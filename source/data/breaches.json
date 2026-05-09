@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-09T11:12:00.138Z",
+  "lastUpdated": "2026-05-09T12:03:04.908Z",
   "totalBreaches": 1544,
   "breaches": [
     {
@@ -27,7 +27,16 @@
       "path": "https://bonjourlafuite.eu.org/img/lfi.png",
       "formattedDate": "2026-05-09",
       "index": 1923,
-      "lien": "https://bonjourlafuite.eu.org/img/lfi.png"
+      "lien": "https://bonjourlafuite.eu.org/img/lfi.png",
+      "isBlocked": false,
+      "blockedNote": null,
+      "source": "Manuel",
+      "categories": [],
+      "content": "Nom\nprénom • Adresse email • Adresse postale • Information de profil • Participations à groupes ou évènements •",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "oldindex": 1923,
+      "title": "la france insoumise fuite du 2026-5-9"
     },
     {
       "Name": "Boulangerie Ange",
