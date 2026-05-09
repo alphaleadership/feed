@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-09T15:56:13.459Z",
-  "totalBreaches": 1544,
+  "lastUpdated": "2026-05-09T17:00:29.944Z",
+  "totalBreaches": 1546,
   "breaches": [
     {
       "Name": "la france insoumise fuite du 2026-5-9",
@@ -26,7 +26,7 @@
       "slug": "la-france-insoumise-fuite-du-2026-5-9",
       "path": "https://bonjourlafuite.eu.org/img/lfi.png",
       "formattedDate": "2026-05-09",
-      "index": 1924,
+      "index": 1922,
       "lien": "https://bonjourlafuite.eu.org/img/lfi.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -35,7 +35,7 @@
       "content": "Nom\nprénom • Adresse email • Adresse postale • Information de profil • Participations à groupes ou évènements •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1922,
+      "oldindex": 1924,
       "title": "la france insoumise fuite du 2026-5-9"
     },
     {
@@ -73,8 +73,9 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Monservicederemplacement.fr",
-      "index": 1925,
-      "title": "Monservicederemplacement.fr"
+      "index": 1923,
+      "title": "Monservicederemplacement.fr",
+      "oldindex": 1925
     },
     {
       "Name": "Boulangerie Ange",
@@ -107,9 +108,9 @@
       "content": "Revendication d'une fuite de données de 812 000 clients de Boulangerie Ange, la deuxième plus grande chaîne de boulangeries en France avec plus de 300 établissements sur le territoire. La fuite a été annoncée par le cybercriminel odelpaso le 29 avril 2026. Incident confirmé par l’entreprise.\n\nStatut: Confirmée\nType de service: Boulangerie",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1921,
+      "index": 1919,
       "title": "Boulangerie Ange",
-      "oldindex": 1919
+      "oldindex": 1921
     },
     {
       "Name": "arsène valentin",
@@ -135,7 +136,7 @@
       "slug": "ars-ne-valentin-fuite-du-2026-5-8",
       "path": "https://bonjourlafuite.eu.org/img/arsene-valentin.png",
       "formattedDate": "2026-05-08",
-      "index": 1922,
+      "index": 1920,
       "lien": "https://bonjourlafuite.eu.org/img/arsene-valentin.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -144,7 +145,7 @@
       "content": "Nom\nprénom • Adresse email • Adresse postale • Numéro de téléphone • Date de naissance • Historique des commandes •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1920,
+      "oldindex": 1922,
       "title": "arsène valentin fuite du 2026-5-8"
     },
     {
@@ -179,9 +180,9 @@
       "content": "Fuite de données concernant la plateforme Action Populaire, le réseau social militant de La France Insoumise. Environ 123 179 personnes (emails uniques) et 25 818 numéros de téléphone. Fuite de données revendiquée par l'acteur fuzzeddffmepg le 7 mai 2026..\n\nStatut: Revendiquée\nType de service: Organisation politique",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1917,
+      "index": 1915,
       "title": "Action populaire (La France Insoumise)",
-      "oldindex": 1915
+      "oldindex": 1917
     },
     {
       "Name": "bilov",
@@ -207,7 +208,7 @@
       "slug": "bilov-fuite-du-2026-5-7",
       "path": "https://bonjourlafuite.eu.org/img/bilov.jpg",
       "formattedDate": "2026-05-07",
-      "index": 1918,
+      "index": 1916,
       "lien": "https://bonjourlafuite.eu.org/img/bilov.jpg",
       "isBlocked": false,
       "blockedNote": null,
@@ -216,7 +217,7 @@
       "content": "Aucune description disponible pour cette fuite de données.",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1916,
+      "oldindex": 1918,
       "title": "bilov fuite du 2026-5-7"
     },
     {
@@ -250,9 +251,9 @@
       "content": "Une base de données de 80.9 Go (JSONL) mise en vente le 4 mai 2026 par le groupe OverSec. La fuite, datée du 1er mai, proviendrait d'un outil de gestion des interventions terrain utilisé par des prestataires et concernerait une partie des clients Bbox FTTH, sur une base totale estimée à 4,1 millions d'abonnés fibre.\n\nStatut: Revendiquée\nType de service: Opérateur télécom",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1914,
+      "index": 1912,
       "title": "Bouygues Telecom (Fibre)",
-      "oldindex": 1912
+      "oldindex": 1914
     },
     {
       "Name": "Cetelem",
@@ -282,9 +283,9 @@
       "content": "Plusieurs centaines de milliers d'adresses e-mail de clients ont été compromises lors d'une attaque informatique le 20 avril 2026, confirmée par le groupe à Numerama.\n\nStatut: Confirmée\nType de service: Crédit à la consommation",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1915,
+      "index": 1913,
       "title": "Cetelem",
-      "oldindex": 1913
+      "oldindex": 1915
     },
     {
       "Name": "Book MyName",
@@ -319,9 +320,9 @@
       "content": "Le 5 mai 2026, BookMyName a informé par email ses clients qu'un tiers non autorisé avait exploité une vulnérabilité, permettant la consultation et la modification des données de contact associées aux comptes clients. Le volume de comptes affectés n'a pas été communiqué.\n\nStatut: Confirmée\nType de service: Registrar de noms de domaine",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1916,
+      "index": 1914,
       "title": "Book MyName",
-      "oldindex": 1914
+      "oldindex": 1916
     },
     {
       "Name": "Smallable",
@@ -353,9 +354,9 @@
       "content": "La fuite de données du site e-commerce Smallable.com (mode pour enfants) expose 677 023 profils d'enfants. Ces informations, généralement renseignées par les parents pour des offres d'anniversaire, ont été publiées sur un forum cybercriminel. Le fichier ne contient pas d'informations de contact directes (email, nom des parents).\n\nStatut: Revendiquée\nType de service: E-commerce (mode enfant)",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1907,
+      "index": 1905,
       "title": "Smallable",
-      "oldindex": 1905
+      "oldindex": 1907
     },
     {
       "Name": "Groupe GCA",
@@ -388,9 +389,9 @@
       "content": "Le 4 mai 2026, le groupe Dumpsec a mis en vente sur un forum les données du Groupe GCA, un réseau de concessions automobiles, concernant 65 000 clients et 2 500 employés. Les données les plus récentes datent du 20 avril 2026.\n\nStatut: Revendiquée\nType de service: Concessionnaire automobile",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1908,
+      "index": 1906,
       "title": "Groupe GCA",
-      "oldindex": 1906
+      "oldindex": 1908
     },
     {
       "Name": "La Redoute",
@@ -423,9 +424,9 @@
       "content": "Fuite de données logistiques impactant environ 66 800 clients uniques, publiée par un cybercriminel. Les données proviendraient d'un export d'un partenaire logistique, potentiellement Relais Colis, et concernent des commandes passées entre avril 2025 et février 2026.\n\nStatut: Revendiquée\nType de service: E-commerce &amp; Mode",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1909,
+      "index": 1907,
       "title": "La Redoute",
-      "oldindex": 1907
+      "oldindex": 1909
     },
     {
       "Name": "Newdeal Institut",
@@ -460,9 +461,9 @@
       "content": "Le 4 mai 2026, l'acteur de la menace ChimeraZ a publié une base de données de 34 Mo appartenant à Newdeal Institut, un centre de formation en langues. Cette fuite, se présentant comme une extraction applicative complète, contient les informations de 3058 personnes et 4531 organisations, et expose notamment 85 mots de passe en clair, 52 CV et des signatures numériques.\n\nStatut: Revendiquée\nType de service: Centre de formation en langues",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1910,
+      "index": 1908,
       "title": "Newdeal Institut",
-      "oldindex": 1908
+      "oldindex": 1910
     },
     {
       "Name": "École de conduite Vincent",
@@ -496,9 +497,9 @@
       "content": "Une fuite de données a exposé les informations de 1 556 candidats de l'auto-école École de conduite Vincent, située à Ancenis-Saint-Géréon. La fuite provient vraisemblablement d'un logiciel de gestion des candidats et contient des informations détaillées et très récentes sur le suivi des examens.\n\nStatut: Confirmée\nType de service: Auto-école / Formation à la conduite",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1911,
+      "index": 1909,
       "title": "École de conduite Vincent",
-      "oldindex": 1909
+      "oldindex": 1911
     },
     {
       "Name": "Auto École du Lys",
@@ -537,9 +538,9 @@
       "content": "Fuite de données concernant 220 candidats de l'Auto École du Lys. Les données sont très récentes, avec des dates d'examens allant jusqu'en avril 2026, et semblent provenir d'un export d'un logiciel de gestion.\n\nStatut: confirmée\nType de service: Auto-école",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1912,
+      "index": 1910,
       "title": "Auto École du Lys",
-      "oldindex": 1910
+      "oldindex": 1912
     },
     {
       "Name": "Auto École du Moulin",
@@ -571,9 +572,9 @@
       "content": "Fuite de données de 428 candidats de l'Auto École du Moulin (La Rochelle). L'historique des examens s'étend jusqu'en 2026.\n\nStatut: Confirmée\nType de service: Auto-école",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1913,
+      "index": 1911,
       "title": "Auto École du Moulin",
-      "oldindex": 1911
+      "oldindex": 1913
     },
     {
       "Name": "fédération française de basketball",
@@ -599,7 +600,7 @@
       "slug": "f-d-ration-fran-aise-de-basketball-fuite-du-2026-5-3",
       "path": "https://www.ffbb.com/actualites/la-ffbb-informe-dun-acces-non-autorise-a-ses-donnees-licencies",
       "formattedDate": "2026-05-03",
-      "index": 1902,
+      "index": 1900,
       "isBlocked": false,
       "blockedNote": null,
       "source": "Manuel",
@@ -608,7 +609,7 @@
       "content": "Nom\nprénom • Date de naissance • Adresse postale • Adresse électronique • Numéro de téléphone • Numéro de licence • Club •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1900,
+      "oldindex": 1902,
       "title": "fédération française de basketball fuite du 2026-5-3"
     },
     {
@@ -635,7 +636,7 @@
       "slug": "interrail-fuite-du-2026-5-3",
       "path": "https://bonjourlafuite.eu.org/img/interrail.png",
       "formattedDate": "2026-05-03",
-      "index": 1903,
+      "index": 1901,
       "lien": "https://bonjourlafuite.eu.org/img/interrail.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -644,7 +645,7 @@
       "content": "Nome\nprénom • Adresse email • Adresse postale • Numéro de téléphone • Numéro de passport\ndate de délivrance\ndate d’expiration • Accompagnants •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1901,
+      "oldindex": 1903,
       "title": "interrail fuite du 2026-5-3"
     },
     {
@@ -679,9 +680,9 @@
       "content": "Le 3 mai 2026, une fuite de données de la plateforme Actradis, service français de gestion de conformité documentaire client-fournisseur, a été publiée par un cybercriminel. Elle contient 305 082 fiches d'entreprises, exposant des données CRM, des contacts (noms, emails, téléphones), des détails de facturation et le statut de documents légaux (Kbis, URSSAF).\n\nStatut: Confirmée\nType de service: Plateforme de gestion de conformité client-fournisseur",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1904,
+      "index": 1902,
       "title": "Actradis",
-      "oldindex": 1902
+      "oldindex": 1904
     },
     {
       "Name": "ObjetRama",
@@ -714,9 +715,9 @@
       "content": "Un cybercriminel a publié 209 410 commandes appartenant à ObjetRama, spécialiste des objets publicitaires. Cette fuite, couvrant la période de mai 2019 à avril 2026, impacterait environ 80 300 clients uniques.\n\nStatut: Revendiquée\nType de service: Objets publicitaires",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1901,
+      "index": 1899,
       "title": "ObjetRama",
-      "oldindex": 1899
+      "oldindex": 1901
     },
     {
       "Name": "Madeindesign",
@@ -751,9 +752,9 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Madeindesign",
-      "index": 1897,
+      "index": 1895,
       "title": "Madeindesign",
-      "oldindex": 1895
+      "oldindex": 1897
     },
     {
       "Name": "La Pizza de Nico",
@@ -785,9 +786,9 @@
       "content": "Un cybercriminel a publié une base de données de 67 767 clients de la chaîne de pizzerias 'La Pizza de Nico', couvrant la période d'avril 2017 à août 2025.\n\nStatut: Revendiquée\nType de service: Restauration",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1898,
+      "index": 1896,
       "title": "La Pizza de Nico",
-      "oldindex": 1896
+      "oldindex": 1898
     },
     {
       "Name": "Faco Paris",
@@ -828,9 +829,9 @@
       "content": "L'acteur de la menace 'Spirigatito' revendique une fuite de 12 Go. La fuite, qui daterait de 2025, concernerait les promotions 2021 à 2024 et inclurait 11 447 documents personnels (pièces d'identité, passeports, IBANs, diplômes).\n\nStatut: Revendiquée\nType de service: Faculté privée de Droit, Économie, Gestion",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1899,
+      "index": 1897,
       "title": "Faco Paris",
-      "oldindex": 1897
+      "oldindex": 1899
     },
     {
       "Name": "Easy Cash #2",
@@ -863,9 +864,9 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Easy Cash #2",
-      "index": 1900,
+      "index": 1898,
       "title": "Easy Cash #2",
-      "oldindex": 1898
+      "oldindex": 1900
     },
     {
       "Name": "umanens",
@@ -891,7 +892,7 @@
       "slug": "umanens-fuite-du-2026-4-30",
       "path": "https://bonjourlafuite.eu.org/img/umanens.png",
       "formattedDate": "2026-04-30",
-      "index": 1891,
+      "index": 1889,
       "lien": "https://bonjourlafuite.eu.org/img/umanens.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -900,7 +901,7 @@
       "content": "Nom\nprénom • Adresse postale • Adresse email • Numéro de téléphone • Date et lieu de naissance • Composition familiale • Contrats\néchéanciers • Nature des prestations • Montant des remboursements • RIB • Carte d’identité • Attestation de Sécurité Sociale •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1889,
+      "oldindex": 1891,
       "title": "umanens fuite du 2026-4-30"
     },
     {
@@ -934,9 +935,9 @@
       "content": "Fin avril 2026, l'éditeur de jeux vidéo Ankama a notifié par e-mail ses utilisateurs avoir été victime d'une cyberattaque résultant en un accès non autorisé à une partie des données des comptes.\n\nStatut: Confirmée\nType de service: Éditeur de jeux vidéo",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1892,
+      "index": 1890,
       "title": "Ankama",
-      "oldindex": 1890
+      "oldindex": 1892
     },
     {
       "Name": "Deltadore",
@@ -968,9 +969,9 @@
       "content": "Le 29 avril 2026, l'entreprise Deltadore, spécialisée dans les solutions de maison connectée (gestion d'énergie, sécurité), a notifié par e-mail au moins 374 clients de son site de formation (formation-pro.deltadore.fr) d'une violation de données. Une vulnérabilité Magento a été exploitée. Le mail de notification aux utilisateurs a été envoyé à tous les concernés avec leur adresse en copie.\n\nStatut: Confirmée\nType de service: Formation professionnelle en ligne",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1893,
+      "index": 1891,
       "title": "Deltadore",
-      "oldindex": 1891
+      "oldindex": 1893
     },
     {
       "Name": "RebornGaming",
@@ -996,7 +997,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1894,
+      "index": 1892,
       "isBlocked": false,
       "blockedNote": null,
       "source": "Manuel",
@@ -1005,7 +1006,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/RebornGaming",
-      "oldindex": 1892,
+      "oldindex": 1894,
       "title": "Reborn Gaming"
     },
     {
@@ -1039,9 +1040,9 @@
       "content": "Areli, une association spécialisée dans le logement social, a notifié ses partenaires par courrier le 8 avril 2026 avoir été victime d'une cyberattaque le 12 janvier 2026. Moins de 2% des données stockées sur ses serveurs ont été affectées.\n\nStatut: Confirmée\nType de service: Association / Logement social",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1888,
+      "index": 1886,
       "title": "Areli",
-      "oldindex": 1886
+      "oldindex": 1888
     },
     {
       "Name": "Campus France",
@@ -1074,9 +1075,9 @@
       "content": "16 006 dossiers d'étudiants (pour 18 637 candidatures) de la plateforme CampusArt de Campus France, couvrant la période de 2014 à 2026, ont été publiés par un cybercriminel sur le forum de hacking PwnForums.\n\nStatut: Confirmée\nType de service: Plateforme de candidatures étudiantes",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1889,
+      "index": 1887,
       "title": "Campus France",
-      "oldindex": 1887
+      "oldindex": 1889
     },
     {
       "Name": "Saint-Étienne Métropole",
@@ -1107,9 +1108,9 @@
       "content": "Par email, la ville et la métropole de Saint-Étienne informent qu'un incident de sécurité a impacté l'un de leurs prestataires de billetterie en ligne. En conséquence, les mots de passe des comptes utilisateurs ont été préventivement désactivés et les usagers sont invités à les réinitialiser.\n\nStatut: Confirmée\nType de service: Collectivité territoriale",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1890,
+      "index": 1888,
       "title": "Saint-Étienne Métropole",
-      "oldindex": 1888
+      "oldindex": 1890
     },
     {
       "Name": "acrimed",
@@ -1135,7 +1136,7 @@
       "slug": "acrimed-fuite-du-2026-4-28",
       "path": "https://bonjourlafuite.eu.org/img/acrimed.png",
       "formattedDate": "2026-04-28",
-      "index": 1884,
+      "index": 1882,
       "lien": "https://bonjourlafuite.eu.org/img/acrimed.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -1144,7 +1145,7 @@
       "content": "Adresse email • Mot de passe chiffré (🤷) • Commandes passées •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1882,
+      "oldindex": 1884,
       "title": "acrimed fuite du 2026-4-28"
     },
     {
@@ -1181,9 +1182,9 @@
       "content": "Le groupe Nemea est un opérateur français majeur spécialisé dans la gestion de résidences (tourisme, étudiantes, affaires). Une compromission a entraîné la fuite de l'export d'un de leurs outils de gestion locative. Bien que l'acteur malveillant revendique 330 000 enregistrements (baux, quittances, relances cumulées), cet incident concerne avec précision 12 590 personnes physiques et morales uniques. Les victimes sont des locataires du groupe Nemea, des propriétaires bailleurs, ainsi que des garants (cautions solidaires). L'impact est critique en raison de l'exposition de mots de passe non chiffrés et du vol de 1 000 documents d'identité numérisés, exposant ces personnes à des risques majeurs d'usurpation d'identité et de fraude ciblée.\n\nStatut: Revendiquée\nType de service: Gestion de résidences immobilières",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1885,
+      "index": 1883,
       "title": "Nemea",
-      "oldindex": 1883
+      "oldindex": 1885
     },
     {
       "Name": "Vimeo",
@@ -1209,7 +1210,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1886,
+      "index": 1884,
       "isBlocked": false,
       "blockedNote": null,
       "source": "Manuel",
@@ -1218,7 +1219,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Vimeo",
-      "oldindex": 1884,
+      "oldindex": 1886,
       "title": "Vimeo"
     },
     {
@@ -1253,9 +1254,9 @@
       "content": "La fuite de données concerne 11 666 enregistrements issus du registre d'inventaire des hébergements touristiques du service taxedesejour.bordeaux.metropole.fr, impactant 9 390 déclarants uniques. Revendiquée sur PwnForums comme une base de données partielle, elle contient la liste des biens déclarés et non l'historique des transactions financières.\n\nStatut: Revendiquée\nType de service: Déclaration de taxe de séjour",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1882,
+      "index": 1880,
       "title": "Bordeaux Métropole",
-      "oldindex": 1880
+      "oldindex": 1882
     },
     {
       "Name": "Sejourneur",
@@ -1289,9 +1290,9 @@
       "content": "L'acteur ChimeraZ a publié une base de données de Sejourneur.com, un service de conciergerie et de gestion de locations saisonnières, contenant 46 689 réservations et 6 678 factures PDF, exposant les données de 39 285 clients uniques.\n\nStatut: Confirmée\nType de service: Gestion de locations saisonnières",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1881,
+      "index": 1879,
       "title": "Sejourneur",
-      "oldindex": 1879
+      "oldindex": 1881
     },
     {
       "Name": "IFprofs",
@@ -1323,9 +1324,9 @@
       "content": "Réseau collaboratif pour professeurs de français. 90 765 comptes utilisateurs et 20 514 publications/contenus (entre octobre 2015 et avril 2026), publiés par le cybercriminel ChimeraZ.\n\nStatut: Confirmée\nType de service: Réseau collaboratif enseignants",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1879,
+      "index": 1877,
       "title": "IFprofs",
-      "oldindex": 1877
+      "oldindex": 1879
     },
     {
       "Name": "Adele.org",
@@ -1359,9 +1360,9 @@
       "content": "Publication sur un forum de cybercriminalité d'une base de données de 560 Mo provenant de la plateforme Adele.org. La fuite contient 233 000 dossiers de location, 28 000 factures B2B et 113 archives de documents d'identité, affectant environ 103 000 étudiants.\n\nStatut: Revendiquée\nType de service: Plateforme de logement étudiant",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1880,
+      "index": 1878,
       "title": "Adele.org",
-      "oldindex": 1878
+      "oldindex": 1880
     },
     {
       "Name": "agence nationale des fréquences",
@@ -1387,7 +1388,7 @@
       "slug": "agence-nationale-des-fr-quences-fuite-du-2026-4-24",
       "path": "https://bonjourlafuite.eu.org/img/anfr.png",
       "formattedDate": "2026-04-24",
-      "index": 1872,
+      "index": 1870,
       "lien": "https://bonjourlafuite.eu.org/img/anfr.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -1396,7 +1397,7 @@
       "content": "Nom\nprénom • Adresse postale • Numéro de téléphone • Adresse email • Date de naissance •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1870,
+      "oldindex": 1872,
       "title": "agence nationale des fréquences fuite du 2026-4-24"
     },
     {
@@ -1423,7 +1424,7 @@
       "slug": "syst-me-u-fuite-du-2026-4-24",
       "path": "https://bonjourlafuite.eu.org/img/systeme-u.png",
       "formattedDate": "2026-04-24",
-      "index": 1873,
+      "index": 1871,
       "lien": "https://bonjourlafuite.eu.org/img/systeme-u.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -1432,7 +1433,7 @@
       "content": "Nom\nprénom • Status professionel • Adresse email • Adresse postale • Numéro de téléphone • Numéro de la carte de fidélité •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1871,
+      "oldindex": 1873,
       "title": "système u fuite du 2026-4-24"
     },
     {
@@ -1467,9 +1468,9 @@
       "content": "L'information sur la fuite de données a été communiquée par l'Agence de Services et de Paiement (ASP) via une notification par courriel. Cet organisme public français a indiqué que l'incident impacte les stagiaires de la formation professionnelle.\n\nStatut: Confirmée\nType de service: Agence gouvernementale de paiement",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1874,
+      "index": 1872,
       "title": "Agence de Services et de Paiement",
-      "oldindex": 1872
+      "oldindex": 1874
     },
     {
       "Name": "ANFR (Radiomaritime)",
@@ -1502,9 +1503,9 @@
       "content": "Les données d'environ 330 000 usagers du téléservice Radiomaritime de l'ANFR, dédié à la gestion des licences radio pour les navires, ont été compromises. L'incident a été confirmé suite à un signalement de l'ANSSI concernant la mise en vente en ligne d'un extrait des données.\n\nStatut: Confirmée\nType de service: Service public (Fréquences radio)",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1875,
+      "index": 1873,
       "title": "ANFR (Radiomaritime)",
-      "oldindex": 1873
+      "oldindex": 1875
     },
     {
       "Name": "Udemy",
@@ -1535,7 +1536,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1876,
+      "index": 1874,
       "isBlocked": false,
       "blockedNote": null,
       "source": "Manuel",
@@ -1544,7 +1545,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Udemy",
-      "oldindex": 1874,
+      "oldindex": 1876,
       "title": "Udemy"
     },
     {
@@ -1577,7 +1578,7 @@
       "slug": "my-piscine-fuite-du-2026-4-23",
       "path": "https://bonjourlafuite.eu.org/img/mypiscine.png",
       "formattedDate": "2026-04-23",
-      "index": 1866,
+      "index": 1864,
       "lien": "https://bonjourlafuite.eu.org/img/mypiscine.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -1586,7 +1587,7 @@
       "content": "Nom\nprénom • Adresse email • Adresse postale • Historique de commande • Mot de passe « sécurisé » (🤷) •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1864,
+      "oldindex": 1866,
       "title": "my piscine fuite du 2026-4-23"
     },
     {
@@ -1618,9 +1619,9 @@
       "content": "Le volume n'est pas spécifié dans la notification envoyée par le courtier en assurance Wazari, qui confirme une fuite de données suite à une attaque externe sur un de ses outils de gestion.\n\nStatut: Confirmée\nType de service: Assurance",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1867,
+      "index": 1865,
       "title": "Wazari",
-      "oldindex": 1865
+      "oldindex": 1867
     },
     {
       "Name": "Parcoursup",
@@ -1653,9 +1654,9 @@
       "content": "Selon le ministère de l'Enseignement supérieur, les données d'environ 705 000 candidats des sessions 2023 et 2025 (région Occitanie) ont été exfiltrées en octobre 2025 suite à l'usurpation du compte d'un personnel sur un module de gestion. Détecté en mars 2026, le ministère a répondu en anonymisant le module et en renforçant les contrôles d'accès.\n\nStatut: Confirmée\nType de service: Service public d'orientation",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1868,
+      "index": 1866,
       "title": "Parcoursup",
-      "oldindex": 1866
+      "oldindex": 1868
     },
     {
       "Name": "Bodyhit",
@@ -1689,9 +1690,9 @@
       "content": "Une base de données de 218 542 clients de Bodyhit, incluant 42 480 enregistrements IBAN/BIC, a été mise en vente le 23 avril 2026 par l'acteur 'under' sur un forum du dark web.\n\nStatut: Revendiquée\nType de service: Fitness",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1869,
+      "index": 1867,
       "title": "Bodyhit",
-      "oldindex": 1867
+      "oldindex": 1869
     },
     {
       "Name": "Rituals",
@@ -1723,9 +1724,9 @@
       "content": "Un volume non spécifié de données clients a été exfiltré suite à un accès non autorisé aux systèmes de Rituals, d'après une notification officielle de l'entreprise. Information SaxX.\n\nStatut: Confirmée\nType de service: Cosmétiques",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1863,
+      "index": 1861,
       "title": "Rituals",
-      "oldindex": 1861
+      "oldindex": 1863
     },
     {
       "Name": "Magasins U",
@@ -1761,9 +1762,9 @@
       "content": "Suite à une attaque informatique, Magasins U a informé ses clients par email d'une violation de données concernant les comptes de fidélité. Le volume exact de comptes affectés n'a pas été communiqué dans cette notification.Information : SaxX\n\nStatut: Confirmée\nType de service: Grande distribution",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1859,
+      "index": 1857,
       "title": "Magasins U",
-      "oldindex": 1857
+      "oldindex": 1859
     },
     {
       "Name": "Arrestation de Hexdex par la section J3 du parquet de Paris",
@@ -1788,7 +1789,7 @@
       "IsStealerLog": false,
       "slug": "arrestation-de-hexdex-par-la-section-j3-du-parquet-de-paris",
       "formattedDate": "2026-04-21",
-      "index": 1860,
+      "index": 1858,
       "isBlocked": false,
       "blockedNote": null,
       "source": "Manuel",
@@ -1797,7 +1798,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Arrestation de Hexdex par la section J3 du parquet de Paris",
-      "oldindex": 1858,
+      "oldindex": 1860,
       "title": "Arrestation de Hexdex par la section J3 du parquet de Paris"
     },
     {
@@ -1823,7 +1824,7 @@
       "IsStealerLog": false,
       "slug": "bienvenue-sur-le-nouveau-syst-me-d-actualit-s",
       "formattedDate": "2026-04-21",
-      "index": 1861,
+      "index": 1859,
       "isBlocked": false,
       "blockedNote": null,
       "source": "Manuel",
@@ -1832,7 +1833,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Bienvenue sur le nouveau système d'actualités",
-      "oldindex": 1859,
+      "oldindex": 1861,
       "title": "Bienvenue sur le nouveau système d'actualités"
     },
     {
@@ -1866,9 +1867,9 @@
       "content": "Publication d'une base de données de 6 700 enregistrements concernant Ledil Immobilier, un réseau français de mandataires immobiliers dont le siège est à Agen. La fuite, datée d'avril 2026, est revendiquée par l'acteur 888.\n\nStatut: Revendiquée\nType de service: Immobilier",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1862,
+      "index": 1860,
       "title": "Ledil Immobilier",
-      "oldindex": 1860
+      "oldindex": 1862
     },
     {
       "Name": "ANTS (France titres)",
@@ -1900,9 +1901,9 @@
       "content": "Mise en vente de 18 à 19 millions d'enregistrements de l'ANTS (France Titres) par 'breach3d' le 16/04/2026. Ces comptes, dont le rôle est de gérer les titres sécurisés (passeport, CNI), ont fait l'objet d'une communication de France Titres par mail le 19 avril 2026 confirmant un accès non-autorisé en date du 15 avril 2026.\n\nStatut: Confirmée\nType de service: Agence gouvernementale",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1855,
+      "index": 1853,
       "title": "ANTS (France titres)",
-      "oldindex": 1853
+      "oldindex": 1855
     },
     {
       "Name": "ADT",
@@ -1932,7 +1933,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1856,
+      "index": 1854,
       "isBlocked": false,
       "blockedNote": null,
       "source": "Manuel",
@@ -1941,7 +1942,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/ADT",
-      "oldindex": 1854,
+      "oldindex": 1856,
       "title": "ADT"
     },
     {
@@ -1971,7 +1972,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1857,
+      "index": 1855,
       "isBlocked": false,
       "blockedNote": null,
       "source": "Manuel",
@@ -1980,7 +1981,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/PitneyBowes",
-      "oldindex": 1855,
+      "oldindex": 1857,
       "title": "Pitney Bowes"
     },
     {
@@ -2014,9 +2015,9 @@
       "content": "Publication par l'acteur 'ChimeraZ' de la base de données de 42 606 enregistrements clients du site comptoirdureve.fr, correspondant à 38 085 individus uniques.\n\nStatut: Revendiquée\nType de service: Librairie en ligne",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1853,
+      "index": 1851,
       "title": "Comptoir du Rêve",
-      "oldindex": 1851
+      "oldindex": 1853
     },
     {
       "Name": "bazar du manga",
@@ -2042,7 +2043,7 @@
       "slug": "bazar-du-manga-fuite-du-2026-4-17",
       "path": "https://bonjourlafuite.eu.org/img/bazar-manga.png",
       "formattedDate": "2026-04-17",
-      "index": 1844,
+      "index": 1842,
       "lien": "https://bonjourlafuite.eu.org/img/bazar-manga.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -2051,7 +2052,7 @@
       "content": "-",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1842,
+      "oldindex": 1844,
       "title": "bazar du manga fuite du 2026-4-17"
     },
     {
@@ -2078,7 +2079,7 @@
       "slug": "jeu-jouet-fuite-du-2026-4-17",
       "path": "https://bonjourlafuite.eu.org/img/jeu-jouet.png",
       "formattedDate": "2026-04-17",
-      "index": 1845,
+      "index": 1843,
       "lien": "https://bonjourlafuite.eu.org/img/jeu-jouet.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -2087,7 +2088,7 @@
       "content": "-",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1843,
+      "oldindex": 1845,
       "title": "jeu jouet fuite du 2026-4-17"
     },
     {
@@ -2114,7 +2115,7 @@
       "slug": "moulin-roty-fuite-du-2026-4-17",
       "path": "https://bonjourlafuite.eu.org/img/moulin-roty.png",
       "formattedDate": "2026-04-17",
-      "index": 1846,
+      "index": 1844,
       "lien": "https://bonjourlafuite.eu.org/img/moulin-roty.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -2123,7 +2124,7 @@
       "content": "-",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1844,
+      "oldindex": 1846,
       "title": "moulin roty fuite du 2026-4-17"
     },
     {
@@ -2158,9 +2159,9 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Gauthier Tissus",
-      "index": 1847,
+      "index": 1845,
       "title": "Gauthier Tissus",
-      "oldindex": 1845
+      "oldindex": 1847
     },
     {
       "Name": "Fédération Française de Basket-Ball",
@@ -2193,9 +2194,9 @@
       "content": "Le cybercriminel 'HexDex' a annoncé la mise en vente des données de 2.7 millions de licenciés et proches (1.9M de licenciés et 800k de parents) de la Fédération Française de Basket-Ball.\n\nStatut: Revendiquée\nType de service: Fédération sportive",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1848,
+      "index": 1846,
       "title": "Fédération Française de Basket-Ball",
-      "oldindex": 1846
+      "oldindex": 1848
     },
     {
       "Name": "police nationale",
@@ -2221,7 +2222,7 @@
       "slug": "police-nationale-fuite-du-2026-4-16",
       "path": "https://bonjourlafuite.eu.org/img/police-nationale.jpg",
       "formattedDate": "2026-04-16",
-      "index": 1840,
+      "index": 1838,
       "lien": "https://bonjourlafuite.eu.org/img/police-nationale.jpg",
       "isBlocked": false,
       "blockedNote": null,
@@ -2230,7 +2231,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Ville • Informations utilisateurs • Login • Premières et dernières connexions • modules suivis • Badges obtenus • Outils et portails utilisés •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1838,
+      "oldindex": 1840,
       "title": "police nationale fuite du 2026-4-16"
     },
     {
@@ -2265,9 +2266,9 @@
       "content": "38 Go (100 000 fichiers) couvrant la période des années 1980 à 2026, incluant des données de production, financières, commerciales et RH, publiés par un groupe de ransomware.\n\nStatut: Revendiquée\nType de service: Fabrication industrielle",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1841,
+      "index": 1839,
       "title": "Filair",
-      "oldindex": 1839
+      "oldindex": 1841
     },
     {
       "Name": "Imagerie Clinique Yvette",
@@ -2300,9 +2301,9 @@
       "content": "Un échantillon de données de patients et un accès administrateur de la clinique située à Longjumeau (France) ont été publiés par l'acteur de la menace 'ntmpd' le 16 avril 2026.\n\nStatut: Revendiquée\nType de service: Imagerie médicale",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1842,
+      "index": 1840,
       "title": "Imagerie Clinique Yvette",
-      "oldindex": 1840
+      "oldindex": 1842
     },
     {
       "Name": "Assurea",
@@ -2339,9 +2340,9 @@
       "content": "Mise en vente par l'acteur DumpsecV2 d'une base de données de 150 Go (2018-2026), exposant des données d'assurance extrêmement sensibles : 139 000 contrats (sinistres, bonus/malus, condamnations, tests d'alcoolémie), 11 000 fiches de conseil avec IBAN et plus de 2 millions de messages.\n\nStatut: Revendiquée\nType de service: Courtier en assurance",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1836,
+      "index": 1834,
       "title": "Assurea",
-      "oldindex": 1834
+      "oldindex": 1836
     },
     {
       "Name": "Brit Hotel",
@@ -2377,9 +2378,9 @@
       "content": "Les données personnelles de 682 662 membres du programme de fidélité de BritHotel, couvrant la période de réservation de 2016 à 2026, ont été mises en vente par l'acteur de la menace HexDex.\n\nStatut: Revendiquée\nType de service: Chaîne hôtelière",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1837,
+      "index": 1835,
       "title": "Brit Hotel",
-      "oldindex": 1835
+      "oldindex": 1837
     },
     {
       "Name": "Pompes Funèbres Musulmanes Toulouse",
@@ -2412,9 +2413,9 @@
       "content": "La fuite de données, revendiquée par l'acteur 'ntmpd', expose un fichier CSV extrait de la plateforme de gestion Simplifia, contenant 1178 fiches individuelles (clients et défunts) sur une période s'étendant de mai 2023 à avril 2026.\n\nStatut: Confirmée\nType de service: Services funéraires",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1838,
+      "index": 1836,
       "title": "Pompes Funèbres Musulmanes Toulouse",
-      "oldindex": 1836
+      "oldindex": 1838
     },
     {
       "Name": "Zara",
@@ -2442,7 +2443,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1839,
+      "index": 1837,
       "isBlocked": false,
       "blockedNote": null,
       "source": "Manuel",
@@ -2451,7 +2452,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Zara",
-      "oldindex": 1837,
+      "oldindex": 1839,
       "title": "Zara"
     },
     {
@@ -2478,7 +2479,7 @@
       "slug": "-ducation-nationale-duconnect-fuite-du-2026-4-14",
       "path": "https://www.education.gouv.fr/incident-de-securite-affectant-les-donnees-de-certains-eleves-de-l-education-nationale-504443",
       "formattedDate": "2026-04-14",
-      "index": 1831,
+      "index": 1829,
       "isBlocked": false,
       "blockedNote": null,
       "source": "Manuel",
@@ -2487,7 +2488,7 @@
       "content": "-\n\nNom\nprénom • Identifiant ÉduConnect • Établissement et classe • Adresse email • Code d’activation •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1829,
+      "oldindex": 1831,
       "title": "éducation nationale (éduconnect) fuite du 2026-4-14"
     },
     {
@@ -2525,9 +2526,9 @@
       "content": "Mise en vente des données de 598 154 membres du programme de fidélité Etik (période 2012-2026) par l'acteur HexDex sur un forum, suite à une compromission.\n\nStatut: Revendiquée\nType de service: Chaîne hôtelière",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1832,
+      "index": 1830,
       "title": "Logis Hôtels",
-      "oldindex": 1830
+      "oldindex": 1832
     },
     {
       "Name": "EduConnect",
@@ -2559,9 +2560,9 @@
       "content": "Le groupe de hackers DumpSec revendique une fuite de 3,5 millions de comptes élèves. L'incident a été confirmé par le ministère de l'Éducation nationale le 14 avril 2026, résultant de l'usurpation d'un compte administrateur fin 2025, bien que le volume exact n'ait pas été officiellement validé.\n\nStatut: Confirmée\nType de service: Education nationale",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1833,
+      "index": 1831,
       "title": "EduConnect",
-      "oldindex": 1831
+      "oldindex": 1833
     },
     {
       "Name": "CNAOC (Confédération Nationale des Appellations d'Origine Contrôlée)",
@@ -2594,9 +2595,9 @@
       "content": "Une archive de 52.6 Go contenant environ 41 000 fichiers internes (1994-2025) a été publiée par un nouveau groupe de ransomware se présentant sous le nom Lamashtu.\n\nStatut: Confirmée\nType de service: Organisation viticole",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1834,
+      "index": 1832,
       "title": "CNAOC (Confédération Nationale des Appellations d'Origine Contrôlée)",
-      "oldindex": 1832
+      "oldindex": 1834
     },
     {
       "Name": "basic fit",
@@ -2622,7 +2623,7 @@
       "slug": "basic-fit-fuite-du-2026-4-13",
       "path": "https://bonjourlafuite.eu.org/img/basic-fit.png",
       "formattedDate": "2026-04-13",
-      "index": 1824,
+      "index": 1822,
       "lien": "https://bonjourlafuite.eu.org/img/basic-fit.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -2631,7 +2632,7 @@
       "content": "-\n\nAdresse e-mail • Prénom et nom de famille • Adresse et ville • Numéro de téléphone • Numéro de compte bancaire • Titulaire du compte bancaire • Date de naissance • Informations sur les membres • Frais d'adhésion impayés •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1822,
+      "oldindex": 1824,
       "title": "basic fit fuite du 2026-4-13"
     },
     {
@@ -2658,7 +2659,7 @@
       "slug": "iae-grenoble-fuite-du-2026-4-13",
       "path": "https://bonjourlafuite.eu.org/img/iae-grenoble.png",
       "formattedDate": "2026-04-13",
-      "index": 1825,
+      "index": 1823,
       "lien": "https://bonjourlafuite.eu.org/img/iae-grenoble.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -2667,7 +2668,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Numéro de téléphone • Code postal\nville • Titre courant du poste • Souhait professionnel • Expérience professionnelle • Parcours au sein du réseau • Diplôme obtenu\nannée • Compétence •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1823,
+      "oldindex": 1825,
       "title": "iae grenoble fuite du 2026-4-13"
     },
     {
@@ -2694,7 +2695,7 @@
       "slug": "maison-de-la-magie-fuite-du-2026-4-13",
       "path": "https://bonjourlafuite.eu.org/img/chateau-blois.png",
       "formattedDate": "2026-04-13",
-      "index": 1826,
+      "index": 1824,
       "lien": "https://bonjourlafuite.eu.org/img/chateau-blois.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -2703,7 +2704,7 @@
       "content": "-\n\nNom\npréno • Adresse email • Date de naissance • Numéro de téléphone • Numéro de fax • Adresse postale • Numéro de TVA •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1824,
+      "oldindex": 1826,
       "title": "maison de la magie fuite du 2026-4-13"
     },
     {
@@ -2736,7 +2737,7 @@
       "slug": "booking-fuite-du-2026-4-12",
       "path": "https://bonjourlafuite.eu.org/img/booking.png",
       "formattedDate": "2026-04-12",
-      "index": 1820,
+      "index": 1818,
       "lien": "https://bonjourlafuite.eu.org/img/booking.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -2745,7 +2746,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Adresse postale • Numéro de téléphone • Toute information communiquée •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1818,
+      "oldindex": 1820,
       "title": "booking fuite du 2026-4-12"
     },
     {
@@ -2782,9 +2783,9 @@
       "content": "88 614 fichiers (26.3 Gb) composés exclusivement de documents de bénéficiaires du RSA (datation 2024) stockés par le département. Revendiqués par l'acteur Angel_Batista, provenant du site ardeche.fr.\n\nStatut: Revendiquée\nType de service: Collectivité territoriale",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1821,
+      "index": 1819,
       "title": "Département de l'Ardèche",
-      "oldindex": 1819
+      "oldindex": 1821
     },
     {
       "Name": "INSEI / INSHEA",
@@ -2823,9 +2824,9 @@
       "content": "Le cybercriminel 'ChimeraZ' a publié les données de 1 303 personnes, principalement des personnels de l'Éducation Nationale inscrits à l'INSEI (Institut national supérieur de l'éducation inclusive). La fuite, provenant du portail de l'INSHEA, expose un état civil complet et plus de 1300 documents personnels critiques : CV, fiches de paie, relevés de notes et surtout des pièces d'identité numérisées (Passeports, CNI, Cartes Vitale).\n\nStatut: Revendiquée\nType de service: Institut de formation (Éducation Nationale)",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1822,
+      "index": 1820,
       "title": "INSEI / INSHEA",
-      "oldindex": 1820
+      "oldindex": 1822
     },
     {
       "Name": "Base véhicules d’occasion France",
@@ -2858,9 +2859,9 @@
       "content": "Le 10 avril 2026, le cybercriminel « HexDex » a revendiqué la mise en vente d’une base portant sur 70 551 véhicules uniques en France. Les échantillons diffusés montrent un export très détaillé issu vraisemblablement d’un environnement professionnel de gestion de véhicules d’occasion. Les enregistrements exposent notamment des coordonnées d’acheteurs ou fournisseurs, des plaques d’immatriculation, des numéros de châssis (VIN), des informations de concession, des prix d’achat et de revente, des marges, des dates de transaction et plusieurs champs internes de suivi commercial.\n\nStatut: Revendiquée\nType de service: Distribution automobile / gestion VO",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1817,
+      "index": 1815,
       "title": "Base véhicules d’occasion France",
-      "oldindex": 1815
+      "oldindex": 1817
     },
     {
       "Name": "FranceVerif.fr",
@@ -2897,9 +2898,9 @@
       "content": "Le 2026-04-11, l'acteur ChimeraZ a revendiqué sur DarkForums une fuite intitulée DATABASE | 35.820 FranceVerif.fr ; l'analyse des fichiers fournis (json/jsonl/csv) indique qu'au moins 3 204 personnes/comptes uniques sont concernées, sur la base d'une déduplication conservatrice par email normalisé entre les auteurs d'avis et les comptes utilisateurs de boutiques, tandis que la borne haute atteint 4 387 adresses email uniques si l'on inclut aussi les emails génériques de contact boutique ; les échantillons et fichiers observés couvrent notamment avis utilisateurs, fiches boutiques, offres, cartes cadeaux, catégories/domaines et données internes du service FranceVerif.fr.\n\nStatut: Revendiquée\nType de service: Vérification de sites e-commerce",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1818,
+      "index": 1816,
       "title": "FranceVerif.fr",
-      "oldindex": 1816
+      "oldindex": 1818
     },
     {
       "Name": "Académie de Paris",
@@ -2932,9 +2933,9 @@
       "content": "5 512 enregistrements ont été mis en vente par l'acteur Cybernox, comprenant les données très sensibles de 1 701 étudiants (dont potentiellement des mineurs), incluant leurs photos d'identité, et de 3 811 responsables légaux ou personnels.\n\nStatut: Revendiquée\nType de service: Éducation",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1819,
+      "index": 1817,
       "title": "Académie de Paris",
-      "oldindex": 1817
+      "oldindex": 1819
     },
     {
       "Name": "easy lounge",
@@ -2960,7 +2961,7 @@
       "slug": "easy-lounge-fuite-du-2026-4-10",
       "path": "https://bonjourlafuite.eu.org/img/easy-lounge.png",
       "formattedDate": "2026-04-10",
-      "index": 1803,
+      "index": 1802,
       "lien": "https://bonjourlafuite.eu.org/img/easy-lounge.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -2969,7 +2970,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Adresse postale • Numéro de téléphone • Historique des commandes •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1802,
+      "oldindex": 1803,
       "title": "easy lounge fuite du 2026-4-10"
     },
     {
@@ -2996,7 +2997,7 @@
       "slug": "alumni-universit-c-te-d-azur-fuite-du-2026-4-10",
       "path": "https://bonjourlafuite.eu.org/img/alumni-universite-cote-azur.png",
       "formattedDate": "2026-04-10",
-      "index": 1804,
+      "index": 1803,
       "lien": "https://bonjourlafuite.eu.org/img/alumni-universite-cote-azur.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -3005,7 +3006,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Numéro de téléphone • Code postal\nville • Titre courant du poste • Souhait professionnel • Expérience professionnelle • Parcours au sein du réseau • Diplôme obtenu\nannée • Compétence •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1803,
+      "oldindex": 1804,
       "title": "alumni université côte d’azur fuite du 2026-4-10"
     },
     {
@@ -3032,7 +3033,7 @@
       "slug": "ensai-network-fuite-du-2026-4-10",
       "path": "https://bonjourlafuite.eu.org/img/ensai-network.png",
       "formattedDate": "2026-04-10",
-      "index": 1805,
+      "index": 1804,
       "lien": "https://bonjourlafuite.eu.org/img/ensai-network.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -3041,7 +3042,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Numéro de téléphone • Code postal\nville • Titre courant du poste • Souhait professionnel • Expérience professionnelle • Parcours au sein du réseau • Diplôme obtenu\nannée • Compétence •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1804,
+      "oldindex": 1805,
       "title": "ensai network fuite du 2026-4-10"
     },
     {
@@ -3068,7 +3069,7 @@
       "slug": "lilagora-fuite-du-2026-4-10",
       "path": "https://bonjourlafuite.eu.org/img/lilagora.png",
       "formattedDate": "2026-04-10",
-      "index": 1806,
+      "index": 1805,
       "lien": "https://bonjourlafuite.eu.org/img/lilagora.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -3077,7 +3078,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Numéro de téléphone • Code postal\nville • Titre courant du poste • Souhait professionnel • Expérience professionnelle • Parcours au sein du réseau • Diplôme obtenu\nannée • Compétence •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1805,
+      "oldindex": 1806,
       "title": "lilagora fuite du 2026-4-10"
     },
     {
@@ -3104,7 +3105,7 @@
       "slug": "uppa-alumni-fuite-du-2026-4-10",
       "path": "https://bonjourlafuite.eu.org/img/uppa-alumni.png",
       "formattedDate": "2026-04-10",
-      "index": 1807,
+      "index": 1806,
       "lien": "https://bonjourlafuite.eu.org/img/uppa-alumni.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -3113,7 +3114,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Numéro de téléphone • Code postal\nville • Titre courant du poste • Souhait professionnel • Expérience professionnelle • Parcours au sein du réseau • Diplôme obtenu\nannée • Compétence •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1806,
+      "oldindex": 1807,
       "title": "uppa alumni fuite du 2026-4-10"
     },
     {
@@ -3153,9 +3154,9 @@
       "content": "41 470 fiches contacts clients uniques avec 30 410 emails, 44 202 numéros de téléphone et 41 470 mots de passe en clair, couvrant la période février 2019 à décembre 2025 (environ 6 ans et demi d'activité). Dump SQL de 455 Mo extrait le 7 avril 2026, totalisant ~2.8 millions de lignes réparties sur 61 tables, incluant 210 358 correspondances email intégrales, 55 652 documents référencés, 32 505 logs de connexion, 41 499 comptes WordPress et 23 comptes employés CRM. Mis en vente le 8 avril 2026 sur le forum spear[.]cx par l'acteur NormalLeVrai.\n\nStatut: Confirmée\nType de service: Opérateur télécom B2B",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1808,
+      "index": 1807,
       "title": "DB Telecom",
-      "oldindex": 1807
+      "oldindex": 1808
     },
     {
       "Name": "McGrawHill",
@@ -3183,7 +3184,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1809,
+      "index": 1808,
       "isBlocked": false,
       "blockedNote": null,
       "source": "Manuel",
@@ -3192,8 +3193,35 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/McGrawHill",
-      "oldindex": 1808,
+      "oldindex": 1809,
       "title": "McGraw Hill"
+    },
+    {
+      "Name": "son fuite du 2026-4-10",
+      "Title": "son fuite du 2026-4-10",
+      "Domain": null,
+      "BreachDate": "2026-4-10",
+      "AddedDate": "2026-05-09T17:00:18.307Z",
+      "ModifiedDate": "2026-05-09T17:00:18.307Z",
+      "PwnCount": 0,
+      "Description": "Nom\nprénom • Adresse email • Adresse postale • Numéro de téléphone • Historique des commandes •",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "son-fuite-du-2026-4-10",
+      "path": "https://bonjourlafuite.eu.org/img/son-video.png",
+      "formattedDate": "2026-04-10",
+      "index": 1813,
+      "lien": "https://bonjourlafuite.eu.org/img/son-video.png"
     },
     {
       "Name": "DCL (Diplôme de Compétence en Langue)",
@@ -3227,9 +3255,9 @@
       "content": "Mise en vente des données personnelles de 93 061 personnes par le cybercriminel HexDex. Les victimes sont des personnes ayant passé le DCL (Diplôme de Compétence en Langue), un diplôme national français certifiant les compétences linguistiques. La revendication expose des données très sensibles, incluant état civil, coordonnées, mais aussi des informations professionnelles détaillées (employeur, secteur d'activité, matricule), avec un focus sur 1 909 adresses email gouvernementales et de nombreux profils militaires.\n\nStatut: Revendiquée\nType de service: Diplôme national de langue",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1801,
+      "index": 1800,
       "title": "DCL (Diplôme de Compétence en Langue)",
-      "oldindex": 1800
+      "oldindex": 1801
     },
     {
       "Name": "Fédération Française du Sport Universitaire",
@@ -3261,9 +3289,9 @@
       "content": "L'acteur de la menace HexDex a mis en vente les données personnelles de 1,133,731 adhérents de la Fédération Française du Sport Universitaire, détaillant un total de 1,023,774 adresses postales, 889,383 emails et 521,342 numéros de téléphone uniques.\n\nStatut: Revendiquée\nType de service: Fédération sportive",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1802,
+      "index": 1801,
       "title": "Fédération Française du Sport Universitaire",
-      "oldindex": 1801
+      "oldindex": 1802
     },
     {
       "Name": "alumni université de strasbourg",
@@ -3289,7 +3317,7 @@
       "slug": "alumni-universit-de-strasbourg-fuite-du-2026-4-8",
       "path": "https://bonjourlafuite.eu.org/img/alumni-universite-strasbourg.png",
       "formattedDate": "2026-04-08",
-      "index": 1799,
+      "index": 1798,
       "lien": "https://bonjourlafuite.eu.org/img/alumni-universite-strasbourg.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -3298,7 +3326,7 @@
       "content": "-\n\nPrénom\nnom • Adresse email • Numéro de téléphone • Code postal\nville • Titre courant du poste • Souhaits professionnels : Secteurs\nrémunérations recherchés\npays ou villes + codes postaux recherchés\nposte recherché\nniveau d’expérience • Expérience professionnelle : mois et anné\ntitre du poste\nentreprise\nville • Parcours au sein du réseau : diplôme obtenu en année\nnom du diplôme) • Compétences •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1798,
+      "oldindex": 1799,
       "title": "alumni université de strasbourg fuite du 2026-4-8"
     },
     {
@@ -3330,7 +3358,7 @@
       "slug": "kfc-fuite-du-2026-4-7",
       "path": "https://bonjourlafuite.eu.org/img/kfc.png",
       "formattedDate": "2026-04-07",
-      "index": 1796,
+      "index": 1795,
       "lien": "https://bonjourlafuite.eu.org/img/kfc.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -3339,7 +3367,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Numéro de téléphone • Numéro de fidélité •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1795,
+      "oldindex": 1796,
       "title": "kfc fuite du 2026-4-7"
     },
     {
@@ -3366,7 +3394,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1797,
+      "index": 1796,
       "isBlocked": false,
       "blockedNote": null,
       "source": "Manuel",
@@ -3375,7 +3403,7 @@
       "isNSFW": true,
       "nsfwConfidence": 0.9,
       "lien": "https://haveibeenpwned.com/Breach/MyLovelyAI",
-      "oldindex": 1796,
+      "oldindex": 1797,
       "title": "My Lovely AI",
       "tags": [
         "IA"
@@ -3407,7 +3435,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1794,
+      "index": 1793,
       "isBlocked": false,
       "blockedNote": null,
       "source": "Manuel",
@@ -3416,7 +3444,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/LegionProxy",
-      "oldindex": 1793,
+      "oldindex": 1794,
       "title": "LegionProxy"
     },
     {
@@ -3448,9 +3476,9 @@
       "content": "Environ 133 300 utilisateurs de la plateforme de gestion Nosho, exposés dans une fuite de données revendiquée.\n\nStatut: Revendiquée\nType de service: CRM Santé",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1791,
+      "index": 1790,
       "title": "Nosho",
-      "oldindex": 1790
+      "oldindex": 1791
     },
     {
       "Name": "YMED (SOONCARE®)",
@@ -3483,9 +3511,9 @@
       "content": "Le groupe d'extorsion XP95 revendique l'exfiltration de 132 Go de données, impactant 253 342 patients et 431 579 fichiers médicaux. La fuite provient de la plateforme SOONCARE® et affecte les usagers de partenaires comme la Clinique Bordeaux Nord Aquitaine ou l'Institut Bergonié.\n\nStatut: Revendiquée\nType de service: Éditeur de logiciels de santé",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1792,
+      "index": 1791,
       "title": "YMED (SOONCARE®)",
-      "oldindex": 1791
+      "oldindex": 1792
     },
     {
       "Name": "AlumnForce",
@@ -3522,9 +3550,9 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/AlumnForce",
-      "index": 1793,
+      "index": 1792,
       "title": "AlumnForce",
-      "oldindex": 1792
+      "oldindex": 1793
     },
     {
       "Name": "contrat d’intégration républicaine",
@@ -3550,7 +3578,7 @@
       "slug": "contrat-d-int-gration-r-publicaine-fuite-du-2026-4-4",
       "path": "https://bonjourlafuite.eu.org/img/ofii.jpg",
       "formattedDate": "2026-04-04",
-      "index": 1785,
+      "index": 1784,
       "lien": "https://bonjourlafuite.eu.org/img/ofii.jpg",
       "isBlocked": false,
       "blockedNote": null,
@@ -3559,7 +3587,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Adresse postale • Numéro de téléphone •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1784,
+      "oldindex": 1785,
       "title": "contrat d’intégration républicaine fuite du 2026-4-4"
     },
     {
@@ -3595,9 +3623,9 @@
       "content": "Plus de 70 000 personnes seraient concernées par une fuite de données selon des éléments transmis par les hackers. L'entreprise a informé ses clients par mail.\n\nStatut: Confirmée\nType de service: Achat et vente de métaux précieux",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1786,
+      "index": 1785,
       "title": "Or en Cash",
-      "oldindex": 1785
+      "oldindex": 1786
     },
     {
       "Name": "Veuve Clicquot",
@@ -3629,9 +3657,9 @@
       "content": "Les données personnelles des visiteurs ayant réservé une visite des caves depuis juillet 2024 ont été compromises suite à une attaque par rançongiciel contre un prestataire de billetterie, survenue le 2 mars 2026. Source: France 3 Grand Est.\n\nStatut: Confirmée\nType de service: Champagne",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1787,
+      "index": 1786,
       "title": "Veuve Clicquot",
-      "oldindex": 1786
+      "oldindex": 1787
     },
     {
       "Name": "La Quiberonnaise",
@@ -3662,9 +3690,9 @@
       "content": "Un accès non autorisé aux données personnelles a eu lieu suite à un incident de sécurité chez un prestataire technique, détecté le 3 avril 2026. L'information a été communiquée par email aux clients.\n\nStatut: Confirmée\nType de service: Conserverie",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1783,
+      "index": 1782,
       "title": "La Quiberonnaise",
-      "oldindex": 1782
+      "oldindex": 1783
     },
     {
       "Name": "Amtrak",
@@ -3692,7 +3720,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1784,
+      "index": 1783,
       "isBlocked": false,
       "blockedNote": null,
       "source": "Manuel",
@@ -3701,7 +3729,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Amtrak",
-      "oldindex": 1783,
+      "oldindex": 1784,
       "title": "Amtrak"
     },
     {
@@ -3728,7 +3756,7 @@
       "slug": "gold-union-fuite-du-2026-4-2",
       "path": "https://bonjourlafuite.eu.org/img/gold-union.png",
       "formattedDate": "2026-04-02",
-      "index": 1779,
+      "index": 1778,
       "lien": "https://bonjourlafuite.eu.org/img/gold-union.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -3737,7 +3765,7 @@
       "content": "-\n\nNom\nprénom • Adresse postale • Carte d’identité • Factures • IBAN •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1778,
+      "oldindex": 1779,
       "title": "gold union fuite du 2026-4-2"
     },
     {
@@ -3774,7 +3802,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1780,
+      "index": 1779,
       "isBlocked": false,
       "blockedNote": null,
       "source": "Manuel",
@@ -3783,7 +3811,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/SongTrivia2",
-      "oldindex": 1779,
+      "oldindex": 1780,
       "title": "SongTrivia2"
     },
     {
@@ -3839,9 +3867,9 @@
       "content": "La base de données de 161 343 membres du syndicat Force Ouvrière (FO) a été mise en vente par l'acteur HexDex. Cette fuite est différente de celle enregistrée le 26 janvier 2026.\n\nStatut: Revendiquée\nType de service: Syndicat",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1775,
+      "index": 1774,
       "title": "Force Ouvrière #2",
-      "oldindex": 1774
+      "oldindex": 1775
     },
     {
       "Name": "CarnivalCorporation",
@@ -3877,9 +3905,9 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/CarnivalCorporation",
-      "index": 1776,
+      "index": 1775,
       "title": "CarnivalCorporation",
-      "oldindex": 1775
+      "oldindex": 1776
     },
     {
       "Name": "MarcusMillichap",
@@ -3913,9 +3941,9 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/MarcusMillichap",
-      "index": 1777,
+      "index": 1776,
       "title": "MarcusMillichap",
-      "oldindex": 1776
+      "oldindex": 1777
     },
     {
       "Name": "AmanResorts",
@@ -3955,9 +3983,9 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/AmanResorts",
-      "index": 1778,
+      "index": 1777,
       "title": "AmanResorts",
-      "oldindex": 1777
+      "oldindex": 1778
     },
     {
       "Name": "la mine bleue",
@@ -3983,7 +4011,7 @@
       "slug": "la-mine-bleue-fuite-du-2026-3-31",
       "path": "https://bonjourlafuite.eu.org/img/minebleue.png",
       "formattedDate": "2026-03-31",
-      "index": 1767,
+      "index": 1766,
       "lien": "https://bonjourlafuite.eu.org/img/minebleue.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -3992,7 +4020,7 @@
       "content": "-\n\nNom\nprénom • Code postal\npays • Adresse email • Historique des achats •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1766,
+      "oldindex": 1767,
       "title": "la mine bleue fuite du 2026-3-31"
     },
     {
@@ -4019,7 +4047,7 @@
       "slug": "homair-fuite-du-2026-3-31",
       "path": "https://bonjourlafuite.eu.org/img/homair.png",
       "formattedDate": "2026-03-31",
-      "index": 1768,
+      "index": 1767,
       "lien": "https://bonjourlafuite.eu.org/img/homair.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -4028,7 +4056,7 @@
       "content": "-\n\nNom\nprénom • Numéro de téléphone • Adresse email • Destination • Date d’arrivée et de départ • Montant de la réservation •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1767,
+      "oldindex": 1768,
       "title": "homair fuite du 2026-3-31"
     },
     {
@@ -4055,7 +4083,7 @@
       "slug": "vaucluse-provence-attractivit-fuite-du-2026-3-31",
       "path": "https://bonjourlafuite.eu.org/img/vaucluse-provence-attractivite.png",
       "formattedDate": "2026-03-31",
-      "index": 1769,
+      "index": 1768,
       "lien": "https://bonjourlafuite.eu.org/img/vaucluse-provence-attractivite.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -4064,7 +4092,7 @@
       "content": "-\n\nMalware •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1768,
+      "oldindex": 1769,
       "title": "vaucluse provence attractivité fuite du 2026-3-31"
     },
     {
@@ -4097,9 +4125,9 @@
       "content": "Le volume de données n'est pas précisé, la fuite a eu lieu entre le 16 et le 20 mars 2026 via un prestataire technique, selon une communication de Vacancéole. Cette fuite s'inscrit dans la continuité du prestataire technique de Belambra et Homair.\n\nStatut: Confirmée\nType de service: Location de vacances",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1770,
+      "index": 1769,
       "title": "Vacancéole",
-      "oldindex": 1769
+      "oldindex": 1770
     },
     {
       "Name": "Hallmark",
@@ -4128,7 +4156,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1771,
+      "index": 1770,
       "isBlocked": false,
       "blockedNote": null,
       "source": "Manuel",
@@ -4137,7 +4165,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Hallmark",
-      "oldindex": 1770,
+      "oldindex": 1771,
       "title": "Hallmark"
     },
     {
@@ -4164,7 +4192,7 @@
       "slug": "gdquest-fuite-du-2026-3-30",
       "path": "https://bonjourlafuite.eu.org/img/gdquest.png",
       "formattedDate": "2026-03-30",
-      "index": 1762,
+      "index": 1761,
       "lien": "https://bonjourlafuite.eu.org/img/gdquest.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -4173,7 +4201,7 @@
       "content": "-\n\nAdresse email • Titre et tarif des cours suivi • Pseudo et slug du compte •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1761,
+      "oldindex": 1762,
       "title": "gdquest fuite du 2026-3-30"
     },
     {
@@ -4206,9 +4234,9 @@
       "content": "Information du 25 mars 2026 communiquée par email aux clients suite à un incident de sécurité chez un prestataire en charge du système de réservation. Le volume de données n'a pas été précisé.\n\nStatut: Confirmée\nType de service: Hôtellerie",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1763,
+      "index": 1762,
       "title": "Belambra",
-      "oldindex": 1762
+      "oldindex": 1763
     },
     {
       "Name": "La Centrale de Financement",
@@ -4246,9 +4274,9 @@
       "content": "411 000 fichiers (387 Go) revendiqués et mis en vente par l'acteur Sorb. Plusieurs documents d'identité, documents financier exposés en échantillons.\n\nStatut: Revendiquée\nType de service: Courtier en crédit et assurance",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1761,
+      "index": 1760,
       "title": "La Centrale de Financement",
-      "oldindex": 1760
+      "oldindex": 1761
     },
     {
       "Name": "Le Petit Vapoteur",
@@ -4282,9 +4310,9 @@
       "content": "La fuite de données de 3.3 millions de clients et 599 employés de Le Petit Vapoteur, revendiquée par l'acteur 'undef' en mars 2026, proviendrait du site e-commerce et expose des données personnelles, coordonnées, logs de connexion et des informations sur les employés incluant leurs photos.\n\nStatut: Revendiquée\nType de service: E-commerce (Vapotage)",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1759,
+      "index": 1758,
       "title": "Le Petit Vapoteur",
-      "oldindex": 1758
+      "oldindex": 1759
     },
     {
       "Name": "Fédération Française Handisport",
@@ -4318,9 +4346,9 @@
       "content": "La vente des données personnelles de 197 276 adhérents de la Fédération Française Handisport a été revendiquée par l'acteur HexDex le 28 mars 2026.\n\nStatut: Revendiquée\nType de service: Fédération sportive",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1760,
+      "index": 1759,
       "title": "Fédération Française Handisport",
-      "oldindex": 1759
+      "oldindex": 1760
     },
     {
       "Name": "Scalian",
@@ -4352,9 +4380,9 @@
       "content": "Le 24 mars 2026, le CSE de Scalian a informé ses salariés d'un vol de données depuis un applicatif interne. Les données personnelles d'un nombre non spécifié de salariés ont été dérobées, ainsi que des documents d'identité et informations bancaires pour 'quelques dizaines' d'entre eux.\n\nStatut: Confirmée\nType de service: Conseil en management et ingénierie",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1757,
+      "index": 1756,
       "title": "Scalian",
-      "oldindex": 1756
+      "oldindex": 1757
     },
     {
       "Name": "ZenBusiness",
@@ -4381,7 +4409,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1758,
+      "index": 1757,
       "isBlocked": false,
       "blockedNote": null,
       "source": "Manuel",
@@ -4390,7 +4418,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/ZenBusiness",
-      "oldindex": 1757,
+      "oldindex": 1758,
       "title": "ZenBusiness"
     },
     {
@@ -4417,7 +4445,7 @@
       "slug": "les-champs-libres-fuite-du-2026-3-26",
       "path": "https://bonjourlafuite.eu.org/img/champs-libres.png",
       "formattedDate": "2026-03-25",
-      "index": 1754,
+      "index": 1753,
       "lien": "https://bonjourlafuite.eu.org/img/champs-libres.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -4426,7 +4454,7 @@
       "content": "-\n\nNom\nprénom • Adresse email • Numéro de téléphone • Mot de passe (🤬) •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1753,
+      "oldindex": 1754,
       "title": "les champs libres fuite du 2026-3-26"
     },
     {
@@ -4456,7 +4484,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1753,
+      "index": 1752,
       "isBlocked": false,
       "blockedNote": null,
       "source": "Manuel",
@@ -4465,7 +4493,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/SoundRadix",
-      "oldindex": 1752,
+      "oldindex": 1753,
       "title": "Sound Radix",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE"
@@ -4494,7 +4522,7 @@
       "slug": "f-d-ration-fran-aise-de-vol-libre-fuite-du-2026-3-24",
       "path": "https://bonjourlafuite.eu.org/img/ffvl.png",
       "formattedDate": "2026-03-24",
-      "index": 1742,
+      "index": 1741,
       "lien": "https://bonjourlafuite.eu.org/img/ffvl.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -4503,7 +4531,7 @@
       "content": "-\n\nNom\nprénom\n• Numéro de licence fédérale • Structure de rattachement • Sports pratiqués • Âge et date de naissance • Qualifications éventuelles •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1741,
+      "oldindex": 1742,
       "title": "fédération française de vol libre fuite du 2026-3-24",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE"
@@ -4532,7 +4560,7 @@
       "slug": "m-tropole-marseille-fuite-du-2026-3-24",
       "path": "https://bonjourlafuite.eu.org/img/metropole-marseille-provence.png",
       "formattedDate": "2026-03-24",
-      "index": 1743,
+      "index": 1742,
       "lien": "https://bonjourlafuite.eu.org/img/metropole-marseille-provence.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -4541,7 +4569,7 @@
       "content": "-\n\nAdresse email •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1742,
+      "oldindex": 1743,
       "title": "métropole marseille fuite du 2026-3-24",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE"
@@ -4570,7 +4598,7 @@
       "slug": "europa-commission-europ-enne-fuite-du-2026-3-24",
       "path": "https://ec.europa.eu/commission/presscorner/detail/fr/ip_26_748",
       "formattedDate": "2026-03-24",
-      "index": 1744,
+      "index": 1743,
       "isBlocked": false,
       "blockedNote": null,
       "source": "Manuel",
@@ -4579,7 +4607,7 @@
       "content": "-\n\nSource •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1743,
+      "oldindex": 1744,
       "title": "europa (commission européenne) fuite du 2026-3-24"
     },
     {
@@ -4621,11 +4649,11 @@
       "content": "Revendication de la vente de 198 Go de données par l'acteur DumpSec, couvrant la période 2018-2026. La fuite contiendrait 1,9 million de lignes et 329 000 documents. Les CROUS étant un service public national, cette violation impacterait des étudiants sur l'ensemble du territoire français. Les données exposées sont particulièrement sensibles, incluant des documents d'identité (CNI, passeports), des dossiers scolaires et des informations financières (fiches de paie).\n\nStatut: Revendiquée\nType de service: Services aux étudiants",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1745,
+      "index": 1744,
       "title": "CROUS",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
-      "oldindex": 1744,
+      "oldindex": 1745,
       "Attribution": "dumpsec"
     },
     {
@@ -4665,11 +4693,11 @@
       "content": "365 900 clients uniques de Mondial Tissus (période de 2019 à 2026) revendiqués par l'acteur Dumpsec sur le forum DarkForums.\n\nStatut: Revendiquée\nType de service: Vente de tissus et mercerie",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1746,
+      "index": 1745,
       "title": "Mondial Tissus",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1745,
+      "oldindex": 1746,
       "Attribution": "dumpsec"
     },
     {
@@ -4715,11 +4743,11 @@
       "content": "Environ 62 511 enregistrements d'armes et de leurs propriétaires, issus du Système d'Information sur les Armes (SIA), la base de données centralisée du gouvernement français pour le suivi et la gestion des armes à feu, ont été mis en vente par l'acteur de la menace HexDex.\n\nStatut: Revendiquée\nType de service: Système d'information gouvernemental",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1747,
+      "index": 1746,
       "title": "Système d'Information sur les Armes (SIA)",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1746,
+      "oldindex": 1747,
       "Attribution": "hexdex"
     },
     {
@@ -4760,11 +4788,11 @@
       "content": "Mise en vente par l'acteur HexDex sur le forum DarkForums d'une base de données contenant 739 316 enregistrements, correspondant à 453 299 clients uniques et 513 089 numéros de téléphone uniques. La fuite couvre la période de 2014 à 2026.\n\nStatut: Revendiquée\nType de service: Vente de pneus en ligne",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1741,
+      "index": 1740,
       "title": "Allopneus",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1740,
+      "oldindex": 1741,
       "Attribution": "hexdex"
     },
     {
@@ -4803,9 +4831,9 @@
       "content": "L'acteur HexDex a mis en vente plusieurs bases de données d'Airsoft-Entrepot, contenant les informations de 363 000 clients (dont 328k emails et 243k téléphones), 2.9 millions de factures, 6.1 millions de lignes de livraison et 937 000 lignes de ventes. Les données s'étendent de 2013 au 17 mars 2026.\n\nStatut: Revendiquée\nType de service: Vente en ligne (Airsoft)",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1739,
+      "index": 1738,
       "title": "Airsoft-Entrepot",
-      "oldindex": 1738,
+      "oldindex": 1739,
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
       "Attribution": "hexdex"
@@ -4845,11 +4873,11 @@
       "content": "Revendication par les acteurs 'ryolait' et '@HexDex' de la compromission de l'annuaire Gabriel des établissements privés catholiques. Le volume est une estimation basée sur la revendication des hackers et contiendrait les données de 1.42 million de parents, 2 millions d'enfants et 246 000 enseignants. Mise en vente le 20 mars 2026.\n\nStatut: Revendiquée\nType de service: Éducation",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1735,
+      "index": 1734,
       "title": "Enseignement Catholique",
       "IsCritical": false,
       "SeverityLevel": "MODÉRÉ",
-      "oldindex": 1734
+      "oldindex": 1735
     },
     {
       "Name": "Confédération Musicale de France (CMF)",
@@ -4889,11 +4917,11 @@
       "content": "Mise en vente des données de 109 302 membres de la Confédération Musicale de France (CMF) par l'acteur de la menace HexDex. La CMF est une organisation nationale qui rassemble des ensembles musicaux amateurs. La fuite est particulièrement sensible car elle expose les données personnelles complètes de nombreux membres, majoritairement mineurs, incluant des notes internes détaillant des informations sur leur santé (handicaps, troubles) et leur parcours scolaire.\n\nStatut: Revendiquée\nType de service: Fédération musicale",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1736,
+      "index": 1735,
       "title": "Confédération Musicale de France (CMF)",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
-      "oldindex": 1735,
+      "oldindex": 1736,
       "Attribution": "hexdex"
     },
     {
@@ -4925,11 +4953,11 @@
       "content": "Les données de 113 000 adhérents de la Mutuelle Familiale sont potentiellement concernées suite à une intrusion informatique découverte le 17 mars 2026.\n\nStatut: Confirmée\nType de service: Mutuelle",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1737,
+      "index": 1736,
       "title": "La Mutuelle Familiale",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1736
+      "oldindex": 1737
     },
     {
       "Name": "Ministère de l'Éducation",
@@ -4973,11 +5001,11 @@
       "content": "L'acteur 'HexDex' a mis en vente une base de données provenant du système compas gérant les académies, couvrant 34 ans d'historique (1992-2026) et concernant 262 651 enseignants, futurs enseignants et professeurs stagiaires. La fuite contient notamment 231 941 numéros de téléphone et 206 169 adresses postales.\n\nStatut: Confirmée\nType de service: Service public",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1734,
+      "index": 1733,
       "title": "Ministère de l'Éducation",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1733,
+      "oldindex": 1734,
       "Attribution": "hexdex"
     },
     {
@@ -5004,7 +5032,7 @@
       "slug": "mingat-fuite-du-2026-3-18",
       "path": "https://bonjourlafuite.eu.org/img/mingat.png",
       "formattedDate": "2026-03-18",
-      "index": 1729,
+      "index": 1728,
       "lien": "https://bonjourlafuite.eu.org/img/mingat.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -5013,7 +5041,7 @@
       "content": "-\n\nRansomware •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1728,
+      "oldindex": 1729,
       "title": "mingat fuite du 2026-3-18",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE"
@@ -5042,7 +5070,7 @@
       "slug": "mus-e-des-arts-et-m-tier-fuite-du-2026-3-18",
       "path": "https://bonjourlafuite.eu.org/img/muam.png",
       "formattedDate": "2026-03-18",
-      "index": 1730,
+      "index": 1729,
       "lien": "https://bonjourlafuite.eu.org/img/muam.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -5051,7 +5079,7 @@
       "content": "-\n\nNom\nprénom • Adresse mail • Information liés au compte utilisateur • Commandes •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1729,
+      "oldindex": 1730,
       "title": "musée des arts et métier fuite du 2026-3-18",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE"
@@ -5094,11 +5122,11 @@
       "content": "En février 2026, revendication par le groupe de hackers ShinyHunters d'une fuite de données désormais publiée sur Darkforums, contenant 538 334 comptes clients uniques du site CanadaGoose.com à travers le monde. Les données exposées contiennent un historique de transactions du 29 août 2014 au 22 juin 2025. Après analyse, 10 816 utilisateurs français sont concernés.\n\nStatut: Confirmée\nType de service: Fabricant de vêtements de luxe",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "index": 1731,
+      "index": 1730,
       "title": "Canada Goose",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1730
+      "oldindex": 1731
     },
     {
       "Name": "bibliothèque nationale de france fuite du 2026-3-17",
@@ -5124,7 +5152,7 @@
       "slug": "biblioth-que-nationale-de-france-fuite-du-2026-3-17",
       "path": "https://bonjourlafuite.eu.org/img/bnf.png",
       "formattedDate": "2026-03-17",
-      "index": 1726,
+      "index": 1725,
       "lien": "https://bonjourlafuite.eu.org/img/bnf.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -5133,7 +5161,7 @@
       "content": "-\n\nNom\nprénom • Adresse électronique •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1725,
+      "oldindex": 1726,
       "title": "bibliothèque nationale de france fuite du 2026-3-17",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE"
@@ -5179,9 +5207,9 @@
       "content": "Plus de 500 000 licenciés (2003-2026) issus de la Fédération Française de Rugby. La fuite, publiée sur le forum DarkForums par l'acteur Cybernox, contient également des déclarations d'accident, des CNI, des photos et des informations sur les clubs et terrains.\n\nStatut: Revendiquée\nType de service: Fédération sportive",
       "isNSFW": false,
       "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/03/Rugby-federation-fuites-de-donnees-leak.png",
-      "index": 1727,
+      "index": 1726,
       "title": "Fédération Française de Rugby",
-      "oldindex": 1726,
+      "oldindex": 1727,
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
       "nsfwConfidence": 0,
@@ -5221,9 +5249,9 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://fuitesinfos.fr/#annuaire-administration-2026-03-17",
-      "index": 1728,
+      "index": 1727,
       "title": "Annuaire Administration",
-      "oldindex": 1727
+      "oldindex": 1728
     },
     {
       "Name": "Sarah Knafo #2",
@@ -5250,11 +5278,11 @@
       "categories": [],
       "content": "Fuite de 594 numéros de téléphone issus du système de la campagne municipale (call center) de Sarah Knafo, et concernant principalement des membres parisiens du parti Reconquête!. Initialement publiée par solivann667 le 30 janvier 2026, le vol de données n'avaient pas été évoqué en l'absence de précision permettant d'identifier l'origine exacte. Le hacker a apporté des précisions ces derniers jours.\n\nStatut: Revendiquée\nType de service: Parti politique",
       "isNSFW": false,
-      "index": 1725,
+      "index": 1724,
       "title": "Sarah Knafo #2",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1724,
+      "oldindex": 1725,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -5292,9 +5320,9 @@
       "categories": [],
       "content": "Fuite des données de 71 502 patients et 199 697 rendez-vous sur Therapeutes.com, une plateforme de mise en relation avec des professionnels de la santé mentale (thérapeutes, psychologues). Publiée par l'acteur HexDex.\n\nStatut: Revendiquée\nType de service: Plateforme de santé mentale",
       "isNSFW": false,
-      "index": 1721,
+      "index": 1720,
       "title": "Therapeutes.com",
-      "oldindex": 1720,
+      "oldindex": 1721,
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
       "isBlocked": false,
@@ -5338,11 +5366,11 @@
       "categories": [],
       "content": "Environ 315 000 lignes de données de l'Université Paris-Est ont été mises en vente par l'acteur s1n0xy le 8 mars 2026. Base administrative et partenaires.\n\nStatut: Confirmée\nType de service: Éducation",
       "isNSFW": false,
-      "index": 1722,
+      "index": 1721,
       "title": "Université Paris-Est",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1721,
+      "oldindex": 1722,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0,
@@ -5378,11 +5406,11 @@
       "categories": [],
       "content": "890 000 utilisateurs de GPS Santé, un réseau de professionnels de santé qui met en relation des patients avec des médecins et spécialistes. La fuite a été revendiquée par l'acteur DumpSec sur le forum BreachForums le 13 mars 2026.\n\nStatut: Revendiquée\nType de service: Rendez-vous médicaux",
       "isNSFW": false,
-      "index": 1723,
+      "index": 1722,
       "title": "GPS Santé",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1722,
+      "oldindex": 1723,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0,
@@ -5416,11 +5444,11 @@
       "content": "In March 2026, the League of Legends custom skins service Divine Skins suffered a data breach. The incident was disclosed via the service's Discord server, where Divine Skins stated that an unauthorised third party accessed part of its systems, deleted all skins from the database and exposed email addresses and usernames. The data also contained a history of purchases made by users.",
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/DivineSkins",
-      "index": 1724,
+      "index": 1723,
       "title": "Divine Skins",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1723,
+      "oldindex": 1724,
       "nsfwConfidence": 0
     },
     {
@@ -5455,11 +5483,11 @@
       "categories": [],
       "content": "Les données de 813 866 utilisateurs de Medoucine.com, une plateforme de mise en relation avec des praticiens de médecines alternatives, ont été mises en vente par l'acteur HexDex le 12 mars 2026. La fuite, qui inclut 653 982 emails et 804 983 téléphones uniques, concerne des réservations s'étalant de 2021 à 2026.\n\nStatut: Revendiquée\nType de service: Mise en relation (médecines alternatives)",
       "isNSFW": false,
-      "index": 1719,
+      "index": 1718,
       "title": "Medoucine",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1718,
+      "oldindex": 1719,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0,
@@ -5488,7 +5516,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1720,
+      "index": 1719,
       "isBlocked": false,
       "blockedNote": null,
       "source": "Manuel",
@@ -5497,7 +5525,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Crunchyroll",
-      "oldindex": 1719,
+      "oldindex": 1720,
       "title": "Crunchyroll"
     },
     {
@@ -5524,13 +5552,13 @@
       "slug": "pronote-fuite-du-2026-3-11",
       "path": "https://bonjourlafuite.eu.org/img/pronote.png",
       "formattedDate": "2026-03-11",
-      "index": 1716,
+      "index": 1715,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nSource&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/pronote.png",
-      "oldindex": 1715,
+      "oldindex": 1716,
       "title": "pronote fuite du 2026-3-11",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -5577,11 +5605,11 @@
       "content": "Publication le 11 mars 2026 par l'acteur 'placenta' d'une base de données de plus de 1.2 million de lignes concernant 476 282 clients uniques, compromise en mars 2025. Sur ce volume, 891 972 enregistrements sont associés à des numéros de téléphone français (+33). Cette fuite de données cible spécifiquement la branche de location de matériel de ski ('Intersport Rent') et non l'ensemble des activités commerciales du groupe Intersport.\n\nStatut: Revendiquée\nType de service: Location de matériel de ski",
       "isNSFW": false,
       "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/03/Intersport-rent-ski-fuites-de-donnees-leak-scaled.png",
-      "index": 1717,
+      "index": 1716,
       "title": "Intersport Rent",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1716,
+      "oldindex": 1717,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0,
@@ -5611,13 +5639,13 @@
       "slug": "r-gion-occitanie-fuite-du-2026-3-10",
       "path": "https://bonjourlafuite.eu.org/img/region-occitanie.png",
       "formattedDate": "2026-03-10",
-      "index": 1712,
+      "index": 1711,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom • Date de naissance • Adresse email • Numéro de téléphone • Date de naissance • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/region-occitanie.png",
-      "oldindex": 1711,
+      "oldindex": 1712,
       "title": "région occitanie fuite du 2026-3-10",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -5649,13 +5677,13 @@
       "slug": "vivaticket-fuite-du-2026-3-10",
       "path": "https://bonjourlafuite.eu.org/img/vivaticket.png",
       "formattedDate": "2026-03-10",
-      "index": 1713,
+      "index": 1712,
       "source": "Manuel",
       "categories": [],
       "content": "-\n\nNom\nprénom • Adresse email • Données relatives aux comptes utilisateurs • Source&gt;",
       "isNSFW": false,
       "lien": "https://bonjourlafuite.eu.org/img/vivaticket.png",
-      "oldindex": 1712,
+      "oldindex": 1713,
       "title": "vivaticket fuite du 2026-3-10",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
@@ -5688,11 +5716,11 @@
       "content": "Le 9 mars 2026, la société de gestion Vatel Capital a notifié ses clients par mail d'une exposition accidentelle de fichiers survenue entre le 21 février et le 3 mars 2026. La cause est une erreur de configuration sur un nouveau serveur ayant laissé un port de communication ouvert. Le volume de données exfiltrées par des tiers non autorisés n'est pas précisé.\n\nStatut: Confirmée\nType de service: Gestion d'actifs",
       "isNSFW": false,
       "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/03/Vatel-Capital-leak-fuites-de-donnees.png",
-      "index": 1709,
+      "index": 1708,
       "title": "Vatel Capital",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1708,
+      "oldindex": 1709,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -5742,11 +5770,11 @@
       "content": "L'acteur HexDex revendique la vente des informations de 1 005 361 membres uniques de l'ASPTT pour la période d'inscriptions de 2014 à 2026.\n\nStatut: Revendiquée\nType de service: Fédération sportive",
       "isNSFW": false,
       "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/03/ASPTT-Fuites-de-donnees.png",
-      "index": 1710,
+      "index": 1709,
       "title": "Fédération Omnisports ASPTT",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
-      "oldindex": 1709,
+      "oldindex": 1710,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0,
@@ -5791,11 +5819,11 @@
       "content": "Le cybercriminel 'keta' a mis en vente une base de données de 1 342 952 enregistrements, correspondant à environ 1 268 460 personnes uniques, provenant de l'auto-école en ligne Stych.fr. La fuite a été annoncée le 8 mars 2026 sur BreachForums. Confirmé par l'entreprise auprès des clients.\n\nStatut: Confirmée\nType de service: Auto-école en ligne",
       "isNSFW": false,
       "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/03/Stych-leak-fuites-de-donnees.png",
-      "index": 1704,
+      "index": 1703,
       "title": "Stych",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
-      "oldindex": 1703,
+      "oldindex": 1704,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -5840,11 +5868,11 @@
       "content": "900 000 lignes (commandes clients), couvrant une période d'environ 6 ans (oct. 2019 - fév. 2026), ont été mises en vente par l'acteur 'DumpSec'.\n\nStatut: Revendiquée\nType de service: Prêt-à-porter",
       "isNSFW": false,
       "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/03/Temps-des-cerises-leak-fuites-de-donnees.png",
-      "index": 1705,
+      "index": 1704,
       "title": "Le Temps des Cerises",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1704,
+      "oldindex": 1705,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0,
@@ -5888,11 +5916,11 @@
       "content": "1 042 ressortissants français figurent parmi les 55 867 dossiers clients de différents pays, incluant des documents d'identité (passeports, signatures), qui ont été mis en vente par les cybercriminels HexDex et Angel_Batista le 8 mars 2026.\n\nStatut: Revendiquée\nType de service: Service de réclamation de compensation aérienne",
       "isNSFW": false,
       "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/03/Airclaim-leak-fuites-de-donnees.png",
-      "index": 1706,
+      "index": 1705,
       "title": "Airclaim",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
-      "oldindex": 1705,
+      "oldindex": 1706,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0
@@ -5931,11 +5959,11 @@
       "content": "Le 2026-03-08, l'acteur Angel_Batista a publié sur Breachforums 197 Go de données de la FNATH, une association française dédiée à la défense des accidentés de la vie. La fuite contient les informations de 45 428 membres et 29 144 dossiers de cas.\n\nStatut: Revendiquée\nType de service: Association d'aide aux accidentés",
       "isNSFW": false,
       "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/03/FNATH-Leak-fuites-de-donnees.png",
-      "index": 1707,
+      "index": 1706,
       "title": "FNATH",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
-      "oldindex": 1706,
+      "oldindex": 1707,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0,
@@ -5975,11 +6003,11 @@
       "content": "In March 2026, the Turkish restaurant chain Baydöner suffered a data breach which was subsequently published to a public hacking forum. The incident exposed over 1.2M unique email addresses along with names, phone numbers, cities of residence and plaintext passwords. A small number of records also included Turkish national ID number and date of birth. In their disclosure notice, Baydöner stated that payment and financial data was not affected.",
       "isNSFW": false,
       "lien": "https://haveibeenpwned.com/Breach/Baydoner",
-      "index": 1708,
+      "index": 1707,
       "title": "Baydöner",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
-      "oldindex": 1707,
+      "oldindex": 1708,
       "nsfwConfidence": 0
     },
     {
@@ -6013,11 +6041,11 @@
       "content": "L'acteur HexDex revendique 161 Go de données de SYNLAB, un des leaders européens du diagnostic médical (analyses de sang, etc.). Bien qu'il affirme que les données sont internes (financières, industrielles) et non des données de patients, un impact indirect est possible : la fuite peut être utilisée pour des attaques de phishing très ciblées contre les clients et perturber les services en révélant des failles de sécurité.\n\nStatut: Revendiquée\nType de service: Diagnostic médical",
       "isNSFW": false,
       "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/03/SynLab-fuites-de-donnees-leak.png",
-      "index": 1702,
+      "index": 1701,
       "title": "SYNLAB France",
       "IsCritical": false,
       "SeverityLevel": "FAIBLE",
-      "oldindex": 1701,
+      "oldindex": 1702,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0,
@@ -6063,11 +6091,11 @@
       "content": "Le 7 mars 2026, l'acteur ImVec4 a publié une fuite de données d'Ordoclic au nom du groupe 'samos &amp; his for life', contenant les données d'au moins 1520 patients, 3177 contacts professionnels et plus de 1076 historiques médicaux.\n\nStatut: Revendiquée\nType de service: Gestion d'ordonnances médicales",
       "isNSFW": false,
       "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/03/Ordoclic-fuites-de-donnees-leak.png",
-      "index": 1703,
+      "index": 1702,
       "title": "Ordoclic",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
-      "oldindex": 1702,
+      "oldindex": 1703,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0,
@@ -6111,11 +6139,11 @@
       "content": "Package de 4 Go revendiqué par LAPSUS$ le 6 mars 2026, présenté comme une image système complète. L'ensemble permettrait de transformer un ordinateur en un poste de travail pleinement opérationnel pour la Police ou la Gendarmerie, incluant les accès VPN, les logiciels métiers pour consulter le TAJ et rédiger des procédures, ainsi que les outils pour configurer les smartphones 'Neo' des agents.\n\nStatut: Revendiquée\nType de service: Ministère de l'Intérieur",
       "isNSFW": false,
       "lien": "https://fuitesinfos.fr/wp-content/uploads/2026/03/TAJ.png",
-      "index": 1700,
+      "index": 1699,
       "title": "TAJ (Traitement d'antécédents judiciaires)",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE",
-      "oldindex": 1699,
+      "oldindex": 1700,
       "isBlocked": false,
       "blockedNote": null,
       "nsfwConfidence": 0,
@@ -6151,7 +6179,7 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1701,
+      "index": 1700,
       "isBlocked": false,
       "blockedNote": null,
       "source": "Manuel",
@@ -6160,7 +6188,7 @@
       "isNSFW": false,
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Aura",
-      "oldindex": 1700,
+      "oldindex": 1701,
       "title": "Aura",
       "IsCritical": true,
       "SeverityLevel": "CRITIQUE"
@@ -6295,6 +6323,31 @@
       "blockedNote": null,
       "nsfwConfidence": 0,
       "Attribution": "hexdex"
+    },
+    {
+      "Name": "Son-Vidéo.com",
+      "Title": "Son-Vidéo.com",
+      "Domain": "son-video.com",
+      "BreachDate": "2026-03-05",
+      "PwnCount": 0,
+      "Description": "Selon une communication par email envoyée à ses clients, l'entreprise a confirmé avoir été victime d'un acte de cyber-malveillance détecté le 5 mars 2026, entraînant un accès non autorisé aux données. Le volume de personnes concernées n'est pas précisé.\n\nStatut: Confirmée\nType de service: Vente Hi-Fi et Home-Cinéma",
+      "DataClasses": [
+        "Informations d'identité (Nom, prénom, civilité)",
+        "Coordonnées (Adresse email, numéro de téléphone, adresse postale)",
+        "Données commerciales (Historique des commandes)"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK7g5t1_Bxh1OJmAMzDP9KARTOR9yUgj3pHA&s",
+      "source": "https://fuitesinfos.fr/uploads/2026/04/son-video.com-leak-fuites-de-donnees.webp",
+      "AddedDate": "2026-05-09T17:00:20.897Z",
+      "ModifiedDate": "2026-05-09T17:00:20.897Z",
+      "slug": "son-vidocom",
+      "lien": "https://fuitesinfos.fr/uploads/2026/04/son-video.com-leak-fuites-de-donnees.webp"
     },
     {
       "Name": "agence nationale de la cohésion des territoires (anct)",
