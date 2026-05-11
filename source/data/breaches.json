@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T01:24:42.220Z",
+  "lastUpdated": "2026-05-11T05:34:45.713Z",
   "totalBreaches": 1546,
   "breaches": [
     {
@@ -105,7 +105,16 @@
       "source": "http://fuitesinfos.fr/uploads/2026/05/media31-garonne-leak-mediatheque-fuites-de-donnees.webp",
       "AddedDate": "2026-05-11T01:24:33.494Z",
       "ModifiedDate": "2026-05-11T01:24:33.494Z",
-      "slug": "mdia31"
+      "slug": "mdia31",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Revendication par AplaGroup le 9 mai 2026 d'une fuite de données du site media31.mediatheques.fr portant sur 765 utilisateurs ; le groupe affirme avoir trouvé 5 vulnérabilités, dont 2 critiques, ayant permis l'extraction de données utilisateurs. Le sample contient des comptes usagers avec données d'identité, coordonnées et informations d'accès, mais certaines dates visibles dans l'exemple fourni sont anciennes, notamment une création en 2015, une dernière connexion en 2017 et une modification en 2018, ce qui suggère que les données pourraient être anciennes ou inclure des comptes historiques.\n\nStatut: Revendiquée\nType de service: Médiathèque numérique",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "lien": "https://haveibeenpwned.com/Breach/Média31",
+      "index": 1925,
+      "title": "Média31"
     },
     {
       "Name": "Boulangerie Ange",
