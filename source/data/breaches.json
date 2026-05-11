@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-10T23:27:26.716Z",
-  "totalBreaches": 1545,
+  "lastUpdated": "2026-05-11T01:24:42.220Z",
+  "totalBreaches": 1546,
   "breaches": [
     {
       "Name": "la france insoumise fuite du 2026-5-9",
@@ -76,6 +76,36 @@
       "index": 1924,
       "title": "Monservicederemplacement.fr",
       "oldindex": 1924
+    },
+    {
+      "Name": "Média31",
+      "Title": "Média31",
+      "Domain": "media31.mediatheques.fr",
+      "BreachDate": "2026-05-09",
+      "PwnCount": 765,
+      "Description": "Revendication par AplaGroup le 9 mai 2026 d'une fuite de données du site media31.mediatheques.fr portant sur 765 utilisateurs ; le groupe affirme avoir trouvé 5 vulnérabilités, dont 2 critiques, ayant permis l'extraction de données utilisateurs. Le sample contient des comptes usagers avec données d'identité, coordonnées et informations d'accès, mais certaines dates visibles dans l'exemple fourni sont anciennes, notamment une création en 2015, une dernière connexion en 2017 et une modification en 2018, ce qui suggère que les données pourraient être anciennes ou inclure des comptes historiques.\n\nStatut: Revendiquée\nType de service: Médiathèque numérique",
+      "DataClasses": [
+        "Identité",
+        "Date de naissance",
+        "Email",
+        "Localisation",
+        "Bibliothèque de rattachement",
+        "Droits d'accès",
+        "Dates de compte",
+        "Dernière connexion",
+        "Identifiants internes"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://www.bibliolunion.com/vendors/richfilemanager/connectors/php/filemanager.php?mode=readfile&path=%2FPartenaires%2FMD31%2FMediathequeNumerique-Facebook_publication-1200x630px.jpg&time=1623920589579",
+      "source": "http://fuitesinfos.fr/uploads/2026/05/media31-garonne-leak-mediatheque-fuites-de-donnees.webp",
+      "AddedDate": "2026-05-11T01:24:33.494Z",
+      "ModifiedDate": "2026-05-11T01:24:33.494Z",
+      "slug": "mdia31"
     },
     {
       "Name": "Boulangerie Ange",
