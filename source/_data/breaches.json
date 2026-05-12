@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T10:42:38.596Z",
+  "lastUpdated": "2026-05-12T12:29:36.560Z",
   "totalBreaches": 1550,
   "breaches": [
     {
@@ -28,7 +28,16 @@
       "source": "http://fuitesinfos.fr/uploads/2026/05/best-western-leak-fuites-de-donnees.webp",
       "AddedDate": "2026-05-12T10:42:30.971Z",
       "ModifiedDate": "2026-05-12T10:42:30.971Z",
-      "slug": "best-western-hotels"
+      "slug": "best-western-hotels",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Accès non autorisé identifié le 22 avril 2026 dans une application web de BWH Hotels hébergeant certaines données de réservation de clients ; les données de certains clients auraient été consultées par un tiers non autorisé entre le 14 octobre 2025 et le 22 avril 2026. Aucun volume de personnes concernées n'est communiqué. Les informations de paiement et autres informations financières n'étaient pas stockées dans le système concerné et n'auraient pas été consultées. Clients informés par email.\n\nStatut: Confirmée\nType de service: Hôtellerie",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "lien": "https://haveibeenpwned.com/Breach/Best Western Hotels",
+      "index": 1931,
+      "title": "Best Western Hotels"
     },
     {
       "Name": "once for all",
@@ -54,7 +63,7 @@
       "slug": "once-for-all-fuite-du-2026-5-11",
       "path": "https://bonjourlafuite.eu.org/img/onceforall.png",
       "formattedDate": "2026-05-11",
-      "index": 1928,
+      "index": 1929,
       "lien": "https://bonjourlafuite.eu.org/img/onceforall.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -63,7 +72,7 @@
       "content": "Nom\nprénom • Adresse email • Numéro de téléphone •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1927,
+      "oldindex": 1928,
       "title": "once for all fuite du 2026-5-11"
     },
     {
@@ -182,9 +191,9 @@
       "title": "la france insoumise fuite du 2026-5-9"
     },
     {
-      "Name": "ville de roubaix fuite du 2026-5-9",
+      "Name": "ville de roubaix",
       "Title": "ville de roubaix fuite du 2026-5-9",
-      "Domain": null,
+      "Domain": "roubaixxl.fr",
       "BreachDate": "2026-5-9",
       "AddedDate": "2026-05-12T10:42:28.598Z",
       "ModifiedDate": "2026-05-12T10:42:28.598Z",
@@ -205,7 +214,17 @@
       "slug": "ville-de-roubaix-fuite-du-2026-5-9",
       "path": "https://www.roubaixxl.fr/incident-securite-kiosque-famille-service-education/",
       "formattedDate": "2026-05-09",
-      "index": 1927
+      "index": 1927,
+      "isBlocked": false,
+      "blockedNote": null,
+      "source": "Manuel",
+      "lien": "https://www.roubaixxl.fr/incident-securite-kiosque-famille-service-education/",
+      "categories": [],
+      "content": "Nom\nprénom • Situation familiale • École de rattachement •",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "oldindex": 1927,
+      "title": "ville de roubaix fuite du 2026-5-9"
     },
     {
       "Name": "Boulangerie Ange",
