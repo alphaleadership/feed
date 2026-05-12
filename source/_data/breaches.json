@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T12:29:36.560Z",
+  "lastUpdated": "2026-05-12T15:25:36.281Z",
   "totalBreaches": 1550,
   "breaches": [
     {
@@ -37,7 +37,8 @@
       "nsfwConfidence": 0,
       "lien": "https://haveibeenpwned.com/Breach/Best Western Hotels",
       "index": 1931,
-      "title": "Best Western Hotels"
+      "title": "Best Western Hotels",
+      "oldindex": 1931
     },
     {
       "Name": "once for all",
@@ -72,7 +73,7 @@
       "content": "Nom\nprénom • Adresse email • Numéro de téléphone •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1928,
+      "oldindex": 1929,
       "title": "once for all fuite du 2026-5-11"
     },
     {
