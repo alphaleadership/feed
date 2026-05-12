@@ -1,7 +1,35 @@
 {
-  "lastUpdated": "2026-05-12T08:05:00.345Z",
-  "totalBreaches": 1548,
+  "lastUpdated": "2026-05-12T10:42:38.596Z",
+  "totalBreaches": 1550,
   "breaches": [
+    {
+      "Name": "Best Western Hotels",
+      "Title": "Best Western Hotels",
+      "Domain": "bestwestern.com",
+      "BreachDate": "2026-05-12",
+      "PwnCount": 0,
+      "Description": "Accès non autorisé identifié le 22 avril 2026 dans une application web de BWH Hotels hébergeant certaines données de réservation de clients ; les données de certains clients auraient été consultées par un tiers non autorisé entre le 14 octobre 2025 et le 22 avril 2026. Aucun volume de personnes concernées n'est communiqué. Les informations de paiement et autres informations financières n'étaient pas stockées dans le système concerné et n'auraient pas été consultées. Clients informés par email.\n\nStatut: Confirmée\nType de service: Hôtellerie",
+      "DataClasses": [
+        "Nom",
+        "Adresse e-mail",
+        "Numéro de téléphone",
+        "Adresse personnelle",
+        "Numéro de réservation",
+        "Dates de séjour",
+        "Demandes spéciales"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://logolook.net/wp-content/uploads/2024/03/Best-Western-Logo.png",
+      "source": "http://fuitesinfos.fr/uploads/2026/05/best-western-leak-fuites-de-donnees.webp",
+      "AddedDate": "2026-05-12T10:42:30.971Z",
+      "ModifiedDate": "2026-05-12T10:42:30.971Z",
+      "slug": "best-western-hotels"
+    },
     {
       "Name": "once for all",
       "Title": "once for all fuite du 2026-5-11",
@@ -26,7 +54,7 @@
       "slug": "once-for-all-fuite-du-2026-5-11",
       "path": "https://bonjourlafuite.eu.org/img/onceforall.png",
       "formattedDate": "2026-05-11",
-      "index": 1927,
+      "index": 1928,
       "lien": "https://bonjourlafuite.eu.org/img/onceforall.png",
       "isBlocked": false,
       "blockedNote": null,
@@ -35,7 +63,7 @@
       "content": "Nom\nprénom • Adresse email • Numéro de téléphone •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1926,
+      "oldindex": 1927,
       "title": "once for all fuite du 2026-5-11"
     },
     {
@@ -75,7 +103,7 @@
       "lien": "https://haveibeenpwned.com/Breach/Monservicederemplacement.fr",
       "index": 1924,
       "title": "Monservicederemplacement.fr",
-      "oldindex": 1923
+      "oldindex": 1924
     },
     {
       "Name": "Média31",
@@ -115,7 +143,7 @@
       "lien": "https://haveibeenpwned.com/Breach/Média31",
       "index": 1925,
       "title": "Média31",
-      "oldindex": 1924
+      "oldindex": 1925
     },
     {
       "Name": "la france insoumise fuite du 2026-5-9",
@@ -150,8 +178,34 @@
       "content": "Nom\nprénom • Adresse email • Adresse postale • Information de profil • Participations à groupes ou évènements •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1925,
+      "oldindex": 1926,
       "title": "la france insoumise fuite du 2026-5-9"
+    },
+    {
+      "Name": "ville de roubaix fuite du 2026-5-9",
+      "Title": "ville de roubaix fuite du 2026-5-9",
+      "Domain": null,
+      "BreachDate": "2026-5-9",
+      "AddedDate": "2026-05-12T10:42:28.598Z",
+      "ModifiedDate": "2026-05-12T10:42:28.598Z",
+      "PwnCount": 0,
+      "Description": "Nom\nprénom • Situation familiale • École de rattachement •",
+      "LogoPath": "https://logos.haveibeenpwned.com/List.png",
+      "Attribution": null,
+      "DisclosureUrl": null,
+      "DataClasses": [],
+      "IsVerified": false,
+      "IsFabricated": false,
+      "IsSensitive": false,
+      "IsRetired": false,
+      "IsSpamList": false,
+      "IsMalware": false,
+      "IsSubscriptionFree": false,
+      "IsStealerLog": false,
+      "slug": "ville-de-roubaix-fuite-du-2026-5-9",
+      "path": "https://www.roubaixxl.fr/incident-securite-kiosque-famille-service-education/",
+      "formattedDate": "2026-05-09",
+      "index": 1927
     },
     {
       "Name": "Boulangerie Ange",
@@ -186,7 +240,7 @@
       "nsfwConfidence": 0,
       "index": 1921,
       "title": "Boulangerie Ange",
-      "oldindex": 1920
+      "oldindex": 1921
     },
     {
       "Name": "arsène valentin",
@@ -221,7 +275,7 @@
       "content": "Nom\nprénom • Adresse email • Adresse postale • Numéro de téléphone • Date de naissance • Historique des commandes •",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1921,
+      "oldindex": 1922,
       "title": "arsène valentin fuite du 2026-5-8"
     },
     {
@@ -258,7 +312,7 @@
       "nsfwConfidence": 0,
       "index": 1917,
       "title": "Action populaire (La France Insoumise)",
-      "oldindex": 1916
+      "oldindex": 1917
     },
     {
       "Name": "bilov",
@@ -293,7 +347,7 @@
       "content": "Aucune description disponible pour cette fuite de données.",
       "isNSFW": false,
       "nsfwConfidence": 0,
-      "oldindex": 1917,
+      "oldindex": 1918,
       "title": "bilov fuite du 2026-5-7"
     },
     {
@@ -329,7 +383,7 @@
       "nsfwConfidence": 0,
       "index": 1914,
       "title": "Bouygues Telecom (Fibre)",
-      "oldindex": 1913
+      "oldindex": 1914
     },
     {
       "Name": "Cetelem",
@@ -361,7 +415,7 @@
       "nsfwConfidence": 0,
       "index": 1915,
       "title": "Cetelem",
-      "oldindex": 1914
+      "oldindex": 1915
     },
     {
       "Name": "Book MyName",
@@ -398,7 +452,7 @@
       "nsfwConfidence": 0,
       "index": 1916,
       "title": "Book MyName",
-      "oldindex": 1915
+      "oldindex": 1916
     },
     {
       "Name": "CushmanWakefield",
@@ -428,7 +482,17 @@
       "IsMalware": false,
       "IsSubscriptionFree": false,
       "IsStealerLog": false,
-      "index": 1913
+      "index": 1913,
+      "isBlocked": false,
+      "blockedNote": null,
+      "source": "Manuel",
+      "categories": [],
+      "content": "In May 2026, the real estate services firm Cushman &amp; Wakefield was the target of a \"pay or leak\" extortion campaign by the ShinyHunters group. Following the threat, the group publicly published data they alleged had been obtained from the firm, consisting mostly of C&amp;W email addresses along with tens of thousands of external email addresses and corporate contact records. The exposed data was primarily business information, including names, job titles, company addresses and phone numbers.",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "lien": "https://haveibeenpwned.com/Breach/CushmanWakefield",
+      "oldindex": 1913,
+      "title": "Cushman & Wakefield"
     },
     {
       "Name": "Smallable",
