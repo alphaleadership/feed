@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-12T15:25:36.281Z",
-  "totalBreaches": 1550,
+  "lastUpdated": "2026-05-12T17:32:46.404Z",
+  "totalBreaches": 1551,
   "breaches": [
     {
       "Name": "Best Western Hotels",
@@ -39,6 +39,29 @@
       "index": 1931,
       "title": "Best Western Hotels",
       "oldindex": 1931
+    },
+    {
+      "Name": "Enercoop",
+      "Title": "Enercoop",
+      "Domain": "enercoop.fr",
+      "BreachDate": "2026-05-12",
+      "PwnCount": 0,
+      "Description": "Incident de sécurité identifié par Enercoop le 11 mai 2026, ayant entraîné l'envoi de messages frauduleux usurpant l'identité du service client après la compromission d'un compte. Enercoop confirme que des adresses e-mail associées à des comptes client⋅es, prospects et sociétaires sont concernées. Le périmètre exact des données et des comptes touchés reste en cours d'analyse.\n\nStatut: Confirmée\nType de service: Fournisseur d'électricité",
+      "DataClasses": [
+        "Adresse e-mail"
+      ],
+      "IsSensitive": false,
+      "IsVerified": true,
+      "IsFabricated": false,
+      "IsSpam": false,
+      "IsRetired": false,
+      "IsNative": true,
+      "LogoPath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsUDhOxI7B2Ys5mg8Pk_0CFT3JEYDOC8Zcyw&s",
+      "source": "https://www.faq.enercoop.fr/hc/fr/articles/35519628613266-Information-incident-de-s%C3%A9curit%C3%A9-11-mai-2026",
+      "AddedDate": "2026-05-12T17:32:37.413Z",
+      "ModifiedDate": "2026-05-12T17:32:37.413Z",
+      "slug": "enercoop",
+      "lien": "https://www.faq.enercoop.fr/hc/fr/articles/35519628613266-Information-incident-de-s%C3%A9curit%C3%A9-11-mai-2026"
     },
     {
       "Name": "once for all",
