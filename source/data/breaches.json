@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T17:32:46.404Z",
+  "lastUpdated": "2026-05-12T19:22:25.442Z",
   "totalBreaches": 1551,
   "breaches": [
     {
@@ -61,7 +61,15 @@
       "AddedDate": "2026-05-12T17:32:37.413Z",
       "ModifiedDate": "2026-05-12T17:32:37.413Z",
       "slug": "enercoop",
-      "lien": "https://www.faq.enercoop.fr/hc/fr/articles/35519628613266-Information-incident-de-s%C3%A9curit%C3%A9-11-mai-2026"
+      "lien": "https://www.faq.enercoop.fr/hc/fr/articles/35519628613266-Information-incident-de-s%C3%A9curit%C3%A9-11-mai-2026",
+      "isBlocked": false,
+      "blockedNote": null,
+      "categories": [],
+      "content": "Incident de sécurité identifié par Enercoop le 11 mai 2026, ayant entraîné l'envoi de messages frauduleux usurpant l'identité du service client après la compromission d'un compte. Enercoop confirme que des adresses e-mail associées à des comptes client⋅es, prospects et sociétaires sont concernées. Le périmètre exact des données et des comptes touchés reste en cours d'analyse.\n\nStatut: Confirmée\nType de service: Fournisseur d'électricité",
+      "isNSFW": false,
+      "nsfwConfidence": 0,
+      "index": 1932,
+      "title": "Enercoop"
     },
     {
       "Name": "once for all",
