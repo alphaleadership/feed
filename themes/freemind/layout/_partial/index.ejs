@@ -413,15 +413,30 @@
 									? breach.DataClasses.slice(0, 3).join(', ') + (breach.DataClasses.length > 3 ? '...' : '')
 									: 'Données non spécifiées';
 								
+								const NEW_PERIOD_DAYS = 7;
+								const now = new Date();
+								const addedDate = new Date(breach.AddedDate || breach.BreachDate);
+								const diffDays = Math.floor((now - addedDate) / (1000 * 60 * 60 * 24));
+								const isRecentlyAdded = diffDays < NEW_PERIOD_DAYS;
+								const daysLeft = NEW_PERIOD_DAYS - diffDays;
+								
+								let newBadgeHtml = '';
+								if (isRecentlyAdded) {
+									newBadgeHtml = `<span class="badge bg-success" style="font-size: 0.7em; margin-left: 5px;" title="Encore ${daysLeft} jour${daysLeft > 1 ? 's' : ''}">NOUVEAU (${daysLeft}j)</span>`;
+								}
+
 								return `
 									<div class="col-md-6 col-lg-4 mb-3">
 										<div class="card h-100" style="background: linear-gradient(145deg, #7f1d1d 0%, #5f0f0f 100%); border: 2px solid #dc2626;">
 											<div class="card-body">
 												<div class="d-flex justify-content-between align-items-start mb-2">
 													<span class="badge bg-danger fs-6">#${idx + 1}</span>
-													<span class="badge bg-dark" style="font-size: 0.7em;">
-														<i class="fa fa-calendar me-1"></i>${formattedDate}
-													</span>
+													<div>
+														<span class="badge bg-dark" style="font-size: 0.7em;">
+															<i class="fa fa-calendar me-1"></i>${formattedDate}
+														</span>
+														${newBadgeHtml}
+													</div>
 												</div>
 												<h5 class="card-title mb-2" style="color: #fca5a5;">
 													<i class="fa fa-exclamation-triangle me-2"></i>${breach.Title || breach.Name}
@@ -866,6 +881,19 @@
 						${iaBreaches.slice(0, 5).map((breach, idx) => {
 							const date = new Date(breach.BreachDate).toLocaleDateString('fr-FR', { day: 'numeric', month: 'short', year: 'numeric' });
 							const pwnDisplay = breach.PwnCount >= 1000000 ? (breach.PwnCount / 1000000).toFixed(1) + 'M' : breach.PwnCount.toLocaleString();
+							
+							const NEW_PERIOD_DAYS = 7;
+							const now = new Date();
+							const addedDate = new Date(breach.AddedDate || breach.BreachDate);
+							const diffDays = Math.floor((now - addedDate) / (1000 * 60 * 60 * 24));
+							const isRecentlyAdded = diffDays < NEW_PERIOD_DAYS;
+							const daysLeft = NEW_PERIOD_DAYS - diffDays;
+							
+							let newBadgeHtml = '';
+							if (isRecentlyAdded) {
+								newBadgeHtml = `<span class="badge bg-success" style="font-size: 0.7em; margin-left: 5px;" title="Encore ${daysLeft} jour${daysLeft > 1 ? 's' : ''}">NOUVEAU (${daysLeft}j)</span>`;
+							}
+
 							return `
 								<div class="ia-breach-item">
 									<div class="d-flex justify-content-between align-items-start">
@@ -873,6 +901,7 @@
 											<a href="<%- config.url %>/fuites?id=${breach.index}">
 												<strong>${breach.Title || breach.Name}</strong>
 											</a>
+											${newBadgeHtml}
 											<div style="font-size: 0.85em; color: #c4b5fd; margin-top: 0.25rem;">
 												<i class="fa fa-calendar me-1"></i>${date}
 												<span class="ms-2"><i class="fa fa-users me-1"></i>${pwnDisplay}</span>
