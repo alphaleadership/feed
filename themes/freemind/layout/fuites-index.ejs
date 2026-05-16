@@ -399,13 +399,15 @@
         const NEW_PERIOD_DAYS = 7;
         const now = new Date();
         const addedDate = new Date(breach.AddedDate || breach.BreachDate);
-        const diffDays = Math.floor((now - addedDate) / (1000 * 60 * 60 * 24));
-        const isRecentlyAdded = diffDays < NEW_PERIOD_DAYS;
-        const daysLeft = NEW_PERIOD_DAYS - diffDays;
+        const msLeft = (addedDate.getTime() + (NEW_PERIOD_DAYS * 24 * 60 * 60 * 1000)) - now.getTime();
+        const isRecentlyAdded = msLeft > 0;
         
         let newBadgeHtml = '';
         if (isRecentlyAdded) {
-          newBadgeHtml = `<span class="severity-badge" style="background-color: rgba(40, 167, 69, 0.2); color: #75b798; border: 1px solid rgba(40, 167, 69, 0.4);" title="Encore ${daysLeft} jour${daysLeft > 1 ? 's' : ''}">NOUVEAU (${daysLeft}j)</span>`;
+          const dLeft = Math.floor(msLeft / (1000 * 60 * 60 * 24));
+          const hLeft = Math.floor((msLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          const mLeft = Math.floor((msLeft % (1000 * 60 * 60)) / (1000 * 60));
+          newBadgeHtml = `<span class="severity-badge" style="background-color: rgba(40, 167, 69, 0.2); color: #75b798; border: 1px solid rgba(40, 167, 69, 0.4);" title="Encore ${dLeft}j ${hLeft}h ${mLeft}m">NOUVEAU (${dLeft}j ${hLeft}h ${mLeft}m)</span>`;
         }
 
         let contentHtml = '';

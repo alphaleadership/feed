@@ -212,17 +212,19 @@
                   <% archiveData.years[year][month].forEach(function(item) { %>
                     <% 
                       var addedDate = new Date(item.AddedDate || item.BreachDate);
-                      var diffDays = Math.floor((now - addedDate) / (1000 * 60 * 60 * 24));
-                      var isRecentlyAdded = diffDays < NEW_PERIOD_DAYS;
-                      var daysLeft = NEW_PERIOD_DAYS - diffDays;
+                      var msLeft = (addedDate.getTime() + (NEW_PERIOD_DAYS * 24 * 60 * 60 * 1000)) - now.getTime();
+                      var isRecentlyAdded = msLeft > 0;
+                      var daysLeft = Math.floor(msLeft / (1000 * 60 * 60 * 24));
+                      var hoursLeft = Math.floor((msLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                      var minsLeft = Math.floor((msLeft % (1000 * 60 * 60)) / (1000 * 60));
                     %>
                     <li class="listing-item">
                       <span class="date_class">fuite du <%= new Date(item.BreachDate).toISOString().split('T')[0] %> ajoutée le <%= new Date(item.AddedDate||item.BreachDate).toISOString().split('T')[0] %></span> &raquo;
                       <span class="title">
                         <a href="<%- url_for('/fuites?id=' + item.index) %>" title="<%= item.Title||item.Name %>"><%= item.Title||item.Name %></a>
                         <% if (isRecentlyAdded) { %>
-                          <span class="badge badge-success" style="font-size: 0.7em; background-color: #28a745; margin-left: 5px;" title="Encore <%= daysLeft %> jour<%= daysLeft > 1 ? 's' : '' %>">
-                            NOUVEAU (<%= daysLeft %>j restant<%= daysLeft > 1 ? 's' : '' %>)
+                          <span class="badge badge-success" style="font-size: 0.7em; background-color: #28a745; margin-left: 5px;" title="Encore <%= daysLeft %>j <%= hoursLeft %>h <%= minsLeft %>m">
+                            NOUVEAU (<%= daysLeft %>j <%= hoursLeft %>h <%= minsLeft %>m)
                           </span>
                         <% } %>
                         <% 
