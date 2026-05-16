@@ -1,4 +1,3 @@
-
 <%
   var title = '';
   if (page.archive) {
@@ -6,99 +5,37 @@
     else title = __('archive_a');
   }
 
-  // Utiliser les données de breaches.json
-  var posts = site.data.breaches ? site.data.breaches.breaches : [];
-  var archiveData = {
-      years: {},
-      months: ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre']
-  };
-     const invalidcategory=["hygiène numérique","sécurité","cybersécurité","cybercriminalité","cyberguerre"]
-  // Ajouter l'index à chaque post et trier
-  var filteredPosts = posts.filter((item)=>{
-          return item && item.Name && !item.Name.includes('cve')
-        }).filter((item)=>{
-          return !item.IsRetired
-        }).filter((c)=>{
-          if(c && c.Name && c.Name.toLowerCase().includes("cve-")){
-            return false
-          }
-          
-              return true
-        }).map((item, index) => {
-    //item.index = index; // Ajouter l'index pour le lien
-    return item;
-  }).sort((a, b) => new Date(b.BreachDate) - new Date(a.BreachDate))
-    
+  // Récupérer les données pré-calculées
+  var precomputed = (site.data.breaches && site.data.breaches.precomputedArchive) ? site.data.breaches.precomputedArchive : null;
+  
+  if (!precomputed) {
+    // Fallback au cas où (ne devrait pas arriver si inject-breaches.js a tourné)
+    var posts = site.data.breaches ? site.data.breaches.breaches : [];
+    var filteredPosts = posts.filter(item => item && item.Name && !item.Name.toLowerCase().includes('cve-') && !item.IsRetired);
+    var archiveData = { years: {}, addedRecentlyCount: 0 };
+    var yearSurpassInfo = {};
+    var GLOBAL_NOW = new Date();
+    var GLOBAL_NOW_TIME = GLOBAL_NOW.getTime();
+  } else {
+    var filteredPosts = precomputed.filteredPosts;
+    var archiveData = precomputed.archiveData;
+    var yearSurpassInfo = precomputed.yearSurpassInfo;
+    var GLOBAL_NOW_TIME = precomputed.lastUpdate;
+    var GLOBAL_NOW = new Date(GLOBAL_NOW_TIME);
+  }
 
-  filteredPosts.forEach(function(item) {
-      var date = new Date(item.BreachDate);
-      var year = date.getFullYear();
-      var month = date.getMonth();
-      
-      if (!archiveData.years[year]) {
-         archiveData.years[year] = {};
-      }
-      if (!archiveData.years[year][month]) {
-         archiveData.years[year][month] = [];
-      }
-      archiveData.years[year][month].push(item);
-   });
-
-   // Calculer les fuites ajoutées récemment
-   var NEW_PERIOD_DAYS = 7;
-   var now = new Date();
-   var addedRecentlyCount = filteredPosts.filter(function(item) {
-     var addedDate = new Date(item.AddedDate || item.BreachDate);
-     var msLeft = (addedDate.getTime() + (NEW_PERIOD_DAYS * 24 * 60 * 60 * 1000)) - now.getTime();
-     return msLeft > 0;
-   }).length;
-
-   // Calculer les statistiques de dépassement pour toutes les années à l'avance
-   var yearSurpassInfo = {};
-   var totalYearsCount = Object.keys(archiveData.years).length;
-   var totalBreachesCount = filteredPosts.length;
-   var avgBreachesPerYear = totalBreachesCount / totalYearsCount;
-   
-   Object.keys(archiveData.years).sort((a, b) => a - b).forEach(function(year) {
-      var yearCount = Object.keys(archiveData.years[year]).reduce(function(total, monthKey) { 
-        return total + archiveData.years[year][monthKey].length; 
-      }, 0);
-      
-      var prevYear = parseInt(year) - 1;
-      if (archiveData.years[prevYear]) {
-        var prevYearCount = Object.keys(archiveData.years[prevYear]).reduce(function(total, monthKey) {
-          return total + archiveData.years[prevYear][monthKey].length;
-        }, 0);
-        
-        yearSurpassInfo[year] = {
-          diff: yearCount - prevYearCount,
-          percentage: (((yearCount - prevYearCount) / prevYearCount * 100).toFixed(1)),
-          prevYearCount: prevYearCount,
-          prevYear: prevYear
-        };
-        yearSurpassInfo[year].percentage = (yearSurpassInfo[year].diff >= 0 ? "+" : "") + yearSurpassInfo[year].percentage + "%";
-        
-        if (yearCount >= prevYearCount && prevYearCount > 0) {
-           var allYearItems = [];
-           Object.keys(archiveData.years[year]).forEach(function(monthKey) {
-             allYearItems = allYearItems.concat(archiveData.years[year][monthKey]);
-           });
-           allYearItems.sort((a, b) => new Date(a.BreachDate) - new Date(b.BreachDate));
-           var surpassDate = new Date(allYearItems[prevYearCount - 1].BreachDate);
-           yearSurpassInfo[year].date = surpassDate;
-           yearSurpassInfo[year].days = Math.ceil((surpassDate - new Date(year, 0, 1)) / (1000 * 60 * 60 * 24));
-        }
-      }
-   });
+  var GLOBAL_NEW_PERIOD_DAYS = 7;
+  var GLOBAL_NEW_PERIOD_MS = GLOBAL_NEW_PERIOD_DAYS * 24 * 60 * 60 * 1000;
+  var months_names = ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'];
 %>
 
 <!-- title -->
 <div class="page-header <% if (theme.inverse){ %>page-header-inverse<% } %>">
   <h1 class="archive-title title <% if (theme.inverse){ %>title-inverse<% } %>">
     <%= title %>
-    <% if (addedRecentlyCount > 0) { %>
+    <% if (archiveData.addedRecentlyCount > 0) { %>
       <span class="badge badge-success" style="font-size: 0.4em; vertical-align: middle; background-color: #28a745; margin-left: 10px; padding: 5px 10px;">
-        <%= addedRecentlyCount %> NOUVELLE<%= addedRecentlyCount > 1 ? 'S' : '' %> CETTE SEMAINE
+        <%= archiveData.addedRecentlyCount %> NOUVELLE<%= archiveData.addedRecentlyCount > 1 ? 'S' : '' %> CETTE SEMAINE
       </span>
     <% } %>
   </h1>
@@ -115,15 +52,20 @@
       <!-- Navigation par année (en haut) -->
       <div class="archive-year-nav" style="margin-bottom: 40px; border-bottom: 1px solid #444; padding-bottom: 20px;">
         <% Object.keys(archiveData.years).sort((a, b) => a - b).forEach(function(year) { 
-            var yearCount = Object.keys(archiveData.years[year]).reduce(function(total, monthKey) { return total + archiveData.years[year][monthKey].length; }, 0);
-            var totalPwnCount =  new Intl.NumberFormat(["EN-US"]).format(Object.keys(archiveData.years[year]).reduce(    (total, monthKey) => total + archiveData.years[year][monthKey].reduce(        (monthTotal, item) => monthTotal + (item.PwnCount || 0), 0 ), 0)); 
+            var monthsInYear = archiveData.years[year];
+            var yearCount = 0;
+            var totalPwnCountRaw = 0;
+            Object.keys(monthsInYear).forEach(m => {
+              yearCount += monthsInYear[m].length;
+              monthsInYear[m].forEach(item => totalPwnCountRaw += (item.PwnCount || 0));
+            });
+            var totalPwnCount = new Intl.NumberFormat(["EN-US"]).format(totalPwnCountRaw);
             
             var predictionStr = "";
-            var currentYear = new Date().getFullYear();
+            var currentYear = GLOBAL_NOW.getFullYear();
             if (parseInt(year) === currentYear) {
-              var now = new Date();
               var startOfYear = new Date(currentYear, 0, 1);
-              var daysPassed = Math.ceil((now - startOfYear) / (1000 * 60 * 60 * 24));
+              var daysPassed = Math.ceil((GLOBAL_NOW_TIME - startOfYear.getTime()) / (1000 * 60 * 60 * 24));
               if (daysPassed > 0) {
                 var isLeapYear = (currentYear % 4 === 0 && currentYear % 100 !== 0) || (currentYear % 400 === 0);
                 var daysInYear = isLeapYear ? 366 : 365;
@@ -151,30 +93,33 @@
       <div class="archive">
         <% Object.keys(archiveData.years).sort((a, b) => b - a).forEach(function(year) { %>
           <% 
-          var yearCount = Object.keys(archiveData.years[year]).reduce(function(total, monthKey) { return total + archiveData.years[year][monthKey].length; }, 0);
-          var totalPwnCount =  new Intl.NumberFormat(["EN-US"]).format(Object.keys(archiveData.years[year]).reduce(    (total, monthKey) => total + archiveData.years[year][monthKey].reduce(        (monthTotal, item) => monthTotal + (item.PwnCount || 0), 0 ), 0)); 
-          
+          var monthsInYear = archiveData.years[year];
+          var yearCount = 0;
+          var totalPwnCountRaw = 0;
           var allYearItems = [];
-          Object.keys(archiveData.years[year]).forEach(function(monthKey) {
-            allYearItems = allYearItems.concat(archiveData.years[year][monthKey]);
+          Object.keys(monthsInYear).forEach(m => {
+            yearCount += monthsInYear[m].length;
+            allYearItems = allYearItems.concat(monthsInYear[m]);
+            monthsInYear[m].forEach(item => totalPwnCountRaw += (item.PwnCount || 0));
           });
+          var totalPwnCount = new Intl.NumberFormat(["EN-US"]).format(totalPwnCountRaw);
+          
           allYearItems.sort((a, b) => new Date(a.BreachDate) - new Date(b.BreachDate));
           var avgTimeStr = "";
           if (allYearItems.length > 1) {
             var totalDiff = 0;
             for (var i = 1; i < allYearItems.length; i++) {
-              totalDiff += new Date(allYearItems[i].BreachDate) - new Date(allYearItems[i-1].BreachDate);
+              totalDiff += new Date(allYearItems[i].BreachDate).getTime() - new Date(allYearItems[i-1].BreachDate).getTime();
             }
             var avgDiffDays = Math.round(totalDiff / (allYearItems.length - 1) / (1000 * 60 * 60 * 24));
             avgTimeStr = " <small style='font-size:0.6em; color:#999;'>&nbsp;(moyenne " + avgDiffDays + " j. entre chaque fuite)</small>";
           }
 
           var predictionStr = "";
-          var currentYear = new Date().getFullYear();
+          var currentYear = GLOBAL_NOW.getFullYear();
           if (parseInt(year) === currentYear) {
-            var now = new Date();
             var startOfYear = new Date(currentYear, 0, 1);
-            var daysPassed = Math.ceil((now - startOfYear) / (1000 * 60 * 60 * 24));
+            var daysPassed = Math.ceil((GLOBAL_NOW_TIME - startOfYear.getTime()) / (1000 * 60 * 60 * 24));
             if (daysPassed > 0) {
               var isLeapYear = (currentYear % 4 === 0 && currentYear % 100 !== 0) || (currentYear % 400 === 0);
               var daysInYear = isLeapYear ? 366 : 365;
@@ -195,7 +140,7 @@
             <% if (yearSurpassInfo[year] && yearSurpassInfo[year].date) { %>
               <p style="margin: 10px 0; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
                 <strong>📊</strong> Le nombre de fuites de <%= yearSurpassInfo[year].prevYear %> (<%= yearSurpassInfo[year].prevYearCount %> fuites) a été dépassé le 
-                <strong><%= yearSurpassInfo[year].date.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }) %></strong>
+                <strong><%= new Date(yearSurpassInfo[year].date).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }) %></strong>
                 (au bout de <%= yearSurpassInfo[year].days %> jours).
               </p>
             <% } else if (yearSurpassInfo[year] && yearSurpassInfo[year].prevYearCount > 0 && yearCount < yearSurpassInfo[year].prevYearCount) { %>
@@ -206,31 +151,33 @@
             
             <% Object.keys(archiveData.years[year]).sort((a, b) => b - a).forEach(function(month) { %>
               <% var monthCount = archiveData.years[year][month].length; %>
-              <h5 class="archive-ul" data-toggle="collapse" data-target="#month_<%= year %>_<%= month %>"><%= archiveData.months[month] %> (<%= monthCount %>) <b class="caret"></b></h5>
+              <h5 class="archive-ul" data-toggle="collapse" data-target="#month_<%= year %>_<%= month %>"><%= months_names[month] %> (<%= monthCount %>) <b class="caret"></b></h5>
               <div id="month_<%= year %>_<%= month %>" class="collapse in">
                 <ol>
                   <% archiveData.years[year][month].forEach(function(item) { %>
                     <% 
                       var addedDate = new Date(item.AddedDate || item.BreachDate);
-                      var msLeft = (addedDate.getTime() + (NEW_PERIOD_DAYS * 24 * 60 * 60 * 1000)) - now.getTime();
+                      var msLeft = (addedDate.getTime() + GLOBAL_NEW_PERIOD_MS) - GLOBAL_NOW_TIME;
                       var isRecentlyAdded = msLeft > 0;
-                      var daysLeft = Math.floor(msLeft / (1000 * 60 * 60 * 24));
-                      var hoursLeft = Math.floor((msLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                      var minsLeft = Math.floor((msLeft % (1000 * 60 * 60)) / (1000 * 60));
+                      var dLeft = Math.floor(msLeft / (1000 * 60 * 60 * 24));
+                      var hLeft = Math.floor((msLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                      var mLeft = Math.floor((msLeft % (1000 * 60 * 60)) / (1000 * 60));
                     %>
                     <li class="listing-item">
                       <span class="date_class">fuite du <%= new Date(item.BreachDate).toISOString().split('T')[0] %> ajoutée le <%= new Date(item.AddedDate||item.BreachDate).toISOString().split('T')[0] %></span> &raquo;
                       <span class="title">
                         <a href="<%- url_for('/fuites?id=' + item.index) %>" title="<%= item.Title||item.Name %>"><%= item.Title||item.Name %></a>
                         <% if (isRecentlyAdded) { %>
-                          <span class="badge badge-success" style="font-size: 0.7em; background-color: #28a745; margin-left: 5px;" title="Encore <%= daysLeft %>j <%= hoursLeft %>h <%= minsLeft %>m">
-                            NOUVEAU (<%= daysLeft %>j <%= hoursLeft %>h <%= minsLeft %>m)
+                          <span class="badge badge-success" style="font-size: 0.7em; background-color: #28a745; margin-left: 5px;" title="Encore <%= dLeft %>j <%= hLeft %>h <%= mLeft %>m">
+                            NOUVEAU (<%= dLeft %>j <%= hLeft %>h <%= mLeft %>m)
                           </span>
                         <% } %>
                         <% 
+                          var desc = (item.Description || '').toLowerCase();
+                          var cont = (item.content || '').toLowerCase();
                           var isSiteClosed = item.isBlocked || 
-                            (item.Description && (item.Description.toLowerCase().includes('site fermé') || item.Description.toLowerCase().includes('n\'existe plus') || item.Description.toLowerCase().includes('n existe plus') || item.Description.toLowerCase().includes('disparu') || item.Description.toLowerCase().includes('arrêté') || item.Description.toLowerCase().includes('cessation') || item.Description.toLowerCase().includes('fermeture') || item.Description.toLowerCase().includes('site closed') || item.Description.toLowerCase().includes('no longer exists') || item.Description.toLowerCase().includes('defunct') || item.Description.toLowerCase().includes('discontinued') || item.Description.toLowerCase().includes('ceased') || item.Description.toLowerCase().includes('shutdown') || item.Description.toLowerCase().includes('shut down'))) ||
-                            (item.content && (item.content.toLowerCase().includes('site fermé') || item.content.toLowerCase().includes('n\'existe plus') || item.content.toLowerCase().includes('n existe plus') || item.content.toLowerCase().includes('disparu') || item.content.toLowerCase().includes('arrêté') || item.content.toLowerCase().includes('cessation') || item.content.toLowerCase().includes('fermeture') || item.content.toLowerCase().includes('site closed') || item.content.toLowerCase().includes('no longer exists') || item.content.toLowerCase().includes('defunct') || item.content.toLowerCase().includes('discontinued') || item.content.toLowerCase().includes('ceased') || item.content.toLowerCase().includes('shutdown') || item.content.toLowerCase().includes('shut down')));
+                            desc.includes('site fermé') || desc.includes('n\'existe plus') || desc.includes('n existe plus') || desc.includes('disparu') || desc.includes('arrêté') || desc.includes('cessation') || desc.includes('fermeture') || desc.includes('site closed') || desc.includes('no longer exists') || desc.includes('defunct') || desc.includes('discontinued') || desc.includes('ceased') || desc.includes('shutdown') || desc.includes('shut down') ||
+                            cont.includes('site fermé') || cont.includes('n\'existe plus') || cont.includes('n existe plus') || cont.includes('disparu') || cont.includes('arrêté') || cont.includes('cessation') || cont.includes('fermeture') || cont.includes('site closed') || cont.includes('no longer exists') || cont.includes('defunct') || cont.includes('discontinued') || cont.includes('ceased') || cont.includes('shutdown') || cont.includes('shut down');
                         %>
                         <% if (isSiteClosed) { %>
                           <span class="badge badge-secondary ms-2" style="font-size: 0.7em; background-color: #6c757d;">
