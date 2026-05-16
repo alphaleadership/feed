@@ -1,4 +1,4 @@
-﻿<div class="row page">
+<div class="row page">
 <script src="<%- config.url %>/js/index.js"></script>
 
 	<% if (theme.widgets.length) { %>
@@ -418,7 +418,7 @@
 								const addedDate = new Date(breach.AddedDate || breach.BreachDate);
 								const msLeft = (addedDate.getTime() + (NEW_PERIOD_DAYS * 24 * 60 * 60 * 1000)) - now.getTime();
 								const isRecentlyAdded = msLeft > 0;
-								
+
 								let newBadgeHtml = '';
 								if (isRecentlyAdded) {
 									const dLeft = Math.floor(msLeft / (1000 * 60 * 60 * 24));
@@ -426,7 +426,6 @@
 									const mLeft = Math.floor((msLeft % (1000 * 60 * 60)) / (1000 * 60));
 									newBadgeHtml = `<span class="badge bg-success" style="font-size: 0.7em; margin-left: 5px;" title="Encore ${dLeft}j ${hLeft}h ${mLeft}m">NOUVEAU (${dLeft}j ${hLeft}h ${mLeft}m)</span>`;
 								}
-
 								return `
 									<div class="col-md-6 col-lg-4 mb-3">
 										<div class="card h-100" style="background: linear-gradient(145deg, #7f1d1d 0%, #5f0f0f 100%); border: 2px solid #dc2626;">
@@ -889,7 +888,7 @@
 							const addedDate = new Date(breach.AddedDate || breach.BreachDate);
 							const msLeft = (addedDate.getTime() + (NEW_PERIOD_DAYS * 24 * 60 * 60 * 1000)) - now.getTime();
 							const isRecentlyAdded = msLeft > 0;
-							
+
 							let newBadgeHtml = '';
 							if (isRecentlyAdded) {
 								const dLeft = Math.floor(msLeft / (1000 * 60 * 60 * 24));
@@ -897,7 +896,6 @@
 								const mLeft = Math.floor((msLeft % (1000 * 60 * 60)) / (1000 * 60));
 								newBadgeHtml = `<span class="badge bg-success" style="font-size: 0.7em; margin-left: 5px;" title="Encore ${dLeft}j ${hLeft}h ${mLeft}m">NOUVEAU (${dLeft}j ${hLeft}h ${mLeft}m)</span>`;
 							}
-
 							return `
 								<div class="ia-breach-item">
 									<div class="d-flex justify-content-between align-items-start">
