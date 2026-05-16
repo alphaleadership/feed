@@ -1,3 +1,4 @@
+
 <%
   var title = '';
   if (page.archive) {
@@ -5,37 +6,85 @@
     else title = __('archive_a');
   }
 
-  // Récupérer les données pré-calculées
-  var precomputed = (site.data.breaches && site.data.breaches.precomputedArchive) ? site.data.breaches.precomputedArchive : null;
-  
-  if (!precomputed) {
-    // Fallback au cas où (ne devrait pas arriver si inject-breaches.js a tourné)
-    var posts = site.data.breaches ? site.data.breaches.breaches : [];
-    var filteredPosts = posts.filter(item => item && item.Name && !item.Name.toLowerCase().includes('cve-') && !item.IsRetired);
-    var archiveData = { years: {}, addedRecentlyCount: 0 };
-    var yearSurpassInfo = {};
-    var GLOBAL_NOW = new Date();
-    var GLOBAL_NOW_TIME = GLOBAL_NOW.getTime();
-  } else {
-    var filteredPosts = precomputed.filteredPosts;
-    var archiveData = precomputed.archiveData;
-    var yearSurpassInfo = precomputed.yearSurpassInfo;
-    var GLOBAL_NOW_TIME = precomputed.lastUpdate;
-    var GLOBAL_NOW = new Date(GLOBAL_NOW_TIME);
-  }
+  // Initialisation des variables temporelles globales
+  var ARCHIVE_NOW = new Date();
+  var ARCHIVE_NOW_TIME = ARCHIVE_NOW.getTime();
+  var ARCHIVE_NEW_PERIOD_DAYS = 7;
+  var ARCHIVE_NEW_PERIOD_MS = ARCHIVE_NEW_PERIOD_DAYS * 24 * 60 * 60 * 1000;
 
-  var GLOBAL_NEW_PERIOD_DAYS = 7;
-  var GLOBAL_NEW_PERIOD_MS = GLOBAL_NEW_PERIOD_DAYS * 24 * 60 * 60 * 1000;
-  var months_names = ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'];
+  // Utiliser les données de breaches.json
+  var posts = (site.data && site.data.breaches) ? site.data.breaches.breaches : [];
+  var archiveData = {
+      years: {},
+      months: ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre']
+  };
+  
+  // Filtrage et tri initial (une seule fois)
+  var filteredPosts = posts.filter(function(item){
+    if (!item || !item.Name || item.IsRetired) return false;
+    var nameLower = item.Name.toLowerCase();
+    return !nameLower.includes('cve-') && !nameLower.includes('cve');
+  }).sort(function(a, b) {
+    return new Date(b.BreachDate) - new Date(a.BreachDate);
+  });
+
+  // Groupement par année/mois
+  filteredPosts.forEach(function(item) {
+      var date = new Date(item.BreachDate);
+      var year = date.getFullYear();
+      var month = date.getMonth();
+      if (!archiveData.years[year]) archiveData.years[year] = {};
+      if (!archiveData.years[year][month]) archiveData.years[year][month] = [];
+      archiveData.years[year][month].push(item);
+  });
+
+   // Calculer les fuites ajoutées récemment
+   var addedRecentlyCount = filteredPosts.filter(function(item) {
+     var addedDate = new Date(item.AddedDate || item.BreachDate);
+     return (addedDate.getTime() + ARCHIVE_NEW_PERIOD_MS) > ARCHIVE_NOW_TIME;
+   }).length;
+
+   // Calculer les statistiques de dépassement
+   var yearSurpassInfo = {};
+   Object.keys(archiveData.years).sort(function(a, b){ return a - b; }).forEach(function(year) {
+      var monthsInYear = archiveData.years[year];
+      var yearCount = 0;
+      Object.keys(monthsInYear).forEach(function(m){ yearCount += monthsInYear[m].length; });
+      
+      var prevYear = parseInt(year) - 1;
+      if (archiveData.years[prevYear]) {
+        var prevYearCount = 0;
+        Object.keys(archiveData.years[prevYear]).forEach(function(m){ prevYearCount += archiveData.years[prevYear][m].length; });
+        
+        yearSurpassInfo[year] = {
+          diff: yearCount - prevYearCount,
+          percentage: (prevYearCount > 0 ? (((yearCount - prevYearCount) / prevYearCount * 100).toFixed(1)) : "0"),
+          prevYearCount: prevYearCount,
+          prevYear: prevYear
+        };
+        yearSurpassInfo[year].percentage = (yearSurpassInfo[year].diff >= 0 ? "+" : "") + yearSurpassInfo[year].percentage + "%";
+        
+        if (yearCount >= prevYearCount && prevYearCount > 0) {
+           var allYearItems = [];
+           Object.keys(monthsInYear).forEach(function(monthKey) {
+             allYearItems = allYearItems.concat(monthsInYear[monthKey]);
+           });
+           allYearItems.sort(function(a, b){ return new Date(a.BreachDate) - new Date(b.BreachDate); });
+           var surpassDate = new Date(allYearItems[prevYearCount - 1].BreachDate);
+           yearSurpassInfo[year].date = surpassDate;
+           yearSurpassInfo[year].days = Math.ceil((surpassDate - new Date(year, 0, 1)) / (1000 * 60 * 60 * 24));
+        }
+      }
+   });
 %>
 
 <!-- title -->
 <div class="page-header <% if (theme.inverse){ %>page-header-inverse<% } %>">
   <h1 class="archive-title title <% if (theme.inverse){ %>title-inverse<% } %>">
     <%= title %>
-    <% if (archiveData.addedRecentlyCount > 0) { %>
+    <% if (addedRecentlyCount > 0) { %>
       <span class="badge badge-success" style="font-size: 0.4em; vertical-align: middle; background-color: #28a745; margin-left: 10px; padding: 5px 10px;">
-        <%= archiveData.addedRecentlyCount %> NOUVELLE<%= archiveData.addedRecentlyCount > 1 ? 'S' : '' %> CETTE SEMAINE
+        <%= addedRecentlyCount %> NOUVELLE<%= addedRecentlyCount > 1 ? 'S' : '' %> CETTE SEMAINE
       </span>
     <% } %>
   </h1>
@@ -51,21 +100,21 @@
       
       <!-- Navigation par année (en haut) -->
       <div class="archive-year-nav" style="margin-bottom: 40px; border-bottom: 1px solid #444; padding-bottom: 20px;">
-        <% Object.keys(archiveData.years).sort((a, b) => a - b).forEach(function(year) { 
+        <% Object.keys(archiveData.years).sort(function(a, b){ return a - b; }).forEach(function(year) { 
             var monthsInYear = archiveData.years[year];
             var yearCount = 0;
-            var totalPwnCountRaw = 0;
-            Object.keys(monthsInYear).forEach(m => {
+            var totalPwnRaw = 0;
+            Object.keys(monthsInYear).forEach(function(m){
               yearCount += monthsInYear[m].length;
-              monthsInYear[m].forEach(item => totalPwnCountRaw += (item.PwnCount || 0));
+              monthsInYear[m].forEach(function(it){ totalPwnRaw += (it.PwnCount || 0); });
             });
-            var totalPwnCount = new Intl.NumberFormat(["EN-US"]).format(totalPwnCountRaw);
+            var totalPwnCount = new Intl.NumberFormat(["EN-US"]).format(totalPwnRaw);
             
             var predictionStr = "";
-            var currentYear = GLOBAL_NOW.getFullYear();
+            var currentYear = ARCHIVE_NOW.getFullYear();
             if (parseInt(year) === currentYear) {
               var startOfYear = new Date(currentYear, 0, 1);
-              var daysPassed = Math.ceil((GLOBAL_NOW_TIME - startOfYear.getTime()) / (1000 * 60 * 60 * 24));
+              var daysPassed = Math.ceil((ARCHIVE_NOW_TIME - startOfYear.getTime()) / (1000 * 60 * 60 * 24));
               if (daysPassed > 0) {
                 var isLeapYear = (currentYear % 4 === 0 && currentYear % 100 !== 0) || (currentYear % 400 === 0);
                 var daysInYear = isLeapYear ? 366 : 365;
@@ -91,20 +140,20 @@
 
       <!-- Liste détaillée des fuites -->
       <div class="archive">
-        <% Object.keys(archiveData.years).sort((a, b) => b - a).forEach(function(year) { %>
+        <% Object.keys(archiveData.years).sort(function(a, b){ return b - a; }).forEach(function(year) { %>
           <% 
           var monthsInYear = archiveData.years[year];
           var yearCount = 0;
-          var totalPwnCountRaw = 0;
+          var totalPwnRaw = 0;
           var allYearItems = [];
-          Object.keys(monthsInYear).forEach(m => {
+          Object.keys(monthsInYear).forEach(function(m){
             yearCount += monthsInYear[m].length;
             allYearItems = allYearItems.concat(monthsInYear[m]);
-            monthsInYear[m].forEach(item => totalPwnCountRaw += (item.PwnCount || 0));
+            monthsInYear[m].forEach(function(it){ totalPwnRaw += (it.PwnCount || 0); });
           });
-          var totalPwnCount = new Intl.NumberFormat(["EN-US"]).format(totalPwnCountRaw);
+          var totalPwnCount = new Intl.NumberFormat(["EN-US"]).format(totalPwnRaw);
           
-          allYearItems.sort((a, b) => new Date(a.BreachDate) - new Date(b.BreachDate));
+          allYearItems.sort(function(a, b){ return new Date(a.BreachDate) - new Date(b.BreachDate); });
           var avgTimeStr = "";
           if (allYearItems.length > 1) {
             var totalDiff = 0;
@@ -116,10 +165,10 @@
           }
 
           var predictionStr = "";
-          var currentYear = GLOBAL_NOW.getFullYear();
+          var currentYear = ARCHIVE_NOW.getFullYear();
           if (parseInt(year) === currentYear) {
             var startOfYear = new Date(currentYear, 0, 1);
-            var daysPassed = Math.ceil((GLOBAL_NOW_TIME - startOfYear.getTime()) / (1000 * 60 * 60 * 24));
+            var daysPassed = Math.ceil((ARCHIVE_NOW_TIME - startOfYear.getTime()) / (1000 * 60 * 60 * 24));
             if (daysPassed > 0) {
               var isLeapYear = (currentYear % 4 === 0 && currentYear % 100 !== 0) || (currentYear % 400 === 0);
               var daysInYear = isLeapYear ? 366 : 365;
@@ -149,15 +198,15 @@
               </p>
             <% } %>
             
-            <% Object.keys(archiveData.years[year]).sort((a, b) => b - a).forEach(function(month) { %>
+            <% Object.keys(archiveData.years[year]).sort(function(a, b){ return b - a; }).forEach(function(month) { %>
               <% var monthCount = archiveData.years[year][month].length; %>
-              <h5 class="archive-ul" data-toggle="collapse" data-target="#month_<%= year %>_<%= month %>"><%= months_names[month] %> (<%= monthCount %>) <b class="caret"></b></h5>
+              <h5 class="archive-ul" data-toggle="collapse" data-target="#month_<%= year %>_<%= month %>"><%= archiveData.months[month] %> (<%= monthCount %>) <b class="caret"></b></h5>
               <div id="month_<%= year %>_<%= month %>" class="collapse in">
                 <ol>
                   <% archiveData.years[year][month].forEach(function(item) { %>
                     <% 
                       var addedDate = new Date(item.AddedDate || item.BreachDate);
-                      var msLeft = (addedDate.getTime() + GLOBAL_NEW_PERIOD_MS) - GLOBAL_NOW_TIME;
+                      var msLeft = (addedDate.getTime() + ARCHIVE_NEW_PERIOD_MS) - ARCHIVE_NOW_TIME;
                       var isRecentlyAdded = msLeft > 0;
                       var dLeft = Math.floor(msLeft / (1000 * 60 * 60 * 24));
                       var hLeft = Math.floor((msLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
