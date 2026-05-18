@@ -59,8 +59,10 @@
      return (addedDate.getTime() + ARCHIVE_NEW_PERIOD_MS) > ARCHIVE_NOW_TIME;
    }).length;
 
-   // Calculer les statistiques de dépassement
+   // Calculer les statistiques de dépassement et de retard
    var yearSurpassInfo = {};
+   var historicalLateRates = [];
+
    Object.keys(archiveData.years).sort(function(a, b){ return a - b; }).forEach(function(year) {
       var monthsInYear = archiveData.years[year];
       var yearCount = 0;
@@ -81,6 +83,12 @@
         });
       });
 
+      var lateRate = yearCount > 0 ? (lateDiscoveryCount / yearCount) : 0;
+      // On ne prend que les années passées pour la moyenne historique (où le taux est "final")
+      if (parseInt(year) < ARCHIVE_NOW.getFullYear() && yearCount > 0) {
+        historicalLateRates.push(lateRate);
+      }
+
       if (archiveData.years[prevYear]) {
         var prevYearCount = 0;
         Object.keys(archiveData.years[prevYear]).forEach(function(m){ prevYearCount += archiveData.years[prevYear][m].length; });
@@ -90,7 +98,7 @@
           percentage: (prevYearCount > 0 ? (((yearCount - prevYearCount) / prevYearCount * 100).toFixed(1)) : "0"),
           prevYearCount: prevYearCount,
           prevYear: prevYear,
-          latePercentage: (yearCount > 0 ? ((lateDiscoveryCount / yearCount) * 100).toFixed(1) : "0")
+          latePercentage: (lateRate * 100).toFixed(1)
         };
         yearSurpassInfo[year].percentage = (yearSurpassInfo[year].diff >= 0 ? "+" : "") + yearSurpassInfo[year].percentage + "%";
         
@@ -104,8 +112,17 @@
            yearSurpassInfo[year].date = surpassDate;
            yearSurpassInfo[year].days = Math.ceil((surpassDate - new Date(year, 0, 1)) / (1000 * 60 * 60 * 24));
         }
+      } else {
+        // Pour la première année ou les années sans précédent
+        yearSurpassInfo[year] = {
+          latePercentage: (lateRate * 100).toFixed(1)
+        };
       }
    });
+
+   // Calcul de la prévision des fuites tardives pour l'année en cours
+   var avgHistoricalLateRate = historicalLateRates.length > 0 ? 
+      (historicalLateRates.reduce(function(a, b){ return a + b; }, 0) / historicalLateRates.length) : 0;
 %>
 
 <!-- title -->
@@ -167,6 +184,7 @@
             }
 
             var predictionStr = "";
+            var latePredictionStr = "";
             var currentYear = ARCHIVE_NOW.getFullYear();
             if (parseInt(year) === currentYear) {
               var startOfYear = new Date(currentYear, 0, 1);
@@ -176,6 +194,12 @@
                 var daysInYear = isLeapYear ? 366 : 365;
                 var prediction = Math.round((yearCount / daysPassed) * daysInYear);
                 predictionStr = " - 🔮 prévision : " + formatNumber(prediction) + " fuites";
+                
+                // Prévision des fuites tardives basées sur le taux historique
+                var predictedLateCount = Math.round(prediction * avgHistoricalLateRate);
+                if (predictedLateCount > 0) {
+                  latePredictionStr = " - 🔮 prév. tardives : " + formatNumber(predictedLateCount);
+                }
               }
             }
 
@@ -188,7 +212,7 @@
           <div style="margin-bottom: 8px;">
             <a href="#year_heading_<%= year %>" style="font-size: 1.05em; color: #e2e8f0; text-decoration: none;">
               <i class="fa fa-chevron-right me-2" style="font-size: 0.8em; color: #38bdf8;"></i>
-              <strong><%= year %></strong> (<%= yearCount %> <%= pluralize(yearCount, 'fuite', 'fuites') %>)<%- percentageStr %> avec <%= totalPwnCountFormatted %> <%= pluralize(totalPwnRaw, 'ligne cumulée', 'lignes cumulées') %><%- avgTimeStr %><%- lateStr %><%- predictionStr %>
+              <strong><%= year %></strong> (<%= yearCount %> <%= pluralize(yearCount, 'fuite', 'fuites') %>)<%- percentageStr %> avec <%= totalPwnCountFormatted %> <%= pluralize(totalPwnRaw, 'ligne cumulée', 'lignes cumulées') %><%- avgTimeStr %><%- lateStr %><%- predictionStr %><%- latePredictionStr %>
             </a>
           </div>
         <% }); %>
