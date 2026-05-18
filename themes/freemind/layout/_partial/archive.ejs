@@ -52,6 +52,20 @@
       Object.keys(monthsInYear).forEach(function(m){ yearCount += monthsInYear[m].length; });
       
       var prevYear = parseInt(year) - 1;
+      
+      // Calculer le nombre de fuites découvertes en retard (après la fin de l'année de la brèche)
+      var lateDiscoveryCount = 0;
+      Object.keys(monthsInYear).forEach(function(m) {
+        monthsInYear[m].forEach(function(it) {
+          var breachDate = new Date(it.BreachDate);
+          var addedDate = new Date(it.AddedDate || it.BreachDate);
+          var endOfYear = new Date(breachDate.getFullYear(), 11, 31, 23, 59, 59);
+          if (addedDate > endOfYear) {
+            lateDiscoveryCount++;
+          }
+        });
+      });
+
       if (archiveData.years[prevYear]) {
         var prevYearCount = 0;
         Object.keys(archiveData.years[prevYear]).forEach(function(m){ prevYearCount += archiveData.years[prevYear][m].length; });
@@ -60,7 +74,8 @@
           diff: yearCount - prevYearCount,
           percentage: (prevYearCount > 0 ? (((yearCount - prevYearCount) / prevYearCount * 100).toFixed(1)) : "0"),
           prevYearCount: prevYearCount,
-          prevYear: prevYear
+          prevYear: prevYear,
+          latePercentage: (yearCount > 0 ? ((lateDiscoveryCount / yearCount) * 100).toFixed(1) : "0")
         };
         yearSurpassInfo[year].percentage = (yearSurpassInfo[year].diff >= 0 ? "+" : "") + yearSurpassInfo[year].percentage + "%";
         
@@ -191,10 +206,20 @@
                 <strong>📊</strong> Le nombre de fuites de <%= yearSurpassInfo[year].prevYear %> (<%= yearSurpassInfo[year].prevYearCount %> fuites) a été dépassé le 
                 <strong><%= new Date(yearSurpassInfo[year].date).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }) %></strong>
                 (au bout de <%= yearSurpassInfo[year].days %> jours).
+                <% if (yearSurpassInfo[year].latePercentage > 0) { %>
+                  <br><span>🔍 <strong><%= yearSurpassInfo[year].latePercentage %>%</strong> de ces fuites ont été découvertes après la fin de l'année <%= year %>.</span>
+                <% } %>
               </p>
             <% } else if (yearSurpassInfo[year] && yearSurpassInfo[year].prevYearCount > 0 && yearCount < yearSurpassInfo[year].prevYearCount) { %>
               <p style="margin: 10px 0; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
                 <strong>📊</strong> <%= year %> compte <%= yearCount %> fuites, soit <strong><%= (yearCount/yearSurpassInfo[year].prevYearCount*100).toFixed(1) %>%</strong> de l'activité de <%= yearSurpassInfo[year].prevYear %> (<%= yearSurpassInfo[year].prevYearCount %> fuites).
+                <% if (yearSurpassInfo[year].latePercentage > 0) { %>
+                  <br><span>🔍 <strong><%= yearSurpassInfo[year].latePercentage %>%</strong> de ces fuites ont été découvertes après la fin de l'année <%= year %>.</span>
+                <% } %>
+              </p>
+            <% } else if (yearSurpassInfo[year] && yearSurpassInfo[year].latePercentage > 0) { %>
+              <p style="margin: 10px 0; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
+                🔍 <strong><%= yearSurpassInfo[year].latePercentage %>%</strong> des fuites de <%= year %> ont été découvertes après la fin de l'année.
               </p>
             <% } %>
             
