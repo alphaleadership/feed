@@ -1,6 +1,6 @@
 {
   "name": "hexo-site",
-  "version": "0.1.29",
+  "version": "0.1.30",
   "private": true,
   "scripts": {
     "build": "npm run clean && npx sourcebook update && node index.js && node indexator.js && node tools/import && npm run import:remote && node detecter-fuites-sans-nombre && node update-breach-links.js && node remove-invalid-breaches.js && node clean-html-tags && node tools/update-actors.js",
@@ -15,7 +15,7 @@
     "monitor": "node monitor-network.js"
   },
   "hexo": {
-    "version": "8.1.2"
+    "version": "8.1.1"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

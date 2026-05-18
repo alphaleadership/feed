@@ -9,8 +9,16 @@
   // Initialisation des variables temporelles globales
   var ARCHIVE_NOW = new Date();
   var ARCHIVE_NOW_TIME = ARCHIVE_NOW.getTime();
-  var ARCHIVE_NEW_PERIOD_DAYS = 3;
+  var ARCHIVE_NEW_PERIOD_DAYS = 7; // Changé de 3 à 7 pour correspondre à "CETTE SEMAINE"
   var ARCHIVE_NEW_PERIOD_MS = ARCHIVE_NEW_PERIOD_DAYS * 24 * 60 * 60 * 1000;
+
+  // Helpers pour le formatage
+  var formatNumber = function(n) {
+    return new Intl.NumberFormat('fr-FR').format(n);
+  };
+  var pluralize = function(count, singular, plural) {
+    return Math.abs(count) > 1 ? plural : singular;
+  };
 
   // Utiliser les données de breaches.json
   var posts = (site.data && site.data.breaches) ? site.data.breaches.breaches : [];
@@ -27,6 +35,13 @@
   }).sort(function(a, b) {
     return new Date(b.BreachDate) - new Date(a.BreachDate);
   });
+
+  // Statistiques globales
+  var globalTotalPwnRaw = 0;
+  filteredPosts.forEach(function(it) {
+    globalTotalPwnRaw += (Number(it.PwnCount) || 0);
+  });
+  var globalTotalBreaches = filteredPosts.length;
 
   // Groupement par année/mois
   filteredPosts.forEach(function(item) {
@@ -113,6 +128,14 @@
   <div class="row page">
     <div class="<% if (theme.widgets.length) { %>col-md-9<% } else { %>col-md-12<% } %>">
       
+      <!-- Résumé global -->
+      <div class="archive-summary" style="margin-bottom: 30px; padding: 20px; background: rgba(0,0,0,0.05); border-radius: 8px; border-left: 4px solid #38bdf8;">
+        <p style="margin: 0; font-size: 1.2em;">
+          <strong>Total :</strong> <%= formatNumber(globalTotalBreaches) %> <%= pluralize(globalTotalBreaches, 'fuite répertoriée', 'fuites répertoriées') %> 
+          pour un cumul de <strong><%= formatNumber(globalTotalPwnRaw) %></strong> <%= pluralize(globalTotalPwnRaw, 'ligne', 'lignes') %>.
+        </p>
+      </div>
+
       <!-- Navigation par année (en haut) -->
       <div class="archive-year-nav" style="margin-bottom: 40px; border-bottom: 1px solid #444; padding-bottom: 20px;">
         <% Object.keys(archiveData.years).sort(function(a, b){ return a - b; }).forEach(function(year) { 
@@ -121,9 +144,9 @@
             var totalPwnRaw = 0;
             Object.keys(monthsInYear).forEach(function(m){
               yearCount += monthsInYear[m].length;
-              monthsInYear[m].forEach(function(it){ totalPwnRaw += (it.PwnCount || 0); });
+              monthsInYear[m].forEach(function(it){ totalPwnRaw += (Number(it.PwnCount) || 0); });
             });
-            var totalPwnCount = new Intl.NumberFormat(["EN-US"]).format(totalPwnRaw);
+            var totalPwnCountFormatted = formatNumber(totalPwnRaw);
             
             var predictionStr = "";
             var currentYear = ARCHIVE_NOW.getFullYear();
@@ -134,7 +157,7 @@
                 var isLeapYear = (currentYear % 4 === 0 && currentYear % 100 !== 0) || (currentYear % 400 === 0);
                 var daysInYear = isLeapYear ? 366 : 365;
                 var prediction = Math.round((yearCount / daysPassed) * daysInYear);
-                predictionStr = " - 🔮 prédiction : " + prediction + " fuites";
+                predictionStr = " - 🔮 prédiction : " + formatNumber(prediction) + " fuites";
               }
             }
 
@@ -147,7 +170,7 @@
           <div style="margin-bottom: 8px;">
             <a href="#year_heading_<%= year %>" style="font-size: 1.05em; color: #e2e8f0; text-decoration: none;">
               <i class="fa fa-chevron-right me-2" style="font-size: 0.8em; color: #38bdf8;"></i>
-              <strong><%= year %></strong> (<%= yearCount %>)<%- percentageStr %> avec <%= totalPwnCount %> ligne cumulée<%= predictionStr %>
+              <strong><%= year %></strong> (<%= yearCount %> <%= pluralize(yearCount, 'fuite', 'fuites') %>)<%- percentageStr %> avec <%= totalPwnCountFormatted %> <%= pluralize(totalPwnRaw, 'ligne cumulée', 'lignes cumulées') %><%= predictionStr %>
             </a>
           </div>
         <% }); %>
@@ -164,9 +187,9 @@
           Object.keys(monthsInYear).forEach(function(m){
             yearCount += monthsInYear[m].length;
             allYearItems = allYearItems.concat(monthsInYear[m]);
-            monthsInYear[m].forEach(function(it){ totalPwnRaw += (it.PwnCount || 0); });
+            monthsInYear[m].forEach(function(it){ totalPwnRaw += (Number(it.PwnCount) || 0); });
           });
-          var totalPwnCount = new Intl.NumberFormat(["EN-US"]).format(totalPwnRaw);
+          var totalPwnCountFormatted = formatNumber(totalPwnRaw);
           
           allYearItems.sort(function(a, b){ return new Date(a.BreachDate) - new Date(b.BreachDate); });
           var avgTimeStr = "";
@@ -188,7 +211,7 @@
               var isLeapYear = (currentYear % 4 === 0 && currentYear % 100 !== 0) || (currentYear % 400 === 0);
               var daysInYear = isLeapYear ? 366 : 365;
               var prediction = Math.round((yearCount / daysPassed) * daysInYear);
-              predictionStr = " <small style='font-size:0.6em; color:#999;'>&nbsp;- 🔮 prédiction : " + prediction + " fuites</small>";
+              predictionStr = " <small style='font-size:0.6em; color:#999;'>&nbsp;- 🔮 prédiction : " + formatNumber(prediction) + " fuites</small>";
             }
           }
 
@@ -198,9 +221,9 @@
             percentageStr = " <small style='font-size:0.6em; color: " + color + ";'>&nbsp;(" + yearSurpassInfo[year].percentage + ")</small>";
           }
           %>
-          <h4 id="year_heading_<%= year %>" class="archive-ul" data-toggle="collapse" data-target="#year_<%= year %>"><%= year %> (<%= yearCount %>)<%- percentageStr %> <b class="caret"></b><%- avgTimeStr %><%- predictionStr %></h4>
+          <h4 id="year_heading_<%= year %>" class="archive-ul" data-toggle="collapse" data-target="#year_<%= year %>"><%= year %> (<%= yearCount %> <%= pluralize(yearCount, 'fuite', 'fuites') %>)<%- percentageStr %> <b class="caret"></b><%- avgTimeStr %><%- predictionStr %></h4>
           <div id="year_<%= year %>" class="collapse in">
-            <h1><%= totalPwnCount %> ligne cumulée </h1>
+            <h1><%= totalPwnCountFormatted %> <%= pluralize(totalPwnRaw, 'ligne cumulée', 'lignes cumulées') %> </h1>
             <% if (yearSurpassInfo[year] && yearSurpassInfo[year].date) { %>
               <p style="margin: 10px 0; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
                 <strong>📊</strong> Le nombre de fuites de <%= yearSurpassInfo[year].prevYear %> (<%= yearSurpassInfo[year].prevYearCount %> fuites) a été dépassé le 
