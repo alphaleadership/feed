@@ -142,12 +142,30 @@
             var monthsInYear = archiveData.years[year];
             var yearCount = 0;
             var totalPwnRaw = 0;
+            var allYearItems = [];
             Object.keys(monthsInYear).forEach(function(m){
               yearCount += monthsInYear[m].length;
+              allYearItems = allYearItems.concat(monthsInYear[m]);
               monthsInYear[m].forEach(function(it){ totalPwnRaw += (Number(it.PwnCount) || 0); });
             });
             var totalPwnCountFormatted = formatNumber(totalPwnRaw);
             
+            allYearItems.sort(function(a, b){ return new Date(a.BreachDate) - new Date(b.BreachDate); });
+            var avgTimeStr = "";
+            if (allYearItems.length > 1) {
+              var totalDiff = 0;
+              for (var i = 1; i < allYearItems.length; i++) {
+                totalDiff += new Date(allYearItems[i].BreachDate).getTime() - new Date(allYearItems[i-1].BreachDate).getTime();
+              }
+              var avgDiffDays = Math.round(totalDiff / (allYearItems.length - 1) / (1000 * 60 * 60 * 24));
+              avgTimeStr = " - ⏳ moy. " + avgDiffDays + " j.";
+            }
+
+            var lateStr = "";
+            if (yearSurpassInfo[year] && yearSurpassInfo[year].latePercentage > 0) {
+              lateStr = " - 🔍 " + yearSurpassInfo[year].latePercentage + "% tardives";
+            }
+
             var predictionStr = "";
             var currentYear = ARCHIVE_NOW.getFullYear();
             if (parseInt(year) === currentYear) {
@@ -157,7 +175,7 @@
                 var isLeapYear = (currentYear % 4 === 0 && currentYear % 100 !== 0) || (currentYear % 400 === 0);
                 var daysInYear = isLeapYear ? 366 : 365;
                 var prediction = Math.round((yearCount / daysPassed) * daysInYear);
-                predictionStr = " - 🔮 prédiction : " + formatNumber(prediction) + " fuites";
+                predictionStr = " - 🔮 prévision : " + formatNumber(prediction) + " fuites";
               }
             }
 
@@ -170,7 +188,7 @@
           <div style="margin-bottom: 8px;">
             <a href="#year_heading_<%= year %>" style="font-size: 1.05em; color: #e2e8f0; text-decoration: none;">
               <i class="fa fa-chevron-right me-2" style="font-size: 0.8em; color: #38bdf8;"></i>
-              <strong><%= year %></strong> (<%= yearCount %> <%= pluralize(yearCount, 'fuite', 'fuites') %>)<%- percentageStr %> avec <%= totalPwnCountFormatted %> <%= pluralize(totalPwnRaw, 'ligne cumulée', 'lignes cumulées') %><%= predictionStr %>
+              <strong><%= year %></strong> (<%= yearCount %> <%= pluralize(yearCount, 'fuite', 'fuites') %>)<%- percentageStr %> avec <%= totalPwnCountFormatted %> <%= pluralize(totalPwnRaw, 'ligne cumulée', 'lignes cumulées') %><%- avgTimeStr %><%- lateStr %><%- predictionStr %>
             </a>
           </div>
         <% }); %>
