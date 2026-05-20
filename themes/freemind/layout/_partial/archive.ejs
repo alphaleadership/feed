@@ -9,7 +9,7 @@
   // Initialisation des variables temporelles globales
   var ARCHIVE_NOW = new Date();
   var ARCHIVE_NOW_TIME = ARCHIVE_NOW.getTime();
-  var ARCHIVE_NEW_PERIOD_DAYS = 7; // Changé de 3 à 7 pour correspondre à "CETTE SEMAINE"
+  var ARCHIVE_NEW_PERIOD_DAYS = 1; // Changé de 3 à 7 pour correspondre à "CETTE SEMAINE"
   var ARCHIVE_NEW_PERIOD_MS = ARCHIVE_NEW_PERIOD_DAYS * 24 * 60 * 60 * 1000;
 
   // Helpers pour le formatage
@@ -131,7 +131,7 @@
     <%= title %>
     <% if (addedRecentlyCount > 0) { %>
       <span class="badge badge-success" style="font-size: 0.4em; vertical-align: middle; background-color: #28a745; margin-left: 10px; padding: 5px 10px;">
-        <%= addedRecentlyCount %> NOUVELLE<%= addedRecentlyCount > 1 ? 'S' : '' %> CETTE SEMAINE
+        <%= addedRecentlyCount %> NOUVELLE<%= addedRecentlyCount > 1 ? 'S' : '' %> AUJOURD'HUI
       </span>
     <% } %>
   </h1>
