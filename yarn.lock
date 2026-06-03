@@ -860,10 +860,10 @@ function-bind@^1.1.2:
   resolved "https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz"
   integrity sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==
 
-fuse.js@^7.3.0:
-  version "7.3.0"
-  resolved "https://registry.npmjs.org/fuse.js/-/fuse.js-7.3.0.tgz"
-  integrity sha512-plz8RVjfcDedTGfVngWH1jmJvBvAwi1v2jecfDerbEnMcmOYUEEwKFTHbNoCiYyzaK2Ws8lABkTCcRSqCY1q4w==
+fuse.js@^7.4.1:
+  version "7.4.1"
+  resolved "https://registry.npmjs.org/fuse.js/-/fuse.js-7.4.1.tgz"
+  integrity sha512-AY7lKAXK71hi3WgUvDy6oZL67UEHOOtvCAwVdOXHyJd6ZzftBy7QqxuXt4HxmmAhYjmp/YCuOELZtIvAdlZ+fw==
 
 get-intrinsic@^1.2.6:
   version "1.3.0"
