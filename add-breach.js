@@ -158,16 +158,32 @@ async function main() {
     validated
   };
 
-  const existingIndex = db.breaches.findIndex((b) => b && b.Name === name);
+  const Fuse = require('fuse.js');
+  const existingIndex = db.breaches.findIndex((b) => b && b.slug === slug);
+  
   if (existingIndex !== -1) {
-    const overwrite = args.force || await new Confirm({ message: `Une entrée '${name}' existe déjà. Remplacer ?`, initial: false }).run();
+    const overwrite = args.force || await new Confirm({ message: `Une entrée avec le même slug '${slug}' existe déjà. Remplacer ?`, initial: false }).run();
     if (!overwrite) {
       console.log(ck.yellow('Aucune modification.'));
       return;
     }
     db.breaches[existingIndex] = newBreach;
   } else {
-    db.breaches.push(newBreach);
+    // Analyse fuzzy
+    const fuzzyFuse = new Fuse(db.breaches, { keys: ['Name'], threshold: 0.3 });
+    const similar = fuzzyFuse.search(name);
+    let addIt = true;
+    if (similar.length > 0 && similar[0].score < 0.3) {
+      const bestMatch = similar[0].item;
+      console.log(ck.yellow(`\n[!] Attention: Une fuite similaire existe déjà : "${bestMatch.Name}" (Score: ${similar[0].score.toFixed(2)})`));
+      addIt = args.force || await new Confirm({ message: `Voulez-vous quand même ajouter "${name}" ?`, initial: false }).run();
+    }
+    if (addIt) {
+        db.breaches.push(newBreach);
+    } else {
+        console.log(ck.yellow('Ajout annulé.'));
+        return;
+    }
   }
 
   resortAndReindex(db);
