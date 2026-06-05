@@ -159,7 +159,15 @@ class breach {
           }
 
           if (existingNames.has(newBreach.title)) {
-            console.warn(`Fuite '${newBreach.title}' (depuis ${filename}) existe déjà. Ignorée.`);
+            console.warn(`Fuite '${newBreach.title}' (depuis ${filename}) existe déjà par Nom. Ignorée.`);
+            skippedCount++;
+            fs.unlinkSync(filePath);
+            return;
+          }
+
+          const generatedSlug = newBreach.title.toLowerCase().replace(/[^a-z0-9-]/g, '-').replace(/--+/g, '-');
+          if (db.breaches.some(b => b.slug === generatedSlug)) {
+            console.warn(`Fuite '${newBreach.title}' (depuis ${filename}) existe déjà par Slug (${generatedSlug}). Ignorée.`);
             skippedCount++;
             fs.unlinkSync(filePath);
             return;
