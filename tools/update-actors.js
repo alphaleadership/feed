@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Chemins vers les fichiers de données
-const BREACHES_PATH = path.join(__dirname, '../source/data/breaches.json');
+const BREACHES_PATH = path.join(__dirname, '../source/_data/breaches.json');
 const THREAT_ACTORS_SRC_PATH = path.join(__dirname, '../source/_data/threat_actors.json');
 const THREAT_ACTORS_PUBLIC_PATH = path.join(__dirname, '../source/data/threat_actors.json');
 

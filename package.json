@@ -1,6 +1,6 @@
 {
   "name": "hexo-site",
-  "version": "0.1.32",
+  "version": "0.1.33",
   "private": true,
   "scripts": {
     "build": "npm run clean && npx sourcebook update && node index.js && node indexator.js && node tools/import && npm run import:remote && node detecter-fuites-sans-nombre && node update-breach-links.js && node remove-invalid-breaches.js && node clean-html-tags && node tools/update-actors.js",
@@ -24,7 +24,7 @@
     "chalk": "^5.6.2",
     "dotenv": "^17.4.2",
     "enquirer": "^2.4.1",
-    "fuse.js": "^7.3.0",
+    "fuse.js": "^7.4.1",
     "hexo": "^8.1.2",
     "hexo-abbrlink3": "^1.0.2",
     "hexo-deployer-git": "^4.0.0",
@@ -41,7 +41,7 @@
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^1.0.0",
-    "inquirer": "^13.4.3",
+    "inquirer": "^14.0.0",
     "js-yaml": "^4.2.0",
     "jsonstream": "^1.0.3",
     "lowdb": "^7.0.1",

@@ -201,14 +201,24 @@ class breach {
       });
 
       if (newBreaches.length > 0) {
-        const allBreaches = [...db.breaches, ...newBreaches.map((morph)=>{
-            Object.keys(morph).forEach((key) => {
-          if (!Object.keys(defaultBreachSchema).includes(key)) {
-            delete morph[key]
+        // Nettoyer les nouveaux objets et filtrer les doublons avec un Set
+        const schemaKeys = new Set(Object.keys(defaultBreachSchema));
+        const currentNames = new Set(db.breaches.map(b => b.Name));
+        
+        newBreaches.forEach((morph) => {
+          Object.keys(morph).forEach((key) => {
+            if (!schemaKeys.has(key)) {
+              delete morph[key];
+            }
+          });
+          
+          if (!currentNames.has(morph.Name)) {
+            db.breaches.push(morph);
+            currentNames.add(morph.Name);
           }
-        })
-        return morph
-        }).filter((item) => !db.breaches.find(b => b.Name === item.Name))];
+        });
+
+        const allBreaches = db.breaches;
         // Tri par ancienneté: la plus vieille fuite aura l'index 0
         allBreaches.sort((a, b) => {
           const dateA = a.BreachDate ? new Date(a.BreachDate) : new Date(0);
@@ -223,7 +233,6 @@ class breach {
           if (breach) breach.index = indexCounter;
         });
 
-        db.breaches = allBreaches;
         db.totalBreaches = allBreaches.length;
         db.lastUpdated = new Date().toISOString();
 

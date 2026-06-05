@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const filePath = path.join(__dirname, 'source/data/breaches.json');
+const filePath = path.join(__dirname, 'source/_data/breaches.json');
 
 try {
   const fileContent = fs.readFileSync(filePath, 'utf-8');
