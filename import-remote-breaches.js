@@ -9,7 +9,7 @@ const bad=new Set(fs.readFileSync(path.join(process.cwd(), 'slugs-a-supprimer.tx
 const SOURCES = [
     {
         name: "Christophe Boutry",
-        url: 'https://christopheboutry.com/data/fuites-infos.json',
+        url: 'https://fuitesinfos.fr/data/fuites-infos.json',
         selector: (data) => data,
         mapper: (remote) => ({
             Name: remote.name,
