@@ -6,15 +6,15 @@ author: arbinger
 language: fr
 timezone: ''
 url: https://feed-blush.vercel.app/
-permalink: ':year/:month/:day/:title/'
+permalink: :year/:month/:day/:title/
 permalink_defaults: null
 category_generator:
   per_page: 0
-  order_by: '-date'
+  order_by: -date
   enable_index_page: true
 tag_generator:
   per_page: 1
-  order_by: '-date'
+  order_by: -date
   enable_index_page: true
 pretty_urls:
   trailing_index: true
@@ -26,8 +26,8 @@ archive_dir: archives
 breaches_dir: breaches
 category_dir: category
 code_dir: downloads/code
-i18n_dir: ':lang'
-new_post_name: ':title.md'
+i18n_dir: :lang
+new_post_name: :title.md
 default_layout: post
 titlecase: true
 external_link:
@@ -53,7 +53,7 @@ prismjs:
 index_generator:
   path: ''
   per_page: 10
-  order_by: '-date'
+  order_by: -date
 default_category: uncategorized
 tags: nom, prénom,adresse email,addresse postale
 meta_generator: true
