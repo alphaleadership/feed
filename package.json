@@ -42,7 +42,7 @@
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^1.0.0",
     "inquirer": "^14.0.0",
-    "js-yaml": "^5.0.0",
+    "js-yaml": "^5.1.0",
     "jsonstream": "^1.0.3",
     "lowdb": "^7.0.1",
     "resend": "^6.14.0",
