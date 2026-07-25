@@ -1,30 +1,13 @@
 const fs = require('fs');
 const path = require('path');
 const Fuse = require('fuse.js');
+const Parser = require('rss-parser');
 const { getBreachesDB } = require('./scripts/db');
 const { tagIABreaches } = require('./scripts/tag-ia-auto');
 
 const DATE_FILE = path.join(process.cwd(), 'source', '_data', 'last_import_date.json');
 const bad=new Set(fs.readFileSync(path.join(process.cwd(), 'slugs-a-supprimer.txt'), 'utf8').split("\n").filter(slug => slug.trim() !== '').map(slug => slug.trim().replace(/\r/g, '')));
 const SOURCES = [
-    {
-        name: "Christophe Boutry",
-        url: 'https://fuitesinfos.fr/data/fuites-infos.json',
-        selector: (data) => data,
-        mapper: (remote) => ({
-            Name: remote.name,
-            Title: remote.name,
-            Domain: remote.site_url ? remote.site_url.replace(/https?:\/\/(www\.)?/, '').split('/')[0] : "",
-            BreachDate: remote.date || '1970-01-01',
-            PwnCount: remote.records_count || 0,
-            Description: `${remote.records_count_raw || ''}\n\nStatut: ${remote.status || 'Inconnu'}\nType de service: ${remote.service_type || 'N/A'}`,
-            DataClasses: remote.data_types || [],
-            IsSensitive: remote.status === "Sensible",
-            IsVerified: true, IsFabricated: false, IsSpam: false, IsRetired: false, IsNative: true,
-            LogoPath: remote.logo_url || "",
-            source: remote.source === "manuel" ? `https://christopheboutry.com${remote.path}` : (remote.source_url || "christopheboutry.com"),
-        })
-    },
     {
         name: "Have I Been Pwned",
         url: 'https://haveibeenpwned.com/api/v3/breaches',
@@ -64,6 +47,25 @@ const SOURCES = [
             IsFabricated: false, IsSpam: false, IsRetired: false, IsNative: true,
             LogoPath: remote.logo || "",
             source: "xposedornot.com"
+        })
+    },
+    {
+        name: "French Breaches",
+        url: 'https://frenchbreaches.com/feed.xml',
+        type: 'rss',
+        selector: (feed) => feed.items || [],
+        mapper: (remote) => ({
+            Name: remote.title,
+            Title: remote.title,
+            Domain: remote.link ? remote.link.replace(/https?:\/\/(www\.)?/, '').split('/')[0] : "",
+            BreachDate: remote.pubDate ? new Date(remote.pubDate).toISOString().split('T')[0] : '1970-01-01',
+            PwnCount: 0,
+            Description: remote.contentSnippet || remote.content || "",
+            DataClasses: remote.categories || [],
+            IsSensitive: false,
+            IsVerified: true, IsFabricated: false, IsSpam: false, IsRetired: false, IsNative: true,
+            LogoPath: "",
+            source: "frenchbreaches.com"
         })
     }
 ];
@@ -231,16 +233,21 @@ async function runImport() {
     for (const source of SOURCES) {
         console.log(`\n--- Importation depuis : ${source.name} ---`);
         try {
-            const response = await fetch(source.url, {
-                headers: { 'User-Agent': 'DataBreachFeed-Bot/1.0' }
-            });
-            
-            if (!response.ok) {
-                console.error(`Erreur HTTP ${response.status} pour ${source.name}`);
-                continue;
+            let rawData;
+            if (source.type === 'rss') {
+                const parser = new Parser();
+                rawData = await parser.parseURL(source.url);
+            } else {
+                const response = await fetch(source.url, {
+                    headers: { 'User-Agent': 'DataBreachFeed-Bot/1.0' }
+                });
+                
+                if (!response.ok) {
+                    console.error(`Erreur HTTP ${response.status} pour ${source.name}`);
+                    continue;
+                }
+                rawData = await response.json();
             }
-
-            const rawData = await response.json();
             const remoteData = source.selector(rawData);
             console.log(`${remoteData.length} fuites trouvées.`);
 
