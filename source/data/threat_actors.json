@@ -1,7 +1,27 @@
 {
   "actors": [
     {
+      "name": "**aplagroup**",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "**misere**",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "**slvsh3r**",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
       "name": "0xkirigaya",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "0xsec",
       "status": "Actif",
       "note": "Identifié comme auteur de fuites de données dans la base."
     },
@@ -32,6 +52,11 @@
     },
     {
       "name": "anthrax",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "aplagroup",
       "status": "Actif",
       "note": "Identifié comme auteur de fuites de données dans la base."
     },
@@ -116,6 +141,11 @@
       "note": "Identifié comme auteur de fuites de données dans la base."
     },
     {
+      "name": "govfault",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
       "name": "hexdex",
       "status": "en taule",
       "note": "Arrêté par la section J3 du parquet de Paris en avril 2026. Impliqué dans de nombreuses intrusions et reventes de données, notamment celle du Service Civique en collaboration avec DumpSec."
@@ -172,6 +202,11 @@
     },
     {
       "name": "metamorphosint",
+      "status": "Actif",
+      "note": "Identifié comme auteur de fuites de données dans la base."
+    },
+    {
+      "name": "misere",
       "status": "Actif",
       "note": "Identifié comme auteur de fuites de données dans la base."
     },
