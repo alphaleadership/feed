@@ -1,0 +1,413 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+<script defer src="https://cloud.umami.is/script.js" data-website-id="3114a86e-6e66-4953-b19f-40491a63d444"></script>
+  <meta charset="utf-8">
+
+  
+  <title>Graphe Des Fuites | veille</title>
+  <meta name="author" content="arbinger">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Graphe Des Fuites"/>
+  <meta property="og:site_name" content="veille"/>
+
+  
+    <meta property="og:image" content=""/>
+  
+
+  
+    <link rel="alternative" href="/atom.xml" title="veille" type="application/atom+xml">
+  
+  <link rel="alternate" type="application/atom+xml" title="veille" href="https://feed-blush.vercel.app/atom.xml" />
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/themes/cerulean.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight-default.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/comment.css" media="screen" type="text/css">
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.7/es5-sham.min.js"></script>
+  <![endif]-->
+    <script src="/js/search.js"></script>
+  <script src="/js/jquery-2.0.3.min.js"></script>
+  
+  
+  <!-- analytics -->
+  
+
+
+
+<!-- hexo injector head_end start --><script src="./func.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 8.1.2"></head>
+
+  <body class="bg-dark text-light">
+    <div style="height: 4px; background: #00ff41; box-shadow: 0 0 10px #00ff41; position: fixed; top: 0; left: 0; right: 0; z-index: 9999;"></div>
+    <nav id="main-nav" class="navbar navbar-dark bg-dark shadow-lg navbar-expand-lg navbar-fixed-top" role="navigation">
+  <div class="container">
+  
+    <a class="navbar-brand text-uppercase fw-bold" href="/">veille</a>
+    <div class=" navbar-collapse nav-menu">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        
+          <li class="nav-item">
+            <a href="/graph" title="Vue réseau des fuites" class="nav-link text-light text-uppercase fw-bold">
+              <i class="fa fa-share-alt fs-5 me-2"></i>Graphe
+            </a>
+          </li>
+        
+          <li class="nav-item">
+            <a href="/archives" title="All the articles." class="nav-link text-light text-uppercase fw-bold">
+              <i class="fa fa-archive fs-5 me-2"></i>Archives
+            </a>
+          </li>
+        
+          <li class="nav-item">
+            <a href="/category" title="Types de données fuitées" class="nav-link text-light text-uppercase fw-bold">
+              <i class="fa fa-database fs-5 me-2"></i>catégorie
+            </a>
+          </li>
+        
+          <li class="nav-item">
+            <a href="/glossaire" title="Niveaux de risque par type de données" class="nav-link text-light text-uppercase fw-bold">
+              <i class="fa fa-shield fs-5 me-2"></i>Glossaire
+            </a>
+          </li>
+        
+          <li class="nav-item">
+            <a href="/threat-actor" title="Groupes de hackers et pirates" class="nav-link text-light text-uppercase fw-bold">
+              <i class="fa fa-user-secret fs-5 me-2"></i>Pirates
+            </a>
+          </li>
+        
+          <li class="nav-item">
+            <a href="/stat" title="Analyse détaillée des fuites" class="nav-link text-light text-uppercase fw-bold">
+              <i class="fa fa-bar-chart fs-5 me-2"></i>Statistiques
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+    	<div class="quick-links card shadow-sm mb-4" style="background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); border: none;">
+		<div class="card-body" style="padding: 1rem;">
+			<div class="d-flex justify-content-center gap-3 flex-wrap">
+				<a href="/archives/" class="btn btn-outline-primary btn-lg" style="border: 2px solid #38bdf8; color: #38bdf8; transition: all 0.3s;">
+					<i class="fa fa-archive me-2"></i>Archives complètes
+				</a>
+				<a href="/" class="btn btn-outline-success btn-lg" style="border: 2px solid #4ade80; color: #4ade80; transition: all 0.3s;">
+					<i class="fa fa-home me-2"></i>Accueil
+				</a>
+				<a href="/fuites/" class="btn btn-outline-warning btn-lg" style="border: 2px solid #fbbf24; color: #fbbf24; transition: all 0.3s;">
+					<i class="fa fa-list me-2"></i>Liste des fuites
+				</a>
+			</div>
+		</div>
+	</div>
+<div id="ecoindex-badge" data-theme="dark"></div>
+<script src="https://cdn.jsdelivr.net/gh/cnumr/ecoindex_badge@3/assets/js/ecoindex-badge.js" defer></script>
+    <div class="container">
+      <div style="background: #1e293b; padding: 20px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #334155;">
+  <h1 style="color: #00ff41; margin-top: 0;"><i class="fa fa-share-alt me-2"></i> Réseau des Fuites de Données</h1>
+  <p style="color: #94a3b8; font-size: 1.1em; margin-bottom: 10px;">
+    Explorez visuellement les liens entre les différentes fuites, les types de données compromises, les catégories d'entreprises et les groupes de pirates.
+  </p>
+  
+  <div style="display: flex; gap: 15px; align-items: center; margin-bottom: 20px; flex-wrap: wrap; background: rgba(15, 23, 42, 0.5); padding: 15px; border-radius: 6px;">
+    <label for="category-filter" style="color: #00ff41; margin-bottom: 0; font-weight: bold;"><i class="fa fa-filter me-2"></i>Filtrer par catégorie :</label>
+    <select id="category-filter" style="background: #0f172a; color: #fff; border: 1px solid #00ff41; padding: 5px 10px; border-radius: 4px; min-width: 200px;">
+      <option value="all">Toutes les catégories</option>
+    </select>
+    <div id="node-count" style="color: #94a3b8; font-size: 0.9em; margin-left: auto;">Chargement...</div>
+  </div>
+
+  <div id="graph-legend" style="display: flex; gap: 15px; flex-wrap: wrap;">
+     <span class="badge legend-item" data-group="1" style="background-color: #ef4444; color: white; padding: 8px 12px; font-size: 0.9em; cursor: pointer; transition: opacity 0.2s;"><i class="fa fa-database me-1"></i> Fuite de données</span>
+     <span class="badge legend-item" data-group="2" style="background-color: #3b82f6; color: white; padding: 8px 12px; font-size: 0.9em; cursor: pointer; transition: opacity 0.2s;"><i class="fa fa-tags me-1"></i> Type de donnée</span>
+     <span class="badge legend-item" data-group="3" style="background-color: #10b981; color: white; padding: 8px 12px; font-size: 0.9em; cursor: pointer; transition: opacity 0.2s;"><i class="fa fa-folder-open me-1"></i> Secteur / Catégorie</span>
+     <span class="badge legend-item" data-group="4" style="background-color: #f59e0b; color: white; padding: 8px 12px; font-size: 0.9em; cursor: pointer; transition: opacity 0.2s;"><i class="fa fa-user-secret me-1"></i> Groupe Pirate</span>
+  </div>
+</div>
+
+<div id="graph-container" style="width: 100%; height: 75vh; border: 2px solid #00ff41; border-radius: 8px; box-shadow: 0 0 15px rgba(0, 255, 65, 0.2); overflow: hidden; background-color: #0f172a;"></div>
+
+<style>
+  .graph-tooltip {
+    background: rgba(15, 23, 42, 0.95);
+    color: #fff;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    border: 1px solid #00ff41;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+    max-width: 300px;
+  }
+  .graph-tooltip strong {
+    color: #00ff41;
+    font-size: 1.2em;
+    display: block;
+    margin-bottom: 5px;
+  }
+  .graph-tooltip small {
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+  }
+  .legend-item.inactive {
+    opacity: 0.3;
+    filter: grayscale(0.5);
+  }
+</style>
+
+<script src="//unpkg.com/force-graph"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const elem = document.getElementById('graph-container');
+    const filterSelect = document.getElementById('category-filter');
+    const countDisplay = document.getElementById('node-count');
+    const legendItems = document.querySelectorAll('.legend-item');
+    if (!elem) return;
+
+    let fullData = { nodes: [], links: [] };
+    let Graph = null;
+    let hiddenGroups = new Set();
+    
+    // Variables pour l'optimisation au survol
+    let hoveredNode = null;
+    let hoveredLink = null;
+
+    function initGraph(data) {
+      try {
+        Graph = ForceGraph()(elem);
+
+        // Optimisation 1 : Pré-calculer les couleurs des nœuds pour éviter de réévaluer à chaque frame
+        data.nodes.forEach(node => {
+          if (!node.color) {
+            if (node.group === 1) node.color = '#ef4444';
+            else if (node.group === 2) node.color = '#3b82f6';
+            else if (node.group === 3) node.color = '#10b981';
+            else if (node.group === 4) node.color = '#f59e0b';
+            else node.color = '#64748b';
+          }
+        });
+
+        Graph.graphData(data)
+          .nodeLabel(node => `<div class="graph-tooltip"><strong>${node.name || 'Inconnu'}</strong><br><small>${node.type || 'Non défini'}</small></div>`)
+          .nodeColor(node => node.color)
+          .nodeVal(node => (node.val || 1) * 2)
+          .linkColor(link => link === hoveredLink ? '#00ff41' : 'rgba(0, 255, 65, 0.15)')
+          .linkWidth(link => link === hoveredLink ? 2 : 0.5)
+          // Optimisation 2 : Désactiver les particules animées par défaut (très gourmandes)
+          // On ne les active que sur le lien survolé
+          .linkDirectionalParticles(link => link === hoveredLink ? 4 : 0)
+          .linkDirectionalParticleSpeed(0.01)
+          .linkDirectionalParticleWidth(2)
+          .linkDirectionalParticleColor(() => '#00ff41');
+
+        // Optimisation 3 : Alléger les forces pour une stabilisation plus rapide
+        Graph.d3Force('charge').strength(-300).distanceMax(300);
+        Graph.d3Force('link').distance(80);
+
+        // Optimisation 4 : Rendu Custom ultra-rapide
+        Graph.nodeCanvasObject((node, ctx, globalScale) => {
+          const isHovered = node === hoveredNode;
+          
+          // Cercle de fond
+          ctx.beginPath();
+          ctx.arc(node.x, node.y, (node.val || 1) * (isHovered ? 4 : 3), 0, 2 * Math.PI, false);
+          ctx.fillStyle = node.color;
+          ctx.fill();
+
+          // N'afficher le texte que si on est zoomé, ou si c'est un nœud majeur, ou survolé
+          const showLabel = isHovered || globalScale > 2 || (globalScale > 0.8 && (node.group === 1 || node.group === 4));
+          
+          if (showLabel) {
+            const label = node.name;
+            const fontSize = (node.group === 1 ? 14 : 10) / globalScale;
+            ctx.font = `${fontSize}px Sans-Serif`;
+            
+            // Optimisation MAJEURE : Mettre en cache la taille du texte pour éviter measureText (très lent)
+            if (!node.__textWidth) {
+              node.__textWidth = ctx.measureText(label).width;
+            }
+            
+            const bckgDimensions = [node.__textWidth, fontSize].map(n => n + fontSize * 0.3);
+
+            ctx.fillStyle = 'rgba(15, 23, 42, 0.9)';
+            ctx.fillRect(node.x - bckgDimensions[0] / 2, node.y - fontSize * 2.2, bckgDimensions[0], bckgDimensions[1]);
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillStyle = '#fff';
+            ctx.fillText(label, node.x, node.y - fontSize * 1.8);
+          }
+        });
+
+        Graph.onNodeClick(node => {
+          if (node.url) {
+            window.location.href = node.url;
+          } else {
+            Graph.centerAt(node.x, node.y, 1000);
+            Graph.zoom(3, 1000);
+          }
+        })
+        .onNodeHover(node => {
+           elem.style.cursor = node && node.url ? 'pointer' : node ? 'crosshair' : 'grab';
+           hoveredNode = node;
+        })
+        .onLinkHover(link => {
+           hoveredLink = link;
+        })
+        // Optimisation 5 : Limiter la simulation physique et figer le graphe une fois stable (épargne le CPU/Batterie)
+        .cooldownTicks(150)
+        .onEngineStop(() => {
+           Graph.zoomToFit(400, 20);
+        });
+
+      } catch (err) {
+        console.error("Erreur d'initialisation du graphe:", err);
+      }
+    }
+
+    function applyFilters() {
+      const category = filterSelect.value;
+      
+      let filteredNodes = fullData.nodes.filter(node => !hiddenGroups.has(node.group));
+      
+      if (category !== 'all') {
+        filteredNodes = filteredNodes.filter(node => 
+          node.cats && node.cats.includes(category)
+        );
+      }
+      
+      const nodeIds = new Set(filteredNodes.map(n => n.id));
+      const filteredLinks = fullData.links.filter(link => 
+        nodeIds.has(link.source.id || link.source) && nodeIds.has(link.target.id || link.target)
+      );
+
+      // On réapplique la logique de couleur aux nouveaux noeuds au cas où
+      filteredNodes.forEach(node => {
+        if (!node.color) {
+          if (node.group === 1) node.color = '#ef4444';
+          else if (node.group === 2) node.color = '#3b82f6';
+          else if (node.group === 3) node.color = '#10b981';
+          else if (node.group === 4) node.color = '#f59e0b';
+          else node.color = '#64748b';
+        }
+      });
+
+      Graph.graphData({ nodes: filteredNodes, links: filteredLinks });
+      countDisplay.textContent = `${filteredNodes.length} nœuds affichés`;
+    }
+
+    legendItems.forEach(item => {
+      item.addEventListener('click', () => {
+        const group = parseInt(item.getAttribute('data-group'));
+        if (hiddenGroups.has(group)) {
+          hiddenGroups.delete(group);
+          item.classList.remove('inactive');
+        } else {
+          hiddenGroups.add(group);
+          item.classList.add('inactive');
+        }
+        applyFilters();
+      });
+    });
+
+    filterSelect.addEventListener('change', applyFilters);
+
+    fetch('/graph/data.json')
+      .then(res => res.json())
+      .then(data => {
+        fullData = data;
+        const categories = new Set();
+        data.nodes.forEach(node => {
+          if (node.group === 3) categories.add(node.name);
+        });
+
+        Array.from(categories).sort().forEach(cat => {
+          const opt = document.createElement('option');
+          opt.value = cat;
+          opt.textContent = cat;
+          filterSelect.appendChild(opt);
+        });
+
+        initGraph(data);
+        countDisplay.textContent = `${data.nodes.length} nœuds affichés`;
+      })
+      .catch(err => {
+        console.error("Erreur de chargement du graphe:", err);
+        elem.innerHTML = '<div style="color: #ef4444; padding: 20px;">Erreur de chargement des données.</div>';
+      });
+  });
+</script>
+    </div>
+    <div class="container-narrow">
+      <footer> <p>
+  &copy; 2024-2028 arbinger
+  
+      
+</p> </footer>
+    </div> <!-- container-narrow -->
+    
+
+
+    
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/search.js"></script> 
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+
+   <script type="text/javascript">      
+     var search_path = "search.xml";
+	 if (search_path.length == 0) {
+	 	search_path = "search.xml";
+	 }
+	 var path = "/" + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+   </script>
+
+
+<!-- syntax highlighting -->
+
+
+    <script>
+      window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+    <script>
+      window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/speed-insights/script.js"></script>
+  </body>
+</html>
