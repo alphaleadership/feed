@@ -25,132 +25,143 @@
   var sortedDataClasses = Object.values(dataClassGroups).sort((a, b) => b.breaches.length - a.breaches.length);
 %>
 
-<div class="dataclasses-wrapper">
-  <div class="card border-0 shadow-lg mb-4" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);">
-    <div class="card-header text-white d-flex align-items-center border-0" style="background: rgba(0,0,0,0.5) !important; border-bottom: 2px solid rgba(255,255,255,0.1);">
-      <i class="fa fa-database me-3 fs-4"></i>
-      <h2 class="mb-0 flex-grow-1 text-uppercase letter-spacing-1">
-        <%= sortedDataClasses.length %> Types de Données Fuitées
-      </h2>
-    </div>
-    <div class="card-body p-4" style="background: #1e1e2e;">
-      <p class="text-muted mb-4" style="font-size: 1.1rem;">
-        <i class="fa fa-info-circle me-2"></i>
-        Classification des fuites par type de données compromises. Cliquez sur une catégorie pour voir toutes les fuites concernées.
-      </p>
-      
-      <div class="row">
-        <% sortedDataClasses.forEach(function(dataClass, index) { 
-          var percentage = ((dataClass.breaches.length / breaches.length) * 100).toFixed(1);
-          var borderClass = index < 3 ? 'border-danger' : index < 10 ? 'border-warning' : 'border-info';
-          var badgeClass = index < 3 ? 'bg-danger' : index < 10 ? 'bg-warning text-dark' : 'bg-info';
-        %>
-          <div class="col-md-6 col-lg-4 mb-4">
-            <div class="card h-100 border <%= borderClass %> dataclass-card" style="background: linear-gradient(145deg, #2a2a3e 0%, #1f1f2e 100%); transition: all 0.3s;">
-              <div class="card-body">
-                <div class="d-flex justify-content-between align-items-start mb-3">
-                  <span class="badge <%= badgeClass %> fs-6">#<%= index + 1 %></span>
-                  <span class="text-muted small"><%= percentage %>%</span>
-                </div>
-                
-                <h5 class="card-title mb-3" style="color: #e0e0e0; font-size: 1.1rem; min-height: 50px;">
-                  <i class="fa fa-shield me-2" style="color: #38bdf8;"></i>
-                  <%= dataClass.name %>
-                </h5>
-                
-                <div class="mb-3">
-                  <p class="mb-2" style="color: #cbd5e1;">
-                    <i class="fa fa-exclamation-triangle me-2" style="color: #fbbf24;"></i>
-                    <strong><%= dataClass.breaches.length.toLocaleString() %></strong> fuites
-                  </p>
-                  <p class="mb-0" style="color: #94a3b8; font-size: 0.9rem;">
-                    <i class="fa fa-users me-2"></i>
-                    ~<strong><%= dataClass.totalPwnCount >= 1000000000 ? (dataClass.totalPwnCount / 1000000000).toFixed(2) + 'Md' : (dataClass.totalPwnCount / 1000000).toFixed(1) + 'M' %></strong> comptes
-                  </p>
-                </div>
-                
-                <details class="breach-details-list">
-                  <summary class="text-primary" style="cursor: pointer; font-size: 0.95rem;">
-                    <i class="fa fa-list me-2"></i>
-                    Voir les fuites (<%= Math.min(10, dataClass.breaches.length) %>)
-                  </summary>
-                  <ul class="list-unstyled mt-3 ps-2" style="max-height: 300px; overflow-y: auto;">
-                    <% dataClass.breaches.sort((a, b) => (b.PwnCount || 0) - (a.PwnCount || 0)).slice(0, 10).forEach(function(breach) { 
-                      var severityColors = {
-                        'CRITIQUE': 'danger',
-                        'ÉLEVÉ': 'warning',
-                        'MODÉRÉ': 'info',
-                        'FAIBLE': 'secondary'
-                      };
-                    %>
-                      <li class="mb-2 pb-2 border-bottom" style="border-color: rgba(255,255,255,0.1) !important;">
-                        <a href="<%- url_for('/fuites?id=' + breach.index) %>" class="text-decoration-none d-flex justify-content-between align-items-start" style="color: #b8b8d1;">
-                          <span class="flex-grow-1 me-2">
-                            <%= breach.Title || breach.Name %>
-                            <% if (breach.SeverityLevel) { %>
-                              <span class="badge bg-<%= severityColors[breach.SeverityLevel] %> ms-1" style="font-size: 0.65em;">
-                                <%= breach.SeverityLevel %>
-                              </span>
-                            <% } %>
-                          </span>
-                          <span class="text-muted small" style="white-space: nowrap;">
-                            <%= breach.PwnCount ? (breach.PwnCount >= 1000000 ? (breach.PwnCount / 1000000).toFixed(1) + 'M' : breach.PwnCount.toLocaleString()) : 'N/A' %>
-                          </span>
-                        </a>
-                      </li>
-                    <% }); %>
-                  </ul>
-                </details>
-              </div>
-            </div>
-          </div>
-        <% }); %>
+<div class="dataclasses-wrapper tw-py-6">
+  <div class="tw-bg-slate-900 tw-border tw-border-slate-800 tw-rounded-2xl tw-p-6 tw-shadow-2xl">
+    
+    <!-- En-tête de la page -->
+    <div class="tw-flex tw-items-center tw-gap-4 tw-border-b tw-border-slate-800 tw-pb-6 tw-mb-6">
+      <div class="tw-bg-sky-500/10 tw-text-sky-400 tw-p-3 tw-rounded-xl">
+        <i class="fa fa-database tw-text-2xl"></i>
+      </div>
+      <div>
+        <h1 class="tw-text-2xl tw-font-bold tw-text-slate-100 tw-m-0">
+          <%= sortedDataClasses.length %> Types de Données Fuitées
+        </h1>
+        <p class="tw-text-slate-400 tw-m-0 tw-mt-1">
+          Classification et répartition des fuites par catégories de données compromises.
+        </p>
       </div>
     </div>
+
+    <!-- Filtre de recherche -->
+    <div class="tw-mb-6 tw-relative">
+      <span class="tw-absolute tw-left-4 tw-top-1/2 tw-translate-y-[-50%] tw-text-slate-500">
+        <i class="fa fa-search"></i>
+      </span>
+      <input type="text" id="category-search" placeholder="Rechercher un type de données (ex: Mots de passe, Identité...)..." 
+             class="tw-w-full tw-bg-slate-950 tw-border tw-border-slate-800 tw-text-slate-200 tw-rounded-xl tw-py-3 tw-pl-11 tw-pr-4 focus:tw-outline-none focus:tw-border-sky-500 focus:tw-ring-1 focus:tw-ring-sky-500 tw-transition-all">
+    </div>
+    
+    <!-- Grille de catégories -->
+    <div class="tw-grid tw-grid-cols-1 md:tw-grid-cols-2 lg:tw-grid-cols-3 tw-gap-6">
+      <% sortedDataClasses.forEach(function(dataClass, index) { 
+        var percentage = ((dataClass.breaches.length / breaches.length) * 100).toFixed(1);
+        var accentClass = index < 3 ? 'tw-border-red-500/30 hover:tw-border-red-500' : index < 10 ? 'tw-border-amber-500/30 hover:tw-border-amber-500' : 'tw-border-sky-500/30 hover:tw-border-sky-500';
+        var badgeColor = index < 3 ? 'tw-bg-red-500/10 tw-text-red-400' : index < 10 ? 'tw-bg-amber-500/10 tw-text-amber-400' : 'tw-bg-sky-500/10 tw-text-sky-400';
+      %>
+        <div class="dataclass-col" data-name="<%= dataClass.name %>">
+          <div class="tw-bg-slate-950 tw-border tw-rounded-xl tw-p-5 tw-flex tw-flex-col tw-h-full tw-transition-all tw-duration-300 hover:tw-translate-y-[-4px] hover:tw-shadow-[0_4px_20px_rgba(0,0,0,0.4)] <%= accentClass %>">
+            
+            <div class="tw-flex tw-justify-between tw-items-center tw-mb-4">
+              <span class="tw-px-3 tw-py-1 tw-rounded-lg tw-text-sm tw-font-semibold <%= badgeColor %>">
+                #<%= index + 1 %>
+              </span>
+              <span class="tw-text-xs tw-text-slate-500 tw-font-medium"><%= percentage %> %</span>
+            </div>
+            
+            <h3 class="tw-text-lg tw-font-semibold tw-text-slate-200 tw-mb-4 tw-flex tw-items-center tw-gap-2">
+              <i class="fa fa-shield tw-text-sky-400 tw-text-sm"></i>
+              <%= dataClass.name %>
+            </h3>
+            
+            <div class="tw-mb-4 tw-space-y-2">
+              <div class="tw-flex tw-items-center tw-justify-between tw-text-sm">
+                <span class="tw-text-slate-400"><i class="fa fa-exclamation-triangle tw-mr-2 tw-text-amber-500"></i>Incidents</span>
+                <span class="tw-text-slate-200 tw-font-semibold"><%= dataClass.breaches.length.toLocaleString() %> fuites</span>
+              </div>
+              <div class="tw-flex tw-items-center tw-justify-between tw-text-sm">
+                <span class="tw-text-slate-400"><i class="fa fa-users tw-mr-2 tw-text-sky-500"></i>Comptes impactés</span>
+                <span class="tw-text-slate-200 tw-font-semibold">
+                  ~<%= dataClass.totalPwnCount >= 1000000000 ? (dataClass.totalPwnCount / 1000000000).toFixed(2) + ' Md' : (dataClass.totalPwnCount / 1000000).toFixed(1) + ' M' %>
+                </span>
+              </div>
+            </div>
+            
+            <details class="breach-details-list tw-mt-auto">
+              <summary class="tw-text-sm tw-text-sky-400 hover:tw-text-sky-300 tw-cursor-pointer tw-font-medium tw-list-none">
+                <i class="fa fa-chevron-right tw-text-xs tw-mr-1"></i> Voir les fuites majeures
+              </summary>
+              <ul class="tw-list-none tw-p-0 tw-m-0 tw-mt-3 tw-space-y-2 tw-max-h-60 tw-overflow-y-auto tw-pr-1">
+                <% dataClass.breaches.sort((a, b) => (b.PwnCount || 0) - (a.PwnCount || 0)).slice(0, 10).forEach(function(breach) { 
+                  var severityColors = {
+                    'CRITIQUE': 'tw-bg-red-500/10 tw-text-red-400 tw-border-red-500/20',
+                    'ÉLEVÉ': 'tw-bg-amber-500/10 tw-text-amber-400 tw-border-amber-500/20',
+                    'MODÉRÉ': 'tw-bg-sky-500/10 tw-text-sky-400 tw-border-sky-500/20',
+                    'FAIBLE': 'tw-bg-slate-500/10 tw-text-slate-400 tw-border-slate-500/20'
+                  };
+                %>
+                  <li class="tw-border-b tw-border-slate-900 tw-pb-2">
+                    <a href="<%- url_for('/fuites?id=' + breach.index) %>" class="tw-flex tw-justify-between tw-items-start tw-text-sm tw-text-slate-400 hover:tw-text-sky-300 tw-no-underline">
+                      <span class="tw-truncate tw-mr-2">
+                        <%= breach.Title || breach.Name %>
+                        <% if (breach.SeverityLevel) { %>
+                          <span class="tw-text-[10px] tw-px-1.5 tw-py-0.5 tw-rounded tw-border tw-ml-1 <%= severityColors[breach.SeverityLevel] %>">
+                            <%= breach.SeverityLevel %>
+                          </span>
+                        <% } %>
+                      </span>
+                      <span class="tw-text-xs tw-text-slate-500 tw-shrink-0">
+                        <%= breach.PwnCount ? (breach.PwnCount >= 1000000 ? (breach.PwnCount / 1000000).toFixed(1) + 'M' : breach.PwnCount.toLocaleString()) : 'N/A' %>
+                      </span>
+                    </a>
+                  </li>
+                <% }); %>
+              </ul>
+            </details>
+
+          </div>
+        </div>
+      <% }); %>
+    </div>
+
   </div>
 </div>
 
+<script>
+  document.getElementById('category-search').addEventListener('input', function(e) {
+    const searchVal = e.target.value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    const cards = document.querySelectorAll('.dataclass-col');
+    cards.forEach(card => {
+      const title = card.getAttribute('data-name').toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+      if (title.includes(searchVal)) {
+        card.style.display = '';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  });
+</script>
+
 <style>
-  .dataclass-card {
-    transition: transform 0.3s, box-shadow 0.3s;
-  }
-  
-  .dataclass-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 24px rgba(0,0,0,0.4) !important;
-  }
-  
-  .breach-details-list summary {
-    transition: color 0.2s;
-  }
-  
-  .breach-details-list summary:hover {
-    color: #8ab4ff !important;
-  }
-  
-  .breach-details-list[open] summary {
-    margin-bottom: 0.5rem;
+  .breach-details-list summary::-webkit-details-marker {
+    display: none;
   }
   
   .breach-details-list ul {
     scrollbar-width: thin;
-    scrollbar-color: #38bdf8 #1e1e2e;
+    scrollbar-color: #38bdf8 #0f172a;
   }
   
   .breach-details-list ul::-webkit-scrollbar {
-    width: 6px;
+    width: 4px;
   }
   
   .breach-details-list ul::-webkit-scrollbar-track {
-    background: #1e1e2e;
+    background: #0f172a;
   }
   
   .breach-details-list ul::-webkit-scrollbar-thumb {
     background: #38bdf8;
-    border-radius: 3px;
-  }
-  
-  .breach-details-list a:hover {
-    color: #8ab4ff !important;
+    border-radius: 2px;
   }
 </style>
