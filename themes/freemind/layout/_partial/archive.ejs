@@ -146,6 +146,11 @@
       yearDataPoints.push({ year: yr, count: count });
     });
 
+    // Limiter l'analyse de tendance aux 4 dernières années pour éviter que les années anciennes et creuses ne faussent la pente
+    if (yearDataPoints.length > 4) {
+      yearDataPoints = yearDataPoints.slice(-4);
+    }
+
     var next3YearsPredictions = [];
     if (yearDataPoints.length >= 2) {
       var n = yearDataPoints.length;
