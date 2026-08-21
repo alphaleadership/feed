@@ -140,6 +140,48 @@
     margin-left: 0.5em;
   }
 
+  .tag-badge {
+    display: inline-block;
+    padding: 0.3em 0.8em;
+    border-radius: 12px;
+    font-size: 0.75em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  .tag-ia {
+    background-color: rgba(139, 92, 246, 0.2);
+    color: #d8b4fe;
+    border: 1px solid rgba(139, 92, 246, 0.4);
+  }
+  .tag-santé {
+    background-color: rgba(16, 185, 129, 0.2);
+    color: #a7f3d0;
+    border: 1px solid rgba(16, 185, 129, 0.4);
+  }
+  .tag-gouvernement {
+    background-color: rgba(239, 68, 68, 0.2);
+    color: #fca5a5;
+    border: 1px solid rgba(239, 68, 68, 0.4);
+  }
+  .tag-éducation {
+    background-color: rgba(59, 130, 246, 0.2);
+    color: #93c5fd;
+    border: 1px solid rgba(59, 130, 246, 0.4);
+  }
+  .tag-finance {
+    background-color: rgba(245, 158, 11, 0.2);
+    color: #fde68a;
+    border: 1px solid rgba(245, 158, 11, 0.4);
+  }
+  .tag-télécom {
+    background-color: rgba(6, 182, 212, 0.2);
+    color: #a5f3fc;
+    border: 1px solid rgba(6, 182, 212, 0.4);
+  }
+
   .nsfw-warning {
     background-color: var(--danger-bg);
     border: 1px solid var(--danger-border);
@@ -305,6 +347,22 @@
 </div>
 
 <script>
+  function renderTags(tags) {
+    if (!tags || !Array.isArray(tags) || tags.length === 0) return '';
+    const emojiMap = {
+      'ia': '🤖',
+      'santé': '🏥',
+      'gouvernement': '🏛️',
+      'éducation': '🎓',
+      'finance': '💼',
+      'télécom': '📞'
+    };
+    return tags.map(tag => {
+      const emoji = emojiMap[tag.toLowerCase()] || '🏷️';
+      return `<span class="tag-badge tag-${tag.toLowerCase()}">${emoji} ${tag}</span>`;
+    }).join(' ');
+  }
+
   function confirmShowLink(event, index) {
     event.preventDefault();
     const userConfirmed = confirm("Ce lien mène vers un contenu NSFW. Êtes-vous sûr de vouloir l'afficher ?");
@@ -445,7 +503,7 @@
             ${contentHtml}
             <div class="date">${new Date(breach.BreachDate).toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}</div>
             ${breach.SeverityLevel ? `<span class="severity-badge severity-${breach.SeverityLevel.toLowerCase()}">${breach.SeverityLevel}</span>` : ''}
-            ${breach.tags && breach.tags.includes('IA') ? `<span class="ia-badge">🤖 IA</span>` : ''}
+            ${renderTags(breach.tags)}
             ${classesHtml}
           </div>
         `;
@@ -464,7 +522,7 @@
         <div class="breach-details">
           <div class="breach-header">
             <h1>${breach.Title || breach.Name}</h1>
-            ${breach.tags && breach.tags.includes('IA') ? `<span class="ia-badge">🤖 IA</span>` : ''}
+            ${renderTags(breach.tags)}
             ${breach.isBlocked ? `
               <div class="nsfw-warning" style="margin-top: 15px; background-color: #450a0a; border-color: #991b1b;">
                 <h2 style="color: #fecaca;">⚠️ Attention : Domaine bloqué ou indésirable</h2>

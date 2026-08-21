@@ -4,42 +4,35 @@ const fs = require('fs');
 const path = require('path');
 const { getBreachesDB } = require('./db');
 
-// Mots-clés très spécifiques pour l'IA
-const realIAKeywords = [
-  'chatgpt',
-  'chat gpt',
-  'gpt-4',
-  'gpt4',
-  'claude',
-  'gemini',
-  'copilot',
-  'openai',
-  'anthropic',
-  'hugging face',
-  'stable diffusion',
-  'midjourney',
-  'dall-e',
-  'ai girlfriend',
-  'ai companion',
-  'ai chatbot',
-  'mylovely',
-  'cutiesai',
-  'machine learning',
-  'deep learning',
-  'neural network',
-  'transformer',
-  'llm',
-  'large language model','nsfw ai','ai-powered'
-];
-
-// Faux positifs à exclure
-const falsePositives = [
-  'taj',
-  'traitement d\'antécédents judiciaires'
-];
+const TAGS_CONFIG = {
+  'IA': {
+    keywords: ['chatgpt', 'chat gpt', 'gpt-4', 'gpt4', 'claude', 'gemini', 'copilot', 'openai', 'anthropic', 'hugging face', 'stable diffusion', 'midjourney', 'dall-e', 'ai girlfriend', 'ai companion', 'ai chatbot', 'mylovely', 'cutiesai', 'machine learning', 'deep learning', 'neural network', 'transformer', 'llm', 'large language model', 'nsfw ai', 'ai-powered'],
+    falsePositives: ['taj', 'traitement d\'antécédents judiciaires']
+  },
+  'Santé': {
+    keywords: ['hopital', 'hôpital', 'clinique', 'ars', 'medical', 'médical', 'weda', 'patient', 'santé', 'sante', 'mutuelle', 'pharmac', 'ordoclic', 'biomérieux', 'biomerieux', 'synlab', 'santeo', 'médic', 'medic'],
+    falsePositives: []
+  },
+  'Gouvernement': {
+    keywords: ['ministère', 'ministere', 'gendarmerie', 'police', 'caf', 'ants', 'dgfip', 'gouvernement', 'cnas', 'unss', 'service public', 'mairie', 'commune', 'départemental', 'departemental', 'département', 'departement', 'région', 'region', 'préfecture', 'prefecture', 'urssaf', 'pajemploi'],
+    falsePositives: []
+  },
+  'Éducation': {
+    keywords: ['lycee', 'lycée', 'ecole', 'école', 'universite', 'université', 'ensam', 'sciences po', 'cnfpt', 'sorbonne', 'academie', 'académie', 'college', 'collège', 'iut', 'campus', 'iae', 'esae', 'alumni', 'scolaire', 'étudiant', 'etudiant'],
+    falsePositives: []
+  },
+  'Finance': {
+    keywords: ['banque', 'bank', 'crypto', 'ledger', 'assurance', 'finance', 'bitcoin', 'eth', 'credit', 'crédit', 'meilleurtaux', 'sofinco', 'boursier', 'épargne', 'epargne'],
+    falsePositives: []
+  },
+  'Télécom': {
+    keywords: ['mobile', 'telecom', 'télécom', 'sfr', 'bouygues', 'orange', 'free', 'ovh', 'kimsufi', 'red by sfr', 'sim card', 'carte sim'],
+    falsePositives: []
+  }
+};
 
 async function tagIABreaches() {
-  console.log('Démarrage du tagging automatique IA...');
+  console.log('Démarrage du tagging automatique multi-catégories...');
   
   try {
     const db = await getBreachesDB();
@@ -55,7 +48,6 @@ async function tagIABreaches() {
         return;
       }
       
-      // Chercher les mots-clés dans le nom, la description et le contenu
       const textToSearch = [
         breach.Name || '',
         breach.Title || '',
@@ -63,57 +55,54 @@ async function tagIABreaches() {
         breach.content || '',
         (breach.DataClasses || []).join(' ')
       ].join(' ').toLowerCase();
-      
-      // Vérifier si c'est un faux positif
-      const isFalsePositive = falsePositives.some(fp => textToSearch.includes(fp.toLowerCase()));
-      
-      const hasRealIAKeyword = !isFalsePositive && realIAKeywords.some(keyword => {
-        const regex = new RegExp(`\\b${keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i');
-        return regex.test(textToSearch);
+
+      if (!breach.tags) {
+        breach.tags = [];
+      }
+      if (!Array.isArray(breach.tags)) {
+        breach.tags = [breach.tags];
+      }
+
+      // Nettoyer les tags automatiques existants
+      const autoTags = Object.keys(TAGS_CONFIG);
+      const originalLength = breach.tags.length;
+      breach.tags = breach.tags.filter(t => !autoTags.includes(t));
+      removedCount += (originalLength - breach.tags.length);
+
+      // Détecter et appliquer les nouveaux tags
+      autoTags.forEach(tagName => {
+        const config = TAGS_CONFIG[tagName];
+        const isFalsePositive = config.falsePositives.some(fp => textToSearch.includes(fp.toLowerCase()));
+        
+        const hasKeyword = !isFalsePositive && config.keywords.some(keyword => {
+          const regex = new RegExp(`\\b${keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i');
+          return regex.test(textToSearch);
+        });
+
+        if (hasKeyword) {
+          if (!breach.tags.includes(tagName)) {
+            breach.tags.push(tagName);
+            addedCount++;
+            console.log(`  ✓ Tag ${tagName} ajouté : ${breach.Name}`);
+          }
+        }
       });
-      
-      // Supprimer le tag IA s'il existe
-      if (breach.tags && Array.isArray(breach.tags)) {
-        const iaIndex = breach.tags.indexOf('IA');
-        if (iaIndex !== -1) {
-          breach.tags.splice(iaIndex, 1);
-          removedCount++;
-        }
-      }
-      
-      // Ajouter le tag IA seulement si c'est vraiment une brèche IA
-      if (hasRealIAKeyword) {
-        if (!breach.tags) {
-          breach.tags = [];
-        }
-        if (!Array.isArray(breach.tags)) {
-          breach.tags = [breach.tags];
-        }
-        if (!breach.tags.includes('IA')) {
-          breach.tags.push('IA');
-          addedCount++;
-          console.log(`  ✓ Tag IA ajouté : ${breach.Name}`);
-        }
-      }
     });
     
-    // Sauvegarder
     db.data.lastUpdated = new Date().toISOString();
     await db.save();
     
-    console.log('\n✅ Tagging IA automatique terminé !');
-    console.log(`   - ${removedCount} tag(s) IA supprimé(s)`);
-    console.log(`   - ${addedCount} tag(s) IA ajouté(s)`);
+    console.log('\n✅ Tagging automatique terminé !');
+    console.log(`   - ${removedCount} tag(s) supprimé(s)`);
+    console.log(`   - ${addedCount} tag(s) ajouté(s)`);
     
   } catch (err) {
-    console.error('Erreur lors du tagging IA:', err);
+    console.error('Erreur lors du tagging:', err);
   }
 }
 
-// Exporter pour utilisation en tant que module
 module.exports = { tagIABreaches };
 
-// Exécuter si appelé directement
 if (require.main === module) {
   tagIABreaches().catch(err => {
     console.error('Erreur fatale:', err);

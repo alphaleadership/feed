@@ -328,11 +328,31 @@
                             <i class="fa fa-exclamation-circle"></i> NSFW
                           </span>
                         <% } %>
-                        <% if (item.tags && item.tags.includes('IA')) { %>
-                          <span class="badge badge-info ms-2" style="font-size: 0.7em; background-color: #8b5cf6;">
-                            <i class="fa fa-robot"></i> IA
+                        <% if (item.tags && Array.isArray(item.tags)) { 
+                          var tagIcons = {
+                            'IA': 'fa-robot',
+                            'Santé': 'fa-hospital-o',
+                            'Gouvernement': 'fa-university',
+                            'Éducation': 'fa-graduation-cap',
+                            'Finance': 'fa-briefcase',
+                            'Télécom': 'fa-phone'
+                          };
+                          var tagColors = {
+                            'IA': '#8b5cf6',
+                            'Santé': '#10b981',
+                            'Gouvernement': '#ef4444',
+                            'Éducation': '#3b82f6',
+                            'Finance': '#f59e0b',
+                            'Télécom': '#06b6d4'
+                          };
+                          item.tags.forEach(function(tag) { 
+                            var icon = tagIcons[tag] || 'fa-tag';
+                            var color = tagColors[tag] || '#6b7280';
+                        %>
+                          <span class="badge badge-info ms-2" style="font-size: 0.7em; background-color: <%= color %>;">
+                            <i class="fa <%= icon %>"></i> <%= tag %>
                           </span>
-                        <% } %>
+                        <% }); } %>
                         <% if (item.SeverityLevel) { 
                           var severityColors = {
                             'CRITIQUE': 'danger',
