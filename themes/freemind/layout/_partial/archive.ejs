@@ -123,6 +123,52 @@
    // Calcul de la prévision des fuites tardives pour l'année en cours
    var avgHistoricalLateRate = historicalLateRates.length > 0 ? 
       (historicalLateRates.reduce(function(a, b){ return a + b; }, 0) / historicalLateRates.length) : 0;
+
+    // Calculer les prévisions pour les 3 années suivantes
+    var currentYear = ARCHIVE_NOW.getFullYear();
+    var yearDataPoints = [];
+    Object.keys(archiveData.years).sort(function(a, b){ return a - b; }).forEach(function(yrStr) {
+      var yr = parseInt(yrStr);
+      var monthsInYear = archiveData.years[yrStr];
+      var count = 0;
+      Object.keys(monthsInYear).forEach(function(m){ count += monthsInYear[m].length; });
+      
+      // Si c'est l'année en cours, on utilise la prévision
+      if (yr === currentYear) {
+        var startOfYear = new Date(currentYear, 0, 1);
+        var daysPassed = Math.ceil((ARCHIVE_NOW_TIME - startOfYear.getTime()) / (1000 * 60 * 60 * 24));
+        if (daysPassed > 0) {
+          var isLeapYear = (currentYear % 4 === 0 && currentYear % 100 !== 0) || (currentYear % 400 === 0);
+          var daysInYear = isLeapYear ? 366 : 365;
+          count = Math.round((count / daysPassed) * daysInYear);
+        }
+      }
+      yearDataPoints.push({ year: yr, count: count });
+    });
+
+    var next3YearsPredictions = [];
+    if (yearDataPoints.length >= 2) {
+      var n = yearDataPoints.length;
+      var sumX = 0, sumY = 0, sumXY = 0, sumXX = 0;
+      yearDataPoints.forEach(function(pt) {
+        sumX += pt.year;
+        sumY += pt.count;
+        sumXY += pt.year * pt.count;
+        sumXX += pt.year * pt.year;
+      });
+      var slope = (n * sumXY - sumX * sumY) / (n * sumXX - sumX * sumX);
+      var intercept = (sumY - slope * sumX) / n;
+      
+      for (var i = 1; i <= 3; i++) {
+        var nextYear = currentYear + i;
+        var predictedCount = Math.round(slope * nextYear + intercept);
+        if (predictedCount < 0) predictedCount = 0;
+        next3YearsPredictions.push({
+          year: nextYear,
+          count: predictedCount
+        });
+      }
+    }
 %>
 
 <!-- title -->
@@ -152,6 +198,27 @@
           pour un cumul de <strong><%= formatNumber(globalTotalPwnRaw) %></strong> <%= pluralize(globalTotalPwnRaw, 'ligne', 'lignes') %>.
         </p>
       </div>
+
+      <!-- Prévisions pour les années futures -->
+      <% if (next3YearsPredictions.length > 0) { %>
+        <div class="tw-bg-slate-900 tw-border tw-border-slate-800 tw-rounded-2xl tw-p-5 tw-mb-8 tw-shadow-lg">
+          <h4 class="tw-text-base tw-font-semibold tw-text-slate-200 tw-mb-3 tw-flex tw-items-center tw-gap-2">
+            <i class="fa fa-magic tw-text-sky-400"></i> Prévisions d'activité pour les 3 prochaines années
+          </h4>
+          <p class="tw-text-sm tw-text-slate-400 tw-mb-4">
+            Modélisation prédictive par régression linéaire basée sur les données d'incidents historiques cumulées :
+          </p>
+          <div class="tw-grid tw-grid-cols-1 md:tw-grid-cols-3 tw-gap-4">
+            <% next3YearsPredictions.forEach(function(pred) { %>
+              <div class="tw-bg-slate-950 tw-border tw-border-slate-800 tw-rounded-xl tw-p-4 tw-text-center">
+                <div class="tw-text-xs tw-text-slate-500 tw-font-semibold tw-uppercase tw-mb-1">Année <%= pred.year %></div>
+                <div class="tw-text-xl tw-font-bold tw-text-sky-400">~<%= formatNumber(pred.count) %></div>
+                <div class="tw-text-[11px] tw-text-slate-400 tw-mt-1">fuites estimées</div>
+              </div>
+            <% }); %>
+          </div>
+        </div>
+      <% } %>
 
       <!-- Navigation par année (en haut) -->
       <div class="archive-year-nav">
