@@ -124,55 +124,46 @@
    var avgHistoricalLateRate = historicalLateRates.length > 0 ? 
       (historicalLateRates.reduce(function(a, b){ return a + b; }, 0) / historicalLateRates.length) : 0;
 
-    // Calculer les prévisions pour les 3 années suivantes
-    var currentYear = ARCHIVE_NOW.getFullYear();
-    var yearDataPoints = [];
-    Object.keys(archiveData.years).sort(function(a, b){ return a - b; }).forEach(function(yrStr) {
-      var yr = parseInt(yrStr);
-      var monthsInYear = archiveData.years[yrStr];
-      var count = 0;
-      Object.keys(monthsInYear).forEach(function(m){ count += monthsInYear[m].length; });
-      
-      // Si c'est l'année en cours, on utilise la prévision
-      if (yr === currentYear) {
-        var startOfYear = new Date(currentYear, 0, 1);
-        var daysPassed = Math.ceil((ARCHIVE_NOW_TIME - startOfYear.getTime()) / (1000 * 60 * 60 * 24));
-        if (daysPassed > 0) {
-          var isLeapYear = (currentYear % 4 === 0 && currentYear % 100 !== 0) || (currentYear % 400 === 0);
-          var daysInYear = isLeapYear ? 366 : 365;
-          count = Math.round((count / daysPassed) * daysInYear);
-        }
-      }
-      yearDataPoints.push({ year: yr, count: count });
-    });
-
-    // Limiter l'analyse de tendance aux 4 dernières années pour éviter que les années anciennes et creuses ne faussent la pente
-    if (yearDataPoints.length > 4) {
-      yearDataPoints = yearDataPoints.slice(-4);
-    }
-
+    // Calculer les prévisions pour les 3 années suivantes basées sur la tendance de l'année en cours
     var next3YearsPredictions = [];
-    if (yearDataPoints.length >= 2) {
-      var n = yearDataPoints.length;
-      var sumX = 0, sumY = 0, sumXY = 0, sumXX = 0;
-      yearDataPoints.forEach(function(pt) {
-        sumX += pt.year;
-        sumY += pt.count;
-        sumXY += pt.year * pt.count;
-        sumXX += pt.year * pt.year;
+    var currentYear = ARCHIVE_NOW.getFullYear();
+    var prevYear = currentYear - 1;
+    
+    var currentYearCount = 0;
+    var monthsInCurrentYear = archiveData.years[currentYear];
+    if (monthsInCurrentYear) {
+      Object.keys(monthsInCurrentYear).forEach(function(m){ currentYearCount += monthsInCurrentYear[m].length; });
+    }
+    
+    var startOfYear = new Date(currentYear, 0, 1);
+    var daysPassed = Math.ceil((ARCHIVE_NOW_TIME - startOfYear.getTime()) / (1000 * 60 * 60 * 24));
+    var isLeapYear = (currentYear % 4 === 0 && currentYear % 100 !== 0) || (currentYear % 400 === 0);
+    var daysInYear = isLeapYear ? 366 : 365;
+    var currentYearPredicted = daysPassed > 0 ? Math.round((currentYearCount / daysPassed) * daysInYear) : currentYearCount;
+    
+    var prevYearCount = 0;
+    var monthsInPrevYear = archiveData.years[prevYear];
+    if (monthsInPrevYear) {
+      Object.keys(monthsInPrevYear).forEach(function(m){ prevYearCount += monthsInPrevYear[m].length; });
+    }
+    
+    // Taux de croissance de l'année en cours par rapport à l'année précédente
+    var growthRate = prevYearCount > 0 ? (currentYearPredicted - prevYearCount) / prevYearCount : 0;
+    
+    // Bornes de sécurité
+    if (growthRate > 2.0) growthRate = 2.0;
+    if (growthRate < -0.5) growthRate = -0.5;
+    
+    var lastValue = currentYearPredicted;
+    for (var i = 1; i <= 3; i++) {
+      var nextYear = currentYear + i;
+      var predictedCount = Math.round(lastValue * (1 + growthRate));
+      if (predictedCount < 0) predictedCount = 0;
+      next3YearsPredictions.push({
+        year: nextYear,
+        count: predictedCount
       });
-      var slope = (n * sumXY - sumX * sumY) / (n * sumXX - sumX * sumX);
-      var intercept = (sumY - slope * sumX) / n;
-      
-      for (var i = 1; i <= 3; i++) {
-        var nextYear = currentYear + i;
-        var predictedCount = Math.round(slope * nextYear + intercept);
-        if (predictedCount < 0) predictedCount = 0;
-        next3YearsPredictions.push({
-          year: nextYear,
-          count: predictedCount
-        });
-      }
+      lastValue = predictedCount;
     }
 %>
 
