@@ -1,122 +1,30 @@
-<style>
-  :root {
-    --bg-main: #0f172a;
-    --bg-card: #1e293b;
-    --border-color: #334155;
-    --text-primary: #f8fafc;
-    --text-secondary: #cbd5e1;
-    --accent: #38bdf8;
-    --accent-hover: #7dd3fc;
-  }
-
-  #threat-actors-container {
-    padding: 2em 0;
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
-    color: var(--text-primary);
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+<div id="threat-actors-container" class="tw-py-6">
   
-  .header {
-    margin-bottom: 2em;
-    border-bottom: 1px solid var(--border-color);
-    padding-bottom: 1em;
-  }
-
-  .actor-card {
-    background-color: var(--bg-card);
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    padding: 1.5em;
-    margin-bottom: 1.5em;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-  }
-
-  .actor-name {
-    font-size: 1.5em;
-    font-weight: 600;
-    color: var(--accent);
-    margin-bottom: 0.5em;
-    display: flex;
-    align-items: center;
-    gap: 0.5em;
-  }
-
-  .actor-name i {
-    font-size: 0.8em;
-  }
-
-  .breach-list {
-    list-style: none;
-    padding: 0;
-    margin: 1em 0 0 0;
-  }
-
-  .breach-item {
-    padding: 0.5em 0;
-    border-bottom: 1px solid rgba(51, 65, 85, 0.5);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .breach-item:last-child {
-    border-bottom: none;
-  }
-
-  .breach-link {
-    color: var(--text-primary);
-    text-decoration: none;
-    transition: color 0.2s;
-  }
-
-  .breach-link:hover {
-    color: var(--accent);
-  }
-
-  .breach-date {
-    color: var(--text-secondary);
-    font-size: 0.85em;
-  }
-
-  .stats {
-    font-size: 0.9em;
-    color: var(--text-secondary);
-    margin-bottom: 1em;
-  }
-
-  .search-container {
-    margin-bottom: 2em;
-  }
-
-  .search-input {
-    width: 100%;
-    padding: 0.8em 1.2em;
-    background-color: var(--bg-card);
-    border: 1px solid var(--border-color);
-    border-radius: 6px;
-    color: var(--text-primary);
-    font-size: 1em;
-  }
-
-  .search-input:focus {
-    outline: none;
-    border-color: var(--accent);
-  }
-</style>
-
-<div id="threat-actors-container">
-  <div class="header">
-    <h1>Pirates et Groupes de Hackers</h1>
-    <p style="color: var(--text-secondary)">Exploration des fuites de données par auteur de l'attaque.</p>
+  <!-- En-tête de la page -->
+  <div class="tw-flex tw-items-center tw-gap-4 tw-border-b tw-border-slate-800 tw-pb-6 tw-mb-6">
+    <div class="tw-bg-sky-500/10 tw-text-sky-400 tw-p-3 tw-rounded-xl">
+      <i class="fa fa-user-secret tw-text-2xl"></i>
+    </div>
+    <div>
+      <h1 class="tw-text-2xl tw-font-bold tw-text-slate-100 tw-m-0">Pirates et Groupes de Hackers</h1>
+      <p class="tw-text-slate-400 tw-m-0 tw-mt-1">Exploration des fuites de données par auteur de l'attaque.</p>
+    </div>
   </div>
 
-  <div class="search-container">
-    <input type="text" id="actor-search" class="search-input" placeholder="Rechercher un pirate ou un groupe...">
+  <!-- Filtre de recherche -->
+  <div class="tw-mb-6 tw-relative">
+    <span class="tw-absolute tw-left-4 tw-top-1/2 tw-translate-y-[-50%] tw-text-slate-500">
+      <i class="fa fa-search"></i>
+    </span>
+    <input type="text" id="actor-search" placeholder="Rechercher un pirate, un groupe, un incident ou un statut..." 
+           class="tw-w-full tw-bg-slate-950 tw-border tw-border-slate-800 tw-text-slate-200 tw-rounded-xl tw-py-3 tw-pl-11 tw-pr-4 focus:tw-outline-none focus:tw-border-sky-500 focus:tw-ring-1 focus:tw-ring-sky-500 tw-transition-all">
   </div>
 
   <div id="actors-list">
-    <p>Chargement des données...</p>
+    <div class="tw-text-center tw-py-12 tw-text-slate-400">
+      <i class="fa fa-spinner fa-spin tw-text-2xl tw-mb-3"></i>
+      <p class="tw-m-0">Chargement des données...</p>
+    </div>
   </div>
 </div>
 
@@ -126,7 +34,7 @@
     const searchInput = document.getElementById('actor-search');
     let actorsData = [];
     let actorsStatus = {};
-
+ 
     // Charger les deux fichiers de données
     Promise.all([
       fetch('/data/breaches.json').then(r => r.json()),
@@ -163,22 +71,22 @@
         renderActors(actorsData);
       })
       .catch(error => {
-        listContainer.innerHTML = `<p style="color: #ef4444;">Erreur lors du chargement des données: ${error.message}</p>`;
+        listContainer.innerHTML = `<div class="tw-bg-red-500/10 tw-border tw-border-red-500/20 tw-text-red-400 tw-p-4 tw-rounded-xl">Erreur lors du chargement des données: ${error.message}</div>`;
       });
 
     searchInput.addEventListener('input', (e) => {
-      const searchTerm = e.target.value.toLowerCase();
+      const searchTerm = e.target.value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
       const filtered = actorsData.filter(actor => 
-        actor.name.toLowerCase().includes(searchTerm) || 
-        actor.breaches.some(b => (b.Title || b.Name).toLowerCase().includes(searchTerm)) ||
-        (actor.status && actor.status.toLowerCase().includes(searchTerm))
+        actor.name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(searchTerm) || 
+        actor.breaches.some(b => (b.Title || b.Name).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(searchTerm)) ||
+        (actor.status && actor.status.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(searchTerm))
       );
       renderActors(filtered);
     });
 
     function renderActors(actors) {
       if (actors.length === 0) {
-        listContainer.innerHTML = '<p>Aucun pirate trouvé.</p>';
+        listContainer.innerHTML = '<div class="tw-text-center tw-py-12 tw-text-slate-400">Aucun pirate trouvé.</div>';
         return;
       }
 
@@ -195,23 +103,26 @@
       actors.forEach(actor => {
         const neutralizedName = neutralize(actor.name);
         const statusBadge = actor.status === 'en taule' 
-          ? `<span class="badge" style="background-color: #450a0a; color: #fecaca; border: 1px solid #991b1b; padding: 0.3em 0.8em; border-radius: 12px; font-size: 0.6em; display: inline-flex; align-items: center; gap: 4px;"><i class="fa fa-gavel"></i> EN prison</span>` 
+          ? `<span class="tw-bg-red-500/10 tw-text-red-400 tw-border tw-border-red-500/20 tw-px-2.5 tw-py-1 tw-rounded-full tw-text-xs tw-font-semibold tw-inline-flex tw-items-center tw-gap-1.5"><i class="fa fa-gavel"></i> EN PRISON</span>` 
           : '';
         
-        const noteHtml = actor.note ? `<div style="font-size: 0.85em; color: #94a3b8; font-style: italic; margin-top: 4px;">Note: ${actor.note}</div>` : '';
+        const noteHtml = actor.note ? `<div class="tw-text-sm tw-text-slate-400 tw-italic tw-mb-3 tw-bg-slate-900/50 tw-p-2 tw-rounded-lg tw-border tw-border-slate-900">Note: ${actor.note}</div>` : '';
 
         html += `
-          <div class="actor-card" ${actor.status === 'en taule' ? 'style="border-left: 4px solid #ef4444;"' : ''}>
-            <div class="actor-name">
-              <i class="fa fa-user-secret"></i> ${neutralizedName} ${statusBadge}
+          <div class="tw-bg-slate-950 tw-border tw-border-slate-800 tw-rounded-xl tw-p-5 tw-mb-6 tw-transition-all tw-duration-300 hover:tw-shadow-[0_4px_20px_rgba(0,0,0,0.4)] ${actor.status === 'en taule' ? 'tw-border-l-4 tw-border-l-red-500' : 'hover:tw-border-sky-500'}">
+            <div class="tw-flex tw-items-center tw-justify-between tw-flex-wrap tw-gap-2 tw-mb-2">
+              <h3 class="tw-text-lg tw-font-semibold tw-text-slate-200 tw-m-0 tw-flex tw-items-center tw-gap-2">
+                <i class="fa fa-user-secret tw-text-sky-400"></i> ${neutralizedName}
+              </h3>
+              ${statusBadge}
             </div>
             ${noteHtml}
-            <div class="stats" style="margin-top: 8px;">${actor.breaches.length} fuite(s) revendiquée(s)</div>
-            <div class="breach-list">
+            <div class="tw-text-sm tw-text-slate-400 tw-mb-4"><i class="fa fa-tag tw-mr-1.5 tw-text-slate-500"></i>${actor.breaches.length} fuite(s) revendiquée(s)</div>
+            <div class="tw-space-y-2 tw-border-t tw-border-slate-900 tw-pt-3">
               ${actor.breaches.sort((a, b) => new Date(b.BreachDate) - new Date(a.BreachDate)).map(breach => `
-                <div class="breach-item">
-                  <a href="/fuites?id=${breach.index}" class="breach-link">${breach.Title || breach.Name}</a>
-                  <span class="breach-date">${new Date(breach.BreachDate).toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+                <div class="tw-flex tw-justify-between tw-items-center tw-text-sm tw-py-1">
+                  <a href="/fuites?id=${breach.index}" class="tw-text-sky-400 hover:tw-text-sky-300 tw-no-underline tw-truncate tw-mr-2">${breach.Title || breach.Name}</a>
+                  <span class="tw-text-xs tw-text-slate-500 tw-shrink-0">${new Date(breach.BreachDate).toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
                 </div>
               `).join('')}
             </div>

@@ -1,9 +1,14 @@
-<div class="container mt-4">
-  <div class="page-header mb-4 p-3 rounded shadow-matrix" style="background: rgba(0, 255, 65, 0.05); border-left: 5px solid #00ff41;">
-    <h1 class="title text-uppercase" style="color: #00ff41; font-family: 'Courier New', Courier, monospace; letter-spacing: 2px;">
-      <i class="fa fa-terminal me-2"></i> ANALYSE SYSTÈME : STATISTIQUES GLOBALES
-    </h1>
-    <p class="text-muted matrix-font">Exploration profonde des données de compromission indexées.</p>
+<div class="tw-py-6">
+  
+  <!-- En-tête de la page -->
+  <div class="tw-flex tw-items-center tw-gap-4 tw-border-b tw-border-slate-800 tw-pb-6 tw-mb-6">
+    <div class="tw-bg-sky-500/10 tw-text-sky-400 tw-p-3 tw-rounded-xl">
+      <i class="fa fa-line-chart tw-text-2xl"></i>
+    </div>
+    <div>
+      <h1 class="tw-text-2xl tw-font-bold tw-text-slate-100 tw-m-0">Statistiques Globales</h1>
+      <p class="tw-text-slate-400 tw-m-0 tw-mt-1">Analyse et exploration profonde des données de compromission indexées.</p>
+    </div>
   </div>
 
   <!-- Chiffres Clés (KPI) -->
@@ -14,34 +19,34 @@
   <div class="row">
     <!-- Graphique d'évolution temporelle -->
     <div class="col-12 mb-4">
-      <div class="card bg-black border-matrix shadow-matrix">
-        <div class="card-header border-matrix-bottom">
-          <h3 class="matrix-font mb-0"><i class="fa fa-line-chart"></i> Évolution temporelle cumulative</h3>
+      <div class="tw-bg-slate-900 tw-border tw-border-slate-800 tw-rounded-2xl tw-p-6 tw-shadow-2xl">
+        <div class="tw-border-b tw-border-slate-800 tw-pb-4 tw-mb-4">
+          <h3 class="tw-text-lg tw-font-semibold tw-text-slate-200 tw-m-0"><i class="fa fa-line-chart tw-text-sky-400 tw-mr-2"></i>Évolution temporelle cumulative</h3>
         </div>
-        <div class="card-body">
+        <div class="tw-bg-slate-950 tw-p-4 tw-rounded-xl">
           <div id="evolution-chart"></div>
         </div>
       </div>
     </div>
-
+    
     <!-- Répartition par Sévérité et Vérification -->
     <div class="col-md-6 mb-4">
-      <div class="card bg-black border-matrix h-100 shadow-matrix">
-        <div class="card-header border-matrix-bottom">
-          <h3 class="matrix-font mb-0"><i class="fa fa-shield"></i> Niveaux de Sévérité</h3>
+      <div class="tw-bg-slate-900 tw-border tw-border-slate-800 tw-rounded-2xl tw-p-6 tw-shadow-2xl tw-h-full">
+        <div class="tw-border-b tw-border-slate-800 tw-pb-4 tw-mb-4">
+          <h3 class="tw-text-lg tw-font-semibold tw-text-slate-200 tw-m-0"><i class="fa fa-shield tw-text-sky-400 tw-mr-2"></i>Niveaux de Sévérité</h3>
         </div>
-        <div class="card-body d-flex justify-content-center">
+        <div class="tw-flex tw-justify-center tw-bg-slate-950 tw-p-4 tw-rounded-xl">
           <div id="severity-chart"></div>
         </div>
       </div>
     </div>
 
     <div class="col-md-6 mb-4">
-      <div class="card bg-black border-matrix h-100 shadow-matrix">
-        <div class="card-header border-matrix-bottom">
-          <h3 class="matrix-font mb-0"><i class="fa fa-check-circle"></i> Statut de Vérification</h3>
+      <div class="tw-bg-slate-900 tw-border tw-border-slate-800 tw-rounded-2xl tw-p-6 tw-shadow-2xl tw-h-full">
+        <div class="tw-border-b tw-border-slate-800 tw-pb-4 tw-mb-4">
+          <h3 class="tw-text-lg tw-font-semibold tw-text-slate-200 tw-m-0"><i class="fa fa-check-circle tw-text-sky-400 tw-mr-2"></i>Statut de Vérification</h3>
         </div>
-        <div class="card-body d-flex justify-content-center">
+        <div class="tw-flex tw-justify-center tw-bg-slate-950 tw-p-4 tw-rounded-xl">
           <div id="verification-chart"></div>
         </div>
       </div>
@@ -49,11 +54,11 @@
 
     <!-- Top DataClasses -->
     <div class="col-md-12 mb-4">
-      <div class="card bg-black border-matrix shadow-matrix">
-        <div class="card-header border-matrix-bottom">
-          <h3 class="matrix-font mb-0"><i class="fa fa-database"></i> Top 15 Types de données fuités (DataClasses)</h3>
+      <div class="tw-bg-slate-900 tw-border tw-border-slate-800 tw-rounded-2xl tw-p-6 tw-shadow-2xl">
+        <div class="tw-border-b tw-border-slate-800 tw-pb-4 tw-mb-4">
+          <h3 class="tw-text-lg tw-font-semibold tw-text-slate-200 tw-m-0"><i class="fa fa-database tw-text-sky-400 tw-mr-2"></i>Top 15 Types de données fuités (DataClasses)</h3>
         </div>
-        <div class="card-body">
+        <div class="tw-bg-slate-950 tw-p-4 tw-rounded-xl">
           <div id="dataclass-chart"></div>
         </div>
       </div>
@@ -61,11 +66,11 @@
 
     <!-- Fuites par année -->
     <div class="col-md-6 mb-4">
-      <div class="card bg-black border-matrix h-100 shadow-matrix">
-        <div class="card-header border-matrix-bottom">
-          <h3 class="matrix-font mb-0"><i class="fa fa-calendar"></i> Nombre de fuites par année</h3>
+      <div class="tw-bg-slate-900 tw-border tw-border-slate-800 tw-rounded-2xl tw-p-6 tw-shadow-2xl tw-h-full">
+        <div class="tw-border-b tw-border-slate-800 tw-pb-4 tw-mb-4">
+          <h3 class="tw-text-lg tw-font-semibold tw-text-slate-200 tw-m-0"><i class="fa fa-calendar tw-text-sky-400 tw-mr-2"></i>Nombre de fuites par année</h3>
         </div>
-        <div class="card-body">
+        <div class="tw-bg-slate-950 tw-p-4 tw-rounded-xl">
           <div id="year-count-chart"></div>
         </div>
       </div>
@@ -73,11 +78,11 @@
 
     <!-- Top Companies -->
     <div class="col-md-6 mb-4">
-      <div class="card bg-black border-matrix h-100 shadow-matrix">
-        <div class="card-header border-matrix-bottom">
-          <h3 class="matrix-font mb-0"><i class="fa fa-building"></i> Top 10 Organisations les plus touchées</h3>
+      <div class="tw-bg-slate-900 tw-border tw-border-slate-800 tw-rounded-2xl tw-p-6 tw-shadow-2xl tw-h-full">
+        <div class="tw-border-b tw-border-slate-800 tw-pb-4 tw-mb-4">
+          <h3 class="tw-text-lg tw-font-semibold tw-text-slate-200 tw-m-0"><i class="fa fa-building tw-text-sky-400 tw-mr-2"></i>Top 10 Organisations les plus touchées</h3>
         </div>
-        <div class="card-body">
+        <div class="tw-bg-slate-950 tw-p-4 tw-rounded-xl">
           <div id="company-chart"></div>
         </div>
       </div>
@@ -85,16 +90,15 @@
 
     <!-- Statistiques IA -->
     <div class="col-md-12 mb-4">
-      <div class="card bg-black border-matrix shadow-matrix" style="border-color: #a78bfa !important;">
-        <div class="card-header border-matrix-bottom" style="border-bottom-color: #a78bfa !important; background: rgba(139, 92, 246, 0.1) !important;">
-          <h3 class="matrix-font mb-0" style="color: #d8b4fe;"><i class="fa fa-robot me-2"></i>🤖 Statistiques des Brèches liées à l'IA</h3>
+      <div class="tw-bg-slate-900 tw-border tw-border-violet-500/30 tw-rounded-2xl tw-p-6 tw-shadow-2xl">
+        <div class="tw-border-b tw-border-slate-800 tw-pb-4 tw-mb-4">
+          <h3 class="tw-text-lg tw-font-semibold tw-text-slate-200 tw-m-0"><i class="fa fa-robot tw-text-violet-400 tw-mr-2"></i>Statistiques des Brèches liées à l'IA</h3>
         </div>
-        <div class="card-body">
+        <div>
           <div class="row" id="ia-stats-container">
             <div class="col-12 text-center py-5">
-              <div class="spinner-border" role="status" style="color: #a78bfa;">
-                <span class="visually-hidden">Chargement...</span>
-              </div>
+              <i class="fa fa-spinner fa-spin tw-text-violet-400 tw-text-2xl tw-mb-2"></i>
+              <p class="tw-text-slate-400 tw-m-0">Chargement...</p>
             </div>
           </div>
         </div>
@@ -103,16 +107,15 @@
 
     <!-- Statistiques Sites Fermés -->
     <div class="col-md-12 mb-4">
-      <div class="card bg-black border-matrix shadow-matrix" style="border-color: #6c757d !important;">
-        <div class="card-header border-matrix-bottom" style="border-bottom-color: #6c757d !important; background: rgba(108, 117, 125, 0.1) !important;">
-          <h3 class="matrix-font mb-0" style="color: #adb5bd;"><i class="fa fa-ban me-2"></i>🚫 Statistiques des Sites Fermés</h3>
+      <div class="tw-bg-slate-900 tw-border tw-border-slate-800 tw-rounded-2xl tw-p-6 tw-shadow-2xl">
+        <div class="tw-border-b tw-border-slate-800 tw-pb-4 tw-mb-4">
+          <h3 class="tw-text-lg tw-font-semibold tw-text-slate-200 tw-m-0"><i class="fa fa-ban tw-text-rose-400 tw-mr-2"></i>Statistiques des Sites Fermés</h3>
         </div>
-        <div class="card-body">
+        <div>
           <div class="row" id="closed-sites-stats-container">
             <div class="col-12 text-center py-5">
-              <div class="spinner-border" role="status" style="color: #6c757d;">
-                <span class="visually-hidden">Chargement...</span>
-              </div>
+              <i class="fa fa-spinner fa-spin tw-text-rose-400 tw-text-2xl tw-mb-2"></i>
+              <p class="tw-text-slate-400 tw-m-0">Chargement...</p>
             </div>
           </div>
         </div>
@@ -121,7 +124,7 @@
   </div>
 </div>
 
-<div id="stats-tooltip" style="position: absolute; visibility: hidden; background: rgba(0,0,0,0.9); color: #00ff41; padding: 10px; border: 1px solid #00ff41; border-radius: 4px; pointer-events: none; font-family: 'Courier New', Courier, monospace; font-size: 0.9em; z-index: 1000; box-shadow: 0 0 10px rgba(0,255,65,0.3);"></div>
+<div id="stats-tooltip" style="position: absolute; visibility: hidden; background: rgba(15, 23, 42, 0.95); color: #f8fafc; padding: 10px; border: 1px solid #334155; border-radius: 8px; pointer-events: none; font-family: system-ui, -apple-system, sans-serif; font-size: 0.9em; z-index: 1000; box-shadow: 0 4px 20px rgba(0,0,0,0.5);"></div>
 
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script>
@@ -174,11 +177,11 @@
         renderEvolutionChart(evoData);
 
         // --- 2. Pie Charts ---
-        renderDonutChart("#severity-chart", Object.entries(severityStats), ["#dc3545", "#fd7e14", "#ffc107", "#0dcaf0", "#6c757d"]);
-        renderDonutChart("#verification-chart", [["Vérifié", verifiedCount], ["Non vérifié", breaches.length - verifiedCount]], ["#00ff41", "#333"]);
+        renderDonutChart("#severity-chart", Object.entries(severityStats), ["#ef4444", "#f59e0b", "#3b82f6", "#06b6d4", "#6b7280"]);
+        renderDonutChart("#verification-chart", [["Vérifié", verifiedCount], ["Non vérifié", breaches.length - verifiedCount]], ["#10b981", "#334155"]);
 
         // --- 3. Bar Charts ---
-        renderBarChart("#dataclass-chart", Object.entries(dcStats).sort((a,b)=>b[1]-a[1]).slice(0, 15), "#00ff41");
+        renderBarChart("#dataclass-chart", Object.entries(dcStats).sort((a,b)=>b[1]-a[1]).slice(0, 15), "#38bdf8");
         renderBarChart("#year-count-chart", Object.entries(yearStats).sort((a,b)=>a[0]-b[0]), "#38bdf8");
         renderBarChart("#company-chart", Object.entries(companyStats).sort((a,b)=>b[1]-a[1]).slice(0, 10), "#fbbf24");
 
@@ -211,17 +214,17 @@
       const format = (n) => n >= 1000000000 ? (n/1000000000).toFixed(2) + ' Md' : n >= 1000000 ? (n/1000000).toFixed(1) + ' M' : n.toLocaleString();
       const container = document.getElementById('kpi-container');
       const kpis = [
-        { label: "Total Fuites", value: count, icon: "fa-database", color: "#00ff41" },
+        { label: "Total Fuites", value: count, icon: "fa-database", color: "#38bdf8" },
         { label: "Comptes Compromis", value: format(pwn), icon: "fa-users", color: "#38bdf8" },
-        { label: "Fuites Vérifiées", value: ((verified/count)*100).toFixed(1) + "%", icon: "fa-check-circle", color: "#4ade80" },
-        { label: "Données Sensibles", value: ((sensitive/count)*100).toFixed(1) + "%", icon: "fa-lock", color: "#f87171" }
+        { label: "Fuites Vérifiées", value: ((verified/count)*100).toFixed(1) + "%", icon: "fa-check-circle", color: "#10b981" },
+        { label: "Données Sensibles", value: ((sensitive/count)*100).toFixed(1) + "%", icon: "fa-lock", color: "#ef4444" }
       ];
       container.innerHTML = kpis.map(k => `
         <div class="col-md-3 col-sm-6 mb-3">
-          <div class="card bg-black border-matrix p-3 text-center h-100 shadow-matrix">
-            <i class="fa ${k.icon} mb-2" style="color: ${k.color}; font-size: 1.5rem;"></i>
-            <h2 class="matrix-font mb-0" style="color: ${k.color}">${k.value}</h2>
-            <div class="text-muted small text-uppercase mt-1">${k.label}</div>
+          <div class="tw-bg-slate-950 tw-border tw-border-slate-800 tw-rounded-xl tw-p-5 tw-text-center tw-h-full tw-shadow-lg tw-transition-all hover:tw-shadow-xl hover:tw-border-sky-500">
+            <i class="fa ${k.icon} tw-mb-2" style="color: ${k.color}; font-size: 1.5rem;"></i>
+            <h2 class="tw-text-2xl tw-font-bold tw-m-0" style="color: ${k.color}">${k.value}</h2>
+            <div class="tw-text-slate-400 tw-text-xs tw-uppercase tw-mt-1.5 tw-font-medium">${k.label}</div>
           </div>
         </div>
       `).join('');
@@ -233,29 +236,29 @@
       
       let html = `
         <div class="col-md-4 mb-3">
-          <div class="card bg-black p-3 text-center h-100" style="border: 1px solid #a78bfa; background: rgba(139, 92, 246, 0.05);">
-            <i class="fa fa-robot mb-2" style="color: #d8b4fe; font-size: 1.5rem;"></i>
-            <h3 class="matrix-font mb-0" style="color: #d8b4fe;">${count}</h3>
-            <div class="text-muted small text-uppercase mt-1">Brèches IA détectées</div>
+          <div class="tw-bg-slate-950 tw-border tw-border-violet-500/20 tw-p-4 tw-text-center tw-h-full tw-rounded-xl">
+            <i class="fa fa-robot tw-mb-2 tw-text-violet-400" style="font-size: 1.5rem;"></i>
+            <h3 class="tw-text-xl tw-font-bold tw-text-slate-200 tw-m-0">${count}</h3>
+            <div class="tw-text-slate-400 tw-text-xs tw-uppercase tw-mt-1.5 tw-font-medium">Brèches IA détectées</div>
           </div>
         </div>
         <div class="col-md-4 mb-3">
-          <div class="card bg-black p-3 text-center h-100" style="border: 1px solid #a78bfa; background: rgba(139, 92, 246, 0.05);">
-            <i class="fa fa-percent mb-2" style="color: #d8b4fe; font-size: 1.5rem;"></i>
-            <h3 class="matrix-font mb-0" style="color: #d8b4fe;">${percentage}%</h3>
-            <div class="text-muted small text-uppercase mt-1">Du total des fuites</div>
+          <div class="tw-bg-slate-950 tw-border tw-border-violet-500/20 tw-p-4 tw-text-center tw-h-full tw-rounded-xl">
+            <i class="fa fa-percent tw-mb-2 tw-text-violet-400" style="font-size: 1.5rem;"></i>
+            <h3 class="tw-text-xl tw-font-bold tw-text-slate-200 tw-m-0">${percentage}%</h3>
+            <div class="tw-text-slate-400 tw-text-xs tw-uppercase tw-mt-1.5 tw-font-medium">Du total des fuites</div>
           </div>
         </div>
         <div class="col-md-4 mb-3">
-          <div class="card bg-black p-3 text-center h-100" style="border: 1px solid #a78bfa; background: rgba(139, 92, 246, 0.05);">
-            <i class="fa fa-users mb-2" style="color: #d8b4fe; font-size: 1.5rem;"></i>
-            <h3 class="matrix-font mb-0" style="color: #d8b4fe;">${format(compromisedAccounts)}</h3>
-            <div class="text-muted small text-uppercase mt-1">Comptes compromis</div>
+          <div class="tw-bg-slate-950 tw-border tw-border-violet-500/20 tw-p-4 tw-text-center tw-h-full tw-rounded-xl">
+            <i class="fa fa-users tw-mb-2 tw-text-violet-400" style="font-size: 1.5rem;"></i>
+            <h3 class="tw-text-xl tw-font-bold tw-text-slate-200 tw-m-0">${format(compromisedAccounts)}</h3>
+            <div class="tw-text-slate-400 tw-text-xs tw-uppercase tw-mt-1.5 tw-font-medium">Comptes compromis</div>
           </div>
         </div>
         <div class="col-12 mt-3">
-          <div class="card bg-black p-3" style="border: 1px solid #a78bfa; background: rgba(139, 92, 246, 0.05);">
-            <h4 class="matrix-font mb-3" style="color: #d8b4fe;"><i class="fa fa-clock-o me-2"></i>5 Brèches IA les plus récentes</h4>
+          <div class="tw-bg-slate-950 tw-border tw-border-violet-500/20 tw-p-4 tw-rounded-xl">
+            <h4 class="tw-text-base tw-font-semibold tw-text-slate-200 tw-mb-3"><i class="fa fa-clock-o tw-mr-2 tw-text-violet-400"></i>5 Brèches IA les plus récentes</h4>
             <div class="list-group list-group-flush">
       `;
       
@@ -265,7 +268,7 @@
         const breachUrl = `<%- config.url %>/fuites?id=${breach.index}`;
         html += `
               <a href="${breachUrl}" style="text-decoration: none; color: inherit;">
-                <div class="list-group-item bg-black border-matrix-bottom py-2" style="border-color: #a78bfa !important; cursor: pointer; transition: background-color 0.2s;">
+                <div class="list-group-item bg-black border-matrix-bottom py-2" style="border-color: #334155 !important; cursor: pointer; transition: background-color 0.2s;">
                   <div class="d-flex justify-content-between align-items-start">
                     <div>
                       <h6 class="mb-1" style="color: #d8b4fe;"><i class="fa fa-robot me-1" style="color: #a78bfa;"></i>${breach.Name || breach.Title}</h6>
@@ -292,17 +295,17 @@
       
       let html = `
         <div class="col-md-6 mb-3">
-          <div class="card bg-black p-3 text-center h-100" style="border: 1px solid #6c757d; background: rgba(108, 117, 125, 0.05);">
-            <i class="fa fa-ban mb-2" style="color: #adb5bd; font-size: 1.5rem;"></i>
-            <h3 class="matrix-font mb-0" style="color: #adb5bd;">${count}</h3>
-            <div class="text-muted small text-uppercase mt-1">Sites fermés détectés</div>
+          <div class="tw-bg-slate-950 tw-border tw-border-slate-800 tw-p-4 tw-text-center tw-h-full tw-rounded-xl">
+            <i class="fa fa-ban tw-mb-2 tw-text-rose-400" style="font-size: 1.5rem;"></i>
+            <h3 class="tw-text-xl tw-font-bold tw-text-slate-200 tw-m-0">${count}</h3>
+            <div class="tw-text-slate-400 tw-text-xs tw-uppercase tw-mt-1.5 tw-font-medium">Sites fermés détectés</div>
           </div>
         </div>
         <div class="col-md-6 mb-3">
-          <div class="card bg-black p-3 text-center h-100" style="border: 1px solid #6c757d; background: rgba(108, 117, 125, 0.05);">
-            <i class="fa fa-percent mb-2" style="color: #adb5bd; font-size: 1.5rem;"></i>
-            <h3 class="matrix-font mb-0" style="color: #adb5bd;">${percentage}%</h3>
-            <div class="text-muted small text-uppercase mt-1">Du total des fuites</div>
+          <div class="tw-bg-slate-950 tw-border tw-border-slate-800 tw-p-4 tw-text-center tw-h-full tw-rounded-xl">
+            <i class="fa fa-percent tw-mb-2 tw-text-rose-400" style="font-size: 1.5rem;"></i>
+            <h3 class="tw-text-xl tw-font-bold tw-text-slate-200 tw-m-0">${percentage}%</h3>
+            <div class="tw-text-slate-400 tw-text-xs tw-uppercase tw-mt-1.5 tw-font-medium">Du total des fuites</div>
           </div>
         </div>
       `;
@@ -330,9 +333,9 @@
       const svg = container.append("svg").attr("width", width + margin.left + margin.right).attr("height", height + margin.top + margin.bottom).append("g").attr("transform", `translate(${margin.left},${margin.top})`);
       const x = d3.scaleTime().domain(d3.extent(data, d => d.date)).range([0, width]);
       const y = d3.scaleLinear().domain([0, d3.max(data, d => d.value) * 1.1]).nice().range([height, 0]);
-      svg.append("g").attr("transform", `translate(0,${height})`).call(d3.axisBottom(x)).attr("color", "#008f11");
-      svg.append("g").call(d3.axisLeft(y)).attr("color", "#008f11");
-      svg.append("path").datum(data).attr("fill", "none").attr("stroke", "#00ff41").attr("stroke-width", 2).attr("d", d3.line().x(d => x(d.date)).y(d => y(d.value)).curve(d3.curveStepAfter));
+      svg.append("g").attr("transform", `translate(0,${height})`).call(d3.axisBottom(x)).attr("color", "#475569");
+      svg.append("g").call(d3.axisLeft(y)).attr("color", "#475569");
+      svg.append("path").datum(data).attr("fill", "none").attr("stroke", "#38bdf8").attr("stroke-width", 2).attr("d", d3.line().x(d => x(d.date)).y(d => y(d.value)).curve(d3.curveStepAfter));
       svg.append("rect").attr("width", width).attr("height", height).style("fill", "none").style("pointer-events", "all")
         .on("mouseover", () => d3.select("#stats-tooltip").style("visibility", "visible"))
         .on("mouseout", () => d3.select("#stats-tooltip").style("visibility", "hidden"))
@@ -352,7 +355,7 @@
       const pie = d3.pie().value(d => d[1]).sort(null);
       const arc = d3.arc().innerRadius(radius * 0.6).outerRadius(radius);
       svg.selectAll('path').data(pie(data)).enter().append('path').attr('d', arc).attr('fill', d => color(d.data[0]))
-        .attr("stroke", "#000").style("stroke-width", "2px").style("opacity", 0.8)
+        .attr("stroke", "#0f172a").style("stroke-width", "2px").style("opacity", 0.9)
         .on("mouseover", (event, d) => showTooltip(event, `<strong>${d.data[0]}</strong><br/>${d.data[1]} incidents (${((d.data[1]/d3.sum(data, x=>x[1]))*100).toFixed(1)}%)`))
         .on("mouseout", () => d3.select("#stats-tooltip").style("visibility", "hidden"));
     }
@@ -365,8 +368,8 @@
       const svg = container.append("svg").attr("width", width + margin.left + margin.right).attr("height", height + margin.top + margin.bottom).append("g").attr("transform", `translate(${margin.left},${margin.top})`);
       const x = d3.scaleBand().domain(data.map(d => d[0])).range([0, width]).padding(0.2);
       const y = d3.scaleLinear().domain([0, d3.max(data, d => d[1])]).nice().range([height, 0]);
-      svg.append("g").attr("transform", `translate(0,${height})`).call(d3.axisBottom(x)).attr("color", "#008f11").selectAll("text").attr("transform", "rotate(-45)").style("text-anchor", "end").style("font-size", "10px");
-      svg.append("g").call(d3.axisLeft(y)).attr("color", "#008f11");
+      svg.append("g").attr("transform", `translate(0,${height})`).call(d3.axisBottom(x)).attr("color", "#475569").selectAll("text").attr("transform", "rotate(-45)").style("text-anchor", "end").style("font-size", "10px");
+      svg.append("g").call(d3.axisLeft(y)).attr("color", "#475569");
       svg.selectAll(".bar").data(data).enter().append("rect").attr("class", "bar").attr("x", d => x(d[0])).attr("y", d => y(d[1])).attr("width", x.bandwidth()).attr("height", d => height - y(d[1])).attr("fill", defaultColor)
         .on("mouseover", (event, d) => showTooltip(event, `<strong>${d[0]}</strong><br/>${d[1]} incidents`))
         .on("mouseout", () => d3.select("#stats-tooltip").style("visibility", "hidden"));
@@ -375,12 +378,6 @@
 </script>
 
 <style>
-  .matrix-font { font-family: 'Courier New', Courier, monospace; color: #00ff41; }
-  .border-matrix { border: 1px solid #00ff41 !important; }
-  .border-matrix-bottom { border-bottom: 1px solid #00ff41 !important; background: rgba(0, 255, 65, 0.1) !important; }
-  .shadow-matrix { box-shadow: 0 0 15px rgba(0, 255, 65, 0.2); }
-  .bg-black { background-color: #000 !important; }
-  text { font-family: 'Courier New', Courier, monospace; font-size: 10px; fill: #00ff41; }
-  .axis path, .axis line { stroke: #008f11; }
-  .card-header h3 { font-size: 1.1rem; text-transform: uppercase; letter-spacing: 1px; }
+  text { font-family: system-ui, -apple-system, sans-serif; font-size: 10px; fill: #94a3b8; }
+  .axis path, .axis line { stroke: #334155; }
 </style>
