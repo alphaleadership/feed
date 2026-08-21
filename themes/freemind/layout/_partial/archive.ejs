@@ -146,7 +146,7 @@
     <div class="<% if (theme.widgets.length) { %>col-md-9<% } else { %>col-md-12<% } %>">
       
       <!-- Résumé global -->
-      <div class="archive-summary" style="margin-bottom: 30px; padding: 20px; background: rgba(0,0,0,0.05); border-radius: 8px; border-left: 4px solid #38bdf8;">
+      <div class="archive-summary">
         <p style="margin: 0; font-size: 1.2em;">
           <strong>Total :</strong> <%= formatNumber(globalTotalBreaches) %> <%= pluralize(globalTotalBreaches, 'fuite répertoriée', 'fuites répertoriées') %> 
           pour un cumul de <strong><%= formatNumber(globalTotalPwnRaw) %></strong> <%= pluralize(globalTotalPwnRaw, 'ligne', 'lignes') %>.
@@ -154,7 +154,7 @@
       </div>
 
       <!-- Navigation par année (en haut) -->
-      <div class="archive-year-nav" style="margin-bottom: 40px; border-bottom: 1px solid #444; padding-bottom: 20px;">
+      <div class="archive-year-nav">
         <% Object.keys(archiveData.years).sort(function(a, b){ return a - b; }).forEach(function(year) { 
             var monthsInYear = archiveData.years[year];
             var yearCount = 0;
@@ -209,8 +209,8 @@
               percentageStr = " <span style='color: " + color + "; font-weight: bold;'>(" + yearSurpassInfo[year].percentage + ")</span>";
             }
         %>
-          <div style="margin-bottom: 8px;">
-            <a href="#year_heading_<%= year %>" style="font-size: 1.05em; color: #e2e8f0; text-decoration: none;">
+          <div class="archive-year-nav-item">
+            <a href="#year_heading_<%= year %>">
               <i class="fa fa-chevron-right me-2" style="font-size: 0.8em; color: #38bdf8;"></i>
               <strong><%= year %></strong> (<%= yearCount %> <%= pluralize(yearCount, 'fuite', 'fuites') %>)<%- percentageStr %> avec <%= totalPwnCountFormatted %> <%= pluralize(totalPwnRaw, 'ligne cumulée', 'lignes cumulées') %><%- avgTimeStr %><%- lateStr %><%- predictionStr %><%- latePredictionStr %>
             </a>
@@ -263,36 +263,45 @@
             percentageStr = " <small style='font-size:0.6em; color: " + color + ";'>&nbsp;(" + yearSurpassInfo[year].percentage + ")</small>";
           }
           %>
-          <h4 id="year_heading_<%= year %>" class="archive-ul" data-toggle="collapse" data-target="#year_<%= year %>"><%= year %> (<%= yearCount %> <%= pluralize(yearCount, 'fuite', 'fuites') %>)<%- percentageStr %> <b class="caret"></b><%- avgTimeStr %><%- predictionStr %></h4>
+          <h4 id="year_heading_<%= year %>" class="archive-ul" data-toggle="collapse" data-target="#year_<%= year %>">
+            <span>
+              <i class="fa fa-calendar-o me-2" style="color: #38bdf8;"></i>
+              <strong><%= year %></strong> (<%= yearCount %> <%= pluralize(yearCount, 'fuite', 'fuites') %>)<%- percentageStr %> <%- avgTimeStr %><%- predictionStr %>
+            </span>
+            <i class="fa fa-chevron-down" style="font-size: 0.8em; color: #64748b;"></i>
+          </h4>
           <div id="year_<%= year %>" class="collapse in">
-            <h1><%= totalPwnCountFormatted %> <%= pluralize(totalPwnRaw, 'ligne cumulée', 'lignes cumulées') %> </h1>
+            <h5 style="color: #64748b; margin-bottom: 15px; font-weight: 500; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;"><%= totalPwnCountFormatted %> <%= pluralize(totalPwnRaw, 'ligne cumulée', 'lignes cumulées') %> </h5>
             <% if (yearSurpassInfo[year] && yearSurpassInfo[year].date) { %>
-              <p style="margin: 10px 0; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
+              <div class="archive-year-stats">
                 <strong>📊</strong> Le nombre de fuites de <%= yearSurpassInfo[year].prevYear %> (<%= yearSurpassInfo[year].prevYearCount %> fuites) a été dépassé le 
                 <strong><%= new Date(yearSurpassInfo[year].date).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }) %></strong>
                 (au bout de <%= yearSurpassInfo[year].days %> jours).
                 <% if (yearSurpassInfo[year].latePercentage > 0) { %>
                   <br><span>🔍 <strong><%= yearSurpassInfo[year].latePercentage %>%</strong> de ces fuites ont été découvertes après la fin de l'année <%= year %>.</span>
                 <% } %>
-              </p>
+              </div>
             <% } else if (yearSurpassInfo[year] && yearSurpassInfo[year].prevYearCount > 0 && yearCount < yearSurpassInfo[year].prevYearCount) { %>
-              <p style="margin: 10px 0; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
+              <div class="archive-year-stats">
                 <strong>📊</strong> <%= year %> compte <%= yearCount %> fuites, soit <strong><%= (yearCount/yearSurpassInfo[year].prevYearCount*100).toFixed(1) %>%</strong> de l'activité de <%= yearSurpassInfo[year].prevYear %> (<%= yearSurpassInfo[year].prevYearCount %> fuites).
                 <% if (yearSurpassInfo[year].latePercentage > 0) { %>
                   <br><span>🔍 <strong><%= yearSurpassInfo[year].latePercentage %>%</strong> de ces fuites ont été découvertes après la fin de l'année <%= year %>.</span>
                 <% } %>
-              </p>
+              </div>
             <% } else if (yearSurpassInfo[year] && yearSurpassInfo[year].latePercentage > 0) { %>
-              <p style="margin: 10px 0; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
+              <div class="archive-year-stats">
                 🔍 <strong><%= yearSurpassInfo[year].latePercentage %>%</strong> des fuites de <%= year %> ont été découvertes après la fin de l'année.
-              </p>
+              </div>
             <% } %>
             
             <% Object.keys(archiveData.years[year]).sort(function(a, b){ return b - a; }).forEach(function(month) { %>
               <% var monthCount = archiveData.years[year][month].length; %>
-              <h5 class="archive-ul" data-toggle="collapse" data-target="#month_<%= year %>_<%= month %>"><%= archiveData.months[month] %> (<%= monthCount %>) <b class="caret"></b></h5>
+              <h5 class="archive-ul" data-toggle="collapse" data-target="#month_<%= year %>_<%= month %>">
+                <span><%= archiveData.months[month] %> (<%= monthCount %>)</span>
+                <i class="fa fa-chevron-down" style="font-size: 0.8em; color: #64748b;"></i>
+              </h5>
               <div id="month_<%= year %>_<%= month %>" class="collapse in">
-                <ol>
+                <ol class="archive-list" style="list-style: none; padding-left: 0;">
                   <% archiveData.years[year][month].forEach(function(item) { %>
                     <% 
                       var addedDate = new Date(item.AddedDate || item.BreachDate);

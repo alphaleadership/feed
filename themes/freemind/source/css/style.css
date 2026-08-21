@@ -340,3 +340,120 @@ pre code {
   background-color: #7dd3fc;
   border-color: #7dd3fc;
 }
+
+/* =============================================================================
+   ARCHIVE PAGE CUSTOM STYLES
+   ========================================================================== */
+
+.archive-summary {
+  background: #1e293b !important;
+  border-left: 4px solid #38bdf8 !important;
+  color: #e2e8f0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.archive-year-nav {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 20px !important;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.archive-year-nav-item {
+  margin-bottom: 12px;
+  transition: transform 0.2s ease;
+}
+.archive-year-nav-item:hover {
+  transform: translateX(4px);
+}
+.archive-year-nav-item a {
+  color: #cbd5e1 !important;
+  text-decoration: none;
+  font-size: 1.05em;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.archive-year-nav-item a:hover {
+  color: #38bdf8 !important;
+}
+
+h4.archive-ul {
+  background: #1e293b;
+  border: 1px solid #334155;
+  color: #f8fafc;
+  padding: 14px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.25em;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+h4.archive-ul:hover {
+  border-color: #38bdf8;
+  background: #243249;
+}
+
+h5.archive-ul {
+  background: #0f172a;
+  border: 1px solid #334155;
+  color: #cbd5e1;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.05em;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.2s ease;
+}
+h5.archive-ul:hover {
+  border-color: #475569;
+}
+
+.archive-year-stats {
+  background: rgba(56, 189, 248, 0.05);
+  border: 1px solid rgba(56, 189, 248, 0.15) !important;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+  color: #cbd5e1;
+}
+
+.listing-item {
+  padding: 12px 16px;
+  border-bottom: 1px solid #334155;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  transition: background-color 0.2s;
+}
+.listing-item:hover {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+.listing-item .date_class {
+  color: #64748b;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.85em;
+}
+.listing-item a {
+  font-weight: 500;
+  color: #38bdf8;
+  text-decoration: none;
+}
+.listing-item a:hover {
+  color: #7dd3fc;
+  text-decoration: underline;
+}
+
