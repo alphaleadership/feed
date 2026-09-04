@@ -1124,7 +1124,7 @@ hexo-generator-category@^2.0.0:
 
 "hexo-generator-feed@github:thomas-iniguez-visioli/hexo-generator-feed":
   version "4.0.0"
-  resolved "git+ssh://git@github.com/thomas-iniguez-visioli/hexo-generator-feed.git#5ffa2cb814affc9e6bdb52ba33fd868fd1a85cb9"
+  resolved "git+ssh://git@github.com/thomas-iniguez-visioli/hexo-generator-feed.git#21771d0fc95356c5a7eabe351e9c77b318d11ae9"
   dependencies:
     feedsmith latest
     hexo-util "4.0.0"
