@@ -254,7 +254,7 @@
 					.map(([name, stats]) => ({
 						name,
 						count: stats.count,
-						pwnCount: stats.PwnCount
+						PwnCount: stats.PwnCount
 					}));
 
 				const dcContainer = document.getElementById('dataclass-container');
@@ -274,7 +274,7 @@
 									<p class="mb-1 text-muted" style="font-size:0.9em;"><strong>${dc.count.toLocaleString()}</strong> fuites</p>
 									<p class="mb-0 text-muted" style="font-size:0.8em; opacity: 0.8;">
 										<i class="fa fa-users" style="margin-right: 4px;"></i>
-										~<strong>${dc.pwnCount >= 1000000000 ? (dc.pwnCount / 1000000000).toFixed(2) + 'Md' : (dc.pwnCount / 1000000).toFixed(1) + 'M'}</strong> comptes
+										~<strong>${dc.PwnCount >= 1000000000 ? (dc.PwnCount / 1000000000).toFixed(2) + 'Md' : (dc.PwnCount / 1000000).toFixed(1) + 'M'}</strong> comptes
 									</p>
 								</div>
 							</div>
@@ -284,7 +284,7 @@
 
 				// Trier et préparer les stats Entreprises
 				const sortedCompanies = Object.values(companyStats)
-					.sort((a, b) => b.pwnCount - a.pwnCount)
+					.sort((a, b) => b.PwnCount - a.PwnCount)
 					.slice(0, 12);
 
 				const compContainer = document.getElementById('company-container');
@@ -293,7 +293,7 @@
 						const borderClass = idx < 3 ? 'border-danger' : idx < 7 ? 'border-warning' : 'border-success';
 						const badgeClass = idx < 3 ? 'bg-danger' : idx < 7 ? 'bg-warning text-dark' : 'bg-success';
 						const domainLink = comp.domain && comp.domain !== comp.name ? `<br><a href="http://${comp.domain}" target="_blank" rel="noopener noreferrer" style="color:#a7f3d0; font-size: 0.8em; text-decoration: none;"><i class="fa fa-external-link" style="margin-right: 4px;"></i>${comp.domain}</a>` : '';
-						const avgPerBreach = comp.count > 0 ? (comp.pwnCount / comp.count) : 0;
+						const avgPerBreach = comp.count > 0 ? (comp.PwnCount / comp.count) : 0;
 						return `
 							<div class="col-md-3 col-sm-6 mb-3">
 								<div class="note-card p-3 border rounded ${borderClass} h-100" style="background: linear-gradient(145deg, #374151 0%, #1f2937 100%);">
@@ -303,7 +303,7 @@
 									<h5 class="mb-1" style="color:#f3f4f6; font-size: 1.1rem; word-break: break-word;">${comp.name}${domainLink}</h5>
 									<p class="mt-2 mb-1 text-muted" style="font-size:0.9em; color: #9ca3af !important;">
 										<i class="fa fa-database" style="margin-right: 4px;"></i>
-										<strong>${(comp.pwnCount >= 1000000 ? (comp.pwnCount / 1000000).toFixed(1) + 'M' : comp.pwnCount.toLocaleString())}</strong> comptes
+										<strong>${(comp.PwnCount >= 1000000 ? (comp.PwnCount / 1000000).toFixed(1) + 'M' : comp.PwnCount.toLocaleString())}</strong> comptes
 									</p>
 									<p class="mb-0 text-muted" style="font-size:0.8em; opacity: 0.8;">
 										<i class="fa fa-warning" style="margin-right: 4px;"></i>
@@ -331,7 +331,7 @@
 					const borderClass = idx < 3 ? 'border-danger' : idx < 6 ? 'border-warning' : 'border-info';
 					const badgeClass = idx < 3 ? 'bg-danger' : idx < 6 ? 'bg-warning text-dark' : 'bg-info';
 					const percentage = ((company.count / data.totalBreaches) * 100).toFixed(1);
-					const avgPerBreach = company.count > 0 ? (company.pwnCount / company.count) : 0;
+					const avgPerBreach = company.count > 0 ? (company.PwnCount / company.count) : 0;
 					
 					// Récupérer les fuites pour cette entreprise
 					const companyBreaches = data.breaches.filter(b => {
@@ -391,7 +391,7 @@
 									</p>
 									<p class="mb-0 text-muted" style="font-size: 0.85em; opacity: 0.8;">
 										<i class="fa fa-users" style="margin-right: 4px;"></i>
-										~${company.pwnCount >= 1000000000 ? (company.pwnCount / 1000000000).toFixed(2) + 'Md' : (company.pwnCount / 1000000).toFixed(1) + 'M'} comptes
+										~${company.PwnCount >= 1000000000 ? (company.PwnCount / 1000000000).toFixed(2) + 'Md' : (company.PwnCount / 1000000).toFixed(1) + 'M'} comptes
 										<span style="opacity: 0.7;">(~${avgPerBreach >= 1000000 ? (avgPerBreach / 1000000).toFixed(1) + 'M' : avgPerBreach.toLocaleString(undefined, {maximumFractionDigits: 0})} par fuite)</span>
 									</p>
 								</div>
