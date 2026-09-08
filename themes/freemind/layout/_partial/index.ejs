@@ -7,9 +7,6 @@
 	<div class="col-md-12">
 	<% } %>
 
-	<!-- Liens rapides -->
-	
-
 	<!-- Paragraphe explicatif -->
 	<div class="intro-section card shadow-sm mb-4" style="background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%); border: 1px solid rgba(56, 189, 248, 0.3);">
 		<div class="card-body" style="padding: 2rem;">
@@ -53,7 +50,6 @@
 		</div>
 	</div>
 
-
 	<!-- Statistiques globales -->
 	<div class="global-stats card shadow-sm mb-4" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border: none;">
 		<div class="card-header bg-dark text-white" style="background: rgba(0,0,0,0.5) !important; border-bottom: 2px solid rgba(255,255,255,0.1);">
@@ -69,22 +65,8 @@
 			</div>
 		</div>
 	</div>
-	<div class="category-stats card shadow-sm mb-4">
-		<div class="card-header bg-dark text-white">
-			<h3 class="mb-0">Entreprises ayant le plus de fuites </h3>
-			<small class="text-muted" id="breach-count">Chargement...</small>
-		</div>
-		<div class="card-body">
-			<div class="row" id="category-container">
-				<div class="col-12 text-center py-5">
-					<div class="spinner-border text-primary" role="status">
-						<span class="visually-hidden">Chargement...</span>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Données les plus fuitées -->
+
+	<!-- Types de données les plus fuitées -->
 	<div class="dataclass-stats card shadow-sm mb-4" style="background: linear-gradient(135deg, #2e1a1a 0%, #3e1616 100%); border: none;">
 		<div class="card-header bg-dark text-white" style="background: rgba(0,0,0,0.5) !important; border-bottom: 2px solid rgba(255,255,255,0.1);">
 			<h3 class="mb-0">🔐 Types de données les plus fuités </h3>
@@ -117,75 +99,134 @@
 	</div>
 
 	<!-- Entreprises ayant le plus de fuites -->
-	
+	<div class="category-stats card shadow-sm mb-4">
+		<div class="card-header bg-dark text-white">
+			<h3 class="mb-0">🏛️ Entreprises ayant le plus de fuites </h3>
+			<small class="text-muted" id="breach-count">Chargement...</small>
+		</div>
+		<div class="card-body">
+			<div class="row" id="category-container">
+				<div class="col-12 text-center py-5">
+					<div class="spinner-border text-primary" role="status">
+						<span class="visually-hidden">Chargement...</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<script>
-		const invalidcategory=["hygiène numérique","sécurité","cybersécurité","cybercriminalité","cyberguerre"]
-		// Charger et analyser les données avec fetch
+		// Utilitaires de formatage
+		const formatNumber = (n) => new Intl.NumberFormat('fr-FR').format(n);
+		const formatPwnCount = (count) => {
+			if (count >= 1000000000) return (count / 1000000000).toFixed(2) + 'Md';
+			if (count >= 1000000) return (count / 1000000).toFixed(1) + 'M';
+			if (count >= 1000) return (count / 1000).toFixed(1) + 'K';
+			return count.toString();
+		};
+		const pluralize = (count, singular, plural) => Math.abs(count) > 1 ? plural : singular;
+
+		// Charger et analyser les données
 		fetch('<%- config.url %>/data/breaches.json')
 			.then(response => response.json())
 			.then(data => {
-				const dataClassStats = {};
-				const companyStats = {};
-				const yearStats = {};
-				
-				// Calculer les statistiques globales
+				if (!data.breaches || !Array.isArray(data.breaches)) {
+					console.error('Format de données invalide');
+					return;
+				}
+
+				// Filtrer les fuites valides
+				const breaches = data.breaches.filter(b => b && !b.IsRetired && b.Name);
+				const now = new Date();
+				const currentYear = now.getFullYear();
+				const lastYear = currentYear - 1;
+
+				// ============ STATISTIQUES GLOBALES ============
 				let totalPwnCount = 0;
 				let verifiedCount = 0;
 				let sensitiveCount = 0;
-				const currentYear = new Date().getFullYear();
-				const lastYear = currentYear - 1;
 				let currentYearCount = 0;
 				let lastYearCount = 0;
-				console.log(Object.keys(data.breaches[0]))
-				data.breaches.map((item)=>{
-totalPwnCount+=item.PwnCount
-const date = new Date(item.BreachDate);
-				})
-				// Afficher les 5 fuites critiques les plus récentes
-				const criticalBreaches = data.breaches
-					.filter(breach => breach.IsCritical && !breach.IsRetired)
+				let currentYearPwnCount = 0;
+				let lastYearPwnCount = 0;
+
+				breaches.forEach(breach => {
+					const pwnCount = Number(breach.PwnCount) || 0;
+					totalPwnCount += pwnCount;
+					if (breach.IsVerified) verifiedCount++;
+					if (breach.IsSensitive) sensitiveCount++;
+
+					const breachYear = new Date(breach.BreachDate).getFullYear();
+					if (breachYear === currentYear) {
+						currentYearCount++;
+						currentYearPwnCount += pwnCount;
+					}
+					if (breachYear === lastYear) {
+						lastYearCount++;
+						lastYearPwnCount += pwnCount;
+					}
+				});
+
+				// Afficher statistiques globales
+				const globalStats = `
+					<div class="col-md-6 col-lg-3 mb-3">
+						<div style="background: rgba(56, 189, 248, 0.1); border-left: 4px solid #38bdf8; padding: 15px; border-radius: 8px;">
+							<div style="font-size: 0.85em; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 5px;">Total fuites</div>
+							<div style="font-size: 2em; font-weight: bold; color: #38bdf8;">${formatNumber(breaches.length)}</div>
+							<div style="font-size: 0.75em; color: #6b7280; margin-top: 5px;">répertoriées</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 mb-3">
+						<div style="background: rgba(249, 115, 22, 0.1); border-left: 4px solid #f97316; padding: 15px; border-radius: 8px;">
+							<div style="font-size: 0.85em; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 5px;">Comptes compromis</div>
+							<div style="font-size: 2em; font-weight: bold; color: #f97316;">${formatPwnCount(totalPwnCount)}</div>
+							<div style="font-size: 0.75em; color: #6b7280; margin-top: 5px;">au total</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 mb-3">
+						<div style="background: rgba(74, 222, 128, 0.1); border-left: 4px solid #4ade80; padding: 15px; border-radius: 8px;">
+							<div style="font-size: 0.85em; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 5px;">Année ${currentYear}</div>
+							<div style="font-size: 2em; font-weight: bold; color: #4ade80;">${formatNumber(currentYearCount)}</div>
+							<div style="font-size: 0.75em; color: #6b7280; margin-top: 5px;">fuites en ${currentYear}</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 mb-3">
+						<div style="background: rgba(239, 68, 68, 0.1); border-left: 4px solid #ef4444; padding: 15px; border-radius: 8px;">
+							<div style="font-size: 0.85em; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 5px;">Vérifiées</div>
+							<div style="font-size: 2em; font-weight: bold; color: #ef4444;">${formatNumber(verifiedCount)}</div>
+							<div style="font-size: 0.75em; color: #6b7280; margin-top: 5px;">(${(verifiedCount / breaches.length * 100).toFixed(1)}%)</div>
+						</div>
+					</div>
+				`;
+				document.getElementById('global-stats-container').innerHTML = globalStats;
+
+				// ============ FUITES CRITIQUES ============
+				const criticalBreaches = breaches
+					.filter(breach => breach.IsCritical)
 					.sort((a, b) => new Date(b.BreachDate) - new Date(a.BreachDate))
 					.slice(0, 5);
-				
-				const criticalContainer = document.getElementById('critical-breaches-container');
-				if (criticalContainer && criticalBreaches.length > 0) {
-					criticalContainer.innerHTML = `
+
+				if (criticalBreaches.length > 0) {
+					const criticalHtml = `
 						<div class="row">
 							${criticalBreaches.map((breach, idx) => {
 								const date = new Date(breach.BreachDate);
 								const formattedDate = date.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
-console.log(breach.PwnCount)
-								const pwnDisplay = breach.PwnCount >= 1000000 ? (breach.PwnCount / 1000000).toFixed(1) + 'M' : breach.PwnCount.toLocaleString();
-								const dataClassesDisplay = breach.DataClasses && breach.DataClasses.length > 0 
-									? breach.DataClasses.slice(0, 3).join(', ') + (breach.DataClasses.length > 3 ? '...' : '')
+								const pwnDisplay = formatPwnCount(breach.PwnCount || 0);
+								const dataClasses = breach.DataClasses || [];
+								const dataClassesDisplay = dataClasses.length > 0 
+									? dataClasses.slice(0, 3).join(', ') + (dataClasses.length > 3 ? '...' : '')
 									: 'Données non spécifiées';
-								
-								const NEW_PERIOD_DAYS = 7;
-								const now = new Date();
-								const addedDate = new Date(breach.AddedDate || breach.BreachDate);
-								const msLeft = (addedDate.getTime() + (NEW_PERIOD_DAYS * 24 * 60 * 60 * 1000)) - now.getTime();
-								const isRecentlyAdded = msLeft > 0;
 
-								let newBadgeHtml = '';
-								if (isRecentlyAdded) {
-									const dLeft = Math.floor(msLeft / (1000 * 60 * 60 * 24));
-									const hLeft = Math.floor((msLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-									const mLeft = Math.floor((msLeft % (1000 * 60 * 60)) / (1000 * 60));
-									newBadgeHtml = `<span class="badge bg-success" style="font-size: 0.7em; margin-left: 5px;" title="Encore ${dLeft}j ${hLeft}h ${mLeft}m">NOUVEAU (${dLeft}j ${hLeft}h ${mLeft}m)</span>`;
-								}
 								return `
 									<div class="col-md-6 col-lg-4 mb-3">
 										<div class="card h-100" style="background: linear-gradient(145deg, #7f1d1d 0%, #5f0f0f 100%); border: 2px solid #dc2626;">
 											<div class="card-body">
 												<div class="d-flex justify-content-between align-items-start mb-2">
 													<span class="badge bg-danger fs-6">#${idx + 1}</span>
-													<div>
-														<span class="badge bg-dark" style="font-size: 0.7em;">
-															<i class="fa fa-calendar me-1"></i>${formattedDate}
-														</span>
-														${newBadgeHtml}
-													</div>
+													<span class="badge bg-dark" style="font-size: 0.7em;">
+														<i class="fa fa-calendar me-1"></i>${formattedDate}
+													</span>
 												</div>
 												<h5 class="card-title mb-2" style="color: #fca5a5;">
 													<i class="fa fa-exclamation-triangle me-2"></i>${breach.Title || breach.Name}
@@ -193,12 +234,11 @@ console.log(breach.PwnCount)
 												<p class="mb-2" style="color: #fecaca; font-size: 0.9rem;">
 													<i class="fa fa-users me-2"></i><strong>${pwnDisplay}</strong> comptes compromis
 												</p>
-												<p class="mb-2" style="color: #fecaca; font-size: 0.85rem;">
-													<i class="fa fa-database me-2"></i>
-													${dataClassesDisplay}
+												<p class="mb-3" style="color: #fecaca; font-size: 0.85rem;">
+													<i class="fa fa-database me-2"></i>${dataClassesDisplay}
 												</p>
-												<a href="<%- config.url %>/fuites?id=${breach.index}" class="btn btn-sm btn-danger mt-2 w-100">
-													<i class="fa fa-eye me-1"></i>Voir les détails
+												<a href="<%- config.url %>/fuites?id=${breach.index}" class="btn btn-sm btn-danger w-100">
+													<i class="fa fa-eye me-1"></i>Détails
 												</a>
 											</div>
 										</div>
@@ -207,455 +247,46 @@ console.log(breach.PwnCount)
 							}).join('')}
 						</div>
 					`;
-				} else if (criticalContainer) {
-					criticalContainer.innerHTML = '<p class="text-muted text-center py-4">Aucune fuite critique détectée.</p>';
-				}
-				
-				// Afficher les statistiques globales
-				const globalStatsContainer = document.getElementById('global-stats-container');
-				if (globalStatsContainer) {
-					const avgPerYear = (data.totalBreaches / Object.keys(yearStats).length).toFixed(1);
-					const verifiedPercent = ((verifiedCount / data.totalBreaches) * 100).toFixed(1);
-					const yearComparison = currentYearCount > lastYearCount ? 
-						`<span class="text-danger">↑ ${((currentYearCount - lastYearCount) / lastYearCount * 100).toFixed(1)}%</span>` :
-						`<span class="text-success">↓ ${((lastYearCount - currentYearCount) / lastYearCount * 100).toFixed(1)}%</span>`;
-					
-					globalStatsContainer.innerHTML = `
-						<div class="col-md-3 col-sm-6 mb-3">
-							<div class="stat-card p-3 text-center h-100" style="background: linear-gradient(145deg, #2a2a3e 0%, #1f1f2e 100%); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px;">
-								<div class="stat-icon mb-2" style="font-size: 2rem;">💾</div>
-								<h4 style="color: #6c9fff; margin-bottom: 0.5rem;">${(totalPwnCount / 1000000000).toFixed(2)}Md</h4>
-								<p class="text-muted mb-0" style="font-size: 0.9rem;">Comptes compromis</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 mb-3">
-							<div class="stat-card p-3 text-center h-100" style="background: linear-gradient(145deg, #2a2a3e 0%, #1f1f2e 100%); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px;">
-								<div class="stat-icon mb-2" style="font-size: 2rem;">📅</div>
-								<h4 style="color: #ffa500; margin-bottom: 0.5rem;">${avgPerYear}</h4>
-								<p class="text-muted mb-0" style="font-size: 0.9rem;">Fuites par an (moyenne)</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 mb-3">
-							<div class="stat-card p-3 text-center h-100" style="background: linear-gradient(145deg, #2a2a3e 0%, #1f1f2e 100%); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px;">
-								<div class="stat-icon mb-2" style="font-size: 2rem;">✅</div>
-								<h4 style="color: #4ade80; margin-bottom: 0.5rem;">${verifiedPercent}%</h4>
-								<p class="text-muted mb-0" style="font-size: 0.9rem;">Fuites vérifiées</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 mb-3">
-							<div class="stat-card p-3 text-center h-100" style="background: linear-gradient(145deg, #2a2a3e 0%, #1f1f2e 100%); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px;">
-								<div class="stat-icon mb-2" style="font-size: 2rem;">📊</div>
-								<h4 style="color: #ff6b6b; margin-bottom: 0.5rem;">${currentYearCount} ${yearComparison}</h4>
-								<p class="text-muted mb-0" style="font-size: 0.9rem;">${currentYear} vs ${lastYear}</p>
-							</div>
-						</div>
-					`;
-				}
-				
-				// Trier et préparer les stats DataClasses
-				const sortedDataClasses = Object.entries(dataClassStats)
-					.sort((a, b) => b[1].count - a[1].count)
-					.slice(0, 8)
-					.map(([name, stats]) => ({
-						name,
-						count: stats.count,
-						PwnCount: stats.PwnCount
-					}));
-
-				const dcContainer = document.getElementById('dataclass-container');
-				if (dcContainer) {
-					dcContainer.innerHTML = sortedDataClasses.map((dc, idx) => {
-						const borderClass = idx < 3 ? 'border-danger' : idx < 7 ? 'border-warning' : 'border-info';
-						const badgeClass = idx < 3 ? 'bg-danger' : idx < 7 ? 'bg-warning text-dark' : 'bg-info';
-						const percentage = ((dc.count / data.totalBreaches) * 100).toFixed(1);
-						return `
-							<div class="col-md-3 col-sm-6 mb-3">
-								<div class="note-card p-3 border rounded ${borderClass} h-100" style="background: linear-gradient(145deg, #382525 0%, #3e2a2a 100%);">
-									<div class="d-flex justify-content-between align-items-center mb-2">
-										<span class="badge ${badgeClass} fs-6">#${idx + 1}</span>
-										<span class="text-muted small">${percentage}%</span>
-									</div>
-									<h5 class="mb-2" style="color:#e0e0e0; font-size: 1.1rem; word-break: break-word;">${dc.name}</h5>
-									<p class="mb-1 text-muted" style="font-size:0.9em;"><strong>${dc.count.toLocaleString()}</strong> fuites</p>
-									<p class="mb-0 text-muted" style="font-size:0.8em; opacity: 0.8;">
-										<i class="fa fa-users" style="margin-right: 4px;"></i>
-										~<strong>${dc.PwnCount >= 1000000000 ? (dc.PwnCount / 1000000000).toFixed(2) + 'Md' : (dc.PwnCount / 1000000).toFixed(1) + 'M'}</strong> comptes
-									</p>
-								</div>
-							</div>
-						`;
-					}).join('');
+					document.getElementById('critical-breaches-container').innerHTML = criticalHtml;
 				}
 
-				// Trier et préparer les stats Entreprises
-				const sortedCompanies = Object.values(companyStats)
-					.sort((a, b) => b.PwnCount - a.PwnCount)
-					.slice(0, 12);
+				// ============ TYPES DE DONNÉES ============
+				const dataClassStats = {};
+				breaches.forEach(breach => {
+					if (breach.DataClasses && Array.isArray(breach.DataClasses)) {
+						breach.DataClasses.forEach(dataClass => {
+							if (!dataClassStats[dataClass]) {
+								dataClassStats[dataClass] = { name: dataClass, count: 0, pwnCount: 0 };
+							}
+							dataClassStats[dataClass].count++;
+							dataClassStats[dataClass].pwnCount += Number(breach.PwnCount) || 0;
+						});
+					}
+				});
 
-				const compContainer = document.getElementById('company-container');
-				if (compContainer) {
-					compContainer.innerHTML = sortedCompanies.map((comp, idx) => {
-						const borderClass = idx < 3 ? 'border-danger' : idx < 7 ? 'border-warning' : 'border-success';
-						const badgeClass = idx < 3 ? 'bg-danger' : idx < 7 ? 'bg-warning text-dark' : 'bg-success';
-						const domainLink = comp.domain && comp.domain !== comp.name ? `<br><a href="http://${comp.domain}" target="_blank" rel="noopener noreferrer" style="color:#a7f3d0; font-size: 0.8em; text-decoration: none;"><i class="fa fa-external-link" style="margin-right: 4px;"></i>${comp.domain}</a>` : '';
-						const avgPerBreach = comp.count > 0 ? (comp.PwnCount / comp.count) : 0;
-						return `
-							<div class="col-md-3 col-sm-6 mb-3">
-								<div class="note-card p-3 border rounded ${borderClass} h-100" style="background: linear-gradient(145deg, #374151 0%, #1f2937 100%);">
-									<div class="d-flex justify-content-between align-items-center mb-2">
-										<span class="badge ${badgeClass} fs-6">#${idx + 1}</span>
-									</div>
-									<h5 class="mb-1" style="color:#f3f4f6; font-size: 1.1rem; word-break: break-word;">${comp.name}${domainLink}</h5>
-									<p class="mt-2 mb-1 text-muted" style="font-size:0.9em; color: #9ca3af !important;">
-										<i class="fa fa-database" style="margin-right: 4px;"></i>
-										<strong>${(comp.PwnCount >= 1000000 ? (comp.PwnCount / 1000000).toFixed(1) + 'M' : comp.PwnCount.toLocaleString())}</strong> comptes
-									</p>
-									<p class="mb-0 text-muted" style="font-size:0.8em; opacity: 0.8;">
-										<i class="fa fa-warning" style="margin-right: 4px;"></i>
-										${comp.count} fuite${comp.count > 1 ? 's' : ''} 
-										<span style="opacity: 0.7;">(~${avgPerBreach >= 1000000 ? (avgPerBreach / 1000000).toFixed(1) + 'M' : avgPerBreach.toLocaleString(undefined, {maximumFractionDigits: 0})} par fuite)</span>
-									</p>
-								</div>
-							</div>
-						`;
-					}).join('');
-				}
-
-				// Mettre à jour le compteur
-				document.getElementById('breach-count').textContent = 
-					`Basé sur ${data.totalBreaches.toLocaleString()} fuites analysées`;
-				
-				// Trier les entreprises par nombre de fuites
-				const sortedByBreachCount = Object.values(companyStats)
+				const dataClassArray = Object.values(dataClassStats)
 					.sort((a, b) => b.count - a.count)
 					.slice(0, 12);
-				
-				// Générer le HTML des entreprises triées par nombre de fuites
-				const container = document.getElementById('category-container');
-				container.innerHTML = sortedByBreachCount.map((company, idx) => {
-					const borderClass = idx < 3 ? 'border-danger' : idx < 6 ? 'border-warning' : 'border-info';
-					const badgeClass = idx < 3 ? 'bg-danger' : idx < 6 ? 'bg-warning text-dark' : 'bg-info';
-					const percentage = ((company.count / data.totalBreaches) * 100).toFixed(1);
-					const avgPerBreach = company.count > 0 ? (company.PwnCount / company.count) : 0;
-					
-					// Récupérer les fuites pour cette entreprise
-					const companyBreaches = data.breaches.filter(b => {
-						if (b.IsRetired) return false;
-						let compName = b.Domain || b.Title || b.Name;
-						if (!compName) return false;
-						
-						let normName = compName.toLowerCase();
-						if (normName.includes('france travail') || normName.includes('pole emploi') || normName.includes('pôle emploi') || normName.includes('francetravail')) {
-							return company.name === 'France Travail';
-						} else if (compName.toLowerCase().includes(' fuite du ')) {
-							compName = compName.replace(/ fuite du .*/i, '').trim();
-							if (compName === compName.toLowerCase()) {
-								compName = compName.charAt(0).toUpperCase() + compName.slice(1);
-							}
-						}
-						
-						return compName.toLowerCase() === company.name.toLowerCase();
-					});
-					
-					const breachLinks = companyBreaches.slice(0, 20).map(breach => {
-						const severityColors = {
-							'CRITIQUE': 'danger',
-							'ÉLEVÉ': 'warning',
-							'MODÉRÉ': 'info',
-							'FAIBLE': 'secondary'
-						};
-						const severityBadge = breach.SeverityLevel ? 
-							`<span class="badge bg-${severityColors[breach.SeverityLevel]} ms-1" style="font-size: 0.65em;">${breach.SeverityLevel}</span>` : '';
-						const pwnDisplay = breach.PwnCount >= 1000000 ? (breach.PwnCount / 1000000).toFixed(1) + 'M' : breach.PwnCount.toLocaleString();
-						
-						return `<li class="breach-link-item">
-							<a href="<%- config.url %>/fuites?id=${breach.index}" class="text-decoration-none d-flex justify-content-between align-items-start">
-								<span class="flex-grow-1 me-2">
-									${breach.Title || breach.Name}
-									${severityBadge}
-								</span>
-								<span class="text-muted small" style="white-space: nowrap;">
-									${pwnDisplay}
-								</span>
-							</a>
-						</li>`;
-					}).join('');
-					
-					return `
-						<div class="col-md-4 col-sm-6 mb-3">
-							<div class="note-card p-3 border rounded ${borderClass} h-100">
-								<div class="d-flex justify-content-between align-items-center mb-2">
-									<span class="badge ${badgeClass} fs-6">#${idx + 1}</span>
-									<span class="text-muted small">${percentage}%</span>
-								</div>
-								<h5 class="mb-2" style="word-break: break-word;">${company.name}</h5>
-								<div class="mb-2">
-									<p class="mb-1 text-muted">
-										<i class="fa fa-warning" style="margin-right: 4px;"></i>
-										<strong>${company.count}</strong> fuite${company.count > 1 ? 's' : ''}
-									</p>
-									<p class="mb-0 text-muted" style="font-size: 0.85em; opacity: 0.8;">
-										<i class="fa fa-users" style="margin-right: 4px;"></i>
-										~${company.PwnCount >= 1000000000 ? (company.PwnCount / 1000000000).toFixed(2) + 'Md' : (company.PwnCount / 1000000).toFixed(1) + 'M'} comptes
-										<span style="opacity: 0.7;">(~${avgPerBreach >= 1000000 ? (avgPerBreach / 1000000).toFixed(1) + 'M' : avgPerBreach.toLocaleString(undefined, {maximumFractionDigits: 0})} par fuite)</span>
-									</p>
-								</div>
-								<details class="breach-details">
-									<summary class="text-primary" style="cursor: pointer;">
-										<i class="fa fa-list" style="margin-right: 4px;"></i>
-										Voir les ${Math.min(20, companyBreaches.length)} fuites
-									</summary>
-									<ul class="breach-list mt-2 ps-3">
-										${breachLinks}
-									</ul>
-								</details>
-							</div>
-						</div>
-					`;
-				}).join('');
 
-			})
-			.catch(error => {
-				console.error('Erreur chargement des données:', error);
-				document.getElementById('category-container').innerHTML = 
-					'<div class="col-12 text-center text-danger">Erreur de chargement des données</div>';
-			});
-	</script>
-
-	<style>
-		.quick-links .btn {
-			transition: all 0.3s ease;
-		}
-		.quick-links .btn:hover {
-			transform: translateY(-2px);
-			box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-		}
-		.quick-links .btn-outline-primary:hover {
-			background-color: #38bdf8;
-			color: #0f172a;
-		}
-		.quick-links .btn-outline-success:hover {
-			background-color: #4ade80;
-			color: #0f172a;
-		}
-		.quick-links .btn-outline-warning:hover {
-			background-color: #fbbf24;
-			color: #0f172a;
-		}
-		.global-stats .stat-card {
-			transition: transform 0.2s, box-shadow 0.2s;
-		}
-		.global-stats .stat-card:hover {
-			transform: translateY(-5px);
-			box-shadow: 0 8px 24px rgba(0,0,0,0.4);
-		}
-		.global-stats .stat-icon {
-			filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
-		}
-		.category-stats {
-			background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-			border: none;
-		}
-		.category-stats .card-header {
-			background: rgba(0,0,0,0.5) !important;
-			border-bottom: 2px solid rgba(255,255,255,0.1);
-		}
-		.category-stats .card-header h3 {
-			color: #fff;
-		}
-		.category-stats .card-header small {
-			color: #aaa !important;
-		}
-		.category-stats .card-body {
-			background: #1e1e2e;
-			padding: 1.5rem;
-		}
-		.note-card {
-			transition: transform 0.2s, box-shadow 0.2s;
-			background: linear-gradient(145deg, #252538 0%, #2a2a3e 100%);
-			border-color: rgba(255,255,255,0.1) !important;
-		}
-		.note-card:hover {
-			transform: translateY(-5px);
-			box-shadow: 0 8px 24px rgba(0,0,0,0.4);
-			background: linear-gradient(145deg, #2a2a3e 0%, #2f2f48 100%);
-		}
-		.note-card h5 {
-			color: #e0e0e0;
-		}
-		.note-card .text-muted {
-			color: #999 !important;
-		}
-		.breach-details summary {
-			font-size: 0.9rem;
-			font-weight: 500;
-			margin-top: 0.5rem;
-			color: #6c9fff;
-		}
-		.breach-details[open] summary {
-			margin-bottom: 0.5rem;
-		}
-		.breach-list {
-			list-style: none;
-			padding-left: 0;
-			font-size: 0.85rem;
-		}
-		.breach-link-item {
-			padding: 0.25rem 0;
-			border-bottom: 1px solid rgba(255,255,255,0.05);
-		}
-		.breach-link-item:last-child {
-			border-bottom: none;
-		}
-		.breach-link-item a {
-			color: #b8b8d1;
-			transition: color 0.2s;
-		}
-		.breach-link-item a:hover {
-			color: #8ab4ff;
-		}
-		.breach-link-item .text-muted {
-			color: #666 !important;
-		}
-		.spinner-border {
-			color: #6c9fff !important;
-		}
-	</style>
-
-		<%- partial('post/slogan') %>
-		<div id="top_search"></div>
-		<div class="mypage">
-		
-		<!-- title and entry -->
-        <!-- render top articles firstly -->
-     
-		</div>
-
-		<!-- pagination -->
-		<div>
-  		<center>
-		<%- partial('index_pagination') %>
-  		</center>
-		</div>
-
-		
-		
-	</div> <!-- col-md-9 -->
-
-	<% if (theme.widgets.length) { %>
-		<%- partial('sidebar') %>
-	<% } %>
-
-</div> <!-- row-fluid -->
-
-
-
-<style>
-	.ia-stats-card {
-		background: linear-gradient(135deg, #6d28d9 0%, #4c1d95 100%);
-		border: 2px solid #a78bfa;
-		border-radius: 8px;
-		padding: 1.5rem;
-		color: #e9d5ff;
-	}
-	
-	.ia-stats-card h3 {
-		color: #c4b5fd;
-		margin-bottom: 1rem;
-	}
-	
-	.ia-breach-item {
-		background: rgba(139, 92, 246, 0.1);
-		border-left: 3px solid #a78bfa;
-		padding: 0.75rem;
-		margin-bottom: 0.5rem;
-		border-radius: 4px;
-	}
-	
-	.ia-breach-item a {
-		color: #d8b4fe;
-		text-decoration: none;
-	}
-	
-	.ia-breach-item a:hover {
-		color: #e9d5ff;
-		text-decoration: underline;
-	}
-</style>
-
-<!-- Statistiques IA -->
-<div class="ia-stats-card mb-4">
-	<h3><i class="fa fa-robot me-2"></i>🤖 Brèches liées à l'IA</h3>
-	<div id="ia-stats-container">
-		<div class="text-center py-3">
-			<div class="spinner-border" role="status">
-				<span class="visually-hidden">Chargement...</span>
-			</div>
-		</div>
-	</div>
-</div>
-
-<script>
-	// Charger et afficher les statistiques IA
-	fetch('<%- config.url %>/data/breaches.json')
-		.then(response => response.json())
-		.then(data => {
-			const iaBreaches = data.breaches
-				.filter(breach => breach.tags && breach.tags.includes('IA') && !breach.IsRetired)
-				.sort((a, b) => new Date(b.BreachDate) - new Date(a.BreachDate));
-			
-			const iaContainer = document.getElementById('ia-stats-container');
-			
-			if (iaBreaches.length > 0) {
-				const totalIAPwnCount = iaBreaches.reduce((sum, b) => sum + (b.PwnCount || 0), 0);
-				const iaPercentage = ((iaBreaches.length / data.totalBreaches) * 100).toFixed(1);
-				
-				let html = `
-					<div class="row mb-3">
-						<div class="col-md-6 mb-2">
-							<div style="background: rgba(139, 92, 246, 0.2); padding: 1rem; border-radius: 6px;">
-								<p class="mb-1" style="color: #a78bfa; font-size: 0.9em;">Brèches IA détectées</p>
-								<h4 style="color: #e9d5ff; margin: 0;">${iaBreaches.length} <span style="font-size: 0.7em; color: #a78bfa;">(${iaPercentage}% du total)</span></h4>
-							</div>
-						</div>
-						<div class="col-md-6 mb-2">
-							<div style="background: rgba(139, 92, 246, 0.2); padding: 1rem; border-radius: 6px;">
-								<p class="mb-1" style="color: #a78bfa; font-size: 0.9em;">Comptes compromis</p>
-								<h4 style="color: #e9d5ff; margin: 0;">${totalIAPwnCount >= 1000000 ? (totalIAPwnCount / 1000000).toFixed(1) + 'M' : totalIAPwnCount.toLocaleString()}</h4>
-							</div>
-						</div>
-					</div>
-					<div>
-						<p style="color: #a78bfa; font-weight: 600; margin-bottom: 0.75rem;">Brèches récentes :</p>
-						${iaBreaches.slice(0, 5).map((breach, idx) => {
-							const date = new Date(breach.BreachDate).toLocaleDateString('fr-FR', { day: 'numeric', month: 'short', year: 'numeric' });
-							const pwnDisplay = breach.PwnCount >= 1000000 ? (breach.PwnCount / 1000000).toFixed(1) + 'M' : breach.PwnCount.toLocaleString();
-							
-							const NEW_PERIOD_DAYS = 7;
-							const now = new Date();
-							const addedDate = new Date(breach.AddedDate || breach.BreachDate);
-							const msLeft = (addedDate.getTime() + (NEW_PERIOD_DAYS * 24 * 60 * 60 * 1000)) - now.getTime();
-							const isRecentlyAdded = msLeft > 0;
-
-							let newBadgeHtml = '';
-							if (isRecentlyAdded) {
-								const dLeft = Math.floor(msLeft / (1000 * 60 * 60 * 24));
-								const hLeft = Math.floor((msLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-								const mLeft = Math.floor((msLeft % (1000 * 60 * 60)) / (1000 * 60));
-								newBadgeHtml = `<span class="badge bg-success" style="font-size: 0.7em; margin-left: 5px;" title="Encore ${dLeft}j ${hLeft}h ${mLeft}m">NOUVEAU (${dLeft}j ${hLeft}h ${mLeft}m)</span>`;
-							}
+				const maxDataClassCount = dataClassArray[0]?.count || 1;
+				const dataClassHtml = `
+					<div class="row">
+						${dataClassArray.map((item, idx) => {
+							const percentage = (item.count / maxDataClassCount * 100);
 							return `
-								<div class="ia-breach-item">
-									<div class="d-flex justify-content-between align-items-start">
-										<div class="flex-grow-1">
-											<a href="<%- config.url %>/fuites?id=${breach.index}">
-												<strong>${breach.Title || breach.Name}</strong>
-											</a>
-											${newBadgeHtml}
-											<div style="font-size: 0.85em; color: #c4b5fd; margin-top: 0.25rem;">
-												<i class="fa fa-calendar me-1"></i>${date}
-												<span class="ms-2"><i class="fa fa-users me-1"></i>${pwnDisplay}</span>
-											</div>
+								<div class="col-md-6 col-lg-4 mb-3">
+									<div style="background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 8px; padding: 15px;">
+										<div class="mb-2">
+											<span style="color: #a7f3d0; font-weight: bold;">${idx + 1}. ${item.name}</span>
+											<span style="float: right; background: rgba(16, 185, 129, 0.3); color: #a7f3d0; padding: 3px 8px; border-radius: 12px; font-size: 0.8em; font-weight: bold;">
+												${item.count}
+											</span>
+										</div>
+										<div style="color: #cbd5e1; font-size: 0.9em; margin-bottom: 8px;">
+											${formatPwnCount(item.pwnCount)} comptes
+										</div>
+										<div style="width: 100%; background: rgba(0,0,0,0.3); border-radius: 4px; height: 6px; overflow: hidden;">
+											<div style="width: ${percentage}%; background: linear-gradient(90deg, #10b981, #34d399); height: 100%; border-radius: 4px;"></div>
 										</div>
 									</div>
 								</div>
@@ -663,14 +294,100 @@ console.log(breach.PwnCount)
 						}).join('')}
 					</div>
 				`;
-				
-				iaContainer.innerHTML = html;
-			} else {
-				iaContainer.innerHTML = '<p class="text-muted text-center py-3">Aucune brèche liée à l\'IA détectée pour le moment.</p>';
-			}
-		})
-		.catch(error => {
-			console.error('Erreur lors du chargement des statistiques IA:', error);
-			document.getElementById('ia-stats-container').innerHTML = '<p class="text-danger text-center py-3">Erreur lors du chargement des données.</p>';
-		});
-</script>
+				document.getElementById('dataclass-container').innerHTML = dataClassHtml;
+
+				// ============ ENTREPRISES TOUCHÉES ============
+				const companyStats = {};
+				breaches.forEach(breach => {
+					const company = breach.Name || 'Inconnu';
+					if (!companyStats[company]) {
+						companyStats[company] = { name: company, count: 1, pwnCount: Number(breach.PwnCount) || 0 };
+					} else {
+						companyStats[company].count++;
+						companyStats[company].pwnCount += Number(breach.PwnCount) || 0;
+					}
+				});
+
+				const companyArray = Object.values(companyStats)
+					.sort((a, b) => b.pwnCount - a.pwnCount)
+					.slice(0, 12);
+
+				const maxCompanyPwnCount = companyArray[0]?.pwnCount || 1;
+				const companyHtml = `
+					<div class="row">
+						${companyArray.map((company, idx) => {
+							const medals = ['🥇', '🥈', '🥉'];
+							const medal = idx < 3 ? medals[idx] : '';
+							const percentage = (company.pwnCount / maxCompanyPwnCount * 100);
+							return `
+								<div class="col-md-6 col-lg-4 mb-3">
+									<div style="background: rgba(59, 130, 246, 0.1); border: 1px solid rgba(59, 130, 246, 0.3); border-radius: 8px; padding: 15px; position: relative;">
+										${medal ? '<div style="position: absolute; top: 10px; right: 10px; font-size: 1.5em;">' + medal + '</div>' : ''}
+										<div style="color: #93c5fd; font-weight: bold; margin-bottom: 8px; word-break: break-word; padding-right: 30px;">
+											${company.name}
+										</div>
+										<div style="font-size: 0.85em; color: #cbd5e1; margin-bottom: 6px;">
+											<i class="fa fa-shield"></i> ${company.count} ${pluralize(company.count, 'fuite', 'fuites')}
+										</div>
+										<div style="font-size: 0.85em; color: #cbd5e1; margin-bottom: 10px;">
+											<i class="fa fa-users"></i> ${formatPwnCount(company.pwnCount)}
+										</div>
+										<div style="width: 100%; background: rgba(0,0,0,0.3); border-radius: 4px; height: 4px; overflow: hidden;">
+											<div style="width: ${percentage}%; background: linear-gradient(90deg, #3b82f6, #60a5fa); height: 100%; border-radius: 4px;"></div>
+										</div>
+									</div>
+								</div>
+							`;
+						}).join('')}
+					</div>
+				`;
+				document.getElementById('company-container').innerHTML = companyHtml;
+
+				// ============ ENTREPRISES PAR NOMBRE DE FUITES ============
+				const companiesByCount = Object.values(companyStats)
+					.sort((a, b) => b.count - a.count)
+					.slice(0, 15);
+
+				document.getElementById('breach-count').textContent = `${companiesByCount.length} entreprises répertoriées`;
+
+				const categoryHtml = `
+					<div class="row">
+						${companiesByCount.map((company, idx) => `
+							<div class="col-md-6 col-lg-4 mb-3">
+								<div style="background: linear-gradient(135deg, #2e3192 0%, #1a1a3e 100%); border: 1px solid rgba(139, 92, 246, 0.3); border-radius: 8px; padding: 15px;">
+									<div class="mb-2">
+										<div style="color: #d8b4fe; font-weight: bold; margin-bottom: 4px;">
+											${idx + 1}. ${company.name}
+										</div>
+										<span style="background: rgba(139, 92, 246, 0.3); color: #d8b4fe; padding: 4px 8px; border-radius: 12px; font-size: 0.75em; font-weight: bold; display: inline-block;">
+											${company.count} fuites
+										</span>
+									</div>
+									<div style="color: #cbd5e1; font-size: 0.85em;">
+										${formatPwnCount(company.pwnCount)} comptes compromis
+									</div>
+								</div>
+							</div>
+						`).join('')}
+					</div>
+				`;
+				document.getElementById('category-container').innerHTML = categoryHtml;
+
+				console.log('✅ Toutes les statistiques générées avec succès');
+			})
+			.catch(error => {
+				console.error('❌ Erreur lors du chargement des données:', error);
+				document.getElementById('global-stats-container').innerHTML = `
+					<div class="col-12">
+						<div class="alert alert-danger">
+							<i class="fa fa-exclamation-circle"></i> Erreur lors du chargement des statistiques. Veuillez rafraîchir la page.
+						</div>
+					</div>
+				`;
+			});
+	</script>
+
+	<% if (theme.widgets.length) { %>
+		<%- partial('_partial/sidebar') %>
+	<% } %>
+</div>
