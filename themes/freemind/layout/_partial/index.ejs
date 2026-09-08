@@ -151,6 +151,7 @@
 							${criticalBreaches.map((breach, idx) => {
 								const date = new Date(breach.BreachDate);
 								const formattedDate = date.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
+console.log(breach.PwnCount)
 								const pwnDisplay = breach.PwnCount >= 1000000 ? (breach.PwnCount / 1000000).toFixed(1) + 'M' : breach.PwnCount.toLocaleString();
 								const dataClassesDisplay = breach.DataClasses && breach.DataClasses.length > 0 
 									? breach.DataClasses.slice(0, 3).join(', ') + (breach.DataClasses.length > 3 ? '...' : '')
