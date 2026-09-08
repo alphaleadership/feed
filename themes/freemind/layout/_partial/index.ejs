@@ -137,7 +137,7 @@
 				const lastYear = currentYear - 1;
 				let currentYearCount = 0;
 				let lastYearCount = 0;
-				
+				console.log(Object.keys(data.breaches[0]))
 				// Afficher les 5 fuites critiques les plus récentes
 				const criticalBreaches = data.breaches
 					.filter(breach => breach.IsCritical && !breach.IsRetired)
