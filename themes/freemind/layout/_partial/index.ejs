@@ -140,6 +140,7 @@
 				console.log(Object.keys(data.breaches[0]))
 				data.breaches.map((item)=>{
 totalPwnCount+=item.PwnCount
+const date = new Date(item.BreachDate);
 				})
 				// Afficher les 5 fuites critiques les plus récentes
 				const criticalBreaches = data.breaches
