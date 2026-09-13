@@ -1,0 +1,150 @@
+.together{
+  --scale:1.0;
+  --cell:clamp(0.3rem,2vw,1rem);
+  width:min(100%,50rem);
+
+  display: block;
+  font-family: "微软雅黑",  sans-serif !important;
+  text-align: center;
+  box-sizing: border-box;/*盒模型*/
+  height: max-content;
+  padding:1rem;
+  border-top:0.1rem dashed #d1d9e0;
+  border-bottom:0.1rem dashed #d1d9e0;
+  border-radius: 5rem;
+  margin: 1rem auto;
+  background-color:  rgba(255, 255, 255, 0.9);
+}
+.c_title{
+  font-size:calc(var(--scale) * 1.8rem);
+  font-weight: bold;
+}
+.middle{
+  margin: 0 auto;
+}
+
+#header{
+  width: max-content;
+  margin: 0.3rem auto;
+}
+.calendar {
+  display: inline-block;
+  height:auto;
+  width: fit-content;
+}
+.grid-item {
+  box-sizing: border-box;/*总宽度包含边框*/
+  width:var(--cell);
+  aspect-ratio:1;/*约束高度*/
+  
+  background-color: #fff;
+  border:0.1rem solid #ddd;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+.grid-item.checked {
+  background-color: #92e39a;
+}
+
+.grid-item.unchecked {
+  background-color:#efefef;
+  opacity: 0.5;
+}
+
+.grid-item:hover {
+  opacity: 0.8;
+}
+/* 月份格子容器样式 */
+.month-container {
+  display: grid;
+  grid-template-columns: repeat(31,var(--cell));
+  gap: 0.2rem;
+  margin: 0.2rem;
+  justify-content: center;
+}
+#desc_blocks{
+  width: max-content;
+  display: inline-block;
+  padding-right: 0.5rem;
+  margin:0rem 0.2rem;
+}
+.desc_blocks_item{
+  display: inline-block;
+  width: var(--cell);
+  aspect-ratio:1;
+  border:0.1rem solid #ddd;
+  border-radius: 0.2rem;
+  margin:0 0.1rem;
+}
+.month-header {
+  font-size: 1rem;
+}
+.month_float{
+  display: inline-block;
+  margin-right: 0.6rem;
+}
+
+.tooltip{
+  position: absolute;
+  width: auto;
+  white-space: nowrap;
+  border: 0.1rem solid #ccc;
+  background-color: #060d2a;
+  padding: 0.2rem 0.4rem;
+  border-radius: 1rem;
+  display: none;
+  color:#fff;
+  font-size:calc(var(--scale) * 1.2rem);
+  z-index:999;
+}
+label,span,.cpright,.lessmore{
+  font-size: calc(var(--scale) * 2rem);
+}
+
+.lessmore{
+  font-size: calc(var(--scale) * 1rem);
+  text-align: right;
+  margin:0.3rem 5rem 0.3rem auto;
+}
+span{
+  margin:0rem 0.5rem; 
+}
+.c_label{
+  font-size: calc(var(--scale) * 1.5rem);
+  margin-left: 1rem;
+}
+select{
+  text-align-last: center; /* 确保选中的项居中 */
+  width:calc(var(--scale) * 8rem);
+  font-size: calc(var(--scale) * 1.5rem);
+  border-radius: 2rem;
+  padding:0.2rem 1rem;
+  background-color: transparent !important;
+}
+/* .cpright{
+  color:#ccc;
+  opacity: 0.1;
+  font-size: calc(var(--scale) * 1rem);
+} */
+.fireworks{/*固定幕布*/
+  position:fixed;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  background-color: transparent;
+  pointer-events:none;
+}
+/* 桌面及大屏 */
+/* @media (min-width:1281px) {}
+
+/* 手机 */
+@media (max-width: 768px) {
+  .together{
+    --scale:0.5;
+  }
+  .month_float{
+    display:none;
+  }
+}

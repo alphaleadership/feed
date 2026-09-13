@@ -1,0 +1,753 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+<script defer src="https://cloud.umami.is/script.js" data-website-id="3114a86e-6e66-4953-b19f-40491a63d444"></script>
+  <meta charset="utf-8">
+
+  
+  <title>veille</title>
+  <meta name="author" content="arbinger">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  
+  <meta property="og:site_name" content="veille"/>
+
+  
+    <meta property="og:image" content=""/>
+  
+
+  
+    <link rel="alternative" href="/atom.xml" title="veille" type="application/atom+xml">
+  
+  <link rel="alternate" type="application/atom+xml" title="veille" href="https://feed-blush.vercel.app/atom.xml" />
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/themes/cerulean.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight-default.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/comment.css" media="screen" type="text/css">
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      prefix: 'tw-',
+      corePlugins: {
+        preflight: false,
+      }
+    }
+  </script>
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.7/es5-sham.min.js"></script>
+  <![endif]-->
+    <script src="/js/search.js"></script>
+  <script src="/js/jquery-2.0.3.min.js"></script>
+  
+  
+  <!-- analytics -->
+  
+
+
+
+<!-- hexo injector head_end start --><script src="./func.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 8.1.2"></head>
+
+  <body class="bg-dark text-light">
+    <div style="height: 4px; background: #00ff41; box-shadow: 0 0 10px #00ff41; position: fixed; top: 0; left: 0; right: 0; z-index: 9999;"></div>
+    <nav id="main-nav" class="navbar navbar-dark bg-dark shadow-lg navbar-expand-lg navbar-fixed-top" role="navigation">
+  <div class="container">
+  
+    <a class="navbar-brand text-uppercase fw-bold" href="/">veille</a>
+    <div class=" navbar-collapse nav-menu">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        
+          <li class="nav-item">
+            <a href="/archives" title="All the articles." class="nav-link text-light text-uppercase fw-bold">
+              <i class="fa fa-archive fs-5 me-2"></i>Archives
+            </a>
+          </li>
+        
+          <li class="nav-item">
+            <a href="/category" title="Types de données fuitées" class="nav-link text-light text-uppercase fw-bold">
+              <i class="fa fa-database fs-5 me-2"></i>catégorie
+            </a>
+          </li>
+        
+          <li class="nav-item">
+            <a href="/glossaire" title="Niveaux de risque par type de données" class="nav-link text-light text-uppercase fw-bold">
+              <i class="fa fa-shield fs-5 me-2"></i>Glossaire
+            </a>
+          </li>
+        
+          <li class="nav-item">
+            <a href="/threat-actor" title="Groupes de hackers et pirates" class="nav-link text-light text-uppercase fw-bold">
+              <i class="fa fa-user-secret fs-5 me-2"></i>Pirates
+            </a>
+          </li>
+        
+          <li class="nav-item">
+            <a href="/stat" title="Analyse détaillée des fuites" class="nav-link text-light text-uppercase fw-bold">
+              <i class="fa fa-bar-chart fs-5 me-2"></i>Statistiques
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+    	<div class="quick-links card shadow-sm mb-4" style="background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); border: none;">
+		<div class="card-body" style="padding: 1rem;">
+			<div class="d-flex justify-content-center gap-3 flex-wrap">
+				<a href="/archives/" class="btn btn-outline-primary btn-lg" style="border: 2px solid #38bdf8; color: #38bdf8; transition: all 0.3s;">
+					<i class="fa fa-archive me-2"></i>Archives complètes
+				</a>
+				<a href="/" class="btn btn-outline-success btn-lg" style="border: 2px solid #4ade80; color: #4ade80; transition: all 0.3s;">
+					<i class="fa fa-home me-2"></i>Accueil
+				</a>
+				<a href="/fuites/" class="btn btn-outline-warning btn-lg" style="border: 2px solid #fbbf24; color: #fbbf24; transition: all 0.3s;">
+					<i class="fa fa-list me-2"></i>Liste des fuites
+				</a>
+			</div>
+		</div>
+	</div>
+<div id="ecoindex-badge" data-theme="dark"></div>
+<script src="https://cdn.jsdelivr.net/gh/cnumr/ecoindex_badge@3/assets/js/ecoindex-badge.js" defer></script>
+    <div class="container">
+      <div class="page-header bg-dark text-white rounded shadow-lg p-3 mb-4">
+  <div class="d-flex justify-content-between align-items-center flex-wrap">
+    <h1 class="title text-uppercase letter-spacing-1 mb-0">
+      fuites de donnée en cours
+    </h1>
+    
+      <div class="breach-stats d-flex gap-3 flex-wrap">
+        <span class="badge badge-danger p-2" style="font-size: 1.2rem;">
+          <i class="fa fa-exclamation-triangle mr-2"></i>
+          2046 fuites
+        </span>
+        
+        <span class="badge badge-warning p-2" style="font-size: 1.2rem;">
+          <i class="fa fa-users mr-2"></i>
+          20.18Md comptes
+        </span>
+        <span class="badge badge-info p-2" style="font-size: 1.2rem;">
+          <i class="fa fa-calendar mr-2"></i>
+          878 en 2026
+        </span>
+      </div>
+    
+  </div>
+  
+    <div class="text-muted mt-2" style="font-size: 0.9rem;">
+      <i class="fa fa-clock-o mr-1"></i>
+      Dernière mise à jour : 13 septembre 2026 à 00:35
+    </div>
+  
+</div>
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
+<script>
+  window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/speed-insights/script.js"></script>
+<div class="row page">
+<script src="https://feed-blush.vercel.app/js/index.js"></script>
+
+	
+	<div class="col-md-9">
+	
+
+	<!-- Paragraphe explicatif -->
+	<div class="intro-section card shadow-sm mb-4" style="background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%); border: 1px solid rgba(56, 189, 248, 0.3);">
+		<div class="card-body" style="padding: 2rem;">
+			<h2 style="color: #38bdf8; margin-bottom: 1rem; font-size: 1.8rem;">
+				<i class="fa fa-shield me-2"></i>Bienvenue sur le répertoire des fuites de données
+			</h2>
+			<p style="color: #cbd5e1; font-size: 1.1rem; line-height: 1.8; margin-bottom: 1rem;">
+				Ce site recense et documente les <strong style="color: #fbbf24;">fuites de données</strong> affectant des millions d'utilisateurs à travers le monde. 
+				Notre mission est de sensibiliser le public aux risques liés à la cybersécurité et de fournir des informations détaillées sur chaque incident.
+			</p>
+			<p style="color: #cbd5e1; font-size: 1.1rem; line-height: 1.8; margin-bottom: 1rem;">
+				Vous trouverez ici des <strong style="color: #4ade80;">statistiques détaillées</strong>, les types de données compromises, 
+				les entreprises touchées, et des conseils pour vérifier si vos informations ont été exposées. 
+				Chaque fuite est documentée avec sa date, le nombre de comptes affectés, et les données exposées.
+			</p>
+			<div style="background: rgba(56, 189, 248, 0.1); border-left: 4px solid #38bdf8; padding: 1rem; border-radius: 4px; margin-top: 1.5rem;">
+				<p style="color: #e2e8f0; margin: 0; font-size: 1rem;">
+					<i class="fa fa-info-circle me-2" style="color: #38bdf8;"></i>
+					<strong>Conseil :</strong> Utilisez les archives pour explorer les fuites par année, ou consultez les statistiques ci-dessous pour découvrir les tendances et les secteurs les plus touchés.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Fuites critiques récentes -->
+	<div class="critical-breaches card shadow-sm mb-4" style="background: linear-gradient(135deg, #450a0a 0%, #7f1d1d 100%); border: 2px solid #dc2626;">
+		<div class="card-header text-white d-flex align-items-center border-0" style="background: rgba(0,0,0,0.5) !important; border-bottom: 2px solid rgba(220, 38, 38, 0.5) !important;">
+			<i class="fa fa-exclamation-triangle me-3 fs-4" style="color: #fca5a5;"></i>
+			<h3 class="mb-0 text-uppercase letter-spacing-1">
+				⚠️ Fuites Critiques Récentes
+			</h3>
+		</div>
+		<div class="card-body" style="background: #3f0e0e; padding: 1.5rem;">
+			<div id="critical-breaches-container">
+				<div class="text-center py-5">
+					<div class="spinner-border text-danger" role="status">
+						<span class="visually-hidden">Chargement...</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Statistiques globales -->
+	<div class="global-stats card shadow-sm mb-4" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border: none;">
+		<div class="card-header bg-dark text-white" style="background: rgba(0,0,0,0.5) !important; border-bottom: 2px solid rgba(255,255,255,0.1);">
+			<h3 class="mb-0">📈 Statistiques globales</h3>
+		</div>
+		<div class="card-body" style="background: #1e1e2e; padding: 1.5rem;">
+			<div class="row" id="global-stats-container">
+				<div class="col-12 text-center py-5">
+					<div class="spinner-border text-primary" role="status">
+						<span class="visually-hidden">Chargement...</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Types de données les plus fuitées -->
+	<div class="dataclass-stats card shadow-sm mb-4" style="background: linear-gradient(135deg, #2e1a1a 0%, #3e1616 100%); border: none;">
+		<div class="card-header bg-dark text-white" style="background: rgba(0,0,0,0.5) !important; border-bottom: 2px solid rgba(255,255,255,0.1);">
+			<h3 class="mb-0">🔐 Types de données les plus fuités </h3>
+		</div>
+		<div class="card-body" style="background: #2e1e1e; padding: 1.5rem;">
+			<div class="row" id="dataclass-container">
+				<div class="col-12 text-center py-5">
+					<div class="spinner-border text-danger" role="status">
+						<span class="visually-hidden">Chargement...</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Entreprises les plus touchées -->
+	<div class="company-stats card shadow-sm mb-4" style="background: linear-gradient(135deg, #1f2937 0%, #111827 100%); border: none;">
+		<div class="card-header bg-dark text-white" style="background: rgba(0,0,0,0.5) !important; border-bottom: 2px solid rgba(255,255,255,0.1);">
+			<h3 class="mb-0">🏢 Entreprises / Sites les plus touchés </h3>
+		</div>
+		<div class="card-body" style="background: #1f2937; padding: 1.5rem;">
+			<div class="row" id="company-container">
+				<div class="col-12 text-center py-5">
+					<div class="spinner-border text-success" role="status">
+						<span class="visually-hidden">Chargement...</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Entreprises ayant le plus de fuites -->
+	<div class="category-stats card shadow-sm mb-4">
+		<div class="card-header bg-dark text-white">
+			<h3 class="mb-0">🏛️ Entreprises ayant le plus de fuites </h3>
+			<small class="text-muted" id="breach-count">Chargement...</small>
+		</div>
+		<div class="card-body">
+			<div class="row" id="category-container">
+				<div class="col-12 text-center py-5">
+					<div class="spinner-border text-primary" role="status">
+						<span class="visually-hidden">Chargement...</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		// Utilitaires de formatage
+		const formatNumber = (n) => new Intl.NumberFormat('fr-FR').format(n);
+		const formatPwnCount = (count) => {
+			if (count >= 1000000000) return (count / 1000000000).toFixed(2) + 'Md';
+			if (count >= 1000000) return (count / 1000000).toFixed(1) + 'M';
+			if (count >= 1000) return (count / 1000).toFixed(1) + 'K';
+			return count.toString();
+		};
+		const pluralize = (count, singular, plural) => Math.abs(count) > 1 ? plural : singular;
+
+		// Charger et analyser les données
+		fetch('https://feed-blush.vercel.app/data/breaches.json')
+			.then(response => response.json())
+			.then(data => {
+				if (!data.breaches || !Array.isArray(data.breaches)) {
+					console.error('Format de données invalide');
+					return;
+				}
+
+				// Filtrer les fuites valides
+				const breaches = data.breaches.filter(b => b && !b.IsRetired && b.Name);
+				const now = new Date();
+				const currentYear = now.getFullYear();
+				const lastYear = currentYear - 1;
+
+				// ============ STATISTIQUES GLOBALES ============
+				let totalPwnCount = 0;
+				let verifiedCount = 0;
+				let sensitiveCount = 0;
+				let currentYearCount = 0;
+				let lastYearCount = 0;
+				let currentYearPwnCount = 0;
+				let lastYearPwnCount = 0;
+
+				breaches.forEach(breach => {
+					const pwnCount = Number(breach.PwnCount) || 0;
+					totalPwnCount += pwnCount;
+					if (breach.IsVerified) verifiedCount++;
+					if (breach.IsSensitive) sensitiveCount++;
+
+					const breachYear = new Date(breach.BreachDate).getFullYear();
+					if (breachYear === currentYear) {
+						currentYearCount++;
+						currentYearPwnCount += pwnCount;
+					}
+					if (breachYear === lastYear) {
+						lastYearCount++;
+						lastYearPwnCount += pwnCount;
+					}
+				});
+
+				// Afficher statistiques globales
+				const globalStats = `
+					<div class="col-md-6 col-lg-3 mb-3">
+						<div style="background: rgba(56, 189, 248, 0.1); border-left: 4px solid #38bdf8; padding: 15px; border-radius: 8px;">
+							<div style="font-size: 0.85em; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 5px;">Total fuites</div>
+							<div style="font-size: 2em; font-weight: bold; color: #38bdf8;">${formatNumber(breaches.length)}</div>
+							<div style="font-size: 0.75em; color: #6b7280; margin-top: 5px;">répertoriées</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 mb-3">
+						<div style="background: rgba(249, 115, 22, 0.1); border-left: 4px solid #f97316; padding: 15px; border-radius: 8px;">
+							<div style="font-size: 0.85em; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 5px;">Comptes compromis</div>
+							<div style="font-size: 2em; font-weight: bold; color: #f97316;">${formatPwnCount(totalPwnCount)}</div>
+							<div style="font-size: 0.75em; color: #6b7280; margin-top: 5px;">au total</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 mb-3">
+						<div style="background: rgba(74, 222, 128, 0.1); border-left: 4px solid #4ade80; padding: 15px; border-radius: 8px;">
+							<div style="font-size: 0.85em; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 5px;">Année ${currentYear}</div>
+							<div style="font-size: 2em; font-weight: bold; color: #4ade80;">${formatNumber(currentYearCount)}</div>
+							<div style="font-size: 0.75em; color: #6b7280; margin-top: 5px;">fuites en ${currentYear}</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 mb-3">
+						<div style="background: rgba(239, 68, 68, 0.1); border-left: 4px solid #ef4444; padding: 15px; border-radius: 8px;">
+							<div style="font-size: 0.85em; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 5px;">Vérifiées</div>
+							<div style="font-size: 2em; font-weight: bold; color: #ef4444;">${formatNumber(verifiedCount)}</div>
+							<div style="font-size: 0.75em; color: #6b7280; margin-top: 5px;">(${(verifiedCount / breaches.length * 100).toFixed(1)}%)</div>
+						</div>
+					</div>
+				`;
+				document.getElementById('global-stats-container').innerHTML = globalStats;
+
+				// ============ FUITES CRITIQUES ============
+				const criticalBreaches = breaches
+					.filter(breach => breach.IsCritical)
+					.sort((a, b) => new Date(b.BreachDate) - new Date(a.BreachDate))
+					.slice(0, 5);
+
+				if (criticalBreaches.length > 0) {
+					const criticalHtml = `
+						<div class="row">
+							${criticalBreaches.map((breach, idx) => {
+								const date = new Date(breach.BreachDate);
+								const formattedDate = date.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
+								const pwnDisplay = formatPwnCount(breach.PwnCount || 0);
+								const dataClasses = breach.DataClasses || [];
+								const dataClassesDisplay = dataClasses.length > 0 
+									? dataClasses.slice(0, 3).join(', ') + (dataClasses.length > 3 ? '...' : '')
+									: 'Données non spécifiées';
+
+								return `
+									<div class="col-md-6 col-lg-4 mb-3">
+										<div class="card h-100" style="background: linear-gradient(145deg, #7f1d1d 0%, #5f0f0f 100%); border: 2px solid #dc2626;">
+											<div class="card-body">
+												<div class="d-flex justify-content-between align-items-start mb-2">
+													<span class="badge bg-danger fs-6">#${idx + 1}</span>
+													<span class="badge bg-dark" style="font-size: 0.7em;">
+														<i class="fa fa-calendar me-1"></i>${formattedDate}
+													</span>
+												</div>
+												<h5 class="card-title mb-2" style="color: #fca5a5;">
+													<i class="fa fa-exclamation-triangle me-2"></i>${breach.Title || breach.Name}
+												</h5>
+												<p class="mb-2" style="color: #fecaca; font-size: 0.9rem;">
+													<i class="fa fa-users me-2"></i><strong>${pwnDisplay}</strong> comptes compromis
+												</p>
+												<p class="mb-3" style="color: #fecaca; font-size: 0.85rem;">
+													<i class="fa fa-database me-2"></i>${dataClassesDisplay}
+												</p>
+												<a href="https://feed-blush.vercel.app/fuites?id=${breach.index}" class="btn btn-sm btn-danger w-100">
+													<i class="fa fa-eye me-1"></i>Détails
+												</a>
+											</div>
+										</div>
+									</div>
+								`;
+							}).join('')}
+						</div>
+					`;
+					document.getElementById('critical-breaches-container').innerHTML = criticalHtml;
+				}
+
+				// ============ TYPES DE DONNÉES ============
+				const dataClassStats = {};
+				breaches.forEach(breach => {
+					if (breach.DataClasses && Array.isArray(breach.DataClasses)) {
+						breach.DataClasses.forEach(dataClass => {
+							if (!dataClassStats[dataClass]) {
+								dataClassStats[dataClass] = { name: dataClass, count: 0, pwnCount: 0 };
+							}
+							dataClassStats[dataClass].count++;
+							dataClassStats[dataClass].pwnCount += Number(breach.PwnCount) || 0;
+						});
+					}
+				});
+
+				const dataClassArray = Object.values(dataClassStats)
+					.sort((a, b) => b.count - a.count)
+					.slice(0, 12);
+
+				const maxDataClassCount = dataClassArray[0]?.count || 1;
+				const dataClassHtml = `
+					<div class="row">
+						${dataClassArray.map((item, idx) => {
+							const percentage = (item.count / maxDataClassCount * 100);
+							return `
+								<div class="col-md-6 col-lg-4 mb-3">
+									<div style="background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 8px; padding: 15px;">
+										<div class="mb-2">
+											<span style="color: #a7f3d0; font-weight: bold;">${idx + 1}. ${item.name}</span>
+											<span style="float: right; background: rgba(16, 185, 129, 0.3); color: #a7f3d0; padding: 3px 8px; border-radius: 12px; font-size: 0.8em; font-weight: bold;">
+												${item.count}
+											</span>
+										</div>
+										<div style="color: #cbd5e1; font-size: 0.9em; margin-bottom: 8px;">
+											${formatPwnCount(item.pwnCount)} comptes
+										</div>
+										<div style="width: 100%; background: rgba(0,0,0,0.3); border-radius: 4px; height: 6px; overflow: hidden;">
+											<div style="width: ${percentage}%; background: linear-gradient(90deg, #10b981, #34d399); height: 100%; border-radius: 4px;"></div>
+										</div>
+									</div>
+								</div>
+							`;
+						}).join('')}
+					</div>
+				`;
+				document.getElementById('dataclass-container').innerHTML = dataClassHtml;
+
+				// ============ ENTREPRISES TOUCHÉES ============
+				const companyStats = {};
+				breaches.forEach(breach => {
+					const company = breach.Name || 'Inconnu';
+					if (!companyStats[company]) {
+						companyStats[company] = { name: company, count: 1, pwnCount: Number(breach.PwnCount) || 0 };
+					} else {
+						companyStats[company].count++;
+						companyStats[company].pwnCount += Number(breach.PwnCount) || 0;
+					}
+				});
+
+				const companyArray = Object.values(companyStats)
+					.sort((a, b) => b.pwnCount - a.pwnCount)
+					.slice(0, 12);
+
+				const maxCompanyPwnCount = companyArray[0]?.pwnCount || 1;
+				const companyHtml = `
+					<div class="row">
+						${companyArray.map((company, idx) => {
+							const medals = ['🥇', '🥈', '🥉'];
+							const medal = idx < 3 ? medals[idx] : '';
+							const percentage = (company.pwnCount / maxCompanyPwnCount * 100);
+							return `
+								<div class="col-md-6 col-lg-4 mb-3">
+									<div style="background: rgba(59, 130, 246, 0.1); border: 1px solid rgba(59, 130, 246, 0.3); border-radius: 8px; padding: 15px; position: relative;">
+										${medal ? '<div style="position: absolute; top: 10px; right: 10px; font-size: 1.5em;">' + medal + '</div>' : ''}
+										<div style="color: #93c5fd; font-weight: bold; margin-bottom: 8px; word-break: break-word; padding-right: 30px;">
+											${company.name}
+										</div>
+										<div style="font-size: 0.85em; color: #cbd5e1; margin-bottom: 6px;">
+											<i class="fa fa-shield"></i> ${company.count} ${pluralize(company.count, 'fuite', 'fuites')}
+										</div>
+										<div style="font-size: 0.85em; color: #cbd5e1; margin-bottom: 10px;">
+											<i class="fa fa-users"></i> ${formatPwnCount(company.pwnCount)}
+										</div>
+										<div style="width: 100%; background: rgba(0,0,0,0.3); border-radius: 4px; height: 4px; overflow: hidden;">
+											<div style="width: ${percentage}%; background: linear-gradient(90deg, #3b82f6, #60a5fa); height: 100%; border-radius: 4px;"></div>
+										</div>
+									</div>
+								</div>
+							`;
+						}).join('')}
+					</div>
+				`;
+				document.getElementById('company-container').innerHTML = companyHtml;
+
+				// ============ ENTREPRISES PAR NOMBRE DE FUITES ============
+				const companiesByCount = Object.values(companyStats)
+					.sort((a, b) => b.count - a.count)
+					.slice(0, 15);
+
+				document.getElementById('breach-count').textContent = `${companiesByCount.length} entreprises répertoriées`;
+
+				const categoryHtml = `
+					<div class="row">
+						${companiesByCount.map((company, idx) => `
+							<div class="col-md-6 col-lg-4 mb-3">
+								<div style="background: linear-gradient(135deg, #2e3192 0%, #1a1a3e 100%); border: 1px solid rgba(139, 92, 246, 0.3); border-radius: 8px; padding: 15px;">
+									<div class="mb-2">
+										<div style="color: #d8b4fe; font-weight: bold; margin-bottom: 4px;">
+											${idx + 1}. ${company.name}
+										</div>
+										<span style="background: rgba(139, 92, 246, 0.3); color: #d8b4fe; padding: 4px 8px; border-radius: 12px; font-size: 0.75em; font-weight: bold; display: inline-block;">
+											${company.count} fuites
+										</span>
+									</div>
+									<div style="color: #cbd5e1; font-size: 0.85em;">
+										${formatPwnCount(company.pwnCount)} comptes compromis
+									</div>
+								</div>
+							</div>
+						`).join('')}
+					</div>
+				`;
+				document.getElementById('category-container').innerHTML = categoryHtml;
+
+				console.log('✅ Toutes les statistiques générées avec succès');
+			})
+			.catch(error => {
+				console.error('❌ Erreur lors du chargement des données:', error);
+				document.getElementById('global-stats-container').innerHTML = `
+					<div class="col-12">
+						<div class="alert alert-danger">
+							<i class="fa fa-exclamation-circle"></i> Erreur lors du chargement des statistiques. Veuillez rafraîchir la page.
+						</div>
+					</div>
+				`;
+			});
+	</script>
+
+	
+		<div class="col-md-3">
+	<div id="sidebar">
+	
+			
+  <div id="site_search">
+   <div class="form-group">
+    <input type="text" id="local-search-input" name="q" results="0" placeholder="Search" class="st-search-input st-default-search-input form-control"/>
+   </div>  
+  <div id="local-search-result"></div>
+  </div>
+
+
+		
+			<div class="widget card border-0 shadow-lg mb-4 bg-gradient">
+  
+</div>
+
+		
+			
+  <div class="widget card border-0 shadow-lg mb-4 bg-gradient">
+    <div class="card-header bg-dark text-white d-flex align-items-center border-0">
+      <i class="bi bi-tags me-2 fs-4"></i>
+      <h5 class="mb-0 flex-grow-1 text-uppercase letter-spacing-1">Categories</h5>
+    </div>
+    <div class="card-body p-3">
+      <ul class="list-group list-group-flush">
+        
+          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
+            <a href="/category/Cybersecurite/" class="text-decoration-none text-primary fw-bold text-uppercase">
+              Cybersécurité
+            </a>
+            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
+          </li>
+        
+          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
+            <a href="/category/Cybersecurite/Actualites/" class="text-decoration-none text-primary fw-bold text-uppercase">
+              Actualités
+            </a>
+            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
+          </li>
+        
+          <li class="list-group-item d-flex justify-content-between align-items-center border-0 bg-transparent">
+            <a href="/category/Cybersecurite/Actualites/actualites/" class="text-decoration-none text-primary fw-bold text-uppercase">
+              actualites
+            </a>
+            <span class="badge bg-info text-dark rounded-pill shadow-sm px-3 py-2 fs-6">1</span>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+		
+			
+  <div class="widget card border-0 shadow-lg mb-4 bg-gradient">
+    <div class="card-header bg-dark text-white d-flex align-items-center border-0">
+      <i class="bi bi-cloud me-2 fs-4"></i>
+      <h5 class="mb-0 flex-grow-1 text-uppercase letter-spacing-1">Tag Cloud</h5>
+    </div>
+    <div class="card-body p-3">
+      <ul class="list-inline">
+        
+          <li class="list-inline-item mb-1">
+            <a href="/tags/nom/" class="badge bg-info text-dark text-uppercase shadow-sm px-3 py-2 fs-6 text-decoration-none">
+              nom <span class="ms-1">1</span>
+            </a>
+          </li>
+        
+        
+      </ul>
+    </div>
+  </div>
+
+
+		
+			
+  <div class="widget card border-0 shadow-lg mb-4 bg-gradient">
+    <div class="card-header bg-dark text-white d-flex align-items-center border-0">
+      <i class="bi bi-clock-history me-2 fs-4"></i>
+      <h5 class="mb-0 flex-grow-1 text-uppercase letter-spacing-1">Recent Posts</h5>
+    </div>
+    <div class="card-body p-3">
+      <ul class="list-group list-group-flush">
+        
+          <li class="list-group-item border-0 bg-transparent">
+            <a href="/2026/09/12/ekolis/"  class="fw-bold text-primary text-uppercase text-decoration-none">
+              <i class="bi bi-file-earmark-text me-1"></i>Ekolis
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+		
+			
+  <div class="widget card border-0 shadow-lg mb-4 bg-gradient">
+    <div class="card-header bg-dark text-white d-flex align-items-center border-0">
+      <i class="bi bi-link-45deg me-2 fs-4"></i>
+      <h5 class="mb-0 flex-grow-1 text-uppercase letter-spacing-1">Links</h5>
+    </div>
+    <div class="card-body p-3">
+      <ul class="list-group list-group-flush">
+        
+          <li class="list-group-item d-flex align-items-center border-0 bg-transparent">
+            <i class="fa fa-github me-2 fs-5"></i>
+            <a href="https://github.com/alphaleadership/feed/" title="le code ." target="_blank" class="fw-bold text-primary text-uppercase text-decoration-none">
+              code
+            </a>
+          </li>
+        
+          <li class="list-group-item d-flex align-items-center border-0 bg-transparent">
+            <i class="fa fa-github me-2 fs-5"></i>
+            <a href="https://github.com/alphaleadership/" title="My Github account." target="_blank" class="fw-bold text-primary text-uppercase text-decoration-none">
+              My Github
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+		
+			<div class="widget card border-0 shadow-lg mb-4 bg-gradient">
+  <div class="card-header bg-dark text-white d-flex align-items-center border-0">
+    <i class="bi bi-rss me-2 fs-4"></i>
+    <h5 class="mb-0 flex-grow-1 text-uppercase letter-spacing-1">RSS</h5>
+  </div>
+  <div class="card-body p-3">
+    <a href="/atom.xml" target="_blank" title="rss" class="btn btn-outline-warning w-100 text-uppercase fw-bold">
+      <i class="bi bi-rss me-1"></i> RSS Feed
+    </a>
+  </div>
+</div>
+
+		
+	</div> <!-- sidebar -->
+</div> <!-- col-md-3 -->
+
+	
+</div>
+
+
+    </div>
+    <div class="container-narrow">
+      <footer> <p>
+  &copy; 2024-2028 arbinger
+  
+      
+</p> </footer>
+    </div> <!-- container-narrow -->
+    
+
+
+    
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/search.js"></script> 
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+
+   <script type="text/javascript">      
+     var search_path = "search.xml";
+	 if (search_path.length == 0) {
+	 	search_path = "search.xml";
+	 }
+	 var path = "/" + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+   </script>
+
+
+<!-- syntax highlighting -->
+
+
+    <script>
+      window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+    <script>
+      window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/speed-insights/script.js"></script>
+  </body>
+</html>
