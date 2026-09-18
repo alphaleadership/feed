@@ -1,10 +1,14 @@
 version: 2
 updates:
-- package-ecosystem: npm
-  directory: "/"
+- package-ecosystem: "npm"
+  
   schedule:
-    interval: daily
-  open-pull-requests-limit: 20
+    interval: "daily"
+  groups:
+    monthly-batch:
+      group-by: dependency-name
+      patterns:Expand comment
+        - "*"
 - package-ecosystem: action
   directory: "/"
   schedule:
