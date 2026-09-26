@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Aestria</title>
+      <link href="/2026/09/26/aestria/"/>
+      <url>/2026/09/26/aestria/</url>
+      
+        <content type="html"><![CDATA[# Aestria piraté : des bases clients, ERP, support et sites WordPress revendiquées sur un forum**Aestria, société française spécialisée dans les services informatiques et la cybersécurité, fait l’objet d’une revendication de piratage publiée sur un forum cybercriminel.** L’auteur affirme avoir compromis l’infrastructure de l’entreprise et diffusé plusieurs bases de données internes.La publication met à disposition **dix dumps SQL**, présentés sous les noms `dolibarr`, `erpinfonum`, `extranet`, `infonum`, `mysql`, `phpmyadmin`, `support`, `sys`, `visionpro` et `wordpress`.![image](https://i.imgur.com/e6T3kR7.png)## Des données clients et internes exposéesL'analyse des fichiers publiés montre qu'ils ne contiennent pas uniquement des informations techniques. Plusieurs bases renferment des données issues des outils de gestion, de support et des sites web de l'entreprise.Parmi les informations présentes figurent notamment :- des **noms, prénoms et adresses e-mail** ;- des **identifiants de connexion et mots de passe hachés** ;- des **clients, contacts et fournisseurs** ;- des **adresses et numéros de téléphone** ;- des **commandes, factures et données comptables** ;- des informations relatives aux **tickets de support** ;- des données d'**inventaire informatique et réseau** ;- des **comptes et privilèges MySQL** ;- des paramètres techniques et des **secrets de configuration**.:::embed:::Les bases WordPress contiennent par exemple des identifiants, adresses e-mail et mots de passe hachés associés aux comptes utilisateurs.Le dump `dolibarr` semble particulièrement important pour les données commerciales : les métadonnées MySQL indiquent notamment une table `llx_societe` comprenant plusieurs centaines d'enregistrements correspondant à des tiers de l'ERP.La base `support`, reposant sur GLPI, comporte également des comptes utilisateurs et des informations liées au système d'information. Les métadonnées montrent notamment la présence de champs relatifs aux noms, prénoms et mécanismes d'authentification. Le dump de l'extranet contient par ailleurs des paramètres SMTP et LDAP, y compris des champs destinés au stockage d'identifiants et de mots de passe techniques.**FrenchBreaches ne reproduit volontairement aucun mot de passe, hash, secret d'authentification, adresse e-mail personnelle ou autre donnée permettant d'accéder aux systèmes concernés.**## Une compromission qui reste à confirmer par AestriaL'auteur de la publication affirme avoir exploité une vulnérabilité permettant d'accéder à des fichiers du serveur avant de récupérer les différentes bases de données.La présence de données cohérentes entre plusieurs applications renforce l'intérêt de la revendication, mais **ne permet pas à elle seule de confirmer l'intégralité du scénario présenté par le pirate**.Le nombre exact de personnes et d'entreprises concernées reste également à déterminer.À ce stade, **Aestria n'a pas confirmé dans les éléments analysés l'origine de la compromission, son périmètre exact ni le nombre définitif de personnes concernées**.]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Arrestation De Hexdex Par La Section J3 Du Parquet De Paris</title>
+      <link href="/2026/04/21/actualites/arrestation-hexdex/"/>
+      <url>/2026/04/21/actualites/arrestation-hexdex/</url>
+      
+        <content type="html"><![CDATA[<p>La section J3 du parquet de Paris, spécialisée dans la lutte contre la cybercriminalité (JUNALCO), a procédé à l’arrestation de l’individu connu sous le pseudonyme de <strong>Hexdex</strong>.</p><p>Hexdex est soupçonné d’être impliqué dans de nombreuses intrusions informatiques et reventes de données exfiltrées touchant plusieurs entités françaises et internationales. Cette opération marque une étape importante dans la lutte contre les acteurs malveillants opérant sur les forums de cybercriminalité.</p><p>L’enquête, menée en collaboration avec les services de police spécialisés, se poursuit pour identifier l’ensemble des complices et évaluer l’étendue des dommages causés par les activités du suspect.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Cybersécurité </category>
+          
+          <category> Actualités </category>
+          
+          <category> actualites </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
