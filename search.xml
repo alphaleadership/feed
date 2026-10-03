@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Cours Thalès</title>
+      <link href="/2026/10/03/cours-thals/"/>
+      <url>/2026/10/03/cours-thals/</url>
+      
+        <content type="html"><![CDATA[# Cours Thalès victime d’une fuite de données : près de 40 000 enregistrements revendiquésCours Thalès fait l’objet d’une revendication de fuite de données sur un forum cybercriminel. Un pirate affirme avoir récupéré près de 40 000 enregistrements liés à la facturation de l’organisme. Les données publiées en exemple font notamment apparaître des identités, adresses postales, références clients, personnes inscrites, montants et informations sur les paiements.Le **3 octobre 2026**, un utilisateur utilisant le pseudonyme **« Alduin »** a publié sur un forum cybercriminel des données qu’il présente comme provenant de **Cours Thalès**, organisme spécialisé dans la préparation scolaire et aux études supérieures.:::embed:::La publication est intitulée **« cours-thales.fr | 40K »**. Ce chiffre semble désigner un volume d’environ **40 000 enregistrements revendiqués**, mais il ne permet pas d’établir que 40 000 personnes différentes sont concernées.L’auteur affirme également avoir exploité une **vulnérabilité de type IDOR** pour accéder aux informations. Cette méthode d’accès reste, à ce stade, une affirmation du pirate.---## Des données de facturation exposéesLes éléments publiés correspondent principalement à des **enregistrements de facturation**.Chaque fiche peut comporter plusieurs catégories d’informations :- **nom du client** ;- **adresse postale** ;- **code postal et ville** ;- **référence client** ;- **nom de la personne inscrite** ;- **numéro de facture** ;- **date de facturation** ;- **montant du paiement** ;- **mode de paiement** ;- **date du règlement** ;- **statut du paiement** ;- **montant restant à payer** ;- nom du fichier correspondant à la facture.Les échantillons observés montrent ainsi des informations permettant d’associer une personne à une inscription et à des éléments précis concernant sa facturation.**FrenchBreaches ne reproduit volontairement aucune identité, adresse ou référence client issue des données publiées.**---## Des personnes inscrites et leurs payeurs apparaissent dans les fichiersLa structure des données permet de mieux comprendre qui peut être concerné.Les enregistrements distinguent un champ **« client »** d'un champ **« inscrit »**.Dans plusieurs exemples, le client facturé et la personne inscrite sont deux individus différents. Il peut notamment s’agir d’un **parent ou responsable effectuant le paiement pour une personne inscrite à une formation ou une préparation proposée par Cours Thalès**.Dans d’autres cas, certaines informations relatives au client sont absentes alors que le nom de la personne inscrite reste renseigné.Il serait donc imprécis de présenter cette base comme contenant **40 000 étudiants** : les données concernent à la fois des personnes inscrites et des clients/payeurs.---## « 40K » ne signifie pas nécessairement 40 000 personnesLe volume affiché par le pirate doit être interprété avec prudence.Les exemples montrent qu’une même personne peut apparaître dans **plusieurs factures**. Un même client peut également être associé à plusieurs personnes inscrites.Certaines lignes sont par ailleurs incomplètes.Le chiffre d’environ **40 000** doit donc être présenté comme un **nombre d’enregistrements revendiqué**, et non comme un nombre confirmé de victimes uniques.Pour connaître précisément le nombre de personnes concernées, il faudrait notamment dédupliquer les références clients et les personnes inscrites sur l’ensemble du fichier.---## Une faille IDOR revendiquée par le pirateL’auteur de la publication affirme avoir exploité une **faille IDOR (Insecure Direct Object Reference)**.Ce type de vulnérabilité peut apparaître lorsqu’une application permet d'accéder à une ressource à partir d'un identifiant sans vérifier correctement que l'utilisateur est autorisé à la consulter.Dans le cas présent, le pirate affirme que cette faiblesse lui aurait permis d'accéder aux données de facturation.Les éléments publiés ne permettent cependant pas de confirmer indépendamment **le fonctionnement exact de la vulnérabilité, le point d’entrée utilisé ou son éventuelle correction**.---## Des informations permettant des tentatives de phishing cibléesMême si les données observées ne comprennent pas, dans les exemples examinés, de numéros de cartes bancaires, leur combinaison peut présenter un risque pour les personnes concernées.Une identité associée à une **adresse postale, une inscription, un montant, une date de facture et un statut de paiement** pourrait notamment permettre de construire des messages frauduleux particulièrement crédibles.Un attaquant pourrait par exemple tenter de se faire passer pour un organisme de formation en faisant référence à une véritable inscription ou à un montant effectivement facturé.Les éléments examinés ne permettent toutefois pas d'affirmer que des **coordonnées bancaires ou données de cartes de paiement** figurent dans la base.---## L’étendue exacte de la fuite reste à confirmerÀ ce stade, plusieurs éléments restent à déterminer, notamment :- le **nombre exact d’enregistrements** récupérés ;- le **nombre de personnes distinctes** concernées ;- la période complète couverte par les données ;- l’étendue exacte des informations accessibles ;- la méthode technique ayant permis leur récupération ;- l’éventuelle correction de la vulnérabilité revendiquée.La publication permet néanmoins d’observer des données structurées correspondant à des **informations de facturation attribuées à Cours Thalès**.Le volume d’environ **40 000 enregistrements** ainsi que l’exploitation d’une **faille IDOR** restent, à ce stade, des éléments revendiqués par l’auteur de la publication.**FrenchBreaches poursuivra ses vérifications et mettra à jour cette alerte en cas de nouveaux éléments ou de réaction de Cours Thalès.**]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Arrestation De Hexdex Par La Section J3 Du Parquet De Paris</title>
+      <link href="/2026/04/21/actualites/arrestation-hexdex/"/>
+      <url>/2026/04/21/actualites/arrestation-hexdex/</url>
+      
+        <content type="html"><![CDATA[<p>La section J3 du parquet de Paris, spécialisée dans la lutte contre la cybercriminalité (JUNALCO), a procédé à l’arrestation de l’individu connu sous le pseudonyme de <strong>Hexdex</strong>.</p><p>Hexdex est soupçonné d’être impliqué dans de nombreuses intrusions informatiques et reventes de données exfiltrées touchant plusieurs entités françaises et internationales. Cette opération marque une étape importante dans la lutte contre les acteurs malveillants opérant sur les forums de cybercriminalité.</p><p>L’enquête, menée en collaboration avec les services de police spécialisés, se poursuit pour identifier l’ensemble des complices et évaluer l’étendue des dommages causés par les activités du suspect.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Cybersécurité </category>
+          
+          <category> Actualités </category>
+          
+          <category> actualites </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> nom </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
