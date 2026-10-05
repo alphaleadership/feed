@@ -1893,10 +1893,10 @@ readdirp@~3.6.0:
   dependencies:
     picomatch "^2.2.1"
 
-resend@^6.30.0:
-  version "6.30.0"
-  resolved "https://registry.npmjs.org/resend/-/resend-6.30.0.tgz"
-  integrity sha512-rED9rVw8N6cUvjmpYQwfZKBzd/cgWT+jURekVxtjFV2+YyK2/Tu2JOnE68sgqXlMBSYRoWgI6R0xlx3ANc/xeA==
+resend@^6.32.0:
+  version "6.32.0"
+  resolved "https://registry.yarnpkg.com/resend/-/resend-6.32.0.tgz#ba1d6cb35a4690751bb0a43524af3043d89a7c8d"
+  integrity sha512-bZZUeKlpKINFT+zGG2iIzfDewkyEHRaE7Xk1haseVz3Gfw6ekkizN6KdKgZSMjt5ywE8vMwr3wTdenlF8P475Q==
   dependencies:
     postal-mime "2.7.6"
     standardwebhooks "1.1.1"
