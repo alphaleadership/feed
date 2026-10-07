@@ -441,13 +441,14 @@ compressible@~2.0.18:
     mime-db ">= 1.43.0 < 2"
 
 compression@^1.7.4:
-  version "1.8.1"
-  resolved "https://registry.npmjs.org/compression/-/compression-1.8.1.tgz"
-  integrity sha512-9mAqGPHLakhCLeNyxPkK4xVo746zQ/czLH1Ky+vkitMnWfWZps8r0qXuwhwizagCRttsL4lfG4pIOvaWLpAP0w==
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/compression/-/compression-1.8.2.tgz#781397127ae2da00c0c5f7c76bda5b2a9b32a49f"
+  integrity sha512-o8vI5RE5A6EVVOd9o41jKp41aJom+QTEO/Bx8MYNjexMo/Bv2WOjUfZr+aL0WnYSgymUy6zeguqLTsIhV0gMvQ==
   dependencies:
     bytes "3.1.2"
     compressible "~2.0.18"
     debug "2.6.9"
+    destroy "1.2.0"
     negotiator "~0.6.4"
     on-headers "~1.1.0"
     safe-buffer "5.2.1"
@@ -1479,10 +1480,10 @@ js-yaml@^4.1.0:
   dependencies:
     argparse "^2.0.1"
 
-js-yaml@^5.4.2:
-  version "5.4.2"
-  resolved "https://registry.npmjs.org/js-yaml/-/js-yaml-5.4.2.tgz"
-  integrity sha512-m+aqu+LwO1O6sIopafj8HUVl5aawITwZQe/yHpMCKjaWBaA/d07B/QdMb3529REftiU+RMMHL3Vlsw3hON7vWg==
+js-yaml@^5.4.3:
+  version "5.4.3"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-5.4.3.tgz#4ae09e2145682daea9c91b4b1f0610de4c80c941"
+  integrity sha512-yzzNtgczwgoVHNigCyKTXcQJU4Y8t/ikU4UxXW0BvrLfHTGWZhsNcOT2s/a7vn81/4KqVnNmHjaUEPlvWnNwVw==
   dependencies:
     argparse "^2.0.1"
 
