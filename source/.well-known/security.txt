@@ -1,0 +1,7 @@
+# security.txt (RFC 9116) pour feed-blush.vercel.app
+# Signaler une vulnerabilite : https://github.com/alphaleadership/feed/security/advisories
+# (remplacer par un mailto: des qu'une adresse de contact publique sera choisie)
+Contact: https://github.com/alphaleadership/feed/security/advisories
+Expires: 2027-11-01T00:00:00.000Z
+Preferred-Languages: fr, en
+Canonical: https://feed-blush.vercel.app/.well-known/security.txt
