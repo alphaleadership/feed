@@ -57,14 +57,7 @@
   <link rel="stylesheet" href="<%- config.root %>css/comment.css" media="screen" type="text/css">
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      prefix: 'tw-',
-      corePlugins: {
-        preflight: false,
-      }
-    }
-  </script>
+  <script src="<%- config.root %>js/tailwind-config.js"></script>
   <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js"></script>
@@ -72,14 +65,7 @@
   <![endif]-->
     <script src="<%- config.root %>js/search.js"></script>
   <script src="<%- config.root %>js/jquery-4.0.0.min.js"></script>
-  <script>
-    // Compatibilité jQuery 4.x pour les anciens plugins (fancybox, imagesloaded)
-    if (window.jQuery) {
-      if (!jQuery.isFunction) jQuery.isFunction = function (o) { return typeof o === 'function'; };
-      if (!jQuery.isArray) jQuery.isArray = Array.isArray;
-      if (!jQuery.trim) jQuery.trim = function (s) { return s == null ? '' : String.prototype.trim.call(s); };
-    }
-  </script>
+  <script src="<%- config.root %>js/compat-jquery.js"></script>
   <% if (theme.comment_js) { %>
     <script src="<%- config.root %>js/marked.js"></script>
     <script src="<%- config.root %>js/comment.js"></script>
@@ -94,4 +80,5 @@
   <!-- analytics -->
   <%- partial('post/analytics') %>
 
+<script type="application/json" id="site-config"><%- JSON.stringify({ url: config.url, root: config.root, searchPath: (config.search && config.search.path) || '' }) %></script>
 </head>
