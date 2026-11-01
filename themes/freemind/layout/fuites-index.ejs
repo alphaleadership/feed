@@ -386,6 +386,17 @@
     }
   }
 
+  // Délégation d'événements (évite les handlers inline, requis par la CSP stricte)
+  document.addEventListener('click', (event) => {
+    const btn = event.target.closest('.show-nsfw-link');
+    if (!btn) return;
+    if (btn.dataset.nsfwIndex !== undefined) {
+      confirmShowLink(event, btn.dataset.nsfwIndex);
+    } else if (btn.hasAttribute('data-show-external')) {
+      confirmShowExternalLink(event);
+    }
+  });
+
   document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementById('fuites-container');
     const params = new URLSearchParams(window.location.search);
@@ -474,7 +485,7 @@
             <div class="nsfw-warning">
               <h3>⚠️ Contenu NSFW</h3>
               <p>Ce lien peut contenir du contenu sensible.</p>
-              <button onclick="confirmShowLink(event, '${breach.index}')" class="show-nsfw-link">Révéler la fuite</button>
+              <button data-nsfw-index="${breach.index}" class="show-nsfw-link">Révéler la fuite</button>
               <a href="/fuites?id=${breach.index}" data-nsfw-id="${breach.index}" class="title-link hidden">${breach.Title || breach.Name}</a>
             </div>
           `;
@@ -579,7 +590,7 @@
               <h2>Plus d'informations</h2>
               <p>
                 ${breach.isNSFW ? `
-                  <button onclick="confirmShowExternalLink(event)" class="show-nsfw-link">Afficher le lien externe</button>
+                  <button data-show-external class="show-nsfw-link">Afficher le lien externe</button>
                   <a href="${breach.lien || breach.path}" target="_blank" rel="noopener noreferrer" class="hidden">Annonce officielle de la fuite</a>
                 ` : `
                   <a href="${breach.lien || breach.path}" target="_blank" rel="noopener noreferrer">Annonce officielle de la fuite</a>
