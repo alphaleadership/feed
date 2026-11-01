@@ -18,6 +18,10 @@
           "value": "SAMEORIGIN"
         },
         {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=(), usb=(), bluetooth=(), payment=(), display-capture=(), screen-wake-lock=(), interest-cohort=(), browsing-topics=()"
+        },
+        {
           "key": "X-Content-Type-Options",
           "value": "nosniff"
         },
