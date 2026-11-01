@@ -25,7 +25,7 @@ code {
   padding: 0 5px;
   margin: 0 2px;
   font-size: 90%;
-  text-shadow: 0 1px #fff;  
+  text-shadow: 0 1px #eef2ff;  
   word-break: break-all;
   word-wrap: break-word;
   white-space: normal;
@@ -72,7 +72,7 @@ pre code {
 .highlight figcaption {
   zoom: 1;
   font-size: 0.85em;
-  color: #999;
+  color: #8b96b8;
   line-height: 1em;
   margin-bottom: 1em;
 }
@@ -90,7 +90,7 @@ pre code {
 
 pre .comment,
 pre .title {
-  color: #999;
+  color: #8b96b8;
 }
 pre .variable,
 pre .attribute,

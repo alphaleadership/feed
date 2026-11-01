@@ -268,13 +268,13 @@
 
             var percentageStr = "";
             if (yearSurpassInfo[year] && yearSurpassInfo[year].percentage) {
-              var color = yearSurpassInfo[year].diff >= 0 ? "#d9534f" : "#5cb85c";
+              var color = yearSurpassInfo[year].diff >= 0 ? "#f87171" : "#5cb85c";
               percentageStr = " <span style='color: " + color + "; font-weight: bold;'>(" + yearSurpassInfo[year].percentage + ")</span>";
             }
         %>
           <div class="archive-year-nav-item">
             <a href="#year_heading_<%= year %>">
-              <i class="fa fa-chevron-right me-2" style="font-size: 0.8em; color: #38bdf8;"></i>
+              <i class="fa fa-chevron-right me-2" style="font-size: 0.8em; color: #a3e635;"></i>
               <strong><%= year %></strong> (<%= yearCount %> <%= pluralize(yearCount, 'fuite', 'fuites') %>)<%- percentageStr %> avec <%= totalPwnCountFormatted %> <%= pluralize(totalPwnRaw, 'ligne cumulée', 'lignes cumulées') %><%- avgTimeStr %><%- lateStr %><%- predictionStr %><%- latePredictionStr %>
             </a>
           </div>
@@ -304,7 +304,7 @@
               totalDiff += new Date(allYearItems[i].BreachDate).getTime() - new Date(allYearItems[i-1].BreachDate).getTime();
             }
             var avgDiffDays = Math.round(totalDiff / (allYearItems.length - 1) / (1000 * 60 * 60 * 24));
-            avgTimeStr = " <small style='font-size:0.6em; color:#999;'>&nbsp;(moyenne " + avgDiffDays + " j. entre chaque fuite)</small>";
+            avgTimeStr = " <small style='font-size:0.6em; color:#8b96b8;'>&nbsp;(moyenne " + avgDiffDays + " j. entre chaque fuite)</small>";
           }
 
           var predictionStr = "";
@@ -316,25 +316,25 @@
               var isLeapYear = (currentYear % 4 === 0 && currentYear % 100 !== 0) || (currentYear % 400 === 0);
               var daysInYear = isLeapYear ? 366 : 365;
               var prediction = Math.round((yearCount / daysPassed) * daysInYear);
-              predictionStr = " <small style='font-size:0.6em; color:#999;'>&nbsp;- 🔮 prédiction : " + formatNumber(prediction) + " fuites</small>";
+              predictionStr = " <small style='font-size:0.6em; color:#8b96b8;'>&nbsp;- 🔮 prédiction : " + formatNumber(prediction) + " fuites</small>";
             }
           }
 
           var percentageStr = "";
           if (yearSurpassInfo[year] && yearSurpassInfo[year].percentage) {
-            var color = yearSurpassInfo[year].diff >= 0 ? "#d9534f" : "#5cb85c";
+            var color = yearSurpassInfo[year].diff >= 0 ? "#f87171" : "#5cb85c";
             percentageStr = " <small style='font-size:0.6em; color: " + color + ";'>&nbsp;(" + yearSurpassInfo[year].percentage + ")</small>";
           }
           %>
           <h4 id="year_heading_<%= year %>" class="archive-ul" data-toggle="collapse" data-target="#year_<%= year %>">
             <span>
-              <i class="fa fa-calendar-o me-2" style="color: #38bdf8;"></i>
+              <i class="fa fa-calendar-o me-2" style="color: #a3e635;"></i>
               <strong><%= year %></strong> (<%= yearCount %> <%= pluralize(yearCount, 'fuite', 'fuites') %>)<%- percentageStr %> <%- avgTimeStr %><%- predictionStr %>
             </span>
-            <i class="fa fa-chevron-down" style="font-size: 0.8em; color: #64748b;"></i>
+            <i class="fa fa-chevron-down" style="font-size: 0.8em; color: #8b96b8;"></i>
           </h4>
           <div id="year_<%= year %>" class="collapse in">
-            <h5 style="color: #64748b; margin-bottom: 15px; font-weight: 500; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;"><%= totalPwnCountFormatted %> <%= pluralize(totalPwnRaw, 'ligne cumulée', 'lignes cumulées') %> </h5>
+            <h5 style="color: #8b96b8; margin-bottom: 15px; font-weight: 500; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;"><%= totalPwnCountFormatted %> <%= pluralize(totalPwnRaw, 'ligne cumulée', 'lignes cumulées') %> </h5>
             <% if (yearSurpassInfo[year] && yearSurpassInfo[year].date) { %>
               <div class="archive-year-stats">
                 <strong>📊</strong> Le nombre de fuites de <%= yearSurpassInfo[year].prevYear %> (<%= yearSurpassInfo[year].prevYearCount %> fuites) a été dépassé le 
@@ -361,7 +361,7 @@
               <% var monthCount = archiveData.years[year][month].length; %>
               <h5 class="archive-ul" data-toggle="collapse" data-target="#month_<%= year %>_<%= month %>">
                 <span><%= archiveData.months[month] %> (<%= monthCount %>)</span>
-                <i class="fa fa-chevron-down" style="font-size: 0.8em; color: #64748b;"></i>
+                <i class="fa fa-chevron-down" style="font-size: 0.8em; color: #8b96b8;"></i>
               </h5>
               <div id="month_<%= year %>_<%= month %>" class="collapse in">
                 <ol class="archive-list" style="list-style: none; padding-left: 0;">
@@ -411,15 +411,15 @@
                           };
                           var tagColors = {
                             'IA': '#8b5cf6',
-                            'Santé': '#10b981',
-                            'Gouvernement': '#ef4444',
+                            'Santé': '#4ade80',
+                            'Gouvernement': '#f87171',
                             'Éducation': '#3b82f6',
                             'Finance': '#f59e0b',
                             'Télécom': '#06b6d4'
                           };
                           item.tags.forEach(function(tag) { 
                             var icon = tagIcons[tag] || 'fa-tag';
-                            var color = tagColors[tag] || '#6b7280';
+                            var color = tagColors[tag] || '#8b96b8';
                         %>
                           <span class="badge badge-info ms-2" style="font-size: 0.7em; background-color: <%= color %>;">
                             <i class="fa <%= icon %>"></i> <%= tag %>

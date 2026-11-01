@@ -148,7 +148,7 @@
           <h1>Liste des Fuites de Données</h1>
           <p style="color: var(--text-secondary)">Total : ${breaches.length} incidents recensés${window.__fuitesDupCount ? ` (${window.__fuitesDupCount} doublon${window.__fuitesDupCount > 1 ? 's' : ''} retiré${window.__fuitesDupCount > 1 ? 's' : ''})` : ''}</p>
           <label style="color: var(--text-secondary); font-size: 0.9em;">Trier par :
-            <select id="fuites-sort" style="margin-left: 6px; background: var(--bg-secondary, #1e293b); color: inherit; border: 1px solid #475569; border-radius: 6px; padding: 4px 8px;">
+            <select id="fuites-sort" style="margin-left: 6px; background: var(--bg-secondary, #161c36); color: inherit; border: 1px solid #3a4470; border-radius: 6px; padding: 4px 8px;">
               <option value="date-desc">Date (récent → ancien)</option>
               <option value="date-asc">Date (ancien → récent)</option>
               <option value="name-asc">Nom (A → Z)</option>

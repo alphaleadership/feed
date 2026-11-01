@@ -212,7 +212,7 @@ th {
   }
   pre,
   blockquote {
-    border: 1px solid #999;
+    border: 1px solid #8b96b8;
     page-break-inside: avoid;
   }
   thead {
@@ -250,7 +250,7 @@ th {
   }
   .table td,
   .table th {
-    background-color: #fff !important;
+    background-color: #eef2ff !important;
   }
   .table-bordered th,
   .table-bordered td {
@@ -1367,7 +1367,7 @@ a.text-danger:focus {
   color: #e6e6e6;
 }
 .bg-primary {
-  color: #fff;
+  color: #eef2ff;
   background-color: #2a9fd6;
 }
 a.bg-primary:hover,
@@ -5326,7 +5326,7 @@ a.list-group-item-success.active:hover,
 button.list-group-item-success.active:hover,
 a.list-group-item-success.active:focus,
 button.list-group-item-success.active:focus {
-  color: #fff;
+  color: #eef2ff;
   background-color: #ffffff;
   border-color: #ffffff;
 }
@@ -5355,7 +5355,7 @@ a.list-group-item-info.active:hover,
 button.list-group-item-info.active:hover,
 a.list-group-item-info.active:focus,
 button.list-group-item-info.active:focus {
-  color: #fff;
+  color: #eef2ff;
   background-color: #ffffff;
   border-color: #ffffff;
 }
@@ -5384,7 +5384,7 @@ a.list-group-item-warning.active:hover,
 button.list-group-item-warning.active:hover,
 a.list-group-item-warning.active:focus,
 button.list-group-item-warning.active:focus {
-  color: #fff;
+  color: #eef2ff;
   background-color: #ffffff;
   border-color: #ffffff;
 }
@@ -5413,7 +5413,7 @@ a.list-group-item-danger.active:hover,
 button.list-group-item-danger.active:hover,
 a.list-group-item-danger.active:focus,
 button.list-group-item-danger.active:focus {
-  color: #fff;
+  color: #eef2ff;
   background-color: #ffffff;
   border-color: #ffffff;
 }
@@ -6753,15 +6753,15 @@ button.close {
 .bg-info,
 .bg-warning,
 .bg-danger {
-  color: #fff;
+  color: #eef2ff;
 }
 table,
 .table {
-  color: #fff;
+  color: #eef2ff;
 }
 table a:not(.btn),
 .table a:not(.btn) {
-  color: #fff;
+  color: #eef2ff;
   text-decoration: underline;
 }
 table .dropdown-menu a,
@@ -6830,7 +6830,7 @@ table .text-muted,
   border-color: #77b300;
 }
 legend {
-  color: #fff;
+  color: #eef2ff;
 }
 .input-group-addon {
   background-color: #424242;
@@ -6839,7 +6839,7 @@ legend {
 .nav-pills a,
 .breadcrumb a,
 .pager a {
-  color: #fff;
+  color: #eef2ff;
 }
 .alert .alert-link,
 .alert a {
@@ -6850,13 +6850,13 @@ legend {
   text-decoration: none;
 }
 .close {
-  color: #fff;
+  color: #eef2ff;
   text-decoration: none;
   opacity: 0.4;
 }
 .close:hover,
 .close:focus {
-  color: #fff;
+  color: #eef2ff;
   opacity: 1;
 }
 a.thumbnail:hover,
@@ -6896,7 +6896,7 @@ a.list-group-item-danger.active:focus {
 .jumbotron h4,
 .jumbotron h5,
 .jumbotron h6 {
-  color: #fff;
+  color: #eef2ff;
 }
 .page h3.title {
   background-color: #eeeeee;
@@ -6907,7 +6907,7 @@ a.list-group-item-danger.active:focus {
   color: #2a9fd6;
 }
 #ds-thread #ds-reset .ds-comment-body p {
-  color: #fff;
+  color: #eef2ff;
 }
 h1.title {
   color: #888888;

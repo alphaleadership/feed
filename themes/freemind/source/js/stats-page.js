@@ -2,7 +2,7 @@ const SITE_CONFIG = JSON.parse(document.getElementById('site-config').textConten
 const SITE_URL = SITE_CONFIG.url;
 
   (function() {
-    fetch(' + SITE_URL + '/data/breaches.json')
+    fetch(SITE_URL + '/data/breaches.json')
       .then(response => response.json())
       .then(data => {
         const breaches = data.breaches.filter(b => !b.IsRetired);
@@ -50,12 +50,12 @@ const SITE_URL = SITE_CONFIG.url;
         renderEvolutionChart(evoData);
 
         // --- 2. Pie Charts ---
-        renderDonutChart("#severity-chart", Object.entries(severityStats), ["#ef4444", "#f59e0b", "#3b82f6", "#06b6d4", "#6b7280"]);
-        renderDonutChart("#verification-chart", [["Vérifié", verifiedCount], ["Non vérifié", breaches.length - verifiedCount]], ["#10b981", "#334155"]);
+        renderDonutChart("#severity-chart", Object.entries(severityStats), ["#f87171", "#f59e0b", "#3b82f6", "#06b6d4", "#8b96b8"]);
+        renderDonutChart("#verification-chart", [["Vérifié", verifiedCount], ["Non vérifié", breaches.length - verifiedCount]], ["#4ade80", "#2a3358"]);
 
         // --- 3. Bar Charts ---
-        renderBarChart("#dataclass-chart", Object.entries(dcStats).sort((a,b)=>b[1]-a[1]).slice(0, 15), "#38bdf8");
-        renderBarChart("#year-count-chart", Object.entries(yearStats).sort((a,b)=>a[0]-b[0]), "#38bdf8");
+        renderBarChart("#dataclass-chart", Object.entries(dcStats).sort((a,b)=>b[1]-a[1]).slice(0, 15), "#a3e635");
+        renderBarChart("#year-count-chart", Object.entries(yearStats).sort((a,b)=>a[0]-b[0]), "#a3e635");
         renderBarChart("#company-chart", Object.entries(companyStats).sort((a,b)=>b[1]-a[1]).slice(0, 10), "#fbbf24");
 
         // --- 4. IA Statistics ---
@@ -87,10 +87,10 @@ const SITE_URL = SITE_CONFIG.url;
       const format = (n) => n >= 1000000000 ? (n/1000000000).toFixed(2) + ' Md' : n >= 1000000 ? (n/1000000).toFixed(1) + ' M' : n.toLocaleString();
       const container = document.getElementById('kpi-container');
       const kpis = [
-        { label: "Total Fuites", value: count, icon: "fa-database", color: "#38bdf8" },
-        { label: "Comptes Compromis", value: format(pwn), icon: "fa-users", color: "#38bdf8" },
-        { label: "Fuites Vérifiées", value: ((verified/count)*100).toFixed(1) + "%", icon: "fa-check-circle", color: "#10b981" },
-        { label: "Données Sensibles", value: ((sensitive/count)*100).toFixed(1) + "%", icon: "fa-lock", color: "#ef4444" }
+        { label: "Total Fuites", value: count, icon: "fa-database", color: "#a3e635" },
+        { label: "Comptes Compromis", value: format(pwn), icon: "fa-users", color: "#a3e635" },
+        { label: "Fuites Vérifiées", value: ((verified/count)*100).toFixed(1) + "%", icon: "fa-check-circle", color: "#4ade80" },
+        { label: "Données Sensibles", value: ((sensitive/count)*100).toFixed(1) + "%", icon: "fa-lock", color: "#f87171" }
       ];
       container.innerHTML = kpis.map(k => `
         <div class="col-md-3 col-sm-6 mb-3">
@@ -141,13 +141,13 @@ const SITE_URL = SITE_CONFIG.url;
         const breachUrl = `${SITE_URL}/fuites?id=${breach.index}`;
         html += `
               <a href="${breachUrl}" style="text-decoration: none; color: inherit;">
-                <div class="list-group-item bg-black border-matrix-bottom py-2" style="border-color: #334155 !important; cursor: pointer; transition: background-color 0.2s;">
+                <div class="list-group-item bg-black border-matrix-bottom py-2" style="border-color: #2a3358 !important; cursor: pointer; transition: background-color 0.2s;">
                   <div class="d-flex justify-content-between align-items-start">
                     <div>
-                      <h6 class="mb-1" style="color: #d8b4fe;"><i class="fa fa-robot me-1" style="color: #a78bfa;"></i>${breach.Name || breach.Title}</h6>
+                      <h6 class="mb-1" style="color: #c4b5fd;"><i class="fa fa-robot me-1" style="color: #c4b5fd;"></i>${breach.Name || breach.Title}</h6>
                       <small class="text-muted">${date} • ${pwn} comptes</small>
                     </div>
-                    <i class="fa fa-external-link" style="color: #a78bfa; margin-left: 10px;"></i>
+                    <i class="fa fa-external-link" style="color: #c4b5fd; margin-left: 10px;"></i>
                   </div>
                 </div>
               </a>
@@ -206,9 +206,9 @@ const SITE_URL = SITE_CONFIG.url;
       const svg = container.append("svg").attr("width", width + margin.left + margin.right).attr("height", height + margin.top + margin.bottom).append("g").attr("transform", `translate(${margin.left},${margin.top})`);
       const x = d3.scaleTime().domain(d3.extent(data, d => d.date)).range([0, width]);
       const y = d3.scaleLinear().domain([0, d3.max(data, d => d.value) * 1.1]).nice().range([height, 0]);
-      svg.append("g").attr("transform", `translate(0,${height})`).call(d3.axisBottom(x)).attr("color", "#475569");
-      svg.append("g").call(d3.axisLeft(y)).attr("color", "#475569");
-      svg.append("path").datum(data).attr("fill", "none").attr("stroke", "#38bdf8").attr("stroke-width", 2).attr("d", d3.line().x(d => x(d.date)).y(d => y(d.value)).curve(d3.curveStepAfter));
+      svg.append("g").attr("transform", `translate(0,${height})`).call(d3.axisBottom(x)).attr("color", "#3a4470");
+      svg.append("g").call(d3.axisLeft(y)).attr("color", "#3a4470");
+      svg.append("path").datum(data).attr("fill", "none").attr("stroke", "#a3e635").attr("stroke-width", 2).attr("d", d3.line().x(d => x(d.date)).y(d => y(d.value)).curve(d3.curveStepAfter));
       svg.append("rect").attr("width", width).attr("height", height).style("fill", "none").style("pointer-events", "all")
         .on("mouseover", () => d3.select("#stats-tooltip").style("visibility", "visible"))
         .on("mouseout", () => d3.select("#stats-tooltip").style("visibility", "hidden"))
@@ -228,7 +228,7 @@ const SITE_URL = SITE_CONFIG.url;
       const pie = d3.pie().value(d => d[1]).sort(null);
       const arc = d3.arc().innerRadius(radius * 0.6).outerRadius(radius);
       svg.selectAll('path').data(pie(data)).enter().append('path').attr('d', arc).attr('fill', d => color(d.data[0]))
-        .attr("stroke", "#0f172a").style("stroke-width", "2px").style("opacity", 0.9)
+        .attr("stroke", "#0c1022").style("stroke-width", "2px").style("opacity", 0.9)
         .on("mouseover", (event, d) => showTooltip(event, `<strong>${d.data[0]}</strong><br/>${d.data[1]} incidents (${((d.data[1]/d3.sum(data, x=>x[1]))*100).toFixed(1)}%)`))
         .on("mouseout", () => d3.select("#stats-tooltip").style("visibility", "hidden"));
     }
@@ -241,8 +241,8 @@ const SITE_URL = SITE_CONFIG.url;
       const svg = container.append("svg").attr("width", width + margin.left + margin.right).attr("height", height + margin.top + margin.bottom).append("g").attr("transform", `translate(${margin.left},${margin.top})`);
       const x = d3.scaleBand().domain(data.map(d => d[0])).range([0, width]).padding(0.2);
       const y = d3.scaleLinear().domain([0, d3.max(data, d => d[1])]).nice().range([height, 0]);
-      svg.append("g").attr("transform", `translate(0,${height})`).call(d3.axisBottom(x)).attr("color", "#475569").selectAll("text").attr("transform", "rotate(-45)").style("text-anchor", "end").style("font-size", "10px");
-      svg.append("g").call(d3.axisLeft(y)).attr("color", "#475569");
+      svg.append("g").attr("transform", `translate(0,${height})`).call(d3.axisBottom(x)).attr("color", "#3a4470").selectAll("text").attr("transform", "rotate(-45)").style("text-anchor", "end").style("font-size", "10px");
+      svg.append("g").call(d3.axisLeft(y)).attr("color", "#3a4470");
       svg.selectAll(".bar").data(data).enter().append("rect").attr("class", "bar").attr("x", d => x(d[0])).attr("y", d => y(d[1])).attr("width", x.bandwidth()).attr("height", d => height - y(d[1])).attr("fill", defaultColor)
         .on("mouseover", (event, d) => showTooltip(event, `<strong>${d[0]}</strong><br/>${d[1]} incidents`))
         .on("mouseout", () => d3.select("#stats-tooltip").style("visibility", "hidden"));

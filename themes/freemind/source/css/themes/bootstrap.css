@@ -211,7 +211,7 @@ th {
   }
   pre,
   blockquote {
-    border: 1px solid #999;
+    border: 1px solid #8b96b8;
     page-break-inside: avoid;
   }
   thead {
@@ -249,7 +249,7 @@ th {
   }
   .table td,
   .table th {
-    background-color: #fff !important;
+    background-color: #eef2ff !important;
   }
   .table-bordered th,
   .table-bordered td {
@@ -1366,7 +1366,7 @@ a.text-danger:focus {
   color: #843534;
 }
 .bg-primary {
-  color: #fff;
+  color: #eef2ff;
   background-color: #337ab7;
 }
 a.bg-primary:hover,
@@ -3336,7 +3336,7 @@ fieldset[disabled] .btn-warning.focus {
 }
 .btn-danger {
   color: #ffffff;
-  background-color: #d9534f;
+  background-color: #f87171;
   border-color: #d43f3a;
 }
 .btn-danger:focus,
@@ -3384,11 +3384,11 @@ fieldset[disabled] .btn-danger:focus,
 .btn-danger.disabled.focus,
 .btn-danger[disabled].focus,
 fieldset[disabled] .btn-danger.focus {
-  background-color: #d9534f;
+  background-color: #f87171;
   border-color: #d43f3a;
 }
 .btn-danger .badge {
-  color: #d9534f;
+  color: #f87171;
   background-color: #ffffff;
 }
 .btn-link {
@@ -4889,7 +4889,7 @@ a.label:focus {
   background-color: #ec971f;
 }
 .label-danger {
-  background-color: #d9534f;
+  background-color: #f87171;
 }
 .label-danger[href]:hover,
 .label-danger[href]:focus {
@@ -5163,7 +5163,7 @@ a.thumbnail.active {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 .progress-bar-danger {
-  background-color: #d9534f;
+  background-color: #f87171;
 }
 .progress-striped .progress-bar-danger {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -5325,7 +5325,7 @@ a.list-group-item-success.active:hover,
 button.list-group-item-success.active:hover,
 a.list-group-item-success.active:focus,
 button.list-group-item-success.active:focus {
-  color: #fff;
+  color: #eef2ff;
   background-color: #3c763d;
   border-color: #3c763d;
 }
@@ -5354,7 +5354,7 @@ a.list-group-item-info.active:hover,
 button.list-group-item-info.active:hover,
 a.list-group-item-info.active:focus,
 button.list-group-item-info.active:focus {
-  color: #fff;
+  color: #eef2ff;
   background-color: #31708f;
   border-color: #31708f;
 }
@@ -5383,7 +5383,7 @@ a.list-group-item-warning.active:hover,
 button.list-group-item-warning.active:hover,
 a.list-group-item-warning.active:focus,
 button.list-group-item-warning.active:focus {
-  color: #fff;
+  color: #eef2ff;
   background-color: #8a6d3b;
   border-color: #8a6d3b;
 }
@@ -5412,7 +5412,7 @@ a.list-group-item-danger.active:hover,
 button.list-group-item-danger.active:hover,
 a.list-group-item-danger.active:focus,
 button.list-group-item-danger.active:focus {
-  color: #fff;
+  color: #eef2ff;
   background-color: #a94442;
   border-color: #a94442;
 }

@@ -211,7 +211,7 @@ th {
   }
   pre,
   blockquote {
-    border: 1px solid #999;
+    border: 1px solid #8b96b8;
     page-break-inside: avoid;
   }
   thead {
@@ -249,7 +249,7 @@ th {
   }
   .table td,
   .table th {
-    background-color: #fff !important;
+    background-color: #eef2ff !important;
   }
   .table-bordered th,
   .table-bordered td {
@@ -1366,7 +1366,7 @@ a.text-danger:focus {
   color: #e6e6e6;
 }
 .bg-primary {
-  color: #fff;
+  color: #eef2ff;
   background-color: #7a8288;
 }
 a.bg-primary:hover,
@@ -5325,7 +5325,7 @@ a.list-group-item-success.active:hover,
 button.list-group-item-success.active:hover,
 a.list-group-item-success.active:focus,
 button.list-group-item-success.active:focus {
-  color: #fff;
+  color: #eef2ff;
   background-color: #ffffff;
   border-color: #ffffff;
 }
@@ -5354,7 +5354,7 @@ a.list-group-item-info.active:hover,
 button.list-group-item-info.active:hover,
 a.list-group-item-info.active:focus,
 button.list-group-item-info.active:focus {
-  color: #fff;
+  color: #eef2ff;
   background-color: #ffffff;
   border-color: #ffffff;
 }
@@ -5383,7 +5383,7 @@ a.list-group-item-warning.active:hover,
 button.list-group-item-warning.active:hover,
 a.list-group-item-warning.active:focus,
 button.list-group-item-warning.active:focus {
-  color: #fff;
+  color: #eef2ff;
   background-color: #ffffff;
   border-color: #ffffff;
 }
@@ -5412,7 +5412,7 @@ a.list-group-item-danger.active:hover,
 button.list-group-item-danger.active:hover,
 a.list-group-item-danger.active:focus,
 button.list-group-item-danger.active:focus {
-  color: #fff;
+  color: #eef2ff;
   background-color: #ffffff;
   border-color: #ffffff;
 }
@@ -6957,7 +6957,7 @@ h6 {
 .table .warning,
 .table .danger,
 .table .info {
-  color: #fff;
+  color: #eef2ff;
 }
 .table-bordered tbody tr.success td,
 .table-bordered tbody tr.warning td,
@@ -7038,7 +7038,7 @@ textarea {
   border: none;
 }
 legend {
-  color: #fff;
+  color: #eef2ff;
 }
 .input-group-addon {
   border-color: rgba(0, 0, 0, 0.6);
@@ -7214,7 +7214,7 @@ legend {
 }
 .alert .alert-link,
 .alert a {
-  color: #fff;
+  color: #eef2ff;
   text-decoration: underline;
 }
 .alert .close {
@@ -7291,7 +7291,7 @@ a.list-group-item-danger.active:focus {
   color: #ffffff;
 }
 #ds-thread #ds-reset .ds-comment-body p {
-  color: #fff;
+  color: #eef2ff;
 }
 h1.title {
   color: #c8c8c8;

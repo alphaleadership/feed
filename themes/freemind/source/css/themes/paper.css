@@ -212,7 +212,7 @@ th {
   }
   pre,
   blockquote {
-    border: 1px solid #999;
+    border: 1px solid #8b96b8;
     page-break-inside: avoid;
   }
   thead {
@@ -250,7 +250,7 @@ th {
   }
   .table td,
   .table th {
-    background-color: #fff !important;
+    background-color: #eef2ff !important;
   }
   .table-bordered th,
   .table-bordered td {
@@ -1367,7 +1367,7 @@ a.text-danger:focus {
   color: #b9151b;
 }
 .bg-primary {
-  color: #fff;
+  color: #eef2ff;
   background-color: #2196f3;
 }
 a.bg-primary:hover,
@@ -5326,7 +5326,7 @@ a.list-group-item-success.active:hover,
 button.list-group-item-success.active:hover,
 a.list-group-item-success.active:focus,
 button.list-group-item-success.active:focus {
-  color: #fff;
+  color: #eef2ff;
   background-color: #4caf50;
   border-color: #4caf50;
 }
@@ -5355,7 +5355,7 @@ a.list-group-item-info.active:hover,
 button.list-group-item-info.active:hover,
 a.list-group-item-info.active:focus,
 button.list-group-item-info.active:focus {
-  color: #fff;
+  color: #eef2ff;
   background-color: #9c27b0;
   border-color: #9c27b0;
 }
@@ -5384,7 +5384,7 @@ a.list-group-item-warning.active:hover,
 button.list-group-item-warning.active:hover,
 a.list-group-item-warning.active:focus,
 button.list-group-item-warning.active:focus {
-  color: #fff;
+  color: #eef2ff;
   background-color: #ff9800;
   border-color: #ff9800;
 }
@@ -5413,7 +5413,7 @@ a.list-group-item-danger.active:hover,
 button.list-group-item-danger.active:hover,
 a.list-group-item-danger.active:focus,
 button.list-group-item-danger.active:focus {
-  color: #fff;
+  color: #eef2ff;
   background-color: #e51c23;
   border-color: #e51c23;
 }
@@ -6738,7 +6738,7 @@ button.close {
 }
 .navbar-inverse .navbar-form input[type=text],
 .navbar-inverse .navbar-form input[type=password] {
-  color: #fff;
+  color: #eef2ff;
   -webkit-box-shadow: inset 0 -1px 0 #b2dbfb;
   box-shadow: inset 0 -1px 0 #b2dbfb;
 }
@@ -7236,7 +7236,7 @@ input[type="checkbox"]:checked:before,
   display: table;
   width: 6px;
   height: 12px;
-  border: 2px solid #fff;
+  border: 2px solid #eef2ff;
   border-top-width: 0;
   border-left-width: 0;
   -webkit-transform: rotate(45deg);
@@ -7359,7 +7359,7 @@ input[type="checkbox"]:disabled:checked:after,
 }
 .alert {
   border: none;
-  color: #fff;
+  color: #eef2ff;
 }
 .alert-success {
   background-color: #4caf50;
@@ -7375,11 +7375,11 @@ input[type="checkbox"]:disabled:checked:after,
 }
 .alert a:not(.close),
 .alert .alert-link {
-  color: #fff;
+  color: #eef2ff;
   font-weight: bold;
 }
 .alert .close {
-  color: #fff;
+  color: #eef2ff;
 }
 .badge {
   padding: 4px 6px 4px;

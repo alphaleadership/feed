@@ -212,7 +212,7 @@ th {
   }
   pre,
   blockquote {
-    border: 1px solid #999;
+    border: 1px solid #8b96b8;
     page-break-inside: avoid;
   }
   thead {
@@ -250,7 +250,7 @@ th {
   }
   .table td,
   .table th {
-    background-color: #fff !important;
+    background-color: #eef2ff !important;
   }
   .table-bordered th,
   .table-bordered td {
@@ -1367,7 +1367,7 @@ a.text-danger:focus {
   color: #e6e6e6;
 }
 .bg-primary {
-  color: #fff;
+  color: #eef2ff;
   background-color: #158cba;
 }
 a.bg-primary:hover,
@@ -5326,7 +5326,7 @@ a.list-group-item-success.active:hover,
 button.list-group-item-success.active:hover,
 a.list-group-item-success.active:focus,
 button.list-group-item-success.active:focus {
-  color: #fff;
+  color: #eef2ff;
   background-color: #ffffff;
   border-color: #ffffff;
 }
@@ -5355,7 +5355,7 @@ a.list-group-item-info.active:hover,
 button.list-group-item-info.active:hover,
 a.list-group-item-info.active:focus,
 button.list-group-item-info.active:focus {
-  color: #fff;
+  color: #eef2ff;
   background-color: #ffffff;
   border-color: #ffffff;
 }
@@ -5384,7 +5384,7 @@ a.list-group-item-warning.active:hover,
 button.list-group-item-warning.active:hover,
 a.list-group-item-warning.active:focus,
 button.list-group-item-warning.active:focus {
-  color: #fff;
+  color: #eef2ff;
   background-color: #ffffff;
   border-color: #ffffff;
 }
@@ -5413,7 +5413,7 @@ a.list-group-item-danger.active:hover,
 button.list-group-item-danger.active:hover,
 a.list-group-item-danger.active:focus,
 button.list-group-item-danger.active:focus {
-  color: #fff;
+  color: #eef2ff;
   background-color: #ffffff;
   border-color: #ffffff;
 }
@@ -6862,7 +6862,7 @@ table .danger,
 .table .danger,
 table .info,
 .table .info {
-  color: #fff;
+  color: #eef2ff;
 }
 table .success a:not(.btn),
 .table .success a:not(.btn),
@@ -6872,7 +6872,7 @@ table .danger a:not(.btn),
 .table .danger a:not(.btn),
 table .info a:not(.btn),
 .table .info a:not(.btn) {
-  color: #fff;
+  color: #eef2ff;
 }
 table:not(.table-bordered) > thead > tr > th,
 .table:not(.table-bordered) > thead > tr > th,
@@ -7067,13 +7067,13 @@ label {
   border-right-width: 2px;
 }
 .close {
-  color: #fff;
+  color: #eef2ff;
   text-decoration: none;
   opacity: 0.4;
 }
 .close:hover,
 .close:focus {
-  color: #fff;
+  color: #eef2ff;
   opacity: 1;
 }
 .alert {
@@ -7081,7 +7081,7 @@ label {
 }
 .alert .alert-link {
   font-weight: normal;
-  color: #fff;
+  color: #eef2ff;
   text-decoration: underline;
 }
 .label {
@@ -7146,8 +7146,8 @@ a.list-group-item-danger.active:focus {
   color: #555555;
 }
 .page h3.title-top {
-  background-color: #fff;
-  border-top: 3px solid #fff;
+  background-color: #eef2ff;
+  border-top: 3px solid #eef2ff;
 }
 h1.title {
   color: #999999;

@@ -212,7 +212,7 @@ th {
   }
   pre,
   blockquote {
-    border: 1px solid #999;
+    border: 1px solid #8b96b8;
     page-break-inside: avoid;
   }
   thead {
@@ -250,7 +250,7 @@ th {
   }
   .table td,
   .table th {
-    background-color: #fff !important;
+    background-color: #eef2ff !important;
   }
   .table-bordered th,
   .table-bordered td {
@@ -1367,7 +1367,7 @@ a.text-danger:focus {
   color: #953b39;
 }
 .bg-primary {
-  color: #fff;
+  color: #eef2ff;
   background-color: #eb6864;
 }
 a.bg-primary:hover,
@@ -5326,7 +5326,7 @@ a.list-group-item-success.active:hover,
 button.list-group-item-success.active:hover,
 a.list-group-item-success.active:focus,
 button.list-group-item-success.active:focus {
-  color: #fff;
+  color: #eef2ff;
   background-color: #468847;
   border-color: #468847;
 }
@@ -5355,7 +5355,7 @@ a.list-group-item-info.active:hover,
 button.list-group-item-info.active:hover,
 a.list-group-item-info.active:focus,
 button.list-group-item-info.active:focus {
-  color: #fff;
+  color: #eef2ff;
   background-color: #3a87ad;
   border-color: #3a87ad;
 }
@@ -5384,7 +5384,7 @@ a.list-group-item-warning.active:hover,
 button.list-group-item-warning.active:hover,
 a.list-group-item-warning.active:focus,
 button.list-group-item-warning.active:focus {
-  color: #fff;
+  color: #eef2ff;
   background-color: #c09853;
   border-color: #c09853;
 }
@@ -5413,7 +5413,7 @@ a.list-group-item-danger.active:hover,
 button.list-group-item-danger.active:hover,
 a.list-group-item-danger.active:focus,
 button.list-group-item-danger.active:focus {
-  color: #fff;
+  color: #eef2ff;
   background-color: #b94a48;
   border-color: #b94a48;
 }
@@ -6736,10 +6736,10 @@ button.close {
 }
 .navbar-default .badge {
   background-color: #000;
-  color: #fff;
+  color: #eef2ff;
 }
 .navbar-inverse .badge {
-  background-color: #fff;
+  background-color: #eef2ff;
   color: #eb6864;
 }
 .navbar-brand {
@@ -6818,13 +6818,13 @@ button.close {
 .panel-warning .panel-title,
 .panel-danger .panel-title,
 .panel-info .panel-title {
-  color: #fff;
+  color: #eef2ff;
 }
 h1.title {
   color: #eb6864 !important;
 }
 h1.title-inverse {
-  color: #fff!important;
+  color: #eef2ff!important;
 }
 .page-header {
   -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);

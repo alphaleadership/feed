@@ -212,7 +212,7 @@ th {
   }
   pre,
   blockquote {
-    border: 1px solid #999;
+    border: 1px solid #8b96b8;
     page-break-inside: avoid;
   }
   thead {
@@ -250,7 +250,7 @@ th {
   }
   .table td,
   .table th {
-    background-color: #fff !important;
+    background-color: #eef2ff !important;
   }
   .table-bordered th,
   .table-bordered td {
@@ -1367,7 +1367,7 @@ a.text-danger:focus {
   color: #d32a0e;
 }
 .bg-primary {
-  color: #fff;
+  color: #eef2ff;
   background-color: #008cba;
 }
 a.bg-primary:hover,
@@ -5326,7 +5326,7 @@ a.list-group-item-success.active:hover,
 button.list-group-item-success.active:hover,
 a.list-group-item-success.active:focus,
 button.list-group-item-success.active:focus {
-  color: #fff;
+  color: #eef2ff;
   background-color: #43ac6a;
   border-color: #43ac6a;
 }
@@ -5355,7 +5355,7 @@ a.list-group-item-info.active:hover,
 button.list-group-item-info.active:hover,
 a.list-group-item-info.active:focus,
 button.list-group-item-info.active:focus {
-  color: #fff;
+  color: #eef2ff;
   background-color: #5bc0de;
   border-color: #5bc0de;
 }
@@ -5384,7 +5384,7 @@ a.list-group-item-warning.active:hover,
 button.list-group-item-warning.active:hover,
 a.list-group-item-warning.active:focus,
 button.list-group-item-warning.active:focus {
-  color: #fff;
+  color: #eef2ff;
   background-color: #e99002;
   border-color: #e99002;
 }
@@ -5413,7 +5413,7 @@ a.list-group-item-danger.active:hover,
 button.list-group-item-danger.active:hover,
 a.list-group-item-danger.active:focus,
 button.list-group-item-danger.active:focus {
-  color: #fff;
+  color: #eef2ff;
   background-color: #f04124;
   border-color: #f04124;
 }
@@ -6941,7 +6941,7 @@ input[type="checkbox"] {
 }
 .pagination > .active > a,
 .pagination > .active > span {
-  color: #fff;
+  color: #eef2ff;
 }
 .pagination > li > a,
 .pagination > li:first-child > a,
@@ -6984,7 +6984,7 @@ input[type="checkbox"] {
 }
 .alert .alert-link {
   font-weight: normal;
-  color: #fff;
+  color: #eef2ff;
   text-decoration: underline;
 }
 .label {
@@ -7023,7 +7023,7 @@ input[type="checkbox"] {
   text-transform: uppercase;
 }
 .popover {
-  color: #fff;
+  color: #eef2ff;
   font-size: 12px;
   font-weight: 300;
 }
