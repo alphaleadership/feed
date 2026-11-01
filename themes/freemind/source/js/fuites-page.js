@@ -71,15 +71,33 @@
         return response.json();
       })
       .then(data => {
-        // Consistent filtering and sorting
-        const breaches = data.breaches.filter(item => {
+        // Filtrage
+        const filtered = data.breaches.filter(item => {
           if (!item || item.IsRetired) return false;
-          // Filtrer les fuites sans DataClasses (types de données)
-         // if (!item.DataClasses || item.DataClasses.length === 0) return false;
-          
           const name = (item.Name || item.Title || item.slug || '').toLowerCase();
           return !name.includes('cve');
         });
+
+        // Dedoublonnage : meme titre normalise = meme incident.
+        // On garde la fiche la plus complete (description + nb de victimes).
+        const normTitle = (t) => (t || '').toLowerCase().trim().replace(/\s+/g, ' ').replace(/[.,!?:;-–—_]/g, '');
+        const score = (x) => (x.Description ? x.Description.length : 0) + (x.PwnCount || 0);
+        const seen = new Map();
+        const breaches = [];
+        let dupCount = 0;
+        filtered.forEach(item => {
+          const k = normTitle(item.Title || item.Name || item.slug);
+          if (!k) { breaches.push(item); return; }
+          const prev = seen.get(k);
+          if (!prev) { seen.set(k, item); breaches.push(item); return; }
+          dupCount++;
+          if (score(item) > score(prev)) {
+            seen.set(k, item);
+            const i = breaches.indexOf(prev);
+            if (i !== -1) breaches[i] = item;
+          }
+        });
+        window.__fuitesDupCount = dupCount;
 
         allBreaches = breaches;
         const sorted = sortBreaches(allBreaches, currentSort);
@@ -128,7 +146,7 @@
       let html = `
         <div class="fuites-header">
           <h1>Liste des Fuites de Données</h1>
-          <p style="color: var(--text-secondary)">Total : ${breaches.length} incidents recensés</p>
+          <p style="color: var(--text-secondary)">Total : ${breaches.length} incidents recensés${window.__fuitesDupCount ? ` (${window.__fuitesDupCount} doublon${window.__fuitesDupCount > 1 ? 's' : ''} retiré${window.__fuitesDupCount > 1 ? 's' : ''})` : ''}</p>
           <label style="color: var(--text-secondary); font-size: 0.9em;">Trier par :
             <select id="fuites-sort" style="margin-left: 6px; background: var(--bg-secondary, #1e293b); color: inherit; border: 1px solid #475569; border-radius: 6px; padding: 4px 8px;">
               <option value="date-desc">Date (récent → ancien)</option>
