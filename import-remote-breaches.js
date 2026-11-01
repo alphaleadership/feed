@@ -67,6 +67,82 @@ const SOURCES = [
             LogoPath: "",
             source: "frenchbreaches.com"
         })
+    },
+    {
+        name: "DataBreaches.net",
+        url: "https://databreaches.net/feed/",
+        type: 'rss',
+        selector: (feed) => feed.items || [],
+        mapper: (remote) => ({
+            Name: remote.title,
+            Title: remote.title,
+            Domain: remote.link ? (() => { try { const h = new URL(remote.link).hostname; return h.startsWith('www.') ? h.slice(4) : h; } catch { return ''; } })() : "",
+            BreachDate: remote.pubDate ? new Date(remote.pubDate).toISOString().split('T')[0] : '1970-01-01',
+            PwnCount: 0,
+            Description: remote.contentSnippet || remote.content || "",
+            DataClasses: remote.categories || [],
+            IsSensitive: false,
+            IsVerified: true, IsFabricated: false, IsSpam: false, IsRetired: false, IsNative: true,
+            LogoPath: "",
+            source: "databreaches.net"
+        })
+    },
+    {
+        name: "Zataz",
+        url: "https://www.zataz.com/feed/",
+        type: 'rss',
+        selector: (feed) => feed.items || [],
+        mapper: (remote) => ({
+            Name: remote.title,
+            Title: remote.title,
+            Domain: remote.link ? (() => { try { const h = new URL(remote.link).hostname; return h.startsWith('www.') ? h.slice(4) : h; } catch { return ''; } })() : "",
+            BreachDate: remote.pubDate ? new Date(remote.pubDate).toISOString().split('T')[0] : '1970-01-01',
+            PwnCount: 0,
+            Description: remote.contentSnippet || remote.content || "",
+            DataClasses: remote.categories || [],
+            IsSensitive: false,
+            IsVerified: true, IsFabricated: false, IsSpam: false, IsRetired: false, IsNative: true,
+            LogoPath: "",
+            source: "zataz.com"
+        })
+    },
+    {
+        name: "Bing News FR - fuites de donnees",
+        url: "https://www.bing.com/news/search?q=fuite+de+donn%C3%A9es+piratage&format=rss&cc=fr&setlang=fr",
+        type: 'rss',
+        selector: (feed) => feed.items || [],
+        mapper: (remote) => ({
+            Name: remote.title,
+            Title: remote.title,
+            Domain: remote.link ? (() => { try { const h = new URL(remote.link).hostname; return h.startsWith('www.') ? h.slice(4) : h; } catch { return ''; } })() : "",
+            BreachDate: remote.pubDate ? new Date(remote.pubDate).toISOString().split('T')[0] : '1970-01-01',
+            PwnCount: 0,
+            Description: remote.contentSnippet || remote.content || "",
+            DataClasses: remote.categories || [],
+            IsSensitive: false,
+            IsVerified: true, IsFabricated: false, IsSpam: false, IsRetired: false, IsNative: true,
+            LogoPath: "",
+            source: "bing.com/news (fuite de données)"
+        })
+    },
+    {
+        name: "Bing News FR - ransomware",
+        url: "https://www.bing.com/news/search?q=ransomware+victime+France+cyberattaque&format=rss&cc=fr&setlang=fr",
+        type: 'rss',
+        selector: (feed) => feed.items || [],
+        mapper: (remote) => ({
+            Name: remote.title,
+            Title: remote.title,
+            Domain: remote.link ? (() => { try { const h = new URL(remote.link).hostname; return h.startsWith('www.') ? h.slice(4) : h; } catch { return ''; } })() : "",
+            BreachDate: remote.pubDate ? new Date(remote.pubDate).toISOString().split('T')[0] : '1970-01-01',
+            PwnCount: 0,
+            Description: remote.contentSnippet || remote.content || "",
+            DataClasses: remote.categories || [],
+            IsSensitive: false,
+            IsVerified: true, IsFabricated: false, IsSpam: false, IsRetired: false, IsNative: true,
+            LogoPath: "",
+            source: "bing.com/news (ransomware)"
+        })
     }
 ];
 
