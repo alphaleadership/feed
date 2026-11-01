@@ -71,7 +71,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.7/es5-sham.min.js"></script>
   <![endif]-->
     <script src="<%- config.root %>js/search.js"></script>
-  <script src="<%- config.root %>js/jquery-2.0.3.min.js"></script>
+  <script src="<%- config.root %>js/jquery-4.0.0.min.js"></script>
+  <script>
+    // Compatibilité jQuery 4.x pour les anciens plugins (fancybox, imagesloaded)
+    if (window.jQuery) {
+      if (!jQuery.isFunction) jQuery.isFunction = function (o) { return typeof o === 'function'; };
+      if (!jQuery.isArray) jQuery.isArray = Array.isArray;
+      if (!jQuery.trim) jQuery.trim = function (s) { return s == null ? '' : String.prototype.trim.call(s); };
+    }
+  </script>
   <% if (theme.comment_js) { %>
     <script src="<%- config.root %>js/marked.js"></script>
     <script src="<%- config.root %>js/comment.js"></script>
