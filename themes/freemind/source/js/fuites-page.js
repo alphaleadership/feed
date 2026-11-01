@@ -54,6 +54,13 @@
     const params = new URLSearchParams(window.location.search);
     const breachId = params.get('id');
 
+    container.addEventListener('change', (e) => {
+      if (e.target && e.target.id === 'fuites-sort') {
+        currentSort = e.target.value;
+        renderList(sortBreaches(allBreaches, currentSort));
+      }
+    });
+
     const dataUrl = '/data/breaches.json';
 
     fetch(dataUrl)
@@ -74,22 +81,18 @@
           return !name.includes('cve');
         });
 
-        // Trier par date décroissante (plus récentes en premier)
-        breaches.sort((a, b) => {
-          const dateA = new Date(a.BreachDate || 0);
-          const dateB = new Date(b.BreachDate || 0);
-          return dateB - dateA;
-        });
+        allBreaches = breaches;
+        const sorted = sortBreaches(allBreaches, currentSort);
 
         if (breachId !== null) {
-          const currentIndex = breaches.findIndex(b => b.index == breachId );
+          const currentIndex = sorted.findIndex(b => b.index == breachId );
           if (currentIndex !== -1) {
-            renderDetails(breaches, currentIndex);
+            renderDetails(sorted, currentIndex);
           } else {
-            renderList(breaches);
+            renderList(sorted);
           }
         } else {
-          renderList(breaches);
+          renderList(sorted);
         }
       })
       .catch(error => {
@@ -102,11 +105,39 @@
         </div>`;
       });
 
+    const SEVERITY_ORDER = { 'CRITIQUE': 4, 'ÉLEVÉ': 3, 'MODÉRÉ': 2, 'FAIBLE': 1 };
+    let allBreaches = [];
+    let currentSort = 'date-desc';
+
+    const nameOf = (x) => (x.Name || x.Title || x.slug || '').toLowerCase();
+    const byDateDesc = (a, b) => new Date(b.BreachDate || 0) - new Date(a.BreachDate || 0) || nameOf(a).localeCompare(nameOf(b), 'fr');
+
+    function sortBreaches(list, mode) {
+      const arr = list.slice();
+      switch (mode) {
+        case 'date-asc': arr.sort((a, b) => -byDateDesc(a, b)); break;
+        case 'name-asc': arr.sort((a, b) => nameOf(a).localeCompare(nameOf(b), 'fr')); break;
+        case 'pwn-desc': arr.sort((a, b) => (b.PwnCount || 0) - (a.PwnCount || 0) || byDateDesc(a, b)); break;
+        case 'severity-desc': arr.sort((a, b) => (SEVERITY_ORDER[b.SeverityLevel] || 0) - (SEVERITY_ORDER[a.SeverityLevel] || 0) || byDateDesc(a, b)); break;
+        default: arr.sort(byDateDesc); // date-desc
+      }
+      return arr;
+    }
+
     function renderList(breaches) {
       let html = `
         <div class="fuites-header">
           <h1>Liste des Fuites de Données</h1>
           <p style="color: var(--text-secondary)">Total : ${breaches.length} incidents recensés</p>
+          <label style="color: var(--text-secondary); font-size: 0.9em;">Trier par :
+            <select id="fuites-sort" style="margin-left: 6px; background: var(--bg-secondary, #1e293b); color: inherit; border: 1px solid #475569; border-radius: 6px; padding: 4px 8px;">
+              <option value="date-desc">Date (récent → ancien)</option>
+              <option value="date-asc">Date (ancien → récent)</option>
+              <option value="name-asc">Nom (A → Z)</option>
+              <option value="pwn-desc">Victimes (décroissant)</option>
+              <option value="severity-desc">Sévérité (critique d'abord)</option>
+            </select>
+          </label>
         </div>
         <div class="fuite-grid">
       `;
@@ -174,6 +205,8 @@
       
       html += '</div>';
       container.innerHTML = html;
+      const sel = document.getElementById('fuites-sort');
+      if (sel) sel.value = currentSort;
     }
 
     function renderDetails(breaches, currentIndex) {
