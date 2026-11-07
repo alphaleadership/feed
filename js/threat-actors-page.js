@@ -1,0 +1,104 @@
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const listContainer = document.getElementById('actors-list');
+    const searchInput = document.getElementById('actor-search');
+    let actorsData = [];
+    let actorsStatus = {};
+ 
+    // Charger les deux fichiers de données
+    Promise.all([
+      fetch('/data/breaches.json').then(r => r.json()),
+      fetch('/data/threat_actors.json').then(r => r.json()).catch(() => ({ actors: [] }))
+    ])
+    .then(([breachesData, statusData]) => {
+        const breaches = breachesData.breaches;
+        const actorsMap = {};
+
+        // Organiser les statuts par nom (minuscule)
+        if (statusData && statusData.actors) {
+          statusData.actors.forEach(a => {
+            actorsStatus[a.name.toLowerCase()] = a;
+          });
+        }
+
+        breaches.forEach(breach => {
+          if (breach.Attribution && breach.Attribution !== 'null' && breach.Attribution !== 'Unknown') {
+            const actor = breach.Attribution;
+            const actorKey = actor.toLowerCase();
+            if (!actorsMap[actorKey]) {
+              actorsMap[actorKey] = {
+                name: actor,
+                breaches: [],
+                status: actorsStatus[actorKey] ? actorsStatus[actorKey].status : null,
+                note: actorsStatus[actorKey] ? actorsStatus[actorKey].note : null
+              };
+            }
+            actorsMap[actorKey].breaches.push(breach);
+          }
+        });
+
+        actorsData = Object.values(actorsMap).sort((a, b) => b.breaches.length - a.breaches.length);
+        renderActors(actorsData);
+      })
+      .catch(error => {
+        listContainer.innerHTML = `<div class="tw-bg-red-500/10 tw-border tw-border-red-500/20 tw-text-red-400 tw-p-4 tw-rounded-xl">Erreur lors du chargement des données: ${error.message}</div>`;
+      });
+
+    searchInput.addEventListener('input', (e) => {
+      const searchTerm = e.target.value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+      const filtered = actorsData.filter(actor => 
+        actor.name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(searchTerm) || 
+        actor.breaches.some(b => (b.Title || b.Name).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(searchTerm)) ||
+        (actor.status && actor.status.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(searchTerm))
+      );
+      renderActors(filtered);
+    });
+
+    function renderActors(actors) {
+      if (actors.length === 0) {
+        listContainer.innerHTML = '<div class="tw-text-center tw-py-12 tw-text-slate-400">Aucun pirate trouvé.</div>';
+        return;
+      }
+
+      function neutralize(text) {
+        if (!text) return '';
+        // Neutralize URLs (remove protocol, replace dots)
+        let neutral = text.replace(/https?:\/\//gi, '');
+        // Neutralize Email (replace @ and dots)
+        neutral = neutral.replace(/@/g, ' [at] ').replace(/\./g, '[.]');
+        return neutral;
+      }
+
+      let html = '';
+      actors.forEach(actor => {
+        const neutralizedName = neutralize(actor.name);
+        const statusBadge = actor.status === 'en taule' 
+          ? `<span class="tw-bg-red-500/10 tw-text-red-400 tw-border tw-border-red-500/20 tw-px-2.5 tw-py-1 tw-rounded-full tw-text-xs tw-font-semibold tw-inline-flex tw-items-center tw-gap-1.5"><i class="fa fa-gavel"></i> EN PRISON</span>` 
+          : '';
+        
+        const noteHtml = actor.note ? `<div class="tw-text-sm tw-text-slate-400 tw-italic tw-mb-3 tw-bg-slate-900/50 tw-p-2 tw-rounded-lg tw-border tw-border-slate-900">Note: ${actor.note}</div>` : '';
+
+        html += `
+          <div class="tw-bg-slate-950 tw-border tw-border-slate-800 tw-rounded-xl tw-p-5 tw-mb-6 tw-transition-all tw-duration-300 hover:tw-shadow-[0_4px_20px_rgba(0,0,0,0.4)] ${actor.status === 'en taule' ? 'tw-border-l-4 tw-border-l-red-500' : 'hover:tw-border-sky-500'}">
+            <div class="tw-flex tw-items-center tw-justify-between tw-flex-wrap tw-gap-2 tw-mb-2">
+              <h3 class="tw-text-lg tw-font-semibold tw-text-slate-200 tw-m-0 tw-flex tw-items-center tw-gap-2">
+                <i class="fa fa-user-secret tw-text-sky-400"></i> ${neutralizedName}
+              </h3>
+              ${statusBadge}
+            </div>
+            ${noteHtml}
+            <div class="tw-text-sm tw-text-slate-400 tw-mb-4"><i class="fa fa-tag tw-mr-1.5 tw-text-slate-500"></i>${actor.breaches.length} fuite(s) revendiquée(s)</div>
+            <div class="tw-space-y-2 tw-border-t tw-border-slate-900 tw-pt-3">
+              ${actor.breaches.sort((a, b) => new Date(b.BreachDate) - new Date(a.BreachDate)).map(breach => `
+                <div class="tw-flex tw-justify-between tw-items-center tw-text-sm tw-py-1">
+                  <a href="/fuites?id=${breach.index}" class="tw-text-sky-400 hover:tw-text-sky-300 tw-no-underline tw-truncate tw-mr-2">${breach.Title || breach.Name}</a>
+                  <span class="tw-text-xs tw-text-slate-500 tw-shrink-0">${new Date(breach.BreachDate).toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      });
+      listContainer.innerHTML = html;
+    }
+  });
