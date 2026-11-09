@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
-    "@vercel/speed-insights": "^2.0.0",
+    "@vercel/speed-insights": "^2.1.0",
     "axios": "^1.21.0",
     "chalk": "^6.0.1",
     "dotenv": "^18.0.9",
