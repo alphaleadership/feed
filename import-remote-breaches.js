@@ -7,144 +7,7 @@ const { tagIABreaches } = require('./scripts/tag-ia-auto');
 
 const DATE_FILE = path.join(process.cwd(), 'source', '_data', 'last_import_date.json');
 const bad=new Set(fs.readFileSync(path.join(process.cwd(), 'slugs-a-supprimer.txt'), 'utf8').split("\n").filter(slug => slug.trim() !== '').map(slug => slug.trim().replace(/\r/g, '')));
-const SOURCES = [
-    {
-        name: "Have I Been Pwned",
-        url: 'https://haveibeenpwned.com/api/v3/breaches',
-        selector: (data) => data,
-        mapper: (remote) => ({
-            Name: remote.Name,
-            Title: remote.Title,
-            Domain: remote.Domain,
-            BreachDate: remote.BreachDate,
-            PwnCount: remote.PwnCount,
-            Description: remote.Description,
-            DataClasses: remote.DataClasses,
-            IsSensitive: remote.IsSensitive,
-            IsVerified: remote.IsVerified,
-            IsFabricated: remote.IsFabricated,
-            IsSpam: remote.IsSpam,
-            IsRetired: remote.IsRetired,
-            IsNative: remote.IsNative,
-            LogoPath: remote.LogoPath,
-            source: "haveibeenpwned.com"
-        })
-    },
-    {
-        name: "XposedOrNot",
-        url: 'https://api.xposedornot.com/v1/breaches',
-        selector: (data) => data.exposedBreaches || [],
-        mapper: (remote) => ({
-            Name: remote.breachID,
-            Title: remote.breachID,
-            Domain: remote.domain || "",
-            BreachDate: remote.breachedDate ? remote.breachedDate.split('T')[0] : '1970-01-01',
-            PwnCount: remote.exposedRecords || 0,
-            Description: remote.exposureDescription || "",
-            DataClasses: remote.exposedData || [],
-            IsSensitive: remote.sensitive || false,
-            IsVerified: remote.verified || true,
-            IsFabricated: false, IsSpam: false, IsRetired: false, IsNative: true,
-            LogoPath: remote.logo || "",
-            source: "xposedornot.com"
-        })
-    },
-    {
-        name: "French Breaches",
-        url: 'https://frenchbreaches.com/feed.xml',
-        type: 'rss',
-        selector: (feed) => feed.items || [],
-        mapper: (remote) => ({
-            Name: remote.title,
-            Title: remote.title,
-            Domain: remote.link ? remote.link.replace(/https?:\/\/(www\.)?/, '').split('/')[0] : "",
-            BreachDate: remote.pubDate ? new Date(remote.pubDate).toISOString().split('T')[0] : '1970-01-01',
-            PwnCount: 0,
-            Description: remote.contentSnippet || remote.content || "",
-            DataClasses: remote.categories || [],
-            IsSensitive: false,
-            IsVerified: true, IsFabricated: false, IsSpam: false, IsRetired: false, IsNative: true,
-            LogoPath: "",
-            source: "frenchbreaches.com"
-        })
-    },
-    {
-        name: "DataBreaches.net",
-        url: "https://databreaches.net/feed/",
-        type: 'rss',
-        selector: (feed) => feed.items || [],
-        mapper: (remote) => ({
-            Name: remote.title,
-            Title: remote.title,
-            Domain: remote.link ? (() => { try { const h = new URL(remote.link).hostname; return h.startsWith('www.') ? h.slice(4) : h; } catch { return ''; } })() : "",
-            BreachDate: remote.pubDate ? new Date(remote.pubDate).toISOString().split('T')[0] : '1970-01-01',
-            PwnCount: 0,
-            Description: remote.contentSnippet || remote.content || "",
-            DataClasses: remote.categories || [],
-            IsSensitive: false,
-            IsVerified: true, IsFabricated: false, IsSpam: false, IsRetired: false, IsNative: true,
-            LogoPath: "",
-            source: "databreaches.net"
-        })
-    },
-    {
-        name: "Zataz",
-        url: "https://www.zataz.com/feed/",
-        type: 'rss',
-        selector: (feed) => feed.items || [],
-        mapper: (remote) => ({
-            Name: remote.title,
-            Title: remote.title,
-            Domain: remote.link ? (() => { try { const h = new URL(remote.link).hostname; return h.startsWith('www.') ? h.slice(4) : h; } catch { return ''; } })() : "",
-            BreachDate: remote.pubDate ? new Date(remote.pubDate).toISOString().split('T')[0] : '1970-01-01',
-            PwnCount: 0,
-            Description: remote.contentSnippet || remote.content || "",
-            DataClasses: remote.categories || [],
-            IsSensitive: false,
-            IsVerified: true, IsFabricated: false, IsSpam: false, IsRetired: false, IsNative: true,
-            LogoPath: "",
-            source: "zataz.com"
-        })
-    },
-    {
-        name: "Bing News FR - fuites de donnees",
-        url: "https://www.bing.com/news/search?q=fuite+de+donn%C3%A9es+piratage&format=rss&cc=fr&setlang=fr",
-        type: 'rss',
-        selector: (feed) => feed.items || [],
-        mapper: (remote) => ({
-            Name: remote.title,
-            Title: remote.title,
-            Domain: remote.link ? (() => { try { const h = new URL(remote.link).hostname; return h.startsWith('www.') ? h.slice(4) : h; } catch { return ''; } })() : "",
-            BreachDate: remote.pubDate ? new Date(remote.pubDate).toISOString().split('T')[0] : '1970-01-01',
-            PwnCount: 0,
-            Description: remote.contentSnippet || remote.content || "",
-            DataClasses: remote.categories || [],
-            IsSensitive: false,
-            IsVerified: true, IsFabricated: false, IsSpam: false, IsRetired: false, IsNative: true,
-            LogoPath: "",
-            source: "bing.com/news (fuite de données)"
-        })
-    },
-    {
-        name: "Bing News FR - ransomware",
-        url: "https://www.bing.com/news/search?q=ransomware+victime+France+cyberattaque&format=rss&cc=fr&setlang=fr",
-        type: 'rss',
-        selector: (feed) => feed.items || [],
-        mapper: (remote) => ({
-            Name: remote.title,
-            Title: remote.title,
-            Domain: remote.link ? (() => { try { const h = new URL(remote.link).hostname; return h.startsWith('www.') ? h.slice(4) : h; } catch { return ''; } })() : "",
-            BreachDate: remote.pubDate ? new Date(remote.pubDate).toISOString().split('T')[0] : '1970-01-01',
-            PwnCount: 0,
-            Description: remote.contentSnippet || remote.content || "",
-            DataClasses: remote.categories || [],
-            IsSensitive: false,
-            IsVerified: true, IsFabricated: false, IsSpam: false, IsRetired: false, IsNative: true,
-            LogoPath: "",
-            source: "bing.com/news (ransomware)"
-        })
-    }
-];
+const { SOURCES, normalizeSource } = require('./scripts/sources');
 
 // --- Utility Functions ---
 function readLastImportDate() {
@@ -307,6 +170,7 @@ async function runImport() {
     let totalAdded = 0;
 
     for (const source of SOURCES) {
+        if (source.enabled === false) { console.log(`--- Source désactivée, ignorée : ${source.name} ---`); continue; }
         console.log(`\n--- Importation depuis : ${source.name} ---`);
         try {
             let rawData;
