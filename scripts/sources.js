@@ -5,8 +5,25 @@
  * - normalizeSource(value) : normalise toute valeur de champ `source` vers un id canonique.
  */
 
+// Garde-fou : un titre d'article (URL, long, ou > 10 mots) n'est pas un nom de fuite.
+// On essaie d'extraire un nom court (avant ':' ou ' - '), sinon l'entrée est ignorée (Name vide).
+function shortName(title) {
+    const t = String(title || '').trim();
+    if (t.toLowerCase().indexOf('http') !== -1) return '';
+    if (t.length > 80) return '';
+    if (t.split(' ').filter(Boolean).length > 10) return '';
+    let cut = t;
+    for (const sep of [': ', ' - ', ' – ', ' — ']) {
+        const i = cut.indexOf(sep);
+        if (i !== -1) cut = cut.slice(0, i);
+    }
+    cut = cut.trim();
+    if (cut.length >= 3 && cut.length <= 60) return cut;
+    return t.length <= 60 ? t : '';
+}
+
 const rssMapper = (sourceId) => (remote) => ({
-    Name: remote.title,
+    Name: shortName(remote.title),
     Title: remote.title,
     Domain: (() => { try { const h = new URL(remote.link).hostname; return h.startsWith('www.') ? h.slice(4) : h; } catch { return ''; } })(),
     BreachDate: remote.pubDate ? new Date(remote.pubDate).toISOString().split('T')[0] : '1970-01-01',
