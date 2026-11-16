@@ -48,7 +48,7 @@
     "lowdb": "^7.0.1",
     "resend": "^6.38.0",
     "rss-parser": "^3.13.0",
-    "sanitize-html": "^2.18.1",
+    "sanitize-html": "^2.18.2",
     "sudoku": "^0.0.3"
   },
   "devDependencies": {
