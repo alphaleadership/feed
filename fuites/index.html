@@ -1,0 +1,515 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+<meta name="rustine-verify" content="187d98b9efbac8414b58f19952c95395"> 
+<script defer src="https://cloud.umami.is/script.js" data-website-id="3114a86e-6e66-4953-b19f-40491a63d444"></script>
+  <meta charset="utf-8">
+  
+  <title>Fuites De Données | veille</title>
+  <meta name="author" content="arbinger">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Fuites De Données"/>
+  <meta property="og:site_name" content="veille"/>
+
+  
+    <meta property="og:image" content=""/>
+  
+
+  
+    <link rel="alternative" href="/atom.xml" title="veille" type="application/atom+xml">
+  
+  <link rel="alternate" type="application/atom+xml" title="veille" href="https://feed-blush.vercel.app/atom.xml" />
+  
+    <link href="/favicon.png" rel="icon">
+  
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/themes/cerulean.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight-default.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/comment.css" media="screen" type="text/css">
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="/js/tailwind-config.js"></script>
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.7/es5-sham.min.js"></script>
+  <![endif]-->
+    <script src="/js/search.js"></script>
+  <script src="/js/jquery-4.0.0.min.js"></script>
+  <script src="/js/compat-jquery.js"></script>
+  
+  
+  <!-- analytics -->
+  
+
+
+
+<script type="application/json" id="site-config">{"url":"https://feed-blush.vercel.app","root":"/","searchPath":"search.xml"}</script>
+<!-- hexo injector head_end start --><script src="/func.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 8.1.2"></head>
+
+  <body class="bg-dark text-light">
+    <div style="height: 4px; background: #a3e635; box-shadow: 0 0 10px #a3e635; position: fixed; top: 0; left: 0; right: 0; z-index: 9999;"></div>
+    <nav id="main-nav" class="navbar navbar-dark bg-dark shadow-lg navbar-expand-lg navbar-fixed-top" role="navigation">
+  <div class="container">
+  
+    <a class="navbar-brand text-uppercase fw-bold" href="/">veille</a>
+    <div class=" navbar-collapse nav-menu">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        
+          <li class="nav-item">
+            <a href="/archives" title="All the articles." class="nav-link text-light text-uppercase fw-bold">
+              <i class="fa fa-archive fs-5 me-2"></i>Archives
+            </a>
+          </li>
+        
+          <li class="nav-item">
+            <a href="/category" title="Types de données fuitées" class="nav-link text-light text-uppercase fw-bold">
+              <i class="fa fa-database fs-5 me-2"></i>catégorie
+            </a>
+          </li>
+        
+          <li class="nav-item">
+            <a href="/glossaire" title="Niveaux de risque par type de données" class="nav-link text-light text-uppercase fw-bold">
+              <i class="fa fa-shield fs-5 me-2"></i>Glossaire
+            </a>
+          </li>
+        
+          <li class="nav-item">
+            <a href="/threat-actor" title="Groupes de hackers et pirates" class="nav-link text-light text-uppercase fw-bold">
+              <i class="fa fa-user-secret fs-5 me-2"></i>Pirates
+            </a>
+          </li>
+        
+          <li class="nav-item">
+            <a href="/stat" title="Analyse détaillée des fuites" class="nav-link text-light text-uppercase fw-bold">
+              <i class="fa fa-bar-chart fs-5 me-2"></i>Statistiques
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+    	<div class="quick-links card shadow-sm mb-4" style="background: linear-gradient(135deg, #161c36 0%, #0c1022 100%); border: none;">
+		<div class="card-body" style="padding: 1rem;">
+			<div class="d-flex justify-content-center gap-3 flex-wrap">
+				<a href="/archives/" class="btn btn-outline-primary btn-lg" style="border: 2px solid #a3e635; color: #a3e635; transition: all 0.3s;">
+					<i class="fa fa-archive me-2"></i>Archives complètes
+				</a>
+				<a href="/" class="btn btn-outline-success btn-lg" style="border: 2px solid #4ade80; color: #4ade80; transition: all 0.3s;">
+					<i class="fa fa-home me-2"></i>Accueil
+				</a>
+				<a href="/fuites/" class="btn btn-outline-warning btn-lg" style="border: 2px solid #fbbf24; color: #fbbf24; transition: all 0.3s;">
+					<i class="fa fa-list me-2"></i>Liste des fuites
+				</a>
+			</div>
+		</div>
+	</div>
+<div id="ecoindex-badge" data-theme="dark"></div>
+<script src="/js/ecoindex-badge.js" defer></script>
+    <div class="container">
+      <style>
+  :root {
+    --bg-main: #0c1022;
+    --bg-card: #161c36;
+    --border-color: #2a3358;
+    --text-primary: #eef2ff;
+    --text-secondary: #b6c2dd;
+    --accent: #a3e635;
+    --accent-hover: #bef264;
+    --danger-bg: #450a0a;
+    --danger-border: #991b1b;
+    --danger-text: #fecaca;
+  }
+
+  #fuites-container {
+    padding: 2em 0;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    color: var(--text-primary);
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .fuites-header {
+    margin-bottom: 2em;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 1em;
+  }
+
+  .fuites-header h1 {
+    font-size: 2em;
+    font-weight: 600;
+    margin: 0 0 0.5em 0;
+  }
+
+  .fuite-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5em;
+  }
+
+  .fuite-card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+
+  .fuite-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border-color: var(--accent);
+  }
+
+  .fuite-card a.title-link {
+    font-size: 1.25em;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--accent);
+    margin-bottom: 0.5em;
+    display: block;
+    word-break: break-word;
+  }
+
+  .fuite-card a.title-link:hover {
+    color: var(--accent-hover);
+  }
+
+  .fuite-card .date {
+    color: var(--text-secondary);
+    font-size: 0.9em;
+    margin-bottom: 1em;
+  }
+
+  .data-classes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin-top: auto;
+  }
+
+  .data-class {
+    background-color: rgba(56, 189, 248, 0.1);
+    color: var(--accent);
+    padding: 0.2em 0.6em;
+    border-radius: 12px;
+    font-size: 0.8em;
+    border: 1px solid rgba(56, 189, 248, 0.2);
+  }
+
+  .severity-badge {
+    display: inline-block;
+    padding: 0.3em 0.8em;
+    border-radius: 12px;
+    font-size: 0.75em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5em;
+  }
+
+  .severity-critique {
+    background-color: rgba(220, 38, 38, 0.2);
+    color: #fca5a5;
+    border: 1px solid rgba(220, 38, 38, 0.4);
+  }
+
+  .severity-eleve {
+    background-color: rgba(251, 191, 36, 0.2);
+    color: #fcd34d;
+    border: 1px solid rgba(251, 191, 36, 0.4);
+  }
+
+  .severity-modere {
+    background-color: rgba(59, 130, 246, 0.2);
+    color: #93c5fd;
+    border: 1px solid rgba(59, 130, 246, 0.4);
+  }
+
+  .severity-faible {
+    background-color: rgba(107, 114, 128, 0.2);
+    color: #d1d5db;
+    border: 1px solid rgba(107, 114, 128, 0.4);
+  }
+
+  .ia-badge {
+    display: inline-block;
+    padding: 0.3em 0.8em;
+    border-radius: 12px;
+    font-size: 0.75em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    background-color: rgba(139, 92, 246, 0.2);
+    color: #c4b5fd;
+    border: 1px solid rgba(139, 92, 246, 0.4);
+    margin-left: 0.5em;
+  }
+
+  .tag-badge {
+    display: inline-block;
+    padding: 0.3em 0.8em;
+    border-radius: 12px;
+    font-size: 0.75em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  .tag-ia {
+    background-color: rgba(139, 92, 246, 0.2);
+    color: #c4b5fd;
+    border: 1px solid rgba(139, 92, 246, 0.4);
+  }
+  .tag-santé {
+    background-color: rgba(16, 185, 129, 0.2);
+    color: #a7f3d0;
+    border: 1px solid rgba(16, 185, 129, 0.4);
+  }
+  .tag-gouvernement {
+    background-color: rgba(239, 68, 68, 0.2);
+    color: #fca5a5;
+    border: 1px solid rgba(239, 68, 68, 0.4);
+  }
+  .tag-éducation {
+    background-color: rgba(59, 130, 246, 0.2);
+    color: #93c5fd;
+    border: 1px solid rgba(59, 130, 246, 0.4);
+  }
+  .tag-finance {
+    background-color: rgba(245, 158, 11, 0.2);
+    color: #fde68a;
+    border: 1px solid rgba(245, 158, 11, 0.4);
+  }
+  .tag-télécom {
+    background-color: rgba(6, 182, 212, 0.2);
+    color: #a5f3fc;
+    border: 1px solid rgba(6, 182, 212, 0.4);
+  }
+
+  .nsfw-warning {
+    background-color: var(--danger-bg);
+    border: 1px solid var(--danger-border);
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+  }
+
+  .nsfw-warning h2, .nsfw-warning h3 {
+    margin: 0 0 10px 0;
+    color: var(--danger-text);
+    font-size: 1.1em;
+  }
+
+  .nsfw-warning p {
+    color: var(--danger-text);
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    opacity: 0.9;
+  }
+
+  .show-nsfw-link {
+    background-color: var(--danger-border);
+    color: #eef2ff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: 500;
+    transition: background-color 0.2s;
+  }
+
+  .show-nsfw-link:hover {
+    background-color: #b91c1c;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+
+  /* Details View */
+  .breach-details {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 2em;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+
+  .breach-header {
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 1.5em;
+    margin-bottom: 1.5em;
+  }
+
+  .breach-header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: var(--text-primary);
+  }
+
+  .breach-meta-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5em;
+    margin-top: 1.5em;
+    background: var(--bg-main);
+    padding: 1.5em;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+  }
+
+  .meta-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .meta-label {
+    font-weight: 600;
+    font-size: 0.85em;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5em;
+  }
+
+  .meta-value {
+    font-size: 1.1em;
+    color: var(--text-primary);
+  }
+
+  .meta-value a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  .meta-value a:hover {
+    color: var(--accent-hover);
+    text-decoration: underline;
+  }
+
+  .breach-content {
+    margin-top: 2em;
+  }
+
+  .breach-content h2 {
+    font-size: 1.5em;
+    color: var(--text-primary);
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.5em;
+  }
+
+  .breach-content .description {
+    line-height: 1.7;
+    color: var(--text-secondary);
+    font-size: 1.05em;
+  }
+
+  .nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+    padding-top: 2em;
+    border-top: 1px solid var(--border-color);
+  }
+
+  .nav-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.7em 1.2em;
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.2s;
+    font-weight: 500;
+  }
+
+  .nav-btn:hover {
+    background-color: var(--border-color);
+    color: #eef2ff;
+  }
+  
+  .nav-btn.primary {
+    background-color: rgba(56, 189, 248, 0.1);
+    color: var(--accent);
+    border-color: rgba(56, 189, 248, 0.2);
+  }
+  
+  .nav-btn.primary:hover {
+    background-color: var(--accent);
+    color: #0c1022;
+  }
+</style>
+
+
+<div id="fuites-container">
+  <h1>Chargement des données...</h1>
+</div>
+
+<script src="/js/fuites-page.js"></script>
+
+    </div>
+    <div class="container-narrow">
+      <footer> <p class="footer-legal-links" style="margin-bottom: 0.5rem; font-size: 0.9em;">
+  <a href="/mentions-legales/" style="color: #9aa7c7; text-decoration: none; margin-right: 15px;">Mentions légales</a>
+  <a href="/politique-de-confidentialite/" style="color: #9aa7c7; text-decoration: none;">Politique de confidentialité</a>
+</p>
+<p style="margin: 0; color: #8b96b8; font-size: 0.85em;">
+  &copy; 2024-2028 arbinger
+  
+</p> </footer>
+    </div> <!-- container-narrow -->
+    
+
+
+    
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/search.js"></script> 
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script src="/js/fancybox-init.js"></script>
+
+
+
+   <script src="/js/search-init.js"></script>
+
+
+<!-- syntax highlighting -->
+
+
+    <script src="/js/vercel-stubs.js"></script>
+    <script defer src="/_vercel/insights/script.js"></script>
+    
+    <script defer src="/_vercel/speed-insights/script.js"></script>
+  </body>
+</html>
